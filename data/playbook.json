@@ -1,0 +1,181 @@
+{
+  "name": "Kettlebell Body — Complete Sales Process",
+  "source_file": "KB_Sales_Process_Map (1) (1).pdf",
+  "drive_file_id": "1j2FWrsPhCYjvZ92yxu6KpR5mjt28l7pM",
+  "note": "Reconstructed from a two-column PDF process map. Phase numbering follows the document; phases 7-10 (presentation and close) are referenced by the map but not enumerated on the supplied pages, so scoring covers phases 1-6, the five objection plays, and phase 11.",
+  "phases": [
+    {
+      "id": "P1",
+      "name": "Open & Frame",
+      "intent": "Establish safety, set expectations.",
+      "weight": 10,
+      "checks": [
+        { "id": "P1a", "text": "Read back setter notes / application so they feel seen", "conditional": "only if setter pre-qualified" },
+        { "id": "P1b", "text": "Set the four-part frame: where you are, where you want to go, what's in the way, what you need" },
+        { "id": "P1c", "text": "Get frame agreement — 'Does that work?'" },
+        { "id": "P1d", "text": "Open question: 'What are you potentially looking for help with?'" }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Baseline",
+      "intent": "Gather facts, build the picture.",
+      "weight": 15,
+      "checks": [
+        { "id": "P2a", "text": "Age, height, current weight" },
+        { "id": "P2b", "text": "Work — and whether it's desk-bound or on their feet" },
+        { "id": "P2c", "text": "Health conditions, own or hereditary" },
+        { "id": "P2d", "text": "Injuries, chronic pain, movement limitations — and how long" },
+        { "id": "P2e", "text": "Typical training week and actual days trained" },
+        { "id": "P2f", "text": "Results seen from current training" },
+        { "id": "P2g", "text": "Current diet / whether following anything" },
+        { "id": "P2h", "text": "Sleep — quantity and quality" },
+        { "id": "P2i", "text": "Energy through the day" }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Goals — Surface to Deep",
+      "intent": "Move from what to WHY. This is where the real buying decision is made.",
+      "weight": 20,
+      "checks": [
+        { "id": "P3a", "text": "Aesthetics & function: what would you change, one thing" },
+        { "id": "P3b", "text": "Mobility, strength, energy — or something else" },
+        { "id": "P3c", "text": "Something physical you want to do but can't right now" },
+        { "id": "P3d", "text": "Bridge: 'Outside of the physical, what's actually driving this right now?'" },
+        { "id": "P3e", "text": "'When you're moving better, what does that actually do for you?'" },
+        { "id": "P3f", "text": "'Who else does that impact?'" },
+        { "id": "P3g", "text": "Drive through to kids, marriage, legacy, identity or longevity" },
+        { "id": "P3h", "text": "Reflect back: 'So this isn't really about the weight — it's about X. Is that right?'" }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Past Attempts & Root Cause",
+      "intent": "Problem isn't effort — it's structure.",
+      "weight": 15,
+      "checks": [
+        { "id": "P4a", "text": "What have you tried before?" },
+        { "id": "P4b", "text": "What happened with that?" },
+        { "id": "P4c", "text": "Why do you feel it didn't stick?" },
+        { "id": "P4d", "text": "What's the one thing actually getting in the way?" },
+        { "id": "P4e", "text": "Let them name the gap: no structure, no progression, no accountability, wrong knowledge, inconsistency" },
+        { "id": "P4f", "text": "'The information isn't the problem. Why can't you stick to it on your own?'" }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Consequence Frame",
+      "intent": "Make the cost of inaction real.",
+      "weight": 20,
+      "checks": [
+        { "id": "P5a", "text": "'If nothing changes — what does life look like over the next two years?'" },
+        { "id": "P5b", "text": "'Is that something you're willing to settle for?'" },
+        { "id": "P5c", "text": "'Why not?'" },
+        { "id": "P5d", "text": "'Are you ready to draw a line in the sand on this?'" }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Commitment Check",
+      "intent": "Get a genuine verbal yes BEFORE presenting anything.",
+      "weight": 20,
+      "checks": [
+        { "id": "P6a", "text": "'Do you believe you can actually get there with the right structure and the right person in your corner?'" },
+        { "id": "P6b", "text": "'If you had everything you needed — is there any reason you wouldn't go all in on this?'" },
+        { "id": "P6c", "text": "Only move forward once you have a clear YES; if hesitation surfaces, return to Phase 5" }
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "Payment & Onboarding",
+      "intent": "Complete every step before you hang up.",
+      "weight": 20,
+      "applies_when": "close_attempted",
+      "checks": [
+        { "id": "P11a", "text": "Step 1 — Collect payment" },
+        { "id": "P11b", "text": "Step 2 — Schedule the onboarding call with Trevor" },
+        { "id": "P11c", "text": "Step 3 — Confirm the agreement email arrived and have them sign it ON the call" },
+        { "id": "P11d", "text": "Step 4 — Tell them to read the welcome email, click the Skool link to join the community, and complete the onboarding questionnaire before the Trevor call" }
+      ]
+    }
+  ],
+  "objection_plays": [
+    {
+      "id": "OA",
+      "trigger": "I need to think about it",
+      "key_moves": [
+        "Do you feel what we've gone through CAN get you to [goal]?",
+        "What makes you feel it can?",
+        "So what's actually coming up that's preventing you from getting started?",
+        "Thinking isn't the problem. Deciding is.",
+        "The way you've been approaching this brought you here — when do you make a different decision?",
+        "That man you want to be — how does HE decide right now?",
+        "Are you sure? Nothing else keeping you from being 100% in?"
+      ]
+    },
+    {
+      "id": "OB",
+      "trigger": "I need to talk to my wife",
+      "key_moves": [
+        "Money aside — do you personally feel this CAN get you to [goal]?",
+        "When you talk to her, what obstacles might come up?",
+        "Is there any reason she would NOT want you stronger and less in pain?",
+        "Is this genuinely needing her input — or asking permission to bet on yourself?",
+        "This isn't a joint decision like buying a house. Is that responsibility hers or yours?",
+        "If stuck: put down a deposit, go talk to her, full refund if she says no"
+      ]
+    },
+    {
+      "id": "OC",
+      "trigger": "Money",
+      "name": "Money — Open Wallet",
+      "key_moves": [
+        "ISOLATE FIRST: 'Finances aside — nothing else keeping you from 100%?'",
+        "'You're not in a SHOULD I place, you're in a HOW place'",
+        "'Most clients pay upfront, but for some we break it up. Want to explore making it work?'",
+        "'Are you comfortable having an open, honest conversation about exactly where you're at financially?'",
+        "FINANCIAL PICTURE: cash on hand",
+        "FINANCIAL PICTURE: what's left over each month after bills",
+        "FINANCIAL PICTURE: how many credit cards",
+        "FINANCIAL PICTURE: available credit total per card",
+        "FINANCIAL PICTURE: used vs available",
+        "FINANCIAL PICTURE: crypto, stocks, investments"
+      ]
+    },
+    {
+      "id": "OD",
+      "trigger": "Not the right time",
+      "key_moves": [
+        "Are you ever going to have another Thanksgiving? Another busy season?",
+        "Things never slow down. When does it actually become the right time?",
+        "The longer you wait the harder this gets — metabolism slows, injuries compound",
+        "What if all you had to do was show up and everything else was handled?",
+        "The only thing you can control is right now",
+        "So what's actually coming up that's preventing you from getting started?"
+      ]
+    },
+    {
+      "id": "OE",
+      "trigger": "Fear / doubt",
+      "key_moves": [
+        "Would it be fair to say you're looking for certainty?",
+        "Do we run toward pleasure or away from pain — which is driving you?",
+        "BRIDGE: I'm not asking you to see the whole other side, just take the first step",
+        "PLANE: fear of the flight doesn't mean you never reach the destination",
+        "BURNED BEFORE: if you got hurt in a relationship once, do you never trust again?",
+        "But how will you know if you never actually try?"
+      ]
+    }
+  ],
+  "known_gaps_in_script": [
+    {
+      "gap": "No play for a clinical / medical-fit objection",
+      "detail": "When a prospect's physio or surgeon rules out the core kettlebell movement library, there is no scripted path. The rep is left improvising a partial-value reframe. Seen in the Tyron Giuliani call."
+    },
+    {
+      "gap": "No play for 'a cheaper alternative already worked for me'",
+      "detail": "Objection C assumes the blocker is capacity to pay, not perceived value against a functioning low-cost substitute. Seen in the Badrane Hriouch call, where the anchor was a $29/mo coach."
+    }
+  ]
+}

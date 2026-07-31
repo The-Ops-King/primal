@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-07-23_robyn-stillwater_andrew-musial",
+  "source": {
+    "drive_file_id": "1QRuOSGtVJfCI0b4EwniYCd5RTqAP1at0",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/23/2026 - Robyn Stillwater x  Andrew Musial",
+    "display_title": "07/23/2026 - Robyn Stillwater x  Andrew Musial — Closed",
+    "file_size_bytes": 41325
+  },
+  "call": {
+    "date": "2026-07-23",
+    "stage": "closer",
+    "sequence_position": 1,
+    "duration_min_est": 47,
+    "prospect_named_in_title": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": { "code": null, "name": null, "confidence": "n/a", "evidence": "No setter code in title. Referral came via her partner Tyler, an existing client." },
+  "prospect": {
+    "name": "Robyn Stillwater",
+    "name_source": "title",
+    "location": "Emigration Canyon / Salt Lake City, Utah, USA",
+    "age": null,
+    "occupation": "Not currently working",
+    "family_status": "Partnered with Tyler (existing Primal client); planning pregnancy from August 2026",
+    "height_in": 65,
+    "weight_lb": 144,
+    "training_background": "Bodyweight work, reverse treadmill for knees. Mirroring partner's program. Not structured.",
+    "kettlebell_experience": "none"
+  },
+  "avatar": {
+    "assigned": "the_warm_referral",
+    "confidence": 0.95,
+    "signals": [
+      "Partner Tyler already enrolled and visibly progressing — social proof arrived pre-call",
+      "Price was pre-framed by the partner before the call ever happened",
+      "Zero price objection raised at any point",
+      "Explicitly wants her own individualized journey, not a copy of her partner's",
+      "Closed same-call, live on the payment link"
+    ]
+  },
+  "goals": [
+    { "text": "More stability and balance, to carry into old age", "category": "longevity_function" },
+    { "text": "Rebuild confidence in a previously dislocated shoulder", "category": "injury_confidence" },
+    { "text": "Be fit through pregnancy and strong postpartum", "category": "pregnancy_prep" },
+    { "text": "Become a better dancer — jazz, somatic, swing, tango", "category": "hobby_performance" },
+    { "text": "Do more hiking and backpacking", "category": "hobby_performance" },
+    { "text": "Have physical confidence spread to other parts of life", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Scoliosis (13 degrees) causing lower back and sciatic strain", "category": "injury", "severity": "high" },
+    { "text": "Left shoulder dislocated 5 years ago, undiagnosed for a period; 18-month recovery", "category": "injury", "severity": "high" },
+    { "text": "Tendonitis in both knees since age 18; ongoing strength issues", "category": "injury", "severity": "medium" },
+    { "text": "History of depression driving a sedentary period", "category": "mental_health", "severity": "medium" },
+    { "text": "Late-night eating rooted in childhood safety patterns; disrupts sleep", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Night owl; struggles to sleep before midnight", "category": "sleep", "severity": "medium" },
+    { "text": "Gyms are overwhelming — 'I turn around and walk out'", "category": "training_barrier", "severity": "high" },
+    { "text": "Doesn't know if she's performing movements correctly; fears self-injury", "category": "competence_anxiety", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "life_event_conflict",
+      "raw_quote": "Tyler and I are planning on trying to get pregnant soon. And so I realized that that is going to affect the program.",
+      "timestamp": "00:33:37",
+      "rep_response": "We are in a perfect place — coming in strong and healthy makes postpartum recovery far easier. Also confirmed the subscription can be paused for pregnancy or injury.",
+      "response_tactic": "reframe_plus_flexibility_guarantee",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "tiers": [{ "months": 6, "price_usd": 6000 }],
+    "payment_plan_offered": false,
+    "payment_plan_needed": false,
+    "guarantee_mentioned": "Six months, full transformation guarantee; program can be paused for pregnancy or injury"
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.98,
+    "evidence": [
+      "Payment link sent in Zoom chat during the call",
+      "Prospect: 'Looks like it just went through' — rep confirms: 'Yes, yes, that went through'",
+      "Onboarding call with Trevor booked live for Monday 11:15 MT",
+      "WhatsApp numbers exchanged; onboarding form and agreement promised"
+    ],
+    "cash_collected_usd": 6000,
+    "next_step": "Onboarding call with Trevor, Monday 11:15 MT"
+  },
+  "notable": {
+    "zero_price_objection": true,
+    "note": "The only call of the five where price was never contested. The partner had already covered the investment before the call. Objection handling was spent entirely on a life-event concern, not money."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Speaker labels swap on short turns throughout; one long run around 00:03:51-00:05:00 is attributed almost entirely to the wrong speaker. Long-form content is attributable by voice/context."
+  }
+}

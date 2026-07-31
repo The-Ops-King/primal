@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-05-14_tristian-clunis_farooq-bey",
+  "source": {
+    "drive_file_id": "1H2rnT1PMyGVGzAtNlz_g84tRnyAcCkov",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/14/2026 - Tristian Clunis & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/14/2026 - Tristian Clunis & Farooq Bey KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 46107
+  },
+  "call": {
+    "date": "2026-05-14",
+    "stage": "closer",
+    "sequence_position": 1,
+    "duration_min_est": 37,
+    "prospect_named_in_title": true
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellin, Colombia (from London, UK)" },
+  "setter": { "code": "KFS", "name": "Kim Forbes-Sobers", "confidence": "high", "evidence": "I was talking to your, I guess, a gentleman, Kim" },
+  "prospect": {
+    "name": "Tristian Clunis",
+    "name_source": "title",
+    "location": "Toronto, Canada",
+    "age": 40,
+    "occupation": "Realtor (also does sales)",
+    "family_status": "Married 16 years, one young son, wants more kids",
+    "training_background": "Bodybuilding / bro split, did 75 Hard. Trains 5-6x/week, walks 45-60 min daily.",
+    "bodyfat_pct_self_reported": 18,
+    "kettlebell_experience": "none"
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.93,
+    "signals": [
+      "Already fit and disciplined; wants good → great, not rescue",
+      "Turning 40 triggered a longevity/functionality reframe",
+      "Has business coaches and mentors already; understands and values paid coaching",
+      "Frames fitness as a ripple effect into business, fatherhood, marriage",
+      "Explicitly not price-skeptical: 'I'm actually more interested in it because of the fact that it costs six grand'"
+    ]
+  },
+  "goals": [
+    { "text": "Drop from 18% to 12% body fat and hold it consistently", "category": "fat_loss" },
+    { "text": "Gain size while staying functional", "category": "muscle_gain" },
+    { "text": "Be able to play with his kid indefinitely; longevity", "category": "longevity_family" },
+    { "text": "Improve mobility and athleticism, not just aesthetics", "category": "mobility" },
+    { "text": "Escape the bulk/cut cycle", "category": "sustainability" },
+    { "text": "Inspire his wife to re-engage with her own fitness", "category": "relationship" }
+  ],
+  "pains": [
+    { "text": "Fell off after peak condition; cannot sustain results", "category": "consistency", "severity": "high" },
+    { "text": "Training is aesthetics-focused, not functional", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Body no longer responds the same at 40; slower injury recovery", "category": "aging", "severity": "medium" },
+    { "text": "Fitness apps don't align nutrition + mobility + training", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Has never had accountability for fitness the way he does in business", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I'm prepping to sell this house, there's different things that I'm doing right now... for me to make this investment right now, it might not be the right time",
+      "timestamp": "00:34:17",
+      "rep_response": "Let me go back to the team. Maybe there's something that we can help you out with. Are you open to popping another call tomorrow?",
+      "response_tactic": "defer_to_team",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "So I'll be honest, the investment is an investment... can you make that investment right now? That's the question",
+      "timestamp": "00:33:00",
+      "rep_response": "My intention is to never take food off people's tables. If there's a way we can structure this that works with your finances, are you open to exploring that?",
+      "response_tactic": "payment_plan_probe",
+      "resolved": false,
+      "note": "Prospect said yes to exploring, but the rep ran out of time and deferred instead of structuring it live."
+    },
+    {
+      "type": "program_longevity_proof",
+      "raw_quote": "do you find that people stay with the program? Or is it just kind of like a, they tried out for a year or so",
+      "timestamp": "00:24:55",
+      "rep_response": "We have a philosophy of teaching you how to fish, as opposed to giving you the fish. Once you're done, you're done.",
+      "response_tactic": "philosophy_reframe",
+      "resolved": true
+    },
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "I've never done kettlebells like this. And so this is kind of like more trusting the system",
+      "timestamp": "00:13:58",
+      "rep_response": "Shared own story: healed ACL/MCL injuries via Trevor's program, now only does kettlebells and Muay Thai",
+      "response_tactic": "personal_proof",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "guarantee_mentioned": "If you don't hit the goals set with Trevor in 6 months, we work with you for free until you do"
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "evidence": [
+      "Rep: 'Are you open to popping another call tomorrow?' — prospect: 'Yeah'",
+      "Time confirmed for ~6 o'clock next day",
+      "No payment taken, no link sent",
+      "Prospect repeatedly affirms belief in the program; blocker is timing of cash, not conviction"
+    ],
+    "cash_collected_usd": 0,
+    "next_step": "Follow-up call booked for 2026-05-15, ~18:00"
+  },
+  "notable": {
+    "rep_ran_out_of_time": true,
+    "note": "Rep had to leave for his next call at the exact moment the prospect opened the door to payment structuring. High-intent prospect lost to a calendar collision, not to an objection."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent short-turn swaps, especially in rapport sections. All quoted objections verified against surrounding context."
+  }
+}

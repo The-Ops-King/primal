@@ -1,0 +1,116 @@
+/* ============================================================
+   PRIMAL INSTINCT — BRAND TOKENS
+   Extracted from primalinstinctcoaching.com on 2026-07-31 via
+   computed-style audit of the live page. Source values are noted
+   inline; everything else is a derived scale built to match.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* ---- Core brand (measured from the live site) ---- */
+  --pi-cyan:        #1ABBD7;   /* rgb(26,187,215) — primary CTA fill */
+  --pi-black:       #000000;   /* page ground */
+  --pi-offblack:    #1B1B1B;   /* rgb(27,27,27) — raised panel */
+  --pi-white:       #FFFFFF;
+  --pi-paper:       #F0F6EF;   /* rgb(240,246,239) — pale warm-green text */
+  --pi-mist:        #E6ECF0;   /* rgb(230,236,240) — pale blue-grey text */
+
+  /* ---- Derived cyan scale ---- */
+  --pi-cyan-700:    #0E7F94;
+  --pi-cyan-600:    #1499B0;
+  --pi-cyan-400:    #46CBE2;
+  --pi-cyan-200:    #A6E6F1;
+  --pi-cyan-glow:   rgba(26,187,215,.14);
+
+  /* ---- Semantic (chosen to sit beside cyan without muddying it) ---- */
+  --pi-win:         #3ECF8E;
+  --pi-warn:        #F5A623;
+  --pi-loss:        #FF5C5C;
+
+  /* ---- Applied surface tokens (dark is the brand default) ---- */
+  --bg:      var(--pi-black);
+  --panel:   #101012;
+  --panel-2: var(--pi-offblack);
+  --ink:     var(--pi-white);
+  --muted:   #9BA3A8;
+  --line:    #262a2d;
+  --chip:    #16181a;
+  --accent:  var(--pi-cyan);
+  --won:     var(--pi-win);
+  --warn:    var(--pi-warn);
+  --lost:    var(--pi-loss);
+
+  /* ---- Type ---- */
+  --font-display: 'Anton', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  --font-body:    'Montserrat', ui-sans-serif, -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --font-mono:    ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Anton is a single-weight (400) condensed display face. Never bold it —
+     synthetic bolding destroys the letterforms. Use size and colour for
+     hierarchy instead. Always pair with generous letter-spacing when caps. */
+  --display-tracking: .01em;
+  --eyebrow-tracking: .16em;
+
+  /* ---- Shape & depth ---- */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+  --shadow: 0 1px 2px rgba(0,0,0,.5), 0 8px 24px rgba(0,0,0,.35);
+
+  /* ---- Spacing scale ---- */
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
+}
+
+/* Light mode is a secondary surface, not the brand's native look.
+   The cyan darkens so it keeps AA contrast on white. */
+:root[data-theme="light"] {
+  --bg:      #FAFBFB;
+  --panel:   var(--pi-white);
+  --panel-2: #F3F6F7;
+  --ink:     #0B0E10;
+  --muted:   #5A6469;
+  --line:    #E1E7EA;
+  --chip:    #EFF4F6;
+  --accent:  var(--pi-cyan-700);
+  --won:     #178B5E;
+  --warn:    #A66A00;
+  --lost:    #C93A3A;
+}
+
+/* ---- Primitives ---- */
+.pi-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: var(--display-tracking);
+  line-height: 1.04;
+  text-transform: uppercase;
+}
+.pi-eyebrow {
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--eyebrow-tracking);
+  color: var(--accent);
+}
+.pi-btn {
+  display: inline-block;
+  background: var(--pi-cyan);
+  color: var(--pi-white);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 24px;      /* measured from the live CTA */
+  border-radius: 8px;      /* measured from the live CTA */
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pi-btn:hover { background: var(--pi-cyan-600); }
+.pi-rule {
+  height: 3px; width: 56px; background: var(--pi-cyan);
+  border: 0; border-radius: var(--r-pill); margin: 0 0 var(--s4);
+}

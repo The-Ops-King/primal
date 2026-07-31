@@ -1,0 +1,141 @@
+{
+  "scored_against": "Kettlebell Body — Complete Sales Process",
+  "scoring": {
+    "values": { "hit": 1, "partial": 0.5, "miss": 0 },
+    "method": "Each phase scores the mean of its checks, weighted by the phase weight in playbook.json. Phases marked not_applicable are dropped from the denominator, so a rep is never penalised for a phase the call could not reach.",
+    "caveat": "Scored by reading role from transcript content, not from speaker labels — Fathom diarization is unreliable in all five calls. A check is only marked hit when the rep demonstrably ran the move."
+  },
+  "calls": [
+    {
+      "call_id": "2026-07-30_francisco-vega_richard-claessen",
+      "rep": "Richard Claessen",
+      "disposition": "closed",
+      "phases": {
+        "P1": { "score": "partial", "checks": { "P1a": "miss", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+                "evidence": "Set a fit-or-refer frame — 'if we really fit in there, let's get you started. If not, point you in the best direction. Sounds good?' — and got agreement. Not the scripted four-part frame. Referenced the application but did not read notes back." },
+        "P2": { "score": "hit", "checks": { "P2a": "hit", "P2b": "miss", "P2c": "hit", "P2d": "hit", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "partial" },
+                "evidence": "Weight 228, age 47, height 5'10\". Thyroid treatment and prior knee surgery captured. Full day-of-eating walkthrough. Missed occupation, sleep entirely, and results-from-current-training." },
+        "P3": { "score": "hit", "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "partial" },
+                "evidence": "Drove from weight loss through endurance to playing competitive basketball, then to confidence, then to modelling follow-through for his 15-year-old daughter. Hit the family/identity layer the script demands. Did not do a clean 'so this isn't really about the weight' reflect-back." },
+        "P4": { "score": "hit", "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+                "evidence": "'What do you feel is stopping you from committing to something completely?' → 'not finding the right training, and motivating myself.' Then challenged it: 'Do you think trying to motivate yourself is always going to help you stick to something?'" },
+        "P5": { "score": "hit", "checks": { "P5a": "hit", "P5b": "hit", "P5c": "partial", "P5d": "hit" },
+                "evidence": "Textbook. 'Six months from now, 12 months from now, you're still in the same position... do you feel like that's something you can settle for?' → 'No. I can't settle for that. That's just not what I want.' The only full consequence frame in the pilot." },
+        "P6": { "score": "hit", "checks": { "P6a": "hit", "P6b": "hit", "P6c": "hit" },
+                "evidence": "Ran the commitment gate twice before price — 'is there anything that would stop you from being able to 100% commit?' → 'No, not that I can think of.' Then again after the pillars. Only presented the 6K after a clear yes." },
+        "P11": { "score": "partial", "checks": { "P11a": "partial", "P11b": "hit", "P11c": "miss", "P11d": "miss" },
+                 "evidence": "Payment link sent but the call cuts to voicemail before confirmation. Trevor call set for Monday 4:15pm ET. No agreement signed on the call. No welcome email, Skool link or onboarding questionnaire instruction." }
+      },
+      "objection_plays": [
+        { "play": "OC", "trigger_present": true, "ran": "partial",
+          "detail": "Isolated correctly ('outside of the investment, ready to draw a line in the sand?'), then ran the financial picture: cash on hand $1,500, monthly leftover $800, savings yes, credit score 650. Missed the credit-card depth the script calls for — number of cards, available credit per card, used vs available — and never asked about crypto, stocks or investments. Still structured $1,200 x 6 live and got a yes." }
+      ],
+      "notes": "Highest adherence in the pilot and the most complete objection handling. Also the call the script's own phase 11 failed hardest — steps 3 and 4 never happened, which is exactly why the close cannot be confirmed."
+    },
+    {
+      "call_id": "2026-07-23_robyn-stillwater_andrew-musial",
+      "rep": "Andrew Musial",
+      "disposition": "closed",
+      "phases": {
+        "P1": { "score": "partial", "checks": { "P1a": "miss", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+                "evidence": "Warm, rapport-led open — 'what got you interested in doing this too?' No four-part frame, no frame agreement, no notes read back." },
+        "P2": { "score": "hit", "checks": { "P2a": "partial", "P2b": "hit", "P2c": "hit", "P2d": "hit", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "hit", "P2i": "partial" },
+                "evidence": "The most complete baseline in the pilot. Height 5'5\", weight 144, work status, scoliosis, shoulder dislocation, knee tendonitis, depression history, full nutrition and intermittent-fasting detail, extended sleep discussion. Never asked age." },
+        "P3": { "score": "hit", "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "partial", "P3g": "hit", "P3h": "hit" },
+                "evidence": "'If you could change one thing about how you feel or move?' → stability and balance → 'spread to other parts of my life' → probed that → confidence → dancing, hiking, pregnancy, old age. Clean reflect-back: 'this goes much further than only losing extra pounds.'" },
+        "P4": { "score": "miss", "checks": { "P4a": "partial", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+                "evidence": "The prospect volunteered the root cause unprompted — 'whenever I've gone and done any other programs, I don't even know if I'm doing this right.' The rep never asked what she had tried, what happened, or why it didn't stick. Phase effectively skipped." },
+        "P5": { "score": "miss", "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+                "evidence": "No consequence frame at any point. Cost of inaction never made real." },
+        "P6": { "score": "hit", "checks": { "P6a": "hit", "P6b": "partial", "P6c": "hit" },
+                "evidence": "'If you had everything that you needed, do you feel genuinely that you're going to get to your goals?' → 'Yes.' → 'No hesitation.' Clean verbal yes before presenting." },
+        "P11": { "score": "partial", "checks": { "P11a": "hit", "P11b": "hit", "P11c": "partial", "P11d": "partial" },
+                 "evidence": "Payment confirmed live — 'that went through.' Trevor call booked Monday 11:15 MT. Agreement was promised for later by email rather than signed on the call. Onboarding form mentioned as a follow-up; no Skool link or welcome-email instruction given." }
+      },
+      "objection_plays": [
+        { "play": "none", "trigger_present": false,
+          "detail": "No money, timing, spouse, think-about-it or fear objection was ever raised. The only concern was a pregnancy plan, handled with a reframe plus the pause guarantee. This is what a pre-framed warm referral looks like." }
+      ],
+      "notes": "Closed on the strength of discovery and a warm referral despite skipping phases 4 and 5 entirely. Demonstrates that a pre-sold prospect masks script gaps — which is exactly why close rate alone is a poor coaching signal."
+    },
+    {
+      "call_id": "2026-05-14_tristian-clunis_farooq-bey",
+      "rep": "Farooq Bey",
+      "disposition": "follow_up",
+      "phases": {
+        "P1": { "score": "partial", "checks": { "P1a": "miss", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+                "evidence": "'Where are you today? Where do you want to be? If we can help, I can show you the options.' Three-part rather than four-part, but framed and agreed. Setter Kim's notes not read back despite a pre-qualified handoff." },
+        "P2": { "score": "miss", "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "partial", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+                "evidence": "The weakest baseline in the pilot. Never asked height, weight, injuries, health conditions, diet, sleep or energy. Age 40 and 18% body fat were volunteered, not asked. For an offer whose first pillar is injury-aware programming, not asking about injuries is a structural miss." },
+        "P3": { "score": "hit", "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "hit" },
+                "evidence": "Excellent. Drove to potential, then ripple effect into business, fatherhood, leadership and marriage. Reflect-back landed: 'This is more than just swinging a few kettlebells around, isn't it?'" },
+        "P4": { "score": "partial", "checks": { "P4a": "partial", "P4b": "miss", "P4c": "partial", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+                "evidence": "'What do you feel like has stopped you from already being there?' → named the gap himself: has coaches in business, never for fitness. Rep did not probe what he'd tried or why it failed." },
+        "P5": { "score": "miss", "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+                "evidence": "No consequence frame. Used a past-facing variant instead — 'if your 35-year-old self had this, where would you be today?' — which builds desire but never makes inaction cost anything." },
+        "P6": { "score": "partial", "checks": { "P6a": "hit", "P6b": "miss", "P6c": "partial" },
+                "evidence": "'Do you actually feel like we can help you get to your goals?' → 'Yeah, I do.' Got belief, but never ran the 'any reason you wouldn't go all in' gate that surfaces hidden blockers before price." },
+        "P11": { "score": "not_applicable", "evidence": "No close reached." }
+      },
+      "objection_plays": [
+        { "play": "OC", "trigger_present": true, "ran": "partial",
+          "detail": "Opened the door correctly — 'my intention is to never take food off people's tables. If there's a way we can structure this, are you open to exploring that?' → got a YES. Then never ran the financial picture. Not one question about cash on hand, monthly surplus, credit or assets. The play was started and abandoned." },
+        { "play": "OD", "trigger_present": true, "ran": "miss",
+          "detail": "The prospect said it almost verbatim: 'it might not be the right time for me personally.' That is the exact Objection D trigger, and the script supplies six responses for it — 'things never slow down', 'when does it actually become the right time?', 'the longer you wait the harder this becomes'. The rep ran none of them. He said 'let me go back to the team' and booked tomorrow." }
+      ],
+      "notes": "The most expensive miss in the pilot. A high-intent prospect who explicitly said the price made him MORE interested, met two scripted objections back to back, and neither play was run. The rep also hit a hard calendar stop mid-objection."
+    },
+    {
+      "call_id": "2026-06-09_badrane-hriouch_harry-edmonds",
+      "rep": "Harry Edmonds",
+      "disposition": "lost",
+      "phases": {
+        "P1": { "score": "miss", "checks": { "P1a": "partial", "P1b": "miss", "P1c": "miss", "P1d": "partial" },
+                "evidence": "Referenced the setter — 'I know you spoke with Kyla, she told me you're straight to the point' — but set no frame and got no agreement. Opened with 'what do you feel like I need to know about you?'" },
+        "P2": { "score": "miss", "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "miss", "P2g": "partial", "P2h": "miss", "P2i": "partial" },
+                "evidence": "Injuries covered well — wrists, neck, elbow, shoulder, knee, ankle. Almost nothing else. No age, no height, no sleep, no structured training week, no results." },
+        "P3": { "score": "miss", "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+                "evidence": "Stayed entirely on the surface — mobility, strength, muscle, 5 lb. Never asked what was driving it, what it would change, or who else it impacts. Never reached kids, marriage, legacy, identity or longevity. The phase the playbook calls 'where the real buying decision is made' was skipped." },
+        "P4": { "score": "partial", "checks": { "P4a": "hit", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "hit" },
+                "evidence": "'Why do you want to get a coach? Why don't you just figure it out?' surfaced the $29/mo coach history — genuinely useful — but the rep never converted it into a structural gap." },
+        "P5": { "score": "miss", "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+                "evidence": "No consequence frame." },
+        "P6": { "score": "miss", "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+                "evidence": "No commitment check of any kind. Price was presented at roughly ten minutes in with no verbal yes secured — the exact sequencing the playbook forbids." },
+        "P11": { "score": "not_applicable", "evidence": "No close reached." }
+      },
+      "objection_plays": [
+        { "play": "OC", "trigger_present": true, "ran": "miss",
+          "detail": "The money objection landed and no part of the play ran. No isolate, no 'should I vs how' reframe, no offer to structure it, no financial picture. Instead the rep ran a takeaway — 'go back to her' — twice. A takeaway is not in the script." },
+        { "play": "none", "trigger_present": true,
+          "detail": "The prospect's real objection was a cheaper substitute that had genuinely worked for him ($29/mo, 18 months, fixed his knee). The script has no play for this. See known_gaps_in_script in playbook.json." }
+      ],
+      "notes": "Lowest adherence and the only outright loss. Phases 3, 5 and 6 were skipped wholesale, meaning price was quoted to a prospect who had never been walked past surface-level goals. Whether this prospect was ever a fit is a separate question — but the script was not run."
+    },
+    {
+      "call_id": "2026-07-18_tyron-giuliani_michael-brideau",
+      "rep": "Michael Brideau",
+      "disposition": "follow_up",
+      "phases": {
+        "P1": { "score": "partial", "checks": { "P1a": "hit", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "hit" },
+                "evidence": "Second call in a sequence, so the frame belongs to call one. Did open by reading back where they left off and checking what stood out — the right move for a continuation." },
+        "P2": { "score": "not_applicable", "evidence": "Baseline was gathered on call one, which is a separate transcript not in this pilot." },
+        "P3": { "score": "partial", "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+                "evidence": "Re-asked the goal — 'walk me through the goal, paint me the picture one more time' — but took the surface answer (lose weight, mobility, core strength, avoid falls) and did not drive to the deeper why. On a call where the prospect had just been emotionally deflated by his physio, the deeper why was the available lever and it was not pulled." },
+        "P4": { "score": "not_applicable", "evidence": "Covered on call one." },
+        "P5": { "score": "miss", "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+                "evidence": "No consequence frame — notable because the prospect's own clinical trajectory (arthritis, possible surgery, 30 years of compensation) is the strongest consequence case in the pilot and went entirely unused." },
+        "P6": { "score": "miss", "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+                "evidence": "No commitment check. Call ended on an open-ended document handoff." },
+        "P11": { "score": "not_applicable", "evidence": "No close attempted." }
+      },
+      "objection_plays": [
+        { "play": "OE", "trigger_present": true, "ran": "partial",
+          "detail": "Fear of harm was present — 'they're not sure if me swinging around is the best idea.' The rep used a partial-value reframe and a good path-to-yes question ('what would be the route to getting you back to swinging stuff around?'), but ran none of the scripted OE moves: no certainty question, no bridge, no plane, no burned-before." },
+        { "play": "none", "trigger_present": true,
+          "detail": "The dominant objection was clinical program fit — the physio ruled out swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills and high pulls. The script has no play for this. The rep improvised reasonably and escalated to Trevor, which is defensible, but it is unscripted territory." }
+      ],
+      "notes": "Scored on observable phases only. The real finding here is a script gap rather than a rep gap: the playbook has no clinical-objection path, and this prospect's blocker was 100% clinical."
+    }
+  ]
+}

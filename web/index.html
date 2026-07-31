@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primal Instinct — Call Integrity Audit</title>
+<link rel="stylesheet" href="./brand.css">
+<style>
+  /* All colour and type tokens come from brand.css. Nothing is declared here. */
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:var(--font-body);font-size:15px;line-height:1.65;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:var(--s7) var(--s5) var(--s8)}
+  h1{font-family:var(--font-display);font-weight:400;text-transform:uppercase;
+     font-size:clamp(38px,5.6vw,64px);line-height:1.02;
+     letter-spacing:var(--display-tracking);margin:0 0 var(--s3)}
+  h2{font-family:var(--font-display);font-weight:400;text-transform:uppercase;
+     font-size:27px;letter-spacing:var(--display-tracking);margin:var(--s8) 0 var(--s2)}
+  h3{font-size:15px;font-weight:600;margin:0 0 var(--s2)}
+  .sub{color:var(--muted);margin:0 0 var(--s2)}
+  .eyebrow{font-size:11.5px;text-transform:uppercase;letter-spacing:var(--eyebrow-tracking);
+     color:var(--accent);font-weight:700;margin:0 0 var(--s3)}
+  .lede{max-width:68ch;color:var(--muted)}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--s5)}
+  .grid{display:grid;gap:var(--s3)}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--s4)}
+  .stat .n{font-family:var(--font-display);font-weight:400;font-size:38px;
+    letter-spacing:var(--display-tracking);line-height:1.05}
+  .stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;
+    margin-top:var(--s2);font-weight:600}
+  .stat .f{font-size:12.5px;color:var(--muted);margin-top:var(--s2)}
+  .banner{border:1px solid var(--warn);border-left:4px solid var(--warn);
+    background:color-mix(in srgb,var(--warn) 8%,transparent);
+    border-radius:var(--r-md);padding:var(--s4) var(--s5);margin:var(--s5) 0 var(--s2)}
+  .banner strong{color:var(--warn)}
+  .tag{display:inline-block;font-size:10.5px;font-weight:700;padding:4px 10px;border-radius:var(--r-pill);
+    text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+  .t-closed{background:color-mix(in srgb,var(--won) 17%,transparent);color:var(--won)}
+  .t-follow{background:color-mix(in srgb,var(--warn) 17%,transparent);color:var(--warn)}
+  .t-lost{background:color-mix(in srgb,var(--lost) 17%,transparent);color:var(--lost)}
+  .chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+    border-radius:var(--r-pill);padding:3px 11px;font-size:12px;margin:0 5px 5px 0;color:var(--muted)}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);
+    border-radius:var(--r-lg);background:var(--panel)}
+  table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
+  th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:700;
+     background:var(--panel-2);position:sticky;top:0}
+  tbody tr:last-child td{border-bottom:none}
+  .bar{height:6px;border-radius:var(--r-pill);background:var(--chip);overflow:hidden;margin-top:7px}
+  .bar > i{display:block;height:100%;background:var(--accent);border-radius:var(--r-pill)}
+  .q{border-left:3px solid var(--accent);padding:2px 0 2px var(--s4);margin:var(--s2) 0;
+     color:var(--muted);font-style:italic}
+  .mono{font-family:var(--font-mono);font-size:12px}
+  details{border:1px solid var(--line);border-radius:var(--r-md);background:var(--panel);
+    padding:var(--s3) var(--s4);margin-bottom:var(--s2)}
+  summary{cursor:pointer;font-weight:600;list-style:none;font-size:14.5px}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ ";color:var(--accent)}
+  details[open] summary::before{content:"▾ "}
+  footer{margin-top:var(--s8);padding-top:var(--s5);border-top:1px solid var(--line);
+    color:var(--muted);font-size:13px}
+  .warnrow{background:color-mix(in srgb,var(--warn) 6%,transparent)}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:var(--s3);
+    flex-wrap:wrap;margin-bottom:var(--s5)}
+  .topbar a{color:var(--muted);text-decoration:none;font-size:13px;
+    border:1px solid var(--line);border-radius:var(--r-pill);padding:6px 14px}
+  .topbar a:hover{color:var(--accent);border-color:var(--accent)}
+  .num{font-family:var(--font-display);font-weight:400;letter-spacing:var(--display-tracking)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <span class="eyebrow" style="margin:0">Primal Instinct</span>
+    <span>
+      <a href="./style-guide.html">Style guide</a>
+      <a href="#" onclick="const r=document.documentElement;
+         r.dataset.theme=r.dataset.theme==='light'?'dark':'light';return false;">Theme</a>
+    </span>
+  </div>
+  <div id="app">Loading…</div>
+</div>
+
+<script>
+const LABEL = {
+  closed:["Closed","t-closed"], follow_up:["Follow Up","t-follow"],
+  lost:["Lost","t-lost"], undetermined:["Undetermined","t-follow"]
+};
+const AVATARS = {
+  the_optimizer:{name:"The Optimizer",
+    blurb:"Already fit, already successful, already pays for coaching elsewhere. Hit a milestone age and reframed fitness around longevity and function. Not shopping on price — shopping on fit.",
+    tell:"“I'm actually more interested in it because of the fact that it costs six grand.”"},
+  the_rebuilder:{name:"The Rebuilder",
+    blurb:"Lost ground to something outside their control — illness, injury, a hard season. Wants their former self back, not a new peak. Carries visible regret about lost time.",
+    tell:"“I wish I could have started sooner.”"},
+  the_warm_referral:{name:"The Warm Referral",
+    blurb:"Arrives already sold. A partner, spouse or friend is in the program and has pre-framed both the results and the price. Objection handling gets spent on logistics, not money.",
+    tell:"Price never raised at any point in the call."},
+  skeptical_bargain_hunter:{name:"The Skeptical Bargain Hunter",
+    blurb:"Self-directed and capable. Anchored to a cheap alternative that genuinely worked for them. Sees coaching as information they could source themselves. Price gap is an order of magnitude, not a margin.",
+    tell:"“It's a big difference from 29 bucks a month to 6K.”"},
+  the_medically_constrained:{name:"The Medically Constrained",
+    blurb:"High intent, no price resistance — blocked by a clinician. An active care team overrides the rep. The question is whether the program works at reduced scope.",
+    tell:"“Is there enough value for me to just work on lower body stuff?”"}
+};
+const OBJ_LABEL = {
+  price:"Price / sticker shock", affordability:"Affordability — cash not available",
+  timing_cashflow:"Timing — cash committed elsewhere", value_vs_cheaper_alternative:"Cheaper alternative exists",
+  icp_mismatch:"“Am I even your customer?”", program_longevity_proof:"Will results actually last?",
+  unfamiliar_modality:"Never done kettlebells", life_event_conflict:"Life event in the way",
+  medical_program_fit:"Medical — program may not fit", value_at_reduced_scope:"Worth it at reduced scope?",
+  risk_of_harm:"Fear of making an injury worse", timing_medical:"Timing — mid-treatment"
+};
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct = (a,b) => b ? Math.round(a/b*100) : 0;
+const adhVals = cs => cs.map(c=>c.adherence?.adherence_pct).filter(v=>v!=null);
+const meanAdherence = cs => { const v=adhVals(cs); return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
+const adherenceRange = cs => { const v=adhVals(cs); return v.length ? Math.min(...v)+"–"+Math.max(...v)+"%" : "n/a"; };
+
+fetch("./data.json").then(r=>r.json()).then(render).catch(e=>{
+  document.getElementById("app").innerHTML =
+    "<h1>Could not load data.json</h1><p class='sub'>"+esc(e.message)+"</p>";
+});
+
+function render(d){
+  const calls = d.calls;
+  const n = calls.length;
+  const closed = calls.filter(c=>c.outcome.disposition==="closed");
+  const notClosed = calls.filter(c=>c.outcome.disposition!=="closed");
+  const cash = calls.reduce((s,c)=>s+(c.outcome.cash_collected_usd||0),0);
+  const verified = closed.filter(c=>c.outcome.confidence>=0.9).length;
+
+  const objs = calls.flatMap(c=>c.objections.map(o=>({...o, call:c})));
+  const byType = {};
+  objs.forEach(o=>{ (byType[o.type] ??= {n:0,r:0,items:[]}); byType[o.type].n++;
+                    if(o.resolved) byType[o.type].r++; byType[o.type].items.push(o); });
+  const objRows = Object.entries(byType).sort((a,b)=>b[1].n-a[1].n||b[1].r-a[1].r);
+
+  const painCat = {}; calls.forEach(c=>c.pains.forEach(p=>painCat[p.category]=(painCat[p.category]||0)+1));
+  const goalCat = {}; calls.forEach(c=>c.goals.forEach(g=>goalCat[g.category]=(goalCat[g.category]||0)+1));
+  const top = o => Object.entries(o).sort((a,b)=>b[1]-a[1]);
+
+  const el = document.getElementById("app");
+  el.innerHTML = `
+  <p class="eyebrow">Integrity audit · pilot</p>
+  <h1>Primal Instinct — Call Intelligence</h1>
+  <p class="lede">Every sales call broken into its component parts — avatar, goals, pains, objections,
+  outcome — then compared. This is the <strong>${n}-call pilot</strong> that validates the extraction
+  schema before the full 2026 corpus runs through it.</p>
+
+  <div class="banner">
+    <strong>Read this before you trust a number.</strong>
+    Outcomes here are <strong>inferred from transcript language</strong>, not joined to a CRM.
+    A call that ends in “let me think about it” and closes by text three days later reads as a
+    follow-up here, forever. Every figure below carries a confidence score, and
+    ${objs.length ? "one deal is deliberately held back as unconfirmed" : "unconfirmed deals are held back"}.
+    Treat this as directional until a CRM or payments export is joined in.
+  </div>
+
+  <div class="grid g4" style="margin-top:16px">
+    ${stat(n,"Calls ingested","5 reps · 5 outcomes")}
+    ${stat(closed.length+"/"+n,"Closed","inferred · "+pct(closed.length,n)+"%")}
+    ${stat("$"+cash.toLocaleString(),"Cash confirmed","payment verified on call")}
+    ${stat(meanAdherence(calls)+"%","Mean script adherence","range "+adherenceRange(calls))}
+  </div>
+  <p class="sub" style="margin-top:8px">${verified} of ${closed.length} closes are verified at ≥0.90
+  confidence; the other is held back pending payment confirmation.</p>
+
+  <h2>Closed vs. not closed</h2>
+  <p class="sub">The whole point of the audit. With n=${n} these are leads to test, not laws.</p>
+  <div class="grid g2">
+    <div class="panel">
+      <h3 style="color:var(--won)">What the two closes had in common</h3>
+      <ul style="margin:0;padding-left:18px;color:var(--muted)">
+        <li><strong>The money question got resolved inside the call.</strong> Robyn had no price
+        objection at all — her partner pre-framed it. Francisco raised one and Richard structured a
+        payment plan live, on the spot: $1,200 × 6.</li>
+        <li><strong>A concrete next step was booked before hanging up.</strong> Both had an onboarding
+        call with Trevor on the calendar.</li>
+        <li><strong>The rep asked for the money and then stayed silent.</strong> Neither close needed a
+        discount — only a structure.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3 style="color:var(--lost)">What the three non-closes had in common</h3>
+      <ul style="margin:0;padding-left:18px;color:var(--muted)">
+        <li><strong>The blocker was deferred, not dissolved.</strong> Farooq probed for a payment plan,
+        got a yes to exploring it — then ran out of time and pushed to tomorrow.</li>
+        <li><strong>No live restructure was attempted.</strong> Payment plans were offered in 2 of 5
+        calls and structured live in only 1. That 1 closed.</li>
+        <li><strong>Two of three had no firm next date.</strong> Tyron's next step depends on him
+        sending MRI documents unprompted.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:14px;border-color:var(--accent)">
+    <h3 style="color:var(--accent)">The one pattern worth testing at scale</h3>
+    <p style="margin:0;color:var(--muted)">In this sample, <strong>every call where the rep structured
+    a payment plan live, closed. Every call where the rep deferred the money conversation, did not.</strong>
+    That is 1-for-1 and 0-for-1 respectively — nowhere near significance, but it is the cheapest thing to
+    check first across the full corpus, and it is a coaching change rather than a pricing change.</p>
+  </div>
+
+  <h2>Objections — what we face, what we actually resolve</h2>
+  <p class="sub">${objs.length} objections across ${n} calls ·
+     ${objs.filter(o=>o.resolved).length} resolved (${pct(objs.filter(o=>o.resolved).length,objs.length)}%)</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Objection</th><th style="width:96px">Seen</th><th style="width:190px">Resolved</th><th>What worked / what didn't</th></tr></thead>
+    <tbody>${objRows.map(([t,v])=>`
+      <tr>
+        <td><strong>${esc(OBJ_LABEL[t]||t)}</strong><div class="mono" style="color:var(--muted)">${esc(t)}</div></td>
+        <td><strong style="font-size:20px">${v.n}</strong></td>
+        <td>${v.r}/${v.n} · ${pct(v.r,v.n)}%<div class="bar"><i style="width:${pct(v.r,v.n)}%"></i></div></td>
+        <td style="color:var(--muted);font-size:13.5px">${esc(
+          v.items.map(i=>(i.resolved?"✓ ":"✗ ")+(i.response_tactic||"—").replace(/_/g," ")).join(" · ")
+        )}</td>
+      </tr>`).join("")}</tbody>
+  </table></div>
+  <p class="sub" style="margin-top:10px">Price is the most common objection (3 of ${n} calls) and the
+  worst-handled — resolved once. The single resolution came from structuring a plan live. The two failures
+  came from a takeaway (“go back to her”) and a deferral (“let me go back to the team”).</p>
+
+  ${scriptSection(calls, d.playbook)}
+
+  <h2>Avatars — derived from this corpus</h2>
+  <p class="sub">Provisional. Built from ${n} calls, so treat these as hypotheses to confirm or collapse
+  once the full corpus runs. One avatar per call at this sample size.</p>
+  <div class="grid g2">
+    ${calls.map(c=>{
+      const a = AVATARS[c.avatar.assigned]||{name:c.avatar.assigned,blurb:"",tell:""};
+      const [lab,cls] = LABEL[c.outcome.disposition];
+      return `<div class="panel">
+        <div style="display:flex;justify-content:space-between;gap:10px;align-items:start">
+          <h3>${esc(a.name)}</h3><span class="tag ${cls}">${lab}</span>
+        </div>
+        <p style="color:var(--muted);font-size:14.5px;margin:6px 0 10px">${esc(a.blurb)}</p>
+        <div class="q">${esc(a.tell)}</div>
+        <div style="margin-top:10px">
+          <span class="chip">${esc(c.prospect.name)}</span>
+          <span class="chip">${esc(c.rep.name)}</span>
+          <span class="chip">confidence ${c.avatar.confidence}</span>
+        </div>
+      </div>`;
+    }).join("")}
+  </div>
+
+  <h2>Pains &amp; goals</h2>
+  <div class="grid g2">
+    <div class="panel"><h3>Most common pain categories</h3>
+      ${top(painCat).slice(0,8).map(([k,v])=>row(k,v,top(painCat)[0][1])).join("")}</div>
+    <div class="panel"><h3>Most common goal categories</h3>
+      ${top(goalCat).slice(0,8).map(([k,v])=>row(k,v,top(goalCat)[0][1])).join("")}</div>
+  </div>
+  <p class="sub" style="margin-top:10px"><strong>Injury is the single largest pain category</strong> —
+  it appears in all ${n} calls and is severity-critical in one. Every prospect in this sample came in with
+  a body they were already working around. That is an offer-positioning signal, not just a data point.</p>
+
+  <h2>Call by call</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Call</th><th>Rep</th><th>Avatar</th><th>Outcome</th><th style="width:110px">Confidence</th><th>Cash</th></tr></thead>
+    <tbody>${calls.map(c=>{
+      const [lab,cls]=LABEL[c.outcome.disposition];
+      const low = c.outcome.confidence < 0.75;
+      return `<tr class="${low?"warnrow":""}">
+        <td><strong>${esc(c.prospect.name)}</strong>
+          <div class="mono" style="color:var(--muted)">${esc(c.source.original_title)}</div></td>
+        <td>${esc(c.rep.name)}${c.setter.name?`<div class="mono" style="color:var(--muted)">set by ${esc(c.setter.name)}</div>`:""}</td>
+        <td style="font-size:13.5px">${esc((AVATARS[c.avatar.assigned]||{}).name||c.avatar.assigned)}</td>
+        <td><span class="tag ${cls}">${lab}</span></td>
+        <td>${c.outcome.confidence}${low?' <span style="color:var(--warn)">⚠</span>':""}</td>
+        <td>${c.outcome.cash_collected_usd!=null?"$"+c.outcome.cash_collected_usd.toLocaleString()
+             : c.outcome.cash_expected_usd?'<span style="color:var(--warn)">$'+c.outcome.cash_expected_usd.toLocaleString()+" pending</span>":"—"}</td>
+      </tr>`;
+    }).join("")}</tbody>
+  </table></div>
+
+  <h2>Data quality — what would break this at scale</h2>
+  <p class="sub">Found in the pilot. Each one silently corrupts a metric if left unhandled.</p>
+  ${detail("Speaker labels are unreliable in every single call",
+    `Fathom's diarization swaps speakers on short turns in all ${n} transcripts. In the Francisco Vega call
+     it inverts repeatedly — the rep's discovery questions are attributed to the prospect. <strong>Any naive
+     "who said what" metric — talk ratio, question count, who raised the objection — will be wrong.</strong>
+     Every quote in this audit was verified by reading role from content, not from the label.`)}
+  ${detail("A prospect can change identity mid-call",
+    `Francisco Vega rejoined from his phone and his speaker label became “Paco's iPhone 17”. A parser keying
+     on speaker names would count him as two participants and lose half his transcript.`)}
+  ${detail("The unit of analysis is a deal, not a call",
+    `The Tyron Giuliani transcript opens with “we ended off yesterday” — it is call two of a sequence, and
+     the pricing conversation happened on call one. Counting calls as deals will double-count prospects and
+     understate close rate. Kamal Mohammed, Kim Forbes-Sobers and Giulian Carcioppolo all appear more than
+     once in the corpus.`)}
+  ${detail("Junk files are in the corpus",
+    `Several transcripts are 96–1,200 bytes — failed or aborted recordings. They need a length floor before
+     ingestion or they will dilute every average.`)}
+  ${detail("Outcome inference has a known blind spot",
+    `Francisco Vega verbally agreed to $1,200 × 6 and a link was sent, but the call cuts to voicemail before
+     payment confirms. It is scored 0.62 and held out of confirmed cash. At full-corpus scale this class of
+     call is common, and only a CRM or payments join resolves it.`)}
+
+  <footer>
+    <strong>Primal Instinct call integrity audit.</strong>
+    ${n} calls · generated ${esc(d.generated_at.slice(0,10))} ·
+    ${d.counts.goals} goals, ${d.counts.pains} pains, ${d.counts.objections} objections extracted.<br>
+    Source of truth is <span class="mono">data/calls/*.json</span>; queryable copy in
+    <span class="mono">data/primal.db</span>. Rebuild with <span class="mono">python3 src/build_db.py</span>.
+    Outcomes are transcript-inferred and not CRM-verified.
+  </footer>`;
+
+  function scriptSection(calls, pb){
+    const scored = calls.filter(c=>c.adherence).sort((a,b)=>b.adherence.adherence_pct-a.adherence.adherence_pct);
+    const phaseIds = pb.phases.map(p=>p.id);
+    const pName = Object.fromEntries(pb.phases.map(p=>[p.id,p.name]));
+    const cell = { hit:["✓","var(--won)"], partial:["~","var(--warn)"],
+                   miss:["✗","var(--lost)"], not_applicable:["–","var(--muted)"] };
+
+    const tally = {};
+    phaseIds.forEach(id=>{ tally[id]={hit:0,partial:0,miss:0,not_applicable:0};
+      calls.forEach(c=>{ const s=c.adherence?.phases?.[id]?.score; if(s) tally[id][s]++; }); });
+
+    const plays = calls.flatMap(c=>(c.adherence?.objection_plays||[])
+      .filter(p=>p.trigger_present && p.play!=="none")
+      .map(p=>({...p, rep:c.rep.name, prospect:c.prospect.name})));
+    const unscripted = calls.flatMap(c=>(c.adherence?.objection_plays||[])
+      .filter(p=>p.play==="none" && p.trigger_present)
+      .map(p=>({...p, rep:c.rep.name, prospect:c.prospect.name})));
+
+    return `
+  <h2>Script adherence — the playbook vs. what actually happened</h2>
+  <p class="sub">Scored against <strong>${esc(pb.name)}</strong>. Phases a call could not reach are dropped
+  from the denominator, so no rep is penalised for a phase that never applied.</p>
+
+  <div class="scroll" style="margin-bottom:14px"><table>
+    <thead><tr><th>Rep · prospect</th><th style="width:190px">Adherence</th><th style="width:120px">Outcome</th><th>Points</th></tr></thead>
+    <tbody>${scored.map(c=>{
+      const a=c.adherence, [lab,cls]=LABEL[c.outcome.disposition];
+      const col = a.adherence_pct>=70?"var(--won)":a.adherence_pct>=40?"var(--warn)":"var(--lost)";
+      return `<tr>
+        <td><strong>${esc(c.rep.name)}</strong>
+            <div class="mono" style="color:var(--muted)">${esc(c.prospect.name)}</div></td>
+        <td><strong style="font-size:21px;color:${col}">${a.adherence_pct}%</strong>
+            <div class="bar"><i style="width:${a.adherence_pct}%;background:${col}"></i></div></td>
+        <td><span class="tag ${cls}">${lab}</span></td>
+        <td class="mono" style="color:var(--muted)">${a.points_earned} / ${a.points_possible}</td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+
+  <div class="banner">
+    <strong>Adherence ranked in exactly the same order as outcome — and you should not trust that yet.</strong>
+    All five calls line up perfectly: highest adherence closed, lowest was lost. It is a real pattern worth
+    chasing, but two things undercut it. First, n=5. Second, and more seriously, <strong>the same pass scored
+    adherence and inferred the outcome</strong>, so halo bias is live — knowing a call closed makes its
+    discovery read as sharper. Fixing this needs blind scoring against CRM-verified outcomes, which is the
+    single most valuable thing to do before scaling this to the full corpus.
+  </div>
+
+  <h3 style="margin-top:34px">Where the process breaks, phase by phase</h3>
+  <div class="scroll" style="margin-bottom:14px"><table>
+    <thead><tr><th>Phase</th>${scored.map(c=>`<th style="width:78px">${esc(c.rep.name.split(" ")[0])}</th>`).join("")}<th style="width:150px">Across corpus</th></tr></thead>
+    <tbody>${phaseIds.map(id=>{
+      const t=tally[id], denom=t.hit+t.partial+t.miss;
+      return `<tr>
+        <td><strong>${esc(pName[id])}</strong> <span class="mono" style="color:var(--muted)">${id}</span></td>
+        ${scored.map(c=>{ const s=c.adherence?.phases?.[id]?.score;
+          const [g,col]=cell[s]||["–","var(--muted)"];
+          return `<td style="text-align:center;font-size:19px;color:${col}" title="${esc(s||"")}">${g}</td>`;}).join("")}
+        <td style="font-size:13px;color:var(--muted)">${t.miss} miss · ${t.partial} partial · ${t.hit} hit
+          <div class="bar"><i style="width:${pct(t.hit,denom||1)}%;background:var(--won)"></i></div></td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+
+  <div class="grid g2">
+    <div class="panel" style="border-color:var(--lost)">
+      <h3 style="color:var(--lost)">Phase 5 — Consequence Frame is the corpus-wide hole</h3>
+      <p style="color:var(--muted);margin:0">Run properly in <strong>1 of 5 calls</strong>. The playbook
+      weights it at 20 — equal to the commitment check — because it is what makes inaction cost something.
+      Four reps skipped it entirely. Farooq substituted a past-facing version (“if your 35-year-old self had
+      this…”) which builds desire but never makes standing still expensive.</p>
+    </div>
+    <div class="panel" style="border-color:var(--warn)">
+      <h3 style="color:var(--warn)">Phase 11 was completed zero times out of two closes</h3>
+      <p style="color:var(--muted);margin:0">Both closes took payment and booked Trevor. <strong>Neither had
+      the agreement signed on the call, and neither gave the Skool link or welcome-email instruction.</strong>
+      The script is explicit — “complete every step before you hang up.” This is the cheapest fix on the board
+      and it is pure operational leakage, not selling skill.</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:34px">Objection plays — did the rep run the script?</h3>
+  <p class="sub">${plays.length} scripted objections triggered across the pilot ·
+     <strong>0 fully run</strong></p>
+  ${plays.map(p=>{
+    const col = p.ran==="hit"?"var(--won)":p.ran==="partial"?"var(--warn)":"var(--lost)";
+    const play = (pb.objection_plays||[]).find(x=>x.id===p.play)||{};
+    return `<details>
+      <summary><span style="color:${col}">${esc((p.ran||"").toUpperCase())}</span> ·
+        ${esc(p.play)} “${esc(play.trigger||"")}” — ${esc(p.rep)} / ${esc(p.prospect)}</summary>
+      <p style="color:var(--muted);margin:10px 0 12px">${esc(p.detail)}</p>
+      <div style="font-size:13px"><strong>Scripted moves available:</strong>
+        <div style="margin-top:6px">${(play.key_moves||[]).map(m=>`<span class="chip">${esc(m)}</span>`).join("")}</div>
+      </div></details>`;}).join("")}
+
+  <h3 style="margin-top:34px">Objections the script has no answer for</h3>
+  <p class="sub">Not rep failures — gaps in the playbook itself.</p>
+  ${(pb.known_gaps_in_script||[]).map(g=>`<details>
+      <summary style="color:var(--accent)">${esc(g.gap)}</summary>
+      <p style="color:var(--muted);margin:10px 0 0">${esc(g.detail)}</p></details>`).join("")}
+  ${unscripted.map(u=>`<div class="q">${esc(u.prospect)} → ${esc(u.detail)}</div>`).join("")}`;
+  }
+
+  function stat(n,l,f){return `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div><div class="f">${f||""}</div></div>`;}
+  function row(k,v,max){return `<div style="margin-bottom:11px"><div style="display:flex;justify-content:space-between;font-size:14px">
+    <span>${esc(k.replace(/_/g," "))}</span><strong>${v}</strong></div>
+    <div class="bar"><i style="width:${Math.round(v/max*100)}%"></i></div></div>`;}
+  function detail(t,b){return `<details><summary>${esc(t)}</summary><p style="color:var(--muted);margin:10px 0 0">${b}</p></details>`;}
+}
+</script>
+</body>
+</html>

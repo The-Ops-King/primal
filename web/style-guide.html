@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primal Instinct — Style Guide</title>
+<link rel="stylesheet" href="./brand.css">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);
+       font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:var(--s7) var(--s5) var(--s8)}
+  h1{font-family:var(--font-display);font-weight:400;text-transform:uppercase;
+     font-size:clamp(40px,6.5vw,72px);line-height:1.02;letter-spacing:var(--display-tracking);margin:0 0 var(--s3)}
+  h2{font-family:var(--font-display);font-weight:400;text-transform:uppercase;
+     font-size:26px;letter-spacing:var(--display-tracking);margin:var(--s8) 0 var(--s2)}
+  h3{font-size:14px;font-weight:600;margin:0 0 var(--s2)}
+  p{color:var(--muted);max-width:70ch;margin:0 0 var(--s3)}
+  .grid{display:grid;gap:var(--s3)}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--s5)}
+  .sw{border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--panel)}
+  .sw .chip{height:84px}
+  .sw .meta{padding:10px 13px;font-family:var(--font-mono);font-size:11.5px;line-height:1.5}
+  .sw .meta b{display:block;font-family:var(--font-body);font-size:13px;color:var(--ink);margin-bottom:2px}
+  code{font-family:var(--font-mono);font-size:12.5px;background:var(--chip);
+       border:1px solid var(--line);border-radius:var(--r-sm);padding:2px 6px}
+  .row{display:flex;gap:var(--s3);flex-wrap:wrap;align-items:center}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:4px 11px;border-radius:var(--r-pill);
+       text-transform:uppercase;letter-spacing:.06em}
+  .do,.dont{border-left:3px solid;padding:var(--s2) 0 var(--s2) var(--s4);margin-bottom:var(--s2)}
+  .do{border-color:var(--won)} .dont{border-color:var(--lost)}
+  .scroll{overflow-x:auto} table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.5px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+  th{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+  .toggle{position:fixed;top:16px;right:16px;z-index:9}
+</style>
+</head>
+<body>
+<button class="pi-btn toggle" onclick="
+  const r=document.documentElement;
+  r.dataset.theme = r.dataset.theme==='light' ? 'dark' : 'light';">Toggle theme</button>
+
+<div class="wrap">
+  <p class="pi-eyebrow">Brand system</p>
+  <h1>Primal Instinct<br>Style Guide</h1>
+  <hr class="pi-rule">
+  <p>Every token below was measured from the live site at
+  <code>primalinstinctcoaching.com</code> using a computed-style audit, not eyeballed from a
+  screenshot. Derived values — the cyan scale, the semantic colours, the spacing ramp — are built
+  to sit with the measured ones. This file is the contract; <code>brand.css</code> is the
+  implementation. The dashboard imports it and declares no colours of its own.</p>
+
+  <h2>Colour</h2>
+  <h3>Measured from the live site</h3>
+  <div class="grid g4">
+    <div class="sw"><div class="chip" style="background:#1ABBD7"></div>
+      <div class="meta"><b>Cyan</b>#1ABBD7<br>rgb(26,187,215)<br><span style="color:var(--muted)">Primary CTA fill</span></div></div>
+    <div class="sw"><div class="chip" style="background:#000"></div>
+      <div class="meta"><b>Black</b>#000000<br><span style="color:var(--muted)">Page ground</span></div></div>
+    <div class="sw"><div class="chip" style="background:#1B1B1B"></div>
+      <div class="meta"><b>Off-black</b>#1B1B1B<br><span style="color:var(--muted)">Raised panel</span></div></div>
+    <div class="sw"><div class="chip" style="background:#F0F6EF"></div>
+      <div class="meta"><b>Paper</b>#F0F6EF<br><span style="color:var(--muted)">Pale warm-green text</span></div></div>
+    <div class="sw"><div class="chip" style="background:#E6ECF0"></div>
+      <div class="meta"><b>Mist</b>#E6ECF0<br><span style="color:var(--muted)">Pale blue-grey text</span></div></div>
+  </div>
+
+  <h3 style="margin-top:var(--s5)">Derived cyan scale</h3>
+  <div class="grid g4">
+    <div class="sw"><div class="chip" style="background:#0E7F94"></div><div class="meta"><b>cyan-700</b>#0E7F94</div></div>
+    <div class="sw"><div class="chip" style="background:#1499B0"></div><div class="meta"><b>cyan-600</b>#1499B0<br><span style="color:var(--muted)">Hover</span></div></div>
+    <div class="sw"><div class="chip" style="background:#1ABBD7"></div><div class="meta"><b>cyan-500</b>#1ABBD7<br><span style="color:var(--muted)">Base</span></div></div>
+    <div class="sw"><div class="chip" style="background:#46CBE2"></div><div class="meta"><b>cyan-400</b>#46CBE2</div></div>
+    <div class="sw"><div class="chip" style="background:#A6E6F1"></div><div class="meta"><b>cyan-200</b>#A6E6F1</div></div>
+  </div>
+
+  <h3 style="margin-top:var(--s5)">Semantic — chosen, not measured</h3>
+  <p>The site is a single-CTA landing page, so it carries no win/warn/loss vocabulary. These three
+  are additions for the dashboard, picked to stay legible beside cyan without reading as a second
+  brand colour. Cyan is never used to mean "good" — it means "brand", and that separation is what
+  keeps the status colours readable.</p>
+  <div class="grid g4">
+    <div class="sw"><div class="chip" style="background:#3ECF8E"></div><div class="meta"><b>Win</b>#3ECF8E<br><span style="color:var(--muted)">Closed</span></div></div>
+    <div class="sw"><div class="chip" style="background:#F5A623"></div><div class="meta"><b>Warn</b>#F5A623<br><span style="color:var(--muted)">Follow up / unverified</span></div></div>
+    <div class="sw"><div class="chip" style="background:#FF5C5C"></div><div class="meta"><b>Loss</b>#FF5C5C<br><span style="color:var(--muted)">Lost</span></div></div>
+  </div>
+  <div class="row" style="margin-top:var(--s4)">
+    <span class="tag" style="background:rgba(62,207,142,.16);color:#3ECF8E">Closed</span>
+    <span class="tag" style="background:rgba(245,166,35,.16);color:#F5A623">Follow up</span>
+    <span class="tag" style="background:rgba(255,92,92,.16);color:#FF5C5C">Lost</span>
+    <span class="tag" style="background:rgba(26,187,215,.16);color:#1ABBD7">Brand</span>
+  </div>
+
+  <h2>Typography</h2>
+  <div class="grid g2">
+    <div class="panel">
+      <p class="pi-eyebrow">Display</p>
+      <div class="pi-display" style="font-size:46px">Anton</div>
+      <p style="margin-top:var(--s3)">Headlines only. Single weight (400) — <strong>never bold it</strong>,
+      synthetic bolding wrecks the condensed letterforms. Always uppercase, always tight leading.
+      Get hierarchy from size and colour, never from weight.</p>
+      <code>--font-display</code>
+    </div>
+    <div class="panel">
+      <p class="pi-eyebrow">Body</p>
+      <div style="font-family:var(--font-body);font-size:34px;font-weight:600">Montserrat</div>
+      <p style="margin-top:var(--s3)">Everything that isn't a headline. Weights 300–700 loaded.
+      400 for prose, 500–600 for labels and emphasis, 700 for eyebrows only.
+      The live site also serves Roboto and Open Sans as platform defaults — ignore both,
+      Montserrat is the intentional choice.</p>
+      <code>--font-body</code>
+    </div>
+  </div>
+  <div class="panel" style="margin-top:var(--s3)">
+    <div class="scroll"><table>
+      <thead><tr><th>Role</th><th>Face</th><th>Size</th><th>Weight</th><th>Tracking</th><th>Case</th></tr></thead>
+      <tbody>
+        <tr><td>Page title</td><td>Anton</td><td>clamp(40–72px)</td><td>400</td><td>.01em</td><td>UPPER</td></tr>
+        <tr><td>Section head</td><td>Anton</td><td>26–30px</td><td>400</td><td>.01em</td><td>UPPER</td></tr>
+        <tr><td>Eyebrow</td><td>Montserrat</td><td>11.5px</td><td>700</td><td>.16em</td><td>UPPER</td></tr>
+        <tr><td>Card title</td><td>Montserrat</td><td>15–16px</td><td>600</td><td>0</td><td>Sentence</td></tr>
+        <tr><td>Body</td><td>Montserrat</td><td>15px / 1.65</td><td>400</td><td>0</td><td>Sentence</td></tr>
+        <tr><td>Stat number</td><td>Anton</td><td>34–40px</td><td>400</td><td>.01em</td><td>—</td></tr>
+        <tr><td>Data / IDs</td><td>Mono</td><td>12.5px</td><td>400</td><td>0</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <h2>Components</h2>
+  <div class="grid g2">
+    <div class="panel">
+      <h3>Button</h3>
+      <p>Measured from the live CTA: cyan fill, white text, 8px radius, 12/24 padding, weight 500.
+      Sentence case — the site's all-caps CTA is set in copy, not <code>text-transform</code>.</p>
+      <a class="pi-btn" href="#">Click here to apply now</a>
+    </div>
+    <div class="panel">
+      <h3>Accent rule</h3>
+      <p>A 3px cyan bar under a page title. The one decorative element — use it once per page,
+      directly beneath the h1.</p>
+      <hr class="pi-rule">
+      <code>.pi-rule</code>
+    </div>
+  </div>
+
+  <h2>Rules</h2>
+  <div class="panel">
+    <div class="do"><strong>Do</strong> keep dark as the default surface. Black is the brand's native ground.</div>
+    <div class="do"><strong>Do</strong> let cyan carry brand identity and structural emphasis only.</div>
+    <div class="do"><strong>Do</strong> set every number that matters in Anton — it is the loudest thing available.</div>
+    <div class="dont"><strong>Don't</strong> bold Anton, or set it in sentence case.</div>
+    <div class="dont"><strong>Don't</strong> use cyan to mean "good". Green means good; cyan means Primal.</div>
+    <div class="dont"><strong>Don't</strong> introduce a colour that isn't on this page.</div>
+    <div class="dont"><strong>Don't</strong> put long prose in Anton. It is a display face and falls apart past a few words.</div>
+  </div>
+
+  <h2>Provenance</h2>
+  <p>Audited <strong>2026-07-31</strong>. The live page resolves to a Leadpages-hosted application
+  funnel, which serves several fonts the design does not actually use (Roboto, Open Sans, Rethink
+  Sans, Inter). Anton and Montserrat are the deliberate pair; the rest are platform noise. Re-run the
+  audit if the funnel is rebuilt.</p>
+</div>
+</body>
+</html>

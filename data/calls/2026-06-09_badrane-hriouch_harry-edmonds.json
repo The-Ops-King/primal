@@ -1,0 +1,106 @@
+{
+  "call_id": "2026-06-09_badrane-hriouch_harry-edmonds",
+  "source": {
+    "drive_file_id": "1MqyayoUsI10YoLb9AO4ICAFk7SDzm4r4",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "06/09/2026 - Badrane Hriouch x Harry Edmonds KL",
+    "display_title": "06/09/2026 - Badrane Hriouch x Harry Edmonds KL — Lost",
+    "file_size_bytes": 15468
+  },
+  "call": {
+    "date": "2026-06-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "duration_min_est": 13,
+    "prospect_named_in_title": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": { "code": "KL", "name": "Kyla", "confidence": "high", "evidence": "I know you spoke with Kyla. She told me you're pretty straight to the point guy" },
+  "prospect": {
+    "name": "Badrane Hriouch",
+    "name_source": "title",
+    "location": "USA",
+    "age": null,
+    "occupation": "Salesman / retail business owner",
+    "training_background": "Muay Thai, kickboxing, Jiu Jitsu, kitesurfing. Anti-barbell.",
+    "weight_kg": 75,
+    "bodyfat_pct_self_reported": 32,
+    "kettlebell_experience": "none"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.88,
+    "signals": [
+      "Anchors on a $29/mo coach he used for 18 months",
+      "Self-describes as 'a salesman by nature' and pre-frames his own close resistance",
+      "Highly self-directed: 'I don't need somebody to get me out of bed'",
+      "Explicitly price-conditional: 'if it makes sense for me, it makes sense'"
+    ]
+  },
+  "goals": [
+    { "text": "Gain ~5 lb of muscle this year, reach 80-85 kg long term", "category": "muscle_gain" },
+    { "text": "Improve mobility and core strength", "category": "mobility" },
+    { "text": "Lose belly fat from late-night eating", "category": "fat_loss" },
+    { "text": "Maintain peak energy for work", "category": "energy_performance" },
+    { "text": "Avoid future injuries; save research time", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Chronic wrist injuries (both, 5-6 years) limiting training", "category": "injury", "severity": "high" },
+    { "text": "Neck injuries from kitesurfing falls", "category": "injury", "severity": "medium" },
+    { "text": "Elbow, shoulder, knee, ankle injuries; flat foot", "category": "injury", "severity": "medium" },
+    { "text": "Late-night eating before sleep", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Feels stiff and injury-prone with conventional weight training", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "6K? Yeah, it's a big difference from 29 bucks a month to 6K.",
+      "timestamp": "00:10:33",
+      "rep_response": "Which is why I was saying to you, dude, go back to her.",
+      "response_tactic": "disqualify",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "honestly, if it's like $200 a month, whatever, for a year or whatever, I like to do memberships for a long term",
+      "timestamp": "00:11:34",
+      "rep_response": "Explained the 3-pillar offer + 24/7 support + 20lb kettlebell guarantee",
+      "response_tactic": "value_stack",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "what type of customers you're dealing with? Because I think you're dealing with the different customers than mine",
+      "timestamp": "00:10:55",
+      "rep_response": "Described ICP: successful business owners/physicians going from good to great",
+      "response_tactic": "icp_framing",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "tiers": [{ "months": 6, "price_usd": 6000 }],
+    "payment_plan_offered": false,
+    "guarantee_mentioned": "+20 lb heavier kettlebell in 6 months"
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.94,
+    "evidence": [
+      "'6k, it's a little more than what I want to spend, so, yeah, thank you so much'",
+      "Prospect ends the call himself: 'cheers, see you soon, bye'",
+      "No next step, no follow-up booked, no payment link sent"
+    ],
+    "cash_collected_usd": 0,
+    "next_step": null
+  },
+  "notable": {
+    "rep_disqualified_prospect": true,
+    "note": "Rep twice told the prospect to go back to his $29/mo coach. Read as a deliberate takeaway, but no payment plan or downsell was ever offered before the call ended."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "At ~00:03:00 the rep's question 'and do you do kettlebells now' is merged into the prospect's turn. Attribution of individual lines is unreliable; objection quotes were verified by context."
+  }
+}

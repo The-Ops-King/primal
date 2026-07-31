@@ -1,0 +1,15 @@
+# Raw transcripts are client data — never commit them
+data/raw/
+
+# Build artifact; regenerate with `python3 src/build_db.py`
+data/primal.db
+
+# Browser-automation artifacts
+.playwright-mcp/
+*.png
+*.jpeg
+
+.DS_Store
+.vercel
+__pycache__/
+*.pyc

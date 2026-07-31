@@ -1,0 +1,1617 @@
+{
+  "generated_at": "2026-07-31T17:20:24.146173+00:00",
+  "corpus": {
+    "calls_ingested": 5,
+    "note": "Pilot sample. Outcomes are inferred from transcript language, not CRM-verified."
+  },
+  "counts": {
+    "calls": 5,
+    "goals": 27,
+    "pains": 32,
+    "objections": 14,
+    "offer_tiers": 6,
+    "phase_scores": 35,
+    "check_scores": 163,
+    "objection_plays": 8
+  },
+  "playbook": {
+    "name": "Kettlebell Body \u2014 Complete Sales Process",
+    "source_file": "KB_Sales_Process_Map (1) (1).pdf",
+    "drive_file_id": "1j2FWrsPhCYjvZ92yxu6KpR5mjt28l7pM",
+    "note": "Reconstructed from a two-column PDF process map. Phase numbering follows the document; phases 7-10 (presentation and close) are referenced by the map but not enumerated on the supplied pages, so scoring covers phases 1-6, the five objection plays, and phase 11.",
+    "phases": [
+      {
+        "id": "P1",
+        "name": "Open & Frame",
+        "intent": "Establish safety, set expectations.",
+        "weight": 10,
+        "checks": [
+          {
+            "id": "P1a",
+            "text": "Read back setter notes / application so they feel seen",
+            "conditional": "only if setter pre-qualified"
+          },
+          {
+            "id": "P1b",
+            "text": "Set the four-part frame: where you are, where you want to go, what's in the way, what you need"
+          },
+          {
+            "id": "P1c",
+            "text": "Get frame agreement \u2014 'Does that work?'"
+          },
+          {
+            "id": "P1d",
+            "text": "Open question: 'What are you potentially looking for help with?'"
+          }
+        ]
+      },
+      {
+        "id": "P2",
+        "name": "Baseline",
+        "intent": "Gather facts, build the picture.",
+        "weight": 15,
+        "checks": [
+          {
+            "id": "P2a",
+            "text": "Age, height, current weight"
+          },
+          {
+            "id": "P2b",
+            "text": "Work \u2014 and whether it's desk-bound or on their feet"
+          },
+          {
+            "id": "P2c",
+            "text": "Health conditions, own or hereditary"
+          },
+          {
+            "id": "P2d",
+            "text": "Injuries, chronic pain, movement limitations \u2014 and how long"
+          },
+          {
+            "id": "P2e",
+            "text": "Typical training week and actual days trained"
+          },
+          {
+            "id": "P2f",
+            "text": "Results seen from current training"
+          },
+          {
+            "id": "P2g",
+            "text": "Current diet / whether following anything"
+          },
+          {
+            "id": "P2h",
+            "text": "Sleep \u2014 quantity and quality"
+          },
+          {
+            "id": "P2i",
+            "text": "Energy through the day"
+          }
+        ]
+      },
+      {
+        "id": "P3",
+        "name": "Goals \u2014 Surface to Deep",
+        "intent": "Move from what to WHY. This is where the real buying decision is made.",
+        "weight": 20,
+        "checks": [
+          {
+            "id": "P3a",
+            "text": "Aesthetics & function: what would you change, one thing"
+          },
+          {
+            "id": "P3b",
+            "text": "Mobility, strength, energy \u2014 or something else"
+          },
+          {
+            "id": "P3c",
+            "text": "Something physical you want to do but can't right now"
+          },
+          {
+            "id": "P3d",
+            "text": "Bridge: 'Outside of the physical, what's actually driving this right now?'"
+          },
+          {
+            "id": "P3e",
+            "text": "'When you're moving better, what does that actually do for you?'"
+          },
+          {
+            "id": "P3f",
+            "text": "'Who else does that impact?'"
+          },
+          {
+            "id": "P3g",
+            "text": "Drive through to kids, marriage, legacy, identity or longevity"
+          },
+          {
+            "id": "P3h",
+            "text": "Reflect back: 'So this isn't really about the weight \u2014 it's about X. Is that right?'"
+          }
+        ]
+      },
+      {
+        "id": "P4",
+        "name": "Past Attempts & Root Cause",
+        "intent": "Problem isn't effort \u2014 it's structure.",
+        "weight": 15,
+        "checks": [
+          {
+            "id": "P4a",
+            "text": "What have you tried before?"
+          },
+          {
+            "id": "P4b",
+            "text": "What happened with that?"
+          },
+          {
+            "id": "P4c",
+            "text": "Why do you feel it didn't stick?"
+          },
+          {
+            "id": "P4d",
+            "text": "What's the one thing actually getting in the way?"
+          },
+          {
+            "id": "P4e",
+            "text": "Let them name the gap: no structure, no progression, no accountability, wrong knowledge, inconsistency"
+          },
+          {
+            "id": "P4f",
+            "text": "'The information isn't the problem. Why can't you stick to it on your own?'"
+          }
+        ]
+      },
+      {
+        "id": "P5",
+        "name": "Consequence Frame",
+        "intent": "Make the cost of inaction real.",
+        "weight": 20,
+        "checks": [
+          {
+            "id": "P5a",
+            "text": "'If nothing changes \u2014 what does life look like over the next two years?'"
+          },
+          {
+            "id": "P5b",
+            "text": "'Is that something you're willing to settle for?'"
+          },
+          {
+            "id": "P5c",
+            "text": "'Why not?'"
+          },
+          {
+            "id": "P5d",
+            "text": "'Are you ready to draw a line in the sand on this?'"
+          }
+        ]
+      },
+      {
+        "id": "P6",
+        "name": "Commitment Check",
+        "intent": "Get a genuine verbal yes BEFORE presenting anything.",
+        "weight": 20,
+        "checks": [
+          {
+            "id": "P6a",
+            "text": "'Do you believe you can actually get there with the right structure and the right person in your corner?'"
+          },
+          {
+            "id": "P6b",
+            "text": "'If you had everything you needed \u2014 is there any reason you wouldn't go all in on this?'"
+          },
+          {
+            "id": "P6c",
+            "text": "Only move forward once you have a clear YES; if hesitation surfaces, return to Phase 5"
+          }
+        ]
+      },
+      {
+        "id": "P11",
+        "name": "Payment & Onboarding",
+        "intent": "Complete every step before you hang up.",
+        "weight": 20,
+        "applies_when": "close_attempted",
+        "checks": [
+          {
+            "id": "P11a",
+            "text": "Step 1 \u2014 Collect payment"
+          },
+          {
+            "id": "P11b",
+            "text": "Step 2 \u2014 Schedule the onboarding call with Trevor"
+          },
+          {
+            "id": "P11c",
+            "text": "Step 3 \u2014 Confirm the agreement email arrived and have them sign it ON the call"
+          },
+          {
+            "id": "P11d",
+            "text": "Step 4 \u2014 Tell them to read the welcome email, click the Skool link to join the community, and complete the onboarding questionnaire before the Trevor call"
+          }
+        ]
+      }
+    ],
+    "objection_plays": [
+      {
+        "id": "OA",
+        "trigger": "I need to think about it",
+        "key_moves": [
+          "Do you feel what we've gone through CAN get you to [goal]?",
+          "What makes you feel it can?",
+          "So what's actually coming up that's preventing you from getting started?",
+          "Thinking isn't the problem. Deciding is.",
+          "The way you've been approaching this brought you here \u2014 when do you make a different decision?",
+          "That man you want to be \u2014 how does HE decide right now?",
+          "Are you sure? Nothing else keeping you from being 100% in?"
+        ]
+      },
+      {
+        "id": "OB",
+        "trigger": "I need to talk to my wife",
+        "key_moves": [
+          "Money aside \u2014 do you personally feel this CAN get you to [goal]?",
+          "When you talk to her, what obstacles might come up?",
+          "Is there any reason she would NOT want you stronger and less in pain?",
+          "Is this genuinely needing her input \u2014 or asking permission to bet on yourself?",
+          "This isn't a joint decision like buying a house. Is that responsibility hers or yours?",
+          "If stuck: put down a deposit, go talk to her, full refund if she says no"
+        ]
+      },
+      {
+        "id": "OC",
+        "trigger": "Money",
+        "name": "Money \u2014 Open Wallet",
+        "key_moves": [
+          "ISOLATE FIRST: 'Finances aside \u2014 nothing else keeping you from 100%?'",
+          "'You're not in a SHOULD I place, you're in a HOW place'",
+          "'Most clients pay upfront, but for some we break it up. Want to explore making it work?'",
+          "'Are you comfortable having an open, honest conversation about exactly where you're at financially?'",
+          "FINANCIAL PICTURE: cash on hand",
+          "FINANCIAL PICTURE: what's left over each month after bills",
+          "FINANCIAL PICTURE: how many credit cards",
+          "FINANCIAL PICTURE: available credit total per card",
+          "FINANCIAL PICTURE: used vs available",
+          "FINANCIAL PICTURE: crypto, stocks, investments"
+        ]
+      },
+      {
+        "id": "OD",
+        "trigger": "Not the right time",
+        "key_moves": [
+          "Are you ever going to have another Thanksgiving? Another busy season?",
+          "Things never slow down. When does it actually become the right time?",
+          "The longer you wait the harder this gets \u2014 metabolism slows, injuries compound",
+          "What if all you had to do was show up and everything else was handled?",
+          "The only thing you can control is right now",
+          "So what's actually coming up that's preventing you from getting started?"
+        ]
+      },
+      {
+        "id": "OE",
+        "trigger": "Fear / doubt",
+        "key_moves": [
+          "Would it be fair to say you're looking for certainty?",
+          "Do we run toward pleasure or away from pain \u2014 which is driving you?",
+          "BRIDGE: I'm not asking you to see the whole other side, just take the first step",
+          "PLANE: fear of the flight doesn't mean you never reach the destination",
+          "BURNED BEFORE: if you got hurt in a relationship once, do you never trust again?",
+          "But how will you know if you never actually try?"
+        ]
+      }
+    ],
+    "known_gaps_in_script": [
+      {
+        "gap": "No play for a clinical / medical-fit objection",
+        "detail": "When a prospect's physio or surgeon rules out the core kettlebell movement library, there is no scripted path. The rep is left improvising a partial-value reframe. Seen in the Tyron Giuliani call."
+      },
+      {
+        "gap": "No play for 'a cheaper alternative already worked for me'",
+        "detail": "Objection C assumes the blocker is capacity to pay, not perceived value against a functioning low-cost substitute. Seen in the Badrane Hriouch call, where the anchor was a $29/mo coach."
+      }
+    ]
+  },
+  "calls": [
+    {
+      "call_id": "2026-05-14_tristian-clunis_farooq-bey",
+      "source": {
+        "drive_file_id": "1H2rnT1PMyGVGzAtNlz_g84tRnyAcCkov",
+        "drive_folder": "Farooq Bey",
+        "original_title": "05/14/2026 - Tristian Clunis & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+        "display_title": "05/14/2026 - Tristian Clunis & Farooq Bey KFS- Kettlebell Body Game Plan Session \u2014 Follow Up",
+        "file_size_bytes": 46107
+      },
+      "call": {
+        "date": "2026-05-14",
+        "stage": "closer",
+        "sequence_position": 1,
+        "duration_min_est": 37,
+        "prospect_named_in_title": true
+      },
+      "rep": {
+        "name": "Farooq Bey",
+        "role": "closer",
+        "location": "Medellin, Colombia (from London, UK)"
+      },
+      "setter": {
+        "code": "KFS",
+        "name": "Kim Forbes-Sobers",
+        "confidence": "high",
+        "evidence": "I was talking to your, I guess, a gentleman, Kim"
+      },
+      "prospect": {
+        "name": "Tristian Clunis",
+        "name_source": "title",
+        "location": "Toronto, Canada",
+        "age": 40,
+        "occupation": "Realtor (also does sales)",
+        "family_status": "Married 16 years, one young son, wants more kids",
+        "training_background": "Bodybuilding / bro split, did 75 Hard. Trains 5-6x/week, walks 45-60 min daily.",
+        "bodyfat_pct_self_reported": 18,
+        "kettlebell_experience": "none"
+      },
+      "avatar": {
+        "assigned": "the_optimizer",
+        "confidence": 0.93,
+        "signals": [
+          "Already fit and disciplined; wants good \u2192 great, not rescue",
+          "Turning 40 triggered a longevity/functionality reframe",
+          "Has business coaches and mentors already; understands and values paid coaching",
+          "Frames fitness as a ripple effect into business, fatherhood, marriage",
+          "Explicitly not price-skeptical: 'I'm actually more interested in it because of the fact that it costs six grand'"
+        ]
+      },
+      "goals": [
+        {
+          "text": "Drop from 18% to 12% body fat and hold it consistently",
+          "category": "fat_loss"
+        },
+        {
+          "text": "Gain size while staying functional",
+          "category": "muscle_gain"
+        },
+        {
+          "text": "Be able to play with his kid indefinitely; longevity",
+          "category": "longevity_family"
+        },
+        {
+          "text": "Improve mobility and athleticism, not just aesthetics",
+          "category": "mobility"
+        },
+        {
+          "text": "Escape the bulk/cut cycle",
+          "category": "sustainability"
+        },
+        {
+          "text": "Inspire his wife to re-engage with her own fitness",
+          "category": "relationship"
+        }
+      ],
+      "pains": [
+        {
+          "text": "Fell off after peak condition; cannot sustain results",
+          "category": "consistency",
+          "severity": "high"
+        },
+        {
+          "text": "Training is aesthetics-focused, not functional",
+          "category": "training_dissatisfaction",
+          "severity": "high"
+        },
+        {
+          "text": "Body no longer responds the same at 40; slower injury recovery",
+          "category": "aging",
+          "severity": "medium"
+        },
+        {
+          "text": "Fitness apps don't align nutrition + mobility + training",
+          "category": "fragmented_solutions",
+          "severity": "medium"
+        },
+        {
+          "text": "Has never had accountability for fitness the way he does in business",
+          "category": "accountability_gap",
+          "severity": "high"
+        }
+      ],
+      "objections": [
+        {
+          "type": "timing_cashflow",
+          "raw_quote": "I'm prepping to sell this house, there's different things that I'm doing right now... for me to make this investment right now, it might not be the right time",
+          "timestamp": "00:34:17",
+          "rep_response": "Let me go back to the team. Maybe there's something that we can help you out with. Are you open to popping another call tomorrow?",
+          "response_tactic": "defer_to_team",
+          "resolved": false
+        },
+        {
+          "type": "price",
+          "raw_quote": "So I'll be honest, the investment is an investment... can you make that investment right now? That's the question",
+          "timestamp": "00:33:00",
+          "rep_response": "My intention is to never take food off people's tables. If there's a way we can structure this that works with your finances, are you open to exploring that?",
+          "response_tactic": "payment_plan_probe",
+          "resolved": false,
+          "note": "Prospect said yes to exploring, but the rep ran out of time and deferred instead of structuring it live."
+        },
+        {
+          "type": "program_longevity_proof",
+          "raw_quote": "do you find that people stay with the program? Or is it just kind of like a, they tried out for a year or so",
+          "timestamp": "00:24:55",
+          "rep_response": "We have a philosophy of teaching you how to fish, as opposed to giving you the fish. Once you're done, you're done.",
+          "response_tactic": "philosophy_reframe",
+          "resolved": true
+        },
+        {
+          "type": "unfamiliar_modality",
+          "raw_quote": "I've never done kettlebells like this. And so this is kind of like more trusting the system",
+          "timestamp": "00:13:58",
+          "rep_response": "Shared own story: healed ACL/MCL injuries via Trevor's program, now only does kettlebells and Muay Thai",
+          "response_tactic": "personal_proof",
+          "resolved": true
+        }
+      ],
+      "offer": {
+        "presented": true,
+        "tiers": [
+          {
+            "months": 6,
+            "price_usd": 6000
+          },
+          {
+            "months": 12,
+            "price_usd": 9000
+          }
+        ],
+        "recommended_tier_months": 6,
+        "payment_plan_offered": true,
+        "payment_plan_structured_live": false,
+        "guarantee_mentioned": "If you don't hit the goals set with Trevor in 6 months, we work with you for free until you do"
+      },
+      "outcome": {
+        "disposition": "follow_up",
+        "confidence": 0.9,
+        "evidence": [
+          "Rep: 'Are you open to popping another call tomorrow?' \u2014 prospect: 'Yeah'",
+          "Time confirmed for ~6 o'clock next day",
+          "No payment taken, no link sent",
+          "Prospect repeatedly affirms belief in the program; blocker is timing of cash, not conviction"
+        ],
+        "cash_collected_usd": 0,
+        "next_step": "Follow-up call booked for 2026-05-15, ~18:00"
+      },
+      "notable": {
+        "rep_ran_out_of_time": true,
+        "note": "Rep had to leave for his next call at the exact moment the prospect opened the door to payment structuring. High-intent prospect lost to a calendar collision, not to an objection."
+      },
+      "quality": {
+        "diarization_reliability": "medium",
+        "speaker_label_swaps_detected": true,
+        "notes": "Frequent short-turn swaps, especially in rapport sections. All quoted objections verified against surrounding context."
+      },
+      "adherence": {
+        "adherence_pct": 42.5,
+        "points_earned": 42.5,
+        "points_possible": 100.0,
+        "phases": {
+          "P1": {
+            "score": "partial",
+            "checks": {
+              "P1a": "miss",
+              "P1b": "partial",
+              "P1c": "hit",
+              "P1d": "hit"
+            },
+            "evidence": "'Where are you today? Where do you want to be? If we can help, I can show you the options.' Three-part rather than four-part, but framed and agreed. Setter Kim's notes not read back despite a pre-qualified handoff."
+          },
+          "P2": {
+            "score": "miss",
+            "checks": {
+              "P2a": "partial",
+              "P2b": "partial",
+              "P2c": "miss",
+              "P2d": "miss",
+              "P2e": "partial",
+              "P2f": "partial",
+              "P2g": "miss",
+              "P2h": "miss",
+              "P2i": "miss"
+            },
+            "evidence": "The weakest baseline in the pilot. Never asked height, weight, injuries, health conditions, diet, sleep or energy. Age 40 and 18% body fat were volunteered, not asked. For an offer whose first pillar is injury-aware programming, not asking about injuries is a structural miss."
+          },
+          "P3": {
+            "score": "hit",
+            "checks": {
+              "P3a": "hit",
+              "P3b": "hit",
+              "P3c": "partial",
+              "P3d": "hit",
+              "P3e": "hit",
+              "P3f": "hit",
+              "P3g": "hit",
+              "P3h": "hit"
+            },
+            "evidence": "Excellent. Drove to potential, then ripple effect into business, fatherhood, leadership and marriage. Reflect-back landed: 'This is more than just swinging a few kettlebells around, isn't it?'"
+          },
+          "P4": {
+            "score": "partial",
+            "checks": {
+              "P4a": "partial",
+              "P4b": "miss",
+              "P4c": "partial",
+              "P4d": "hit",
+              "P4e": "hit",
+              "P4f": "miss"
+            },
+            "evidence": "'What do you feel like has stopped you from already being there?' \u2192 named the gap himself: has coaches in business, never for fitness. Rep did not probe what he'd tried or why it failed."
+          },
+          "P5": {
+            "score": "miss",
+            "checks": {
+              "P5a": "miss",
+              "P5b": "miss",
+              "P5c": "miss",
+              "P5d": "miss"
+            },
+            "evidence": "No consequence frame. Used a past-facing variant instead \u2014 'if your 35-year-old self had this, where would you be today?' \u2014 which builds desire but never makes inaction cost anything."
+          },
+          "P6": {
+            "score": "partial",
+            "checks": {
+              "P6a": "hit",
+              "P6b": "miss",
+              "P6c": "partial"
+            },
+            "evidence": "'Do you actually feel like we can help you get to your goals?' \u2192 'Yeah, I do.' Got belief, but never ran the 'any reason you wouldn't go all in' gate that surfaces hidden blockers before price."
+          },
+          "P11": {
+            "score": "not_applicable",
+            "evidence": "No close reached."
+          }
+        },
+        "objection_plays": [
+          {
+            "play": "OC",
+            "trigger_present": true,
+            "ran": "partial",
+            "detail": "Opened the door correctly \u2014 'my intention is to never take food off people's tables. If there's a way we can structure this, are you open to exploring that?' \u2192 got a YES. Then never ran the financial picture. Not one question about cash on hand, monthly surplus, credit or assets. The play was started and abandoned."
+          },
+          {
+            "play": "OD",
+            "trigger_present": true,
+            "ran": "miss",
+            "detail": "The prospect said it almost verbatim: 'it might not be the right time for me personally.' That is the exact Objection D trigger, and the script supplies six responses for it \u2014 'things never slow down', 'when does it actually become the right time?', 'the longer you wait the harder this becomes'. The rep ran none of them. He said 'let me go back to the team' and booked tomorrow."
+          }
+        ],
+        "notes": "The most expensive miss in the pilot. A high-intent prospect who explicitly said the price made him MORE interested, met two scripted objections back to back, and neither play was run. The rep also hit a hard calendar stop mid-objection."
+      }
+    },
+    {
+      "call_id": "2026-06-09_badrane-hriouch_harry-edmonds",
+      "source": {
+        "drive_file_id": "1MqyayoUsI10YoLb9AO4ICAFk7SDzm4r4",
+        "drive_folder": "Harry Edmonds",
+        "original_title": "06/09/2026 - Badrane Hriouch x Harry Edmonds KL",
+        "display_title": "06/09/2026 - Badrane Hriouch x Harry Edmonds KL \u2014 Lost",
+        "file_size_bytes": 15468
+      },
+      "call": {
+        "date": "2026-06-09",
+        "stage": "closer",
+        "sequence_position": 1,
+        "duration_min_est": 13,
+        "prospect_named_in_title": true
+      },
+      "rep": {
+        "name": "Harry Edmonds",
+        "role": "closer",
+        "location": "London, UK"
+      },
+      "setter": {
+        "code": "KL",
+        "name": "Kyla",
+        "confidence": "high",
+        "evidence": "I know you spoke with Kyla. She told me you're pretty straight to the point guy"
+      },
+      "prospect": {
+        "name": "Badrane Hriouch",
+        "name_source": "title",
+        "location": "USA",
+        "age": null,
+        "occupation": "Salesman / retail business owner",
+        "training_background": "Muay Thai, kickboxing, Jiu Jitsu, kitesurfing. Anti-barbell.",
+        "weight_kg": 75,
+        "bodyfat_pct_self_reported": 32,
+        "kettlebell_experience": "none"
+      },
+      "avatar": {
+        "assigned": "skeptical_bargain_hunter",
+        "confidence": 0.88,
+        "signals": [
+          "Anchors on a $29/mo coach he used for 18 months",
+          "Self-describes as 'a salesman by nature' and pre-frames his own close resistance",
+          "Highly self-directed: 'I don't need somebody to get me out of bed'",
+          "Explicitly price-conditional: 'if it makes sense for me, it makes sense'"
+        ]
+      },
+      "goals": [
+        {
+          "text": "Gain ~5 lb of muscle this year, reach 80-85 kg long term",
+          "category": "muscle_gain"
+        },
+        {
+          "text": "Improve mobility and core strength",
+          "category": "mobility"
+        },
+        {
+          "text": "Lose belly fat from late-night eating",
+          "category": "fat_loss"
+        },
+        {
+          "text": "Maintain peak energy for work",
+          "category": "energy_performance"
+        },
+        {
+          "text": "Avoid future injuries; save research time",
+          "category": "injury_prevention"
+        }
+      ],
+      "pains": [
+        {
+          "text": "Chronic wrist injuries (both, 5-6 years) limiting training",
+          "category": "injury",
+          "severity": "high"
+        },
+        {
+          "text": "Neck injuries from kitesurfing falls",
+          "category": "injury",
+          "severity": "medium"
+        },
+        {
+          "text": "Elbow, shoulder, knee, ankle injuries; flat foot",
+          "category": "injury",
+          "severity": "medium"
+        },
+        {
+          "text": "Late-night eating before sleep",
+          "category": "nutrition_habit",
+          "severity": "low"
+        },
+        {
+          "text": "Feels stiff and injury-prone with conventional weight training",
+          "category": "training_dissatisfaction",
+          "severity": "medium"
+        }
+      ],
+      "objections": [
+        {
+          "type": "price",
+          "raw_quote": "6K? Yeah, it's a big difference from 29 bucks a month to 6K.",
+          "timestamp": "00:10:33",
+          "rep_response": "Which is why I was saying to you, dude, go back to her.",
+          "response_tactic": "disqualify",
+          "resolved": false
+        },
+        {
+          "type": "value_vs_cheaper_alternative",
+          "raw_quote": "honestly, if it's like $200 a month, whatever, for a year or whatever, I like to do memberships for a long term",
+          "timestamp": "00:11:34",
+          "rep_response": "Explained the 3-pillar offer + 24/7 support + 20lb kettlebell guarantee",
+          "response_tactic": "value_stack",
+          "resolved": false
+        },
+        {
+          "type": "icp_mismatch",
+          "raw_quote": "what type of customers you're dealing with? Because I think you're dealing with the different customers than mine",
+          "timestamp": "00:10:55",
+          "rep_response": "Described ICP: successful business owners/physicians going from good to great",
+          "response_tactic": "icp_framing",
+          "resolved": true
+        }
+      ],
+      "offer": {
+        "presented": true,
+        "tiers": [
+          {
+            "months": 6,
+            "price_usd": 6000
+          }
+        ],
+        "payment_plan_offered": false,
+        "guarantee_mentioned": "+20 lb heavier kettlebell in 6 months"
+      },
+      "outcome": {
+        "disposition": "lost",
+        "confidence": 0.94,
+        "evidence": [
+          "'6k, it's a little more than what I want to spend, so, yeah, thank you so much'",
+          "Prospect ends the call himself: 'cheers, see you soon, bye'",
+          "No next step, no follow-up booked, no payment link sent"
+        ],
+        "cash_collected_usd": 0,
+        "next_step": null
+      },
+      "notable": {
+        "rep_disqualified_prospect": true,
+        "note": "Rep twice told the prospect to go back to his $29/mo coach. Read as a deliberate takeaway, but no payment plan or downsell was ever offered before the call ended."
+      },
+      "quality": {
+        "diarization_reliability": "medium",
+        "speaker_label_swaps_detected": true,
+        "notes": "At ~00:03:00 the rep's question 'and do you do kettlebells now' is merged into the prospect's turn. Attribution of individual lines is unreliable; objection quotes were verified by context."
+      },
+      "adherence": {
+        "adherence_pct": 7.5,
+        "points_earned": 7.5,
+        "points_possible": 100.0,
+        "phases": {
+          "P1": {
+            "score": "miss",
+            "checks": {
+              "P1a": "partial",
+              "P1b": "miss",
+              "P1c": "miss",
+              "P1d": "partial"
+            },
+            "evidence": "Referenced the setter \u2014 'I know you spoke with Kyla, she told me you're straight to the point' \u2014 but set no frame and got no agreement. Opened with 'what do you feel like I need to know about you?'"
+          },
+          "P2": {
+            "score": "miss",
+            "checks": {
+              "P2a": "miss",
+              "P2b": "partial",
+              "P2c": "miss",
+              "P2d": "hit",
+              "P2e": "partial",
+              "P2f": "miss",
+              "P2g": "partial",
+              "P2h": "miss",
+              "P2i": "partial"
+            },
+            "evidence": "Injuries covered well \u2014 wrists, neck, elbow, shoulder, knee, ankle. Almost nothing else. No age, no height, no sleep, no structured training week, no results."
+          },
+          "P3": {
+            "score": "miss",
+            "checks": {
+              "P3a": "hit",
+              "P3b": "hit",
+              "P3c": "miss",
+              "P3d": "miss",
+              "P3e": "miss",
+              "P3f": "miss",
+              "P3g": "miss",
+              "P3h": "miss"
+            },
+            "evidence": "Stayed entirely on the surface \u2014 mobility, strength, muscle, 5 lb. Never asked what was driving it, what it would change, or who else it impacts. Never reached kids, marriage, legacy, identity or longevity. The phase the playbook calls 'where the real buying decision is made' was skipped."
+          },
+          "P4": {
+            "score": "partial",
+            "checks": {
+              "P4a": "hit",
+              "P4b": "partial",
+              "P4c": "miss",
+              "P4d": "miss",
+              "P4e": "miss",
+              "P4f": "hit"
+            },
+            "evidence": "'Why do you want to get a coach? Why don't you just figure it out?' surfaced the $29/mo coach history \u2014 genuinely useful \u2014 but the rep never converted it into a structural gap."
+          },
+          "P5": {
+            "score": "miss",
+            "checks": {
+              "P5a": "miss",
+              "P5b": "miss",
+              "P5c": "miss",
+              "P5d": "miss"
+            },
+            "evidence": "No consequence frame."
+          },
+          "P6": {
+            "score": "miss",
+            "checks": {
+              "P6a": "miss",
+              "P6b": "miss",
+              "P6c": "miss"
+            },
+            "evidence": "No commitment check of any kind. Price was presented at roughly ten minutes in with no verbal yes secured \u2014 the exact sequencing the playbook forbids."
+          },
+          "P11": {
+            "score": "not_applicable",
+            "evidence": "No close reached."
+          }
+        },
+        "objection_plays": [
+          {
+            "play": "OC",
+            "trigger_present": true,
+            "ran": "miss",
+            "detail": "The money objection landed and no part of the play ran. No isolate, no 'should I vs how' reframe, no offer to structure it, no financial picture. Instead the rep ran a takeaway \u2014 'go back to her' \u2014 twice. A takeaway is not in the script."
+          },
+          {
+            "play": "none",
+            "trigger_present": true,
+            "detail": "The prospect's real objection was a cheaper substitute that had genuinely worked for him ($29/mo, 18 months, fixed his knee). The script has no play for this. See known_gaps_in_script in playbook.json."
+          }
+        ],
+        "notes": "Lowest adherence and the only outright loss. Phases 3, 5 and 6 were skipped wholesale, meaning price was quoted to a prospect who had never been walked past surface-level goals. Whether this prospect was ever a fit is a separate question \u2014 but the script was not run."
+      }
+    },
+    {
+      "call_id": "2026-07-18_tyron-giuliani_michael-brideau",
+      "source": {
+        "drive_file_id": "1CXml1kQmGKQl7i0VbQsmS1ojGE-ETwfN",
+        "drive_folder": "Michael Brideau",
+        "original_title": "07/18/2026 - Impromptu Zoom Meeting",
+        "display_title": "07/18/2026 - Impromptu Zoom Meeting (Tyron Giuliani) \u2014 Follow Up",
+        "file_size_bytes": 19488
+      },
+      "call": {
+        "date": "2026-07-18",
+        "stage": "closer",
+        "sequence_position": 2,
+        "sequence_note": "Explicitly call two of a sequence \u2014 'we ended off yesterday, we were going through the program'. The prior call is a separate transcript.",
+        "duration_min_est": 23,
+        "prospect_named_in_title": false,
+        "prospect_name_recovered_from_transcript": true
+      },
+      "rep": {
+        "name": "Michael Brideau",
+        "role": "closer",
+        "location": null
+      },
+      "setter": {
+        "code": null,
+        "name": null,
+        "confidence": "n/a",
+        "evidence": "No setter code in title."
+      },
+      "prospect": {
+        "name": "Tyron Giuliani",
+        "name_source": "transcript",
+        "location": "Downtown Tokyo, Japan",
+        "age": null,
+        "occupation": null,
+        "nationality": "Australian",
+        "training_background": "Ex-army. Currently 2x/week with a personal trainer, plus chiro and physio. Lower-body and machine work.",
+        "kettlebell_experience": "none",
+        "medical": "Rotator cuff injury from army service ~30 years ago: partial anterior rotator cuff tear, labrum damage, AC joint arthritis. Herniated L5/S1 disc. Traumatic microfracture, left tibia. Currently receiving weekly hyaluronic acid injections; MRI two weeks prior shows stable. Exploring surgery."
+      },
+      "avatar": {
+        "assigned": "the_medically_constrained",
+        "confidence": 0.94,
+        "signals": [
+          "High intent and strong engagement \u2014 'I'm excited to do this, I like Trevor'",
+          "Blocker is entirely clinical, not financial and not motivational",
+          "Has an active care team (orthopedic surgeon, physio, chiro, PT) whose advice overrides the rep's",
+          "Physio explicitly ruled out the core kettlebell movement library",
+          "Loss risk is the offer's fit, not the offer's price"
+        ]
+      },
+      "goals": [
+        {
+          "text": "Lose weight",
+          "category": "fat_loss"
+        },
+        {
+          "text": "Increase overall mobility",
+          "category": "mobility"
+        },
+        {
+          "text": "Build core strength to avoid falls with age",
+          "category": "longevity_function"
+        },
+        {
+          "text": "Be able to train at home on a mat in his own room",
+          "category": "convenience"
+        }
+      ],
+      "pains": [
+        {
+          "text": "Rotator cuff tear, labrum damage and AC joint arthritis blocking overhead loading",
+          "category": "injury",
+          "severity": "critical"
+        },
+        {
+          "text": "Herniated L5/S1 disc from army service",
+          "category": "injury",
+          "severity": "high"
+        },
+        {
+          "text": "Physio ruled out swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills and high pulls",
+          "category": "program_fit",
+          "severity": "critical"
+        },
+        {
+          "text": "Unexplained shoulder pain flare the day after the previous sales call",
+          "category": "injury",
+          "severity": "medium"
+        },
+        {
+          "text": "History of being up and down with fitness; lacks consistency",
+          "category": "consistency",
+          "severity": "medium"
+        },
+        {
+          "text": "Disappointment and deflation after the physio consult killed his excitement",
+          "category": "emotional",
+          "severity": "high"
+        }
+      ],
+      "objections": [
+        {
+          "type": "medical_program_fit",
+          "raw_quote": "he would avoid the stuff that I was hoping I could do, which is like the kettlebell swings, the snatches, the cleans, the Turkish get-ups, overhead presses... that's the stuff I kind of wanted to be doing more of",
+          "timestamp": "00:07:10",
+          "rep_response": "Even if we can only do 50% of what we normally would, Trevor can design a program in the right direction and you'd see an extensive transformation. Goal is longevity and sustainability.",
+          "response_tactic": "partial_value_reframe",
+          "resolved": false
+        },
+        {
+          "type": "value_at_reduced_scope",
+          "raw_quote": "is there enough value for me to just work on lower body stuff and protect the shoulder?",
+          "timestamp": "00:07:10",
+          "rep_response": "Asked him to send MRI reports and the PT's do/don't list so Trevor could assess feasibility.",
+          "response_tactic": "escalate_to_expert",
+          "resolved": false
+        },
+        {
+          "type": "risk_of_harm",
+          "raw_quote": "You've got it stabilized at the moment, and they're not sure if me swinging around is the best idea",
+          "timestamp": "00:13:16",
+          "rep_response": "What would be the route to actually getting you back to swinging stuff around and doing the upper body stuff?",
+          "response_tactic": "path_to_yes_question",
+          "resolved": false
+        }
+      ],
+      "offer": {
+        "presented": true,
+        "presented_on_prior_call": true,
+        "tiers": [
+          {
+            "months": 6,
+            "price_usd": 6000
+          }
+        ],
+        "payment_plan_offered": false,
+        "price_discussed_this_call": false
+      },
+      "outcome": {
+        "disposition": "follow_up",
+        "confidence": 0.85,
+        "evidence": [
+          "Agreed next step: prospect sends MRI reports and PT exercise list to the rep via WhatsApp",
+          "Rep to submit to Trevor for a feasibility assessment",
+          "No close attempted on this call; price never revisited",
+          "Prospect still warm \u2014 'I'm still watching Trevor' \u2014 but says 'I was a little bit bummed'",
+          "No follow-up call actually booked, only an open-ended handoff"
+        ],
+        "cash_collected_usd": 0,
+        "next_step": "Prospect sends MRI + PT list; Trevor assesses program feasibility. No date set."
+      },
+      "notable": {
+        "no_next_call_booked": true,
+        "note": "The only one of the five where the blocker is clinical rather than commercial. Also the only one where no specific follow-up date was set \u2014 the next step depends on the prospect sending documents unprompted, which is a weak commitment."
+      },
+      "quality": {
+        "diarization_reliability": "medium",
+        "speaker_label_swaps_detected": true,
+        "notes": "Swaps concentrated in short exchanges. The long clinical monologue is clearly the prospect and is reliably attributed. A 3-minute silent gap at 00:09-00:13 suggests audio loss."
+      },
+      "adherence": {
+        "adherence_pct": 21.4,
+        "points_earned": 15.0,
+        "points_possible": 70.0,
+        "phases": {
+          "P1": {
+            "score": "partial",
+            "checks": {
+              "P1a": "hit",
+              "P1b": "not_applicable",
+              "P1c": "not_applicable",
+              "P1d": "hit"
+            },
+            "evidence": "Second call in a sequence, so the frame belongs to call one. Did open by reading back where they left off and checking what stood out \u2014 the right move for a continuation."
+          },
+          "P2": {
+            "score": "not_applicable",
+            "evidence": "Baseline was gathered on call one, which is a separate transcript not in this pilot."
+          },
+          "P3": {
+            "score": "partial",
+            "checks": {
+              "P3a": "hit",
+              "P3b": "hit",
+              "P3c": "hit",
+              "P3d": "miss",
+              "P3e": "miss",
+              "P3f": "miss",
+              "P3g": "miss",
+              "P3h": "miss"
+            },
+            "evidence": "Re-asked the goal \u2014 'walk me through the goal, paint me the picture one more time' \u2014 but took the surface answer (lose weight, mobility, core strength, avoid falls) and did not drive to the deeper why. On a call where the prospect had just been emotionally deflated by his physio, the deeper why was the available lever and it was not pulled."
+          },
+          "P4": {
+            "score": "not_applicable",
+            "evidence": "Covered on call one."
+          },
+          "P5": {
+            "score": "miss",
+            "checks": {
+              "P5a": "miss",
+              "P5b": "miss",
+              "P5c": "miss",
+              "P5d": "miss"
+            },
+            "evidence": "No consequence frame \u2014 notable because the prospect's own clinical trajectory (arthritis, possible surgery, 30 years of compensation) is the strongest consequence case in the pilot and went entirely unused."
+          },
+          "P6": {
+            "score": "miss",
+            "checks": {
+              "P6a": "miss",
+              "P6b": "miss",
+              "P6c": "miss"
+            },
+            "evidence": "No commitment check. Call ended on an open-ended document handoff."
+          },
+          "P11": {
+            "score": "not_applicable",
+            "evidence": "No close attempted."
+          }
+        },
+        "objection_plays": [
+          {
+            "play": "OE",
+            "trigger_present": true,
+            "ran": "partial",
+            "detail": "Fear of harm was present \u2014 'they're not sure if me swinging around is the best idea.' The rep used a partial-value reframe and a good path-to-yes question ('what would be the route to getting you back to swinging stuff around?'), but ran none of the scripted OE moves: no certainty question, no bridge, no plane, no burned-before."
+          },
+          {
+            "play": "none",
+            "trigger_present": true,
+            "detail": "The dominant objection was clinical program fit \u2014 the physio ruled out swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills and high pulls. The script has no play for this. The rep improvised reasonably and escalated to Trevor, which is defensible, but it is unscripted territory."
+          }
+        ],
+        "notes": "Scored on observable phases only. The real finding here is a script gap rather than a rep gap: the playbook has no clinical-objection path, and this prospect's blocker was 100% clinical."
+      }
+    },
+    {
+      "call_id": "2026-07-23_robyn-stillwater_andrew-musial",
+      "source": {
+        "drive_file_id": "1QRuOSGtVJfCI0b4EwniYCd5RTqAP1at0",
+        "drive_folder": "Andrew Musial",
+        "original_title": "07/23/2026 - Robyn Stillwater x  Andrew Musial",
+        "display_title": "07/23/2026 - Robyn Stillwater x  Andrew Musial \u2014 Closed",
+        "file_size_bytes": 41325
+      },
+      "call": {
+        "date": "2026-07-23",
+        "stage": "closer",
+        "sequence_position": 1,
+        "duration_min_est": 47,
+        "prospect_named_in_title": true
+      },
+      "rep": {
+        "name": "Andrew Musial",
+        "role": "closer",
+        "location": "Poland"
+      },
+      "setter": {
+        "code": null,
+        "name": null,
+        "confidence": "n/a",
+        "evidence": "No setter code in title. Referral came via her partner Tyler, an existing client."
+      },
+      "prospect": {
+        "name": "Robyn Stillwater",
+        "name_source": "title",
+        "location": "Emigration Canyon / Salt Lake City, Utah, USA",
+        "age": null,
+        "occupation": "Not currently working",
+        "family_status": "Partnered with Tyler (existing Primal client); planning pregnancy from August 2026",
+        "height_in": 65,
+        "weight_lb": 144,
+        "training_background": "Bodyweight work, reverse treadmill for knees. Mirroring partner's program. Not structured.",
+        "kettlebell_experience": "none"
+      },
+      "avatar": {
+        "assigned": "the_warm_referral",
+        "confidence": 0.95,
+        "signals": [
+          "Partner Tyler already enrolled and visibly progressing \u2014 social proof arrived pre-call",
+          "Price was pre-framed by the partner before the call ever happened",
+          "Zero price objection raised at any point",
+          "Explicitly wants her own individualized journey, not a copy of her partner's",
+          "Closed same-call, live on the payment link"
+        ]
+      },
+      "goals": [
+        {
+          "text": "More stability and balance, to carry into old age",
+          "category": "longevity_function"
+        },
+        {
+          "text": "Rebuild confidence in a previously dislocated shoulder",
+          "category": "injury_confidence"
+        },
+        {
+          "text": "Be fit through pregnancy and strong postpartum",
+          "category": "pregnancy_prep"
+        },
+        {
+          "text": "Become a better dancer \u2014 jazz, somatic, swing, tango",
+          "category": "hobby_performance"
+        },
+        {
+          "text": "Do more hiking and backpacking",
+          "category": "hobby_performance"
+        },
+        {
+          "text": "Have physical confidence spread to other parts of life",
+          "category": "confidence"
+        }
+      ],
+      "pains": [
+        {
+          "text": "Scoliosis (13 degrees) causing lower back and sciatic strain",
+          "category": "injury",
+          "severity": "high"
+        },
+        {
+          "text": "Left shoulder dislocated 5 years ago, undiagnosed for a period; 18-month recovery",
+          "category": "injury",
+          "severity": "high"
+        },
+        {
+          "text": "Tendonitis in both knees since age 18; ongoing strength issues",
+          "category": "injury",
+          "severity": "medium"
+        },
+        {
+          "text": "History of depression driving a sedentary period",
+          "category": "mental_health",
+          "severity": "medium"
+        },
+        {
+          "text": "Late-night eating rooted in childhood safety patterns; disrupts sleep",
+          "category": "nutrition_habit",
+          "severity": "medium"
+        },
+        {
+          "text": "Night owl; struggles to sleep before midnight",
+          "category": "sleep",
+          "severity": "medium"
+        },
+        {
+          "text": "Gyms are overwhelming \u2014 'I turn around and walk out'",
+          "category": "training_barrier",
+          "severity": "high"
+        },
+        {
+          "text": "Doesn't know if she's performing movements correctly; fears self-injury",
+          "category": "competence_anxiety",
+          "severity": "high"
+        }
+      ],
+      "objections": [
+        {
+          "type": "life_event_conflict",
+          "raw_quote": "Tyler and I are planning on trying to get pregnant soon. And so I realized that that is going to affect the program.",
+          "timestamp": "00:33:37",
+          "rep_response": "We are in a perfect place \u2014 coming in strong and healthy makes postpartum recovery far easier. Also confirmed the subscription can be paused for pregnancy or injury.",
+          "response_tactic": "reframe_plus_flexibility_guarantee",
+          "resolved": true
+        }
+      ],
+      "offer": {
+        "presented": true,
+        "tiers": [
+          {
+            "months": 6,
+            "price_usd": 6000
+          }
+        ],
+        "payment_plan_offered": false,
+        "payment_plan_needed": false,
+        "guarantee_mentioned": "Six months, full transformation guarantee; program can be paused for pregnancy or injury"
+      },
+      "outcome": {
+        "disposition": "closed",
+        "confidence": 0.98,
+        "evidence": [
+          "Payment link sent in Zoom chat during the call",
+          "Prospect: 'Looks like it just went through' \u2014 rep confirms: 'Yes, yes, that went through'",
+          "Onboarding call with Trevor booked live for Monday 11:15 MT",
+          "WhatsApp numbers exchanged; onboarding form and agreement promised"
+        ],
+        "cash_collected_usd": 6000,
+        "next_step": "Onboarding call with Trevor, Monday 11:15 MT"
+      },
+      "notable": {
+        "zero_price_objection": true,
+        "note": "The only call of the five where price was never contested. The partner had already covered the investment before the call. Objection handling was spent entirely on a life-event concern, not money."
+      },
+      "quality": {
+        "diarization_reliability": "medium",
+        "speaker_label_swaps_detected": true,
+        "notes": "Speaker labels swap on short turns throughout; one long run around 00:03:51-00:05:00 is attributed almost entirely to the wrong speaker. Long-form content is attributable by voice/context."
+      },
+      "adherence": {
+        "adherence_pct": 58.3,
+        "points_earned": 70.0,
+        "points_possible": 120.0,
+        "phases": {
+          "P1": {
+            "score": "partial",
+            "checks": {
+              "P1a": "miss",
+              "P1b": "miss",
+              "P1c": "miss",
+              "P1d": "hit"
+            },
+            "evidence": "Warm, rapport-led open \u2014 'what got you interested in doing this too?' No four-part frame, no frame agreement, no notes read back."
+          },
+          "P2": {
+            "score": "hit",
+            "checks": {
+              "P2a": "partial",
+              "P2b": "hit",
+              "P2c": "hit",
+              "P2d": "hit",
+              "P2e": "hit",
+              "P2f": "partial",
+              "P2g": "hit",
+              "P2h": "hit",
+              "P2i": "partial"
+            },
+            "evidence": "The most complete baseline in the pilot. Height 5'5\", weight 144, work status, scoliosis, shoulder dislocation, knee tendonitis, depression history, full nutrition and intermittent-fasting detail, extended sleep discussion. Never asked age."
+          },
+          "P3": {
+            "score": "hit",
+            "checks": {
+              "P3a": "hit",
+              "P3b": "hit",
+              "P3c": "hit",
+              "P3d": "hit",
+              "P3e": "hit",
+              "P3f": "partial",
+              "P3g": "hit",
+              "P3h": "hit"
+            },
+            "evidence": "'If you could change one thing about how you feel or move?' \u2192 stability and balance \u2192 'spread to other parts of my life' \u2192 probed that \u2192 confidence \u2192 dancing, hiking, pregnancy, old age. Clean reflect-back: 'this goes much further than only losing extra pounds.'"
+          },
+          "P4": {
+            "score": "miss",
+            "checks": {
+              "P4a": "partial",
+              "P4b": "miss",
+              "P4c": "miss",
+              "P4d": "miss",
+              "P4e": "miss",
+              "P4f": "miss"
+            },
+            "evidence": "The prospect volunteered the root cause unprompted \u2014 'whenever I've gone and done any other programs, I don't even know if I'm doing this right.' The rep never asked what she had tried, what happened, or why it didn't stick. Phase effectively skipped."
+          },
+          "P5": {
+            "score": "miss",
+            "checks": {
+              "P5a": "miss",
+              "P5b": "miss",
+              "P5c": "miss",
+              "P5d": "miss"
+            },
+            "evidence": "No consequence frame at any point. Cost of inaction never made real."
+          },
+          "P6": {
+            "score": "hit",
+            "checks": {
+              "P6a": "hit",
+              "P6b": "partial",
+              "P6c": "hit"
+            },
+            "evidence": "'If you had everything that you needed, do you feel genuinely that you're going to get to your goals?' \u2192 'Yes.' \u2192 'No hesitation.' Clean verbal yes before presenting."
+          },
+          "P11": {
+            "score": "partial",
+            "checks": {
+              "P11a": "hit",
+              "P11b": "hit",
+              "P11c": "partial",
+              "P11d": "partial"
+            },
+            "evidence": "Payment confirmed live \u2014 'that went through.' Trevor call booked Monday 11:15 MT. Agreement was promised for later by email rather than signed on the call. Onboarding form mentioned as a follow-up; no Skool link or welcome-email instruction given."
+          }
+        },
+        "objection_plays": [
+          {
+            "play": "none",
+            "trigger_present": false,
+            "detail": "No money, timing, spouse, think-about-it or fear objection was ever raised. The only concern was a pregnancy plan, handled with a reframe plus the pause guarantee. This is what a pre-framed warm referral looks like."
+          }
+        ],
+        "notes": "Closed on the strength of discovery and a warm referral despite skipping phases 4 and 5 entirely. Demonstrates that a pre-sold prospect masks script gaps \u2014 which is exactly why close rate alone is a poor coaching signal."
+      }
+    },
+    {
+      "call_id": "2026-07-30_francisco-vega_richard-claessen",
+      "source": {
+        "drive_file_id": "1WAFZkUhGPNnICVmvSg3LP4JxvKZOCZFL",
+        "drive_folder": "Richard Claessen",
+        "original_title": "07/30/2026 - Impromptu Zoom Meeting",
+        "display_title": "07/30/2026 - Impromptu Zoom Meeting (Francisco Adain Vega) \u2014 Closed (unconfirmed)",
+        "file_size_bytes": 39489
+      },
+      "call": {
+        "date": "2026-07-30",
+        "stage": "closer",
+        "sequence_position": 1,
+        "duration_min_est": 33,
+        "prospect_named_in_title": false,
+        "prospect_name_recovered_from_transcript": true
+      },
+      "rep": {
+        "name": "Richard Claessen",
+        "role": "closer",
+        "location": "Bulgaria (Dutch)"
+      },
+      "setter": {
+        "code": null,
+        "name": null,
+        "confidence": "n/a",
+        "evidence": "Inbound: prospect saw Trevor's content and booked directly. 'you guys popped up yesterday as I was browsing'"
+      },
+      "prospect": {
+        "name": "Francisco Adain Vega",
+        "aka": "Paco",
+        "name_source": "transcript",
+        "location": "Orlando, Florida, USA",
+        "age": 47,
+        "occupation": null,
+        "family_status": "One daughter, age 15",
+        "height_in": 70,
+        "weight_lb": 228,
+        "target_weight_lb": 200,
+        "training_background": "Former basketball and soccer player; on-and-off gym. Dislikes gyms, prefers home training.",
+        "kettlebell_experience": "none",
+        "medical": "Thyroid treatment ~9 months, causing significant weight gain; ends approx August 2026. Knee surgery 15 years ago."
+      },
+      "avatar": {
+        "assigned": "the_rebuilder",
+        "confidence": 0.9,
+        "signals": [
+          "Health setback (thyroid treatment) caused the decline, not neglect",
+          "Explicit desire to get back to a former self rather than reach a new peak",
+          "Visible regret framing: 'I wish I could have started sooner'",
+          "Cyclical on/off history with training; names motivation as the blocker",
+          "Constrained budget \u2014 needed a payment plan to proceed"
+        ]
+      },
+      "goals": [
+        {
+          "text": "Lose 20-30 lb, from 228 down to ~200",
+          "category": "fat_loss"
+        },
+        {
+          "text": "Regain flexibility lost with age",
+          "category": "mobility"
+        },
+        {
+          "text": "Build endurance; stop tiring quickly",
+          "category": "endurance"
+        },
+        {
+          "text": "Return to competitive basketball and soccer leagues",
+          "category": "hobby_performance"
+        },
+        {
+          "text": "Build consistency and break the on-off cycle",
+          "category": "consistency"
+        },
+        {
+          "text": "Model confidence and follow-through for his 15-year-old daughter",
+          "category": "family_role_model"
+        }
+      ],
+      "pains": [
+        {
+          "text": "Knee pain and stiffness on waking; prior knee surgery",
+          "category": "injury",
+          "severity": "high"
+        },
+        {
+          "text": "Lower back pain on the right, on and off through the day, from weight compensation",
+          "category": "injury",
+          "severity": "medium"
+        },
+        {
+          "text": "Thyroid treatment drove weight gain outside his control",
+          "category": "medical",
+          "severity": "high"
+        },
+        {
+          "text": "Cannot sustain consistency \u2014 good for 2 weeks, then slacks for 2-3",
+          "category": "consistency",
+          "severity": "high"
+        },
+        {
+          "text": "Dislikes the gym; lacks home equipment",
+          "category": "training_barrier",
+          "severity": "medium"
+        },
+        {
+          "text": "Training feels like an obligation, not something he wants to do",
+          "category": "motivation",
+          "severity": "high"
+        },
+        {
+          "text": "Poor snacking \u2014 cookies, chips, several times a week",
+          "category": "nutrition_habit",
+          "severity": "low"
+        },
+        {
+          "text": "Regret about not starting sooner; audibly deflated when describing his future self",
+          "category": "emotional",
+          "severity": "medium"
+        }
+      ],
+      "objections": [
+        {
+          "type": "price",
+          "raw_quote": "It's a little over the budget that I thought, but yeah, we can look into it.",
+          "timestamp": "00:29:00",
+          "rep_response": "Isolated the objection ('do you mean you just don't have it available at the moment?'), confirmed commitment outside of price, then ran a resources qualification: available now, monthly surplus, savings, credit score.",
+          "response_tactic": "isolate_then_qualify_resources",
+          "resolved": true
+        },
+        {
+          "type": "affordability",
+          "raw_quote": "Yeah, I don't have it available at the moment, honestly.",
+          "timestamp": "00:29:13",
+          "rep_response": "Structured a live payment plan: $1,200 x 6 months, with the option to accelerate if more becomes available.",
+          "response_tactic": "structure_payment_plan_live",
+          "resolved": true
+        },
+        {
+          "type": "timing_medical",
+          "raw_quote": "I'm not done. I see the doctor in two weeks, and I'm hoping there I'll be done with the treatment.",
+          "timestamp": "00:14:22",
+          "rep_response": "Do you feel like you are able to already begin with the training and the mobility, even though it's still finishing up?",
+          "response_tactic": "test_for_real_blocker",
+          "resolved": true
+        }
+      ],
+      "offer": {
+        "presented": true,
+        "tiers": [
+          {
+            "months": 6,
+            "price_usd": 6000
+          }
+        ],
+        "payment_plan_offered": true,
+        "payment_plan_structured_live": true,
+        "payment_plan_terms": "$1,200 x 6 months",
+        "prospect_financials": {
+          "available_now_usd": 1500,
+          "monthly_surplus_usd": 800,
+          "has_savings": true,
+          "credit_score": 650
+        }
+      },
+      "outcome": {
+        "disposition": "closed",
+        "confidence": 0.62,
+        "evidence": [
+          "Payment plan agreed: rep says 'Let's get you rolling with that' \u2014 prospect: 'Yeah'",
+          "Payment link sent during the call; onboarding with Trevor tentatively set for Monday 4:15pm ET",
+          "COUNTER-EVIDENCE: transcript ends mid-flow with the prospect saying his internet is slow, then an automated voicemail message. Payment confirmation is NOT present in the transcript.",
+          "No 'it went through' confirmation, unlike the Robyn Stillwater call"
+        ],
+        "cash_collected_usd": null,
+        "cash_expected_usd": 7200,
+        "next_step": "Onboarding call with Trevor, Monday 16:15 ET \u2014 pending payment confirmation"
+      },
+      "notable": {
+        "requires_manual_verification": true,
+        "note": "This is the clearest example of why transcript-inferred outcomes need a CRM join. Verbal agreement is unambiguous, but the call cuts off before payment confirms. Flagged amber on the dashboard rather than counted as a win."
+      },
+      "quality": {
+        "diarization_reliability": "low",
+        "speaker_label_swaps_detected": true,
+        "notes": "SEVERE. Speaker labels invert repeatedly \u2014 many of the rep's discovery questions are attributed to the prospect and vice versa. Additionally the prospect's label changes mid-call from 'Francisco Adain Vega' to 'Paco's iPhone 17' when he rejoined from his phone, so a naive parser would count him as two people. All extraction here was done by reading role from content, not from labels."
+      },
+      "adherence": {
+        "adherence_pct": 87.5,
+        "points_earned": 105.0,
+        "points_possible": 120.0,
+        "phases": {
+          "P1": {
+            "score": "partial",
+            "checks": {
+              "P1a": "miss",
+              "P1b": "partial",
+              "P1c": "hit",
+              "P1d": "hit"
+            },
+            "evidence": "Set a fit-or-refer frame \u2014 'if we really fit in there, let's get you started. If not, point you in the best direction. Sounds good?' \u2014 and got agreement. Not the scripted four-part frame. Referenced the application but did not read notes back."
+          },
+          "P2": {
+            "score": "hit",
+            "checks": {
+              "P2a": "hit",
+              "P2b": "miss",
+              "P2c": "hit",
+              "P2d": "hit",
+              "P2e": "partial",
+              "P2f": "miss",
+              "P2g": "hit",
+              "P2h": "miss",
+              "P2i": "partial"
+            },
+            "evidence": "Weight 228, age 47, height 5'10\". Thyroid treatment and prior knee surgery captured. Full day-of-eating walkthrough. Missed occupation, sleep entirely, and results-from-current-training."
+          },
+          "P3": {
+            "score": "hit",
+            "checks": {
+              "P3a": "hit",
+              "P3b": "hit",
+              "P3c": "hit",
+              "P3d": "hit",
+              "P3e": "hit",
+              "P3f": "hit",
+              "P3g": "hit",
+              "P3h": "partial"
+            },
+            "evidence": "Drove from weight loss through endurance to playing competitive basketball, then to confidence, then to modelling follow-through for his 15-year-old daughter. Hit the family/identity layer the script demands. Did not do a clean 'so this isn't really about the weight' reflect-back."
+          },
+          "P4": {
+            "score": "hit",
+            "checks": {
+              "P4a": "hit",
+              "P4b": "hit",
+              "P4c": "hit",
+              "P4d": "hit",
+              "P4e": "hit",
+              "P4f": "partial"
+            },
+            "evidence": "'What do you feel is stopping you from committing to something completely?' \u2192 'not finding the right training, and motivating myself.' Then challenged it: 'Do you think trying to motivate yourself is always going to help you stick to something?'"
+          },
+          "P5": {
+            "score": "hit",
+            "checks": {
+              "P5a": "hit",
+              "P5b": "hit",
+              "P5c": "partial",
+              "P5d": "hit"
+            },
+            "evidence": "Textbook. 'Six months from now, 12 months from now, you're still in the same position... do you feel like that's something you can settle for?' \u2192 'No. I can't settle for that. That's just not what I want.' The only full consequence frame in the pilot."
+          },
+          "P6": {
+            "score": "hit",
+            "checks": {
+              "P6a": "hit",
+              "P6b": "hit",
+              "P6c": "hit"
+            },
+            "evidence": "Ran the commitment gate twice before price \u2014 'is there anything that would stop you from being able to 100% commit?' \u2192 'No, not that I can think of.' Then again after the pillars. Only presented the 6K after a clear yes."
+          },
+          "P11": {
+            "score": "partial",
+            "checks": {
+              "P11a": "partial",
+              "P11b": "hit",
+              "P11c": "miss",
+              "P11d": "miss"
+            },
+            "evidence": "Payment link sent but the call cuts to voicemail before confirmation. Trevor call set for Monday 4:15pm ET. No agreement signed on the call. No welcome email, Skool link or onboarding questionnaire instruction."
+          }
+        },
+        "objection_plays": [
+          {
+            "play": "OC",
+            "trigger_present": true,
+            "ran": "partial",
+            "detail": "Isolated correctly ('outside of the investment, ready to draw a line in the sand?'), then ran the financial picture: cash on hand $1,500, monthly leftover $800, savings yes, credit score 650. Missed the credit-card depth the script calls for \u2014 number of cards, available credit per card, used vs available \u2014 and never asked about crypto, stocks or investments. Still structured $1,200 x 6 live and got a yes."
+          }
+        ],
+        "notes": "Highest adherence in the pilot and the most complete objection handling. Also the call the script's own phase 11 failed hardest \u2014 steps 3 and 4 never happened, which is exactly why the close cannot be confirmed."
+      }
+    }
+  ]
+}

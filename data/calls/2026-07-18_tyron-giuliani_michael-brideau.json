@@ -1,0 +1,112 @@
+{
+  "call_id": "2026-07-18_tyron-giuliani_michael-brideau",
+  "source": {
+    "drive_file_id": "1CXml1kQmGKQl7i0VbQsmS1ojGE-ETwfN",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/18/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/18/2026 - Impromptu Zoom Meeting (Tyron Giuliani) — Follow Up",
+    "file_size_bytes": 19488
+  },
+  "call": {
+    "date": "2026-07-18",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Explicitly call two of a sequence — 'we ended off yesterday, we were going through the program'. The prior call is a separate transcript.",
+    "duration_min_est": 23,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": { "code": null, "name": null, "confidence": "n/a", "evidence": "No setter code in title." },
+  "prospect": {
+    "name": "Tyron Giuliani",
+    "name_source": "transcript",
+    "location": "Downtown Tokyo, Japan",
+    "age": null,
+    "occupation": null,
+    "nationality": "Australian",
+    "training_background": "Ex-army. Currently 2x/week with a personal trainer, plus chiro and physio. Lower-body and machine work.",
+    "kettlebell_experience": "none",
+    "medical": "Rotator cuff injury from army service ~30 years ago: partial anterior rotator cuff tear, labrum damage, AC joint arthritis. Herniated L5/S1 disc. Traumatic microfracture, left tibia. Currently receiving weekly hyaluronic acid injections; MRI two weeks prior shows stable. Exploring surgery."
+  },
+  "avatar": {
+    "assigned": "the_medically_constrained",
+    "confidence": 0.94,
+    "signals": [
+      "High intent and strong engagement — 'I'm excited to do this, I like Trevor'",
+      "Blocker is entirely clinical, not financial and not motivational",
+      "Has an active care team (orthopedic surgeon, physio, chiro, PT) whose advice overrides the rep's",
+      "Physio explicitly ruled out the core kettlebell movement library",
+      "Loss risk is the offer's fit, not the offer's price"
+    ]
+  },
+  "goals": [
+    { "text": "Lose weight", "category": "fat_loss" },
+    { "text": "Increase overall mobility", "category": "mobility" },
+    { "text": "Build core strength to avoid falls with age", "category": "longevity_function" },
+    { "text": "Be able to train at home on a mat in his own room", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Rotator cuff tear, labrum damage and AC joint arthritis blocking overhead loading", "category": "injury", "severity": "critical" },
+    { "text": "Herniated L5/S1 disc from army service", "category": "injury", "severity": "high" },
+    { "text": "Physio ruled out swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills and high pulls", "category": "program_fit", "severity": "critical" },
+    { "text": "Unexplained shoulder pain flare the day after the previous sales call", "category": "injury", "severity": "medium" },
+    { "text": "History of being up and down with fitness; lacks consistency", "category": "consistency", "severity": "medium" },
+    { "text": "Disappointment and deflation after the physio consult killed his excitement", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "he would avoid the stuff that I was hoping I could do, which is like the kettlebell swings, the snatches, the cleans, the Turkish get-ups, overhead presses... that's the stuff I kind of wanted to be doing more of",
+      "timestamp": "00:07:10",
+      "rep_response": "Even if we can only do 50% of what we normally would, Trevor can design a program in the right direction and you'd see an extensive transformation. Goal is longevity and sustainability.",
+      "response_tactic": "partial_value_reframe",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "is there enough value for me to just work on lower body stuff and protect the shoulder?",
+      "timestamp": "00:07:10",
+      "rep_response": "Asked him to send MRI reports and the PT's do/don't list so Trevor could assess feasibility.",
+      "response_tactic": "escalate_to_expert",
+      "resolved": false
+    },
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "You've got it stabilized at the moment, and they're not sure if me swinging around is the best idea",
+      "timestamp": "00:13:16",
+      "rep_response": "What would be the route to actually getting you back to swinging stuff around and doing the upper body stuff?",
+      "response_tactic": "path_to_yes_question",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [{ "months": 6, "price_usd": 6000 }],
+    "payment_plan_offered": false,
+    "price_discussed_this_call": false
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "evidence": [
+      "Agreed next step: prospect sends MRI reports and PT exercise list to the rep via WhatsApp",
+      "Rep to submit to Trevor for a feasibility assessment",
+      "No close attempted on this call; price never revisited",
+      "Prospect still warm — 'I'm still watching Trevor' — but says 'I was a little bit bummed'",
+      "No follow-up call actually booked, only an open-ended handoff"
+    ],
+    "cash_collected_usd": 0,
+    "next_step": "Prospect sends MRI + PT list; Trevor assesses program feasibility. No date set."
+  },
+  "notable": {
+    "no_next_call_booked": true,
+    "note": "The only one of the five where the blocker is clinical rather than commercial. Also the only one where no specific follow-up date was set — the next step depends on the prospect sending documents unprompted, which is a weak commitment."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Swaps concentrated in short exchanges. The long clinical monologue is clearly the prospect and is reliably attributed. A 3-minute silent gap at 00:09-00:13 suggests audio loss."
+  }
+}
