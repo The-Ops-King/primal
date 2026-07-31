@@ -78,7 +78,6 @@
   <div class="topbar">
     <span class="eyebrow" style="margin:0">Primal Instinct</span>
     <span>
-      <a href="./style-guide.html">Style guide</a>
       <a href="#" onclick="const r=document.documentElement;
          r.dataset.theme=r.dataset.theme==='light'?'dark':'light';return false;">Theme</a>
     </span>
@@ -237,7 +236,6 @@ function render(d){
   ${avatarSection(d)}
   ${painGoalSection(d)}
   ${callTableSection(d)}
-  ${rulesSection(d)}
 
   <footer>
     <strong>Primal Instinct call integrity audit.</strong>
@@ -252,11 +250,11 @@ function render(d){
   /* ---------- Script adherence, by section of the script ---------- */
   function scriptSection(calls, pb){
     const R = window.__D.rollups;
-    const ph = R.phases;
+    const ph = R.phases;                       // playbook order — this is a sequence
     const totEarned = ph.reduce((s,p)=>s+(p.adherence_pct??0)*p.calls_scored,0);
     const totCalls  = ph.reduce((s,p)=>s+p.calls_scored,0);
     const overall   = totCalls ? Math.round(totEarned/totCalls) : 0;
-    const weakest   = ph.filter(p=>p.adherence_pct!=null)[0];
+    const weakest   = ph.find(p=>p.phase_id===R.weakest_phase_id);
 
     const plays = R.objection_plays;
     const totTrig = plays.reduce((s,p)=>s+p.triggered,0);
@@ -265,9 +263,10 @@ function render(d){
     return `
   <h2>Script adherence by section</h2>
   <p class="sub">Every call scored against <strong>${esc(pb.name)}</strong>, then rolled up by section.
-  This answers “how are we running the script overall”, not “how did one rep do”. Sections a call could not
-  reach — a follow-up call has no baseline phase — drop out of that section's denominator rather than
-  counting as a failure.</p>
+  This answers “how are we running the script overall”, not “how did one rep do”. Listed in
+  <strong>script order</strong>, because these run as a sequence and a process is unreadable when sorted by
+  score. Sections a call could not reach — a follow-up call has no baseline phase — drop out of that
+  section's denominator rather than counting as a failure.</p>
 
   <div class="grid g4" style="margin:var(--s4) 0">
     ${stat(overall+"%","Overall adherence","across all sections")}
@@ -281,10 +280,13 @@ function render(d){
       <th>Section</th><th style="width:190px">Adherence</th>
       <th style="width:150px">Calls</th><th style="width:70px">Weight</th>
     </tr></thead>
-    <tbody>${ph.map(p=>{
+    <tbody>${ph.map((p,i)=>{
       const v=p.adherence_pct, col = v==null?"var(--muted)":v>=70?"var(--won)":v>=45?"var(--warn)":"var(--lost)";
-      return `<tr>
-        <td><strong>${esc(p.name)}</strong>
+      const isWeak = p.phase_id===R.weakest_phase_id;
+      return `<tr${isWeak?' class="warnrow"':""}>
+        <td><span class="mono" style="color:var(--muted)">${i+1}.</span>
+            <strong>${esc(p.name)}</strong>
+            ${isWeak?' <span class="tag t-lost">weakest</span>':""}
             <div style="color:var(--muted);font-size:12.5px">${esc(p.intent)}</div></td>
         <td><span class="num" style="font-size:24px;color:${col}">${v==null?"—":v+"%"}</span>
             <div class="bar"><i style="width:${v||0}%;background:${col}"></i></div></td>
@@ -299,11 +301,11 @@ function render(d){
 
   <h3 style="margin-top:var(--s6)">Down to the individual question</h3>
   <p class="sub">Which specific moves inside each section actually get run. This is the coaching list.</p>
-  ${ph.map(p=>{
+  ${ph.map((p,i)=>{
     const worst = p.checks.filter(c=>c.pct!=null).sort((a,b)=>a.pct-b.pct).slice(0,3)
                    .map(c=>c.text.slice(0,52)).join(" · ");
     return `<details>
-      <summary>${esc(p.name)} — <span style="color:${p.adherence_pct>=70?"var(--won)":p.adherence_pct>=45?"var(--warn)":"var(--lost)"}">${p.adherence_pct==null?"—":p.adherence_pct+"%"}</span>
+      <summary><span class="mono" style="color:var(--muted)">${i+1}.</span> ${esc(p.name)} — <span style="color:${p.adherence_pct>=70?"var(--won)":p.adherence_pct>=45?"var(--warn)":"var(--lost)"}">${p.adherence_pct==null?"—":p.adherence_pct+"%"}</span>
         <span style="color:var(--muted);font-weight:400"> · weakest: ${esc(worst||"n/a")}</span></summary>
       <div class="scroll" style="margin-top:var(--s3);border:none"><table style="min-width:560px">
         <thead><tr><th>Move</th><th style="width:110px">Run</th><th style="width:130px">Hit / part / miss</th></tr></thead>
@@ -399,7 +401,9 @@ function render(d){
   <p class="sub">Every pain, goal, objection, script section and individual scripted move, tested for whether
   it shows up more in deals that closed or deals that didn't. Measured per <strong>deal</strong>.
   ${D.features_tested} features tested across ${D.groups.closed} closed and ${D.groups.not_closed} non-closed
-  deals.</p>
+  deals. <strong>${esc((D.excluded_circular||[]).join(", "))}</strong> is excluded — taking payment and
+  booking onboarding is <em>how a deal gets marked closed</em>, so “closed deals did it” restates the rule
+  rather than explaining it.</p>
 
   <div class="banner" style="border-color:var(--lost);background:color-mix(in srgb,var(--lost) 8%,transparent)">
     <strong style="color:var(--lost)">At this sample size, nothing on this page can be true yet.</strong>
@@ -448,11 +452,12 @@ function render(d){
       “we should coach this” and “we should target that”.</p>
     </div>
     <div class="panel" style="border-color:var(--warn)">
-      <h3 style="color:var(--warn)">Why prospect traits are the weaker lead</h3>
-      <p style="color:var(--muted);margin:0">Pains and goals describe who walked in; script moves describe
-      what the rep did. Both can separate the groups, but only one is something you control. When the corpus
-      is large enough to trust, weight the actionable features first — and treat a pain or goal that predicts
-      outcome as a <em>targeting</em> signal for marketing rather than a coaching one.</p>
+      <h3 style="color:var(--warn)">Two different jobs, not a ranking</h3>
+      <p style="color:var(--muted);margin:0">Script moves describe what the rep <em>did</em> — those are the
+      coaching list, and they get weighted first for sales. Pains and goals describe who <em>walked in</em> —
+      those are the marketing list, and they answer a different question: what do people actually want, and
+      which of those wants brings in buyers. Neither outranks the other; they feed different teams.
+      The demand tables under Pains &amp; goals below are the marketing view.</p>
     </div>
   </div>`;
   }
@@ -519,13 +524,45 @@ function render(d){
             </div></div>`;}).join("")}</div>
       </details>`).join("");
 
+    const demandTable = (rows, tone, kindLabel) => `
+      <div class="scroll" style="margin-bottom:var(--s5)"><table>
+        <thead><tr><th>${kindLabel}</th><th style="width:130px">Demand</th>
+          <th style="width:170px">Close rate when present</th><th style="width:110px">Cash</th></tr></thead>
+        <tbody>${rows.map(b=>{
+          const ccol = b.close_rate>=60?"var(--won)":b.close_rate>=30?"var(--warn)":"var(--lost)";
+          return `<tr>
+            <td><strong style="color:${tone}">${esc(b.category.replace(/_/g," "))}</strong>
+                <div class="mono" style="color:var(--muted);font-size:11px">${esc(b.names.join(", "))}</div></td>
+            <td><span class="num" style="font-size:20px">${b.share}%</span>
+                <div class="mono" style="color:var(--muted)">${b.deals} of ${d.corpus.deals} deals</div>
+                <div class="bar"><i style="width:${b.share}%;background:${tone}"></i></div></td>
+            <td><span class="num" style="font-size:20px;color:${ccol}">${b.close_rate}%</span>
+                <div class="bar"><i style="width:${b.close_rate}%;background:${ccol}"></i></div></td>
+            <td class="mono">${b.cash?"$"+b.cash.toLocaleString():"—"}</td>
+          </tr>`;}).join("")}</tbody>
+      </table></div>`;
+
     return `
   <h2>Pains &amp; goals</h2>
   <p class="sub">
     <span style="color:var(--lost);font-weight:600">▲ PAINS</span> are what they are running from —
     what hurts today. <span style="color:var(--won);font-weight:600">● GOALS</span> are what they are
-    running toward. Both are counted across every call; open a category to see the raw language and
-    which deals it came from.</p>
+    running toward.</p>
+
+  <h3 style="margin-top:var(--s6)">Demand — what people actually want</h3>
+  <p class="sub">The marketing view. How often each want comes up across all deals, and how well the people
+  who want it convert. High demand plus a high close rate is a message to lead with; high demand plus a low
+  close rate is traffic you are attracting but not serving.</p>
+
+  <h3 style="color:var(--won);margin-top:var(--s5)">● Goals by demand</h3>
+  ${demandTable(d.rollups.demand_goals, "var(--won)", "Goal")}
+
+  <h3 style="color:var(--lost)">▲ Pains by demand</h3>
+  ${demandTable(d.rollups.demand_pains, "var(--lost)", "Pain")}
+
+  <h3 style="margin-top:var(--s6)">In their own words</h3>
+  <p class="sub">Every category with the raw language behind it. Open one to see exactly how prospects
+  phrased it and which deals it came from — this is the copy source.</p>
   <div class="grid g2">
     <div>
       <div class="panel" style="border-color:var(--lost);margin-bottom:var(--s3)">
@@ -563,54 +600,6 @@ function render(d){
   </table></div>
   <div id="pager" style="display:flex;gap:var(--s2);align-items:center;justify-content:space-between;
        margin-top:var(--s3);flex-wrap:wrap"></div>`;
-  }
-
-  /* ---------- Ingestion rules ---------- */
-  function rulesSection(d){
-    const r = d.rules, c = d.corpus;
-    const card = (title, body, meta) => `<details>
-      <summary><span style="color:var(--won)">✓</span> ${esc(title)}</summary>
-      <p style="color:var(--muted);margin:10px 0 ${meta?"8px":"0"}">${body}</p>
-      ${meta?`<div>${meta}</div>`:""}</details>`;
-
-    return `
-  <h2>Ingestion rules</h2>
-  <p class="sub">The decisions that make the corpus comparable. These are policy, applied uniformly to every
-  call — not per-call judgement. Each one was an open data-quality risk; each is now settled.</p>
-
-  ${card("Speaker labels — rep is the tagged speaker, everyone else is the prospect",
-    `Fathom tags the closer with a <span class="mono">(Primal Instinct)</span> suffix. That label identifies
-     the rep; every other label in the transcript collapses to a single prospect role. This also absorbs a
-     prospect who changes device mid-call and picks up a new label — “Paco's iPhone 17” resolves to the same
-     person, not a second participant.`,
-    `<span class="chip">handles diarization swaps</span><span class="chip">handles device changes</span>
-     <span class="chip" style="color:var(--warn);border-color:var(--warn)">talk-ratio metrics not published</span>`)}
-
-  ${card("Prospect identity — title first, then transcript",
-    `Name comes from the file title where present. For untitled “Impromptu Zoom Meeting” files it is recovered
-     from the first non-rep speaker. Names are normalised — lowercased, punctuation and device suffixes
-     stripped — and that normalised form is the deal key.`)}
-
-  ${card("Multiple calls with one prospect merge into a single deal",
-    `A deal carries the outcome of its <strong>last</strong> call chronologically, since that is the furthest
-     the conversation actually got. Cash comes from the closing call only, never summed across the sequence.
-     Adherence stays scored per call, because a discovery call and a follow-up are judged against different
-     parts of the script and averaging them would hide which part failed.`,
-    `<span class="chip">${c.deals} deals from ${c.calls_ingested} calls</span>
-     <span class="chip">${c.multi_call_deals} multi-call deal${c.multi_call_deals===1?"":"s"}</span>`)}
-
-  ${card("Junk recordings are excluded",
-    `Transcripts under <strong>${(r.junk_filter.min_file_size_bytes/1000).toFixed(1)} KB</strong> are failed or
-     aborted recordings — connection drops, no-shows, empty rooms. The corpus contains examples from 96 bytes
-     up. They are counted and reported rather than silently dropped, because a rising junk count is itself a
-     signal about recording setup.`,
-    `<span class="chip">${c.junk_excluded} excluded this run</span>`)}
-
-  ${card("Verbal agreement plus a link sent counts as closed",
-    `Where a prospect agrees to move forward and the payment link goes out, the deal is closed — even if the
-     transcript ends before payment confirms. Payment plans are recorded at contract value with the instalment
-     terms kept separately, so cash-collected and contract-value can be reported apart.`,
-    `<span class="chip" style="color:var(--warn);border-color:var(--warn)">overstates against agreed-then-never-paid</span>`)}`;
   }
 
   function stat(n,l,f){return `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div><div class="f">${f||""}</div></div>`;}

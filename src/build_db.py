@@ -420,7 +420,12 @@ def build_rollups(records, deals, playbook, adherence):
             "not_applicable": p["not_applicable"],
             "calls_scored": int(p["possible"]), "checks": kids,
         })
-    phase_rollup.sort(key=lambda x: (x["adherence_pct"] is None, x["adherence_pct"]))
+    # Left in playbook order — these are sections of a script that runs in
+    # sequence, so reordering them by score makes the table unreadable as a
+    # process. The weakest is surfaced separately instead.
+    ranked = sorted((p for p in phase_rollup if p["adherence_pct"] is not None),
+                    key=lambda x: x["adherence_pct"])
+    weakest_id = ranked[0]["phase_id"] if ranked else None
 
     # ---- objection play rollup ----
     play_meta = {p["id"]: p for p in playbook.get("objection_plays", [])}
@@ -473,12 +478,41 @@ def build_rollups(records, deals, playbook, adherence):
             b["calls"] = len(b["calls"])
         return sorted(out.values(), key=lambda x: -x["count"])
 
+    # ---- demand rollup: what prospects actually want, for marketing ----
+    # Deal-level so "close rate when present" is meaningful. This is the
+    # targeting view: which stated goals and pains bring in people who buy.
+    def demand(kind):
+        by_deal = {}
+        call_index = {r["call_id"]: r for r in records}
+        for d in deals:
+            cats = set()
+            for cid in d["call_ids"]:
+                for item in call_index[cid].get(kind, []):
+                    if item.get("category"):
+                        cats.add(item["category"])
+            for cat in cats:
+                b = by_deal.setdefault(cat, {"category": cat, "deals": 0, "closed": 0,
+                                             "cash": 0.0, "names": []})
+                b["deals"] += 1
+                b["names"].append(d["prospect_name"])
+                if d["disposition"] == "closed":
+                    b["closed"] += 1
+                    b["cash"] += d["cash_usd"] or 0
+        n = len(deals) or 1
+        for b in by_deal.values():
+            b["share"] = round(b["deals"] / n * 100)
+            b["close_rate"] = round(b["closed"] / b["deals"] * 100) if b["deals"] else 0
+        return sorted(by_deal.values(), key=lambda x: (-x["deals"], -x["close_rate"]))
+
     return {
         "phases": phase_rollup,
+        "weakest_phase_id": weakest_id,
         "objection_plays": play_rollup,
         "avatars": avatar_rollup,
         "pains": bucket("pains"),
         "goals": bucket("goals"),
+        "demand_goals": demand("goals"),
+        "demand_pains": demand("pains"),
     }
 
 
@@ -507,6 +541,20 @@ def build_discriminators(records, deals, playbook, adherence):
     phase_name = {p["id"]: p["name"] for p in playbook["phases"]}
     adh = {e["call_id"]: e for e in adherence["calls"]}
     by_call = {r["call_id"]: r for r in records}
+
+    # CIRCULAR FEATURES — excluded, not ranked.
+    # Phase 11 is Payment & Onboarding. It is only reachable when a rep is
+    # closing, and taking payment / booking onboarding is part of how a deal
+    # gets marked closed in the first place. So "closed deals ran phase 11"
+    # is a restatement of the close rule, not a finding about it. Leaving it
+    # in would put a guaranteed 100%-vs-0% row at the top of the table and
+    # crowd out the features that actually carry information.
+    CIRCULAR_PHASES = {"P11"}
+    circular = {("phase", p) for p in CIRCULAR_PHASES} | \
+               {("phase_full", p) for p in CIRCULAR_PHASES} | \
+               {("check", cid) for cid, pid in
+                {c["id"]: p["id"] for p in playbook["phases"] for c in p.get("checks", [])}.items()
+                if pid in CIRCULAR_PHASES}
 
     # feature sets per deal
     feats, outcome = {}, {}
@@ -566,7 +614,7 @@ def build_discriminators(records, deals, playbook, adherence):
         "structural": lambda k: k.replace("_", " ").capitalize(),
     }
 
-    universe = sorted({f for s in feats.values() for f in s})
+    universe = sorted({f for s in feats.values() for f in s} - circular)
     rows = []
     for kind, key in universe:
         a = sum(1 for d in closed if (kind, key) in feats[d])
@@ -639,6 +687,8 @@ def build_discriminators(records, deals, playbook, adherence):
         "expected_perfect_by_chance": round(expected_noise, 1),
         "p_floor": round(p_floor, 4),
         "deals_needed_for_significance": deals_needed,
+        "excluded_circular": sorted(
+            {f"{phase_name.get(p, p)} (section {p})" for p in CIRCULAR_PHASES}),
         "min_p": min([r["p_enriched"] for r in rows], default=1.0),
         "top_favours_close": [r for r in rows if r["diff"] > 0][:40],
         "top_favours_loss": [r for r in rows if r["diff"] < 0][:40],

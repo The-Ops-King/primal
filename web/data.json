@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:59:29.329783+00:00",
+  "generated_at": "2026-07-31T18:06:06.740723+00:00",
   "corpus": {
     "calls_ingested": 5,
     "deals": 5,
@@ -357,56 +357,6 @@
   "rollups": {
     "phases": [
       {
-        "phase_id": "P5",
-        "name": "Consequence Frame",
-        "intent": "Make the cost of inaction real.",
-        "weight": 20,
-        "adherence_pct": 20.0,
-        "hit": 1,
-        "partial": 0,
-        "miss": 4,
-        "not_applicable": 0,
-        "calls_scored": 5,
-        "checks": [
-          {
-            "check_id": "P5a",
-            "text": "'If nothing changes \u2014 what does life look like over the next two years?'",
-            "hit": 1,
-            "partial": 0,
-            "miss": 4,
-            "not_applicable": 0,
-            "pct": 20.0
-          },
-          {
-            "check_id": "P5b",
-            "text": "'Is that something you're willing to settle for?'",
-            "hit": 1,
-            "partial": 0,
-            "miss": 4,
-            "not_applicable": 0,
-            "pct": 20.0
-          },
-          {
-            "check_id": "P5c",
-            "text": "'Why not?'",
-            "hit": 0,
-            "partial": 1,
-            "miss": 4,
-            "not_applicable": 0,
-            "pct": 10.0
-          },
-          {
-            "check_id": "P5d",
-            "text": "'Are you ready to draw a line in the sand on this?'",
-            "hit": 1,
-            "partial": 0,
-            "miss": 4,
-            "not_applicable": 0,
-            "pct": 20.0
-          }
-        ]
-      },
-      {
         "phase_id": "P1",
         "name": "Open & Frame",
         "intent": "Establish safety, set expectations.",
@@ -552,6 +502,92 @@
         ]
       },
       {
+        "phase_id": "P3",
+        "name": "Goals \u2014 Surface to Deep",
+        "intent": "Move from what to WHY. This is where the real buying decision is made.",
+        "weight": 20,
+        "adherence_pct": 70.0,
+        "hit": 3,
+        "partial": 1,
+        "miss": 1,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P3a",
+            "text": "Aesthetics & function: what would you change, one thing",
+            "hit": 5,
+            "partial": 0,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 100.0
+          },
+          {
+            "check_id": "P3b",
+            "text": "Mobility, strength, energy \u2014 or something else",
+            "hit": 5,
+            "partial": 0,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 100.0
+          },
+          {
+            "check_id": "P3c",
+            "text": "Something physical you want to do but can't right now",
+            "hit": 3,
+            "partial": 1,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 70.0
+          },
+          {
+            "check_id": "P3d",
+            "text": "Bridge: 'Outside of the physical, what's actually driving this right now?'",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3e",
+            "text": "'When you're moving better, what does that actually do for you?'",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3f",
+            "text": "'Who else does that impact?'",
+            "hit": 2,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P3g",
+            "text": "Drive through to kids, marriage, legacy, identity or longevity",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3h",
+            "text": "Reflect back: 'So this isn't really about the weight \u2014 it's about X. Is that right?'",
+            "hit": 2,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          }
+        ]
+      },
+      {
         "phase_id": "P4",
         "name": "Past Attempts & Root Cause",
         "intent": "Problem isn't effort \u2014 it's structure.",
@@ -616,6 +652,56 @@
             "miss": 2,
             "not_applicable": 0,
             "pct": 37.5
+          }
+        ]
+      },
+      {
+        "phase_id": "P5",
+        "name": "Consequence Frame",
+        "intent": "Make the cost of inaction real.",
+        "weight": 20,
+        "adherence_pct": 20.0,
+        "hit": 1,
+        "partial": 0,
+        "miss": 4,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P5a",
+            "text": "'If nothing changes \u2014 what does life look like over the next two years?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
+          },
+          {
+            "check_id": "P5b",
+            "text": "'Is that something you're willing to settle for?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
+          },
+          {
+            "check_id": "P5c",
+            "text": "'Why not?'",
+            "hit": 0,
+            "partial": 1,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 10.0
+          },
+          {
+            "check_id": "P5d",
+            "text": "'Are you ready to draw a line in the sand on this?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
           }
         ]
       },
@@ -709,94 +795,9 @@
             "pct": 25.0
           }
         ]
-      },
-      {
-        "phase_id": "P3",
-        "name": "Goals \u2014 Surface to Deep",
-        "intent": "Move from what to WHY. This is where the real buying decision is made.",
-        "weight": 20,
-        "adherence_pct": 70.0,
-        "hit": 3,
-        "partial": 1,
-        "miss": 1,
-        "not_applicable": 0,
-        "calls_scored": 5,
-        "checks": [
-          {
-            "check_id": "P3a",
-            "text": "Aesthetics & function: what would you change, one thing",
-            "hit": 5,
-            "partial": 0,
-            "miss": 0,
-            "not_applicable": 0,
-            "pct": 100.0
-          },
-          {
-            "check_id": "P3b",
-            "text": "Mobility, strength, energy \u2014 or something else",
-            "hit": 5,
-            "partial": 0,
-            "miss": 0,
-            "not_applicable": 0,
-            "pct": 100.0
-          },
-          {
-            "check_id": "P3c",
-            "text": "Something physical you want to do but can't right now",
-            "hit": 3,
-            "partial": 1,
-            "miss": 1,
-            "not_applicable": 0,
-            "pct": 70.0
-          },
-          {
-            "check_id": "P3d",
-            "text": "Bridge: 'Outside of the physical, what's actually driving this right now?'",
-            "hit": 3,
-            "partial": 0,
-            "miss": 2,
-            "not_applicable": 0,
-            "pct": 60.0
-          },
-          {
-            "check_id": "P3e",
-            "text": "'When you're moving better, what does that actually do for you?'",
-            "hit": 3,
-            "partial": 0,
-            "miss": 2,
-            "not_applicable": 0,
-            "pct": 60.0
-          },
-          {
-            "check_id": "P3f",
-            "text": "'Who else does that impact?'",
-            "hit": 2,
-            "partial": 1,
-            "miss": 2,
-            "not_applicable": 0,
-            "pct": 50.0
-          },
-          {
-            "check_id": "P3g",
-            "text": "Drive through to kids, marriage, legacy, identity or longevity",
-            "hit": 3,
-            "partial": 0,
-            "miss": 2,
-            "not_applicable": 0,
-            "pct": 60.0
-          },
-          {
-            "check_id": "P3h",
-            "text": "Reflect back: 'So this isn't really about the weight \u2014 it's about X. Is that right?'",
-            "hit": 2,
-            "partial": 1,
-            "miss": 2,
-            "not_applicable": 0,
-            "pct": 50.0
-          }
-        ]
       }
     ],
+    "weakest_phase_id": "P5",
     "objection_plays": [
       {
         "play": "OC",
@@ -1567,38 +1568,397 @@
         ]
       }
     ],
+    "demand_goals": [
+      {
+        "category": "fat_loss",
+        "deals": 4,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Badrane Hriouch",
+          "Francisco Adain Vega",
+          "Tristian Clunis",
+          "Tyron Giuliani"
+        ],
+        "share": 80,
+        "close_rate": 25
+      },
+      {
+        "category": "mobility",
+        "deals": 4,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Badrane Hriouch",
+          "Francisco Adain Vega",
+          "Tristian Clunis",
+          "Tyron Giuliani"
+        ],
+        "share": 80,
+        "close_rate": 25
+      },
+      {
+        "category": "hobby_performance",
+        "deals": 2,
+        "closed": 2,
+        "cash": 13200.0,
+        "names": [
+          "Francisco Adain Vega",
+          "Robyn Stillwater"
+        ],
+        "share": 40,
+        "close_rate": 100
+      },
+      {
+        "category": "longevity_function",
+        "deals": 2,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater",
+          "Tyron Giuliani"
+        ],
+        "share": 40,
+        "close_rate": 50
+      },
+      {
+        "category": "muscle_gain",
+        "deals": 2,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Badrane Hriouch",
+          "Tristian Clunis"
+        ],
+        "share": 40,
+        "close_rate": 0
+      },
+      {
+        "category": "endurance",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "family_role_model",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "consistency",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "confidence",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "injury_confidence",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "pregnancy_prep",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "injury_prevention",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Badrane Hriouch"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "energy_performance",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Badrane Hriouch"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "longevity_family",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "relationship",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "sustainability",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "convenience",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tyron Giuliani"
+        ],
+        "share": 20,
+        "close_rate": 0
+      }
+    ],
+    "demand_pains": [
+      {
+        "category": "injury",
+        "deals": 4,
+        "closed": 2,
+        "cash": 13200.0,
+        "names": [
+          "Badrane Hriouch",
+          "Francisco Adain Vega",
+          "Robyn Stillwater",
+          "Tyron Giuliani"
+        ],
+        "share": 80,
+        "close_rate": 50
+      },
+      {
+        "category": "nutrition_habit",
+        "deals": 3,
+        "closed": 2,
+        "cash": 13200.0,
+        "names": [
+          "Badrane Hriouch",
+          "Francisco Adain Vega",
+          "Robyn Stillwater"
+        ],
+        "share": 60,
+        "close_rate": 67
+      },
+      {
+        "category": "consistency",
+        "deals": 3,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega",
+          "Tristian Clunis",
+          "Tyron Giuliani"
+        ],
+        "share": 60,
+        "close_rate": 33
+      },
+      {
+        "category": "training_barrier",
+        "deals": 2,
+        "closed": 2,
+        "cash": 13200.0,
+        "names": [
+          "Francisco Adain Vega",
+          "Robyn Stillwater"
+        ],
+        "share": 40,
+        "close_rate": 100
+      },
+      {
+        "category": "emotional",
+        "deals": 2,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega",
+          "Tyron Giuliani"
+        ],
+        "share": 40,
+        "close_rate": 50
+      },
+      {
+        "category": "training_dissatisfaction",
+        "deals": 2,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Badrane Hriouch",
+          "Tristian Clunis"
+        ],
+        "share": 40,
+        "close_rate": 0
+      },
+      {
+        "category": "medical",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "motivation",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "competence_anxiety",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "sleep",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "mental_health",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "fragmented_solutions",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "aging",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "accountability_gap",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "program_fit",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tyron Giuliani"
+        ],
+        "share": 20,
+        "close_rate": 0
+      }
+    ],
     "discriminators": {
       "groups": {
         "closed": 2,
         "not_closed": 3,
         "lost": 1
       },
-      "features_tested": 102,
-      "perfect_separators": 10,
-      "expected_perfect_by_chance": 2.4,
+      "features_tested": 99,
+      "perfect_separators": 8,
+      "expected_perfect_by_chance": 2.2,
       "p_floor": 0.1,
       "deals_needed_for_significance": 7,
+      "excluded_circular": [
+        "Payment & Onboarding (section P11)"
+      ],
       "min_p": 0.1,
       "top_favours_close": [
-        {
-          "kind": "check",
-          "key": "P11b",
-          "label": "Payment & Onboarding \u2192 Step 2 \u2014 Schedule the onboarding call with Trevor",
-          "closed_with": 2,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 100,
-          "other_pct": 0,
-          "diff": 100,
-          "support": 2,
-          "p_enriched": 0.1,
-          "p_depleted": 1.0,
-          "perfect": true,
-          "statement": "Every closed deal (2/2) had this. No non-closed deal did (0/3)."
-        },
         {
           "kind": "check",
           "key": "P2c",
@@ -1679,25 +2039,6 @@
           "kind": "pain",
           "key": "training_barrier",
           "label": "Pain: training barrier",
-          "closed_with": 2,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 100,
-          "other_pct": 0,
-          "diff": 100,
-          "support": 2,
-          "p_enriched": 0.1,
-          "p_depleted": 1.0,
-          "perfect": true,
-          "statement": "Every closed deal (2/2) had this. No non-closed deal did (0/3)."
-        },
-        {
-          "kind": "phase",
-          "key": "P11",
-          "label": "Ran section: Payment & Onboarding",
           "closed_with": 2,
           "closed_n": 2,
           "other_with": 0,
@@ -1940,25 +2281,6 @@
           "p_depleted": 1.0,
           "perfect": false,
           "statement": "100% of closed (2/2) vs 33% of non-closed (1/3)."
-        },
-        {
-          "kind": "check",
-          "key": "P11a",
-          "label": "Payment & Onboarding \u2192 Step 1 \u2014 Collect payment",
-          "closed_with": 1,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 50,
-          "other_pct": 0,
-          "diff": 50,
-          "support": 1,
-          "p_enriched": 0.4,
-          "p_depleted": 1.0,
-          "perfect": false,
-          "statement": "50% of closed (1/2) vs 0% of non-closed (0/3)."
         },
         {
           "kind": "check",
@@ -2325,6 +2647,63 @@
           "kind": "objection_resolved",
           "key": "affordability",
           "label": "Objection resolved: affordability",
+          "closed_with": 1,
+          "closed_n": 2,
+          "other_with": 0,
+          "other_n": 3,
+          "lost_with": 0,
+          "lost_n": 1,
+          "closed_pct": 50,
+          "other_pct": 0,
+          "diff": 50,
+          "support": 1,
+          "p_enriched": 0.4,
+          "p_depleted": 1.0,
+          "perfect": false,
+          "statement": "50% of closed (1/2) vs 0% of non-closed (0/3)."
+        },
+        {
+          "kind": "objection_resolved",
+          "key": "life_event_conflict",
+          "label": "Objection resolved: life event conflict",
+          "closed_with": 1,
+          "closed_n": 2,
+          "other_with": 0,
+          "other_n": 3,
+          "lost_with": 0,
+          "lost_n": 1,
+          "closed_pct": 50,
+          "other_pct": 0,
+          "diff": 50,
+          "support": 1,
+          "p_enriched": 0.4,
+          "p_depleted": 1.0,
+          "perfect": false,
+          "statement": "50% of closed (1/2) vs 0% of non-closed (0/3)."
+        },
+        {
+          "kind": "objection_resolved",
+          "key": "price",
+          "label": "Objection resolved: price",
+          "closed_with": 1,
+          "closed_n": 2,
+          "other_with": 0,
+          "other_n": 3,
+          "lost_with": 0,
+          "lost_n": 1,
+          "closed_pct": 50,
+          "other_pct": 0,
+          "diff": 50,
+          "support": 1,
+          "p_enriched": 0.4,
+          "p_depleted": 1.0,
+          "perfect": false,
+          "statement": "50% of closed (1/2) vs 0% of non-closed (0/3)."
+        },
+        {
+          "kind": "objection_resolved",
+          "key": "timing_medical",
+          "label": "Objection resolved: timing medical",
           "closed_with": 1,
           "closed_n": 2,
           "other_with": 0,
@@ -2973,25 +3352,6 @@
       "all": [
         {
           "kind": "check",
-          "key": "P11b",
-          "label": "Payment & Onboarding \u2192 Step 2 \u2014 Schedule the onboarding call with Trevor",
-          "closed_with": 2,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 100,
-          "other_pct": 0,
-          "diff": 100,
-          "support": 2,
-          "p_enriched": 0.1,
-          "p_depleted": 1.0,
-          "perfect": true,
-          "statement": "Every closed deal (2/2) had this. No non-closed deal did (0/3)."
-        },
-        {
-          "kind": "check",
           "key": "P2c",
           "label": "Baseline \u2192 Health conditions, own or hereditary",
           "closed_with": 2,
@@ -3070,25 +3430,6 @@
           "kind": "pain",
           "key": "training_barrier",
           "label": "Pain: training barrier",
-          "closed_with": 2,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 100,
-          "other_pct": 0,
-          "diff": 100,
-          "support": 2,
-          "p_enriched": 0.1,
-          "p_depleted": 1.0,
-          "perfect": true,
-          "statement": "Every closed deal (2/2) had this. No non-closed deal did (0/3)."
-        },
-        {
-          "kind": "phase",
-          "key": "P11",
-          "label": "Ran section: Payment & Onboarding",
           "closed_with": 2,
           "closed_n": 2,
           "other_with": 0,
@@ -3426,25 +3767,6 @@
           "p_depleted": 0.4,
           "perfect": false,
           "statement": "50% of closed (1/2) vs 100% of non-closed (3/3)."
-        },
-        {
-          "kind": "check",
-          "key": "P11a",
-          "label": "Payment & Onboarding \u2192 Step 1 \u2014 Collect payment",
-          "closed_with": 1,
-          "closed_n": 2,
-          "other_with": 0,
-          "other_n": 3,
-          "lost_with": 0,
-          "lost_n": 1,
-          "closed_pct": 50,
-          "other_pct": 0,
-          "diff": 50,
-          "support": 1,
-          "p_enriched": 0.4,
-          "p_depleted": 1.0,
-          "perfect": false,
-          "statement": "50% of closed (1/2) vs 0% of non-closed (0/3)."
         },
         {
           "kind": "check",
