@@ -1,0 +1,67 @@
+{
+  "note": "The ICP as Primal states it on live calls, set against who actually appears in the corpus. The stated definition is quoted verbatim from a recorded call, not paraphrased from a marketing document, so it reflects what prospects are actually told.",
+  "stated": {
+    "source_call": "2026-06-09_badrane-hriouch_harry-edmonds",
+    "source_rep": "Harry Edmonds",
+    "timestamp": "00:10:55",
+    "quote": "The prospects we deal with are people who are already good in their life, they're successful, they own their own business, or they're a physician, something along those lines, they make good money, but health is the thing that has more so been neglected. They're still good, but they're kind of wanting to go from good to great. It's not like we have dudes who come here who are 50 pounds overweight, who are just like, I need to just lose weight and I hate working out.",
+    "criteria": [
+      { "id": "successful", "label": "Already successful — business owner, physician or equivalent", "test": "occupation" },
+      { "id": "income", "label": "Makes good money", "test": "affordability" },
+      { "id": "neglected_health", "label": "Health is the neglected area, not a crisis", "test": "severity" },
+      { "id": "good_to_great", "label": "Wants good → great, not rescue", "test": "starting_point" },
+      { "id": "not_deconditioned", "label": "NOT 50 lb overweight and gym-averse", "test": "exclusion" }
+    ]
+  },
+  "assessments": [
+    {
+      "call_id": "2026-05-14_tristian-clunis_farooq-bey",
+      "fit": "core",
+      "matches": ["successful", "income", "neglected_health", "good_to_great"],
+      "misses": [],
+      "note": "Realtor, 40, married 16 years, 18% body fat training 5-6x/week, has business coaches. The textbook case — explicitly wants good to great."
+    },
+    {
+      "call_id": "2026-06-09_badrane-hriouch_harry-edmonds",
+      "fit": "edge",
+      "matches": ["successful", "good_to_great"],
+      "misses": ["income"],
+      "note": "Retail business owner and self-described salesman, highly active. Fits on profile but not on willingness to pay — anchored at $200/mo. The rep recognised this live and disqualified rather than discounted."
+    },
+    {
+      "call_id": "2026-07-23_robyn-stillwater_andrew-musial",
+      "fit": "outside",
+      "matches": ["good_to_great"],
+      "misses": ["successful", "income"],
+      "note": "Not currently working; the purchase runs through her partner, an existing client. Falls outside the stated ICP on both occupation and income — and closed at full price. The clearest evidence that the stated ICP is narrower than the buying population."
+    },
+    {
+      "call_id": "2026-07-30_francisco-vega_richard-claessen",
+      "fit": "edge",
+      "matches": ["neglected_health"],
+      "misses": ["income", "good_to_great"],
+      "note": "47, 228 lb targeting 200, mid-thyroid-treatment, needed a payment plan and disclosed constrained finances. Closer to rescue than to good-to-great. Closed on instalments."
+    },
+    {
+      "call_id": "2026-07-18_tyron-giuliani_michael-brideau",
+      "fit": "edge",
+      "matches": ["successful", "income", "good_to_great"],
+      "misses": ["not_deconditioned"],
+      "note": "Ex-army, Tokyo, already funding a PT, chiro and physio. Fits commercially but the body does not fit the programme — the exclusion that matters here is clinical, and the stated ICP has no clinical criterion at all."
+    }
+  ],
+  "observations": [
+    {
+      "finding": "The stated ICP has no clinical criterion",
+      "detail": "It screens on success, income and starting point, but not on whether the body can perform loaded overhead kettlebell work. That is the one thing the programme structurally requires, and it is the criterion that lost a well-qualified, well-funded prospect."
+    },
+    {
+      "finding": "The buying population is wider than the stated ICP",
+      "detail": "Of the two deals that closed, one falls outside the stated ICP entirely on occupation and income. If that holds at scale, the ICP is describing the aspiration rather than the customer."
+    },
+    {
+      "finding": "'Makes good money' is doing the work that a payment plan already solves",
+      "detail": "One close needed instalments and was disclosed as financially constrained. Income screening may be filtering out deals the payment plan could have carried."
+    }
+  ]
+}

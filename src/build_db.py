@@ -696,6 +696,198 @@ def build_discriminators(records, deals, playbook, adherence):
     }
 
 
+FUNNEL = [
+    ("connected",   "Call connected"),
+    ("discovery",   "Discovery run"),
+    ("deep_why",    "Deep why reached"),
+    ("commitment",  "Commitment secured"),
+    ("offer",       "Offer presented"),
+    ("price",       "Price stated"),
+    ("objection",   "Objection cleared"),
+    ("close",       "Close attempted"),
+    ("closed",      "Closed"),
+]
+
+
+def build_offer_signals(records, deals, playbook, adherence, signals, icp):
+    """Offer-side and funnel rollups: where deals die, duration vs outcome,
+    price anchors, pillar reactions, unmet demand, ICP fit and offer
+    consistency."""
+    adh = {e["call_id"]: e for e in adherence["calls"]}
+    sig = {e["call_id"]: e for e in signals["calls"]}
+    by_call = {r["call_id"]: r for r in records}
+
+    def stage_of(call):
+        """Furthest funnel stage a single call reached."""
+        cid = call["call_id"]
+        a = adh.get(cid, {}).get("phases", {})
+        got = lambda pid, *ok: a.get(pid, {}).get("score") in ok
+        offer = call.get("offer", {})
+        objs = call.get("objections", [])
+        reached = 1                                            # connected
+        if got("P2", "hit", "partial") or got("P3", "hit", "partial"):
+            reached = 2
+        if got("P3", "hit"):
+            reached = 3
+        if got("P6", "hit", "partial"):
+            reached = 4
+        if offer.get("presented"):
+            reached = max(reached, 5)
+        if offer.get("tiers"):
+            reached = max(reached, 6)
+        blocking = [o for o in objs if not o.get("resolved")]
+        if offer.get("tiers") and not blocking:
+            reached = max(reached, 7)
+        if a.get("P11", {}).get("score") not in (None, "not_applicable"):
+            reached = max(reached, 8)
+        if call["outcome"]["disposition"] == "closed":
+            reached = 9
+        return reached
+
+    # deal-level furthest stage = best any of its calls got to
+    deal_stage = {}
+    for d in deals:
+        deal_stage[d["deal_id"]] = max(stage_of(by_call[c]) for c in d["call_ids"])
+
+    funnel = []
+    total = len(deals) or 1
+    for i, (key, label) in enumerate(FUNNEL, start=1):
+        reached = sum(1 for s in deal_stage.values() if s >= i)
+        died = sum(1 for s in deal_stage.values() if s == i) if i < len(FUNNEL) else 0
+        funnel.append({
+            "stage": i, "key": key, "label": label,
+            "reached": reached, "pct": round(reached / total * 100),
+            "died_here": died,
+            "deals_died": [d["prospect_name"] for d in deals
+                           if deal_stage[d["deal_id"]] == i and i < len(FUNNEL)],
+        })
+
+    # ---- duration vs outcome ----
+    duration = sorted(
+        ({"prospect": r["prospect"]["name"], "rep": r["rep"]["name"],
+          "minutes": r["call"].get("duration_min_est"),
+          "disposition": r["outcome"]["disposition"],
+          "stage": stage_of(r)}
+         for r in records if r["call"].get("duration_min_est")),
+        key=lambda x: -x["minutes"])
+    closed_mins = [x["minutes"] for x in duration if x["disposition"] == "closed"]
+    other_mins = [x["minutes"] for x in duration if x["disposition"] != "closed"]
+    duration_summary = {
+        "closed_avg": round(sum(closed_mins) / len(closed_mins)) if closed_mins else None,
+        "other_avg": round(sum(other_mins) / len(other_mins)) if other_mins else None,
+        "longest": duration[0] if duration else None,
+        "shortest": duration[-1] if duration else None,
+    }
+
+    # ---- pillar reactions ----
+    pmeta = {p["id"]: p for p in signals["pillars"]}
+    pill = {}
+    for e in signals["calls"]:
+        disp = by_call[e["call_id"]]["outcome"]["disposition"]
+        for pr in e.get("pillar_reactions", []):
+            b = pill.setdefault(pr["pillar"], {
+                "pillar": pr["pillar"], "name": pmeta[pr["pillar"]]["name"],
+                "order": pmeta[pr["pillar"]]["order"], "reactions": {}, "items": []})
+            b["reactions"][pr["reaction"]] = b["reactions"].get(pr["reaction"], 0) + 1
+            b["items"].append({**pr, "disposition": disp,
+                               "prospect": by_call[e["call_id"]]["prospect"]["name"]})
+    for b in pill.values():
+        shown = sum(v for k, v in b["reactions"].items() if k != "not_presented")
+        friction = b["reactions"].get("confused", 0) + b["reactions"].get("objected", 0)
+        b["presented"] = shown
+        b["friction"] = friction
+        b["friction_pct"] = round(friction / shown * 100) if shown else 0
+        b["clean_pct"] = round((b["reactions"].get("accepted", 0)
+                                + b["reactions"].get("enthusiastic", 0)) / shown * 100) if shown else 0
+    pillars = sorted(pill.values(), key=lambda x: x["order"])
+
+    # ---- anchors ----
+    anchors = []
+    for e in signals["calls"]:
+        r = by_call[e["call_id"]]
+        for a in e.get("anchors", []):
+            anchors.append({**a, "prospect": r["prospect"]["name"],
+                            "disposition": r["outcome"]["disposition"]})
+    anchor_dirs = {}
+    for a in anchors:
+        k = a["direction"]
+        g = anchor_dirs.setdefault(k, {"direction": k, "n": 0, "closed": 0})
+        g["n"] += 1
+        if a["disposition"] == "closed":
+            g["closed"] += 1
+    for g in anchor_dirs.values():
+        g["close_rate"] = round(g["closed"] / g["n"] * 100) if g["n"] else 0
+
+    # ---- unmet demand ----
+    unmet = []
+    for e in signals["calls"]:
+        r = by_call[e["call_id"]]
+        for u in e.get("unmet_demand", []):
+            unmet.append({**u, "prospect": r["prospect"]["name"],
+                          "disposition": r["outcome"]["disposition"]})
+    unmet_by_verdict = {}
+    for u in unmet:
+        unmet_by_verdict.setdefault(u["verdict"], []).append(u)
+
+    # ---- offer consistency ----
+    guarantees, tiers_seen = [], {}
+    for r in records:
+        g = r.get("offer", {}).get("guarantee_mentioned")
+        guarantees.append({"rep": r["rep"]["name"], "guarantee": g,
+                           "presented": bool(r.get("offer", {}).get("presented"))})
+        for t in r.get("offer", {}).get("tiers", []):
+            tiers_seen.setdefault(t["months"], {"months": t["months"],
+                                                "price_usd": t["price_usd"], "calls": 0})
+            tiers_seen[t["months"]]["calls"] += 1
+    distinct_g = {g["guarantee"] for g in guarantees if g["guarantee"]}
+    consistency = {
+        "guarantees": guarantees,
+        "distinct_versions": len(distinct_g),
+        "never_mentioned": sum(1 for g in guarantees if not g["guarantee"]),
+        "calls_with_offer": sum(1 for g in guarantees if g["presented"]),
+        "tiers": sorted(tiers_seen.values(), key=lambda x: x["months"]),
+        "total_calls": len(records),
+    }
+
+    # ---- ICP ----
+    fit_counts = {}
+    for a in icp["assessments"]:
+        cid = a["call_id"]
+        disp = by_call[cid]["outcome"]["disposition"] if cid in by_call else None
+        b = fit_counts.setdefault(a["fit"], {"fit": a["fit"], "n": 0, "closed": 0, "who": []})
+        b["n"] += 1
+        b["who"].append(by_call[cid]["prospect"]["name"] if cid in by_call else cid)
+        if disp == "closed":
+            b["closed"] += 1
+    for b in fit_counts.values():
+        b["close_rate"] = round(b["closed"] / b["n"] * 100) if b["n"] else 0
+    icp_out = {
+        "stated": icp["stated"],
+        "fit_counts": sorted(fit_counts.values(),
+                             key=lambda x: {"core": 0, "edge": 1, "outside": 2}.get(x["fit"], 3)),
+        "assessments": [{**a,
+                         "prospect": by_call[a["call_id"]]["prospect"]["name"]
+                         if a["call_id"] in by_call else a["call_id"],
+                         "disposition": by_call[a["call_id"]]["outcome"]["disposition"]
+                         if a["call_id"] in by_call else None}
+                        for a in icp["assessments"]],
+        "observations": icp["observations"],
+    }
+
+    return {
+        "funnel": funnel,
+        "duration": duration,
+        "duration_summary": duration_summary,
+        "pillars": pillars,
+        "anchors": anchors,
+        "anchor_directions": sorted(anchor_dirs.values(), key=lambda x: -x["n"]),
+        "unmet_demand": unmet,
+        "unmet_by_verdict": unmet_by_verdict,
+        "offer_consistency": consistency,
+        "icp": icp_out,
+    }
+
+
 def _band(v, edges, fmt="${:,.0f}"):
     """Bucket a number into a labelled range."""
     if v is None:
@@ -825,6 +1017,8 @@ def main():
     playbook = load_json(ROOT / "data" / "playbook.json")
     adherence = load_json(ROOT / "data" / "scores" / "adherence.json")
     rules = load_json(ROOT / "data" / "rules.json")
+    signals = load_json(ROOT / "data" / "signals.json")
+    icp = load_json(ROOT / "data" / "icp.json")
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     WEB_DATA.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
@@ -849,6 +1043,7 @@ def main():
 
     rollups = build_rollups(records, deals, playbook, adherence)
     rollups["discriminators"] = build_discriminators(records, deals, playbook, adherence)
+    rollups.update(build_offer_signals(records, deals, playbook, adherence, signals, icp))
 
     counts = {
         t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]

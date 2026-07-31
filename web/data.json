@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:32:38.524139+00:00",
+  "generated_at": "2026-07-31T18:48:39.043245+00:00",
   "corpus": {
     "calls_ingested": 5,
     "deals": 5,
@@ -1634,17 +1634,6 @@
         "close_rate": 0
       },
       {
-        "category": "family_role_model",
-        "deals": 1,
-        "closed": 1,
-        "cash": 7200.0,
-        "names": [
-          "Francisco V."
-        ],
-        "share": 20,
-        "close_rate": 100
-      },
-      {
         "category": "endurance",
         "deals": 1,
         "closed": 1,
@@ -1667,12 +1656,12 @@
         "close_rate": 100
       },
       {
-        "category": "confidence",
+        "category": "family_role_model",
         "deals": 1,
         "closed": 1,
-        "cash": 6000.0,
+        "cash": 7200.0,
         "names": [
-          "Robyn S."
+          "Francisco V."
         ],
         "share": 20,
         "close_rate": 100
@@ -1700,7 +1689,18 @@
         "close_rate": 100
       },
       {
-        "category": "energy_performance",
+        "category": "confidence",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn S."
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "injury_prevention",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1711,7 +1711,7 @@
         "close_rate": 0
       },
       {
-        "category": "injury_prevention",
+        "category": "energy_performance",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1733,7 +1733,7 @@
         "close_rate": 0
       },
       {
-        "category": "relationship",
+        "category": "longevity_family",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1744,7 +1744,7 @@
         "close_rate": 0
       },
       {
-        "category": "longevity_family",
+        "category": "relationship",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1844,17 +1844,6 @@
         "close_rate": 0
       },
       {
-        "category": "medical",
-        "deals": 1,
-        "closed": 1,
-        "cash": 7200.0,
-        "names": [
-          "Francisco V."
-        ],
-        "share": 20,
-        "close_rate": 100
-      },
-      {
         "category": "motivation",
         "deals": 1,
         "closed": 1,
@@ -1866,7 +1855,18 @@
         "close_rate": 100
       },
       {
-        "category": "mental_health",
+        "category": "medical",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco V."
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "sleep",
         "deals": 1,
         "closed": 1,
         "cash": 6000.0,
@@ -1877,7 +1877,7 @@
         "close_rate": 100
       },
       {
-        "category": "sleep",
+        "category": "mental_health",
         "deals": 1,
         "closed": 1,
         "cash": 6000.0,
@@ -1899,7 +1899,7 @@
         "close_rate": 100
       },
       {
-        "category": "aging",
+        "category": "accountability_gap",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1910,7 +1910,7 @@
         "close_rate": 0
       },
       {
-        "category": "accountability_gap",
+        "category": "aging",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -5230,6 +5230,692 @@
           "p_depleted": 1.0,
           "perfect": false,
           "statement": "100% of closed (2/2) vs 100% of non-closed (3/3)."
+        }
+      ]
+    },
+    "funnel": [
+      {
+        "stage": 1,
+        "key": "connected",
+        "label": "Call connected",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 2,
+        "key": "discovery",
+        "label": "Discovery run",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 3,
+        "key": "deep_why",
+        "label": "Deep why reached",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 4,
+        "key": "commitment",
+        "label": "Commitment secured",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 5,
+        "key": "offer",
+        "label": "Offer presented",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 6,
+        "key": "price",
+        "label": "Price stated",
+        "reached": 5,
+        "pct": 100,
+        "died_here": 3,
+        "deals_died": [
+          "Badrane H.",
+          "Tristian C.",
+          "Tyron G."
+        ]
+      },
+      {
+        "stage": 7,
+        "key": "objection",
+        "label": "Objection cleared",
+        "reached": 2,
+        "pct": 40,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 8,
+        "key": "close",
+        "label": "Close attempted",
+        "reached": 2,
+        "pct": 40,
+        "died_here": 0,
+        "deals_died": []
+      },
+      {
+        "stage": 9,
+        "key": "closed",
+        "label": "Closed",
+        "reached": 2,
+        "pct": 40,
+        "died_here": 0,
+        "deals_died": []
+      }
+    ],
+    "duration": [
+      {
+        "prospect": "Robyn S.",
+        "rep": "Andrew Musial",
+        "minutes": 47,
+        "disposition": "closed",
+        "stage": 9
+      },
+      {
+        "prospect": "Tristian C.",
+        "rep": "Farooq Bey",
+        "minutes": 37,
+        "disposition": "follow_up",
+        "stage": 6
+      },
+      {
+        "prospect": "Francisco V.",
+        "rep": "Richard Claessen",
+        "minutes": 33,
+        "disposition": "closed",
+        "stage": 9
+      },
+      {
+        "prospect": "Tyron G.",
+        "rep": "Michael Brideau",
+        "minutes": 23,
+        "disposition": "follow_up",
+        "stage": 6
+      },
+      {
+        "prospect": "Badrane H.",
+        "rep": "Harry Edmonds",
+        "minutes": 13,
+        "disposition": "lost",
+        "stage": 6
+      }
+    ],
+    "duration_summary": {
+      "closed_avg": 40,
+      "other_avg": 24,
+      "longest": {
+        "prospect": "Robyn S.",
+        "rep": "Andrew Musial",
+        "minutes": 47,
+        "disposition": "closed",
+        "stage": 9
+      },
+      "shortest": {
+        "prospect": "Badrane H.",
+        "rep": "Harry Edmonds",
+        "minutes": 13,
+        "disposition": "lost",
+        "stage": 6
+      }
+    },
+    "pillars": [
+      {
+        "pillar": "training_mobility",
+        "name": "Training & Mobility",
+        "order": 1,
+        "reactions": {
+          "confused": 1,
+          "not_presented": 1,
+          "accepted": 2,
+          "objected": 1
+        },
+        "items": [
+          {
+            "pillar": "training_mobility",
+            "reaction": "confused",
+            "evidence": "Misread the filming commitment as frequency rather than duration \u2014 'You said five to 10 times a week?' Rep corrected to 'five to 10 minutes per week'. Prospect repeated it back twice more before it landed. Separately asked mobility cadence: 'How long would that be? And how often is that?'",
+            "disposition": "follow_up",
+            "prospect": "Tristian C."
+          },
+          {
+            "pillar": "training_mobility",
+            "reaction": "not_presented",
+            "evidence": "Rep gave a compressed 'simple pitch' after the price objection rather than the three-pillar structure.",
+            "disposition": "lost",
+            "prospect": "Badrane H."
+          },
+          {
+            "pillar": "training_mobility",
+            "reaction": "accepted",
+            "evidence": "'No, I don't think so' when asked for questions. Had already watched her partner run the program for weeks.",
+            "disposition": "closed",
+            "prospect": "Robyn S."
+          },
+          {
+            "pillar": "training_mobility",
+            "reaction": "accepted",
+            "evidence": "'Yes.' No questions when invited twice.",
+            "disposition": "closed",
+            "prospect": "Francisco V."
+          },
+          {
+            "pillar": "training_mobility",
+            "reaction": "objected",
+            "evidence": "Physio ruled out the core movement library \u2014 swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills, high pulls. 'That's the stuff I kind of wanted to be doing more of.'",
+            "disposition": "follow_up",
+            "prospect": "Tyron G."
+          }
+        ],
+        "presented": 4,
+        "friction": 2,
+        "friction_pct": 50,
+        "clean_pct": 50
+      },
+      {
+        "pillar": "nutrition",
+        "name": "Nutrition",
+        "order": 2,
+        "reactions": {
+          "clarifying": 1,
+          "not_presented": 1,
+          "accepted": 3
+        },
+        "items": [
+          {
+            "pillar": "nutrition",
+            "reaction": "clarifying",
+            "evidence": "Recapped it back to check understanding, then asked 'Are you saying there's no macro, micro, there's no counting calories?'",
+            "disposition": "follow_up",
+            "prospect": "Tristian C."
+          },
+          {
+            "pillar": "nutrition",
+            "reaction": "not_presented",
+            "evidence": "Same \u2014 folded into a one-line summary.",
+            "disposition": "lost",
+            "prospect": "Badrane H."
+          },
+          {
+            "pillar": "nutrition",
+            "reaction": "accepted",
+            "evidence": "'No, I don't think so.' Already running intermittent fasting alongside her partner.",
+            "disposition": "closed",
+            "prospect": "Robyn S."
+          },
+          {
+            "pillar": "nutrition",
+            "reaction": "accepted",
+            "evidence": "'Yes.' Agreed to the eating-window change without pushback.",
+            "disposition": "closed",
+            "prospect": "Francisco V."
+          },
+          {
+            "pillar": "nutrition",
+            "reaction": "accepted",
+            "evidence": "Covered on the prior call; recapped without questions.",
+            "disposition": "follow_up",
+            "prospect": "Tyron G."
+          }
+        ],
+        "presented": 4,
+        "friction": 0,
+        "friction_pct": 0,
+        "clean_pct": 75
+      },
+      {
+        "pillar": "accountability",
+        "name": "Accountability & Support",
+        "order": 3,
+        "reactions": {
+          "clarifying": 2,
+          "not_presented": 1,
+          "objected": 1,
+          "accepted": 1
+        },
+        "items": [
+          {
+            "pillar": "accountability",
+            "reaction": "clarifying",
+            "evidence": "'So, sorry, so accountability is your, that's the third pillar you're saying, right?' then recapped the components back.",
+            "disposition": "follow_up",
+            "prospect": "Tristian C."
+          },
+          {
+            "pillar": "accountability",
+            "reaction": "not_presented",
+            "evidence": "Same. Only 24/7 support was named, in passing.",
+            "disposition": "lost",
+            "prospect": "Badrane H."
+          },
+          {
+            "pillar": "accountability",
+            "reaction": "objected",
+            "evidence": "Raised the pregnancy plan as a conflict \u2014 'I realized that that is going to affect the program.' Resolved by the pause provision.",
+            "disposition": "closed",
+            "prospect": "Robyn S."
+          },
+          {
+            "pillar": "accountability",
+            "reaction": "accepted",
+            "evidence": "'Good, good.' Framed by the rep as lifelong-success rather than accountability.",
+            "disposition": "closed",
+            "prospect": "Francisco V."
+          },
+          {
+            "pillar": "accountability",
+            "reaction": "clarifying",
+            "evidence": "'Is there you have to log your workouts or something like that? Is that the process?'",
+            "disposition": "follow_up",
+            "prospect": "Tyron G."
+          }
+        ],
+        "presented": 4,
+        "friction": 1,
+        "friction_pct": 25,
+        "clean_pct": 25
+      }
+    ],
+    "anchors": [
+      {
+        "type": "self_investment_precedent",
+        "raw": "I have coaches, have mentors and all that kind of stuff... I've just never done it for fitness",
+        "direction": "supports_price",
+        "note": "Pays for coaching in business; primed to accept paid coaching.",
+        "prospect": "Tristian C.",
+        "disposition": "follow_up"
+      },
+      {
+        "type": "price_reframe_upward",
+        "raw": "I'm actually even more interested in it because of the fact that it costs six grand",
+        "direction": "supports_price",
+        "note": "Price read as a quality signal. The opposite of a discount case.",
+        "prospect": "Tristian C.",
+        "disposition": "follow_up"
+      },
+      {
+        "type": "substitute_product",
+        "raw": "I do have it with like different apps, like I use different fitness apps",
+        "direction": "undercuts_price",
+        "note": "Fragmented app stack as the incumbent; rep countered on integration.",
+        "prospect": "Tristian C.",
+        "disposition": "follow_up"
+      },
+      {
+        "type": "competitor_price",
+        "raw": "It was about $29 a month and I did it for a year and a half",
+        "direction": "undercuts_price",
+        "competitor": "Independent kickboxing coach (Thailand), app-delivered",
+        "note": "Hard anchor. A cheap alternative that demonstrably worked \u2014 it fixed his knee in under 10 days.",
+        "prospect": "Badrane H.",
+        "disposition": "lost"
+      },
+      {
+        "type": "named_competitor",
+        "raw": "it's very similar to FitApp, the Australian... the one with the Thor movie",
+        "direction": "undercuts_price",
+        "competitor": "Centr (Chris Hemsworth)",
+        "note": "Prospect priced it himself at 60-70 dollars and named the feature gap: no 24/7 support.",
+        "prospect": "Badrane H.",
+        "disposition": "lost"
+      },
+      {
+        "type": "stated_willingness",
+        "raw": "if it's like $200 a month, whatever, for a year",
+        "direction": "undercuts_price",
+        "note": "Self-declared ceiling of roughly $2,400/yr against a $6,000/6mo ask.",
+        "prospect": "Badrane H.",
+        "disposition": "lost"
+      },
+      {
+        "type": "social_proof_incumbent",
+        "raw": "after seeing just some results after the first couple of weeks with Tyler",
+        "direction": "supports_price",
+        "note": "Partner already enrolled and visibly progressing. Price pre-framed before the call.",
+        "prospect": "Robyn S.",
+        "disposition": "closed"
+      },
+      {
+        "type": "substitute_product",
+        "raw": "when I walk into a gym, it's just overwhelming. And I turn around and walk out",
+        "direction": "supports_price",
+        "note": "The gym is the alternative and it is actively failing her.",
+        "prospect": "Robyn S.",
+        "disposition": "closed"
+      },
+      {
+        "type": "pricing_model_expectation",
+        "raw": "Usually I know it's like a monthly plan or something like that",
+        "direction": "undercuts_price",
+        "note": "Expected a subscription, not a lump sum. Resolved by structuring $1,200 x 6 live.",
+        "prospect": "Francisco V.",
+        "disposition": "closed"
+      },
+      {
+        "type": "content_marketing",
+        "raw": "you guys popped up yesterday as I was browsing... you mentioned you saw Trevor",
+        "direction": "supports_price",
+        "note": "Inbound from Trevor's content. Booked within a day.",
+        "prospect": "Francisco V.",
+        "disposition": "closed"
+      },
+      {
+        "type": "incumbent_provider",
+        "raw": "with your PT currently, I think you said you had two sessions a week with him right now",
+        "direction": "undercuts_price",
+        "competitor": "In-person personal trainer, 2x/week, plus chiro and physio",
+        "note": "Already paying for a care team within a two-minute walk. Primal is additive spend, not a replacement.",
+        "prospect": "Tyron G.",
+        "disposition": "follow_up"
+      }
+    ],
+    "anchor_directions": [
+      {
+        "direction": "undercuts_price",
+        "n": 6,
+        "closed": 1,
+        "close_rate": 17
+      },
+      {
+        "direction": "supports_price",
+        "n": 5,
+        "closed": 3,
+        "close_rate": 60
+      }
+    ],
+    "unmet_demand": [
+      {
+        "want": "Low-touch, self-directed coaching at a subscription price point",
+        "why_unmet": "Offer is high-touch and high-ticket by design. Prospect explicitly did not want daily accountability \u2014 'I don't need somebody to get me out of bed.'",
+        "verdict": "out_of_icp",
+        "prospect": "Badrane H.",
+        "disposition": "lost"
+      },
+      {
+        "want": "Programming through pregnancy and postpartum",
+        "why_unmet": "No pregnancy-specific protocol exists. Rep offered to pause the subscription, which preserves the sale but does not serve the goal.",
+        "verdict": "product_gap",
+        "prospect": "Robyn S.",
+        "disposition": "closed"
+      },
+      {
+        "want": "Dance performance \u2014 partner dancing, swing, tango, jazz",
+        "why_unmet": "Named as a primary motivator and never addressed in the offer. Rep did not connect any pillar to it.",
+        "verdict": "positioning_gap",
+        "prospect": "Robyn S.",
+        "disposition": "closed"
+      },
+      {
+        "want": "Starting while still finishing a nine-month thyroid treatment",
+        "why_unmet": "No protocol for training around an active endocrine treatment. Rep tested whether it blocked starting and moved on.",
+        "verdict": "unvalidated",
+        "prospect": "Francisco V.",
+        "disposition": "closed"
+      },
+      {
+        "want": "A kettlebell programme that works around a rotator cuff tear, labrum damage and AC joint arthritis",
+        "why_unmet": "The offer's core movement library is contraindicated. Best available answer was roughly half the programme.",
+        "verdict": "product_gap",
+        "prospect": "Tyron G.",
+        "disposition": "follow_up"
+      }
+    ],
+    "unmet_by_verdict": {
+      "out_of_icp": [
+        {
+          "want": "Low-touch, self-directed coaching at a subscription price point",
+          "why_unmet": "Offer is high-touch and high-ticket by design. Prospect explicitly did not want daily accountability \u2014 'I don't need somebody to get me out of bed.'",
+          "verdict": "out_of_icp",
+          "prospect": "Badrane H.",
+          "disposition": "lost"
+        }
+      ],
+      "product_gap": [
+        {
+          "want": "Programming through pregnancy and postpartum",
+          "why_unmet": "No pregnancy-specific protocol exists. Rep offered to pause the subscription, which preserves the sale but does not serve the goal.",
+          "verdict": "product_gap",
+          "prospect": "Robyn S.",
+          "disposition": "closed"
+        },
+        {
+          "want": "A kettlebell programme that works around a rotator cuff tear, labrum damage and AC joint arthritis",
+          "why_unmet": "The offer's core movement library is contraindicated. Best available answer was roughly half the programme.",
+          "verdict": "product_gap",
+          "prospect": "Tyron G.",
+          "disposition": "follow_up"
+        }
+      ],
+      "positioning_gap": [
+        {
+          "want": "Dance performance \u2014 partner dancing, swing, tango, jazz",
+          "why_unmet": "Named as a primary motivator and never addressed in the offer. Rep did not connect any pillar to it.",
+          "verdict": "positioning_gap",
+          "prospect": "Robyn S.",
+          "disposition": "closed"
+        }
+      ],
+      "unvalidated": [
+        {
+          "want": "Starting while still finishing a nine-month thyroid treatment",
+          "why_unmet": "No protocol for training around an active endocrine treatment. Rep tested whether it blocked starting and moved on.",
+          "verdict": "unvalidated",
+          "prospect": "Francisco V.",
+          "disposition": "closed"
+        }
+      ]
+    },
+    "offer_consistency": {
+      "guarantees": [
+        {
+          "rep": "Farooq Bey",
+          "guarantee": "If you don't hit the goals set with Trevor in 6 months, we work with you for free until you do",
+          "presented": true
+        },
+        {
+          "rep": "Harry Edmonds",
+          "guarantee": "+20 lb heavier kettlebell in 6 months",
+          "presented": true
+        },
+        {
+          "rep": "Michael Brideau",
+          "guarantee": null,
+          "presented": true
+        },
+        {
+          "rep": "Andrew Musial",
+          "guarantee": "Six months, full transformation guarantee; program can be paused for pregnancy or injury",
+          "presented": true
+        },
+        {
+          "rep": "Richard Claessen",
+          "guarantee": null,
+          "presented": true
+        }
+      ],
+      "distinct_versions": 3,
+      "never_mentioned": 2,
+      "calls_with_offer": 5,
+      "tiers": [
+        {
+          "months": 6,
+          "price_usd": 6000,
+          "calls": 5
+        },
+        {
+          "months": 12,
+          "price_usd": 9000,
+          "calls": 1
+        }
+      ],
+      "total_calls": 5
+    },
+    "icp": {
+      "stated": {
+        "source_call": "2026-06-09_badrane-h_harry-edmonds",
+        "source_rep": "Harry Edmonds",
+        "timestamp": "00:10:55",
+        "quote": "The prospects we deal with are people who are already good in their life, they're successful, they own their own business, or they're a physician, something along those lines, they make good money, but health is the thing that has more so been neglected. They're still good, but they're kind of wanting to go from good to great. It's not like we have dudes who come here who are 50 pounds overweight, who are just like, I need to just lose weight and I hate working out.",
+        "criteria": [
+          {
+            "id": "successful",
+            "label": "Already successful \u2014 business owner, physician or equivalent",
+            "test": "occupation"
+          },
+          {
+            "id": "income",
+            "label": "Makes good money",
+            "test": "affordability"
+          },
+          {
+            "id": "neglected_health",
+            "label": "Health is the neglected area, not a crisis",
+            "test": "severity"
+          },
+          {
+            "id": "good_to_great",
+            "label": "Wants good \u2192 great, not rescue",
+            "test": "starting_point"
+          },
+          {
+            "id": "not_deconditioned",
+            "label": "NOT 50 lb overweight and gym-averse",
+            "test": "exclusion"
+          }
+        ]
+      },
+      "fit_counts": [
+        {
+          "fit": "core",
+          "n": 1,
+          "closed": 0,
+          "who": [
+            "Tristian C."
+          ],
+          "close_rate": 0
+        },
+        {
+          "fit": "edge",
+          "n": 3,
+          "closed": 1,
+          "who": [
+            "Badrane H.",
+            "Francisco V.",
+            "Tyron G."
+          ],
+          "close_rate": 33
+        },
+        {
+          "fit": "outside",
+          "n": 1,
+          "closed": 1,
+          "who": [
+            "Robyn S."
+          ],
+          "close_rate": 100
+        }
+      ],
+      "assessments": [
+        {
+          "call_id": "2026-05-14_tristian-c_farooq-bey",
+          "fit": "core",
+          "matches": [
+            "successful",
+            "income",
+            "neglected_health",
+            "good_to_great"
+          ],
+          "misses": [],
+          "note": "Realtor, 40, married 16 years, 18% body fat training 5-6x/week, has business coaches. The textbook case \u2014 explicitly wants good to great.",
+          "prospect": "Tristian C.",
+          "disposition": "follow_up"
+        },
+        {
+          "call_id": "2026-06-09_badrane-h_harry-edmonds",
+          "fit": "edge",
+          "matches": [
+            "successful",
+            "good_to_great"
+          ],
+          "misses": [
+            "income"
+          ],
+          "note": "Retail business owner and self-described salesman, highly active. Fits on profile but not on willingness to pay \u2014 anchored at $200/mo. The rep recognised this live and disqualified rather than discounted.",
+          "prospect": "Badrane H.",
+          "disposition": "lost"
+        },
+        {
+          "call_id": "2026-07-23_robyn-s_andrew-musial",
+          "fit": "outside",
+          "matches": [
+            "good_to_great"
+          ],
+          "misses": [
+            "successful",
+            "income"
+          ],
+          "note": "Not currently working; the purchase runs through her partner, an existing client. Falls outside the stated ICP on both occupation and income \u2014 and closed at full price. The clearest evidence that the stated ICP is narrower than the buying population.",
+          "prospect": "Robyn S.",
+          "disposition": "closed"
+        },
+        {
+          "call_id": "2026-07-30_francisco-vega_richard-claessen",
+          "fit": "edge",
+          "matches": [
+            "neglected_health"
+          ],
+          "misses": [
+            "income",
+            "good_to_great"
+          ],
+          "note": "47, 228 lb targeting 200, mid-thyroid-treatment, needed a payment plan and disclosed constrained finances. Closer to rescue than to good-to-great. Closed on instalments.",
+          "prospect": "Francisco V.",
+          "disposition": "closed"
+        },
+        {
+          "call_id": "2026-07-18_tyron-g_michael-brideau",
+          "fit": "edge",
+          "matches": [
+            "successful",
+            "income",
+            "good_to_great"
+          ],
+          "misses": [
+            "not_deconditioned"
+          ],
+          "note": "Ex-army, Tokyo, already funding a PT, chiro and physio. Fits commercially but the body does not fit the programme \u2014 the exclusion that matters here is clinical, and the stated ICP has no clinical criterion at all.",
+          "prospect": "Tyron G.",
+          "disposition": "follow_up"
+        }
+      ],
+      "observations": [
+        {
+          "finding": "The stated ICP has no clinical criterion",
+          "detail": "It screens on success, income and starting point, but not on whether the body can perform loaded overhead kettlebell work. That is the one thing the programme structurally requires, and it is the criterion that lost a well-qualified, well-funded prospect."
+        },
+        {
+          "finding": "The buying population is wider than the stated ICP",
+          "detail": "Of the two deals that closed, one falls outside the stated ICP entirely on occupation and income. If that holds at scale, the ICP is describing the aspiration rather than the customer."
+        },
+        {
+          "finding": "'Makes good money' is doing the work that a payment plan already solves",
+          "detail": "One close needed instalments and was disclosed as financially constrained. Income screening may be filtering out deals the payment plan could have carried."
         }
       ]
     }

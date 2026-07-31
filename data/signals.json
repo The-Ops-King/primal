@@ -1,0 +1,130 @@
+{
+  "note": "Offer-side signals extracted from the same transcripts as data/calls/*.json, kept separate because this is a distinct analytical pass. Every entry is grounded in something observable in the transcript; where a pillar was never presented it is recorded as not_presented rather than guessed at.",
+  "pillars": [
+    { "id": "training_mobility", "name": "Training & Mobility", "order": 1 },
+    { "id": "nutrition", "name": "Nutrition", "order": 2 },
+    { "id": "accountability", "name": "Accountability & Support", "order": 3 }
+  ],
+  "reaction_scale": {
+    "enthusiastic": "Prospect volunteers positive reaction or connects it to their own goal unprompted",
+    "accepted": "Understood and agreed, no questions raised",
+    "clarifying": "Asked one or more questions to understand mechanics",
+    "confused": "Misunderstood the mechanic and needed correction, or asked the same thing more than once",
+    "objected": "Pushed back on the substance",
+    "not_presented": "This pillar was never delivered on this call"
+  },
+  "calls": [
+    {
+      "call_id": "2026-05-14_tristian-clunis_farooq-bey",
+      "pillar_reactions": [
+        { "pillar": "training_mobility", "reaction": "confused",
+          "evidence": "Misread the filming commitment as frequency rather than duration — 'You said five to 10 times a week?' Rep corrected to 'five to 10 minutes per week'. Prospect repeated it back twice more before it landed. Separately asked mobility cadence: 'How long would that be? And how often is that?'" },
+        { "pillar": "nutrition", "reaction": "clarifying",
+          "evidence": "Recapped it back to check understanding, then asked 'Are you saying there's no macro, micro, there's no counting calories?'" },
+        { "pillar": "accountability", "reaction": "clarifying",
+          "evidence": "'So, sorry, so accountability is your, that's the third pillar you're saying, right?' then recapped the components back." }
+      ],
+      "anchors": [
+        { "type": "self_investment_precedent", "raw": "I have coaches, have mentors and all that kind of stuff... I've just never done it for fitness",
+          "direction": "supports_price", "note": "Pays for coaching in business; primed to accept paid coaching." },
+        { "type": "price_reframe_upward", "raw": "I'm actually even more interested in it because of the fact that it costs six grand",
+          "direction": "supports_price", "note": "Price read as a quality signal. The opposite of a discount case." },
+        { "type": "substitute_product", "raw": "I do have it with like different apps, like I use different fitness apps",
+          "direction": "undercuts_price", "note": "Fragmented app stack as the incumbent; rep countered on integration." }
+      ],
+      "unmet_demand": []
+    },
+    {
+      "call_id": "2026-06-09_badrane-hriouch_harry-edmonds",
+      "pillar_reactions": [
+        { "pillar": "training_mobility", "reaction": "not_presented",
+          "evidence": "Rep gave a compressed 'simple pitch' after the price objection rather than the three-pillar structure." },
+        { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Same — folded into a one-line summary." },
+        { "pillar": "accountability", "reaction": "not_presented", "evidence": "Same. Only 24/7 support was named, in passing." }
+      ],
+      "anchors": [
+        { "type": "competitor_price", "raw": "It was about $29 a month and I did it for a year and a half",
+          "direction": "undercuts_price", "competitor": "Independent kickboxing coach (Thailand), app-delivered",
+          "note": "Hard anchor. A cheap alternative that demonstrably worked — it fixed his knee in under 10 days." },
+        { "type": "named_competitor", "raw": "it's very similar to FitApp, the Australian... the one with the Thor movie",
+          "direction": "undercuts_price", "competitor": "Centr (Chris Hemsworth)",
+          "note": "Prospect priced it himself at 60-70 dollars and named the feature gap: no 24/7 support." },
+        { "type": "stated_willingness", "raw": "if it's like $200 a month, whatever, for a year",
+          "direction": "undercuts_price", "note": "Self-declared ceiling of roughly $2,400/yr against a $6,000/6mo ask." }
+      ],
+      "unmet_demand": [
+        { "want": "Low-touch, self-directed coaching at a subscription price point",
+          "why_unmet": "Offer is high-touch and high-ticket by design. Prospect explicitly did not want daily accountability — 'I don't need somebody to get me out of bed.'",
+          "verdict": "out_of_icp" }
+      ]
+    },
+    {
+      "call_id": "2026-07-23_robyn-stillwater_andrew-musial",
+      "pillar_reactions": [
+        { "pillar": "training_mobility", "reaction": "accepted",
+          "evidence": "'No, I don't think so' when asked for questions. Had already watched her partner run the program for weeks." },
+        { "pillar": "nutrition", "reaction": "accepted",
+          "evidence": "'No, I don't think so.' Already running intermittent fasting alongside her partner." },
+        { "pillar": "accountability", "reaction": "objected",
+          "evidence": "Raised the pregnancy plan as a conflict — 'I realized that that is going to affect the program.' Resolved by the pause provision." }
+      ],
+      "anchors": [
+        { "type": "social_proof_incumbent", "raw": "after seeing just some results after the first couple of weeks with Tyler",
+          "direction": "supports_price", "note": "Partner already enrolled and visibly progressing. Price pre-framed before the call." },
+        { "type": "substitute_product", "raw": "when I walk into a gym, it's just overwhelming. And I turn around and walk out",
+          "direction": "supports_price", "note": "The gym is the alternative and it is actively failing her." }
+      ],
+      "unmet_demand": [
+        { "want": "Programming through pregnancy and postpartum",
+          "why_unmet": "No pregnancy-specific protocol exists. Rep offered to pause the subscription, which preserves the sale but does not serve the goal.",
+          "verdict": "product_gap" },
+        { "want": "Dance performance — partner dancing, swing, tango, jazz",
+          "why_unmet": "Named as a primary motivator and never addressed in the offer. Rep did not connect any pillar to it.",
+          "verdict": "positioning_gap" }
+      ]
+    },
+    {
+      "call_id": "2026-07-30_francisco-vega_richard-claessen",
+      "pillar_reactions": [
+        { "pillar": "training_mobility", "reaction": "accepted",
+          "evidence": "'Yes.' No questions when invited twice." },
+        { "pillar": "nutrition", "reaction": "accepted",
+          "evidence": "'Yes.' Agreed to the eating-window change without pushback." },
+        { "pillar": "accountability", "reaction": "accepted",
+          "evidence": "'Good, good.' Framed by the rep as lifelong-success rather than accountability." }
+      ],
+      "anchors": [
+        { "type": "pricing_model_expectation", "raw": "Usually I know it's like a monthly plan or something like that",
+          "direction": "undercuts_price", "note": "Expected a subscription, not a lump sum. Resolved by structuring $1,200 x 6 live." },
+        { "type": "content_marketing", "raw": "you guys popped up yesterday as I was browsing... you mentioned you saw Trevor",
+          "direction": "supports_price", "note": "Inbound from Trevor's content. Booked within a day." }
+      ],
+      "unmet_demand": [
+        { "want": "Starting while still finishing a nine-month thyroid treatment",
+          "why_unmet": "No protocol for training around an active endocrine treatment. Rep tested whether it blocked starting and moved on.",
+          "verdict": "unvalidated" }
+      ]
+    },
+    {
+      "call_id": "2026-07-18_tyron-giuliani_michael-brideau",
+      "pillar_reactions": [
+        { "pillar": "training_mobility", "reaction": "objected",
+          "evidence": "Physio ruled out the core movement library — swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills, high pulls. 'That's the stuff I kind of wanted to be doing more of.'" },
+        { "pillar": "nutrition", "reaction": "accepted",
+          "evidence": "Covered on the prior call; recapped without questions." },
+        { "pillar": "accountability", "reaction": "clarifying",
+          "evidence": "'Is there you have to log your workouts or something like that? Is that the process?'" }
+      ],
+      "anchors": [
+        { "type": "incumbent_provider", "raw": "with your PT currently, I think you said you had two sessions a week with him right now",
+          "direction": "undercuts_price", "competitor": "In-person personal trainer, 2x/week, plus chiro and physio",
+          "note": "Already paying for a care team within a two-minute walk. Primal is additive spend, not a replacement." }
+      ],
+      "unmet_demand": [
+        { "want": "A kettlebell programme that works around a rotator cuff tear, labrum damage and AC joint arthritis",
+          "why_unmet": "The offer's core movement library is contraindicated. Best available answer was roughly half the programme.",
+          "verdict": "product_gap" }
+      ]
+    }
+  ]
+}

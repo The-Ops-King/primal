@@ -211,6 +211,8 @@ function render(d){
     check first across the full corpus, and it is a coaching change rather than a pricing change.</p>
   </div>
 
+  ${funnelSection(d)}
+
   <h2>Objections — what we face, what we actually resolve</h2>
   <p class="sub">${objs.length} objections across ${n} calls ·
      ${objs.filter(o=>o.resolved).length} resolved (${pct(objs.filter(o=>o.resolved).length,objs.length)}%)</p>
@@ -234,7 +236,9 @@ function render(d){
 
   ${discriminatorSection(d)}
   ${avatarSection(d)}
+  ${icpSection(d)}
   ${painGoalSection(d)}
+  ${offerSection(d)}
   ${callTableSection(d)}
 
   <footer>
@@ -361,6 +365,240 @@ function render(d){
     section being skipped is a countable fact, not a judgement — but blind scoring against CRM-verified
     outcomes is still what would settle it.
   </div>`;
+  }
+
+  /* ---------- Where deals die ---------- */
+  function funnelSection(d){
+    const F = d.rollups.funnel, DU = d.rollups.duration, DS = d.rollups.duration_summary;
+    const worst = F.filter(f=>f.died_here>0).sort((a,b)=>b.died_here-a.died_here)[0];
+    const maxMin = Math.max(...DU.map(x=>x.minutes));
+
+    return `
+  <h2>Where deals die</h2>
+  <p class="sub">Every deal's furthest point through the call. A deal counts as reaching a stage if any of
+  its calls got there. This is the drop-off view — it shows whether you are losing people on discovery, on
+  price, or on the handling afterwards.</p>
+
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th style="width:44px">#</th><th>Stage</th><th style="width:230px">Reached</th>
+      <th style="width:100px">Died here</th><th>Who died</th></tr></thead>
+    <tbody>${F.map(f=>{
+      const isWorst = worst && f.stage===worst.stage;
+      const col = f.pct>=80?"var(--won)":f.pct>=40?"var(--warn)":"var(--lost)";
+      return `<tr${isWorst?' class="warnrow"':""}>
+        <td class="mono" style="color:var(--muted)">${f.stage}</td>
+        <td><strong>${esc(f.label)}</strong>${isWorst?' <span class="tag t-lost">biggest drop</span>':""}</td>
+        <td><span class="num" style="font-size:20px;color:${col}">${f.pct}%</span>
+            <span class="mono" style="color:var(--muted)"> ${f.reached}/${d.corpus.deals}</span>
+            <div class="bar"><i style="width:${f.pct}%;background:${col}"></i></div></td>
+        <td>${f.died_here?`<span class="num" style="font-size:20px;color:var(--lost)">${f.died_here}</span>`:'<span style="color:var(--muted)">—</span>'}</td>
+        <td style="font-size:12.5px;color:var(--muted)">${esc(f.deals_died.join(", ")||"—")}</td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+
+  <div class="panel" style="border-color:var(--accent);margin-bottom:var(--s5)">
+    <h3 style="color:var(--accent)">Nothing is dying in discovery</h3>
+    <p style="color:var(--muted);margin:0">Every deal reaches the price. Discovery, the deep why, the
+    commitment check and the offer all convert at 100%. The entire loss happens in one place —
+    <strong>after the number is on the table</strong>, at ${esc(worst?worst.label.toLowerCase():"objection handling")}.
+    That means the problem is not lead quality or rapport; it is what happens in the ninety seconds after
+    the price lands. Which is the same conclusion the objection-play table reaches independently.</p>
+  </div>
+
+  <h3>Call length against outcome</h3>
+  <p class="sub">Duration is one of the few signals broken diarization cannot corrupt, so it is worth
+  watching. Closed calls average <strong>${DS.closed_avg} min</strong> against
+  <strong>${DS.other_avg} min</strong> for everything else.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th style="width:110px">Length</th><th>Distribution</th>
+      <th style="width:120px">Outcome</th><th style="width:120px">Died at</th></tr></thead>
+    <tbody>${DU.map(x=>{
+      const [lab,cls]=LABEL[x.disposition];
+      const col = x.disposition==="closed"?"var(--won)":x.disposition==="lost"?"var(--lost)":"var(--warn)";
+      return `<tr>
+        <td><span class="num" style="font-size:22px;color:${col}">${x.minutes}</span>
+            <span style="color:var(--muted);font-size:12px"> min</span></td>
+        <td><div class="bar" style="height:9px"><i style="width:${Math.round(x.minutes/maxMin*100)}%;background:${col}"></i></div></td>
+        <td><span class="tag ${cls}">${lab}</span></td>
+        <td style="font-size:12.5px;color:var(--muted)">${esc((F[x.stage-1]||{}).label||"—")}</td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+  <p class="sub">The ordering is clean in this sample — longest closed, shortest lost — but with
+  ${DU.length} calls that is as likely to be a symptom as a cause. A call that is going well runs long
+  <em>because</em> it is going well. Worth tracking, not worth coaching to.</p>`;
+  }
+
+  /* ---------- ICP ---------- */
+  function icpSection(d){
+    const I = d.rollups.icp;
+    const FIT = {core:["Core ICP","var(--won)"], edge:["Edge","var(--warn)"], outside:["Outside","var(--lost)"]};
+    return `
+  <h2>ICP — stated vs. actual</h2>
+  <p class="sub">The avatars describe who shows up. This describes who Primal <em>says</em> it wants, and
+  whether those are the same people. The definition below is quoted from a live call, not a marketing doc —
+  it is what prospects are actually told.</p>
+
+  <div class="panel" style="border-color:var(--accent);margin-bottom:var(--s3)">
+    <h3 style="color:var(--accent)">The ICP as stated on a call</h3>
+    <div class="q" style="border-color:var(--accent)">“${esc(I.stated.quote)}”</div>
+    <div class="mono" style="color:var(--muted);margin-top:8px">
+      ${esc(I.stated.source_rep)} · ${esc(I.stated.timestamp)}</div>
+    <div style="margin-top:10px">${I.stated.criteria.map(c=>
+      `<span class="chip">${esc(c.label)}</span>`).join("")}</div>
+  </div>
+
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Fit</th><th style="width:80px">Deals</th><th style="width:170px">Close rate</th><th>Who</th></tr></thead>
+    <tbody>${I.fit_counts.map(f=>{
+      const [lab,col]=FIT[f.fit]||[f.fit,"var(--muted)"];
+      return `<tr>
+        <td><span class="tag" style="background:color-mix(in srgb,${col} 16%,transparent);color:${col}">${lab}</span></td>
+        <td><span class="num" style="font-size:24px">${f.n}</span></td>
+        <td><span class="num" style="font-size:20px;color:${f.close_rate>=60?"var(--won)":f.close_rate>=30?"var(--warn)":"var(--lost)"}">${f.close_rate}%</span>
+            <div class="bar"><i style="width:${f.close_rate}%;background:${col}"></i></div></td>
+        <td style="font-size:12.5px;color:var(--muted)">${esc(f.who.join(", "))}</td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+
+  ${I.observations.map(o=>`<details>
+    <summary style="color:var(--accent)">${esc(o.finding)}</summary>
+    <p style="color:var(--muted);margin:10px 0 0">${esc(o.detail)}</p></details>`).join("")}
+
+  <p class="sub" style="margin-top:var(--s3)">Per-prospect assessment:</p>
+  ${I.assessments.map(a=>{
+    const [lab,col]=FIT[a.fit]||[a.fit,"var(--muted)"];
+    const [dl,dc]=LABEL[a.disposition]||["—",""];
+    return `<details>
+      <summary><span style="color:${col}">${lab}</span> · ${esc(a.prospect)}
+        <span class="tag ${dc}" style="font-size:9.5px;padding:2px 7px">${dl}</span></summary>
+      <p style="color:var(--muted);margin:10px 0 8px">${esc(a.note)}</p>
+      <div>${a.matches.map(m=>`<span class="chip" style="color:var(--won);border-color:var(--won)">✓ ${esc(m.replace(/_/g," "))}</span>`).join("")}
+           ${a.misses.map(m=>`<span class="chip" style="color:var(--lost);border-color:var(--lost)">✗ ${esc(m.replace(/_/g," "))}</span>`).join("")}</div>
+    </details>`;}).join("")}`;
+  }
+
+  /* ---------- Offer signals ---------- */
+  function offerSection(d){
+    const R = d.rollups, C = R.offer_consistency, P = R.pillars,
+          A = R.anchor_directions, AN = R.anchors, U = R.unmet_by_verdict;
+    const REACT = {enthusiastic:["Enthusiastic","var(--won)"], accepted:["Accepted","var(--won)"],
+                   clarifying:["Needed clarifying","var(--warn)"], confused:["Confused","var(--lost)"],
+                   objected:["Objected","var(--lost)"], not_presented:["Not presented","var(--muted)"]};
+    const VERDICT = {product_gap:["Product gap","var(--lost)"],
+                     positioning_gap:["Positioning gap","var(--warn)"],
+                     out_of_icp:["Out of ICP","var(--muted)"],
+                     unvalidated:["Unvalidated","var(--warn)"]};
+
+    return `
+  <h2>The offer</h2>
+  <p class="sub">How consistently the offer is presented, which parts land, what prospects price it
+  against, and what they ask for that it does not do.</p>
+
+  <div class="banner" style="border-color:var(--lost);background:color-mix(in srgb,var(--lost) 8%,transparent)">
+    <strong style="color:var(--lost)">The guarantee is described ${C.distinct_versions} different ways,
+    and ${C.never_mentioned} of ${C.total_calls} calls never mention one at all.</strong>
+    This is not a sample-size problem — it is visible in every call reviewed. A guarantee is the single
+    highest-leverage line in a high-ticket offer, and right now the prospect's understanding of what they
+    are protected by depends entirely on who picked up the call.
+  </div>
+
+  <div class="scroll" style="margin:var(--s4) 0 var(--s5)"><table>
+    <thead><tr><th style="width:170px">Rep</th><th>Guarantee as stated on the call</th></tr></thead>
+    <tbody>${C.guarantees.map(g=>`<tr>
+      <td>${esc(g.rep)}</td>
+      <td style="font-size:13.5px">${g.guarantee
+        ? esc(g.guarantee)
+        : '<span style="color:var(--lost)">— never mentioned —</span>'}</td>
+    </tr>`).join("")}</tbody>
+  </table></div>
+
+  <h3>Tier exposure</h3>
+  <p class="sub">Which price points prospects were actually shown.</p>
+  <div class="grid g2" style="margin-bottom:var(--s5)">
+    ${C.tiers.map(t=>{
+      const pctShown = Math.round(t.calls/C.total_calls*100);
+      const dead = pctShown < 50;
+      return `<div class="panel" style="border-color:${dead?"var(--lost)":"var(--won)"}">
+        <h3>${t.months} months — $${t.price_usd.toLocaleString()}</h3>
+        <p style="margin:0;color:var(--muted)">Presented on <strong>${t.calls} of ${C.total_calls}</strong>
+        calls (${pctShown}%).${dead?" <strong style='color:var(--lost)'>Effectively dormant.</strong> Either retire it or train it — right now most prospects never learn it exists.":""}</p>
+      </div>`;}).join("")}
+  </div>
+
+  <h3>Which pillars land, which create friction</h3>
+  <p class="sub">Reaction to each of the three pillars as delivered. Friction means the prospect was
+  confused or pushed back; clean means understood and accepted with no questions.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Pillar</th><th style="width:150px">Landed clean</th>
+      <th style="width:150px">Friction</th><th>Reactions</th></tr></thead>
+    <tbody>${P.map(p=>`<tr>
+      <td><strong>${esc(p.name)}</strong>
+          <div class="mono" style="color:var(--muted)">presented on ${p.presented} of ${d.corpus.calls_ingested}</div></td>
+      <td><span class="num" style="font-size:20px;color:var(--won)">${p.clean_pct}%</span>
+          <div class="bar"><i style="width:${p.clean_pct}%;background:var(--won)"></i></div></td>
+      <td><span class="num" style="font-size:20px;color:${p.friction_pct>=40?"var(--lost)":p.friction_pct>0?"var(--warn)":"var(--muted)"}">${p.friction_pct}%</span>
+          <div class="bar"><i style="width:${p.friction_pct}%;background:var(--lost)"></i></div></td>
+      <td style="font-size:12px">${Object.entries(p.reactions).map(([k,v])=>{
+        const [lab,col]=REACT[k]||[k,"var(--muted)"];
+        return `<span class="chip" style="color:${col};border-color:${col}">${lab} ×${v}</span>`;}).join("")}</td>
+    </tr>`).join("")}</tbody>
+  </table></div>
+  ${P.map(p=>`<details>
+    <summary>${esc(p.name)} — what prospects actually said</summary>
+    ${p.items.filter(i=>i.reaction!=="not_presented").map(i=>{
+      const [lab,col]=REACT[i.reaction]||[i.reaction,"var(--muted)"];
+      return `<div style="padding:9px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
+        <span class="tag" style="background:color-mix(in srgb,${col} 16%,transparent);color:${col}">${lab}</span>
+        <strong style="margin-left:6px">${esc(i.prospect)}</strong>
+        <div style="color:var(--muted);margin-top:5px">${esc(i.evidence)}</div></div>`;}).join("")}
+  </details>`).join("")}
+
+  <h3 style="margin-top:var(--s6)">What prospects price you against</h3>
+  <p class="sub">Anchors they bring to the call — the number or product already in their head when they
+  hear $6,000.</p>
+  <div class="grid g2" style="margin-bottom:var(--s3)">
+    ${A.map(a=>{
+      const good = a.direction==="supports_price";
+      const col = good?"var(--won)":"var(--lost)";
+      return `<div class="stat" style="border-color:${col}">
+        <div class="n" style="color:${col}">${a.close_rate}%</div>
+        <div class="l">${good?"Anchors that support price":"Anchors that undercut price"}</div>
+        <div class="f">${a.n} anchors · close rate of the deals carrying them</div>
+      </div>`;}).join("")}
+  </div>
+  <div class="scroll" style="margin-bottom:var(--s5)"><table>
+    <thead><tr><th style="width:150px">Anchor type</th><th>What they said</th>
+      <th style="width:130px">Effect</th><th style="width:110px">Outcome</th></tr></thead>
+    <tbody>${AN.map(a=>{
+      const good = a.direction==="supports_price";
+      const [lab,cls]=LABEL[a.disposition];
+      return `<tr>
+        <td><strong style="font-size:13px">${esc(a.type.replace(/_/g," "))}</strong>
+            ${a.competitor?`<div class="mono" style="color:var(--muted)">${esc(a.competitor)}</div>`:""}</td>
+        <td style="font-size:13px"><div class="q" style="border-color:${good?"var(--won)":"var(--lost)"};margin:0">${esc(a.raw)}</div>
+            <div style="color:var(--muted);font-size:12px;margin-top:5px">${esc(a.note)}</div></td>
+        <td><span class="tag" style="background:color-mix(in srgb,${good?"var(--won)":"var(--lost)"} 16%,transparent);color:${good?"var(--won)":"var(--lost)"}">${good?"Supports":"Undercuts"}</span></td>
+        <td><span class="tag ${cls}">${lab}</span></td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+
+  <h3>Demand you don't serve</h3>
+  <p class="sub">Things prospects asked for that the offer does not currently do. A product gap is
+  something to build; a positioning gap is something you may already do but never said.</p>
+  ${Object.entries(U).map(([v,items])=>{
+    const [lab,col]=VERDICT[v]||[v,"var(--muted)"];
+    return `<details>
+      <summary><span style="color:${col}">${lab}</span>
+        <span style="color:var(--muted);font-weight:400"> — ${items.length}</span></summary>
+      ${items.map(i=>{
+        const [dl,dc]=LABEL[i.disposition];
+        return `<div style="padding:9px 0;border-bottom:1px dotted var(--line)">
+          <strong style="font-size:13.5px">${esc(i.want)}</strong>
+          <span class="tag ${dc}" style="font-size:9.5px;padding:2px 7px;margin-left:6px">${dl}</span>
+          <div style="color:var(--muted);font-size:13px;margin-top:5px">${esc(i.why_unmet)}</div>
+          <div class="mono" style="color:var(--muted);font-size:11px;margin-top:4px">${esc(i.prospect)}</div>
+        </div>`;}).join("")}
+    </details>`;}).join("")}`;
   }
 
   /* ---------- What separates closed from not closed ---------- */
