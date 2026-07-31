@@ -64,8 +64,13 @@
   --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
 }
 
-/* Light mode is a secondary surface, not the brand's native look.
-   The cyan darkens so it keeps AA contrast on white. */
+/* DELIBERATELY SINGLE-THEME BY DEFAULT.
+   Primal's ground is black — that is the brand, not a dark-mode variant of it.
+   So this does NOT follow prefers-color-scheme; a viewer on a light OS still
+   gets the black-and-cyan identity, which is the whole point of the system.
+   Light below is an explicit opt-in via the theme toggle only, for printing
+   and for anyone who needs it. The cyan darkens there to hold AA contrast on
+   white, and the greys keep a slight cyan bias so they read as chosen. */
 :root[data-theme="light"] {
   --bg:      #FAFBFB;
   --panel:   var(--pi-white);
@@ -78,6 +83,20 @@
   --won:     #178B5E;
   --warn:    #A66A00;
   --lost:    #C93A3A;
+}
+
+:root[data-theme="dark"] {
+  --bg:      var(--pi-black);
+  --panel:   #101012;
+  --panel-2: var(--pi-offblack);
+  --ink:     var(--pi-white);
+  --muted:   #9BA3A8;
+  --line:    #262a2d;
+  --chip:    #16181a;
+  --accent:  var(--pi-cyan);
+  --won:     var(--pi-win);
+  --warn:    var(--pi-warn);
+  --lost:    var(--pi-loss);
 }
 
 /* ---- Primitives ---- */

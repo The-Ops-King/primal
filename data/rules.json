@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "decided": "2026-07-31",
+  "note": "Ingestion and normalisation rules. These are policy, not inference — every one was decided by the client and is applied uniformly across the corpus. Anything the rules cannot settle is surfaced on the dashboard rather than guessed at silently.",
+
+  "speaker_resolution": {
+    "rule": "rep_is_tagged_speaker_everyone_else_is_prospect",
+    "detail": "Fathom tags the closer with a '(Primal Instinct)' suffix on their speaker label. That label identifies the rep. Every other speaker label in the transcript collapses to a single 'prospect' role.",
+    "handles": [
+      "Diarization swapping speakers on short turns — role is assigned per label, not per line, so a swap misattributes a line but never invents a third participant",
+      "A prospect changing device mid-call and acquiring a new label (e.g. 'Francisco Adain Vega' becoming \"Paco's iPhone 17\") — both labels collapse to the same prospect role"
+    ],
+    "known_limit": "Because diarization genuinely swaps lines, per-line attribution stays approximate. Talk-ratio and who-raised-the-objection metrics are therefore NOT published. Role-level facts (an objection occurred, a phase was run) are safe; line-level ones are not.",
+    "multi_rep_calls": "If more than one '(Primal Instinct)' label appears, the rep with the most speaking turns is the closer; the rest are logged as additional_reps."
+  },
+
+  "prospect_identity": {
+    "rule": "canonical_name_from_title_then_transcript",
+    "detail": "Prospect name is taken from the file title where present ('Name x Rep'). For untitled files ('Impromptu Zoom Meeting') it is recovered from the first non-rep speaker label in the transcript.",
+    "normalisation": "Lowercased, punctuation and device suffixes stripped, whitespace collapsed. Used as the deal key."
+  },
+
+  "deal_merging": {
+    "rule": "calls_merge_into_one_deal_per_prospect",
+    "detail": "Multiple calls with the same canonical prospect are a single deal. The deal carries the outcome of its LAST call chronologically, since that is the furthest the conversation actually got.",
+    "rationale": "Counting calls as deals double-counts prospects and understates close rate. The unit that matters commercially is the deal.",
+    "cash": "Deal cash is taken from the closing call only, never summed across calls in the sequence.",
+    "adherence": "Adherence stays scored per call. A discovery call and a follow-up call are judged against different parts of the script, so averaging them would hide which part failed."
+  },
+
+  "junk_filter": {
+    "rule": "min_bytes",
+    "min_file_size_bytes": 2000,
+    "detail": "Transcripts below 2 KB are failed or aborted recordings — connection drops, no-shows, empty rooms. Observed examples in the corpus run from 96 bytes to roughly 1.2 KB.",
+    "reporting": "Excluded files are counted and reported, never silently dropped. A rising junk count is itself a signal about recording setup."
+  },
+
+  "close_rule": {
+    "rule": "verbal_agreement_plus_link_sent",
+    "detail": "A verbal agreement to move forward plus a payment link sent counts as CLOSED, even where the transcript ends before payment confirms.",
+    "known_bias": "Overstates close rate against any deal that agreed and then never paid. Joining a payments export would quantify the gap.",
+    "cash_treatment": "Where a payment plan was agreed, cash is recorded as contract value with the instalment terms retained separately, so cash-collected and contract-value can be reported apart."
+  }
+}

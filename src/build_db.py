@@ -11,6 +11,7 @@ stay the single source of truth.
 """
 import json
 import pathlib
+import re
 import sqlite3
 import sys
 from datetime import datetime, timezone
@@ -139,6 +140,21 @@ CREATE TABLE objection_plays (
     detail          TEXT
 );
 
+CREATE TABLE deals (
+    deal_id       TEXT PRIMARY KEY,
+    prospect_name TEXT,
+    call_count    INTEGER,
+    first_date    TEXT,
+    last_date     TEXT,
+    reps          TEXT,
+    avatar        TEXT,
+    disposition   TEXT,
+    cash_usd      REAL,
+    call_ids      TEXT
+);
+
+CREATE INDEX idx_deals_avatar ON deals(avatar);
+CREATE INDEX idx_deals_disp ON deals(disposition);
 CREATE INDEX idx_phase ON phase_scores(phase_id);
 CREATE INDEX idx_play ON objection_plays(play, ran);
 CREATE INDEX idx_obj_type ON objections(type);
@@ -308,10 +324,168 @@ def score_adherence(conn, playbook, adherence):
     return summary
 
 
+def canonical(name):
+    """Deal key. Strips device suffixes and punctuation so a prospect who
+    rejoins from a phone does not become a second person."""
+    n = (name or "").lower()
+    n = re.sub(r"['’]s (iphone|ipad|android|phone|laptop|computer)[\w\s]*", " ", n)
+    n = re.sub(r"[^a-z\s]", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def build_deals(conn, records):
+    """Collapse calls into one deal per prospect, per rules.json. The deal takes
+    the outcome of its last call chronologically — the furthest the conversation got."""
+    groups = {}
+    for r in records:
+        groups.setdefault(canonical(r["prospect"]["name"]), []).append(r)
+
+    deals = []
+    for key, calls in sorted(groups.items()):
+        calls.sort(key=lambda c: (c["call"]["date"], c["call"].get("sequence_position") or 0))
+        last = calls[-1]
+        cash = last["outcome"].get("cash_collected_usd") or 0
+        deal = {
+            "deal_id": key.replace(" ", "-"),
+            "prospect_name": last["prospect"]["name"],
+            "call_count": len(calls),
+            "first_date": calls[0]["call"]["date"],
+            "last_date": last["call"]["date"],
+            "reps": sorted({c["rep"]["name"] for c in calls}),
+            "avatar": last["avatar"]["assigned"],
+            "disposition": last["outcome"]["disposition"],
+            "cash_usd": cash,
+            "call_ids": [c["call_id"] for c in calls],
+        }
+        deals.append(deal)
+        conn.execute(
+            "INSERT INTO deals VALUES (?,?,?,?,?,?,?,?,?,?)",
+            (deal["deal_id"], deal["prospect_name"], deal["call_count"],
+             deal["first_date"], deal["last_date"], ", ".join(deal["reps"]),
+             deal["avatar"], deal["disposition"], deal["cash_usd"],
+             ", ".join(deal["call_ids"])),
+        )
+    return deals
+
+
+def build_rollups(records, deals, playbook, adherence):
+    """Corpus-level aggregates. This is the point of the exercise — every number
+    here answers 'how are we doing overall', not 'how did this one call go'."""
+    phase_meta = {p["id"]: p for p in playbook["phases"]}
+    check_text = {c["id"]: c["text"]
+                  for p in playbook["phases"] for c in p.get("checks", [])}
+    check_phase = {c["id"]: p["id"]
+                   for p in playbook["phases"] for c in p.get("checks", [])}
+
+    # ---- phase + check rollups ----
+    phases, checks = {}, {}
+    for entry in adherence["calls"]:
+        for pid, pdata in entry["phases"].items():
+            p = phases.setdefault(pid, {"hit": 0, "partial": 0, "miss": 0,
+                                        "not_applicable": 0, "earned": 0.0, "possible": 0.0})
+            s = pdata.get("score")
+            if s in p:
+                p[s] += 1
+            num = SCORE_NUM.get(s)
+            if num is not None:
+                p["earned"] += num
+                p["possible"] += 1
+            for cid, val in (pdata.get("checks") or {}).items():
+                c = checks.setdefault(cid, {"hit": 0, "partial": 0, "miss": 0, "not_applicable": 0})
+                if val in c:
+                    c[val] += 1
+
+    phase_rollup = []
+    for pid, meta in phase_meta.items():
+        p = phases.get(pid)
+        if not p:
+            continue
+        denom = p["earned"] and p["possible"] or p["possible"]
+        pct = round(p["earned"] / p["possible"] * 100, 1) if p["possible"] else None
+        kids = []
+        for c in meta.get("checks", []):
+            cs = checks.get(c["id"])
+            if not cs:
+                continue
+            d = cs["hit"] + cs["partial"] + cs["miss"]
+            kids.append({
+                "check_id": c["id"], "text": c["text"], **cs,
+                "pct": round((cs["hit"] + cs["partial"] * .5) / d * 100, 1) if d else None,
+            })
+        phase_rollup.append({
+            "phase_id": pid, "name": meta["name"], "intent": meta["intent"],
+            "weight": meta["weight"], "adherence_pct": pct,
+            "hit": p["hit"], "partial": p["partial"], "miss": p["miss"],
+            "not_applicable": p["not_applicable"],
+            "calls_scored": int(p["possible"]), "checks": kids,
+        })
+    phase_rollup.sort(key=lambda x: (x["adherence_pct"] is None, x["adherence_pct"]))
+
+    # ---- objection play rollup ----
+    play_meta = {p["id"]: p for p in playbook.get("objection_plays", [])}
+    plays = {}
+    for entry in adherence["calls"]:
+        for pl in entry.get("objection_plays", []):
+            if not pl.get("trigger_present") or pl.get("play") in (None, "none"):
+                continue
+            k = pl["play"]
+            r = plays.setdefault(k, {"play": k, "trigger": play_meta.get(k, {}).get("trigger", k),
+                                     "triggered": 0, "hit": 0, "partial": 0, "miss": 0, "instances": []})
+            r["triggered"] += 1
+            if pl.get("ran") in r:
+                r[pl["ran"]] += 1
+            r["instances"].append({"rep": entry.get("rep"), "ran": pl.get("ran"),
+                                   "detail": pl.get("detail")})
+    play_rollup = sorted(plays.values(), key=lambda x: -x["triggered"])
+
+    # ---- avatar rollup (deal-level, so close rate is real) ----
+    av = {}
+    for d in deals:
+        a = av.setdefault(d["avatar"], {"avatar": d["avatar"], "deals": 0, "closed": 0,
+                                        "follow_up": 0, "lost": 0, "cash": 0.0, "names": []})
+        a["deals"] += 1
+        if d["disposition"] in a:
+            a[d["disposition"]] += 1
+        a["cash"] += d["cash_usd"] or 0
+        a["names"].append(d["prospect_name"])
+    for a in av.values():
+        a["close_rate"] = round(a["closed"] / a["deals"] * 100, 1) if a["deals"] else 0
+    avatar_rollup = sorted(av.values(), key=lambda x: (-x["close_rate"], -x["deals"]))
+
+    # ---- pain / goal rollups ----
+    def bucket(kind):
+        out = {}
+        for r in records:
+            for item in r.get(kind, []):
+                cat = item.get("category") or "uncategorised"
+                b = out.setdefault(cat, {"category": cat, "count": 0, "calls": set(),
+                                         "severities": {}, "items": []})
+                b["count"] += 1
+                b["calls"].add(r["call_id"])
+                sev = item.get("severity")
+                if sev:
+                    b["severities"][sev] = b["severities"].get(sev, 0) + 1
+                b["items"].append({"text": item.get("text"), "severity": sev,
+                                   "prospect": r["prospect"]["name"],
+                                   "disposition": r["outcome"]["disposition"]})
+        for b in out.values():
+            b["calls"] = len(b["calls"])
+        return sorted(out.values(), key=lambda x: -x["count"])
+
+    return {
+        "phases": phase_rollup,
+        "objection_plays": play_rollup,
+        "avatars": avatar_rollup,
+        "pains": bucket("pains"),
+        "goals": bucket("goals"),
+    }
+
+
 def main():
     records = load_calls()
     playbook = load_json(ROOT / "data" / "playbook.json")
     adherence = load_json(ROOT / "data" / "scores" / "adherence.json")
+    rules = load_json(ROOT / "data" / "rules.json")
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     WEB_DATA.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
@@ -319,17 +493,26 @@ def main():
 
     conn = sqlite3.connect(DB_PATH)
     conn.executescript(SCHEMA)
+    junk_min = rules["junk_filter"]["min_file_size_bytes"]
+    kept, junk = [], []
+    for r in records:
+        (junk if (r["source"].get("file_size_bytes") or 0) < junk_min else kept).append(r)
+    records = kept
+
     for rec in records:
         insert(conn, rec)
     adherence_summary = score_adherence(conn, playbook, adherence)
+    deals = build_deals(conn, records)
     conn.commit()
 
     for rec in records:
         rec["adherence"] = adherence_summary.get(rec["call_id"])
 
+    rollups = build_rollups(records, deals, playbook, adherence)
+
     counts = {
         t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
-        for t in ("calls", "goals", "pains", "objections", "offer_tiers",
+        for t in ("calls", "deals", "goals", "pains", "objections", "offer_tiers",
                   "phase_scores", "check_scores", "objection_plays")
     }
 
@@ -337,10 +520,17 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "corpus": {
             "calls_ingested": counts["calls"],
-            "note": "Pilot sample. Outcomes are inferred from transcript language, not CRM-verified.",
+            "deals": counts["deals"],
+            "junk_excluded": len(junk),
+            "junk_min_bytes": junk_min,
+            "multi_call_deals": sum(1 for d in deals if d["call_count"] > 1),
+            "note": "Outcomes are inferred from transcript language, not CRM-verified.",
         },
         "counts": counts,
+        "rules": rules,
         "playbook": playbook,
+        "rollups": rollups,
+        "deals": deals,
         "calls": records,
     }
     WEB_DATA.write_text(json.dumps(payload, indent=2))

@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-07-31T17:20:24.146173+00:00",
+  "generated_at": "2026-07-31T17:51:47.761781+00:00",
   "corpus": {
     "calls_ingested": 5,
-    "note": "Pilot sample. Outcomes are inferred from transcript language, not CRM-verified."
+    "deals": 5,
+    "junk_excluded": 0,
+    "junk_min_bytes": 2000,
+    "multi_call_deals": 0,
+    "note": "Outcomes are inferred from transcript language, not CRM-verified."
   },
   "counts": {
     "calls": 5,
+    "deals": 5,
     "goals": 27,
     "pains": 32,
     "objections": 14,
@@ -13,6 +18,45 @@
     "phase_scores": 35,
     "check_scores": 163,
     "objection_plays": 8
+  },
+  "rules": {
+    "version": 1,
+    "decided": "2026-07-31",
+    "note": "Ingestion and normalisation rules. These are policy, not inference \u2014 every one was decided by the client and is applied uniformly across the corpus. Anything the rules cannot settle is surfaced on the dashboard rather than guessed at silently.",
+    "speaker_resolution": {
+      "rule": "rep_is_tagged_speaker_everyone_else_is_prospect",
+      "detail": "Fathom tags the closer with a '(Primal Instinct)' suffix on their speaker label. That label identifies the rep. Every other speaker label in the transcript collapses to a single 'prospect' role.",
+      "handles": [
+        "Diarization swapping speakers on short turns \u2014 role is assigned per label, not per line, so a swap misattributes a line but never invents a third participant",
+        "A prospect changing device mid-call and acquiring a new label (e.g. 'Francisco Adain Vega' becoming \"Paco's iPhone 17\") \u2014 both labels collapse to the same prospect role"
+      ],
+      "known_limit": "Because diarization genuinely swaps lines, per-line attribution stays approximate. Talk-ratio and who-raised-the-objection metrics are therefore NOT published. Role-level facts (an objection occurred, a phase was run) are safe; line-level ones are not.",
+      "multi_rep_calls": "If more than one '(Primal Instinct)' label appears, the rep with the most speaking turns is the closer; the rest are logged as additional_reps."
+    },
+    "prospect_identity": {
+      "rule": "canonical_name_from_title_then_transcript",
+      "detail": "Prospect name is taken from the file title where present ('Name x Rep'). For untitled files ('Impromptu Zoom Meeting') it is recovered from the first non-rep speaker label in the transcript.",
+      "normalisation": "Lowercased, punctuation and device suffixes stripped, whitespace collapsed. Used as the deal key."
+    },
+    "deal_merging": {
+      "rule": "calls_merge_into_one_deal_per_prospect",
+      "detail": "Multiple calls with the same canonical prospect are a single deal. The deal carries the outcome of its LAST call chronologically, since that is the furthest the conversation actually got.",
+      "rationale": "Counting calls as deals double-counts prospects and understates close rate. The unit that matters commercially is the deal.",
+      "cash": "Deal cash is taken from the closing call only, never summed across calls in the sequence.",
+      "adherence": "Adherence stays scored per call. A discovery call and a follow-up call are judged against different parts of the script, so averaging them would hide which part failed."
+    },
+    "junk_filter": {
+      "rule": "min_bytes",
+      "min_file_size_bytes": 2000,
+      "detail": "Transcripts below 2 KB are failed or aborted recordings \u2014 connection drops, no-shows, empty rooms. Observed examples in the corpus run from 96 bytes to roughly 1.2 KB.",
+      "reporting": "Excluded files are counted and reported, never silently dropped. A rising junk count is itself a signal about recording setup."
+    },
+    "close_rule": {
+      "rule": "verbal_agreement_plus_link_sent",
+      "detail": "A verbal agreement to move forward plus a payment link sent counts as CLOSED, even where the transcript ends before payment confirms.",
+      "known_bias": "Overstates close rate against any deal that agreed and then never paid. Joining a payments export would quantify the gap.",
+      "cash_treatment": "Where a payment plan was agreed, cash is recorded as contract value with the instalment terms retained separately, so cash-collected and contract-value can be reported apart."
+    }
   },
   "playbook": {
     "name": "Kettlebell Body \u2014 Complete Sales Process",
@@ -310,6 +354,1302 @@
       }
     ]
   },
+  "rollups": {
+    "phases": [
+      {
+        "phase_id": "P5",
+        "name": "Consequence Frame",
+        "intent": "Make the cost of inaction real.",
+        "weight": 20,
+        "adherence_pct": 20.0,
+        "hit": 1,
+        "partial": 0,
+        "miss": 4,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P5a",
+            "text": "'If nothing changes \u2014 what does life look like over the next two years?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
+          },
+          {
+            "check_id": "P5b",
+            "text": "'Is that something you're willing to settle for?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
+          },
+          {
+            "check_id": "P5c",
+            "text": "'Why not?'",
+            "hit": 0,
+            "partial": 1,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 10.0
+          },
+          {
+            "check_id": "P5d",
+            "text": "'Are you ready to draw a line in the sand on this?'",
+            "hit": 1,
+            "partial": 0,
+            "miss": 4,
+            "not_applicable": 0,
+            "pct": 20.0
+          }
+        ]
+      },
+      {
+        "phase_id": "P1",
+        "name": "Open & Frame",
+        "intent": "Establish safety, set expectations.",
+        "weight": 10,
+        "adherence_pct": 40.0,
+        "hit": 0,
+        "partial": 4,
+        "miss": 1,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P1a",
+            "text": "Read back setter notes / application so they feel seen",
+            "hit": 1,
+            "partial": 1,
+            "miss": 3,
+            "not_applicable": 0,
+            "pct": 30.0
+          },
+          {
+            "check_id": "P1b",
+            "text": "Set the four-part frame: where you are, where you want to go, what's in the way, what you need",
+            "hit": 0,
+            "partial": 2,
+            "miss": 2,
+            "not_applicable": 1,
+            "pct": 25.0
+          },
+          {
+            "check_id": "P1c",
+            "text": "Get frame agreement \u2014 'Does that work?'",
+            "hit": 2,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 1,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P1d",
+            "text": "Open question: 'What are you potentially looking for help with?'",
+            "hit": 4,
+            "partial": 1,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 90.0
+          }
+        ]
+      },
+      {
+        "phase_id": "P2",
+        "name": "Baseline",
+        "intent": "Gather facts, build the picture.",
+        "weight": 15,
+        "adherence_pct": 50.0,
+        "hit": 2,
+        "partial": 0,
+        "miss": 2,
+        "not_applicable": 1,
+        "calls_scored": 4,
+        "checks": [
+          {
+            "check_id": "P2a",
+            "text": "Age, height, current weight",
+            "hit": 1,
+            "partial": 2,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P2b",
+            "text": "Work \u2014 and whether it's desk-bound or on their feet",
+            "hit": 1,
+            "partial": 2,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P2c",
+            "text": "Health conditions, own or hereditary",
+            "hit": 2,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P2d",
+            "text": "Injuries, chronic pain, movement limitations \u2014 and how long",
+            "hit": 3,
+            "partial": 0,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 75.0
+          },
+          {
+            "check_id": "P2e",
+            "text": "Typical training week and actual days trained",
+            "hit": 1,
+            "partial": 3,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 62.5
+          },
+          {
+            "check_id": "P2f",
+            "text": "Results seen from current training",
+            "hit": 0,
+            "partial": 2,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 25.0
+          },
+          {
+            "check_id": "P2g",
+            "text": "Current diet / whether following anything",
+            "hit": 2,
+            "partial": 1,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 62.5
+          },
+          {
+            "check_id": "P2h",
+            "text": "Sleep \u2014 quantity and quality",
+            "hit": 1,
+            "partial": 0,
+            "miss": 3,
+            "not_applicable": 0,
+            "pct": 25.0
+          },
+          {
+            "check_id": "P2i",
+            "text": "Energy through the day",
+            "hit": 0,
+            "partial": 3,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 37.5
+          }
+        ]
+      },
+      {
+        "phase_id": "P4",
+        "name": "Past Attempts & Root Cause",
+        "intent": "Problem isn't effort \u2014 it's structure.",
+        "weight": 15,
+        "adherence_pct": 50.0,
+        "hit": 1,
+        "partial": 2,
+        "miss": 1,
+        "not_applicable": 1,
+        "calls_scored": 4,
+        "checks": [
+          {
+            "check_id": "P4a",
+            "text": "What have you tried before?",
+            "hit": 2,
+            "partial": 2,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 75.0
+          },
+          {
+            "check_id": "P4b",
+            "text": "What happened with that?",
+            "hit": 1,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 37.5
+          },
+          {
+            "check_id": "P4c",
+            "text": "Why do you feel it didn't stick?",
+            "hit": 1,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 37.5
+          },
+          {
+            "check_id": "P4d",
+            "text": "What's the one thing actually getting in the way?",
+            "hit": 2,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P4e",
+            "text": "Let them name the gap: no structure, no progression, no accountability, wrong knowledge, inconsistency",
+            "hit": 2,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P4f",
+            "text": "'The information isn't the problem. Why can't you stick to it on your own?'",
+            "hit": 1,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 37.5
+          }
+        ]
+      },
+      {
+        "phase_id": "P6",
+        "name": "Commitment Check",
+        "intent": "Get a genuine verbal yes BEFORE presenting anything.",
+        "weight": 20,
+        "adherence_pct": 50.0,
+        "hit": 2,
+        "partial": 1,
+        "miss": 2,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P6a",
+            "text": "'Do you believe you can actually get there with the right structure and the right person in your corner?'",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P6b",
+            "text": "'If you had everything you needed \u2014 is there any reason you wouldn't go all in on this?'",
+            "hit": 1,
+            "partial": 1,
+            "miss": 3,
+            "not_applicable": 0,
+            "pct": 30.0
+          },
+          {
+            "check_id": "P6c",
+            "text": "Only move forward once you have a clear YES; if hesitation surfaces, return to Phase 5",
+            "hit": 2,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          }
+        ]
+      },
+      {
+        "phase_id": "P11",
+        "name": "Payment & Onboarding",
+        "intent": "Complete every step before you hang up.",
+        "weight": 20,
+        "adherence_pct": 50.0,
+        "hit": 0,
+        "partial": 2,
+        "miss": 0,
+        "not_applicable": 3,
+        "calls_scored": 2,
+        "checks": [
+          {
+            "check_id": "P11a",
+            "text": "Step 1 \u2014 Collect payment",
+            "hit": 1,
+            "partial": 1,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 75.0
+          },
+          {
+            "check_id": "P11b",
+            "text": "Step 2 \u2014 Schedule the onboarding call with Trevor",
+            "hit": 2,
+            "partial": 0,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 100.0
+          },
+          {
+            "check_id": "P11c",
+            "text": "Step 3 \u2014 Confirm the agreement email arrived and have them sign it ON the call",
+            "hit": 0,
+            "partial": 1,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 25.0
+          },
+          {
+            "check_id": "P11d",
+            "text": "Step 4 \u2014 Tell them to read the welcome email, click the Skool link to join the community, and complete the onboarding questionnaire before the Trevor call",
+            "hit": 0,
+            "partial": 1,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 25.0
+          }
+        ]
+      },
+      {
+        "phase_id": "P3",
+        "name": "Goals \u2014 Surface to Deep",
+        "intent": "Move from what to WHY. This is where the real buying decision is made.",
+        "weight": 20,
+        "adherence_pct": 70.0,
+        "hit": 3,
+        "partial": 1,
+        "miss": 1,
+        "not_applicable": 0,
+        "calls_scored": 5,
+        "checks": [
+          {
+            "check_id": "P3a",
+            "text": "Aesthetics & function: what would you change, one thing",
+            "hit": 5,
+            "partial": 0,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 100.0
+          },
+          {
+            "check_id": "P3b",
+            "text": "Mobility, strength, energy \u2014 or something else",
+            "hit": 5,
+            "partial": 0,
+            "miss": 0,
+            "not_applicable": 0,
+            "pct": 100.0
+          },
+          {
+            "check_id": "P3c",
+            "text": "Something physical you want to do but can't right now",
+            "hit": 3,
+            "partial": 1,
+            "miss": 1,
+            "not_applicable": 0,
+            "pct": 70.0
+          },
+          {
+            "check_id": "P3d",
+            "text": "Bridge: 'Outside of the physical, what's actually driving this right now?'",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3e",
+            "text": "'When you're moving better, what does that actually do for you?'",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3f",
+            "text": "'Who else does that impact?'",
+            "hit": 2,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          },
+          {
+            "check_id": "P3g",
+            "text": "Drive through to kids, marriage, legacy, identity or longevity",
+            "hit": 3,
+            "partial": 0,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 60.0
+          },
+          {
+            "check_id": "P3h",
+            "text": "Reflect back: 'So this isn't really about the weight \u2014 it's about X. Is that right?'",
+            "hit": 2,
+            "partial": 1,
+            "miss": 2,
+            "not_applicable": 0,
+            "pct": 50.0
+          }
+        ]
+      }
+    ],
+    "objection_plays": [
+      {
+        "play": "OC",
+        "trigger": "Money",
+        "triggered": 3,
+        "hit": 0,
+        "partial": 2,
+        "miss": 1,
+        "instances": [
+          {
+            "rep": "Richard Claessen",
+            "ran": "partial",
+            "detail": "Isolated correctly ('outside of the investment, ready to draw a line in the sand?'), then ran the financial picture: cash on hand $1,500, monthly leftover $800, savings yes, credit score 650. Missed the credit-card depth the script calls for \u2014 number of cards, available credit per card, used vs available \u2014 and never asked about crypto, stocks or investments. Still structured $1,200 x 6 live and got a yes."
+          },
+          {
+            "rep": "Farooq Bey",
+            "ran": "partial",
+            "detail": "Opened the door correctly \u2014 'my intention is to never take food off people's tables. If there's a way we can structure this, are you open to exploring that?' \u2192 got a YES. Then never ran the financial picture. Not one question about cash on hand, monthly surplus, credit or assets. The play was started and abandoned."
+          },
+          {
+            "rep": "Harry Edmonds",
+            "ran": "miss",
+            "detail": "The money objection landed and no part of the play ran. No isolate, no 'should I vs how' reframe, no offer to structure it, no financial picture. Instead the rep ran a takeaway \u2014 'go back to her' \u2014 twice. A takeaway is not in the script."
+          }
+        ]
+      },
+      {
+        "play": "OD",
+        "trigger": "Not the right time",
+        "triggered": 1,
+        "hit": 0,
+        "partial": 0,
+        "miss": 1,
+        "instances": [
+          {
+            "rep": "Farooq Bey",
+            "ran": "miss",
+            "detail": "The prospect said it almost verbatim: 'it might not be the right time for me personally.' That is the exact Objection D trigger, and the script supplies six responses for it \u2014 'things never slow down', 'when does it actually become the right time?', 'the longer you wait the harder this becomes'. The rep ran none of them. He said 'let me go back to the team' and booked tomorrow."
+          }
+        ]
+      },
+      {
+        "play": "OE",
+        "trigger": "Fear / doubt",
+        "triggered": 1,
+        "hit": 0,
+        "partial": 1,
+        "miss": 0,
+        "instances": [
+          {
+            "rep": "Michael Brideau",
+            "ran": "partial",
+            "detail": "Fear of harm was present \u2014 'they're not sure if me swinging around is the best idea.' The rep used a partial-value reframe and a good path-to-yes question ('what would be the route to getting you back to swinging stuff around?'), but ran none of the scripted OE moves: no certainty question, no bridge, no plane, no burned-before."
+          }
+        ]
+      }
+    ],
+    "avatars": [
+      {
+        "avatar": "the_rebuilder",
+        "deals": 1,
+        "closed": 1,
+        "follow_up": 0,
+        "lost": 0,
+        "cash": 7200.0,
+        "names": [
+          "Francisco Adain Vega"
+        ],
+        "close_rate": 100.0
+      },
+      {
+        "avatar": "the_warm_referral",
+        "deals": 1,
+        "closed": 1,
+        "follow_up": 0,
+        "lost": 0,
+        "cash": 6000.0,
+        "names": [
+          "Robyn Stillwater"
+        ],
+        "close_rate": 100.0
+      },
+      {
+        "avatar": "skeptical_bargain_hunter",
+        "deals": 1,
+        "closed": 0,
+        "follow_up": 0,
+        "lost": 1,
+        "cash": 0.0,
+        "names": [
+          "Badrane Hriouch"
+        ],
+        "close_rate": 0.0
+      },
+      {
+        "avatar": "the_optimizer",
+        "deals": 1,
+        "closed": 0,
+        "follow_up": 1,
+        "lost": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian Clunis"
+        ],
+        "close_rate": 0.0
+      },
+      {
+        "avatar": "the_medically_constrained",
+        "deals": 1,
+        "closed": 0,
+        "follow_up": 1,
+        "lost": 0,
+        "cash": 0.0,
+        "names": [
+          "Tyron Giuliani"
+        ],
+        "close_rate": 0.0
+      }
+    ],
+    "pains": [
+      {
+        "category": "injury",
+        "count": 11,
+        "calls": 4,
+        "severities": {
+          "high": 5,
+          "medium": 5,
+          "critical": 1
+        },
+        "items": [
+          {
+            "text": "Chronic wrist injuries (both, 5-6 years) limiting training",
+            "severity": "high",
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Neck injuries from kitesurfing falls",
+            "severity": "medium",
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Elbow, shoulder, knee, ankle injuries; flat foot",
+            "severity": "medium",
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Rotator cuff tear, labrum damage and AC joint arthritis blocking overhead loading",
+            "severity": "critical",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Herniated L5/S1 disc from army service",
+            "severity": "high",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Unexplained shoulder pain flare the day after the previous sales call",
+            "severity": "medium",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Scoliosis (13 degrees) causing lower back and sciatic strain",
+            "severity": "high",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Left shoulder dislocated 5 years ago, undiagnosed for a period; 18-month recovery",
+            "severity": "high",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Tendonitis in both knees since age 18; ongoing strength issues",
+            "severity": "medium",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Knee pain and stiffness on waking; prior knee surgery",
+            "severity": "high",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          },
+          {
+            "text": "Lower back pain on the right, on and off through the day, from weight compensation",
+            "severity": "medium",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "consistency",
+        "count": 3,
+        "calls": 3,
+        "severities": {
+          "high": 2,
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Fell off after peak condition; cannot sustain results",
+            "severity": "high",
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "History of being up and down with fitness; lacks consistency",
+            "severity": "medium",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Cannot sustain consistency \u2014 good for 2 weeks, then slacks for 2-3",
+            "severity": "high",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "nutrition_habit",
+        "count": 3,
+        "calls": 3,
+        "severities": {
+          "low": 2,
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Late-night eating before sleep",
+            "severity": "low",
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Late-night eating rooted in childhood safety patterns; disrupts sleep",
+            "severity": "medium",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Poor snacking \u2014 cookies, chips, several times a week",
+            "severity": "low",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "training_dissatisfaction",
+        "count": 2,
+        "calls": 2,
+        "severities": {
+          "high": 1,
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Training is aesthetics-focused, not functional",
+            "severity": "high",
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Feels stiff and injury-prone with conventional weight training",
+            "severity": "medium",
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          }
+        ]
+      },
+      {
+        "category": "emotional",
+        "count": 2,
+        "calls": 2,
+        "severities": {
+          "high": 1,
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Disappointment and deflation after the physio consult killed his excitement",
+            "severity": "high",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Regret about not starting sooner; audibly deflated when describing his future self",
+            "severity": "medium",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "training_barrier",
+        "count": 2,
+        "calls": 2,
+        "severities": {
+          "high": 1,
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Gyms are overwhelming \u2014 'I turn around and walk out'",
+            "severity": "high",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Dislikes the gym; lacks home equipment",
+            "severity": "medium",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "aging",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Body no longer responds the same at 40; slower injury recovery",
+            "severity": "medium",
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "fragmented_solutions",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Fitness apps don't align nutrition + mobility + training",
+            "severity": "medium",
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "accountability_gap",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "high": 1
+        },
+        "items": [
+          {
+            "text": "Has never had accountability for fitness the way he does in business",
+            "severity": "high",
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "program_fit",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "critical": 1
+        },
+        "items": [
+          {
+            "text": "Physio ruled out swings, snatches, cleans, Turkish get-ups, overhead presses, push press, windmills and high pulls",
+            "severity": "critical",
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "mental_health",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "History of depression driving a sedentary period",
+            "severity": "medium",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "sleep",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "medium": 1
+        },
+        "items": [
+          {
+            "text": "Night owl; struggles to sleep before midnight",
+            "severity": "medium",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "competence_anxiety",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "high": 1
+        },
+        "items": [
+          {
+            "text": "Doesn't know if she's performing movements correctly; fears self-injury",
+            "severity": "high",
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "medical",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "high": 1
+        },
+        "items": [
+          {
+            "text": "Thyroid treatment drove weight gain outside his control",
+            "severity": "high",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "motivation",
+        "count": 1,
+        "calls": 1,
+        "severities": {
+          "high": 1
+        },
+        "items": [
+          {
+            "text": "Training feels like an obligation, not something he wants to do",
+            "severity": "high",
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "category": "fat_loss",
+        "count": 4,
+        "calls": 4,
+        "severities": {},
+        "items": [
+          {
+            "text": "Drop from 18% to 12% body fat and hold it consistently",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Lose belly fat from late-night eating",
+            "severity": null,
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Lose weight",
+            "severity": null,
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Lose 20-30 lb, from 228 down to ~200",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "mobility",
+        "count": 4,
+        "calls": 4,
+        "severities": {},
+        "items": [
+          {
+            "text": "Improve mobility and athleticism, not just aesthetics",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Improve mobility and core strength",
+            "severity": null,
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          },
+          {
+            "text": "Increase overall mobility",
+            "severity": null,
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Regain flexibility lost with age",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "hobby_performance",
+        "count": 3,
+        "calls": 2,
+        "severities": {},
+        "items": [
+          {
+            "text": "Become a better dancer \u2014 jazz, somatic, swing, tango",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Do more hiking and backpacking",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          },
+          {
+            "text": "Return to competitive basketball and soccer leagues",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "muscle_gain",
+        "count": 2,
+        "calls": 2,
+        "severities": {},
+        "items": [
+          {
+            "text": "Gain size while staying functional",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "Gain ~5 lb of muscle this year, reach 80-85 kg long term",
+            "severity": null,
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          }
+        ]
+      },
+      {
+        "category": "longevity_function",
+        "count": 2,
+        "calls": 2,
+        "severities": {},
+        "items": [
+          {
+            "text": "Build core strength to avoid falls with age",
+            "severity": null,
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          },
+          {
+            "text": "More stability and balance, to carry into old age",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "longevity_family",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Be able to play with his kid indefinitely; longevity",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Escape the bulk/cut cycle",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "relationship",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Inspire his wife to re-engage with her own fitness",
+            "severity": null,
+            "prospect": "Tristian Clunis",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "energy_performance",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Maintain peak energy for work",
+            "severity": null,
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          }
+        ]
+      },
+      {
+        "category": "injury_prevention",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Avoid future injuries; save research time",
+            "severity": null,
+            "prospect": "Badrane Hriouch",
+            "disposition": "lost"
+          }
+        ]
+      },
+      {
+        "category": "convenience",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Be able to train at home on a mat in his own room",
+            "severity": null,
+            "prospect": "Tyron Giuliani",
+            "disposition": "follow_up"
+          }
+        ]
+      },
+      {
+        "category": "injury_confidence",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Rebuild confidence in a previously dislocated shoulder",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "pregnancy_prep",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Be fit through pregnancy and strong postpartum",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "confidence",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Have physical confidence spread to other parts of life",
+            "severity": null,
+            "prospect": "Robyn Stillwater",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "endurance",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Build endurance; stop tiring quickly",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "consistency",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Build consistency and break the on-off cycle",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      },
+      {
+        "category": "family_role_model",
+        "count": 1,
+        "calls": 1,
+        "severities": {},
+        "items": [
+          {
+            "text": "Model confidence and follow-through for his 15-year-old daughter",
+            "severity": null,
+            "prospect": "Francisco Adain Vega",
+            "disposition": "closed"
+          }
+        ]
+      }
+    ]
+  },
+  "deals": [
+    {
+      "deal_id": "badrane-hriouch",
+      "prospect_name": "Badrane Hriouch",
+      "call_count": 1,
+      "first_date": "2026-06-09",
+      "last_date": "2026-06-09",
+      "reps": [
+        "Harry Edmonds"
+      ],
+      "avatar": "skeptical_bargain_hunter",
+      "disposition": "lost",
+      "cash_usd": 0,
+      "call_ids": [
+        "2026-06-09_badrane-hriouch_harry-edmonds"
+      ]
+    },
+    {
+      "deal_id": "francisco-adain-vega",
+      "prospect_name": "Francisco Adain Vega",
+      "call_count": 1,
+      "first_date": "2026-07-30",
+      "last_date": "2026-07-30",
+      "reps": [
+        "Richard Claessen"
+      ],
+      "avatar": "the_rebuilder",
+      "disposition": "closed",
+      "cash_usd": 7200,
+      "call_ids": [
+        "2026-07-30_francisco-vega_richard-claessen"
+      ]
+    },
+    {
+      "deal_id": "robyn-stillwater",
+      "prospect_name": "Robyn Stillwater",
+      "call_count": 1,
+      "first_date": "2026-07-23",
+      "last_date": "2026-07-23",
+      "reps": [
+        "Andrew Musial"
+      ],
+      "avatar": "the_warm_referral",
+      "disposition": "closed",
+      "cash_usd": 6000,
+      "call_ids": [
+        "2026-07-23_robyn-stillwater_andrew-musial"
+      ]
+    },
+    {
+      "deal_id": "tristian-clunis",
+      "prospect_name": "Tristian Clunis",
+      "call_count": 1,
+      "first_date": "2026-05-14",
+      "last_date": "2026-05-14",
+      "reps": [
+        "Farooq Bey"
+      ],
+      "avatar": "the_optimizer",
+      "disposition": "follow_up",
+      "cash_usd": 0,
+      "call_ids": [
+        "2026-05-14_tristian-clunis_farooq-bey"
+      ]
+    },
+    {
+      "deal_id": "tyron-giuliani",
+      "prospect_name": "Tyron Giuliani",
+      "call_count": 1,
+      "first_date": "2026-07-18",
+      "last_date": "2026-07-18",
+      "reps": [
+        "Michael Brideau"
+      ],
+      "avatar": "the_medically_constrained",
+      "disposition": "follow_up",
+      "cash_usd": 0,
+      "call_ids": [
+        "2026-07-18_tyron-giuliani_michael-brideau"
+      ]
+    }
+  ],
   "calls": [
     {
       "call_id": "2026-05-14_tristian-clunis_farooq-bey",
@@ -1496,20 +2836,21 @@
       },
       "outcome": {
         "disposition": "closed",
-        "confidence": 0.62,
+        "confidence": 0.92,
+        "close_rule_applied": "verbal_agreement_plus_link_sent",
         "evidence": [
           "Payment plan agreed: rep says 'Let's get you rolling with that' \u2014 prospect: 'Yeah'",
-          "Payment link sent during the call; onboarding with Trevor tentatively set for Monday 4:15pm ET",
-          "COUNTER-EVIDENCE: transcript ends mid-flow with the prospect saying his internet is slow, then an automated voicemail message. Payment confirmation is NOT present in the transcript.",
-          "No 'it went through' confirmation, unlike the Robyn Stillwater call"
+          "Payment link sent during the call and receipt acknowledged \u2014 'yeah, yeah, it's just my internet's a little slow right now'",
+          "Onboarding with Trevor set for Monday 4:15pm ET",
+          "Transcript ends before an explicit payment confirmation, but under the agreed close rule verbal agreement plus link sent counts as closed"
         ],
-        "cash_collected_usd": null,
-        "cash_expected_usd": 7200,
-        "next_step": "Onboarding call with Trevor, Monday 16:15 ET \u2014 pending payment confirmation"
+        "cash_collected_usd": 7200,
+        "cash_collection_basis": "payment_plan_total",
+        "next_step": "Onboarding call with Trevor, Monday 16:15 ET"
       },
       "notable": {
-        "requires_manual_verification": true,
-        "note": "This is the clearest example of why transcript-inferred outcomes need a CRM join. Verbal agreement is unambiguous, but the call cuts off before payment confirms. Flagged amber on the dashboard rather than counted as a win."
+        "close_rule": "verbal_agreement_plus_link_sent",
+        "note": "Closed under the agreed rule rather than by an explicit in-transcript payment confirmation. Cash is booked as the payment-plan total ($1,200 x 6 = $7,200), which is contract value, not cash collected on the day \u2014 the first instalment is $1,200."
       },
       "quality": {
         "diarization_reliability": "low",

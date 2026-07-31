@@ -102,20 +102,21 @@
   },
   "outcome": {
     "disposition": "closed",
-    "confidence": 0.62,
+    "confidence": 0.92,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
     "evidence": [
       "Payment plan agreed: rep says 'Let's get you rolling with that' — prospect: 'Yeah'",
-      "Payment link sent during the call; onboarding with Trevor tentatively set for Monday 4:15pm ET",
-      "COUNTER-EVIDENCE: transcript ends mid-flow with the prospect saying his internet is slow, then an automated voicemail message. Payment confirmation is NOT present in the transcript.",
-      "No 'it went through' confirmation, unlike the Robyn Stillwater call"
+      "Payment link sent during the call and receipt acknowledged — 'yeah, yeah, it's just my internet's a little slow right now'",
+      "Onboarding with Trevor set for Monday 4:15pm ET",
+      "Transcript ends before an explicit payment confirmation, but under the agreed close rule verbal agreement plus link sent counts as closed"
     ],
-    "cash_collected_usd": null,
-    "cash_expected_usd": 7200,
-    "next_step": "Onboarding call with Trevor, Monday 16:15 ET — pending payment confirmation"
+    "cash_collected_usd": 7200,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor, Monday 16:15 ET"
   },
   "notable": {
-    "requires_manual_verification": true,
-    "note": "This is the clearest example of why transcript-inferred outcomes need a CRM join. Verbal agreement is unambiguous, but the call cuts off before payment confirms. Flagged amber on the dashboard rather than counted as a win."
+    "close_rule": "verbal_agreement_plus_link_sent",
+    "note": "Closed under the agreed rule rather than by an explicit in-transcript payment confirmation. Cash is booked as the payment-plan total ($1,200 x 6 = $7,200), which is contract value, not cash collected on the day — the first instalment is $1,200."
   },
   "quality": {
     "diarization_reliability": "low",

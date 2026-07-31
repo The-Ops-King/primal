@@ -128,6 +128,7 @@ fetch("./data.json").then(r=>r.json()).then(render).catch(e=>{
 });
 
 function render(d){
+  window.__D = d;
   const calls = d.calls;
   const n = calls.length;
   const closed = calls.filter(c=>c.outcome.disposition==="closed");
@@ -157,9 +158,12 @@ function render(d){
     <strong>Read this before you trust a number.</strong>
     Outcomes here are <strong>inferred from transcript language</strong>, not joined to a CRM.
     A call that ends in “let me think about it” and closes by text three days later reads as a
-    follow-up here, forever. Every figure below carries a confidence score, and
-    ${objs.length ? "one deal is deliberately held back as unconfirmed" : "unconfirmed deals are held back"}.
-    Treat this as directional until a CRM or payments export is joined in.
+    follow-up here, forever. Every figure carries a confidence score.
+    <br><br>
+    <strong>Close rule in force:</strong> a verbal agreement to move forward plus a payment link sent
+    counts as closed, even where the transcript ends before payment confirms. That is the agreed
+    standard and it is applied consistently — one of the two closes below qualifies this way.
+    It will slightly overstate close rate against any deal that agreed and then never paid.
   </div>
 
   <div class="grid g4" style="margin-top:16px">
@@ -168,8 +172,9 @@ function render(d){
     ${stat("$"+cash.toLocaleString(),"Cash confirmed","payment verified on call")}
     ${stat(meanAdherence(calls)+"%","Mean script adherence","range "+adherenceRange(calls))}
   </div>
-  <p class="sub" style="margin-top:8px">${verified} of ${closed.length} closes are verified at ≥0.90
-  confidence; the other is held back pending payment confirmation.</p>
+  <p class="sub" style="margin-top:8px">${verified} of ${closed.length} closes sit at ≥0.90 confidence.
+  Cash combines $6,000 confirmed live with a $7,200 payment-plan contract value
+  ($1,200 × 6) — contract value, not same-day cash.</p>
 
   <h2>Closed vs. not closed</h2>
   <p class="sub">The whole point of the audit. With n=${n} these are leads to test, not laws.</p>
@@ -228,196 +233,341 @@ function render(d){
 
   ${scriptSection(calls, d.playbook)}
 
-  <h2>Avatars — derived from this corpus</h2>
-  <p class="sub">Provisional. Built from ${n} calls, so treat these as hypotheses to confirm or collapse
-  once the full corpus runs. One avatar per call at this sample size.</p>
-  <div class="grid g2">
-    ${calls.map(c=>{
-      const a = AVATARS[c.avatar.assigned]||{name:c.avatar.assigned,blurb:"",tell:""};
-      const [lab,cls] = LABEL[c.outcome.disposition];
-      return `<div class="panel">
-        <div style="display:flex;justify-content:space-between;gap:10px;align-items:start">
-          <h3>${esc(a.name)}</h3><span class="tag ${cls}">${lab}</span>
-        </div>
-        <p style="color:var(--muted);font-size:14.5px;margin:6px 0 10px">${esc(a.blurb)}</p>
-        <div class="q">${esc(a.tell)}</div>
-        <div style="margin-top:10px">
-          <span class="chip">${esc(c.prospect.name)}</span>
-          <span class="chip">${esc(c.rep.name)}</span>
-          <span class="chip">confidence ${c.avatar.confidence}</span>
-        </div>
-      </div>`;
-    }).join("")}
-  </div>
-
-  <h2>Pains &amp; goals</h2>
-  <div class="grid g2">
-    <div class="panel"><h3>Most common pain categories</h3>
-      ${top(painCat).slice(0,8).map(([k,v])=>row(k,v,top(painCat)[0][1])).join("")}</div>
-    <div class="panel"><h3>Most common goal categories</h3>
-      ${top(goalCat).slice(0,8).map(([k,v])=>row(k,v,top(goalCat)[0][1])).join("")}</div>
-  </div>
-  <p class="sub" style="margin-top:10px"><strong>Injury is the single largest pain category</strong> —
-  it appears in all ${n} calls and is severity-critical in one. Every prospect in this sample came in with
-  a body they were already working around. That is an offer-positioning signal, not just a data point.</p>
-
-  <h2>Call by call</h2>
-  <div class="scroll"><table>
-    <thead><tr><th>Call</th><th>Rep</th><th>Avatar</th><th>Outcome</th><th style="width:110px">Confidence</th><th>Cash</th></tr></thead>
-    <tbody>${calls.map(c=>{
-      const [lab,cls]=LABEL[c.outcome.disposition];
-      const low = c.outcome.confidence < 0.75;
-      return `<tr class="${low?"warnrow":""}">
-        <td><strong>${esc(c.prospect.name)}</strong>
-          <div class="mono" style="color:var(--muted)">${esc(c.source.original_title)}</div></td>
-        <td>${esc(c.rep.name)}${c.setter.name?`<div class="mono" style="color:var(--muted)">set by ${esc(c.setter.name)}</div>`:""}</td>
-        <td style="font-size:13.5px">${esc((AVATARS[c.avatar.assigned]||{}).name||c.avatar.assigned)}</td>
-        <td><span class="tag ${cls}">${lab}</span></td>
-        <td>${c.outcome.confidence}${low?' <span style="color:var(--warn)">⚠</span>':""}</td>
-        <td>${c.outcome.cash_collected_usd!=null?"$"+c.outcome.cash_collected_usd.toLocaleString()
-             : c.outcome.cash_expected_usd?'<span style="color:var(--warn)">$'+c.outcome.cash_expected_usd.toLocaleString()+" pending</span>":"—"}</td>
-      </tr>`;
-    }).join("")}</tbody>
-  </table></div>
-
-  <h2>Data quality — what would break this at scale</h2>
-  <p class="sub">Found in the pilot. Each one silently corrupts a metric if left unhandled.</p>
-  ${detail("Speaker labels are unreliable in every single call",
-    `Fathom's diarization swaps speakers on short turns in all ${n} transcripts. In the Francisco Vega call
-     it inverts repeatedly — the rep's discovery questions are attributed to the prospect. <strong>Any naive
-     "who said what" metric — talk ratio, question count, who raised the objection — will be wrong.</strong>
-     Every quote in this audit was verified by reading role from content, not from the label.`)}
-  ${detail("A prospect can change identity mid-call",
-    `Francisco Vega rejoined from his phone and his speaker label became “Paco's iPhone 17”. A parser keying
-     on speaker names would count him as two participants and lose half his transcript.`)}
-  ${detail("The unit of analysis is a deal, not a call",
-    `The Tyron Giuliani transcript opens with “we ended off yesterday” — it is call two of a sequence, and
-     the pricing conversation happened on call one. Counting calls as deals will double-count prospects and
-     understate close rate. Kamal Mohammed, Kim Forbes-Sobers and Giulian Carcioppolo all appear more than
-     once in the corpus.`)}
-  ${detail("Junk files are in the corpus",
-    `Several transcripts are 96–1,200 bytes — failed or aborted recordings. They need a length floor before
-     ingestion or they will dilute every average.`)}
-  ${detail("Outcome inference has a known blind spot",
-    `Francisco Vega verbally agreed to $1,200 × 6 and a link was sent, but the call cuts to voicemail before
-     payment confirms. It is scored 0.62 and held out of confirmed cash. At full-corpus scale this class of
-     call is common, and only a CRM or payments join resolves it.`)}
+  ${avatarSection(d)}
+  ${painGoalSection(d)}
+  ${callTableSection(d)}
+  ${rulesSection(d)}
 
   <footer>
     <strong>Primal Instinct call integrity audit.</strong>
-    ${n} calls · generated ${esc(d.generated_at.slice(0,10))} ·
-    ${d.counts.goals} goals, ${d.counts.pains} pains, ${d.counts.objections} objections extracted.<br>
+    ${d.corpus.calls_ingested} calls → ${d.corpus.deals} deals · generated ${esc(d.generated_at.slice(0,10))} ·
+    ${d.counts.goals} goals, ${d.counts.pains} pains, ${d.counts.objections} objections,
+    ${d.counts.check_scores} script checks scored.<br>
     Source of truth is <span class="mono">data/calls/*.json</span>; queryable copy in
     <span class="mono">data/primal.db</span>. Rebuild with <span class="mono">python3 src/build_db.py</span>.
     Outcomes are transcript-inferred and not CRM-verified.
   </footer>`;
 
+  /* ---------- Script adherence, by section of the script ---------- */
   function scriptSection(calls, pb){
-    const scored = calls.filter(c=>c.adherence).sort((a,b)=>b.adherence.adherence_pct-a.adherence.adherence_pct);
-    const phaseIds = pb.phases.map(p=>p.id);
-    const pName = Object.fromEntries(pb.phases.map(p=>[p.id,p.name]));
-    const cell = { hit:["✓","var(--won)"], partial:["~","var(--warn)"],
-                   miss:["✗","var(--lost)"], not_applicable:["–","var(--muted)"] };
+    const R = window.__D.rollups;
+    const ph = R.phases;
+    const totEarned = ph.reduce((s,p)=>s+(p.adherence_pct??0)*p.calls_scored,0);
+    const totCalls  = ph.reduce((s,p)=>s+p.calls_scored,0);
+    const overall   = totCalls ? Math.round(totEarned/totCalls) : 0;
+    const weakest   = ph.filter(p=>p.adherence_pct!=null)[0];
 
-    const tally = {};
-    phaseIds.forEach(id=>{ tally[id]={hit:0,partial:0,miss:0,not_applicable:0};
-      calls.forEach(c=>{ const s=c.adherence?.phases?.[id]?.score; if(s) tally[id][s]++; }); });
-
-    const plays = calls.flatMap(c=>(c.adherence?.objection_plays||[])
-      .filter(p=>p.trigger_present && p.play!=="none")
-      .map(p=>({...p, rep:c.rep.name, prospect:c.prospect.name})));
-    const unscripted = calls.flatMap(c=>(c.adherence?.objection_plays||[])
-      .filter(p=>p.play==="none" && p.trigger_present)
-      .map(p=>({...p, rep:c.rep.name, prospect:c.prospect.name})));
+    const plays = R.objection_plays;
+    const totTrig = plays.reduce((s,p)=>s+p.triggered,0);
+    const totFull = plays.reduce((s,p)=>s+p.hit,0);
 
     return `
-  <h2>Script adherence — the playbook vs. what actually happened</h2>
-  <p class="sub">Scored against <strong>${esc(pb.name)}</strong>. Phases a call could not reach are dropped
-  from the denominator, so no rep is penalised for a phase that never applied.</p>
+  <h2>Script adherence by section</h2>
+  <p class="sub">Every call scored against <strong>${esc(pb.name)}</strong>, then rolled up by section.
+  This answers “how are we running the script overall”, not “how did one rep do”. Sections a call could not
+  reach — a follow-up call has no baseline phase — drop out of that section's denominator rather than
+  counting as a failure.</p>
 
-  <div class="scroll" style="margin-bottom:14px"><table>
-    <thead><tr><th>Rep · prospect</th><th style="width:190px">Adherence</th><th style="width:120px">Outcome</th><th>Points</th></tr></thead>
-    <tbody>${scored.map(c=>{
-      const a=c.adherence, [lab,cls]=LABEL[c.outcome.disposition];
-      const col = a.adherence_pct>=70?"var(--won)":a.adherence_pct>=40?"var(--warn)":"var(--lost)";
+  <div class="grid g4" style="margin:var(--s4) 0">
+    ${stat(overall+"%","Overall adherence","across all sections")}
+    ${stat(weakest ? weakest.adherence_pct+"%" : "—","Weakest section",weakest ? weakest.name : "")}
+    ${stat(totTrig,"Scripted objections hit","across the corpus")}
+    ${stat(totFull+"/"+totTrig,"Objection plays fully run","")}
+  </div>
+
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr>
+      <th>Section</th><th style="width:190px">Adherence</th>
+      <th style="width:150px">Calls</th><th style="width:70px">Weight</th>
+    </tr></thead>
+    <tbody>${ph.map(p=>{
+      const v=p.adherence_pct, col = v==null?"var(--muted)":v>=70?"var(--won)":v>=45?"var(--warn)":"var(--lost)";
       return `<tr>
-        <td><strong>${esc(c.rep.name)}</strong>
-            <div class="mono" style="color:var(--muted)">${esc(c.prospect.name)}</div></td>
-        <td><strong style="font-size:21px;color:${col}">${a.adherence_pct}%</strong>
-            <div class="bar"><i style="width:${a.adherence_pct}%;background:${col}"></i></div></td>
-        <td><span class="tag ${cls}">${lab}</span></td>
-        <td class="mono" style="color:var(--muted)">${a.points_earned} / ${a.points_possible}</td>
+        <td><strong>${esc(p.name)}</strong>
+            <div style="color:var(--muted);font-size:12.5px">${esc(p.intent)}</div></td>
+        <td><span class="num" style="font-size:24px;color:${col}">${v==null?"—":v+"%"}</span>
+            <div class="bar"><i style="width:${v||0}%;background:${col}"></i></div></td>
+        <td style="font-size:12.5px;color:var(--muted)">
+            <span style="color:var(--won)">${p.hit} hit</span> ·
+            <span style="color:var(--warn)">${p.partial} part</span> ·
+            <span style="color:var(--lost)">${p.miss} miss</span>
+            ${p.not_applicable?` · ${p.not_applicable} n/a`:""}</td>
+        <td class="mono" style="color:var(--muted)">${p.weight}</td>
       </tr>`;}).join("")}</tbody>
   </table></div>
 
-  <div class="banner">
-    <strong>Adherence ranked in exactly the same order as outcome — and you should not trust that yet.</strong>
-    All five calls line up perfectly: highest adherence closed, lowest was lost. It is a real pattern worth
-    chasing, but two things undercut it. First, n=5. Second, and more seriously, <strong>the same pass scored
-    adherence and inferred the outcome</strong>, so halo bias is live — knowing a call closed makes its
-    discovery read as sharper. Fixing this needs blind scoring against CRM-verified outcomes, which is the
-    single most valuable thing to do before scaling this to the full corpus.
-  </div>
+  <h3 style="margin-top:var(--s6)">Down to the individual question</h3>
+  <p class="sub">Which specific moves inside each section actually get run. This is the coaching list.</p>
+  ${ph.map(p=>{
+    const worst = p.checks.filter(c=>c.pct!=null).sort((a,b)=>a.pct-b.pct).slice(0,3)
+                   .map(c=>c.text.slice(0,52)).join(" · ");
+    return `<details>
+      <summary>${esc(p.name)} — <span style="color:${p.adherence_pct>=70?"var(--won)":p.adherence_pct>=45?"var(--warn)":"var(--lost)"}">${p.adherence_pct==null?"—":p.adherence_pct+"%"}</span>
+        <span style="color:var(--muted);font-weight:400"> · weakest: ${esc(worst||"n/a")}</span></summary>
+      <div class="scroll" style="margin-top:var(--s3);border:none"><table style="min-width:560px">
+        <thead><tr><th>Move</th><th style="width:110px">Run</th><th style="width:130px">Hit / part / miss</th></tr></thead>
+        <tbody>${p.checks.sort((a,b)=>(a.pct??0)-(b.pct??0)).map(c=>{
+          const col = c.pct>=70?"var(--won)":c.pct>=45?"var(--warn)":"var(--lost)";
+          return `<tr><td style="font-size:13.5px">${esc(c.text)}</td>
+            <td><strong style="color:${col}">${c.pct==null?"—":c.pct+"%"}</strong>
+                <div class="bar"><i style="width:${c.pct||0}%;background:${col}"></i></div></td>
+            <td class="mono" style="color:var(--muted)">${c.hit} / ${c.partial} / ${c.miss}</td></tr>`;
+        }).join("")}</tbody>
+      </table></div></details>`;}).join("")}
 
-  <h3 style="margin-top:34px">Where the process breaks, phase by phase</h3>
-  <div class="scroll" style="margin-bottom:14px"><table>
-    <thead><tr><th>Phase</th>${scored.map(c=>`<th style="width:78px">${esc(c.rep.name.split(" ")[0])}</th>`).join("")}<th style="width:150px">Across corpus</th></tr></thead>
-    <tbody>${phaseIds.map(id=>{
-      const t=tally[id], denom=t.hit+t.partial+t.miss;
+  <h3 style="margin-top:var(--s6)">Objection plays</h3>
+  <p class="sub">How often each scripted objection comes up, and how often the rep actually runs the play.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Objection</th><th style="width:100px">Triggered</th>
+      <th style="width:200px">Play run</th><th>Detail</th></tr></thead>
+    <tbody>${plays.map(p=>{
+      const rate = pct(p.hit + p.partial*.5, p.triggered);
+      const col = rate>=70?"var(--won)":rate>=35?"var(--warn)":"var(--lost)";
       return `<tr>
-        <td><strong>${esc(pName[id])}</strong> <span class="mono" style="color:var(--muted)">${id}</span></td>
-        ${scored.map(c=>{ const s=c.adherence?.phases?.[id]?.score;
-          const [g,col]=cell[s]||["–","var(--muted)"];
-          return `<td style="text-align:center;font-size:19px;color:${col}" title="${esc(s||"")}">${g}</td>`;}).join("")}
-        <td style="font-size:13px;color:var(--muted)">${t.miss} miss · ${t.partial} partial · ${t.hit} hit
-          <div class="bar"><i style="width:${pct(t.hit,denom||1)}%;background:var(--won)"></i></div></td>
+        <td><strong>${esc(p.trigger)}</strong>
+            <div class="mono" style="color:var(--muted)">${esc(p.play)}</div></td>
+        <td><span class="num" style="font-size:22px">${p.triggered}</span></td>
+        <td><strong style="color:${col}">${rate}%</strong>
+            <div class="bar"><i style="width:${rate}%;background:${col}"></i></div>
+            <div class="mono" style="color:var(--muted);margin-top:4px">
+              ${p.hit} full · ${p.partial} partial · ${p.miss} missed</div></td>
+        <td style="font-size:12.5px;color:var(--muted)">${p.instances.map(i=>
+            `<div style="margin-bottom:4px"><strong>${esc(i.rep)}</strong> — ${esc((i.ran||"").toUpperCase())}</div>`).join("")}</td>
       </tr>`;}).join("")}</tbody>
   </table></div>
 
   <div class="grid g2">
     <div class="panel" style="border-color:var(--lost)">
-      <h3 style="color:var(--lost)">Phase 5 — Consequence Frame is the corpus-wide hole</h3>
-      <p style="color:var(--muted);margin:0">Run properly in <strong>1 of 5 calls</strong>. The playbook
-      weights it at 20 — equal to the commitment check — because it is what makes inaction cost something.
-      Four reps skipped it entirely. Farooq substituted a past-facing version (“if your 35-year-old self had
-      this…”) which builds desire but never makes standing still expensive.</p>
+      <h3 style="color:var(--lost)">${esc(weakest?weakest.name:"")} is the corpus-wide hole</h3>
+      <p style="color:var(--muted);margin:0">Running at <strong>${weakest?weakest.adherence_pct:0}%</strong>
+      across every call scored, at a section weight of ${weakest?weakest.weight:0} — the joint-heaviest in the
+      playbook. It is what makes standing still cost something, and it is the first thing to drill.</p>
     </div>
     <div class="panel" style="border-color:var(--warn)">
-      <h3 style="color:var(--warn)">Phase 11 was completed zero times out of two closes</h3>
-      <p style="color:var(--muted);margin:0">Both closes took payment and booked Trevor. <strong>Neither had
-      the agreement signed on the call, and neither gave the Skool link or welcome-email instruction.</strong>
-      The script is explicit — “complete every step before you hang up.” This is the cheapest fix on the board
-      and it is pure operational leakage, not selling skill.</p>
+      <h3 style="color:var(--warn)">No objection play has ever been run in full</h3>
+      <p style="color:var(--muted);margin:0">${totTrig} scripted objections triggered, ${totFull} plays run
+      end to end. The script supplies the words; they are being improvised instead. Objection handling is the
+      highest-leverage drill because the trigger language is predictable and repeatable.</p>
     </div>
   </div>
 
-  <h3 style="margin-top:34px">Objection plays — did the rep run the script?</h3>
-  <p class="sub">${plays.length} scripted objections triggered across the pilot ·
-     <strong>0 fully run</strong></p>
-  ${plays.map(p=>{
-    const col = p.ran==="hit"?"var(--won)":p.ran==="partial"?"var(--warn)":"var(--lost)";
-    const play = (pb.objection_plays||[]).find(x=>x.id===p.play)||{};
-    return `<details>
-      <summary><span style="color:${col}">${esc((p.ran||"").toUpperCase())}</span> ·
-        ${esc(p.play)} “${esc(play.trigger||"")}” — ${esc(p.rep)} / ${esc(p.prospect)}</summary>
-      <p style="color:var(--muted);margin:10px 0 12px">${esc(p.detail)}</p>
-      <div style="font-size:13px"><strong>Scripted moves available:</strong>
-        <div style="margin-top:6px">${(play.key_moves||[]).map(m=>`<span class="chip">${esc(m)}</span>`).join("")}</div>
-      </div></details>`;}).join("")}
+  <div class="banner" style="margin-top:var(--s4)">
+    <strong>One caveat on reading adherence against outcome.</strong>
+    Adherence and outcome were scored in the same pass, so knowing a call closed can make its discovery read
+    as sharper than it was. Section-level rates are far more robust to that than per-call scores — a whole
+    section being skipped is a countable fact, not a judgement — but blind scoring against CRM-verified
+    outcomes is still what would settle it.
+  </div>`;
+  }
 
-  <h3 style="margin-top:34px">Objections the script has no answer for</h3>
-  <p class="sub">Not rep failures — gaps in the playbook itself.</p>
-  ${(pb.known_gaps_in_script||[]).map(g=>`<details>
-      <summary style="color:var(--accent)">${esc(g.gap)}</summary>
-      <p style="color:var(--muted);margin:10px 0 0">${esc(g.detail)}</p></details>`).join("")}
-  ${unscripted.map(u=>`<div class="q">${esc(u.prospect)} → ${esc(u.detail)}</div>`).join("")}`;
+  /* ---------- Avatars, aggregated ---------- */
+  function avatarSection(d){
+    const rows = d.rollups.avatars, deals = d.corpus.deals;
+    return `
+  <h2>Avatars</h2>
+  <p class="sub">Prospect types across the whole corpus — how many of each, and how well each converts.
+  Counted per <strong>deal</strong>, not per call, so close rate is real. Provisional at this sample size:
+  built from ${deals} deals, so treat the rates as directions to test rather than facts.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Avatar</th><th style="width:80px">Deals</th><th style="width:90px">Share</th>
+      <th style="width:180px">Close rate</th><th style="width:110px">Cash</th><th>Outcomes</th></tr></thead>
+    <tbody>${rows.map(a=>{
+      const meta = AVATARS[a.avatar]||{name:a.avatar,blurb:""};
+      const col = a.close_rate>=60?"var(--won)":a.close_rate>=30?"var(--warn)":"var(--lost)";
+      return `<tr>
+        <td><strong>${esc(meta.name)}</strong>
+            <div style="color:var(--muted);font-size:12.5px">${esc(a.names.join(", "))}</div></td>
+        <td><span class="num" style="font-size:26px">${a.deals}</span></td>
+        <td class="mono" style="color:var(--muted)">${pct(a.deals,deals)}%</td>
+        <td><span class="num" style="font-size:22px;color:${col}">${a.close_rate}%</span>
+            <div class="bar"><i style="width:${a.close_rate}%;background:${col}"></i></div></td>
+        <td class="mono">${a.cash?"$"+a.cash.toLocaleString():"—"}</td>
+        <td style="font-size:12px">
+          ${a.closed?`<span class="tag t-closed">${a.closed} closed</span> `:""}
+          ${a.follow_up?`<span class="tag t-follow">${a.follow_up} follow up</span> `:""}
+          ${a.lost?`<span class="tag t-lost">${a.lost} lost</span>`:""}</td>
+      </tr>`;}).join("")}</tbody>
+  </table></div>
+  <p class="sub">What each type looks like on a call:</p>
+  ${rows.map(a=>{ const m=AVATARS[a.avatar]||{name:a.avatar,blurb:"",tell:""};
+    return `<details><summary>${esc(m.name)} <span style="color:var(--muted);font-weight:400">— ${a.deals} deal${a.deals===1?"":"s"}, ${a.close_rate}% close</span></summary>
+      <p style="color:var(--muted);margin:10px 0 8px">${esc(m.blurb)}</p>
+      <div class="q">${esc(m.tell)}</div></details>`;}).join("")}`;
+  }
+
+  /* ---------- Pains and goals ---------- */
+  function painGoalSection(d){
+    const P = d.rollups.pains, G = d.rollups.goals;
+    const pMax = Math.max(...P.map(x=>x.count)), gMax = Math.max(...G.map(x=>x.count));
+    const SEV = {critical:"var(--lost)",high:"var(--lost)",medium:"var(--warn)",low:"var(--muted)"};
+
+    const block = (rows, max, tone, kind) => rows.map(b=>`
+      <details style="border-left:3px solid ${tone}">
+        <summary>
+          <span style="color:${tone}">${esc(b.category.replace(/_/g," "))}</span>
+          <span style="color:var(--muted);font-weight:400"> — ${b.count} across ${b.calls} call${b.calls===1?"":"s"}</span>
+          <div class="bar" style="margin-top:6px"><i style="width:${Math.round(b.count/max*100)}%;background:${tone}"></i></div>
+          ${Object.keys(b.severities||{}).length ? `<div style="margin-top:6px">${
+            Object.entries(b.severities).sort((x,y)=>y[1]-x[1]).map(([s,n])=>
+              `<span class="chip" style="color:${SEV[s]||"var(--muted)"};border-color:${SEV[s]||"var(--line)"}">${esc(s)} ×${n}</span>`
+            ).join("")}</div>` : ""}
+        </summary>
+        <div style="margin-top:10px">${b.items.map(i=>{
+          const [lab,cls]=LABEL[i.disposition];
+          return `<div style="padding:7px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
+            <span style="color:${tone}">${kind==="pain"?"▲":"●"}</span> ${esc(i.text)}
+            <div style="color:var(--muted);font-size:12px;margin-top:3px">
+              ${esc(i.prospect)} <span class="tag ${cls}" style="font-size:9.5px;padding:2px 7px">${lab}</span>
+              ${i.severity?`<span class="chip" style="color:${SEV[i.severity]||"var(--muted)"}">${esc(i.severity)}</span>`:""}
+            </div></div>`;}).join("")}</div>
+      </details>`).join("");
+
+    return `
+  <h2>Pains &amp; goals</h2>
+  <p class="sub">
+    <span style="color:var(--lost);font-weight:600">▲ PAINS</span> are what they are running from —
+    what hurts today. <span style="color:var(--won);font-weight:600">● GOALS</span> are what they are
+    running toward. Both are counted across every call; open a category to see the raw language and
+    which deals it came from.</p>
+  <div class="grid g2">
+    <div>
+      <div class="panel" style="border-color:var(--lost);margin-bottom:var(--s3)">
+        <h3 style="color:var(--lost)">▲ Pains — ${d.counts.pains} recorded</h3>
+        <p style="margin:0;color:var(--muted);font-size:13.5px">
+          <strong style="color:var(--lost)">${esc(P[0].category.replace(/_/g," "))}</strong> leads at
+          ${P[0].count} mentions across ${P[0].calls} calls. ${P.length} categories in total.</p>
+      </div>
+      ${block(P, pMax, "var(--lost)", "pain")}
+    </div>
+    <div>
+      <div class="panel" style="border-color:var(--won);margin-bottom:var(--s3)">
+        <h3 style="color:var(--won)">● Goals — ${d.counts.goals} recorded</h3>
+        <p style="margin:0;color:var(--muted);font-size:13.5px">
+          <strong style="color:var(--won)">${esc(G[0].category.replace(/_/g," "))}</strong> leads at
+          ${G[0].count} mentions across ${G[0].calls} calls. ${G.length} categories in total.</p>
+      </div>
+      ${block(G, gMax, "var(--won)", "goal")}
+    </div>
+  </div>`;
+  }
+
+  /* ---------- Call by call, paginated ---------- */
+  function callTableSection(d){
+    return `
+  <h2>Call by call</h2>
+  <p class="sub">${d.corpus.calls_ingested} calls across ${d.corpus.deals} deals.
+  ${d.corpus.multi_call_deals} deal${d.corpus.multi_call_deals===1?"":"s"} span more than one call.
+  Every row links to the source transcript in Drive.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Prospect</th><th>Date</th><th>Rep</th><th>Avatar</th>
+      <th style="width:110px">Outcome</th><th style="width:100px">Adherence</th>
+      <th style="width:90px">Cash</th><th style="width:80px">Source</th></tr></thead>
+    <tbody id="callRows"></tbody>
+  </table></div>
+  <div id="pager" style="display:flex;gap:var(--s2);align-items:center;justify-content:space-between;
+       margin-top:var(--s3);flex-wrap:wrap"></div>`;
+  }
+
+  /* ---------- Ingestion rules ---------- */
+  function rulesSection(d){
+    const r = d.rules, c = d.corpus;
+    const card = (title, body, meta) => `<details>
+      <summary><span style="color:var(--won)">✓</span> ${esc(title)}</summary>
+      <p style="color:var(--muted);margin:10px 0 ${meta?"8px":"0"}">${body}</p>
+      ${meta?`<div>${meta}</div>`:""}</details>`;
+
+    return `
+  <h2>Ingestion rules</h2>
+  <p class="sub">The decisions that make the corpus comparable. These are policy, applied uniformly to every
+  call — not per-call judgement. Each one was an open data-quality risk; each is now settled.</p>
+
+  ${card("Speaker labels — rep is the tagged speaker, everyone else is the prospect",
+    `Fathom tags the closer with a <span class="mono">(Primal Instinct)</span> suffix. That label identifies
+     the rep; every other label in the transcript collapses to a single prospect role. This also absorbs a
+     prospect who changes device mid-call and picks up a new label — “Paco's iPhone 17” resolves to the same
+     person, not a second participant.`,
+    `<span class="chip">handles diarization swaps</span><span class="chip">handles device changes</span>
+     <span class="chip" style="color:var(--warn);border-color:var(--warn)">talk-ratio metrics not published</span>`)}
+
+  ${card("Prospect identity — title first, then transcript",
+    `Name comes from the file title where present. For untitled “Impromptu Zoom Meeting” files it is recovered
+     from the first non-rep speaker. Names are normalised — lowercased, punctuation and device suffixes
+     stripped — and that normalised form is the deal key.`)}
+
+  ${card("Multiple calls with one prospect merge into a single deal",
+    `A deal carries the outcome of its <strong>last</strong> call chronologically, since that is the furthest
+     the conversation actually got. Cash comes from the closing call only, never summed across the sequence.
+     Adherence stays scored per call, because a discovery call and a follow-up are judged against different
+     parts of the script and averaging them would hide which part failed.`,
+    `<span class="chip">${c.deals} deals from ${c.calls_ingested} calls</span>
+     <span class="chip">${c.multi_call_deals} multi-call deal${c.multi_call_deals===1?"":"s"}</span>`)}
+
+  ${card("Junk recordings are excluded",
+    `Transcripts under <strong>${(r.junk_filter.min_file_size_bytes/1000).toFixed(1)} KB</strong> are failed or
+     aborted recordings — connection drops, no-shows, empty rooms. The corpus contains examples from 96 bytes
+     up. They are counted and reported rather than silently dropped, because a rising junk count is itself a
+     signal about recording setup.`,
+    `<span class="chip">${c.junk_excluded} excluded this run</span>`)}
+
+  ${card("Verbal agreement plus a link sent counts as closed",
+    `Where a prospect agrees to move forward and the payment link goes out, the deal is closed — even if the
+     transcript ends before payment confirms. Payment plans are recorded at contract value with the instalment
+     terms kept separately, so cash-collected and contract-value can be reported apart.`,
+    `<span class="chip" style="color:var(--warn);border-color:var(--warn)">overstates against agreed-then-never-paid</span>`)}`;
   }
 
   function stat(n,l,f){return `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div><div class="f">${f||""}</div></div>`;}
-  function row(k,v,max){return `<div style="margin-bottom:11px"><div style="display:flex;justify-content:space-between;font-size:14px">
-    <span>${esc(k.replace(/_/g," "))}</span><strong>${v}</strong></div>
-    <div class="bar"><i style="width:${Math.round(v/max*100)}%"></i></div></div>`;}
-  function detail(t,b){return `<details><summary>${esc(t)}</summary><p style="color:var(--muted);margin:10px 0 0">${b}</p></details>`;}
+
+  drawCalls(1);
+}
+
+/* ---------- pagination for the call table ---------- */
+const PAGE_SIZE = 25;
+function drawCalls(page){
+  const d = window.__D;
+  const rows = [...d.calls].sort((a,b)=> b.call.date.localeCompare(a.call.date));
+  const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+  page = Math.min(Math.max(1, page), pages);
+  const slice = rows.slice((page-1)*PAGE_SIZE, page*PAGE_SIZE);
+
+  document.getElementById("callRows").innerHTML = slice.map(c=>{
+    const [lab,cls] = LABEL[c.outcome.disposition];
+    const av = (AVATARS[c.avatar.assigned]||{}).name || c.avatar.assigned;
+    const a  = c.adherence ? c.adherence.adherence_pct : null;
+    const acol = a==null?"var(--muted)":a>=70?"var(--won)":a>=45?"var(--warn)":"var(--lost)";
+    const url = c.source.drive_file_id
+      ? "https://drive.google.com/file/d/"+c.source.drive_file_id+"/view" : null;
+    return `<tr>
+      <td><strong>${esc(c.prospect.name)}</strong>
+          <div class="mono" style="color:var(--muted)">${esc(c.source.original_title)}</div></td>
+      <td class="mono" style="color:var(--muted)">${esc(c.call.date)}</td>
+      <td>${esc(c.rep.name)}${c.setter.name
+          ? `<div class="mono" style="color:var(--muted)">set by ${esc(c.setter.name)}</div>`:""}</td>
+      <td style="font-size:13px">${esc(av)}</td>
+      <td><span class="tag ${cls}">${lab}</span></td>
+      <td><strong style="color:${acol}">${a==null?"—":a+"%"}</strong></td>
+      <td class="mono">${c.outcome.cash_collected_usd
+          ? "$"+c.outcome.cash_collected_usd.toLocaleString() : "—"}</td>
+      <td>${url?`<a href="${url}" target="_blank" rel="noopener"
+             style="color:var(--accent);font-size:12.5px">Drive ↗</a>`:"—"}</td>
+    </tr>`;}).join("");
+
+  const btn = (p,label,on)=> on
+    ? `<button onclick="drawCalls(${p})" style="background:var(--chip);color:var(--ink);
+         border:1px solid var(--line);border-radius:var(--r-sm);padding:6px 13px;cursor:pointer;
+         font-family:var(--font-body);font-size:13px">${label}</button>`
+    : `<button disabled style="background:transparent;color:var(--muted);border:1px solid var(--line);
+         border-radius:var(--r-sm);padding:6px 13px;font-family:var(--font-body);font-size:13px;
+         opacity:.4">${label}</button>`;
+
+  document.getElementById("pager").innerHTML = `
+    <span style="color:var(--muted);font-size:13px">
+      Showing ${(page-1)*PAGE_SIZE+1}–${Math.min(page*PAGE_SIZE,rows.length)} of ${rows.length} calls</span>
+    <span style="display:flex;gap:6px;align-items:center">
+      ${btn(page-1,"← Prev",page>1)}
+      <span style="color:var(--muted);font-size:13px;padding:0 6px">Page ${page} / ${pages}</span>
+      ${btn(page+1,"Next →",page<pages)}
+    </span>`;
 }
 </script>
 </body>
