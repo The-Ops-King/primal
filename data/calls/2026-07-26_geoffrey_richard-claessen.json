@@ -1,0 +1,152 @@
+{
+  "call_id": "2026-07-26_geoffrey_richard-claessen",
+  "source": {
+    "drive_file_id": "1-IRS60Op7qMOr53cHTW0d4MVGC6xomDi",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/26/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/26/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 53300
+  },
+  "call": {
+    "date": "2026-07-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 46,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "medium",
+    "evidence": "Rep at 00:00:35: 'I already heard a few things from Kim, but I would just love to hear everything from you.' No setter code in the title."
+  },
+  "prospect": {
+    "name": "Geoffrey",
+    "aka": "16 ProMax",
+    "name_source": "transcript",
+    "location": "Austin, Texas, USA at the time of the call; travels constantly for work",
+    "age": 56,
+    "occupation": "Travelling field/project worker, apparently telecommunications-related — references supply problems, 'all this war stuff and not getting parts and stuff, you know, telecommunications'. Works rotating shifts including 11pm-7am midnights, on project assignments that can end early. Former US Marine Corps.",
+    "family_status": "Has a son with a family of his own; two granddaughters aged 4 and 8. His own parents are alive and are great-grandparents, which he explicitly wants to emulate.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "US Marine Corps background. Did cardio kickboxing five or six days a week, including kettlebell work, when he had a job that did not require travel. Since going on the road he stopped entirely and his doctor recorded a 40 lb gain in one year. Currently walks half a mile to a mile a day and has cut sugar over the last two weeks, losing 5 lb. Ships two 10 lb kettlebells and a fitness stick to job sites, or packs them in the car.",
+    "kettlebell_experience": "some",
+    "medical": "Herniated disc in his back, plus knee, shoulder and ankle pain he rates 6 out of 10 and partly attributes to rotating shifts. Blood pressure fluctuating, and his doctor has given him a six-month ultimatum — 'I'll give you six months to get it together, or we'll just put you on a fitness program' and blood pressure medication. Father is on blood pressure medication and advised him against starting. Strong stated aversion to medication. Self-describes as 30 to almost 40 pounds over his ideal weight of 185 lb; current weight never stated."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Lost significant ground to a hard season — a travelling job that put 40 lb on him in a single year: 'I was focused on traveling a lot at first, and that's how I put on, my doctor said I put on 40 pounds in a year'",
+      "Wants a former self back and names it specifically: getting back to Spartan obstacle course racing and the cardio-kickboxing conditioning he had before the travel job",
+      "Medical wake-up call driving the timing — a doctor's six-month ultimatum before blood pressure medication",
+      "Counter-signal: no self-pity or regret, unusually positive framing — 'I don't think negative. I think positive' — and a strong track record of hitting goals he sets (Marine Corps, music school audition), which reads closer to an optimizer's self-concept",
+      "Not the medically_constrained avatar: the clinician is the motivator here, not the blocker, and no doctor has ruled out training"
+    ]
+  },
+  "goals": [
+    { "text": "Lose roughly 30-40 lb down to an ideal weight of 185", "category": "fat_loss" },
+    { "text": "Build lean muscle without bulk, for an athletic build rather than size", "category": "muscle_gain" },
+    { "text": "Be fit enough at any time to enter a Spartan obstacle course race on a weekend's notice — 'I'm already in shape, so I can, I'm here, I may as well do it'", "category": "hobby_performance" },
+    { "text": "Get vitality and energy back — 'get up, be on the go, hang out with my granddaughters' without needing a nap", "category": "energy_performance" },
+    { "text": "Avoid going on blood pressure medication and prove the doctor wrong — 'I want to prove the doctor's wrong that I can take care of this by myself without medications'", "category": "longevity_function" },
+    { "text": "Be alive and mobile to see both granddaughters graduate high school, and become a great-grandparent like his own parents", "category": "longevity_family" },
+    { "text": "Reduce joint pain in knees, shoulders and ankles by offloading them through weight loss and mobility work", "category": "mobility" },
+    { "text": "A programme that travels — no gym membership, no weight room, works from a hotel room", "category": "convenience" },
+    { "text": "Something sustainable rather than a 28-day quick fix — 'not like this quick 28-day stuff that everyone's advertising'", "category": "sustainability" },
+    { "text": "External accountability, effectively a workout partner, to make him actually do it", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Doctor's six-month ultimatum before starting blood pressure medication he desperately does not want", "category": "medical", "severity": "critical" },
+    { "text": "Gained 40 lb in one year from constant travel, hotel food and no training", "category": "aging", "severity": "high" },
+    { "text": "Herniated disc plus knee, shoulder and ankle pain rated 6 out of 10", "category": "injury", "severity": "high" },
+    { "text": "Rotating shift work — midnights one week, days the next — wrecking his body clock and sleep", "category": "sleep", "severity": "high" },
+    { "text": "Low energy, too tired to keep up with his granddaughters on days off", "category": "other", "severity": "high" },
+    { "text": "Knows exactly what to do and does not do it — 'I know what to do. I just have no accountability'", "category": "accountability_gap", "severity": "critical" },
+    { "text": "Eats for convenience on the road: sandwiches, potatoes, rice, processed meats every few days, hotels without kitchens", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Hotel gyms are unpredictable — 'sometimes they just might have a treadmill'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Inconsistent contract work and unstable income; the current assignment may end early", "category": "work_stress", "severity": "high" },
+    { "text": "Carrying about $3,000 of credit card debt across four cards and actively trying to rebuild a poor credit score", "category": "other", "severity": "high" },
+    { "text": "Fear of not being around for his granddaughters, or being around but unable to walk and participate", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Okay, yeah, I have to look at them and budget some things for that.",
+      "timestamp": "00:30:48",
+      "rep_response": "Isolated it cleanly — 'outside of the investment, do you feel like, yeah, let's just get started?' — got a yes, then ran an unusually complete financial picture: monthly leftover, liquid savings, credit score, number of cards, outstanding debt and available credit.",
+      "response_tactic": "isolate_then_full_financial_picture",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I would like to, now that I got the cost, I would like to sit down for a day or two and budget everything to make sure. Everything's first before I just say, you know, I know there is no tomorrow, like I said, but that's kind of steep right now with my consistent working",
+      "timestamp": "00:34:51",
+      "rep_response": "Named the pattern that thinking turns into never — 'when you go off the meeting, it's like, well, maybe it's not the best time right now. And it gets pushed forward. That is what happens a lot' — asked directly whether $6,000 was feasible, then proposed a refundable $100 deposit as an accountability device and booked a call for the following day.",
+      "response_tactic": "pattern_interrupt_then_refundable_deposit",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "my project is scheduled to work this week, but we find out tonight if we don't end it early. So, you know, I have to budget around of not having a week's work... if I don't have any work and I don't get another job assignment for another week or two, I'm, you know, dipping into my 1500 bucks",
+      "timestamp": "00:38:35",
+      "rep_response": "Acknowledged it and used it as the argument for splitting the payment rather than paying upfront, but did not stress-test whether $1,200 a month survives a work gap.",
+      "response_tactic": "offer_instalments",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I'm looking at getting rid of some things. I don't use memberships, you know, little things, streaming TV, that's another thing, you know, I'm on the road, I'm paying for all these applications to stream TV",
+      "timestamp": "00:41:04",
+      "rep_response": "Let the prospect build his own funding plan and reinforced it, tying the streaming subscriptions to the behaviour he wants to change: 'if I'm more working out, I'm not watching TV'.",
+      "response_tactic": "let_prospect_self_fund",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$1,200 per month for six months, which totals $7,200 against the $6,000 headline — a $1,200 surcharge for instalments, the same structure quoted on the Edward Garcia call. The discrepancy was never explained here and the prospect appears not to have registered it: he said of the $6,000, 'that's only a thousand a month', and the rep did not correct him, yet the plan discussed and agreed in principle was $1,200 a month. A refundable $100 deposit was also offered as a commitment device — 'the deposit is just a hundred, and it's only really to keep you accountable to yourself' — and was not taken.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 2500,
+      "monthly_surplus_usd": 1500,
+      "has_savings": true,
+      "credit_score": "self-described as not good; four credit cards carrying about $3,000 of debt, $300-500 of available credit per month; also holds a Roth account and stock investments he has not recently valued"
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment and no deposit taken — he declined the $100 twice: 'I wouldn't make the deposit today. I want to be certain'",
+      "Follow-up call booked for the next day at 2pm, invite sent and confirmed received live: 'Yes, I just saw it pop up'",
+      "Strong positive signal: 'the $1,200 a month is no problem. It doesn't cause any strain anywhere', and he volunteered a self-funding plan by cutting streaming subscriptions",
+      "Strong intent signal: he has a doctor's appointment at the end of August he wants to walk into having already started",
+      "Committed to doing the work before the next call — 'Are you going to make that promise to yourself that you are actually going to figure it out?' / 'Yes, I am'",
+      "Counter-evidence: his income is genuinely unstable, his current assignment may end this week, and he carries $3,000 of credit card debt he is actively paying down",
+      "Counter-evidence: he explicitly asked for the follow-up on Tuesday and was moved to tomorrow by the rep, so the timeline is the rep's, not his"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up Zoom the next day at 2pm Central after his overnight shift, by which point he will have reviewed bank statements and confirmed whether his assignment continues; rep to either start him or 'find another way'."
+  },
+  "notable": {
+    "note": "Best-run discovery in the batch — full baseline, a genuine emotional why driven all the way to the granddaughters and great-grandparent legacy, and the most complete money conversation of any call here. Three things to flag anyway. First, the instalment maths: $1,200 x 6 = $7,200 against a $6,000 headline, and the prospect said aloud 'that's only a thousand a month' without being corrected, so he may arrive at the next call believing he agreed to something $1,200 cheaper than what was offered. Second, the rep used a scarcity line that was not true — 'usually, we don't really book in another meeting... unless we actually have a deposit' — and then booked the meeting anyway with no deposit, which teaches the prospect the pressure is soft. Third, the prospect volunteered that he holds a Roth account and stock investments and the rep never followed up, despite that being the last item on the scripted financial picture and the most likely source of $6,000. Also: the rep addressed him as 'Trevor' once at 00:38:21, and the prospect's surname is never stated anywhere in the transcript."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect is labelled throughout as '16 ProMax', a device name rather than a person — the identity case the spec warns about. Attribution is heavily inverted: at 00:02:52 and 00:03:04 the prospect's own goal statements are labelled Richard; the entire pillar presentation between 00:22:41 and 00:24:36 flips labels mid-paragraph; at 00:14:43 the rep's question 'just imagine, like six months from now' sits inside a prospect-labelled block; at 00:33:42 and 00:39:56 the two speakers are merged. Role read from content throughout."
+  }
+}

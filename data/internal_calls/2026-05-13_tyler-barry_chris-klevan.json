@@ -1,0 +1,89 @@
+{
+  "call_id": "2026-05-13_tyler-barry_chris-klevan",
+  "source": {
+    "drive_file_id": "1-sYRkykY9OmCvcBCCn6R1hOu9g1ucYj2",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/13/2026 - Chris x Tyler - 1-1",
+    "display_title": "05/13/2026 - Chris x Tyler - 1-1 — Undetermined",
+    "file_size_bytes": 4041
+  },
+  "call": {
+    "date": "2026-05-13",
+    "stage": "internal",
+    "sequence_position": 2,
+    "sequence_note": "References a hiring process already in flight — a meeting had been booked in advance ('we had this meeting set up today') and Chris had previously extended interest in bringing Tyler onto the team.",
+    "duration_min_est": 3,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Chris Klevan",
+    "role": "other",
+    "location": null,
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Tyler Barry",
+    "aka": null,
+    "name_source": "title",
+    "location": null,
+    "age": null,
+    "occupation": "Sales rep at vShred — top performer, on 14% commission plus weekly KPI bonuses",
+    "family_status": "Father is unwell — 'especially with everything with my father's going on'",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.97,
+    "signals": [
+      "Proposed label: internal_recruiting_candidate — Tyler Barry is a sales-rep hire candidate declining Primal Instinct's opportunity because his current employer (vShred) counter-offered, not a coaching prospect. No avatar in the customer taxonomy applies."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Internal recruiting call, not a coaching sale — no Kettlebell Body offer exists to dispose of, so the sales dispositions do not apply.",
+      "Recruiting outcome, for the record: the candidate declined. 'It just makes sense financially for me to stay there at this point.'",
+      "Chris did not counter: 'I'm not going to convince you otherwise... I can't make you an offer consistent with that.'",
+      "Counter-evidence for a future re-open: Tyler left the door open — 'if the lead flow slows down or dies... I will reach out to you guys.'"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled. Candidate to reach out to Chris directly if his situation at vShred changes."
+  },
+  "notable": {
+    "note": "Recruiting loss to a counter-offer, worth a manager's attention on two counts. (1) Primal lost a self-described number-one closer to a 14% commission plus weekly KPI bonus package and chose not to counter at all — a data point on comp competitiveness against vShred. (2) The candidate is warm and pre-sold on the brand ('I've been binge watching all your guys' videos'), so this is a re-approach candidate, not a dead one. Also note the file is misfiled: it sits in Andrew Musial's rep folder but Andrew is not on the call."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and systematic. The '(Primal Instinct)' suffix is attached to Tyler Barry, the external candidate, while Chris Klevan — the Primal Instinct person actually running the call — carries a bare label; the org tag is on the wrong party outright. Individual lines are also inverted: the 00:00:00 line under 'Chris Klevan' ('they actually accepted my 14% commission... because I'm number one') is plainly Tyler, and the 00:02:11 line under 'Tyler Barry (Primal Instinct)' ('I can't make you an offer consistent with that') is plainly Chris. Roles here were resolved entirely from content."
+  }
+}

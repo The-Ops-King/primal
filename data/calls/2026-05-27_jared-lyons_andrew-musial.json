@@ -1,0 +1,162 @@
+{
+  "call_id": "2026-05-27_jared-lyons_andrew-musial",
+  "source": {
+    "drive_file_id": "1eywnuqv8O5Z9EbyjgNaZ83JdxGJ_TxX4",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/27/2026 - Jared Lyons x Andrew Musial KL",
+    "display_title": "05/27/2026 - Jared Lyons x Andrew Musial KL — Follow Up",
+    "file_size_bytes": 25884
+  },
+  "call": {
+    "date": "2026-05-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 27,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Europe — 'I'm in Europe right now'; Poland per the internal onboarding call in this same batch",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "The rep names her and confirms he read her notes: 'So I went through everything that you told to my friend, Kaila. Yeah, there's a lot going on over there, to be honest.' He then demonstrated it — 'you have an experience of training twice a day, doing high rocks, all of stuff.' Transcribed as 'Kaila'; the KL suffix in the title and the corpus key both give Kyla."
+  },
+  "prospect": {
+    "name": "Jared Lyons",
+    "aka": "Zoom label reads 'jaredlyons'",
+    "name_source": "title",
+    "location": "Los Angeles, California, USA — travelling internationally roughly half the time; upcoming trips named as Mykonos, Ibiza, Saint-Tropez and Marbella",
+    "age": null,
+    "occupation": "Not established — the rep never asked. Indirect signals only: 'I pretty much have back-to-back meetings all day', near-constant international travel, and $1,500-$2,000 a month spent on personal trainers.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Highly trained and training twice a day. Lifelong weightlifter — 'I've been working out consistently for a long time now' — currently doing a morning session at The Yard (a Hyrox-style circuit gym founded by an F45 co-founder) plus an afternoon lifting session at a commercial gym, on a routine he has run for years. Competes in Hyrox recreationally: raced his first in Barcelona straight off a 15-hour flight, largely untrained for it, and posted what he describes as a 1-10, which he rates as good for a first attempt. Intends to do more but is explicit it is for fun, not for elite placing. Formerly a competitive lacrosse player until injury. Dislikes running but does cardio because it leans him out; previously used Barry's-style classes for that and quit from boredom. Kettlebell experience limited to swings and goblet squats. Also raced with a partner in Barcelona ('if I didn't have my partner with me, I would have done it quicker'), relationship not established.",
+    "kettlebell_experience": "some",
+    "medical": "Two tears in each labrum in both shoulders, treated with stem cell injections rather than surgery — 'I ended up getting stem cells instead of surgery. It helped with that.' Residual: no pain in everyday lifting, but 'when I'm doing like a ton of volume and a ton of reps, then I'll start to like have a little pain.' A metal bar and eight screws in his right leg from the lacrosse injury, which rules out long-distance running — 'the only thing I really can't do is like long, long distance running. That's when it really starts to hurt.' Bad flat feet. He minimises all of it: 'I don't really let any of these things affect me, at least when I'm working out.'"
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.78,
+    "signals": [
+      "Already fit and successful, seeking good to great rather than rescue: 'I'm not here to lose 10% of body fat or anything like that. I'm just looking to change it up' and 'I feel like I've plateaued. I haven't really like grown any.'",
+      "Price is explicitly not the barrier, which is the defining test for this avatar: 'it's not even like the $4,000. I spend way more on stupid [stuff] all the time.' He already spends $1,500-$2,000 a month on personal trainers, roughly $18,000-$24,000 a year.",
+      "Buys premium solutions as a matter of course — stem cell therapy instead of shoulder surgery, a Hyrox race entry requiring a 15-hour flight to Barcelona, a boutique circuit gym membership on top of a regular gym.",
+      "COUNTER-SIGNAL, and the reason confidence is not higher: this optimizer refused the price anyway. His objection is scope, not cost — 'what I want is not necessarily something that you guys normally sell. Like, I just want to buy a program' — which makes him an optimizer whose optimisation the product does not sell in the shape he wants it. skeptical_bargain_hunter was considered because he is self-directed and cited free online resources, but rejected: he is not looking for a cheaper option, he is looking for a smaller one, and he volunteered that he would pay more elsewhere for the same money in person."
+    ]
+  },
+  "goals": [
+    { "text": "Break out of a stale routine he has run for years — 'I go to the gym every day and doing the same routine for so many years, just over it'", "category": "other" },
+    { "text": "Break a training plateau — 'I feel like I've plateaued. I haven't really like grown any'", "category": "training_dissatisfaction" },
+    { "text": "Get an equivalent full workout from one piece of equipment in 45 to 60 minutes — 'burn the same amount of calories, work the same muscles, and get the same benefits'", "category": "convenience" },
+    { "text": "Train properly while travelling roughly half the time, without needing a gym — the stated reason he took the call", "category": "convenience" },
+    { "text": "Improve mobility, which he named as the priority when the rep asked him to choose", "category": "mobility" },
+    { "text": "Build a stronger core, the area he admits he neglects", "category": "strength" },
+    { "text": "Keep competing in more Hyrox events, for enjoyment rather than placing", "category": "hobby_performance" },
+    { "text": "Stay lean — he does cardio he actively dislikes because 'the more cardio I do, the leaner I get'", "category": "fat_loss" },
+    { "text": "Learn the kettlebell movement library beyond swings and goblet squats — 'none of the other stuff that I'll see like you guys doing in these videos'", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Bored with a years-old gym routine, and boredom is his established pattern for quitting — he abandoned Barry's-style classes the same way: 'eventually I just got so bored of it. I couldn't go anymore'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Plateaued despite training twice a day, with no growth to show for it", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Two labral tears in each shoulder, stem-cell treated, with pain returning under high training volume", "category": "injury", "severity": "medium" },
+    { "text": "A metal bar and eight screws in his right leg, ruling out long-distance running", "category": "injury", "severity": "medium" },
+    { "text": "Bad flat feet", "category": "injury", "severity": "low" },
+    { "text": "Skips or half-does leg day because he does not enjoy it — 'leg day, I'll half-[do] half the time... I don't enjoy it'", "category": "motivation", "severity": "low" },
+    { "text": "Gets lazy about direct core training, the area he named as his gap", "category": "motivation", "severity": "low" },
+    { "text": "Hates running but needs it for leanness — a permanent friction in his programme", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Diet falls apart on the road, and the road is half his life — 'when I'm traveling is kind of like where I really [mess] up... one bite turns into 20'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Training depends on gym access, which constant travel disrupts", "category": "training_barrier", "severity": "medium" },
+    { "text": "Sweet tooth — 'I got a sweet tooth for sure'", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I just, for me to pay 6K to just get a program seems a little crazy for me. But I get it. I mean, I'm not the average customer, so I get it. It doesn't exactly fit... I don't really need or want all this extra stuff. So it's, I guess what I, what I want is not necessarily something that you guys normally sell. Like, I just want to buy a program.",
+      "timestamp": "00:20:29",
+      "rep_response": "Attempted one substantive rebuttal — that he lacks kettlebell experience and will need the coaching layer: 'you mentioned that you don't have experience in kettlebells and in complex movements.' Jared conceded the first month and refused the rest ('after month one, I don't see myself needing the additional check-ins'), and the rep's counter was a single weak line, 'Well, you will learn the basics throughout the month, and then you will progress, right?' He then abandoned the argument and started discounting instead, ending at an invented 30-day trial.",
+      "response_tactic": "one_weak_value_rebuttal_then_discount_ladder",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I spend, you know, 1,500, 2K a month sometimes on trainers when I'm here, not traveling as much. And it's like, I could probably, you know, I don't know, to spend the same amount for virtual seems a little crazy.",
+      "timestamp": "00:20:29",
+      "rep_response": "Asked a genuinely good question — 'What's so crazy about it?' — got a soft answer ('I don't know, just a different experience in my mind') and then let it go entirely without contesting the in-person versus remote value assumption. Proposed label for this objection type: in_person_vs_virtual_value. No scripted play exists for it.",
+      "response_tactic": "probe_once_then_drop",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "But it's just, for what I want, and all the online resources and things, like, it just seems silly for me to spend so much money on. In my mind, what I want is just a program.",
+      "timestamp": "00:22:45",
+      "rep_response": "No response to the free-resources point at all. The rep replied 'Okay. I get it' and immediately pivoted to proposing the 30-day trial.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "All right, well, I'll think on it. I'll let you guys know. If I was to do it, it definitely would probably be a three-month commitment, not a six or 12. But yeah, let me think on it a bit.",
+      "timestamp": "00:22:15",
+      "rep_response": "Ran the strongest scripted move available and got a real answer: 'So what's coming up for you right now that's keeping you from actually moving forward?' produced 'I just don't know, for me personally, if me spending $4,000 on this makes sense.' He then stopped running the play and started inventing product instead.",
+      "response_tactic": "ask_whats_coming_up_then_pivot_to_new_offer",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay, cool. Yeah, let me just check a few other things and then I will get back to you if I'm going to confirm it. I'll confirm or I'll give you an answer in the next day or even today. I just want to look at a few other things.",
+      "timestamp": "00:24:02",
+      "rep_response": "Granted immediately and without challenge, seconds after the prospect had said the $1,500 trial 'would work'. No attempt to collect payment, no card asked for, no link mentioned. The rep moved straight to scheduling a follow-up call.",
+      "response_tactic": "grant_the_delay_and_book_follow_up",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 1, "price_usd": 1500 },
+      { "months": 12, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "A 30-day trial invented live on the call and named by the rep: 'Would you be down for, like, 30 days just checking how it works? And if you're satisfied with that, you would move on? If not?' ... 'We call it love it or leave it.' Explained as: 'you get a full month, you check it out, how it's, if it fits your needs or not, and afterwards, you can leave if you don't like it.' No refund mechanics, no terms and no written basis were given.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no payment link, and no unqualified verbal agreement. The closest he came was on the invented trial: 'Yeah, I think that would work' — immediately followed by 'let me just check a few other things and then I will get back to you if I'm going to confirm it.'",
+      "A follow-up call was agreed and pinned down: Friday, 1pm Pacific, with the rep to send the invite by email.",
+      "He also volunteered a same-day possibility — 'I'll confirm or I'll give you an answer in the next day or even today' — so a close outside this recording is plausible and should be checked against the next call in the sequence before this disposition is treated as final.",
+      "Directionally positive: he engaged with every element, raised no doubt about the method, and named a tier he would consider ('If I was to do it, it definitely would probably be a three-month commitment').",
+      "Counter-evidence, and it is substantial: his objection is structural rather than financial. He wants a product Primal does not sell — 'what I want is not necessarily something that you guys normally sell. Like, I just want to buy a program' — and he explicitly rejected the accountability pillar, which is a third of the offer. Getting him onto a 30-day trial does not resolve that; it defers it by a month."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call Friday at 1pm Pacific; rep to send the calendar invite by email. Jared to 'look at a few other things' and confirm whether he wants the $1,500 30-day trial, possibly the same day."
+  },
+  "notable": {
+    "note": "The most serious pricing finding in the batch. Over roughly four minutes the rep walked the price down three times in response to nothing but hesitation: $6,000 for six months, then $4,000 for three months, then an invented $1,500 for 30 days branded 'love it or leave it'. The three-month tier at $4,000 is not in the documented offer and this is the second time the same rep has quoted it in three days. The 30-day trial appears to have been created on the call — the rep proposed it himself ('Can I propose something? Would you be down for, like, 30 days just checking how it works?') with no refund terms, no mechanics and, judging by the internal onboarding call recorded the day before, no authorisation. That call established the sanctioned payment structure as 50% today and 50% at 30 days, told this rep that longer splits are 'not generally an option that we offer', and then told him 'if you're on a call and you need to get creative, worst case, you try to make something work... if we need to get the deal through.' This call is what that licence produces. Three further flags. (1) The rep invited the prospect to reject a third of the offer before delivering it: 'And the third part, you said that you don't need hand-holding. Is that correct?' Jared duly said no, and the accountability pillar — the single most defensible reason to pay $6,000 — was dead before it was presented. (2) At the moment the prospect said the trial 'would work', the rep did not ask for payment. He explained the trial again and then agreed to a follow-up. (3) The rep twice in this batch has told a prospect 'you're not our typical client' — said here at 00:10:26, ten minutes in and before any pitch. Also worth capturing as reference data: this is the first call in the batch where the setter is identifiable, and the transcript confirms KL = Kyla, with the rep having genuinely read her notes before the call."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Pervasive inversion; roles read from content. Examples: at 00:01:46 'Any serious things?' is the rep's question but sits under his label immediately followed by Jared's answer in the same block; at 00:05:04 'Anything else that I need to know of?' sits under Jared but is the rep; at 00:09:40 'because you mentioned those shoulder injuries, do you have like stiffness in them?' sits under Jared but is plainly the rep; and at 00:14:24 'Second thing is nutrition' is split so the pillar heading lands under Jared and the body lands under the rep. The pricing exchange at 00:19:57-00:20:14 is the worst affected and the most consequential: '6K. 6K. 5K. 5K.' appears under the rep's label as apparent ASR noise or an echo, and the tier prices alternate across both labels. The 6K/6-month and 4K/3-month figures are recoverable with confidence from context; the stray '5K' is not treated as a quoted price. One further ambiguity recorded rather than resolved: at 00:18:12 the twelve-month tier is described as 'Just, I would recommend 12 months for you. It's too long. It's for the, like, beginners' — internally contradictory, and the rep then pitched six months, so recommended_tier_months is recorded as 6. Similarly at 00:23:31 'so for three months, that would be 1,500' appears where the context is unambiguously the 30-day trial, and is recorded as the 30-day price."
+  }
+}

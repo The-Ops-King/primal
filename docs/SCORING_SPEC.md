@@ -147,10 +147,84 @@ destroys the whole point of the comparison.
 
 ---
 
-## D. Output discipline
+## D. Integrity flags → `data/scores/parts/<call_id>.flags.json`
 
-Four files per call: the extraction, plus these three under
-`data/scores/parts/`. Then return a **compact** summary — call_id, prospect,
-rep, disposition, adherence headline, and anything anomalous.
+**This is the audit half of the audit.** Adherence measures whether the script
+was followed. Flags capture everything else a principal would want to know —
+and in the pilot these were the highest-value output by a wide margin.
+
+Write the file for every call, even when empty (`{"call_id": "...",
+"flags": []}`). Internal calls get flags too, and often the best ones.
+
+```jsonc
+{
+  "call_id": "...",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "One sentence. What happened, not how you feel about it.",
+      "evidence": ["direct quote", "direct quote"],
+      "timestamp": "00:14:22"
+    }
+  ]
+}
+```
+
+### Categories
+
+- **`clinical_risk`** — a prospect with a medical condition sold, or moved
+  toward, loaded ballistic training without a clinician clearing it. Flag it
+  whenever a material condition is disclosed and no clearance is sought.
+  Cancer, recent surgery, spinal injury, connective-tissue disorders,
+  uncontrolled hypertension, pregnancy, active treatment. **This is the single
+  most important category. Do not soften it and do not skip it because the
+  rep was warm or the prospect was keen.**
+- **`pricing_deviation`** — any price other than $6,000/6mo or $9,000/12mo.
+  Record the exact figure and how it arose. Discounts, invented tiers, trials,
+  live improvisation.
+- **`policy_contradiction`** — a rep states a policy that contradicts another
+  call or a stated company position. Payment plans, guarantees, refunds.
+- **`mis_selling`** — the prospect leaves believing something untrue about
+  price, terms or what they get. Includes a total agreed verbally that does
+  not match the plan actually being sold.
+- **`conduct`** — misrepresenting identity, undisclosed automation, pressure
+  tactics, affirming a prospect's distrust of their own medical team.
+- **`data_integrity`** — anything that biases the corpus itself: truncated
+  recordings, calls that continue in another file, systematic dropouts.
+- **`compliance`** — consent, recording disclosure, data handling, claims that
+  could be read as medical advice.
+
+### Severity
+
+`critical` — someone could be physically harmed, or it is a legal exposure.
+`high` — material money or trust consequence.
+`medium` — should be corrected, not urgent.
+`low` — worth noting at scale.
+
+### Rules
+
+- **Quote, don't characterise.** `evidence` must be words actually said. A
+  flag without a quote is an opinion.
+- **Flag the pattern, not the person.** "Price moved $6,000 → $1,500 in four
+  minutes on hesitation alone" is useful. "The rep was desperate" is not.
+- **One flag per distinct issue.** Do not bundle.
+- **Empty is a valid and common answer.** Do not manufacture flags to look
+  thorough — a corpus where everything is flagged is a corpus where nothing is.
+
+---
+
+## E. Output discipline
+
+**Sales call** → five files: the extraction in `data/calls/`, plus
+`.adherence.json`, `.signals.json`, `.icp.json` and `.flags.json` under
+`data/scores/parts/`.
+
+**Internal call** → two files: the short record in `data/internal_calls/`,
+plus `.flags.json` under `data/scores/parts/`. Nothing else.
+
+Then return a **compact** summary — call_id, prospect, rep, disposition,
+adherence headline, and a count of flags by severity. Do not restate flag
+detail in your message; it is on disk and it aggregates from there.
 
 Never paste transcript text or full JSON into your final message.

@@ -211,6 +211,7 @@ function render(d){
     check first across the full corpus, and it is a coaching change rather than a pricing change.</p>
   </div>
 
+  ${flagsSection(d)}
   ${funnelSection(d)}
 
   <h2>Objections — what we face, what we actually resolve</h2>
@@ -365,6 +366,79 @@ function render(d){
     section being skipped is a countable fact, not a judgement — but blind scoring against CRM-verified
     outcomes is still what would settle it.
   </div>`;
+  }
+
+  /* ---------- Integrity flags ---------- */
+  function flagsSection(d){
+    const F = d.rollups.flags;
+    if (!F || !F.total) return "";
+    const SEV = { critical:["Critical","var(--lost)"], high:["High","var(--lost)"],
+                  medium:["Medium","var(--warn)"], low:["Low","var(--muted)"] };
+    const CAT = {
+      clinical_risk:"Clinical risk", pricing_deviation:"Pricing deviation",
+      policy_contradiction:"Policy contradiction", mis_selling:"Mis-selling risk",
+      conduct:"Conduct", data_integrity:"Data integrity", compliance:"Compliance",
+    };
+    const crit = F.by_severity.critical || 0, high = F.by_severity.high || 0;
+
+    const row = f => {
+      const [sl,sc] = SEV[f.severity] || ["—","var(--muted)"];
+      return `<details style="border-left:3px solid ${sc}">
+        <summary>
+          <span class="tag" style="background:color-mix(in srgb,${sc} 18%,transparent);color:${sc}">${sl}</span>
+          <span style="margin-left:7px">${esc(CAT[f.category]||f.category)}</span>
+          <div style="color:var(--muted);font-weight:400;font-size:13.5px;margin-top:6px">${esc(f.summary)}</div>
+        </summary>
+        ${(f.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
+        <div class="mono" style="color:var(--muted);font-size:11.5px;margin-top:8px">
+          ${esc(f.date||"")}${f.rep?" · "+esc(f.rep):""}${f.prospect?" · "+esc(f.prospect):""}
+          ${f.timestamp?" · "+esc(f.timestamp):""}
+          ${f.source_type==="internal"?' · <span style="color:var(--accent)">internal call</span>':""}
+        </div></details>`;
+    };
+
+    return `
+  <h2>Integrity flags</h2>
+  <p class="sub">Everything the audit surfaced that isn't a script-adherence question — clinical risk,
+  pricing that departs from the documented offer, policy contradictions, conduct, and anything that
+  biases the corpus itself. ${F.total} flags across ${F.calls_flagged} calls, including
+  ${F.internal_calls_reviewed} internal call${F.internal_calls_reviewed===1?"":"s"} that are excluded
+  from every sales metric but reviewed for exactly this.</p>
+
+  ${crit ? `<div class="banner" style="border-color:var(--lost);background:color-mix(in srgb,var(--lost) 10%,transparent)">
+    <strong style="color:var(--lost)">${crit} critical flag${crit===1?"":"s"} needing a human decision.</strong>
+    Critical means someone could be physically harmed or it is a legal exposure — not that a deal was
+    handled badly. These are listed first below, with the quotes they rest on.
+  </div>` : ""}
+
+  <div class="grid g4" style="margin:var(--s4) 0">
+    ${stat(F.total,"Flags raised","across the corpus")}
+    ${stat(crit,"Critical","physical or legal exposure")}
+    ${stat(high,"High","material money or trust")}
+    ${stat(F.calls_flagged,"Calls affected","")}
+  </div>
+
+  <div class="scroll" style="margin-bottom:var(--s5)"><table>
+    <thead><tr><th>Category</th><th style="width:80px">Flags</th>
+      <th style="width:90px">Calls</th><th style="width:230px">Severity mix</th></tr></thead>
+    <tbody>${F.by_category.map(c=>`<tr${c.critical?' class="warnrow"':""}>
+      <td><strong>${esc(CAT[c.category]||c.category)}</strong></td>
+      <td><span class="num" style="font-size:22px">${c.n}</span></td>
+      <td class="mono" style="color:var(--muted)">${c.calls}</td>
+      <td style="font-size:12px">
+        ${c.critical?`<span class="chip" style="color:var(--lost);border-color:var(--lost)">critical ×${c.critical}</span>`:""}
+        ${c.high?`<span class="chip" style="color:var(--lost);border-color:var(--lost)">high ×${c.high}</span>`:""}
+        ${c.medium?`<span class="chip" style="color:var(--warn);border-color:var(--warn)">medium ×${c.medium}</span>`:""}
+        ${c.low?`<span class="chip">low ×${c.low}</span>`:""}</td>
+    </tr>`).join("")}</tbody>
+  </table></div>
+
+  ${F.urgent.length ? `<h3 style="color:var(--lost)">Critical and high — full detail</h3>
+  <p class="sub">Every flag below rests on words actually said on the call. Open one to see them.</p>
+  ${F.urgent.map(row).join("")}` : ""}
+
+  ${F.all.length > F.urgent.length ? `<h3 style="margin-top:var(--s6)">Medium and low</h3>
+  ${F.all.filter(f=>!["critical","high"].includes(f.severity)).map(row).join("")}` : ""}`;
   }
 
   /* ---------- Where deals die ---------- */

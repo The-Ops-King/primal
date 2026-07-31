@@ -1,0 +1,138 @@
+{
+  "call_id": "2026-07-24_giulian-carcioppolo_richard-claessen",
+  "source": {
+    "drive_file_id": "1IcDvWg2lZiWELhmE3HZTBYcwqzdmChUX",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/24/2026 - Giulian Carcioppolo x Richard Claessen",
+    "display_title": "07/24/2026 - Giulian Carcioppolo x Richard Claessen — Lost",
+    "file_size_bytes": 17435
+  },
+  "call": {
+    "date": "2026-07-24",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Explicit follow-up to a prior call: 'I think I said it last time as well' and 'we already have done that 100' — a $100 deposit had already been taken on the previous call. The $6,000 offer was presented before this call.",
+    "duration_min_est": 17,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Giulian Vito Carcioppolo",
+    "aka": null,
+    "name_source": "title",
+    "location": null,
+    "age": null,
+    "occupation": "Manager at the family Italian restaurant (Gabriele's Italian Restaurant); working reduced hours since his accident",
+    "family_status": "Long-term girlfriend he intends to propose to; parents and siblings are financially supporting him through his recovery",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training on his own in the days before the call — 'in the past two days, three days, I've been doing kettlebells' — plus daily morning stretching; also in structured physical/speech therapy",
+    "kettlebell_experience": "some",
+    "medical": "Recovering from a serious accident affecting speech, mobility, shoulder and brain function; has been working with up to three therapists weekly, currently one because of summer breaks; large ongoing hospital, therapy and medication costs"
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Explicitly framing training as recovery from an accident — rep: 'this injury happened, the accident occurred, and you use that as fuel'",
+      "Wants shape/form back and shoulder function restored: 'I was interested in my shape, my form, and about my shoulder and the accident in general'",
+      "High personal drive but the hard season (accident, medical costs, reduced work) is the controlling constraint"
+    ]
+  },
+  "goals": [
+    { "text": "Improve his physical shape and form again after the accident", "category": "appearance" },
+    { "text": "Rehabilitate his shoulder and overall mobility", "category": "mobility" },
+    { "text": "Learn to keep training consistently with kettlebells alongside his therapy", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Ongoing accident recovery — speech, mobility and shoulder still limited", "category": "injury", "severity": "critical" },
+    { "text": "Brain health and medical recovery consume both his attention and his money; he ranks them above training", "category": "medical", "severity": "critical" },
+    { "text": "Spending more than he earns; family is covering his costs, no defined monthly surplus", "category": "other", "severity": "high" },
+    { "text": "Not working his normal hours at the family restaurant because of the accident", "category": "work_stress", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "right now, for that $6,000 for like six months, it's, it's not going to be able to happen, you know.",
+      "timestamp": "00:03:34",
+      "rep_response": "Acknowledged and validated it, isolated money as the only blocker ('it sounds like that's the only thing that's stopping you at the moment, right?'), then pivoted straight to a lower-priced Primal University tier rather than working the money play through.",
+      "response_tactic": "isolate_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I don't really have a budget. I just know that I'm spending more than I have right now. And people are helping me. My family, my parents, my siblings, helping me.",
+      "timestamp": "00:05:06",
+      "rep_response": "Probed monthly leftover and cash available now, accepted that there was no fixed number, and did not pursue credit, savings or investments.",
+      "response_tactic": "partial_financial_picture",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "It's something I would be interested in. Like I said, I would have to think about it, because right now my finance is not where I want to be.",
+      "timestamp": "00:09:59",
+      "rep_response": "Did not run the think-about-it play. Tested $200/month once, took the no, and then withdrew the offer himself — 'let's just stay in contact... we'll send back the hundreds'.",
+      "response_tactic": "concede_and_withdraw",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I just don't, I don't feel comfortable, like, putting more money, you know, right now, because I know things are going to change... I don't think I'm comfortable doing like 200 a month, and then, you know, having like a fixed rate",
+      "timestamp": "00:11:42",
+      "rep_response": "Accepted immediately, made one more probe on cash available now, then closed the conversation out and offered to refund the $100 already paid.",
+      "response_tactic": "accept_and_refund",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 1000 },
+      { "months": 1, "price_usd": 200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Primal University at $200/month or $1,000 paid for six months, with the $1,000 credited toward future one-on-one coaching. The rep then restated the monthly plan as '200 a month, paid over six times, and then it's 1,200 in total for the six months', which contradicts the $1,000 six-month price he had just quoted.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Declined the $6,000 six-month program outright: 'it's not going to be able to happen'",
+      "Declined the $200/month downsell: 'I don't think I'm comfortable doing like 200 a month'",
+      "Rep withdrew and refunded the prior $100 deposit: 'We'll send back the hundreds, get that back'",
+      "Counter-evidence: the relationship stayed warm and both sides agreed to keep checking in — 'when I have my finances more is balanced, I would like to get involved with the 200 a month' — so this could be reopened later",
+      "Counter-evidence: no explicit 'no' to the company, only to the money; the rep framed it as a pause, not a loss"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep refunds the $100 deposit within a day or two, prospect follows Trevor's YouTube and keeps training, rep checks in every few weeks until finances improve."
+  },
+  "notable": {
+    "note": "Pricing deviation and a refund. A previously collected $100 deposit was returned on this call. A non-standard Primal University tier was offered at $200/month or $1,000/6 months, and the rep then misquoted the plan total as $1,200 for the same six months. The rep also disqualified on ethics rather than pressing — 'the last thing that we want to do is put someone in an even worse financial position' — which is defensible but means no objection play was run at all. Prospect is mid-recovery from a serious accident with brain involvement; medical spend dwarfs the offer."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversions. At 00:00:33 the prospect's block opens with the rep's question 'How does it look like for you?'; at 00:04:49 a rep line ('the cards that you've been dealt and that needs a workaround') is attributed to the prospect; at 00:11:09 and 00:14:16 rep and prospect lines are merged into single blocks. Role was read from content throughout."
+  }
+}

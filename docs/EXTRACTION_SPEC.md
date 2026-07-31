@@ -45,10 +45,32 @@ turns is the closer; list the others in `rep.additional_reps`.
 **Junk:** files under 2,000 bytes are failed recordings. Skip them and report
 the id — do not write a record.
 
-**Non-sales calls:** some transcripts are internal (rep × rep, "Gameplan"
-sessions, manager check-ins). If neither participant is a prospect, set
-`call.stage` to `"internal"`, fill what you can, and leave goals/pains/
-objections empty. Do not force it into a sales shape.
+**Non-sales calls — DO NOT write these to `data/calls/`.** Roughly a quarter
+of this corpus is internal: team meetings, CRM and closing training, manager
+1-1s, tool demos, setter debriefs. Tells include two `(Primal Instinct)`
+speakers and no prospect, a title naming two staff, "Gameplan", "1-1",
+"training", "Sales Team Meeting", or a Fathom/tool demo.
+
+If neither participant is a prospect, write a SHORT record to
+`data/internal_calls/<call_id>.json` instead:
+
+```json
+{
+  "call_id": "...", "type": "internal",
+  "subtype": "team_meeting|training|one_to_one|tool_demo|setter_debrief|other",
+  "date": "...", "participants": ["..."],
+  "source": { "drive_file_id": "...", "original_title": "...", "file_size_bytes": 0 },
+  "summary": "2-4 sentences on what was covered",
+  "notable": ["anything a principal should know — policy statements, contradictions, conduct"]
+}
+```
+
+These stay out of the sales corpus entirely — they must never land in a close
+rate denominator. **But read them properly and flag what is in them.** The
+most consequential findings in the pilot came from internal calls: stated
+payment-plan policy, how no-shows are logged, and how setters identify
+themselves on the phone. Write flags for anything material (section D of
+`SCORING_SPEC.md`). Do NOT write adherence/signals/icp files for these.
 
 ---
 
@@ -180,6 +202,14 @@ objections empty. Do not force it into a sales shape.
   alternative that genuinely worked
 - `the_medically_constrained` — high intent, no price resistance, blocked by
   a clinician or an injury the programme cannot work around
+- `the_prehab_fighter` — facing a serious active health event (cancer,
+  major surgery, a new diagnosis) and training as part of fighting it.
+  Distinct from the rebuilder: not recovering from a bad season, in the
+  middle of one. Motivation is extremely high, which makes them easy to
+  close and the most important to screen clinically.
+- `the_preserver` — older, health-literate, already medically managed, often
+  high nominal income but low discretionary liquidity. Goal is holding on to
+  function rather than gaining anything.
 - `other` — put a proposed label and reasoning in `avatar.signals[0]`
 
 ---

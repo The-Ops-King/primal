@@ -911,8 +911,97 @@ def build_offer_signals(records, deals, playbook, adherence, signals, icp):
     }
 
 
+SEVERITY_ORDER = {"critical": 0, "high": 1, "medium": 2, "low": 3}
+
+
+def build_flags(records):
+    """Integrity flags — the audit half of the audit.
+
+    Loaded independently of the sales-call filter, because internal calls
+    (team meetings, training, manager 1-1s) are excluded from the sales
+    corpus but are exactly where the conduct and policy findings live.
+    """
+    parts = ROOT / "data" / "scores" / "parts"
+    by_call = {r["call_id"]: r for r in records}
+    internal_dir = ROOT / "data" / "internal_calls"
+    internal = {}
+    if internal_dir.exists():
+        for f in internal_dir.glob("*.json"):
+            try:
+                rec = json.loads(f.read_text())
+            except json.JSONDecodeError:
+                continue
+            if rec.get("call_id"):
+                internal[rec["call_id"]] = rec
+
+    flags = []
+    if parts.exists():
+        for f in sorted(parts.glob("*.flags.json")):
+            try:
+                doc = json.loads(f.read_text())
+            except json.JSONDecodeError:
+                print(f"  WARN unreadable flags file: {f.name}")
+                continue
+            cid = doc.get("call_id")
+            rec, inte = by_call.get(cid), internal.get(cid)
+            for fl in doc.get("flags", []):
+                flags.append({
+                    **fl,
+                    "call_id": cid,
+                    "source_type": "internal" if inte else "sales",
+                    "rep": (rec or {}).get("rep", {}).get("name")
+                           or (inte or {}).get("participants", [None])[0],
+                    "prospect": (rec or {}).get("prospect", {}).get("name"),
+                    "date": (rec or {}).get("call", {}).get("date") or (inte or {}).get("date"),
+                    "title": (rec or inte or {}).get("source", {}).get("original_title"),
+                })
+
+    flags.sort(key=lambda x: (SEVERITY_ORDER.get(x.get("severity"), 9), x.get("date") or ""))
+
+    by_cat, by_sev = {}, {}
+    for fl in flags:
+        cat = fl.get("category", "other")
+        c = by_cat.setdefault(cat, {"category": cat, "n": 0, "critical": 0, "high": 0,
+                                    "medium": 0, "low": 0, "calls": set()})
+        c["n"] += 1
+        if fl.get("severity") in c:
+            c[fl["severity"]] += 1
+        if fl.get("call_id"):
+            c["calls"].add(fl["call_id"])
+        by_sev[fl.get("severity", "unknown")] = by_sev.get(fl.get("severity", "unknown"), 0) + 1
+    for c in by_cat.values():
+        c["calls"] = len(c["calls"])
+
+    return {
+        "all": flags,
+        "total": len(flags),
+        "by_severity": by_sev,
+        "by_category": sorted(by_cat.values(),
+                              key=lambda x: (-x["critical"], -x["high"], -x["n"])),
+        "urgent": [f for f in flags if f.get("severity") in ("critical", "high")],
+        "calls_flagged": len({f["call_id"] for f in flags if f.get("call_id")}),
+        "internal_calls_reviewed": len(internal),
+    }
+
+
+def _num(v):
+    """Coerce whatever an agent wrote into a number, or None.
+
+    Across hundreds of extractions these arrive as 1500, "1500", "$1,500",
+    "1500 USD", "~1500" and "650-700". Crashing the whole build on one of
+    them is not an option, so parse leniently and drop what will not parse.
+    """
+    if v is None or isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float)):
+        return float(v)
+    m = re.search(r"-?\d[\d,]*(?:\.\d+)?", str(v))
+    return float(m.group(0).replace(",", "")) if m else None
+
+
 def _band(v, edges, fmt="${:,.0f}"):
     """Bucket a number into a labelled range."""
+    v = _num(v)
     if v is None:
         return None
     lo = None
@@ -982,7 +1071,7 @@ def redact_payload(payload, records):
         for key, edges, fmt in (("available_now_usd", CASH, "${:,.0f}"),
                                 ("monthly_surplus_usd", CASH, "${:,.0f}"),
                                 ("credit_score", SCORE, "{:.0f}")):
-            v = fin.get(key)
+            v = _num(fin.get(key))
             if v is None:
                 continue
             band = _band(v, edges, fmt)
@@ -1081,6 +1170,7 @@ def main():
     rollups = build_rollups(records, deals, playbook, adherence)
     rollups["discriminators"] = build_discriminators(records, deals, playbook, adherence)
     rollups.update(build_offer_signals(records, deals, playbook, adherence, signals, icp))
+    rollups["flags"] = build_flags(records)
 
     counts = {
         t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]

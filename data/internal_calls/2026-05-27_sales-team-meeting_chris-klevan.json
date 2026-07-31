@@ -1,0 +1,88 @@
+{
+  "call_id": "2026-05-27_sales-team-meeting_chris-klevan",
+  "source": {
+    "drive_file_id": "1amC3Iwz9OAWmu4gyCgNYSAKpfjWFZEEL",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/27/2026 - Primal Instinct - Sales Team Meeting",
+    "display_title": "05/27/2026 - Primal Instinct - Sales Team Meeting — Undetermined",
+    "file_size_bytes": 55190
+  },
+  "call": {
+    "date": "2026-05-27",
+    "stage": "internal",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 50,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Chris Klevan",
+    "role": "other",
+    "location": null,
+    "additional_reps": ["Harry Edmonds", "Ben Byrne", "Andrew Musial", "Kyla Louie"]
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "Not applicable to an internal meeting, but this transcript is the corpus's primary source for setter identity. Kyla Louie attends as the team's setter and Chris names both setters when speaking to Harry: 'Every time Kyla and Kim put a set on your calendar, you're committing that I'm going to show up and do my best.' This confirms KL = Kyla Louie and supports KFS = Kim Forbes-Sobers."
+  },
+  "prospect": {
+    "name": null,
+    "aka": null,
+    "name_source": null,
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.99,
+    "signals": [
+      "Proposed label: internal_team_meeting. A weekly Primal Instinct sales team stand-up run by the manager, covering wins, a new-hire introduction, projections against target, and call coaching. No prospect is present and no customer avatar applies."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.98,
+    "close_rule_applied": null,
+    "evidence": [
+      "Internal team meeting — no prospect, no offer, nothing to dispose of, so the sales dispositions do not apply.",
+      "Meeting outcome for the record: projections were reviewed against target, a new closer was introduced, and two one-to-one call reviews were committed to. Chris closed with 'Some good coaching today.'",
+      "Pipeline state as stated on the call: Harry at $3,000 with one unit closed on Monday and described as behind for the week; Andrew projected at two units for the week and yet to close his first deal; Kyla at five sets the previous day, a personal best, targeting six that day against a weekly goal of twenty, with three calls already on the calendar — two with Andrew and one with Harry."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "One-to-one call review scheduled with Andrew Musial, specifically to review the Jorge Fernández call. Further one-to-one with Harry Edmonds to continue the motivation conversation. Chris to work with Ben Byrne on calendar availability. Kyla to bring show-rate figures from the Piff Perfect dashboard to future meetings."
+  },
+  "notable": {
+    "note": "The single most useful reference file in this batch for interpreting everything else. SIX FINDINGS. (1) TEAM ROSTER AND SETTER KEYS, now confirmed from primary source. Chris Klevan is the sales manager; Harry Edmonds and Andrew Musial are closers; Ben Byrne is a brand-new closer joining from Canada (Halifax), who worked with Chris under Cole Gordon four to five years ago and says 'this is my first fitness offer'; Kyla Louie is the setter, based in Vancouver and sharing a house with Harry. Chris names both setters — 'Every time Kyla and Kim put a set on your calendar' — which confirms KL = Kyla Louie and supports KFS = Kim Forbes-Sobers. Angelo, who ran the Close CRM training in this batch, is referenced as the person distributing sales tooling. (2) THERE IS ALREADY AN AI CALL SCORER, and management does not trust it. Andrew describes 'the sales calls analyzer, like the prompt. It's very granular', and Chris responds 'that AI analyzer will make you feel like you've never closed a deal in your life... it's very harsh' and, crucially, 'that AI analyzer is the reason I review every single call still manually, because it's just not to be completely trusted.' Anyone consuming the output of this audit should know a prior scoring system exists, produces out-of-ten scores, and is already distrusted for harshness. (3) A DIRECT DEBRIEF OF THE JORGE FERNÁNDEZ CALL, recorded the previous day and also in this batch. Andrew self-diagnoses the same two failures the adherence scoring found independently: 'Misalignment with the prospect [about] what they want. I was going in the wrong avenue. And not meeting them where they are... They weren't bought in', and the missed consequence frame — 'I missed the part when he said about his [father] that he's 75 but looks like 95 and doesn't move well, and that could be a point that I could pinpoint... do you want to become like your [father], or do you want to be there for your kids and be agile?' Management then judged the deal correctly lost. Ben: 'His biggest pain point was proving something to himself. Is that going to overcome 34 years of not only not investing, but not working out, now we're talking about giving $6,000 to a stranger on the internet to prove it to himself? Is there a big enough burning problem for him to actually change?' Chris: 'Definitely not.' (4) RECORDING FAILURES ARE SYSTEMIC, NOT INCIDENTAL. Chris: 'Harry's Wi-Fi disconnects probably like every other call', and Harry: 'I've never had Wi-Fi problems ever... I only get Wi-Fi problems when it's near a close.' Andrew's Wi-Fi failure is the one that truncated the 26 May Marian Samson recording. Any funnel or adherence analysis built on this corpus must expect systematically missing call endings, and the missing portion is disproportionately the close. (5) CALLER-IDENTITY TACTICS ON THE SETTING SIDE, worth a compliance look. Chris: 'I usually just write, like, say, Trevor Instinct, and then usually people just answer because they think it's Trevor.' Kyla, describing a technique taken from a Matt Ryder video: 'he just says, hey, this is Jess... I've tried it. It works.' Both are deliberate misdirection about who is calling, endorsed on a manager-led call. (6) A SIGNIFICANT REP WELFARE CONVERSATION occupies roughly half the meeting. Chris had reviewed three or four of Harry's calls and diagnosed 'a bit of passivity', and Harry — 22 years old — worked through detachment, self-worth tied to closing, an absence of a motivating goal, and ambivalence about staying in sales at all. Recorded here as a factual attendance note rather than interpreted: it is directly relevant to reading Harry's call performance in other batches, and the conversation was held in front of the whole team including a new hire on his first day."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Better than the prospect calls in this batch but still unreliable in fast exchanges, and roles were read from content throughout. Clear swaps: at 00:01:17 'Where are you from, Kyla?' sits under Ben's label along with Kyla's answer 'I'm from Vancouver'; at 00:04:42 both Chris's question 'Kyla, what'd you say?' and Kyla's answer land under Kyla's label; at 00:12:43 Chris's question 'Why do you feel like you're a bit behind this week?' and Harry's answer 'Yeah, I'm too detached' are both filed under Harry; and at 00:41:51 'How do you feel about that?' sits under Andrew but is Chris. Five participants and heavy cross-talk make short turns unreliable, though the long monologues are cleanly attributed. Some passages contain untranscribable ASR noise ('şöyle', 'Bye', 'do. what what you're'). Note that Andrew Musial again appears under the label 'Andrew Jin (Primal Instinct)', while the other four participants carry plain names — further support for the reading that this is his Fathom account display name rather than a different person."
+  }
+}

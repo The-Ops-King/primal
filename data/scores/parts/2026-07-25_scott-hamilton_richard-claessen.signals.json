@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-25_scott-hamilton_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Presented in full — 3-4 sessions of 30-45 minutes, full-body, plus a daily 5-15 minute mobility routine slotted into his 12-hour desk day, with the 'if you don't use it, you lose it' frame. Asked 'do you feel like, yes, that's what I'm looking for and I see myself doing that?' he answered 'Yes' immediately, and when the rep pushed 'What makes you be so confident about that?' he escalated it himself into meaning: 'it's time to commit to something bigger than me... the overarching longevity idea is bigger than me' and 'I'm ready to take two or three steps bigger than that.' He tied the pillar to his own goal unprompted, which is the enthusiastic marker."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as small tweaks rather than an overhaul — 'It's not like you're eating garbage at the moment', the what/when/how-much frame, whole foods, two or three meals a day, sustainable rather than chicken and rice forever, and explicitly addressed his complaint about volume: 'when we're going to gain some, we can switch up the foods, make it more easy to also hit a little bit higher of calories instead of really needing to constantly be eating to get there.' He raised no questions and no pushback. The direct check 'do you feel like, yeah, that is something I see myself doing?' falls in a diarization-scrambled block, but nothing in the following minutes shows resistance."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Delivered as the most important of the three — teach a man to fish over six months, form videos reviewed, Trevor's personal cell, programme switched monthly, log-checking with 'hey, what are you doing, why are you not working out?', Thursday live sessions, and the client community. Asked 'do you feel like you have any questions on that?' he said 'Not at the moment, no, sir.' Understood and agreed, but no volunteered enthusiasm — which is mild counter-signal given he explicitly came looking for structure and outside perspective."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "affordability_signal",
+      "raw": "It's not about the money. Being able to buy the food is not a thing. I just don't like eating that much.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Volunteered at 00:06:15, forty minutes before price. He rules money out as a constraint on his own initiative, which is why $6,000 met no resistance at all. Corroborated by a PhD practice he can turn work down from and a 3,500 square foot house."
+    },
+    {
+      "type": "discretionary_capacity",
+      "raw": "business slash work is steady enough that I don't have to, I can turn some of it down. I can wiggle schedules around and make time to do whatever I want.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Both time and money are uncommitted, and he says so before hearing anything about the programme. This is the profile the offer is priced for."
+    },
+    {
+      "type": "card_limit",
+      "raw": "My bank may not be terribly excited about me trying to run six grand out of there. It just ain't all at once.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a value objection but a hard transactional ceiling — $6,000 exceeded his card limit and $3,000 did not. It cost the company half the collection on the day and left the balance uncommitted. Worth tracking as a distinct failure mode from affordability, because the standard money play is the wrong tool for it."
+    },
+    {
+      "type": "self_directed_substitute",
+      "raw": "I'm actually in the process of moving over to the kettlebells anyway. I mean, I've already got them.",
+      "direction": "undercuts_price",
+      "competitor": "his own self-programming (modified CrossFit, road cycling since 2005, already-purchased kettlebells)",
+      "note": "He owns the equipment and has run his own training and nutrition competently for twenty years, tracking macros to the gram. The free alternative is himself, and it partly works — he is 160 lb at 63. The rep never dismantled this, and the programme sold on structure and outside perspective rather than on why self-direction has plateaued. Latent risk if results are slow."
+    },
+    {
+      "type": "clinical_authority",
+      "raw": "My internist, on the other hand, would disagree with me. She does monitor that very closely",
+      "direction": "undercuts_price",
+      "competitor": "his internist",
+      "note": "There is a physician already advising him on diet, conservatively, and with a cardiac history behind it. If she objects to the nutrition protocol or to high-intensity work, she outranks Trevor. The rep did not surface, neutralise or even acknowledge this."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Confirmation that intense kettlebell conditioning is safe given a history of AFib, hereditary heart disease and managed blood pressure — and how the programme handles that",
+      "why_unmet": "He raised the cardiac history twice, unprompted, and got no response either time. The programme has no screening step, no clearance requirement and no stated adaptation for cardiac patients, so the question was never answered and the sale proceeded past it. Whether the offer can serve him safely is genuinely unknown from this transcript.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To add muscle while staying near 1,600-1,800 calories, because he dislikes the volume of eating that a real surplus requires",
+      "why_unmet": "The rep's answer was to switch to more calorie-dense foods, which addresses the mechanics but not the arithmetic — he estimated he needs 2,200+ to gain, and the programme did not commit to a way around that. It is plausible the coaching can solve it with food selection, but nobody established it on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A rehab-aware approach to a repaired rotator cuff before loading overhead kettlebell work",
+      "why_unmet": "The repair was disclosed and never followed up on, so no adaptation was discussed. Trevor's form-video review probably covers this in practice, but nothing was said to that effect on the call.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

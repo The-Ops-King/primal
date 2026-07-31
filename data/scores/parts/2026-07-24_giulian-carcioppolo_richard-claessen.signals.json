@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-24_giulian-carcioppolo_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Rep described the Primal University structure at length — 'full programs... where you learn the whole foundations from how to actually do the exercises to eventually also give you the knowledge on how to actually create your own routines', two months of foundations then a new routine monthly, plus the Thursday weekly sessions beginner to advanced. Prospect responded 'Okay... It's something I would be interested in' with no questions on the mechanics."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Mentioned only in passing as part of the same package — 'and then on top of that, also with the nutrition aspect'. No detail delivered, no reaction from the prospect either way."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented as peer accountability inside the community — 'there's a couple of guys in there that are actually doing that the whole time... they're keeping each other the whole time accountable, so Trevor doesn't even need to keep them accountable', plus form feedback on posted videos. Prospect acknowledged the value of Trevor helping people — 'I liked what he's helping to, he's like helping people' — but did not engage with the accountability mechanism specifically."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competing_medical_spend",
+      "raw": "all of the therapies that I'm working, and all the, you know, the hospital work, and the medical work, you know, the medicines, things like that. Um, it's a lot of, a lot of money",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The dominant anchor. His health budget is already fully committed to accident rehab, and he told the rep the spend is about to increase again when his therapists return from summer break. Against that, $6,000 reads as optional and even $200/month reads as a fixed liability he cannot underwrite."
+    },
+    {
+      "type": "life_event_cost",
+      "raw": "I'm looking to propose with my, I said, I saw like a wife, but right now like a girlfriend, but so I have a lot of payment, like with other things, like, you know, the ring, the wedding, and everything in general",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A ring and a wedding are queued ahead of coaching. The rep engaged with this warmly and personally but never reframed it — no attempt to tie being strong and mobile to showing up for that marriage."
+    },
+    {
+      "type": "family_subsidy",
+      "raw": "people are helping me. My family, my parents, my siblings, helping me",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He is spending other people's money and knows it, which he treats as disqualifying for a discretionary purchase: 'I would not talk to my parents that I want to do like a workout or something like that, because they're already spending money.' Any close here has to survive his own guilt filter, not just his balance."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "in the past two days, three days, I've been doing kettlebells, I'm working... and I'm doing like stretching every morning",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's YouTube channel",
+      "note": "He is already getting some of the perceived value for free, and the rep actively reinforced that substitute at the end — 'Go and look at his YouTube. There's good workouts there. There's good information there. Keep doing that.' Kind, but it hands him a reason not to buy later."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A flexible or pausable arrangement with no fixed monthly commitment, that can flex as his therapy costs rise and fall",
+      "why_unmet": "Both tiers offered require a fixed commitment — $6,000 for six months, or $200/month, or $1,000 up front for six months. He named the fixed rate itself as the blocker, not the amount: 'I don't think I'm comfortable doing like 200 a month, and then, you know, having like a fixed rate.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training that coordinates with, rather than competes against, an active clinical rehab programme (shoulder, mobility, brain injury recovery)",
+      "why_unmet": "The programme was positioned as a separate purchase alongside his therapists rather than as something that supports the recovery he is already paying for, so it landed as an additional cost rather than as leverage on money already committed. Nobody established whether Trevor's work can be run alongside a physical-therapy protocol.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

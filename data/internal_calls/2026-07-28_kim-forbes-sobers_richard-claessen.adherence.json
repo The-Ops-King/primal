@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-07-28_kim-forbes-sobers_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "undetermined",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Internal call between the closer and his setter. No prospect present, so no phase of the sales process applies."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "No prospect to baseline. Relevant in passing: the setter concedes that no health or training-readiness questions are asked at the setting stage, which is upstream of P2c and P2d."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "No prospect."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "No prospect."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "No prospect. Worth noting that the closer again rehearsed a consequence frame in advance for an upcoming call, this time for the injured firefighter: 'even if it would get worse than what he currently has, he probably cannot even do his job anymore.' Same pattern as the previous internal call — he plans Phase 5 well when he prepares for it."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "No prospect."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close attempted on this call. The discussion of two $100 deposits taken earlier the same day, and of a payment link already sent to a prospect who intends to call his bank, relates to calls not in this batch."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "not_applicable",
+      "detail": "Not an objection on this call, but the closer describes a live one worth logging because the script has no route for it. A prospect arrived with an acute back injury and a personal-training background, wanting only to look around, and could not join on camera: 'he was like not going to make a decision today. I can literally sell him a Ferrari for 5000 and he wouldn't buy it today.' The closer's response was to withhold the pitch entirely and book a second call — 'I didn't even pitch him, really. I gave him a little bit more clarity on what he can expect' — which is arguably the correct read and is nowhere in the playbook. This is the same shape as the clinical-fit gap already recorded from the Tyron Giuliani call: an injured prospect who cannot start now, with no scripted path other than to sell or to abandon."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "not_applicable",
+      "detail": "Second gap, upstream of the closer: nothing in the process establishes whether a prospect is physically able to start. The setter admits it directly — 'I don't actually think I asked many questions about whether he's actually good to start training now. So that's funny on me' — and had in fact asked only about scheduling capacity, three or four sessions of 30 to 45 minutes, which the prospect confirmed without mentioning that he was currently injured. A readiness-to-train question would have caught it. Across this batch the same absence shows up as an unaddressed AFib disclosure, an unaddressed 25-year diabetes disclosure, an unassessed herniated disc, a service-connected hip injury and two repaired shoulders."
+    }
+  ],
+  "notes": "Not scoreable as a sales call and should be excluded from any adherence rollup. Three things a manager should take from it. Financial qualification is currently being performed by asking ChatGPT what a job title typically pays — for a commercial diver and for a firefighter — which is how prospects with the right occupation and no money reach a $6,000 closing call, and this batch contains several. Training readiness is not screened at all and the setter knows it. And the closer is working to a personal cash target he is behind on ('I want to get to the 50K... I'm only at 12 so far', 'I need to get the cash'), while comparing himself unfavourably to a colleague closing paid-in-full deals and describing his own week as 'deposits, deposits, deposits'. That pressure is the most plausible explanation for the pattern seen elsewhere in this batch: repeated re-asking for payment after a prospect has declined, and lower tiers introduced quickly."
+}

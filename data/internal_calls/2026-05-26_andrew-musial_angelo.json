@@ -1,0 +1,89 @@
+{
+  "call_id": "2026-05-26_andrew-musial_angelo",
+  "source": {
+    "drive_file_id": "1GciC73S_6KqydYlxg_MGyxZmXcLnIAke",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/26/2026 - Andrew x Angelo - Close training",
+    "display_title": "05/26/2026 - Andrew x Angelo - Close training — Undetermined",
+    "file_size_bytes": 17877
+  },
+  "call": {
+    "date": "2026-05-26",
+    "stage": "internal",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 20,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Angelo",
+    "role": "other",
+    "location": null,
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": ["Andrew Musial"]
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Andrew Musial",
+    "aka": null,
+    "name_source": "title",
+    "location": "Poland",
+    "age": null,
+    "occupation": "Newly hired closer at Primal Instinct — engaged through his own Polish limited company rather than as an individual: 'I run as a business entity... It's like an LLC, but like it's a Polish LLC.' Onboarding onto the Close CRM and not yet set up on Gusto payroll.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.99,
+    "signals": [
+      "Proposed label: internal_rep_onboarding. A new-hire systems and admin training session between a Primal Instinct closer and his manager, covering the Close CRM, lead routing, payment-plan policy and payroll setup. No prospect is present and no customer avatar applies."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.98,
+    "close_rule_applied": null,
+    "evidence": [
+      "Internal training call — no prospect, no offer and nothing to dispose of, so the sales dispositions do not apply.",
+      "Session outcome for the record: all of the new rep's questions were answered and the call closed cleanly. 'Was that all your questions? Do you need anything else?' / 'For now, I'm good.'",
+      "Follow-up actions agreed: Andrew to send his full legal name, personal email and Polish business entity name so a Gusto payroll invite can be issued; the manager to look into Harry's non-standard payment split."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Andrew to complete and return the details template sent over Slack for Gusto payroll setup. Manager to follow up with Harry about the 90-day payment split."
+  },
+  "notable": {
+    "note": "The most useful reference document in this batch, because it establishes policy and personnel facts the prospect calls depend on. FOUR FINDINGS. (1) PAYMENT PLAN POLICY, stated explicitly for the first time in the corpus: the sanctioned structure is a two-part split, 'payment 1 today, payment 2 in 30 days', i.e. 50% down and 50% at 30 days. Anything longer is not offered — Andrew asked about 3K now and 3K over 90 days and was told 'No, that's not generally an option that we offer' and 'typically it's not a payment option.' This directly contradicts what Andrew told two prospects in this same batch, that Primal has no set payment plans at all; a defined 50/30-day plan exists and prospects were not told about it. (2) A PRICING DEVIATION BY ANOTHER REP was surfaced and is unresolved: Harry closed a deal on a 90-day three-way split, Andrew spotted it while reviewing the recording, and the manager's response was 'That's Harry being a little creative' and 'I'll check in on him with that.' The deal in question involves a client Andrew recalled as Daniel with a Russian surname, prompted as 'Munchot' by the manager. Worth confirming that check-in happened. (3) MANAGEMENT GAVE A SOFT LICENCE TO IMPROVISE, in the same breath as stating the policy: 'if you're on a call and you need to get creative, worst case, you try to make something work... especially on your first couple of calls, if we need to get the deal through.' That is the likely origin of the improvised $4,000 three-month tier Andrew quoted a prospect the previous day, on 25 May, and it should be read as a process problem rather than a rep problem. (4) TIMELINE: as of 26 May, Andrew Musial had not yet closed a deal — 'usually we wait till you knock your first deal down to send it, but you're going to knock your first deal down soon' — which is consistent with every disposition in this batch. He had also just inherited leads from a previous salesperson and was covering Harry's overflow calls. Two operational details also worth capturing: Close cannot send SMS to non-US numbers ('Australian numbers are blocked, outside US actually'), so international prospects are worked over WhatsApp with no CRM record of those messages; and any call that does not happen is logged as a no-show regardless of cause — 'they maybe didn't no-show us, but at the end of the day, the call didn't happen' — which will inflate no-show rates in any funnel analysis built on this CRM."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Roles read from content throughout. The two labels correspond to the new rep and his trainer, but they are crossed against the title: the person carrying the 'Andrew Jin (Primal Instinct)' label is the one doing the teaching, granting Gusto access and setting policy, which the title identifies as Angelo, while the bare 'Andrew Musial' label carries the learner's questions. Individual lines are also inverted — for example at 00:06:46-00:06:50 the instruction 'Now you see the pencil icon' sits under Andrew's label but is the trainer's, and at 00:12:34 'I cannot text messages over here by myself' sits under the trainer but is Andrew's question. IMPORTANT FOR THE REST OF THE CORPUS: this file effectively resolves the 'Andrew Jin' ambiguity flagged on the other calls in this batch. Andrew Musial is confirmed here as a newly hired closer based in Poland, invoicing through a Polish LLC, working European and Australian prospects and covering Harry's overflow — which matches the closer in every prospect call in this batch, all of whom carried the 'Andrew Jin (Primal Instinct)' label and stated a Polish or European location. The most economical reading is that 'Andrew Jin (Primal Instinct)' is the Fathom account display name attached to Andrew Musial's recording channel, and that in this particular file the diarizer assigned it to the wrong participant. Recommend a human confirm rather than treating this as settled."
+  }
+}

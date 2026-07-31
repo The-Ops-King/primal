@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-26_marian-samson_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The recording ends at 00:18:24, inside the consequence frame and before the three-step presentation began. No pillar was delivered in the recorded portion. Worth noting for whoever re-pulls the file: the rep did use one fragment of the training-mobility argument early, during discovery rather than as a pillar — 'the muscles grow faster than your joints can adapt to it', offered in response to the prospect's steroid history — and the prospect agreed with it."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not reached before the recording stopped. The rep had gathered the nutrition baseline thoroughly (current diet, the two-week restriction on bread, sugar, sodas and fast food, and the favourite-food probe that produced 'if anything is sweet, it's my favorite food') but had not begun the pillar."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not delivered as a pillar. The rep did make an unstructured accountability argument at 00:16:14 in response to the prospect's self-reliance objection — 'He can coach you, he can keep you accountable, but you have to show up every day' — but this was a rebuttal during discovery, not the presented pillar, and the prospect neither endorsed nor pushed back on it; he changed the subject to his blood pressure."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_alternative_already_failed",
+      "raw": "I used to watch the videos. Trevor. Yeah. So I just watch the videos and I buy some kettlebells and I start to do some... Maybe I do something wrong.",
+      "direction": "supports_price",
+      "competitor": "Trevor's free online videos, self-programmed, with self-purchased 10 kg and 16 kg kettlebells",
+      "note": "The same free-content anchor that undercut the price on two other calls in this batch, but here it points the other way and is the most valuable anchor in the batch. The prospect took the free route, did it unsupervised for two weeks, and gave himself back pain — 'For a couple of days ago, yeah, started' — and he drew the conclusion himself before the rep could: 'that's why I was thinking about maybe to get the proper lesson, of course.' A prospect who has personally tested and failed the free alternative arrives pre-sold on the paid one. The rep's response was to validate the attempt ('It's good to start, you know. That's the first step') rather than to name what it proved."
+    },
+    {
+      "type": "prior_spend_on_health",
+      "raw": "I have 10 kilos and I have 16 kilos.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Demonstrated willingness to spend on this specific modality before any sales contact — he bought two kettlebells off his own initiative two weeks earlier. He also takes magnesium and shilajit daily, so there is an existing supplement spend. Small amounts, but they establish that health purchases are already a live category for him rather than a new one."
+    },
+    {
+      "type": "prior_spend_on_bad_advice",
+      "raw": "I do some heavy workouts in last year, but I stopped because it was unhealthy for me because I also use some steroids... I think one of my friends, he was just telling me, yeah, it will be okay.",
+      "direction": "supports_price",
+      "competitor": "Informal advice from a friend, plus anabolic steroids",
+      "note": "A history of following unqualified guidance and being harmed by it — he took steroids on a friend's say-so and quit because 'it was not good for my health'. That is a direct argument for paying a qualified coach and it sat untouched. The rep did connect the steroid use to the joint damage ('I'm not saying that that's the reason, but maybe the knee injuries... may be some kind of connected') but did not carry it forward into the case for professional supervision."
+    },
+    {
+      "type": "no_price_anchors_observable",
+      "raw": "that's why I was thinking about maybe to get the proper lesson, of course. Let's see how we can manage it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Recorded as a null result caused by the truncation, so the rollup does not read the absence as a finding. No price was named, no competitor was priced, no budget or affordability discussion occurred anywhere in the recorded 18 minutes. The one forward-looking signal is the prospect's own 'let's see how we can manage it', which reads as openness to a purchase rather than as resistance — but it precedes any number and should not be treated as evidence of willingness to pay $6,000."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Assurance that loaded kettlebell training is safe for his body — a spinal disc compression diagnosed three years ago, a right knee that subluxes ('it might be hopping out'), a hip that will not let him cross one leg, high blood pressure, and 105 kg of bodyweight.",
+      "why_unmet": "No clinical clearance question exists anywhere in the process and none was asked in the recorded portion. The evidence that this matters is already on the table: two weeks of unsupervised kettlebell work has produced new back pain in a man with a known disc problem. Whether Trevor's programme can safely load this body, and whether it should be doing so before a physio or a doctor has looked at the knee and the disc, is unknown to everyone on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Resolution of his high blood pressure through training and diet rather than medication — he stated the expectation directly: 'if I start to improve my health, and my body health, and how I eat, and what I eat, and when I eat, I think all this, it will go away by himself.'",
+      "why_unmet": "The prospect is forming a medical expectation about a diagnosed condition, and the offer contains no medical oversight, makes no clinical claims and involves no clinician. The rep did not correct, qualify or engage the expectation — he had just begun the consequence frame when the recording stopped. This needs a human to decide policy: a prospect who buys expecting his hypertension to resolve is a refund and reputation risk regardless of whether the training would in fact help.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Formal instruction in correct kettlebell technique — 'maybe to get the proper lesson', prompted by his suspicion that he is doing the movements wrong.",
+      "why_unmet": "Recorded as served rather than as a gap, and included so the rollup does not mistake it for a deficiency. The offer does exactly this through video submission and Trevor's form feedback, and the prospect asked for it unprompted. It is logged here because the recording ends before the pillar that would have answered it, so the want is documented as live and unanswered within this artifact.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

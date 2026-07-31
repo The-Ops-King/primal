@@ -1,0 +1,164 @@
+{
+  "call_id": "2026-05-25_bruno_andrew-musial",
+  "source": {
+    "drive_file_id": "1NkCTsiRAwdD2Vk8vS0bqaxmjvR2Y4i1T",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/25/2026 - Andrew MusialSpotkanie Zoom 's",
+    "display_title": "05/25/2026 - Andrew MusialSpotkanie Zoom 's — Follow Up",
+    "file_size_bytes": 30965
+  },
+  "call": {
+    "date": "2026-05-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 32,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Europe — stated as 10.30pm local while the prospect was at 6am in Australia",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter named on the call. The enquiry did not come from the prospect himself: 'Actually, was my girlfriend that got in touch with you guys, because... we had a little while looking for what to do, like training-wise.' The rep learned this at 00:21:47, twenty-two minutes in, which suggests any setter notes were not read beforehand."
+  },
+  "prospect": {
+    "name": "Bruno",
+    "aka": "Bruno's iPhone",
+    "name_source": "transcript",
+    "location": "Australia — living there but not an Australian resident, so all medical care is paid privately",
+    "age": null,
+    "occupation": "Pickleball coach, formerly a tennis coach. Currently barely working — returned the day before the call and doing only a few private lessons.",
+    "family_status": "Lives with his girlfriend in a two-bedroom apartment; she was asleep on the couch during the call. She initiated contact with Primal Instinct and manages the household bills and finances.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete and career racquet-sport coach — 'I was always super active.' Plays a very high volume of pickleball, roughly 12 hours across a Friday-to-Sunday weekend, and still plays most days during radiotherapy. Strength trains at least three times a week, up from once or twice before the diagnosis. Owns a kettlebell and can swing 25 kg; formerly travelled with a kettlebell and paid airline excess fees to do so.",
+    "kettlebell_experience": "some",
+    "medical": "Active aggressive brain cancer. Presented with a sudden first seizure, went to hospital, a head CT found a brain tumour, had surgery and a biopsy roughly eight weeks before this call; the biopsy returned an aggressive malignancy which he describes as 'the third worst brain cancer that you can have' with a quoted statistical prognosis of 'three to five years of life', which he disputes on the basis that the cohort is much older. Currently at session 18 of 33 radiotherapy sessions, five mornings a week at 7.35am, roughly three weeks remaining. Then a four-week break, then twelve months of chemotherapy taken at home. Losing hair from the radiation. Energy self-assessed at 75% of normal and sleeping more. Also: stiff hips and lower back, weak shoulders and wrist from racquet-sport volume, and a suspected new back injury after a 12-hour playing weekend, with a physio visit planned. Self-manages supplements partly outside medical advice — 'those doctors, when are you dead? So you've got to do a bit by yourself... They don't let me take anything.' Uses a hyperbaric oxygen chamber and a home sauna daily after radiotherapy. On a strict ketogenic diet for eight weeks since surgery: no carbs, no sugar, no processed food; steak, avocado, eggs."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.7,
+    "signals": [
+      "Proposed label: the_prehab_fighter. A prospect who is not recovering from a hard season and not optimising a good life, but deliberately building physical reserve ahead of a known, dated, incoming medical assault. His own framing: 'build a bit of muscles in these next two months that I have to do it before I start chemo because it will be important' and 'if I'm feeling fit, if I'm feeling stronger, I'm more likely to go to the treatment well.' The buying logic is insurance against a future decline, not repair of a past one.",
+      "Nearest existing avatar is the_rebuilder, at roughly 0.3 confidence, and it does not fit: the_rebuilder has lost ground to illness and wants a former self back, whereas Bruno has explicitly not lost ground yet — 'my body is not too affected so far' — and is racing to bank capacity before he does. The direction of travel is inverted.",
+      "the_medically_constrained was also considered and rejected: that avatar has high intent and no price resistance, blocked by a clinician. Bruno has extremely high intent but very real price resistance, and no clinician has blocked anything — the clinical question was simply never asked by either side.",
+      "Motivation is unusually high and explicitly other-directed: the thing he would change is not his own suffering but 'people around you, the people that love you, this is, I would say, is the main shift.'"
+    ]
+  },
+  "goals": [
+    { "text": "Build core, mobility and some muscle in the two months before chemotherapy starts, so his body can withstand a year of treatment", "category": "muscle_gain" },
+    { "text": "Get rid of the stiffness in his hips and lower back, and protect the shoulder and wrist that racquet-sport volume has worn down", "category": "mobility" },
+    { "text": "Stay strong enough to keep playing and coaching pickleball right through radiotherapy and chemotherapy — 'I need to get my body stronger, so I can keep playing throughout the chemo and radiation'", "category": "hobby_performance" },
+    { "text": "Recover the energy he has lost — currently self-assessed at 75% of normal — and hold it through treatment", "category": "energy_performance" },
+    { "text": "Stop coming back from exercise with back pain or hurting glutes, which makes managing daily life through treatment harder", "category": "injury_prevention" },
+    { "text": "Train at home with kettlebells rather than commit to a gym he would not be motivated to attend", "category": "convenience" },
+    { "text": "Beat the statistical prognosis — 'I might live 20, 30 years with this on my head'", "category": "longevity_function" },
+    { "text": "Reduce what his diagnosis is doing to the people who love him — the thing he named as the hardest part of the whole experience", "category": "longevity_family" },
+    { "text": "Balance out a body that plays far more than it trains — 'I definitely play too much and I don't do enough strength training'", "category": "strength" }
+  ],
+  "pains": [
+    { "text": "Active aggressive brain cancer, eight weeks post-surgery, mid-course through 33 radiotherapy sessions with twelve months of chemotherapy to follow", "category": "medical", "severity": "critical" },
+    { "text": "Energy down to about 75% of normal and sleeping more because of the radiation, forcing a rest and recovery block into every morning", "category": "medical", "severity": "medium" },
+    { "text": "Anxiety about what chemotherapy will do to him — 'chemo is hard to say because, like, now is what I'm anxious about and I don't know how the chemo is going to be'", "category": "mental_health", "severity": "high" },
+    { "text": "Watching the people who love him suffer with the diagnosis, which he names as the single hardest part — 'if I had something to change, it'd be like seeing people around suffering with it. It's tough.'", "category": "emotional", "severity": "high" },
+    { "text": "Stiff hips and back, a weak shoulder from tennis and pickleball, and a suspected new back injury after a 12-hour playing weekend", "category": "injury", "severity": "medium" },
+    { "text": "Body is weaker since the diagnosis and picking up small injuries — 'My body's a bit weaker, so I'm getting a few injuries here and there'", "category": "medical", "severity": "medium" },
+    { "text": "Playing volume massively outweighs strength work, which he identifies himself as the cause of the imbalance", "category": "program_fit", "severity": "medium" },
+    { "text": "Would not sustain a gym habit — 'rather than plan for a gym, that I wouldn't be as motivated to do it'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Savings are being consumed by privately funded cancer care as a non-resident, with no income — 'all my savings are going through cancer sheets, and doctors, and blood exams, and MRIs, and supplements'", "category": "other", "severity": "high" },
+    { "text": "Sometimes under-fuelled going into sessions while still adjusting to keto — 'sometimes I go play and I haven't ate enough... I feel like I need a little bit of a boost of energy'", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Leaning towards the six months. I mean, just a matter of financial-wise, like, I'll watch your pay, and I just need to check with my girlfriend. But yeah, just need to check. If we have the money to do it, we're gonna do it for sure.",
+      "timestamp": "00:25:03",
+      "rep_response": "Opened Objection B correctly with the money-aside isolation — 'money aside, like, do you personally feel that this can get you [there]?' — which produced a strong yes. He then made a good improvised move, asking to bring her onto the call live: 'Can you get her on a call right now? We can talk right now.' Bruno relayed to her instead (she was asleep on the couch) and came back with a soft no. The rep did not run the remaining moves: no 'when you talk to her, what obstacles might come up', no 'is there any reason she would NOT want you stronger', no deposit-with-full-refund fallback.",
+      "response_tactic": "money_aside_isolation_then_request_partner_join_live",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "it's just interjecting finances, because I live in Australia, But I'm not Australian resident. So I'm paying everything privately. I'm paying, like, radiotherapy, chemotherapy, and those things cost a fortune. So all my savings are going through cancer sheets, and doctors, and blood exams, and MRIs, and supplements. Anyway, I'm not working as mine, so range, food, blah, blah, blah. Everything's coming out of my savings. So I just need to check if it's doable.",
+      "timestamp": "00:26:18",
+      "rep_response": "Ran the should-versus-how reframe cleanly — 'So we're talking purely logistics, not like, should I do it, but actually how to do it in terms of finances?' — and opened the payment-plan door: 'there are ways that we can move around with finances. If the payment in one installment is difficult, we can work around and maybe split it.' He then immediately reversed the burden of proof: 'But I would need to know from you what level of investments you can commit to at the beginning.' The financial picture was barely attempted — one half-formed question, 'do you want to check, like, your checking account? Like, how much do you have?', abandoned as soon as Bruno deflected. No cards, no available credit, no monthly surplus, no investments.",
+      "response_tactic": "should_vs_how_reframe_then_burden_reversal",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I wasn't aware of the price at all. don't know, it was, like, thousands and thousands of dollars.",
+      "timestamp": "00:29:00",
+      "rep_response": "No response. The sticker shock went completely unacknowledged and the rep moved on to explaining that there are no set payment plans.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "timing_medical",
+      "raw_quote": "It's not like that if we have the money, it's what the income bills will be. Because everything's a bit of uncertainty, right? Like, the amount of money that we're going to have to pay for the chemo, we are not really sure yet of the exams, how often we're going to have to do blood tests. So it's hard to commit for, like, big investments when you have something like I do.",
+      "timestamp": "00:29:00",
+      "rep_response": "Not addressed. The rep offered no shorter commitment, no start-date deferral to the four-week gap before chemo, and no way to size the decision against an unknown future medical bill. He asked instead for payment options to be defined by the prospect, then booked a follow-up.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "But if you can send me maybe a few options of how can we pay it or if there is payment plan.",
+      "timestamp": "00:29:40",
+      "rep_response": "Declined to provide anything concrete: 'So, like, we don't have, like, a set payment plans. We always work around what's, like, in a particular case of each individual.' Nothing was sent, no numbers were named, and the call ended with the prospect no better equipped to have the conversation with the person who controls the money than he was before it.",
+      "response_tactic": "decline_to_productise_no_artifact_sent",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no verbal agreement to buy, no payment link sent. The commitment yes at 00:24:15 ('Yeah, 100%. That's what I'm looking for... let's do it') was given before the price was disclosed, and did not survive it.",
+      "The explicit post-price position was a deferral: 'we are really keen. We just cannot give you an answer right now because we need to check the finances. That's all.'",
+      "A next call was agreed and confirmed for the following day at 7pm the prospect's time, with the rep to send the invite by email.",
+      "Strong intent signals: the girlfriend initiated the enquiry, Bruno leaned to the six-month tier unprompted, and the value question came back at 100% — 'money aside... 100% have someone to coach me... It would be huge, because then I have guidance.'",
+      "Counter-evidence, and it is heavy: the decision-maker on money was asleep and never joined; savings are being consumed by privately funded oncology as a non-resident; future chemo, blood test and MRI costs are unquantified; and the prospect was surprised by the price entirely ('I wasn't aware of the price at all'). He also asked for written payment options and received none, so he goes into the finance conversation empty-handed."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call the next day at 7pm the prospect's local time; rep to send a calendar invite by email. Bruno to review the bills with his girlfriend and determine whether $6,000 USD is affordable against ongoing private cancer costs. He also asked for payment options to be sent in the meantime, which the rep did not commit to."
+  },
+  "notable": {
+    "note": "This call needs a human review, urgently, on duty-of-care grounds rather than sales grounds. The rep sold a six-to-twelve-month loaded kettlebell programme to a man eight weeks out from brain surgery, at session 18 of 33 radiotherapy sessions, facing twelve months of chemotherapy, and at no point asked whether an oncologist, surgeon or physio had cleared him for loaded overhead and ballistic kettlebell work. The word 'cleared' does not appear; no clinician is contacted; there is no medical-screening step anywhere in the process. This is the clinical blind spot already logged as a known script gap, at its most acute. Four further flags. (1) The diagnosis was used as the closing lever: 'I think you have the strongest why you need to do it out of all of the guys that I've ever spoke to over here', 'I cannot think of higher motivation than you have right now', and the close itself — 'are you sure you want to commit to this and become the version 2.0 of Bruno that kicks the [expletive] of the cancer'. Whether that is motivating or exploitative is a judgement call the company should make deliberately, not leave to a rep at 10.30pm. (2) The nutrition pillar directly contradicted the prospect's medical protocol. Bruno is on strict keto for eight weeks as part of his cancer strategy; the rep delivered the standard weekly balance day — 'you can have a pizza or something like that, just for mind's sound' — which breaks ketosis. Bruno agreed rather than objecting, which makes it worse, not better. (3) The prospect volunteered active distrust of his medical team — 'those doctors, when are you dead? So you've got to do a bit by yourself... They don't let me take anything' — and is self-administering unprescribed supplements. The rep endorsed the frame ('So we need to get you in the best position possible') rather than treating it as a risk. (4) Commercially: the prospect asked for written payment options and was told 'we don't have, like, a set payment plans', so the person who actually controls the money received nothing to evaluate. Pricing itself was correct on this call — $9,000 / 12 months and $6,000 / 6 months, matching the documented offer, which is notably not what the same rep quoted on the other call recorded the same day."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe, sustained inversion; roles were read from content throughout. The prospect joined from a phone and carries the device label 'Bruno's iPhone' rather than a name. Clear examples of misattribution: at 00:02:03 the line 'And I'm going through the treatment now' sits under the rep's label but is obviously Bruno mid-story; at 00:11:16 'And then chemo, I'm going to do one year' sits under the rep but is Bruno; at 00:01:20 the frame-agreement exchange is inverted, with the rep's 'Sounds good?' landing under Bruno's label and Bruno's 'Sounds good' landing under the rep's; and the entire pricing exchange from 00:24:40 to 00:24:57 alternates incorrectly, so that '9,000 USD?', '12 months' and 'It's 6k' are distributed across both labels at random. Also note the app name is transcribed here as 'TrueCommerce' where the same rep's other call the same day says 'TrueCoach' — almost certainly ASR error, and TrueCoach is the real product. The rep's display label reads 'Andrew Jin (Primal Instinct)' while the title, folder and stated European location point to Andrew Musial; recorded as Andrew Musial and flagged for a human to confirm."
+  }
+}

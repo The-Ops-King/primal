@@ -1,0 +1,88 @@
+{
+  "call_id": "2026-04-07_fathom-demo_andrew-musial",
+  "source": {
+    "drive_file_id": "1O3x1ljRU7ndDip7XRB8k9BsFypI4ilgF",
+    "drive_folder": "Andrew Musial",
+    "original_title": "04/07/2026 - Fathom Demo",
+    "display_title": "04/07/2026 - Fathom Demo — Undetermined",
+    "file_size_bytes": 9869
+  },
+  "call": {
+    "date": "2026-04-07",
+    "stage": "internal",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 6,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": null,
+    "role": null,
+    "location": null,
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": null,
+    "aka": null,
+    "name_source": null,
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.99,
+    "signals": [
+      "Proposed label: not_a_prospect — this is the stock Fathom sample recording that ships with every new Fathom account (Richard White, founder of Fathom, demoing the product with Susannah DuRant of Fathom's growth team). No Primal Instinct participant, no prospect, no sales content."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.99,
+    "close_rule_applied": null,
+    "evidence": [
+      "Not a Primal Instinct call at all — it is Fathom's own canned product demo ('this call here is designed to be just a quick sample recording').",
+      "No Kettlebell Body offer, prospect, or sales process appears anywhere in the transcript.",
+      "Counter-evidence: none; the file is unambiguous about what it is."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": null
+  },
+  "notable": {
+    "note": "Corpus hygiene issue, not a call. This is the default Fathom sample recording auto-added to a new Fathom account; it landed in Andrew Musial's rep folder and is dated 04/07/2026, the likely account-creation date. It should be excluded from every rep-level and process-level rollup or it will drag adherence and disposition statistics."
+  },
+  "quality": {
+    "diarization_reliability": "high",
+    "speaker_label_swaps_detected": false,
+    "notes": "Clean two-speaker studio recording. Some ASR word-level garble ('Suz'/'Sus'/'Suzanne'/'Susanna' for Susannah DuRant, 'serum' for CRM) but no role or turn confusion."
+  }
+}

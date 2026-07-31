@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-24_giulian-carcioppolo_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Warm, well-built rapport open (the restaurant cap, praise for his drive) and a clean open question — 'So take me through, what were your thoughts?' — but no four-part frame and no frame agreement. Defensible on a continuation call, though the rep never reset expectations for what this call was for."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Second call in a sequence; baseline was taken previously. No baseline re-run and none expected."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "No goal work at all. The prospect volunteered real depth unprompted — the proposal, the wedding, his shape and shoulder, family support — and the rep never connected any of it to an outcome. He never asked what moving better would do for him or who else it impacts, despite a fiancée and a family business sitting right there."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "No past-attempts or root-cause work. The prospect mentioned he had been doing kettlebells and stretching on his own for a few days — an obvious opening to ask why self-directed effort has not stuck — and the rep only used it as encouragement."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. Nothing about what the next two years look like if the recovery plateaus, no line-in-the-sand. This was the phase that could have changed the call and it was skipped entirely."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "miss", "P6b": "partial", "P6c": "hit" },
+      "evidence": "Money was isolated in substance — 'if the money would be there... you would be like, yes, let's go for it, but it sounds like that's the only thing that's stopping you at the moment, right?' — which the prospect confirmed. But belief was never tested (P6a) and the isolation came after the offer, not before. He correctly did not push forward without a yes."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No agreement was reached on any tier, so payment and onboarding were never reachable. The only payment event was outbound — the rep initiated a refund of the previously collected $100."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran ('if the money would be there... that's the only thing stopping you'). Two financial-picture questions ran: monthly leftover after bills, and cash available now. Everything else was skipped — no 'you're not in a SHOULD I place, you're in a HOW place', no credit cards, no available credit, no crypto/stocks/investments, and no explicit 'are you comfortable having an open honest conversation about where you're at financially'. The rep also pre-conceded the outcome out loud — 'I don't think it's going to work anyway, but just trying to get every' — which kills the play before the answer arrives."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I would have to think about it' at 00:09:59. None of the OA moves ran — no 'do you feel what we've gone through can get you to your goal', no 'thinking isn't the problem, deciding is', no 'what's actually coming up that's preventing you from getting started'. The rep instead validated the hesitation and moved to close the call down."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The prospect had already consulted his girlfriend and parents and reported their pushback was financial. The rep asked the useful diagnostic — 'were they overall supportive of it, but it was just the financials?' — and got a yes, then dropped it. No 'is there any reason she would not want you stronger and less in pain', no ownership question, no deposit-and-go-talk-to-her fallback."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap: competing medical spend. The blocker was not capacity to pay in general but that active accident rehab — up to three therapists, hospital bills, medications, with costs about to rise again — outranks training in his budget, and he said so directly: 'the health for my brain and my health in general is a little bit more important for me'. OC assumes discretionary money can be found; there is no play for a prospect whose money is already committed to clinical care he cannot defer. Worth adding to known_gaps_in_script."
+    }
+  ],
+  "notes": "Richard handled a hard human situation with real integrity — he refunded the deposit and refused to worsen the prospect's finances — but he ran almost no process. Phases 3, 4 and 5 were skipped entirely, so when money surfaced there was no consequence or emotional weight for the price to sit against, and the downsell landed as pure cost rather than as a solution. Coach the sequence: on a follow-up close call, re-anchor the goal and the cost of inaction before touching the number, and finish the OC financial picture instead of narrating out loud that it will not work."
+}

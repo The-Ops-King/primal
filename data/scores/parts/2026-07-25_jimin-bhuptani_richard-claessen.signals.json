@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-25_jimin-bhuptani_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He interrupted the presentation with mechanics questions rather than reacting to the value: 'And are there particular times when you guys recommend work?', then 'So you basically just show someone and then they can go off and do it on their own? Like Zoom trainings or anything like that?' The rep answered 'No, it's not going to be like, oh, we're going to jump on every week', and he accepted the delivery model with a flat 'Yeah' to the check. Understood the mechanics, showed no enthusiasm — and the specific thing he probed for, live instruction, is the thing he most wants given form safety is his stated priority one."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "He asked for the nutrition approach before the rep ever presented it — 'in terms of nutrition, could you maybe talk to me about how you guys typically do it? Because I'm not sure what to expect' — which is the strongest curiosity signal on the call. The rep gave the no-calorie-counting, no-chicken-and-rice, protocol-you-can-follow-forever answer. On the second pass the rep checked whether he was still vegetarian and proposed bumping protein above 100 grams; he answered 'Okay' with no follow-up and no objection."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented as lifelong success — teach a man to fish, six months then independence, filmed workouts with feedback, Trevor's personal number, weekly check-ins, programme adjusted on communication, plus the Thursday live sessions and the one-on-one client group. Asked 'Any questions on the lifelong success part?' he said 'No', and later 'Fantastic. Great.' Agreed without engagement. Given that his actual failure mode over twenty years is inconsistency, this was the pillar that should have been sold hardest and it drew the least reaction."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "the alternative would be, and this is kind of the route I've looked at, is personal training. For people, you know, it's a little more accessible when I go to the gym, but, you know, obviously people are not as much of a kettlebell expert.",
+      "direction": "undercuts_price",
+      "competitor": "in-person personal trainers at his local gym",
+      "note": "The live alternative he has actively researched. No price was named but gym PT sits far below $1,000/month, and 'more accessible' means in-person, which directly serves his number-one goal of correct form. He also handed over the rebuttal himself — they are not kettlebell experts — and the rep never used it. This is the anchor that decided the call."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "I was looking at online videos and came across it. I was like, well, worth a shot. And, you know, I did it the first time, and it was, you know, I'm very in tune with my body, and I literally did it the first day, and the next day I started noticing a difference.",
+      "direction": "undercuts_price",
+      "competitor": "free online kettlebell content, including Trevor's own videos",
+      "note": "He is already getting visible results for free — dropping body fat, 'everybody's noticing it' — after only a few weeks. Trevor's free content is what brought him in and is also his strongest reason not to pay. The rep even reinforced the substitute by noting the repeated free messaging that convinced him. Nothing on the call explained what $6,000 adds beyond what free videos are already delivering."
+    },
+    {
+      "type": "price_scale_reference",
+      "raw": "I mean, it's not like it's... You know, $200 or $100. So I got to think about it",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His internal reference band for fitness spend is two to three orders of magnitude below the offer. The rep's counter-move — reframing as '$1,000 a month' — arguably made it worse, since $1,000/month against a $100-200 mental frame widens the gap rather than closing it."
+    },
+    {
+      "type": "affordability_signal",
+      "raw": "6,000 is a lot of money, right? Like, we're not all millionaires here. So, great. 6,000 feels like a lot, especially, you know, when you consider kind of lifestyle costs.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Self-declared outside the wealth bracket the offer assumes. Ambiguous though — he also said 'if money was no object, this would be no question' and 'It's not how, it's just a matter of deciding if I should', which reads as unwillingness rather than inability. His occupation and income were never established, so this cannot be resolved."
+    },
+    {
+      "type": "rep_introduced_discount",
+      "raw": "if you feel like, well, 6k is too much, or for what you're trying to achieve as well, then we do also have the same length, but then for 3,000. And that would be with Caden instead of with Trevor.",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct's own reduced tier",
+      "note": "An anchor the rep created himself, mid-call, unprompted by any request for a discount. The prospect immediately rated it 'a little more palatable', so $3,000 is now the live number and $6,000 is gone. Compounding it, the rep described Caden as knowing 'basically everything that Trevor knows' and attributed the price gap to Trevor being busy rather than to any difference in value — which tells the prospect the premium buys scarcity, not outcome."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live, synchronous coaching — he asked directly whether there are Zoom training sessions, and correct form is his explicitly stated number-one priority",
+      "why_unmet": "The rep confirmed there is no recurring live one-on-one session: 'No, it's not going to be like, oh, we're going to jump on every week.' Form correction is asynchronous video review, plus a Thursday group workout that is not personalised. For a prospect whose sole reason for buying is not injuring himself, the delivery model does not match the demand, and it is exactly why in-person gym PT stays attractive to him.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A higher-protein nutrition protocol that works for a vegetarian",
+      "why_unmet": "He is a lifelong vegetarian currently at about 100g protein and the rep proposed pushing that higher while describing the approach as whole foods and 'meats, some carbs, some fats' on other calls. The rep noted the vegetarianism ('now that's good to know') but never said whether the protocol is built for it or how the protein target is hit without meat. Probably solvable, nobody said so.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Instruction covering the full breadth of kettlebell movements for every body part, beyond the basics",
+      "why_unmet": "Stated as a specific goal — 'I want to learn all kinds of techniques to be able to work on all different body parts, not just the basic kettlebell movements'. The presentation described full-body workouts and beginner-to-advanced Thursday sessions but never confirmed the curriculum breadth he asked about. Likely served; never explicitly answered.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}
