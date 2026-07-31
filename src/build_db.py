@@ -276,6 +276,29 @@ def load_json(path):
         return json.load(fh)
 
 
+def merge_parts(base, suffix, key):
+    """Fold per-call score files into the aggregate structure.
+
+    Workers write one file per call under data/scores/parts/ rather than
+    appending to a shared document — with dozens of agents running at once,
+    a single file would race and lose writes. Later files win on call_id so a
+    re-run of one call cleanly supersedes the earlier version.
+    """
+    parts_dir = ROOT / "data" / "scores" / "parts"
+    merged = {e["call_id"]: e for e in base.get(key, []) if e.get("call_id")}
+    if parts_dir.exists():
+        for f in sorted(parts_dir.glob(f"*.{suffix}.json")):
+            try:
+                rec = load_json(f)
+            except json.JSONDecodeError:
+                print(f"  WARN unreadable, skipped: {f.name}")
+                continue
+            if rec.get("call_id"):
+                merged[rec["call_id"]] = rec
+    base[key] = list(merged.values())
+    return base
+
+
 def score_adherence(conn, playbook, adherence):
     """Weighted phase scoring. not_applicable phases drop out of the denominator
     so a rep is never penalised for a phase the call could not reach."""
@@ -1015,10 +1038,11 @@ def redact_payload(payload, records):
 def main():
     records = load_calls()
     playbook = load_json(ROOT / "data" / "playbook.json")
-    adherence = load_json(ROOT / "data" / "scores" / "adherence.json")
     rules = load_json(ROOT / "data" / "rules.json")
-    signals = load_json(ROOT / "data" / "signals.json")
-    icp = load_json(ROOT / "data" / "icp.json")
+    adherence = merge_parts(load_json(ROOT / "data" / "scores" / "adherence.json"),
+                            "adherence", "calls")
+    signals = merge_parts(load_json(ROOT / "data" / "signals.json"), "signals", "calls")
+    icp = merge_parts(load_json(ROOT / "data" / "icp.json"), "icp", "assessments")
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     WEB_DATA.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
@@ -1031,6 +1055,19 @@ def main():
     for r in records:
         (junk if (r["source"].get("file_size_bytes") or 0) < junk_min else kept).append(r)
     records = kept
+
+    # Drop score records with no surviving extraction. At fan-out scale a
+    # worker can write a score file and fail before writing the extraction,
+    # or the call can be filtered as junk afterwards — either way an orphan
+    # would crash the rollups on a missing call lookup.
+    known = {r["call_id"] for r in records}
+    for doc, key, label in ((adherence, "calls", "adherence"),
+                            (signals, "calls", "signals"),
+                            (icp, "assessments", "icp")):
+        before = len(doc.get(key, []))
+        doc[key] = [e for e in doc.get(key, []) if e.get("call_id") in known]
+        if before - len(doc[key]):
+            print(f"  dropped {before - len(doc[key])} orphan {label} record(s)")
 
     for rec in records:
         insert(conn, rec)

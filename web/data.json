@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:48:39.043245+00:00",
+  "generated_at": "2026-07-31T19:09:47.268183+00:00",
   "corpus": {
     "calls_ingested": 5,
     "deals": 5,
@@ -1570,7 +1570,7 @@
     ],
     "demand_goals": [
       {
-        "category": "fat_loss",
+        "category": "mobility",
         "deals": 4,
         "closed": 1,
         "cash": 7200.0,
@@ -1584,7 +1584,7 @@
         "close_rate": 25
       },
       {
-        "category": "mobility",
+        "category": "fat_loss",
         "deals": 4,
         "closed": 1,
         "cash": 7200.0,
@@ -1667,6 +1667,17 @@
         "close_rate": 100
       },
       {
+        "category": "confidence",
+        "deals": 1,
+        "closed": 1,
+        "cash": 6000.0,
+        "names": [
+          "Robyn S."
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
         "category": "injury_confidence",
         "deals": 1,
         "closed": 1,
@@ -1689,15 +1700,15 @@
         "close_rate": 100
       },
       {
-        "category": "confidence",
+        "category": "energy_performance",
         "deals": 1,
-        "closed": 1,
-        "cash": 6000.0,
+        "closed": 0,
+        "cash": 0.0,
         "names": [
-          "Robyn S."
+          "Badrane H."
         ],
         "share": 20,
-        "close_rate": 100
+        "close_rate": 0
       },
       {
         "category": "injury_prevention",
@@ -1711,18 +1722,7 @@
         "close_rate": 0
       },
       {
-        "category": "energy_performance",
-        "deals": 1,
-        "closed": 0,
-        "cash": 0.0,
-        "names": [
-          "Badrane H."
-        ],
-        "share": 20,
-        "close_rate": 0
-      },
-      {
-        "category": "sustainability",
+        "category": "relationship",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1744,7 +1744,7 @@
         "close_rate": 0
       },
       {
-        "category": "relationship",
+        "category": "sustainability",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
@@ -1844,17 +1844,6 @@
         "close_rate": 0
       },
       {
-        "category": "motivation",
-        "deals": 1,
-        "closed": 1,
-        "cash": 7200.0,
-        "names": [
-          "Francisco V."
-        ],
-        "share": 20,
-        "close_rate": 100
-      },
-      {
         "category": "medical",
         "deals": 1,
         "closed": 1,
@@ -1866,7 +1855,18 @@
         "close_rate": 100
       },
       {
-        "category": "sleep",
+        "category": "motivation",
+        "deals": 1,
+        "closed": 1,
+        "cash": 7200.0,
+        "names": [
+          "Francisco V."
+        ],
+        "share": 20,
+        "close_rate": 100
+      },
+      {
+        "category": "mental_health",
         "deals": 1,
         "closed": 1,
         "cash": 6000.0,
@@ -1877,7 +1877,7 @@
         "close_rate": 100
       },
       {
-        "category": "mental_health",
+        "category": "sleep",
         "deals": 1,
         "closed": 1,
         "cash": 6000.0,
@@ -1899,17 +1899,6 @@
         "close_rate": 100
       },
       {
-        "category": "accountability_gap",
-        "deals": 1,
-        "closed": 0,
-        "cash": 0.0,
-        "names": [
-          "Tristian C."
-        ],
-        "share": 20,
-        "close_rate": 0
-      },
-      {
         "category": "aging",
         "deals": 1,
         "closed": 0,
@@ -1922,6 +1911,17 @@
       },
       {
         "category": "fragmented_solutions",
+        "deals": 1,
+        "closed": 0,
+        "cash": 0.0,
+        "names": [
+          "Tristian C."
+        ],
+        "share": 20,
+        "close_rate": 0
+      },
+      {
+        "category": "accountability_gap",
         "deals": 1,
         "closed": 0,
         "cash": 0.0,
