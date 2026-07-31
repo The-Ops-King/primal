@@ -14,6 +14,7 @@ import pathlib
 import re
 import sqlite3
 import sys
+from math import comb
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -481,6 +482,170 @@ def build_rollups(records, deals, playbook, adherence):
     }
 
 
+def fisher_right(a, b, c, d):
+    """One-tailed Fisher exact: probability of a split at least this extreme
+    under the null that the feature is unrelated to outcome. Exact, so it is
+    valid at tiny n — which is the whole point here."""
+    n, r1, c1 = a + b + c + d, a + b, a + c
+    if not n or not c1 or r1 > n:
+        return 1.0
+    denom = comb(n, c1)
+    return sum(comb(r1, x) * comb(n - r1, c1 - x)
+               for x in range(a, min(r1, c1) + 1)) / denom
+
+
+def build_discriminators(records, deals, playbook, adherence):
+    """What actually separates closed from not-closed.
+
+    Every feature is evaluated at DEAL level, because that is where outcome
+    lives. A feature counts as present if it appears in any call of the deal.
+    """
+    check_text = {c["id"]: c["text"]
+                  for p in playbook["phases"] for c in p.get("checks", [])}
+    check_phase = {c["id"]: p["name"]
+                   for p in playbook["phases"] for c in p.get("checks", [])}
+    phase_name = {p["id"]: p["name"] for p in playbook["phases"]}
+    adh = {e["call_id"]: e for e in adherence["calls"]}
+    by_call = {r["call_id"]: r for r in records}
+
+    # feature sets per deal
+    feats, outcome = {}, {}
+    for d in deals:
+        did = d["deal_id"]
+        outcome[did] = d["disposition"]
+        f = feats.setdefault(did, set())
+        for cid in d["call_ids"]:
+            r = by_call[cid]
+            for p in r.get("pains", []):
+                f.add(("pain", p.get("category")))
+            for g in r.get("goals", []):
+                f.add(("goal", g.get("category")))
+            for o in r.get("objections", []):
+                f.add(("objection", o.get("type")))
+                if o.get("resolved"):
+                    f.add(("objection_resolved", o.get("type")))
+            off = r.get("offer", {})
+            if off.get("payment_plan_offered"):
+                f.add(("structural", "payment_plan_offered"))
+            if off.get("payment_plan_structured_live"):
+                f.add(("structural", "payment_plan_structured_live"))
+            if r.get("setter", {}).get("name"):
+                f.add(("structural", "came_via_setter"))
+            if (r["call"].get("sequence_position") or 1) > 1:
+                f.add(("structural", "multi_call_sequence"))
+            if not r["call"].get("prospect_named_in_title"):
+                f.add(("structural", "untitled_recording"))
+            e = adh.get(cid)
+            if e:
+                for pid, pdata in e["phases"].items():
+                    if pdata.get("score") in ("hit", "partial"):
+                        f.add(("phase", pid))
+                    if pdata.get("score") == "hit":
+                        f.add(("phase_full", pid))
+                    for chk, val in (pdata.get("checks") or {}).items():
+                        if val == "hit":
+                            f.add(("check", chk))
+                for pl in e.get("objection_plays", []):
+                    if pl.get("trigger_present") and pl.get("play") not in (None, "none"):
+                        if pl.get("ran") in ("hit", "partial"):
+                            f.add(("play", pl["play"]))
+
+    closed = [d for d in outcome if outcome[d] == "closed"]
+    other = [d for d in outcome if outcome[d] != "closed"]
+    lost = [d for d in outcome if outcome[d] == "lost"]
+
+    LABELS = {
+        "pain": lambda k: f"Pain: {k.replace('_',' ')}",
+        "goal": lambda k: f"Goal: {k.replace('_',' ')}",
+        "objection": lambda k: f"Objection raised: {k.replace('_',' ')}",
+        "objection_resolved": lambda k: f"Objection resolved: {k.replace('_',' ')}",
+        "phase": lambda k: f"Ran section: {phase_name.get(k,k)}",
+        "phase_full": lambda k: f"Ran section IN FULL: {phase_name.get(k,k)}",
+        "check": lambda k: f"{check_phase.get(k,'')} → {check_text.get(k,k)}",
+        "play": lambda k: f"Ran objection play {k}",
+        "structural": lambda k: k.replace("_", " ").capitalize(),
+    }
+
+    universe = sorted({f for s in feats.values() for f in s})
+    rows = []
+    for kind, key in universe:
+        a = sum(1 for d in closed if (kind, key) in feats[d])
+        b = len(closed) - a
+        c = sum(1 for d in other if (kind, key) in feats[d])
+        dd = len(other) - c
+        if a + c == 0:
+            continue
+        cp = round(a / len(closed) * 100) if closed else 0
+        op = round(c / len(other) * 100) if other else 0
+        lost_with = sum(1 for d in lost if (kind, key) in feats[d])
+
+        if cp == 100 and op == 0:
+            stmt = (f"Every closed deal ({a}/{len(closed)}) had this. "
+                    f"No non-closed deal did (0/{len(other)}).")
+        elif op == 100 and cp == 0:
+            stmt = (f"Every non-closed deal ({c}/{len(other)}) had this. "
+                    f"No closed deal did (0/{len(closed)}).")
+        else:
+            stmt = (f"{cp}% of closed ({a}/{len(closed)}) vs "
+                    f"{op}% of non-closed ({c}/{len(other)}).")
+
+        rows.append({
+            "kind": kind, "key": key,
+            "label": LABELS.get(kind, lambda k: k)(key),
+            "closed_with": a, "closed_n": len(closed),
+            "other_with": c, "other_n": len(other),
+            "lost_with": lost_with, "lost_n": len(lost),
+            "closed_pct": cp, "other_pct": op, "diff": cp - op,
+            "support": a + c,
+            "p_enriched": round(fisher_right(a, b, c, dd), 4),
+            "p_depleted": round(fisher_right(c, dd, a, b), 4),
+            "perfect": (cp == 100 and op == 0) or (op == 100 and cp == 0),
+            "statement": stmt,
+        })
+
+    rows.sort(key=lambda r: (-abs(r["diff"]), -r["support"]))
+    perfect = [r for r in rows if r["perfect"]]
+
+    # How many perfect separators would we expect from noise alone? For a
+    # feature present in k of n deals, the chance it lands exactly on the
+    # closed set is 1/C(n,k). Summing that over the real prevalence profile
+    # gives the expected false-positive count — the honest denominator.
+    n_deals = len(deals)
+    expected_noise = 0.0
+    for r in rows:
+        k = r["closed_with"] + r["other_with"]
+        if 0 < k < n_deals:
+            expected_noise += 1 / comb(n_deals, k) if k == len(closed) else 0
+    # The best p-value the current group sizes can physically produce. A
+    # perfectly clean separator still only reaches 1/C(n, n_closed). If that
+    # floor is above .05, NOTHING in this section can reach significance no
+    # matter how clean it looks, and the honest move is to say so up front.
+    p_floor = 1 / comb(n_deals, len(closed)) if 0 < len(closed) < n_deals else 1.0
+
+    # Deals needed before a perfect separator could clear p<.05, holding the
+    # observed close rate. Answers "how much more data do I need".
+    rate = len(closed) / n_deals if n_deals else .4
+    deals_needed = None
+    for cand in range(n_deals + 1, 400):
+        k = max(1, round(cand * rate))
+        if k < cand and 1 / comb(cand, k) <= .05:
+            deals_needed = cand
+            break
+
+    return {
+        "groups": {"closed": len(closed), "not_closed": len(other), "lost": len(lost)},
+        "features_tested": len(rows),
+        "perfect_separators": len(perfect),
+        "expected_perfect_by_chance": round(expected_noise, 1),
+        "p_floor": round(p_floor, 4),
+        "deals_needed_for_significance": deals_needed,
+        "min_p": min([r["p_enriched"] for r in rows], default=1.0),
+        "top_favours_close": [r for r in rows if r["diff"] > 0][:40],
+        "top_favours_loss": [r for r in rows if r["diff"] < 0][:40],
+        "all": rows,
+    }
+
+
 def main():
     records = load_calls()
     playbook = load_json(ROOT / "data" / "playbook.json")
@@ -509,6 +674,7 @@ def main():
         rec["adherence"] = adherence_summary.get(rec["call_id"])
 
     rollups = build_rollups(records, deals, playbook, adherence)
+    rollups["discriminators"] = build_discriminators(records, deals, playbook, adherence)
 
     counts = {
         t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]

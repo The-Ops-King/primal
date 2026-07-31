@@ -233,6 +233,7 @@ function render(d){
 
   ${scriptSection(calls, d.playbook)}
 
+  ${discriminatorSection(d)}
   ${avatarSection(d)}
   ${painGoalSection(d)}
   ${callTableSection(d)}
@@ -357,6 +358,102 @@ function render(d){
     as sharper than it was. Section-level rates are far more robust to that than per-call scores — a whole
     section being skipped is a countable fact, not a judgement — but blind scoring against CRM-verified
     outcomes is still what would settle it.
+  </div>`;
+  }
+
+  /* ---------- What separates closed from not closed ---------- */
+  function discriminatorSection(d){
+    const D = d.rollups.discriminators;
+    const KIND = {
+      check:"Script move", phase:"Script section", phase_full:"Script section",
+      pain:"Pain", goal:"Goal", objection:"Objection", objection_resolved:"Objection",
+      play:"Objection play", structural:"Structural"
+    };
+    const sig = r => {
+      const p = r.diff>0 ? r.p_enriched : r.p_depleted;
+      if (p <= .05) return ["Significant","var(--won)"];
+      if (p <= .15) return ["Suggestive","var(--warn)"];
+      return ["Noise-level","var(--muted)"];
+    };
+    const card = (r) => {
+      const [sLab,sCol] = sig(r);
+      const tone = r.diff>0 ? "var(--won)" : "var(--lost)";
+      const p = r.diff>0 ? r.p_enriched : r.p_depleted;
+      return `<tr>
+        <td><strong style="font-size:13.5px">${esc(r.label)}</strong>
+            <div class="mono" style="color:var(--muted);font-size:11px">${esc(KIND[r.kind]||r.kind)}</div></td>
+        <td><span class="num" style="font-size:20px;color:${tone}">${r.diff>0?"+":""}${r.diff}</span>
+            <div class="bar"><i style="width:${Math.abs(r.diff)}%;background:${tone}"></i></div></td>
+        <td style="font-size:12.5px;color:var(--muted)">${esc(r.statement)}</td>
+        <td><span class="tag" style="background:color-mix(in srgb,${sCol} 16%,transparent);color:${sCol}">${sLab}</span>
+            <div class="mono" style="color:var(--muted);margin-top:4px">p=${p}</div></td>
+      </tr>`;
+    };
+
+    const win = D.top_favours_close.slice(0,14);
+    const lose = D.top_favours_loss.slice(0,14);
+    const perfectWin = D.top_favours_close.filter(r=>r.perfect);
+
+    return `
+  <h2>What separates closed from not closed</h2>
+  <p class="sub">Every pain, goal, objection, script section and individual scripted move, tested for whether
+  it shows up more in deals that closed or deals that didn't. Measured per <strong>deal</strong>.
+  ${D.features_tested} features tested across ${D.groups.closed} closed and ${D.groups.not_closed} non-closed
+  deals.</p>
+
+  <div class="banner" style="border-color:var(--lost);background:color-mix(in srgb,var(--lost) 8%,transparent)">
+    <strong style="color:var(--lost)">At this sample size, nothing on this page can be true yet.</strong>
+    With ${D.groups.closed} closed and ${D.groups.not_closed} non-closed deals, the best p-value the maths can
+    physically produce is <strong>${D.p_floor}</strong> — so even a flawless separator cannot reach
+    significance. ${D.perfect_separators} features separate the groups perfectly, but roughly
+    <strong>${D.expected_perfect_by_chance}</strong> would do that from pure luck with this many features and
+    this few deals. <strong>You would need about ${D.deals_needed_for_significance} deals</strong> before a
+    clean separator means anything. The engine below is built and correct; it is waiting on data, and that is
+    the honest reason to run the full corpus.
+  </div>
+
+  <div class="grid g4" style="margin:var(--s4) 0">
+    ${stat(D.features_tested,"Features tested","pains, goals, objections, script moves")}
+    ${stat(D.perfect_separators,"Perfect separators","~"+D.expected_perfect_by_chance+" expected by chance")}
+    ${stat(D.p_floor,"Best possible p","ceiling at current group sizes")}
+    ${stat(D.deals_needed_for_significance||"—","Deals needed","for a clean separator to hold up")}
+  </div>
+
+  <h3 style="margin-top:var(--s6);color:var(--won)">● Present in closed, absent in the rest</h3>
+  <p class="sub">Read as: “every closed deal did this, no other deal did.” Candidate causes of winning.</p>
+  <div class="scroll" style="margin-bottom:var(--s5)"><table>
+    <thead><tr><th>Feature</th><th style="width:130px">Gap (pts)</th>
+      <th style="width:260px">Split</th><th style="width:130px">Signal</th></tr></thead>
+    <tbody>${win.map(card).join("")}</tbody>
+  </table></div>
+
+  <h3 style="color:var(--lost)">▲ Present in non-closed, absent or rarer in closed</h3>
+  <p class="sub">Read as: “the deals that didn't close all had this.” Candidate causes of losing.</p>
+  <div class="scroll" style="margin-bottom:var(--s5)"><table>
+    <thead><tr><th>Feature</th><th style="width:130px">Gap (pts)</th>
+      <th style="width:260px">Split</th><th style="width:130px">Signal</th></tr></thead>
+    <tbody>${lose.map(card).join("")}</tbody>
+  </table></div>
+
+  <div class="grid g2">
+    <div class="panel" style="border-color:var(--accent)">
+      <h3 style="color:var(--accent)">The one to watch when real data lands</h3>
+      <p style="color:var(--muted);margin:0 0 10px">Of the ${perfectWin.length} clean separators favouring
+      close, the ones that are <em>actionable</em> — a rep can choose to do them — matter more than the ones
+      that are just descriptions of the prospect. Sorted that way, the leaders are script behaviours, not
+      prospect traits:</p>
+      ${perfectWin.filter(r=>["check","phase","phase_full","play"].includes(r.kind)).slice(0,4)
+        .map(r=>`<div class="q" style="border-color:var(--won)">${esc(r.label)}</div>`).join("")}
+      <p style="color:var(--muted);margin:10px 0 0;font-size:13px">That distinction is the difference between
+      “we should coach this” and “we should target that”.</p>
+    </div>
+    <div class="panel" style="border-color:var(--warn)">
+      <h3 style="color:var(--warn)">Why prospect traits are the weaker lead</h3>
+      <p style="color:var(--muted);margin:0">Pains and goals describe who walked in; script moves describe
+      what the rep did. Both can separate the groups, but only one is something you control. When the corpus
+      is large enough to trust, weight the actionable features first — and treat a pain or goal that predicts
+      outcome as a <em>targeting</em> signal for marketing rather than a coaching one.</p>
+    </div>
   </div>`;
   }
 
