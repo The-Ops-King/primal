@@ -696,6 +696,130 @@ def build_discriminators(records, deals, playbook, adherence):
     }
 
 
+def _band(v, edges, fmt="${:,.0f}"):
+    """Bucket a number into a labelled range."""
+    if v is None:
+        return None
+    lo = None
+    for e in edges:
+        if v < e:
+            return (f"under {fmt.format(e)}" if lo is None
+                    else f"{fmt.format(lo)}–{fmt.format(e)}")
+        lo = e
+    return f"{fmt.format(lo)}+"
+
+
+def redact_payload(payload, records):
+    """Pseudonymise the PUBLISHED payload only.
+
+    data/calls/*.json and primal.db keep full fidelity on this machine; this
+    strips identity from the copy that goes on the web. Three passes:
+
+      1. Names   → 'Robyn Stillwater' becomes 'Robyn S.' everywhere, including
+                   inside call_ids, deal_ids, file titles and free-text notes.
+                   Rep and setter names are staff and are deliberately left.
+      2. Money   → exact figures a prospect disclosed (cash on hand, monthly
+                   surplus, credit score) become ranges. A credit score of 650
+                   attached to a named person is the single most sensitive
+                   field in the corpus.
+      3. Place   → city-level location drops to state/country. 'Robyn S.' plus
+                   a city plus a health condition re-identifies; 'Robyn S.'
+                   plus a state does not.
+
+    Names are replaced by whole-string scrub rather than field-by-field
+    because they leak into derived keys (2026-07-23_robyn-stillwater_...)
+    and into quoted evidence, and missing one of those is the whole ballgame.
+    """
+    subs = {}
+    for r in records:
+        full = (r["prospect"].get("name") or "").strip()
+        parts = full.split()
+        if len(parts) < 2:
+            continue
+        first, last = parts[0], parts[-1]
+        short = f"{first} {last[0]}."
+        subs[full] = short
+        for extra in [full, " ".join(parts[:2]), f"{first} {last}"]:
+            subs[extra] = short
+        subs[last] = last[0] + "."                       # bare surname in prose
+        subs[full.lower().replace(" ", "-")] = f"{first}-{last[0]}".lower()
+        subs["-".join(p.lower() for p in parts)] = f"{first}-{last[0]}".lower()
+        if r["prospect"].get("aka"):
+            subs[r["prospect"]["aka"]] = first
+
+    blob = json.dumps(payload)
+    for src in sorted(subs, key=len, reverse=True):       # longest first
+        if src:
+            blob = blob.replace(src, subs[src])
+    out = json.loads(blob)
+
+    CASH = [500, 1000, 2500, 5000, 10000]
+    SCORE = [580, 670, 740, 800]
+
+    # Bucketing the structured field is not enough — the same figures get
+    # quoted back in scoring prose ("cash on hand $1,500 ... credit score
+    # 650"). Collect every figure a prospect actually disclosed and band it
+    # wherever it appears in free text. Deal figures (the $6,000 offer, a
+    # $1,200 instalment) are business data and are deliberately untouched.
+    disclosed = {}
+    for r in records:
+        fin = (r.get("offer") or {}).get("prospect_financials") or {}
+        for key, edges, fmt in (("available_now_usd", CASH, "${:,.0f}"),
+                                ("monthly_surplus_usd", CASH, "${:,.0f}"),
+                                ("credit_score", SCORE, "{:.0f}")):
+            v = fin.get(key)
+            if v is None:
+                continue
+            band = _band(v, edges, fmt)
+            disclosed[f"${v:,.0f}"] = f"the {band} band"
+            disclosed[f"${v:.0f}"] = f"the {band} band"
+            disclosed[str(int(v))] = f"the {band} band"
+
+    FIN_WORDS = ("credit", "cash on hand", "surplus", "left over", "leftover",
+                 "financial picture", "monthly")
+
+    def scrub_prose(node):
+        if isinstance(node, dict):
+            return {k: scrub_prose(v) for k, v in node.items()}
+        if isinstance(node, list):
+            return [scrub_prose(v) for v in node]
+        if isinstance(node, str) and any(w in node.lower() for w in FIN_WORDS):
+            for src in sorted(disclosed, key=len, reverse=True):
+                node = re.sub(rf"(?<![\d,]){re.escape(src)}(?![\d])",
+                              disclosed[src], node)
+        return node
+
+    if disclosed:
+        out = scrub_prose(out)
+
+    for c in out.get("calls", []):
+        loc = c.get("prospect", {}).get("location")
+        if loc:
+            bits = [b.strip() for b in loc.split(",")]
+            c["prospect"]["location"] = ", ".join(bits[-2:] if len(bits) > 2 else bits[-1:])
+        fin = c.get("offer", {}).get("prospect_financials")
+        if fin:
+            c["offer"]["prospect_financials"] = {
+                "available_now": _band(fin.get("available_now_usd"), CASH),
+                "monthly_surplus": _band(fin.get("monthly_surplus_usd"), CASH),
+                "has_savings": fin.get("has_savings"),
+                "credit_score": _band(fin.get("credit_score"), SCORE, "{:.0f}"),
+            }
+    out["privacy"] = {
+        "pseudonymised": True,
+        "scheme": "first name + last initial",
+        "also_redacted": ["exact financial figures bucketed into ranges",
+                          "location coarsened to state/country"],
+        "not_redacted": ["rep names", "setter names", "call dates", "age"],
+        "residual_risk": ("Someone who already knows a prospect could still "
+                          "recognise them from date, rep and context. This "
+                          "protects against casual browsing, not a determined "
+                          "acquaintance."),
+        "full_fidelity_source": "data/calls/*.json, local only",
+    }
+    return out
+
+
 def main():
     records = load_calls()
     playbook = load_json(ROOT / "data" / "playbook.json")
@@ -749,7 +873,8 @@ def main():
         "deals": deals,
         "calls": records,
     }
-    WEB_DATA.write_text(json.dumps(payload, indent=2))
+    # SQLite keeps real names for local analysis; the web payload does not.
+    WEB_DATA.write_text(json.dumps(redact_payload(payload, records), indent=2))
     conn.close()
 
     print("Built", DB_PATH.relative_to(ROOT))
