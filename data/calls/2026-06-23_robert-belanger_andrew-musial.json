@@ -1,0 +1,168 @@
+{
+  "call_id": "2026-06-23_robert-belanger_andrew-musial",
+  "source": {
+    "drive_file_id": "1XLGApuIBztiv0XziWkyZnnx8u5GasjRz",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/23/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/23/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 46278
+  },
+  "call": {
+    "date": "2026-06-23",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 46,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter is named. The rep worked from a written application — 'Yeah, I see the application that you're a semi-retired police officer.'"
+  },
+  "prospect": {
+    "name": "Robert Belanger",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New England, USA — has a specialist appointment in Boston the following day; exact city not stated",
+    "age": 62,
+    "occupation": "Retired police officer. Served 32 years and retired in 2021; was the department's wellness coordinator and ran morning bootcamp classes for officers. Now works per-diem road and safety details for the department, roughly one job a week, to supplement his income. Describes himself as on a fixed income.",
+    "family_status": "Girlfriend of 16 years. One son turning 30 in July, living independently, no grandchildren yet. A brother four years younger whose health has deteriorated badly. His father retired at 60, declined, and spent the last ten years of his life in a wheelchair before dying at 82.",
+    "height_in": 69,
+    "weight_lb": 210,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong trainer, self-described as addicted to working out. Holds personal training certifications obtained while serving, and ran department bootcamp classes using kettlebells, battle ropes, push-ups and calisthenics. Currently trains three to five times a week with bands, kettlebells, dumbbells and machines plus a lot of walking, sometimes carrying a kettlebell. Has a home gym with kettlebells, bands and a pull-up tower. First introduced to kettlebells about fifteen years ago; does swings and goblet squats and wants to learn the more technical movements such as the windmill. Cannot use barbells. Was benching 400 lb at 25. Skis through the winter. Currently 210 lb at 5'9\", down from 220, targeting 200. Follows Trevor's social feeds and trains off them.",
+    "medical": "Extensive and partly unresolved. Two back surgeries resulting in an L3-L4-L5 spinal fusion; reports retaining good hip mobility. Struck by a car on duty in 2003 while working a drunk-driver stop, requiring ulnar nerve surgery, after which clinicians told him 'your lifting days are over' — this is why he abandoned barbell training. Roughly two years ago he fell on the way to the gym and tore his triceps; the long head has not recovered and he has a specialist appointment in Boston the following day to investigate why. Prostate issues causing repeated night waking. Self-reported declining testosterone; takes some supplements but no steroids or TRT. Sleep is a stated problem — targets seven hours, in bed around 9pm, awake by 5 or 6am."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.80,
+    "signals": [
+      "Older, retired, and explicit that the goal is holding function: 'I like to say I'm training for longevity. You know, I want to be able to walk till the day I die'",
+      "Already medically managed — two back surgeries and a fusion, ulnar nerve surgery, prostate issues, and an active specialist appointment the next day",
+      "Highly health-literate: certified personal trainer, former department wellness coordinator, ran bootcamp classes, sceptical of supplement marketing",
+      "Low discretionary liquidity behind a stable income — 'I'm on a fixed income', existing debts being paid down, and 'I can't justify spending that much money on myself'",
+      "Driven by a vivid negative model rather than an aspiration: a father who spent his last ten years in a wheelchair and a younger brother who looks a decade older than him",
+      "Partial counter-signal: he does want to gain, not only preserve — 'I want to tone up. I want to reduce my body fat' and 'I'm a very vain person' — which is why this is 0.80 rather than higher"
+    ]
+  },
+  "goals": [
+    { "text": "Train for longevity — 'I want to be able to walk till the day I die'", "category": "longevity_function" },
+    { "text": "Lose the excess body fat he is struggling to shift and get from 210 lb to around 200", "category": "fat_loss" },
+    { "text": "Improve his physique and how he looks — 'I'm not happy with the way I look'", "category": "appearance" },
+    { "text": "Learn to use the kettlebell correctly, including the more technical movements like the windmill", "category": "confidence" },
+    { "text": "Get a structured programme with guidance and accountability instead of being 'all over the place'", "category": "consistency" },
+    { "text": "Regain some of the mobility and flexibility he has lost with age", "category": "mobility" },
+    { "text": "Build strength and leanness together despite declining testosterone", "category": "strength" },
+    { "text": "Lead by example so his son, who stopped training after a shoulder injury, follows him back", "category": "family_role_model" },
+    { "text": "Avoid his father's ending — retired at 60, let himself go, and spent his last ten years in a wheelchair", "category": "longevity_family" }
+  ],
+  "pains": [
+    { "text": "L3-L4-L5 spinal fusion from two back surgeries, and prior ulnar nerve surgery after being hit by a car on duty, after which he was told his lifting days were over", "category": "injury", "severity": "high" },
+    { "text": "Torn triceps from a fall two years ago; the long head has not returned and he has a specialist appointment the next day to find out why", "category": "injury", "severity": "high" },
+    { "text": "No structure — 'I'm all over the place recently. And I want more structure. I want more structure. I want results. And I want guidance'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Cannot shift the last of the body fat despite cleaning up his diet and increasing training", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Sleep is disrupted by prostate-related night waking — 'I wake up to pee a lot, that's prostate issues at my age'", "category": "sleep", "severity": "medium" },
+    { "text": "Declining testosterone, self-reported, working against his strength and leanness goals", "category": "aging", "severity": "medium" },
+    { "text": "Fear of ageing and losing independence — 'I don't want to grow old, and I'm fighting it, I'm going down kicking and screaming'", "category": "aging", "severity": "high" },
+    { "text": "Boredom and loss of structure in retirement — 'sometimes I get pretty bored, to be honest with you... I gotta keep busy'", "category": "emotional", "severity": "medium" },
+    { "text": "Fixed income with existing debt obligations he wants cleared before taking on anything new", "category": "other", "severity": "high" },
+    { "text": "Watching his son abandon training after an injury and be unable to restart — 'soon never comes'", "category": "relationship", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "$6,000. That's a little steep for me... That's a lot of money. That's a lot more than I thought it would be.",
+      "timestamp": "00:38:08",
+      "rep_response": "Isolated the objection properly — 'let's put the finances aside for a second. Apart from the finances, is there anything else that would be keeping you from being fully committed?' — and got a clean confirmation that money was the only issue.",
+      "response_tactic": "isolate_finances",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "That's something I'd have to sleep on, and I know you want a decision today.",
+      "timestamp": "00:38:27",
+      "rep_response": "Dismissed it with a quip rather than running any part of the play: 'You want to sleep on it? Come on. It's not a pillow.'",
+      "response_tactic": "dismissive_quip",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Not at this time. It's just bad time. you know, I got a couple. I don't want to overextend myself. I got a couple of things I'm paying on now that will be paid up in a matter of months, and then I would be able to.",
+      "timestamp": "00:40:41",
+      "rep_response": "Did not engage the timing at all — no acknowledgement that the debts clear in months, no attempt to structure a start date around that, no scripted timing move. Redirected straight back to exploring finances.",
+      "response_tactic": "redirect_to_financial_exploration",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "You know something? I'm just going to decline at this time. I'm going to decline. I don't want to get myself in too deep. All right? So I appreciate your time, but I think I'm have to pass it this time.",
+      "timestamp": "00:42:00",
+      "rep_response": "Did not accept the decline. 'Do you want me to give up on you that easily, Robert? I know that money is a funny thing, but at the end of the day, or when you're going to be 80 and feeling strong and self-sufficient and all that, are you still going to be thinking about that $6,000 20 years back?'",
+      "response_tactic": "refuse_the_decline_and_future_pace",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "even if you finance it, it's still going to be tied into this thing for a long time. And I got other things I'm paying on right now, which I have to complete before I get myself further in debt, especially where I'm on a fixed income, you know? So, yeah. So it's just, I don't think it's for me right now. I'm sorry.",
+      "timestamp": "00:43:27",
+      "rep_response": "Continued: 'I want to get you in the best position possible for your future. That's why I'm pushing just a little bit to actually find out what could be possible for you.' Then asked for free cash on hand across savings and checking. When the prospect refused to disclose, the rep referenced his 401k.",
+      "response_tactic": "continue_probing_after_explicit_decline",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I have money in the bank. You know, I just don't want to disclose that information to you. That's personal.",
+      "timestamp": "00:44:52",
+      "rep_response": "'I understand that you don't need to tell me how much in 401k you have, you know? I'm not taking your retirement money, don't worry.' Then asked again for a number he would be comfortable putting down. The prospect replied 'don't pull my pants down too much' and the connection dropped shortly after.",
+      "response_tactic": "acknowledge_then_re_ask",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered only as a possibility and never specified. 'most of the clients take it upfront. For certain clients, I don't feel that this is the best thing for their situation, so we can break it up.' When asked directly what the options were, the rep answered 'We don't have anything set in stone. It always differs from the particular person' and made the disclosure of options conditional on the prospect first disclosing his finances. No figure, term or schedule was ever named.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.82,
+    "close_rule_applied": null,
+    "evidence": [
+      "Four explicit declines, escalating in firmness: 'That's something I'd have to sleep on', 'Maybe it's just not the right time for me', 'I'm just going to decline at this time. I'm going to decline', and 'I don't think it's for me right now. I'm sorry.'",
+      "Stated affordability constraint with specifics — existing debts to clear, a fixed income, and unwillingness to take on financing.",
+      "Refused to disclose his financial position when asked: 'I just don't want to disclose that information to you. That's personal.'",
+      "No payment taken, no link sent, no structure ever put on the table.",
+      "Counter-evidence: he never wavered on wanting the programme. When asked whether he was still positive on it after the price landed he said 'Yeah, oh yeah', and confirmed money was the sole barrier — 'No, that's it. That's it. It's all about the money.'",
+      "Counter-evidence: he indicated a future window — his current debts 'will be paid up in a matter of months, and then I would be able to' — which nobody captured as a follow-up date.",
+      "IMPORTANT CAVEAT ON CONFIDENCE: the recording terminates mid-exchange with the rep saying 'I lost you for a second, Robert, again' and the prospect saying 'I apologize. I lost you.' There is no close, no goodbye and no agreed next step on the recording. The disposition is inferred from four unambiguous declines, but the call did not formally end on tape and may have continued off it."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed on the recording. The prospect indicated he would be able to reconsider once existing debts clear in a matter of months; no follow-up was booked before the connection dropped."
+  },
+  "notable": {
+    "note": "The hardest objection handling in the batch and the one a principal most needs to see. A 62-year-old retired police officer on a self-described fixed income declined four times, was told 'Do you want me to give up on you that easily' and 'we still haven't even explored the possible options and you're declining already', was asked to disclose his savings and checking balances, refused on privacy grounds, and was then asked again with his 401k invoked. He also disclosed an L3-L4-L5 spinal fusion, a triceps tear still under investigation with a specialist appointment the next day, and prior clinical advice that his lifting days were over — and not one clearance question was asked. Two further findings: he arrived expecting the programme to cost $1,200 to $2,400, which is roughly what Primal University costs and which was never offered to him; and he handed the rep the most vivid cost-of-inaction material in the entire batch, a father who spent his last decade in a wheelchair, which was never built into a consequence frame."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion throughout, including on the most consequential lines. The rep's question 'what kind of injuries, are there any, anything that's limiting your movements?' is attached to the prospect's block; the rep's price presentation and the prospect's reaction to it alternate incorrectly around 00:38:08; and 'That's a lot of money. That's a lot more than I thought it would be' sits under the rep's label but is plainly the prospect. Both participants' names appear under the wrong labels in several exchanges. The recording is also truncated — it ends mid-objection during a connection failure with no closing exchange. Roles read from content throughout."
+  }
+}

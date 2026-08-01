@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "Discovery only. The call ended for time before any pillar was delivered; all three were presented on the continuation later the same day." },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "His current eating was gathered in detail but nothing was presented back." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Not delivered on this call, although he pre-loaded the objection by describing his previous coach's weekly calls as \"kind of a joke\"." }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I was AlphaIO, a lot of money. You know, I was paying quite a bit of money without the personalized coaching. The weekly calls I felt like were kind of a joke.",
+      "direction": "undercuts_price",
+      "competitor": "Online coach based in Australia",
+      "note": "He has already paid substantially for online coaching and judged it poor value, so the reference point in his head is not a cheap alternative but an expensive disappointment. That cuts both ways: it raises his willingness to pay for real personalisation and it makes him sharply sceptical of paying anything upfront. The rep never asked what the Australian coach actually cost, which would have been the single most useful number to have before naming $6,000."
+    },
+    {
+      "type": "habitual_coaching_buyer",
+      "raw": "that's why I hire a coach. I have a coach that works with me personally and my business. And it's been wonderful.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He buys coaching as a matter of course for himself and his business, and frames coaching spend as normal and productive. Strong supportive anchor that went unused."
+    },
+    {
+      "type": "unused_incumbent",
+      "raw": "I have a gym membership, but I don't use it very often. And I hate fighting for machines. I hate working out in front of people.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The cheap incumbent is already failing him for reasons of preference rather than price, which removes the usual gym-membership comparison from the conversation."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A training programme that can be built around ruptured cervical discs with ongoing hand nerve damage, an elbow that will not straighten, and a torn meniscus — while preparing for a 50-hour endurance race",
+      "why_unmet": "The programme's core is loaded kettlebell work including overhead pressing, and there is no clinical screening step, no clearance requirement and no disqualification path anywhere in the process. Nobody on the call established whether these movements are safe for him, and the only professionals who have assessed him declined to intervene.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "The same protocol for his wife, who is managing weight gain through menopause",
+      "why_unmet": "The offer is built and sold for men. The rep said \"Of course we can\" and then conceded \"me personally, I haven't onboarded a woman\", pointing to one woman on the team. There is no defined female offer, coach or price.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Sport-specific endurance preparation for 50 hours of continuous riding without sleep",
+      "why_unmet": "The programme is strength, mobility and nutrition. Sleep deprivation tolerance, hand and grip endurance — the exact things that ended his 2023 race (\"my hands were swollen, and so I couldn't do what I needed to do\") — were never discussed as trainable, and neither sleep nor recovery was raised anywhere in the call.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

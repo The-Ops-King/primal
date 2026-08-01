@@ -1,0 +1,56 @@
+{
+  "call_id": "2026-05-29_kurt-kelsey_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised a $1,200 30-day trial after the $6,000 and $9,000 tiers were declined, presented as a last-resort option outside the stated offer.",
+      "evidence": [
+        "Look, there's one last option that I can propose, and just be honest with me. Yeah. But, like, we have it only for people who would actually want to work with Trevor for a longer period, but they're not. I'm sure about the whole process. So we have like a 30-day trial for $1,200.",
+        "And then afterwards, you can either go with a six-month package or you can leave it. It's up to you."
+      ],
+      "timestamp": "00:45:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A $200/month Primal University subscription was quoted as a downsell after the loss, a price point outside the two stated tiers.",
+      "evidence": [
+        "Trevor has this, what is called Primal University, and it's 200 bucks per month, and over there you have all the workouts, everything, yeah, but you would have to set it up for yourself"
+      ],
+      "timestamp": "00:50:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Immediately after the prospect explained his money was committed to a home extension, the rep steered him toward putting the purchase on a credit card for the rewards points.",
+      "evidence": [
+        "there's just other expenses and priorities that are getting in the way at this point, namely, like, my addition on the house",
+        "I know that you guys use credit cards. Do you use a credit card too?",
+        "Man, you gotta get those points. Exactly, exactly. So you gotta get those points to fly to Europe again with zero cost."
+      ],
+      "timestamp": "00:48:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The Drive title names 'Eric Bergman' but the prospect on the recording is Kurt Kelsey throughout, so any rollup keyed on title will attribute this call to the wrong person.",
+      "evidence": [
+        "Hey, Kurt. I cannot hear you yet.",
+        "So, Kurt, you've already done some good work. What would make this even better?",
+        "Really appreciate the time, Andrew."
+      ],
+      "timestamp": "00:00:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker diarization is inverted across long passages of this transcript, with rep discovery questions attributed to the prospect and vice versa.",
+      "evidence": [
+        "Cool. Well, Andrew, nice to meet you.",
+        "Uh, we do some kettlebell and dumbbell stuff and, you know, some cardio machines as well, um, just kind of depends on which, which days, um, I've been, maybe, maybe just walk me like through what, like what's been going on and like, what's the main thing you're trying to, to fix right now?"
+      ],
+      "timestamp": "00:00:39"
+    }
+  ]
+}

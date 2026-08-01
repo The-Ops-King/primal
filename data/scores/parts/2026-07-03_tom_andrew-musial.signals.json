@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-03_tom_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Arrived pre-sold on the modality from the content — 'the videos that I've been seeing with you guys online, with the kettlebell training and stuff, a lot of that did speak to me, especially because there's a lot of core training' — and tied it directly to his own goal: 'when I see these kettlebells, squats and stuff, I'm like, hell yeah, like that's what I want. That's what I need my legs.' He had already tried a session unprompted: 'I did some of his kettlebell workouts, like the pullovers and the halos... It was rough, but that was awesome.' When mobility was presented as the lead-in for his foot imbalance he accepted it without friction."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Already living the pillar and volunteered agreement throughout. On the what/when/how-much frame he said 'just like how you were just saying, like, you don't have to, if you're eating the right things, there's no point of obsessing over that.' He repeated the rep's line back approvingly — 'Soft food for soft people. I like that.' He also brought his own extension to it, asking how to combine his existing fasted training with lifting: 'how can I incorporate fasting with weight training, you know, to where I'm actually going to see growth.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar that moved him most. 'There's the idea of having someone consistently be there for me, answering questions, correct, you know, that's very, very appealing.' He contrasted it against what he currently pays for — 'the training is cool at the gym for one day of the week, but it's like for 45 minutes' — and extended it himself into belonging: 'it's almost like even forming almost like your own kind of community, almost, you know, like having more people around you like that, because everyone else around me likes to eat pizza.' He responded positively to the video form-check mechanic: 'like that.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "Obviously, I was hoping it's not going to be like $5,000 and like, you know, something crazy. Unless it is. I saw your face.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He named his own ceiling out loud before the price, and it was below the actual price. The rep heard it, led with the guarantee, and named $6,000 anyway without adjusting the framing. Everything that followed — the $3,000 counter, the invented three-month tier — flows from this anchor being left unaddressed."
+    },
+    {
+      "type": "existing_coach",
+      "raw": "I got a personal trainer for once a week. My intention with the trainer was to work on my balance, my leg strength and my balance.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He already pays for one-to-one coaching, and he used it as an argument for the programme rather than against it — the 45 minutes a week is explicitly framed as insufficient. This is the rare anchor that helps, and the rep never leaned on it or asked what he pays for it, which would have been the cleanest bridge to $1,000/month."
+    },
+    {
+      "type": "health_spend_habit",
+      "raw": "any kind of investment that I'm making into myself, with the health, I'll do it. Like, I'll buy or I'll pay for anything when it comes to my foot. Like, I bought like $45 socks. The other day, just because they're like, they prevent sweating.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He volunteered a stated willingness to spend on health without limit, alongside having redirected his former diabetes medication budget into the gym: 'I ended up taking some of my med money... and putting it into the gym.' A supportive anchor that the rep did not use before discounting."
+    },
+    {
+      "type": "liquidity_constraint",
+      "raw": "right now in the bank, right now I have like $600 in my bank account right now.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The real constraint, and it surfaced only an hour into the call, volunteered, after a $2,000 first payment had already been agreed. Income is $65-70k against ongoing hospital bills. Everything above about willingness to pay is true and irrelevant against this number."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A shorter, lower-total-cost commitment — he asked outright what $3,000 would buy him",
+      "why_unmet": "The stated offer has only a six-month tier at $6,000 and a twelve-month tier at $9,000. The rep manufactured a three-month tier at $4,000 on the call rather than declining, so the demand was met with a product that does not exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Balance and gait rehabilitation after a partial foot amputation — 'anything and everything that I can do for my leg, for my balance, for my leg strength, I'm 100% in'",
+      "why_unmet": "This is the prospect's stated primary reason for buying, and it is a post-surgical rehabilitation objective rather than a strength-training one. Whether a kettlebell programme delivered remotely through video form-checks serves it is not established anywhere on the call, and no clinician was consulted. The rep answered with imbalance work and mobility protocols, which may or may not be the same thing.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training that can start while he is strictly non-weight-bearing on skin grafts, for roughly another week and a half",
+      "why_unmet": "The programme's answer was to let the onboarding lead time absorb the wait and start with mobility. That covers the calendar but not the underlying question of whether loaded kettlebell work is appropriate on that foot at all, now or later.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Guidance on combining fasted training with resistance training as a diabetic",
+      "why_unmet": "Partially served — intermittent fasting is a stated part of the nutrition pillar and the rep said it was 'absolutely doable' — but the diabetic-specific version of the question was answered with encouragement rather than with any clinical framing, and nobody said whether Trevor is qualified to programme fasting for a recently hospitalised diabetic.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

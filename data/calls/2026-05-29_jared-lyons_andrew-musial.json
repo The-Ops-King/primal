@@ -1,0 +1,121 @@
+{
+  "call_id": "2026-05-29_jared-lyons_andrew-musial",
+  "source": {
+    "drive_file_id": "1u5W6ohz-_sUJIBhAxBF5C1mDZZWClayk",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "05/29/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 5275
+  },
+  "call": {
+    "date": "2026-05-29",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Short follow-up to a prior closing call. The rep opens 'I was thinking about our conversation afterwards. And honestly, I think I overcomplicated a bit the things.' The prior call is discussed in detail in the 05/28 Chris x Andrew 1-1 but is not itself in this batch.",
+    "duration_min_est": 6,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": null, "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": "Kyla",
+    "confidence": "medium",
+    "evidence": "Not named on this call. The 05/28 Chris x Andrew 1-1 states that Kyla set this prospect: 'Kyla, she sent me that call and she sent me like a voice note about him.'"
+  },
+  "prospect": {
+    "name": "Jared Lyons",
+    "aka": "jaredlyons",
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains consistently and is described by the rep as already disciplined; travels frequently, which is the stated problem to solve; has an in-person trainer available to him locally",
+    "kettlebell_experience": null,
+    "medical": "An unspecified injury is referenced by the prospect ('due to an injury') and the rep refers to 'your injuries' in the plural; nothing further is characterised on this call"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Anchored to a functioning cheaper substitute: 'I'd rather just go get my trainer in person and pay him for, you know, two or three sessions a week for the same amount of money'",
+      "Explicitly wants the deliverable stripped back — 'I'm paying mostly for the program, obviously' — and rejects the accountability layer he would be paying for",
+      "Names his own number and does not move off it: 'I'm going to stay firm'",
+      "Low underlying need rather than low means: 'I don't care enough because it's not as needed ... it's just me bored wanting to try something else. I don't need it.'"
+    ]
+  },
+  "goals": [
+    { "text": "A full kettlebell programme he can run himself, with a check-in every couple of weeks or monthly to adjust around issues and injuries", "category": "convenience" },
+    { "text": "A training system that works everywhere he travels", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Travel breaks whatever system he is on; the rep isolates this as the real problem — 'what stood out to me was more the travel side of things, and having that system that works everywhere'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Bored of his current workouts and looking for something else, with no underlying need driving it", "category": "motivation", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Like, I think I would do it at $1,000. I just don't like, for $1,500, personally, in my mind, I'd rather just go get my trainer in person and pay him for, you know, two or three sessions a week for the same amount of money while I'm still here, type of thing.",
+      "timestamp": "00:03:29",
+      "rep_response": "Discounted immediately from $1,500 to $1,200 with no isolation, no financial questions and no value work — 'you're a business guy, I'm a business guy. The best that I can do for you, and don't pull my pants too much, it's $1,200.'",
+      "response_tactic": "immediate_split_the_difference_discount",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "to pay more than $1,000 for a one-month program without all the additions seems a bit high",
+      "timestamp": "00:03:29",
+      "rep_response": "Argued the programme is a lasting asset — '$1,200 is still nothing for you, but you get the program set up ... And it's going to last forever.'",
+      "response_tactic": "logical_asset_reframe",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I'd rather just go get my trainer in person and pay him for, you know, two or three sessions a week for the same amount of money",
+      "timestamp": "00:03:29",
+      "rep_response": "Never addressed the in-person trainer comparison at all.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 1, "price_usd": 1500, "note": "Opening price for the 30-day option on this call" },
+      { "months": 1, "price_usd": 1200, "note": "Discounted live 90 seconds later" }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Framed as a walk-away rather than a refund: 'you try it for a month, see how it fits your life, and decide from there if you like it or not ... if it's not for you, you can walk away' — with 'every dollar goes towards the larger package if you would like to proceed in the future'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "'Yeah. I'm going to stay firm. I get it if it doesn't work, whatever. But yeah, I just don't see it being worth more than that for me.'",
+      "Rep conceded and ended: 'Okay. Well, that's the best that I can do for you. I appreciate the time.'",
+      "Counter-evidence: the prospect left the door open — 'if anything changes, I'll definitely reach out' — but no next call, no link and no payment",
+      "The gap at the end was $200 between the prospect's $1,000 and the rep's $1,200"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None set; prospect to reach out if anything changes"
+  },
+  "notable": {
+    "note": "A six-minute price negotiation with no discovery, no consequence frame and no commitment check. The rep opened at $1,500 for a 30-day option and cut it to $1,200 within ninety seconds on hesitation alone, then held there and lost over $200. The $1,500-for-one-month quote also contradicts the structure the manager laid out the previous day, where $1,200 was the one-month figure and $1,500 was three months."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short file, mostly clean, but the opening exchange is inverted — 'Sorry? I can't see you yet.' is attributed to the prospect while it is the rep's line, and 'That's your office?' sits on the wrong side. The prospect appears only as the handle 'jaredlyons'; the given name Jared is corroborated by the 05/28 1-1, the surname is inferred from the handle alone."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-07-05_john_andrew-musial",
+  "source": {
+    "drive_file_id": "1Vc7GlAz5VCIUB0IIb-hoK6J-OpGKJfPR",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/05/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/05/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 44243
+  },
+  "call": {
+    "date": "2026-07-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep opened with 'Kim told me like few things about you, like roughly briefed me in' and separately identified him: 'Kim told me because he's British too.'"
+  },
+  "prospect": {
+    "name": "John",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Florida, USA — originally from Manchester, England; moved to the US at 23 and played rugby for Fort Lauderdale",
+    "age": 65,
+    "occupation": "Owner of an online business manufacturing bird toys for parrots, with premises, staff and trade shows. Works six days a week, at a computer from roughly 10am to 11pm. His sister runs the company accounts.",
+    "family_status": "His 85-year-old mother lives with him and he is her sole 24-hour carer — she comes to the office and to the gym with him, and has physiotherapy appointments. Works in the business with his sister.",
+    "height_in": 72,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete. Rugby from about 12 to 24, second row, Lancashire champions and England championship level, then played in Fort Lauderdale. Kung fu for eleven years, competing in the heavyweight division until 56 — his last fight was against a 6'4\" 21-year-old, whom he beat. Ten years of Tai Chi, taught remotely over Zoom with video form correction. Used to train in the gym twice a day when young. Now trains three times a week at a moderate intensity alongside his mother, plus two aerobic sessions a week of 40 minutes on a treadmill at 10% incline. Went from 220 lb to 190 lb through diet alone. Describes a pattern of doing a discipline for about ten years and then getting bored.",
+    "kettlebell_experience": "none",
+    "medical": "No injuries and no movement limitations reported. Severely inflexible — 'I've never been able to stretch much anyway... I'm not much of a stretcher, can't touch my toes' and 'I'm stiff as a board.' Wakes to urinate about three times a night, which he has had checked: 'that's prostate whatever, I don't know what it is, but the doctor says it's okay, it's just normal.' Sleeps seven to eight hours on a late schedule, bed at 1-2am. Takes a 30-minute nap once or twice a week by preference rather than need. Historic rugby injuries: four teeth lost and a broken nose from an assault, no lasting effect. No alcohol, no fast food, no snacking beyond one piece of chocolate at night."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Older, health-literate and already medically managed — has had the nocturia checked and cleared, tracks his own nutrition closely, and lost 30 lb deliberately through diet.",
+      "The goal is holding on to function rather than gaining anything: 'I want overall, you know, like health... I want to be, keep the flexibility. You know, that's the main thing.'",
+      "Explicitly moderates intensity by choice: 'I can't go aggressively in the gym, and I don't think I should go that aggressively anyway, because I'm 65.'",
+      "High nominal income from a business he owns, against low discretionary liquidity — 'it's tight right now' — with a sister controlling the accounts and a third-party lender declining him live on the call.",
+      "Distinct from the_rebuilder: nothing was lost to a bad season and there is no former self being chased; he has trained continuously his whole life."
+    ]
+  },
+  "goals": [
+    { "text": "Overall health and longevity", "category": "longevity_function" },
+    { "text": "Regain and keep flexibility, which he says is the main thing — 'I really want to keep flexibility. And I don't feel I'm doing that in the gym'", "category": "mobility" },
+    { "text": "Lose the remaining belly fat after going from 220 lb to 190 lb", "category": "fat_loss" },
+    { "text": "Train at home, in the room where he watches TV with his mother, so it fits around 24-hour caregiving", "category": "convenience" },
+    { "text": "Something new to learn — he describes it as escapism from a life that is only work and caring", "category": "other" },
+    { "text": "Eventually return to fighting, which he would do now if he were free", "category": "hobby_performance" },
+    { "text": "Keep his mother active alongside him — intends to give her a light kettlebell to use with him", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Severe inflexibility — cannot touch his toes and has never stretched, with no yoga or mobility work ever attempted", "category": "training_barrier", "severity": "high" },
+    { "text": "Sedentary from about 10am to 11pm at a computer, six days a week, with very few daily steps", "category": "training_barrier", "severity": "high" },
+    { "text": "Cannot train hard at the gym because his 85-year-old mother trains with him and he cannot leave her", "category": "time_scarcity", "severity": "high" },
+    { "text": "Sole 24-hour carer for an unsteady 85-year-old — 'she needs 24 hours because she's unsure of herself and she needs somebody there'", "category": "relationship", "severity": "high" },
+    { "text": "Residual belly fat that diet alone has not shifted", "category": "other", "severity": "medium" },
+    { "text": "Loses interest in any training discipline after about ten years — 'I do it for 10 years and then get bored'", "category": "motivation", "severity": "medium" },
+    { "text": "Interrupted sleep, waking about three times a night, on a schedule shifted late by his mother's routine", "category": "sleep", "severity": "medium" },
+    { "text": "Business cashflow is tight and the accounts are controlled by his sister", "category": "other", "severity": "medium" },
+    { "text": "Life reduced to work and caregiving — 'there's not much going on in my life, all I do is work home look after mom'", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Yeah, I feel okay. It's just a 6k for me... The credit card right now is not feasible, so I'll have to look into it properly.",
+      "timestamp": "00:30:56",
+      "rep_response": "Isolated it correctly as a logistics rather than value problem — 'is it more that the money is tight right now with this?' and 'so it's just a matter of figuring out the logistical part of the investment' — then went straight to three payment structures without taking any financial picture.",
+      "response_tactic": "isolate_as_logistics_then_offer_structures",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "And then can you send me all the information and what it what it all entails? You know, like a link to everything so I can review everything?",
+      "timestamp": "00:30:36",
+      "rep_response": "Declined — 'that's not much more that I can send you apart from already already covered' — and redirected to how he felt about it. No written material about the programme was ever provided.",
+      "response_tactic": "deflect_to_feeling",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "The financier, which is my sister, who runs the company accounts, I'll just tell her what I'm doing. And then I'll put it on a charge card. But I want to make sure she's on board... because she runs all the accounts.",
+      "timestamp": "00:44:31",
+      "rep_response": "Ran none of the scripted play. Did not ask what objection the sister might raise, did not establish that she would have no reason to object, did not offer to include her, did not propose a deposit. Simply booked a follow-up call.",
+      "response_tactic": "book_the_callback",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Can you leave that with me? Because I'd rather get financing for the whole amount than do it that way, because it may be a less payment than keep doing this.",
+      "timestamp": "00:44:00",
+      "rep_response": "Agreed, then improved on it by pinning a specific date and time rather than leaving it open, and confirmed the calendar invite had arrived: 5:15pm Wednesday 8 July.",
+      "response_tactic": "concede_and_pin_the_time",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three structures offered. (1) $3,000 now and $3,000 in 30 days, stated as interest-free. (2) Six monthly payments of $1,200, which totals $7,200; the prospect had pre-emptively said 'I'd rather pay the interest, don't worry about that', and the rep introduced it as 'so with the interest we can split it up to six months' — but no rate, no total and no cost-of-credit figure was ever stated. (3) Payva / Paiva third-party financing spread up to twelve months at 'somewhat around 600' a month, which also totals $7,200. The prospect chose option three, applied live and was declined: 'sorry, we're unable to offer you the payment plan at this time.' The prospect then said he would rather arrange his own financing for the full amount.",
+    "guarantee_mentioned": "'like he guarantees the transformation, like, on paper.' No terms, no conditions and no description of what the guarantee actually promises.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial picture was taken. What is known came unprompted: paying $6,000 as a lump sum on a credit card is 'not feasible', business cash is 'tight right now', his sister controls the company accounts and may issue a company charge card, and he already holds an Affirm consumer financing account. Payva declined him during the call. He was explicit that price is not the objection: 'I'm okay with the price. It's not the price. I'm all right with it. It's worth every penny.'"
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "Nothing paid, nothing agreed, and no payment link accepted — the only link sent was a financing application, which was declined.",
+      "Value was never in question and he said so repeatedly: 'I'm okay with the price. It's not the price... And for all what you get, it's really cheap. It's a good price.'",
+      "He built the value case himself against his own historic spend: 'I used to pay $120 each session for my Tai Chi, so work that out. That was an hour session.'",
+      "The blocker is purely mechanical — 'I understand the costing of everything. It's not crazy. It's just all at once. That's all.'",
+      "Payva declined the application live: 'It said, sorry, we're unable to offer you the payment plan at this time.'",
+      "A decision-maker exists and has not been consulted: his sister runs the company accounts and must approve the instrument.",
+      "Counter-evidence toward a close: a follow-up was booked for 5:15pm Wednesday 8 July and the prospect confirmed the invite arrived — 'I've got it on my calendar. I have it.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Call at 5:15pm on Wednesday 8 July, after the prospect has spoken to his sister about which card or financing route the business will use. He intends to fund the full $6,000 rather than take instalments."
+  },
+  "notable": {
+    "note": "The clearest core-ICP prospect in the batch and the one whose objection was purely mechanical — a business owner who said outright 'it's not the price', priced the offer favourably against $120-an-hour Tai Chi he used to pay, and simply could not move a lump sum that week. Three things to escalate. First, he stated an intention to give his 85-year-old mother a kettlebell to train with alongside him — a woman he describes as wobbly, unsure of herself, needing 24-hour supervision and attending physiotherapy — and the rep's entire response was 'That is so awesome man.' Second, he voiced his own injury fear about ballistic work at 65 with no flexibility — 'throwing a kettlebell around should stretch me out, and I might snap something or something' — and it was answered with 'Yeah, definitely. It's a different kind of movement.' Third, he asked for written information about what he would be buying for $6,000 and was told there is nothing more to send. Commercially, note that the six-month instalment was again quoted at $1,200 a month and the twelve-month financing at about $600 a month, both totalling $7,200 against a $6,000 price, and that Payva declined a second prospect in two days."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion. Almost the entire back half is attributed to 'john', including the whole pillar presentation, the price statement and all three payment structures, while several of the prospect's own answers are attributed to the rep. Long unpunctuated runs from 00:11:00 to 00:12:00 and 00:29:00 to 00:34:00 contain both voices with no speaker breaks at all. Every quote was attributed by content. Audio also dropped briefly around 00:35:00 ('my wi-fi was fidgeting'). The recording itself is complete and ends on a normal sign-off. The prospect's name appears only as the lowercase label 'john' and no surname is stated."
+  }
+}

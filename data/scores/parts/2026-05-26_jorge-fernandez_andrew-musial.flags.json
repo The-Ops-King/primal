@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-05-26_jorge-fernandez_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep offered a third-party financing partner immediately after the prospect disclosed zero liquid cash and that his only available funds were already committed to credit-card bills for his flights.",
+      "evidence": [
+        "what's your liquid cash right now on your hand?",
+        "i'm paying no rent and spending all my money and bolognesa pasta so yeah my current cash is zero",
+        "i have the exact cash i need to pay my credit cards that i which i've used to buy the tickets to fly to italy so yeah zero",
+        "So, one of the options is we have a financing partner. Yeah? So, you're open to that?"
+      ],
+      "timestamp": "00:40:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect arrived at a closing call not knowing what the call was, indicating he was booked without being told its purpose.",
+      "evidence": [
+        "Hi. I don't know what I'm doing here. I don't know what this is, actually.",
+        "I do know what I got into, but I don't know what this call is about.",
+        "Instagram, I don't remember the name of the guy."
+      ],
+      "timestamp": "00:02:44"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep made an unsupported physiological claim about gym training to differentiate the product to a prospect with no training history.",
+      "evidence": [
+        "A lot of guys are making this, this mistake, like they're going to the gym, okay, like big weights and everything. And if you haven't been working out, your joints and everything, they're gonna collapse at some point, because muscles are growing faster than joints can adapt.",
+        "Now, with kettlebells, it's different"
+      ],
+      "timestamp": "00:23:21"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker labels invert throughout, including a merged unpunctuated block spanning both speakers, so line-level attribution in this transcript is unusable.",
+      "evidence": [
+        "00:10:23 - Andrew Jin (Primal Instinct)  \\n Three and one.",
+        "00:12:00 - Andrew Jin (Primal Instinct)  \\n Any diets? I'm mostly vegetarian.",
+        "00:36:47 - Jorge Fernández - Tualo  \\n I work out, I do a push-up... okay but like you're a businessman i'm a business guy too when you say you don't have money like what do you exactly mean by that"
+      ],
+      "timestamp": "00:36:47"
+    }
+  ]
+}

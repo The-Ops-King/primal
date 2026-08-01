@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-03_sasa-svalina_andrew-musial_2",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "A seven-minute same-day reconvene that opens mid-screenshare to answer one outstanding question. There is no opening to frame and the phase is not reachable."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline was gathered on the primary recording earlier the same day."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Not reachable on a seven-minute objection-resolution call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reachable on this recording. It was, however, skipped entirely on the primary call where it was reachable, and that miss is scored there."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "not_applicable", "P6b": "hit", "P6c": "miss" },
+      "evidence": "P6b ran cleanly and is the best moment on the recording. When the prospect deferred payment the rep isolated instead of pushing: 'Look, like, is anything, like, I understand, like, maybe we went too fast on this, like, is there anything coming up right now?' The prospect confirmed nothing was — 'No, no, no. For me, everything is good' — which is precisely the scripted isolate. P6c is still a miss on the letter of the check: the rep moved to logistics on a yes that has now been given twice in one day without a payment following either time, and did not test why."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "miss", "P11b": "partial", "P11c": "miss", "P11d": "miss" },
+      "evidence": "P11a is a miss — no payment was collected, and the rep explicitly let the prospect leave to pay unattended ('When I make the payment, you will see'), which is the opposite of the scripted step-one. P11b is partial and is the one thing that improved on the primary call: the Trevor onboarding was not booked, but the rep correctly refused to let the deal drift, negotiated hard against a two-hour gap and pinned a same-evening completion slot at 21:30 on the same Zoom link, having flagged that Trevor needs a day's lead time. P11c and P11d never ran — no agreement email, no signature on the call, no welcome email, no Skool link, no onboarding questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "SCRIPT GAP, resolved by improvisation. The unscripted 'show me the product before I pay' objection that stalled the primary call was answered here by screen-sharing an existing client's app and workout footage. The prospect accepted it in under two minutes: 'Look interesting... Okay, that's enough. Like this, what I can see. Yes. So this is the app. Okay. That's okay.' Recorded as a hit on the outcome, with the caveat that the method contradicted the confidentiality reason the rep had given hours earlier and exposed a named client's programme. The script should carry a sanctioned demo asset so this does not have to be improvised."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'I cannot right now' is a defer in substance. The rep ran the isolate move correctly and got a clean answer, but stopped there — no 'thinking isn't the problem, deciding is', no 'what's actually coming up that's preventing you from getting started' beyond the single isolate. Scored partial rather than miss because the isolate is genuinely the right first move and the prospect's reason was a verifiable diary conflict, not a stall."
+    },
+    {
+      "play": "OC",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No money objection on this recording or the primary one."
+    }
+  ],
+  "notes": "Short, competent recovery call. The rep did the two things that mattered — isolated the deferral rather than pressuring it, and refused to let the completion float, pinning a same-evening slot. The coachable point is P11a: he had a live prospect on screen with a payment link already sent and let him go off to pay alone, which is exactly how the primary call had already leaked once that day. Take the payment on the call."
+}

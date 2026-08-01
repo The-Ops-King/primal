@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-06-30_chris-klevan_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager instructs the closer to report prospects by nationality — Sri Lankan and Middle Eastern — so they can be disqualified from the calendar.",
+      "evidence": [
+        "To be honest, I've been noticing that lately people coming in from Sri Lanka, Arab countries, and so on, they tend to not to show up.",
+        "If you notice those, then you just let us know so we can see, and then maybe we can mark some more of them as like DQ or something",
+        "Throw it in a group chat and say, hey, I have this guy who's from Sri Lanka. I've got this guy who's from here. Just be on top of that.",
+        "we're not intending for those people to be on the calendar for sure",
+        "Like, if you see Sri Lankans on the calendar, let Angelo and I know immediately."
+      ],
+      "timestamp": "00:12:31"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager states on the record that there are no set payment plans and coaches the rep to keep the terms deliberately vague so prospects cannot pin him to specific options.",
+      "evidence": [
+        "So look, we don't really have any set payment plans. Everything we do is totally custom.",
+        "And you're saying it's super custom. So they're not gonna ask you, well, what payment options do you have? You would just be like, well, I don't know. It really depends. Let's talk through it.",
+        "You're not saying it as a definite that if we find out you have the money, you're gonna do the program. It's more of a, let's see if you have the money or let's see if we can make something work."
+      ],
+      "timestamp": "00:04:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Manager-stated funnel figures for this rep are recorded here and can be reconciled against the transcript corpus, which contains materially fewer of his calls than the counts imply.",
+      "evidence": [
+        "So you had 126 slots available. You had 80 slots actually get booked. Of those 80 slots, you had 45 live calls actually take place. You add 13, actually 14 closes in a deposit. You maintain about a 30% close rate.",
+        "So your slot-to-show rate is at 56.25%. The team average slot-to-show rate is 64%."
+      ],
+      "timestamp": "00:11:33"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "call_id": "2026-06-24_ryan-bundy_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed three weeks of undiagnosed abdominal inflammation with an ultrasound of liver, gallbladder, kidney and pancreas pending and possible surgery, and the rep responded by offering to enrol him immediately and start training before the results came back, without ever asking whether a clinician had cleared him to train.",
+      "evidence": [
+        "I've had some gut issues and I need to go like, I gotta like, so I want to make sure before I start that I'm getting healthy. I have some inflammation.",
+        "But I might have some gallstones.",
+        "It's an ultrasound to test out like the liver and gallbladder and kidney and pancreas, that side, and then my blood tests.",
+        "Now, that said, we can get you in. And when, you can even start, maybe not kettlebell work, but some mobility work already."
+      ],
+      "timestamp": "00:41:28"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed herniated discs, neck injuries and recurrent upper-thoracic inflammation that shut him down for two months after kettlebell and jiu-jitsu volume, and was presented a three-to-four-times-weekly loaded kettlebell programme with no clinician clearance sought at any point.",
+      "evidence": [
+        "was having, like, AC joint issues, really inflamed, and then I had herniated discs, and I got over that.",
+        "the last injury was this top. Thoracic vertebrae, the big one, that like on both sides of it, where the muscles attached were just like super inflamed, and that was when I was doing a ton of kettlebells and jiu-jitsu",
+        "So that just shut me down for like two months, you know, like that. So I tend to overdo it, man.",
+        "Now for you specifically, uh, and I believe it's going to be three to four times a week."
+      ],
+      "timestamp": "00:06:44"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep delivered a confident causal explanation for the prospect's undiagnosed abdominal symptoms while diagnostic results were still pending, attributing them to stress, alcohol, sleep and unprocessed emotion, and predicted what the doctor would say.",
+      "evidence": [
+        "look I'm no doctor but everything that that you just listed is exactly why are you feeling like this",
+        "I've noticed time and time and again that things that you don't look at, you don't notice, like the, the stress and work, family, family argument or whatsoever. Or even things that were three, four months ago, they show up later on. The body needs time to digest that, digest, and they show up with gut issues, especially with gut issues and inflammation.",
+        "Your body is literally saying, it. I need a break. He's signaling you.",
+        "Yeah, probably he's going to tell you, like, keep it down with the stress and so on."
+      ],
+      "timestamp": "00:45:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "When the prospect voiced distrust of doctors and institutional health guidance, the rep agreed and extended the frame rather than remaining neutral, on a call where the prospect's pending medical results were the sole obstacle to purchase.",
+      "evidence": [
+        "And I just don't trust anything that comes from any government institution about diet, like nothing, because it's been wrong the whole time. And even doctors, you know, even doctors in the food, it's like the whole system is teaching doctors something that might not even be right about saturated fats, cholesterol, all this stuff. So you're like, your doctor's telling you one thing to take statins.",
+        "Fitness industry, it's a multi-billion dollar industry. So every single year, they're trying to think of new equipment that needs to be in your gym, and so on, and so on.",
+        "It's like, it's like I just realized like it's all marketing, man. And you can't really trust anybody."
+      ],
+      "timestamp": "00:15:06"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording opens with roughly eighty seconds of a different, double-booked prospect named Nikhil whose call was aborted and rescheduled verbally, meaning that interaction exists only inside another prospect's file and will never appear in any call count.",
+      "evidence": [
+        "Yeah, I can hear you. Yeah, because I see Nikhil, is that correct? Yeah, yeah. Hold on. There must be, because I'm waiting for someone else, actually.",
+        "I do apologize, but I have a call that I need to take. I will call you afterwards, and we'll schedule a new date, okay?"
+      ],
+      "timestamp": "00:00:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The Fathom speaker label for the rep reads 'Andrew Jin (Primal Instinct)' across this batch while the Drive folder is 'Andrew Musial', so rep identity cannot be resolved from labels alone and any label-based rollup would split one rep into two.",
+      "evidence": [
+        "00:00:00 - Andrew Jin (Primal Instinct)",
+        "I'm in Poland right now.",
+        "Okay, Andrew. Okay, cool. Tell my calendar."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

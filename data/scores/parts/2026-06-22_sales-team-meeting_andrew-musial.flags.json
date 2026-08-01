@@ -1,0 +1,120 @@
+{
+  "call_id": "2026-06-22_sales-team-meeting_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The sales manager states a deposit policy with figures outside the $6,000/$9,000 structure — a $500 deposit permits booking onboarding, and $1,200 must be paid before the onboarding call occurs.",
+      "evidence": [
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call, but they have to pay at least the $1,200 before the onboarding call happens, and if they don't, cancel it and be on top of it ASAP."
+      ],
+      "timestamp": "00:45:17"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The manager instructs reps to stop sending payment links and to collect card details live, which contradicts the company's own close definition of verbal agreement plus payment link sent.",
+      "evidence": [
+        "the little bit that I did see is stop sending payment links.",
+        "Always, always, always, always, always. There is a, well, not always there. I would say 99.9% of the time I do it myself.",
+        "So what card did you want to put that on? Did you want to do MasterCard, Amex, Visa?"
+      ],
+      "timestamp": "00:35:22"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager tells reps not to run the financial-picture questions unless the prospect volunteers red flags, while the playbook's Objection C prescribes a full financial inventory including cash on hand, monthly surplus, credit cards and available credit.",
+      "evidence": [
+        "If somebody doesn't give you very clear red flags about finances, you just don't think that, you just don't, like, try to push them onto the prospect, you know?",
+        "You just let it be, essentially. That's all.",
+        "would just get an idea from what he couldn't do or what he needs"
+      ],
+      "timestamp": "00:48:09"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Reps are coached to prevent a buyer from ending the call before paying and to treat a request to pay later as resistance to be overridden rather than a decision to be respected.",
+      "evidence": [
+        "And I'm still continuing to talk to them. I don't, I don't let them get off the phone.",
+        "if somebody gives me pushback to it, to be honest with you, then they're probably not going to do it, they, they need to give me some good reason as to why they're not doing it, well, can I just wait two hours, because I've got this meeting in 10 minutes, it's like, that doesn't make any sense",
+        "I 100% agree, like, I should have never let that guy go off the call"
+      ],
+      "timestamp": "00:36:38"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A rep reflects that he should have pushed harder on a prospect who wanted to consult his partner and subsequently declined, and the manager reinforces that pushing is the corrective.",
+      "evidence": [
+        "Yeah, that's what I had with Tommy. That's what I had with Tommy. He was going to talk to his partner. Of course, he came back to me. I'm not going to do it. I know with him also, I should have pushed more.",
+        "And if they're not going to do it, they're going to find some reason not to do it. And the only way you can handle it and actually help them and see if it's true is by being there with them."
+      ],
+      "timestamp": "00:41:26"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The automated no-show text sequence reaches prospects from a phone number attributed to nobody, and prospects reply asking who is messaging them.",
+      "evidence": [
+        "that's actually gone through to like Primal Instinct phone number, which isn't assigned to any of us. I don't think that's just like the main company number.",
+        "a lot of the time, I'll, that text message will be sent out, and people just respond, saying, like, who is this? Because it gets sent from another phone number.",
+        "he's responding to a no show, like triage workflow, which all of like the original text came from me. And then for some reason, the final text came from another phone number."
+      ],
+      "timestamp": "00:24:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Management is aware that the price a prospect finds before the call is $200/month or $400-$700/month rather than $6,000, and decided it does not matter.",
+      "evidence": [
+        "if somebody types in Trevor Instinct coaching cost, immediately it says $200 a month. Or if you want one-on-one coaching, it's like somewhere between $400 and $700 a month, which is totally wrong.",
+        "But honestly, it doesn't really matter if somebody comes in thinking it's a certain price. It's more about just making sure that you show them the value. That's what's important. It's not a big deal, ultimately."
+      ],
+      "timestamp": "00:34:32"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A second product line is priced at $200/month with a proposed $2,000 alternative, and the team discusses removing it from public sale so it is only available on sales calls.",
+      "evidence": [
+        "Were you able to ask the team about like that 2k payments on school instead of the $200 a month?",
+        "But I proposed this idea of like, well, what if we move all, like, what if we just close Primal University to the public, essentially?",
+        "And like, it's only something we sell on sales calls."
+      ],
+      "timestamp": "00:33:56"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Three of the people who appear as reps or setters across this corpus left the team on or before this date, which bounds any per-rep or per-setter comparison drawn from later files.",
+      "evidence": [
+        "you knew about Harry not being a part of the team anymore, correct?",
+        "And Kyla. Okay, good. So, Ben is no longer a part of the team. We mutually talked about it. Performance just wasn't there",
+        "Richard initially was just going to come on kind of more to help with Overflow, but then he just started getting calls on his calendar and started closing them"
+      ],
+      "timestamp": "00:05:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Multiple Fathom bots recorded this same meeting and one was removed part-way through, so the same internal call almost certainly exists as separate files in more than one rep folder.",
+      "evidence": [
+        "Okay. Get Kim's Fathom out of there.",
+        "This meeting is being recorded."
+      ],
+      "timestamp": "00:28:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Projected unit economics imply an average collected value far below list price, indicating deposits and instalments are routine rather than exceptional in the cash figures.",
+      "evidence": [
+        "Andrew, you've projected 13 units. You got 47.6K in cash.",
+        "there is no reason in this world why we cannot finish this month at $80,000 up front cash"
+      ],
+      "timestamp": "00:18:01"
+    }
+  ]
+}

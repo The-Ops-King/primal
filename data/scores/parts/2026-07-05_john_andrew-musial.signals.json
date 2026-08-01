@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-05_john_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He had already decided the modality was the answer to his primary complaint before it was presented: 'the main focus I think would be the kettlebells' and 'So throwing a kettlebell around should stretch me out.' Asked whether the approach suited him he gave a committed if characteristically dry answer — 'Yeah, I'm just going to have to work with it. I'm going to have to work it in. It'll be the number one thing.' The home-training angle is what sold it, because it is the only format his caregiving allows: 'I can't really do anything else, that's what kind of traps me, and that's why kettlebells would be good for me I think, because I'd be able to do it in-house.' The enthusiasm is real and stated plainly later: 'I'm really excited to do it.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed with no questions and no resistance, largely because he is already compliant — 'I'm good with nutrition. I keep an eye on it... I've always eaten healthy... I don't eat fast food, so I'm real clean anyway.' The rep's only substantive addition was protein intake at his age, which he accepted without comment. Worth noting a soft pre-emptive defence of the one variable that would have to change: before the pillar was presented he explained his late eating schedule at length and argued it was fine — 'I'm not really eating late because, you know, I go to bed 1-2 in the morning... it's just a different timetable.' When the eight-hour window was then presented he did not engage with it either way."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood immediately and mapped it onto something he had already paid for and valued: 'This is, I did Tai Chi through Zoom, basically. So it sounds a lot like that, because the Tai Chi master used to look at the videos and correct me, so it's the same thing, by the sounds of it.' That is comprehension rather than excitement, and it doubles as the price anchor — he was paying $120 an hour for exactly this mechanism. He asked no questions about the app, the weekly check-ins or the coach's phone number, and the rep pre-conceded the pillar with 'I'm assuming that you're a disciplined guy, right?'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_coaching_price",
+      "raw": "I used to pay $120 each session for my Tai Chi, you know, so work that out. That was an hour session.",
+      "direction": "supports_price",
+      "competitor": "private Tai Chi instruction over Zoom",
+      "note": "The strongest supportive anchor in the corpus, and the prospect built the value case himself off it: 'for all what you get, it's really cheap. It's a good price. It's for life.' He has already paid for remote one-to-one coaching with video form correction, which is precisely the mechanism being sold, so the offer needed no justification at all. The rep did not have to work for this and, notably, did not use it when the payment structures stalled."
+    },
+    {
+      "type": "personal_trainer_benchmark",
+      "raw": "I knew it was going to cost, because if you're going to see three times a week, it's 300 bucks minimum for that in a week. So it's four threes of twelve.",
+      "direction": "supports_price",
+      "competitor": "in-person personal training",
+      "note": "He priced the alternative himself at roughly $1,200 a month and concluded the offer was reasonable: 'It's the right money. It's not the money.' A prospect who does the competitor arithmetic unprompted and lands above the asking price is as pre-sold on value as this corpus gets."
+    },
+    {
+      "type": "credit_decline",
+      "raw": "It said, sorry, we're unable to offer you the payment plan at this time.",
+      "direction": "undercuts_price",
+      "competitor": "Payva / Paiva third-party financing",
+      "note": "The second Payva decline in two days across this batch, on two very different prospects — a student with a $300 credit limit and a 65-year-old business owner. Two declines in two applications is a signal about the financing partner as much as about either prospect, and it is worth checking whether the integration is functioning before more calls are routed through it. This prospect suspected a data problem himself: 'whether it's a business address, a home address for the credit thing... I may have filled it in wrong.'"
+    },
+    {
+      "type": "existing_credit_facility",
+      "raw": "Because I know if you took Affirm, I have it on Affirm.",
+      "direction": "supports_price",
+      "competitor": "Affirm",
+      "note": "He already holds a consumer instalment facility and volunteered it as an alternative route. The rep did not know whether it was accepted and did not pursue it. Combined with the company charge card his sister controls, there were two viable funding paths on this call and neither was mapped, because no financial picture was taken."
+    },
+    {
+      "type": "third_party_gatekeeper",
+      "raw": "The financier, which is my sister, who runs the company accounts... I want to make sure she's on board. She's okay, because she does the thing, but we work the business together. You know, so it's tight, right? It's tight right now.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The real decision gate, disclosed at minute forty-four. The purchase runs through a business whose accounts someone else controls and whose cash is tight. This is a spouse objection in commercial clothing and it was not treated as one."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Written material describing what the programme actually includes, to review before committing $6,000",
+      "why_unmet": "Requested directly and refused — 'that's not much more that I can send you apart from already covered.' Whether or not collateral exists, a buyer at this price asking for something in writing and receiving nothing is a gap in the sales process rather than in the product. Compare the guarantee, which was described on this call as being 'on paper' and was never produced or specified either.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Real flexibility gains for a 65-year-old who has never stretched and cannot touch his toes",
+      "why_unmet": "This is his stated number one goal and the reason he is buying. The mobility protocols may well deliver it, but nothing on the call established that they work from this starting point at this age, and his own concern about being injured by ballistic work while that inflexible was left unanswered. Unresolved rather than unserved, and it needs a human view before he starts.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A way for his 85-year-old mother to train alongside him",
+      "why_unmet": "He intends to do this regardless and said so twice. The programme is a one-to-one coaching engagement for a single client, with no scope, no supervision and no safety framework for a frail second participant who is unsteady on her feet and in physiotherapy. This is a fundamentally different product need and the offer does not address it in any way.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "A funding route that does not require a lump sum or a successful Payva application",
+      "why_unmet": "The offer's instalment structures both total $7,200 rather than $6,000, and the only external option offered was declined. He has an Affirm facility and access to a company charge card, neither of which the programme has a stated path for. He ended the call proposing to solve his own financing, which is a buyer doing the seller's work.",
+      "verdict": "product_gap"
+    }
+  ]
+}

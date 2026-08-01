@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-06-03_sasa-svalina_andrew-musial_2",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep screen-shared a named individual's customised programme and workout footage to a prospect, with no indication of that person's consent and no anonymisation.",
+      "evidence": [
+        "yeah so i'm gonna show you like a video a clip that is like um from one of the guys uh who is working with Trevor so you have to know that what you see in in like the workouts that that are in are specifically designed for him",
+        "I don't know if Angelo, uh, who is, uh, owner of this, I don't know if he has a nutrition, uh, plan, uh, for example.",
+        "Do you see the screen? Yes. Okay, so I'm gonna play it now."
+      ],
+      "note_on_identity": "Ambiguous whether Angelo is a paying client or staff. This call describes him only as 'one of the guys who is working with Trevor' whose workouts are 'specifically designed for him'. The 2026-06-06 Gautam Bhatia call describes an Angelo 'from Trevor's team that he works with in the admin side'. If they are the same person he may be staff with a personal programme, which lowers the privacy exposure but not the consent question. Flagged at medium rather than high for that reason; a principal should confirm which.",
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Client confidentiality was given as the reason the app could not be shown, then reversed within hours when the deal was at risk, indicating no actual policy governs what client material reps may share.",
+      "evidence": [
+        "I just got a reply that, like, we don't have this video of the app because, like, we cannot share the client's details.",
+        "yeah so i'm gonna show you like a video a clip that is like um from one of the guys uh who is working with Trevor"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A mid-deal continuation call is filed under a generic title naming no prospect, so one deal appears in the corpus as two independently titled calls and this half is unattributable without reading it.",
+      "evidence": [
+        "06/03/2026 - Impromptu Zoom Meeting",
+        "So when I make payment, you contact me again or through... Tell me how it's going after this."
+      ],
+      "timestamp": "00:03:44"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The prospect was told a same-evening Trevor onboarding could not happen because of lead time, having been promised on the primary call that the call would be booked right away and a plan delivered within 48 hours.",
+      "evidence": [
+        "When we go through the payment, I book you a call with Trevor right away. Well, like not in five minutes, we will schedule. Okay, we need to schedule because I need always one day minimum earlier.",
+        "I think from what I remember, I think he has tomorrow few spots left, so maybe we can even go that for tomorrow, yeah?"
+      ],
+      "timestamp": "00:04:01"
+    }
+  ]
+}

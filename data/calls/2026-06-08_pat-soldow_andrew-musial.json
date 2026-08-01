@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-06-08_pat-soldow_andrew-musial",
+  "source": {
+    "drive_file_id": "1oJnE6E3fDdqyt6Fj4cJR4plFDve6rBJP",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/08/2026 - Michael Freeling x Andrew Musial ",
+    "display_title": "06/08/2026 - Michael Freeling x Andrew Musial  — Closed",
+    "file_size_bytes": 65332
+  },
+  "call": {
+    "date": "2026-06-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 71,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "No setter suffix in the title and no setter is named. The prospect came inbound via an application and Trevor's email sequence: 'So I went through the application that you left us' and 'Trevor sent an email the other day, and I'm sure it's like an automated step-by-step email that he sends.'"
+  },
+  "prospect": {
+    "name": "Pat Soldow",
+    "aka": "Patrick",
+    "name_source": "transcript",
+    "location": "Denver, Colorado, USA (business warehouse in Dallas, Texas)",
+    "age": null,
+    "occupation": "Co-owner of a terrazzo tile manufacturing business started with his cousin — they grind, polish and cut tile in their own warehouse and are expanding to a larger one. Physically heavy work: moving tile and 50 lb bags of aggregate across 150 pallets. Travels to Dallas roughly every other week.",
+    "family_status": "Married; wife is also self-employed. Two young sons, one aged four and a younger one he estimates at 30-35 lb. No daycare — both parents work full time while parenting full time. Just moved house; closing on the sale of the previous house the following day. His parents have bought the house behind theirs.",
+    "height_in": 77,
+    "weight_lb": 175,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Athlete throughout childhood and high school, played college basketball, describes college as the peak shape of his life at a five-and-a-half-minute mile, playing daily and lifting daily. Trained again for a number of years before kids and got up to 205 lb about four years ago. Currently no workout routine at all. Has built a home gym in the new house and has just mounted the final piece, a pull-up bar. Bought kettlebells but has never used them.",
+    "kettlebell_experience": "none",
+    "medical": "Chronic low back pain for a number of years, untreated for most of it and progressively worsening. Now spreading: the low back and pelvis are described as locked up and protecting themselves, which has pushed pain into the mid back, up into the neck and shoulder. Pronounced posterior pelvic tilt and, on his own account, a weakened deep core and loss of flexibility. A new symptom he attributes to the sciatic nerve — pain across the top of the left hip travelling down the leg. Under active care: sees a physiotherapist roughly every two weeks for bodywork. Stiff and slow-moving on waking; pain when lying flat. Broke his ankle in high school and rebroke it in college, both basketball. Gluten-free. Takes no regular medication, occasional ibuprofen. Severely and chronically sleep-deprived: he and his wife fall asleep in the children's bed nightly and the older son wakes them at two or three in the morning — 'I don't remember the last time I got a full, like eight hours of sleep.'"
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Lost ground to a hard season rather than to illness: 'trying to juggle kids, starting a business... just life happens and you lose focus away from things like that'",
+      "Wants a former self back and knows exactly what it looked like — college basketball, a 5:30 mile, 205 lb four years ago",
+      "Carries the regret openly: 'I made excuses, which I shouldn't', and two years of 'I'm going to start on Monday'",
+      "Strong the_optimizer signals too — successful business owner, still athletic, price treated as a logistics question not a value question, and he wants goals 'that I have never gotten to before'. Assigned rebuilder over optimizer because the presenting driver is chronic and worsening pain, not upgrading from a good baseline.",
+      "Not the_prehab_fighter: the spinal problem is serious and progressive but there is no acute diagnosis or active treatment episode driving the purchase"
+    ]
+  },
+  "goals": [
+    { "text": "Wake up and move without low back pain, and stop having to think about how he picks his kids up", "category": "injury_confidence" },
+    { "text": "Reverse the loss of flexibility and the posterior pelvic tilt, and free up a low back and pelvis that have locked together", "category": "mobility" },
+    { "text": "Rebuild strength, especially the deep core and the muscles around the spine", "category": "strength" },
+    { "text": "Be the dad his sons are still chasing when they hit their own athletic peak — 'I want them to be like, God, dad is so fast. He's so strong.'", "category": "family_role_model" },
+    { "text": "Not end up like his 70-year-old father, who beat his body up as a contractor and is now in a lot of pain", "category": "longevity_function" },
+    { "text": "Recover from a heavy day of physical work and feel fantastic the next day instead of hurting", "category": "energy_performance" },
+    { "text": "Have a coach hold him accountable — 'I need a coach, man. That's what I'm missing.'", "category": "consistency" },
+    { "text": "Reach physical goals he has never reached before, as the last area of life he has not pushed", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Chronic low back pain of several years, progressively worsening and now radiating into the mid back, neck and shoulder as the body compensates", "category": "injury", "severity": "critical" },
+    { "text": "New pain across the top of the left hip travelling down the leg, which he attributes to the sciatic nerve", "category": "injury", "severity": "high" },
+    { "text": "Pelvis and low back locked together with a pronounced posterior pelvic tilt and a weak deep core", "category": "injury", "severity": "high" },
+    { "text": "Severe chronic sleep deprivation — falls asleep in the children's bed every night and is woken at two or three in the morning; cannot remember the last full night", "category": "sleep", "severity": "high" },
+    { "text": "No time — both he and his wife are self-employed and parent full time with no daycare", "category": "time_scarcity", "severity": "high" },
+    { "text": "No accountability. Friends agree to train together and never act: 'We just talk. We never act.' His wife cannot fill the role — 'She won't push you as hard as like a third person or a coach.'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Two years of intending to restart and never starting — 'I'm going to start on Monday' on a loop", "category": "consistency", "severity": "high" },
+    { "text": "Persistently exhausted, which compounds day over day", "category": "other", "severity": "high" },
+    { "text": "Unpredictable travel — Denver to Dallas, sometimes every other week, sometimes back to back, no fixed pattern", "category": "training_barrier", "severity": "medium" },
+    { "text": "Heavy manual labour at work leaves him hurting the following day", "category": "work_stress", "severity": "medium" },
+    { "text": "Cash tight until the sale of his previous house closes", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Gotcha. Okay. So can we postpone this specific part till after tomorrow? I got to get that closing done. Just funds are coming from that to be able to kind of fund things like this... That's kind of what I was alluding to. Is that okay? Doesn't throw a wrench in anything?",
+      "timestamp": "00:50:21",
+      "rep_response": "Refused the deferral outright — asked 'You're going to go with debit or credit?', and when the prospect asked to confirm at the time of the onboarding call answered 'No. We need to go through that right now.' Then isolated ('just to make sure that we're on the same page. Like, you're not in a... Should I do it?'), and when the prospect confirmed he was in, moved straight to third-party lending: 'we're working with a financing provider. Have you heard about Klarna?... we work with Paiva Financing, so you can put it on that, so we can do it from the get-go right now.'",
+      "response_tactic": "refuse_deferral_then_route_to_third_party_financing",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "Okay, now a follow-up question, six months goes by, finished the program, I guess, like, after that, I won't necessarily need to continue on, because I'll have, you know, learned everything I probably can from Trevor, what, is there anything?",
+      "timestamp": "00:45:15",
+      "rep_response": "Answered honestly and without pressure: some clients extend, and 'you can top that up for, for 12 months, if you would like to... Additional 3K', while explicitly recommending against it — 'in my opinion, six months for you, it's going to be enough.' Then explained continued Skool community access and Trevor's live workouts after the programme ends.",
+      "response_tactic": "answer_directly_and_de_escalate_the_upsell",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No company payment plan was offered. Only third-party lending: Paiva Financing (the prospect selected a 12-month loan duration on the application) and, after that failed at phone verification, PayPal financing, which declined his application. The prospect confirmed there is no prepayment penalty and intended to pay the loan off from house-sale proceeds.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Cash tight pending the sale of his previous house, closing the following day at 3pm, with proceeds intended to fund the purchase — 'cash is tight right now until this closing happens. And then, you know, once I get the house closed tomorrow, we'll be flush.' A PayPal financing application was declined on the call."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.78,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Unambiguous and repeated verbal agreement: 'No, no. I'm in. I'm in.', 'This is not a question of whether I'm, you know, considering or not considering. I just want to make that clear, transparently, like, I'm doing this', and 'Like I said, I'm in this 100%, man. I'm making the jump.'",
+      "Payment link sent on the call: 'So I'm pasting you in the chat, the link for the paver' — the Paiva financing application.",
+      "Onboarding call with Trevor booked for Wednesday at 2:15pm Mountain, before payment was attempted.",
+      "COUNTER-EVIDENCE: no money was collected. The Paiva application would not send a verification code to a valid US mobile, and the PayPal financing application was declined — 'They could not approve my application.'",
+      "COUNTER-EVIDENCE: payment now depends on a house sale closing the next day and clearing, with the prospect himself saying Wednesday is 'a safer bet'.",
+      "The agreed mechanism is informal — the prospect will text the rep when funds clear and read out his card details for the rep to process manually."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect texts the rep once the house-sale proceeds clear, expected Tuesday or Wednesday; they reconnect to take payment and complete onboarding. Trevor onboarding call already booked for Wednesday 2:15pm Mountain."
+  },
+  "notable": {
+    "note": "The file is titled 'Michael Freeling x Andrew Musial' but the entire seventy-one minutes is with Pat Soldow — the rep addresses him as Patrick and Pat throughout and no Michael appears. Self-reported weight is a range, 175-180 lb. The most serious clinical picture in this batch: several years of worsening low back pain that has now spread up the spine into the neck, a pronounced posterior pelvic tilt, and a new radicular symptom down the left leg that the prospect himself attributes to the sciatic nerve — all while under active physiotherapy every two weeks. Nobody asked whether the physiotherapist would clear loaded ballistic kettlebell work, and the rep positioned strength training as a correction to the clinician's stretching approach. Separately, the rep refused a twenty-four-hour payment deferral from a man waiting on a house closing, ran two consumer credit applications on the call, and was declined by one of them. The call is also conducted throughout with a four-year-old interrupting roughly a dozen times."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and continuous. The opening turn at 00:00:04 contains both greetings. Whole rep questions sit inside prospect blocks — 'how tall are you?' at 00:09:40, 'and how much do you weigh?' at 00:09:49, 'Where does it show up right now?' at 00:07:00, 'Does that make sense?' at 00:34:35, and 'Any questions on that?' / 'Any thoughts so far?' at 00:37:34-00:37:39 are all mislabelled. From 00:53:00 onward, as the payment troubleshooting starts, attribution largely collapses and long passages containing both voices plus the prospect's asides to his son run under a single label. The block at 00:53:00 is unpunctuated and merges the rep pasting the payment link, the prospect talking to his child, and the prospect reading the loan terms. Roles assigned from content throughout. The (Primal Instinct) speaker is labelled 'Andrew Jin' while the rep folder is 'Andrew Musial'; the prospect reads back the rep's number as a 949 area code."
+  }
+}

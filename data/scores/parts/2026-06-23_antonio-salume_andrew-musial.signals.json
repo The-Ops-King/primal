@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-06-23_antonio-salume_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Presented as strength, conditioning and mobility in one 30-40 minute session three to four times a week, plus daily five-to-ten-minute mobility protocols aimed at his sitting and his energy slumps. The prospect volunteered corroboration from his own experience rather than just agreeing: 'The thing about kettlebells is that in less than five minutes, your heart can go up to 150 beats or something. And that's what I like about it, but it's very different from traditional weightlifting.' He also completed the rep's own argument for him — 'Separate parts, like it doesn't make sense because we as humans move as a unit.' On the direct check: 'Sounds great.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Delivered as three variables with an 8-10 hour eating window, no calorie counting, and a claimed benefit to 'fat loss but also gut health, your overall being, well-being, and on those energy levels'. The prospect connected it straight to his own medical situation and treated it as corroborating what his specialists had told him: 'I forgot to mention that at some point last year I started to notice tons of inflammation... There's a suspicion that I might have SIBO... many of the people I spoke to told me that the more time you spend not eating and the closer the three meals you do in a day are between each other, the better... So, I mean, like you mentioned gut health. So I think this goes, well.' The enthusiasm is real but it rests on a therapeutic inference the rep neither made nor corrected, and the rep's reply moved to his own snacking habit."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Full presentation — one-to-one mapping with Trevor, single app, video form checks, weekly check-ins covering weights, feeling, sleep and recovery, plus Trevor's personal cell number and permission to over-communicate around deadlines. Prospect agreed without engaging: 'Nothing. I mean, makes sense. Makes sense. I think it's very clear.' He did volunteer one supporting idea about work being a stressor, but asked no questions about the pillar that addressed his single biggest stated gap."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "For less than half the price, for one-fourth of the price, I could basically have a CrossFit membership in Mexico for six months.",
+      "direction": "undercuts_price",
+      "competitor": "CrossFit (Mexico City)",
+      "note": "The decisive anchor and a live instance of the documented script gap. This is not a hypothetical substitute — CrossFit produced what he calls the fittest period of his life, and he can buy six months of it locally for roughly a quarter of $6,000. Note the counter-argument the rep had available and did not use: the prospect had already said he quit CrossFit in New York precisely because it was too expensive and too far, so the substitute has a documented failure record with this buyer."
+    },
+    {
+      "type": "currency_purchasing_power",
+      "raw": "It's, it's high for, for like when you change it to Mexican currency. was not going to lie.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect's first reaction to the number was to convert it. A USD-denominated $6,000 does different work in Mexico City than in the corpus's US and UK prospects, and nothing in the offer, the script or the ICP addresses regional pricing."
+    },
+    {
+      "type": "geographic_positioning",
+      "raw": "That's like, this is probably like a better fit for people in the UK, you know? That's why, to be fully frank, I didn't know this, which is fine. I'm not saying you guys have to lower your price.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect disqualified himself on geography before the rep could. Notable that he explicitly declined to ask for a discount — this is a positioning objection, not a negotiation. It also implies the marketing that brought him in carried no price signal at all."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "If I'm working out from home I will either play a YouTube video that I have to follow along or use an app in the gym to follow along.",
+      "direction": "undercuts_price",
+      "competitor": "YouTube, unnamed fitness apps",
+      "note": "His current default costs nothing and he has run it unsupervised for extended periods, including the app-led rooftop workouts in New York. He later proposed a paid version of exactly this as the thing he would buy instead."
+    },
+    {
+      "type": "existing_gym_membership",
+      "raw": "you know you like get back in track uh with like maybe maybe i want to cancel my gym member and try to be more serious about fitness at home",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Cuts both ways and the rep used neither side. A cancelled membership frees recurring budget, which is a live offset the rep never quantified; but it also sets his current monthly spend on fitness as the reference point against which $6,000 is being judged, and that figure was never asked for."
+    },
+    {
+      "type": "prior_price_driven_churn",
+      "raw": "I remember that CrossFit classes were both too expensive and too far away from my apartment. So that's when I started to do some head workouts, on my, like with an app",
+      "direction": "undercuts_price",
+      "competitor": "CrossFit (New York)",
+      "note": "A documented history of dropping a fitness service on cost and substituting a free app. This surfaced at minute seven, roughly thirty-four minutes before the price was named, and was the clearest available warning that the money conversation needed building toward rather than arriving at."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A cheaper, non-live version — following a pre-recorded workout instead of one-to-one coaching",
+      "why_unmet": "He asked for it by name at the moment of price resistance: 'there's no way to do it like without him being live. But perhaps just, like, follow a long, pre-recorded workout or something like that to be more cost-efficient.' The company sells exactly this as Primal University at $200 a month. The rep did not offer it, and only alluded to 'some way that you could get into kettlebells, but on a very low financial level' after the prospect had already declined, deferring it to an unscheduled call the next day.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Pricing that reflects Mexican purchasing power",
+      "why_unmet": "The offer is a single USD price with no regional variation, and the prospect converted it and rejected it on that basis while explicitly not asking for a discount.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Instalments that do not increase the total",
+      "why_unmet": "He asked directly — 'Like you were going to say to basically pay month after month, right?' / 'Yeah, without changing the full amount' — and was told 'Well, with some interest, too.' Spreading the payment costs more, which for a buyer already rejecting the headline number removes the plan as a solution.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confirmation that an 8-10 hour eating window is appropriate given a suspected SIBO diagnosis under specialist investigation",
+      "why_unmet": "He raised the condition and drew the connection himself. The rep neither confirmed, qualified nor deferred it to a clinician; he replied with an anecdote about his own snacking and moved on to the weekly indulgence. The prospect left believing the protocol aligns with his gastroenterologist's advice on the strength of nothing.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A structure that removes the daily decision about what to train",
+      "why_unmet": "Genuinely served — this is what the programme does, and the accountability pillar covered it. Recorded only because it is his single strongest stated need and it drew his flattest reaction, which suggests the pillar was presented before the need had been made vivid.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

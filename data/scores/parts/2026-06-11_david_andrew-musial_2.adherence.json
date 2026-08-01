@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial_2",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation of a conversation opened and framed 90 minutes earlier. The rep resumed mid-thread — \"I was about to actually show you everything, how we're doing\" — with no re-frame needed."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline was taken on the first leg. The rep referenced it back accurately throughout — riding, volleyball, pickleball, the 80-20 eating, the Australian coach."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals were established on the first leg and were re-used well here rather than re-asked: \"the goal isn't just to get you to the Baha 1000 start line in November... you want to be the grandfather being 70 and still hiking in the mountains, playing on the ground with your grandchildren.\""
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Run properly on the first leg and referenced here to set up the accountability pillar: \"You told me the story of your life, on and off, with lacking consistency and discipline.\""
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Applicable and skipped. The script places the consequence frame before the commitment check and the offer, both of which were run on this call, so there was a place for it and nothing was done. No two-year question, no settle-for, no why-not, no line in the sand. The consequence of doing nothing was uniquely available here and unused — he has a fixed race date in November, a previous attempt he could not finish, and an explicit rule that he will not sign up unless he is in much better shape. That is a ready-made cost of inaction the rep never touched, and it left him with nothing to hold when three objections landed at once."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "partial" },
+      "evidence": "The belief check ran cleanly and before the price: \"If you had this right training and mobility work that are actually supporting you and your body... and the nutrition dial in... and real accountability from Trevor. Do you think that you would get to that start line in November?\" answered \"Yeah, I do... I think I will.\" The commitment question that followed — \"are you fully committed to showing up and doing the work to become that guy?\" — asks for commitment but does not invite remaining obstacles the way the scripted all-in question does, which is why the wife and the upfront-payment blockers only surfaced after the number was named. When they did surface, the script says return to Phase 5; there was no Phase 5 to return to, and the rep went to payment structure instead."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted. The call ended with a follow-up booked for the next day to discuss payment options."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Triggered clearly — \"any kind of big expense, I have to talk to my wife about\". The rep isolated it and ran one scripted move, the obstacles question: \"do you feel that she may have some, I don't know, like obstacles coming up?\", which produced a useful answer (her only concern is where they stand financially). Everything else was skipped: no \"money aside, do you personally feel this CAN get you there\" at this point, no \"is there any reason she would NOT want you stronger and less in pain\", no permission-versus-input reframe, no not-a-joint-decision-like-buying-a-house move, and no deposit-with-refund fallback. Note the deposit fallback could not have been offered honestly in any case, since the client agreement carries a no-refunds clause."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Triggered by the $600,000 remodel exhausting his reserves. The rep got the two opening moves right — normalising a non-upfront structure (\"for certain clients the taking it all upfront may be not the best solution\") and securing consent for the financial conversation (\"if you're open, like for an honest conversation about that, we can check out the boxes\"). Then the prospect ran out of time and none of the financial picture was built: no cash on hand, no monthly surplus, no credit cards, no available credit, no investments. Abandoned rather than mishandled, and correctly re-booked rather than rushed."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The clearest miss on the call. \"If it's all up front, I'd probably say no... it's too much risk. You know, I've just met you online. I have no idea\" is a textbook fear and doubt trigger, and the burned-before move exists precisely for a prospect who has already been let down by a paid coach — which he had described minutes earlier. Instead the rep answered with social proof (\"Most of the guys take it up front\") and moved to payment mechanics, leaving the trust objection entirely unaddressed."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Present in substance rather than in words — the remodel means now is not the moment. No OD move was run. In fairness the November race date makes the standard \"when does it actually become the right time\" argument unusually strong here, and it was left on the table."
+    },
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "He never asked for time to think; his blockers were specific and named." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap with real consequences. The prospect's stated blocker was that paying $6,000 upfront to someone he has only met online is too much risk, and the company's answer to that risk — the performance guarantee — is undercut by a no-refunds agreement. There is no scripted way to derisk a first purchase. Separately, and more seriously, there remains no clinical screen: the offer and a load-progression guarantee were presented to a man with ruptured cervical discs and an elbow that will not extend, and the only handling was to defer the injuries to a coach on the onboarding call."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "\"It's definitely more expensive than my last group\" is the cheaper-substitute anchor the playbook already lists as an unscripted gap. Here it is easier than usual to answer, because the prospect had already condemned the cheaper option himself (\"the weekly calls I felt like were kind of a joke\"). The rep did not engage with it at all and never asked what the previous coaching cost."
+    }
+  ],
+  "notes": "The presentation itself was the rep's best work in this batch — every pillar was tied back to something the prospect had actually said, and the belief check was run before the number. Then three objections landed together and only one was played. Fix the order first: P5 before the offer would have given him the November deadline as leverage instead of leaving him to negotiate structure. Fix the fear play second: a man who says \"I've just met you online\" and has been burned by a previous coach is the exact case OE was written for."
+}

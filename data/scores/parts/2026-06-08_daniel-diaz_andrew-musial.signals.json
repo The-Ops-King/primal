@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-08_daniel-diaz_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Presented as three angles at once — strength, conditioning and mobility in 30-40 minutes, three to four times a week, plus 10-15 minute tailored mobility protocols, and the 'teach you to do this for life, you're not tied to Trevor like a personal trainer' frame. The prospect volunteered his own hook mid-delivery: 'Yeah, for sure. That's one area that I struggle with deeply.' Asked whether it resonated he said 'Yeah, it makes perfect sense. I like it.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered as what you eat / when you eat / how much you eat, whole foods, a 10-to-8-hour window and one balanced meal a week with no cheat-day label — the rep hooked it to the burgers the prospect had named. Response was recognition rather than enthusiasm: 'No, I've done a program with a... in phase two, did a cheat meal like a week, every week we had a cheat meal.' No questions. Note he already has a nutritionist, so half this pillar duplicates something he is already paying for, and the rep acknowledged it only as 'we want just to make it bulletproof'."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented as the big one for him, tied back to his admitted motivation dips: weekly check-ins, one app, programme adjustment on feedback, and Trevor's direct phone number with an instruction to over-communicate. The rep even used the five-day soreness he had reported as the worked example. Prospect's reaction was a flat 'It sounds good.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I've had personal trainers before, and no one's ever asked me that question ever. They tell me the price, they tell me the price, and if you want to pay for it, you paid or not. And like, sometimes I haggle them, like, hey, can you do $100? Yeah, I could do $100.",
+      "direction": "undercuts_price",
+      "competitor": "Previous in-person personal trainers",
+      "note": "Two anchors in one quote: a ~$100 per-session price point, and an expectation that coaching prices are negotiable. It also explains why the open-wallet conversation felt like an ambush to him — his entire prior experience of buying coaching is being quoted a number and haggling it."
+    },
+    {
+      "type": "existing_provider_spend",
+      "raw": "Right now, so I got a nutritionist. I got a nutritionist because, you know, the doctor told me I need to start taking pills for my cholesterol. And I didn't want to do that, right? So I got a nutritionist, and now I'm eating a less caloric diet.",
+      "direction": "undercuts_price",
+      "competitor": "Existing nutritionist",
+      "note": "One of the three pillars is already bought and, on his own account, already working — he has lost five pounds. The offer's nutrition value is therefore incremental for him, and the rep positioned it only as 'we want just to make it bulletproof' rather than addressing the overlap."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "You know, I don't need to be on this call, right? I can just do the workouts that Trevor posts on YouTube and that's it. But I was very curious. I want to see the structure. I want to see the plan.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free YouTube content",
+      "note": "Said unprompted at 00:24:00, fifteen minutes before the price. He is already getting workouts he calls 'really good' for nothing, and he told the rep so. The rep did not address the free-versus-paid gap at any point, and at the end of the call the prospect leaves with exactly what he arrived with."
+    },
+    {
+      "type": "subscription_expectation",
+      "raw": "$6,000 is a huge investment, just saying.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Restated at 00:54:11 immediately after the $200/month tier was introduced, which had by then reframed $6,000 as thirty times the alternative."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A structured, progressive kettlebell plan with some accountability at a price between free YouTube and $6,000 — he asked directly, 'Is $6,000 the only option?'",
+      "why_unmet": "There is nothing between the $200/month self-serve Skool community and $6,000 for six months of one-on-one. The rep had to jump the whole gap in one move.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A payment structure for the $6,000 rather than a lump sum",
+      "why_unmet": "The rep stated 'we don't have set payment plans for customers', then said something could be customised but never customised anything. The only route offered was third-party lending at his own credit risk.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Rehabilitation of a suspected untreated shoulder tear before or alongside loaded pressing",
+      "why_unmet": "The programme offers coach-written mobility protocols, not assessment or rehab of an injury that has never been examined by a clinician. Nobody addressed it after it was disclosed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

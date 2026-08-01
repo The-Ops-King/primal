@@ -1,0 +1,30 @@
+{
+  "call_id": "2026-06-29_dimitri-fischler_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed an undiagnosed acute back injury sustained in a football match the previous night and present that morning, and the rep disposed of it with a leading closed question before continuing to pitch loaded kettlebell training, without suggesting assessment or clearance.",
+      "evidence": [
+        "So actually, right now, I'm injured. My back is completely blocked. So I'm moving slowly. I played last night and I got hit. And This morning, I woke up with a very blocked back.",
+        "So it was a rough game yesterday.",
+        "at some point, I just got hit quite badly, and I guess my back reacted the way it did.",
+        "But there's nothing serious that will disqualify you from working? No, Okay.",
+        "usually there are like three to four workouts per week. Everything is tailored depending on... What exactly, what kind of goal do you want to reach?"
+      ],
+      "timestamp": "00:07:48"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A microphone failure and headphone change interrupted the call for roughly 50 seconds mid-way through the nutrition discussion, so a short passage of content is missing from the recording.",
+      "evidence": [
+        "Earphones. Okay, cool.",
+        "Yeah, you can hear me?",
+        "Try again. One, three. I think I know why. Um. Just one second. Try again.",
+        "One, two, three, microphone check. All right. All right. Cool."
+      ],
+      "timestamp": "00:06:36"
+    }
+  ]
+}

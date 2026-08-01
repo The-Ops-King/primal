@@ -1,0 +1,128 @@
+{
+  "call_id": "2026-06-26_shahzad-butt_andrew-musial",
+  "source": {
+    "drive_file_id": "117WTSVshGkyf4e0VNYMd8FfQb0Lxg3ff",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/26/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/26/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 56164
+  },
+  "call": {
+    "date": "2026-06-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 56,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"Look, I went through some of the notes that you spoke with Kim about, yeah? And so I have some idea on where you're at right now.\" Also \"your number one priority from what Kim said is getting your diabetes in check.\" No suffix in the title; the setter is identified from the transcript."
+  },
+  "prospect": {
+    "name": "Shahzad Butt",
+    "aka": "Shahz",
+    "name_source": "transcript",
+    "location": "United Kingdom",
+    "age": 50,
+    "occupation": "Laptop-based work with client and company visits; runs a clothing line (\"We designed some clothes, and we designed something to go onto the clothes\"). Exact role not stated.",
+    "family_status": "Married; daughter 17 (A-levels), son 15 (does MMA; had a virilising testosterone-secreting tumour as a young child)",
+    "height_in": null,
+    "weight_lb": 194,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Metabolic circuit / resistance training at home and in the gym — press-ups, bent-over rows, goblet squats, overhead press, lunges, descending-rep circuits of about 20-22 minutes. Also spinning classes and occasional bodybuilding-style sessions. Trains roughly 1-4 times a week, self-described as very inconsistent. Walks over 10,000 steps a day consistently for three years. Uses a post-training sauna. Peak bodyweight about 150 kg, now about 88 kg over 20-25 years.",
+    "kettlebell_experience": "some",
+    "medical": "Type 2 diabetes, poorly controlled — HbA1c reached 100 (new units) in August, endocrinologist told him \"the maximum we see is 120\"; he declined Mounjaro, self-reduced to 69 and suspects it has risen again. Uses a continuous glucose monitor. L5-S1 spondylolisthesis, grade 2 forward slip — \"it was described to me by my chiropractor as a broken back.\" Right knee: ACL reconstruction and arthroscopy (2007-2009) plus arthritis; deep knee flexion \"does hurt and inflames afterwards\" so he blocks squat depth at 90 degrees. Fractured a finger over the weekend before the call and is still training with 20 kg dumbbells. Self-describes an emotional-eating pattern tied to childhood trauma."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Down from a peak of about 150 kg to 88 kg and explicitly wants his former capacity back: \"To be honest, I want my life back.\"",
+      "Carries overt regret: \"I feel a lot of waste has happened\" and \"I have not ever, I feel, Andrew, fulfilled my physical potential.\"",
+      "Lost ground to a chronic illness (type 2 diabetes) and an emotional-eating pattern rather than to an acute new diagnosis, which is what separates this from the_prehab_fighter.",
+      "Identity anchor to a former self and lineage: his grandfather was Mr Pakistan and placed fourth in Mr Universe."
+    ]
+  },
+  "goals": [
+    { "text": "Get his diabetes genuinely under control — normalise HbA1c, fasting sugars and insulin sensitivity", "category": "longevity_function" },
+    { "text": "Build consistency in training and nutrition rather than cycling through good and bad periods", "category": "consistency" },
+    { "text": "Be a good example for his two teenage children and be better for his wife", "category": "family_role_model" },
+    { "text": "Fulfil the physical potential he feels he never reached, and be able to face himself in the mirror having turned it around", "category": "confidence" },
+    { "text": "More energy through the day", "category": "energy_performance" },
+    { "text": "Get stronger while managing the knee and lower back so training does not aggravate them", "category": "injury_confidence" },
+    { "text": "Time-efficient training that delivers cardio and resistance in one session", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Type 2 diabetes that is not under control; HbA1c reached 100 and an endocrinologist warned the maximum they see is 120", "category": "medical", "severity": "critical" },
+    { "text": "Uses food as his coping mechanism — \"I don't drink alcohol. I don't smoke anymore. I don't do drugs. I do food.\" Traces it to childhood trauma", "category": "emotional", "severity": "high" },
+    { "text": "Cannot sustain consistency in either training or nutrition — \"I can have periods where I'm consistent. And then it, then it all just goes.\"", "category": "consistency", "severity": "high" },
+    { "text": "Right knee arthritis and post-ACL-reconstruction pain limits squat depth; deep flexion inflames it and he does not know how to manage it", "category": "injury", "severity": "medium" },
+    { "text": "L5-S1 grade 2 spondylolisthesis described to him as a broken back", "category": "injury", "severity": "high" },
+    { "text": "Stays up late watching Netflix, sleeps late, wakes unrefreshed and then does not train in the morning", "category": "sleep", "severity": "medium" },
+    { "text": "Shame about the gap between where he is and where he could have been — \"it's really sad that a grown man like me is so enslaved to food. It's unacceptable\"", "category": "emotional", "severity": "high" },
+    { "text": "Previous trainers did not hold him accountable the way live CGM feedback does", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "I also want to tell you that I'm due to potentially have a conversation next week with another trainer because he, unlike other trainers, is a specialist in diabetes. And that's why I am still going to have that conversation with him.",
+      "timestamp": "00:52:27",
+      "rep_response": "Accepted it immediately and conceded the timeline without isolating it, without asking what the specialist would offer that Trevor would not, and without any attempt to reframe. He replied \"Right. I respect that and I appreciate you being upfront and honest\" and \"Have the conversation with the guy and get back to me and we can jump on our call and move forward.\"",
+      "response_tactic": "conceded_and_deferred",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "So once I've had that conversation, why don't we put this conversation on hold? Hold slightly.",
+      "timestamp": "00:53:25",
+      "rep_response": "Agreed to the hold. Ran none of the OA moves — no \"do you feel what we've gone through CAN get you to your goal\", no isolation of what was actually preventing him starting, no \"thinking isn't the problem, deciding is\". The call ended on pleasantries.",
+      "response_tactic": "agreed_to_hold",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No price was ever stated on this call. The rep delivered the full three-pillar programme description and the six-month frame but never named $6,000 or any figure, and never attempted a close.",
+      "Prospect asked to pause: \"why don't we put this conversation on hold?\" pending a meeting with a diabetes-specialist trainer early the following week.",
+      "Counter-evidence for a warmer read: the prospect is highly motivated and said \"even if you don't think I'm a good fit, I'm going to do this anyway, whether it's with you guys or not\" and \"Am I committed to, you know, doing what I need to do? Yes.\" The rep read this optimistically — \"deep down, I feel that we're going to move forward.\"",
+      "Counter-evidence against: the commitment intent is to solve the problem, not specifically to buy this programme, and he explicitly left a competing provider in play.",
+      "Next contact is prospect-initiated by email, with no date booked — a weak next step."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect meets a diabetes-specialist trainer Monday or Tuesday, then emails Andrew either way; they would then reconvene on a call. No follow-up call was booked on this call."
+  },
+  "notable": {
+    "note": "The rep ran an unusually strong discovery and consequence conversation — he reached genuine emotional depth (\"Not good, man. It makes you a bit emotional, to honest\") — and then did not convert any of it. He presented the entire programme, asked for commitment, hit one competitor objection and folded inside about ninety seconds without ever naming a price. Separately, this prospect disclosed a stack of material conditions — uncontrolled type 2 diabetes, a grade 2 L5-S1 spondylolisthesis, an arthritic post-ACL knee and a finger fractured days earlier — and the rep sought no clinical clearance at any point, instead encouraging him to keep training on the fresh fracture."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts constantly. Whole passages sit under the wrong label — the rep's own account of his congenital hip degeneration and 180 km hike runs under both labels alternately from 00:12:22 to 00:14:27, and many of the rep's questions appear under the prospect's name and vice versa (e.g. \"Be honest, be honest\" at 00:05:51 is the rep). Role was read from content throughout. The call also suffers repeated connection freezes — \"Oh, you got frozen\", \"you froze up again\", \"Sorry, I lost you for five seconds\" — so some content is genuinely missing from the record rather than merely misattributed."
+  }
+}

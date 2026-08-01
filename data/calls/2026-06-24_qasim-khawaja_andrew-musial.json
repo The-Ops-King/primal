@@ -1,0 +1,180 @@
+{
+  "call_id": "2026-06-24_qasim-khawaja_andrew-musial",
+  "source": {
+    "drive_file_id": "1VF6oxnAnyQrTGWp1uZGf7lEbanJki3WX",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/24/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/24/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 73752
+  },
+  "call": {
+    "date": "2026-06-24",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 94,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter is named. A prior touchpoint is implied only by the prospect — 'I looked through his videos and some of his content that they linked to me earlier.'"
+  },
+  "prospect": {
+    "name": "Qasim Khawaja",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New York, USA (Eastern time)",
+    "age": 32,
+    "occupation": "Nurse anesthetist at a hospital, working in the operating room including anaesthesia for knee replacements, shoulder and back surgery. Mostly seated but moves around. Wakes at 5:30am; long and sometimes stressful shifts, some running until 7 or 9pm. Six months into the role after three years of study.",
+    "family_status": "Girlfriend, living a block away and staying with her parents, waiting to move in and expecting an engagement ring. No children; planning them. She trains with him and cooks for him. Muslim — observed Ramadan in February and March.",
+    "height_in": 72,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains three to four times a week on an upper/lower split with an extra rehab-focused leg day. Long history of on-and-off training interrupted by injury. Background in recreational basketball, now playing pickup roughly monthly. Did a six-month online coaching programme about six years ago during COVID that went well until a shoulder injury ended it. Has a gym in his building and a physical therapist across the street. Describes himself as having accumulated the knowledge but never sustained the consistency. Self-describes as 'skinny fat' with weight around the midsection, at his heaviest. Has never done kettlebell work.",
+    "medical": "Chronic bilateral knee pain from cartilage wear secondary to flat feet, valgus knees and an acute hip angle, compounded by years of outdoor basketball on concrete. He is explicit that this is degenerative rather than traumatic — 'a lot of the injuries are kind of like cartilage wearing down. So that's not necessarily something you can easily physical therapy away.' AT THE TIME OF THE CALL HE IS WEARING A KNEE SLEEVE TO GET THROUGH THE WORKDAY BECAUSE THE KNEE IS SWELLING. Plantar fasciitis managed with orthotics. Restricted left hip internal rotation confirmed in 90-90 testing; previously saw a specialist at $250 per session out of pocket and stopped on cost. Currently in physical therapy twice a week with sessions already booked for the coming weeks. Self-describes as highly injury-prone and known to pull muscles from imbalances or dehydration. Was ill for the whole of May with a severe respiratory infection. Prior shoulder injury six years ago. Was considering peptides for joint recovery."
+  },
+  "avatar": {
+    "assigned": "the_medically_constrained",
+    "confidence": 0.70,
+    "signals": [
+      "High intent throughout — reacted enthusiastically to all three pillars and confirmed belief and commitment before the price was named",
+      "No price resistance whatsoever: 'The money, fine. Obviously, I can do that.'",
+      "Blocked by injury, and he says so directly as the reason for withdrawing: 'I just don't think now is the right time, man. I'm sorry. I think I'm going to get injured'",
+      "Actively under clinical care — twice-weekly physical therapy already booked, orthotics, a knee sleeve worn to work for swelling",
+      "Clinically literate himself as a nurse anesthetist, and reasons from his own biomechanics rather than from fear: flat feet, valgus knees, acute hip angle, cartilage wear",
+      "Differs from the profile in one respect: no clinician told him no. He applied the constraint himself, which is why this is 0.70",
+      "Alternate considered and rejected — the_optimizer does not fit because he is not already fit and the barrier is physical, not aspirational"
+    ]
+  },
+  "goals": [
+    { "text": "Unlock shoulder mobility — currently cannot reach behind without pain", "category": "mobility" },
+    { "text": "Improve hip internal rotation and open up the hip capsule, and get stronger at end ranges", "category": "mobility" },
+    { "text": "Build rotational and core strength — 'I feel like my core is very weak'", "category": "strength" },
+    { "text": "Build cardiovascular endurance so he can run a full court again if friends call him to play", "category": "hobby_performance" },
+    { "text": "Feel connected and in control from toes to hands, stable rather than merely strong", "category": "energy_performance" },
+    { "text": "Protect his joints now so he can pick up his future children — 'if I can hardly bend my knees now, how am I gonna pick up kids'", "category": "family_role_model" },
+    { "text": "Avoid the outcome he anaesthetises patients for daily — knee replacements, shoulder and back surgery", "category": "injury_prevention" },
+    { "text": "Lose some belly fat and look a bit more muscular, though explicitly secondary", "category": "fat_loss" },
+    { "text": "Break the on-and-off cycle and finally stay consistent", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Cartilage wear in the knees from flat feet, valgus knees and an acute hip angle, currently swelling enough that he wears a knee sleeve through the workday", "category": "injury", "severity": "critical" },
+    { "text": "Repeatedly derailed by injury — 'I'm known to pull muscles from like imbalances or just like pushing a little, being a little dehydrated' — and lost a paid twelve-month coaching programme at month six to a shoulder injury", "category": "injury", "severity": "high" },
+    { "text": "Cannot stay consistent — 'it's been hard to stay consistent and stay motivated', a cycle of ups and downs going back years", "category": "consistency", "severity": "high" },
+    { "text": "Habitual snacking and an inability to leave food — 'I'll eat the protein first, and then, even though I know I shouldn't, I still eat the carbs, no matter what. And then I'll eat the other person's'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Hospital cafeteria food and stress-driven takeout dinners after difficult shifts", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Energy falls off through the day", "category": "other", "severity": "medium" },
+    { "text": "Poor conditioning — 'my stamina, my endurance is dog', heart racing after a few reps of his coworker's kettlebell circuit", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Plantar fasciitis and restricted left hip internal rotation, both under active treatment", "category": "injury", "severity": "medium" },
+    { "text": "No one at work trains — 'nobody works out. There's no motivation. The people I see every day, they're okay fitness or below okay fitness'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Fear of committing and then immediately having to take time off again — 'the last thing I want to do is commit to something and then early on have to already take time off'", "category": "fear_doubt", "severity": "high" },
+    { "text": "Abandoned a specialist who was helping because it was $250 a session out of pocket", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Can I, man, can we push it? Because I don't want to pay just right now. I want to consult with my girlfriend... It is, it is a big commitment. And I just want to get her because I did this without her knowledge. I want her thoughts on this.",
+      "timestamp": "01:01:56",
+      "rep_response": "Ran Objection B substantially and in order — isolated money first, asked what obstacles might come up, asked whether she would have any reason not to want him stronger and less in pain, and reframed it as betting on himself rather than asking permission. Eventually offered the scripted deposit fallback, and separately offered to bring her onto a call, which the prospect accepted.",
+      "response_tactic": "objection_b_full_play_then_deposit_fallback",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I just wanted to have a little bit of time to sleep on it.",
+      "timestamp": "01:03:21",
+      "rep_response": "Opened with a dismissal — 'Sleep on it? It's not a pill, man' — then ran most of Objection A properly: tested belief, pointed at the reversal ('10 minutes ago, you were 100% in'), and delivered the deciding frame — 'What's gonna change between now and then? Because you don't need to think about it. You've been thinking about it for past months, maybe even longer. It's the decision part.'",
+      "response_tactic": "dismiss_then_objection_a",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "Yeah, well, now that I see, I'm like, yo, this is the payment link. I'm like, yo, this is a big commitment. The money, fine. Obviously, I can do that. But now it really, I'm thinking.",
+      "timestamp": "01:04:49",
+      "rep_response": "Named it explicitly — 'So there's this doubt creeping in. Am I able to do it?' — and ran a full fear play: the comfort-seeking mind, an Andy Frisella quote about nothing great coming from comfort, a callback to his medical studies being hard but worth it, and 'fear is a good passenger, but he's a lousy driver.'",
+      "response_tactic": "name_the_fear_and_reframe_discomfort",
+      "resolved": false
+    },
+    {
+      "type": "timing_medical",
+      "raw_quote": "Man, now I'm really thinking about my injury status, and I feel like maybe... Maybe I should wait a little bit.",
+      "timestamp": "01:08:54",
+      "rep_response": "'Man, you're postponing the uncomfortable. And it's gonna suck. And it's gonna suck even more.' Ran timing-objection logic against a medical concern.",
+      "response_tactic": "postponing_discomfort_reframe",
+      "resolved": false
+    },
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "I want to believe, but now that you mentioned it, you asked me genuinely. I just don't think now is the right time, man. I'm sorry. I think I'm going to get injured because... I know my body. In that regard, I know my body. I'm wearing a knee sleeve right now to get through the workday because my knee is like swelling up.",
+      "timestamp": "01:12:27",
+      "rep_response": "'Why would you say that you know that you're going to get injured? Are you a prophet?' Then, after the prospect explained the cartilage wear, the rep countered with his own congenital hip degeneration and an 80-mile hike and asserted causation: 'That's the reason you're getting injured, because you have weak muscles' and 'when you support with the mobility work, and you build strength... you won't get injured.'",
+      "response_tactic": "challenge_prognosis_then_assert_strength_prevents_injury",
+      "resolved": false
+    },
+    {
+      "type": "timing_medical",
+      "raw_quote": "I still feel like I may have rushed into starting a program, whereas I should really get a little more time. And it's not like I'm not working out right now. I am working out. I just need more time to lock in, strengthen some of these muscles so that I can come into the program.",
+      "timestamp": "01:15:25",
+      "rep_response": "'This is the idea of the program, to strengthen your muscles, man.' Then improvised a one-month entry: 'Let's forget about six months... Come in for one month... After a month, you will decide whether you want to move forward for six months, or you want to leave it.' The prospect accepted, then reversed again minutes later.",
+      "response_tactic": "invent_one_month_trial_tier",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "You know, I can't do it man. I can't do it... I gotta take some more time. I gotta take some more time. I'm ready, but I'm not ready. I need to consult with the people in my life to make a drastic change, you know?",
+      "timestamp": "01:20:29",
+      "rep_response": "Continued. 'you really believe that I'm going to give up on you that easily?' Then re-ran the Objection B questions before landing on a $100 refundable deposit as the compromise.",
+      "response_tactic": "refuse_the_decline_then_deposit",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No instalment plan was offered. Two things outside the standard structure were improvised instead. First, a one-month entry tier with no price ever stated, credited against the full fee — 'I'll send you for the one month. After one month, when you decide you want to move forward, you just top up that amount with the rest, yeah, to 6K. So you won't pay more.' Second, a $100 fully refundable deposit to hold a spot — 'Put down $100 deposit, totally refundable. When you come back and you don't want to do it, fine, we'll charge you back.' The prospect paid the $100.",
+    "guarantee_mentioned": "No formal guarantee was stated. Two informal assurances were given instead: an injury pause — 'even if that would happen, that you would get injured and you couldn't perform some movements, or worst-case scenario, you couldn't work out at all. We'll just pause the training with him until you can get back' — with no terms, and an injury-rate claim: 'Over 1,000 clients that he worked with, probably, I don't know, maybe a dozen, over six years.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.90,
+    "close_rule_applied": null,
+    "evidence": [
+      "The programme was not purchased. The prospect declined the $6,000 six-month offer repeatedly across roughly thirty minutes and never reversed on it.",
+      "What was collected was a $100 fully refundable deposit to hold a spot, expressly conditional on a subsequent conversation with his partner — 'All right, man. $100 deposit is in. And I'll get her on board.'",
+      "The close rule does not apply: he did not verbally agree to move forward. His last substantive position was 'I don't think I can make this commitment right now.'",
+      "A payment link for the programme was sent and explicitly not acted on — 'now that I see, I'm like, yo, this is the payment link. I'm like, yo, this is a big commitment.'",
+      "Counter-evidence: he confirmed belief in the programme repeatedly and after every decline — 'I still feel like this will help me. This will solve me' and 'I generally think this will benefit me.'",
+      "Counter-evidence: an onboarding slot with Trevor was verbally agreed for Tuesday 30 June at 7:15pm Eastern before the objection sequence began, and was never reconfirmed or cancelled on the recording.",
+      "Counter-evidence on how firm the follow-up is: the prospect asked for three to four weeks, said 'All of those signs are leading to not right now', and voiced concern about being 'written off, blacklisted'."
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_deposit",
+    "next_step": "Prospect to speak to his girlfriend, then message the rep on WhatsApp to schedule a joint call with her and the rep so she has the full context before the purchase decision. The verbally agreed Trevor onboarding slot of Tuesday 30 June, 7:15pm Eastern was left unresolved."
+  },
+  "notable": {
+    "note": "The longest call in the batch at ninety-four minutes and the most instructive. On the scored process it is the strongest in the corpus — it is the only call where the consequence frame actually ran, including the line-in-the-sand question verbatim, and phases 3, 4 and 6 are all textbook. It then produced no sale and three separate improvisations outside the offer: a one-month entry tier with no price, a $100 refundable deposit that contradicts the deposit policy the sales manager stated two days earlier, and a verbal injury-pause assurance with no terms. Most seriously, the prospect withdrew on clinical grounds he is professionally qualified to assess — he is a nurse anesthetist who anaesthetises patients for knee replacements — citing cartilage wear, a knee currently swelling enough to need a sleeve at work, and twice-weekly physical therapy already booked. He was answered with 'Are you a prophet?' and then told that strength training means 'you won't get injured'. He also stated he had not understood this would be a call where he was asked to pay."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe throughout, with several multi-minute blocks containing both sides under a single label — the stretch from roughly 00:23:00 to 00:25:00 and the block from 01:59 onward in the pillar presentation are the worst. Whole rep questions carry the prospect's label, including 'Does this approach would actually work for you? How do you feel?' at 00:37:23 and 'What happened with the knees?'. The prospect's closing refusal at 01:23:02 and the rep's 'you really believe that I'm going to give up on you that easily?' are merged into one prospect-labelled block. An internal contradiction in the rep's cancer statistic ('50 percent... You mean 15? No, no, 15') appears to be transcription corruption rather than speech. A '$1,000' figure appears in the prospect's spouse reasoning and cannot be reconciled with any stated price; recorded but not relied upon. Roles read from content throughout."
+  }
+}

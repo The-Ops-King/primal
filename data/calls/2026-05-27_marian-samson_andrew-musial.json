@@ -11,7 +11,7 @@
     "date": "2026-05-27",
     "stage": "closer",
     "sequence_position": 2,
-    "sequence_note": "Direct continuation of the 26 May call with the same prospect (file 1SZS6kWRGBPJiqhP6RIzZEpfse3UIpN45), which ends truncated at 00:18:24. This call opens by explaining why: 'Sorry about the Wi-Fi last time. I don't know what happened. It was like, actually, the first time that it happened, it cut me off entirely.' The rep then re-establishes the whole baseline from call one before proceeding. Together the two files are a single conversation of roughly 64 minutes.",
+    "sequence_note": "Direct continuation of the 05/26 call with the same rep, which was cut short by the rep's connection dropping. He opens with 'Sorry about the Wi-Fi last time... I'm glad that we can finish the conversation' and recaps the prior baseline. The title names no prospect, so this record and 2026-05-26_marian-samson_andrew-musial are one conversation across two files and one opportunity.",
     "duration_min_est": 46,
     "prospect_named_in_title": false,
     "prospect_name_recovered_from_transcript": true
@@ -19,116 +19,101 @@
   "rep": {
     "name": "Andrew Musial",
     "role": "closer",
-    "location": "Poland",
-    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "location": "Europe / Poland",
     "additional_reps": []
   },
   "setter": {
     "code": null,
     "name": null,
-    "confidence": "low",
-    "evidence": "No setter suffix in the title and none named across either call. An application exists — referenced on call one as 'I saw in the application that you run your own company' — but the source is not determinable."
+    "confidence": "medium",
+    "evidence": "No setter code in the title and none named. An application existed, referenced on the prior call."
   },
   "prospect": {
-    "name": "Marian Samson",
-    "aka": "Titled 'Marian G. Samson' on the 26 May file; the rep also says 'Marianne' once at 00:27:24",
+    "name": "Marian G. Samson",
+    "aka": null,
     "name_source": "transcript",
-    "location": "Denmark — 'we have good salaries here in Denmark' and 'here in Denmark, we don't do it in this way'. Recently moved house: 'we just moved in here'.",
+    "location": "Denmark",
     "age": 39,
-    "occupation": "Runs his own company; describes himself as a dealmaker and a salesman — 'I make deals all, all, all day, making deals and making the right things' and 'I know the salespeople, you know, I'm also a sales guy'. Roughly 70% of the working day seated between a desk and the car, out from about 6.30am to 6pm. He resists the label 'successful': 'it's not like successful, but I think I'm in a good way, heading to a good way.' References four years of relevant experience — 'in these four years, I learned many things'.",
-    "family_status": "Two daughters, one 12 and one almost six, per the 26 May call; both referenced again here. Providing for his family is a stated driver.",
+    "occupation": "Runs his own company — 'I make deals all, all, all day'; mostly seated or driving; recently moved house",
+    "family_status": "Two daughters, one 12 and one almost six; providing for his family",
     "height_in": 73,
     "weight_lb": 231,
     "bodyfat_pct_self_reported": null,
-    "training_background": "Largely untrained now, but was athletic as a teenager — 'I was a pretty good runner in my teenage years, when I was 17, 18, 19 years old', ended by the knee injury, and he has not run since. A year of steroid-assisted heavy gym training last year, stopped for health reasons. Two weeks before the first call he bought 10 kg and 16 kg kettlebells and began training at home from Trevor's free videos, which he has been watching for two to three months. Explicitly gym-averse now: 'I don't want to go to gym because I was last year and I was doing stuff and it doesn't describe me. So I need to do it at home. I don't care if it's raining, I don't care if it's sun.' Documented failure pattern of holidays killing the habit — after two weeks in Greece last year he never returned to the gym.",
+    "training_background": "Largely untrained. Bought 10 kg and 16 kg kettlebells about two weeks ago and started following Trevor's videos, having watched them for two to three months. Trained heavily in a gym last year while using anabolic steroids and stopped. Was a good runner as a teenager until the knee injury and has not run since. History of repeated starts and stops — 'I tried and I give up. And I tried and I give up.'",
     "kettlebell_experience": "some",
-    "medical": "Spinal disc compression diagnosed about three years ago with a curved lower back — 'it's not sitting straight, it's like a bit curved, in the lower side'. Right knee unstable and subluxing since an injury roughly ten years ago, never rehabilitated. Severe left-side hip restriction he identifies as his main obstacle — 'it's quite stuck, it has no mobility'; he cannot cross his right leg over his left. Reports a resulting gait asymmetry: 'my walking is also disturbed because of these issues.' High blood pressure for two years. New back pain that began during his self-taught kettlebell training (from call one). Sleeping about six hours a night. Prior anabolic steroid use, discontinued. Also self-reported mood and anxiety changes he attributes to carbohydrate intake: 'I was like more anxious and more nervous, getting upset.'"
+    "medical": "Disc compression in the lower back with a curved posture, diagnosed about three years ago. Elevated blood pressure for two years, untreated. Right knee unstable since an untreated injury roughly ten years ago. Left hip locked with markedly reduced mobility, which he says has disturbed his gait — 'my walking is also, it's like disturbed about this because of these issues.' New back pain reported on the prior call after starting kettlebells himself. Prior anabolic steroid use, stopped. High work stress, about six hours of sleep."
   },
   "avatar": {
     "assigned": "the_rebuilder",
     "confidence": 0.88,
     "signals": [
-      "Wants a specific former self back, now with the memory attached: 'I was a pretty good runner in my teenage years... I can remember how fast I was when I was running and I was jumping and doing so many stupid things', and when asked what 90 kg feels like, 'I know myself how I was in that time. So, if I go back to that, that old me.'",
-      "Explicit decline narrative: 'I think I'm heading downwards in this game at this point. And I will be more and more weak.'",
-      "Regret and self-recrimination in the mirror: 'I'm looking in the mirror and I say, okay, what the [hell], I should do something.'",
-      "Long history of starting and quitting, named by the prospect himself: 'I tried and I give up. And I tried and I give up and I like giving up. It's not like giving up. It's like finding ways to give up' — and the Monday pattern, 'It will be like Monday, and Monday, and Monday.'",
-      "Confidence raised from 0.80 on the first call: this session added the athletic former self, the explicit decline framing and the regret, which are the three defining markers of the avatar."
+      "Explicitly wants a former self back and dates it: 'The version of you from about 14 years ago' — his own target is the 90 kg he last was at around 1995 by his reckoning",
+      "Names the ground he has lost: 'I didn't run since I got my knee injury... I can remember how fast I was when I was running and I was jumping'",
+      "Carries the regret openly — 'I'm looking in the mirror and I say, okay, what the , I should do something' and 'I think I'm heading downwards in this game at this point. And I will be more and more weak'",
+      "A history of restarts rather than a first attempt: 'it will be like Monday, and Monday, and Monday. And this Monday never comes'",
+      "Not the preserver type despite the medical stack — he is chasing recovery of capability, not maintenance of it"
     ]
   },
   "goals": [
-    { "text": "Get back to around 90 kg from about 105 kg, with less body fat — 'if I will be 90, with not so much fat on my body, I think I will look good in my height'", "category": "fat_loss" },
-    { "text": "Unlock the hips, which he names as the central obstacle — 'everything comes from hips'", "category": "mobility" },
-    { "text": "Fix the curved lower back and the disc compression", "category": "mobility" },
-    { "text": "Run again — he has not run since the knee injury and used to be fast; 'maybe not competitive running, but at least... be near that'", "category": "hobby_performance" },
-    { "text": "Normalise his blood pressure and stop the slide — 'I think I'm heading downwards in this game at this point. And I will be more and more weak'", "category": "longevity_function" },
-    { "text": "Be able to play with his daughters whenever they want, and do it for his family as much as for himself", "category": "family_role_model" },
-    { "text": "Become the 'too cool' version of himself — his own phrase for the identity outcome", "category": "confidence" },
-    { "text": "Build something he will not fall off again, including on holiday — the Greece pattern he described breaking him last year", "category": "consistency" },
-    { "text": "Train at home rather than in a gym, which he has rejected as not describing who he is", "category": "convenience" }
+    { "text": "Get back to 90 kg from 105 kg and look good at his height", "category": "fat_loss" },
+    { "text": "Unlock the left hip, which he identifies as his central problem — 'everything comes from hips'", "category": "mobility" },
+    { "text": "Straighten the curved lower back and fix the disc compression", "category": "mobility" },
+    { "text": "Run again for the first time since the knee injury — 'Maybe not like competitive running, but at least...'", "category": "hobby_performance" },
+    { "text": "Be the 'too cool' version of himself again — the person he remembers being", "category": "confidence" },
+    { "text": "Do it for his family as well as himself, and be able to play with his daughters", "category": "family_role_model" },
+    { "text": "Train at home rather than in a gym, in any weather — 'I don't care if it's raining, I don't care if it's sun... Just go out and do'", "category": "convenience" },
+    { "text": "Stop the pattern of quitting after holidays and busy periods", "category": "consistency" }
   ],
   "pains": [
-    { "text": "Compressed disc and a curved lower back, diagnosed three years ago", "category": "injury", "severity": "high" },
-    { "text": "Locked left hip with almost no mobility, which he identifies as his biggest challenge and which he believes is disturbing his gait", "category": "injury", "severity": "high" },
-    { "text": "Unstable, subluxing right knee since an injury ten years ago, which also ended his running", "category": "injury", "severity": "high" },
-    { "text": "High blood pressure for two years", "category": "medical", "severity": "high" },
-    { "text": "105 kg at 186 cm, roughly 15 kg above his target", "category": "medical", "severity": "high" },
-    { "text": "A lifetime pattern of starting and quitting — 'I tried and I give up... it's like finding ways to give up', and the Monday that never comes", "category": "consistency", "severity": "high" },
-    { "text": "Holidays destroy the habit entirely — after two weeks in Greece last year he never went back to the gym", "category": "consistency", "severity": "high" },
-    { "text": "Gym-averse: last year's gym experience 'doesn't describe me'", "category": "training_barrier", "severity": "medium" },
-    { "text": "Roughly 70% of the working day seated, between desk and car", "category": "training_barrier", "severity": "medium" },
-    { "text": "Work stress he links to elevated cortisol and fat gain", "category": "work_stress", "severity": "high" },
-    { "text": "Heavy bread and carbohydrate intake driven by convenience food on the road — 'you go to a [petrol] station and it's like bread all over. You have nothing to eat'", "category": "nutrition_habit", "severity": "medium" },
-    { "text": "Mood volatility he attributes to carbohydrate crashes — 'I was like a more anxious and more nervous, getting upset'", "category": "mental_health", "severity": "medium" },
-    { "text": "Sleeping about six hours a night", "category": "sleep", "severity": "medium" },
-    { "text": "Believes he cannot fully return to who he was — 'I don't think I can go back to that person, how I was in that time'", "category": "confidence", "severity": "medium" }
+    { "text": "Untreated elevated blood pressure for two years", "category": "medical", "severity": "high" },
+    { "text": "Disc compression and curved lower back, diagnosed three years ago", "category": "medical", "severity": "high" },
+    { "text": "Unstable right knee, untreated for a decade, which has altered his gait and caused compensations elsewhere", "category": "injury", "severity": "high" },
+    { "text": "Locked left hip with almost no mobility — the thing he expects to be hardest", "category": "training_barrier", "severity": "high" },
+    { "text": "A pattern of quitting he can name precisely — 'it's not like giving up. It's like finding ways to give up'", "category": "consistency", "severity": "high" },
+    { "text": "Falls off completely after travel — two weeks in Greece last year ended his gym habit entirely", "category": "consistency", "severity": "medium" },
+    { "text": "Bread and carbohydrate reliance that he links to feeling anxious and irritable", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Fears he is on a downward trajectory and getting weaker", "category": "aging", "severity": "medium" },
+    { "text": "Distrust of high-pressure selling that the call itself then triggered", "category": "other", "severity": "medium" }
   ],
   "objections": [
     {
       "type": "price",
-      "raw_quote": "You know, to be honest, 9K is not a small amount, even if we know we have good salaries here in Denmark. But either how, 9K is a lot of money, to be honest. It's not like a small amount, because it is a big amount. Even for Denmark, we have a good salary and we have a good lifestyle, but...",
+      "raw_quote": "You know, to be honest, 9K is not a small amount, even if we know we have good salaries here in Denmark. But either how, 9K is a lot of money, to be honest.",
       "timestamp": "00:28:15",
-      "rep_response": "Isolated before negotiating, and did it properly: 'before we talk about numbers and money, do you actually feel that you can get to your goals with Trevor, and you're 100% sure on this? Is there anything else apart from money that could be stopping you?' Got a clean isolation — 'It's nothing else that can stop me.' Then asked 'what's coming up?', then opened the payment door and stepped down to the six-month tier at $6,000 with a discounted $3,000 renewal for months seven to twelve.",
-      "response_tactic": "isolate_then_step_down_tier_and_open_payment_options",
-      "resolved": true
-    },
-    {
-      "type": "value_at_reduced_scope",
-      "raw_quote": "But what about, what else plan, another plan you have, like, okay, this 9,000, it sounds a lot of money, to be honest... Of course, it's about my health, but maybe it is, it doesn't, it might be, sounds stupid. The cheaper version, but let's see what other alternatives we have to this.",
-      "timestamp": "00:29:46",
-      "rep_response": "Did not answer immediately — he isolated first and asked what was coming up, which was correct sequencing. He then presented the six-month tier at $6,000, the $3,000 renewal top-up, and three payment structures. The prospect chose six months paid monthly.",
-      "response_tactic": "isolate_first_then_present_lower_tier_and_instalments",
+      "rep_response": "Isolated it properly first — 'before we talk about numbers and money, do you actually feel that you can get to your goals with Trevor... Is there anything else apart from money that could be stopping you?' — then offered the six-month tier and instalment structures.",
+      "response_tactic": "isolate_then_downshift_tier",
       "resolved": true
     },
     {
       "type": "value_vs_cheaper_alternative",
-      "raw_quote": "it's either I choose this one, either I, in a way or another, I will do something. Either I choose you, and I go with you for a certain amount, even if I find another chance or somebody else, it's like a way, in a way or another, I will do it. Either with you, either with somebody else.",
+      "raw_quote": "it might be, sounds stupid. The cheaper version, but let's see what other alternatives we have to this.",
+      "timestamp": "00:29:48",
+      "rep_response": "Answered with internal alternatives only — the six-month tier at $6,000, a top-up second six months at $3,000, and split payments. Never addressed the external alternative the prospect had just raised.",
+      "response_tactic": "downshift_within_own_menu",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "Either I choose you, and I go with you for a certain amount, even if I find another chance or somebody else, it's like a way, in a way or another, I will do it. Either with you, either with somebody else.",
       "timestamp": "00:32:00",
-      "rep_response": "Acknowledged it as fair — 'That's okay. That's fair enough' — and did not contest the substitutability at all. He moved straight to options and pricing. The prospect had just said out loud that he views Primal as interchangeable with an unnamed competitor, and nothing was done to differentiate.",
-      "response_tactic": "acknowledge_and_move_to_pricing",
+      "rep_response": "Acknowledged it — 'That's okay. That's, that's fair enough' — and moved to presenting payment options.",
+      "response_tactic": "acknowledge_and_proceed",
       "resolved": false
     },
     {
       "type": "trust_provider",
-      "raw_quote": "Before I released money from my account... I need to check some things about you and Trevor. I will not pay before. I don't do that. So it's like, you know, I have to be certain about some things... I will run a process. I will check a little bit your background and Trevor's and like this.",
+      "raw_quote": "Before I released money from my account... I need to check some things about you and Trevor. I will not pay before. I don't do that. So it's like, you know, I have to be certain about some things.",
       "timestamp": "00:36:33",
-      "rep_response": "Reframed it as fear rather than treating it as due diligence: 'Isn't it, just to make sure, because I asked you and you told me to hold you accountable, isn't that fear creeping in?' The prospect rejected the frame firmly and reasonably. The rep then asked what information was needed rather than having anything ready to send, ran a good conditional close ('if I would send you this information today or tomorrow and everything checks out, you ready to move forward?' — answered yes), and then asked for a $100 refundable deposit, which the prospect refused.",
-      "response_tactic": "reframe_as_fear_then_conditional_close_then_deposit_request",
-      "resolved": false
-    },
-    {
-      "type": "trust_provider",
-      "raw_quote": "To be honest, it's like, for me, it sounds pretty strange, you know, it's $100, it's not a big amount, but it's like strange asking for it. So it's like, it's a red flag for me.",
-      "timestamp": "00:41:07",
-      "rep_response": "Tested the size of the number — 'If I would ask you for $1,000, would that be a difference?' — and got 'It doesn't matter so much, if it's $1,000 or $1.' He then pressed the commitment line, 'you said to me that you're 100% sure and positive about it', which the prospect deflected. The deposit request converted a warm handshake into a stated red flag and the rep did not recover the ground.",
-      "response_tactic": "test_the_amount_then_press_prior_commitment",
+      "rep_response": "Asked what he needed, then reframed the request as fear — 'isn't that fear creeping in?' — and asked 'are you looking for a reason to not to do it'. Agreed to send company information, then asked for a $100 refundable deposit to hold it overnight, which the prospect refused.",
+      "response_tactic": "reframe_as_fear_then_request_deposit",
       "resolved": false
     },
     {
       "type": "other",
-      "raw_quote": "You know, it's like, you know, I know the salespeople, you know, I'm also a sales guy, but here in Denmark, we don't do it in this way. We are, we give people time, you know... I know you're from USA, we are not, we are here, pretty cool. We give people time... Most salespeople, that's why they [mess] it up, because they want to do it right now, now, now, now.",
-      "timestamp": "00:42:12",
-      "rep_response": "No direct response. The rep moved to scheduling the next call. Proposed label for this objection type: sales_pace_cultural_mismatch — a prospect explicitly naming urgency tactics as the thing that loses his business, immediately after being subjected to one.",
-      "response_tactic": "none",
+      "raw_quote": "it's like, it's a red flag for me... I know the salespeople, you know, I'm also a sales guy, but here in Denmark, we don't do it in this way. We are, we give people time... Most salespeople, that's why they it up, because they want to do it right now, now, now, now.",
+      "timestamp": "00:41:22",
+      "rep_response": "Tested the size threshold — 'If I would ask you for $1,000, would that be a difference?' — then pointed back at the prospect's own commitment statement. Ultimately dropped the deposit and booked the next meeting.",
+      "response_tactic": "test_threshold_then_concede",
       "resolved": false
     }
   ],
@@ -138,37 +123,44 @@
     "tiers": [
       { "months": 12, "price_usd": 9000 },
       { "months": 6, "price_usd": 6000 },
-      { "months": 6, "price_usd": 3000 }
+      { "months": 6, "price_usd": 3000, "note": "Off-menu renewal price — a second six months after completing the first, quoted as a top-up rather than a further $6,000" }
     ],
     "recommended_tier_months": 12,
     "payment_plan_offered": true,
     "payment_plan_structured_live": true,
-    "payment_plan_terms": "Quoted against the $6,000 six-month tier. Preferred: 'just to pay in half. So 3,000 now and 3,000 30 days later' — which matches the sanctioned structure described on the internal onboarding call. Also offered, with interest explicitly acknowledged ('that's gonna have like an additional interest on that'): a three-payment plan at 3 x $2,300 = $6,900, and a six-payment plan at 6 x $1,200 = $7,200. The prospect chose monthly — 'I pay a month, I use a month' — while describing it as 'the six K', and the rep never reconciled that monthly instalments total $7,200 rather than $6,000. The third tier row above is the renewal, not a standalone product: 'when you finish the six months and you feel like you would still need another six months, you can always top it up, but it won't be an additional 6K. It's going to be 3K.'",
-      "guarantee_mentioned": null,
-      "prospect_financials": null
+    "payment_plan_terms": "Against the $6,000 six-month programme: two-pay of $3,000 now and $3,000 in 30 days; or 'three or six pay, but that's gonna have like an additional interest on that' — three payments of $2,300, or six payments of $1,200. Those total $6,900 and $7,200 respectively. No interest rate, lender, or total-payable figure was stated. A $100 refundable deposit was then requested to hold the agreement overnight and refused.",
+    "guarantee_mentioned": "Only on the deposit: 'If you tomorrow, if for some reason tomorrow you will say, look, Andy, I don't want to go with you... Fine. We're going to refund it to you.' No programme guarantee was mentioned.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial picture was taken. The only disclosure was regional — 'we have good salaries here in Denmark and we have a good lifestyle' — alongside 'a pretty decent amount that I need to take out from my pocket'."
+    }
   },
   "outcome": {
     "disposition": "follow_up",
     "confidence": 0.9,
     "close_rule_applied": null,
     "evidence": [
-      "A verbal agreement was reached and then conditioned before any payment mechanism existed. The handshake was explicit: 'You want to shake hands on this?' / 'Let's shake hands on this, because I think it's more easier for everybody.' A tier and structure were chosen: six months, $6,000 headline, paid monthly.",
-      "The close rule does not apply: verbal agreement is present but no payment link was sent and no payment was taken, so this is not a close. The rep announced the sequence — 'We're going to go through the payment, and then I'm going to onboard you and book you a call with Trevor' — and the prospect immediately blocked it.",
-      "The block was unambiguous and pre-payment: 'Before I released money from my account... I need to check some things about you and Trevor. I will not pay before. I don't do that.'",
-      "A $100 refundable deposit was requested as a bridge and was refused, and the refusal escalated the position: 'it's like strange asking for it. So it's like, it's a red flag for me.'",
-      "A next call was agreed and pinned: the following day at 6pm on the same link, with the rep to send company and coach information beforehand. The prospect stated the decision point plainly: 'I will have enough time to check it and then in the afternoon we'll meet up and either I say yes or no.'",
-      "Counter-evidence in both directions. For: intent is extremely high and independently evidenced — kettlebells already bought, diet already changed, 'I'm looking for a reason to do it', and a yes to the conditional close, 'if everything checks out, you ready to move forward?'. Against: he also said he would proceed 'either with you, either with somebody else', so Primal is not yet differentiated from a competitor, and the deposit request has introduced active suspicion into a call that had been going extremely well."
+      "A verbal agreement was reached and explicitly ritualised: 'You want to shake hands on this?' / 'Let's shake hands on this, because I think it's more easier for everybody'",
+      "Tier and structure were chosen: 'Let's take the six months. With the six K' paid in monthly instalments",
+      "The rep moved to payment — 'We're going to go through the payment, and then I'm going to onboard you and book you a call with Trevor'",
+      "Counter-evidence, and decisive: the prospect halted before payment — 'Before I released money from my account... I need to check some things about you and Trevor. I will not pay before.'",
+      "He then refused even a $100 deposit and called the request a red flag",
+      "No payment was taken and no payment link was sent, so the verbal-agreement-plus-link rule does not apply and this is not a close",
+      "Next meeting booked for the following day at 18:00, with the prospect stating 'either I say yes or no'"
     ],
     "cash_collected_usd": 0,
     "cash_collection_basis": null,
-    "next_step": "Follow-up call the next day at 6pm on the same link. Rep to send details about Primal Instinct, the company entity and Trevor's background so the prospect can run his own verification, including looking for satisfied and dissatisfied customers. Prospect to complete his checks and give a yes or no at that meeting."
+    "next_step": "Rep to email company and coach background information; follow-up meeting the next day at 18:00 on the same link, at which the prospect will give a yes or no."
   },
   "notable": {
-    "note": "By some distance the best-executed sales call in this batch — and it did not close, for a reason the playbook has no answer to. The rep opened with a full, accurate recap of the previous session that made the prospect feel genuinely heard, built a real consequence frame around how a bad knee reshapes a body over twenty years, ran the DIY challenge properly ('even the great football players all need coaches'), took commitment before the number and re-took it after, isolated the money objection before negotiating, and quoted concrete instalment options. He got a handshake. Then three things went wrong. (1) THE UNSCRIPTED OBJECTION: the prospect wanted to verify the company and the coach before releasing $6,000 to a foreign business — a completely reasonable request from a self-described dealmaker — and there was no collateral to send. The rep had to ask 'What kind of information would you need?', which is the wrong end of that conversation. (2) THE MISDIAGNOSIS: he classified due diligence as fear ('isn't that fear creeping in?') and the prospect corrected him flatly: 'I'm looking for a reason to do it' and 'If I don't run a check, I will never do it.' (3) THE DEPOSIT: asking for a $100 refundable deposit to hold a deal that had already been agreed converted the warmest moment of the call into a stated red flag, and immediately preceded the prospect delivering a short lecture on sales culture — 'here in Denmark, we don't do it in this way. We give people time... Most salespeople, that's why they [mess] it up, because they want to do it right now, now, now.' PRICING FINDINGS. The 12-month at $9,000 and 6-month at $6,000 are correct. Two things are not in the documented offer: a $3,000 renewal for months seven to twelve, which halves the effective rate and invites the question of why the first six months cost double; and three- and six-payment instalment plans carrying interest ($6,900 and $7,200 respectively) when the internal onboarding call the previous day defined the sanctioned plan as 50% now and 50% at 30 days and nothing longer. MIS-SELLING RISK: the prospect agreed to 'the six K' paid monthly. Monthly is the six-payment plan at $7,200. Nobody said so. That $1,200 gap needs resolving before the next call. CLINICAL: across 64 minutes of conversation over two days, nobody asked whether a man with a compressed disc, a subluxing knee, a locked hip and two years of hypertension has been cleared by any clinician to do loaded ballistic kettlebell work — and he has already produced new back pain doing it unsupervised."
+    "note": "Best-executed call in the batch on process — consequence frame, commitment check and all-in question all ran properly — and simultaneously the one carrying the most integrity exposure. A prospect with two years of untreated high blood pressure, a compressed disc and a knee that subluxes was moved to a handshake on six months of loaded kettlebell training across two calls and roughly 64 minutes without one question about medical clearance, and was told his 'blood pressure is normalizing' twelve months out. The instalment options quoted exceed the list price — three payments of $2,300 is $6,900 and six of $1,200 is $7,200 against a $6,000 programme — while the prospect articulated his understanding as 'I pay a month, I use a month' for 'the six K'. When he asked to run a background check on the company before paying, the rep asked whether that was 'fear creeping in' and requested a $100 deposit to hold the deal overnight, which the prospect refused and named a red flag."
   },
   "quality": {
     "diarization_reliability": "low",
     "speaker_label_swaps_detected": true,
-    "notes": "Extensive inversion; roles read from content throughout. Notable examples: the opening recap from 00:00:21 to 00:01:40 alternates so that the rep's summary items ('And you're running your own company') land under the prospect's label; at 00:03:25 'I believe it's quite stuck' sits under the rep but is plainly the prospect describing his own hip; at 00:26:27 the delivery walkthrough 'he will get on a call one-on-one with you to build your custom plan' sits under the prospect but is the rep; and at 00:35:21-00:35:49 the handshake exchange is split so that 'The most important thing today is that, Marian, you bet on yourself today' lands under the prospect's label. The single most consequential garble is the price at 00:27:50: 'The investment is 90' where the context, the prospect's reply ('9K is not a small amount') and the twelve-month framing make $9,000 unambiguous. Similarly '1995' at 00:01:40 is noise in a passage about being 90 kg fourteen years ago. Sound was clean this time; the audio problems were confined to the previous day's session. The rep's display label reads 'Andrew Jin (Primal Instinct)' throughout while the folder and the corpus identify him as Andrew Musial; the internal onboarding call in this batch supports Andrew Musial, and the prospect also addresses him once as 'Andy' at 00:40:26."
+    "notes": "Labels invert constantly and for long stretches, including the entire delivery walkthrough around 00:25:58-00:26:34 where the rep's description of Trevor's onboarding is attributed to the prospect, and the deposit exchange at 00:41:07 where both sides of the red-flag objection are split across the wrong speakers. Roles read from content throughout. The prospect states 'I'm 40' here but gave his age as 39 on the previous day's call; 39 is recorded, with the discrepancy noted. The file title contains no prospect name, so this record joins to the 05/26 call only by content."
   }
 }

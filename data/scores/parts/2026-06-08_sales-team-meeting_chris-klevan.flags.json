@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-06-08_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Two closers spent about a minute mocking prospects for being gay, including stating that the programme is not for such a prospect and joking that a lack of training caused it, in a recorded company meeting after the manager had stepped away.",
+      "evidence": [
+        "Andrew Jin: he just, like, got divorced because he has two kids with his wife and he has a boyfriend now.",
+        "Ben Byrne: Dude, I had a call with this Indian guy from New Jersey, he's like a software engineer, and he's like, yeah, I'm married... I'm like, oh, do you and your wife have any kids? And he's My husband. I was like, oh, ah, ah, well, that's awkward.",
+        "Andrew Jin: Sorry, this program is not for you.",
+        "Ben Byrne: I mean, if you start working out again and get your T-levels fixed, might go back to your wife.",
+        "Andrew Jin: Wow, do you think that you turned gay because you haven't been working out that much? What are you gay?",
+        "Ben Byrne: Why are you gay? So, he says, I'm Puerto Rican, so that explains the gay thing"
+      ],
+      "timestamp": "00:49:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospects were routinely identified and explained by ethnicity in performance discussion, including attributing a prospect's objection style to his being Indian and his sexuality to his being Puerto Rican.",
+      "evidence": [
+        "Andrew Jin: Yeah, the one, the Indian guy, I got him on a love it or leave it.",
+        "Andrew Jin: I think I was trying to go, yeah, I was trying to go that route, but he was so freaking Silicon Valley engineer, analytical Indian guy.",
+        "Ben Byrne: Dude, I had a call with this Indian guy from New Jersey, he's like a software engineer",
+        "Ben Byrne: So, he says, I'm Puerto Rican, so that explains the gay thing, fluctuate."
+      ],
+      "timestamp": "00:12:23"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager taught closers a live word track implying money would be returned if the programme does not work, which contradicts what reps actually tell prospects on calls, where a refund question is answered with a performance guarantee instead.",
+      "evidence": [
+        "Chris Klevan: And obviously, we're not going to like... Hold your money or hold you in here if you can't get the results.",
+        "Chris Klevan: if, for some reason, we still can't get you the result, then at least you know.",
+        "Chris Klevan: it's literally my job to make sure that I don't let people in that we can't help, because if you come into this and you don't get results, then I'm going to be honest with you, doesn't look good on us, doesn't look good on me, and I'm not getting paid for that either."
+      ],
+      "timestamp": "00:19:50"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The sales manager instructed closers to present programme results as biologically certain and to display no uncertainty, modelling absolute-outcome claims as the standard response to a prospect asking whether it will work for them.",
+      "evidence": [
+        "Chris Klevan: we've worked with thousands of clients. And ultimately, it's science. Like, if you eat the food that we're saying to eat, and you train this way, do you really think you're not going to get good results?",
+        "Chris Klevan: make it not a question of like us getting the results and don't show any sort of uncertainty in yourself. Like have full conviction that we get results and it's science because we know it's science at the end of the day.",
+        "Chris Klevan: If they eat the foods and they do the work, the result has to happen. It's human biology has to happen.",
+        "Chris Klevan: Like he's some special person that the laws of biology don't work for."
+      ],
+      "timestamp": "00:15:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A closer disclosed closing a prospect on a 'love it or leave it' arrangement rather than the $6,000/6mo or $9,000/12mo tiers, expecting conversion to full terms after a month, and the sales manager endorsed it as a sanctioned tool provided it is not offered to everyone.",
+      "evidence": [
+        "Andrew Jin: Yeah, the one, the Indian guy, I got him on a love it or leave it.",
+        "Andrew Jin: So that's why, that's why I went the route of, uh, the, uh, love it or leave it. Cause I, I believe after a month, he, he will go for the, for the full six months.",
+        "Chris Klevan: love it or leave it is definitely something you can use in your back pocket for somebody who has sort of, like, trust issues within themselves, with us, right? Like, that is something that's valid.",
+        "Chris Klevan: But that's, that's where I start to, like, kind of draw the line with the love it or leave it if we're just offering it to everybody."
+      ],
+      "timestamp": "00:13:44"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The manager had to instruct the team that every booked call, including no-shows and reschedules, needs a disposition logged in the Close CRM, and a closer effectively admitted he had not been doing it — meaning any close-rate denominator drawn from that CRM before this date is incomplete.",
+      "evidence": [
+        "Chris Klevan: I almost forgot your pipeline inside of clothes. If you have a sales call, even if like anybody that's booked on your calendar, whether the call happened or didn't happen, a custom activity needs to be updated inside of clothes. Every single one of them. We can't let that fall through the cracks.",
+        "Ben Byrne: In theory, I just have to do it, I guess. Yeah. That's fine.",
+        "Chris Klevan: Anybody you already had a sales call with, anybody that you maybe didn't have a sales call with because they If no-showed, put that on there, too. If they rescheduled, put it on there. Like, all the dispositions need to be put in there.",
+        "Ben Byrne: So would all the people already just be under a booked sales call for me?"
+      ],
+      "timestamp": "00:40:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Cash collected per closed unit runs far below the headline price — three units produced $7,200 for one closer, an average of $2,400 per unit — because units and cash are tracked as separate lines and financed or part-collected deals count as units immediately.",
+      "evidence": [
+        "Chris Klevan: Andrew, we hit three units last week, hit that projection, 7,200 cash. were just slightly short on the cash there. We needed about, what, 3,600 more cash. So where do you want to move that $3,600?",
+        "Chris Klevan: Ben, let's talk about your numbers. So we hit one unit yesterday, $6K, what happened last week?",
+        "Chris Klevan: Good job getting that PIF yesterday, which is awesome.",
+        "Ben Byrne: Dude, the tough thing with Paiva is it only goes up to 12 months."
+      ],
+      "timestamp": "00:10:43"
+    }
+  ]
+}

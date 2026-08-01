@@ -1,0 +1,100 @@
+{
+  "call_id": "2026-06-12_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales lead described the target customer to the team as men who need to lose 20 to 40 pounds and may have injuries, which is the profile prospects are explicitly told on live calls the company does not take.",
+      "evidence": [
+        "We're targeting people essentially who have like their entire life put together, except fitness. Like guys in their 40s, 50s, that's the type of person we're really more targeting towards.",
+        "they have life together, they might have some injuries, they might have some things, and they need help to actually, like, get their health in order. Like, they need to lose maybe 20, 30, 40 pounds.",
+        "That's the sweet spot.",
+        "so that's where we're making a whole new VSL around, is getting those guys",
+        "The ICP as stated to a prospect on a recorded call (data/icp.json, Harry Edmonds, 2026-06-09): \"It's not like we have dudes who come here who are 50 pounds overweight, who are just like, I need to just lose weight and I hate working out.\""
+      ],
+      "timestamp": "00:41:44"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales lead coached the team that the purpose of the open-wallet conversation is to extract the maximum cash a prospect can produce, including directing them to put the full price on a credit card.",
+      "evidence": [
+        "I would say, okay, so price aside, and then I would make sure he's certain about it, make sure that it's just the finances, and then I would open wallet him and figure out exactly what sort of payment plan he would need to make work.",
+        "Because that's how you collect the most cash out from somebody that you can collect.",
+        "maybe you find out he could have piffed, and he has $20,000 on a credit card, then you find out, dude, just put it on a credit card, piff it. That's why people do it.",
+        "It'll serve you a lot more, for sure."
+      ],
+      "timestamp": "00:39:14"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The rep reported a three-month contract to management as a secured six-month deal, describing an undocumented verbal top-up arrangement as secured, and no one asked whether it was in writing.",
+      "evidence": [
+        "He got in for three months, but he will do the six months.",
+        "He was just making sure that if it's going to be what I said, that after those three months, he will only top up with the 2K, that is secured, yeah? So that's he will do the six months. So, all good.",
+        "Let's go. Good to hear.",
+        "On the call itself (2026-06-11_tamar_andrew-musial) the prospect read the signed agreement aloud: \"it says terms, duration, program, last three months\" and asked \"Does it say anything here about the other payment and the final payment?\", to which the rep replied \"The calls are recorded, so you have my word on this.\""
+      ],
+      "timestamp": "00:00:50"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The $1,200 per month instalment rate against a $6,000 list price was confirmed as standard practice and the sales lead's correction addressed only how the premium is framed, not the premium itself.",
+      "evidence": [
+        "So, I mean, it's not like, you can't do like 1,000 per month, you know, that sort of thing? So, the thing is, you could, but it's going to be a little bit more expensive. So, it's not going to be 1k per month. It's going to be 1,200.",
+        "You went right into telling him what it would be and using the interest against him to want to pay more.",
+        "So you use interest as the thing as to why he should do it, which I don't really love that frame.",
+        "I would just ask him, do you need a payment plan?"
+      ],
+      "timestamp": "00:38:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer profiled a paying client by ethnicity to explain his motivations and the sales lead responded with a remark about the client's name rather than correcting it.",
+      "evidence": [
+        "if he's a psychiatrist working eight, 10 hours a day, like definitely there's a work priority and he's also half Indian, I think. So work for them is always a priority.",
+        "Got the widest name ever though. He definitely does. Thomas Joseph. Interesting. Love it.",
+        "No judgment. I just had to point it out. Like, I like just looking at it. It's just Thomas Joseph."
+      ],
+      "timestamp": "00:34:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Weekly numbers stated in this meeting are the only source that reconciles contract value to cash collected for this rep's week, and they show cash collected is roughly 71% of contract value because of split payments.",
+      "evidence": [
+        "So we're at five units, 20k cash for the week?",
+        "Yesterday was... That's three, yeah, five, five of them, that's for sure. So, yeah, Monday was 6K, Wednesday was 6K with two pay, then was one piff, 6K split in two, and the 4K split in two, yeah.",
+        "Yeah, so that's, that sounds like it's right, then.",
+        "Five units at $6K, $6K, $6K, $6K and $4K is $28,000 of contract value against the $20,000 cash figure the team tracks."
+      ],
+      "timestamp": "00:14:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A setter claimed credit for a deal whose file title carries no setter suffix, so setter attribution cannot be recovered from titles alone and any setter-performance rollup built from filenames will be wrong.",
+      "evidence": [
+        "Yeah, my win is my deal yesterday with Andrew.",
+        "And he's going to actually, because it was Tamer, yeah?",
+        "That was his name?",
+        "The corresponding file is titled \"06/11/2026 - Impromptu Zoom Meeting\" with no KL suffix and no prospect name."
+      ],
+      "timestamp": "00:00:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Reps sharing their personal WhatsApp numbers with clients was raised and approved by the sales lead, making an off-platform, unlogged client communication channel sanctioned practice.",
+      "evidence": [
+        "I also, I'm doing one thing, most of the time at the end of the call... I share my private WhatsApp with them, just for the sake, like, look, if you have any questions whatsoever, just hit me up",
+        "Yeah, I don't see an issue with that.",
+        "I would say, I usually, what I say is, like, honestly, I keep tabs on all of my clients... but your coach is going to be Trevor."
+      ],
+      "timestamp": "00:44:53"
+    }
+  ]
+}

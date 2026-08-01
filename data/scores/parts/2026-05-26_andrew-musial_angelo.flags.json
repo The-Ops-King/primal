@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-05-26_andrew-musial_angelo",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Sales operations stated that a 90-day split payment is not offered, then confirmed a two-payment plan does exist and treated a closer who had already sold on the unapproved split as being creative rather than out of policy.",
+      "evidence": [
+        "when he was talking about splitting the payments, like in half, like for example, 3K now, and the other 3K, it's over 90 days?",
+        "No, that's not generally an option that we offer.",
+        "Exactly. Yeah, a toupee is payment 1 today, payment 2 in 30 days.",
+        "Yeah, that was like his last call that he closed. I was just watching it.",
+        "Well, that's interesting. I'll, I'll check in on him with that. But yeah, typically it's, that's not a payment option.",
+        "Yeah. That's Harry being a little creative."
+      ],
+      "timestamp": "00:14:41"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Sales operations told a new closer to improvise commercial terms on live calls when needed to get a deal through, in the same exchange in which it confirmed the terms he had asked about were not offered.",
+      "evidence": [
+        "First case, man, if you're on a call and you need to get creative, worst case, you try to make something work.",
+        "I get it, you know, especially on your first couple of calls, like, you know, if we need to get the deal through, like, but yeah, we don't want to offer someone like.",
+        "No, that's not generally an option that we offer."
+      ],
+      "timestamp": "00:16:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A call the rep missed through his own double-booking is logged in the CRM as a prospect no-show, which is stated as standard practice and biases show-rate and close-rate denominators against prospects.",
+      "evidence": [
+        "Cause I was calling him in the evening, but he didn't pick up. And then, cause I had a double booking. And I hopped on a call with the other guy, and I missed his call",
+        "So you filled this out. It put him in no-show.",
+        "Yeah, why, why is, like, because I said like I, the outcome was, yeah. Yeah. So it shouldn't be a no-show.",
+        "technically, you know, we still count it as a no-show. I mean, they maybe didn't no-show us, but like, at the end of the day, the call didn't happen."
+      ],
+      "timestamp": "00:05:31"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An AI messaging bot texts leads hands-off with no mention on this call of whether leads are told they are corresponding with automation.",
+      "evidence": [
+        "Yeah, Sales Cake is basically AI bot, right?",
+        "No, I think you can still message. You can still message them by yourself, but you don't really need to. It's designed to be hands-off, or you don't need to go and message people."
+      ],
+      "timestamp": "00:12:24"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Lead ownership in the CRM does not reflect who actually took the call — the new rep worked calls booked under another closer and had to reassign contacts and opportunities manually in two separate places afterwards.",
+      "evidence": [
+        "because like yesterday, the calls that I was taking, they were Harry's call, but he couldn't take them. So they went to me. And even afterwards, when I changed the salesperson to me, they do not appear in, in like the.",
+        "Right, so it's assigned to Harry.",
+        "you have to assign the opportunity to yourself exactly what we just did by changing Harry to you at the opportunity level. You have to do it in both places.",
+        "It might be because some of the leads from the previous salesperson got transferred over to you."
+      ],
+      "timestamp": "00:07:16"
+    }
+  ]
+}

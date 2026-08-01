@@ -1,0 +1,43 @@
+{
+  "call_id": "2026-05-29_jared-lyons_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Only referenced in passing as a value argument — 'the system that's already built around your body, your injuries, and especially your schedule' — never presented as a pillar on this call."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never mentioned on this call."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The prospect rejected the accountability layer as something he neither needs nor wants to pay for: 'the day-to-day or weekly and check-ins, like I don't think are something I'm needing or necessarily wanting. And I get that's what you guys normally do, obviously, and that's why you charge what you charge.' The rep conceded the point rather than defending it — 'you don't need some checking in on you every single day' — which removed the main justification for the price before the price was named."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I'd rather just go get my trainer in person and pay him for, you know, two or three sessions a week for the same amount of money while I'm still here, type of thing",
+      "direction": "undercuts_price",
+      "competitor": "His existing in-person personal trainer",
+      "note": "The comparison is not to a cheaper product but to an equally priced, higher-touch, in-person one. At $1,500/month the offer is competing directly against 8-12 in-person sessions, which is a losing frame and the reason the concession followed immediately."
+    },
+    {
+      "type": "self_set_price_ceiling",
+      "raw": "to pay more than $1,000 for a one-month program without all the additions seems a bit high",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He priced the deliverable he actually wants — programming only — at $1,000 and never moved. The rep had already conceded that the additions are not needed, so the prospect's valuation was internally consistent and hard to argue with."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A one-off tailored kettlebell programme built around his injuries and travel schedule, with a check-in every two weeks or once a month, at around $1,000",
+      "why_unmet": "The offer is 1:1 coaching at 6 or 12 months whose price is justified by the accountability layer he explicitly does not want. There is no tailored programming-only tier; Primal University at $200/month is self-serve and not built around his body, so it does not meet the ask either.",
+      "verdict": "product_gap"
+    }
+  ]
+}

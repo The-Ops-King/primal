@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-06-03_marian-samson_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered on this call. Training content appears only as a passing mention inside the guarantee ('you will add at least eight kilos of the starting weight of the kettlebell') and inside the delivery mechanics ('every single move, every kettlebell press, whatever, it's going to be explained in the video')."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not delivered. Nutrition surfaces only as a condition attached to the guarantee — 'If you are able to do that and follow the whole protocol of nutrition and so on' — and in an unprompted aside where the rep advises bloodwork: 'Not necessarily, but like, look, can I be honest with you? Do the blood work. It's good for you.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The prospect interrogated the accountability mechanics harder than anything else on the call and had to ask three separate times before he understood there are no live coaching calls: 'How many times we did this in a week?', then 'it's, it's, we have to talk on Zoom with him once a week or two, every second week or something like this', then 'Okay. Good. So there's no calls?' He accepted the answer ('Okay. Good.') but this was clarifying bordering on confused — the async-only model was not what he assumed he was buying."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "subscription_expectation",
+      "raw": "You know, here, everything what you pay here, never, you don't need to pay it, like, it's made, we in Denmark, you know, we do things, maybe totally different how we used to do it in the States. But he did everything, it's based on one month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect's reference point is a national norm of monthly billing, not a cheaper competitor. It undercuts the lump sum specifically — he repeatedly conceded the amount was fine and objected only to paying it at once. The rep argued against the norm on commitment grounds rather than meeting it, which is why the deal stalled on structure rather than on price."
+    },
+    {
+      "type": "prior_negotiated_price",
+      "raw": "For 5k, it's one-time. We didn't talk, we didn't discuss the monthly.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A $5,000 price agreed on an earlier call is now the live anchor, not $6,000. Every subsequent concession request is measured against $5,000, and the rep's own framing ('You're paying 1K less. Nobody gets that') hands the prospect a proof point that the list price is negotiable."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live coaching calls with the coach on a recurring cadence — weekly or fortnightly Zoom",
+      "why_unmet": "The programme is asynchronous: an app, video form-feedback, a written weekly check-in form and text access. The rep stated live calls are structurally impossible: 'It would be impossible with so many clients and so busy schedules to fit in the Zoom calls, yeah?'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To read the contract before paying",
+      "why_unmet": "The rep's sequence issues the contract only after payment — 'let's secure the payment and you will get immediately the contract' — and he deflected when asked to reverse the order. Nothing suggests the terms could not have been sent first; nobody offered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To pay in monthly instalments over the six-month term",
+      "why_unmet": "The rep refused six and four instalments outright and could only offer to ask the team about splitting in two. The playbook's own money play says 'Most clients pay upfront, but for some we break it up', so it is genuinely unclear whether the company serves this and the rep did not know.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

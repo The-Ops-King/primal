@@ -20,14 +20,13 @@
     "name": "Andrew Musial",
     "role": "closer",
     "location": "Poland",
-    "label_in_transcript": "Andrew Jin (Primal Instinct)",
     "additional_reps": []
   },
   "setter": {
     "code": null,
     "name": null,
     "confidence": "low",
-    "evidence": "No KFS/KL/DH suffix in the title and no setter is named on the call. The lead is inbound from an ad: \"what did I see that the ad was for, hey, there's, we're taking a select number of, I can't remember what it was\", plus a prior download of Trevor's Guide."
+    "evidence": null
   },
   "prospect": {
     "name": "Andy",
@@ -35,78 +34,72 @@
     "name_source": "transcript",
     "location": "New Zealand (small town); originally from the USA",
     "age": 50,
-    "occupation": "Self-employed event director — puts on his own expedition-length adventure race (one intense month a year, flexible the rest); previously a river-trip guide; recently started a new job",
-    "family_status": "Going through a separation after a 25-year marriage, on good terms ('I'm really good friends with the woman I'm separating from'); two sons, one 17 and at university studying sports science; has a twin brother who is a professional adventure racer",
+    "occupation": "Self-employed event director — runs his own adventure race; recently took a new job",
+    "family_status": "Going through a separation after a 25-year marriage; two sons, one 17 and at university studying sports science; has a twin brother",
     "height_in": 67,
     "weight_lb": 141,
     "bodyfat_pct_self_reported": 12,
-    "training_background": "Lifelong athlete. Expedition climbing when younger, then surfing and paddling, then endurance sport (Ironman-type racing), now expedition-level adventure racing (seven- and eight-day events; next one in India, at altitude). Wrote a book on using high-intensity interval training for endurance; physics degree. Currently trains roughly 8-10 sessions a week: 1-2 kettlebell days, 2 traditional lifting days, ~3 cycling days on a smart trainer, climbing 3-4 nights a week, plus three-minute bar hangs 4-5x/week and loaded carries (farmer, suitcase, racked, on a treadmill).",
+    "training_background": "Lifelong endurance and outdoor athlete — expedition climbing, surfing, paddling, Ironman-distance racing, now expedition-level adventure racing. Currently 1-2 kettlebell days, 2 lifting days, 3 cycling days and climbing 3-4 nights a week. Wrote a book on high-intensity interval training for endurance; physics degree.",
     "kettlebell_experience": "some",
-    "medical": "Bilateral hip replacements — first about four to five years ago, second roughly 18 months later, clear of surgery about two to two and a half years. Cause described as a congenital condition ('not a genetic deformity, but I have a condition') compounded by extreme endurance volume; his twin brother needed the same. Residual limitation: 'the hip socket has changed because it's artificial now. So I don't have as much surface and it can pop out more easily, and that's bad.' Also arthritic shoulders and sore elbows from heavy lifting and weighted pull-ups, and a prior back injury from deadlifting that required four weeks of physio."
+    "medical": "Bilateral hip replacements — first about 4-5 years ago, second roughly 18 months later, clear of surgery about 2-2.5 years. Underlying congenital hip condition. States the prosthetic socket 'has changed... I don't have as much surface and it can pop out more easily'. Also arthritic shoulders and sore elbows under heavy load, and four weeks of physio for his back after returning to deadlifts."
   },
   "avatar": {
-    "assigned": "skeptical_bargain_hunter",
+    "assigned": "the_optimizer",
     "confidence": 0.62,
     "signals": [
-      "Self-directed and highly capable: physics degree, wrote a book on endurance training, has taught himself most of the basic kettlebell movements from free content — 'I've taught myself most of the basic moves.'",
-      "Anchored to a cheap alternative that genuinely worked, and the alternative is Primal's own free content: 'one of the things I started doing of Trevor's that I really liked was the halo workout, he calls it 28s... made my shoulders better, and so I'm now surfing again, and without as much pain.'",
-      "Volunteered an explicit anti-premium-programme thesis: 'really it all works... what it takes is consistency... it's not like the kettlebell's a magical tool... all the other stuff is, to some extent, what flavor you want to use to get there.'",
-      "Has free expert coaching already: a twin brother who races professionally is programming his endurance block, and his sports-science-student son advises on nutrition.",
-      "COUNTER-SIGNAL toward the_optimizer: he is genuinely fit with nothing wrong ('there's nothing wrong right now'), wants good-to-great, and did not devalue the offer ('I'm not devaluing it at all'). The reason the_optimizer was not assigned is that for the_optimizer price is a quality signal rather than a barrier, and here price was the binding constraint — 'that's a substantial portion of my annual income.'"
+      "Already very fit at 50 — 12% body fat, climbs 3-4x/week, races at expedition level; says outright 'there's nothing wrong right now'",
+      "Wants skill progression and safe loading rather than rescue: 'part of it is wanting to be able to progress without hurting myself'",
+      "Rep framed him as above the usual client: 'you're not our typical client because you're way ahead'",
+      "Deviates from a pure optimizer on price — treated the fee as 'a substantial portion of my annual income', so price was a genuine barrier rather than a quality signal"
     ]
   },
   "goals": [
-    { "text": "Learn how to progress properly with kettlebells — load selection, programming and progression — instead of guessing", "category": "strength" },
-    { "text": "Progress without hurting himself; he currently picks weights that are too heavy for complexes and is wrecked the next day", "category": "injury_prevention" },
-    { "text": "Improve mobility, which he names as his single biggest weakness, around two artificial hips", "category": "mobility" },
-    { "text": "Be able to train anywhere — from his van on surf trips and road trips — with a couple of kettlebells, instead of scheduling work around gym days", "category": "convenience" },
-    { "text": "Stay strong and capable enough to keep climbing, surfing and adventure racing rather than becoming 'a cyclist that doesn't have any muscle'", "category": "hobby_performance" },
-    { "text": "Shift the balance of his training toward kettlebells because they are kinder to his joints than traditional lifting", "category": "sustainability" },
-    { "text": "Keep muscle and like how he looks, without chasing a sculpted physique", "category": "appearance" },
-    { "text": "Reconnect with who he was and what he loves doing, after subordinating those things during a 25-year marriage that is now ending", "category": "other" },
-    { "text": "Possibly become a trainer as a side business in his small town, using kettlebell knowledge as the credential", "category": "other" },
-    { "text": "Be prepared for an expedition adventure race in India at altitude — but he explicitly parks this outside the programme, as his twin brother is already coaching him for it", "category": "hobby_performance" }
+    { "text": "Learn to progress with kettlebells safely and choose correct loads instead of self-programming badly", "category": "strength" },
+    { "text": "Improve mobility, which he names as his one weakness, around two hip replacements", "category": "mobility" },
+    { "text": "Train anywhere — take a couple of kettlebells in the van on surf and road trips and keep consistency without a gym", "category": "convenience" },
+    { "text": "Keep enough muscle and capability to climb, surf and race rather than be 'a cyclist that doesn't have any muscle'", "category": "hobby_performance" },
+    { "text": "Reconnect with who he was and what he likes doing after the separation", "category": "confidence" },
+    { "text": "Possibly build a side business coaching kettlebells in his small town", "category": "other" }
   ],
   "pains": [
-    { "text": "Joint damage from traditional lifting — arthritic shoulders and elbows that ache the morning after heavy work and weighted pull-ups: 'I wake up in the morning and I'm like, why am I so sore?'", "category": "injury", "severity": "medium" },
-    { "text": "Two hip replacements leave less socket surface, so the joint 'can pop out more easily' on some movements and he has to be careful with load and range", "category": "medical", "severity": "high" },
-    { "text": "Does not know kettlebell progression, so he over-loads complexes and is excessively sore: 'sometimes I'll do complexes, and I choose way too heavy, and then I'm really sore the next day'", "category": "competence_anxiety", "severity": "medium" },
-    { "text": "Too much conflicting kettlebell material online; self-programming would cost him a lot of time: 'there's so much stuff out there, I could spend a lot of time creating my own program, and then trying to optimize that'", "category": "fragmented_solutions", "severity": "medium" },
-    { "text": "Training is tethered to a gym, so he now fits work — course-setting for the races he runs — around his gym days: 'now I'm trying to fit it around my gym days, which is silly'", "category": "training_barrier", "severity": "medium" },
-    { "text": "A hard emotional stretch around the separation; the gym has become his coping mechanism: 'it's been a bit of a coping mechanism, a positive one... it's kept me grounded. I've had a couple of tricky years.'", "category": "emotional", "severity": "medium" },
-    { "text": "Earlier hip decline cost him work and his mood — he had to stop guiding and 'started just getting depressed because I couldn't go on run'; two years of failed conservative attempts before surgery", "category": "mental_health", "severity": "low" }
+    { "text": "Joints suffer under traditional lifting — arthritic shoulders, sore elbows on weighted pull-ups, four weeks of physio for his back after returning to deadlifts", "category": "injury", "severity": "medium" },
+    { "text": "Two hip replacements limit some movements; the artificial socket 'can pop out more easily'", "category": "medical", "severity": "high" },
+    { "text": "Does not know enough about kettlebell progression — picks weights that are too heavy on complexes and is wrecked the next day", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Too much kettlebell content online to sift; would burn a lot of time building and optimising his own program", "category": "fragmented_solutions", "severity": "low" },
+    { "text": "Schedules work commitments around gym days, which he calls silly, and loses training when travelling", "category": "training_barrier", "severity": "medium" },
+    { "text": "Two separate households after the separation have left him financially stretched", "category": "other", "severity": "medium" }
   ],
   "objections": [
     {
-      "type": "affordability",
-      "raw_quote": "There is a financial concern for me at the moment. I'm very time-free and my kids are out the house, which is good, but that is a significant, that would be a significant investment for me. So I'd have to think about ways to make that, yeah, make that, make that work.",
-      "timestamp": "00:46:00",
-      "rep_response": "Ran the isolation move correctly — 'So apart from finances, like, sounds good to you, like there's nothing else?' — got a clean yes on everything except money, and then stopped. No payment plan was floated, no permission was asked for an open financial conversation, and none of the financial-picture questions (cash on hand, monthly surplus, credit cards, available credit, investments) were asked. The rep pivoted straight to scheduling a follow-up.",
-      "response_tactic": "isolate_then_defer_to_follow_up",
+      "type": "think_about_it",
+      "raw_quote": "So I will, let me think, and I can have some time to think about that, right?",
+      "timestamp": "00:43:58",
+      "rep_response": "Accepted it immediately — 'Let me know what are your thoughts' — and moved to booking a callback.",
+      "response_tactic": "accept_and_schedule_followup",
       "resolved": false
     },
     {
       "type": "other",
       "raw_quote": "Well, I have to figure out if I can run it through my business, for one. That's my first step.",
       "timestamp": "00:44:03",
-      "rep_response": "Asked a good clarifying question — 'When you say run it through your business, what do you mean exactly?' — and let Andy explain the New Zealand tax treatment, then asked for a timeline on getting an answer from the accountant. The rep did not help him build the professional-development case, offer an invoice or receipt framing, or explore whether the coaching-business angle would strengthen the deductibility argument.",
-      "response_tactic": "clarify_then_timeline_question",
+      "rep_response": "Asked what he meant, let him explain the New Zealand tax treatment, then asked for a timeline on the accountant's answer.",
+      "response_tactic": "clarify_and_timeline",
       "resolved": false
     },
     {
-      "type": "other",
-      "raw_quote": "that's really looking at about 7,500 New Zealand dollars for me because of the exchange rate. So we're, if I still had money, because I'm from the U.S. originally, so if I still had my U.S. money, would be a lot different.",
-      "timestamp": "00:48:00",
-      "rep_response": "No response at all. The rep did not acknowledge the currency conversion or reframe the number, and moved directly to booking Friday.",
+      "type": "affordability",
+      "raw_quote": "There is a financial concern for me at the moment. I'm very time-free and my kids are out the house, which is good, but that is a significant, that would be a significant investment for me.",
+      "timestamp": "00:46:00",
+      "rep_response": "Isolated it — asked whether anything besides finances was in the way — then went straight to booking Friday. No payment plan offered and no financial picture taken.",
+      "response_tactic": "isolate_then_defer",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "that's really looking at about 7,500 New Zealand dollars for me because of the exchange rate... that's a substantial portion of my annual income, so I just have to think about that",
+      "timestamp": "00:47:20",
+      "rep_response": "No rebuttal or reframe; acknowledged and scheduled the follow-up.",
       "response_tactic": "none",
-      "resolved": false
-    },
-    {
-      "type": "think_about_it",
-      "raw_quote": "So I will, let me think, and I can have some time to think about that, right?",
-      "timestamp": "00:43:58",
-      "rep_response": "Granted it immediately — 'Let me know what are your thoughts on that, so we can...' — and booked a call for Friday at 6.30pm New Zealand time. None of the Objection A moves were run: no 'do you feel what we've gone through CAN get you there', no 'thinking isn't the problem, deciding is', no 'are you sure, nothing else keeping you from being 100% in'.",
-      "response_tactic": "grant_the_delay_and_book_follow_up",
       "resolved": false
     }
   ],
@@ -114,38 +107,42 @@
     "presented": true,
     "presented_on_prior_call": false,
     "tiers": [
-      { "months": 3, "price_usd": 4000 },
-      { "months": 6, "price_usd": null },
-      { "months": 12, "price_usd": null }
+      { "months": 3, "price_usd": 4000 }
     ],
     "recommended_tier_months": 3,
     "payment_plan_offered": false,
     "payment_plan_structured_live": false,
     "payment_plan_terms": null,
     "guarantee_mentioned": null,
-    "prospect_financials": null
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial picture was taken. Prospect volunteered only that $4,000 USD is about NZ$7,500 and 'a substantial portion of my annual income', and that expensing it through his business would net it to roughly $2,800 USD."
+    }
   },
   "outcome": {
     "disposition": "follow_up",
-    "confidence": 0.95,
+    "confidence": 0.93,
     "close_rule_applied": null,
     "evidence": [
-      "No payment, no verbal agreement, no payment link. Andy asked for time: 'let me think, and I can have some time to think about that, right?'",
-      "A concrete next call was set and confirmed: 'So how about on Friday if we schedule a call at 6.30 p.m., your time?' ... 'Okay, so 6.30pm, Friday, 29. Okay, so I will set up a meeting and you'll get the invite through your email.' Andy confirmed: 'Cool. Perfect.'",
-      "Two real, named blockers remain open: an accountant's answer on whether the fee is deductible as professional development in New Zealand, and whether he wants to spend what he calls a substantial portion of his annual income.",
-      "Positive signal — full needs agreement on everything but money: 'apart from the finances, the three months of, yeah, three months is good. Everything else, the way that it works and what I think I would get out of it are good.'",
-      "Counter-evidence against optimism: he twice framed the price as larger than expected ('probably I had thought that it would be quite that expensive'), converted it to ~NZ$7,500, and called it a substantial portion of annual income. The financial constraint is real, not a stall, and it was never worked."
+      "Prospect asked for time: 'let me think, and I can have some time to think about that, right?'",
+      "Two blockers left open — accountant confirmation on expensing it, and whether he can afford it at all",
+      "Rep booked a specific callback: '6.30pm, Friday, 29... I will set up a meeting and you'll get the invite through your email'",
+      "Counter-evidence that this is warmer than a cold follow-up: 'apart from the finances, the three months of, yeah, three months is good. Everything else, the way that it works and what I think I would get out of it are good.'",
+      "No payment taken, no payment link sent, no verbal agreement to proceed"
     ],
     "cash_collected_usd": 0,
     "cash_collection_basis": null,
-    "next_step": "Follow-up call booked for Friday 29 May, 6.30pm New Zealand time; rep to send the calendar invite by email. Andy to email his accountant this week about expensing the programme through his business as professional development, and to decide whether he wants to make the investment."
+    "next_step": "Callback Friday the 29th at 18:30 New Zealand time, after he asks his accountant whether the program can be expensed through his business."
   },
   "notable": {
-    "note": "Four things a manager should look at. (1) PRICING DEVIATION: the rep quoted a three-month tier at $4,000 USD. The documented offer is $6,000 / 6 months and $9,000 / 12 months; a three-month tier does not exist in it. He also volunteered 'we have like three tiers' and 'most of the guys go for the 12-month and six-month.' Someone needs to confirm whether a $4,000 / 3-month product is sanctioned. (2) PROACTIVE DOWN-SELL: the rep talked the prospect off the standard tiers unprompted and before any price was on the table — 'Most of the guys go for the 12-month and six-month, but that's not for you, in my opinion, because you're already in kettlebells... My advice would be go with the three-month program.' He then still lost the deal on price, so the discount bought nothing. (3) FRAME INVERSION: at 00:09:07 the rep disclosed that he personally needs a hip replacement and asked the prospect for advice — 'Would you advise someone to go for it? Because I have to do it too... That's me. I'm waiting at least five, 15 years.' The prospect then coached the rep for roughly three minutes. Discovery never recovered its authority after this. (4) The prospect's two artificial hips, with a stated dislocation risk, were never addressed in the training-and-mobility pillar despite being the one clinical fact that governs whether he can do the programme — the same clinical blind spot already logged as a known gap in the script. Also: the prospect's name is 'Andy' only; no surname was ever given, and the file title contains the rep's name plus a Polish Zoom string rather than the prospect's."
+    "note": "Rep quoted an off-menu three-month tier at $4,000 USD and actively steered the prospect off the standard packages — 'Most of the guys go for the 12-month and six-month, but that's not for you, in my opinion'. Separately, the prospect has two hip replacements and arthritic shoulders and was pitched loaded ballistic kettlebell work with no clinician clearance sought; the rep also asserted that joint damage is 'impossible' with kettlebells."
   },
   "quality": {
     "diarization_reliability": "low",
     "speaker_label_swaps_detected": true,
-    "notes": "Extensive and sustained inversion; roles were resolved from content throughout. Whole passages sit under the wrong label — for example the block at 00:02:34 attributed to 'Andrew Jin (Primal Instinct)' ('I have two sons and they started getting into that age, like 14, 15... so I rejoined the gym with them') is unmistakably Andy, and the entire pillar presentation from roughly 00:35:31 to 00:39:32 ('Trevor probably could mainly fine-tune it', 'third piece, the accountability', 'you get his phone number') is attributed to Andy but is unmistakably the rep. The pricing exchange around 00:42:00-00:43:08 alternates incorrectly, with 'My advice would be go with the three-month program' landing under Andy's label and 'that sounds about the right amount of time' landing under the rep's. Prospect connection quality was also poor — he joined from a phone, dropped and froze several times, and the rep asked him to return to a room. Separately, the rep's display label reads 'Andrew Jin (Primal Instinct)' while the file title, the Drive folder and the stated location (Poland) all point to Andrew Musial; recorded as Andrew Musial, flagged for a human to confirm the two names are the same person."
+    "notes": "Labels invert repeatedly and for long stretches. The whole hip-surgery exchange around 00:09:00 is reversed — the rep is the one who says he needs the surgery and the prospect is the one advising him — and the entire pillar presentation from roughly 00:35:30 to 00:39:30 is attributed to the prospect. The rep is labelled 'Andrew Jin (Primal Instinct)' while the Drive folder is 'Andrew Musial'; treated as the same rep. The prospect's surname is never stated."
   }
 }

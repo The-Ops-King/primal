@@ -1,0 +1,202 @@
+{
+  "call_id": "2026-06-03_fletcher-koder_andrew-musial",
+  "source": {
+    "drive_file_id": "13ZEbHswwEMnMZGJKPM861uEWr7khoslR",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/03/2026 - Fletcher Koder x Andrew Musial KFS",
+    "display_title": "06/03/2026 - Fletcher Koder x Andrew Musial KFS — Follow Up",
+    "file_size_bytes": 60747
+  },
+  "call": {
+    "date": "2026-06-03",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 76,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I had a talk with Kim. He spoke to you the other day. So he briefed me in a bit, but, you know... I'm old and kind of old-school, so I would like to hear it from you"
+  },
+  "prospect": {
+    "name": "Fletcher Koder",
+    "aka": null,
+    "name_source": "title",
+    "location": "Australia — living in mine-site camp accommodation on a two-weeks-on, two-weeks-off roster",
+    "age": 25,
+    "occupation": "Underground miner — 12-hour shifts, two weeks of days then two weeks of nights, roughly two years in the role",
+    "family_status": "Engaged; lives with his fiancée when off-site and wants children with her",
+    "height_in": 70,
+    "weight_lb": 209,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Currently training with a personal trainer on a machine-based bodybuilding programme in the site gym, which he dislikes. Previously did F45 and boxing and preferred both. Has lost a noticeable amount of weight over the last six months without measuring it — owns no scale, judging by how clothes fit. Long history of losing about 10 kg and regaining it. No calisthenics or bodyweight work at present. Target weight mid-to-low 80s kg, having been under 90 kg only once in adulthood.",
+    "kettlebell_experience": "some",
+    "medical": "Born with bilateral club feet and had multiple corrective surgeries on each foot, at approximately ages 6, 10 and 14. Now flat-footed with low ankle flexibility and cannot perform a deep squat without his heels raised. Long history of physiotherapy but has not attended in a long time. Severe shoulder and shoulder-blade restriction — 'I've got no real range of movement there' — which crepitates constantly. No other chronic conditions and nothing hereditary, both asked and answered. He has not disclosed the foot condition to his employer."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.75,
+    "signals": [
+      "PROPOSED LABEL: 'the_early_career_aspirant'. Twenty-five, two years into a well-paid but early career, has never been fit at any point in his life, and carries very high emotional buy-in against a genuine and stated inability to pay. None of the listed avatars fit: he has no former self to rebuild toward, no referral, no pre-existing cheap alternative he chose on value grounds, and no medical blocker being used as the objection.",
+      "'I've always been overweight my entire life' and 'I've never been attractive, I guess, physically, for the most part.'",
+      "Affordability is real rather than positional: 'just to pay for this, it's going to take pretty much a whole month of my salary post-tax' and 'in my current financial state, it is impossible.'",
+      "Arrived without any price expectation at all: 'going into this, I was under the impression that I was just going to be like free for some reason.'",
+      "Distinct from skeptical_bargain_hunter — the cheaper alternative he ended up leaning toward was introduced by the rep in the last five minutes, not carried into the call."
+    ]
+  },
+  "goals": [
+    { "text": "Get down to mid-to-low 80s kg from about 95 kg and hold it", "category": "fat_loss" },
+    { "text": "Build an athletic, toned physique rather than a bodybuilder's — he names Trevor as the reference, 'a more toned-down version of that'", "category": "appearance" },
+    { "text": "Fix lifelong inflexibility, particularly shoulders and ankles, enough to actually do yoga", "category": "mobility" },
+    { "text": "Feel confident in his own body for the first time — 'I'd want to know what it feels like to be more confident in my own body'", "category": "confidence" },
+    { "text": "Get his health together for his fiancée and the children they plan to have", "category": "longevity_family" },
+    { "text": "Be able to join his mates bouldering, hiking and surfing without being embarrassed by his physicality", "category": "hobby_performance" },
+    { "text": "Demonstrate self-discipline as a career signal — 'the first thing you can do to show anyone that you can be committed is to commit to yourself'", "category": "other" }
+  ],
+  "pains": [
+    {
+      "text": "Born with club feet, multiple corrective surgeries as a child, now flat-footed with low ankle flexibility and unable to squat deep without heels raised",
+      "category": "medical",
+      "severity": "high"
+    },
+    {
+      "text": "Effectively no range of movement in the shoulders and shoulder blades, constantly cracking",
+      "category": "injury",
+      "severity": "high"
+    },
+    {
+      "text": "Repeated cycle of losing about 10 kg then regaining it, driven by weekend drinking and the hangover write-off days that follow",
+      "category": "consistency",
+      "severity": "high"
+    },
+    {
+      "text": "No durable accountability — describes his fiancée as the first permanent person to hold him to it, 'who isn't just a PT or a parent'",
+      "category": "accountability_gap",
+      "severity": "high"
+    },
+    {
+      "text": "Dislikes his current machine-based bodybuilding programme and his trainer, who rejects his suggestions without explaining why",
+      "category": "training_dissatisfaction",
+      "severity": "high"
+    },
+    {
+      "text": "Long-standing low self-worth about his body; historically bought friends drinks to derive value in friendships",
+      "category": "emotional",
+      "severity": "high"
+    },
+    {
+      "text": "One meal a day on site because there is no time to eat underground — legal breaks exist but nobody takes them",
+      "category": "nutrition_habit",
+      "severity": "medium"
+    },
+    {
+      "text": "12-hour underground shifts from a 4:30am start leave him too depleted to train consistently; the site gym has limited machines and contention for them",
+      "category": "training_barrier",
+      "severity": "medium"
+    },
+    {
+      "text": "Roughly seven hours of sleep by design, with energy dips whenever the pace drops",
+      "category": "sleep",
+      "severity": "medium"
+    }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "actually, to be honest, going into this, I was under the impression that I was just going to be like free for some reason. Free. And then, I don't know, that's what I thought.",
+      "timestamp": "01:02:08",
+      "rep_response": "PROPOSED LABEL: 'expected_free'. The rep did not treat this as a qualification failure to be understood; he answered with a rhetorical question, 'Does your PT also work for free?', and moved straight back into the commitment reframe. The gap between what the setter left the prospect expecting and a $6,000 price was never addressed.",
+      "response_tactic": "rhetorical_comparison",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "A bit out of my price range at the moment.",
+      "timestamp": "00:56:31",
+      "rep_response": "Isolated correctly and immediately — 'finances aside, let's put that for a pause for a second... do you genuinely believe that this can actually get you to the goal that we just covered?' — and ran the how-not-whether reframe near-verbatim. He then asked permission for an honest financial conversation and got it, but took almost none of the financial picture: he asked once whether the prospect had the full amount or part of it, accepted a non-answer, and never asked about monthly surplus, credit cards, available credit, or investments. He went to a discounted tier instead.",
+      "response_tactic": "isolate_then_should_vs_how_then_discount",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I'm trying to save money at the moment, and a big amount like that will not go down well with the misses.",
+      "timestamp": "01:00:25",
+      "rep_response": "Partially played. He probed the contradiction ('Why? I thought you said that she's supportive') and asked the strongest available question — 'Is she aware of everything that we actually went through today, like in depth?' — which is not in the script and is better than most of what is. He then abandoned the thread rather than finishing it. He never asked what obstacles she would raise, never asked whether she would want him stronger, never offered the deposit-and-refund fallback.",
+      "response_tactic": "probe_contradiction_then_abandon",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "the decision about how much it's going to cost me, or whatever, financing, or however the decision may come up, it's something I'm not going to decide tonight, and it's something I do need to sleep upon.",
+      "timestamp": "01:03:39",
+      "rep_response": "Ran a partial OA. He used the tomorrow-never-comes move ('there's always putting it off like tomorrow i'm gonna go to the gym... there's no tomorrow it's only today man') and a risk-minimisation frame ('you can commit today and you can quit tomorrow... 200 that's what you're risking'). He did not ask what was actually coming up that prevented starting, and the prospect held: 'I'm not making any decisions tonight.'",
+      "response_tactic": "tomorrow_never_comes_plus_risk_minimisation",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "No, no, no, no, no, I gotta go. I gotta go to sleep.",
+      "timestamp": "01:10:07",
+      "rep_response": "The rep did not accept it. He answered 'Hang on, hang on. Last question. Let me finish. Let me finish' and continued for a further six minutes, including a screenshare and a second offer. Earlier in the same sequence he had answered 'I need to go to bed. I've got to get up in less than eight hours. I need my sleep' with 'Do you want me to give up on you that easy?' and had countered 'Would you not agree that getting a good sleep is important?' with 'Of course, but we're talking also of a bigger picture right now.'",
+      "response_tactic": "override_and_continue",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "Yeah, I think between the two options, this is definitely something I'm leaning towards more.",
+      "timestamp": "01:13:08",
+      "rep_response": "Accepted and encouraged. The rep positioned the $199-per-month community as a staging post — 'that would allow you to actually start training, introduce yourself to kettlebells fully, and when you get more cash on your hand, you can always come back and have it dialed in' — having already told the prospect it lacks accountability and is not built around his schedule, which are the two things this prospect had just identified as his core need.",
+      "response_tactic": "downsell_to_self_serve_tier",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan was structured. The rep said 'we don't have any set payment plans in place, like, it's all customized depending on, like, what's best for our client' and then never proposed terms. When the prospect asked directly, 'Okay, but if we would split it up, for example?', the prospect answered his own question and the rep did not counter with anything concrete.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "disclosed": "Actively saving and has other financial responsibilities he says must come first. States the $4,000 three-month tier is close to a full month of post-tax salary, implying roughly $4,000-6,000 USD equivalent monthly net. Broke $6,000 down himself as $1,000/month, $250 USD/week, about $400 AUD/week, and said he cannot afford that. Concluded 'in my current financial state, it is impossible.'"
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no verbal agreement to either coaching tier.",
+      "Prospect on the core offer: 'I just can't afford that' and 'in my current financial state, it is impossible.'",
+      "Prospect on the three-month tier: 'I think maybe it's too premium of an offer for what I'm looking for, or what I can afford.'",
+      "A future contact was agreed by both sides, which is what makes this follow_up rather than lost: rep 'Let me get back to you on Friday', prospect 'Yeah, I'm around, sleep on it.'",
+      "Counter-evidence toward a close on the low tier: he was warm on the $199/month community — 'that seems like something I'd be ready to commit to tomorrow' — but explicitly refused to transact on the call, 'I don't want to spend 200 USD when I'm tired as hell.'",
+      "Counter-evidence toward lost: he never conceded on the coaching offer at any price point across three separate figures, and closed the call by turning the rep's own framing back on him: 'all the conversation you're saying about standing up for yourself and committing goes both ways.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to call back on Friday. The realistic live opportunity is the $199/month Primal University community, not the coaching programme."
+  },
+  "notable": {
+    "note": "The strongest discovery in this batch run against the weakest ICP fit in it. The rep did genuinely excellent work through phases 2 to 4 and got the prospect to a real insight about deriving self-worth from buying friends drinks. Then the price landed on a 25-year-old who had arrived believing the programme was free, and the offer descended $6,000 to $4,000 to $199/month in about seventeen minutes on affordability alone. Two things a principal should see beyond the price ladder. First, a prospect with bilateral club feet, multiple childhood foot surgeries, no ankle dorsiflexion and effectively no shoulder range of motion was moved toward loaded kettlebell training, and finally toward an unsupervised self-serve version of it, without anyone asking whether a clinician had cleared it. Second, the last fifteen minutes were transacted against a man who had been awake nineteen hours, had just finished a twelve-hour underground shift and had another starting in under eight, and who asked to end the call at least five times."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained mislabelling, worst in the middle third. Whole rep passages are attributed to Fletcher: the compound question block from roughly 00:08:57 through 00:11:26 covering club feet, surgeries and physiotherapy is a single Fletcher-labelled run containing both sides; the entire 00:39:00 block opening 'okay so definitely we don't want to stay at the place where you're at' is the rep under Fletcher's label; the 01:14:00 block is a Fletcher-labelled run that actually contains the rep's tomorrow-never-comes push and Fletcher's refusals interleaved. Conversely 'How's your day been so far, Fletcher?' at 00:00:24 is labelled Fletcher. Roles were resolved from content throughout. Timestamps are reliable; attribution is not. Sound quality also drops around 00:51:00 and 00:55:00 with several unrecoverable fragments in the nutrition pillar."
+  }
+}

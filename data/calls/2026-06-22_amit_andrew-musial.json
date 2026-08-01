@@ -1,0 +1,141 @@
+{
+  "call_id": "2026-06-22_amit_andrew-musial",
+  "source": {
+    "drive_file_id": "1NkY7VC2xAzde7VdrfkIj0b0uRXKXh1yo",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/22/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 40271
+  },
+  "call": {
+    "date": "2026-06-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 39,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I've think Kim mentioned to me that you have a pretty packed schedule."
+  },
+  "prospect": {
+    "name": "Amit",
+    "aka": "Amit's iPhone 17 Pro Max",
+    "name_source": "transcript",
+    "location": "Houston, Texas, USA (confirmed Central time)",
+    "age": 49,
+    "occupation": "Manages research labs across an academic institution in Houston — life science and cancer research. Former bench researcher, now on the administration side. Desk-bound, sitting most of the day since COVID.",
+    "family_status": "Married. One child, aged 10, starting middle school. Wife described as fully aligned and supportive and as handling the household's food.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Indian origin, vegetarian household with occasional eggs and chicken once or twice a week. Owns home exercise equipment. Has used app-based programmes — the Better Me seven-minute workout, and has looked at Ladder and Men's Health. Currently 8,000-12,000 steps a day and roughly 550 calories burned, mostly walking and a stationary bike. Has been trying to train consistently for four to five years without it sticking. Describes having had 'no relationship at all' with the gym. No confirmed kettlebell use — he refers only to liking that the programme needs one or two kettlebells.",
+    "medical": "Occasional mild knee pain and intermittent back pain that 'comes and goes', which he attributes to age rather than any diagnosed condition. Separately disclosed unspecified health issues in the last two to three years that involved being tested and waiting on results, and a loss of strength during recovery — he characterised these as 'nothing major' and gave no further detail. No named diagnosis, no medication, no clinician mentioned. States an explicit goal of no hypertension, no diabetes and no medication going forward."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.68,
+    "signals": [
+      "Goal is holding function rather than gaining anything: 'I need to function the way I'm functioning now, moving forward.'",
+      "Highly health-literate by profession — runs cancer research labs and volunteers the exercise-and-cancer-risk evidence himself",
+      "Explicitly preventive rather than triggered by an event: 'I'm being proactive.' No crisis, no injury, no diagnosis pushed him onto the call",
+      "Nominal professional income but constrained discretionary liquidity — competing 3K-4K certifications and September travel, and a stated fear of being 'outstretched at the end of four or five months'",
+      "Counter-signal for the_optimizer: he is not already fit and price is clearly a live barrier, so the optimizer profile does not hold",
+      "Counter-signal for the_preserver: he is 49 rather than older, is on no medication and is not medically managed, and he does want to gain — muscle and a better shirtless physique. Confidence held down accordingly."
+    ]
+  },
+  "goals": [
+    { "text": "Physical independence into old age with no long-term ailments, no hypertension or diabetes and no medication — 'age gracefully, stay independent until the very last minute'", "category": "longevity_function" },
+    { "text": "Enjoy life, be around family and friends and do fun things without being crippled or handicapped at an early age", "category": "longevity_family" },
+    { "text": "Stay active enough to keep up with his ten-year-old son rather than being the dad on the couch at 55", "category": "family_role_model" },
+    { "text": "Stay within a healthy weight and build a good physique — wants to look attractive shirtless and not have his chest sitting further in than his stomach", "category": "appearance" },
+    { "text": "Build real strength through strength training, having concluded walking and a stationary bike are not enough", "category": "strength" },
+    { "text": "Learn the movements correctly and build muscle memory so he knows he is doing them right", "category": "confidence" },
+    { "text": "Something simple to start with that helps him stay consistent, at least in the beginning", "category": "consistency" },
+    { "text": "Minimal equipment and the flexibility to train at home rather than committing to a gym", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "No feedback loop — 'I will do the workouts that are shown in the videos and whatnot, but I have no clue whether I'm doing it right or wrong. There is nobody there to correct me.'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Four to five years of attempts that have not stuck — 'it's either not consistent or be more importantly, not tailored'. Something always comes up: work, family, or a major life challenge", "category": "consistency", "severity": "high" },
+    { "text": "App-based programmes hit a ceiling — good for getting the heart rate up for ten or fifteen minutes and nothing beyond that", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Fear of looking incompetent training — 'if you don't do the gym right, you look a little awkward. And I don't want to be that person'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "No relationship with the gym at all, and a desk job with almost no movement since COVID", "category": "training_barrier", "severity": "medium" },
+    { "text": "Schedule runs 5:30am to as late as 7pm through the school year, leaving only evenings", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Ageing and joint concern — 'I need to move with my age also... make sure I take care of my joints and all my health overall'", "category": "aging", "severity": "medium" },
+    { "text": "Repeated unspecified major life challenges over two to three years, one after the other, that derailed training each time. Proposed label: life_disruption", "category": "other", "severity": "medium" },
+    { "text": "Health issues in recent years that involved being tested and worrying about results, and losing strength during recovery — 'by the time you recover, your strength is nowhere as it was before'", "category": "medical", "severity": "medium" },
+    { "text": "Occasional knee pain and intermittent back pain, self-attributed to age", "category": "injury", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "So with that amount, okay, well, let me give it a thought, because I am also looking into my, some of my certifications at the same time. So… So when can we pick this up? Like, how long do I have if I have to get back to you on this before we actually start, commit, and move forward with this?",
+      "timestamp": "00:31:48",
+      "rep_response": "Isolated correctly before engaging — checked whether anything other than money was in the way, confirmed it was purely financial, then asked for the timeframe. Did not run any of the Objection A moves.",
+      "response_tactic": "isolate_then_defer",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "No, mainly are the certifications, we have travel also coming in, I think somewhere in late September, so that travel, which basically is out. So that's a big, hefty commitment. And each of the certifications that I'm looking forward to, there are easily 3K or 4K or more.",
+      "timestamp": "00:33:45",
+      "rep_response": "Gestured at flexibility — 'we have various ways we can work around the finances, like I would say most of the guys take it upfront, but if that's your case that you have some other obligations, we can talk about it' — then asked one soft financial question and, when the prospect could not answer it, booked a second call instead of structuring anything.",
+      "response_tactic": "flexibility_hint_then_rebook",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I just need like that time to make sure that I have things at least turned out in a way that I'm not outstretched at the end of, you know, four or five months. So that's pretty much it. I needed mainly the time.",
+      "timestamp": "00:34:50",
+      "rep_response": "Accepted the request for time without challenge. Proposed two days; the prospect countered with a week; the rep took the week immediately and moved to calendaring.",
+      "response_tactic": "concede_and_calendar",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Stated as an afterthought — 'I forgot to mention this one thing, there's a guarantee also, because if for some reason you wouldn't reach your goals, which is, and it's like you're a scientist, and it's science over here, over six months, you will add at least, it's like around 18 pounds of weight with your baseline kettlebell, and if you dial in the nutrition and everything, the fat loss, and everything just comes naturally. And if for some reason that wouldn't happen, Trevor is going to work with you until that happens.' No written terms, no conditions and no client-side qualifying requirements were stated.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.94,
+    "close_rule_applied": null,
+    "evidence": [
+      "Price was presented at $6,000 for six months and the prospect did not object to the number itself — he asked only to clarify the structure: '$6,000 for six months. So $1,000 a month?'",
+      "Prospect confirmed full non-financial commitment when isolated: 'Nothing else. Like, everything that we discussed at this point, I don't think so anything else... So yes, definitely, logistical. Financial one is the one that I have.'",
+      "No payment was requested, no card was asked for and no payment link was sent.",
+      "A second call was booked for 1 July at the same time, and a Zoom invite was confirmed as received during the call.",
+      "Counter-evidence on strength of intent: the prospect moved the follow-up from the rep's proposed two days out to a week, and named two competing spends — certifications at 3K-4K each and September travel — with no commitment that either would resolve in the programme's favour."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Second call booked for 1 July 2026, roughly 11am Central, same Zoom link. Prospect to review his finances and competing commitments; rep to discuss how the payment could be structured."
+  },
+  "notable": {
+    "note": "The strongest discovery in the batch to this point — occupation, diet, energy, injuries, past attempts and root cause were all genuinely worked, and the why was driven through to independence, the son and the wife. It then fell apart at exactly the two places the playbook is heaviest: no consequence frame at all, and the commitment check was run after the price rather than before it. When the prospect asked for time the rep conceded a week without resistance. Separately, the prospect asked a direct question about platform security for the personal training videos he would be uploading, and the rep answered a different question. The rep also volunteered a causal claim about cancer to a man who runs cancer research labs."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion on short turns and on several extended passages. Whole rep questions are attributed to the prospect — 'Now, when you say age gracefully, what does it mean, like, to you specifically?' and 'Now, those abs that you tried and like, how long have you been trying that?' are labelled to the prospect's device but are clearly the rep. The closing exchange where the rep's own name is confirmed is inverted, with 'Andrew Musial' appearing under the rep label and 'Musial? Did I say it right?' under the prospect's. Roles read from content throughout. The prospect appears only as a device label, 'Amit's iPhone 17 Pro Max', and his surname is never spoken."
+  }
+}

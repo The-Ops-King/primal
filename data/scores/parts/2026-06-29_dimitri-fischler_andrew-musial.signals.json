@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-29_dimitri-fischler_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented in compressed form from 00:11:08 — online delivery, three to four workouts a week, 30 to 40 minutes, tailored to the goal, movements learned by recording himself for Trevor to correct. Notably the mobility half was never presented at all on this call; no mobility protocols, no ranges of motion, none of the material that appears in every other call in the batch. The prospect's engagement was entirely about mechanics and scope: \"He only offers that one program where it's just one-on-one with him?\", \"is it okay with two sessions a week, or is that not enough?\", \"Where is he based, actually?\", and twice checking the delivery model — \"But it's not like… the sessions are by myself, right? It's not with…\" Clarifying: he was working out what he would actually be buying, not reacting to the method."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The prospect prompted this pillar himself rather than receiving it — \"What's the nutrition about? It's like planning every meal for the week?\" — which the rep answered with the standard what/when/how-much model plus the eight-hour window and the weekly free meal. He engaged concretely and constructively, testing it against his own habits: \"When I eat out, yes, sometimes I'll have a burger and fries\" and \"very often, you know, I'll have good food outside. You know, I'll have a nice piece of fish with green beans and sweet potato.\" On the fasting element he accepted the premise and named his own barrier: \"I know the science behind it, and I know it's excellent. It's just a question, habit, and schedule, and you know, I haven't really achieved that yet.\" That is the clearest statement of need on the call and it went unworked."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:17:44 as the app, weekly check-ins covering training, sleep and recovery, video form review, Trevor's personal number and a 90 percent adherence target with virtual door-knocking on missed sessions. The prospect had teed this up perfectly four minutes earlier by naming self-discipline as his central problem, and the rep connected the two (\"this is actually where Trevor comes in handy because he's keeping you accountable\"), to which he replied \"Yeah, of course.\" After the full presentation his entire response was \"I see. All right\" followed immediately by the refusal. Accepted rather than enthusiastic: he agreed with it, asked nothing, and it did not move him. The pillar that most directly answered his stated problem produced the least engagement of the three, which is the signal worth carrying forward."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "explicit_price_anchor",
+      "raw": "even if it was $600, I'm not sure I would be able to tell you right now, yes... If it was $600 for six months. Maybe I could say, yalla, go, let's do it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A stated willingness-to-pay of roughly one tenth of list, volunteered unprompted. The rep's counter — that a cheap programme is easy to skip — is the right argument in principle, and the prospect dismantled it in six words: \"$600 is nothing either.\" Note the anchor came with an important caveat the rep did not pick up: even at $600 he would not have committed on the call, which means the block was not purely price and the financial-versus-commitment diagnostic he had just run should have led somewhere."
+    },
+    {
+      "type": "incumbent_paid_coaching",
+      "raw": "I basically have been working out for the last three months in a small gym with a private coach... He basically tells everyone what to do, which exercises to do. It's been very good, but it's expensive as you can imagine.",
+      "direction": "undercuts_price",
+      "competitor": "Unnamed semi-private group coach, 6-8 students",
+      "note": "The most important anchor on the call and it was never touched. He is currently paying for supervised training, rates it highly, and is stopping specifically because of cost — so the reference point for $6,000 is a service he already judged too expensive, and the direction of travel is downward. The rep never asked what it costs, what it delivers, or what he expects to lose when it ends next week. This is the documented cheaper-alternative-that-worked gap presenting in its purest form."
+    },
+    {
+      "type": "self_serve_substitute",
+      "raw": "I'm finishing the sessions with the private coach next week, and I'm hesitating between either doing workouts at home or signing up to a gym and doing exercises by myself. So I'm going to try either of those two things.",
+      "direction": "undercuts_price",
+      "competitor": "Gym membership or unsupervised home training",
+      "note": "He arrived with a decision already framed as a two-way choice between cheap options, and Primal was never positioned as a third. He also stated the reason both will probably fail — \"The big question for me is the question of self-discipline, something I know I lack in certain areas\" — which is precisely the case against both substitutes and the case for the accountability pillar. The two halves were named a minute apart and never connected."
+    },
+    {
+      "type": "monthly_reframe",
+      "raw": "So it's $1,000 per month.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect converted the lump sum to a monthly figure himself and the rep agreed with \"You could say it so, yeah\" — but no monthly option was then offered, so the reframe led nowhere. Recorded as mildly supportive because the prospect reached for the denomination that made the number tolerable, which is the same behaviour that made the price acceptable on the Siddiq Farid call. Here it was noticed and not used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A smaller, shorter or lower-commitment version of the programme — explicitly, whether two sessions a week would be enough and whether anything other than the six-month one-on-one exists.",
+      "why_unmet": "He asked twice and clearly. The answer is that there is only one product: \"Yes. That's a full transformation in six months working with him.\" No shorter term, no lighter tier, no group option and no self-guided version exists to offer. This is a genuine gap in the range rather than a positioning failure — a prospect actively asking to buy less had nothing he could be sold.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Help building the habit and schedule for intermittent fasting, which he understands intellectually but has never managed to implement.",
+      "why_unmet": "He named it precisely — \"I know the science behind it, and I know it's excellent. It's just a question, habit, and schedule, and you know, I haven't really achieved that yet\" — and the rep answered with reassurance that everything is done step by step and moved on to the weekly free meal. The programme almost certainly does phase the eating window in; the rep himself described doing exactly that for his own transition from 12 to 10 to 8 hours. Nobody connected that to the prospect's stated barrier.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Something that solves the self-discipline problem he identifies as his central obstacle, in a form he can afford after ending paid coaching.",
+      "why_unmet": "The accountability pillar answers the first half and the offer does not answer the second. He is leaving supervision because it is expensive and being offered supervision at roughly ten times his stated tolerance, with no payment structure of any kind put on the table. The need is real and served; the commercial shape around it was never adjusted to reach him.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

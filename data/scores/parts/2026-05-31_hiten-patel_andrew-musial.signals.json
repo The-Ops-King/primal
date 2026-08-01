@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-05-31_hiten-patel_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Pitched directly at his back — 'you're gonna feel less stiff, especially in the lower back sections. So it will allow you to feel better at work' — and at the hobbies he had lost. Response was unqualified: 'Yeah, I think it will, 100%.' He raised no questions about how loaded kettlebell work would interact with two herniated discs, and neither did the rep."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Sounds good to me.' He had already conceded the problem in detail ('it's a lot of eating out, that's the problem ... I don't have meal plans anymore'), so the pillar landed on ground he had already given up. The one exchange with any texture was the rep asking his comfort food and getting 'Tacos', which was then folded into the once-a-week balanced meal."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'That's good, yeah.' The pillar itself drew a mild response because the work had already been done ten minutes earlier, off-script, when the rep asked 'will you let me keep you accountable?' and got 'Yeah. 100%.' The prospect had also asked for exactly this unprompted: 'I know it needs to be me that needs to do it, but sometimes having somebody else to help you get there is also what I want.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "business_financing_threshold",
+      "raw": "in order for me to get a dental loan, which is what I want, like a small business loan, they want to see $80,000 to $100,000 saved. And so part of me is saving money for that loan.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The dominant anchor and the one the script has no answer for. The $6,000 is not measured against other coaching, it is measured against a bank's balance requirement with a third party deciding the outcome. Every dollar spent pushes the practice opening further out, which is the same goal the rep was using to build urgency."
+    },
+    {
+      "type": "committed_relocation_fund",
+      "raw": "I'm moving to New Jersey in August, September ... So I saved, I'm saving $8,000 for that. And so that $6,000 will take away from that. And so now I'll like $2,000 left for that.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A precise, near-term, non-negotiable claim on the same money. He did the arithmetic on the call and the rep's response — 'that would be like just slowing you a bit' — did not engage with it."
+    },
+    {
+      "type": "prior_coaching_cost",
+      "raw": "It was like a trainer that gave me like a PDF, I did it for a bit, and then I just don't do it anymore ... I've never had somebody one-on-one tell me how to do things",
+      "direction": "undercuts_price",
+      "competitor": "A previous trainer selling PDF programmes",
+      "note": "His only reference point for paid coaching is a document. He has never bought one-to-one coaching and said so, so he had no frame for what $6,000 buys, which is exactly why the number surprised him."
+    },
+    {
+      "type": "self_stated_value",
+      "raw": "Is it financially a lot? 6,000? I think it's reasonable. I think it's fine. I just don't think it's enough for me to be okay financially right now.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A rare explicitly supportive anchor: the price was not contested on value at all, only on liquidity and timing. He separated the two himself, which is the cleanest possible signal that this is a payment-structure problem rather than a positioning one."
+    },
+    {
+      "type": "existing_equipment_and_affinity",
+      "raw": "I follow Trevor on Instagram, and then kettlebells, I have 5, 10, 15, 20, 25, 30, 35 kettlebells in my apartment. So I've used kettlebells before.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Fully equipped, already convinced of the modality — 'kettlebells is the only thing that really helped' his back — and following the coach. No equipment cost and no method objection, which removes two of the usual barriers entirely."
+    },
+    {
+      "type": "school_debt",
+      "raw": "I have loans. So that's the biggest part for me. Because of school. I have school loans. My income is enough to pay for my school loans, and then pay for my rent, and then a few things here and there.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Dental school debt service defines his monthly position. He describes his income as sufficient for obligations rather than generating discretionary surplus, which is the gap between 'makes good money' as an ICP criterion and money actually available."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A monthly commitment small enough not to erode the savings his practice loan depends on",
+      "why_unmet": "The lowest structure offered was $1,200 a month for six months, which is more per month than the relocation fund can absorb and carries a higher total than $6,000. No smaller tier was offered and Primal University was never mentioned, despite this being the third prospect in four days to describe a budget the coaching offer cannot meet.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Actual financing terms he could evaluate before committing",
+      "why_unmet": "The rep named a processor — 'It's called Piva' — but could not state any terms: 'I cannot tell you what kind of financing options you will get, because we would need to actually go through it right now.' He was asked to decide on a structure whose cost was unknown to both parties.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that loaded kettlebell training is appropriate for two herniated discs with intermittent sciatica",
+      "why_unmet": "Never raised by either party. The programme was positioned as the solution to the back — 'you're gonna feel less stiff, especially in the lower back sections' — with no discussion of clinician involvement, contraindicated movements, or what happens if the discs flare under load.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Heavier kettlebells than the 35 lb top of his current set",
+      "why_unmet": "He said 'I want to get higher' in the opening minute and it was never returned to, so an equipment cost sitting on top of the price was left unquantified.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

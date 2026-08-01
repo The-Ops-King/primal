@@ -433,7 +433,33 @@ function render(d){
     </tr>`).join("")}</tbody>
   </table></div>
 
-  ${F.urgent.length ? `<h3 style="color:var(--lost)">Critical and high — full detail</h3>
+  ${(F.systemic||[]).length ? `
+  <h3>Recurring — the same issue across multiple calls</h3>
+  <p class="sub">Flags clustered by what they describe, so one systemic problem reads as one finding with
+  a count rather than dozens of near-identical rows. These are the ones worth fixing at the process level.</p>
+  ${F.systemic.map(c=>{
+    const [sl,sc] = SEV[c.severity] || ["—","var(--muted)"];
+    return `<details style="border-left:3px solid ${sc}">
+      <summary>
+        <span class="num" style="font-size:22px;color:${sc}">${c.n}×</span>
+        <span class="tag" style="background:color-mix(in srgb,${sc} 18%,transparent);color:${sc};margin-left:8px">${sl}</span>
+        <span style="margin-left:7px">${esc(CAT[c.category]||c.category)}</span>
+        <div style="color:var(--muted);font-weight:400;font-size:13.5px;margin-top:6px">${esc(c.exemplar)}</div>
+      </summary>
+      <div style="margin-top:10px;font-size:13px;color:var(--muted)">
+        Across ${c.calls.length} call${c.calls.length===1?"":"s"}${c.reps.length?` · ${esc(c.reps.join(", "))}`:""}
+        ${c.date_range[0]?` · ${esc(c.date_range[0])} → ${esc(c.date_range[1])}`:""}
+      </div>
+      ${(c.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
+      <div style="margin-top:10px">${c.members.slice(0,12).map(mem=>
+        `<div style="padding:5px 0;border-bottom:1px dotted var(--line);font-size:12.5px;color:var(--muted)">
+          <span class="mono">${esc(mem.date||"")}</span>
+          ${mem.prospect?" · "+esc(mem.prospect):""}${mem.rep?" · "+esc(mem.rep):""}
+        </div>`).join("")}
+        ${c.members.length>12?`<div style="color:var(--muted);font-size:12px;margin-top:6px">+ ${c.members.length-12} more</div>`:""}
+      </div></details>`;}).join("")}` : ""}
+
+  ${F.urgent.length ? `<h3 style="margin-top:var(--s6);color:var(--lost)">Critical and high — every instance</h3>
   <p class="sub">Every flag below rests on words actually said on the call. Open one to see them.</p>
   ${F.urgent.map(row).join("")}` : ""}
 

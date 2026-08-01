@@ -1,0 +1,92 @@
+{
+  "call_id": "2026-06-12_david_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 54-year-old with a frozen elbow that will not straighten, torn ankle tendons and ligaments, and neck and knee injuries — who said on this call that training may be premature for him — was signed up to an unsupervised self-paced programme covering kettlebells, steel maces and steel clubs, with no form correction and no clinician ever consulted.",
+      "evidence": [
+        "I've got a frozen elbow. You know, I can't even do half the stuff I want to do because I can't get my arm to go straight. And then I've torn some pretty heavy tendons and ligaments in my ankle, which is really taking me back from volleyball.",
+        "I have some of those concerns that it may be premature for me. Like I'm not even sure if I'm in a race because of those two main issues.",
+        "It takes longer for me to recover, and I get injured more easily now. That's all there is to it.",
+        "So all the kettlebell movements, complex movements with also steel maces, when you're going to be more advanced, steel clubs and everything, yeah?",
+        "Of course, it's not tailored to your specific needs, but it's a basic program that you can follow.",
+        "do you feel like you want to try that out? Yeah, I do. Yeah."
+      ],
+      "timestamp": "00:05:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect quoted a written guarantee promising 10% body fat loss and asked what it meant; the rep answered about the eight-kilo kettlebell guarantee instead, never explained the 10% figure, and never answered how body fat would be measured.",
+      "evidence": [
+        "On some of the guarantees, it says 10% body fat loss. What does that mean? Does that just mean if I'm at 30%... Do think we can lose 3% of that fat loss? Or do we really think that if I have a 30% body fat ratio, can I get down to 20? What does that guarantee talk about?",
+        "With the guarantee, the thing is that we guarantee that in those six months, you will add at least eight kilos to your baseline kettlebell.",
+        "if you follow the whole program, the nutrition plan, everything around that, it's just pure science that you will see also results in dropping your body fat",
+        "how do you guys have a measure body fat?"
+      ],
+      "timestamp": "00:07:57"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A named one-month product, \"Love It or Leave It\", was offered at $1,200 with the month credited toward the six months — a price and term outside the $6,000/6mo and $9,000/12mo structure.",
+      "evidence": [
+        "Get in for one month. We call it Love It or Leave It. So you get in for one month, you get a full programming and everything, so you will see how the program looks, how you're going to work with Trevor",
+        "afterwards, you either sign up for the full six months and everything that you paid for the first month is going to be credited towards that",
+        "And in terms of financials, for that one month, that will be $1,200.",
+        "Structurally identical to the improvised three-month $4,000 arrangement sold to a different prospect the previous day on 2026-06-11_tamar_andrew-musial: \"we could do at Firstly, three months, and that's in total, it's 4K... everything that you paid, like those 4K, it's going to be credited toward the six months.\""
+      ],
+      "timestamp": "00:15:57"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University was again used as a live downsell at $200 per month cancellable any time — the second use in two days by the same rep, and this time the prospect agreed and was sent a signup link.",
+      "evidence": [
+        "Because you mentioned this 200 bucks a month, the Primal University of Trevor... For starters, let's do this. And you can cancel on this anytime, yeah?",
+        "so for you, in your specific situation, maybe this is the solution to actually do it. What do you think?",
+        "Okay, so let me, it takes a couple of minutes. I will send you the link for the, to get it in. Hold on. I've placed it in the chat.",
+        "Same product and price offered by the same rep the previous day on 2026-06-11_claudio-di-pietro_andrew-musial: \"it's like $200 per month. You can cancel any time, or... for the whole year, and it's gonna be only $2,000.\""
+      ],
+      "timestamp": "00:24:35"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This call satisfies the close rule on a $200 per month self-serve subscription while the $6,000 coaching offer was explicitly refused, so a downsell to a different product will land in the same close-rate and revenue denominators as full-price coaching deals unless the corpus separates them.",
+      "evidence": [
+        "do you feel like you want to try that out? Yeah, I do. Yeah.",
+        "I've placed it in the chat.",
+        "Okay, I got it. Yep.",
+        "at this stage, that's too much. We can't do the $1,200... It's just too much money for what we're dealing with right now.",
+        "give me a holler at August 1st",
+        "I can't do it right now, because I have to get to the bank."
+      ],
+      "timestamp": "00:30:14"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Three separate recordings across two days cover one continuous sales cycle with a single prospect who is identifiable only as \"David's iPhone\", so without manual linking the corpus reads as three prospects and one close rather than one prospect and one downsell.",
+      "evidence": [
+        "going back to what we covered last time, you're not buying a PT?",
+        "Yeah, that's what we covered. Lee, have everything in your app, yeah?",
+        "in your message, you mentioned wanting your wife to be a part of this",
+        "All three files are titled \"Impromptu Zoom Meeting\" with no prospect name; no surname is stated anywhere across the three calls."
+      ],
+      "timestamp": "00:01:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts speakers from the opening line onward.",
+      "evidence": [
+        "00:00:38 - Andrew Jin (Primal Instinct) — like, first of all, David, I want to, first of all, want to acknowledge you for being really upfront",
+        "00:12:19 - David’s iPhone — Yeah, so when I was 35 and 38, I went and did CrossFit... David, can I share with you my perspective on this? Yeah, go ahead.",
+        "00:29:22 - David’s iPhone — And that's it."
+      ],
+      "timestamp": "00:12:19"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "call_id": "2026-06-11_tamar_andrew-musial",
+  "source": {
+    "drive_file_id": "1jSxTrOBanpnfGwYYh-Us2MalrrMrJlct",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/11/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/11/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 60646
+  },
+  "call": {
+    "date": "2026-06-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 63,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla Louie",
+    "confidence": "high",
+    "evidence": "Not recoverable from this transcript — the title carries no setter suffix and the prospect said \"up to this point, all my communication has been with automated messages that's very hard to kind of respond to\". Attribution comes from the sales team meeting the following day (2026-06-12_sales-team-meeting_chris-klevan), where Kyla Louie claimed the deal as her win — \"my win is my deal yesterday with Andrew\" — and the rep confirmed \"because it was Tamer, yeah?\"."
+  },
+  "prospect": {
+    "name": "Tamar",
+    "aka": "Tamer; joined as \"iPhone (324)\"",
+    "name_source": "transcript",
+    "location": "Northern Virginia, about 20 miles outside Washington, DC, USA",
+    "age": 51,
+    "occupation": "Dentist; also runs multiple businesses",
+    "family_status": "Married; four children (one college graduate back home, one finishing first year of college, one starting college, one rising high-school senior); aging parents living at home; wife runs a med spa business",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete and ex-wrestler; gym roughly three times a week for short sessions; last three years focused on core work on physician advice; has been copying Trevor's kettlebell videos at the gym; plays squash on and off with a colleague",
+    "kettlebell_experience": "some",
+    "medical": "Lower-back problems attributed to dentistry, with a major flare-up about four years ago that required epidural injections; his doctor told him to stop training \"beach muscles\" and work his core. Very tight hips and self-described poor stretcher. Prior testosterone supplementation / TRT. Morning brain fog and reliance on an afternoon coffee."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "\"I'm not fat, I'm not out of shape right now, but I know I could do so much better... I'm just ready to take it to the next level.\"",
+      "Dentist running multiple businesses, lifelong athlete, already training three times a week and already using kettlebells",
+      "Atypical for this avatar: price was a genuine barrier — he negotiated the structure hard and cited cash-flow pressure, so the 'price is a quality signal' half of the profile does not hold"
+    ]
+  },
+  "goals": [
+    { "text": "Get holistically healthier for the long game rather than hit any single number — \"it's very kind of generalized, just to be healthier, and more fit, and more focused\"", "category": "longevity_function" },
+    { "text": "Improve mobility and flexibility, particularly very tight hips", "category": "mobility" },
+    { "text": "Train at home in about 30 minutes and cut out the 30 minutes of round-trip driving to the gym", "category": "convenience" },
+    { "text": "Regain mental sharpness and focus so he can perform better professionally — \"if I am physically and mentally in shape... I can probably conquer and do more on the professional level\"", "category": "energy_performance" },
+    { "text": "Learn the system well enough to run it himself after the six months — \"it needs to be something I want to maintain long-term\"", "category": "sustainability" },
+    { "text": "Get leaner and more defined, explicitly framed as a byproduct rather than the driver", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Plateaued for three to four years and does not like where he is — \"I've kind of plateaued... I'm just at a flat plateau\"", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Chronic lower-back trouble from a seated dental practice; a major flare-up four years ago required epidural injections, plus very tight hips he never stretches", "category": "injury", "severity": "high" },
+    { "text": "Burnt out from years of stressful work and financial pressure — \"I'm just burning the candle on both ends... I'm running on fumes\"", "category": "work_stress", "severity": "medium" },
+    { "text": "Wakes with morning fog and needs an afternoon coffee to push through the day; wants to fix his sleep", "category": "sleep", "severity": "medium" },
+    { "text": "No nutrition programme to follow, and teenagers' snacks in the pantry derail him — \"the main reason I don't is because I don't really have a program to follow\"", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Training alone produces ups and downs and going through the motions — \"sometimes you're going and purely going through the motions, and you're really not doing anything\"", "category": "consistency", "severity": "medium" },
+    { "text": "A 30-minute workout costs him an hour once driving and changing are counted, which kills momentum on low-motivation days", "category": "time_scarcity", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "probably just need to sleep on it for a couple of days and, you know, digest it and I'm good",
+      "timestamp": "00:37:55",
+      "rep_response": "Quipped \"Sleep on it? It's not a pillow, man\", then isolated finances and ran the belief check — \"Apart from the finances side... Do you genuinely feel that this program and working with Trevor would get you to your goals?\" followed by \"What makes you feel that actually that you can?\"",
+      "response_tactic": "isolate_then_belief_check",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm just not ready to commit 6K today as we speak, but no, I'm on board. I'm on board.",
+      "timestamp": "00:38:29",
+      "rep_response": "Asked permission for an honest financial conversation and asked what cash he had on hand; offered third-party financing, which was declined; then quoted $1,200/month for six months and finally improvised a three-month entry at $4,000 split into two $2,000 payments",
+      "response_tactic": "open_wallet_then_restructure_price",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I just have like some massive, massive expenses coming up on this billing cycle on my credit card. So what- What might have to do is just delay everything for a month and a half, and then just do the $6,000 flat as soon as this billing cycle clears.",
+      "timestamp": "00:45:16",
+      "rep_response": "Did not run the not-the-right-time play at all. Immediately offered a reduced-scope three-month entry at $4,000, payable as $2,000 now and $2,000 next month, credited toward the six-month price",
+      "response_tactic": "reduce_scope_and_split_payment",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "I'm cost sensitive also. That's why I don't want to do the $1,200 a month because that's another $200 a month that I could be saving.",
+      "timestamp": "00:48:08",
+      "rep_response": "Confirmed the three-month route would not exceed $6,000 in total — \"so it won't cost me more than 6K at the end? No.\"",
+      "response_tactic": "confirm_no_instalment_premium",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "But I mean, is that stated somewhere so I don't have to remind someone at that time or that's something that you guys do standard?",
+      "timestamp": "00:56:14",
+      "rep_response": "\"That's what we do standard. Like you're going to an agreement for that. So no worries.\" When the prospect could not find the term in the signed document the rep answered \"Let me see which paragraph that would be. If not, I can send you an email on that. The calls are recorded, so you have my word on this.\"",
+      "response_tactic": "verbal_assurance_in_lieu_of_documentation",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": null },
+      { "months": 6, "price_usd": 7200 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "The prospect asked for $1,000/month for six months on autopay against a business credit card. The rep first offered third-party financing (declined, because it would not qualify as a deductible business expense), then quoted $1,200/month for six months — a $7,200 total. When the prospect refused the $200/month premium and proposed delaying to mid-July, the rep improvised a three-month entry at $4,000, payable $2,000 immediately and $2,000 the following month, with the $4,000 verbally credited toward the $6,000 six-month price and a $2,000 top-up after three months. $2,000 was charged on the call. The renewal beyond six months was quoted as \"only going to be like additional 3K for the next six months\".",
+    "guarantee_mentioned": "\"we guarantee your results... you have a baseline of a kettlebell that you start with... it could be, I don't know, 12 kilos. So the guarantee is that after six months, you will add at least eight kilos to your starting baseline.\" The rep separately conceded \"With three months, you maybe not be able to see the full transformation.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 1000,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment completed live on the call — \"Okay. It says paid.\"",
+      "Agreement signed on the call — \"Okay, so I signed it. I didn't read it, though.\"",
+      "Onboarding Zoom with Trevor booked for Tuesday 16 June at 4:15pm Eastern, and the prospect confirmed both emails arrived",
+      "Counter-evidence: only $2,000 of the $6,000 was actually collected; the balance depends on a second $2,000 charge next month and a $2,000 top-up in three months",
+      "Counter-evidence: the document he signed states a three-month programme — \"it says terms, duration, program, last three months\" — not the six months he believes he has bought",
+      "Counter-evidence: he twice asked for the six-month top-up to be put in writing and never received it"
+    ],
+    "cash_collected_usd": 4000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Second $2,000 charge next month; onboarding Zoom with Trevor on Tuesday 16 June at 4:15pm ET; prospect to complete the onboarding form and buy a single kettlebell before that call."
+  },
+  "notable": {
+    "note": "Closed, but on a structure that exists nowhere in the price list: a three-month $4,000 contract carrying a verbal-only promise that it credits toward a $6,000 six-month total. The prospect signed unread and asked twice for the top-up in writing; the rep answered \"you have my word on this. The calls are recorded.\" Separately, he disclosed lumbar epidural injections four years ago and a physician's instruction about what training to do, and was moved into loaded kettlebell work without anyone asking whether a clinician had cleared it. The rep also discussed peptide protocols (\"then we can dial in the peptides\"), shared his personal WhatsApp number, and signed off with an off-colour remark about who the prospect should share it with."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained. Whole passages are inverted — most of the rep's three-pillar presentation is attributed to \"iPhone (324)\" and several of the prospect's answers appear under the rep label; a number of turns merge both speakers into one block. Role was read from content throughout. Note also that the rep's speaker label is \"Andrew Jin (Primal Instinct)\" although the file sits in the Andrew Musial folder; identification as Andrew Musial rests on the folder, the Poland location and the prospect addressing him as Andrew."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-25_suman_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented at 00:28:01 as an upgrade to his existing habit — 30 to 40 minutes, three to four times a week, plus five-to-ten-minute mobility protocols for the hip stiffness identified from his step count. He asked a mechanics question rather than simply accepting: 'When you say just five to 10 minutes, just take the kettlebell and walk around or, you know?' and needed the correction 'It's going to be specific mobility works, not necessarily walking with a kettlebell.' He then immediately asked to reduce scope: 'Instead of six months, can we have this like a, you know, more like a three-month period just to see how this is going?'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:32:20 as what/when/how much with an eight-hour window and no counting, and adapted well to him — the rep checked 'you don't probably eat beef, right?' and worked with goat, eggs, rice and lentils, and let the weekly biryani stand in for the weekly pizza. Response to 'Any questions on nutrition?' was 'No, I think I'm good.' Notable tension left unresolved: he accepted a no-macros philosophy while simultaneously asking for exactly the opposite — 'if you ask me to eat so much of rice, okay, I'll eat this much rice, this much protein, this much, whatever... When should I eat the fruit? When not to eat a fruit so that the sugar doesn't flow into my bloodstream.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Correctly named by the rep as the reason he came — 'Third part, the thing that you came here for, which is the structure and accountability' — and confirmed by the prospect in his own frame: 'this is exactly how I was envisioning in terms of talking about the routine and the nutrition and then, you know, structure in place... having someone accountable for me, I think it'll make me more, you know, work really better.' He had already tied it to himself before it was presented: 'I work well as a team, when I'm an individual, that's where I don't think my A game comes out well.' This is the pillar the entire sale rests on and it is also the reason he rejected the $199/month downsell."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "expected_price",
+      "raw": "6,000 is a huge. 1,000 per month is really huge for me. I was somewhere thinking around $250 per month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most explicit price expectation in the batch and a 4x gap against the monthly framing, 24x against the total. He arrived with a coaching-subscription mental model, not a transformation-programme one, and nothing on the call moved him off it. The rep had also reframed $6,000 as '$1,000 per month' territory himself by discussing monthly splits, which handed the prospect the very unit of comparison that made the number look worst."
+    },
+    {
+      "type": "prior_online_program",
+      "raw": "I've done this online kind of thing, but it never, I think I feel like it never gave me that accountability, like, to someone that I can talk to, like, you know, dude, this is not for me, you know, that personal, that was the one that, that was the main reason why I was trying to approach",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A rare supportive anchor: the cheap alternative demonstrably failed him, and he says so unprompted while explaining why he wanted one-to-one. The rep did not use it — either when justifying the $6,000, or when the prospect declined the $199/month Skool product for precisely this reason moments later."
+    },
+    {
+      "type": "family_investment_competition",
+      "raw": "For me, there's one breadwinner and I have a lot more things going on with kids and also I have to make sure you know, there are lots of other investments that I am putting my money in that needs to be.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The competing spend is not a fitness product, it is the rest of the household's financial plan on a single income. This is the anchor the offer actually lost to, and it is the one the script has no move for."
+    },
+    {
+      "type": "downsell_product_price",
+      "raw": "this is like a follow along in your own pace. And this is On a subscription monthly basis. And it's $1.99.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Trevor's own Skool community)",
+      "note": "Introducing a roughly $199/month first-party product late in the call created a live 20x internal price comparison against the one-to-one offer, with no articulated bridge between them. The prospect immediately restated that he wanted the expensive one and could not afford it, so the downsell neither closed a sale nor preserved the anchor."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one accountability coaching at something near a $250/month price point",
+      "why_unmet": "There is nothing between the $199/month Skool community, which explicitly has no one-to-one coaching, and $4,000 for three months. The prospect articulated the gap himself: 'I was looking more for one-on-one, but... it comes with some cost, I didn't expect it to be at this cost, like 1000 bucks per month.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Concrete portion and timing guidance — how much rice, how much protein, how many meals, when to eat fruit relative to blood sugar",
+      "why_unmet": "The nutrition pillar is explicitly positioned as the absence of that: no calorie counting, no tracking, three variables only. He accepted the pillar and then asked for the opposite, and the rep did not reconcile the two. Trevor may well provide exactly this in practice, in which case the pillar script is actively selling against a thing the prospect wants to buy.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Assurance that loaded kettlebell training is appropriate given a recent unexplained sensory loss",
+      "why_unmet": "Never raised by either party. The prospect volunteered the hearing loss as motivation and the rep did not ask a single question about it before recommending a heavier programme and a progression to 20 and 24 lb bells.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A guarantee framed in terms he actually cares about — energy, core strength, sustainability, belly fat",
+      "why_unmet": "The stated guarantee is a 17 lb increase on his kettlebell baseline. He never mentioned wanting to lift heavier bells; every goal he stated was about energy, structure, core, fat and longevity. The one risk-reversal in the offer is denominated in a metric he did not ask for, and he did not react to it at all.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

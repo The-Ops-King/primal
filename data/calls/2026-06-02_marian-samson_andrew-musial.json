@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-06-02_marian-samson_andrew-musial",
+  "source": {
+    "drive_file_id": "1sKQBizUkWMNLdTuDF5Gtjwriyx47k47j",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/02/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/02/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 12603
+  },
+  "call": {
+    "date": "2026-06-02",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "At least the second conversation with this prospect. The original closing call is reviewed in detail in the 05/28 Chris x Andrew 1-1 (referred to there as 'the call with Marion'), where a trust objection at the end was identified as the problem and a follow-up had been rescheduled. The prospect references the delay here: 'I also pushed you over like two days.' The original call is not in this batch.",
+    "duration_min_est": 16,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter referenced in this transcript."
+  },
+  "prospect": {
+    "name": "Marian Samson",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Denmark",
+    "age": null,
+    "occupation": "Business owner or commercial professional — meets customers, works from an office, and frames the conversation as buyer to seller: 'now I'm in the other position, where I have to buy a product, and you will sell it to me.' The rep addresses him as 'you're a business guy, and I'm a business guy'.",
+    "family_status": "Has family, referenced by the rep as a reason to get healthy and not contested",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Not covered on this call. Has researched Danish alternatives to Trevor and identified a local personal trainer near his office offering twice-weekly sessions at comparable cost, plus 'a few' online coaches with similar positioning.",
+    "medical": "Describes himself as near 40 with morning stiffness and a back problem, and the rep summarises previously disclosed conditions as 'the disc, with the high blood pressure. This is something that you cannot neglect.' The prospect attributes the high blood pressure to his lifestyle: 'I think the high blood pressure is because of my lifestyle ... Of course, I need to change it.' No clinician, medication or clearance is mentioned at any point."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: the_negotiator — a commercially experienced buyer with no affordability constraint who treats the price as a term to be negotiated and will transact only if he extracts a concession. He says so explicitly: 'I have everything decided ... I have a gut feeling, it's pricey, if you can come down with a price, let's get on, if you cannot, it's fine, I will find out in another way.'",
+      "Not an affordability objection — he never claims he cannot pay, only that the price must be 'fair enough for me'",
+      "Nearest existing avatar is the_rebuilder: near 40, disc problem, high blood pressure, morning stiffness, 'I feel like I'm going in a slope downwards, from now on, and I just want to compensate this one with serious changes'",
+      "Does not fit skeptical_bargain_hunter — his alternative is not cheap and he has not tried it: 'I don't train with none of them. So I don't know which one is doing what, but it's not cheap, to be honest.'",
+      "Does not fit the_optimizer — price is unambiguously a barrier and a negotiating lever rather than a quality signal"
+    ]
+  },
+  "goals": [
+    { "text": "Health overall, as the primary driver — 'it's health, you know, I'm near 40'", "category": "longevity_function" },
+    { "text": "Look good as well as be healthy — 'I can still look good if I'm half dead, but I would rather be pretty much alive, but also look good in the same time'", "category": "appearance" },
+    { "text": "Arrest what he perceives as a decline — 'I feel like I'm going in a slope downwards, from now on, and I just want to compensate this one with serious changes'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Morning stiffness and a back problem — 'wake up from the bed, so it's like, stiff back, and I have also this problem with my back'", "category": "injury", "severity": "medium" },
+    { "text": "High blood pressure that he attributes to his lifestyle and knows he needs to change", "category": "medical", "severity": "high" },
+    { "text": "Cannot tell whether Trevor is better than the Danish alternatives he has researched — 'I don't know where to put Trevor. Maybe he might be better than them. I don't know.'", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "You are pricey. ... It's, you know, I can get the same, for the same money, training with the guy, two times per week, and the rest they have to do it alone, of course, in his own team, because they have some, and it's quite, not so far away from my office.",
+      "timestamp": "00:02:02",
+      "rep_response": "Reframed against the personal-trainer business model — 'Trevor is operating a different business model. Like, our idea is not to have you for life' — which the prospect answered by pointing out the local coaches he researched use the same transformation positioning.",
+      "response_tactic": "pt_business_model_reframe",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "So I would like to know what is your best price for me. Because, you know, if I have to decide it now, then I need to know the best price. And I will tell you. Honestly, it's yes or no.",
+      "timestamp": "00:04:36",
+      "rep_response": "Pulled back to goals first, then said 'I have no power over this price', then offered a three-month tier at $4,000, and finally agreed to take the prospect's own counteroffer to Trevor and the team. Proposed label: discount_demand.",
+      "response_tactic": "deflect_then_reduced_tier_then_escalate_discount",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "Yeah, I know. But for 4K, in three months, it's like I'm paying more than for the six months. I know you're short in the period, but the price is high. I for me, I think I need guidance, I think, on the six months",
+      "timestamp": "00:10:21",
+      "rep_response": "Argued he should start with three months, see results, and pay the remaining $2,000 to complete the six months. The prospect did not accept and returned to the discount request.",
+      "response_tactic": "start_short_and_upgrade",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I don't get so much in detail with them as I did with you, but they follow the same principle. You have to have a significant lifestyle change, physique. So of course, health overall, I talk with them. So I don't know where to put Trevor.",
+      "timestamp": "00:03:13",
+      "rep_response": "No substantive differentiation was offered beyond personal conviction — 'I'm taking part in his workout regimen, his nutrition plan, so I know it works.'",
+      "response_tactic": "personal_testimony",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000, "note": "Improvised reduced tier, with the remaining $2,000 payable to complete six months" },
+      { "months": 6, "price_usd": 5000, "note": "Prospect's counteroffer, which the rep did not refuse and undertook to put to Trevor and the team" }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision, no payment, no link, no deposit and no booked call — only an undertaking by the rep to come back with a price",
+      "'I cannot answer that question right now.' — 'Cool, it's fine. We can continue this conversation tomorrow.'",
+      "'Just come back with a good smile and a good price for me, and then... You're good.'",
+      "Counter-evidence toward closed: the prospect states the decision is made and only the number is open — 'I have everything decided ... if you can come down with a price, let's get on'",
+      "Counter-evidence toward lost: 'if you cannot, it's fine, I will find out in another way', and he has already identified local alternatives",
+      "The outcome now depends entirely on whether the company grants a discount it has not previously granted"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to consult Trevor and the team on the $5,000 counteroffer and revert within one to three days"
+  },
+  "notable": {
+    "note": "A sixteen-minute price negotiation in which the prospect ran the process. The rep said 'I have no power over this price', then offered an unlisted $4,000 three-month tier, then agreed to take a $5,000-for-six-months counteroffer to Trevor — three positions in eleven minutes. The prospect had already priced the reduced tier correctly as worse value per month. Separately and more seriously, this is a prospect with a spinal disc problem and self-attributed high blood pressure, both named on the call by the rep, and both used to build urgency ('this is something that you cannot neglect') rather than to trigger any question about medical clearance for loaded kettlebell training. The rep also told him 'no one has ever bargained with me to drop the price', which is contradicted by his own calls earlier in this same batch."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short file with frequent inversion, worst in the negotiation from 00:11:39 onward where the rep's and prospect's lines interleave under the wrong labels — 'Let me ask you this, like, whenever, like, when is the moment that we actually become sure of something?' is the rep's, and 'It's a good speech, Andrew' is the prospect's, both mis-assigned. The prospect's connection drops and freezes at least twice, and he says so, so some content is missing rather than merely mislabelled. The prospect is named Marian Samson here and referred to as 'Marion' in the 05/28 1-1."
+  }
+}

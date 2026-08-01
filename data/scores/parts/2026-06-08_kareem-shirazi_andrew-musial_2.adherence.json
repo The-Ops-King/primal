@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-06-08_kareem-shirazi_andrew-musial_2",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation of a deal closed earlier the same day on the same Zoom link. Opens mid-transaction at 'So you want to take it all up front?'. No opening or framing is expected."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline was run on the first call. Worth noting that a material injury the baseline missed — the wrist ganglion cyst — surfaced here only because the prospect raised it himself after paying."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals phase belongs to the first call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts phase belongs to the first call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Consequence frame belongs to the first call."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Commitment was taken on the first call. The rep did run a light re-confirmation here — 'Do you have any questions? Are you ready to rock and roll?' — but this is not the scripted commitment check."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "partial", "P11d": "hit" },
+      "evidence": "Step 1 done: payment taken in full up front and confirmed live — 'Sorry to interrupt. There it is. You got it.' Step 2 done: Trevor onboarding booked for Wednesday 1:45pm ET after the rep read out six available slots. Step 4 done and done well: 'you will get access to Primal University on school, like the community, and also the onboarding form to fill out, and access to the TrueCoach.' Step 3 is where it breaks — the agreement email arrival was confirmed ('Yeah, I see that'), but when the prospect asked 'You need me to do the review and sign the thing now, or can I do that later?' the rep answered 'You can do it later, but don't postpone it.' The script requires the signature ON the call and it was explicitly waived."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clinical fit. After paying, the prospect disclosed an imaging-confirmed wrist ganglion cyst that hurts under loaded extension and asked directly whether anything in the programme should concern him. There is no scripted play for a clinical-fit question — this is the known script gap — and the rep did not improvise one either: no question about whether a doctor had reviewed it, no answer on whether the kettlebell movement library loads the wrist that way, just general advice to over-communicate with the coach."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A mild certainty-seeking trigger — 'is there a, like, 30-day guarantee... if for whatever reason my body is not responding to it?' No part of the fear/doubt play was used (no 'would it be fair to say you're looking for certainty', no bridge or plane frame). The rep answered with a performance guarantee instead, which resolved the moment but sidestepped the actual question about refunds. Arguably correct to answer factually rather than play it, but the factual answer was to a different question."
+    }
+  ],
+  "notes": "Onboarding mechanics were run properly on three of four steps, and the Skool / questionnaire / TrueCoach handoff was clearly explained. Two coachable items: get the agreement signed on the call rather than trusting 'later tonight', and when a prospect asks about a guarantee, answer the question they asked before offering a different one. Separately, nine of the twenty-five minutes were the rep hunting for a payment confirmation that had already landed — a systems problem, not a rep problem, but it cost the whole back half of the call."
+}

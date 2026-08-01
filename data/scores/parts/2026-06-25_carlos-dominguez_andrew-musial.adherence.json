@@ -1,0 +1,56 @@
+{
+  "call_id": "2026-06-25_carlos-dominguez_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "No setter and no application were referenced, so P1a cannot apply. A compressed two-part frame ran — 'look, Carlos, how we run these things, I just want to understand what's your current situation in terms of fitness, health, nutrition, and what you're trying to get to' — covering where you are and where you want to go, with nothing on what is in the way or what you need, and no agreement sought. The open question landed and immediately produced the decisive fact: 'I actually, I had Trevor for private coaching.'"
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Unreachable and correctly so. Within forty seconds of the opening question the caller identified himself as an existing paid client with a paused membership, at which point the sales baseline is the wrong instrument. The rep did not attempt to run discovery on him, which is the right call."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Not reached. The call ended at 00:02:35 as a service escalation. There is no goal to surface — the client has already bought the outcome."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reached and not applicable. The past attempt is this company's own programme and the reason it did not continue is a torn ACL followed by severe bicep tendonitis, both stated in the first ninety seconds."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reached. No consequence frame is appropriate for a client trying to resume something he has already paid for."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Not reached. Commitment is not in question — the client pursued reactivation through two channels after a long injury layoff."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted and none was appropriate. Worth noting against P11b and P11d specifically: the client is already past onboarding, and the failure here is that no equivalent reactivation sequence exists to run."
+    }
+  },
+  "objection_plays": [
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "No objection of any kind was raised. The caller wanted to buy back in." },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "Not present." },
+    { "play": "OC", "trigger_present": false, "ran": "not_applicable", "detail": "Not present. No price was discussed and the programme is already paid for." },
+    { "play": "OD", "trigger_present": false, "ran": "not_applicable", "detail": "Not present." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "Not present." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The most important script gap surfaced anywhere in this batch, and it is a process gap rather than a rep failure. There is no defined path for reactivating a paused membership, and the closer said so on the recording: 'actually I haven't been in this situation that someone that has been already in our program, that paused, that reached out to me. So I need to get back to the admin team.' The gap has three parts. First, the pause is actively sold — the same rep told Ryan Bundy the previous day 'if you had a surgery, we just paused it' — so it is a promised term with no operational counterpart. Second, the client followed Trevor's own instruction to make contact and received no reply, meaning the entitlement is only reachable by accident. Third, a paused client with an ACL tear and resolved tendonitis returning to loaded training is exactly the moment a clinical re-entry check should exist, and none was mentioned. The rep handled his part correctly by escalating rather than improvising, which is the right instinct and the reason this scores as a process gap and not a miss against him."
+    }
+  ],
+  "notes": "Scoring the sales process here would be meaningless and the phases are marked not applicable accordingly — this is a customer service call that arrived on a closer's calendar. What the rep did do was right: he opened properly, listened, recognised within forty seconds that the sales process did not apply, refused to guess at an answer, and escalated with the client's contact details in hand. The actionable item is entirely organisational. Build a reactivation path with an owner, a service-level expectation and a clinical re-entry check for clients returning from injury, and stop selling a pause that nothing on the delivery side is set up to reverse."
+}

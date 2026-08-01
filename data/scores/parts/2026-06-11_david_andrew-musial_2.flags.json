@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial_2",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A $6,000 offer and a load-progression performance guarantee were presented to a 54-year-old with ruptured cervical discs, three years of unresolved hand nerve damage, a torn meniscus and an elbow that will not straighten; no clinician clearance was sought and the injuries were deferred to a coach rather than a clinician.",
+      "evidence": [
+        "So he will learn everything about you. Your injuries, your knee, elbow, what are your goals, what you want to achieve, what's your schedule, what's your life.",
+        "If something is off, if your, for example, knee is flaring, or something blew up in the work, and the program needs adjustment, he catches that, because you will tell them that.",
+        "If in those six months you won't add at least eight kilos to your baseline kettlebell, he will train with you until you do.",
+        "to become that version of David and that grandfather in the future, the total investment for that is $6,000",
+        "So instead of just grinding yourself every session, you're going to be actually recovering and building at the same time."
+      ],
+      "timestamp": "00:15:36"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The performance guarantee was stated to this prospect with conditions and a defined remedy, and stated to a different prospect by the same rep on the same day with neither.",
+      "evidence": [
+        "If in those six months you won't add at least eight kilos to your baseline kettlebell, he will train with you until you do.",
+        "If you add that, you eat clean, how he teaches, and you show up like 95% of the time, the results are guaranteed.",
+        "The same rep to a different prospect earlier the same day, on call 2026-06-11_tamar_andrew-musial: \"we guarantee your results... So the guarantee is that after six months, you will add at least eight kilos to your starting baseline\" — stated with no compliance condition and no remedy, to a prospect who then paid."
+      ],
+      "timestamp": "00:20:53"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This recording is the second half of a single conversation split across two files on the same day, and the standard date_prospect_rep call_id collides with the first half, so both funnel counts and identifier uniqueness break without manual handling.",
+      "evidence": [
+        "David, yeah, I was about to actually show you everything, how we're doing.",
+        "Because based on everything that you just told me, for me, it makes a lot of sense.",
+        "Actually, we covered that. It's not really just about the race. The race is the first point. You told me about that.",
+        "You told me the story of your life, on and off, with lacking consistency and discipline."
+      ],
+      "timestamp": "00:00:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts speakers through the entire presentation including the price reveal.",
+      "evidence": [
+        "00:20:09 - Andrew Jin (Primal Instinct) — So, to become that version of David and that grandfather in the future, the total investment for that is $6,000.",
+        "00:20:19 - David’s iPhone — Okay, so $1,000 a month.",
+        "00:20:22 - Andrew Jin (Primal Instinct) — Why would you say... Isn't it a six-month program?"
+      ],
+      "timestamp": "00:20:09"
+    }
+  ]
+}

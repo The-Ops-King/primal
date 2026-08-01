@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-01_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Nationality-based disqualification is described by the manager as an active team practice and reported by the setter as executed, with leads removed from the calendar by country of origin to free slots for US leads.",
+      "evidence": [
+        "we're doing everything we can to optimize that for you. We're going to be working with marketing, we're DQing people off the calendar, like you've been giving us feedback, we're getting those people off the calendar, you know, to open up more slots for the U.S. leads",
+        "the two people on your calendar that you sent me from Egypt and Serbia, the one from Libya or Serbia, I've not managed to get through to him yet",
+        "The guy from Egypt's been DQ'd.",
+        "Yeah, so I spoke with Ali and I DQ'd him.",
+        "Yeah, Malek, I think he's from Libya."
+      ],
+      "timestamp": "00:11:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A client closed on 1 June was injured on approximately his second workout; the team's response was a discussion of whether he would keep paying, with no incident review and no question about what happened.",
+      "evidence": [
+        "I reached out to the guy that I closed on June the 1st, a few days ago, just touching base and, yeah, how are you doing and all that stuff. And he actually got injured, like, I think on a second workout or something like that, and he couldn't do much.",
+        "So now I'm thinking if, whether he's going to pay or, or not.",
+        "I'm pretty sure I've heard Trevor in the past say that they usually will, like, pause the payment and pause the program until he's fully recovered and then continue it from there.",
+        "Just, you know, not something we can control."
+      ],
+      "timestamp": "00:21:27"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Call outcomes are updated in the CRM from memory without reference to the recording, and records are acknowledged to get stuck on stale outcomes and to disappear when a prospect cancels.",
+      "evidence": [
+        "I would just, I would just end up updating it. Or if you want to do it real quick, if you know the outcome of the call, you can just update it real quick. You don't have to like find the recording or anything.",
+        "sometimes this happens where you'll update it and it'll just get stuck there. So if you're noticing it's from a certain outcome, like the rescheduled outcomes, then that's something I sent to Angelo and he's going to have to fix it",
+        "when someone cancels, he disappears from my calendar, and I just don't see him, right? And sometimes I didn't even know that, like, I'm reading all those names, like, who the is this?",
+        "What's up with the guy from, that he's been assigned to Ben and he's been calling him?"
+      ],
+      "timestamp": "00:23:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "An automated agent named Sophia is referenced as part of the show-rate operation, with no indication on this call of whether prospects are told they are dealing with a bot.",
+      "evidence": [
+        "One thing, Kim, that I was sales kick, the people who manage, you know, the bot, the Sophia, right? They mentioned that one thing that could be helpful for us with show rates as well, for you, is putting prospects that you set in a group chat with the closer."
+      ],
+      "timestamp": "00:25:08"
+    }
+  ]
+}

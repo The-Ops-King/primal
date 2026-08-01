@@ -1,0 +1,150 @@
+{
+  "call_id": "2026-06-23_antonio-salume_andrew-musial",
+  "source": {
+    "drive_file_id": "17S-ETgHqYBItRqDSchXl7sWmnToaKtul",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/23/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/23/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 41488
+  },
+  "call": {
+    "date": "2026-06-23",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 46,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Now, I spoke with Kim, so he just briefed me in on your situation, I got some context after I talked with him."
+  },
+  "prospect": {
+    "name": "Antonio Salume",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Mexico City, Mexico",
+    "age": null,
+    "occupation": "Works at Netflix. Sedentary desk role — 'I see it a lot for a big chunk of the day.' Expects to get busier as he advances.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Owns three kettlebells at home and holds a gym membership he uses inconsistently, targeting three times a week doing mainly weights plus some cardio and running. Roughly 5,000 steps a day on an Apple Watch. Did CrossFit through the summer of 2016 in Los Angeles as a student, which he calls the fittest period of his life; kettlebells were part of it. Moved to New York and dropped CrossFit because classes were too expensive and too far from his apartment, switching to app-led rooftop workouts every morning and then drifting into running only. Has followed Trevor's mobility videos, including a bedtime routine.",
+    "medical": "Has a cold at the time of the call and is waiting to recover before training. Roughly twenty years ago tore a ligament in his wrist and had a separate injury to his left lower leg; states neither affects him now. Reports noticeable stiffness that only surfaces when he attempts floor-based stretching. Most materially: noticed significant inflammation last year, consulted gastroenterologists and nutritionists, and there is an open suspicion of SIBO — 'There's a suspicion that I might have SIBO or something like that. I've already tried many diets.' Clinicians advised him on meal spacing and snack frequency. Drinks four to five cups of coffee a day and suspects it affects his mornings. Sleeps about seven hours with an irregular bedtime."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.62,
+    "signals": [
+      "Explicitly chasing a former self: 'I think that was the fittest time of my life' about the 2016 CrossFit summer, and 'I want to build that need for exercise again in my life'",
+      "Has lost ground to a sedentary role and drift — 5,000 steps, an underused gym membership, irregular sleep, four to five coffees a day",
+      "Can name the exact moment it slipped: he replaced structured training with running in New York and 'sort of like, didn't plan it that much'",
+      "STRONG ALTERNATE — skeptical_bargain_hunter. He is self-directed and capable (rooftop app workouts unsupervised for months), and he is anchored to a cheap alternative that genuinely worked: CrossFit, which he priced at one quarter of this offer and which produced the best results of his life. He also has a documented history of abandoning a service purely on cost. That anchor, not the rebuild narrative, is what actually killed the deal, and if this corpus is being used to predict outcomes the bargain-hunter label is the more predictive one.",
+      "Held at 0.62 because the two profiles genuinely split — his motivation profile is the rebuilder, his buying behaviour is the bargain hunter"
+    ]
+  },
+  "goals": [
+    { "text": "Make training a daily morning habit he is 'incredibly routine' with, rather than something he restarts", "category": "consistency" },
+    { "text": "Get back the fitness, mood and confidence he had during the 2016 CrossFit summer", "category": "confidence" },
+    { "text": "Train at home efficiently enough to cancel the gym membership and stop losing time to travel", "category": "convenience" },
+    { "text": "Get stronger and less stiff, with better mobility and posture that corrects itself", "category": "mobility" },
+    { "text": "Improve anxiety, determination and self-esteem through the act of committing to and completing hard things", "category": "other" },
+    { "text": "Bank a win before the working day starts — 'the moment you wake up, do a workout, whatever you do after that, you already have a win'", "category": "energy_performance" },
+    { "text": "Better emotional regulation leading to more confidence and more assertive communication in meetings", "category": "confidence" },
+    { "text": "Have a clear structure told to him so he does not have to spend time deciding what routine to do", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Cannot self-programme — 'to not spend that much time thinking what routine should I do or what muscles should I work on'. Needs to be told X reps, X jumps, the way a CrossFit coach would. Proposed label: decision_fatigue", "category": "other", "severity": "high" },
+    { "text": "Has never been a gym person and the travel to a gym is the friction that stops him, despite paying for a membership", "category": "training_barrier", "severity": "high" },
+    { "text": "Training is inconsistent — has a membership but is 'not doing that constantly'", "category": "consistency", "severity": "high" },
+    { "text": "Sedentary role, roughly 5,000 steps a day, sitting for a big chunk of the day", "category": "training_barrier", "severity": "medium" },
+    { "text": "Wakes tired and has unpredictable energy slumps he cannot pattern — 'I'm not very clear on what is it that, like, produces low energy'", "category": "other", "severity": "medium" },
+    { "text": "No bedtime routine; sleep varies between 10:30 and midnight and quality 'could definitely be better'", "category": "sleep", "severity": "medium" },
+    { "text": "Suspected SIBO after significant inflammation last year, still open — consulted gastroenterologists and nutritionists and has already tried many diets without resolution", "category": "medical", "severity": "high" },
+    { "text": "Four to five cups of coffee a day, which he suspects is affecting his mornings", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Stiffness he is only aware of when he attempts to stretch — could not complete parts of a basic seated straddle fold", "category": "injury", "severity": "medium" },
+    { "text": "Drifted into running only, which he recognises is 'not the most complete workout' for strength", "category": "program_fit", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Now, to be, yeah, like, I mean, just to be super transparent, I don't think I can invest that right now, just because of, like, the investments I have going on with, like, aside of, like, my work. But, knowing this number, for sure, it could potentially bring me back to this in the near future.",
+      "timestamp": "00:41:21",
+      "rep_response": "Isolated properly and immediately — 'Let me be frank. Like, finances aside... Apart from that, there is anything else that would be keeping you from being less than 100% sure that you want to do this.' Got a clean isolation.",
+      "response_tactic": "isolate_finances",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "For less than half the price, for one-fourth of the price, I could basically have a CrossFit membership in Mexico for six months.",
+      "timestamp": "00:42:06",
+      "rep_response": "Improvised a learn-it-for-life reframe: 'you're learning this for life. So you won't need any other CrossFit memberships anymore, so you pay it once, and you're good for life, actually.' The prospect said 'Yeah, no, I understand that' and did not move.",
+      "response_tactic": "one_time_cost_vs_recurring_reframe",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "That's like, this is probably like a better fit for people in the UK, you know? That's why, to be fully frank, I didn't know this, which is fine. I'm not saying you guys have to lower your price. I'm just saying that for Mexican currency, I think I would have better options that better fit my current needs, you know?",
+      "timestamp": "00:42:06",
+      "rep_response": "Not addressed at all. The rep answered the CrossFit comparison and let the currency and geography argument pass without acknowledgement.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Look, I want to be fully assertive here. I don't think I want to pay 6k right now. And I think I have to find another way to get this knowledge or be fit. I don't want you to like, keep wasting time on me. I think that's like my reality right now, you know?",
+      "timestamp": "00:44:32",
+      "rep_response": "Accepted it without a further attempt, citing the prospect's meeting and his own bedtime — 'I don't want to keep you because you have the meeting... I will call you tomorrow because I'm going to sleep right' — and teased an unnamed low-cost alternative for the following day.",
+      "response_tactic": "accept_and_defer_to_downsell_call",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered only in principle and never structured — 'most guys just pay it up front. Yeah. But for some people, we can make an exception and talk about how we could break it up to make it more digestible.' When the prospect asked whether spreading it would change the total, the rep indicated it would: 'Well, with some interest, too.' No figures, no term and no schedule were stated before the call ended.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal in the prospect's own words: 'I don't think I want to pay 6k right now. And I think I have to find another way to get this knowledge or be fit. I don't want you to like, keep wasting time on me.'",
+      "He named a specific cheaper substitute and priced it — a CrossFit membership in Mexico for six months at roughly a quarter of the offer — and stated a geographic mismatch rather than a temporary cashflow problem.",
+      "No payment was taken, no link was sent, no instalment structure was ever put on the table.",
+      "Counter-evidence: he confirmed twice, unprompted and with no hesitation, that he would do it if money were not the issue — 'I would like to do it' / 'if you had the money, you would do it... There's nothing else, no hesitation about it.' / 'Correct.' The non-financial commitment was genuine.",
+      "Counter-evidence: he left the door open — 'knowing this number, for sure, it could potentially bring me back to this in the near future.'",
+      "Counter-evidence on finality: the rep booked an intent to call the next day about a lower-cost path into kettlebells, so the relationship is alive even though this offer was declined. That call was not scheduled, only promised.",
+      "Confound worth recording: the prospect had a hard stop and was being texted to a meeting while the money conversation was still open, so the objection sequence was cut short by the clock rather than exhausted."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to phone the prospect the following day to discuss an unnamed 'very low financial level' route into kettlebells that is not one-to-one with Trevor. No time was agreed and nothing was booked."
+  },
+  "notable": {
+    "note": "The best-run call in the batch on process and it lost, which is exactly the case the scoring spec exists to capture. Baseline, past attempts and root cause were all worked properly, the commitment check ran before the price and produced a clean unhesitating yes, and the prospect said the call had sharpened his own why. It died on a currency and purchasing-power gap the stated ICP has no criterion for — the prospect diagnosed it himself and said the offer is priced for the UK. Two things a principal should see: he disclosed a suspected SIBO diagnosis under active specialist investigation and the rep responded with an anecdote about his own snacking, having already told him the eating protocol 'supports gut health'; and he asked directly for a cheaper pre-recorded option, which the company already sells, and was told to wait for a phone call the next day instead of being offered it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained. Two long passages collapse into single unbroken blocks containing both sides — roughly 00:15:57 to 00:19:41, which contains the entire deep-why exchange, and 00:27:00 to 00:28:26. Attribution inverts repeatedly on short turns: 'But we're here not for the World Cup, we're here for you, Antonio' is labelled to the prospect but is plainly the rep, and the rep's disclosure of his own genetic hip joint degeneration sits inside a block labelled to the prospect. The prospect's SIBO disclosure at 00:33:49 runs into the rep's response without a label break. Roles read from content throughout; no line-level attribution was relied on."
+  }
+}

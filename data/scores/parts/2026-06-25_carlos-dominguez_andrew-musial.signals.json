@@ -1,0 +1,38 @@
+{
+  "call_id": "2026-06-25_carlos-dominguez_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The call ran two minutes thirty-five seconds and ended as a service escalation. No pillar was delivered. The client has already experienced all three as a paying customer, so his reactions are historical rather than observable here."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not delivered. The rep's opening question named nutrition as a topic — 'what's your current situation in terms of fitness, health, nutrition' — but the answer redirected the call before any presentation began."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not delivered. Worth recording that the call is itself evidence about this pillar in practice rather than in pitch: the client states he messaged Trevor to restart as instructed and got no reply — 'he said, um, just, yeah, your members, your things on pause, just contact me when you're back and ready... I did that, but he hasn't responded.' Accountability is sold on every call in this batch as weekly check-ins and Trevor's direct cell number."
+    }
+  ],
+  "anchors": [],
+  "unmet_demand": [
+    {
+      "want": "To restart a private coaching programme he already paid for and paused mid-way due to injury",
+      "why_unmet": "No reactivation process exists. The closer stated he had never encountered the situation and had to escalate to the admin team, and the client's direct route through Trevor had already failed. The pause is offered in the sales process — 'if you had a surgery, we just paused it' was said to a different prospect the previous day — without a corresponding mechanism to resume, an owner, or a service-level expectation.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A response from Trevor through the direct channel he was told to use",
+      "why_unmet": "The direct cell and over-communication access sold as the accountability pillar did not function for a paused client. Whether paused clients are deliberately deprioritised or simply fall out of the check-in cadence is not established on this call and needs a human answer.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A safe way back into loaded training after an ACL tear and a month-long failed self-rehabilitation of severe bicep tendonitis",
+      "why_unmet": "Never raised by either side. The client volunteered both injuries and his physical therapy course, and no return-to-training screen, clearance question or graded re-entry was mentioned. There is no clinical re-entry step in the process for a client resuming after injury.",
+      "verdict": "product_gap"
+    }
+  ]
+}

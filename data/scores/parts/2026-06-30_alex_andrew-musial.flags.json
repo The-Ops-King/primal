@@ -1,0 +1,111 @@
+{
+  "call_id": "2026-06-30_alex_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed an eight-year-old wrist injury he has never had medically assessed, which for four years prevented him doing push-ups; the rep responded with a reassurance about kettlebell press mechanics, sought no clinical clearance, and closed him on the same call.",
+      "evidence": [
+        "on my wrist on my left wrist the snowboarding i fell on ice and i landed right on it um since then it's been this is probably eight years ago um it's just been a sensitive spot",
+        "yeah no i haven't done any medical",
+        "it did take like you know four years to that i couldn't even do push-ups i would have to do push-ups when i did it i would have to do it on my fists",
+        "sometimes if i'm not stretching it warming it up it does it can it can start feeling tender you know a little a little discomfort",
+        "yeah the cool thing with with kettlebells even when you do the presses it's not like with a with a barbell that the the wrist is you know uh right angle no"
+      ],
+      "timestamp": "00:07:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A one-month tier at $1,200 with an opt-out at thirty days was invented live to close a think-about-it objection; no such trial exists in the $6,000/6mo or $9,000/12mo offer, and it was carried into onboarding as the agreed structure.",
+      "evidence": [
+        "i have a solution and proposal for you all right so let's do it like this um let's settle on uh 1200 for a month you get in trevor will map out the whole program for you everything nutrition workouts and everything you will work with him for a month and then after after one month you will decide whether you want to continue",
+        "So committing to $1,200 for one month.",
+        "it's just the thing like you're trying it out for a month and afterwards you decide"
+      ],
+      "timestamp": "00:54:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A six-installment plan was quoted at $1,200 per month, a total of $7,200 and $1,200 above the stated six-month price.",
+      "evidence": [
+        "So look, the best solution for you is to either pay it up front or split it in half, and there's no interest on that.",
+        "If you would like to split it in more installments, like six installments, that's fine. We can do that too, but that would be like additional cost to that, and that would be $1,200 per month.",
+        "Oh. wow. So $200. So it's $1 more for the whole thing."
+      ],
+      "timestamp": "00:44:34"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The total the prospect agreed to — $1,200 for month one plus $5,000 for the remaining five — comes to $6,200, matching neither the $6,000 upfront price nor the $7,200 installment price quoted ten minutes earlier, and the remainder terms were offered with visible uncertainty.",
+      "evidence": [
+        "So committing to $1,200 for one month. then from there, and there's now, if I do decide, would you guys be able to do, let's say I said, okay, so be basically can split, like, let's say I owe 5,000 for the five months. Can I do 2,500, 2,500 after that, split it?",
+        "Hmm. I think that 5,000 we could split in half.",
+        "Yeah. Okay. Perfect. Then I, I'm, I'm, I'm okay with that. Fine."
+      ],
+      "timestamp": "00:55:08"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Asked about injury risk, the rep recounted declining his own physician's recommendation for bilateral hip replacement in favour of kettlebell training, offering it as evidence the modality is safe.",
+      "evidence": [
+        "I was born with a, was both of the hips, like, the the hips joint degeneration",
+        "the doctor said like look your hips look like you're 80. you need to replace them and i was like oh man i don't know that so i started doing some research and that's how one of my trainers that i was doing crossfit at that time he told me like ditch the crossfit do the kettlebells they're way safer",
+        "it was 13 years ago when i started doing kettlebells and i'm Just fine",
+        "i'm not exaggerating that, basically, kettlebells saved my life"
+      ],
+      "timestamp": "00:27:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "In answer to a direct question about whether client injuries are caused by the kettlebell workouts, the rep claimed the modality is the least injury-causing form of training and attributed all injuries to client error.",
+      "evidence": [
+        "And in the injuries, are they caused by the kettlebell workouts?",
+        "Usually they are caused by someone not, how to say, you know, like just trying to be a bigger hero that they are, you know. They forget that they are... 55 and not 25 anymore",
+        "kettlebells are the least uh injury um causing um type of workout yeah because you don't have like you move with your whole body",
+        "it's virtually impossible to overeat, yeah?"
+      ],
+      "timestamp": "00:49:44"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The prospect asked for twelve to twenty-four hours to decide while sitting in a hospital where his daughter had been admitted for five days; the rep did not grant it and instead improvised a new price and term structure to close on the call.",
+      "evidence": [
+        "we're at the hospital my daughter's got admitted um oh yeah she she has a sort of colitis",
+        "I've been here at the hospital for almost five days already, kind of working remote",
+        "let me um let me let me give me give me like 24 hours or 12 hours like to tomorrow to make a decision",
+        "But being in such a big investment like that, need to at least give it, I normally like to give it some thought process before I make a final decision, you know, investing money like that.",
+        "I'm just in the hospital there's no reason like I said I'm just in the hospital it is a big investment and you know I've been here for five days and then you know we have a lot going on so I just want to you know",
+        "i have a solution and proposal for you all right so let's do it like this"
+      ],
+      "timestamp": "00:50:20"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This single conversation is split across two Drive files — the payment and onboarding portion is a separate 2,451-byte recording — so count-based tooling will read one deal as two calls.",
+      "evidence": [
+        "give me like 10 15 minutes and i'll be back on okay cool thing yeah i'll see you soon",
+        "Yeah, we're back, we're back.",
+        "I probably need to resend you the link, yeah?"
+      ],
+      "timestamp": "00:59:35"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The written guarantee offered as security for the purchase covers strength progression only, while the outcome the prospect was buying is fat loss and body composition; the mismatch was not surfaced.",
+      "evidence": [
+        "I just want to be more lean, less body fat. The biggest thing I hate is like my love handles",
+        "What Trevor does is guaranteeing that in those six months, you will add eight kilos, which is around like 17 pounds, 17, 18 pounds, to your baseline weight of kettlebell that you start with, to all the basic movements.",
+        "If you, if you wouldn't, for some reason, hit that, he will work for you until you do for free."
+      ],
+      "timestamp": "00:43:07"
+    }
+  ]
+}

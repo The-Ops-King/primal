@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-07-01_nate-slayton_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The rep volunteered that a prospect with stage-three cancer, between radiotherapy and chemotherapy, was taken through the sales process two months earlier to get in shape before treatment — reported on this call as a motivational anecdote, not as a concern.",
+      "evidence": [
+        "I remember I had a guy, um, two months ago, he had a stage three cancer and he was after, uh, radiology and was preparing himself for chemo.",
+        "He came in to prepare, prepare himself because he knew like, when, when he will start chemo, like he will get weak. So he wanted to go. In the best possible shape before that chemo starts.",
+        "That was one of the toughest calls, but yeah, like when we're sometimes complaining about, oh, I don't feel like going to the gym or something like that, you hear the story of a guy and like, oh"
+      ],
+      "timestamp": "00:19:29"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep disclosed a prior prospect's cancer diagnosis, stage and treatment status to an unrelated prospect as a motivational story.",
+      "evidence": [
+        "I remember I had a guy, um, two months ago, he had a stage three cancer and he was after, uh, radiology and was preparing himself for chemo.",
+        "I mean, that's a big why. Talk about, yeah, that's a good one."
+      ],
+      "timestamp": "00:19:29"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "No clinical clearance was sought for the interim period before surgery; it was the prospect, not the rep, who proposed asking his orthopedic surgeon about exercise.",
+      "evidence": [
+        "And I've actually got a follow up with my orthopedic surgeon on Monday, the 13th after the MRI. So I can also ask him about exercise too.",
+        "if the surgery is going to be like in two months or three months, that's definitely a period that you can prepare yourself to actually recover faster from the surgery",
+        "the lower back's never been an official injury, it's just like super sore, a lot"
+      ],
+      "timestamp": "00:19:16"
+    }
+  ]
+}

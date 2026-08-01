@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-06-25_kerry-ernst_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:22:07 and adapted live to his 10-to-20-minute window — 'usually it's 30 to 40 minutes, but with your level already, we could probably squeeze that in and compress it into 20 minutes, three to four times a week. Maybe if it's 20 minutes, maybe we would do like five times a week' — plus shoulder-specific mobility protocols. Response to 'Any questions on that?' was 'No. Sounds about what I expected.' Accepted without engagement, and notably it did not answer the muscle-building question he had opened the call with, so the pillar landed as confirmation of what he already assumed rather than as new value."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:24:28 as what/when/how much in an eight-hour window with no tracking. He accepted the content and simultaneously voided its value: 'No, I'm already, that's already what I do. I mean, like I said, I intermittent fast. I don't eat breakfast. I wait until anywhere from, depending on the day, but it's usually 10 or 11, maybe one o'clock before I eat anything.' This is the most important pillar reaction on the call. He had named diet as the single biggest thing standing between him and 10% body fat, and the pillar was delivered in a form he could recognise as his existing routine, so the one gap he had identified was closed off rather than opened up."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:27:41 covering the app, video form checks, Trevor's private cell number and weekly check-ins. Response: 'It sounds fair, and it's actually a very good description. It falls in line with everything that I've read about him, listened to him, and all the small videos that he put out there.' Understood and agreed, but again framed as confirming what he already knew from free content rather than as something he needed."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_content_substitute",
+      "raw": "But my curiosity is, how much more will it get me over just... He's doing his workouts that he's posted a bunch of on YouTube. I love his workouts... So I've done four or five of his workouts, rotated over the last two or three weeks. I love it.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own YouTube channel",
+      "note": "The strongest free-substitute anchor in the corpus so far, because it is the seller's own product, it is already in use, and it is already producing a result the prospect likes. The prospect framed the entire purchase decision as an increment over free. Nothing on the call quantified or even described that increment."
+    },
+    {
+      "type": "alternative_health_spend",
+      "raw": "Would the fee be worth it to get a trainer like this that can tweak things? Or would I be better off just... I don't know, investing in some peptides for overall health and wellness and stuff like that... I've been researching a lot on peptides lately and trying to discover if any of those are worth taking.",
+      "direction": "undercuts_price",
+      "competitor": "peptides",
+      "note": "An unusual competitor: not another coach or programme but a different category of health spend entirely. The rep declined to engage with the substance, which was correct on medical grounds, but that left the comparison unaddressed and the prospect returned to it at the decision point: 'now you have to weigh the peptides and the...'"
+    },
+    {
+      "type": "household_allocation",
+      "raw": "at this stage of my life, my wife would think, are you insane? We can put that toward investments or our children's college savings. And I'm like, yeah, you're probably right.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The decisive anchor. The comparison is not to another fitness product but to investments and college funds, which no fitness value argument can win on its own terms. He also supplied the condition under which it would flip — 'If I was 30 or 40 pounds overweight, then she might be, yeah, let's do that' — which is a direct statement that the offer is priced for a problem he does not have."
+    },
+    {
+      "type": "existing_subscription_habit",
+      "raw": "have you heard about this platform called SKOOL? — Yeah, I'm a member of it for a couple of other things, financial and the stretching thing... I can probably swing that for a little while.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The one supportive anchor, and it applies only to the downsell. He already pays for two Skool communities, so a $200/month subscription sits inside an established habit and he agreed to look at it within seconds. His demonstrated price band for self-directed fitness content is subscription-scale, not programme-scale."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A direct answer to whether kettlebell training can actually build muscle mass, or whether switching will cost him the size he has spent decades accumulating",
+      "why_unmet": "This was his opening question, his stated fear — 'I'm nervous about losing any weight, because it looks like there's only so much you're doing' — and the reason he took the call. It was raised three times and never answered. The nearest the rep came was a biographical aside that Trevor moved to kettlebells after injuries seven or eight years ago. The programme presumably has an answer; nobody gave it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on whether specific loaded overhead movements are safe for a shoulder with four labrum repairs",
+      "why_unmet": "He asked it explicitly — 'I wonder if that's a valuable exercise or one to leave alone' about the windmill, and reported sagging on the right during two-arm and overhead pressing. The rep's reply addressed forearm bruising instead. There is no clinical screening step in the process to route this anywhere.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Specific nutrition intervention to get from below 12% to 10% body fat, which he named as the main lever",
+      "why_unmet": "The nutrition pillar is a set of principles he already follows — real food, eight-hour window, no tracking — so it offered him nothing incremental. He is a man who eats sweets two to four nights a week and whose wife does the cooking; the actual intervention needed is behavioural and household-level, and the pillar as scripted does not reach it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A complete programme that fits inside a 10-to-20-minute daily window before a 6am departure",
+      "why_unmet": "The standard product is 30 to 40 minutes, three to four times a week. The rep improvised a compression live — 20 minutes, possibly five times a week — which may be fine but is not the offer, was not costed and was not grounded in anything Trevor has agreed to.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A programme framed for someone who is already at the outcome and wants refinement rather than transformation",
+      "why_unmet": "The entire offer, the guarantee and the before-and-after proof are built around change from a poor baseline. He is below 12% body fat at 59 and said so: 'I'm the after guy.' The only adaptation available was a shorter version of the same transformation at $4,000.",
+      "verdict": "product_gap"
+    }
+  ]
+}

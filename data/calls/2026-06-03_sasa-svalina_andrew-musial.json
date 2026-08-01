@@ -1,0 +1,133 @@
+{
+  "call_id": "2026-06-03_sasa-svalina_andrew-musial",
+  "source": {
+    "drive_file_id": "1mn1b_kL5em27JiwaxGMqb0AwHhrA5TlC",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/03/2026 - Sasa Svalina x Andrew - Game Plan Session",
+    "display_title": "06/03/2026 - Sasa Svalina x Andrew - Game Plan Session — Follow Up",
+    "file_size_bytes": 33886
+  },
+  "call": {
+    "date": "2026-06-03",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "A setter spoke to the prospect the day before — 'I can tell you also everything what I tell to your colleague yesterday' — and the prospect later refers to this as 'a second talk, what I have'. This is the first call with the closer. The call continues later the same day in a second recording, Drive file 1nabiqDPWdFYcF2rb8DWle5smr-7gU_Dh.",
+    "duration_min_est": 43,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "I can tell you also everything what I tell to your colleague yesterday."
+  },
+  "prospect": {
+    "name": "Sasa Svalina",
+    "aka": null,
+    "name_source": "title",
+    "location": "Croatia (near Split)",
+    "age": 50,
+    "occupation": "Owner of a quarrying and mining business — three factories and five mines producing marble, limestone and travertine, plus a copper operation in North Macedonia",
+    "family_status": "Married — refers to kettlebells 'that my wife using'",
+    "height_in": 75,
+    "weight_lb": 214,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Lifelong athlete. Windsurf foiling (competing in the Croatian national championship on 25 June, targeting a Masters podium within a year), basketball three times a week playing centre, formerly competitive diving and spearfishing, runs half marathons in about 1h40. Peaked at 112 kg, dieted to 96-98 kg over three months on a high-protein, no-bread, no-juice, calorie-deficit approach tracked through ChatGPT. Trained one-on-one with personal trainers roughly six or seven years ago, largely bodyweight and kettlebells. Turns 51 in August.",
+    "kettlebell_experience": "some",
+    "medical": "Two injuries in the past year, both described as fully resolved: a cut to the hand ('I cut a teeth here on the hand, and this is everything good now') and an ankle injury from landing on another player's shoe in basketball. Reports night leg pain after heavy training that is fully controlled by compression garments. No chronic conditions, medications or family history were asked about or disclosed."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.92,
+    "signals": [
+      "Already highly fit and highly successful; explicitly buying good-to-great, which the rep names back to him: 'in your case, it's not really about surviving, it's just becoming like top level, the next level.'",
+      "Zero price resistance at any point — he repeats the numbers himself without flinching: 'especially if I'm paying $6,000 or $9,000, it doesn't matter.'",
+      "Buying expertise to save time rather than to be rescued: 'I don't want to spend too much time that I'm exploring how to work with [kettlebells]... spending one month for something what I can get in one hour.'",
+      "The only resistance in the entire call is a due-diligence demand to see the product before paying, which is an optimizer's quality check, not a price objection."
+    ]
+  },
+  "goals": [
+    { "text": "Get significantly stronger and faster specifically for windsurf foiling and basketball, and win regattas", "category": "hobby_performance" },
+    { "text": "Take first place in the Masters class at the windsurfing national championship within about a year", "category": "hobby_performance" },
+    { "text": "Lose the remaining belly fat and get down to 13-15% body fat from a self-estimated ~20%", "category": "fat_loss" },
+    { "text": "Rebuild the strength and muscle lost during three months of dieting without any strength training", "category": "strength" },
+    { "text": "Learn correct kettlebell technique properly from a coach rather than self-teaching from videos", "category": "other" }
+  ],
+  "pains": [
+    {
+      "text": "Lost muscle and strength during the diet because he did no strength training alongside it",
+      "category": "training_dissatisfaction",
+      "severity": "medium"
+    },
+    {
+      "text": "Will not train in commercial gyms and dislikes machine-based training; wants to train at home with kettlebells only",
+      "category": "training_barrier",
+      "severity": "medium"
+    },
+    {
+      "text": "The good personal trainers he used to work with are no longer available — one moved into government, another opened a gym he does not respect",
+      "category": "training_barrier",
+      "severity": "medium"
+    },
+    {
+      "text": "Does not want to waste months exploring kettlebell technique alone and risks doing the movements wrong without eyes on him",
+      "category": "competence_anxiety",
+      "severity": "medium"
+    },
+    {
+      "text": "Training alone removes the obligation that made a personal trainer work for him — with a trainer 'you must be on time', alone 'you can train 20 minutes or one hour, it doesn't matter'",
+      "category": "accountability_gap",
+      "severity": "medium"
+    }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "No, I don't say it's a problem, I just wanted to see what I will work for next six months, one year, is this, that's what I'm looking for, do you understand? So, for me, it's important to know what I'm buying, do understand?",
+      "timestamp": "00:41:27",
+      "rep_response": "The rep had already sent the payment link and could not produce the asset. He first said he did not have it ('Oh, I don't have it on me. It's a customized app'), then checked with the team and relayed a confidentiality reason ('we don't have this video of the app because, like, we cannot share the client's details'), then tried a value reframe ('app is just a tool... the main thing is the program that Trevor is delivering'), then a social-proof reframe ('you've seen Trevor, you've seen how many people he helps... so I think the app is the least of a problem'). The prospect narrowed the ask to a screenshot of an empty app menu, which the rep still could not supply, and the call ended with the rep taking the action to source it and send it over WhatsApp.",
+      "response_tactic": "value_reframe_then_social_proof_then_concede_action",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.6,
+    "close_rule_applied": null,
+    "evidence": [
+      "The verbal-agreement-plus-link-sent rule was momentarily satisfied and then withdrawn inside the same call, which is why it was not applied. At 00:32:16 the prospect chose a tier — 'Well, I think we can start with six and I see how it's going on' — at 00:32:47 he answered 'Ready to roll?' with 'Yes', and at 00:33:16 the rep sent the link: 'I will put in the chat the payment link.'",
+      "Eight minutes later the prospect declined to use it and made payment conditional on seeing the product: 'Okay, but here is, I need first to pay, then see.'",
+      "No payment was taken. Cash collected is zero and the transcript does not end before the payment question resolves — it shows the payment being deferred.",
+      "The call closes with the open action on the rep, not the prospect: 'okay okay i'll figure it out and and i will let you know so we can we can come come back to this.'",
+      "Counter-evidence toward closed: there was never a no, never a price objection, and the prospect asks 'this app, what will be used?' in the tone of a buyer doing final due diligence. He also volunteers 'now I have the price' without pushing back on it.",
+      "This deal continues in the same-day recording 'Impromptu Zoom Meeting' (Drive file 1nabiqDPWdFYcF2rb8DWle5smr-7gU_Dh), where the prospect states he will pay. The two files are one deal and must not both count in a close-rate denominator."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to source screenshots of the training app and send them to the prospect on WhatsApp, then reconnect. The prospect's phone number was read out on the call for this purpose."
+  },
+  "notable": {
+    "note": "A textbook-fit prospect with no price resistance was lost to a missing sales asset: nobody could show him the app he was being asked to pay $6,000 for. The rep also improvised an upgrade term that is not in the stated offer — after six months the prospect could extend to twelve for $3,000 rather than repurchasing. Separately, the rep skipped the consequence frame entirely, presumably because the call felt easy, and accepted a hedged 'I think it's possible' as the commitment yes."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained mislabelling, worse than any other call in this batch. Entire rep questions are attributed to the prospect: 'So does your diet nutrition look like right now?' (00:02:00 block), 'So you do a lot, like you move a lot. So what do you do for work?' (00:07:12), 'Does this approach is something that fits your schedule?' (00:27:43), and the whole pillar pitch at 00:28:41 opening 'And third thing, very important' is labelled Sasa when it is unmistakably the rep. Conversely the prospect's 'Wind-surfing foil' answers are attributed to the rep at 00:05:00. Roles were resolved from content throughout. Timestamps for the payment-link and app-demo sequence are reliable; attribution within them is not."
+  }
+}

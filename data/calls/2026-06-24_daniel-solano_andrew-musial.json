@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-06-24_daniel-solano_andrew-musial",
+  "source": {
+    "drive_file_id": "1jjphH1Tow5vKrim5vqPNdK47aWjn9fkz",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/24/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/24/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 35250
+  },
+  "call": {
+    "date": "2026-06-24",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 41,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Daniel Solano",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": "Tugboat operator — maneuvers tugboats, seated more than half the working day",
+    "family_status": "Going through a divorce; two daughters aged nine and six",
+    "height_in": 68,
+    "weight_lb": 198,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former CrossFit Level 1 coach about ten years ago. Currently three months into self-directed training, three to four sessions a week of roughly an hour plus a five-kilometre walk, using kettlebells (26, 35, 45 and 53 lb) and bodyweight work at home. Following Pat Damiano's $45/month membership programme and also using Trevor's free YouTube workouts. Dislikes barbells now. Has lost about 40 lb in three months, targeting roughly 175 lb.",
+    "kettlebell_experience": "experienced",
+    "medical": "Unstable shoulders — describes the bone catching and wobbling when raising the arm to the side, aggravated by heavier lifting. Suspected hip instability or an external/internal rotation imbalance, worst in the 90-90 position. History of severe lower back pain about two years ago while playing padel: could not sleep, could not lie down, had to brace his core to stand up; was told it was a tight psoas. Stopped padel entirely, has recently resumed occasionally without pain. No clinician named as currently involved."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.85,
+    "signals": [
+      "Ex-CrossFit Level 1 coach, self-programming, fully capable of running his own training — he says the reason he wants a coach is not knowledge but wanting to stop thinking about it",
+      "Anchored to a functioning cheap substitute he is on right now: 'the three months I've been working with Pat, even though it's just a membership, their results are still there, you know?' at $45/month",
+      "Did the arithmetic out loud against the offer: 'So comparing $45 per month in a membership... Versus, what is it? 1,333 per month... it's a pretty big leap.'",
+      "Genuine cash constraint layered on top — mid-divorce asset separation — so this is part bargain-hunter, part timing; he never disputed the value, only the leap"
+    ]
+  },
+  "goals": [
+    { "text": "Health and longevity, to counteract a sedentary job maneuvering tugboats", "category": "longevity_function" },
+    { "text": "Lose about another 20 lb on top of the 40 already lost", "category": "fat_loss" },
+    { "text": "A more efficient, focused session — not an hour and fifteen in the gym", "category": "convenience" },
+    { "text": "Have someone else do the programming so he stops biasing toward movements he likes and neglecting his weak points", "category": "consistency" },
+    { "text": "Keep the energy to throw both daughters in the air and say yes when they want to do something", "category": "longevity_family" },
+    { "text": "Get back to playing padel and add an occasional hike", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Self-programming drifts — gravitates to favoured movements and builds blind spots, currently over-focused on the VMO while neglecting adductors", "category": "program_fit", "severity": "medium" },
+    { "text": "Sedentary tugboat work, seated over half the day, shortening hip flexors and driving stiffness", "category": "training_barrier", "severity": "medium" },
+    { "text": "Unstable shoulders that catch and wobble under heavier load", "category": "injury", "severity": "medium" },
+    { "text": "History of disabling lower back pain that stopped him sleeping and forced him to quit padel completely", "category": "injury", "severity": "high" },
+    { "text": "Mid-divorce financial hit — moved out, split assets, rebuilding financially as well as physically", "category": "other", "severity": "high" },
+    { "text": "Does not want to spend mental energy deciding what to train each day", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Only one hour a day available including warm-up, cool-down and mobility", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It's not willingness. It's just like I know it's not... Money is not, I would say, abundant right now because of what's happening. So that's a major hurdle.",
+      "timestamp": "00:32:44",
+      "rep_response": "Isolated it as the only obstacle, asked whether the problem was the whole amount, then proposed splitting the payment and introduced third-party financing (named as 'Pava' or Klarna) run off his credit score.",
+      "response_tactic": "isolate_then_third_party_financing",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I had to take a hit economically or financially because I had to move out, I had to get all the plays and I had to put a lot of money into that. So right now I got a, and all the separation of the assets and, and so I got a rebuild, you know, not only physically, but financially. And even though it's an investment on myself, it's, I don't know, it doesn't feel like it's the time right now to, to spend 4k on that.",
+      "timestamp": "00:33:16",
+      "rep_response": "Ran an abbreviated 'there is no perfect time / there's always something' move, then reframed onto the family why: 'you're still connected with this why... you're doing it for your family... if there's a will there's a way.'",
+      "response_tactic": "no_perfect_time_then_why_reframe",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "So comparing $45 per month in a membership, which is not comparable to a one-on-one, I completely get that. Versus, what is it? 1,333 per month. Even though it's a very completely different service, it's a pretty big leap. I don't know if I'm explaining myself.",
+      "timestamp": "00:36:10",
+      "rep_response": "Did not compare value, mechanism or outcome against the cheaper programme at all. Reframed emotionally: 'you came here because you want to advance, not be in this, I don't want say mediocre, this is not a good word, but like in this spot that you have to think about what you're going to do' and returned to the daughters.",
+      "response_tactic": "emotional_why_reframe_no_value_comparison",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Third-party financing named by the rep as 'Pava' or Klarna, underwritten on the prospect's credit score, split up to 12 months. The link was sent in Zoom chat and opened live on the call; the prospect read back $433 per month over 12 months, which he computed as roughly $5,200 total against a $4,000 quoted programme price.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.96,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit decline after seeing the financing terms: 'It's $433. Which ends up being 5200 for the three month. Yeah. Yeah. So I don't think it's gonna, I don't think I'm going to be able to do it.'",
+      "Rep accepted it and closed the call out: 'Fair play.' and 'Look, the door is open. So when you get in a better spot financially... Reach out.'",
+      "Counter-evidence on intent, not on outcome: he answered 'absolutely' to whether he wanted to do it and said 'It's not willingness' — this was lost on cash, not on desire.",
+      "No payment taken, no deposit, no future call booked."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled. Rep left an open invitation for the prospect to reach out when his finances recover."
+  },
+  "notable": {
+    "note": "The rep improvised a three-month / $4,000 tier that does not exist in the stated offer, and did so proactively before any price resistance, framing it as an honest downsell — 'in my opinion, you don't need that... you only need 3 months for that. And three months, it's 4K.' He then routed the prospect to third-party consumer credit, which priced out at $433 x 12 = roughly $5,200, i.e. about 30% above the quoted price, a gap the prospect discovered by doing the arithmetic himself. This is also the second recorded instance of the known script gap: a prospect anchored to a cheap alternative that is demonstrably working for him ($45/month Pat Damiano membership, 40 lb lost in three months), where the rep had no value play and fell back on the family why."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained label inversion. Whole rep questions sit under 'Daniel Solano' — e.g. 'So what's the part that you're skipping, or you see that you're not developing as much?' and 'What do you eat?' — and prospect answers sit under the rep, e.g. 'And three months, it's 4K' is labelled to Daniel when it is plainly the rep quoting a price, and 'I think it's going through a divorce right now' is labelled to the rep when it is Daniel disclosing his divorce. The 00:33:16-00:34:32 passage collapses into an unpunctuated block with both speakers merged, which is where the 'when's gonna be the perfect time, there's no such thing' exchange sits; role was inferred from content there. Roles were read from content throughout."
+  }
+}

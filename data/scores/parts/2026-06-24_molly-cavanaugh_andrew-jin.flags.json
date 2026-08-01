@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-06-24_molly-cavanaugh_andrew-jin",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The speaker label 'Andrew Jin (Primal Instinct)' in the 'Andrew Musial' Drive folder covers at least two demonstrably different people — a 27-year-old US-based ex-banker on this call and a 43-year-old Poland-based rep on the sales calls in the same folder — so any rep-level rollup built from folder or speaker label will merge two individuals into one.",
+      "evidence": [
+        "Yeah, I'm also 27, so I feel like that would be something, but I'm trying to normalize it.",
+        "I graduated from Bentley with a degree in economics and finance and the past, you know, four and a half years I've been in, um, banking, banking industry or wealth management.",
+        "I'm in Poland right now. I grew up in Okay. (same speaker label, file 1tlfBTQbV4uwYxlkcGwOMtqBa02vKRZn9)",
+        "I just recently, like eight months ago, I got into boxing for the first time in my life. And I'm 43 (same speaker label, file 1tlfBTQbV4uwYxlkcGwOMtqBa02vKRZn9)"
+      ],
+      "timestamp": "00:14:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A personal, non-Primal-Instinct call is filed in a sales rep's call folder with the generic title 'Impromptu Google Meet Meeting', so without transcript-level review it would be counted as a prospect call and land in a close-rate denominator.",
+      "evidence": [
+        "so I did want to just ask, like, I saw that you used to be in a litig- in litigation. So how did you find the transition into the role after, you know, being in a completely different industry?",
+        "Um, I'd love to, you know, submit an application, especially if there is an associate AE role.",
+        "Well, it was great to meet you. Great to meet you as well."
+      ],
+      "timestamp": "00:00:14"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An active Primal Instinct closer conducted an external job-search networking call during working hours on the company's meeting recorder, and described his Primal Instinct role to a third party as 'an independent sales contracting job' rather than as employment.",
+      "evidence": [
+        "now I kind of want to just transition into sales, but particularly at a tech, uh, company, tech enterprise B2B sales, um, particularly within AI or, you know, Navon is also a company that I was interested in once I talked to Arian about it.",
+        "And starting in February of earlier this year, I've been, you know, working at independent sales contracting job. Yeah. I've been getting some closing experience there, which has been good.",
+        "I am going to, I'm scheduled to speak with Brayden tomorrow. Um, I'd love to, you know, submit an application, especially if there is an associate AE role.",
+        "I'm happy to, like, put in a referral for you, but I think something from him, too, would also carry weight."
+      ],
+      "timestamp": "00:01:29"
+    }
+  ]
+}

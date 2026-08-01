@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-07-02_irfan_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Application acknowledged but not read back — \"Irfan, I saw your application, but I would like to get in more details what actually brought you here to us.\" No four-part frame and no frame agreement, which mattered more than usual here because the prospect did not know what he had booked: \"I just filled the application with going, what's this call is going for?\" The rep did answer that in one line (\"Trevor is working with people one-on-one. It's a one-on-one coaching for six months\") but never set expectations for the call itself. The open question ran."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "hit", "P2d": "miss", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The health-conditions check is the best example of P2c in this batch and it is what produced the correct outcome: \"do you still have this issue with your gut?\", \"So you're taking medication still?\", and crucially \"Did you ask your doctor about the side effects? Does it cause, like, gaining weight?\" Height and weight were both asked directly, with the weight history chased properly (\"that weight has been with you like for longer?\", \"throughout that year, you've been gaining this weight like gradually?\"). Work, training week and diet all covered, and the diet work included a genuinely good move most reps skip — asking what he ate before the change, not just now: \"I was asking about what you were eating before, because this is also important.\" Injuries, sleep and energy were never asked."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "Not run in any form. No goal question, no why question, no impact question, no reflect-back. The only statement of what the prospect wants is the one he opened with — \"Recently, I'm gaining a lot of weight\" — and nothing was ever built on it. The rep made a disqualification decision at the thirteen-minute mark having never asked why this man wanted to change anything, which is a meaningful gap even in a call that correctly ended in a DQ: the decision was made on presenting facts alone."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "hit", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "The rep did establish the sequence of events well — \"when you had this gut issue, were you training in the same way like you're training right now?\" produced the CrossFit-plus-36-hour-fasting history and \"then I had a gut-letter issue, and then I stopped doing everything.\" That is P4b, cleanly. But he never asked why it did not stick, never asked what is actually in the way, and never let the prospect name a gap. He supplied the diagnosis himself instead: \"from what I'm hearing, it's just an issue of actually starting doing the work that you were doing previously, but just consistently, isn't that correct?\" — a leading question that got a one-word yes."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Not run. Scored as a miss rather than N/A because the rep did attempt a paid close — the $200/month subscription — with no cost of inaction established behind it, which is part of why it was rejected within seconds of the number landing."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind before presenting. He went straight from his own summary of the problem into the subscription pitch and the price. No belief question, no all-in question, no verbal yes in hand."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "The offer was declined on the call. No payment, no onboarding, nothing reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A price objection landed and the rep's complete response was three words: \"It is what it is.\" No isolation, no should-versus-how reframe, no financial-picture questions, no attempt to reframe value against the alternative. It is the shortest objection handling in the batch by a wide margin, and it followed a decision the rep had already made to disqualify — so it reads less as a failed play than as a rep who had mentally closed the file and offered the subscription as a courtesy."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The playbook's second known gap, in its purest form yet — the cheaper alternative that genuinely works. He attends a local CrossFit gym five times a week at $149 a month that includes a nutrition coach, warm-ups and conditioning, and he explicitly expected an online product to cost less, not more: \"I saw this is an online thing, maybe it's going to be cheaper, but I was not expecting it's, like, 200 a month.\" This is the same shape as the Badrane Hriouch call the playbook already documents. There is no scripted path, and the rep did not improvise one — he never asked a single question about what the CrossFit programme is or is not delivering, which is the obvious place to find differentiation."
+    }
+  ],
+  "notes": "Score the process and the judgement separately here. The process is thin — no P3 at all, no P4 root cause, no P5, no P6, and a three-word answer to a price objection — but the judgement was right, and it was right because of the one check he did run properly. Asking \"did you ask your doctor about the side effects?\" is what surfaced that this is very probably a medication problem rather than a coaching problem, and the rep declined to sell a $6,000 programme against it. That is the correct outcome and it should be recognised as such. The coachable point is that he then offered a $200/month product with no goal, no why and no commitment established, and it was rejected in one line."
+}

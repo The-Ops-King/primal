@@ -1,0 +1,162 @@
+{
+  "call_id": "2026-06-08_manny-nunez_andrew-musial",
+  "source": {
+    "drive_file_id": "1_h9duAW6rqbBLDqNsMiEWXDCSL9Kwejk",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/08/2026 - Manny Nunez x Andrew Musial ",
+    "display_title": "06/08/2026 - Manny Nunez x Andrew Musial  — Follow Up",
+    "file_size_bytes": 65831
+  },
+  "call": {
+    "date": "2026-06-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 74,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep at 00:01:27: 'Okay. Kim that you spoke with briefed me a little bit about your situation, but I'm kind of old school and I would love to hear it from you.' Confirmed by the prospect at 01:06:23: 'this is what I told, is it Kim? Kim, yeah.' No KFS suffix appears in the file title even though a setter was clearly involved."
+  },
+  "prospect": {
+    "name": "Manny Núñez",
+    "aka": null,
+    "name_source": "title",
+    "location": "Florida, USA (on Air Force Reserve duty in Georgia at the time of the call)",
+    "age": 38,
+    "occupation": "Technical project manager at Blue Origin, and separately a program manager in the Air Force Reserve working on vehicle acquisition. Two jobs. Desk-based in both.",
+    "family_status": "Two children aged 9 and 11. In the middle of a separation from their mother and supporting two households; has a long-distance boyfriend aged 46.",
+    "height_in": 70.5,
+    "weight_lb": 187,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Into fitness since college and through military service. Peaked at 212 lb at the start of the year, the heaviest of his life, then went paleo in January for about three months and came down to 185-190 lb — 'best shape that I've gotten in a very long time.' Ran a sub-seven-minute mile recently. Goes to the gym most days. Did CrossFit around 2017 and says it 'screwed my whole body up'. Did Taekwondo for a while. Previously ran a bulking programme up to 200 lb. Currently tracking macros with an AI tool to raise protein intake. Has tried one of Trevor's kettlebell workouts already.",
+    "kettlebell_experience": "some",
+    "medical": "Shoulders are the dominant issue. An MRI on the left shoulder found no large tears or structural damage, but his orthopedic surgeon believes he has tears in both shoulders. He receives cortisone injections roughly every three months. His surgeon has explicitly restricted overhead work — 'my orthopedic surgeon told me, hey, like, nothing overhead, but there's other things that you could do for your shoulders.' More than about three pull-ups, or presses, put him out for a week with inflammation and an inability to raise his arm past horizontal. Knees intermittently painful from a running injury in his early twenties. Metabolic: diagnosed pre-diabetic about eighteen months ago, currently A1C 5.6 against a 5.7 threshold; LDL and specific cholesterol markers poor while total cholesterol is acceptable. NEW AND UNRESOLVED: blood pressure measured at 140 at a machine and repeatedly around 130 on a home monitor, against a lifelong baseline of about 110. Family history is severe — both parents diabetic, cancer, high cholesterol, father hypertensive and medicated and by his account effectively alcoholic, step-grandfather's leg amputated in his early sixties from diabetes, Alzheimer's on the Puerto Rican side. Lactose intolerant. Longstanding body-image issues from childhood body-shaming."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Already medically managed and highly health-literate — quotes his own A1C to one decimal place, knows the 5.7 threshold, tracks LDL versus total cholesterol, monitors blood pressure at home, under an orthopedic surgeon with scheduled cortisone injections",
+      "Goal is explicitly holding on to function rather than gaining anything: 'I want to be able to lift. If it's a kettlebell, I want to get better. I want to lift heavier so that I can just be healthier. Bottom line, that's what I want.'",
+      "Actively rejected the aesthetic frame twice — 'if this program is all about just me getting ripped and shredded... then I'm not, this isn't the right program for me' and 'I'm not joining a program to get ripped'",
+      "High nominal income (Blue Origin plus military reserve) with very low discretionary liquidity after alimony at 30% of pre-tax income, $3,000 a month child support and two households",
+      "Considered the_medically_constrained, which fits the surgeon's overhead restriction exactly, but that avatar specifies no price resistance and this prospect's price resistance was the decisive factor",
+      "Not the_rebuilder — he is not recovering lost ground, he is at his own stated peak: 'right now, I'm at the peak of my health for a very long time in my adulthood'"
+    ]
+  },
+  "goals": [
+    { "text": "Avoid the diabetes, hypertension and high cholesterol running through his family — break the cycle he can see coming", "category": "longevity_family" },
+    { "text": "Stay mobile and get out of pain — his stated top priority", "category": "mobility" },
+    { "text": "Be a mobile, healthy grandfather in his sixties and set an example for his kids instead of projecting onto them", "category": "family_role_model" },
+    { "text": "Train around the shoulder injury and lift heavier without re-injuring himself", "category": "injury_confidence" },
+    { "text": "Get body fat below 20% — explicitly framed as icing on the cake rather than the driver", "category": "appearance" },
+    { "text": "Establish a lifestyle rather than a diet — be able to have a cheat day or a cruise and get straight back on it", "category": "sustainability" },
+    { "text": "Have accountability and a plan so the up-and-down stops", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Suspected tears in both shoulders per his orthopedic surgeon, managed with cortisone injections every three months; a few pull-ups or any pressing puts him out for a week and he cannot raise his arm past horizontal", "category": "injury", "severity": "critical" },
+    { "text": "New unexplained blood pressure elevation — 140 at a machine and sustained around 130 at home against a lifelong 110 baseline", "category": "medical", "severity": "high" },
+    { "text": "A1C at 5.6 against a 5.7 pre-diabetes threshold after a previous pre-diabetes diagnosis; poor LDL numbers despite eating well and training", "category": "medical", "severity": "high" },
+    { "text": "Severe family history — both parents diabetic, father hypertensive and drinking nightly, step-grandfather's leg amputated from diabetes, cancer and Alzheimer's in the family", "category": "medical", "severity": "high" },
+    { "text": "Numbers trend the wrong way even when he does everything right, which he finds genuinely frustrating and frightening", "category": "emotional", "severity": "high" },
+    { "text": "Doing all of it alone with no support structure — 'I'm doing a lot of it by myself... I need that extra support to get there'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Years of yo-yoing — weight and numbers come down then drift back", "category": "consistency", "severity": "high" },
+    { "text": "Separation has left him supporting two households on roughly $2,000 a month of discretionary income", "category": "other", "severity": "high" },
+    { "text": "All-or-nothing thinking — 'I didn't go to the gym. There's a cookie. I'm going to eat the cookie. Oh, I ate the cookie. Screw it. I'm going to eat the pizza'", "category": "motivation", "severity": "medium" },
+    { "text": "Childhood body-shaming in his culture left longstanding body-image issues, now mirrored in a conflict about his own children going through puberty", "category": "mental_health", "severity": "medium" },
+    { "text": "Intermittent knee pain from an early-twenties running injury", "category": "injury", "severity": "medium" },
+    { "text": "CrossFit left lasting damage — 'I loved CrossFit, but it screwed my whole body up, I still suffer from CrossFit'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Desk-bound in both jobs, on a computer all day, with bad posture he links to the shoulder degeneration", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "And I don't know where you're coming from. So, like, if this program is all about just me getting ripped and shredded and just because I want to be shredded, like, then I'm not, this isn't the right program for me, right?",
+      "timestamp": "00:21:04",
+      "rep_response": "Backed off and explained the intent behind the questioning — that superficial reasons tend to fall off over time, so he wanted to find the durable why. Then steered explicitly toward the health angle: 'I would be leaning towards your health situation with your diabetes and your history of mobility.' The prospect accepted the explanation and the conversation recovered, but the rep had pushed the aesthetics thread for roughly five minutes past the point the prospect had answered it.",
+      "response_tactic": "explain_intent_then_steer_the_why",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "Yeah, so that's about a thousand a month. It's quite a bit. I mean, this is something that I'm going to have to think about. Actually, it's a lot more than I thought it was going to be. Is this something that you need an answer to right now?",
+      "timestamp": "00:57:08",
+      "rep_response": "Isolated cleanly — 'first things first, finances aside, do you genuinely feel that the money is the only thing that's right now is being in a way for you' — then ran the should/how reframe and asked permission for an open financial conversation, which was granted.",
+      "response_tactic": "isolate_then_should_to_how_then_permission",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "my alimony is 30% of my income. I'm prior to taxes, and I have to pay $3,000 in child support, so it's quite a bit, and I'm left with about $5,000 to take home to live off of. My apartment is $2,100 a month, and that's prior to utilities... I know enough of my numbers to know that $1,000 a month is not something that I'm not able to do, but I'm just like not willing to do.",
+      "timestamp": "01:01:51",
+      "rep_response": "Had opened with a challenge frame — 'when someone says, cannot afford it. But actually, when we start looking into the numbers, it turns out that, hey, actually, I can afford it, but I'm just scared to pull the trigger' — which the prospect immediately rebutted with exact figures. The rep then returned to the consequence frame ('How much it's going to cost you when you have diabetes. Or you're injured and you cannot work'), which the prospect also rebutted: 'Yeah, but you know, I'm not doing nothing.'",
+      "response_tactic": "challenge_the_cannot_afford_then_return_to_consequence",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "I don't know if I'm your guy. At the stage that I'm in, and I'm not even saying this to try to negotiate down, because honestly, starting at $1,000, even if we were to go to half of that, it still would be a huge sacrifice for me at this point in my life",
+      "timestamp": "01:05:23",
+      "rep_response": "Did not accept the self-disqualification. Invented a three-month tier at $4,000 framed as an exception — 'we don't typically do this, but with where you're at right now... I think we could start with a three-month option' — with a $2,000 upgrade path to six months. When that was also declined, pushed Payva and Klarna buy-now-pay-later three separate times, including after the prospect said 'I just know that I don't want to go into debt, like, I don't want to go into debt for this' and 'I'm not your guy, Andrew' and that he had to leave for work. Finally booked a follow-up call for the next day at 5pm to walk through the financing application.",
+      "response_tactic": "invent_lower_tier_then_repeat_financing_push",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered in principle only: 'most of the guys take it up front, but if you want, and it's more feasible to you, we can split it up, or you can even use the financing option and put it on a credit card.' No number of instalments, amount or schedule was ever specified. The three-month $4,000 tier was also stated to be eligible for split payment or Payva financing, again with no terms. Payva and Klarna were described as buy-now-pay-later over up to twelve months, with interest 'not high, but it's different depending on your credit score.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 2000,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Volunteered in full and unprompted after the rep asked permission. Alimony is 30% of pre-tax income; child support is $3,000 a month; take-home after those is about $5,000 a month; apartment $2,100 plus utilities is about $3,500; roughly $2,000 remains, out of which come a car payment, costs when the children are with him, savings and about 10% given away. He stated clearly this was a willingness boundary as well as a capacity one."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "A follow-up call was booked and accepted for the next day at 5pm on the same link, with a calendar invite sent and confirmed on the call: 'I got it. You got it.'",
+      "The prospect agreed to reassess: 'I'll also take a look at, you know, finances and see if I can, what I can squeeze in.'",
+      "He also began checking the financing provider live: 'I'm checking it out right now.'",
+      "COUNTER-EVIDENCE: he said 'I'm not your guy' twice, 'my decision right now is that I can't, I won't be [able to]', and 'I just know that I don't want to go into debt, like, I don't want to go into debt for this.'",
+      "COUNTER-EVIDENCE: his objection is a stated willingness boundary and not only a capacity one — '$1,000 a month is not something that I'm not able to do, but I'm just like not willing to do' — and he pre-empted negotiation: 'I'm not even saying this to try to negotiate down.'",
+      "COUNTER-EVIDENCE: the follow-up was agreed under time pressure — 'I have to go because we're over time here, and I got to go back to work.'",
+      "No payment, no link to a payment page, and no Trevor call booked. Recorded as follow_up rather than lost only because a specific dated next call was set and accepted; on the substance of what he said this is close to a loss."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call the next day at 5pm on the same Zoom link to walk through a Payva financing application; prospect to review his budget in the meantime."
+  },
+  "notable": {
+    "note": "The single most serious clinical exposure in this batch. The prospect disclosed that his orthopedic surgeon has explicitly told him nothing overhead, that he is on a three-monthly cortisone injection cycle for suspected bilateral shoulder tears, and that a handful of pull-ups or any pressing puts him out for a week. The rep's answer was not a screening question but a product claim — that kettlebell training is 'joint friendly by design' and that the movement patterns 'strengthen the shoulder complex instead of grinding it down.' Nobody asked whether the surgeon would clear it. Separately, the prospect volunteered a new and unexplained blood pressure elevation from a 110 baseline to 130-140, and it was never mentioned again. On the commercial side, an unauthorised three-month tier at $4,000 was invented live once the prospect self-disqualified, and the rep pushed consumer credit three times after explicit refusals. Discovery, by contrast, was the best in the batch — the injury probe and the drive from surface goal through to family legacy are both models of the process. Note also that this call was reviewed in the team meeting three hours later, where the manager specifically warned Andrew 'be very careful with telling somebody what their why should be' — a behaviour visible in this transcript at 00:23:07."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous short-turn misattribution. Clear inversions include 00:00:00-00:00:04 where the greeting and 'Yes, I can' are swapped, 00:09:14-00:09:17 where 'You want to [lose] more?' sits under the rep and the answer merges in, 00:11:08 where 'I'm on my computer all day' is labelled rep, 00:15:31-00:15:46 where the rep's probes about the knees are split across both labels, 00:19:00-00:19:01 where the rep's question repeats under both speakers, 00:26:57 where a Fathom artefact ('The good thing is that their mom. Fathom has really good genes') corrupts the line, 00:50:52-00:50:54 where 'Any questions on that?' is attributed to the prospect, and 01:04:08-01:04:23 where the rep's consequence line and the prospect's 'Well, I get it' are inverted. One untranscribed foreign-language artefact at 00:59:42 ('Apriloniego Infinity'). Roles assigned from content throughout."
+  }
+}

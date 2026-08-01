@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-06-08_daniel-diaz_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep proposed third-party buy-now-pay-later lending for the $6,000 purchase immediately after the prospect disclosed he is actively paying off credit card debt with a 690 credit score.",
+      "evidence": [
+        "Daniel Diaz: So, like, I've made mistakes, of course. I'm paying off my credit card debt.",
+        "Daniel Diaz: And right now, I think it's 690... My credit score is at 690",
+        "Rep: Okay, look, so there is a solution that we could take a look on. Do you know, like, external financing, like Klarna or Peiva?",
+        "Daniel Diaz: Yeah, to basically take a loan out?",
+        "Rep: So, yeah, you buy now, pay later, type of thing.",
+        "Daniel Diaz: if it's a 12 month loan for six, for six grand, I'm going to be paying like more than $500 a month, probably."
+      ],
+      "timestamp": "00:48:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "When the prospect declined to disclose his bank balance, the rep challenged the refusal twice rather than moving on, including implying he might have no money at all.",
+      "evidence": [
+        "Daniel Diaz: Yeah, I'm not comfortable saying that, you know, that's a little too, like, I don't know if that's, I'm not comfortable sharing how much cash I have in my account right now.",
+        "Rep: Okay, but like, what happened from the five seconds ago that you said that you're comfortable with it, and now you're saying-",
+        "Rep: But in order to do that, I need to know, what are we actually talking about? Because if you don't have any money in your bank account, yeah, obviously.",
+        "Daniel Diaz: I obviously have money in my bank account, brother. I'm just not telling you exactly how much I have, you know? It's just not an orthodox-",
+        "Daniel Diaz: that's not something that I'm used to, you know what I mean? Like, answering that question. Like, no one's ever asked me that question"
+      ],
+      "timestamp": "00:44:36"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $200/month cancel-anytime tier (the Primal University Skool community) was offered live as a downsell after price resistance — a price outside the two authorised tiers of $6,000/6mo and $9,000/12mo.",
+      "evidence": [
+        "Rep: But I'm thinking maybe starting something maybe smaller in your situation would be digestible for you. Of course, it's not going to be one-on-one. Have you heard about a platform called SKOOL?",
+        "Rep: And basically, it's like 200 bucks a month, and you can cancel anytime. So you can get in, and if you don't like it, yeah, you can cancel.",
+        "Rep: And then when the finances are better, you can always come back.",
+        "Daniel Diaz: Okay, so tribal university. Okay, cool. So it's $200 a month. Okay. All right. Yeah. $6,000 is a huge investment, just saying."
+      ],
+      "timestamp": "00:51:02"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep stated flatly that payment plans do not exist, which contradicts the playbook's own money play, and then said something could be customised without ever customising anything.",
+      "evidence": [
+        "Rep: Now, we don't have set payment plans for customers. Most of them, they just take it upfront.",
+        "Rep: What we can do, we can customize something, depending on what's best for the client.",
+        "Rep: Look, as I said, we don't have anything set in stone. That's why we're trying to work with people and make it work just basically for them.",
+        "Playbook OC key move for comparison: 'Most clients pay upfront, but for some we break it up. Want to explore making it work?'"
+      ],
+      "timestamp": "00:43:46"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a suspected untreated shoulder tear never seen by a doctor and a physician recommendation for cholesterol medication that he declined, and was moved toward loaded kettlebell training with no question about clinician clearance.",
+      "evidence": [
+        "Daniel Diaz: I'm not sure, I never went to a doctor to get it checked out, and exactly what happened, but I think it I think I tore something, for sure.",
+        "Daniel Diaz: if I do lateral raises, I think I feel it more on my left shoulder, like pain.",
+        "Daniel Diaz: the doctor told me I need to start taking pills for my cholesterol. And I didn't want to do that, right? So I got a nutritionist",
+        "Daniel Diaz: I did this kettlebell exercise that I got from the YouTube channel, and I was really sore. It got me really, sore. And I just recently recovered from that",
+        "Rep: if you're going to be like sore after a workout for five days, that's not good because you won't be able to progress."
+      ],
+      "timestamp": "00:07:33"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording is titled '06/08/2026 - charlie vaccaro x Andrew Musial ' but the entire call is with Daniel Diaz; nobody named Charlie Vaccaro appears anywhere in the transcript.",
+      "evidence": [
+        "Rep: So Daniel, my name is Andrew. I'm a senior advisor with Trevor. So you're in good hands. So tell me man, what brought you here and how can we actually help you?",
+        "Rep: So Daniel, in your own words, what's the biggest reason you actually want to get stronger and lose some weight?",
+        "Rep: Okay, Daniel, um, based on everything you just told me, like, this actually makes a lot of sense.",
+        "Daniel Diaz: I'm an accountant by trade so my job is mostly sitting down"
+      ],
+      "timestamp": "00:00:43"
+    }
+  ]
+}

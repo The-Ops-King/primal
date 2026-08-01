@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-06-08_kareem-shirazi_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a never-imaged 13-year shoulder injury with ongoing malposition and discomfort under load, plus right hip/knee/ankle mechanical problems, and was sold a $6,000 loaded kettlebell programme without anyone asking whether a clinician had cleared him.",
+      "evidence": [
+        "I got injured working... specifically doing incline dumbbell chest press, and I damaged something in my right shoulder. I never got imaging done to figure out exactly what it is",
+        "the alignment of my shoulder shifted a bit. So my right shoulder, it comes forward a little bit more. My scapula goes up a little bit, versus my left, and if I work out, and I put my shoulder under load for a while, I can start to feel those imbalances",
+        "there's just something wrong with the mechanics of my right leg, where I have a tight hip, I have my knee has some pain and my ankle as well",
+        "My mind immediately goes when I'm trying to, like, lift something overhead repeatedly, and I'm like, man, I used to be able to do this, no sweat."
+      ],
+      "timestamp": "00:07:40"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Prospect asked directly whether a monthly payment plan existed and the rep answered 'put it on a credit card', never disclosing the instalment option the playbook's own money play provides.",
+      "evidence": [
+        "Kareem Shirazi: And is there like a monthly plan or how, like when you say credit, what do you mean?",
+        "Rep: Like credit card or just- Yeah, like put it on a credit card.",
+        "Kareem Shirazi: Okay. But it's an upfront payment, right?",
+        "Rep: Most of the people take it upfront."
+      ],
+      "timestamp": "00:42:04"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The programme was positioned as fixing undiagnosed musculoskeletal injuries, immediately after the prospect said physical therapists had failed to reach the root cause and that he had never had the shoulder imaged.",
+      "evidence": [
+        "Rep: Trevor is going to address your, any stiffness that you have in your, in your hips, in your shoulders, and going to prepare for you, like short mobility workout protocols",
+        "Rep: So we address the mobility, like from, from the foundation up.",
+        "Rep: do you agree that you would get to your goals getting stronger, pain-free, so you can get back to the activities that you've been missing?",
+        "Kareem Shirazi: I've worked with PT, like physical therapists, and most of them sucked. Like, they didn't really get to the root of the problem."
+      ],
+      "timestamp": "00:35:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The closing half of this deal was recorded as a separate file titled '06/08/2026 - Impromptu Zoom Meeting' with no prospect name, so any rollup keyed on titles will orphan the payment and score this call as a non-close.",
+      "evidence": [
+        "Rep: So let's meet with the same link. So I'm not going to be preparing a new meeting for that.",
+        "Rep: Because I just, we need to go through the payment, get you onboarded, send you all the information that you need, and you're going to be good to go.",
+        "Kareem Shirazi: Okay. Yeah, let's put five of them on the calendar."
+      ],
+      "timestamp": "00:48:10"
+    }
+  ]
+}

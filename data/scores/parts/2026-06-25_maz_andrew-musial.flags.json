@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-06-25_maz_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The monthly payment option was quoted at $1,200 per month against a $6,000 six-month price, which totals $7,200 — $1,200 above list — and the rep disclosed the surcharge only as 'additional cost' without ever stating the total.",
+      "evidence": [
+        "The full transformation takes six months. And for that, the investment is $6,000. US.",
+        "If we split it in half, that's fine. That's not, there's no interest on that. If you want to split it in monthly, there's going to be additional cost to that. And that would be 1200 per month, right?"
+      ],
+      "timestamp": "00:30:10"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The same rep presented materially different payment-plan option sets on consecutive days — an interest-free half-split and an in-house monthly plan disclosed here, neither of which was offered the previous day to a prospect who stated he could not pay upfront and was routed straight to third-party consumer credit.",
+      "evidence": [
+        "So like I said, most of the guys take it up front. If you want to split it, we can, but not necessarily this is the best financial solution. Yeah. I'm going to be transparent with you. If we split it in half, that's fine. That's not, there's no interest on that.",
+        "have you heard about I third-party financing, like for example, have you heard about company Pava or Klarna? (Daniel Solano call, 1jjphH1Tow5vKrim5vqPNdK47aWjn9fkz)",
+        "okay so let me uh and correct me if i'm wrong like so i understand like putting all up front would be reckless for you right now i believe so yeah okay but if we could split it in some way that would be more digestible (Daniel Solano call — the half-split was never named)"
+      ],
+      "timestamp": "00:30:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The third-party financing option was cut off mid-sentence and never completed, so the prospect was asked to go away and make a decision on a payment option set he had not fully received.",
+      "evidence": [
+        "Or if you would like to use the third party financing option, like Klarna, we work with Paiva, you could even split it up, up to",
+        "I would obviously have to think about it. don't think I can probably give a yes or a commitment with that amount just yet.",
+        "It's definitely a big amount, and so obviously I'll have to."
+      ],
+      "timestamp": "00:30:47"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect is identified only as 'Maz' with no surname stated anywhere on the call and no name in the generic file title, so this record cannot be reconciled against a CRM entry without the Drive file id.",
+      "evidence": [
+        "00:00:00 - Maz",
+        "All right. So, Maz, I'm very confident. I really feel good about you.",
+        "06/25/2026 - Impromptu Zoom Meeting"
+      ],
+      "timestamp": "00:21:09"
+    }
+  ]
+}

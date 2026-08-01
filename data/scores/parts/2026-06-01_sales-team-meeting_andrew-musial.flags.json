@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-06-01_sales-team-meeting_andrew-musial",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager's own analysis of every May call concludes that the closing customer is the opposite of the ICP the company states to prospects on live calls, and that lead targeting will be changed accordingly.",
+      "evidence": [
+        "I did a whole deep dive analysis over the weekend, I genuinely went through literally every single sales call that we took in May ... ran it all through AI, asked a bunch of questions, analyzed all of it to figure out who is it that is actually closing the most",
+        "the types of people that we've found are closing the most often are guys who have the biggest gap. Go figure. They were guys that literally had an injury, they have tons of weight to lose, they've fallen off, or they had a recent life event",
+        "it was like good. It wasn't like the traditional good to great, you know, it wasn't guys going from like an eight to a 10 ... they look like they're successful on paper, but they have probably 20 to 25 pounds that they still need to lose",
+        "the guys that just don't really close that often, like maybe it's very low rate are the guys who are like, I'm an eight out of 10 or seven out of 10 and I want to get to a 10 out 10",
+        "we are going to. Try and optimize towards getting more of, like, the other two tiers on the calendar versus the guys that are just already shredded"
+      ],
+      "timestamp": "00:28:15"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Closers are coached to adopt a doctor's frame, to diagnose, and to tell prospects where their health is heading, with the clinical posture explicitly justified as a way to establish authority.",
+      "evidence": [
+        "So I always like to start there of like, let's actually see what's going on. Let's diagnose it completely. And then we can figure out like what the bottlenecks are. And I can kind of like just be in that doctor frame.",
+        "then you look at their diet and you look at what they're doing. You're like, well, you're on the way. Like you're not there now, but you're like, you keep eating like this. Like, it's not going to look good.",
+        "you walk into the room ... No, they usually just like pull your arm up, get blood work. They don't ask me, they just freaking tell me what to do. They want to be guided. They want to be led. That's a sign of authority, you know?"
+      ],
+      "timestamp": "00:42:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer describes using ostensibly casual opening small talk to financially qualify prospects without disclosing that purpose, and frames the opening as off the record.",
+      "evidence": [
+        "One thing I used to do in the dating offer, at the front, I would say something like, cool, where are you calling in from? I'm over here. Okay, cool, what do you do for work? Oh, I'm this. Oh, awesome.",
+        "Almost like, it's like small talk, like it's like off the record before we get into it, but like, kind of to let me know, more or less, financially qualifying them in a way",
+        "In a sales call, it should not really feel like we're off the record. And now we're on the record. That's also part of the problem."
+      ],
+      "timestamp": "00:38:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "An entire month of recorded prospect sales calls was processed through an AI system for analysis, with no reference on the call to what the prospects were told about that use.",
+      "evidence": [
+        "I genuinely went through literally every single sales call that we took in May.",
+        "ran it all through AI, asked a bunch of questions, analyzed all of it to figure out who is it that is actually closing the most and who isn't actually closing."
+      ],
+      "timestamp": "00:28:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording ends mid-conversation as the group leaves and the manager asks a closer to stay on for a one-to-one, so the remainder of the call is not in the corpus.",
+      "evidence": [
+        "Have a good one. Andrew, if you want to stick around for a second.",
+        "I'm good. The recording has stopped. Oh, .",
+        "No, there's no, . I'm just getting rid of the other Fathoms."
+      ],
+      "timestamp": "00:53:05"
+    }
+  ]
+}

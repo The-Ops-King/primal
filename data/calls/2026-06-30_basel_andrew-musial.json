@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-06-30_basel_andrew-musial",
+  "source": {
+    "drive_file_id": "1Gxs_CszMBHEejQvHrbqOjET2rL3caOne",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/30/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 37677
+  },
+  "call": {
+    "date": "2026-06-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 42,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter named on the call. The lead is self-sourced from Trevor's content: \"I've been following Trevor for some time now, actually, and I really like the exercises that he posts.\""
+  },
+  "prospect": {
+    "name": "Basel",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Jordan",
+    "age": null,
+    "occupation": "Family business — elevator supply, installation and maintenance, plus real estate holdings. Personally runs a boutique hotel, Lemon Tree Residence, rated 9.2 on booking.com. Designated successor to his father.",
+    "family_status": "Single, no children, hopes to have them",
+    "height_in": 70,
+    "weight_lb": 176,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Calisthenics for roughly 14-15 months, three classes a week with a coach in groups of 5-10, and reports clear body-composition improvement from it. Currently attending only sporadically. Previously ran a disciplined meal-prep routine — five lunches, five breakfasts and five snacks cooked every Saturday. Was around 73 kg with a flat stomach in September/October of last year, now 80 kg.",
+    "kettlebell_experience": "none",
+    "medical": "Collarbone pain when doing dips on a bar or rings, felt mainly on releasing the bar and recurring past six to eight reps. Previously severe enough that for a period of months he could only do dips with a resistance band for support. No other injuries. Chronic poor sleep since early June — consistently to bed between midnight and 3am."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Anchored to a cheaper alternative that genuinely worked: 14 months of coached calisthenics with a real result — \"My body shape is way better\"",
+      "Explicitly comparison shopping before deciding: \"I want to see what programs they have, and what pricing they also have, and just compare\"",
+      "Named a price he considers fair, less than half the offer: \"I was thinking maybe 2,000, 2,500... For six months, it felt fair\"",
+      "Demanded written terms to evaluate against alternatives rather than buying on the call: \"I still would need something concrete written, so I can make a fair comparison\"",
+      "Alternative reading is the_optimizer — business owner, already lean and training, wants good to great on one body part — but that avatar assumes price reads as a quality signal, and here it read as a budget breach"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the layer of belly fat — the rest of his physique he is happy with", "category": "fat_loss" },
+    { "text": "Get healthier generally; believes the abdominal fat is affecting his testosterone", "category": "longevity_function" },
+    { "text": "Add kettlebell work two days a week around his existing calisthenics without the two conflicting", "category": "convenience" },
+    { "text": "Get his discipline and routine back to where it was last autumn", "category": "consistency" },
+    { "text": "Look right — the stomach is the one part that does not match the rest of his body", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Discipline collapsed after a solo trip to Bosnia; now attends classes sporadically and skips when he wakes up unmotivated", "category": "consistency", "severity": "high" },
+    { "text": "Sleep is the stated root cause — to bed between midnight and 3am since early June, cannot make 7am classes", "category": "sleep", "severity": "high" },
+    { "text": "Diet slipped from a full meal-prep routine to eating out essentially every day; heavy carbs and restaurant seed oils", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Hit a plateau after 14 months of calisthenics — gained about 7 kg back and cannot return to the flat stomach he had", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Recurring collarbone pain on dips; previously months of being unable to do them unassisted", "category": "injury", "severity": "medium" },
+    { "text": "Post-trip identity conflict — no longer aligns with corporate life but is bound to run and inherit the family business, and raising it with his father \"wasn't pretty\"", "category": "work_stress", "severity": "medium" },
+    { "text": "Sedentary outside the training hour — very low non-exercise movement", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That's actually, that, it was, you it's way above my budget, to be honest. Okay. Yeah. I wasn't, no, I wasn't expecting it to be this much.",
+      "timestamp": "00:35:18",
+      "rep_response": "Ran the money play properly for once: isolated the objection (\"apart from the finances, everything is good?\"), asked what he had budgeted, gave the upfront-payment norm, framed plans as custom rather than fixed, and asked permission to open the finances. He never reached any of the financial-picture questions before the call was cut short.",
+      "response_tactic": "isolate_then_open_wallet_permission",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "But the thing is, I was also planning to go see someone here, one-on-one, face-to-face, in person, that can help me. And I want to see what programs they have, and what pricing they also have, and just compare.",
+      "timestamp": "00:37:42",
+      "rep_response": "Said \"That's fine\", declined to provide anything in writing — \"we haven't had anything that is written. Like, everything is super custom\" — asked when the competing meetings were and began asking what else he would look for besides price, but was interrupted before an answer.",
+      "response_tactic": "accept_comparison_and_withhold_written_terms",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Sorry about this, but I have to... We go in five minutes, so I would appreciate it if we can just wrap it up and- Let's get back to this conversation next week.",
+      "timestamp": "00:39:57",
+      "rep_response": "Accepted immediately and booked a follow-up for the same time on 7 July, confirming the prospect had received the calendar invite. No attempt to hold the frame or land a decision first — though an external interruption at the prospect's end forced the wrap.",
+      "response_tactic": "accept_deferral_and_book_follow_up",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "note": "\"the full transformation to working with Trevor for the six months, it's 6k USD\"" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision either way; the price was met with \"it's way above my budget\" and then the conversation was cut short by an interruption at the prospect's end.",
+      "A specific follow-up was booked and confirmed: same time on 7 July, calendar invite sent and the prospect confirmed receipt — \"Yeah, I have it.\"",
+      "Positive signal: full commitment given before price — \"If we can figure out all the details and scheduling, are you fully committed to showing up and doing the work?\" / \"A hundred percent.\" And the programme itself landed cleanly — \"it's just as I expected.\"",
+      "Counter-evidence: he intends to meet two local in-person trainers before deciding and asked for written terms to compare, which the rep declined to provide.",
+      "Counter-evidence: his own budget number is $2,000-2,500, less than half the offer, and no financial-picture work was done to close that gap."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call booked for 7 July 2026 at the same time; invite confirmed received. Prospect to meet two local in-person trainers first and compare."
+  },
+  "notable": {
+    "note": "The strongest discovery in this batch and the weakest consequence work — the rep never asked what happens if nothing changes, so the $6,000 landed with no cost-of-inaction behind it. He also opened a large identity thread and dropped it: the prospect volunteered a post-trip crisis about the family business, his father, and wanting to leave city life, and none of it was connected to the training decision. Two things a principal should see: the rep told a 14-month calisthenics practitioner that calisthenics \"is not burning fat\", and he refused to provide anything in writing to a prospect who explicitly asked in order to comparison shop."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained inversion, worse than most in this batch. Long stretches of the prospect's answers carry the rep's label and vice versa — the entire 00:04:00-00:10:00 passage about Bosnia, the family business and the hotel is systematically swapped, as is the whole 00:12:20-00:13:20 exchange about class timing and goals. Question ownership was reconstructed from content throughout; the recording also begins at 00:02:32 with no earlier audio."
+  }
+}

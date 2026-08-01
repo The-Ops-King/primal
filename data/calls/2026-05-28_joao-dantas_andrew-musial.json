@@ -19,111 +19,108 @@
   "rep": {
     "name": "Andrew Musial",
     "role": "closer",
-    "location": "Poland — confirmed on this call, 'I'll bring you the goodies from Poland', and the call ran at 2am his time",
-    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "location": "Poland",
     "additional_reps": []
   },
   "setter": {
-    "code": null,
+    "code": "KFS",
     "name": "Kim Forbes-Sobers",
     "confidence": "high",
-    "evidence": "The title carries no KFS suffix, but the rep names the setter three times and demonstrably worked from her notes: 'Kim gave me some context. So, you've been working out like weighted calisthenics for a while, yeah?', then 'from Kim, he told me, like, you've been, like, what's been missing is a little bit of structure. Is that correct?', then 'I remember Kim asked you, like, you're from Bahia, right?' Recorded as Kim Forbes-Sobers per the corpus key; the setter code field is left null because the title does not carry one, which is itself a finding — setter attribution in file titles is incomplete."
+    "evidence": "Named three times by the rep: 'Kim gave me some context', 'from Kim, he told me, like, you've been, like, what's been missing is a little bit of structure', and 'I remember Kim asked you, like, you're from Bahia, right?' No suffix in the title."
   },
   "prospect": {
     "name": "João Gabriel Dantas",
-    "aka": null,
+    "aka": "Surname pronounced by him as 'Muschau'",
     "name_source": "title",
-    "location": "Bahia, Brazil — nearest large city Salvador; lives in the top-floor apartment of a building with a small terrace where he trains outdoors",
+    "location": "Salvador, Bahia, Brazil — top-floor apartment with a terrace where he trains",
     "age": 33,
-    "occupation": "Physician. Runs a private practice, works at a hospital, and this year became a professor of medicine teaching students and residents. Works mornings and afternoons every day, formerly including night shifts, dialled back after his first child. Also does research. His wife is also a doctor.",
-    "family_status": "Married; his wife is a doctor who runs, does CrossFit and trains three to four times a week. One daughter aged two, and a second daughter due in the last week of October. They recently moved to a larger apartment which is mid-renovation, and expect to hire in-house childcare help to sustain both careers after the birth.",
+    "occupation": "Physician — private practice plus hospital work, and newly a professor of medicine teaching students and residents",
+    "family_status": "Married to a doctor who runs and does CrossFit; a two-year-old daughter and a second daughter due in the last week of October. Recently moved to a larger apartment that is mid-renovation.",
     "height_in": 71,
     "weight_lb": 190,
     "bodyfat_pct_self_reported": 13.5,
-    "training_background": "Serious calisthenics athlete. Several years of bodyweight calisthenics, close to two years of weighted calisthenics, and he calls himself an intermediate athlete. Current numbers: eight to twelve clean pull-up reps with 20 kg added, and dips with 25 kg added. Started at 69 kg as a very skinny man in his early twenties and has built to 86 kg. Moved from high-volume grinding work to a low-volume programme after developing joint discomfort. Now runs a heavy weighted calisthenics session every four to six days, one standard gym leg day, and two or three kettlebell sessions a week of 20 to 25 minutes. Owns one 16 kg kettlebell, bought after finding Trevor's YouTube channel. Trains 30 to 40 minutes, either before the household wakes or between morning and afternoon clinic. Self-describes as a research nerd on training. Does not like steady-state cardio or bodybuilding-style training.",
+    "training_background": "Calisthenics for several years, weighted calisthenics for close to two. Self-described intermediate athlete — eight to twelve clean pull-ups with 20 kg added, dips with 25 kg. Was 69 kg in his early twenties and built to 86 kg. Moved from high-volume to low-volume work after joint discomfort. Added kettlebells after finding Trevor's YouTube channel and bought one 16 kg bell; ran a 30-minute EMOM of snatches, push-ups, thrusters and pull-ups the day of the call. Trains three to four times a week in 30-40 minute sessions.",
     "kettlebell_experience": "some",
-    "medical": "Nothing disclosed. No injuries — he was asked directly and answered 'No, injury. I think it was most like overload stuff, overload in the joints and muscles, but I was never injured.' Reports joint ache and stiffness from high-rep calisthenics volume, which prompted his switch to lower volume. Practises fasting of 24 to 36 hours every one to two weeks and reports improved cognitive performance on fasting days."
+    "medical": null
   },
   "avatar": {
     "assigned": "the_optimizer",
-    "confidence": 0.72,
+    "confidence": 0.86,
     "signals": [
-      "Already fit and successful and explicitly wants good to great: 'I got to a pretty decent strength level, an intermediate level for a calisthenic athlete, but I was neglecting a lot of stuff in terms of endurance, in terms of VO2 max... I'm not really satisfied with that.' Target body fat 10-12% from a current 13-14%.",
-      "Occupation is the ICP's own headline example — a physician with a private practice, a hospital role and a professorship.",
-      "Does not devalue the offer at any point; he validates it while declining: 'I don't think it's an absurd value. And I think for that, for Trevor's work and for the accountability, I think actually that is pretty fair.'",
-      "Buying structure rather than motivation, which is the optimizer's purchase: 'discipline is not a problem' and 'my mind works very well when I know exactly what to do.'",
-      "COUNTER-SIGNAL, and the reason confidence sits at 0.72: for a true optimizer price is a quality signal rather than a barrier, and here price was the only barrier and a genuine one — $6,000 converts to roughly R$25,000-28,000, against a household mid-renovation with a second child due in October and a temporary income dip from restructuring their practice. He is an optimizer priced in the wrong currency, not an optimizer who found the price cheap."
+      "Already fit, disciplined and successful — a physician at 13-14% body fat training four to five times a week, wanting to reach 10-12%",
+      "Explicitly good-to-great and specific about the gap: 'I was neglecting a lot of stuff in terms of endurance, in terms of VO2 max... Just by having only one goal, so I'm not really satisfied with that'",
+      "Validated the price on its merits rather than resisting it: 'I don't think it's an absurd value. And I think for that, for Trevor's work and for the accountability, I think actually that is pretty fair'",
+      "Self-identifies discipline as a solved problem: 'I'm a very disciplined guy... discipline is not, it's not a problem'",
+      "Departs from the pure type only on liquidity, and for reasons of timing rather than income — a second child due in October, an apartment mid-renovation and a practice being restructured"
     ]
   },
   "goals": [
-    { "text": "Add conditioning and VO2 max, which years of calisthenics-only training have left behind — named as the primary objective alongside muscle", "category": "endurance" },
-    { "text": "Gain some muscle mass without becoming a bodybuilder — 'I don't want to look like I bought a building'", "category": "muscle_gain" },
-    { "text": "Drop from 13-14% body fat to 10-12%, not for vanity but because 'when that happened, my training gets a lot better'", "category": "fat_loss" },
-    { "text": "Get a structure that combines weighted calisthenics with kettlebells — 'my great doubts nowadays are how to combine those two'", "category": "other" },
-    { "text": "Cut through the noise in the fitness industry and know exactly what to do on which day — 'my mind works very well when I know exactly what to do'", "category": "consistency" },
-    { "text": "Build mobility, which calisthenics-only training neglects", "category": "mobility" },
-    { "text": "Keep training effectively in 30 to 40 minute sessions around a hospital schedule and two small children", "category": "convenience" },
-    { "text": "Have the energy to play with two daughters and perform at work — the reason he named conditioning as the priority", "category": "family_role_model" },
-    { "text": "Train in a way that is still sustainable at 50 — 'I don't want to be doing bicep curls when I'm 50'", "category": "sustainability" },
-    { "text": "Build the kind of body Trevor has — 'that body, Trevor's body, it's the way I want to be built... that kind of body is my goal body'", "category": "appearance" }
+    { "text": "Combine kettlebell work with his existing calisthenics into one coherent structure without overtraining", "category": "other" },
+    { "text": "Build conditioning and VO2 max, the pillars he has neglected by training only for calisthenics strength", "category": "endurance" },
+    { "text": "Add some muscle mass without becoming a bodybuilder", "category": "muscle_gain" },
+    { "text": "Drop from 13-14% body fat to 10-12% — not for vanity, because 'when that happened, my training gets a lot better'", "category": "fat_loss" },
+    { "text": "Improve mobility, the third pillar calisthenics neglects", "category": "mobility" },
+    { "text": "Train sustainably for the long run in 30-40 minute sessions around hospital hours and two small children", "category": "sustainability" },
+    { "text": "Have the energy to play with his two daughters", "category": "family_role_model" },
+    { "text": "Cut through the noise of the fitness industry with a structure he can just execute — 'My mind works very well when I know exactly what to do'", "category": "consistency" },
+    { "text": "Build toward Trevor's physique: 'that body, Trevor's body, it's the way I want to be built'", "category": "appearance" }
   ],
   "pains": [
-    { "text": "No structure for combining kettlebells with weighted calisthenics — the central, self-diagnosed gap: 'mainly for me is structure, is combining with what to do, in what day, for how long'", "category": "fragmented_solutions", "severity": "medium" },
-    { "text": "Too much conflicting information despite extensive research — 'there's a lot of noise in the fitness industry. [With] structure, you can reduce that'", "category": "fragmented_solutions", "severity": "medium" },
-    { "text": "Conditioning, VO2 max and mobility eroded by years of single-goal training — 'a lot of stuff that seems that I was losing through time, just by having only one goal'", "category": "program_fit", "severity": "medium" },
-    { "text": "Joint discomfort and stiffness from high-volume calisthenics, which forced a programme change", "category": "injury", "severity": "low" },
-    { "text": "Severe time scarcity — private practice, hospital work, a new professorship, and a two-year-old, leaving 'sometimes just half an hour, 40 minutes to work out'", "category": "time_scarcity", "severity": "high" },
-    { "text": "A second child due in October that he expects to cut training to a minimum, based on experience — 'sometimes we're two or three days without sleeping well'", "category": "training_barrier", "severity": "high" },
-    { "text": "Household finances committed to an apartment renovation, incoming childcare costs, rising school fees and a temporary income dip from restructuring their practice", "category": "other", "severity": "high" },
-    { "text": "Cannot train for an hour or more any more and does not believe it would be healthy at 33 with a young family", "category": "time_scarcity", "severity": "medium" }
+    { "text": "Cannot work out how to combine kettlebells and weighted calisthenics without overtraining — 'my great doubts nowadays are how to combine those two steps'", "category": "program_fit", "severity": "high" },
+    { "text": "Too much conflicting information in the fitness industry — 'There's a lot of noise in the fitness industry'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Time collapsed by a hospital job, a private practice, a new professorship and a toddler — 'Sometimes I just have half an hour, 40 minutes to work out'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Joint discomfort and stiffness from years of high-volume calisthenics — 'shoulders, upper traps, they are all screaming at the end'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Expects training to be severely impaired around the birth in October — 'sometimes we're two or three days without sleeping well'", "category": "sleep", "severity": "medium" },
+    { "text": "Household finances committed to an apartment renovation, a second child, a future nanny and rising school fees, with the practice mid-restructure", "category": "other", "severity": "high" },
+    { "text": "USD pricing converts to roughly R$25,000-28,000, which he cannot carry now", "category": "other", "severity": "high" }
   ],
   "objections": [
     {
-      "type": "other",
-      "raw_quote": "I still would like something that would give me the possibility of continuing to train weighted calisthenics, which is something that I really like to do... I don't know if that's possible to combine them, but that would be my primary will is to combine those things. To not lose the gains in strength in calisthenics, but add something new.",
+      "type": "timing_cashflow",
+      "raw_quote": "I just have to know some things about the value and cost because to me right now things are on a tight budget because of my little girl and the next one that is coming.",
       "timestamp": "00:24:40",
-      "rep_response": "Answered it directly and well, twice. First: 'critically for you, the kettlebell days and calisthenics days, they complement each other naturally. So you don't have to replace anything that you've built. You're adding the pieces that you've been actually missing.' Then when it resurfaced at 00:42:49 he pointed at Trevor's own content — Trevor does pull-ups, dips and leg raises — and closed with 'this is tailored to your needs, whatever you will discuss with Trevor, he will build a program around that.' The prospect visibly moved on and softened his own requirement: 'it could be calisthenics, like raw calisthenics bodyweight, if it's going to give me muscles... it's fine.' Proposed label for this objection type: training_compatibility.",
-      "response_tactic": "complement_not_replace_reframe_plus_proof_from_content",
-      "resolved": true
-    },
-    {
-      "type": "affordability",
-      "raw_quote": "that for me right now I believe that is a little bit out of our budget right now I believe, because when we have to deal in Brazilian [reais], when we make the conversion it's about probably something along the lines of 25 to 28,000... So I don't think I can split that into payments right now.",
-      "timestamp": "00:47:00",
-      "rep_response": "Isolated properly — 'just make sure, apart from the finances right now, is there anything standing in a way from moving forward?' — and got a clean answer. Offered two-, three- and six-payment structures with the interest disclosed transparently, then down-sold to a three-month tier at $4,000 with a $2,000 x 2 or $1,500 x 3 split. Finally attempted a down payment: 'be transparent. Like, how much would you be actually willing to put down today?' The prospect declined to name a figure. None of the financial-picture questions were asked.",
-      "response_tactic": "isolate_then_instalments_then_downsell_then_ask_for_a_number",
+      "rep_response": "Noted it and continued the presentation, returning to it after the price was given.",
+      "response_tactic": "acknowledge_and_continue",
       "resolved": false
     },
     {
-      "type": "timing_cashflow",
-      "raw_quote": "we already committed to a lot of expenses right now due to we moving to a different apartment... the apartment actually needs some restructuring, like infrastructure stuff. So already committed to that, and I think there will be a lot of expense in the next four to five months... we may be dealing with a couple of months that money will be a little shorter than it usually is because of that restructuring [of the private practice].",
-      "timestamp": "00:52:13",
-      "rep_response": "Ran one good move — 'what's going to change between now and sometime in the future?' — and got a specific, credible answer about the renovation completing and saving resuming. He then asked for a timeframe, got 'I don't really have a concrete answer for you', and settled for a call in one month rather than pressing on the fact that the named obstacle resolves on a schedule.",
-      "response_tactic": "ask_whats_going_to_change_then_accept_a_month_deferral",
+      "type": "affordability",
+      "raw_quote": "when we make the conversion, the change, the conversion, it's about you're probably something along the lines of 25 to 28,000 I believe... so I don't think I can split that into payments right Now, but it's something that I definitely look forward to do in some time because I don't think it's an absurd value.",
+      "timestamp": "00:47:00",
+      "rep_response": "Isolated it correctly — 'apart from the finances right now, is there anything standing in a way from moving forward?' — then offered the three-month tier at $4,000 and further splits.",
+      "response_tactic": "isolate_then_downshift_tier",
       "resolved": false
     },
     {
       "type": "life_event_conflict",
-      "raw_quote": "August, September, and October will be difficult months for me because my wife will be very pregnant. And the moment that the little princess is gonna come to this world is probably in the last week of October. So I don't think that in this moment, I'll have to deal with a lot of stuff and probably training will be kept to a minimum, or maybe even severely impaired.",
+      "raw_quote": "August, September, and October will be difficult months for me because my wife will be very pregnant. And the moment that the little princess is gonna come to this world is probably in the last week of October... probably training will be kept to a minimum, or maybe even, I don't know, be severely impaired.",
       "timestamp": "00:48:40",
-      "rep_response": "First instinct was to dismiss it with the accountability pillar — 'that's why Trevor is for you there when life gets busy' — and the prospect corrected him firmly: 'I don't believe it's actually busy. I believe it's actually probably not only busy, but tiredness and lack of sleep.' The second instinct was much better and genuinely creative: reframe the timeline so the engagement fits the good months. 'We're in almost June. So it's June, July, August, and you have a lot of time till October. We could do the three months.' That was the right structural answer and it still could not overcome the currency problem.",
-      "response_tactic": "dismiss_then_restructure_timeline_to_fit_the_window",
-      "resolved": false
-    },
-    {
-      "type": "spouse_consult",
-      "raw_quote": "I don't know if I can really can do that right now so I have to take a little moment to think about that and involve the wife because we have a lot of projects now for this year.",
-      "timestamp": "00:45:06",
-      "rep_response": "None. The wife was never mentioned again for the remaining twenty-three minutes of the call. No attempt to bring her into the conversation, no question about what objection she might raise, and no use of the fact — already established in discovery — that she is herself a doctor who runs, does CrossFit and trains three to four times a week.",
-      "response_tactic": "none",
+      "rep_response": "First reframed it as the reason accountability exists — 'that's why Trevor is for you there when life gets busy' — which the prospect rejected as a tiredness problem rather than a busyness problem. Then proposed the three-month tier to fit the window before October.",
+      "response_tactic": "accountability_reframe_then_reshape_term",
       "resolved": false
     },
     {
       "type": "think_about_it",
-      "raw_quote": "Is there a possibility, Andrew, that I could get in touch with you after some time and maybe we can talk again about this? Is there this possibility?",
-      "timestamp": "00:52:36",
-      "rep_response": "Did not simply grant it — he asked what would change, asked for a timeframe, and asked what the prospect would put down today, which is the right order of moves. But with no number forthcoming he agreed to a call a full month out, on 29 June, with no deposit, no interim commitment and nothing to be done in between.",
-      "response_tactic": "probe_then_book_a_call_one_month_out",
+      "raw_quote": "I still have to think about it, man, because the problem is we already committed to a lot of expenses right now due to we moving to a different apartment.",
+      "timestamp": "00:52:13",
+      "rep_response": "Ran the change-question — 'what's going to change between now and sometime in the future?' — asked for a timeframe, then asked what he would be willing to put down today. Accepted a one-month callback when no number came.",
+      "response_tactic": "probe_timeline_then_ask_for_deposit",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I have to take a little moment to think about that and involve the wife because we have a lot of projects now for this year",
+      "timestamp": "00:45:06",
+      "rep_response": "Not addressed at any point. No question about what she would say, no ownership frame, no deposit-and-discuss option.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "program_fit",
+      "raw_quote": "I have just a concern, not a concern, but a, let's say, a doubt, which is the one about the weighted calisthenics. I just like to go over this again, because I don't really need it to be weighted",
+      "timestamp": "00:42:49",
+      "rep_response": "Answered generically — 'this is tailored to your needs, so whatever you will discuss with Trevor he will build a program around that' — without showing how the two systems combine, which was the prospect's central question all call.",
+      "response_tactic": "defer_to_coach",
       "resolved": false
     }
   ],
@@ -137,32 +134,37 @@
     "recommended_tier_months": 3,
     "payment_plan_offered": true,
     "payment_plan_structured_live": true,
-    "payment_plan_terms": "Quoted transparently with the premium disclosed. Against the $6,000 six-month tier: one-time payment, or two payments of $3,000, or three- and six-payment plans where 'the overall price is higher' — six payments of $1,200 for a $7,200 total. Against the $4,000 three-month tier: two payments of $2,000 or three payments of $1,500. Credit card is the default method: 'Usually people just put it on a credit card.' Note the rep proactively volunteered that instalments cost more, which is better practice than any other call in this batch.",
-    "guarantee_mentioned": "Stated for the first time in this corpus and attached only to the six-month tier: 'with six months, you have a guarantee that you will definitely gain at least 20, it's pounds, so it's going to be like around plus 10 kilos from the baseline that you start with on weight of kettlebells.' Explicitly not available on the shorter tier: 'with three months, we cannot guarantee that, because it's too short. I think it's too short for every fitness goal.'",
-    "prospect_financials": null
+    "payment_plan_terms": "On the $6,000 six-month tier: one-time payment, or two payments of $3,000. Three- and six-payment options exist at a higher total, disclosed explicitly — 'We also have, like, three and six payments, but that's resulting, like, the overall price is higher' and 'six payments would be of $1,200, so the total amount would be $7,200'. On the $4,000 three-month tier: two payments of $2,000 or three payments of $1,500. Usual method stated as credit card.",
+      "guarantee_mentioned": "Used as the differentiator between tiers: 'with six months, you have a guarantee that you will definitely gain at least 20, it's pounds, so it's going to be like around plus 10 kilos from the baseline that you start with on weight of kettlebells... with three months, we cannot guarantee that, because it's too short.' No terms, conditions, remedy or qualifying requirements were stated, and the metric itself is garbled between pounds and kilos.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null,
+      "note": "No figures given. He declined to name a deposit amount — 'I may be answering something that is not close to reality if I'm going to just give you a value' — and disclosed that the household is not currently able to save, with a practice restructure expected to shorten income for a few months."
+    }
   },
   "outcome": {
     "disposition": "follow_up",
-    "confidence": 0.94,
+    "confidence": 0.95,
     "close_rule_applied": null,
     "evidence": [
-      "No payment, no payment link, no verbal agreement. The prospect declined both tiers on affordability: 'that for me right now I believe that is a little bit out of our budget' and, on the $4,000 option, 'it's a lot for right now, even 4K, because that will mean something close to 20,000 [reais].'",
-      "He asked for the conversation to be resumed later rather than closed out — 'Is there a possibility that I could get in touch with you after some time and maybe we can talk again about this?' — and a concrete call was booked for 29 June at 8pm Brazil time, 1am for the rep.",
-      "Contact details were exchanged and a WhatsApp message was sent and received during the call, so the relationship is live rather than dormant.",
-      "Strong buying signals throughout: he validated the price rather than resisting it ('I don't think it's an absurd value... for Trevor's work and for the accountability, I think actually that is pretty fair'), named cost as the single obstacle when isolated, and confirmed 'I have the time and I have the will.'",
-      "Counter-evidence, and it is structural rather than motivational: the obstacle is currency and life stage, not desire. $6,000 lands as roughly R$25,000-28,000; the household is mid-renovation with committed costs, a second child due in the last week of October, rising school fees, an expected childcare hire, and a temporary income dip from restructuring their private practice. He explicitly declined to name any amount he could put down today because 'things are changing too fast right now.'",
-      "Also counter-evidence on the follow-up date: the call was set a full month out with no deposit and no interim step, and the prospect's own timeline says his finances will not clarify until after October."
+      "No decision and no commitment: 'I still have to think about it, man' and 'I don't want to commit with you, because I don't really know what's going to happen'",
+      "He asked for the callback himself: 'Is there a possibility, Andrew, that I could get in touch with you after some time and maybe we can talk again about this?'",
+      "Rep booked a specific follow-up for 29 June at 20:00 Salvador time and exchanged WhatsApp numbers on the call",
+      "No payment, no deposit and no payment link — he declined to name any figure he could put down today",
+      "Counter-evidence that this is a strong follow-up rather than a soft no: he validated the price unprompted — 'I don't think it's an absurd value... I think actually that is pretty fair' — and named cost as the only blocker"
     ],
     "cash_collected_usd": 0,
     "cash_collection_basis": null,
-    "next_step": "Follow-up call booked for Monday 29 June at 8pm Brazil time (1am in Poland; the rep offered to move it and the prospect said his own hours were fine). Rep to send a calendar invite and will contact him on WhatsApp rather than SMS. No action assigned to the prospect beyond gaining clarity on the household budget."
+    "next_step": "Follow-up call on 29 June at 20:00 Brazil time; rep to send a calendar invite and has the prospect's WhatsApp number for the interim."
   },
   "notable": {
-    "note": "The most important ICP data point in the batch, and a set of firsts on the offer. FINDINGS. (1) THE ICP'S OWN HEADLINE EXAMPLE FAILED ON PRICE. The stated ICP says 'they own their own business, or they're a physician'. This is the corpus's first actual physician — private practice, hospital post, professorship, wife also a doctor — and he could not afford $6,000, or $4,000, because it converts to R$25,000-28,000. The ICP names a profession without accounting for geography, and the finding is that 'makes good money' is not a property of an occupation, it is a property of an occupation in a currency. (2) FIRST STATEMENT OF THE GUARANTEE ANYWHERE IN THIS CORPUS: a gain of at least 20 lb (about 10 kg) on kettlebell working weight from baseline, available only on the six-month tier and explicitly withheld from the three-month tier. It appears in no other call in this batch, including calls where the same rep sold the same six-month tier. Someone should confirm the guarantee's real terms and why it is not being stated consistently. (3) THE $4,000 THREE-MONTH TIER APPEARS FOR THE THIRD TIME in four days from the same rep, and here he recommended it — after having just told the prospect that three months is 'too short for every fitness goal' and carries no guarantee. Whatever the tier's status, recommending the ungruaranteed option minutes after arguing it is too short to work is a positioning problem. (4) PAYMENT PLANS ARE REAL AND STRUCTURED: two, three and six payments, with six at $1,200 x 6 for $7,200. Identical to the structures quoted to Marian Samson the day before, and inconsistent with what the same rep told two earlier prospects, that Primal has no set payment plans. He also proactively disclosed that instalments cost more, which no other call in this batch does. (5) THE REP'S IDENTITY IS RESOLVED HERE. At 01:04:17 the prospect asks how to pronounce his surname, transcribed 'Muschau', which is how Musiał is pronounced, and the rep adds 'actually it's not Andrew, it's Andrzej, but nobody can pronounce it, so I go by Andrew.' Combined with Poland, the closer role and the Drive folder, this confirms the 'Andrew Jin (Primal Instinct)' label belongs to Andrew Musial. (6) AN UNDISCLOSED AI SMS AGENT IS CONTACTING PROSPECTS. 'I've been receiving messages like SMS messages from someone named Sophia... I thought it was an AI. But when I try to respond to that, sometimes she asks me to respond yes or no. I don't believe that the SMS is coming through.' The rep confirmed it is a bot only after being asked. Two issues: the persona is not disclosed as automated up front, and SMS to Brazil is not being delivered, matching the international SMS limitation described on the internal Close training call. (7) BIGGEST COACHING MISS: the wife objection was raised and never touched, despite the rep having already established that she is a doctor who runs, does CrossFit and trains three to four times a week — the most winnable spouse objection in the corpus, left entirely unused."
+    "note": "Strongest discovery in the batch and the only call where the rep asked about injuries before recommending anything — no medical risk arises here. Three things a principal should see. First, the prospect independently surfaced the AI texting persona: 'I've been receiving messages like SMS messages from something, from someone named Sophia', and the rep confirmed 'To be honest, it's an AI box' only once asked, adding that the prospect could not reply to it. Second, a results guarantee was asserted to justify the six-month tier over the three-month one — roughly plus 20 lb or 10 kg on kettlebell weight — stated imprecisely and appearing on no other call in this batch. Third, on the same day as the Marian Samson call, the same rep quoted the same financed instalments but here disclosed the uplift plainly ('the overall price is higher... the total amount would be $7,200'), which the earlier call did not."
   },
   "quality": {
     "diarization_reliability": "low",
     "speaker_label_swaps_detected": true,
-    "notes": "Pervasive inversion, worst in the second half. Roles read from content throughout. Examples: at 00:02:36 'Two years. And I consider myself, yeah, I consider myself now more of an intermediate athlete' merges the rep's echo with the prospect's answer under the rep's label; at 00:03:20 the rep's interjection 'Sorry to interject, did you had any injuries doing that?' is split across two labels; at 00:10:57 'How much muscle you would like to gain?' sits under the prospect but is the rep; and from roughly 00:44:06 to 00:47:00 the transcript collapses into long unpunctuated blocks that contain both speakers, including the price statement itself — 'the investment is six thousand dollars one-time payment okay let me just uh take note of that' — where the quote is the rep's and the acknowledgement is the prospect's. The $6,000, $4,000 and $7,200 figures are all recoverable with confidence from surrounding context. The surname exchange at 01:04:17-01:04:28 is also inverted, with the rep's question and the prospect's reply both landing oddly, but the content is unambiguous. Connection quality was poor at the start with a freeze around 00:00:57, and there is a two-minute gap from 00:58:33 to 01:00:20 while the prospect checked a calendar. Overall audio was otherwise clear."
+    "notes": "Labels invert continuously — the rep's entire pillar presentation from about 00:44:06 runs under the prospect's label, and the prospect's own training description at 00:02:36 is split across both speakers. Two long stretches around 00:44:06 and 00:46:57 lose punctuation and speaker breaks entirely. Roles read from content. The rep gives his real first name late in the call: 'it's not Andrew, it's Andrzej, but nobody can pronounce it, so I go by Andrew.'"
   }
 }

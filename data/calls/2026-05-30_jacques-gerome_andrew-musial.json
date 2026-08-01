@@ -1,0 +1,145 @@
+{
+  "call_id": "2026-05-30_jacques-gerome_andrew-musial",
+  "source": {
+    "drive_file_id": "1LbtfO0VGN1KFRZJlyJrdlQ7epdwXa6xN",
+    "drive_folder": "Andrew Musial",
+    "original_title": "05/30/2026 - Jacques Gerome x Andrew Musial KL",
+    "display_title": "05/30/2026 - Jacques Gerome x Andrew Musial KL — Follow Up",
+    "file_size_bytes": 19603,
+    "continuation_drive_file_id": "1a10SlJUhzOXY2nJhiFOQLTX2iNKANfbT",
+    "continuation_original_title": "05/30/2026 - Impromptu Zoom Meeting",
+    "continuation_file_size_bytes": 40627,
+    "source_note": "This is ONE call recorded as two Drive files. Part 1 ends mid-sentence on a dropped connection ('whoops, I lost your camera ... Andrew, you still around?') and part 2 opens 'We were back. I don't know what happened. Sometimes this Wi-Fi just goes crazy.' Both files are covered by this single record so the call is not double-counted."
+  },
+  "call": {
+    "date": "2026-05-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "First closing call; the prospect spoke to setter Kyla the previous day ('you didn't really mention anything yesterday').",
+    "duration_min_est": 70,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Kraków, Poland", "additional_reps": [] },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "'Kyla mentioned that you are pretty busy at the moment, like covering for your boss, and on top of your own role, is that correct?' and 'Kaila also mentioned that you have or went through scoliosis.' Referred to as Kyla, Kaila and Karila across the transcript; full name Kyla Louie per the 05/29 team meeting."
+  },
+  "prospect": {
+    "name": "Jacques Gérôme",
+    "aka": null,
+    "name_source": "title",
+    "location": "London, United Kingdom; considering a move to Singapore within six months",
+    "age": 36,
+    "occupation": "Office-based professional currently covering his boss's role as well as his own; building an AI business on the side, which he ranks as his number one priority for the year. Employer allows an hour and a half in the gym during the working day.",
+    "family_status": "Single; references ex-girlfriends as a past source of stress",
+    "height_in": 77,
+    "weight_lb": 209,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Thirteen years of martial arts (judo, jiu-jitsu, karate, aikido, ninjutsu), stopped for lack of a suitable dojo. Three to four years rebuilding after a knee sprain, first through the ATG / knees-over-toes online app for six months then six months of that provider's coaching, which he rates as immensely successful — went from unable to load his left foot to pulling 160 kg on a sled. Currently three months from finishing the Move Method mobility programme, working toward pistol squats. Long history of calisthenics. Trains roughly an hour and a half a day at the gym, does mobility daily, dances bachata and salsa. Works with a chiropractor and an osteopath.",
+    "kettlebell_experience": "none",
+    "medical": "Scoliosis developed after two growth spurts at 16 (160 cm to 190 cm in about six months), largely corrected over many years but leaving a permanent ribcage and sternum prominence and an underdeveloped chest. Knee sprain post-COVID from a dance misstep, rehabilitated over three to four years. Broken nose from judo. Five years of persistent shoulder tension that he attributes to stress and can only relieve through chiropractic work. Sleeps about six hours a night on weekdays. Under ongoing chiropractor and osteopath care."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Years of deliberate, structured work already done — the rep's own read: 'most guys, and I would say probably 95% of them never put in the work that you have on the foundation'",
+      "Explicitly good-to-great: 'the foundation is generally done ... but the upper body is just sitting there' — 'Exactly. Yeah, that's fair to say.'",
+      "Never once objected to the $6,000 or asked for a discount; the only blockers raised were sequencing and proof",
+      "Has previously paid for six months of online programming plus six months of coaching with a different provider and was happy to",
+      "Counter-signal toward skeptical_bargain_hunter: he insists on buying a programme before coaching because he was badly burned once, and says openly 'I do study sales a little bit as well ... I know what you're trying to get me to'"
+    ]
+  },
+  "goals": [
+    { "text": "Build real strength and muscle across the shoulders, chest and arms to match the lower body he has spent years rebuilding", "category": "muscle_gain" },
+    { "text": "Hold a handstand without pain or failing after ten seconds, and get past three clean pull-ups", "category": "strength" },
+    { "text": "Move in a 3D environment rather than in vertical and horizontal planes only; not be limited in mobility as he adds strength", "category": "mobility" },
+    { "text": "Silence the self-doubt voice — 'why bother, why do you think you can't do it, you're too weak' — and stop feeling weak carrying boxes", "category": "confidence" },
+    { "text": "Add muscle now while he still can: 'I have a limited window to start adding muscle easily based on my age ... within the next 10 years it will be much more difficult'", "category": "longevity_function" },
+    { "text": "Not reach old age having never tried: 'I find it very, very painful to think that I would get older without having tried to work towards that development'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Years of rehab produced a strong lower body and left the upper body untouched — 'it's a bit annoying, to be honest, because I thought I was smarter than this'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Persistent self-doubt: 'I can be very assertive and very direct towards what I want, but there's always that self-doubt in the background ... I know my voice sometimes will go high-pitched'", "category": "confidence", "severity": "high" },
+    { "text": "Five years of shoulder tension that only a chiropractor relieves — 'the moment someone touched my shoulder, every single time, it's like, God, you got so tense'", "category": "injury", "severity": "medium" },
+    { "text": "Stress from covering his boss's role on top of his own plus personal difficulties, which disrupts sleep and lands in his shoulders", "category": "work_stress", "severity": "medium" },
+    { "text": "The Move Method is a generic sequence with nothing for upper body strength — 'It runs the same sequence for everyone' and 'there's nothing like strength-wise past the first couple of weeks'", "category": "program_fit", "severity": "medium" },
+    { "text": "His current provider has stopped responding — three or four attempts to book coaching calls went unanswered for a month before being told they were not taking anyone", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "A previous personal trainer pushed him toward bodybuilding and supplements against his stated wishes and refused to adapt, which cost him time and money and made him distrust coaches. Proposed label: provider_trust.", "category": "other", "severity": "high" },
+    { "text": "No spare time for at least three months: 5:30 start, AI work until 8, office 9 to 6:30, ninety-minute gym block already committed to the Move Method, then work again until 10:30", "category": "time_scarcity", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I do want that person to respect my demand, which is, let me try the program first, if you have one, and then, let me commit to coaching when I am number one fully ready for it",
+      "timestamp": "00:21:23",
+      "rep_response": "Acknowledged it, restated it back, then proposed the $1,200 30-day 'love it or leave it' as the way to get his feet wet. Never ran the burned-before reframe and never mentioned Primal University, which is the programme-first product he was asking for and which his setter had told him existed.",
+      "response_tactic": "offer_paid_trial_instead_of_program",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "Well, I haven't worked with the man, or I haven't used this method just yet, so I can't make an assumption from what you're saying ... I haven't tasted the method in any way, close or far, so, yeah. Until I can do that, I can't say it's true or yes or no.",
+      "timestamp": "00:38:24",
+      "rep_response": "Accepted the 'possibly' without challenge and moved immediately to the trial offer rather than returning to consequence.",
+      "response_tactic": "accepted_soft_yes_and_advanced",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I don't have time. You don't understand. I don't have time. ... So I don't really, for the next three months, at least, have any time outside of this.",
+      "timestamp": "00:42:02",
+      "rep_response": "Argued once that kettlebells also train legs so waiting 'doesn't add up for me', got told it adds up for the prospect, then dropped it and booked a September date.",
+      "response_tactic": "single_logical_challenge_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I will not put the money down until I started doing it. And the reason for it is just for me to be certain that I am committed, and I don't want to over-commit, so to speak.",
+      "timestamp": "00:37:34",
+      "rep_response": "Replied 'Okay, perfect' and moved on. Proposed label: payment_timing_commitment.",
+      "response_tactic": "accepted_without_probe",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200, "note": "'Love it or leave it' 30-day option, presented as a rare exception" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'we call it love it or leave it so you're gonna come in for a full month, it's twelve hundred dollars, you get whole program everything set up, you do it for a month, when you love it you can pay up the rest and continue, if you hate it you leave it'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "A specific follow-up was booked: 'let's schedule in for 15th of September' at 7pm Polish time, with the rep to send the invite",
+      "Stated intent to proceed then: 'right after that, I'm more than willing to start this, if that would be still an option'",
+      "Counter-evidence: no payment, no link, no deposit, and a three-and-a-half month gap, which the manager separately rates at roughly a 5% conversion once a prospect leaves the call",
+      "Counter-evidence: the belief question returned only 'Possibly, yes' and was never resolved",
+      "Counter-evidence: he stated a firm sequencing rule twice — 'I'm not going to budge from my decision' — and by September he may simply renew the Move Method annual subscription he mentioned"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Call booked for 15 September 2026, 7pm Polish time / 6pm London; rep to send the calendar invite"
+  },
+  "notable": {
+    "note": "The single best discovery in this batch — the rep took the prospect from 'strength and mobility' down to the self-doubt voice and the devil-and-angel framing, and the prospect volunteered material he described as uncomfortable to say man to man. Then none of it was used. There was no consequence frame, the belief question returned 'possibly' and was waved through, and a three-month delay was accepted after one challenge. The prospect twice asked for a programme he could buy before committing to coaching, and had been told by the setter that such a programme exists; Primal University was never mentioned to him, though the same rep offered it to another prospect the previous day. A scoliosis history, a rebuilt knee, five years of shoulder tension and ongoing chiropractic and osteopathic care were all discussed at length, and clinical clearance for loaded kettlebell work was never raised."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and frequent inversion in both files. Rep questions repeatedly land on the prospect's label and vice versa — for example 'So why only they focused on the lower part and not the upper body?' and 'How old are you when that happened?' are attributed to the prospect, and 'But the most important part is the mobility part' sits on the prospect during the rep's pillar delivery. Role read from content throughout. Two numeric inconsistencies survive in the transcript: height given as '6'5\", or 195 kilos, almost 95 kilos, sorry' (95 kg recorded), and 'I'm at 25 now' where 95 is almost certainly meant. Part 1 terminates mid-conversation on a dropped connection."
+  }
+}

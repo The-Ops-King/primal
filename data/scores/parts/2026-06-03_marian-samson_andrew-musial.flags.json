@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-03_marian-samson_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The six-month programme is being sold at $5,000 rather than $6,000, a $1,000 discount agreed before this call and confirmed live as the price the prospect will pay.",
+      "evidence": [
+        "For 5k, it's one-time. We didn't talk, we didn't discuss the monthly.",
+        "Well, sorry to hear that, but, like, the investment, it's a one-time payment, especially that we acknowledge your proposal, and it's 5K.",
+        "You're paying 1K less. Nobody gets that. I genuinely see somebody gets that."
+      ],
+      "timestamp": "00:14:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The rep quoted a six-way instalment price of $7,200 against the $6,000 six-month tier — a $1,200 payment-plan premium that exists nowhere in the stated offer.",
+      "evidence": [
+        "So, if we have to, if you want to split it up in six... If it was 6K, so if we split it up in 6 payments, it's 1200 a month. So it's 7200, yeah? I'm good counting?",
+        "But the monthly, remember, that I told you, it comes out more expensive, yeah? For the 6k."
+      ],
+      "timestamp": "00:14:55"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep stated there are no refunds under any circumstances, which contradicts the scripted deposit-with-full-refund play and the same rep's own 1-1 the previous day confirming two deposits had been refunded.",
+      "evidence": [
+        "Now, the other thing, refunding. I don't know if you, what about this one?",
+        "There are no refunds.",
+        "When you get in, you get in, you do the work."
+      ],
+      "timestamp": "00:13:18"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The prospect asked to read the contract before paying and was told payment comes first; the request was then deflected and never answered before the call ended.",
+      "evidence": [
+        "Yes, let's secure the payment and you will get immediately the contract. To sign, and then I can, uh, award you with...",
+        "Another thing before, before I make the payment, you know, before the payment is done, I would like to read this contract. It's, it's a basic thing on, on how I do it.",
+        "Wait, hold on."
+      ],
+      "timestamp": "00:13:34"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep gave an unqualified guarantee of success and of open-ended coaching until the goal is reached, going beyond the stated eight-kilogram guarantee.",
+      "evidence": [
+        "So if, if you are willing to commit, and actually do the, the entire work that Trevor will prepare for you, there is no way that you won't be successful. No way.",
+        "you will see the results 100%. If that wouldn't happen, and you would actually follow through exactly everything, he will work with you until you reach that goal."
+      ],
+      "timestamp": "00:09:49"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect was told the programme is fully customised to his condition and that everything discussed would be in the contract, neither of which the rep verified and one of which he had already contradicted by ruling out live coaching calls.",
+      "evidence": [
+        "It's this program, what we are talking about, it's fully designed, customized on my situation or...? Yes.",
+        "Everything what we are talking about now, it will stay on the contract. So just so I know. Yeah, you will see the contract. So no worries."
+      ],
+      "timestamp": "00:06:24"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep used an unverifiable third-party approval and scarcity frame to defend the discounted price and shut down further negotiation.",
+      "evidence": [
+        "Because they already said like, okay, fine. Let's have it. Let's, let's, let him have this, this, this good deal, 5K. But believe me, I had to, I had to fight for it.",
+        "Brother, believe me, it won't go. You got a, you got a good deal.",
+        "Nobody gets that."
+      ],
+      "timestamp": "00:20:35"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-01_sako_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented against his current two-hour sessions: three to four times a week, 30-40 minutes, strength, conditioning and mobility in every session, plus short desk-based mobility protocols aimed at killing the afternoon nap. He immediately probed the delivery model — \"But how are we going to do it if there is no person with me?\" — and later worried the self-recording would be time consuming, resolving it himself once the time comparison landed: \"And I don't have to work out anymore, just three or four times a week... Oh, then no, it's not time consuming.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "Pushed back on the substance, unusually in the strict direction — he wants the protocol to be harder than it is: \"I wouldn't say like, oh, I want to eat like once a week. I want to be strict with my food and diet. Like even if I eat something like unhealthy, I would eat something with no carbs, like bread... I don't want to go to my family. Let me just eat with them like a burger and fries. No. So I want to just have that mentality.\" The rep did not adapt, restating the sustainability principle and conceding \"That's up to you.\" Worth noting for positioning: the once-a-week free meal is sold as a benefit and read here as a weakness."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Delivered fully — app, weekly check-ins, video form correction, Trevor's personal cell number and an instruction to over-communicate. The prospect engaged only tangentially, interrupting to raise his water intake and then to ask the price: \"I want to know, like, how much is the pricing?\" When asked directly he had no questions — \"No.\" / \"How do you feel about an overall, about the whole program?\" / \"Good.\" Acceptance without enthusiasm, and notably thinner engagement than the pillar aimed at his stated gap should have produced."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competing_discretionary_spend",
+      "raw": "And also, like, I have vacation planned. So it's like more money to spend, I would say.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He leaves the day after the call, so the $6,000 is competing against a trip that is already booked and paid into. The follow-up was scheduled for after the trip, which puts the decision on the far side of the spend rather than in front of it."
+    },
+    {
+      "type": "disclosed_liquidity",
+      "raw": "I would say 2,500. [monthly surplus] ... Five-figure. What's five-figure, like... [savings]",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "About $2,500 clear per month after bills and five-figure savings, with credit cards carried at zero balance. On the numbers he can fund this comfortably at either structure offered, which is what makes the trust objection rather than the price objection the real one."
+    },
+    {
+      "type": "existing_health_spend",
+      "raw": "I've been getting testosterone now... it's been like almost two months, and actually I like it, and even my body is changing too.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He is already paying for and self-administering an intervention to change his body and energy, which establishes willingness to spend on the outcome. The rep treated it as an argument to be defeated (\"you know you can do that naturally\") rather than as evidence of intent."
+    },
+    {
+      "type": "social_norm",
+      "raw": "my community, it's just like, everybody is extremely, like, have a really nice body. And I want that too, before it's too late.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "LA fitness culture as a peer benchmark. He is buying belonging, and the rep correctly identified this in the reflect-back. The strongest supportive anchor on the call and the one the price should have been framed against."
+    },
+    {
+      "type": "no_reference_class",
+      "raw": "I've never done something like that before. So I think it's going to be an adjustment for me like at first to try to understand it",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Six years of self-directed gym work but no prior experience of paid remote coaching, so nothing to price $6,000 against. Combined with the unmet demand for verification, this is why the number read as risk rather than as cost."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Independent verification of the company before paying — website, reviews, credentials",
+      "why_unmet": "Nothing verifiable was offered. The rep argued that everything findable could be fabricated: \"it's 2026. Everything, what you find about us could be as well in an age of AI could be fake... All the testimonials could be fake.\" The programme almost certainly has real proof — six years, over a thousand clients was claimed on the same call — and none of it was put in front of him.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A stricter nutrition protocol than the once-a-week free meal, with a plan for eating at his family's house",
+      "why_unmet": "The protocol's sustainability principle is deliberately more permissive than what he is asking for. The rep deflected to \"That's totally up to you\" without confirming whether the coach would support a stricter version, so whether the programme can accommodate him is unknown.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "In-person supervision while learning the movements",
+      "why_unmet": "Delivery is remote by design — self-recorded video with asynchronous form correction. He raised it as his first question about the training pillar and it was answered honestly rather than reframed.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training that works alongside his prescribed testosterone therapy",
+      "why_unmet": "There is no clinical intake, no clearance step and no mechanism for coordinating with a prescriber anywhere in the offer. Instead of describing how the programme would work around active hormone treatment, the rep argued against the treatment. This is the same structural gap the ICP file already identifies: no clinical criterion exists anywhere in the process.",
+      "verdict": "product_gap"
+    }
+  ]
+}

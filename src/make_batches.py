@@ -20,9 +20,26 @@ OUT = ROOT / "data" / "batches"
 BATCH_SIZE = 12
 
 
+def window():
+    """Corpus window from rules.json — single source of truth, so the batcher
+    and the build can never disagree about what is in scope."""
+    r = json.loads((ROOT / "data" / "rules.json").read_text())
+    w = r.get("corpus_window") or {}
+    return w.get("from"), w.get("to")
+
+
 def main(batch_size=BATCH_SIZE, only_rep=None, limit=None):
     m = json.loads(MANIFEST.read_text())
     files = [f for f in m["files"] if not f["junk"]]
+    total_eligible = len(files)
+
+    w_from, w_to = window()
+    if w_from or w_to:
+        files = [f for f in files
+                 if not ((w_from and f["call_date"] < w_from)
+                         or (w_to and f["call_date"] > w_to))]
+        print(f"window {w_from}..{w_to}: {len(files)} of {total_eligible} eligible calls in scope")
+
     if only_rep:
         files = [f for f in files if f["rep_folder"] == only_rep]
 

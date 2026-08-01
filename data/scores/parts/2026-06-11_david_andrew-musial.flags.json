@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 54-year-old disclosed ruptured cervical discs with three years of unresolved hand nerve damage, an elbow that will not straighten, a torn meniscus with surgery declined and prior rhabdomyolysis; the rep gathered all of it and moved toward a kettlebell presentation without ever asking whether a clinician had cleared loaded training.",
+      "evidence": [
+        "I wasn't able to finish it because I physically couldn't finish because I pinched the nerve. I ruptured some discs in my neck and my left arm didn't work anymore. So I had to stop.",
+        "I have some other nerve issues in my hands that I don't know that will ever go away, I'm not sure... I've had it for three years now, so I'm not sure that it will ever go away.",
+        "my right elbow, I can't, if you notice, I can't straighten it... if I force it, it's painful",
+        "I have a torn meniscus in my right knee, but I'm not going to get surgery, because surgery just, it just increases the time in which they do a knee replacement",
+        "I even got rhabdomyolysis, where I basically killed my left bicep, and I've had to rebuild it",
+        "I've got to get the whole area stronger, my neck, my head, everything."
+      ],
+      "timestamp": "00:05:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "When the prospect dismissed his doctors, the rep affirmed it rather than questioning it, though he did then redirect toward physiotherapy.",
+      "evidence": [
+        "Yeah, I've gone to two doctors and they just said, well, we can do surgery, but it'll probably make the problem worse. You know? And so, you know, the medical doctors have not been any help whatsoever.",
+        "That we know. But did you go back to a physiotherapist maybe?"
+      ],
+      "timestamp": "00:09:20"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This call is the first half of a single conversation that was cut short for time and resumed in a separate recording the same day, so treating the two files as independent calls will double-count the prospect in any funnel or close-rate denominator.",
+      "evidence": [
+        "So let me... I've got another call. I've got to jump on here real soon, so... How much time do we have left? Probably no more than 10 minutes.",
+        "So, because I don't want to rush through that. That's fine. Let's schedule just another one later today. Do you have space today?",
+        "I would have like a half an hour at 11 a.m. your time. That could work.",
+        "So it's gonna be the same link? The Zoom link? — Same one."
+      ],
+      "timestamp": "00:38:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Both this call and its continuation are titled \"Impromptu Zoom Meeting\" with no prospect name, and the prospect's only identifier is the device label \"David's iPhone\", so no surname is recoverable and the two same-day calls collide on the standard call_id scheme.",
+      "evidence": [
+        "00:00:05 - David’s iPhone",
+        "But my goal, tell me your name again. Andrew.",
+        "Hey, tell me your name again. Andrew."
+      ],
+      "timestamp": "00:00:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts speakers throughout including merging both sides into single turns.",
+      "evidence": [
+        "00:11:41 - Andrew Jin (Primal Instinct) — Approximately? 215.",
+        "00:10:13 - Andrew Jin (Primal Instinct) — I am active, but I'm not working out.",
+        "Where are you at? I'm in Europe, but tell me your time zone."
+      ],
+      "timestamp": "00:11:41"
+    }
+  ]
+}

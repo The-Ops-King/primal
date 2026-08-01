@@ -1,0 +1,156 @@
+{
+  "call_id": "2026-06-28_yash_andrew-musial",
+  "source": {
+    "drive_file_id": "10V86er3ny38IyHUtnvm7OIAGEsMM29Kl",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 57583
+  },
+  "call": {
+    "date": "2026-06-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 65,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter is named anywhere on the call. The rep opened with \"Brief me in, because you've probably been following Trevor for a while\" rather than reading back any notes, which is consistent with an unset inbound lead. The prospect describes a multi-year content relationship as the source: \"I think I started following Trevor, it was like between one to three years ago, four years ago.\""
+  },
+  "prospect": {
+    "name": "Yash",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United Arab Emirates",
+    "age": null,
+    "occupation": "Between jobs and self-employed. Left a previous role because of his injuries — \"I had to leave my job because the tissues got so bad and that I couldn't continue it.\" Prior work was a decade of computer-based work with heavy travel; current work is flexible and can be done from an iPad or while walking.",
+    "family_status": "Married. Wife is a fitness and nutrition coach and a former professional dancer. Parents are living and referenced as people he wants to be capable for; his father has AVN.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained for many years. Currently in the gym three to five times a week, 45 to 70 minutes, on machines, dumbbells and cables with minimal barbell work because of injury fear. Restarted about two to three weeks before the call. Walks 10,000 to 20,000 steps a day. Previously much fitter — had abs, could do pull-ups, and has lost around 15 kg / 30 lb in the past. Played padel and pickleball until injury stopped him. Tried kettlebells on his own two to three years ago from Trevor's videos.",
+    "kettlebell_experience": "some",
+    "medical": "Left shoulder subluxation / partial dislocation about ten years ago from a badly performed bench press. Right shoulder injured about a year ago playing padel and pickleball — pain in the tricep area and what he believes is bicep tendonitis, unresolved for a year to eighteen months and still under investigation (\"I'd have to check what the reports say\"). Could not train at all for six to nine months and gained 5-10 kg. Left wrist pain specifically triggered by attempting kettlebell work two to three years ago. Describes it as a chronic condition rather than chronic pain — \"it hurts if I do certain things\" — and reports being bedbound with soreness and fatigue for two to three days after playing sport. Ongoing back tightness, pain and knots from a decade of desk work and travel. Has been under physiotherapy care; reports pain relief but no resolution from the prescribed exercise programmes."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.9,
+    "signals": [
+      "Explicitly wants a former self back: \"I would love to look like I used to two years ago, three years ago\" — about 10 kg lighter and stronger.",
+      "Lost ground to a defined bad season of injuries: six to nine months unable to train, 5-10 kg gained, a job left behind, sport given up.",
+      "Visible regret and self-diagnosis of decline: \"my discipline used to be great... When you're in pain and you're not able to do the stuff that you want to, I don't know if it's just like anger that comes out and you're just self-sabotaging.\"",
+      "Identity framed around a fitness self he has lost: \"I've identified as someone who's fit, for many years, I associate it with discipline and success\" and \"My identity shifts, right? I feel more successful than unsuccessful.\"",
+      "Not the_medically_constrained despite the injury load, because the block that actually stopped the sale was money, not a clinician — though no clinician was ever consulted, which is the point of the clinical flag."
+    ]
+  },
+  "goals": [
+    { "text": "Return to how he looked two to three years ago — around 10 kg / 20 lb lighter", "category": "appearance" },
+    { "text": "Train without getting injured again, and learn an injury-preventive approach to movement", "category": "injury_prevention" },
+    { "text": "Wake up pain-free and without fear of what the day will feel like", "category": "longevity_function" },
+    { "text": "Be athletic rather than just a gym lifter — identity as an independent, free-spirited trainee rather than a 'Jimbro'", "category": "confidence" },
+    { "text": "Play padel and pickleball again without being laid up for days afterwards", "category": "hobby_performance" },
+    { "text": "Be physically capable for his parents and wife — able to carry the suitcase rather than be looked after", "category": "family_role_model" },
+    { "text": "Get stronger and more mobile, and rebuild the discipline he feels he has lost", "category": "consistency" },
+    { "text": "Manage the shoulder pain that a year of physiotherapy has not resolved", "category": "injury_confidence" },
+    { "text": "Learn the method well enough to be self-sufficient and to teach family members", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Right shoulder / bicep tendonitis unresolved for a year to eighteen months despite physiotherapy; prescribed exercise programmes have not prevented recurrence", "category": "injury", "severity": "high" },
+    { "text": "Left shoulder subluxation history and left wrist pain specifically triggered by kettlebell work", "category": "injury", "severity": "high" },
+    { "text": "Life has become progressively restricted — \"because of the injuries, I found my life just becoming more and more inhibited\"; travel and work are both affected", "category": "injury", "severity": "high" },
+    { "text": "Had to leave his job because of the physical problem and is now between jobs", "category": "work_stress", "severity": "high" },
+    { "text": "Afraid to train the way he wants to — avoids barbells and kettlebells out of injury fear", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Gained 5-10 kg during six to nine months unable to train", "category": "consistency", "severity": "medium" },
+    { "text": "Cannot play padel or pickleball without two to three days of soreness and fatigue in bed afterwards", "category": "injury", "severity": "medium" },
+    { "text": "Nutrition discipline has deteriorated; eats mostly takeaway, indulges in the evening, cannot cook", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Loss of self-respect tied to losing physical capability — feels less successful and less independent than he was", "category": "emotional", "severity": "high" },
+    { "text": "Back tightness, pain and knots from a decade of computer work and travel", "category": "injury", "severity": "medium" },
+    { "text": "Constrained cash flow — $6,000 is comparable to six months of his rent", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I am hesitant, I'm not gonna lie, about doing kettlebells just because I've had a bit of a history. So I'll hear more about the program as you describe it... but I probably want to start with even like one day a week, just to check what am I feeling like the next day, because I'm so tired of waking up in pain.",
+      "timestamp": "00:22:31",
+      "rep_response": "Handled with practical reassurance rather than the scripted play — emphasised the programme is tailored to limitations, that sessions are 30 to 40 minutes and probably 20 at the start, and that the first month is movement learning only: \"probably for a whole month, you're going to be only learning the movement.\" He explicitly named the intent: \"I want to make you feel a little less fearful for that.\" He never confirmed the once-a-week start the prospect asked for, and never sought any clinical clearance.",
+      "response_tactic": "reassure_via_tailoring_and_slow_ramp",
+      "resolved": true
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So, what I will do, please, is I will sleep on this and speak with my wife about it, to see, you know, whether we're able to come up with that.",
+      "timestamp": "00:46:28",
+      "rep_response": "Isolated it cleanly first — \"You're just thinking about the finances right now, not whether to do it\" and \"there's nothing else keeping you from being 100%\" — then established the wife was already positive on the programme, then ran the ownership move close to script: \"It is your investment in your health for your family. It's not the investment of the family. It is you... is it their responsibility or yours?\" The prospect conceded the framing but did not change his position.",
+      "response_tactic": "isolate_then_ownership_reframe",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "That's like, you know, six months of my rent, as an example. And so I, you know, I think about how much my wife and I, you know, we really reflected on, are we going to be able to afford the place we've got for rent?",
+      "timestamp": "00:55:14",
+      "rep_response": "Asked what was possible — \"help me help you. What is possible for you right now so we can work around it and make it more digestible for you?\" — but the prospect declined to disclose anything: \"that's just, that's not in my personality type. I feel too uncomfortable.\" The rep pressed on regardless, then offered instalments in the abstract, then introduced third-party financing through Payva and sent a link live. The quoted result was around $7,800 over 12 months at $650 per month, which the prospect immediately calculated as roughly 30 percent a year.",
+      "response_tactic": "offer_third_party_financing",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "It's a large sum, right? I'll probably want to spend some time just reflecting on it quietly and just thinking it through.",
+      "timestamp": "00:54:19",
+      "rep_response": "Pushed several times. Asked \"What exactly you want to go through?\" and minimised the task — \"it's just, you know, opening up a bank account and checking if I can afford it... And that's it. It's just the decision that needs to be made.\" Then argued that wanting certainty is why people fail to move forward. After the financing figure landed the prospect said \"I'm just a little overwhelmed right now\" and the rep asked once more for his first thought before accepting a Tuesday follow-up.",
+      "response_tactic": "minimise_and_press_for_decision",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "In-house instalments were offered only in the abstract — \"we could do, like, split this payment up into some installments\" with \"nothing, like, set in stone\" and \"it depends from customer to customer\". When the prospect asked directly to confirm a six-payment structure at $1,000 a month, the rep did not answer and instead introduced third-party financing via Payva (compared by him to Klarna), stating it can be split up to 12 months and is available worldwide. A link was sent in the Zoom chat during the call. The prospect read the result back as approximately $7,800 total over 12 months at $650 per month, and computed the cost as \"like 30% a year\"; the rep confirmed \"yeah, that's correct.\"",
+    "guarantee_mentioned": "\"there's a guarantee. I don't think there's another program out there that the trainer puts a guarantee, and the guarantee is that in six months, you're gonna add eight kilos to your baseline kettlebell, right? And if that one wouldn't happen, Trevor is gonna be working with you until that does, because for him, it's pure science.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Explicitly refused to disclose: \"that's just, that's not in my personality type. I feel too uncomfortable to, you know, say anything whatsoever.\" The only figures on record are relative — $6,000 equates to roughly six months of his rent — plus a stated general preference for monthly payments over lump sums for cash-flow reasons. He is also between jobs. No financial-picture item from the OC play was obtained."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no verbal agreement to proceed. The prospect's position at the end was unchanged: \"I'm just a little overwhelmed right now, Andrew. I'll just probably need some time just to, like, you know, just to, sit.\"",
+      "A concrete follow-up was booked and confirmed live — Tuesday 30 June at 9pm his time, framed as a short 15-minute call, invite received and verified: \"I see it. Yep.\"",
+      "A financing link was sent during the call, but the close rule does not apply: a payment link being sent without verbal agreement to move forward is not a close, and he explicitly did not agree.",
+      "Counter-evidence toward a warmer read: intent and trust are both very high. \"I trust, Trevor, Trevor's method, he seems like a standup guy. So it doesn't seem like anything onto other scams\", he confirmed \"Yes. Yes.\" to the commitment question, and his wife has already vetted and blessed the programme.",
+      "Counter-evidence toward a colder read: the financing quote materially worsened his position rather than improving it, and the last thing he said about the numbers was \"All of this is more than naturally strikes me as comfortable.\" He is between jobs and comparing the fee to six months of rent."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Fifteen-minute follow-up call booked for Tuesday 30 June at 9pm UAE time. Prospect to review the Payva financing link and reflect; he indicated a timeframe of a few days."
+  },
+  "notable": {
+    "note": "The clearest pricing finding in the batch. A third-party financing product (Payva, positioned against Klarna) was introduced live and produced a quote of roughly $7,800 over 12 months at $650 per month, which the prospect himself computed as about 30 percent a year and the rep confirmed. It was offered in place of an answer to the prospect's direct question about a six-by-$1,000 in-house plan — and the same rep offered a different prospect an interest-free split on the same product two days earlier. Clinically this is the highest-risk profile in the batch after Caesar Lins: an unresolved shoulder condition still under investigation after eighteen months of physiotherapy, a prior subluxation, and left wrist pain that was specifically caused by his own previous kettlebell attempts. No clinician clearance was sought or suggested, and the programme was positioned as succeeding where his physiotherapists had failed. The rep also skipped the consequence frame out loud: \"I don't want to paint the morbid picture of what will happen if you don't do something? Because you already know that, right?\""
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous inversion; roles resolved from content. Clear examples: \"Where are you calling me from, Andrew? I'm in Poland right now\" at 00:00:18 merges both speakers; \"So I'll feel successful again\" at 00:25:40 is the prospect under the rep's label; \"My discipline used to be great\" at 00:38:01 is the prospect; \"I'll probably need to reflect on this\" at 00:58:17 is the prospect. Assorted ASR corruption including a non-Latin garbage string at 00:06:15, \"what Jesus said\" at 00:57:01 where the sense requires something else, \"Payva\" and \"PT\" both of uncertain accuracy, and \"UE\" for UAE. The financing figures were spoken by the prospect reading a screen and are recorded exactly as stated. No evidence of dropped audio or truncation; the recording runs to a natural close."
+  }
+}

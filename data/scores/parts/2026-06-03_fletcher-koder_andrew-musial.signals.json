@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-03_fletcher-koder_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Delivered from 00:48:38 and aimed precisely at what he had asked for an hour earlier — condensed intense work with short rests instead of machines and three-minute breaks. He volunteered agreement and tied it to his own stated need: 'Yeah, 100%. Yeah.' He had effectively pre-sold himself at 00:19:29 — 'I want to incorporate more, like, cardio and general conditioning, rather than making it just strength. That's why I used to love, like, boxing and, like, F45.' The rep also connected it to his shoulders and feet specifically, which landed."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered at 00:51:00 as what you eat, when you eat, how much you eat, with the rep correctly noting his one-meal-a-day pattern is already close to the model and flagging that Trevor might add breakfast given twelve-hour underground shifts. The prospect agreed without questions or enthusiasm: 'Yeah.' Audio quality drops through this section and several fragments are unrecoverable, but no reaction beyond assent is present."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Delivered at 00:52:56 and explicitly named by the rep as 'in your case, the most important thing'. The prospect confirmed understanding — 'Not so far. You explained it pretty well' — and reinforced the underlying need immediately after: 'I do think I just need, like, the support, the accountability, and I need to just be reminded of myself and what I want to at the end of the day.' Understood and agreed rather than enthusiastic; he asked nothing about how it actually works. Worth reading against the downsell twenty minutes later to a product the rep himself described as having no accountability."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "expectation_of_free",
+      "raw": "actually, to be honest, going into this, I was under the impression that I was just going to be like free for some reason. Free. And then, I don't know, that's what I thought.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The strongest anchor on the call and the hardest to recover from: the number already in his head when he heard $6,000 was zero. He arrived from a setter call believing the programme cost nothing, so the price was not high against a reference point, it was infinitely high. This is a setter-qualification finding, not a closer finding."
+    },
+    {
+      "type": "income_reference",
+      "raw": "the four month, 4,000 USD, 6,000 AD? Maybe, maybe a bit less than a whole month, but still pretty close, post-tax.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He measured every figure against monthly take-home pay and against the AUD conversion, which inflates a USD price by roughly 50% for him. He converted $6,000 into $1,000 a month, $250 USD a week and about $400 AUD a week out loud. The offer is denominated in a currency that is not his, to a prospect for whom the discounted tier is close to a month of net salary."
+    },
+    {
+      "type": "own_brand_lower_tier",
+      "raw": "the thing is, like, it's only $199, $200 per month, and you can cancel any time. Or if you want to save up some money, you can pay it annually, and it's $1,199.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Trevor's own Skool community)",
+      "note": "This anchor did not exist until the rep created it in the last five minutes of the call. Once a $199/month own-brand product with the same coach and the same movement library is on screen, the $6,000 offer has to justify a roughly 30x multiple on accountability alone — and the rep had just told him it lacks accountability. The prospect moved to it immediately: 'between the two options, this is definitely something I'm leaning towards more.' Reps introducing this anchor to save a call is a pattern worth watching across the corpus."
+    },
+    {
+      "type": "existing_trainer",
+      "raw": "Well, what am I currently paying?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His immediate instinct on hearing $6,000 was to compare against his current PT, whose price he never states. He is already paying for one-on-one coaching, which normally supports price, but here it undercuts it — the incumbent is producing results he is 'pretty happy with' and that his fiancée sees no reason to change: 'she's happy with the progress I've been making. So she, I don't think she sees the need to do any changes.'"
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Real coaching accountability at a price reachable on an early-career salary — somewhere between $199 a month and $6,000 up front",
+      "why_unmet": "Nothing exists in between. The rep described the only affordable option and disqualified it in the same breath: 'Of course, there's what it's lacking. There is no accountability. And it's not specifically built around your schedule and your needs.' Accountability is the single thing this prospect and the rep both identified as his core need, and it is the exact thing the affordable tier does not have.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To pay for coaching in instalments sized to a weekly or monthly wage rather than a lump sum",
+      "why_unmet": "The rep said plans are fully customised — 'we don't have any set payment plans in place, like, it's all customized depending on, like, what's best for our client' — and then never proposed any terms, at any of the three price points, including when the prospect asked directly 'Okay, but if we would split it up, for example?' It is genuinely unclear from this transcript whether a plan was available and unoffered or unavailable and misdescribed; the same rep told a different prospect the same week that six instalments were definitely impossible.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A programme that can safely load a body with bilateral surgically-corrected club feet, no ankle dorsiflexion and effectively no shoulder range of motion",
+      "why_unmet": "Never assessed. The rep gathered the history properly and then answered it with reassurance rather than a screening step — 'the beautiful thing with our body that it's plastic' — and later folded it into the pitch as something the mobility work would handle. Whether the core loaded overhead kettlebell library is appropriate for this body, and whether a clinician would clear it, was not established by anyone on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Coaching priced for a 25-year-old shift worker who has never been fit",
+      "why_unmet": "The offer is built for the stated ICP — established professionals and business owners going from good to great. This prospect wants a fundamentally cheaper category of product and said so: 'I think maybe it's too premium of an offer for what I'm looking for, or what I can afford.'",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

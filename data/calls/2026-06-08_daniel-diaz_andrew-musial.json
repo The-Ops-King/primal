@@ -1,0 +1,149 @@
+{
+  "call_id": "2026-06-08_daniel-diaz_andrew-musial",
+  "source": {
+    "drive_file_id": "1-MSELYj_lYxkloIc_I0PwRDLk_m6PJTt",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/08/2026 - charlie vaccaro x Andrew Musial ",
+    "display_title": "06/08/2026 - charlie vaccaro x Andrew Musial  — Lost",
+    "file_size_bytes": 49008
+  },
+  "call": {
+    "date": "2026-06-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 58,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Daniel Diaz",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": 35,
+    "occupation": "Corporate accountant at a company; currently studying for the CPA exam. Works from home three days a week, in office two.",
+    "family_status": "Married seven years; no children mentioned. In the middle of moving house.",
+    "height_in": 70,
+    "weight_lb": 225,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Was in shape and weight training in 2018-2019 and in his early twenties; became sedentary after going back to school and through COVID. Currently walking roughly four miles a day — 'a marathon a week' — started a couple of months ago. Owns a 25 lb kettlebell he has had for years and has been doing Trevor's YouTube kettlebell workouts, one of which left him sore for about five days. Hiked the Appalachian Trail in September of the previous year. Has followed structured workout plans successfully years ago.",
+    "kettlebell_experience": "some",
+    "medical": "His doctor told him to start taking medication for high cholesterol; he declined and hired a nutritionist instead ('the doctor told me I need to start taking pills for my cholesterol. And I didn't want to do that'). Suspected untreated shoulder injury from an incline bench press accident in his early twenties — 'I think I tore something, for sure' — never assessed by a doctor, still produces pain in the left shoulder on lateral raises. When asked directly about other chronic conditions he answered 'Nothing.' Weight 225 lb at 5'10\", down from 230. Reports waking groggy with low energy."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Lost ground to a specific hard season and names it precisely: 'I know for a fact that I know exactly when I started gaining weight. It was run COVID 2020.'",
+      "Carries visible regret — 'I look at myself in the mirror, and this is not who I'm supposed to be... I get mad, I get upset, for sure'",
+      "Wants a former self back, benchmarked to his wedding photos seven years ago and to 2018-2019",
+      "Considered and rejected skeptical_bargain_hunter: he does haggle and is anchored to ~$100 personal-trainer sessions, but he has no cheap alternative that genuinely worked — the anchor is habit, not a functioning substitute",
+      "Not the_prehab_fighter: no active health event, though a declined statin recommendation sits close to the line"
+    ]
+  },
+  "goals": [
+    { "text": "Get from 225 lb down to at least 190 lb and below 200", "category": "fat_loss" },
+    { "text": "Get stronger and build a foundation of muscle — 'lean and strong', not weak", "category": "strength" },
+    { "text": "Have more energy through the day and stop waking up groggy", "category": "energy_performance" },
+    { "text": "Be strong enough for long hikes after the Appalachian Trail exposed how out of shape he was, especially his legs", "category": "hobby_performance" },
+    { "text": "Become disciplined and prove to himself he can keep a promise — 'showing myself that I'm able to do something hard'", "category": "confidence" },
+    { "text": "Have his wife see him disciplined and become the man he was seven years ago when they married", "category": "relationship" },
+    { "text": "Be useful — 'it's not about looks, but it's about utility. How useful I would be, not only to myself, but to others'", "category": "longevity_function" },
+    { "text": "Improve his mobility, which he says he struggles with deeply", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "35 lb above his own target weight with fat concentrated in the belly; gained it through COVID eating frozen pizzas and Costco croissants", "category": "other", "severity": "high" },
+    { "text": "Low energy is the specific blocker — has energy to walk but not to pick up the kettlebell", "category": "motivation", "severity": "high" },
+    { "text": "Does not know what to do — 'I don't have the knowledge of what to do'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Used food for comfort under stress; ate late at night, burgers and fried chicken sandwiches", "category": "emotional", "severity": "high" },
+    { "text": "Desk-bound corporate accounting job plus CPA study; sedentary by default", "category": "training_barrier", "severity": "medium" },
+    { "text": "Wakes groggy without energy", "category": "sleep", "severity": "medium" },
+    { "text": "Self-describes as having been lax and undisciplined and is angry about it — 'I'm kind of tired of being okay with mediocrity'", "category": "emotional", "severity": "medium" },
+    { "text": "Suspected untreated shoulder tear that flares on lateral raises", "category": "injury", "severity": "medium" },
+    { "text": "High cholesterol his doctor wanted to medicate", "category": "medical", "severity": "medium" },
+    { "text": "One self-directed YouTube kettlebell workout left him sore for about five days, blocking further training", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Carrying credit card debt he is actively paying down; credit score 690", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, that's a little too expensive for me. $6,000. I didn't know it was going to be this expensive.",
+      "timestamp": "00:39:51",
+      "rep_response": "Ran the money play part-way: isolated first ('Just finances aside, is there anything else that would be keeping you from being 100% in on this?'), used the should/how reframe, then asked the cost-of-inaction question ('What does that actually cost you if it doesn't get solved in the future?'), then asked permission for an honest financial conversation. Never offered to break the payment up — said the opposite.",
+      "response_tactic": "isolate_then_should_to_how_then_cost_of_inaction",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It's just like, if I, if it's a 12 month loan for six, for six grand, I'm going to be paying like more than $500 a month, probably... coming into this, I didn't, I wasn't expecting this number, to be honest with you, I'm being completely honest with you, I was not expecting this amount for a six-month training program.",
+      "timestamp": "00:49:21",
+      "rep_response": "Stopped selling the core offer and pivoted to a downsell: the Primal University Skool community at $200 a month, cancel anytime, framed as 'starting something maybe smaller in your situation'. Then answered social-proof questions and closed the call by offering to send information.",
+      "response_tactic": "downsell_to_lower_priced_community_product",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "How long has Trevor been doing this?",
+      "timestamp": "00:54:33",
+      "rep_response": "'Over six years... Over 1,000 clients already.' Then, asked whether he does the programme himself, said he has been training with kettlebells for three years and uses 32 kg for swings and 24 kg for presses and Turkish get-ups.",
+      "response_tactic": "social_proof_plus_personal_credibility",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "None structured. The rep stated 'we don't have set payment plans for customers. Most of them, they just take it upfront' and then 'we can customize something, depending on what's best for the client', but nothing was ever customised. The only mechanism offered was third-party buy-now-pay-later financing — 'Do you know, like, external financing, like Klarna or Peiva?'",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": 690,
+      "note": "The prospect declined to disclose cash on hand — 'I'm not comfortable sharing how much cash I have in my account right now' — and confirmed only that he has several credit cards, is actively paying off credit card debt, and has a 690 credit score."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal of the price: 'Is $6,000 the only option? If that, if that is so, then yeah, I can't, you know, I can't honor the $6,000 price tag.'",
+      "'this, and I trust, I'm pretty sure his program is really good that you have clients paying you, you know, six grand for six months' — he validated the product while declining it.",
+      "No payment taken, no link sent, no follow-up call booked.",
+      "COUNTER-EVIDENCE: he was fully committed on everything except price — 'No, nothing, except the price, for sure. I'm all in, but this is a little too much' — and left warm, saying he would look at the $200/mo community.",
+      "The rep's closing move was informational, not a close: 'I will send you, either way, some information on primary university.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send information on the Primal University Skool community ($200/month). No date, no commitment, no follow-up call scheduled."
+  },
+  "notable": {
+    "note": "The file title names 'charlie vaccaro' but the entire fifty-eight minutes is with Daniel Diaz — the rep introduces himself with 'So Daniel, my name is Andrew' and the Fathom label is Daniel Diaz throughout. Nobody named Charlie appears. This is the clearest loss-on-price in the batch and the most instructive: discovery and commitment were excellent, the prospect said '100%' before the price, and then the money play broke down — the rep pushed on a financial disclosure the prospect had explicitly declined, proposed buy-now-pay-later lending to a man who had just said he is paying off credit card debt, and finally improvised a $200/month downsell that sits outside the two authorised tiers. The prospect is also well outside the stated ICP on every criterion."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent. The opening line at 00:00:10 merges the rep's greeting 'Hey Daniel' into the prospect's block. At 00:02:12-00:03:03 the rep's question 'how tall are you?' and the prospect's answer '5'10\"' are inverted across the label boundary. The long block from 00:03:15 to 00:05:00 runs both voices under a single prospect label. At 00:37:47-00:37:50 'Any thoughts on that?' is attributed to the prospect and 'It sounds good' to the rep — clearly reversed. Similar reversals at 00:41:05-00:41:17 and 00:47:44-00:47:46 ('And like, what's your credit score?' is labelled as the prospect). Roles were assigned from content throughout."
+  }
+}

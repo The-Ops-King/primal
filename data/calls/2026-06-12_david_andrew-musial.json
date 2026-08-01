@@ -1,0 +1,173 @@
+{
+  "call_id": "2026-06-12_david_andrew-musial",
+  "source": {
+    "drive_file_id": "1CORRxw2qNWXr7ffIJT8v21WnvZCEPFUb",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/12/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/12/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 31761
+  },
+  "call": {
+    "date": "2026-06-12",
+    "stage": "closer",
+    "sequence_position": 3,
+    "sequence_note": "Third conversation with this prospect. Discovery and presentation both took place on 11 June across two recordings (2026-06-11_david_andrew-musial and 2026-06-11_david_andrew-musial_2). This call was booked at the end of the second to work through payment options, and the prospect texted the rep between calls asking about including his wife.",
+    "duration_min_est": 34,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "No setter suffix in the title and no setter referenced across any of the three calls with this prospect."
+  },
+  "prospect": {
+    "name": "David",
+    "aka": "joined as \"David's iPhone\"",
+    "name_source": "transcript",
+    "location": "Mountain Standard Time, USA",
+    "age": 54,
+    "occupation": "Financial advisor — \"I'm in the world of sales. I'm a financial advisor\" — and owner of a company with several employees",
+    "family_status": "Married; wife is a medical massage therapist who was briefly on a low-dose GLP-1, lost about 25 lb and regained it on stopping, and wants to train alongside him. Six children, three grandchildren. Ten months into a home remodel; the family has been living in a laundry room and cooking in a garage.",
+    "height_in": 73,
+    "weight_lb": 215,
+    "bodyfat_pct_self_reported": 29,
+    "training_background": "No current routine. Volleyball, pickleball and dirt biking. Previously CrossFit in his late thirties — \"In two months, I dropped from, like, 18% body fat down to 12% body fat\" — and a four-month block with an online coach from Australia. Has an unused gym membership.",
+    "medical": "Restated and expanded on this call in his own words: \"I've got a frozen elbow. You know, I can't even do half the stuff I want to do because I can't get my arm to go straight. And then I've torn some pretty heavy tendons and ligaments in my ankle, which is really taking me back from volleyball.\" Also the knee, and the neck injury from the 2023 race. He raised the possibility himself that training is premature — \"I have some of those concerns that it may be premature for me. Like I'm not even sure if I'm in a race because of those two main issues.\" Recovery is slower and injury more frequent than it used to be: \"It takes longer for me to recover, and I get injured more easily now.\""
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Consistent with his first two calls: ground lost to injury and a hard season, wanting capability back — \"I do want to get better, and I do want to do something\"",
+      "\"It all went to save my marriage and my house\" — the hard season is financial and personal as well as physical",
+      "Strong secondary read as skeptical_bargain_hunter on this call specifically. He is self-directed and capable, demanded proof before paying, and named two cheaper alternatives that plausibly work: a local in-person trainer (\"there's a guy here in town that will actually do a side-by-side for me for less than that\") and an unused gym membership (\"I can go get off my butt and go work out right now. That doesn't cost me anything\").",
+      "Buying behaviour is shaped by his own profession — \"My clients don't have to pay for my services up front. I earn them as I go\""
+    ]
+  },
+  "goals": [
+    { "text": "Get leaner, stronger and keep his mobility regardless of whether the race happens — \"I still want to get in shape. I still want to get leaner. I still want to get stronger. I still want all my mobility\"", "category": "strength" },
+    { "text": "Train alongside his wife so they are doing something together", "category": "relationship" },
+    { "text": "Recover enough function in the elbow and ankle to play volleyball and ride properly again", "category": "injury_confidence" },
+    { "text": "Find motivation and momentum — \"I need to get some motivation here\"", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Frozen elbow that will not straighten and torn tendons and ligaments in the ankle, both actively limiting him — \"I can't even do half the stuff I want to do\"", "category": "injury", "severity": "critical" },
+    { "text": "Doubts he should be training toward the race at all right now — \"it may be premature for me\"", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Financial position collapsed in three months — \"just three months ago, I literally had a half a million dollars just sitting in the bank... All that money is gone. It all went to save my marriage and my house\"", "category": "other", "severity": "critical" },
+    { "text": "Ten months of living in a building site and daily arguments about money — \"my wife and I are getting fights over $500 more on this\"", "category": "work_stress", "severity": "high" },
+    { "text": "Cannot justify personal spend while the household is under this strain — \"to have my personal life really this torn up, it's very difficult for me to justify doing this when I could just get up at five and go to the gym\"", "category": "emotional", "severity": "high" },
+    { "text": "Wife's weight loss did not hold after stopping a GLP-1 and walking alone is not working for her", "category": "relationship", "severity": "medium" },
+    { "text": "Cannot find evidence that the programme works for men his age — \"I see a ton of guys in their 40s, but almost no testimonials from people that say, hey, I'm 55\"", "category": "program_fit", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "program_longevity_proof",
+      "raw_quote": "what kind of success, and who can he show me, or what kind of before and afters, or what kind of testimonials do you have of people that are in their mid-50s? ... how many men over the age of 50 have completed the program? What has been their average starting and ending stats?",
+      "timestamp": "00:05:05",
+      "rep_response": "Did not answer either question. Declined references on policy — \"we don't share our clients' numbers that people can just call them up and ask about the program\" — noted that testimonial participation is voluntary, and reframed proof as unobtainable in principle: \"with fitness, you won't actually know until you check it out for yourself.\" He then pivoted to the one-month offer.",
+      "response_tactic": "deflect_proof_request_and_pivot_to_trial",
+      "resolved": false
+    },
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "I've got a frozen elbow. You know, I can't even do half the stuff I want to do because I can't get my arm to go straight... I have some of those concerns that it may be premature for me.",
+      "timestamp": "00:05:05",
+      "rep_response": "Not addressed at all. The rep did not respond to the premature-for-me concern, did not ask whether a clinician had assessed the elbow or ankle, and subsequently routed him to a self-directed programme with no form supervision.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "the financial side is probably more than double what I thought it was going to be",
+      "timestamp": "00:04:17",
+      "rep_response": "Attempted to isolate — \"Let's put the finances aside\" — and was refused: \"I can't put it aside because I'm nickel-and-diming everything.\" He later isolated more successfully with \"is it that you don't see the value or you don't have this like $1,200 to check it out for yourself?\", answered \"Both.\"",
+      "response_tactic": "isolate_finances",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "at this stage, that's too much. We can't do the $1,200... It's just too much money for what we're dealing with right now.",
+      "timestamp": "00:16:56",
+      "rep_response": "Accepted it, did not press, and eventually offered the $200/month Primal University subscription instead.",
+      "response_tactic": "concede_and_downsell",
+      "resolved": true
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "If I had a guy sitting next to me and called me in the morning and woke me up and said, get your butt out of bed, let's go, and he was sitting next to me watching me the whole time, then I'd probably pay him $1,200. But to do a virtual program... there's a guy here in town that will actually do a side-by-side for me for less than that.",
+      "timestamp": "00:18:25",
+      "rep_response": "\"He may be, but this is the thing, so going back to what we covered last time, you're not buying a PT.\" The prospect immediately closed that off — the local trainer also does nutrition and accountability — and the rep did not rebuild the value case, saying instead \"maybe I am biased\" and \"I don't want to get into an argument.\"",
+      "response_tactic": "not_buying_a_pt_reframe_then_withdrawal",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "unless I push back in my arena, which I'm the financial advisor, I do all the money in our family, if I push back on her, then she's like, well, then why the heck are you spending money on this other stuff?",
+      "timestamp": "00:22:04",
+      "rep_response": "\"Yeah, I feel you.\" No element of the spouse play was run.",
+      "response_tactic": "empathise_only",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I think emotionally I need to get past this stage to know where the heck I sit financially before I put another...",
+      "timestamp": "00:20:41",
+      "rep_response": "Explicitly agreed with the objection rather than working it — \"And I think this is the right way to approach that\" — and later booked a follow-up for 10 August. Honest given the prospect's circumstances, but no not-the-right-time move was attempted.",
+      "response_tactic": "endorse_the_deferral",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two structures were introduced live. First a named one-month entry — \"Get in for one month. We call it Love It or Leave It\" — at $1,200, with the month credited toward the full six months if he continues and no obligation if he does not. The prospect refused it as unaffordable. The rep then downsold to Trevor's self-paced Skool programme, Primal University, at $200 per month cancellable any time. The prospect agreed to that and a signup link was sent in the Zoom chat, but he did not complete it on the call because he had to get to the bank. The $6,000 six-month offer was left open with a follow-up agreed for 10 August.",
+    "guarantee_mentioned": "\"we guarantee that in those six months, you will add at least eight kilos to your baseline kettlebell. And if you follow the whole program, the nutrition plan, everything around that, it's just pure science that you will see also results in dropping your body fat and your composure of how your body looks like.\" This was given in answer to a direct question about a different, written guarantee the prospect had read: \"On some of the guarantees, it says 10% body fat loss. What does that mean?\" The 10% figure was never explained and his follow-up question, \"how do you guys measure body fat?\", was never answered. The prospect summarised the remedy himself and was not corrected: \"if we don't hit those goals within six months, Trevor will continue to coach beyond that until I hit my goals. So that's the guarantee there. There's not a refund of money.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.62,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "READ THIS FIRST: what closed is a $200 per month cancel-anytime subscription to Primal University, not the $6,000 six-month coaching programme. The core offer was refused on this call.",
+      "Verbal agreement to the subscription — \"do you feel like you want to try that out? Yeah, I do. Yeah.\"",
+      "Signup link sent in the Zoom chat and confirmed received — \"Okay, I got it. Yep.\"",
+      "The close rule as written (verbal agreement plus payment link sent) is therefore satisfied, which is why this is recorded as closed and why the confidence is low — the rule was plainly written for the core offer.",
+      "Counter-evidence: no payment was completed on the call — \"I can't do it right now, because I have to get to the bank\"",
+      "Counter-evidence: the $6,000 programme was explicitly declined for now and deferred — \"give me a holler at August 1st\", settled at 10 August",
+      "Counter-evidence: the $1,200 one-month entry was also refused — \"at this stage, that's too much. We can't do the $1,200\"",
+      "Counter-evidence: two of his stated blockers were never resolved — no proof of results in men over 50, and no answer on whether training is safe with a frozen elbow and torn ankle ligaments"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to complete the Primal University signup after the bank; he and his wife intend to use it together. Rep to follow up on the full six-month programme on 10 or 11 August, once the remodel is finished and the prospect knows his financial position."
+  },
+  "notable": {
+    "note": "The most consequential call of the three. A man who had disclosed a frozen elbow, torn ankle tendons and ligaments, knee and neck injuries — and who said out loud \"it may be premature for me\" — was moved onto an unsupervised self-paced programme covering kettlebells, steel maces and steel clubs, with no form correction and no clinician ever consulted. Alongside that, a written guarantee promising 10% body fat loss was queried directly and the rep answered about a different guarantee entirely, leaving the prospect with an unexplained marketing claim and no answer on how body fat would even be measured. On pricing, a named one-month product called Love It or Leave It at $1,200 appears here, structured exactly like the improvised three-month $4,000 arrangement sold to another prospect the day before — pay a smaller amount now, credited toward the six months — which suggests that arrangement was an off-template variant of this one. The rep also gave programming guidance for the prospect's wife, who is not a client and has never been assessed: \"she will definitely need to cut the weights at least half.\" Credit where due: the rep did not fight the deferral, told him \"I think this is the right way to approach that\", and left the relationship intact."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and continuous inversion — the opening line is attributed to the prospect but the whole first exchange runs backwards, the rep's acknowledgement at 00:00:38 sits correctly while the prospect's reply at 00:00:55 carries content from both, and the Primal University screen-share narration from 00:26:00 alternates wrongly between labels throughout. Role read from content only. The rep's speaker label is \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder. Note the prospect refers to the rep as \"Andrew\" and separately says \"I think Andrew has a monthly membership\" when he means Trevor, and asks \"I always forget, Trevor? Yeah, what's his name?\" — he confuses the two names more than once."
+  }
+}

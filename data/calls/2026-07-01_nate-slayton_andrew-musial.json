@@ -1,0 +1,113 @@
+{
+  "call_id": "2026-07-01_nate-slayton_andrew-musial",
+  "source": {
+    "drive_file_id": "189Z9g_0EWcM4O8DnIj12gHYb3WYPEzI_",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/01/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/01/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 20452
+  },
+  "call": {
+    "date": "2026-07-01",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 21,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter named on the call. An application exists but the rep describes it as thin: \"I saw your application but it's uh there's not not much information over there.\""
+  },
+  "prospect": {
+    "name": "Nate Slayton",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States, Eastern time zone",
+    "age": 38,
+    "occupation": "Marketing director, fully remote — \"I don't go to an office, just sit down all day\" — and describes the role as very stressful.",
+    "family_status": "Two children, aged four and one; second child born about a year ago",
+    "height_in": null,
+    "weight_lb": 189,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Two strength sessions a week of about 35 minutes at the gym, plus yoga roughly once a week. Was training three days a week regularly before the second baby, with some running that the knee has since ruled out. Has done kettlebell training before and keeps two kettlebells in his home office, but is self-taught and does not trust his own form. Has previously worked with an online trainer and valued the accountability. Has tracked macros in the past with good results but does not want to again.",
+    "kettlebell_experience": "some",
+    "medical": "Osgood-Schlatter disease diagnosed at 14, now requiring surgery to remove a bone fragment attached to the patellar tendon. Diagnosed by an orthopedic surgeon two days before the call; MRI booked for Thursday 9 July at 2pm Eastern, surgeon follow-up Monday 13 July, and he expects four to six weeks on crutches afterwards. Cannot run; squats and gym movement are tolerated but painful. Chronic lower-back tightness and pain that has never been formally diagnosed, worse after strength training and with no stretching, plus mild hip stiffness that has worsened over the past year. Taking Lexapro, an SSRI, for anxiety; associates it with a 7 lb gain (182 to 189) over six to twelve months with no diet change, and with a drop in energy and motivation — he moved to night dosing to manage it. Sleep badly disrupted for the past six to eight months by the baby."
+  },
+  "avatar": {
+    "assigned": "the_medically_constrained",
+    "confidence": 0.7,
+    "signals": [
+      "High intent and zero price resistance — money never came up at all, because the rep stopped short of an offer",
+      "Blocked by an active clinical event with an unknown timeline: surgery pending an MRI, \"out of commission for like four to six weeks, like on crutches\"",
+      "Clinician already in the loop and steering: \"I just went to the orthopedic surgeon, yeah, like a couple of days ago... I actually have like a physical thing going on with my knee. It's way beyond just, you know, stretching and mobility\"",
+      "Partial overlap with the_rebuilder — lost ground after a second baby and can feel it going: \"just like last year, I can feel it just diminishing pretty fast\" — but the operative constraint here is clinical, not motivational",
+      "The block is likely temporary rather than permanent, which distinguishes this from the Tyron Giuliani pattern where the body could not fit the programme at all"
+    ]
+  },
+  "goals": [
+    { "text": "Mobility and energy to play with and engage his four-year-old and one-year-old for longer stretches", "category": "family_role_model" },
+    { "text": "Long-term function — \"I just want that longevity and mobility\"", "category": "longevity_function" },
+    { "text": "Drop the five to seven pounds gained over the past six to twelve months", "category": "fat_loss" },
+    { "text": "Rebuild the muscle lost since the second baby", "category": "muscle_gain" },
+    { "text": "Training he can do quickly at home with the two kettlebells he already owns, instead of a 30-minute round trip to the gym", "category": "convenience" },
+    { "text": "Form correction he can trust, having taught himself kettlebells with a back that goes", "category": "injury_confidence" },
+    { "text": "Undo the stiffness that comes from heavy strength work with no stretching in between", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Osgood-Schlatter knee requiring surgery — painful, rules out running, four to six weeks on crutches expected", "category": "injury", "severity": "high" },
+    { "text": "Chronic lower-back tightness and pain, never formally diagnosed, worse after strength training", "category": "injury", "severity": "high" },
+    { "text": "Sleep badly disrupted for six to eight months by the baby waking", "category": "sleep", "severity": "high" },
+    { "text": "SSRI-associated weight gain of about seven pounds with no diet change, plus reduced energy and motivation", "category": "medical", "severity": "high" },
+    { "text": "A one-to-two hour daily window that contracts to nothing whenever sleep is bad or a child wakes early", "category": "time_scarcity", "severity": "high" },
+    { "text": "A self-described negative loop — poor sleep feeds low energy feeds missed sessions feeds worse condition", "category": "consistency", "severity": "high" },
+    { "text": "Fully remote, very stressful desk job with all-day sitting", "category": "work_stress", "severity": "medium" },
+    { "text": "Does not trust his own kettlebell form and worries about hurting himself", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Dropped from three sessions a week to two after the second child", "category": "consistency", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No price was ever stated and no offer was presented. The rep deliberately stopped short: \"I think it would be the best to touch base again next week when you're going to know what's actually going on and we can take it from there.\"",
+      "The reason was clinical timing, stated explicitly: \"when you have MRI next week and it's going to turn out that, okay, you're going to be in surgery in two weeks, that's not enough time to prepare you for\" and \"I don't see starting just for two weeks and then pausing.\"",
+      "A dated follow-up was booked and the invite sent during the call: 4pm Eastern on Thursday 9 July, two hours after the MRI.",
+      "Intent is high and untested by price — the prospect qualified himself unprompted on why he needs a coach, and volunteered that he would raise exercise with his surgeon on 13 July.",
+      "Counter-evidence: if the surgery is scheduled within weeks, the rep has already said he would not start him, so this may convert to a months-out revisit rather than a near-term sale."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call at 4pm Eastern on Thursday 9 July, immediately after the 2pm MRI; invite already sent. Prospect also sees his orthopedic surgeon on Monday 13 July and intends to ask specifically about exercise."
+  },
+  "notable": {
+    "note": "The counterexample in this batch, and it should be read alongside the rest. Facing a prospect with high intent, a stated pain, no price resistance and a surgical diagnosis two days old, the rep declined to present an offer and booked a follow-up for after the MRI instead. That is the clinically correct decision and it is the only time in twelve files anyone in this corpus slows down for a medical reason. Two things sit against it. First, no clinical clearance was sought for the interim either — it was the prospect, not the rep, who said \"I've actually got a follow up with my orthopedic surgeon on Monday the 13th after the MRI, so I can also ask him about exercise too.\" Second, the rep volunteered a story about a prior prospect with stage-three cancer who came to the programme between radiotherapy and chemotherapy, offered as motivational contrast, which discloses a third party's medical situation and simultaneously evidences the pattern this audit exists to find. The injury-pause policy was also restated here consistently with the Alex call: \"when someone gets on board and starts working with Trevor, and something happens, for example, he gets injured, we pause the subscription.\""
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematically inverted. The opening block at 00:00:00 is labelled as the prospect but carries both sides, and question ownership flips repeatedly — \"What's up with the knee that you need the surgery?\" and the answer that follows sit under alternating wrong labels, as does the whole 00:11:54-00:13:06 passage on the consistency loop and the MRI timing. The 00:19:16-00:19:29 exchange about the orthopedic surgeon is the worst affected; roles there were resolved from content, with the prospect owning \"I don't think it's going to make it worse. That was like my understanding. That's what he told me, but I can just talk with him again.\""
+  }
+}

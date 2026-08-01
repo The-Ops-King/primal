@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-06-30_shyam_andrew-musial",
+  "source": {
+    "drive_file_id": "1637Nkd3MoW2tjKw5_ZL-3UeS64QtVcry",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/30/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 17360
+  },
+  "call": {
+    "date": "2026-06-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 24,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter is named on the call. Lead self-describes as inbound from Instagram: \"I was going through the Instagram feeds, and I found this in, what is that name? Trevor.\""
+  },
+  "prospect": {
+    "name": "Shyam",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United Kingdom (relocated from India approximately one year ago)",
+    "age": 45,
+    "occupation": null,
+    "family_status": "Married with one son, age 9",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former endurance cyclist — longest ride 600 km over 2-3 days roughly 4 years ago, most recent long ride 200 km. Previously followed a coached program via the FITTR app 2-3 years ago and lost about 10 kg while calorie counting. Trained with dumbbells and barbells at home. Since relocating to the UK a year ago the only activity is walking about 1.5 miles four days a week to the office plus an occasional one-mile walk after dinner. No bicycle at present, one is on order. No gym membership yet.",
+    "kettlebell_experience": "none",
+    "medical": "Self-reported pre-diabetic at his last health check, which was over a year ago before he moved to the UK; diet unchanged since. History of elbow pain that arose during weight training and led him to stop lifting and then to stop training entirely."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.75,
+    "signals": [
+      "Explicitly lost ground he once had: \"during that program, I was able to get into good shape... but somewhere up there, I lost it\"",
+      "Wants a former self back — restarting cycling, ordered a bike, \"I think I have to bring back that discipline again\"",
+      "Regret framing around a derailment rather than a plateau: \"I've deviated and derailed. Right now, I want to come back to track\"",
+      "Not the skeptical_bargain_hunter despite the price resistance — he did not argue value against a cheaper substitute, he simply could not fund the number"
+    ]
+  },
+  "goals": [
+    { "text": "Get back into good shape and look better", "category": "appearance" },
+    { "text": "Reverse pre-diabetes and avoid progressing to type 2 diabetes", "category": "longevity_function" },
+    { "text": "Restart cycling and test his limits again on endurance rides", "category": "hobby_performance" },
+    { "text": "Rebuild the discipline and routine he had during his earlier coached program", "category": "consistency" },
+    { "text": "Stay well enough to keep up with and set an example for his nine-year-old son", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Stopped training entirely after elbow pain, and never restarted — three years off", "category": "consistency", "severity": "high" },
+    { "text": "Pre-diabetic on his last blood work, with no follow-up check in over a year", "category": "medical", "severity": "high" },
+    { "text": "Elbow pain during weight training that made him reduce load and then quit lifting", "category": "injury", "severity": "medium" },
+    { "text": "Carb-heavy home diet with no calorie tracking since he stopped his old program", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Relocation to the UK removed his bike, his home weights and his gym, and he has not chosen a replacement", "category": "training_barrier", "severity": "medium" },
+    { "text": "Lost motivation once he could not lift, and let everything else fall away with it", "category": "motivation", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Okay. So I don't think I will be able to manage that 4,500 for six months.",
+      "timestamp": "00:16:38",
+      "rep_response": "Did not isolate the objection, asked no financial-picture questions and offered no payment plan. Immediately abandoned the $6,000 program and pivoted to a $200/month community subscription: \"I don't want to leave you with nothing. There is one way.\"",
+      "response_tactic": "immediate_downsell_to_subscription",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "to be frank, I was never ready for this kind of package, monetarily 6,000, 4,000, whatever, for a six month program. So I'm not ready for that.",
+      "timestamp": "00:22:36",
+      "rep_response": "Conceded the main offer entirely and redirected to the smaller subscription: \"Yeah, I'm not talking about the 6,000. I'm talking about the, you know, the smaller investment.\"",
+      "response_tactic": "concede_and_redirect_to_downsell",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Oh, maybe I have to think about it.",
+      "timestamp": "00:21:33",
+      "rep_response": "Asked \"what are your thoughts on this, like, exactly?\" but ran none of the scripted think-about-it moves, then accepted \"let me go through that\" and agreed to email a link.",
+      "response_tactic": "soft_probe_then_accept_delay",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "note": "One-to-one coaching with Trevor. Also quoted live in sterling as \"4,500 pounds\"." },
+      { "months": 1, "price_usd": 200, "note": "Off-menu downsell — community access with the kettlebell movement library, a structured three-month progressive-overload program, a weekly group coaching call with Trevor and his nutrition protocol. Subscription, cancel any time." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.78,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit no to the core offer: \"That's way out of my league\" and \"I was never ready for this kind of package... So I'm not ready for that.\"",
+      "No payment taken, no payment link sent on the call — only an offer to email details.",
+      "Counter-evidence: the conversation is not fully dead. The prospect asked \"is there an app or something where I need to subscribe?\" and agreed to review the material — \"let me go through that, and I can tell you much more.\"",
+      "Counter-evidence: what remains open is a $200/month subscription, not the $6,000 program, so the sales opportunity as defined is lost even if the subscription later converts."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email a link to the $200/month community subscription; prospect to review it and respond."
+  },
+  "notable": {
+    "note": "The $6,000 offer was abandoned within about ninety seconds of the first price reaction, with no isolation, no financial-picture questions and no payment plan discussed — the exact sequence the rep's manager coached him on in the 1-1 recorded the same day. In its place the rep improvised a $200/month community subscription that is not part of the stated offer. Separately, the rep used an unqualified mortality claim (\"they might not even get to the 55th birthday\") on a prospect who had just disclosed pre-diabetes, and never asked whether any clinician had cleared him to train."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion. Questions clearly belonging to the rep appear at the tail of the prospect's turns (\"Are you doing that right now?\" at 00:04:38, \"Have you tried them before?\" at 00:08:07, \"Do you have access to like a local gym?\" at 00:08:09). The exchange from 00:11:19 to 00:11:58 is inverted wholesale — the answers about the checkup date and about having a nine-year-old son are labelled as the rep. Roles were reconstructed from content throughout."
+  }
+}

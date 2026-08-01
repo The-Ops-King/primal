@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-06-25_carlos-dominguez_andrew-musial",
+  "source": {
+    "drive_file_id": "19ovCnxH11K289KlR4Otp9CCCFRsrLpJE",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/25/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/25/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 2845
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Not a new prospect. Carlos is an existing private coaching client who paused the programme partway through after an injury and is trying to restart. He references prior direct coaching with Trevor and intermittent contact since: 'I actually, I had Trevor for private coaching' and 'I talked to Trevor like intermittently'. He booked what the system treated as a sales call only because his direct messages to Trevor went unanswered.",
+    "duration_min_est": 3,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Carlos Dominguez",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": "Has school-age children — the call fell on their first day of school holidays",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Existing Primal Instinct private coaching client. Completed roughly half the programme before pausing it due to injury.",
+    "kettlebell_experience": "some",
+    "medical": "Tore his ACL, which he reports healed fine. Then developed severe bicep tendonitis, attempted to self-rehabilitate for about a month without success, and eventually completed a course of physical therapy. He states both are now resolved: 'Now it's fine.' Recovery took substantially longer than he expected."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.3,
+    "signals": [
+      "Proposed label: existing_paused_client_reactivation — not a prospect at all. Avatar assignment is not meaningful here; the call ran two minutes thirty-five seconds, contained no discovery, and the only goal expressed was to resume a programme already purchased.",
+      "The single behavioural signal available is high persistence and intent: he waited out an injury, completed physical therapy, messaged Trevor as instructed, got no reply, and then booked a sales call to find another route in."
+    ]
+  },
+  "goals": [
+    { "text": "Restart the paused private coaching programme now that both injuries have resolved", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Tore his ACL partway through the programme, forcing a pause", "category": "injury", "severity": "high" },
+    { "text": "Developed severe bicep tendonitis and spent about a month failing to rehabilitate it alone before physical therapy resolved it", "category": "injury", "severity": "high" },
+    { "text": "Recovery took far longer than he expected, extending the pause", "category": "injury", "severity": "medium" },
+    { "text": "Messaged Trevor to restart as instructed and received no response, so had to book a sales call to reach anyone", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": true,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No offer was made and none was needed — the programme is already paid for and paused.",
+      "The rep could not answer and escalated: 'Let me get back to my team, and I have your phone, I have your email, and I will call you as soon as I get to know something, because actually I haven't been in this situation that someone that has been already in our program, that paused, that reached out to me.'",
+      "Prospect accepted without pushing: 'Okay, cool, man.'",
+      "Counter-evidence on the disposition: this is a service enquiry, not a sales opportunity, and it should be excluded from any new-business close-rate denominator rather than scored as a follow-up deal.",
+      "No date, no owner and no committed timeframe were given for the callback."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to consult the admin team on the process for restarting a paused membership and revert to the client, or have someone else from the team do so. No date agreed."
+  },
+  "notable": {
+    "note": "The most operationally significant two minutes in the batch. A paying client paused his programme for injury on Trevor's own instruction — 'your things on pause, just contact me when you're back and ready' — did exactly that, and got no reply, so he booked a sales call to find a way back in. The closer then confirmed there is no known process: 'actually I haven't been in this situation that someone that has been already in our program, that paused, that reached out to me.' This matters beyond one client, because the same rep sold the pause as a feature to a prospect the day before, telling Ryan Bundy 'if you had a surgery, we just paused it.' A pause is being offered in the sales process that the delivery side has no documented way to reverse."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short call, heavily inverted. The opening two lines are swapped — 'Can you hear me and see me okay?' is the rep's standard opener across this batch but is labelled to the prospect. At 00:01:01 'Okay. And then halfway through, I got injured' splits a single prospect sentence across both labels, and at 00:01:14 'And you want to get re-injured my ACL that healed fine' is a garbled merge of a rep question and the prospect's answer. Roles were read from content. File size is 2,845 bytes, above the 2,000-byte junk threshold, and the recording is complete rather than truncated — it captures a genuine start and a genuine end."
+  }
+}

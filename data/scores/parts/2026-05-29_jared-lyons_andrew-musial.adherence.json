@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-05-29_jared-lyons_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "partial" },
+      "evidence": "No frame was set and no agreement taken on a follow-up that the rep himself had positioned as a reset. He did open with a scoping question — 'if we stripped everything else away, like what would the ideal setup actually look like for you?' — which is a narrower version of the open question. Setter read-back is not applicable on a second call."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Follow-up call; baseline belongs to the first conversation, which is not in this batch."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Scored as reachable and missed, not as N/A: the rep had explicitly planned to re-run discovery on this call ('I will go again into the discovery', per the 05/28 1-1) and instead went straight to structuring a trial. The only Phase 3 move present is a reflect-back — 'what I'm thinking, correct me if I'm wrong, it's like the shortening of the learning curve ... Yeah?' — which the prospect never confirmed, and which he flatly contradicted two minutes later: 'I don't need it. It's just me bored wanting to try something else.'"
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts and root cause belong to the first call."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No cost of inaction was built at any point. The nearest thing is a value assertion — '$1,200 is still nothing for you' — which is the opposite move: it minimises the price rather than raising the cost of doing nothing. The prospect stated outright that inaction costs him nothing ('it's not as needed ... I don't need it') and that went unchallenged."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No belief question, no 'if you had everything you needed, is there any reason you wouldn't go all in', and no clear yes obtained before a number was put on the table. The rep proposed the 30-day option unprompted at 00:02:46 and the prospect's first response was 'What would be the cost for one month?' — the call went straight from framing to price."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No agreement, so payment and onboarding were never reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A clean money trigger — 'I think I would do it at $1,000' — and not one scripted move ran. No isolation ('finances aside, nothing else keeping you from 100%'), no 'you're not in a SHOULD I place, you're in a HOW place', no permission for an honest financial conversation, and none of the six financial-picture questions. The rep instead cut the price by $300 inside ninety seconds, which is the one response the play is designed to prevent."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "detail": "Cheaper alternative that works, the known script gap. 'I'd rather just go get my trainer in person and pay him for two or three sessions a week for the same amount of money while I'm still here.' The offer has no answer to an in-person trainer at the same monthly spend, and the rep did not attempt one — he did not ask what the trainer does or does not give him, and moved on to discounting."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "detail": "No-need objection with no scripted play. 'I don't care enough because it's not as needed ... it's just me bored wanting to try something else. I don't need it.' The playbook has no move for a prospect with no goal, and this is the second time the same rep has hit it with this prospect. The manager's own read on the previous call was that there is no goal to find."
+    }
+  ],
+  "notes": "This was a negotiation, not a sales call: no frame, no goal work, no commitment check, straight to a number, then a $300 concession on the first push. The rep had diagnosed the exact fault the day before — that he never found the why — and did not act on it; the correct move on a no-need prospect is to qualify out or route to Primal University, not to invent a cheaper tier."
+}

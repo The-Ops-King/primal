@@ -1,0 +1,118 @@
+{
+  "call_id": "2026-06-01_wil-saravia_andrew-musial",
+  "source": {
+    "drive_file_id": "1esA6ekRHPJ7ZWuMEApnAvbBWRQCzCMbv",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/01/2026 - Wil Saravia x Andrew Musial KL",
+    "display_title": "06/01/2026 - Wil Saravia x Andrew Musial KL — Lost",
+    "file_size_bytes": 13038
+  },
+  "call": {
+    "date": "2026-06-01",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Follow-up to the 30 May call (2026-05-30_wil-saravia_andrew-musial), booked on that call and held with a $100 refundable deposit. The prospect had already texted the outcome before the call started: 'I'm not sure if you got my text message from earlier.' Both files are the same opportunity and must not be counted twice.",
+    "duration_min_est": 17,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Europe (Poland)", "additional_reps": [] },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Not named on this call; established on the 30 May call — 'a lady called me to confirm. Kyla.'"
+  },
+  "prospect": {
+    "name": "Wil Saravia",
+    "aka": null,
+    "name_source": "title",
+    "location": "Miami, Florida, USA",
+    "age": 45,
+    "occupation": "Self-employed mortgage loan officer; took this call from work",
+    "family_status": "Married to Natalie; two children",
+    "height_in": 71,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "See the 30 May record. Reconfirmed here that he has been going it alone: the rep's framing, 'you've been doing this completely alone for 12 years with zero structure', was not contested.",
+    "kettlebell_experience": "some",
+    "medical": "Established on the 30 May call and not revisited here: right knee giving way for three to four weeks, undiagnosed and awaiting a doctor's appointment; right shoulder pain on bench press."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.9,
+    "signals": [
+      "Consistent with the 30 May assessment — wants a former self back after twelve years of drift",
+      "Reconfirmed the want and the barrier separately: 'do I want to do the program yes do i wish i had the 4k to make it happen yes ... but that's not my reality right now'",
+      "Held a clear line on what he was actually buying — personal coaching, not content"
+    ]
+  },
+  "goals": [
+    { "text": "Still wants the one-to-one coaching he came for — 'Personal training, which is what I was hoping for, is not within my means'", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Cannot fund the programme without extending beyond his means — 'it just doesn't make sense to extend myself outside of my means'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Well, it's just gonna be outside of my budget, man. I mean, as much as I want to do it, it's not, it was never in my budget and I can't come up with the money and it just doesn't make sense to extend myself that, you know, extend myself to, you know, outside of my means.",
+      "timestamp": "00:00:10",
+      "rep_response": "Isolated it to confirm it was purely financial and not doubt, tried once to restructure the $4,000, then moved to a downsell.",
+      "response_tactic": "isolate_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "199 for videos kind of doesn't sound good i mean he puts out these the majority of these videos for free on youtube and his his socials",
+      "timestamp": "00:12:00",
+      "rep_response": "Argued the differentiator is the structured week-by-week plan rather than the movement demos, then told the prospect he was 'looking for a hole everywhere'.",
+      "response_tactic": "differentiate_structure_then_challenge_sincerity",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "on saturday you were willing to put 4k on the table for training yes for personal training but this is not personal training this is videos",
+      "timestamp": "00:12:00",
+      "rep_response": "Compared the two prices rather than the two products — 'it's $199 a month and you can cancel any time. Like, what are we actually talking about' — which did not address the objection.",
+      "response_tactic": "price_comparison",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": null, "price_usd": 199, "note": "Primal University Skool community, $199 per month, cancel any time — screen-shared and walked through live" }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'You can cancel any time. No long-term commitments'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Declined the six-month and the improvised three-month tiers outright: '$4,000 even, it's just, it would be extending myself over where I can right now, and it wouldn't, I just can't commit to that'",
+      "Declined the $199 downsell after a live product walkthrough: 'the program, it's a great, it sounds like a great program. It's not for me'",
+      "Requested and was granted a refund of the $100 deposit: 'how do I go about getting the $100 reimbursed' — 'Yeah, I'll just let the team know and they will send it immediately'",
+      "No next step and no further call booked; the prospect's stated plan is 'I'm going to keep looking for other options'",
+      "Counter-evidence: the want never went away — 'do I want to do the program yes' — and he was explicit that only price stopped him, so he remains a candidate at a lower price point that does not currently exist"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": "deposit_refunded",
+    "next_step": "None. $100 deposit to be refunded by the team."
+  },
+  "notable": {
+    "note": "The clearest product-gap evidence in the batch. The prospect wanted one-to-one coaching, could not fund it at $6,000 or at the improvised $4,000, and rejected the $199 self-serve tier on the grounds that the same movement demos are free on Trevor's own YouTube and socials — the company's free marketing is the price anchor against its own paid low tier. Two conduct issues: the downsell was sold partly as a way to avoid his wife ('no big financial conversations with Natalie. So you can start today'), continuing the previous call's forgiveness-not-permission framing; and the rep kept pressing through at least four explicit declines. The $100 deposit collected on 30 May was refunded, so the earlier call's cash figure must be reversed in any rollup."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short file with severe inversion in the middle third: the entire Primal University walkthrough is attributed to Wil Saravia when it is plainly the rep sharing his screen, and the prospect's 'How much is it?' sits under the rep's label. Roles read from content. Several long unpunctuated runs where the two speakers are merged into a single block, notably at 00:10:08 and 00:12:00."
+  }
+}

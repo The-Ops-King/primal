@@ -1,0 +1,59 @@
+{
+  "call_id": "2026-05-26_marian-samson_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed untreated high blood pressure of several years alongside a diagnosed compressed disc and an unstable knee, and the rep continued moving him toward loaded ballistic kettlebell training without asking whether any clinician had cleared him.",
+      "evidence": [
+        "But you know, I have another issue, because I have also high blood pressure, since a couple of years ago.",
+        "I think if I start to improve my health, and my body health, and how I eat, and what I eat, and when I eat, I think all this, it will go away by himself. Because I don't do nothing.",
+        "I have also something, it's called a disc, something. think when you, when your disc is, like, broken. / Compressing, like, compressing? Yeah. And I was the diagnostic guide, like, three years ago.",
+        "Look, I'm going to be brutally honest with you. You're 39. Yeah. You're... We're not getting any younger, you're 105 kilos"
+      ],
+      "timestamp": "00:17:20"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect reported back pain that started days earlier from teaching himself kettlebell training off Trevor's videos, and the rep praised the start rather than pausing on a diagnosed disc injury and fresh pain.",
+      "evidence": [
+        "And those problems with the desk, yeah? Does it result, like, do you have back pains also?",
+        "For a couple of days ago, yeah, started, because I used to look at the... I just watch the videos and I buy some kettlebells and I start to do some... Maybe I do something wrong.",
+        "I started. It's good to start, you know. It's a good point. That's good. / That's the first step."
+      ],
+      "timestamp": "00:04:46"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect described a right knee that subluxes on a wrong movement, untreated for ten years, and no limitation, screening or clearance step followed the disclosure.",
+      "evidence": [
+        "my right knee, it was injured like 10 years ago, but I don't do too many things about it, so it's like, I think it's a bit loose",
+        "not, it's not stable enough. Yeah. I make the wrong move, it might be hopping out from, not like falling apart, but it's like, you need to pull it back",
+        "Okay. Any other chronic conditions and anything?"
+      ],
+      "timestamp": "00:05:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording is truncated — it ends mid-sentence at 00:18:24 with the rep part-way into a consequence frame, so the offer, price and outcome of this call are absent from the corpus.",
+      "evidence": [
+        "00:18:00 - Andrew Jin (Primal Instinct)  \\n We're not getting any younger, you're 105 kilos, the lifestyle that you're living right now, the amount of stress that you have, and the...",
+        "00:18:24 - Marian Samson  \\n Very heavy."
+      ],
+      "timestamp": "00:18:24"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A second Marian Samson call with the same rep is dated the following day, so this conversation may continue in another file and risks being counted twice in any close-rate denominator.",
+      "evidence": [
+        "05/26/2026 - Marian G. Samson x Andrew Musial ",
+        "So that's why I was thinking about maybe to get the proper lesson, of course. Let's see how we can manage it."
+      ],
+      "timestamp": "00:05:32"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "call_id": "2026-06-28_caesar-lins_andrew-musial",
+  "source": {
+    "drive_file_id": "1n672FBLaD4emmSehYT3jrAUILIn8F5qW",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/28/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 40409
+  },
+  "call": {
+    "date": "2026-06-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 45,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter is named anywhere on the call. The rep opened with \"brief me in\" rather than reading back setter notes, which is consistent with there being none. The lead appears to be inbound from Trevor's own content: \"Trevor was the first time because he really called my attention because of his workout, because of his videos. Also his physique. I saw some testimonials, pictures of clients before and after.\""
+  },
+  "prospect": {
+    "name": "Caesar Lins",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New Jersey, USA",
+    "age": 63,
+    "occupation": "Owner of a cleaning business — \"I have a cleaning business. It's extremely physical. I don't sit down. I'm always moving. And I work with my helpers.\" Describes the work as stressful and the business as currently downsized.",
+    "family_status": "Married; has children, with a daughter getting married this year. Recently spent time overseas caring for his parents.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Sedentary until age 50, then consistently active for about 13 years — gym, CrossFit (stopped because he kept getting injured), and bodyweight work including one-minute handstand holds. Setting up a home gym in his basement; owns dumbbells but no kettlebells. Stopped training entirely for six months during a depressive episode and while caring for his parents overseas; returned about two weeks before the call and has been following Trevor's programme informally with dumbbells.",
+    "kettlebell_experience": "none",
+    "medical": "Has a single kidney and an explicit protein restriction because of it — \"I only have one kidney, so I cannot have like too much protein.\" Rheumatoid arthritis affecting the hands with stiffness and marked grip loss; handstand hold has fallen from about 60 seconds to about 15 seconds in six months. Anterior knee pain under the patella on stairs and squatting. History of depression, including a recent six-month episode — \"I was also depressed and I just didn't get motivated\" — and ongoing mood swings his wife struggles with. Injury history of overload events: 100 pull-ups in one session took a year to recover from, and a torn or strained Achilles from running. Reports also under-eating and lacking energy to train."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.75,
+    "signals": [
+      "63, health-literate and already medically managed — talks fluently about visceral fat, macros, protein restriction, grip strength and sarcopenia.",
+      "Explicitly framing muscle as preservation rather than gain: \"I honestly, I want to build muscle, but because we need it. It's not for the aesthetic, but we need it... from now on, I'm just losing muscle if I don't do anything.\"",
+      "Business owner with nominal standing but no discretionary liquidity at this moment: \"I am downsized in my business and I cannot afford it\" alongside a daughter's wedding this year.",
+      "Goal is regaining and holding function — grip, strength, mobility — rather than reaching a new level.",
+      "Overlaps meaningfully with the_rebuilder: he lost ground to a depressive episode and wants his former capacity back (\"I couldn't get up the hole... Now, I'm out\"). the_preserver is assigned because age, health literacy, established medical conditions and the liquidity constraint dominate the profile."
+    ]
+  },
+  "goals": [
+    { "text": "Lose the abdominal and visceral fat he regained over the past year", "category": "fat_loss" },
+    { "text": "Build and hold muscle mass specifically to resist age-related loss", "category": "longevity_function" },
+    { "text": "Regain grip strength and overall strength lost to rheumatoid arthritis and six months off training", "category": "strength" },
+    { "text": "Keep training without getting injured, because recovery now takes months to a year", "category": "injury_prevention" },
+    { "text": "Use exercise to manage depression — \"exercise is my natural medication for me to feel better\"", "category": "other" },
+    { "text": "Reduce stress from the business", "category": "other" },
+    { "text": "Eventually learn to kitesurf, which needs grip and strength", "category": "hobby_performance" },
+    { "text": "Enjoy training — finds kettlebell work fun", "category": "sustainability" },
+    { "text": "Have a six-pack, secondary to the health goals", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Rheumatoid arthritis causing hand stiffness and rapid grip and strength loss — handstand hold down from 60 to 15 seconds in six months", "category": "medical", "severity": "high" },
+    { "text": "Has only one kidney and must limit protein intake, constraining any high-protein approach", "category": "medical", "severity": "high" },
+    { "text": "Recent six-month depressive episode with no training at all; describes ongoing ups and downs his wife does not understand", "category": "mental_health", "severity": "high" },
+    { "text": "Injuries take months to a year to recover from at 63, and he has a history of overloading himself into long layoffs", "category": "injury", "severity": "high" },
+    { "text": "Anterior knee pain under the kneecap on stairs and squatting", "category": "injury", "severity": "medium" },
+    { "text": "Regained abdominal and visceral fat over the past year after travel disrupted his routine", "category": "consistency", "severity": "medium" },
+    { "text": "Under-eating to the point of lacking energy to train the way he wants", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Business is downsized and cash is committed elsewhere, including a daughter's wedding this year", "category": "other", "severity": "high" },
+    { "text": "Stressful physical work he is trying to get under control", "category": "work_stress", "severity": "medium" },
+    { "text": "Training alone without guidance has repeatedly led to injury — 100 pull-ups in one session, and an Achilles injury from running", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I just don't know if I can afford the program.",
+      "timestamp": "00:41:55",
+      "rep_response": "Did not isolate or explore it. Answered \"Yeah, let's talk about it. Let's talk about it\" and went straight to the price. This signal arrived unprompted in the middle of the commitment check, before any number had been named, and was the clearest possible invitation to run the isolation move first.",
+      "response_tactic": "acknowledged_and_proceeded_to_price",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I wasn't expecting this amount. I have a list of priorities right now.",
+      "timestamp": "00:42:16",
+      "rep_response": "Asked a clarifying question about the shape of the problem — \"But is it that you cannot cover it like up front? What? Or... What was the case?\" — and began offering to structure it: \"We have ways that we can structure the...\" The prospect did not understand the question and talked past it.",
+      "response_tactic": "probe_upfront_vs_structured",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I am downsized in my business and I cannot afford it. And I have my daughter's wedding this year, so it's really not the right time for me.",
+      "timestamp": "00:42:31",
+      "rep_response": "Made one further structuring attempt — \"Even if it was structured in a way that it wouldn't have to be in one sitting, the payment.\" When the prospect declined again the rep closed the conversation warmly and immediately: \"Cool, man. Look... Sure thing. Sure thing. No worries at all.\" None of the OD moves were run.",
+      "response_tactic": "offer_payment_structuring_then_concede",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered only in the abstract twice — \"We have ways that we can structure the...\" and \"Even if it was structured in a way that it wouldn't have to be in one sitting, the payment.\" No number of instalments, amounts, dates or interest terms were ever stated, and the prospect declined before any structure was put on the table.",
+    "guarantee_mentioned": "\"there's a guarantee from Trevor that within six months, you will add at least eight kilos to your baseline of a kettlebell, which is around 17 pounds... So for example, you start with the eight kilo kettlebell that you can work with. You're going to finish at least with a 16 kilo... If you wouldn't be able to hit that, those extra eight kilos, he will work with you until you do for free. That's how he sure is of his method.\" The rep added \"He haven't used this guarantee. He didn't have to. That's the beauty. He's been doing that for over six years, over 1,000 clients ranging from early thirties to late sixties.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Nothing was elicited. The prospect volunteered only that his business is downsized, that he has a list of competing priorities including a daughter's wedding this year, and that he expected to be able to reconsider after January. No financial-picture questions were asked."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and repeated refusal: \"So right now, I'm going to say, Andrew, thank you, but I cannot do it right now\" and \"I don't want to make commitments right now because I have, as I say, a list of priorities that I need to take care of.\"",
+      "Declined the offer to structure the payment rather than engaging with it.",
+      "No follow-up call, date or action was booked; the rep accepted the no and ended the call within about 90 seconds.",
+      "Counter-evidence for a follow_up read: the prospect named a specific reactivation window — \"year, after January. Right now I cannot do anything\" — and \"As soon as things get back to Norbo, I would...\", plus \"I'm going to keep following him and I'll reach out when the time is right.\" Disposition is recorded as lost rather than follow_up because the decision was made and stated, the rep booked nothing, and any future contact is prospect-initiated.",
+      "Counter-evidence, notable: this was not a trust or desire failure. He said \"I really like the program\" and \"seeing Trevor on his videos, I believe in him. Even though there is AI... I trust him, okay? I trust him.\" The block was purely cash and timing."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None booked. Prospect said he would keep following Trevor and reach out himself when circumstances improve, indicating after January. He also offered to be spoken about positively to Trevor."
+  },
+  "notable": {
+    "note": "The most serious clinical finding in this batch. The prospect disclosed at 00:03:58 that he has one kidney and must limit protein; thirty minutes later the rep advised him to focus on meat and eggs and cut carbs. He also has rheumatoid arthritis with documented rapid grip loss, and was offered a guarantee whose sole metric is adding eight kilos of kettlebell load in six months — a promise pinned to the exact capacity his disease is taking away. Separately, the rep and prospect agreed that doctors recommend surgery because \"that's how they make money\", with the rep leading that exchange. On process: the prospect answered the consequence question with \"Oh, I'm going to be depressed\" and the rep immediately shut it down and pivoted to the upside, then later told him an answer he gave was \"silly\". The affordability signal arrived before the price was named and was not isolated."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and continuous inversion; attribution had to be resolved from content throughout. Clear examples: \"I just don't know if I can afford the program\" at 00:41:55 is labelled as the rep but is obviously the prospect answering the commitment question; \"I am downsized in my business and I cannot afford it\" at 00:42:31 is labelled as the rep; \"Where should I go, where should I buy\" is the prospect; the entire hip-degeneration and 200km hike passage from 00:11:20 to 00:14:29 is the rep despite alternating labels. Several ASR corruptions are present (\"Carabelle\" for kettlebell, \"Fath\" for fat, \"Norbo\" for normal, \"I'm sorry, go ahead, Mike\" where no Mike exists). No evidence of dropped audio or truncation — the recording appears complete."
+  }
+}

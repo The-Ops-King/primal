@@ -1,0 +1,175 @@
+{
+  "call_id": "2026-06-06_billy-collazo_andrew-musial",
+  "source": {
+    "drive_file_id": "1N0rgiur55WxTf3lbu1lSiNyzQlPtNA6x",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/06/2026 - Billy Collazo x Andrew Musial KFS ",
+    "display_title": "06/06/2026 - Billy Collazo x Andrew Musial KFS  — Follow Up",
+    "file_size_bytes": 50314
+  },
+  "call": {
+    "date": "2026-06-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 61,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "kim that you spoke before uh gave me a little rundown um from what he spoke about with you so i got a solid foundation — and later, 'only me and and the guy that you spoke to uh kim yeah he's in uk'"
+  },
+  "prospect": {
+    "name": "Billy Collazo",
+    "aka": "William J. Collazo — the name on his email address, given as W-I-L-L-I-A-M-G at 00:59:06",
+    "name_source": "title",
+    "location": "Texas, USA (Central Time)",
+    "age": 46,
+    "occupation": "Contractor running his own business; drives around the city for work, does not travel nationally",
+    "family_status": "Married. Three children — a daughter of 14, a son of 11 and a son of 5 born in 2021. Coaches his middle son's sport.",
+    "height_in": 72,
+    "weight_lb": 206,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Ran the Dallas Marathon at 42, then let himself go and reached 245 lb by 45. Restarted on his 45th birthday and lost 40 lb in a year, accumulating around 1,500 miles of running. Currently about 30 miles a week and recently adding speed work — a 7.5-mile run the previous day at roughly 9:00/mile easing to 7:45/mile. Also lifts twice a week, one upper-body and one lower-body session. Has used a Peloton bike, Peloton yoga and stretching routines, a Garmin watch for tracking, and occasional YouTube videos. Never worked with a personal trainer or coach of any kind. Current marathon race predictor is 3:51; Boston qualification for his age group is around 3:10-3:15.",
+    "kettlebell_experience": "none",
+    "medical": "Nothing current. Explicitly asked about injuries and movement limitations and reported none — 'No, I really, that's why I say I know I have the ability.' Had knee pain in the first two or three months of running while overweight, resolved by changing shoes and insoles, and some hip stiffness at the same time, also resolved. No stiffness after long runs now. No chronic conditions or hereditary history were asked about."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Frames the whole call as a ceiling problem rather than a rescue: 'I just feel like I'm capable of being at that next level of shape that I just can't seem to get over like the standard plateau I get to.'",
+      "Has a specific elite-adjacent target and knows the numbers cold — Boston qualification at roughly 3:10 against a current 3:51 predictor, and the seven-minute buffer needed to actually get in.",
+      "Explicitly rejects grinding harder in favour of doing it correctly: 'I don't want to just push through it, discipline and grit my teeth just to do it.'",
+      "CARRIES REBUILDER SIGNALS TOO, which is why confidence is 0.7 rather than higher — he lost ground during a hard season (third child born 2021, 'a lot of stress with that'), reached 245 lb, and describes the comeback with visible regret: 'it's embarrassing... I let myself, you know, you have to be here.' The distinction is that he has already done the rebuilding himself and is now genuinely chasing good-to-great.",
+      "Price is a real constraint here, which is atypical for the optimizer — 'money's tight, man' — so this is an optimizer profile on a constrained budget."
+    ]
+  },
+  "goals": [
+    { "text": "Qualify for the Boston Marathon — needs roughly 3:10 against a current 3:51 predictor, with the Dallas or Houston qualifier in late November or December", "category": "hobby_performance" },
+    { "text": "Break through the training plateau he has been stuck at since losing the initial 40 lb", "category": "hobby_performance" },
+    { "text": "Lose more weight from 205-208 lb, which he considers not ideal at 6'0\"", "category": "fat_loss" },
+    { "text": "Be the 'super dad' — the answer when his five-year-old is asked at school who his superhero is", "category": "family_role_model" },
+    { "text": "Build an athletic foundation that lasts into his fifties and beyond, having decided at 45 he was in 'the last quarter of my life'", "category": "longevity_family" },
+    { "text": "Train intelligently rather than by grit — get technique and diet right instead of gritting his teeth through it", "category": "sustainability" }
+  ],
+  "pains": [
+    {
+      "text": "Everything he does is self-assembled from scattered sources — Peloton, a Garmin, occasional YouTube videos — with no coherent programme; the rep named it as 'you've been doing a lot, but it's been scattered'",
+      "category": "fragmented_solutions",
+      "severity": "high"
+    },
+    {
+      "text": "No external feedback loop at all — 'when I do something, not just having my own feedback... it's like bouncing ideas off, you know, maybe I'm missing that'",
+      "category": "accountability_gap",
+      "severity": "high"
+    },
+    {
+      "text": "Cautious to the point of hesitancy about whether he is doing things correctly, on both technique and diet",
+      "category": "competence_anxiety",
+      "severity": "medium"
+    },
+    {
+      "text": "Self-doubt he named himself as protective self-sabotage — 'it's my own way of probably trying to protect myself... because I've never pushed myself to that next level yet'",
+      "category": "confidence",
+      "severity": "medium"
+    },
+    {
+      "text": "Lost several years of fitness to the stress of a third child arriving in 2021, reaching 245 lb, and carries embarrassment about that period",
+      "category": "emotional",
+      "severity": "medium"
+    },
+    {
+      "text": "Household money is tight with three children, which he raised unprompted as the live constraint",
+      "category": "other",
+      "severity": "high"
+    },
+    {
+      "text": "Eats clean but under-eats vegetables and has an unstructured weekly cheat day",
+      "category": "nutrition_habit",
+      "severity": "low"
+    }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "So the only thing that's holding me now is the finance part of it. How do I... I, can you, because obviously you've been great, is there anything I can do to, can you give me a day or so on the finance part of it to get, get that organized, get that set up?",
+      "timestamp": "00:44:51",
+      "rep_response": "Isolated cleanly and immediately — 'So we're on the same page. You're 100% on this. You're just trying to work out the logistics of the financial side' — then ran the should-versus-how reframe near-verbatim, then the upfront-or-break-it-up line, then asked permission for an honest money conversation and got it. He then asked directly for cash on hand and for savings and checking balances. The prospect declined to answer and said he was caught off guard, and the rep stopped rather than pressing, taking none of the remaining financial picture.",
+      "response_tactic": "isolate_then_should_vs_how_then_partial_financial_picture_then_yield",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "that's the kind of stuff I'd have to talk to my wife with to keep her involved in everything. Because, you know, money's tight, man.",
+      "timestamp": "00:46:07",
+      "rep_response": "The best-run objection in the batch. He asked whether there were obstacles beyond finances ('No'), whether she knows he wants help ('Not really, man. I haven't really gone over... I haven't talked about this whole conversation'), and whether there was any reason she would not want him in better shape and there for his family ('No, nothing like that. I don't think so'). Three of the scripted moves in sequence. He did not run the permission-versus-input reframe, the not-a-joint-decision line, or the deposit-with-refund fallback, and did not convert any of it into a close.",
+      "response_tactic": "obstacle_check_then_awareness_check_then_reason_she_would_object",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "just honestly, I don't know if, right now, I honestly don't think I would be able to make any financial commitment today, you know? I just, I'm one of those people that has to kind of mull it over. Not long, but just, you know, I need to, I need, like, the weekend to process",
+      "timestamp": "00:51:21",
+      "rep_response": "Accepted without running any think-it-over play. The rep diagnosed it aloud as logistics rather than fear ('I'm sensing that it's not that fear is creeping in, it's just the day-to-day financial side of things'), ran one useful close-test — 'If you had the 6K on your hand, you would go and...' which got 'Oh, yeah. If I just had it right now, it would be no issue' — and then booked a second call rather than pushing. He scheduled Tuesday 10am Central, confirmed the calendar invite arrived, and gave his personal WhatsApp number for the weekend.",
+      "response_tactic": "diagnose_then_close_test_then_book_second_call",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "The reason I said I think so is because I haven't... I mean, I haven't... Maybe that's my own self-doubt talking, you know? So, maybe that's it.",
+      "timestamp": "00:37:40",
+      "rep_response": "Surfaced by the rep refusing to accept a hedge — 'You think so? Why are not so sure?' and then 'When you say self-doubt, like, why?' — which produced the deepest disclosure of the call. He normalised it by comparison to other prospects, framed it as comfort-seeking wiring, and then ran a strong custom move: 'Tell me one thing in your life that is great that came as a result of being comfortable.' None of the scripted OE moves were used.",
+      "response_tactic": "refuse_the_hedge_then_normalise_then_comfort_reframe",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No terms were proposed. The rep said 'most people take it upfront, but from, for some clients, we can break it up. Like, don't have anything set in stone, like set payment plans, but we can work our things around that.' The prospect did the arithmetic himself — 'the math on it is like, you know, $1,000 per month, right?' — and the rep did not confirm, price or structure any such plan.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "disclosed": "Confirmed he does not have the full $6,000 available now — 'That's definitely it. I don't have the full amount right now.' Declined to state cash on hand, savings or checking balances: 'I'm just reluctant to say anything because I really didn't even know' and 'it's good, but with three kids and everything we got going on, it's just... I don't know, man.' Volunteered 'money's tight, man.' Confirmed he would proceed immediately if the money were available."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement.",
+      "Tier was chosen without hesitation — 'I mean, would be the six months, for sure' — and commitment to the programme was explicit and separated from the money: 'it's not that I'm not, you know, committed to it. And it's just the finance part of it.'",
+      "Blocked purely on funds: 'I don't have the full amount right now' and 'I honestly don't think I would be able to make any financial commitment today.'",
+      "A concrete next call was booked and confirmed for Tuesday 10am Central, with the calendar invite verified as received on the call.",
+      "Counter-evidence toward a close on the follow-up: 'If you had the 6K on your hand, you would go and...' — 'Yeah. Oh, yeah. If I just had it right now, it would be no issue, no problem.' The only open items are funding and a conversation with his wife, and he confirmed she would have no reason to object.",
+      "Counter-evidence toward it stalling: he has never paid for coaching of any kind, has no reference point for what it costs, and described household money as tight with three children."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Second call booked Tuesday 10am Central. Prospect to discuss with his wife and look at funding over the weekend. Rep gave his personal WhatsApp number for contact in the interim."
+  },
+  "notable": {
+    "note": "The best-run call in this batch and the useful contrast with the Fletcher Koder call three days earlier. Same rep, same money objection, opposite handling: here he isolated, asked permission, asked for cash on hand, and when the prospect visibly froze — 'I'm just a little caught off guard. Sorry, man' — he stopped, reassured him and booked a second call instead of discounting. No price deviation of any kind, no pressure, a real next step. Two things to watch. The consequence frame was skipped entirely, again. And the prospect's single most important goal is a sub-3:10 marathon in roughly six months, which nobody established the programme or Trevor can actually coach."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The opening 60 seconds is a single unbroken block attributed to the rep that contains both sides of the greeting. Attribution then inverts frequently on medium-length turns: 'And I have this all tracked, too, so, like, I have it on my Garmin watch' at 00:07:53 is the prospect under the rep's label; 'Can I ask you, can I stop you there?' at 00:08:00 is the rep under the prospect's label; the 00:09:25 block 'He was younger, you know, he was born in 2021' is the prospect under the rep's label; 'Especially that, as I remember, your son is five, right?' at 00:28:46 is the rep under the prospect's label. The long stretch from 00:56:00 to 00:57:30 collapses several turns of scheduling and email confirmation into one rep-labelled run. Roles resolved from content. Timestamps reliable. There is also a brief video freeze at 00:47:39 that both parties comment on; audio continues uninterrupted."
+  }
+}

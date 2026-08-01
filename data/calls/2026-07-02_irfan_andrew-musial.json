@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-07-02_irfan_andrew-musial",
+  "source": {
+    "drive_file_id": "11jjuQIlcOwJiuAhlXfm41Gd2uH5FPSJT",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/02/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/02/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 13386
+  },
+  "call": {
+    "date": "2026-07-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 17,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter named. Inbound and self-sourced from Trevor's content, and the prospect did not know what he had booked: \"I actually follow him, the Trevor, on his page. I see he's posting Cuddlebell training. Looks interesting to me. That's why I was filling out the application to learn more\" and \"I just filled the application with going, what's this call is going for?\""
+  },
+  "prospect": {
+    "name": "Irfan",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": 39,
+    "occupation": null,
+    "family_status": "Has at least one daughter, who interrupted the call",
+    "height_in": 74,
+    "weight_lb": 239,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Highly active by his own account: cycling, dumbbell work at home on his deck, swimming, basketball every Thursday for a couple of years, and a six to ten mile hike every Sunday. Before the gallbladder problem he was doing CrossFit alongside a weekly 36-hour fast, then stopped everything. Restarted dumbbell work about two months ago. Note an internal inconsistency in the transcript: he says early on \"I don't have a gym membership\" and later refers to \"my CrossFit gym, next to my home, I go five times a week\" at $149 a month with a nutrition coach.",
+    "kettlebell_experience": "none",
+    "medical": "Gallbladder condition, still on prescription medication, which he associates directly with weight gain — 197 lb last year to 239 lb now, which he describes as roughly 50 pounds over nine months, gaining about five pounds a month. He raised the side-effect question with his doctor, who changed the prescription without effect and advised him simply to exercise more and reduce portions. Symptoms are controlled while medicated. Does not eat chicken on hormone grounds. No injuries or movement limitations were asked about. Sleep and energy were never asked about."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Lost ground to a specific illness and its treatment: \"I had like a gold issue. And then I took some medication and the guy was gaining so much weight\"",
+      "Wants a former self back, with a number attached — 197 lb last year against 239 lb now",
+      "The illness stopped him entirely: \"then I had a gut-letter issue, and then I stopped doing everything. My body is not permitting me to do anything\"",
+      "Strong overlap with skeptical_bargain_hunter at the offer — he is self-directed, highly active, and anchored to a $149/month CrossFit membership with a nutrition coach that he attends five times a week, which he immediately used to reject $200/month",
+      "Assigned rebuilder rather than bargain hunter because the driver of the whole conversation is a medical event and its aftermath, not a value comparison; the price comparison only appeared in the last ninety seconds"
+    ]
+  },
+  "goals": [
+    { "text": "Reverse the roughly 40-50 lb gained since the gallbladder problem and get back toward his previous weight", "category": "fat_loss" },
+    { "text": "Understand why he is gaining weight despite eating carefully and staying active", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Gained about 40-50 lb in nine to twelve months, roughly five pounds a month, with no change he can identify", "category": "medical", "severity": "high" },
+    { "text": "Ongoing gallbladder condition requiring continuing medication he suspects is causing the gain", "category": "medical", "severity": "high" },
+    { "text": "His doctor changed the prescription and the weight gain continued, leaving him without an answer", "category": "medical", "severity": "high" },
+    { "text": "Gains it all back after a cheat day — \"I'll try to lose some weight and get some cheat day and going back to, like, getting so much weight\"", "category": "consistency", "severity": "medium" },
+    { "text": "Sedentary work", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "Yeah, it is expensive. Like my CrossFit gym, next to my home, I go five times a week. And essentially, you have a nutrition coach, and we do everything. And it's like hundreds But 49 a month, like, you know, we do, like, warm-ups, conditioning, we do all this stuff, like, I saw this is an online thing, maybe it's going to be cheaper, but I was not expecting it's, like, 200 a month.",
+      "timestamp": "00:15:43",
+      "rep_response": "\"It is what it is.\" No reframe, no isolation, no attempt to differentiate the offer from the CrossFit membership, and no question about what the CrossFit programme is or is not doing for him.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "And then the program is not for me.",
+      "timestamp": "00:16:21",
+      "rep_response": "Accepted immediately and offered to email the details — \"I can send you via email some information, just go check it out. If you want to try, go for it. If not, that's fine.\"",
+      "response_tactic": "accept_and_close_out",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 1, "price_usd": 200, "note": "Off-menu. \"Primal University\" — named here for the first time in this batch — a monthly cancel-any-time subscription with the kettlebell exercise library, a three-month structured workout plan, a nutrition protocol and a weekly live training and Q&A with Trevor." }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified him from the one-to-one programme on his own initiative: \"from what I'm hearing, it's not something that you need to work one-on-one with Trevor. You're just dialing in what you're doing and sticking to the doctor's prescription, eating a little bit less.\"",
+      "The $6,000 offer was therefore never presented and no price for it was ever stated.",
+      "The $200/month alternative was explicitly declined on price and fit: \"And then the program is not for me.\"",
+      "Counter-evidence: the rep offered to email details of the community product and the prospect said \"That works. Thank you\", so a small residual possibility remains — but he had already rejected it against a cheaper alternative he uses five times a week.",
+      "Recorded as lost rather than follow_up because the rep disqualified, which the vocabulary assigns to lost, and because the prospect gave an explicit no."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email information about the Primal University community subscription. No follow-up call booked."
+  },
+  "notable": {
+    "note": "Two things worth a principal's attention. First, the good one: the rep disqualified honestly and quickly rather than pushing a $6,000 programme at someone whose problem is very likely a medication side effect, and he referred the issue back to the prospect's doctor. That is the right call and it is rare in this corpus. Second, the bad one: the prospect noticed the recording notice and asked directly whether the call was being published, and was told it was personal note-taking — \"it's taking notes like for me I'm really really bad at taking notes.\" These recordings are stored, reviewed by his manager for coaching, and are the subject of this audit. Also note this is the second appearance in this batch of a $200/month subscription used as a downsell, here given a product name, Primal University, and that the rep twice questioned the prospect's doctor's reasoning out loud (\"that's weird\") while ultimately deferring to it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The opening ninety seconds are a single undiarized block containing both speakers. Question ownership inverts repeatedly thereafter — \"Well, noodles and rice, these are carbs\" and \"do you eat meat or not?\" both sit under the wrong label, as does \"It is what it is\" in the closing exchange. Audio quality was poor and the rep asked the prospect to repeat himself three times; several phrases are clearly ASR-corrupted, notably \"gold issue\" and \"gut-letter issue\" for gallbladder, and \"hundreds But 49 a month\" where $149 is the most probable reading. The prospect's video never worked and the rep turned his own camera off."
+  }
+}

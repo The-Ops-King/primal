@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-24_ryan-bundy_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:26:08 as the first of three steps, tied specifically to his rolled shoulders, trap loading and scapular position, plus a five-to-ten-minute daily mobility protocol. Asked 'does that feel like it would actually move the needle for you where you're at?', he answered 'Well, sounds like it's addressing all of the issues.' Understood and agreed, no questions on mechanics, no volunteered enthusiasm."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Presented at 00:31:01 as what/when/how much with no calorie counting. He engaged with the mechanics rather than just accepting: 'What do you think about dairy?', 'Yeah, that whole, like, one gram per pound, that's a lot of protein, man. You have to, like, work hard to get to that. And that comes with calories. It comes with stress, too. I mean, is that what they're doing?' The rep answered the protein question only in general terms — 'It's different for each individual. There's no one-size-fits-all solution' — and the conversation drifted into a several-minute exchange about ground beef and European meat prices."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "The prospect asked for it before it was presented — 'If I'm going to pay for a coach, the first step is to see, what is this? What does the accountability look like? And at the same time, it's like, I got a business coach, I got this, I got kids, I need it to be not too crazy.' Delivered at 00:34:34: one app, video submissions to Trevor, weekly check-ins, direct cell number, over-communication encouraged. Response: 'no, I don't have a problem with that. It all makes sense.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I just want to make sure it's not something crazy, ridiculous price. got some guitar lessons, they were going to charge me $10,000 for three months, you know, so I was like, I'm on Facebook.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect set his own ceiling before hearing the number, and it was well above the offer. $10,000 for three months of guitar lessons made $6,000 for six months land as reasonable — he said 'I figured it'd be around that somewhere around that' with no resistance. This is the anchor doing the rep's work for him."
+    },
+    {
+      "type": "existing_coaching_spend",
+      "raw": "coaching to me is interesting interesting because me... It's like my business coaching, right? It's like really expensive. And I've been doing it for like 12 years.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Twelve unbroken years of paying for expensive business coaching, plus a stated identity — 'I like to have a coach in every aspect of my life. Jiu Jitsu, lifting, business, whatever that is.' Paying for coaching is already a habit, so the purchase requires no category education."
+    },
+    {
+      "type": "free_content_substitute",
+      "raw": "I just keep going back to his videos and they're on my algorithm for the past like several months... And then the problem is, is that he'll be like, Oh, if you do this for one month, then you'll get jacked. And then he'll do it like, and he has other videos. So I'm like, okay, well, I don't know which one to do.",
+      "direction": "supports_price",
+      "competitor": "Trevor's own free social content",
+      "note": "Trevor's free content is the substitute in his head, but its abundance is what created the problem he is paying to solve. The rep let the prospect articulate this himself rather than arguing against free content, which is the correct handling of a self-defeating anchor."
+    },
+    {
+      "type": "self_directed_program",
+      "raw": "I was doing this Onnit program for probably a year, Simple and Sinister, Pavel stuff",
+      "direction": "undercuts_price",
+      "competitor": "Onnit / Pavel Tsatsouline Simple & Sinister",
+      "note": "A near-free programme he already owns and which he says is the one thing that reliably makes his body feel good — 'it's the only one that consistently makes me feel good.' Mildly undercutting, but he also calls it 'so boring dude' and cannot stay on it, which is the wedge. The rep addressed it directly by differentiating Trevor's method from 'Pavel's grind and go.'"
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A clear answer on his own optimal protein intake, having explicitly challenged the one-gram-per-pound convention as too much food, too many calories and too much stress",
+      "why_unmet": "The rep deferred it to 'It's different for each individual. There's no one-size-fits-all solution' and did not say what Trevor would actually do to determine it. The question then got lost in a five-minute tangent about ground beef, peanut butter and European steak prices.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To know what happens after the six months and whether he would need to continue, having said his experience of long-term coaching is that you drift one degree a year without it",
+      "why_unmet": "The rep's stated design is that the client will not need Trevor afterwards, which sits against the prospect's own model of why he keeps coaches for twelve years. When the prospect said 'you'd have to analyze it after six months and see', the rep deferred: 'Let's, let's keep that conversation after six months.'",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confirmation the programme can accommodate an active undiagnosed condition and possible imminent gallbladder surgery",
+      "why_unmet": "The rep answered informally — start with mobility, pause if surgery — but there is no stated clinical policy, no clearance requirement and no defined pause mechanism in the offer. The prospect is being asked to trust an improvisation.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

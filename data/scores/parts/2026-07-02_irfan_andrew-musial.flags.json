@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-07-02_irfan_andrew-musial",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The prospect asked directly about the recording notice and was told it was personal note-taking for the rep, when the recordings are in fact retained, reviewed by his manager for coaching, and used for audit.",
+      "evidence": [
+        "that question it says the meeting is being live streamed like is it going to be published",
+        "no no it's not live stream it's it's taking notes like for me I'm really really bad at taking notes so it's just for the for sake of I'm notes, but it's not live stream.",
+        "I don't know why it says it's live stream. Okay. Yeah, that would be weird.",
+        "and I'm reviewing calls, so I'll send you over notes. If I see anything [Chris Klevan to the same rep, 2026-07-01_sales-team-meeting_chris-klevan, 00:29:50]"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $200/month subscription product called Primal University was offered as an alternative to the stated offer — the second appearance of this off-menu price point in the batch, and the first time it is given a product name.",
+      "evidence": [
+        "What I could advise, it's not a full program, coaching program with Trevor, but start something small, and I can send you more details on that, because Trevor also has, like, this community, it's called Primal University, where you can join.",
+        "And it's like a subscription model, monthly paid. It's only $200 a month, and you can cancel any time.",
+        "And over there, you will find all the kettlebell exercises. You will also have like a structure for three-month workout plan, nutrition protocol, and also once a week, there is live training and Q&A with Trevor."
+      ],
+      "timestamp": "00:14:10"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "A prospect on continuing medication for a gallbladder condition, who reports his body previously would not permit him to train, was pointed toward a self-directed kettlebell subscription with no clearance question asked.",
+      "evidence": [
+        "So you're taking medication still? Yeah, I'm still taking that medicine, yeah.",
+        "then I had a gut-letter issue, and then I stopped doing everything. My body is not permitting me to do anything.",
+        "over there, you will find all the kettlebell exercises. You will also have like a structure for three-month workout plan",
+        "Okay, that's weird, but you didn't exercise at all during this time, or did you?"
+      ],
+      "timestamp": "00:05:26"
+    }
+  ]
+}

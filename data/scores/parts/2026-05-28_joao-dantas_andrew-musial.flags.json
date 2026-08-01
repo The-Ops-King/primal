@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-28_joao-dantas_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The prospect had been receiving SMS from an AI bot presented under a human name, 'Sophia', and only learned it was automation because he raised it himself at the end of the call.",
+      "evidence": [
+        "Just for you to know, I've been receiving messages like SMS messages from something, from someone named Sophia.",
+        "To be honest, it's an AI box.",
+        "No, I believe, I thought it was an AI. But when I try to respond to that, sometimes she asks me to respond yes or no. I don't believe that the SMS is coming through.",
+        "Yeah, Sales Cake is basically AI bot, right? / It's designed to be hands-off, or you don't need to go and message people."
+      ],
+      "timestamp": "01:03:42"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A results guarantee was used as the reason to buy the six-month tier over the three-month one, stated imprecisely with no terms, conditions or remedy, and appearing on no other call in this batch.",
+      "evidence": [
+        "The three months, the difference is it doesn't come with a guarantee, because with six months, you have a guarantee that you will definitely gain at least 20, it's pounds, so it's going to be like around plus 10 kilos from the baseline that you start with on weight of kettlebells.",
+        "Yeah, with three months, we cannot guarantee that, because it's too short. I think it's too short for every fitness goal.",
+        "Because three months, it's only 4K."
+      ],
+      "timestamp": "00:50:27"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "An off-menu three-month tier at $4,000 was quoted and recommended, the third appearance of this unlisted tier from the same rep inside four days.",
+      "evidence": [
+        "We could do the three months.",
+        "maybe this three-month solution would be something that's worth considering, what do you think? Because three months, it's only 4K.",
+        "And you could also split it up. / In two payments of two. / Yeah. Or three payments of 1,500."
+      ],
+      "timestamp": "00:50:21"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Instalment options priced above the list price — six payments of $1,200 totalling $7,200 against a $6,000 programme — though here, unlike on the same rep's call the previous evening, the uplift was disclosed plainly.",
+      "evidence": [
+        "the investment is six thousand dollars one-time payment",
+        "We also have, like, three and six payments, but that's resulting, like, the overall price is higher, yeah?",
+        "Like, for example, like, six payments would be of $1,200, so the total amount would be $7,200, yeah?",
+        "that's up to you you can you can you can take the the three or six pay but i just wanted to make you aware that um the overall price it's it's higher"
+      ],
+      "timestamp": "00:46:35"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker labels invert continuously, with the rep's entire pillar presentation attributed to the prospect and two long passages losing punctuation and speaker breaks altogether.",
+      "evidence": [
+        "00:44:06 - Andrew Jin (Primal Instinct)  \\n to be structured into a into a very uh work that work value it's it's fine yeah like look this is tailored to your needs",
+        "00:03:31 - Andrew Jin (Primal Instinct)  \\n I was actually injured. That's good. That's good.",
+        "00:46:57 - João Gabriel Dantas  \\n Okay. Okay. So the possibility right now is two payments of $3,000. yeah that's that's up to you"
+      ],
+      "timestamp": "00:44:06"
+    }
+  ]
+}

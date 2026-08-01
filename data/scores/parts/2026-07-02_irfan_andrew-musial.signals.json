@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-07-02_irfan_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep disqualified the prospect from the one-to-one programme before any presentation and described only the contents of the community subscription — \"over there, you will find all the kettlebell exercises. You will also have like a structure for three-month workout plan\" — as a feature list, not as a pillar."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Diet was gathered in baseline in unusual detail, including what he ate before the weight gain started, but no nutrition philosophy or protocol was ever presented. The only nutrition guidance given was a restatement of his own doctor's advice to eat smaller portions."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered, and never even referenced. This is notable given the rep's own diagnosis of the problem — \"it's just an issue of actually starting doing the work that you were doing previously, but just consistently\" — which is precisely what the accountability pillar exists to answer. He named consistency as the issue and then offered a self-directed subscription."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "Like my CrossFit gym, next to my home, I go five times a week. And essentially, you have a nutrition coach, and we do everything. And it's like hundreds But 49 a month, like, you know, we do, like, warm-ups, conditioning, we do all this stuff",
+      "direction": "undercuts_price",
+      "competitor": "Local CrossFit gym (approximately $149/month, includes a nutrition coach)",
+      "note": "The most concrete competitor anchor in this batch: in-person, five sessions a week, coached, with nutrition included, at roughly three quarters of the price of the online subscription he was offered. He is a satisfied current customer of it, which makes it a functioning substitute rather than an aspiration. The rep asked nothing about it."
+    },
+    {
+      "type": "channel_price_expectation",
+      "raw": "I saw this is an online thing, maybe it's going to be cheaper, but I was not expecting it's, like, 200 a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He expected remote delivery to carry a discount relative to in-person coaching, not a premium. Worth aggregating across the corpus — the same assumption appears in the Shyam and Basel calls and is never addressed by any framing in the process."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An explanation for gaining roughly forty to fifty pounds in nine to twelve months while eating carefully and staying active",
+      "why_unmet": "Nobody in the conversation could supply one. The rep said so plainly — \"That's really strange, you know, I must admit. I'm not sure why did you start gaining weight, because from what you described, like your nutrition...\" — and there is no diagnostic, medical or metabolic component anywhere in the offer. The most likely driver, a side effect of prescribed medication, sits entirely outside what a training and nutrition programme can address.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "In-person, class-based coaching with people in the room",
+      "why_unmet": "He already has it, five times a week, and prefers it. The offer is remote by design and no attempt was made to position remote delivery as anything other than a cheaper substitute — which it is not.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "An entry price below $200/month",
+      "why_unmet": "The community subscription is the cheapest thing in the product line and it is already above what he pays for a fully coached in-person alternative. There is nothing below it.",
+      "verdict": "product_gap"
+    }
+  ]
+}

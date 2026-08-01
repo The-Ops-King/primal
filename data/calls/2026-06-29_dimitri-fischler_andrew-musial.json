@@ -1,0 +1,151 @@
+{
+  "call_id": "2026-06-29_dimitri-fischler_andrew-musial",
+  "source": {
+    "drive_file_id": "18a4jk_lj2nZa9SquAbTDtVxLhdWcNhcy",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/29/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 19045
+  },
+  "call": {
+    "date": "2026-06-29",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 21,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter is named on the call. No notes were read back; the rep opened with \"how long have you been following Trevor and how well do you know Kettlebells?\" and got \"Not very long and not very well\", indicating an unset, lightly-qualified inbound lead from Instagram: \"I've been seeing Trevor's Instagram account. It looks great.\""
+  },
+  "prospect": {
+    "name": "Dimitri Fischler",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Israel",
+    "age": 46,
+    "occupation": "Desk-based work in front of a computer with occasional travel. No industry, role or ownership status was established.",
+    "family_status": "Lives alone — \"I don't really cook much at home, unfortunately. I live by myself.\" No partner or children mentioned.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Never went to the gym until three months before the call. Lifelong footballer, still playing weekly, plus regular yoga. Current week is football once, yoga once and two gym sessions. The gym work is with a paid coach in a semi-private group of six to eight — general weight training, balance and stability work on bosu-type equipment, a little cardio. Describes himself as relatively in good shape and muscular. Has some gear at home but no kettlebells.",
+    "kettlebell_experience": "none",
+    "medical": "Acutely injured at the time of the call — \"right now, I'm injured. My back is completely blocked. So I'm moving slowly. I played last night and I got hit. And this morning, I woke up with a very blocked back.\" No diagnosis, no assessment mentioned and no prior back history disclosed. History of ankle injuries from football. Denied any desk-related stiffness in legs, hips or back. Sleeps six to seven hours a night, occasional post-lunch sleepiness, energy otherwise reported as good."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Anchored the value explicitly and by an order of magnitude: \"If it was $600 for six months. Maybe I could say, yalla, go, let's do it.\"",
+      "Self-directed and capable — has been weighing exactly the cheap substitutes the avatar predicts: \"I'm hesitating between either doing workouts at home or signing up to a gym and doing exercises by myself.\"",
+      "Rebutted the rep's price-as-commitment-device argument on its own terms rather than accepting it: \"$600 is nothing either.\"",
+      "Nuance worth recording: his current alternative is not cheap — he is leaving paid semi-private coaching he rates highly (\"It's been very good, but it's expensive as you can imagine\"). So the anchor is what he intends to spend next, not what has worked cheaply in the past, which makes this a softer fit than the archetype.",
+      "Not the_optimizer despite the good-to-great goal language, because price was a genuine barrier rather than a quality signal."
+    ]
+  },
+  "goals": [
+    { "text": "Build more muscle, particularly chest and upper body", "category": "muscle_gain" },
+    { "text": "Lose visceral and belly fat", "category": "fat_loss" },
+    { "text": "Keep up and improve on the condition he already has", "category": "other" },
+    { "text": "Stay in very good health for as long as possible", "category": "longevity_function" },
+    { "text": "Offset the muscle loss and slowing metabolism he associates with turning 46", "category": "aging" },
+    { "text": "Look good", "category": "appearance" },
+    { "text": "Work out independently now that the paid coaching is ending", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Currently injured — back completely blocked after being hit in a football match the previous night", "category": "injury", "severity": "high" },
+    { "text": "Lacks self-discipline in some areas and knows it — \"The big question for me is the question of self-discipline, something I know I lack in certain areas\"", "category": "accountability_gap", "severity": "high" },
+    { "text": "The paid coaching that has been working is ending next week because of cost", "category": "training_barrier", "severity": "medium" },
+    { "text": "Eats out or orders takeaway almost every day and does not cook, living alone", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Loves carbs and junk food and finds it hard to hold a line — \"I love to eat delicious, disgusting things\"", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Belly has been growing and metabolism is not what it was 10 to 20 years ago", "category": "aging", "severity": "medium" },
+    { "text": "Knows the science of intermittent fasting but has not managed to build the habit or schedule for it", "category": "consistency", "severity": "low" },
+    { "text": "History of ankle injuries from football", "category": "injury", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "He only offers that one program where it's just one-on-one with him? ... So my question is, maybe it's something that's not necessarily you need. And is it okay with two sessions a week, or is that not enough?",
+      "timestamp": "00:11:00",
+      "rep_response": "Confirmed there is only the one product — \"Yes. That's a full transformation in six months working with him\" — and answered the frequency question with the standard three to four workouts a week. No smaller, shorter or lighter option was offered or acknowledged to exist, and the rep did not explore why the prospect was asking.",
+      "response_tactic": "confirm_single_offer",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Sounds like a lot to commit to, but I see the point.",
+      "timestamp": "00:12:58",
+      "rep_response": "Did not address it. The prospect immediately moved on to describing his alternatives and the rep followed him rather than isolating the price reaction. No payment structure of any kind was offered at any point on this call.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It's a lot of money and it's a serious commitment. And even if it was $600, I'm not sure I would be able to tell you right now, yes. It's to think about a bit more. But yeah, the financial side is very important as well. If it was $600 for six months. Maybe I could say, yalla, go, let's do it.",
+      "timestamp": "00:19:38",
+      "rep_response": "Ran one diagnostic question first, which was the right instinct — \"But is it more about the financial side or the commitment side from you?\" — and got \"Both.\" He then made a single price-as-commitment-device argument: \"If it was $600, it would be so easy to say, eh, I won't go to the gym today.\" The prospect rebutted it directly with \"$600 is nothing either\", and the rep conceded the call immediately: \"All right. Cool, man. No worries. If you ever want to reach out, you know where to find us.\"",
+      "response_tactic": "diagnose_then_single_value_reframe_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I don't think I'm ready to commit for something like this.",
+      "timestamp": "00:19:16",
+      "rep_response": "Followed with the financial-versus-commitment diagnostic and then, after one reframe attempt, accepted the no. None of the OA moves were run — no belief question, no exploration of what was actually preventing him from starting, no return to any goal.",
+      "response_tactic": "accepted_the_no",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Nothing elicited. The only figures on record are the prospect's own anchor of $600 for six months and his description of his existing semi-private coaching as expensive. No financial-picture question was asked and no payment structure was ever put on the table, despite affordability being named explicitly as half the objection."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal: \"I very much appreciate you taking the time to explain everything to me. I don't think I'm ready to commit for something like this.\"",
+      "Restated and quantified when probed — both money and commitment, with $600 named as roughly the number that would have worked, an order of magnitude below list.",
+      "The rep accepted the no within about a minute and booked nothing. No follow-up call, date or action exists.",
+      "Counter-evidence for a softer read: the prospect left the door slightly open with \"Yeah, I might do that\" in response to being told where to find them. That is a courtesy, not a next step, and no mechanism was created to act on it.",
+      "Counter-evidence on process rather than outcome: he was never given a payment structure, never asked a commitment question, and never taken through a consequence frame, so this is a no to an offer that was only partially made."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. The rep left an open invitation to reach out and no contact was scheduled."
+  },
+  "notable": {
+    "note": "The shortest call in the batch at 21 minutes, and the process largely did not happen. The prospect asked \"Tell me about price\" twelve minutes in and the rep answered immediately — before any goals depth, any root-cause work, any consequence frame and any commitment check. Two things stand out for a principal. First, the prospect disclosed he was acutely injured that morning — \"My back is completely blocked... I played last night and I got hit\" — and the rep's only follow-up was a leading closed question, \"But there's nothing serious that will disqualify you from working?\", before moving on to pitch. Second, no payment structure of any kind was offered here, in a week where the same rep offered an interest-free split to two prospects, a $1,200 monthly plan to a third and third-party financing to a fourth. Affordability was named as half the objection and nothing was put on the table. Separately, this call sits squarely in the documented script gap for a cheaper alternative that worked: he is leaving semi-private coaching he rates highly and choosing between a gym membership and training at home, and none of that was explored."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous inversion resolved from content. Clear examples: \"And before that, what did you do?\" at 00:01:54 is the rep under the prospect's label; \"Okay, so what got you actually to the gym\" at 00:02:07 is the rep; \"Not a little bit. I'm not fat, but it's been growing\" at 00:02:44 is the prospect; \"Tell me about price. How does it work?\" spans both labels at 00:12:13 and 00:12:44 but is the prospect. There is a microphone failure and headphone swap between roughly 00:06:36 and 00:07:32 which interrupts the nutrition discussion — about 50 seconds of content is missing from the record rather than misattributed. Some ASR corruption is present, including \"sia strained for me, don't to be\" at 00:13:50 and \"we play a bit more armor\" at 00:08:17. Otherwise the recording appears complete and ends on a natural close."
+  }
+}

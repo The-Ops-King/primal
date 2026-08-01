@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-25_tyler-moye_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He sold it to himself before it was presented: 'that's another reason why I do love this program though. Cause I love how it's so mobility focused and also... I love that it's like a cardio endurance thing with muscle building, and that to me, I think is the exact training I need to translate into being better at jiu-jitsu.' When the rep presented it at 00:19:43 and proposed cutting the weight training in favour of kettlebells, the response was 'Yeah, 100%.' He also engaged with the less-is-more premise honestly rather than just agreeing: 'it's weird, because I feel like I do a lot, but then I do feel like I have a decent amount of days where I end up not doing much. So I almost don't want to over-hype the amount that I'm doing.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Presented at 00:24:43 with a specific diagnosis attached — that he is under-eating for his training load and needs to eat more, which is why he is not losing fat and is crashing in the afternoons. He engaged and then asked for mechanics: 'what does the nutrition aspect of it look like? So would I be getting, like, ideas for meals to make and, you know, that kind of thing, or how does it work?' The answer was that Trevor does not give exact meal plans. He accepted it — 'Okay' — but this is the one place his want and the offer point in opposite directions, since his own best-ever result came from strict tracking and macros."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The rep flattened this pillar on the assumption it was already handled — 'I don't need to probably say how much important accountability is. You're doing that already' — and moved straight to app mechanics, weekly check-ins and Trevor's cell number. The prospect's response was the most substantive question he asked all call: 'would you guys be able to help me create a game plan and goal for the other things I like to do, like jujitsu, swimming, and yoga? Would we be able to kind of, like, get some advice of like, hey, I recommend you do that on these days?' That is the actual job to be done for a man doing four disciplines, and it was answered in a sentence."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_price_check",
+      "raw": "I think I looked into it a couple, like, a year, a year and a half ago or something, and I think at that time, it wasn't in my budget, but financially, I'm in a, like, a much better place now, so it's something that, I don't know how much it costs yet, but I'm not too worried about it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He pre-cleared the price himself eight minutes into the call, having already ruled it out once on affordability grounds and having since resolved that. The rep had an explicit statement of both intent and capacity banked for the next twenty-four minutes and did not use it when the price landed."
+    },
+    {
+      "type": "premium_fitness_spend",
+      "raw": "I actually just got a membership. Are you familiar with Lifetime Fitness?... It's one of the nicer gyms in the US and they have a co-working setup in the gym.",
+      "direction": "supports_price",
+      "competitor": "Lifetime Fitness",
+      "note": "A premium gym membership plus a chiropractor, a previous personal coach and a booked jiu-jitsu camp. Paying well for fitness is an established habit, not a new category. The rep spent two minutes on the sauna and cold plunge and never converted any of it into price justification."
+    },
+    {
+      "type": "competing_discretionary_spend",
+      "raw": "The only thing is just the timing, because I got a trip to Europe coming up, and then I've got a jujitsu camp coming up, and those are both pretty expensive. Um, so, this would be eating into both of those budgets for sure, and I'm pretty budget savvy.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The anchor that actually cost $2,000. It is not a capacity constraint — it is a competing-allocation constraint from a self-described budget-savvy buyer, and it arrived after he had already confirmed he had the money. It was answered with a discount rather than with a value or timing frame."
+    },
+    {
+      "type": "expected_price",
+      "raw": "It's a little more than I thought. Doesn't mean I can't do it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A soft anchor with its own rebuttal attached. The prospect volunteered that the number did not disqualify the purchase in the same breath as flinching at it, and the rep treated the flinch as the signal rather than the correction."
+    },
+    {
+      "type": "self_directed_program",
+      "raw": "I've Trevor's videos for years now, and I've always been like, those are so, I've done several of these little workouts, I love them.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free video content",
+      "note": "Unlike the Daniel Solano call, the free content here works as a supportive anchor rather than a substitute — he states plainly that he does not know how to build a full workout from it, which is precisely what he is buying."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An explanation of why he is not losing fat while apparently in a calorie deficit — the question he named as his central frustration",
+      "why_unmet": "The rep gave a confident answer with no measurement behind it: 'you probably need to eat more for two reasons with that amount of training that you're doing right now, the body isn't getting enough nutrition to support that.' The prospect's intake was never measured, only self-estimated ('that's my assumption for the most part'), and his own history contradicts the answer, since strict restriction on keto produced his best result. This may well be right, but nothing on the call establishes it.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Concrete meal ideas and a way to hit protein targets without meal prepping, which he dislikes and which is the single point where his diet fails",
+      "why_unmet": "The offer explicitly does not include meal plans: 'His approach is not to give you, like, exact meal plans. It's rather for you to know what to pick.' The stated failure mode is not knowing what to pick, it is not preparing food, and a principles-based approach does not address that.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Scheduling guidance across four disciplines — which days to do jiu-jitsu, swimming, yoga and kettlebells",
+      "why_unmet": "Answered affirmatively and probably genuinely served by the 45-minute Trevor onboarding call, but the answer was a sentence long and no mechanism was described beyond 'tell him everything that you do, no stone unturned.' For the highest-volume prospect in the batch this is the core integration problem and it was left as an assurance.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that works around a lower back that can no longer tolerate barbell squats",
+      "why_unmet": "Disclosed after payment and never addressed. No adaptation was discussed, no note was taken for Trevor, and the programme's own goblet squat and loaded hinge work was never checked against it.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

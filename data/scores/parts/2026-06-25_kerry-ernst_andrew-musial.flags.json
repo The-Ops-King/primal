@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-25_kerry-ernst_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A prospect with four labrum tears and four surgeries on the same shoulder asked directly whether a loaded overhead kettlebell movement was safe for him; the question was not answered, no clinician clearance was raised, and he was then recommended a three-to-five-times-weekly kettlebell programme including overhead pressing.",
+      "evidence": [
+        "I've had four totals for Labrum tears on the same shoulder.",
+        "I could do it with my left arm up, but my right shoulder surgery arm, that was hard to do, so I wonder if that's a valuable exercise or one to leave alone",
+        "just a regular swing or regular two-arm and shoulder press, I'm noticing that I sag on the right side",
+        "Yeah. You will learn faster. Definitely.",
+        "we could probably squeeze that in and compress it into 20 to 20 minutes, three to four times a week. Maybe if it's 20 minutes, maybe we would do like five times a week."
+      ],
+      "timestamp": "00:12:07"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The off-menu three-month tier at $4,000 was presented again, the third sales call in two days on which it appears, and here it was volunteered by the rep before any price reaction at all.",
+      "evidence": [
+        "six months transformation is $6k, $6,000.",
+        "I don't think six months is for you. Hmm. For six months, it's a full transformation, and you need some adjustments to what you're already doing, yeah? I think three months would be more than enough, because we're going to be dialing in and making some tweaks. Three months, it's 4K."
+      ],
+      "timestamp": "00:31:55"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "This is the only sales call in the batch where a prospect stated he could not afford the programme and was offered no payment plan and no financing of any kind, while the same rep offered between one and four payment options to every other prospect in the same two-day period.",
+      "evidence": [
+        "That's way out of line for what I think I can really afford.",
+        "So I appreciate the honesty and not, as you said, I I'm going to think about it.",
+        "have you heard about I third-party financing, like for example, have you heard about company Pava or Klarna? (Daniel Solano, 1jjphH1Tow5vKrim5vqPNdK47aWjn9fkz)",
+        "If we split it in half, that's fine. That's not, there's no interest on that. If you want to split it in monthly, there's going to be additional cost to that. (Maz, 1WSNJRG8mX9-BpVOc0kuYGmAOwe1ATjMm)",
+        "if you would split it up into 12 months, yeah, that would be 650. (Suman, 1f48fSQ33WjpakBuD5qucuBvySRs-YkxZ)"
+      ],
+      "timestamp": "00:32:28"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University, a Skool subscription at $200 per month with cancel-anytime terms, was offered again as a live downsell — a product and price point that appear nowhere in the stated offer.",
+      "evidence": [
+        "So he has a, he has a school community called Primal University.",
+        "you can find all the kettlebell movements, steel mace movements. You have even a three month progressive workout program. Of course, it's not tailored to your needs.",
+        "So that's like 200 bucks per month. You can cancel it any time. I will send you the information via email if that's fine with you."
+      ],
+      "timestamp": "00:35:33"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The guarantee was stated with an internally inconsistent figure and paired with an unsubstantiated claim of market superiority.",
+      "evidence": [
+        "he guarantees that in those six months, you will add at least eight, 17 pounds to the baseline of the weight of the kettlebell",
+        "I don't think anyone has this kind of guarantee in the market.",
+        "the guarantee is from your baseline of kettlebells that you're starting right now, you will add in pounds, it's going to be like 17 pounds to the baseline (Suman, same date, same rep)"
+      ],
+      "timestamp": "00:31:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Both the rep and the prospect refer to the setter Kim with male pronouns, which does not match the KFS to Kim Forbes-Sobers mapping in the extraction spec, so setter attribution for this call and possibly the corpus cannot be treated as settled.",
+      "evidence": [
+        "I spoke with Kim, who set up the meeting. Um, and so he just briefed me in a little bit on your situation",
+        "Kim was just really kind and talked so much about it and gave me a chance. He didn't do me the hard sell.",
+        "I wish I gone with soft kettlebells, and Kim said no."
+      ],
+      "timestamp": "00:00:22"
+    }
+  ]
+}

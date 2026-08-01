@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-06-16_filipe_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Rep referenced the application without reading it back: 'brief me in, because I've seen some information that you left.' The frame he set was two-part and outcome-focused rather than the scripted four-part frame — 'today I want to go over what are your goals... And if we can possibly help you with, I will gladly show you how we can do it... But if there is no alignment, that's fine, too.' No frame-agreement check was asked. The open question landed cleanly."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "hit", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Only two baseline moves were actually run: injuries — 'Apart from the past injury with your spine, do you face any limitations, any injuries?' — and results from current training — 'did you get the results that you wanted from that program?'. Age, height and weight were volunteered unprompted ('I'm 53', 'I'm one meter 84 tall, and I weigh 76 kilos') and never asked for, so they score as misses. Occupation was never established at all. Diet, sleep and energy were not touched. Training frequency was only established because the prospect offered it while the rep was pitching Primal University."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "No goals phase was run. Every goal on record was volunteered by the prospect inside his own opening monologue — muscle mass, time efficiency, handstand, pancake. The rep never asked what one thing he would change, never bridged to why now, never asked who else it impacts, and never reflected the deeper driver back. The call went from background straight to the rep's verdict."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "The rep did probe the most recent attempt — 'you mentioned you joined this program. Are you still in this?' and 'did you get the results that you wanted from that program?' — but stopped at outcome. No question about why anything did or did not stick, no attempt to surface a structural gap, and no root-cause move at all. Note this prospect's history is largely of things that worked, which the script has no branch for."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. The rep never asked what the next two years look like if nothing changes, never tested willingness to settle, and never asked for a line in the sand. Reachable on this call — the rep simply chose to disqualify instead."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind. The rep moved from background straight to 'I'm going to be totally honest with you... why I think it's not the best solution for you right now', so no verbal yes was ever sought on the core offer."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted on the 1:1 programme, so P11 is out of the denominator. The rep did run a downsell to Primal University and sent a join link — 'you just need to click join and there it will guide you to Payments' — but collected nothing on the call, and there is no Trevor onboarding, agreement email or Skool sequence attached to that product."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Not a scripted objection, but the only resistance in the call came at the point of purchase for the downsell: 'Is there like a few days trial?' The rep answered 'I don't know. I don't think so. Well, I don't think so' and pivoted to cancel-anytime. No play exists for a trial request and the rep did not know the answer to a basic product question."
+    }
+  ],
+  "notes": "The rep disqualified honestly and early, which is commercially defensible and reads as integrity — but he made the call on roughly ninety seconds of volunteered background, having run no goals phase, no consequence frame and no baseline beyond injuries. He decided this prospect was 'not at this stage' without ever testing what was actually driving a 53-year-old to book a sales call, and without ever naming a price to see whether it was a barrier. Coach the point directly: disqualification is a conclusion, not an opening move, and it should be reached after phases 3 through 6, not instead of them."
+}

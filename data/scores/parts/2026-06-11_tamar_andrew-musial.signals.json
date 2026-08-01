@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-11_tamar_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "The rep tied the pillar directly to the disclosed back history — \"remember when you told me that with those back issues... this is why we're going to target that very first thing with also mobility protocols\" — and the prospect agreed without questions: \"Yeah, I mean, it sounds reasonable. I mean, you know, that's kind of along the lines of what I expected.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The three-variable pitch (what, when and how much you eat, inside a 10-to-8-hour window) drew agreement and a self-disclosure rather than resistance — \"Potato chips is one of my weaknesses\" — and the sustainability framing matched something he had already said he needed: \"it needs to be something I want to maintain long-term\". Asked \"any questions on nutrition?\" he said no."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "He asked for the mechanics twice. \"So you said, you know, you send videos and stuff like that. But let's say there's three or four sessions a week. Those are sessions that I do on my own and then send videos and he critiques me on. He's not with me in the session\" — checking that the coaching was asynchronous rather than live. He accepted the answer once the app, weekly check-in and direct-text access were described."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "monthly_cashflow_ceiling",
+      "raw": "the numbers I deal with are big, you know, my expenditures, you know, business are in the many, many tens of thousands per month. So another six grand hit is kind of a lot, but I can easily say, you know, I can do a thousand, you know, like in budgeted, you know, that won't hurt as much",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He does not price the programme against other coaching; he prices it against a monthly business cash-flow line. That converts $6,000 from a decision about value into a decision about a billing cycle, and it is what the rep ended up negotiating against. Note the number is self-reported and was never verified — the open-wallet questions that would have tested it were not asked."
+    },
+    {
+      "type": "tax_treatment",
+      "raw": "I was probably going to do it on a business credit card, so just charge it as a business expense, because to me, as a business expense, I'm getting it tax-deferred, and I can easily show my accountant that this is business mentorship, whatever",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He had already reframed the purchase as a deductible business expense, which lowers the effective price and is a strong buying signal. It also killed the third-party financing route, since financing would not have run through the business card — worth knowing before offering financing to self-employed prospects."
+    },
+    {
+      "type": "incumbent_solution_friction",
+      "raw": "I drive about 15 minutes to my gym to work out 30 30 minutes and drive back 15 minutes... if I have a solid 30 minute routine at home, maybe I can cut that out and be more efficient and save time",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The incumbent is a gym membership he already pays for, but he framed it as a cost in time rather than a cheaper substitute. That is the rare case where an existing solution supports the price instead of undercutting it, and the rep never picked it up or quantified it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To pay $1,000 per month for six months on autopay against a business credit card — $6,000 total, no premium for spreading it",
+      "why_unmet": "The only priced instalment option the rep had was $1,200 per month, a $7,200 total. Rather than an approved no-premium plan, the fallback was a shorter three-month term at $4,000 with a verbal credit toward the six-month price.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Written confirmation that the money paid for the three-month term credits toward a $6,000 six-month total",
+      "why_unmet": "The standard agreement documents only the three-month term. The rep could not locate a clause covering the credit and offered \"I can send you an email on that. The calls are recorded, so you have my word on this.\"",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Guidance on peptides as part of getting healthier at 51, having already used testosterone supplementation",
+      "why_unmet": "Not part of the three-pillar offer. The rep did not decline it — he positioned the programme as the prerequisite and implied the programme would later handle it: \"to dial it in, it's good to have the basics covered... And then we can dial in the peptides.\"",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

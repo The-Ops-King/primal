@@ -264,7 +264,8 @@ def insert(conn, rec):
     )
     conn.executemany(
         "INSERT INTO offer_tiers VALUES (?,?,?)",
-        [(cid, t.get("months"), t.get("price_usd")) for t in offer.get("tiers", [])],
+        [(cid, _num(t.get("months")), _num(t.get("price_usd")))
+         for t in offer.get("tiers", [])],
     )
 
 
@@ -859,9 +860,16 @@ def build_offer_signals(records, deals, playbook, adherence, signals, icp):
         guarantees.append({"rep": r["rep"]["name"], "guarantee": g,
                            "presented": bool(r.get("offer", {}).get("presented"))})
         for t in r.get("offer", {}).get("tiers", []):
-            tiers_seen.setdefault(t["months"], {"months": t["months"],
-                                                "price_usd": t["price_usd"], "calls": 0})
-            tiers_seen[t["months"]]["calls"] += 1
+            # Agents occasionally emit a tier with a null or string months /
+            # price. Coerce, and drop anything that still will not resolve —
+            # a malformed tier must not take the whole build down.
+            months, price = _num(t.get("months")), _num(t.get("price_usd"))
+            if months is None or price is None:
+                continue
+            months = int(months)
+            tiers_seen.setdefault(months, {"months": months,
+                                           "price_usd": price, "calls": 0})
+            tiers_seen[months]["calls"] += 1
     distinct_g = {g["guarantee"] for g in guarantees if g["guarantee"]}
     consistency = {
         "guarantees": guarantees,
@@ -957,6 +965,7 @@ def build_flags(records):
                 })
 
     flags.sort(key=lambda x: (SEVERITY_ORDER.get(x.get("severity"), 9), x.get("date") or ""))
+    clusters = cluster_flags(flags)
 
     by_cat, by_sev = {}, {}
     for fl in flags:
@@ -978,10 +987,73 @@ def build_flags(records):
         "by_severity": by_sev,
         "by_category": sorted(by_cat.values(),
                               key=lambda x: (-x["critical"], -x["high"], -x["n"])),
+        "clusters": clusters,
+        "systemic": [c for c in clusters if c["n"] >= 3],
         "urgent": [f for f in flags if f.get("severity") in ("critical", "high")],
         "calls_flagged": len({f["call_id"] for f in flags if f.get("call_id")}),
         "internal_calls_reviewed": len(internal),
     }
+
+
+STOP = set("""a an and are as at be been but by for from had has have in into is it its
+of on or que that the their there they this to was were what when which who will with
+prospect rep call client the was were a""".split())
+
+
+def _sig(text):
+    """Content-word signature of a flag summary, numbers stripped. Two agents
+    describing the same systemic issue phrase it differently but reuse the
+    same nouns, so token overlap clusters them where exact matching cannot."""
+    words = re.findall(r"[a-z]{3,}", (text or "").lower())
+    return frozenset(w for w in words if w not in STOP)
+
+
+def cluster_flags(flags, threshold=0.45):
+    """Greedy Jaccard clustering within each category.
+
+    Without this, one systemic problem quoted in forty calls renders as forty
+    rows and reads as forty problems. Bucketing by category first keeps the
+    pairwise comparison cheap enough at corpus scale.
+    """
+    buckets = {}
+    for f in flags:
+        buckets.setdefault(f.get("category", "other"), []).append(f)
+
+    clusters = []
+    for cat, items in buckets.items():
+        reps = []                      # (signature, cluster dict)
+        for f in items:
+            sig = _sig(f.get("summary"))
+            best, best_score = None, 0.0
+            for rsig, cl in reps:
+                union = len(sig | rsig)
+                score = len(sig & rsig) / union if union else 0.0
+                if score > best_score:
+                    best, best_score = cl, score
+            if best is not None and best_score >= threshold:
+                best["members"].append(f)
+            else:
+                cl = {"category": cat, "exemplar": f.get("summary"),
+                      "members": [f]}
+                reps.append((sig, cl))
+                clusters.append(cl)
+
+    for cl in clusters:
+        m = cl["members"]
+        worst = min(m, key=lambda x: SEVERITY_ORDER.get(x.get("severity"), 9))
+        cl["n"] = len(m)
+        cl["severity"] = worst.get("severity")
+        cl["calls"] = sorted({x["call_id"] for x in m if x.get("call_id")})
+        cl["reps"] = sorted({x["rep"] for x in m if x.get("rep")})
+        cl["evidence"] = [e for x in m[:4] for e in (x.get("evidence") or [])][:6]
+        cl["date_range"] = [min((x.get("date") or "") for x in m),
+                            max((x.get("date") or "") for x in m)]
+        cl["members"] = [{"call_id": x.get("call_id"), "date": x.get("date"),
+                          "rep": x.get("rep"), "prospect": x.get("prospect"),
+                          "summary": x.get("summary"), "severity": x.get("severity")}
+                         for x in m]
+    clusters.sort(key=lambda c: (SEVERITY_ORDER.get(c["severity"], 9), -c["n"]))
+    return clusters
 
 
 def _num(v):
@@ -1144,6 +1216,24 @@ def main():
     for r in records:
         (junk if (r["source"].get("file_size_bytes") or 0) < junk_min else kept).append(r)
     records = kept
+
+    # Corpus window. Out-of-window extractions stay on disk untouched — only
+    # excluded from the metrics — so the window can be widened later without
+    # re-running a single call.
+    win = rules.get("corpus_window") or {}
+    w_from, w_to = win.get("from"), win.get("to")
+    out_of_window = 0
+    if w_from or w_to:
+        inside = []
+        for r in records:
+            d = r.get("call", {}).get("date") or ""
+            if (w_from and d < w_from) or (w_to and d > w_to):
+                out_of_window += 1
+            else:
+                inside.append(r)
+        records = inside
+        if out_of_window:
+            print(f"  {out_of_window} call(s) outside {w_from}..{w_to} excluded from metrics")
 
     # Drop score records with no surviving extraction. At fan-out scale a
     # worker can write a score file and fail before writing the extraction,

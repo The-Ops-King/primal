@@ -1,0 +1,89 @@
+{
+  "call_id": "2026-06-23_peter-tseng_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented with an explicit nod to his condition — the first month dialling in movements 'designed around your schedule, your lifestyle, and your abilities in terms of what can you actually perform', plus mobility protocols 'specific to your needs and your limitations'. Direct check drew 'Oh, absolutely' and 'I think it's all clear.' He then came back to it twice with mechanics questions: 'on the cardio side, if there's anything to include as well. Or, you know, if really working with kettlebells is sufficient' and 'Do you know if Trevor's worked with anyone with a back injury?'. The cardio question was answered with a personal hiking anecdote and a laugh; the back question with a prevalence claim."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Tailored well — the rep tied it back to the specific failure modes the prospect had already admitted, groceries running out and social eating, and picked up the lactose intolerance. The prospect volunteered corroborating knowledge rather than just agreeing: 'I also love the concept of nutrition and not so long ago learned about how the order and sequence in which you eat things impacts your digestive and metabolism... having a leafy green salad before your pizza... It's going to reduce insulin spiking.' On the check: 'That sounds great. It's really simple.' He then asked a clean mechanics question about whether fluids fall inside the eating window."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Presented as structure and accountability and explicitly named as the crucial one for him. His reaction was to interrogate the delivery model rather than the value: 'Do I work at all with you, would I work entirely with Trevor?', then 'Where does Trevor live, just out of curiosity?', then 'I was just curious if there's an in-person component ever.' The in-person question was deferred to the onboarding call. Worth noting for a prospect in West LA whose coach is in Sacramento, and whose stated buying condition was intelligent programming around an injury."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_paid_trainer",
+      "raw": "every week I work with. A traditional kind of strength personal trainer, and that has been totally fine in terms of injuries because, you know, we're doing a lot of things with the supported back",
+      "direction": "supports_price",
+      "competitor": "in-person strength personal trainer",
+      "note": "He already pays a coach weekly and is dissatisfied on progression rather than price. The rep never asked what it costs, so the strongest available price comparison in the call went unmeasured — and the incumbent's actual selling point, that it has been safe for his back, went unexamined too."
+    },
+    {
+      "type": "existing_clinical_spend",
+      "raw": "I'm doing my physical therapies, which is that combination of like bodywork, chiropractor, and the machine. That's the third thing.",
+      "direction": "supports_price",
+      "competitor": "chiropractor, bodywork, DRX spinal decompression",
+      "note": "An ongoing paid clinical stack running in parallel with everything else. Commercially this is a supports-price signal — he spends readily on his body. Clinically it is three named practitioners whose views on loaded ballistic training were never sought."
+    },
+    {
+      "type": "existing_class_spend",
+      "raw": "I'll do like exercise classes. So like, I'll do like a yoga class or a Pilates class, or I just tried out this thing called primal moves, where it's like primal movements and functional movements.",
+      "direction": "supports_price",
+      "competitor": "yoga, Pilates, primal moves classes",
+      "note": "A fourth recurring spend. Note the irony that he had independently sought out a 'primal movements' class, which is close to the product's own positioning, and the rep did not pick it up."
+    },
+    {
+      "type": "equipment_investment",
+      "raw": "I like have invested in some equipment. I've got a, a bull bar, which is like a portable, like pull up rack. I've got a dip station, you know, everything in home. At home, I've got a bench press, I have some kettlebells",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Sunk cost in home equipment including kettlebells, which removes the equipment objection entirely and signals willingness to spend on the category."
+    },
+    {
+      "type": "sells_coaching_himself",
+      "raw": "it is a, uh, mindfulness business called open... we offer breath work. Meditation, yoga, some Pilates.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He runs a wellness coaching business, so he prices guidance for a living and needs no education on why expertise costs money. The rep discovered this after the payment had been taken."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A substantive answer to whether loaded kettlebell training is appropriate for a ruptured L5-S1 disc with the restrictions he named",
+      "why_unmet": "Asked three times and never answered on the merits. He received an assertion of confidence, a claim that back pain is the most common presenting complaint, and a deferral to the post-payment onboarding call. No question was asked about the brace, the current flare-up, or what any of his four clinicians think.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To speak to the coach before committing $6,000",
+      "why_unmet": "He asked directly and was told the sequence is fixed: 'That's the process that we have.' The only person able to answer his clinical question sits on the far side of the payment.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Clarity on whether kettlebells alone deliver enough cardiovascular work or whether he should add something",
+      "why_unmet": "Answered with a laugh and a personal anecdote about hiking with a 40 lb pack — 'believe me, you're gonna be sweating and having your heart rate up' — rather than anything about how conditioning is programmed. The programme almost certainly has an answer.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Any in-person component",
+      "why_unmet": "Raised twice and deferred to the onboarding call. The coach is in Sacramento and the client is in West Los Angeles; the programme is remote by design.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "The payment options — he asked how the $6,000 breaks down and whether it is one-time or paid across the programme",
+      "why_unmet": "Not a gap in the product but in the disclosure. Instalment structures exist and the same rep laid out four of them for another prospect the previous day. Here he answered 'Most of the guys, and it's the best way to do it. Just put it up front' and reframed upfront payment as an accountability device.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Programming that respects a hard exclusion list — no axial load, no deadlifts, no spinal flexion, no swings",
+      "why_unmet": "Nobody tested whether what remains of the kettlebell library after those exclusions still constitutes the programme he was sold. It may well; it was never established either way, and the swing is the movement that re-injured him nine days into owning kettlebells.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

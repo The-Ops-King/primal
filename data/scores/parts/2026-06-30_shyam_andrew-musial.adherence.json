@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-30_shyam_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "No setter pre-qualification to read back and none referenced. The rep skipped the four-part frame and the frame-agreement tie-down entirely, going straight to the open question: \"So walk me through what's been going on. Like, what's the main thing you're trying to fix right now?\""
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "miss", "P2g": "partial", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age was volunteered, not asked (\"And I'm 45 years old\"); height and weight were never taken at all. Occupation never asked. Pre-diabetes was volunteered unprompted — \"I also wanted to say that I'm a pre-diabetic\" — the rep then followed up on when the checkup was, but never asked the health question. The elbow injury was probed (\"help me understand, what was the connection, like elbow pain and stopping everything at all?\") but its duration, diagnosis and current status were not. Training week and diet emerged in passing with light follow-up. Sleep, energy and results from current training were never touched."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "partial", "P3g": "partial", "P3h": "miss" },
+      "evidence": "The aesthetics question was asked as a leading statement rather than an open one — \"correct me if I'm wrong, but you want to look better too, right?\" The rep reached the family layer but supplied it instead of eliciting it: he asked \"Do you have kids?\" and \"Do you play with him?\", then delivered the meaning himself — \"If you don't change this right now, not for yourself, but think about your son.\" No bridge question, no \"what does that actually do for you\", and no reflect-back."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "hit", "P4c": "partial", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "The FITTR program history was volunteered rather than asked for, though the rep did ask about kettlebell experience specifically. What happened was probed well: \"Because of the small elbow pain? You stopped the whole...\" and \"what was the connection, like elbow pain and stopping everything at all?\" The rep also asked \"Why?\" when cycling stopped. But he never asked what the one thing getting in the way is, never named the structural gap, and never ran the \"the information isn't the problem\" line — which was the obvious move here, since the prospect had already proved he knows how to do it."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The two-year question ran almost verbatim: \"if nothing changes with your fitness, nutrition and all of that... you tell me what will happen in two years if you don't change.\" The prospect answered with type 2 diabetes. The rep then moved to the family frame instead of closing the loop — no \"is that something you're willing to settle for\", no \"why not\", no line-in-the-sand."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "miss" },
+      "evidence": "The nearest move was a responsibility tie-down — \"who's responsible to actually make that change?\" / \"Me.\" / \"Why would you say that?\" — which surfaced belief but is not the structure check. The all-in question was never asked, and the rep went from there straight to \"are you in a position right now to invest in yourself, and I'm talking four figures USD\" with no verbal yes in hand."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "The call never reached payment. The core offer was declined on price and the improvised subscription ended at \"maybe I have to think about it\", with the rep agreeing to email a link afterwards. No payment, no Trevor onboarding call, no agreement email, no Skool link on the call."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A clean money trigger landed at 00:16:38 and none of the play ran. No isolation (\"finances aside — nothing else keeping you from 100%?\"), no should-versus-how reframe, no \"most clients pay upfront, but for some we break it up\", no permission question, and none of the six financial-picture questions — cash on hand, monthly surplus, credit cards, available credit, used versus available, investments. Instead the rep withdrew the offer himself and substituted a $200/month product about ninety seconds later."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "\"Oh, maybe I have to think about it\" at 00:21:33. The rep asked \"what are your thoughts on this, like, exactly?\" — a generic probe, not the play. None of the scripted moves ran: no \"do you feel what we've gone through CAN get you to your goal\", no \"thinking isn't the problem, deciding is\", no identity question. The delay was accepted and converted into an email follow-up."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, not a rep failure. The prospect's reference point is a low-cost coaching app that demonstrably worked for him — FITTR, where \"they provide you coaches and they will guide us\" and he lost about 10 kg. This is the same 'a cheaper alternative already worked for me' gap the playbook records from the Badrane Hriouch call. There is no scripted path for it and the rep never engaged the comparison at all, which left the $6,000 unanchored against something the prospect already believes works."
+    }
+  ],
+  "notes": "Discovery was shallow in exactly the place the money conversation later needed it: no weight, no occupation, no income signal, no sleep or energy, so when the price landed there was nothing to lean on. The single coachable item is that the rep, not the prospect, ended the $6,000 conversation — the open-wallet play was available and untouched, and his manager had walked him through that same play in a 1-1 recorded a few hours earlier the same day."
+}

@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-06-25_kerry-ernst_andrew-musial",
+  "source": {
+    "drive_file_id": "1j0LSaCy3TsPOXPhyWRYNnupdAV1sNscX",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/25/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/25/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 41849
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I spoke with Kim, who set up the meeting. Um, and so he just briefed me in a little bit on your situation. Note that both the rep and the prospect refer to Kim with male pronouns — 'he just briefed me in' and 'He didn't do me the hard sell' — which does not match the KFS = Kim Forbes-Sobers mapping in the extraction spec."
+  },
+  "prospect": {
+    "name": "Kerry Ernst",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": 59,
+    "occupation": "Medical sales. Retired at 55, returned to work about a year before the call.",
+    "family_status": "Married; has children including a son he coached in baseball; children are old enough to have college savings",
+    "height_in": null,
+    "weight_lb": 170,
+    "bodyfat_pct_self_reported": 12,
+    "training_background": "Lifelong lifter — did a bodybuilding show at 19, served in the Air Force. Trains at home six to seven days a week in a 10-to-20-minute morning window before leaving for work at six. Recently lost 10-12 lb and got below 12% body fat using intermittent fasting. Has done Savage Race, BoneFrog and Spartan obstacle races, considering Hyrox. Discovered Trevor's content a few weeks before the call and has been rotating four or five of his free YouTube workouts for two to three weeks. Also working a separate Australian mobility programme for deep squats.",
+    "kettlebell_experience": "some",
+    "medical": "Four labrum tears and four surgeries on the same right shoulder, the first at 21. Ongoing consequences: cannot perform a windmill on the right side, visibly sags on the right during two-arm and overhead pressing, and has 'some funny moves that won't do'. States it has improved recently and he can sleep on it. Also reports bruising his forearm learning kettlebell catches. Says he is otherwise unlimited: 'No, man. I'm blessed. I can do anything.'"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.8,
+    "signals": [
+      "Self-directed and fully capable — lifelong lifter with a home gym who programmes himself and has done so for forty years",
+      "Anchored to a free alternative that is genuinely working: he is already doing Trevor's YouTube workouts and enjoying them — 'I love it. It's really cool... I get a really good pump' — and framed the whole call as testing the increment: 'how much more will it get me over just... his workouts that he's posted a bunch of on YouTube'",
+      "Explicit cost-versus-value analysis, in his own professional vocabulary: 'I'm in sales, medical sales. I understand there's a difference between costs and value. His value is probably very highly valued, but do I really want to spend the cost?'",
+      "Weighed the spend against a substitute purchase rather than against nothing: 'Or would I be better off just... investing in some peptides for overall health and wellness'",
+      "Partial overlap with the_preserver — 59, four shoulder surgeries, retired once, and constrained by household allocation to investments and college savings — but his stated goal is to add mass rather than hold on to function, which is why the bargain-hunter read is primary"
+    ]
+  },
+  "goals": [
+    { "text": "Go from 170 to 175-180 lb and be more solid, without softening the midsection", "category": "muscle_gain" },
+    { "text": "Get from below 12% body fat down to 10%", "category": "appearance" },
+    { "text": "Look athletic with a shirt on or off, and stay that way at 60", "category": "appearance" },
+    { "text": "Bulletproof the shoulder and other joints", "category": "injury_prevention" },
+    { "text": "Play real baseball again next year at 60 after a four-year layoff, if the shoulder allows throwing", "category": "hobby_performance" },
+    { "text": "Do a Hyrox event rather than another Tough Mudder", "category": "hobby_performance" },
+    { "text": "Stay healthy and capable for life and show his children that the body is worth taking care of", "category": "family_role_model" },
+    { "text": "Keep getting a complete workout inside a 10-to-20-minute window", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Four labrum tears and four surgeries on the same shoulder, still causing weakness, sagging under press and inability to do overhead rotational work on that side", "category": "injury", "severity": "high" },
+    { "text": "Uncertain whether kettlebells can build muscle at all, and afraid of losing hard-won mass by switching to them", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Diet is average and undisciplined — describes eating what they want, snacking on ice cream, cake and cookies two to four nights a week", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Names sleep as one of his two biggest limiting factors", "category": "sleep", "severity": "medium" },
+    { "text": "Very narrow training window — up at four, out of the door at six, 10 to 20 minutes available", "category": "time_scarcity", "severity": "high" },
+    { "text": "Wife does the cooking and he will not ask her to change it", "category": "training_barrier", "severity": "medium" },
+    { "text": "Bad sweet tooth he has had to moderate for decades", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Lost ground during the two years after retiring at 55 — stopped supplements and trained less to save money", "category": "consistency", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "But my curiosity is, how much more will it get me over just... He's doing his workouts that he's posted a bunch of on YouTube. I love his workouts.",
+      "timestamp": "00:02:35",
+      "rep_response": "Never answered. The question was raised in the prospect's opening statement, restated at 00:30:35 as 'where would my money be better placed for what I can get out of them?', and at no point did the rep articulate what the paid programme does that the free videos do not.",
+      "response_tactic": "none_question_left_unanswered",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "when you look at his before and after pictures of all his guys, I look nothing like those guys... I'm the after guy, and even better than some of those guys. And I'm not bragging, I'm just saying, I feel like I've done pretty well... I don't have that big goal of like, oh my gosh, I can't fit my jeans anymore.",
+      "timestamp": "00:20:37",
+      "rep_response": "Broadly conceded it. The rep had already raised the same doubt himself — 'if there is no strong why behind that, I don't know if you need Trevor, actually' — and responded with a compliment about being the kind of dad who can still outperform his children's friends' fathers.",
+      "response_tactic": "concede_and_compliment",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm not even going to say, wow, let me think about it. That's way out of line for what I think I can really afford. mean, at this stage of my life, my wife would think, are you insane? We can put that toward investments or our children's college savings.",
+      "timestamp": "00:32:28",
+      "rep_response": "Accepted it immediately without any money play. No isolation, no financial picture, no payment plan and no financing were offered — the only call in the batch where no payment option of any kind was presented. The rep thanked him for the honesty and pivoted to the $200/month Skool community.",
+      "response_tactic": "accept_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "my wife would think, are you insane? We can put that toward investments or our children's college savings. And I'm like, yeah, you're probably right.",
+      "timestamp": "00:32:28",
+      "rep_response": "No OB play ran. It was presented as justification for a firm decision rather than as a deferral, and the rep did not test whether it was a real gate.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Attached to the six-month tier: 'there's also a guarantee to it. Because in six months, there's a lot of time that he can work with a client. So he guarantees that in those six months, you will add at least eight, 17 pounds to the baseline of the weight of the kettlebell. Yeah, if that wouldn't happen, and you would follow everything, he will work with you until you hit that.' The rep added 'I don't think anyone has this kind of guarantee in the market.' The figure was delivered ambiguously as 'at least eight, 17 pounds'.",
+    "prospect_financials": null,
+    "downsell_offered": {
+      "product": "Primal University — Trevor's Skool community",
+      "price_usd_monthly": 200,
+      "terms": "Cancel any time. Includes the full kettlebell and steel mace movement library, a three-month general (non-tailored) progressive programme and a weekly live workout session.",
+      "outcome": "Prospect agreed to receive information by email — 'That might be interesting... I can probably swing that for a little while' — but nothing was purchased on the call."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and immediate refusal, with the prospect pre-emptively ruling out a think-about-it: 'I'm not even going to say, wow, let me think about it. That's way out of line for what I think I can really afford.'",
+      "Reinforced when asked again: 'There are times I think about it and look at it and analyze and say, okay, I'll do it. But this one, I'm not, I won't even entertain that one on this one.'",
+      "He also rejected the premise, not just the price: 'I look nothing like those guys... I'm the after guy.'",
+      "Counter-evidence, minor: he accepted an email about the $200/month Skool community and said he could probably swing it, and he intends to keep using the free content. That is a possible future subscription, not a coaching sale.",
+      "No payment, no deposit, no follow-up call booked."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email information about Primal University (Skool community, $200/month). No coaching follow-up scheduled."
+  },
+  "notable": {
+    "note": "The prospect opened the call with one question — will kettlebell training actually build muscle, or will switching cost me the mass I have — and it was never answered across thirty-seven minutes. He then asked a second, safety-critical question about whether the windmill is 'a valuable exercise or one to leave alone' for a shoulder with four labrum repairs, and that was not answered either; the rep replied about learning to catch the bell. Separately, this is the only call in the batch where a prospect said he could not afford it and was offered no payment plan or financing at all, while prospects on the other four sales calls were each offered two to four options. To the rep's credit he twice risked the sale by challenging whether the prospect had a real why — 'if there is no strong why behind that, I don't know if you need Trevor, actually' — which is better process than the calls that closed."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion, particularly in the first three minutes where an extended prospect monologue about weights versus kettlebells is split mid-sentence across both labels ('Bench pressing. Yeah, I get it where kettlebells has an advantage' is attributed to the rep but is plainly the prospect continuing). At 00:20:37-00:20:54 'You're the after guy' is labelled to the rep and 'I'm the after guy' to the prospect, which is correct, but the surrounding lines invert. At 00:36:02 'What country are you in, man?' is labelled to the prospect and 'Poland' to the rep, both correct, again confirming the rep is the Poland-based Andrew. The prospect's location is never stated and has been left null; US context is implied by Air Force service, Church League softball and Tough Mudder but was not said."
+  }
+}

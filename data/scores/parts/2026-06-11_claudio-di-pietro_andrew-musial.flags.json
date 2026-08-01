@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-06-11_claudio-di-pietro_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The prospect disclosed a ten-day-old back injury he has never had assessed and has already worsened by training too early; the rep raised the possibility of a disc himself and then presented, priced and downsold without ever making medical clearance a condition.",
+      "evidence": [
+        "There was a very heavy bucket full of water and I lift it without squatting. I heard my back like sort of pop",
+        "To be honest with you, I didn't have to check it out yet. I was hoping the rest would be sufficient.",
+        "as soon as I get a little bit better, but not enough better, I go back to training. So I went for a run and I think it was the worst possible idea ever. And the day after, my back got way worse than when I initially got injured.",
+        "But did you check the back? Like what happened? Like, did you go to the doctor or...? — No, I didn't, to be honest.",
+        "So, because with this back thing, it sounds to me like it may be something like a disc could be.",
+        "So in order to, for us and for Trevor to get you to your goals, the investment is $6,000 USD."
+      ],
+      "timestamp": "00:01:49"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "After the $6,000 failed on affordability, the rep moved a prospect with an active unassessed spinal injury and no kettlebell experience onto an unsupervised self-paced programme with no form correction, after the prospect explicitly asked whether he could learn the movements safely alone.",
+      "evidence": [
+        "Now, I'm going to be upfront, this is not one-on-one with Trevor like I covered, yeah?",
+        "Now, there is a caveat, like this is not specifically designed to you.",
+        "I'm gonna ask you up front, how hard are these movements and… But do you think it's still easy enough to learn by myself without someone correcting me?",
+        "yeah, you think it's without someone correcting, am I going to learn the right movements by myself? That's the question basically.",
+        "I think it's possible under one condition, that you leave this mentality like, oh, if something hurts, like, ah, it. It just hurts. Like, listen to your body.",
+        "So at the very beginning, those are very simple ones, like the swing, the squat, and what else is there? Swing, squat, press"
+      ],
+      "timestamp": "00:55:37"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A second product, Primal University on Skool, was offered at $200 per month cancellable any time or $2,000 paid annually — prices that appear nowhere in the $6,000/6mo or $9,000/12mo structure — deployed as a live downsell when the core offer failed on affordability.",
+      "evidence": [
+        "on that platform, Trevor also has his platform, which is called Primal University. It's a self-paced, like kind of a program where you will find all the movements of kettlebells",
+        "it's like $200 per month. You can cancel any time, or if you want to, like, get a discount, you can pay, like, for the whole year, and it's gonna be, it's gonna be only $2,000",
+        "there is a way that could fit fit your budget",
+        "Once a week, there is a live coaching training with Trevor. Yeah? Like a live workout. So you can, like, it's also like a form of a Q&A"
+      ],
+      "timestamp": "00:57:18"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep attributed the prospect's recurring injuries to a suspected protein and vitamin B12 deficiency, offering a nutritional-deficiency explanation for a musculoskeletal problem with no basis and no testing.",
+      "evidence": [
+        "There may be some insufficiencies in protein and B12, maybe, the vitamin.",
+        "And also it can be related with the, why you're getting so many small, but injuries.",
+        "That's why I would love to know, to have an answer for this. I have no idea. I've asked myself this question many times."
+      ],
+      "timestamp": "00:40:12"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "No performance guarantee was mentioned on this call at all, while the same rep stated an unconditional eight-kilo guarantee to one prospect and a conditional version with a 95% attendance requirement to another, all on the same day.",
+      "evidence": [
+        "No guarantee appears anywhere in this transcript; the price was stated bare — \"the investment is $6,000 USD\" — with no results promise attached.",
+        "Same rep, same day, to Tamar (2026-06-11_tamar_andrew-musial): \"we guarantee your results... the guarantee is that after six months, you will add at least eight kilos to your starting baseline.\"",
+        "Same rep, same day, to David (2026-06-11_david_andrew-musial_2): \"If in those six months you won't add at least eight kilos to your baseline kettlebell, he will train with you until you do... If you add that, you eat clean, how he teaches, and you show up like 95% of the time, the results are guaranteed.\""
+      ],
+      "timestamp": "00:50:06"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts speakers throughout including the entire financial-picture sequence.",
+      "evidence": [
+        "00:52:51 - Andrew Jin (Primal Instinct) — About half that?",
+        "00:52:58 - Claudio Di Pietro — Okay. Okay.",
+        "00:54:02 - Claudio Di Pietro — Probably a bit more. It's just $200 maybe."
+      ],
+      "timestamp": "00:52:51"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-05-27_jared-lyons_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved from $6,000 for six months to $4,000 for three months to $1,500 for one month in roughly four minutes on hesitation alone, against a prospect who had already said the money was not the obstacle.",
+      "evidence": [
+        "So Trevor is going to work with you for six months, and the investment for that is only 6K.",
+        "We don't have two months, to be fair. We have, like, three months. / How much is that? / Three months is 4K.",
+        "it's not even like the $4,000. I spend way more on stupid all the time. But it's just, for what I want",
+        "Yeah, so for three months, that would be 1,500."
+      ],
+      "timestamp": "00:19:44"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a 30-day paid trial with a named guarantee on the call — 'love it or leave it' at $1,500 — with no refund mechanics, terms or conditions stated, one day after sales operations told him unapproved payment structures were out of policy.",
+      "evidence": [
+        "Would you be down for, like, 30 days just checking how it works? And if you're satisfied with that, you would move on? If not?",
+        "We call it love it or leave it.",
+        "you get a full month, you check it out, how it's, if it fits your needs or not, and afterwards, you can leave if you don't like it.",
+        "No, that's not generally an option that we offer."
+      ],
+      "timestamp": "00:23:05"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "An off-menu three-month tier at $4,000 was quoted, the second appearance of this unlisted tier in the same rep's calls within three days.",
+      "evidence": [
+        "We don't have two months, to be fair. We have, like, three months.",
+        "Three months is 4K.",
+        "And is that paid monthly or that's paid up front? / That's paid up front."
+      ],
+      "timestamp": "00:20:06"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep offered '1,500' for what he called three months and the prospect agreed to that figure before it was corrected to one month, so agreement was obtained on terms that were not the terms.",
+      "evidence": [
+        "Yeah, so for three months, that would be 1,500.",
+        "Yeah, I think that would work.",
+        "So explain to me, so it's 1,500 and what does this cover?",
+        "Yeah, you get a full month, you check it out"
+      ],
+      "timestamp": "00:23:31"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed two labral tears, one in each shoulder, managed with stem cell injections instead of surgery and still painful under volume, and was presented overhead ballistic kettlebell training with no question about clinical clearance.",
+      "evidence": [
+        "I had two tears in each labrum with my shoulders. / I ended up getting stem cells instead of surgery. It helped with that.",
+        "I think like when I'm doing like a ton of volume and a ton of reps, then I'll start to like have a little pain.",
+        "I got a metal bar and eight screws in my right leg.",
+        "So basically, like, but if you would have to say like, would it be like getting stronger or like overall mobility type of thing?"
+      ],
+      "timestamp": "00:01:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker labels invert through the injury disclosures and the price exchange, and the price line transcribes ambiguously as both 6K and 5K, so no figure in this transcript can be attributed from labels alone.",
+      "evidence": [
+        "00:19:57 - jaredlyons  \\n How much? 6K.",
+        "00:19:58 - Andrew Jin (Primal Instinct)  \\n 6K. 6K. 5K. 5K. What if I don't want to do six months?",
+        "00:04:59 - jaredlyons  \\n Not anymore. camera anymore. No I used to play pretty competitively in lacrosse until I got hurt."
+      ],
+      "timestamp": "00:19:57"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "call_id": "2026-06-11_patrick-soldow_andrew-musial",
+  "source": {
+    "drive_file_id": "1maf8l5KBwBs4ANhmVxaGWmDl7xu8Fmgs",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/11/2026 - Patrick x Andrew",
+    "display_title": "06/11/2026 - Patrick x Andrew — Closed",
+    "file_size_bytes": 27110
+  },
+  "call": {
+    "date": "2026-06-11",
+    "stage": "onboarding",
+    "sequence_position": 2,
+    "sequence_note": "Picks up an already-agreed sale. The rep opens with \"How was the sale?\" about the prospect's house closing, then \"right now you're cool on taking it all upfront, you don't need the finance\" — both refer back to a prior closing call where the offer was presented and payment was deferred until the house sold. No discovery is repeated on this call.",
+    "duration_min_est": 26,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "Title carries no KFS/KL/DH suffix and no setter is referenced anywhere in the transcript."
+  },
+  "prospect": {
+    "name": "Patrick Soldow",
+    "aka": "Pat Soldow",
+    "name_source": "title",
+    "location": "Denver, Colorado, USA (Mountain time); born in New Mexico, studied at CU Boulder",
+    "age": null,
+    "occupation": "Self-employed business owner with an LLC; flips single-family homes as a side business and holds a portfolio of three rentals plus Airbnb; wife is a real estate agent",
+    "family_status": "Married, two sons; recently obtained Luxembourg dual citizenship which his sons will also hold",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former athlete — \"Back when I was playing sports, I got to a certain point, and I've had aspirations to get to a physique like Trevor's, and started that path, was starting, and then I had the kids, and got derailed.\" Long-time follower of Trevor's videos.",
+    "kettlebell_experience": null,
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "\"I know I want to get to where I was, and then surpass that, and I know I can do that with this\" — the defining rebuilder shape: ground lost to a life season, wanting a former self back",
+      "\"then I had the kids, and got derailed\" — names the hard season explicitly",
+      "\"Having somebody there to hold me accountable and push me, that's the biggest piece missing\" — the gap he names is structure, not knowledge",
+      "Counter-signal toward the_optimizer: self-employed, multiple income streams, paid in full upfront with no price resistance at all"
+    ]
+  },
+  "goals": [
+    { "text": "Get back to the physique he had as an athlete and then go past it — \"I know I want to get to where I was, and then surpass that\"", "category": "appearance" },
+    { "text": "\"This is necessary for me for what I need to do, what I'm trying to accomplish, and my life for myself, for my family\"", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Started down the path toward the physique he wanted and lost it when his children arrived — \"then I had the kids, and got derailed\"", "category": "consistency", "severity": "medium" },
+    { "text": "\"Having somebody there to hold me accountable and push me, that's the biggest piece missing\"", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "So Trevor only takes on what, like 20 guys a month? ... How does he continue to manage those month over month as he's adding more people?",
+      "timestamp": "00:04:30",
+      "rep_response": "Explained that coaching is all Trevor does, that admin is handled by a team — \"there's a bunch of guys, too, taking care of you\" — and that client load is sustainable because clients need less contact over time: \"You're going to be more self-sufficient every single month... You won't need as much hand-holding.\" Later set response-time expectations at around 24 hours.",
+      "response_tactic": "capacity_reframe_via_declining_support_need",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Financing had been available and was declined — \"right now you're cool on taking it all upfront. You don't need the finance.\" He paid in a single card payment, choosing a credit card deliberately: \"I really, at the end of the day, wanted to use a credit card so I can, you know, earn some miles.\"",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.98,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment confirmed by the rep in real time — \"I just saw that payment went through\"",
+      "Client agreement read through clause by clause and signed on the call — \"Signature, sign, finish. All right. That's all signed.\"",
+      "Onboarding call with Trevor booked for Monday 15 June at 3:15pm Mountain, invitation confirmed received",
+      "Skool community join initiated on the call — \"Membership is pending for school\"",
+      "Amount recovered from the sales team meeting the next day (2026-06-12_sales-team-meeting_chris-klevan): the rep reported \"one piff\" of $6,000 among that week's five units, and separately identified the prospect who paid in full as the one who asked about merchandise — \"the guy that piffed yesterday, he was actually asking why Trevor is not selling any merch\" — which is unambiguously this call. Chris Klevan confirmed: \"You say you got a piff yesterday for 6K?\"",
+      "Counter-evidence for cash reporting: no price figure is stated anywhere in this transcript itself, so the amount is corroborated cross-call rather than recorded here",
+      "Counter-evidence for fulfilment: the promised TrueCoach app access was not in the welcome email and the rep did not know why — \"Okay, I'll get back to you on all that\""
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "paid_in_full_recovered_from_team_meeting",
+    "next_step": "Onboarding Zoom with Trevor on Monday 15 June at 3:15pm MT; client to complete the onboarding form before it; rep owes him TrueCoach app access, which never arrived."
+  },
+  "notable": {
+    "note": "The most useful thing in this file is the client agreement being read aloud almost in full, which puts the contract terms on the record: services are the onboarding call, an optional group workout, weekly check-in form submissions, one-to-one text and voice notes with Trevor, Primal nutrition, mobility and flexibility, a workout log, community access and a performance reward credit worth \"500 bucks towards the three grand of the additional\" six months. Exclusions named: medical advice, psychological counselling, coach's right to modify the programme, NO REFUNDS, non-transferability, waiver release and a medical disclaimer. The no-refunds clause directly contradicts the scripted OB objection play, which offers \"put down a deposit, go talk to her, full refund if she says no\". Also on record: an injury mid-programme pauses and extends the six months, Trevor takes roughly 20 new clients a month and has over a thousand men in the community, and the rep has never met Trevor in person and was hired by someone else on the team. Process quality on this call was markedly better than the same rep's other close the same day — the agreement was genuinely walked through rather than waved past."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion. The opening line \"There he is, big man. What's up, Andrew?\" is attributed to the rep but is plainly the client greeting Andrew, and long stretches of the rep's explanations sit under the Pat Soldow label while the client's questions sit under the rep label. Role was read from content throughout. The rep's speaker label is again \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder."
+  }
+}

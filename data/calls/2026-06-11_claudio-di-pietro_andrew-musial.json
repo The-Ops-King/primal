@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-06-11_claudio-di-pietro_andrew-musial",
+  "source": {
+    "drive_file_id": "1ipoFwM7oceX8tqNUWSpV5l-Veh2pIoL6",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/11/2026 - Claudio Di Pietro x Andrew Musial KL",
+    "display_title": "06/11/2026 - Claudio Di Pietro x Andrew Musial KL — Follow Up",
+    "file_size_bytes": 56846
+  },
+  "call": {
+    "date": "2026-06-11",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Second contact overall. A setter call with Kyla took place a few days earlier and the rep opened by reading those notes back — \"So I went through everything that you covered with Kyla the other day\" — but this is the first conversation with the closer and the first time the offer was presented.",
+    "duration_min_est": 61,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Named four times by the rep, who read her notes back in detail: \"So I went through everything that you covered with Kyla the other day\", \"Kyla also mentioned that you work in IT, right?\", \"Kyla mentioned that you are vegan or vegetarian\". The prospect confirmed the handoff and referenced her himself: \"I didn't mention it to Kyle\"."
+  },
+  "prospect": {
+    "name": "Claudio Di Pietro",
+    "aka": null,
+    "name_source": "title",
+    "location": null,
+    "age": 34,
+    "occupation": "IT, fully sedentary — three days of six hours and two days of nine hours a week. Wants to leave it: \"I would like to switch jobs and do something more physical\", ideally farming.",
+    "family_status": "Lives with his girlfriend in the countryside near a farm they buy produce from; no children yet but planning them; they keep two horses together",
+    "height_in": 66,
+    "weight_lb": 138,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Stated in metric on the call as 167 cm and 62.5 kg. Sedentary until around age 24, then ten to eleven years of consistent training. Currently gym three times a week for an hour to ninety minutes on a dumbbell body-part split, runs twice a week (5-10k), and horse rides both weekend days. Ran the Valencia marathon last year and does not intend to run another. Stopped barbell squats and deadlifts several years ago after hearing about people injuring themselves; historic deadlift max around 80 kg. Spent a year with a personal trainer doing Olympic rings and muscle-ups until that trainer moved to Dubai. Added a self-taught 10-12 minute morning mobility routine which he says made a large difference. No kettlebell experience.",
+    "medical": "An acute and entirely unassessed back injury. Ten days before the call he lifted a heavy bucket of water without squatting and heard his back pop. He never saw a doctor — \"To be honest with you, I didn't have to check it out yet. I was hoping the rest would be sufficient\" — rested about a week, resumed running while still not recovered, and made it substantially worse: \"the day after, my back got way worse than when I initially got injured.\" He feels it daily. The rep himself raised the possibility of a disc. Beyond that, a three-to-four-year pattern of recurring minor injuries beginning around age 30, each costing one to two weeks off, cause unknown to him. A previous shoulder injury treated for two months with no perceived benefit. No surgeries."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Textbook good-to-great framing: ten years of consistent training, a marathon completed, and a plateau he wants broken — \"I sort of hit a plateau with how much weight I lift... I don't feel pumped at all\"",
+      "Health is already a stated top priority: \"it's one of my priorities, and it should be everyone's priority to take care of your body. I would feel stupid not to do it\"",
+      "Wants refinement rather than rescue — mobility, intensity and time efficiency, explicitly not size: \"definitely not planning on getting huge\"",
+      "The avatar breaks on price, and badly. The definition assumes price is a quality signal rather than a barrier; here the financial picture was $3,000 in savings, roughly $200 a month spare, no credit card and no investments. Physiologically an optimizer, commercially not one at all."
+    ]
+  },
+  "goals": [
+    { "text": "Regain mobility lost over the past two years — the one thing he would change: \"probably more mobile, I would say. If it's just one thing\"", "category": "mobility" },
+    { "text": "Get real intensity back into training so a session feels like it did something — \"I would like to feel tired... feel like my body did something\"", "category": "energy_performance" },
+    { "text": "Stop the cycle of small recurring injuries — \"and less small injuries along the way\"", "category": "injury_prevention" },
+    { "text": "Train in 30-45 minutes at home in the garden instead of ninety minutes at the gym plus travel, as life gets busier approaching 35 and children", "category": "convenience" },
+    { "text": "More energy, which he links directly to happiness — \"I would say happiness. I don't know why I would like to say that\"", "category": "energy_performance" },
+    { "text": "Own a routine he can confidently keep for many years after the six months — \"I don't want to be back to square one. I want to have the tools to continue with the training by myself\"", "category": "sustainability" },
+    { "text": "Shed some body fat and look more defined, explicitly secondary", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Acute back injury ten days old, never medically assessed, made worse by returning to running too early — \"my back got way worse than when I initially got injured\"", "category": "injury", "severity": "critical" },
+    { "text": "Three to four years of recurring small injuries with no known cause — \"That's why I would love to know, to have an answer for this. I have no idea. I've asked myself this question many times\"", "category": "injury", "severity": "high" },
+    { "text": "Cannot stop training long enough to heal — \"as soon as I get a little bit better, go back to training and I'm back to square one... it's hard for me not to be physical at least once a day\"", "category": "training_barrier", "severity": "high" },
+    { "text": "Plateaued for eight to twelve months on weights and no longer gets any training response — \"I don't feel rested, but I don't feel pumped at all\"", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Mobility measurably declining — can no longer touch his toes, which he could before", "category": "aging", "severity": "medium" },
+    { "text": "Sessions take ninety minutes plus travel, which is becoming unsustainable as life gets busier at 35", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Bored of his own programming despite varying it — \"Lately, I'm a bit bored\"", "category": "motivation", "severity": "medium" },
+    { "text": "Dropped squats and deadlifts entirely out of fear after hearing injury stories, removing the main lower-body lifts from a decade of training", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Sedentary all his working life and wants out of desk work altogether", "category": "work_stress", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_medical",
+      "raw_quote": "I would like to start when I feel good with my back. Obviously, that's… I want to start when I'm completely good with my body and I know I can commit for like six months doing everything.",
+      "timestamp": "00:49:33",
+      "rep_response": "\"Okay. We can work around that. No worries.\" He then moved straight into the price rather than establishing what \"working around it\" would actually mean, and did not attempt the not-the-right-time play — correctly, since it is a medical deferral rather than procrastination.",
+      "response_tactic": "acknowledge_and_proceed_to_price",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "to be honest, it's a high investment for me. I always expect, I'm just completely honest, I was expecting a bit less, so I would need to think about it.",
+      "timestamp": "00:50:37",
+      "rep_response": "Isolated immediately and cleanly — \"is it the money thing or you're not just money\" then \"You sure? There's nothing else? Only the financial side of things?\" — confirmed it was purely financial, normalised a non-upfront route, secured consent for an open financial conversation, and worked through cash on hand, monthly surplus, credit cards and investments in order.",
+      "response_tactic": "isolate_then_full_financial_picture",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "And so I've got to figure out if I can afford it or not.",
+      "timestamp": "00:51:21",
+      "rep_response": "Established $3,000 available, roughly $200 a month spare, no credit card and no investments. Concluded no payment plan could bridge the gap and instead offered a different, cheaper product — Trevor's self-paced Skool programme, Primal University, at $200 per month or $2,000 for a year.",
+      "response_tactic": "downsell_to_self_paced_product",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "my mind, just the unconscious thought was like, three times a week, 30 to 40 minutes, is it enough?",
+      "timestamp": "00:48:46",
+      "rep_response": "Answered with a personal assurance rather than a scripted move — \"Brother, believe me, if it's not going to be enough, I will give you my personal WhatsApp and you're going to text me like, dude, you said this.\"",
+      "response_tactic": "personal_assurance",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "you think it's without someone correcting, am I going to learn the right movements by myself? That's the question basically.",
+      "timestamp": "00:59:50",
+      "rep_response": "\"I think it's possible under one condition, that you leave this mentality like, oh, if something hurts, like, ah, [ignore] it. It just hurts. Like, listen to your body.\" He then pointed to the community and Trevor's interaction in it. No suggestion of professional assessment, despite the prospect carrying an unassessed acute back injury.",
+      "response_tactic": "conditional_reassurance_plus_community",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan was structured, and correctly so — the financial picture showed it could not be bridged. The rep normalised the idea (\"Most of the clients that we work with just put it on a credit card and have it out of their way. But for some, if there is like a financial obstacle, we can work our ways around that\") and was explicit that nothing standard exists: \"We don't have anything set in stone, like any plan.\" Having found $3,000 in savings, about $200 a month spare, no credit card and no investments, he pivoted to a different product instead of discounting the core offer: Trevor's self-paced Skool programme, Primal University, at $200 per month cancellable any time or $2,000 paid annually. That product includes the movement library, a nutrition plan, six months of programming, a tracking sheet, a weekly live coaching session with Trevor and community access, but explicitly no one-to-one coaching and no form correction.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 3000,
+      "monthly_surplus_usd": 200,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no commitment obtained for either product",
+      "Explicitly deferred — \"I can definitely check it out and think, think about it and about everything you said and everything, basically\"",
+      "Rep agreed to send information by email: \"I'll prepare you like all the information and send you via email... Over the weekend, then let me know what your thoughts are\"",
+      "Two blockers remain live and independent: he cannot afford $6,000, and he will not start until his back is right",
+      "Counter-evidence toward eventual conversion on the cheaper product: strong stated intent — \"I really want to do this and it felt everything I was looking for. So yeah, definitely want to do it\" — and he confirmed the only obstacle was money"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email details of Primal University; prospect to respond over the weekend. Any start is gated on his back recovering."
+  },
+  "notable": {
+    "note": "Two things a principal should see. First, the clinical picture: an unassessed acute back injury ten days old that he has already aggravated once by training too soon, with the rep himself speculating about a disc, and no clearance ever made a condition of anything. When the $6,000 failed on affordability the rep routed him to a self-paced, unsupervised programme — and the prospect immediately and correctly asked whether he would learn the movements safely without correction. Second, the pricing: Primal University at $200/month or $2,000/year is a real product line that appears nowhere in the $6,000/$9,000 structure and is being used as a live downsell. Also worth noting, no guarantee was mentioned on this call at all, whereas the same rep stated an unconditional eight-kilo guarantee to one prospect and a conditional one to another on the same day. On the positive side this was easily the rep's best-run call in the batch: setter notes read back properly, a complete baseline, a genuine two-year consequence question, a real commitment check, and a full and honest open-wallet conversation that ended in no discount."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained inversion. Large parts of the rep's presentation are attributed to \"Claudio Di Pietro\" and many of the prospect's answers appear under the rep label — for example the height and weight exchange around 00:05:54 and the entire financial-picture sequence from 00:52:51, where questions and answers alternate under the wrong labels. Several turns merge both speakers. Role read from content only. The rep's speaker label is \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder. Note also that the prospect's country is never stated anywhere in the call, so location could not be recovered."
+  }
+}

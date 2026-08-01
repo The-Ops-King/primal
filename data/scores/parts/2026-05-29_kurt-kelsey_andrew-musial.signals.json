@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-29_kurt-kelsey_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "After the three-to-four sessions of 30-40 minutes plus tailored mobility pitch: 'I think so. Yeah. And it, to me, like it's a little bit more flexible as well.' He worked out the practical implication himself — being able to train in the morning or after work — and asked a mechanics question about kettlebell weights rather than pushing back."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The rep pitched a '10 to 8 hour window of eating'; the prospect restated it back differently to check — '10 to 12 hour window. I basically start, whenever I start eating, I have like 10 to 12 hours to finish eating for the day.' The number was left inconsistent and uncorrected. He had already told the rep he eats clean, so the pillar landed as confirmation rather than new value."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'I mean, it sounds interesting. Yeah. I like it.' He had named accountability as his own root cause earlier, and the rep tied the pillar directly to it ('you won't be able to blame it on your dog'), but the prospect did not volunteer any elaboration or tie it forward to the baby."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I think my gym bill right now monthly is like 160 bucks a month. like No. Arguably, that could be considered pretty high. I have a feeling this is going to be even higher",
+      "direction": "undercuts_price",
+      "competitor": "Local group fitness gym (Hyrox-style)",
+      "note": "Stated before the price and unchallenged. He treated $160/month as already at the top of the market, so $6,000 read as roughly six times what he thought expensive looked like."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I was thinking it would be, like, at the level of, like, 1,000. I for six months or a year, but that's basically what I'm paying now at the gym, so that's why I was like, okay, maybe it's like double what I pay at the gym, and it's like $1,000 for six months, essentially, not $6,000 for six months.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A 6x gap between expectation and offer, stated explicitly. He also volunteered 'I did no research in terms of, like, what personal coaches and all that kind of stuff really cost' — an anchor formed by absence of information, which is the setter's job to pre-frame."
+    },
+    {
+      "type": "competing_capital_spend",
+      "raw": "that is like, uh, uh, like a huge, probably like a quarter of what we're trying to spend on like our new addition for the, for our third bedroom",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The $6,000 was measured against a home extension budget for the incoming baby, not against health spending. The same life event the rep used to build urgency was also the competing claim on the money."
+    },
+    {
+      "type": "existing_low_cost_coaching",
+      "raw": "she found some trainer that she bought a couple of his, like, workout regimes ... Anyway, she's been taking his courses in the backyard",
+      "direction": "undercuts_price",
+      "competitor": "An online trainer his wife buys programmes from",
+      "note": "The household already has a working model of buying cheap prescribed programmes and executing them at home, which is precisely the reduced-scope product he kept asking for."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A programming-only tier — prescribed kettlebell workouts for a few months at different weights, without meal planning, weekly check-ins or 24-7 access to Trevor",
+      "why_unmet": "The offer as presented is a single 1:1 white-glove service at 6 or 12 months. Primal University at $200/month is close to what he described but was only surfaced after he had already declined, and was framed as a consolation ('you would have to set it up for yourself').",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on which kettlebell weights to buy before committing money to the programme",
+      "why_unmet": "The rep declined to assess ('I don't want to assess right now') and deferred to the onboarding call, so an equipment cost the prospect would have to fund on top of $6,000 was left open at the moment of the price.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

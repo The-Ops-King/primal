@@ -1,0 +1,143 @@
+{
+  "call_id": "2026-07-01_martin_andrew-musial",
+  "source": {
+    "drive_file_id": "1dFx1CmiHXH6g261XJuiWElaz_dLUr_wD",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/01/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/01/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 67381
+  },
+  "call": {
+    "date": "2026-07-01",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 67,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No KFS/KL/DH suffix in the title and no setter named on the call. An application exists — \"I've seen your application, and now I'm kind of an old-school guy and would like to hear it from you\" — and the prospect had already read pre-call material: \"I've been reading a little bit of the material that you guys provided about fasting.\""
+  },
+  "prospect": {
+    "name": "Martin",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Stockholm, Sweden (six years); originally from Peru, mother is Swedish",
+    "age": 33,
+    "occupation": "Chef for 18 years, head chef for 12, with time in several of the world's top-ranked restaurants. Currently opening his own restaurant in Stockholm, due in about two months. Not employed during the build — \"I don't have a job right now, so it's just like I'm using all my savings.\" The build has been sedentary, unlike his normal working life of 30,000 steps a day over five or six days a week.",
+    "family_status": "Long-term girlfriend, actively discussing children; two pregnancy scares in recent months. His own father was 48 and his mother 40 when he was born, and he has essentially no memories of physical play with them.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former competitive swimmer on the Peruvian national team, plus rollerblading, football and surfing when younger. Had a personal trainer in the United States doing functional bodyweight work and enjoyed it. Enjoyed calisthenics because the progress transferred to real life. Lifelong yoga background — his father is a yoga teacher and trainer of teachers. Went to a gym five days a week for nine months last year and saw essentially no change, then stopped. Has tried kettlebells a handful of times, only basic swings, and suspects he was doing them wrong. Restarted push-ups and sit-ups the week of the call after months of nothing.",
+    "kettlebell_experience": "some",
+    "medical": "Extensive and active. Cervical spine injury from a handstand fall in a yoga class — he could not walk afterwards, was driven to hospital, had an MRI, and was told his neck had shifted slightly to the right; rehabilitation has never fully resolved it. Right shoulder cannot be raised more than a limited range; one doctor diagnosed arthritis in the shoulder and injected cortisone into the bursa, which helped partially; his chiropractor believes the lats are frozen and has been treating him for several months. Earlier rollerblading accident that required arm surgery. Chronic back pain with sciatica flaring roughly every six weeks for years. Chronic severe IBS for half his life. Fourteen stomach ulcers last year from mixing naproxen, ibuprofen and paracetamol to function through pain. Describes his baseline as \"I live in pain, perpetually, constantly, every single second of every single day.\" No height, weight, sleep or energy data was ever taken."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Former national-team athlete who has lost the body he had: \"I never needed to go to the gym to stay lean... and now I'm kind of like skinny, fat, dad bodish kind of thing, and I don't like it\"",
+      "A specific hard season he can date — eighteen months building a restaurant, plus \"I was in a really bad place, like, four years ago. Like, the worst of the worst of the worst of the places\"",
+      "Visible regret and urgency: \"it's now or never\" and \"I've been really serious with myself and being like, you need to get your together\"",
+      "Heavy overlap with the_medically_constrained — a cervical spine injury, a shoulder he cannot lift, cortisone, chiropractic care, sciatica and IBS are exactly that avatar's profile. The reason it is not assigned is that nothing here constrained the sale: no clinician was consulted and the deal closed on the call",
+      "Also overlaps the_prehab_fighter in motivation — training against a hard deadline, the restaurant opening in two months — without the acute diagnosis that avatar describes"
+    ]
+  },
+  "goals": [
+    { "text": "Be physically strong enough to survive the restaurant opening and long kitchen days without collapsing", "category": "strength" },
+    { "text": "Get out of constant pain and feel free in his body again", "category": "longevity_function" },
+    { "text": "Recover shoulder range of motion — currently cannot raise his right arm past a limited point", "category": "mobility" },
+    { "text": "Be a functional father — pick his kids up, hike with them, get on the floor and play, explicitly unlike his own elderly parents", "category": "longevity_family" },
+    { "text": "Lose the skinny-fat, dad-bod shape and love handles he has developed", "category": "fat_loss" },
+    { "text": "Make training a permanent habit rather than another nine-month attempt", "category": "sustainability" },
+    { "text": "Train at home in a two-by-two space instead of a gym he actively dislikes", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Cervical spine injury from a handstand fall — could not walk, MRI showed the neck had shifted right, never fully rehabilitated", "category": "injury", "severity": "critical" },
+    { "text": "Right shoulder cannot be raised; diagnosed arthritis, cortisone injected into the bursa, ongoing chiropractic treatment for frozen lats", "category": "injury", "severity": "critical" },
+    { "text": "Constant, unremitting daily pain — \"I live in pain, perpetually, constantly, every single second of every single day\"", "category": "medical", "severity": "critical" },
+    { "text": "Chronic severe IBS for half his life, worsened by stress, dictating what and when he can eat", "category": "medical", "severity": "high" },
+    { "text": "Sciatica flaring roughly every six weeks for years", "category": "injury", "severity": "high" },
+    { "text": "Fourteen stomach ulcers last year from stacking NSAIDs to get out of the door", "category": "medical", "severity": "high" },
+    { "text": "Cannot train around the shoulder — leaves the gym in real pain rather than soreness, so he stops going", "category": "training_barrier", "severity": "high" },
+    { "text": "Hates the gym environment and got nothing from nine months of attending five days a week", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Eighteen months of restaurant-build stress with none of his usual 30,000 steps a day", "category": "work_stress", "severity": "high" },
+    { "text": "Lifelong difficulty staying consistent — \"if I'm just by myself, I find all the excuses that you can find\"", "category": "consistency", "severity": "high" },
+    { "text": "No income during the build, savings being consumed by the restaurant, and rent to cover", "category": "other", "severity": "high" },
+    { "text": "Grew up with elderly parents and has no memories of playing with them; determined not to repeat it", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "6,000 USD. Yes, correct. I can't do that right now, unfortunately.",
+      "timestamp": "00:46:44",
+      "rep_response": "Asked whether the budget was tight, gave the upfront-payment norm and the custom-plan framing, and used the groceries line — \"last thing Trevor would like from you is to, you know, like get in the program, but not having something to buy groceries.\" Asked none of the financial-picture questions. Then messaged a manager mid-call and returned with a single option: six monthly payments of $1,200 with interest, $7,200 total.",
+      "response_tactic": "escalate_for_terms_and_present_single_interest_bearing_plan",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I'm putting all my money on the restaurant. So that is a little bit out of what I can do.",
+      "timestamp": "00:47:00",
+      "rep_response": "Acknowledged it — \"obviously, if you're opening up a restaurant, that's like you said, you're putting up also a lot of money towards that\" — and then closed on the most expensive available structure without exploring a smaller or deferred one.",
+      "response_tactic": "acknowledge_and_proceed",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "note": "\"the whole transformation takes six months for Trevor to work with you, yeah? Investment for that is 6,000 USD.\" Declined as unaffordable." },
+      { "months": 6, "price_usd": 7200, "note": "Off-menu and the structure actually sold: six monthly payments of $1,200 described as carrying interest — \"if you want to split it into six months, month by month, we can do it. But there's going to be some interest on that. So it's going to turn out, like, 1,200 per month.\" $1,200 above list. Sourced by the rep messaging a manager mid-call." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Six monthly payments of $1,200, total $7,200, explicitly interest-bearing and administered internally rather than through a lender: \"But then you don't have to use your, like, credit score or anything. Like, it's just, like, internal.\" First payment taken live via bank-app authorisation. No no-interest structure was offered or mentioned, although the same rep presented one ($3,000 down plus $1,000 a month for three months, total $6,000) to a different prospect on the same day.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Nothing was asked. Everything known was volunteered by the prospect and is negative: no job during the restaurant build, savings being consumed by it, no credit card (\"I don't have a credit card even here. I don't use credit\"), and an explicit rent concern — \"I can't then not have money to pay my rent.\""
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment authorised and completed live through his Swedish bank app: \"All right. It's all done\" and \"So it went through.\"",
+      "Onboarding call with Trevor booked for Monday 6 July at 7:15pm; the prospect confirmed the invite arrived — \"Let me check. No, I haven't got it yet. Oh, now I did.\"",
+      "Second email with the agreement and the Skool community invitation confirmed, plus an onboarding form to complete before the Trevor call. WhatsApp numbers exchanged and a message confirmed received.",
+      "Counter-evidence: the agreement was not signed on the call — \"just sign the agreement before the meeting with Trevor.\"",
+      "Counter-evidence on terms: what was sold is $7,200, not the $6,000 offer, and the prospect declined the list price outright before the alternative was constructed.",
+      "Counter-evidence on suitability: the buyer is unemployed, funding a restaurant from savings and worried about rent, and no financial-picture questions were asked before an interest-bearing six-month commitment was taken."
+    ],
+    "cash_collected_usd": 7200,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor at 7:15pm on Monday 6 July. Prospect to sign the agreement, complete the onboarding form and join the Skool community beforehand. Five further monthly payments of $1,200 to follow."
+  },
+  "notable": {
+    "note": "The most serious call in the batch on every axis. On process it is the rep's best work — the only consequence frame he ran in five sales calls, the best past-attempts phase, a commitment check that explicitly named the prospect's own inconsistency as a yellow flag, and a near-complete P11. On everything else it is the worst. The buyer disclosed a cervical spine injury that left him temporarily unable to walk and shifted his neck, a right shoulder he cannot raise with diagnosed arthritis and a recent cortisone injection into the bursa, chronic sciatica, chronic severe IBS and fourteen NSAID-induced stomach ulcers last year, and said he lives in constant pain every second of every day. He was then sold loaded kettlebell training without a single question about whether any clinician had cleared him — the nearest thing on the record is his chiropractor advising him generally to get back to the gym. He was also sold while unemployed, spending savings on a restaurant opening and worried about rent, on an interest-bearing plan totalling $7,200 with no financial-picture questions asked and no cheaper structure mentioned, even though the same rep had offered a no-interest $6,000 structure to another prospect the same day. No guarantee was mentioned to him at all, though the same rep described one to two other prospects within thirty-six hours."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavily inverted throughout, with long stretches of both speakers under one label. The rep's hip-degeneration story at 00:13:00-00:15:25 is split across both labels mid-sentence; the entire objection sequence at 00:46:44-00:48:43 alternates wrongly, so \"I can't do that right now\" and \"we don't have anything like specific payment plans\" both appear under the wrong speaker. Roles were reconstructed from content. The transcript also contains obvious ASR corruption in the opening line and several redacted expletives."
+  }
+}

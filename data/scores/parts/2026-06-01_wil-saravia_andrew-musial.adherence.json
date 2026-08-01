@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-01_wil-saravia_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "partial" },
+      "evidence": "No frame and no agreement on a call the prospect had already pre-empted by text. The rep did open with the right diagnostic question — 'let me just, just like understand fully. We're talking purely about financials or are you, there's some level of uncertainty on your side?' — which established cleanly that this was money and not doubt. Setter read-back not applicable on a second call."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline was completed on the 30 May call."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals work was completed on the 30 May call and correctly referenced rather than repeated — 'You told me two things you have always been missing, like the structure and the skin in the game. Is that correct?'"
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts and root cause were established on the 30 May call."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "partial", "P5b": "hit", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Consequence was the main tool used, and it was used hard: 'Is it better to do nothing? Or is it better to actually start?', 'right now you're settling for doing nothing. I'm sorry for being blunt, but that's what it is', and 'I hate to have this conversation with you in, I don't know, 12 months from now.' The settle-for challenge landed properly and produced a real answer from the prospect ('it also feels like I'm settling for something that I don't want to settle for'). But the timeframe question was asserted rather than asked, there was no 'why not?', and none of it was addressing the actual blocker, which the rep had already confirmed was purely financial."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "not_applicable", "P6b": "hit", "P6c": "not_applicable" },
+      "evidence": "Belief was established on the prior call and correctly not re-litigated. The isolation move ran twice and well: 'We're talking purely about financials or are you, there's some level of uncertainty on your side?' — 'It's financial. It's 100% financial.' — and then the decision-maker check, 'is it you now talking, or is it Natalie?' — 'No, it's me talking.' Both answers were clean, which should have ended the call."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No purchase of any tier."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran and returned an unambiguous answer. One restructure attempt followed — 'if we would work around the 4K, the payment structure of that, that you wouldn't have to pay all' — and was refused on total cost rather than instalment size. The financial picture was not re-run, which is defensible since it was taken in full two days earlier and nothing had changed. What the play has no move for is what happened next: the numbers were already known, they did not work, and the script offers nothing but persistence."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The rep checked whether the spouse was speaking through the prospect — 'is it you now talking, or is it Natalie?' — which is the right first move and cleared the trigger. The rest of the play was not run, correctly, since the prospect owned the decision. The problem is what replaced it: the downsell was pitched on avoiding her entirely, 'no big financial conversations with Natalie', which is not in the play and is logged as a conduct flag."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "detail": "Free-content substitution, with no scripted play. 'He puts out these, the majority of these videos, for free on YouTube and his socials.' The prospect priced the paid low tier against the company's own free marketing and the rep had one counter — that the structured week-by-week plan is not in the free content — which he then abandoned in favour of challenging the prospect's sincerity. This is a variant of the documented cheaper-alternative gap, and it is sharper because the cheaper alternative is the company's own funnel."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "detail": "Reduced-scope rejection. 'On Saturday you were willing to put 4k on the table for training, yes, for personal training, but this is not personal training, this is videos.' The prospect drew the distinction between the product he wanted and the product on offer, and the rep answered with a price comparison rather than a scope answer. There is no scripted bridge from the coaching offer down to Primal University, which is why every appearance of that bridge in this batch has been improvised and late."
+    }
+  ],
+  "notes": "The right diagnostic question was asked in the first sixty seconds and answered without ambiguity — purely financial, and the prospect owns the decision — and the correct next move was to close the file warmly and route him to something he could afford, or to nothing. Instead the call continued through four further declines with escalating pressure. If the downsell is going to be part of the process it needs to be introduced when the budget is first discovered, not after two refusals, and it cannot be sold on the basis of keeping a spouse out of the decision."
+}

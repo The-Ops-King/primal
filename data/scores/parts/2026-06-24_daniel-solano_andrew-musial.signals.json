@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-24_daniel-solano_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:22:46 — three to four sessions a week, 30 to 40 minutes, plus a five-to-ten-minute mobility protocol targeted at his back stiffness and hips, and the teach-you-to-need-no-coach framing. Asked 'this, how does this approach sound for you?' he answered only 'Good. ... Yeah, I'm good.' Understood and agreed, no questions on mechanics, no enthusiasm — notably flat given he is an ex-CrossFit coach who might have been expected to interrogate the programming."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:25:28 as what/when/how much with an eight-hour window and no tracking. The rep explicitly told him it was already close to what he does — 'it's very similar to what you're actually doing' — which removed most of the pillar's value on this call. Response to 'understand nutrition is also cool for you, yeah?' was 'Yeah, yeah.' The one place the rep diverged from the prospect's stated beliefs, recommending fermented vegetables to a man who had just said 'vegetables I don't like at all. I don't think fiber is good for us', was not picked up by either side."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:27:46 and correctly identified by the rep as the actual purchase driver — 'this is the main thing that you came in for.' Covered the app, video submissions and feedback, weekly check-ins and Trevor's direct cell number. Response to 'what are your thoughts on that? Any questions?' was 'No, no questions yet.' Accepted without engagement despite being the pillar he came for, which is a signal the presentation was not tied back to his own stated words about self-bias and blind spots."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "the three months I've been working with Pat, even though it's just a membership, their results are still there, you know?... So comparing $45 per month in a membership, which is not comparable to a one-on-one, I completely get that. Versus, what is it? 1,333 per month. Even though it's a very completely different service, it's a pretty big leap.",
+      "direction": "undercuts_price",
+      "competitor": "Pat Damiano membership",
+      "note": "The strongest form of this anchor in the corpus so far: the cheap alternative is not hypothetical or historical, it is running right now and has produced roughly 40 lb of loss in three months. The prospect pre-conceded the service difference and still could not close the 30x gap, and the rep never attempted a value bridge. Directly matches the second known gap in the playbook."
+    },
+    {
+      "type": "free_content_substitute",
+      "raw": "some of the stuff I'm doing I've gotten from Trevor, from his YouTube channel. So, like yesterday, I even did the and squat, goblet squat workout, the EMOM 20.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own YouTube channel",
+      "note": "He is already getting results from the free version of the product he is being asked to pay $4,000 for. Unlike the Ryan Bundy call, where content abundance created confusion the rep could sell against, here the prospect has an ex-coach's ability to select and sequence it himself, so the free channel is a genuine substitute rather than a problem."
+    },
+    {
+      "type": "financing_cost",
+      "raw": "It's $433. Which ends up being 5200 for the three month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep's own remedy became an anchor against him. Routing to third-party credit converted a $4,000 quote into a $5,200 obligation in front of the prospect, and the prospect declined within seconds of reading that number aloud. The financed total was never pre-framed."
+    },
+    {
+      "type": "life_event_cashflow",
+      "raw": "I had to take a hit economically or financially because I had to move out, I had to get all the plays and I had to put a lot of money into that... so I got a rebuild, you know, not only physically, but financially.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a competitor anchor but the dominant one on the call — a mid-divorce asset split setting his reference point for discretionary spend. He was explicit that the constraint was capacity, not desire: 'It's not willingness.'"
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Programming that specifically accounts for his unstable shoulders, hip rotation imbalance and back history rather than a general plan",
+      "why_unmet": "The programme almost certainly does this — it is one-to-one and the rep said Trevor gets granular on limitations — but the rep never connected it to the specific things the prospect had disclosed, and never used it as the answer to the $45/month membership. The one differentiator that a generic membership structurally cannot match was left on the table.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A price point that fits a three-month scope and a constrained cashflow",
+      "why_unmet": "The rep created one live at $4,000 for three months, which is not in the offer, and it still did not fit — and once financed it grew to roughly $5,200. There is no genuine entry tier and no policy for what to do with a qualified prospect in a temporary cash trough.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To simply not have to think about what to train, without buying a full transformation",
+      "why_unmet": "What he asked for was programming and structure, not coaching, nutrition and accountability. The offer is bundled at six or twelve months and the only unbundling available was a shorter duration at the same intensity, not a lighter product.",
+      "verdict": "product_gap"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-11_patrick-soldow_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Not presented as a pillar on this call — it surfaced while reading the agreement, and the client asked to confirm scope: \"Primal nutrition, mobility, receive flexibility. Okay. So there's more than just the kettlebell works out. It's mobility and flexibility.\" He also asked how intensity would be set: \"this is what's part of the call is him determining kind of, like, where my intensity of workouts are going to start, right? Whether I'm, like, beginner, intermediate.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Appears only as a line item the client read from the contract — \"Primal nutrition\" — with no discussion, no questions and no reaction. Delivered on the prior call, which is not in this corpus."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "He tied it directly to his own diagnosis of what has failed before, unprompted: \"Having somebody there to hold me accountable and push me, that's the biggest piece missing, and I'm excited to meet Trevor and get to know him.\" He also engaged closely with the mechanics — weekly check-in submissions, direct text and voice notes — and set his own realistic expectation on response time: \"I should not expect him to respond same day because he's got so many clients.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "tax_treatment",
+      "raw": "I'm always looking at ways to write-off stuff, just the nature of my business, my wife's business. I wonder if I can write this off somehow.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Second prospect in a single day for this rep to reframe the fee as a deductible business expense before paying. It materially lowers the effective price for self-employed buyers and is a recurring, unmanaged part of how this offer gets justified. The rep encouraged it after disclaiming qualification: \"Probably you could, you know, as a self-development kind of... It's some sort of like an educational thing, right?\""
+    },
+    {
+      "type": "liquidity_event",
+      "raw": "I had to get my house sold so I can, you know, credit cards that I needed to pay off so I can now pay for things like this, which, you know, we're all good there now",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The purchase was gated on a property sale clearing and credit-card debt being retired, and the sale nearly did not happen — it sat on the market almost three months. The deal was agreed on a prior call and only became payable once an asset liquidated. Worth knowing how much pipeline sits in this state rather than in genuine indecision."
+    },
+    {
+      "type": "credit_card_rewards",
+      "raw": "I really, at the end of the day, wanted to use a credit card so I can, you know, earn some miles",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A buyer who is optimising the payment method for airline miles is not price-resistant. Useful counter-signal when reps assume a card payment implies affordability strain."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Branded merchandise he could buy and wear — \"he should start producing some swag, man. 500 bucks towards some cool swag would be cool, you know? I would buy something.\"",
+      "why_unmet": "There is no merchandise line; the $500 performance reward credit only applies against the roughly $3,000 renewal. He offered marketing help and named the addressable base himself — \"he's got over a thousand guys. I'm sure people would like to rep his brand.\"",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Immediate access to the TrueCoach training app on paying",
+      "why_unmet": "The welcome email contained only the community invite and onboarding form. The rep expected app access to be included, could not find it, and speculated the process had changed — \"Maybe now they changed in a way that after a meeting with Trevor, you're going to get that.\" The programme clearly does provide the app, so this is a delivery and internal-knowledge failure rather than a missing capability.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A clear answer on whether the coaching fee is deductible against his LLC",
+      "why_unmet": "Nobody at the company is qualified to answer and there is no approved position. The rep said \"I'm not a financial advocate\" and then offered an opinion anyway.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

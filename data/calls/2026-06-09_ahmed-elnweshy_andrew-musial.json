@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-06-09_ahmed-elnweshy_andrew-musial",
+  "source": {
+    "drive_file_id": "1Aq6uDLojXlLDTXB5eqiywJpPcV-4cDKL",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/09/2026 - Ahmed Elnweshy x Andrew Musial ",
+    "display_title": "06/09/2026 - Ahmed Elnweshy x Andrew Musial  — Closed",
+    "file_size_bytes": 26321
+  },
+  "call": {
+    "date": "2026-06-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 33,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "No setter suffix in the title, no setter named, and no application or notes referenced. The rep opened cold with his own introduction rather than reading anything back."
+  },
+  "prospect": {
+    "name": "Ahmed Elnweshy",
+    "aka": null,
+    "name_source": "title",
+    "location": "Cairo, Egypt",
+    "age": null,
+    "occupation": "Senior network security engineer at a major Egyptian bank, described as 'one of the biggest banks in Egypt'. Works 8am to 5pm five days a week, hybrid — four days in the office, one from home, with a long commute.",
+    "family_status": "Engaged; wedding set for 15 October, roughly four months after this call. No children yet; wants three or four.",
+    "height_in": 66,
+    "weight_lb": 194,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Self-directed at home with no trainer and no gym. Owns an 8 kg and a 12 kg kettlebell plus dumbbells and other equipment bought specifically to avoid the gym commute. Trains around three days a week, sometimes two, sometimes four, depending on workload. Also walks and plays ping pong. Previously had a gym membership but could not stay consistent because of time. Has already lost roughly 6-8 kg on his own with the kettlebells.",
+    "kettlebell_experience": "some",
+    "medical": "ACL reconstruction on the right leg six years ago, with surgery. Reports occasional pain during leg-focused exercises which he describes as manageable — 'sometimes when I go to some exercise related to a leg, I feel some pain, but it's affordable.' Not a daily problem. No other pain or stiffness reported when asked directly. No other conditions were asked about or disclosed."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "PROPOSED LABEL: the_deadline_driven — a prospect whose purchase is organised entirely around a fixed dated life event rather than around a health trajectory or an identity gap. The wedding on 15 October is named in his first answer, sets the target weight, sets the programme length he picks, and is the reference point for every goal he states. Recommending this be clustered centrally rather than forced into an existing avatar.",
+      "None of the seven defined avatars fit. Not the_optimizer — he is roughly 40 lb above his own target. Not the_rebuilder — there is no former self and no regret; he has never been in the shape he wants. Not the_warm_referral, the_medically_constrained, the_prehab_fighter or the_preserver on any signal.",
+      "Closest existing fit is a weak the_rebuilder on the 94 kg to 86 kg self-directed loss, but the narrative is forward-looking rather than restorative: 'related to my next marriage to be slim'",
+      "Secondary characteristic worth clustering on: geography and purchasing power. He is in Cairo buying a USD-priced offer, and the only friction that surfaced before the recording cut was about payment timing."
+    ]
+  },
+  "goals": [
+    { "text": "Lose roughly 12-18 kg to reach the low seventies in kilos before the wedding on 15 October", "category": "fat_loss" },
+    { "text": "Build a strong, good shape for the wedding", "category": "appearance" },
+    { "text": "Be consistent with training and nutrition rather than starting and stopping", "category": "consistency" },
+    { "text": "Have enough strength and energy to handle nine and ten hour working days and life outside work", "category": "energy_performance" },
+    { "text": "Learn correct movement patterns so he does not re-injure himself", "category": "injury_prevention" },
+    { "text": "Keep it up for life — 'I didn't ever give up about the workouts... After the marriage, will continue to be maybe in old years. But I have strong shape.'", "category": "sustainability" },
+    { "text": "Be strong enough for the three or four children he plans to have", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Cannot stay consistent on his own — some days he trains, some days he does not, and the same with food", "category": "consistency", "severity": "high" },
+    { "text": "No structure or plan for nutrition at all — 'Maybe I'm not organized regarding nutrition'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "No guidance on correct movement, which he links directly to fear of re-injury", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Long working days plus commute leave little time; gym membership failed for exactly this reason", "category": "time_scarcity", "severity": "high" },
+    { "text": "Desk-bound as a network security engineer", "category": "training_barrier", "severity": "medium" },
+    { "text": "Eating unhealthy food is affecting how he feels day to day — 'I spend more time eating foods, which is not healthy. So this is impacting my body, impacting my headache and brain.'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Occasional pain in the reconstructed right knee during leg exercises", "category": "injury", "severity": "low" },
+    { "text": "A fixed four-month deadline he cannot move", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Can I pay after this session? Because I will adjust some regarding to the payment.",
+      "timestamp": "00:32:49",
+      "rep_response": "UNKNOWN — the rep asked him to repeat ('Could you repeat? Because I didn't hear that. Hello?') and the recording ends nine seconds later, mid-exchange. No response is on the recording.",
+      "response_tactic": null,
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.55,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Selected a tier unprompted: 'I chose six months because as a period of my marriage, I think that six months will be enough.'",
+      "Verbal agreement to proceed: 'You want to, as we say, rock and roll?' — 'Yes. Okay.'",
+      "Payment method established — 'Do you use debit or credit card?' — 'I use credit.'",
+      "Payment link sent to the Zoom chat and confirmed received: 'I've put it in the chat. Do you see it?' — 'Yes, I see it. This is the link of the payment?'",
+      "COUNTER-EVIDENCE, AND IT IS SERIOUS: the recording truncates at 00:33:13 mid-exchange. The last substantive thing the prospect says is a request to defer payment — 'Can I pay after this session? Because I will adjust some regarding to the payment' — and the rep's reply is not on the recording.",
+      "COUNTER-EVIDENCE: no payment confirmation, no Trevor onboarding call booked, and no agreement or welcome email discussed anywhere in the audible portion.",
+      "COUNTER-EVIDENCE: the prospect's English comprehension was limited throughout and he had to ask the rep to repeat questions several times, including the commitment-check question, so the quality of the yes is harder to rely on than the words alone suggest.",
+      "DISPOSITION RESTS ENTIRELY ON THE CLIENT-AGREED CLOSE RULE, NOT ON OBSERVED PAYMENT. Confidence is set at 0.55 deliberately. This call should be verified against the CRM or a payment record by a human before it is counted in any close rate."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Unknown. On the audible portion the stated plan was to complete payment, then an onboarding call with Trevor who would take a detailed health and goals history and build the programme. The prospect had just asked to pay after the session when the recording ended."
+  },
+  "notable": {
+    "note": "The recording ends mid-sentence at 00:33:13, seconds after the prospect asked whether he could pay after the session. Everything about the outcome after that point is unknown. Two other things a manager should see. First, this is the only call in the batch where the four-part opening frame and frame agreement were actually run, and they were run well — worth using as the example. Second, the call was conducted across a significant language barrier and a degraded connection: the prospect asked the rep to repeat himself at least four times, said 'You're asking about what?' in direct response to the commitment-check question, and said 'I didn't recognize your question well' to another. The rep did not slow down, simplify, or check comprehension at any point, and a $6,000 USD commitment was taken on that basis. Also worth noting the arithmetic nobody addressed: the wedding is roughly four months away and the rep recommended and sold a six-month programme, acknowledging the squeeze ('we don't have much time because the marriage is in October') without resolving it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Bad, and compounded by connection failures. Long stretches run under a single label containing both voices — 00:03:48 to 00:05:18 carries the rep's questions about work hours, hybrid pattern, sports and injuries entirely inside a prospect-labelled block, and the same happens from 00:11:00 to 00:12:33. At 00:12:51 there is roughly twenty seconds of unrecoverable audio ('video. For Bye Thank Yep. Hello. Can you hear me?'). Attribution inverts around 00:13:36 to 00:13:57, 00:17:22 to 00:17:32 and 00:21:33 to 00:21:54, where the rep's line about 30 minutes being difficult and the prospect's rebuttal are swapped. The connection itself was unstable throughout — the prospect reports voice interruption at 00:13:09, 00:16:00 and 00:19:55, and the rep notes 'you got frozen' at 00:15:41. THE RECORDING IS TRUNCATED: it stops at 00:33:13 mid-exchange with the rep asking the prospect to repeat himself. The (Primal Instinct) speaker is labelled 'Andrew Jin' while the rep folder is 'Andrew Musial'."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-06-03_marian-samson_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "miss",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "miss" },
+      "evidence": "The call opens in Polish small talk and goes straight to 'Okay, Marian, you're a good deal maker' with no frame at all. No expectation-setting, no agreement question, no open question. The prospect takes control of the agenda immediately — 'Now I have some questions for you I noted here today' — and runs his own list for the next twelve minutes. On a late-stage terms call a frame is still applicable and was not set."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Third call in a sequence; baseline was gathered previously and is not reachable here."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals work belongs to the earlier call in the sequence. Nothing about the prospect's why surfaces here, and the rep never reaches for it even when the prospect stalls."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable on a terms-and-payment call."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The playbook says that when hesitation surfaces you return to Phase 5. Hesitation surfaced repeatedly and the rep never went back. There is no cost-of-inaction move anywhere in the 22 minutes; the rep stayed inside the payment mechanics."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "hit", "P6c": "miss" },
+      "evidence": "P6b was run in substance and well: 'Marian, you know what I'm feeling? That you're looking for every reason not to do it right now' and 'If you were in, I would already be scheduling the onboarding call with Trevor.' P6a was inverted — the prospect asked the rep for the belief statement ('in what percentage I can achieve my goals?') rather than the rep asking the prospect, and the rep answered with an absolute ('there is no way that you won't be successful'). P6c is a clear miss: there was never a clear YES, and the rep proceeded to payment mechanics anyway."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "A close was attempted — 'Yes, let's secure the payment and you will get immediately the contract' — so P11 applies. No payment was collected, no payment link was sent, no Trevor onboarding call was scheduled, the agreement was never sent or signed on the call, and no welcome-email/Skool/questionnaire instructions were given. The contract step was actively inverted: the prospect asked to read it before paying and was told payment comes first."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The instalment objection is the spine of this call and the rep ran roughly one move of the play. He never isolated ('Finances aside — nothing else keeping you from 100%?'), never asked permission for an honest financial conversation, and took no financial picture at all — no cash on hand, no monthly surplus, no cards, no available credit, no investments. He did use a version of 'most clients pay upfront' ('you know why it's better actually to, and why most of our clients pay in full?') but attached it to a commitment lecture rather than to 'want to explore making it work'. He then did the opposite of opening the wallet: he refused six and four instalments, defended the lump sum, and escalated to the team, ending the call owing the prospect an answer."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'And I cannot give you the answer right now' is a think-it-over in substance. None of the OA moves ran — no 'do you feel what we've gone through CAN get you to your goal', no 'what's actually coming up that's preventing you from getting started', no 'thinking isn't the problem, deciding is'. The rep used a soft takeaway instead and then conceded the delay himself."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP — no play exists for 'I want to read the contract before I pay.' The prospect raised it twice as a stated personal rule ('It's a basic thing on how I do it'). The script's only contract step is P11c, which assumes payment has already been collected, so the rep had nowhere to go and simply deflected. This is a structural gap, not a rep failure, and it left a legitimate buyer-protection request unanswered."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP — no play exists for a prospect whose blocker is a payment-structure norm rather than capacity to pay. The prospect explicitly disclaimed affordability ('It's not a problem about that... I think it's just about how I do things') and cited a Danish monthly-payment convention. OC assumes the blocker is capacity, so every OC move was aimed at the wrong target."
+    }
+  ],
+  "notes": "The rep let a prepared buyer run the entire agenda for twelve minutes and never took the frame back — the one coaching point that would have changed this call. When the instalment objection landed he went straight to logistics and price defence instead of isolating first and building a financial picture, which is exactly the pattern his manager flagged in the 1-1 the previous day ('I tend to quickly go into logistical things and solving the problem, not actually knowing what is the problem'). Second priority: he discounted to $5,000 before this call and then had no room left to trade, so the instalment ask had to go to the team."
+}

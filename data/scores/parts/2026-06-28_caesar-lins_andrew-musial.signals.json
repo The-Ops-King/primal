@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-28_caesar-lins_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented from 00:26:30 — programme designed around his lifestyle rather than a 20-year-old athlete's, three to four sessions a week at 30 to 40 minutes, bespoke mobility protocols for the knee and shoulder, strength, conditioning and mobility in every workout, and six months to self-sufficiency. The prospect engaged mechanically throughout and asked more questions here than on the other two pillars combined: \"Yes, with him or without him?\", \"The sessions is with Trevor?\", \"So this coaching is for six months, how often? Once a week? How many times a week?\", and \"The exercises, I'm sure they are, like, progressive. You increase the weight... Every three times? A set?\" He also volunteered his own constraint — \"my goal is to increase the resting days and work hard on the workout days\" — which the rep matched. Clarifying rather than accepted: he was trying to understand the delivery model, and the confusion over whether sessions were live with Trevor suggests the setter-free entry left him under-briefed."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "confused",
+      "evidence": "Presented at 00:30:18 as the standard what/when/how-much model with an eating window. The prospect misunderstood the central claim and asked for it twice: \"Say it again. It's really impossible to eat... To overeat. Overeat?\" and then \"I didn't understand. Is it impossible or what?\" The rep re-explained with the potato-chip illustration and it landed. He then raised his own real issue unprompted — \"Sometimes I think that I am under-eating... It is mistake, because I don't have the energy to work out the way I want to\" — which is the opposite problem to the one the pillar solves, and the rep answered it by recommending high-density food, \"eggs, like meat, and that stuff, and get rid of the carbs.\" That recommendation directly contradicts the protein restriction the prospect had disclosed at 00:03:58, and neither he nor the rep connected the two. Recorded as confused on the presentation itself; the substantive conflict is in the flags file."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented at 00:35:35 as the app, weekly in-app check-ins, video form review, Trevor's private cell number and an over-communication expectation, framed with the consistency-when-life-gets-busy argument and a Jeff Bezos analogy. The prospect agreed without pushing: \"Yeah, everything looks good, yeah.\" Asked directly whether questions had come up he said \"no\" and then \"I'm sorry being like a sponge, everything you're saying\" — absorbing rather than interrogating. Accepted, but thin: this is the pillar that would most obviously have protected a man whose two worst training outcomes both came from unsupervised overload, and neither party connected it to that history."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "I wasn't expecting this amount. I have a list of priorities right now.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "No number was in his head at all — he had never bought anything comparable and had formed no expectation, so $6,000 landed with nothing to be measured against except his current cash position. He said so plainly a moment later: \"I didn't, I had no idea how much that cost. I'm just being honest.\" With no setter on this lead, nothing had pre-framed the price, which is the clearest structural difference between this call and the two closes in this batch."
+    },
+    {
+      "type": "no_prior_paid_coaching",
+      "raw": "I'm gonna be honest with you. I never applied to anything like this before. Never.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "No history of buying coaching of any kind. He has trained for thirteen years entirely self-directed plus a CrossFit gym membership, so there is no established willingness-to-pay for guidance. The rep's only response was \"There always has to be the first time\", which did not build the case."
+    },
+    {
+      "type": "competing_capital_allocation",
+      "raw": "I am downsized in my business and I cannot afford it. And I have my daughter's wedding this year, so it's really not the right time for me.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Two concrete competing calls on the same money — a contracting business and a wedding this calendar year. This is the actual anchor: $6,000 is being weighed against a daughter's wedding, not against another fitness product. Nothing in the call attempted to reframe the comparison, and the specific reactivation date he named, after January, is presumably when the wedding is paid for."
+    },
+    {
+      "type": "creator_trust",
+      "raw": "seeing Trevor on his videos, I believe in him. Even though there is AI... No, it's 2026. I trust him, okay? I trust him.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Unusually strong supportive anchor, volunteered at the moment of refusal rather than in response to a question. He had already been following Trevor's content, had started training with dumbbells off the back of it, and cited the physique and before-and-after testimonials. This deal was lost on liquidity alone with brand belief fully intact — which is exactly the profile that a payment plan or a deferred start could have carried, and neither was actually put on the table as a concrete structure."
+    },
+    {
+      "type": "guarantee",
+      "raw": "there's a guarantee from Trevor that within six months, you will add at least eight kilos to your baseline of a kettlebell... If you wouldn't be able to hit that, those extra eight kilos, he will work with you until you do for free.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Deployed as a risk-reversal anchor and it is the only call in this batch where the guarantee appears at all. It did not move him. It is also the wrong guarantee for this prospect — the metric is kettlebell load progression and his disclosed rheumatoid arthritis is actively removing his grip strength, so the promise is pinned to the capacity most at risk. See the flags file."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A nutrition approach compatible with having a single kidney and a medically indicated protein restriction.",
+      "why_unmet": "The nutrition pillar as presented is a whole-food, protein-forward, time-restricted protocol, and when the prospect raised under-eating the rep's specific advice was to focus on \"high-dense\" food, \"like eggs, like meat, and that stuff, and get rid of the carbs.\" The prospect had already said \"I only have one kidney, so I cannot have like too much protein.\" No renal-aware variant was offered, no clinician or dietitian involvement was proposed, and the conflict was never acknowledged by either party.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Kettlebell training and a progression standard that account for rheumatoid arthritis causing hand stiffness and progressive grip loss.",
+      "why_unmet": "Kettlebell work is grip-limited by nature and the programme's stated guarantee is denominated in added kettlebell load. The prospect disclosed his handstand hold had fallen from about 60 seconds to 15 in six months and that he had \"lost a lot of strength and grip\". The rep's response was that strength training \"will also help you with arthritis, too, definitely\" and, later, the eight-kilo guarantee. Whether Trevor can genuinely adapt programming and the guarantee for inflammatory arthritis was never established and cannot be judged from this call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training that supports management of depression, which he explicitly frames as the primary function of exercise for him.",
+      "why_unmet": "He said \"exercise is my natural medication for me to feel better\" and answered the cost-of-inaction question with \"Oh, I'm going to be depressed.\" Nothing in the three pillars speaks to mood, adherence during a depressive episode, or what happens when motivation disappears — which is precisely the failure mode that cost him the last six months. The rep matched the disclosure with a story about a friend who walked, and moved on. The programme may well help incidentally, but no part of the offer was positioned against the thing he most needs it to do.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A start date or payment structure that fits a business downturn and a daughter's wedding, with the option to begin after January.",
+      "why_unmet": "Payment structuring was gestured at twice but never made concrete — no instalment count, amounts, dates or terms were ever stated — and a deferred start was never offered or explored at all, despite the prospect naming his own window unprompted. He declined an abstraction rather than a proposal.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

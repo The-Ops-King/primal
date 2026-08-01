@@ -28,6 +28,19 @@
     "adherence": "Adherence stays scored per call. A discovery call and a follow-up call are judged against different parts of the script, so averaging them would hide which part failed."
   },
 
+  "corpus_window": {
+    "rule": "trailing_three_months",
+    "from": "2026-05-01",
+    "to": "2026-07-31",
+    "detail": "Analysis is scoped to the trailing three months. The full 2026 corpus runs 2026-02-13 to 2026-07-31 (820 eligible calls), but six months is long enough that the script, the offer and the pricing all drifted — several of the invented price tiers appear to be recent behaviour, and mixing February in blurs whether a finding is current.",
+    "consequences": [
+      "Vince Gascon and Ethan Martinez fall out entirely; they were only active Feb-Apr and never overlapped with another rep, so they could not have supported a like-for-like comparison anyway",
+      "Harry Edmonds keeps 80 of 152 calls, Farooq Bey 41 of 143",
+      "Richard Claessen, Andrew Musial, Michael Brideau and Ben Byrne all run concurrently inside the window, which is the cleanest cross-rep comparison available",
+      "Calls already extracted from outside the window are retained on disk but excluded from every metric, so widening the window later costs nothing"
+    ]
+  },
+
   "junk_filter": {
     "rule": "min_bytes",
     "min_file_size_bytes": 2000,

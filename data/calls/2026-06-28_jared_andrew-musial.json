@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-06-28_jared_andrew-musial",
+  "source": {
+    "drive_file_id": "1d38PAcTdur8bx61HZaP2LTEQtou8ygyk",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/28/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 43657
+  },
+  "call": {
+    "date": "2026-06-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"So, Jared, I've been talking to Kim. You've spoken with him a few days ago, right?\" — confirmed \"That's correct.\" Also \"Kim mentioned that you're already doing somewhat of a keto thing.\" No suffix in the title; the setter is identified from the transcript. Note the rep refers to Kim as \"him\", which conflicts with Kim Forbes-Sobers elsewhere in the corpus; recorded as spoken."
+  },
+  "prospect": {
+    "name": "Jared",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States, Eastern time zone",
+    "age": 47,
+    "occupation": "Airline employee of over 20 years, about to move into a flight dispatcher / flight superintendent role. Holds an FAA licence obtained 13 years ago. Currently earns $146,000; the new role starts at $100,000.",
+    "family_status": "Divorced, single, has children he describes as having become distant from him. Pays child support.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-term free-weight training in a well-stocked home gym, running his own push-pull-legs split at 90 minutes to two hours per session on days off, constrained by 12-hour work shifts. Self-programmes from Mike Matthews' Muscle for Life material. Was significantly overweight 10-15 years ago and has since lost most of it; now describes himself as one of the fittest people in his office. Experienced with intermittent fasting including 23:1 windows and multi-day fasts.",
+    "kettlebell_experience": "none",
+    "medical": "Old separated left shoulder with residual limited range of motion — \"I got a little bit of limited range of motion in my left shoulder\". He reports it does not affect daily function and improves with training. No other conditions, injuries or pain disclosed; the rep asked about hips and lower back and got a clear negative."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.88,
+    "signals": [
+      "Already fit and self-managing: \"I'm already, for my age and in my office, like, one of the most fit, healthy people around.\"",
+      "Explicitly seeking marginal gain, not rescue: \"I just want to get that extra edge, you know, that extra 5% to 10% less body fat, that extra, you know, resiliency, that extra confidence.\"",
+      "Price read as reasonable on first hearing rather than resisted: \"That's very reasonable for that amount of help.\"",
+      "Frames health as one more asset on an already-rising portfolio: \"my income and my freedom and my quality of life is just on a upward trajectory... I feel like I want to put my health on that same kind of path.\"",
+      "Carries a rebuilder undertone in his personal life — divorce, estrangement from his children, \"I'm working towards redemption of all my pain\" — but his physical starting point and buying posture are both optimizer, which is why the_optimizer is assigned over the_rebuilder."
+    ]
+  },
+  "goals": [
+    { "text": "Get leaner and improve body composition — another 5 to 10 percent less body fat, and finally have a visible six-pack", "category": "appearance" },
+    { "text": "Training that fits a 12-hour-shift and then classroom-study schedule — around 30 minutes daily rather than 90-minute to two-hour sessions", "category": "convenience" },
+    { "text": "Stay young, keep moving well and stay resistant to injury into middle age", "category": "longevity_function" },
+    { "text": "Maintain and slightly improve flexibility", "category": "mobility" },
+    { "text": "Build the confidence to re-enter dating and find a long-term partner", "category": "relationship" },
+    { "text": "Travel extensively — Korea, Italy, Greece, Spain, southern France — using the new role's flexible scheduling", "category": "hobby_performance" },
+    { "text": "Accelerate rather than slow down in middle age; make health rise on the same trajectory as his career and finances", "category": "confidence" },
+    { "text": "Master a minimal-equipment method he can run himself anywhere, including while travelling", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "12-hour shifts leave no training time on work days, forcing back-to-back sessions on days off with no rest between", "category": "time_scarcity", "severity": "high" },
+    { "text": "Incoming four months of full-time classroom training plus nights and weekends of study will collapse his available training time further", "category": "training_barrier", "severity": "high" },
+    { "text": "Current sessions take 90 minutes to two hours, which he cannot sustain against the new schedule", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Life fell apart about ten years ago — divorce, child support, children becoming distant — and he feels he lost a decade", "category": "emotional", "severity": "high" },
+    { "text": "Single and finding the American dating scene hostile; wants a partner and has not been able to pursue one", "category": "relationship", "severity": "medium" },
+    { "text": "Has travelled very little despite 20 years at an airline, and describes it as a huge gap in his life", "category": "other", "severity": "medium" },
+    { "text": "Taking a 40 percent pay cut, from $146,000 to $100,000, to make the career move", "category": "work_stress", "severity": "medium" },
+    { "text": "Old separated left shoulder limits range of motion and he expects to have to move cautiously through some of the programme's movements", "category": "injury", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Well, let me think about and look at the budget a little bit and figure out where I would have to pull that from. So, it's all upfront payment.",
+      "timestamp": "00:40:31",
+      "rep_response": "Correctly diagnosed this as money rather than deliberation. Isolated it first with \"let me just be sure. You're 100% sure on this?\" and got \"I'm 100% sure\", which surfaced the pay cut. Then offered flexibility — \"most of the guys just put it on a credit card upfront, but we're flexible\" — probed credit card usage and comfort, accepted the prospect's preference for savings over interest, and proposed a straight 50/50 split with no interest. Prospect: \"I think that's very doable for me.\" He then went to get his wallet and paid on the call.",
+      "response_tactic": "isolate_then_split_payment",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Split in half, no interest — \"if not upfront, split it in half. There's no interest on that.\" The specific dates, amounts and schedule of the second instalment were never stated on the call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Current income $146,000 falling to $100,000 in the new role, a stated 40 percent pay cut. Holds a credit card for 10 years, never carried a balance, pays in full monthly. Has savings and preferred to draw on them rather than pay card interest. No figures for cash on hand, monthly surplus, available credit or investments were ever elicited."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment taken and confirmed live on the call: \"Let me go get my wallet in a minute\", \"We'll do the split\", and the rep confirming \"i see it went through okay\".",
+      "Onboarding call with Trevor booked for Monday the 29th at 3:15pm Eastern and the confirmation email verified in real time — \"Yep, I got it.\"",
+      "Agreement email received and signed on the call: \"you should get also a second email with the agreement and the invitation to Primal University\" / \"Yeah, I think I got it. Sign now.\" / \"You sign document.\" / \"Yep.\"",
+      "Contact details reconciled live — the payment email differed from the one on file and the correct address and phone number were confirmed.",
+      "Counter-evidence, minor: only the first half of the $6,000 was collected. The second instalment's amount, date and mechanism were never stated on the call, so the remaining $3,000 is contractually agreed but not scheduled in the recording.",
+      "Counter-evidence, minor: there is roughly a minute of missing or garbled transcript across the payment window (00:43:04 to 00:46:02), so the exact amount charged is not independently visible in the record.",
+      "Counter-evidence, minor: the prospect raised a possible card block — \"We'll see if my card company flags this purchase\" — but the rep then confirmed the charge went through."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor on Monday 29 June at 3:15pm Eastern. Prospect to complete the onboarding form before that call and had already signed the agreement. He also shared his personal WhatsApp number with the rep at the rep's request."
+  },
+  "notable": {
+    "note": "A close with almost no selling in it. The rep skipped the consequence frame entirely, never ran past-attempts or root-cause, and never asked why a man who programmes himself from Mike Matthews books and has done multi-day fasts needs a $6,000 coach — the prospect was simply pre-sold from Trevor's Instagram and pre-qualified by the setter. Two things a principal should see. First, roughly nine minutes of the middle of this recorded call (00:14:30 to 00:19:30) are the rep and the prospect discussing American versus Polish women, with the rep recommending Poland and describing Polish women as \"the kind of keepers... like a housewife type\". Second, the rep offered to put the fee on a credit card to a prospect who had just disclosed he is taking a 40 percent pay cut; the prospect declined and used savings, and the rep did not push. Also note the onboarding is described as \"Primal University\" here rather than the Skool community named in the playbook."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion. Many of the rep's lines are attributed to Jared and vice versa — for example \"Do you have maybe pen and paper\" at 00:29:02 and \"Cool. What are your thoughts on that?\" at 00:38:48 are both the rep, and \"Well, it sounds fantastic\" at 00:38:52 is the prospect. The 00:46:02 block is an unpunctuated run-on merging both speakers across the scheduling and email-confirmation exchange. Roles were read from content throughout. There is also a stretch of near-silence around the payment (00:43:04 to 00:46:02) where little was captured, and some ASR garbage inserted mid-sentence (e.g. \"político and be, In Welcome\" at 00:09:59, \"Paulette A. What? What? What? Yo.\" at 00:22:42)."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "call_id": "2026-06-25_maz_andrew-musial",
+  "source": {
+    "drive_file_id": "1WSNJRG8mX9-BpVOc0kuYGmAOwe1ATjMm",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/25/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/25/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 33149
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 36,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Maz",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Western Australia, Australia",
+    "age": null,
+    "occupation": "Accountant — desk-heavy, works in Excel, uses a standing desk and walking pad",
+    "family_status": "Married; one son born roughly two months before the call; wife recently cleared by doctors to begin light exercise post-partum",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete — soccer, cricket, basketball. Was in good shape roughly 2018-2022, running 40-50 km a week and doing calisthenics regularly, describes himself as historically 'skinny fat' rather than muscular. Training fell away over the last three years. Recently bought kettlebells, set up a home gym in his garage a few weeks before the call and is training three to four times a week.",
+    "kettlebell_experience": "some",
+    "medical": "Ankle injury sustained playing soccer a few weeks before the call, described as recovering. Explicitly denied any other conditions, stiffness or limitations when asked."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.9,
+    "signals": [
+      "Regret stated plainly: 'I didn't just prioritize my health, unfortunately, which I should have, which is a shame.'",
+      "Wants a former self back and quantifies the gap: gained eight to ten kilos over three years, 'if I put six months left for it, think I'd probably get to that level'",
+      "Names the hard season precisely — marriage, then a baby, then complacency: 'both of us just got sucked into the complacency of ordering food in and chilling'",
+      "Not an optimizer: he is not asking to go from good to great, he is asking to get back to where he was in 2022"
+    ]
+  },
+  "goals": [
+    { "text": "Build muscle while losing the fat gained over the last three years", "category": "muscle_gain" },
+    { "text": "Regain mobility and general strength", "category": "mobility" },
+    { "text": "Get back to the physique and conditioning he had between 2018 and 2022", "category": "appearance" },
+    { "text": "Be fit for his newborn son and set an example as he grows up", "category": "family_role_model" },
+    { "text": "Be active and able to play with his son when he is 60", "category": "longevity_family" },
+    { "text": "Break the start-stop cycle and finally stay consistent", "category": "consistency" },
+    { "text": "Set the example that gets his wife back into training after the birth", "category": "relationship" }
+  ],
+  "pains": [
+    { "text": "Cannot stay consistent — starts something, it plateaus, stops, then restarts; calls it his number one challenge", "category": "consistency", "severity": "high" },
+    { "text": "All-or-nothing perfectionist mindset about training conditions that becomes an excuse not to train at all", "category": "motivation", "severity": "high" },
+    { "text": "Gained eight to ten kilos in three years, the most weight he has ever carried", "category": "other", "severity": "medium" },
+    { "text": "Post-marriage complacency — ordering takeaway, TV, couch, as a shared household pattern with his wife", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Desk-bound accounting work with long hours that he allowed to crowd out health", "category": "training_barrier", "severity": "medium" },
+    { "text": "Work came first for years and health was deprioritised, which he now regrets", "category": "work_stress", "severity": "medium" },
+    { "text": "Recovering ankle injury from soccer a few weeks ago", "category": "injury", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "I would obviously have to think about it. don't think I can probably give a yes or a commitment with that amount just yet. probably have to think about it and then make a decision and let you know, guess, or the team, the number that I had. I think that would probably be the best approach.",
+      "timestamp": "00:30:47",
+      "rep_response": "Isolated it to finance — 'apart from the finances, anything else that would be stopping you?' — then asked one diagnostic question about whether the money was absent, tight or simply felt like too much. When the prospect deflected with a decision rule rather than a number, the rep did not press and moved to booking a follow-up call.",
+      "response_tactic": "isolate_then_single_probe_then_reschedule",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "It's definitely a big amount, and so obviously I'll have to. The thing I've learned over the last several years is never make money-related decisions instantly. Always sleep over it. I've done this before, and so I think always sleep over it, think it through, and then make that call. I understand from where you're coming from, I get it. This is where your work is, and your job is to pitch and sell.",
+      "timestamp": "00:32:22",
+      "rep_response": "Did not challenge the rule or the framing, including the explicit naming of the rep's incentive. Responded with a scheduling frame — 'my schedule is pretty busy, and I don't want to play Chase. So let's lock it in' — and negotiated a Sunday follow-up across the time-zone gap.",
+      "response_tactic": "scarcity_of_rep_time_then_book_next_call",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep stated four options: pay upfront by credit card (stated as what most clients do); split in half with no interest; split monthly at $1,200 per month with 'additional cost' attached, which totals $7,200 over six months against a $6,000 list price, a total the rep did not state; or third-party financing via Klarna or 'Paiva'. The financing sentence was cut off mid-delivery and the prospect never received the full option set.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit deferral: 'I don't think I can probably give a yes or a commitment with that amount just yet.'",
+      "Everything except price was cleared: 'I think it's just the finance side of things. Everything else looks good.'",
+      "Follow-up agreed for the prospect's Sunday around 1 or 2pm his time: 'Yeah, Sunday, that could work.'",
+      "Counter-evidence: no payment link sent, no deposit, no calendar invite confirmed on the call, and the rep himself flagged chase risk — 'my schedule is pretty busy, and I don't want to play Chase.' The prospect also surfaced a general decision rule, not a specific affordability problem, so the constraint remains undiagnosed."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call on the prospect's Sunday, roughly 1-2pm Western Australia time, for a decision."
+  },
+  "notable": {
+    "note": "The monthly payment option was quoted at $1,200 per month against a $6,000 six-month price — a $7,200 total, $1,200 above list — and the rep described the surcharge only as 'additional cost' without ever stating the total. The interest-free half-split disclosed here was never mentioned to Daniel Solano the previous day, who was routed straight to third-party credit at roughly 30% above the quoted price. Separately, the prospect named the sales dynamic out loud — 'This is where your work is, and your job is to pitch and sell' — and the rep let it pass unaddressed. Discovery on root cause was the best in the batch: the rep interrupted a vague answer with 'I know you said you got married, but what? Specifically, what happened?', which produced the entire household-complacency story."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained inversion, worse than average for the batch. Long rep passages are labelled to 'Maz' — the whole three-pillar presentation from 00:21:09 onward alternates incorrectly — and prospect answers appear under the rep, e.g. 'Yeah, so I'm an accountant. So it's very, very desk heavy' is split across both labels and 'I would obviously have to think about it' is attributed to the rep. The opening line 'Hi, well done, Andrew, how are you?' is labelled to Maz and is correct, which confirms the rep is Andrew. The 00:11:02-00:13:00 passage collapses into one unpunctuated block merging both speakers. The prospect is identified only as 'Maz' with no surname given anywhere on the call."
+  }
+}

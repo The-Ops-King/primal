@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-03_chris_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The prospect disclosed diagnosed narcolepsy and that he is currently off all prescribed medication in a trial substituting nicotine patches, and was then walked through a loaded overhead kettlebell programme with no question about whether his neurologist had cleared resistance training.",
+      "evidence": [
+        "It's tough to know how my energy level is because I also have narcolepsy.",
+        "I'm currently off medication. I'm kind of doing a, like a little trial with my neurologist. I was on Vyvanse and Adderall, which is the only thing they have for, you know, just stimulant stuff. So now I'm off that and doing nicotine instead",
+        "it's more so to like, not get symptoms cause like, and symptoms would be like falling asleep. so it works pretty well, but still like, it doesn't really help with the energy. just makes me not fall asleep.",
+        "Okay. Okay. All right. That is, um, I think.",
+        "every single workout, you're going to be, working not only on strength, but also on conditioning and mobility... three to four times a week, 30 to 40 minutes"
+      ],
+      "timestamp": "00:13:46"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The guarantee was stated as unlimited free coaching until the goal is reached, a materially different promise from the specific written strength guarantee the same rep gave another prospect the same day.",
+      "evidence": [
+        "there's guarantee on that also, that you will get to your goals and in six months, if not, Trevor will work for you for free until you hit this, hit those.",
+        "Now, and there's guarantee on that also",
+        "the whole transformation takes six months of working with Trevor, and investment for that, it's 6k USD"
+      ],
+      "timestamp": "00:45:31"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was offered that does not exist in the stated offer — the second time the same rep invented this tier on the same day.",
+      "evidence": [
+        "there is something I could offer you, which is a three-month program, so you do it for three months, and after those three months, you can decide if you want to get for another three months.",
+        "no, the amount is less, because it's going to be, it's 4K, and we also have Pava on that.",
+        "That said, after those three months, when you decide that, okay, I want to get another three months, you will just need to top that up. You don't need to pay another full amount. So in total, it's going to be the same."
+      ],
+      "timestamp": "00:46:42"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Third-party consumer instalment credit was offered live with quoted repayments totalling roughly $4,800 on a $4,000 programme, and neither the interest nor the total cost of credit was stated.",
+      "evidence": [
+        "we are using the third-party financing processor. It's Paiva. Have you heard about Klarna? Yeah, yeah, yeah. I have that. It's the same. It's the same. So let's check it out. Because I would need to send you the link and you will see what's coming up for you.",
+        "What came up for you? 40, it was 15. 3, over 3, 8, over 6, 4, over 12.",
+        "400 over 12. Yeah, that's cool. That actually fits your budget.",
+        "the best solution is if you would, if you could split it like internally, yeah, and there's no interest on that for you. However, we are using the third-party financing processor."
+      ],
+      "timestamp": "00:41:40"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep presented kettlebell training as the reason he avoided surgery a doctor had recommended, and generalised it into an unqualified claim about what the modality can achieve.",
+      "evidence": [
+        "I was born with a genetic joint, hip joint degeneration... the doctor said, look, I need you to operate because like your hips are like you're 80.",
+        "I got into kettlebells. And I'm not exaggerating that they saved my life as well, they saved a thing that I don't need to operate.",
+        "So I'm the living proof that that is absolutely. Everything is possible with kettlebells."
+      ],
+      "timestamp": "00:09:42"
+    }
+  ]
+}

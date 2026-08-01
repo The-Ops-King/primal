@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-06-06_billy-collazo_andrew-musial",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep solicited the prospect's cash on hand and his savings and checking account balances on a recorded first sales call; the prospect declined and apologised for being caught off guard.",
+      "evidence": [
+        "First thing, what's your cash on hand right now that you could put down today for this?",
+        "What's your savings account or checking account?",
+        "I'm just reluctant to say anything because I really didn't even know.",
+        "It's, I'm just a little, I don't know, I'm just a little caught off guard. Sorry, man."
+      ],
+      "timestamp": "00:50:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep moved the follow-up relationship onto his personal WhatsApp number, continuing a pattern of sales contact leaving recorded and company-controlled channels.",
+      "evidence": [
+        "Now, if anything comes up, do you use WhatsApp? Yeah. Okay. Yeah. I can give you my personal number. I will shoot you a text.",
+        "So whenever something comes up during the weekend or on Monday when you're going to have a discussion with your wife or whatever, just hit me up."
+      ],
+      "timestamp": "00:59:29"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep endorsed a six-month timeline for a Boston Marathon qualifier — a 41-minute improvement on the prospect's own race predictor — without establishing that the programme or the coach does distance-running coaching at all.",
+      "evidence": [
+        "Okay, so actually we have six months to work on that, so you can actually go for the qualifier.",
+        "So for you specifically, Trevor will adapt that program to your running schedule, because that also needs to be adjusted.",
+        "Let's just say 3 hours 10 minutes. That's, what, 41 minutes faster than what I'm predicted to right now?",
+        "So Bill, from what I'm hearing, definitely Trevor can help you with your goals"
+      ],
+      "timestamp": "00:22:08"
+    }
+  ]
+}

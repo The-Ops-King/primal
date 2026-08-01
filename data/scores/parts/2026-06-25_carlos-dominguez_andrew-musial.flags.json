@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-06-25_carlos-dominguez_andrew-musial",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The pause-for-injury term is actively sold to prospects while no reactivation process exists on the delivery side — the closer stated on the recording that he had never encountered a paused client returning and had to escalate to the admin team to find out what happens next.",
+      "evidence": [
+        "I actually, I had Trevor for private coaching. And then halfway through, I got injured. So then I put it on pause.",
+        "actually I haven't been in this situation that someone that has been already in our program, that paused, that reached out to me. So I need to get back to the admin team, and I will get back to you, or someone from the team, what are the next steps.",
+        "Or if you had a surgery, we just paused it. (Ryan Bundy call, 1tlfBTQbV4uwYxlkcGwOMtqBa02vKRZn9, sold as a term the previous day)"
+      ],
+      "timestamp": "00:01:58"
+    },
+    {
+      "category": "other",
+      "severity": "high",
+      "summary": "Proposed label: service_failure. A paying client with a paused membership followed Trevor's own instruction to make contact when ready to resume, received no response, and had to book a sales call to reach anybody at the company.",
+      "evidence": [
+        "I talked to Trevor like intermittently and yeah, he said, um, just, yeah, your members, your things on pause, just contact me when you're back and ready.",
+        "I did that, but he hasn't responded. So I'm trying to reach out this way.",
+        "you will get his personal cell phone number. So you can text him, whatever question you might have on training, nutrition (Tyler Moye call, same date, the accountability pillar as sold)"
+      ],
+      "timestamp": "00:01:14"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A client returning from an ACL tear and a month of failed self-rehabilitation of severe bicep tendonitis was moved toward resuming a loaded kettlebell programme with no return-to-training screen, no clearance question and no mention of a graded re-entry.",
+      "evidence": [
+        "my ACL that healed fine. And then I developed like severe bicep tendonitis. And I kept trying to rehab it on my own.",
+        "I finally just like I tried everything up for like a month, going back. I probably went to physical therapy. Now it's fine.",
+        "And the recovery took a lot longer than I thought.",
+        "Let me get back to my team, and I have your phone, I have your email, and I will call you as soon as I get to know something"
+      ],
+      "timestamp": "00:01:18"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "An existing-client service enquiry sits in a closer's sales-call folder under a generic prospect-call title, so it would be counted as a sales opportunity and distort both the close-rate denominator and any per-rep call-volume metric.",
+      "evidence": [
+        "06/25/2026 - Impromptu Zoom Meeting",
+        "I actually, I had Trevor for private coaching.",
+        "So I'm trying to reach out this way."
+      ],
+      "timestamp": "00:00:55"
+    },
+    {
+      "category": "other",
+      "severity": "medium",
+      "summary": "Proposed label: no_owner_on_escalation. The escalation was closed out with no named owner, no date and no committed timeframe, and the rep left it ambiguous whether he or somebody else would make contact.",
+      "evidence": [
+        "I will call you as soon as I get to know something",
+        "I will get back to you, or someone from the team, what are the next steps.",
+        "Okay, cool, man."
+      ],
+      "timestamp": "00:02:29"
+    }
+  ]
+}

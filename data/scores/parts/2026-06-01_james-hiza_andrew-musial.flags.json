@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-06-01_james-hiza_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 56-year-old with a completely torn PCL and an unrepaired grade 3 AC separation paid for loaded kettlebell training on the call with no clinician clearance sought, and signed an agreement he read as disclaiming injury liability.",
+      "evidence": [
+        "So I had a grade three AC separated shoulder. ... It was borderline surgery. But at my age, in my forties, the doctors were like, look, you just probably don't do the surgery.",
+        "well, I thought you tore your ACL, but no, you tore your PCL, which is behind the ACL. And he said, even for professional athletes, there's no surgery for that. It's just a bunch of rehab.",
+        "my right hip, because I have one leg shorter than the other, my right hip used to hurt all the time",
+        "with the thing that you had with torn PCL, yeah, in the knee, that has to be addressed, because like, we don't want to turn it again, that's for sure",
+        "This, I'm not a lawyer, but I'm sure it says he's not held responsible for injuries and all the good things."
+      ],
+      "timestamp": "00:01:14"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A pause-on-injury commitment was made verbally and directly influenced the prospect's payment decision, with no indication it exists in the agreement he signed minutes later.",
+      "evidence": [
+        "No, that makes more sense because if I get an injury halfway through, no fault of Trevor's, then I'm stuck.",
+        "No, if you get an injury, we pause.",
+        "This, I'm not a lawyer, but I'm sure it says he's not held responsible for injuries and all the good things."
+      ],
+      "timestamp": "00:40:13"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A material term of the agreement was discovered by the prospect reading the contract rather than disclosed by the rep, who acknowledged not covering it and then described it in terms that do not state what it actually is.",
+      "evidence": [
+        "30-minute call, weekly coaching, text voice, performance reward credit.",
+        "Yes, I didn't go over that, but, oh, that's actually a good one for you because you're competitive.",
+        "So, yeah, there's an award if you follow through the whole program. You get $500 for an accolable purchase.",
+        "Okay. I can't say bad things about him. I'm just reading this quickly. I'm sure it's boilerplate legal crap."
+      ],
+      "timestamp": "00:44:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The prospect's email address and full telephone number were read aloud for confirmation and are captured verbatim in the stored transcript.",
+      "evidence": [
+        "And your email is jhiza1protonmail.com. Yep.",
+        "And your phone number is 704. 704-907-1343. Correct."
+      ],
+      "timestamp": "00:46:20"
+    }
+  ]
+}

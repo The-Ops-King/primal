@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-06-03_marian-samson_andrew-musial",
+  "source": {
+    "drive_file_id": "1j5ejY82FbsigNrwEWdag6QGA8owENJec",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/03/2026 - Marian Samson x Andrew Musial",
+    "display_title": "06/03/2026 - Marian Samson x Andrew Musial — Follow Up",
+    "file_size_bytes": 17580
+  },
+  "call": {
+    "date": "2026-06-03",
+    "stage": "closer",
+    "sequence_position": 3,
+    "sequence_note": "Explicitly a later call in a sequence. The prospect refers to 'the last time when we talked about it' and 'the first time when we met', and a $5,000 price and a 6-month term had already been agreed before this call opened. No discovery is run here; the call is a terms-and-objections Q&A ahead of payment.",
+    "duration_min_est": 22,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Marian Samson",
+    "aka": null,
+    "name_source": "title",
+    "location": "Denmark",
+    "age": 40,
+    "occupation": "Business owner — runs his own company",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains every day by his own account; no detail gathered on this call",
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "PROPOSED LABEL: 'the_deal_maker'. A capable, self-assured business owner who treats the purchase as a negotiation on its own terms rather than as a health decision. He states outright that price is not the blocker ('It's not a problem about that... I think it's just about how I do things') yet extracts a $1,000 discount and keeps pressing for instalments on principle. None of the listed avatars fit: he is not price-insensitive enough for the_optimizer, and there is no cheap alternative anchor for skeptical_bargain_hunter.",
+      "'I make a good deal for me' and 'It's about good deals. It's not about how tough I am.'",
+      "'I'm 40 years old, I have my own mindset'",
+      "Asks contract, refund, guarantee and delivery-mechanics questions from a prepared written list"
+    ]
+  },
+  "goals": [],
+  "pains": [
+    {
+      "text": "Runs a company with long working days and is unsure how a structured programme will fit around the schedule and travel",
+      "category": "time_scarcity",
+      "severity": "medium"
+    }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "Another thing before, before I make the payment, you know, before the payment is done, I would like to read this contract. It's, it's a basic thing on, on how I do it.",
+      "timestamp": "00:13:43",
+      "rep_response": "Deflected rather than answered. The rep had already said 'let's secure the payment and you will get immediately the contract', and when the prospect asked to read it first the rep said 'Wait, hold on' and moved on to the payment structure. The prospect never received the contract or a commitment to send it pre-payment.",
+      "response_tactic": "deflect_payment_before_terms",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "For me, it's easier to pay each month, you know, because I don't want to pay 5,000K just by one-time payment. It's not a problem about that. One-time payment, you know, I have to be sure. I pay it, I use it. I pay it, I use it.",
+      "timestamp": "00:17:07",
+      "rep_response": "PROPOSED LABEL: 'instalment_structure_preference'. The rep did not isolate the objection or take a financial picture. He asserted most clients pay in full and that paying in full is a commitment device, refused six instalments outright ('definitely I cannot split it in six installments, that's for sure'), floated a possible two-way split, then accused the prospect of looking for reasons to stall.",
+      "response_tactic": "commitment_reframe_then_refuse_then_escalate_to_team",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay. And I cannot give you the answer right now.",
+      "timestamp": "00:20:00",
+      "rep_response": "No scripted think-it-over play was run. The rep countered with a soft takeaway — 'No, you're actually not [in]. If you were in, I would already be scheduling the onboarding call with Trevor' — then took the open action himself: 'I need to go back to the team, and I will reach out to you whenever I know.'",
+      "response_tactic": "soft_takeaway_then_rep_takes_open_action",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 5000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan was agreed. The rep quoted 6 x $1,200 = $7,200 as what a six-way split of the $6,000 tier would cost, refused six or four instalments on the discounted $5,000, and said he could only ask the team about splitting it in half. He ended the call owing the prospect an answer.",
+    "guarantee_mentioned": "In six months, you will add at least eight kilos of the starting weight of the kettlebell... If you are able to do that and follow the whole protocol of nutrition and so on, you will see the results 100%. If that wouldn't happen, and you would actually follow through exactly everything, he will work with you until you reach that goal.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment was taken and no payment link was sent on this call.",
+      "Prospect: 'And I cannot give you the answer right now.'",
+      "Rep: 'I need to go back to the team, and I will reach out to you whenever I know, okay?' — the open action sits with the rep, not the prospect.",
+      "Counter-evidence toward a close: the prospect is warm and had already agreed a price and a term before this call ('Man, you got a deal'), says 'We will do that as well, believe me. I know, I feel positive about this one', and the only open item is instalment structure.",
+      "Counter-evidence toward a loss: the rep told him 'No, you're actually not [in]', and the prospect still had not seen the contract he asked for."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to consult the team on whether the $5,000 can be split into two payments, then call the prospect back."
+  },
+  "notable": {
+    "note": "The agreed price on this call is $5,000, a $1,000 discount off the standard 6-month tier, framed to the prospect as a personal favour the rep had to fight the team for. Separately the rep quoted $7,200 for a six-way instalment split of the $6,000 tier — a $1,200 payment-plan premium that appears nowhere in the standard offer. The rep also stated flatly 'There are no refunds' and required payment before the contract could be read."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns invert repeatedly. Clearest instances: 'Yeah, yeah, you'll get it' at 00:00:52 is attributed to Marian but is the rep answering; 'When you get in, you get in, you do the work' at 00:13:21 is attributed to Marian but is plainly the rep's line following 'There are no refunds'; 'Yeah, but you got a really good deal over here' at 00:15:35 is attributed to Marian but is the rep. Role was read from content throughout. Some Polish small talk at the open is untranslated but immaterial."
+  }
+}

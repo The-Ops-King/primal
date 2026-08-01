@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-06-11_patrick-soldow_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "This is the payment and onboarding leg of an already-agreed sale, opened with small talk about the client's house closing and then \"let's go first through the payment\". There is no frame to set and no discovery to open."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline was taken on the prior call, which is not in this file. The rep explicitly deferred it to Trevor — \"What's your baseline of strength also?\" is described as something the onboarding call will establish."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals were established on the prior call. The client volunteered his own why at the end unprompted — \"for myself, for my family... I know I want to get to where I was, and then surpass that\" — but the phase was not reachable on this call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable on a payment call. The client named his own root cause unprompted at the close — \"Having somebody there to hold me accountable and push me, that's the biggest piece missing\"."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "The decision was already made before this call; there is nothing to build consequence against."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Commitment was secured on the prior call. The rep confirmed the payment method rather than re-testing commitment."
+    },
+    "P11": {
+      "score": "hit",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "hit", "P11d": "hit" },
+      "evidence": "All four steps completed before hanging up. Payment link sent in the Zoom chat and confirmed — \"I just saw that payment went through\". Trevor onboarding booked for Monday 15 June, 3:15pm Mountain, and the invitation confirmed received. The agreement was not just signed but genuinely walked through: the rep said \"take your time to just read through\" and the client read the services, exclusions, no-refunds clause, waiver and medical disclaimer aloud before signing on the call. Welcome email confirmed (\"Hey, Patrick, congrats on taking this step\"), the Skool community link was clicked live (\"Membership is pending for school\") and the onboarding form was flagged to complete before Monday."
+    }
+  },
+  "objection_plays": [
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "No hesitation; the client arrived intending to pay." },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "Wife referenced throughout as a business partner, never as a decision gate." },
+    { "play": "OC", "trigger_present": false, "ran": "not_applicable", "detail": "Money was pre-resolved on the prior call and by the house sale. Financing was offered and waved off — \"you're cool on taking it all upfront. You don't need the finance.\"" },
+    { "play": "OD", "trigger_present": false, "ran": "not_applicable", "detail": "No timing resistance." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt about the modality." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "not_applicable",
+      "detail": "Script gap worth capturing: the client pressed on coaching capacity — \"Trevor only takes on what, like 20 guys a month? How does he continue to manage those month over month as he's adding more people?\" There is no scripted play for a service-capacity or quality-at-scale concern. The rep improvised a decent answer (admin is offloaded, clients need less contact each month, response time around 24 hours), but this arrived mid-payment and would have been far more dangerous earlier in a cycle. Worth building a play for."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Second gap: the client asked whether the programme could be written off against his LLC — \"I'm always looking at ways to write-off stuff... I wonder if I can write this off somehow.\" The rep disclaimed and then advised anyway. There is no guidance in the script for tax questions, and this is the second prospect in a single day to raise deductibility, so it needs an approved answer."
+    }
+  ],
+  "notes": "A clean P11 and the best agreement walkthrough in this batch — the rep slowed down, let the client read the contract clause by clause, and covered all four onboarding steps. Two things to fix, neither about selling: he could not answer where the TrueCoach app access was and had to promise to follow up on a paid client's core deliverable, and he gave an opinion on tax deductibility after saying he was not qualified to. Use this call as the positive template for P11 and pair it with a scripted answer for tax and capacity questions."
+}

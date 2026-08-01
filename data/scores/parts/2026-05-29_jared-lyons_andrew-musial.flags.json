@@ -1,0 +1,56 @@
+{
+  "call_id": "2026-05-29_jared-lyons_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved $1,500 to $1,200 for a one-month option in roughly ninety seconds on hesitation alone, with no financial questions asked and no value exchanged for the concession.",
+      "evidence": [
+        "What would be the cost for one month? / $1,500.",
+        "Like, I think I would do it at $1,000.",
+        "Look, you're a business guy, I'm a business guy. The best that I can do for you, and don't pull my pants too much, it's $1,200. We can meet over there, like, we can do business."
+      ],
+      "timestamp": "00:04:11"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep quoted $1,500 for a one-month trial the day after his manager stated the one-month figure is $1,200 and $1,500 is the three-month figure.",
+      "evidence": [
+        "What would be the cost for one month? / $1,500.",
+        "From the 05/28 1-1: 'that for, if he would go with the six months, it's like $1,200 for one month. And for, he would go for. For three months, it's $1,500, correct?' / 'If you wanted to do, yeah, the three months, yep.'"
+      ],
+      "timestamp": "00:03:27"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A credit-toward-the-larger-package promise was made verbally with no terms, no expiry and no written confirmation, on a tier that is not part of the stated offer.",
+      "evidence": [
+        "And if you would like to continue, every dollar goes towards the larger package if you would like to proceed in the future.",
+        "And if it's not for you, you can walk away, yeah?"
+      ],
+      "timestamp": "00:02:46"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Injuries are referenced by both parties as an existing constraint and the prospect is moved toward a paid kettlebell programme without any question about clinical clearance on this call.",
+      "evidence": [
+        "Like, do I want to change certain things, you know, due to an injury",
+        "having the system that's already built around your body, your injuries, and especially your schedule"
+      ],
+      "timestamp": "00:01:17"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The file is titled 'Impromptu Zoom Meeting' with no prospect name, and the prospect appears only as the handle 'jaredlyons', so the call cannot be keyed to a person from its metadata alone.",
+      "evidence": [
+        "00:00:05 - jaredlyons",
+        "05/29/2026 - Impromptu Zoom Meeting"
+      ],
+      "timestamp": "00:00:05"
+    }
+  ]
+}

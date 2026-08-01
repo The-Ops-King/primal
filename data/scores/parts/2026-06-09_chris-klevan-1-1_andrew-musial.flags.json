@@ -1,0 +1,76 @@
+{
+  "call_id": "2026-06-09_chris-klevan-1-1_andrew-musial",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The stated CRM rule reserves the 'lost' disposition for explicit refusals only, routing every other non-close into 'follow-up', which means any close rate or loss rate computed from the CRM systematically understates losses.",
+      "evidence": [
+        "Chris Klevan: lost is only for if somebody is like, dude, I'm not working with your company. Or they've already bought another program, or they straight up tell you no, basically. They're like, I'm not doing it.",
+        "Chris Klevan: if it's still like, I want to do it, but it's like X, Y, Z thing, and I need to wait X amount of time to do it, then it's follow-up.",
+        "Andrew Jin: what to do with someone that I was supposed to follow up but he eventually messaged me okay I'm not gonna move forward and so on but I feel like this is not the right moment right now",
+        "Chris Klevan: when I fill out the sales completed or not completed, and then in the opportunity, put it in as follow-up."
+      ],
+      "timestamp": "00:18:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Every closer call slot is deliberately double-booked as standing policy to compensate for poor historical show rates, so booked-call counts, show rates and calls-per-day figures drawn from the calendar are structurally distorted.",
+      "evidence": [
+        "Chris Klevan: the reason the double booking is There is because historically the show rates weren't that great, so we couldn't reliably say that if we just had one person in the slot that they would for sure show.",
+        "Chris Klevan: what we do is if we put two people in the slot, there is a much higher chance that you will end with one call at least. And so it's an attempt to get you more live calls each day.",
+        "Chris Klevan: yes, the risk is that both people end up showing. But we're okay with that risk because if both people end up showing odds are we can either give that second person to another closer who happens to be open or a setter will call them triage them and get them back on the calendar anyways.",
+        "Andrew Jin: It's making me anxious, because I'm wrapping. I feel that it's going to go longer, and there are two guys getting in"
+      ],
+      "timestamp": "00:21:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A prospect was lost as a direct result of the double-booking policy — he received repeated confirmation messages, was contacted ten minutes after his scheduled slot, was asked to reschedule, and then withdrew.",
+      "evidence": [
+        "Andrew Jin: he sent me a message that he got so many messages reconfirming and so on and so on. And then we called them call him 10 past the hour of the meeting and rescheduling in. So he didn't feel good about it. And he doesn't want to move forward with us. So he canceled the meeting, the next meeting that we were supposed to have with him.",
+        "Andrew Jin: yesterday there was this situation that I was on a call. I let know Kim to call one of the prospects. And because I was finishing the previous one... it was a double booking, yeah.",
+        "Chris Klevan: sorry to hear that. Thank you for giving us the feedback. We're not, it's not our intention to blow you up and send you a bunch of messages. And it's not the way that we like to do business."
+      ],
+      "timestamp": "00:18:31"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Three offer structures outside the two stated tiers — a three-month option, a 'two-pay', and 'love it or leave it' — were discussed as established tools with manager-defined rules for when each should be deployed.",
+      "evidence": [
+        "Andrew Jin: Maybe I over-complicate it. When is the moment that we should present the three-month option? — Chris Klevan: If you find out they only have enough money to do the three-month option.",
+        "Chris Klevan: The point of downselling is if you know they have the money, and you go for the PIF, and they're still uncertain about it, but you can tell they still want to do the program, then I would give them a two-page [two-pay] just to help ease it in.",
+        "Andrew Jin: So in that case, the best solution would be the love it or leave it? — Chris Klevan: No. No. That- The best solution would be walking them through the fear",
+        "Andrew Jin: we're exploring the the 6k options in every possible way, like the payment plans and so on, and they don't want to do that."
+      ],
+      "timestamp": "00:09:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "A financed six-month deal costs the prospect $7,200 against the $6,000 cash price, a figure used freely internally, while prospects offered financing on calls in this batch were told only that the interest rate 'is not high' and were never given a total.",
+      "evidence": [
+        "Andrew Jin: And we present the financing options, but that scares them too, because it's $7,200. So that's too much.",
+        "Chris Klevan (in reply, without correcting the figure): I guess I'm not really understanding what's going on. So you open-walleted them, they have the money, but they're scared to do it?",
+        "For comparison, Manny Núñez call 06/08 at 01:12:03 — Manny: So do you know what the interest is for like Pava? — Rep: So it's different for like, it's not high, but it's different depending on your credit score.",
+        "For comparison, Pat Soldow call 06/08 at 00:52:15 — Rep: we work with Paiva Financing, so you can put it on that, so we can do it from the get-go right now."
+      ],
+      "timestamp": "00:09:27"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager treats payment plans as standard practice and coaches how to size them against a prospect's monthly surplus, contradicting reps who told prospects on this same corpus that set payment plans do not exist.",
+      "evidence": [
+        "Chris Klevan: So I usually always pitch a payment plan that is right around. If somebody has $1,000 left over at the end of each month, I would probably try to finance them and try to see if I can get them in on payment for the $650 or whatever.",
+        "Chris Klevan: you have about $1,500 left over at the end of each month. We can do a payment plan for six months and it'd be $1,200 a month. So I think that's honestly the best option for you.",
+        "Chris Klevan: if you just line them up with the right payment plan option that matches their situation... 95% of the time, they'll do it.",
+        "For comparison, Daniel Diaz call 06/08 at 00:43:46 — Rep: Now, we don't have set payment plans for customers. Most of them, they just take it upfront."
+      ],
+      "timestamp": "00:06:20"
+    }
+  ]
+}

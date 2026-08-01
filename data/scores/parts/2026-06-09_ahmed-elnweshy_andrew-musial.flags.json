@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-06-09_ahmed-elnweshy_andrew-musial",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording truncates mid-exchange at 00:33:13, at the exact moment the prospect asked to defer payment, so the outcome of a call recorded as closed under the verbal-agreement-plus-link-sent rule is not actually observable in the file.",
+      "evidence": [
+        "Ahmed Elnweshy: Can I pay after this session? Because I will adjust some regarding to the payment.",
+        "Rep: Could you repeat? Because I didn't hear that. Hello?",
+        "[recording ends here at 00:33:13]",
+        "Rep, moments earlier: I've put it in the chat. Do you see it? — Ahmed Elnweshy: Yes, I see it. This is the link of the payment?",
+        "The call was also degraded throughout — Ahmed Elnweshy: I hear you about some interruption in the voice; Rep: Can you hear me? Because you got frozen."
+      ],
+      "timestamp": "00:32:49"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A $6,000 commitment was taken from a prospect with limited English who asked for repetition at least four times and answered the commitment-check question with 'You're asking about what?', without the rep ever slowing down, rephrasing or checking comprehension.",
+      "evidence": [
+        "Rep: do you agree that you would get to your goals and lose this weight for your marriage? — Ahmed Elnweshy: Okay, yes. — Rep: Yes? — Ahmed Elnweshy: You're asking about what?",
+        "Rep: And what's your like guilty pleasure? Like what do you like to eat like for pleasure? — Ahmed Elnweshy: Pleasure? I didn't recognize your question well.",
+        "Ahmed Elnweshy: Can you repeat the question?",
+        "Rep: You want to, as we say, rock and roll? — Ahmed Elnweshy: Yes. Okay.",
+        "Rep: So we're gonna teach you how to fish, we will not just give you the fish."
+      ],
+      "timestamp": "00:28:25"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed an ACL reconstruction with ongoing exercise-provoked knee pain and was sold a loaded kettlebell programme with no question about whether a clinician has cleared him for it.",
+      "evidence": [
+        "Ahmed Elnweshy: from six years I performed ACL in my right leg, this is six years ago",
+        "Rep: Did you have surgery on that? — Ahmed Elnweshy: Yes.",
+        "Ahmed Elnweshy: Sometimes when I go to some exercise related to a leg, I feel some pain, but it's affordable.",
+        "Ahmed Elnweshy: What about the right movements to be in a good position, to be prevent from my injury?"
+      ],
+      "timestamp": "00:04:40"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "A six-month programme was recommended and sold against a fixed deadline four months away, with the rep raising the shortfall himself twice and never resolving what could actually be achieved by the wedding date.",
+      "evidence": [
+        "Ahmed Elnweshy: my next marriage is next October... The day is 15 October.",
+        "Rep: Okay, okay. So we don't have a lot of time.",
+        "Rep: So we don't have much time because the marriage is in October. Yeah. So we need to hit that. But it is possible.",
+        "Rep: I think the six months program makes sense for you.",
+        "Ahmed Elnweshy: I chose six months because as a period of my marriage, I think that six months will be enough.",
+        "Rep: so you can become the handsome man on your marriage."
+      ],
+      "timestamp": "00:29:31"
+    }
+  ]
+}

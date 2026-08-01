@@ -1,0 +1,116 @@
+{
+  "call_id": "2026-06-08_kareem-shirazi_andrew-musial_2",
+  "source": {
+    "drive_file_id": "1IdYeIK6fnZ4sIvSCHpSrqM8tBl3feVkg",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/08/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/08/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 14943
+  },
+  "call": {
+    "date": "2026-06-08",
+    "stage": "onboarding",
+    "sequence_position": 2,
+    "sequence_note": "Second half of the same-day Kareem Shirazi deal. The 5pm payment meeting agreed at the end of '06/08/2026 - Kareem Shirazi x Andrew Musial ' (drive id 1e9Gh-fGGXLD-o_6WSs3ciaAhMJFCzjgX), run on the same Zoom link. Opens mid-transaction with 'So you want to take it all up front?' and references the payment link sent on the earlier call.",
+    "duration_min_est": 25,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Kareem Shirazi",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New York City, New York, USA",
+    "age": null,
+    "occupation": "Product management consultant in tech; runs his own consulting business",
+    "family_status": "Married; 14-month-old son",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Played soccer through high school and recreationally in college; used the gym alongside it. Wears a Whoop band, previously Oura ring and Apple Watch, and is letting the Whoop subscription lapse.",
+    "medical": "Imaging-confirmed ganglion cyst in the wrist, not from training. Painful when the wrist is loaded in full extension, e.g. during push-ups. Disclosed at 00:22:58, after payment. He notes he did not mention it when listing his injuries on the earlier call.",
+    "kettlebell_experience": "some"
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Same prospect and same assignment as the first call in this deal",
+      "Frames the purchase as regaining focus and rebuilding: 'that's why I need something like this to help me, like, regain some focus'",
+      "This recording is transactional and carries little fresh avatar evidence of its own"
+    ]
+  },
+  "goals": [
+    { "text": "Regain focus and consistency through structured coaching", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Ganglion cyst in the wrist that hurts when the wrist is loaded in full extension, e.g. push-ups", "category": "injury", "severity": "medium" },
+    { "text": "Work as a tech consultant has been the standing priority over health", "category": "work_stress", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "Two questions. Is there a, like, 30-day guarantee on any of this stuff? Or, like, if I hold up my end of the bargain, or if for whatever reason, I don't You maybe my body is not responding to it. Well, for whatever reason, is there anything like that in this program?",
+      "timestamp": "00:00:43",
+      "rep_response": "Answered with a performance guarantee rather than the refund guarantee that was asked about: following the tailored programme will 'definitely' add at least eight kilos, roughly 16 pounds, to his starting kettlebell baseline, and if that does not happen inside the six months Trevor keeps working with him until it does. Refund and cancellation terms were never stated in either direction.",
+      "response_tactic": "substitute_performance_guarantee_for_refund_question",
+      "resolved": true
+    },
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "I didn't mention it when I was listing my injuries or sort of injuries that I have. Yeah. I had gotten some wrist injury, not from working out. I actually got imaging done on it and there's a cyst. I have a ganglion cyst in my wrist. So what ends up happening is if I do a push-up and it's like my wrist is all the way back like this and I load it up and I put pressure on it, it actually bothers my wrist... So, is there anything I should be aware of like with the program or the workouts or whatever, or maybe this is something that we can adapt?",
+      "timestamp": "00:22:58",
+      "rep_response": "Did not answer whether the movement library is compatible with a loaded wrist pathology and did not ask whether a clinician had reviewed it. Gave general advice to over-communicate with the coach when something hurts and to scale volume down on hard weeks: 'over communicate with Trevor is when something is feeling off or it hurts or whatever... it's supposed to work for you not the other way around.'",
+      "response_tactic": "defer_to_coach_over_communicate",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": true,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "There is a, like a guarantee that if you follow the exact program, how it's going to be tailored to you and everything, you will definitely gain at least eight kilos, which is around 16 pounds of weight, to your initial baseline of the kettlebell... If that wouldn't happen in those six months, Trevor is going to work with you until you hit that.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Paid in full up front by credit card. The rep confirmed receipt on the call after a delay in the payment system: 'Sorry to interrupt. There it is. You got it.'",
+      "Prospect confirmed his own side: 'Did you got a confirmation already?' — 'I did. Yeah.'",
+      "Onboarding call with Trevor booked for Wednesday 1:45pm US Eastern.",
+      "Agreement email confirmed as received on the call: 'Okay. Yeah, I see that. Okay. And then, I see the invite.'",
+      "COUNTER-EVIDENCE: the agreement was NOT signed on the call — the rep told him 'You can do it later'.",
+      "COUNTER-EVIDENCE: the $6,000 figure is not restated on this recording; it is carried from the earlier same-day call in this deal, where the rep quoted 'the investment is $6,000'. The six-month term is stated here.",
+      "An attempt to pay via Klarna failed before the credit card went through."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Sign the agreement that evening, join Primal University on Skool, complete the onboarding questionnaire and set up TrueCoach, then the 30-minute Trevor onboarding call on Wednesday at 1:45pm ET."
+  },
+  "notable": {
+    "note": "Two things a manager should see. First, the prospect asked whether a 30-day money-back guarantee exists and never got a yes or a no — he got a strength-gain guarantee instead, then paid $6,000 in full. Second, he disclosed an imaging-confirmed wrist ganglion cyst that hurts under loaded extension only after paying, and the reply was to talk to the coach, with no question about clinical clearance and no answer about the movement library. Roughly nine minutes of the twenty-five were dead air while the payment failed to appear in the rep's system, filled with World Cup and wearables small talk."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. The block at 00:09:17 runs both sides of a long exchange about Poland and the World Cup under a single prospect label with no punctuation. At 00:03:05 the rep's question 'So you mentioned you work in tech, correct?' and the prospect's full answer are merged into one prospect turn. The whole closing passage from 00:24:00 is a single rep-labelled block containing both voices. Roles assigned from content throughout. The (Primal Instinct) speaker is labelled 'Andrew Jin' in Fathom while the rep folder is 'Andrew Musial'; the prospect addresses him as 'Andrew' and he confirms he is in Poland."
+  }
+}

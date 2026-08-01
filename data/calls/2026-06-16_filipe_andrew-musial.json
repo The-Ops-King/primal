@@ -1,0 +1,105 @@
+{
+  "call_id": "2026-06-16_filipe_andrew-musial",
+  "source": {
+    "drive_file_id": "1jTdQ9O8iSv4MJ2Jf0VMtf1RcoenU-64c",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/16/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 20438
+  },
+  "call": {
+    "date": "2026-06-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 24,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Filipe",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Porto, Portugal",
+    "age": 53,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 72,
+    "weight_lb": 168,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete: competitive waterskiing (slalom and tricks), kung fu, surfing. Last ~10 years calisthenics on rings — pull-ups, dips, archer push-ups. Just finished a three-month movement program with Roy Goldsmith (end-range strength, spinal waves, handstands). Daily morning mobility routine; loaded Jefferson curls at 20 kg. Some steel mace work about two years ago.",
+    "kettlebell_experience": "none",
+    "medical": "Two herniated lumbar discs at L4/L5. Historic severe pain — reports episodes where he could not get out of the car. States it resolved after building musculature around the spine through calisthenics and body-weight suspension work; currently asymptomatic. Prior minor front deltoid tingling, reports it resolved with CARs/band work."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.88,
+    "signals": [
+      "53, self-describes as 'in pretty good shape', trains something most days",
+      "Goals are skill-level: free handstand, pancake, plus modest muscle-mass gain and time efficiency",
+      "Wants good to great — 'I don't want to lose my strength' while adding conditioning",
+      "No price resistance surfaced; rep withdrew the offer before price was ever named"
+    ]
+  },
+  "goals": [
+    { "text": "Add muscle mass — currently ~76-78 kg at 1.84 m and wants to be less slim", "category": "muscle_gain" },
+    { "text": "Time-efficient training — previous program cost him an hour and a half per session, wants something shorter", "category": "convenience" },
+    { "text": "Build stamina, endurance and conditioning alongside strength, which kettlebells could add", "category": "endurance" },
+    { "text": "Keep training with longevity in mind at 53 without losing the strength he has", "category": "longevity_function" },
+    { "text": "Achieve a free-standing handstand and a full pancake as movement skill targets", "category": "hobby_performance" },
+    { "text": "Continue improving end-range strength and mobility, including Cossack squats", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Previous program sessions took an hour and a half, which is why he is looking for something more time efficient", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Dislikes gyms — 'I don't like gyms. I kind of dislike them really' — prefers training outside", "category": "training_barrier", "severity": "low" },
+    { "text": "History of L4/L5 disc herniation with episodes severe enough that he could not get out of the car", "category": "injury", "severity": "medium" },
+    { "text": "Has not yet reached his own skill targets — cannot hold a free handstand or complete a pancake", "category": "training_dissatisfaction", "severity": "low" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep disqualified the prospect from the 1:1 programme unprompted: 'in my opinion, you don't need to spend several thousand dollars to work with Trevor, just to learn kettlebells.'",
+      "The $6,000/6mo offer was never priced or presented — only referenced as 'a six-month transformation coaching' costing 'several thousand dollars'.",
+      "Counter-evidence: the call did not end in a rejection by the prospect. He was receptive throughout and accepted a downsell to Primal University at $200/month, asking for the join link.",
+      "Counter-evidence: rep left the door open — 'you can always reach out back to us, and yeah, we can set you up with Trevor.'",
+      "No payment was collected on the call for either product; the prospect asked whether a trial existed before paying."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email the Primal University join link; prospect to review the community and may return for 1:1 with Trevor later."
+  },
+  "notable": {
+    "note": "Rep deliberately talked the prospect out of the core offer on fit grounds and downsold to Primal University at $200/month, also floating roughly $2,000 for a year. The transcript label for the rep is 'Andrew Jin (Primal Instinct)' although the file sits in the Andrew Musial folder and he confirms he is Polish and living in Poland, matching the known Andrew Musial profile. Prospect self-reported weight inconsistently in one breath ('I weigh 76 kilos, so I think roughly 78 kilos'). The rep described the actual client base as people who want to 'lose weight... like 20' kilos and former athletes who fell off, which cuts against the stated ICP."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion on short turns and on several whole passages. The disc-herniation disclosure ('Because I have two heneated discs') is labelled Andrew but is clearly Filipe, continuing into the next Filipe turn. The disqualification line 'And why I think it's not the best solution for you right now' is labelled Filipe but is clearly Andrew. Roles read from content throughout."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-30_shyam_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Delivered only after the price was declined, as part of the subscription pitch: \"when you're working out with kettlebells, each single session that you're going to be working on strength, conditioning, and mobility.\" The prospect engaged on mechanics rather than value — \"you should have a gym membership for this, or you need to buy kettlebells?\", \"Because you should have a different weight. I can't have one single weight\", and \"how do I determine what weight I feel for?\" He accepted each answer without pushback."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Named twice in passing but never delivered — \"we can provide you with the training, with nutrition, with everything\" and, inside the subscription description, \"You will have his nutrition protocol.\" No mechanism, no explanation and no prospect reaction, despite the prospect having volunteered a carb-heavy diet and a pre-diabetes diagnosis."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented concretely: \"he's gonna be checking up on you every single week... if you don't follow each workout, like when you skip a workout, he will be virtually knocking on your door.\" The prospect had already asked for exactly this — \"Hopefully, that is where you guys will help me\" — and raised no questions or objections to it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_coaching_program",
+      "raw": "I do an app called Fitter, FTTR. I don't know if you know that. It's an Indian app and they provide you coaches and they will guide us. And during that program, I was able to get into good shape. I was almost able to reduce almost 10 kgs of my weight",
+      "direction": "undercuts_price",
+      "competitor": "FITTR",
+      "note": "His reference point for coached fitness is an app-based Indian coaching service that produced a real 10 kg result. No price was stated, but FITTR sits at a consumer subscription price point, so it sets both the expected cost and the expected efficacy of coaching before $6,000 is ever said. The rep never surfaced or reframed it."
+    },
+    {
+      "type": "subscription_expectation",
+      "raw": "So is there an app or something where I need to subscribe?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived from an Instagram feed expecting an app-shaped subscription product, not a high-ticket coaching engagement. That expectation was never reset in the opening, which is part of why the price landed as \"way out of my league\" rather than as something to problem-solve."
+    },
+    {
+      "type": "currency_mismatch",
+      "raw": "No, when you sold in US dollars, I thought you were in US.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A UK-based prospect being quoted in USD then converted live to sterling added friction — the £4,500 figure landed as a second, larger-feeling number rather than the same price."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Help getting back to endurance cycling and testing his limits on the bike again — the thing he actually cares about, with health benefits described by him as \"just a by-product\"",
+      "why_unmet": "The rep never connected kettlebell strength and conditioning to cycling capacity. He argued functional movement using the son and a bike ride as illustration, but never addressed the endurance goal the prospect had named as his primary driver.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A training path that accounts for pre-diabetes and reverses it",
+      "why_unmet": "Pre-diabetes was used as a consequence lever (\"we're going towards diabetes, full type 2 diabetes\") but was never answered with anything the programme does. The nutrition pillar, which is the obvious response, was named but not presented.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way in at a price he can actually fund",
+      "why_unmet": "The core offer has no lower tier and no payment plan was explored. The rep filled the gap by improvising a $200/month community subscription that is not part of the stated offer.",
+      "verdict": "product_gap"
+    }
+  ]
+}

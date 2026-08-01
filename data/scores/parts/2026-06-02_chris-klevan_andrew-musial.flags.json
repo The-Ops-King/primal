@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-06-02_chris-klevan_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager coaches the rep to keep prospects talking while they enter payment/financing details specifically so they do not reconsider and withdraw.",
+      "evidence": [
+        "I've had people back out because when they're going through the financing, I'm just totally silent and I'm not talking to them. And I'm just letting them do it. And then they get nervous and they back out.",
+        "Versus if you just have a conversation with them and keep it normal, like when they're going through the financing, just being like, yeah, so what do you got going on the rest of the day and just talking with them and keeping them talking so they're busy. So it's normal. So it's chill. So that way they'll just keep going through.",
+        "when you drop the price, I'd almost even just recommend just kind of like sit back in your chair and be like, cool, man."
+      ],
+      "timestamp": "00:12:34"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A prospect with stage three or four cancer was taken to a close attempt and is discussed in coaching purely as a money-objection anecdote, with no mention by rep or manager of clinical screening or clearance for loaded kettlebell training.",
+      "evidence": [
+        "even though i had that guy that uh has a stage three or four cancer and yeah he did backed out so even even then money is an obstacle for them",
+        "money is a real like it can be a real obstacle logistically but in a lot of cases it isn't it's not real"
+      ],
+      "timestamp": "00:23:54"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager instructs the rep to treat any hesitation as fear to be named and pushed through rather than a reason to stop, including scripting the prospect into a forced yes/no.",
+      "evidence": [
+        "Don't let them sit on a maybe. Maybe is not real.",
+        "So is it just a bit of nerves? Are you just a bit nervous about pulling the trigger? Just a little trigger shy? There's nothing else for them to grasp onto other than saying, yeah.",
+        "So you got to call it out."
+      ],
+      "timestamp": "00:22:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep for the entire 'Andrew Musial' folder appears in every transcript under the Fathom display name 'Andrew Jin (Primal Instinct)', so speaker-label matching on rep name will fail across this folder.",
+      "evidence": [
+        "00:00:55 - Andrew Jin (Primal Instinct)",
+        "06/02/2026 - Chris x Andrew - 1-1"
+      ],
+      "timestamp": "00:00:55"
+    }
+  ]
+}

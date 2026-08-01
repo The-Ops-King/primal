@@ -1,0 +1,80 @@
+{
+  "call_id": "2026-06-22_jacob-reyf_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The six-month instalment option was quoted as $1,200 a month, a total of $7,200, and the $1,200 premium over the $6,000 price was never stated aloud.",
+      "evidence": [
+        "And the third and fourth option is you can split it even in six months, but it's going to be 1,200 a month.",
+        "let me be straight the best option is to pay it up front because it's the cheapest",
+        "the second best option is to split it in half it's going to be 3k today and 3k in 30 days"
+      ],
+      "timestamp": "00:21:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A fourth structure was offered through an interest-bearing third-party financier with a term of up to twelve months, taking the effective cost above list by an amount that was never quantified.",
+      "evidence": [
+        "Or you can use a third-party financing option. We work with Pava. And whatever credit score you have, it depends. You can even split it in 12 months if you want.",
+        "Is interest-free? No, there is interest on this. Yeah."
+      ],
+      "timestamp": "00:21:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep used social proof to normalise financing the purchase on credit, then reversed the prospect's chosen 50/50 split into full payment by minimising the difference.",
+      "evidence": [
+        "Look, most guys just put it on credit.",
+        "Yeah, I mean, that's probably what I'll do. I put everything on credit. do it half.",
+        "No, but half, in 30 days, it means nothing. It's the same thing."
+      ],
+      "timestamp": "00:21:45"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The prospect stated he would not read the agreement before signing it and the rep affirmed that, then released him from signing on the call as the playbook requires.",
+      "evidence": [
+        "So what is this agreement? For the whole program, yeah? What am I, signing my life away?",
+        "I'm not going through it. ChatCBT is going to go through it.",
+        "Exactly.",
+        "If you don't have time right now, you can do it later today."
+      ],
+      "timestamp": "00:28:26"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "A previously broken wrist was disclosed and, twelve minutes later, discomfort during kettlebell snatches; the rep gave remote technique correction without connecting the two or asking whether the wrist had been assessed.",
+      "evidence": [
+        "I mean, I have injuries. I wouldn't call them limitations, but yes. I broke my wrist. It hasn't affected me.",
+        "Let me ask you, when I do snatches, sometimes when the bar, when the kettlebell hits my forearm, it's a little uncomfortable.",
+        "Go this is the thing with snatches. I know I had this problem. Like, when it hits your forearm... You're supposed to control it."
+      ],
+      "timestamp": "00:19:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "A full-price client was told the community platform included in his purchase is for people who cannot afford coaching.",
+      "evidence": [
+        "there is also the Primal University community on school, you can log on there later on.",
+        "Because if someone doesn't have the budget and wants to, like, do it on their own or something like that, he can learn from that, yeah?"
+      ],
+      "timestamp": "00:30:35"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The transcript opens with a recording-state announcement and has unexplained silent gaps of up to a minute across the payment-processing window, so part of the close is not captured.",
+      "evidence": [
+        "Okay, now I can see you. Recording stopped.",
+        "okay paid oh okay let me just double check yep all right now let me know I will read you the you want to meet with him tomorrow"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

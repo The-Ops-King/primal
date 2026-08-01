@@ -1,0 +1,101 @@
+{
+  "call_id": "2026-06-03_sasa-svalina_andrew-musial_2",
+  "source": {
+    "drive_file_id": "1nabiqDPWdFYcF2rb8DWle5smr-7gU_Dh",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/03/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/03/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 5365
+  },
+  "call": {
+    "date": "2026-06-03",
+    "stage": "closer",
+    "sequence_position": 3,
+    "sequence_note": "Same-day continuation of the Sasa Svalina Game Plan Session (Drive file 1mn1b_kL5em27JiwaxGMqb0AwHhrA5TlC), reconvened specifically to resolve the app-demo objection that stalled that call. The title names no prospect. The call_id carries a _2 suffix because it would otherwise collide with the primary recording. These two files are ONE deal and must not both enter a close-rate denominator.",
+    "duration_min_est": 7,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Sasa Svalina",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Croatia (near Split)",
+    "age": 50,
+    "occupation": "Owner of a quarrying and mining business — three factories and five mines",
+    "family_status": "Married",
+    "height_in": 75,
+    "weight_lb": 214,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Lifelong athlete — windsurf foiling, basketball, half marathons. Detail was gathered on the primary recording earlier the same day, not here.",
+    "kettlebell_experience": "some",
+    "medical": "Nothing disclosed on this recording. Prior-resolved hand and ankle injuries were covered on the primary recording."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Carried from the primary recording — already fit and successful, buying good-to-great.",
+      "Behaviour here is consistent with it: he evaluates the product on its merits in seconds ('Look interesting... Okay, that's enough'), then treats payment as a scheduling matter rather than a decision.",
+      "Still no price sensitivity of any kind on this recording."
+    ]
+  },
+  "goals": [
+    { "text": "Start training with correct kettlebell technique under coaching as soon as the paperwork clears", "category": "other" }
+  ],
+  "pains": [],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "Okay, okay, then be in contact and I will make the payment, okay? ... I cannot right now. I already have one call what I need to be.",
+      "timestamp": "00:04:24",
+      "rep_response": "PROPOSED LABEL: 'scheduling_conflict_defers_payment'. The rep isolated properly rather than pushing — 'Look, like, is anything, like, I understand, like, maybe we went too fast on this, like, is there anything coming up right now?' — and accepted the answer when the prospect confirmed there was nothing ('No, no, no. For me, everything is good. I have only one more call from Dubai I need to answer'). He then negotiated a same-evening slot to complete payment and onboarding together, settling on 21:30 on the same Zoom link.",
+      "response_tactic": "isolate_then_book_same_day_completion_slot",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.65,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Unambiguous verbal agreement to move forward: 'then be in contact and I will make the payment, okay?' and again 'After I finish my things, then I will make the payment, and you will see that it's paid.'",
+      "The payment link was sent earlier the same day on the primary recording ('I will put in the chat the payment link') and the prospect refers to it as live: 'When I make the payment, you will see and then you send me other meeting when it's ready.'",
+      "The objection that blocked the primary call was resolved on this recording — he watched the app footage and accepted it: 'Okay, that's enough. Like this, what I can see. Yes. So this is the app. Okay. That's okay.'",
+      "A completion slot was agreed for the same evening at 21:30 on the same Zoom link, for payment and onboarding together.",
+      "COUNTER-EVIDENCE, and the reason confidence is 0.65 rather than higher: no payment was taken on the recording and none is confirmed anywhere in this batch. The same prospect had already agreed to move forward once that day and then did not pay. He also declined to complete it live when offered ('I cannot right now'), and his stated reason is a diary conflict rather than a decision.",
+      "COUNTER-EVIDENCE: the close rule is being satisfied across two recordings rather than one — the agreement is here, the link was sent on the earlier file."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "close_rule_contract_value_payment_not_confirmed_on_recording",
+    "next_step": "21:30 the same evening on the same Zoom link — take payment, then book the Trevor onboarding call, which the rep said needs at least a day's lead time."
+  },
+  "notable": {
+    "note": "The rep solved the stall by screen-sharing a named existing client's customised programme and workout footage, roughly three hours after telling this same prospect that a demo could not be shown because 'we cannot share the client's details'. It worked commercially and it resolved the deal, but it means the confidentiality reason given earlier was not a real constraint, and a paying client's programme was shown to a stranger to close a sale."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short file with several clear inversions. The block at 00:04:56 labelled Sasa contains the rep's own lines ('But the thing is, when you make the payment, I need to get on a call with you still, because we need to schedule and everything, I need to show you, onboard you'), and at 00:04:24 'You don't want to proceed right now?' is the rep's question sitting inside a Sasa-labelled turn. The opening 90 seconds are a single unbroken rep monologue over a screenshare with the video's own audio transcribed into it, so the timestamps there are approximate. Demographic fields on this record carry from the primary same-day recording; only the goal, objection and outcome are sourced from this file."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "call_id": "2026-07-03_tom_andrew-musial",
+  "source": {
+    "drive_file_id": "1lyZsLeec8wPqwmgoBEEbASIs9FIcp7vi",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/03/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/03/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 65431
+  },
+  "call": {
+    "date": "2026-07-03",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 68,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "label_in_transcript": "Andrew Jin (Primal Instinct)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Prospect: 'Just to, like, backtrack, I told Kim about this, but in September, before September of 2025, my fitness was total fat guy.' No suffix in the title; the setter is identified from the transcript."
+  },
+  "prospect": {
+    "name": "Tom",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Chicago, Illinois, USA",
+    "age": 45,
+    "occupation": "Full-time sedentary Monday-to-Friday job; income self-reported at $65,000-$70,000/year",
+    "family_status": "Married to a man, Radu; uncle who regularly babysits his brother's children; father died of COVID five years ago",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Sedentary until September 2025, then a nutrition-led turnaround: down about 75 lb, mostly on whole-food nutrition, plus a further 10 lb in the two and a half months since joining a gym. Trains on machines while seated because he cannot stand, weekend 6am sessions, one personal-training session per week focused on core. Progressed from 20-40 lb to 80-100 lb on machines in about eight weeks. Practises fasted training.",
+    "kettlebell_experience": "some",
+    "medical": "Type 2 diabetic. Diabetic foot infection led to amputation of the left big toe the week before Christmas 2025. Three hospital admissions in under a year. Placed on a GLP-1 and stopped it after roughly three months following a full-body hives reaction that put him in the emergency room. Developed a large blister on the sole of the operated foot; skin grafts approved and he has been strictly zero weight-bearing for four weeks, getting around on a knee scooter, with roughly a week and a half to go before he can walk. Residual open area described as about a quarter inch by a quarter inch, seen by a doctor weekly. Reports being taken off diabetic medication. States no other injuries or movement limitations."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.72,
+    "signals": [
+      "Mid-treatment rather than post-recovery: four weeks zero weight-bearing on skin grafts with an open wound and weekly clinician visits at the time of the call.",
+      "Training is explicitly framed as fighting the condition — 'let's say I get sick in the future. Heaven forbid cancer, something bad... I want to be strong enough. I want my body to be able to fight it.'",
+      "Motivation is extremely high and he required no persuasion on value — 'as far as I'm concerned, it's a yes'.",
+      "Overlaps with the_rebuilder (ten months of successful self-directed turnaround, visible regret about the prior lifestyle); prehab_fighter chosen because the health event is active, not past."
+    ]
+  },
+  "goals": [
+    { "text": "Keep the diabetes in remission and never regress — 'my number one goal is just overall health improvement and nutrition. I don't want to regress.'", "category": "longevity_function" },
+    { "text": "Be strong enough that his body can fight a future illness, explicitly contrasted with his father who died of COVID", "category": "longevity_function" },
+    { "text": "Rebuild balance and leg strength after losing the big toe", "category": "injury_confidence" },
+    { "text": "Tighten the torso and loose skin after roughly 85 lb of weight loss", "category": "appearance" },
+    { "text": "Jog a 5K rather than walk it", "category": "hobby_performance" },
+    { "text": "Be around and mobile into his 50s and 60s without a walker, and be the uncle who is present as his brother's kids grow up", "category": "longevity_family" },
+    { "text": "Learn how to combine fasting with weight training without losing growth", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Diabetic foot infection cost him his left big toe and put him in hospital three times in under a year", "category": "medical", "severity": "critical" },
+    { "text": "Four weeks zero weight-bearing on skin grafts; cannot stand, train standing, or walk for another week and a half", "category": "injury", "severity": "critical" },
+    { "text": "Allergic reaction to the GLP-1 he was prescribed, ending in the emergency room", "category": "medical", "severity": "high" },
+    { "text": "Balance and leg strength are compromised by the amputation — 'you lose a toe. It's going to be a little different now with walking.'", "category": "injury", "severity": "high" },
+    { "text": "Desk-bound work with only a 10-30 minute walk after lunch", "category": "training_barrier", "severity": "medium" },
+    { "text": "Loose skin on the torso after major weight loss", "category": "other", "severity": "low" },
+    { "text": "Doctor and hospital bills alongside a $65-70k income and about $600 in the bank", "category": "other", "severity": "high" },
+    { "text": "One 45-minute PT session a week is not enough support — 'the training is cool at the gym for one day of the week, but it's like for 45 minutes'", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Obviously, I was hoping it's not going to be like $5,000 and like, you know, something crazy. Unless it is. I saw your face.",
+      "timestamp": "00:39:22",
+      "rep_response": "Led with the written guarantee before naming the price, then stated $6,000 for six months and immediately normalised it as '$1,000 a month' and 'most of the guys put it on a credit card upfront'.",
+      "response_tactic": "guarantee_then_price_then_unit_reduction",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I think I could swing like $125[,000] a week, which would come out to, so like what, just to throw it out there, what would we, what would I be able to get for like $3,000, like half?",
+      "timestamp": "00:47:01",
+      "rep_response": "Ran a partial financial picture — monthly surplus and savings only, no credit cards, available credit or investments — then invented a three-month package at $4,000 split into two $2,000 payments, with a further $2,000 to extend to six months.",
+      "response_tactic": "improvised_reduced_scope_tier",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I just want to make sure I speak with my spouse and that everything is done. And I'm married, so, you know, I don't like just pulling the trigger. I just want to have the discussion.",
+      "timestamp": "00:50:24",
+      "rep_response": "Ran most of the scripted spouse play: money-aside belief question, what obstacles the spouse might raise, a role-play as Radu, 'it's your decision. It's your responsibility, your health, not his', an offer to bring the spouse onto the call, and a refundable deposit as a bridge.",
+      "response_tactic": "isolate_then_roleplay_then_refundable_deposit",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "And I know you guys are always going to hate this when I say this stuff, but can I just have a day? Or can I have the weekend and can we like reconvene on Monday?",
+      "timestamp": "00:49:56",
+      "rep_response": "Asked 'what's coming up?', then asserted the decision was already made — 'if you want to still think about it, but I know deep down that you already made the decision' — and converted it into a deposit demand rather than a rebooked call.",
+      "response_tactic": "assert_decision_already_made_then_deposit_gate",
+      "resolved": false
+    },
+    {
+      "type": "timing_medical",
+      "raw_quote": "Because I cannot walk yet, what I'm wondering is, would it make more sense to get this started in the week and a half once I'm able to actually move around, once I'm actually able to stand on my two feet?",
+      "timestamp": "01:04:00",
+      "rep_response": "Reframed the onboarding lead time as covering the gap — Trevor call next week plus 24-48 hours to build the programme — and said he would not start on kettlebells anyway, doing mobility and imbalance work first. No clinician clearance was sought.",
+      "response_tactic": "onboarding_lag_absorbs_the_wait",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three-month package at $4,000 total, taken as $2,000 now and $2,000 in a month. Extending to six months adds a further $2,000, which the rep framed as costing no more than starting on six months. A $500 fully refundable deposit was then demanded to secure the Trevor call and a Monday follow-up.",
+    "guarantee_mentioned": "'there is also a guarantee on that. Nobody gives you in this online space, especially in fitness, a guarantee. Like it is gonna, it is in writing that in six months, you will add at least eight kilos, which is, I think 17 pounds on your baseline kettlebell movements.'",
+    "prospect_financials": {
+      "available_now_usd": 600,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null,
+      "note": "Self-reported income $65,000-$70,000/year. Offered roughly $125/week. 'right now in the bank, right now I have like $600 in my bank account right now.' Asked about savings he answered 'Not that much.' Carrying doctor and hospital bills; has redirected former medication spend into the gym."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.82,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent — the call ends mid-sentence during the deposit push, with the transcript trailing into a phone number.",
+      "Strong verbal intent: 'as far as I'm concerned, it's a yes' and 'In my mind, yes, I am. I want to go forward, 100%.'",
+      "Counter-evidence: he repeatedly asked to defer — 'can I just have a day? Or can I have the weekend and can we like reconvene on Monday?' and 'I definitely want to reconvene. If I could get ahold of you on Monday, can we set a time right now?'",
+      "Counter-evidence: he disclosed $600 in the bank against a $2,000 first payment and a $500 deposit, so the agreed number was not funded at the time of the call.",
+      "The rep refused to book the follow-up without a deposit — 'I want to reschedule with you, but in order to do that, we're putting down the refundable, fully refundable deposit'.",
+      "The companion team-meeting recording the same day confirms the prospect disconnected and did not answer callbacks: 'he got scared. I think, because I was pinning down the deposit, and then eventually he, yeah, I think he hung up... I was trying to call him up, but it's, he's not picking up.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect asked to reconvene Monday after speaking with his husband and moving money; rep would only agree against a $500 refundable deposit. Call ended without either. Manager coached a lean-out follow-up message."
+  },
+  "notable": {
+    "note": "The highest-risk call in this batch. A 45-year-old diabetic four weeks into skin grafts on a foot that lost its big toe in December, strictly non-weight-bearing, was taken through a full presentation of loaded kettlebell training and pushed to pay the same day. The rep asked 'Do you have any other injuries? Any conditions, any limitations in your movement whatsoever?', accepted 'no', and concluded 'with foot, we're okay' — no question at any point about whether his surgeon, podiatrist or endocrinologist had cleared him to train. Separately, when the $6,000 price did not fit, the rep invented a three-month, $4,000 tier live on the call and split it into two payments; that tier does not exist in the stated offer, and the six-month written guarantee was never re-stated against it. This call is reviewed in the 07/03 Sales Team Meeting recording in the same batch, where the manager confirms no open wallet was run."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts frequently and for long stretches. Whole rep passages are labelled 'Tom' and vice versa — the price statement, the pillar walkthrough and most of the objection handling are misattributed at least once. Role was resolved from content throughout. Audio also degrades badly from about 01:04:00 and the recording ends mid-sentence."
+  }
+}

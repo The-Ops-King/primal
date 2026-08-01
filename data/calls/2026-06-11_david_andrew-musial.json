@@ -1,0 +1,110 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial",
+  "source": {
+    "drive_file_id": "15gPXX1pY5qPxtUtsZ5rljJAOnE1yylOK",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/11/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/11/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 42291
+  },
+  "call": {
+    "date": "2026-06-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Discovery half of a conversation that was cut short for time and resumed the same day at 11:00 Mountain. The continuation is drive file 1XQwu1GV_WO62rY4lM7VlVjnmmWXevxbB, recorded as call_id 2026-06-11_david_andrew-musial_2.",
+    "duration_min_est": 42,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "Title carries no KFS/KL/DH suffix and no setter is referenced. The rep opened by asking \"how well actually do you know Trevor and kettlebell training itself?\", which suggests he had no pre-qualification notes to read back."
+  },
+  "prospect": {
+    "name": "David",
+    "aka": "joined as \"David's iPhone\"",
+    "name_source": "transcript",
+    "location": "Mountain Standard Time, USA; lives on roughly an acre with chickens and a large workshop",
+    "age": 54,
+    "occupation": "Owns a company with a large number of employees and works directly with clients; describes coaching clients through goals and their why",
+    "family_status": "Married; six children including two sons and daughters, two sons-in-law; three grandchildren aged four, two and one; currently in the middle of a $600,000 home remodel",
+    "height_in": 73,
+    "weight_lb": 215,
+    "bodyfat_pct_self_reported": 29,
+    "training_background": "No current routine at all — \"I don't have one... I'm semi-active and I'm probably weaker than I've been.\" Naturally strong without training; benched around 215 lb in his late thirties and early forties having never trained consistently. Three months of CrossFit around age 49 produced his best condition (200 lb at a measured 12.5% body fat) and also injured him. Trained roughly four months with an online coach from Australia before the 2023 race, dropping to 205 lb. Currently plays volleyball twice a week, pickleball once a week and rides dirt bikes two to three times a week. Owns one 35 lb dumbbell as his only equipment. Never done kettlebell training beyond incidental CrossFit work.",
+    "medical": "Substantial and largely unresolved. Ruptured discs in his neck with a pinched nerve during the 2023 Baja 1000, which stopped his left arm working and forced him out of the race; associated nerve issues in his hands persisting three years that he does not expect to resolve. Right elbow will not straighten — painful at end range, two doctors offered surgery while warning it would probably make it worse, MRI done, physiotherapy unhelpful; he suspects arthritis and inflammation. Torn meniscus in the right knee, surgery declined deliberately to defer a knee replacement. Badly torn left ankle from riding. Rhabdomyolysis at around age 49 from CrossFit which destroyed his left bicep and required rebuilding. Self-reported body fat 28-30%."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "\"I'm semi-active and I'm probably weaker than I've been\" — explicit loss of ground, wanting a former self back and then some",
+      "\"I've dealt with several injuries that have really just discouraged me\" — the hard season is an accumulation of injuries rather than one event",
+      "Names the cycle himself: \"I get injured, and so I have to stop doing some of it, but then I stop doing all of it\"",
+      "Overlaps materially with the_medically_constrained: ruptured cervical discs, persistent hand nerve damage, a torn meniscus and an elbow that physically will not extend are injuries the kettlebell movement library may not work around. He is not blocked by a clinician only because no clinician was ever consulted about training."
+    ]
+  },
+  "goals": [
+    { "text": "Get fit enough to start and finish the Baja 1000 on 16 November — he will not even sign up unless he is in much better shape", "category": "hobby_performance" },
+    { "text": "Run, wrestle and play on the ground with his three grandchildren and not become \"the grandpa that's stuck in the chair\"", "category": "longevity_family" },
+    { "text": "Keep riding motorcycles, playing volleyball and pickleball well into his 70s — \"I don't want to quit riding motorcycles until I literally have to\"", "category": "longevity_function" },
+    { "text": "Build enough muscle mass that crashes on a dirt bike stop causing lasting damage — \"if you have good muscle tone and good muscle mass, you just don't get hurt as much\"", "category": "injury_prevention" },
+    { "text": "Get his legs and neck strong again after they weakened, since riding is done standing for most of 50 hours", "category": "strength" },
+    { "text": "Train at home rather than in a gym — \"I hate fighting for machines. I hate working out in front of people\"", "category": "convenience" },
+    { "text": "Become more disciplined and consistent generally, which he believes would improve his business performance", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Ruptured cervical discs and a pinched nerve ended his 2023 race — \"my left arm didn't work anymore. So I had to stop\" — with hand nerve issues persisting three years", "category": "injury", "severity": "critical" },
+    { "text": "Right elbow will not straighten and is painful at end range; two doctors declined to operate and physiotherapy gave him nothing", "category": "injury", "severity": "high" },
+    { "text": "Torn meniscus in the right knee, with surgery deliberately deferred to postpone a knee replacement", "category": "injury", "severity": "high" },
+    { "text": "Lifelong inability to sustain training — \"This is the story of my life... just consistency, that discipline\"", "category": "consistency", "severity": "high" },
+    { "text": "Injury-driven collapse cycle — \"I get injured, and so I have to stop doing some of it, but then I stop doing all of it\"", "category": "training_barrier", "severity": "high" },
+    { "text": "Active in sport but building nothing underneath it — \"I'm probably breaking my body down instead of building it up\"", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Paid an online coach in Australia well and got cookie-cutter service — \"The weekly calls I felt like were kind of a joke\"", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Protein intake at roughly half of what he believes he needs, and an 80-20 diet he suspects is closer to 70-30", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Dislikes gym environments strongly enough to avoid the membership he pays for", "category": "training_barrier", "severity": "medium" },
+    { "text": "Strong family history of obesity — a brother of the same height at 320 lb, others at 280 and 265, two overweight sisters and a heavy mother", "category": "medical", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.96,
+    "close_rule_applied": null,
+    "evidence": [
+      "The call ran out of time before any presentation — \"I've got another call. I've got to jump on here real soon\"",
+      "The rep deliberately declined to rush it — \"because I don't want to rush through that. Let's schedule just another one later today\"",
+      "A continuation was booked for the same day at 11:00 Mountain on the same Zoom link and did take place",
+      "No price, no offer and no commitment question were reached on this call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Resume the same day at 11:00 Mountain on the same Zoom link to present the programme."
+  },
+  "notable": {
+    "note": "The injury disclosure on this call is the most serious in the batch and nobody asked whether a clinician had cleared training. Ruptured cervical discs with three years of unresolved hand nerve damage, an elbow that will not extend, a torn meniscus with surgery declined, and a prior episode of rhabdomyolysis from over-training — in a 54-year-old with no current training routine and 28-30% body fat, being prepared for a 50-hour non-stop endurance race. When he said \"the medical doctors have not been any help whatsoever\" the rep replied \"That we know\", though he did then ask about physiotherapy. Separately, the rep disclosed a rejection rate — \"most of them, I would say 65 to 40, we say no to people\" — and admitted he has never personally onboarded a woman when David asked about enrolling his wife."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion throughout — the rep's questions frequently appear under \"David's iPhone\" and David's answers under the rep label, with many turns merging both speakers into one block (for example the weight exchange at 00:11:41, where the question and the answer sit in the same labelled turn). Role was read from content only. There is also a genuine connection dropout around 00:02:54 to 00:04:12 during which some content was lost. The rep's speaker label is \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder."
+  }
+}

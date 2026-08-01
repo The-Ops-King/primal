@@ -1,0 +1,111 @@
+{
+  "call_id": "2026-06-23_robert-belanger_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Selling continued through four explicit declines from a 62-year-old on a self-described fixed income, with the rep openly refusing to accept the refusal.",
+      "evidence": [
+        "You know something? I'm just going to decline at this time. I'm going to decline. I don't want to get myself in too deep. All right? So I appreciate your time, but I think I'm have to pass it this time.",
+        "Do you want me to give up on you that easily, Robert?",
+        "So I'm going to have to pass, I think, right now.",
+        "But we still haven't even explored the possible options and you're declining already.",
+        "I don't think it's for me right now. I'm sorry.",
+        "That's why I'm pushing just a little bit to actually find out what could be possible for you."
+      ],
+      "timestamp": "00:42:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "After the prospect refused on privacy grounds to disclose his savings, the rep referenced his 401k retirement holdings and asked again for a figure he could put down.",
+      "evidence": [
+        "But, like, I would need to know, like, for example, like, what free cash on hand do you have, like many, maybe, savings, checkings account that you're able to dispose right now?",
+        "I have money in the bank. You know, I just don't want to disclose that information to you. That's personal.",
+        "I understand that you don't need to tell Tell me how much in 401k you have, you know? I'm not taking your retirement money, don't worry.",
+        "Well, what's the number that you would feel comfortable right now to put down that you're able to start?",
+        "I can't, you know, something like that. And don't pull my pants down too much. No, I mean, put me on the spot here, you know?"
+      ],
+      "timestamp": "00:44:52"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect with an L3-L4-L5 spinal fusion, an unrecovered triceps tear under active specialist investigation, and prior clinical advice that his lifting days were over was sold toward loaded ballistic kettlebell training with no clearance question asked.",
+      "evidence": [
+        "had two back surgeries, fusion. So I have my L3-4-5 is fused, but I still have pretty good hip mobility with that.",
+        "almost two years ago, I took a fallout here on the way to the gym, and I tore my tricep muscle. And that still hasn't come back all the way... I actually have an appointment with a doctor tomorrow in Boston to take a look at it, because I've noticed like, even though the long head of my tricep isn't coming back",
+        "they had to do surgery on my arm, ulnar nerve surgery, and that was like, when they did that, they said, oh, your lifting days are over",
+        "No, surprisingly not.",
+        "Absolutely, absolutely, absolutely, look, Robert, I'm going to be honest with you, Like, you're a very self-aware guy"
+      ],
+      "timestamp": "00:02:02"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A stated need to think the decision over was dismissed with a quip rather than any part of the scripted play.",
+      "evidence": [
+        "That's something I'd have to sleep on, and I know you want a decision today.",
+        "You want to sleep on it? Come on. It's not a pillow.",
+        "That's a lot of money, $6,000."
+      ],
+      "timestamp": "00:38:27"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep made disclosure of the payment options conditional on the prospect first disclosing his personal financial position, after being asked directly what the options were.",
+      "evidence": [
+        "You tell me. You guys got the numbers. I mean, what's the options?",
+        "So here's the thing. We don't have anything set in stone. It always differs from the particular person.",
+        "I cannot tell you what the option would be for you if I don't know what you're capable of actually putting down, and how we can work around that."
+      ],
+      "timestamp": "00:41:39"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The prospect arrived expecting the programme to cost $1,200 to $2,400, a two-and-a-half to five-fold gap against the actual price, corroborating the known public price-signal problem.",
+      "evidence": [
+        "I was expecting like 1,200, maybe 2,400, not 6 grand.",
+        "$6,000. That's a little steep for me... That's a lot more than I thought it would be.",
+        "All the videos I've been receiving on my phone."
+      ],
+      "timestamp": "00:41:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A prospect who explicitly could not afford the offer and named a price band matching an existing lower-priced product was never told that product exists, across eight minutes of objection handling.",
+      "evidence": [
+        "I was expecting like 1,200, maybe 2,400, not 6 grand.",
+        "6,000 is a little too steep for me. I can't justify spending that much money on myself, you know?",
+        "So, because I understand we all have expenses, do you want to explore the options?"
+      ],
+      "timestamp": "00:42:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording terminates mid-objection during a connection failure with no closing exchange, so the final disposition is inferred rather than observed and any continuation is uncaptured.",
+      "evidence": [
+        "I lost you for a second, Robert, again.",
+        "I apologize. I lost you.",
+        "I lost you for a second. I didn't hear you. I think you had a call or something coming in.",
+        "Hello? Hello? Hello? Hello? Hello? I lost you for a second."
+      ],
+      "timestamp": "00:46:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A stated reactivation window was disclosed twice and never captured as a follow-up, so a live future opportunity leaves no record in the pipeline.",
+      "evidence": [
+        "I got a couple of things I'm paying on now that will be paid up in a matter of months, and then I would be able to.",
+        "even if you finance it, it's still going to be tied into this thing for a long time. And I got other things I'm paying on right now, which I have to complete before I get myself further in debt"
+      ],
+      "timestamp": "00:40:41"
+    }
+  ]
+}

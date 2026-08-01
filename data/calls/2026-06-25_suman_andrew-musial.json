@@ -1,0 +1,156 @@
+{
+  "call_id": "2026-06-25_suman_andrew-musial",
+  "source": {
+    "drive_file_id": "1f48fSQ33WjpakBuD5qucuBvySRs-YkxZ",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/25/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/25/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 46124
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 53,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I've gone through the call that you had with Kim a few days ago. So I have a roughly understanding what's your situation."
+  },
+  "prospect": {
+    "name": "Suman",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States — commutes to Washington, DC",
+    "age": 43,
+    "occupation": "IT — product development with an AI focus, some cybersecurity; office-based four days a week, sole earner",
+    "family_status": "Married; two children aged nine and five, turning ten and six in October; describes himself as the single breadwinner",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Describes movement as the one constant in his life but has slipped over the last eighteen to twenty-four months. Currently does 10-15 minutes of kettlebell work in the morning and about 10 minutes at night with a 16 lb bell (started at 8 lb, planning to buy 20 and 24 lb), including halos and squats. Does five to ten pull-ups. Tries to do ten squats every hour. Apple Watch shows very low daily step counts — 1,942, 3,218 and 2,532 on the three days checked live on the call.",
+    "kettlebell_experience": "some",
+    "medical": "Sudden sensorineural hearing loss in the right ear in February 2026, roughly four months before the call, of unknown cause and possibly viral in origin affecting the cochlea. Substantial residual loss — he conducts the call largely through his left ear. Also reports hip stiffness from prolonged sitting. No clinician, treatment status or restriction was discussed."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: the_structure_seeker_on_a_single_income — high intent and health-literate, already training daily and self-directed, explicitly buying structure and external accountability rather than knowledge, but anchored to a household budget an order of magnitude below the offer as the sole earner for a family of four.",
+      "Does not fit the_optimizer, whose defining trait is that price is a quality signal rather than a barrier: here price was the only barrier and it was decisive — 'I was somewhere thinking around $250 per month' against $1,000.",
+      "Does not fit skeptical_bargain_hunter either: the cheap alternatives explicitly failed him — 'I've done this online kind of thing, but it never, I think I feel like it never gave me that accountability.'",
+      "Self-diagnoses the accountability gap precisely: 'I work well as a team, when I'm an individual, right? That's where I don't think my A game comes out well. And someone who can push me is what I'm looking for.'",
+      "A February health event reframed his motivation but he is not training to fight it — he explicitly separates the two — so this is not the_prehab_fighter."
+    ]
+  },
+  "goals": [
+    { "text": "Build a structure and routine into his day so training stops being ad hoc", "category": "consistency" },
+    { "text": "Raise his energy levels back toward what he had in his 30s", "category": "energy_performance" },
+    { "text": "Reduce belly fat", "category": "fat_loss" },
+    { "text": "Strengthen his core and lower body, which he identifies as his weak points", "category": "strength" },
+    { "text": "Finally unlock what he calls his real potential — the best version of himself he has never reached", "category": "confidence" },
+    { "text": "Learn enough about nutrition and his own body to make it sustainable rather than another phase", "category": "sustainability" },
+    { "text": "Still be active with his children, on walks and hikes, in ten years", "category": "longevity_family" },
+    { "text": "Stay healthy for the long term after a health event made mortality real", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "No structure — follows many conflicting Instagram sources and describes the advice landscape as chaotic", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Performs well in a team but not alone; needs someone to push him", "category": "accountability_gap", "severity": "high" },
+    { "text": "Sudden sensorineural hearing loss in the right ear in February with substantial residual loss and no identified cause", "category": "medical", "severity": "high" },
+    { "text": "Work is unpredictable — systems break and he has to drop everything, so time blocks he sets for himself collapse", "category": "time_scarcity", "severity": "high" },
+    { "text": "Sitting all day at a static desk with four laptops; step counts under 3,000 on most days", "category": "training_barrier", "severity": "high" },
+    { "text": "Hip stiffness from prolonged sitting", "category": "injury", "severity": "low" },
+    { "text": "Cannot understand or apply macronutrient advice and it has never worked for him", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Has improved in phases before but never sustained it; does not feel current progress is sustainable", "category": "consistency", "severity": "high" },
+    { "text": "Sole breadwinner with competing family financial commitments", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "6,000 is a huge. 1,000 per month is really huge for me. I was somewhere thinking around $250 per month.",
+      "timestamp": "00:44:00",
+      "rep_response": "Offered third-party financing through Klarna or 'Payva' and quoted two configurations live — $650/month for the six-month programme over twelve months and $433/month for the three-month programme over twelve months — disclosing that interest applies but not the totals. Did not run any part of the financial picture.",
+      "response_tactic": "third_party_financing_quote",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I would definitely need to think on this. I can't commit to it in this call, for sure. This is something that's, it's a family decision, right? Anything that we put into as an investment has to be talked to on this.",
+      "timestamp": "00:46:22",
+      "rep_response": "No OB play ran. The rep acknowledged it, agreed that Trevor's situation differs from his, and moved to a downsell.",
+      "response_tactic": "acknowledge_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Having said that health is definitely an important investment, but at this higher pricing, I don't know if I can afford it, to be very honest with you.",
+      "timestamp": "00:46:55",
+      "rep_response": "Introduced Primal University, a Skool community at roughly $199/month with no one-to-one coaching, cancel anytime. When that was declined in favour of one-to-one, the rep suggested selling unused household possessions and holding a garage sale to raise the money.",
+      "response_tactic": "downsell_then_asset_liquidation_suggestion",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "Instead of six months, can we have this like a, you know, more like a three-month period just to see how this is going, you know?",
+      "timestamp": "00:30:44",
+      "rep_response": "Agreed a three-month option exists at $4,000, then used the guarantee as the differentiator: six months carries a guaranteed 17 lb increase on his kettlebell baseline with free continued coaching until he hits it, three months carries no guarantee.",
+      "response_tactic": "concede_shorter_term_then_guarantee_as_upsell_lever",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Third-party financing via Klarna or 'Payva'. Rep quoted live: six-month programme split over twelve months at $650/month (a $7,800 total, not stated), and three-month programme split over twelve months at $433/month (a $5,196 total, not stated). Rep disclosed that interest applies — 'the number is going to be a bit higher because there's interest on it' — but never gave either total. Separately offered Primal University, a Skool community subscription at roughly $199/month, cancel anytime, with no one-to-one coaching.",
+    "guarantee_mentioned": "Attached to the six-month tier only: 'the six months is the full transformation with a guarantee... the guarantee is from your baseline of kettlebells that you're starting right now, you will add in pounds, it's going to be like 17 pounds to the baseline... if for some reason, in those six months, you would follow everything, and you couldn't add those additional 17 pounds, Trevor is going to be working with you until you do hit that for free.' The rep also characterised it as 'pure science'. Explicitly stated as not applying to the three-month option.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "stated_budget_monthly_usd": 250,
+      "note": "The only figure disclosed was his expected price point, $250/month. The rep asked no financial-picture questions at any point."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "No explicit no was given, which is why this is not scored lost: 'maybe I'll sit on it and...' and 'look, the doors are not closed.'",
+      "Rep committed to continue: 'I'm not giving up on you. I'm going to be in touch with you.'",
+      "Strong counter-evidence toward lost: he stated he cannot afford it — 'at this higher pricing, I don't know if I can afford it, to be very honest with you' — and his budget is a quarter of the financed monthly figure.",
+      "He also declined the downsell in substance: 'I'll take a look at it, but... right now, I've, I was looking more for one-on-one.'",
+      "No follow-up call was booked, no date agreed, no payment link confirmed sent, and the decision was handed to a family conversation the rep never engaged with. Confidence is low because this is a soft lost recorded as a follow-up on the absence of an explicit no."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled. Rep to stay in touch; prospect to look at Primal University and reconsider."
+  },
+  "notable": {
+    "note": "Four things a principal should see. First, a guarantee was disclosed here — a 17 lb increase on the prospect's kettlebell baseline in six months or free continued coaching, described as 'pure science' — that appears in none of the other calls in this batch, including two where price resistance was the deciding factor. Second, the three-month / $4,000 tier appears again, one day after the Daniel Solano call, so this is a pattern rather than a one-off improvisation. Third, after the prospect stated he is the sole breadwinner and could not afford it, the rep suggested he sell unused household possessions and hold a garage sale to fund the purchase. Fourth, the prospect disclosed sudden sensorineural hearing loss four months earlier with substantial residual loss, and the rep used it as motivational material without asking a single question about treatment, cause or whether loaded training was advisable."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and repeated inversion. The clearest instance is at 00:52:10-00:52:19, where 'Are you in the US or where are you from?' is labelled to the rep and 'No, I'm from Poland and I'm in Poland right now. But live like a digital nomad' is labelled to the prospect — the reverse is plainly true, and this passage independently corroborates that the rep on this call is the Poland-based Andrew who also appears on the Ryan Bundy, Daniel Solano and Maz calls, and who states 'I'm 43, like you' at 00:02:16. Long presentation passages alternate incorrectly throughout the three-pillar section, and the 00:39:42-00:41:18 block attributes an extended prospect monologue partly to the rep. The transcript also contains repeated spurious 'Thank you' insertions in the 00:28:20 and 00:32:57 regions."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-06-25_ayla-lerner_andrew-jin",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A second external job-search networking call in two days by an active Primal Instinct closer, conducted during working hours on the company meeting recorder, in which he confirms he is applying to multiple roles elsewhere and again describes his Primal Instinct work as a 1099 contracting job rather than employment.",
+      "evidence": [
+        "for the past few months, I've been taking up a 1099, like an independent sales contracting job, and essentially acting as a closer",
+        "now I really want to get into tech, particularly with an AI, get involved in B2B enterprise sales",
+        "I am currently applying to multiple jobs, especially, like, just in case",
+        "If I were to apply, well, not if I were, I'm going to apply, or I'm very interested in applying. Do you know if there is any way we could do a referral process"
+      ],
+      "timestamp": "00:00:39"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A third party who is not a Primal Instinct employee was recorded with no disclosure anywhere in the transcript, and the recording — which contains her employer's internal hiring cadence, headcount, promotion criteria and two named hiring managers — is stored in the company's Drive.",
+      "evidence": [
+        "at the very least right now we're not hiring for senior BDRs and I don't anticipate that we really ever will",
+        "I do think we are hiring, but also there's quite a bit of backlog ahead of you, almost, so that if this was an urgent situation, I just wanted to be transparent there",
+        "Grace and Jeff are the two BD managers who will in charge of hiring, essentially, for this.",
+        "I'd be happy to send over a link. I just would want to, I'll touch base with Sean in case he wants to take credit for your referral"
+      ],
+      "timestamp": "00:18:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A second non-Primal-Instinct call is filed in a sales rep's call folder under the generic title 'Impromptu Google Meet Meeting', so without transcript-level review both would be counted as prospect calls and land in a close-rate denominator.",
+      "evidence": [
+        "Where's Tab's office? In Soho.",
+        "I was able to connect with Sean, and he thought it would be great if I can connect with, you know, a high-performing BDA, And just kind of get your take on everything and your experience there so far.",
+        "We'll touch base, and then one of us will send you a link to apply, but just make sure that you apply through that link.",
+        "06/25/2026 - Impromptu Google Meet Meeting"
+      ],
+      "timestamp": "00:01:02"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This call independently confirms that the speaker label 'Andrew Jin (Primal Instinct)' in the 'Andrew Musial' folder covers at least two different people, since this speaker is a 2020 graduate living in Brooklyn while the identically labelled speaker on every sales call in the same folder is 43 and living in Krakow.",
+      "evidence": [
+        "I'm in Brooklyn right now. working from home today.",
+        "I graduated in 2020 with a degree in economics and finance, and I've been working banking roles and wealth management roles throughout the past few years.",
+        "So currently I'm in the south, in Krakow. (Tyler Moye sales call, 1f5mznhTJTKt0bRHONsHz6y0HLQi7lpYU)",
+        "I'm kind of old school, and I'm 43, like you. (Suman sales call, 1f48fSQ33WjpakBuD5qucuBvySRs-YkxZ)"
+      ],
+      "timestamp": "00:00:06"
+    }
+  ]
+}

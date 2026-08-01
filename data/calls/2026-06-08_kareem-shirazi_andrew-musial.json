@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-06-08_kareem-shirazi_andrew-musial",
+  "source": {
+    "drive_file_id": "1e9Gh-fGGXLD-o_6WSs3ciaAhMJFCzjgX",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/08/2026 - Kareem Shirazi x Andrew Musial ",
+    "display_title": "06/08/2026 - Kareem Shirazi x Andrew Musial  — Closed",
+    "file_size_bytes": 45263
+  },
+  "call": {
+    "date": "2026-06-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Kareem Shirazi",
+    "aka": null,
+    "name_source": "title",
+    "location": "New York City, New York, USA (previously Los Angeles)",
+    "age": null,
+    "occupation": "Product management consultant in tech; runs his own consulting business",
+    "family_status": "Married; 14-month-old son; high-energy dog; recently started paying for a nanny",
+    "height_in": null,
+    "weight_lb": 180,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained in the gym heavily when younger (30 pull-ups, 225 lb bench, 80-85 lb incline dumbbell press); stopped over time. Now only ad-hoc 10-minute bodyweight sessions (push-ups, squats, sit-ups) and 10,000-15,000 steps/day walking in NYC. Previously did Kinstretch / joint-specific training (PAILs and RAILs) from a self-serve online program, which worked but required 60-90 minute sessions. Multiple rounds of physical therapy for the shoulder.",
+    "kettlebell_experience": "some",
+    "medical": "Self-reported slightly high cholesterol (manages by diet). Right shoulder injury ~13 years ago from incline dumbbell press, never imaged; shoulder now sits forward with the scapula riding up, and he feels imbalance and discomfort under load. Old soccer injuries to the right leg: tight hip, knee pain (bad bone bruise), ankle pain; he describes mechanical imbalance from the hip down. Symptoms still present."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "\"I used to be very strong, and I have degraded over the years... it bothers me.\"",
+      "Explicitly benchmarks himself against a former self: 30 pull-ups, 225 lb bench 10+ years ago",
+      "Lost ground to injury and a hard season (new baby, work), wants function back rather than a new peak",
+      "Not in an active health crisis and not price-resistant on principle, which rules out the_prehab_fighter and the_medically_constrained"
+    ]
+  },
+  "goals": [
+    { "text": "Rebuild functional strength and stamina after years of decline", "category": "strength" },
+    { "text": "Restore mobility and structural alignment in the shoulder and right hip so the imbalances stop dragging on him", "category": "mobility" },
+    { "text": "Get back to playing soccer", "category": "hobby_performance" },
+    { "text": "Play with his son as he grows without worrying about tweaking his shoulder or back", "category": "injury_confidence" },
+    { "text": "Lose some fat around the belly and waist and reveal definition — explicitly a by-product, not the driver", "category": "fat_loss" },
+    { "text": "Training that fits into small pockets of time and does not require leaving the house", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Cannot commit to gym time since having a kid; free time only before dawn or after 8:30pm", "category": "time_scarcity", "severity": "high" },
+    { "text": "Overwhelmed by the logistics of training — leaving the house, going to a gym, deciding what to train that day", "category": "training_barrier", "severity": "high" },
+    { "text": "Generates endless excuses about training specifically, despite being disciplined in every other area of life", "category": "consistency", "severity": "high" },
+    { "text": "Responds only when someone puts a plan in front of him and holds him to it; has no such structure", "category": "accountability_gap", "severity": "high" },
+    { "text": "Right shoulder injury from ~13 years ago still produces imbalance and discomfort under load, and pre-emptively demotivates him every time he restarts", "category": "injury", "severity": "high" },
+    { "text": "Right leg mechanics off from old soccer injuries — tight hip, knee and ankle pain", "category": "injury", "severity": "medium" },
+    { "text": "New York physical therapists only treated the shoulder at surface level and never reached the root cause", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "The Kinstretch program worked but was self-serve with no accountability and needed 60-90 minutes per session", "category": "program_fit", "severity": "medium" },
+    { "text": "Feels his body no longer functions properly, which got to him psychologically", "category": "confidence", "severity": "medium" },
+    { "text": "Portion control — eats too much when the food he cooks turns out well", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Slightly high cholesterol, watches diet for it", "category": "medical", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Just because it's a big sum of money, is it OK if I speak with my wife and we just make sure this makes sense? Because I didn't know how much it was going to be. I just knew that I wanted to do it. So is it something that I can come back to you later today with?",
+      "timestamp": "00:43:46",
+      "rep_response": "Granted permission, then isolated the money: 'let's take money out of the equation for a second. Do you still personally feel that this can get you to the goals that we spoke about?' Asked what obstacles she might raise, then reframed the whole thing as logistics — 'it's not a should I do it? It's more of a how' — and booked a 5pm same-day call to take payment rather than letting him leave to consult her.",
+      "response_tactic": "isolate_money_then_reframe_should_to_how",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Well, it's less about her and just more about our family planning. Like, we recently started paying for a nanny, which is, like, many thousands of dollars a month. And just, like, general childcare stuff is very expensive out here. So I just want to make sure that this on top of it is something that makes sense.",
+      "timestamp": "00:46:06",
+      "rep_response": "Did not explore the financial picture at all. Reframed to 'you're just figuring out the logistics, right?' and asked only whether he preferred cash or credit, then booked the payment call.",
+      "response_tactic": "reframe_to_logistics_then_book_payment_call",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.72,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Clear verbal agreement before price was even known: 'Ready to rock and roll?' — 'Yeah. Send me over the stuff. Let's get to it. Let's go.'",
+      "Payment link delivered on the call: 'I've put it in the chat.'",
+      "After the spouse objection he re-committed and booked a same-day 5pm call to complete payment: 'Yeah, let's put five of them on the calendar.'",
+      "COUNTER-EVIDENCE: no payment was taken on this call and no onboarding step was completed.",
+      "COUNTER-EVIDENCE: the spouse consultation was reframed away rather than answered — he never said he no longer needed to speak to his wife, and he had said 'I just want to make sure this is like accounted for in our monthly expenses and budget.'",
+      "Payment was in fact collected in a separate recording later the same day ('06/08/2026 - Impromptu Zoom Meeting', drive id 1IdYeIK6fnZ4sIvSCHpSrqM8tBl3feVkg)."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconvene on the same Zoom link at 5pm the same day to take payment and onboard; Trevor call to be scheduled that week."
+  },
+  "notable": {
+    "note": "Self-reported weight is a range, 180-184 lb, not a single figure. The prospect asked directly whether a monthly plan existed and was answered with 'put it on a credit card' — the instalment option the playbook provides was never mentioned. He also volunteered a strong supporting price anchor unprompted (Equinox at $250/mo plus a personal trainer at ~$1,300/mo) and concluded the offer was cheaper than his historical spend. The deal closes in a second, separately titled recording the same evening."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent short-turn misattribution throughout. Clear inversions include 00:37:56-00:37:58 where 'Any questions on that?' is attributed to the prospect and 'No' to the rep, 00:04:52 where the rep's probe 'Why is that?' sits inside a prospect block, and 00:03:46 where the rep's line and the prospect's answer about his son's age are merged. Roles were assigned from content throughout, not from labels. Separately, the (Primal Instinct) speaker is labelled 'Andrew Jin' in Fathom while the rep folder is 'Andrew Musial'; the prospect addresses him as 'Andrew' and he states he is in Poland, matching the known Andrew Musial profile."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-11_patrick-soldow_andrew-musial",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The signed client agreement contains a no-refunds clause, while the scripted objection play for the spouse objection instructs reps to offer a deposit with a full refund if the partner says no.",
+      "evidence": [
+        "Okay, let's see, exclusions, medical advice, obviously he's not a doctor, psychological counseling, blah, Coach may update and modify program, content, pause, class times, commitments, engagement, communication, payment obligations, I already did that. No refunds, we're aware of that, non-transferability, defamation, property, terms, ration.",
+        "All right, so I'm on page one, Primal Instinct Coaching, Inc.",
+        "Signature, sign, finish. All right. That's all signed."
+      ],
+      "timestamp": "00:14:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A confirmed close in which no price is spoken anywhere in the transcript; the $6,000 figure exists only in a separate internal meeting recording, so any revenue rollup built from sales calls alone will under-count this deal.",
+      "evidence": [
+        "So let's go first through the payment. So let me just make sure. So right now you're cool on taking it all upfront. You don't need the finance.",
+        "All right. I'll pay it up. You should have the receipt there.",
+        "I just saw that payment went through.",
+        "Recovered only from 2026-06-12_sales-team-meeting_chris-klevan: \"You say you got a piff yesterday for 6K?\" and \"the guy that piffed yesterday, he was actually asking why Trevor is not selling any merch\"."
+      ],
+      "timestamp": "00:03:09"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep disclaimed being qualified to give financial advice and then advised the client that the coaching fee could likely be written off through his LLC as self-development or education.",
+      "evidence": [
+        "I'm always looking at ways to write-off stuff, just the nature of my business, my wife's business. I wonder if I can write this off somehow.",
+        "I'm not a financial advocate.",
+        "Probably you could, you know, as a self-development kind of...",
+        "It's some sort of like an educational thing, right? Yeah, why not? Yeah. Because you have an LLC probably, right?",
+        "So I think it's possible."
+      ],
+      "timestamp": "00:05:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep routed the client relationship to his personal WhatsApp number, the second time he did so with a newly-signed client on the same day.",
+      "evidence": [
+        "Look, I will send you also my private WhatsApp number. Do you use WhatsApp?",
+        "I'll hit you up on WhatsApp so you have direct access to me too.",
+        "So I'm assuming you're just part of the onboarding team. I want much communication with you after this, right? — So unfortunately, we won't be meeting up."
+      ],
+      "timestamp": "00:23:59"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts speakers systematically from the first line onward.",
+      "evidence": [
+        "00:00:02 - Andrew Jin (Primal Instinct) — There he is, big man. What's up, Andrew?",
+        "00:21:04 - Pat Soldow — Poland.",
+        "Where are you located? I'm in Europe."
+      ],
+      "timestamp": "00:00:02"
+    }
+  ]
+}

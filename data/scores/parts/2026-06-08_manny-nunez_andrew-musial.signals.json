@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-08_manny-nunez_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He asked directly how the components fit together — 'so you said there's strength training, so that would be kettlebell as well during that. So there's a new combination of mobility and the kettlebell?' — and tested the joint-friendly claim against his own experience rather than accepting it: 'I did one of the workouts that Trevor had, where you kind of go around, and I was like, I'm going overhead, and it's not hurting in the same way, so yes, that makes sense.' That single sentence is the pivot of the whole call: a man under a surgeon's overhead restriction reporting that he went overhead and it seemed fine, and nobody in the conversation treated it as a risk."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Interrupted the delivery to check a specific mechanic — 'Did you say dairy or no dairy?' — and disclosed lactose intolerance, and the rep adapted ('this is very personalized, still Trevor will prepare the nutrition plan tailored to what you can eat'). Asked for further questions he had none. This is the pillar he needs least: he has already run paleo successfully, is tracking macros with an AI tool, and knows his own bloodwork."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar he actively sold himself on. He volunteered a concrete use case unprompted — two week-long cruises this year, one with his kids and one with his boyfriend — and reasoned through what support would look like: 'it would be nice to have the support, the accountability during, or like a plan in place, where I can enjoy, have a drink, and then go in and still work.' At the commitment check he named it again: 'I think it's just like that accountability is a big one, right?' and 'I'm just so close, but I need that extra support to get there.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "monthly_budget_frame",
+      "raw": "Yeah, so that's about a thousand a month. It's quite a bit... I know enough of my numbers to know that $1,000 a month is not something that I'm not able to do, but I'm just like not willing to do.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted $6,000 into a monthly figure within four seconds of hearing it and evaluated it against a roughly $2,000 monthly discretionary line. Every prospect in this batch does this conversion unprompted and no rep ever frames the price monthly first, which means the monthly number always arrives as the prospect's own arithmetic rather than as part of the offer."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "at the beginning, I got the program because I, not even the program, but I just got, I started following Trevor because I'm like, this is really cool. Like, is it even possible to do this or just kettlebell? Like, is this real?",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free Instagram and YouTube content",
+      "note": "He has already done one of Trevor's free workouts and reported a good result from it. As with the Daniel Diaz call the same day, the free-versus-paid gap was never addressed, and the prospect leaves with exactly the asset he arrived with."
+    },
+    {
+      "type": "existing_medical_spend",
+      "raw": "I've got an MRI done on my left shoulder... my orthopedic surgeon believes that I do have tears on both of my shoulders. So basically what I'm doing is I'm getting shots every three months",
+      "direction": "supports_price",
+      "competitor": "Orthopedic surgeon and quarterly cortisone injections",
+      "note": "He is already spending on his body and has been for years, which is a supporting anchor the rep never picked up. It cuts the other way too: an ongoing clinical relationship is the natural place to route a clearance question, and it was never used for that either."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A strength programme that respects an explicit orthopedic restriction on overhead loading while still letting him progress",
+      "why_unmet": "The kettlebell movement library is built around overhead work — presses, get-ups, snatches — and the offer's answer to the restriction was a general claim that the modality is joint-friendly by design, not a modification plan and not a conversation with the surgeon who imposed the restriction. Whether the programme can be run without overhead loading was never established by anyone.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Any price reachable on roughly $2,000 a month of discretionary income after alimony, child support and two households",
+      "why_unmet": "The lowest structure offered was an improvised $4,000 over three months, which is still about $1,300 a month. The $200/month community product that was offered to another prospect on price resistance the same day was never mentioned here.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Help with metabolic markers that are drifting despite good behaviour — A1C at 5.6, poor LDL, and new blood pressure elevation from 110 to 130-140",
+      "why_unmet": "This is the thing he actually came for and said so repeatedly. Nobody in the sale is qualified to speak to it, the blood pressure disclosure was never returned to, and the offer's nutrition pillar is a whole-foods eating-window framework rather than anything targeted at his bloodwork.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

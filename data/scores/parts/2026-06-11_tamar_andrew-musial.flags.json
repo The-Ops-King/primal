@@ -1,0 +1,94 @@
+{
+  "call_id": "2026-06-11_tamar_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a lumbar flare-up requiring epidural injections and a physician's training directive; the rep used the back history as a selling point for kettlebell work and never asked whether any clinician had cleared loaded ballistic training.",
+      "evidence": [
+        "I'm a dentist, so I have lower back issues.",
+        "I had a big flare-up about four years ago and had to take epidurals in my back. And the doctor was like, yeah, like you can't be going to the gym to do beach muscles. You need to start working on your core.",
+        "remember when you told me that with those back issues, then that you... have from work, right, this is why we're going to target that very first thing with also mobility protocols, because the thing with kettlebell workouts, you're going to address in every single workout, like strength, conditioning, and mobility",
+        "So the guarantee is that after six months, you will add at least eight kilos to your starting baseline."
+      ],
+      "timestamp": "00:02:34"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect signed a three-month agreement while believing he had bought six months for a $6,000 total; the credit and top-up exist only as a verbal promise the rep could not locate in the document.",
+      "evidence": [
+        "So this says $2,000 for two payments. And I mean, does it say anywhere here that it's going to only be $2,000 to get me for the full six months?",
+        "It's for the three months. And then the top-up, as I said, you will only need to pay the extra $2,000 on that.",
+        "But I mean, is that stated somewhere so I don't have to remind someone at that time or that's something that you guys do standard? — That's what we do standard. Like you're going to an agreement for that. So no worries.",
+        "it says terms, duration, program, last three months, seven days after signing the agreement. Does it say anything here about the other payment and the final payment?",
+        "Let me see which paragraph that would be. If not, I can send you an email on that. The calls are recorded, so you have my word on this.",
+        "Like I said, I just want to know that at the end, because I'm planning to do the six months for sure, and I'd like to do it for no more than 6,000. That's the main thing."
+      ],
+      "timestamp": "00:55:50"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000, split into two $2,000 payments, was invented live on the call; it does not exist in the $6,000/6mo or $9,000/12mo structure.",
+      "evidence": [
+        "So what we could do, if you still want to do the full six months, we could do at Firstly, three months, and that's in total, it's 4K. And you could split it also in half, so that would be 2K now, 2K next month.",
+        "And after those three months, everything that you paid, like those 4K, it's going to be credited toward the six months. So you would only top up with the remaining 2K after those three months.",
+        "Okay. It says paid."
+      ],
+      "timestamp": "00:46:32"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An instalment version of the six-month programme was quoted at $1,200/month, a $7,200 total and $1,200 above the $6,000 list price; the prospect noticed and rejected the premium.",
+      "evidence": [
+        "Okay, so what we could do, if you want to spread it over six months, that would be $1,200 per month for six months.",
+        "I just don't want to, you know, at the end of the day, I'm cost sensitive also. That's why I don't want to do the $1,200 a month because that's another $200 a month that I could be saving."
+      ],
+      "timestamp": "00:44:07"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Renewal for a further six months was quoted at \"additional 3K\", a price outside the $6,000/$9,000 structure — though it appears to be a genuine standard rate rather than an improvisation.",
+      "evidence": [
+        "And is that the same cost or is there like a maintenance thing going forward? It's only going to be like additional 3K for the, for the next six months.",
+        "Corroborated as a real product line by the client agreement read aloud on 2026-06-11_patrick-soldow_andrew-musial, where the performance reward credit is described as \"500 bucks towards the three grand of the additional\" six months."
+      ],
+      "timestamp": "00:36:33"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep discussed peptide and TRT protocols with a 51-year-old prospect and positioned the programme as the step before \"dialing in\" peptides, which reads as guidance on prescription-adjacent interventions.",
+      "evidence": [
+        "you been on TRT or not? — Yes, I have.",
+        "This is the thing with peptides, because I'm also looking into it. But the thing is, to dial it in, it's good to have the basics covered. So get as much as you can from your own capacity, so to speak.",
+        "And then we can dial in the peptides."
+      ],
+      "timestamp": "00:21:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "At sign-off the rep gave the newly-signed client his personal WhatsApp number with a gendered remark about who should receive it.",
+      "evidence": [
+        "Look, I'm going to send you my personal WhatsApp number, okay?",
+        "If you feel like you want to reach out, just please don't give it to ugly girls, only the nice ones."
+      ],
+      "timestamp": "01:02:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's speaker label reads \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder, and diarization inverts whole passages, so both rep attribution and line-level attribution are unreliable for this call.",
+      "evidence": [
+        "00:23:00 - Andrew Jin (Primal Instinct)",
+        "I'm from Poland.",
+        "Okay, okay, Tamer. Tamer, sorry. No, that's fine. — I feel very confident about that, that we can help you with what Trevor does."
+      ],
+      "timestamp": "00:53:44"
+    }
+  ]
+}

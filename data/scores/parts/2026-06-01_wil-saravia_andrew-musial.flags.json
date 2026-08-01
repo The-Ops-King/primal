@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-06-01_wil-saravia_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The downsell was pitched partly as a way to avoid discussing the purchase with the prospect's wife, continuing the previous call's advice to seek forgiveness rather than permission.",
+      "evidence": [
+        "So it's only $199 a month. You can cancel any time. No long-term commitments, no big financial conversations with Natalie. So you can start today.",
+        "because 199, that's not a household financial decision",
+        "199 for videos, it's not a household financial decision, but certainly it's not a good financial decision"
+      ],
+      "timestamp": "00:08:12"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep continued pressing through at least four explicit declines, challenging the prospect's sincerity and telling him he was settling for nothing.",
+      "evidence": [
+        "You're looking for a hole everywhere, I'm going to be honest",
+        "Okay, right now you're settling for doing nothing. I'm sorry for being blunt, but that's what it is.",
+        "So you want me to give up on you?",
+        "Exactly. You're going to keep looking. You're not going to actually pull the trigger and do the workout. That's the issue, man. And I'm sorry to say that, but because you're a good guy. And I hate to have this conversation with you in, I don't know, 12 months from now.",
+        "Look, Andrew, I'm letting you know, I'm letting you know, and I'm being honest with you. $1.99 for videos is not what I was aiming for."
+      ],
+      "timestamp": "00:13:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This is the second file for a single opportunity and the $100 deposit recorded as collected on 30 May was refunded here, so both the call count and the cash figure for that call must be reversed.",
+      "evidence": [
+        "you have a hundred dollars of mine right now correct yep that's a deposit towards the uh the main program",
+        "How can we, how can we, or how do I go about getting the... The $100 reimbursed.",
+        "Yeah, I'll just let the team know and they will send it immediately."
+      ],
+      "timestamp": "00:10:08"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The undiagnosed knee instability disclosed two days earlier was never revisited across a second call that actively attempted to sell two different training products.",
+      "evidence": [
+        "From the 30 May call: 'I got to get that checked out like yesterday' and 'I do have to make an appointment with a doctor to get that checked out.'",
+        "so having Trevor's full system, the live calls with him every week, and the community ... would that get you closer? to that goal",
+        "Is it better to do nothing? Or is it better to actually start?"
+      ],
+      "timestamp": "00:07:00"
+    }
+  ]
+}

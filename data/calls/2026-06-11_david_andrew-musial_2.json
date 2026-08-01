@@ -1,0 +1,147 @@
+{
+  "call_id": "2026-06-11_david_andrew-musial_2",
+  "source": {
+    "drive_file_id": "1XQwu1GV_WO62rY4lM7VlVjnmmWXevxbB",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/11/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/11/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 26769
+  },
+  "call": {
+    "date": "2026-06-11",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Continuation of the discovery call held earlier the same day (drive file 15gPXX1pY5qPxtUtsZ5rljJAOnE1yylOK, call_id 2026-06-11_david_andrew-musial), resumed at 11:00 Mountain on the same Zoom link. The rep opens mid-thread — \"I was about to actually show you everything\" / \"based on everything that you just told me\" — and repeats no discovery. The call_id carries a _2 suffix because the standard date_prospect_rep scheme collides for two calls with the same prospect and rep on the same day.",
+    "duration_min_est": 26,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "Title carries no KFS/KL/DH suffix and no setter is referenced on either leg of this conversation."
+  },
+  "prospect": {
+    "name": "David",
+    "aka": "joined as \"David's iPhone\"",
+    "name_source": "transcript",
+    "location": "Mountain Standard Time, USA",
+    "age": 54,
+    "occupation": "Financial advisor — \"I'm a financial advisor\" — and owner of a company with a large number of employees",
+    "family_status": "Married; six children, three grandchildren aged four, two and one; mid-way through a $600,000 home remodel",
+    "height_in": 73,
+    "weight_lb": 215,
+    "bodyfat_pct_self_reported": 29,
+    "training_background": "No current routine. Volleyball twice a week, pickleball once a week, dirt bike riding two to three times a week. Prior CrossFit and a four-month block with an online coach from Australia. Sits at a computer a lot. Never trained with kettlebells.",
+    "medical": "Ruptured cervical discs and nerve damage from the 2023 Baja 1000 with persistent hand nerve issues; right elbow will not straighten; torn meniscus in the right knee; prior rhabdomyolysis. On this call the rep referenced them as items for Trevor to handle later — \"Your injuries, your knee, elbow\" — and \"if your, for example, knee is flaring\". Strong family history of obesity: a brother of the same height at 320 lb, others at 280 and 265, two overweight sisters, a heavy mother. He has kept himself below 220 lb for years."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "\"I'm down my body instead of building it up\" — agreed with the rep's framing that he is depleting rather than building",
+      "\"my vertical has suffered greatly since my injuries. And I want to improve that\" — measuring himself against a former capability",
+      "Explicit rejection of the optimizer frame: \"I don't need to be super big and have huge muscles, but I do want to be lean, and I want my muscles to function as they're supposed to\"",
+      "Overlaps with the_medically_constrained on the clinical axis, but unlike that avatar he has real price resistance and no clinician has blocked him"
+    ]
+  },
+  "goals": [
+    { "text": "Reach the Baja 1000 start line in November in condition to finish", "category": "hobby_performance" },
+    { "text": "Be the 70-year-old grandfather still hiking in the mountains and playing on the ground with his grandchildren", "category": "longevity_family" },
+    { "text": "Be lean, strong and mobile with muscles that function properly, rather than large — \"the goal is to be strong and mobile\"", "category": "mobility" },
+    { "text": "Rebuild leg strength and vertical jump for volleyball, which fell away after his injuries", "category": "strength" },
+    { "text": "Something simple he can do anywhere without equipment or two hours a day — \"I was just on a cruise, and they did have kettlebells, I'm like, I can just do it from here\"", "category": "convenience" },
+    { "text": "Open up his back and chest after long hours at a computer", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Active sport is depleting him rather than building him — \"I'm down my body instead of building it up\"", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Lifelong on-and-off pattern — \"You told me the story of your life, on and off, with lacking consistency and discipline\", which he confirmed", "category": "consistency", "severity": "high" },
+    { "text": "Previous paid coach delivered cookie-cutter service and did not care — \"if I'm gonna pay this kind of money, then I want more support\"", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Perfectionism collapse — \"If I don't do it perfect, then I can't keep doing it\"", "category": "motivation", "severity": "medium" },
+    { "text": "Years of cravings between meals; keto and other approaches tried and failed", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Family history of severe obesity that he has spent years actively resisting", "category": "medical", "severity": "medium" },
+    { "text": "A $600,000 home remodel being paid now, exhausting all liquid reserves", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So we are in the middle of remodeling our home. just need to, any kind of big expense, I have to talk to my wife about. I know that's the biggest sales deferral, you know, excuse ever, but it's not an excuse.",
+      "timestamp": "00:21:33",
+      "rep_response": "Isolated it — \"Apart from that, anything else that...\" — then asked the scripted obstacles question: \"do you feel that she may have some, I don't know, like obstacles coming up?\" He did not run the remaining moves: no \"is there any reason she would NOT want you stronger and less in pain\", no \"is this genuinely needing her input or asking permission to bet on yourself\", no not-a-joint-decision framing, and no deposit-with-refund fallback.",
+      "response_tactic": "isolate_then_probe_partner_obstacles",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "if it's all up front, I'd probably say no. Okay. Because, yeah, it's too much risk. You know, I've just met you online. I have no idea.",
+      "timestamp": "00:23:32",
+      "rep_response": "\"All right. Fair enough. But I'm also going to be straight with you. Most of the guys take it up front. But if there's a will, there's a way.\" No element of the fear/doubt play was used — notably not the burned-before move, despite the prospect having described exactly that experience with his previous coach minutes earlier.",
+      "response_tactic": "social_proof_then_pivot_to_payment_structure",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "We're just in a situation right now where literally, I'm not kidding you, $600,000 and we're paying it all right now, which basically exhausts my reserves.",
+      "timestamp": "00:24:06",
+      "rep_response": "Opened the open-wallet conversation properly — \"We work around with every single client differently, depending on what's their budget... So if you're open, like for an honest conversation about that, we can check out the boxes\" — but the prospect had to leave for another meeting before any financial picture was built.",
+      "response_tactic": "consent_for_financial_conversation",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "It's definitely more expensive than my last group.",
+      "timestamp": "00:23:14",
+      "rep_response": "Not addressed at all. The rep did not ask what the previous coaching had cost and did not build a value contrast against it, even though the prospect had already volunteered that the cheaper option was poor value.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan was structured. The rep acknowledged that upfront is not right for everyone — \"for certain clients the taking it all upfront may be not the best solution\" — and secured consent to explore options, but the call ended before any terms were discussed. Deferred to a follow-up booked for the next day at noon Mountain.",
+    "guarantee_mentioned": "\"there's also a performance guarantee. Because Trevor is sure about what he preaches. If in those six months you won't add at least eight kilos to your baseline kettlebell, he will train with you until you do. Because this is just like pure science. If you add that, you eat clean, how he teaches, and you show up like 95% of the time, the results are guaranteed.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment attempted and no payment link sent",
+      "Three unresolved objections still live at the end: spouse consultation, an unwillingness to pay upfront, and exhausted liquid reserves",
+      "Explicitly deferred — \"I've got to go now, but I, if we want to reschedule another time, it's great, but I have another meeting right now\"",
+      "Follow-up booked for the next day at noon Mountain on the same Zoom link, specifically to discuss payment options",
+      "Counter-evidence pointing toward an eventual close: strong stated intent — \"If I'm able to redo the results, it's money well spent\" and \"I think it's something I need to do. It's something I want to do\" — plus a hard November deadline and a partner objection he expects to clear (\"I don't foresee that necessarily being a problem\")"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconvene the following day at noon Mountain on the same Zoom link to work through payment options; prospect to speak to his wife before then."
+  },
+  "notable": {
+    "note": "The offer, the $6,000 price and a performance guarantee were all put to a man with ruptured cervical discs, three years of unresolved hand nerve damage, a torn meniscus and an elbow that will not straighten — and the guarantee itself is a load-progression promise (add eight kilos to your baseline kettlebell) with no clinical qualification attached. The rep's only handling of the injuries was to defer them to the onboarding call with Trevor, a coach rather than a clinician: \"So he will learn everything about you. Your injuries, your knee, elbow.\" Also worth noting: the guarantee was stated here with conditions attached (eat clean, show up 95% of the time, remedy is continued training) that the same rep did not state to a different prospect on the same day."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion. Most of the rep's pillar presentation sits under the \"David's iPhone\" label and several of David's replies sit under the rep label; the price reveal at 00:20:09 is attributed to the rep but the follow-up \"Okay, so $1,000 a month\" is attributed to David and then answered under the rep label. Role read from content throughout. The recording also begins mid-conversation because this is the second leg of a split call. The rep's speaker label is \"Andrew Jin (Primal Instinct)\" in a file filed under the Andrew Musial folder."
+  }
+}

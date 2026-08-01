@@ -1,0 +1,34 @@
+{
+  "call_id": "2026-06-03_sasa-svalina_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The rep improvised a $3,000 six-to-twelve-month upgrade term that does not exist in the stated offer, volunteering it unprompted immediately after the prospect chose the six-month tier.",
+      "evidence": [
+        "So just to let you know, after six months, if you, if you, when you decide that you want to do the full 12 months, you don't have to pay another six. It will be just like the, the rest, like the three, 3K."
+      ],
+      "timestamp": "00:32:29"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This deal continues in a second recording made the same day under a title that names no prospect, so one deal appears in the corpus as two calls and the continuation is not attributable by title.",
+      "evidence": [
+        "okay okay i'll figure it out and and i will let you know so we can we can come come back to this",
+        "06/03/2026 - Impromptu Zoom Meeting"
+      ],
+      "timestamp": "00:43:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The prospect's full mobile number was read aloud digit by digit and captured verbatim in the recorded transcript, and the sales conversation was moved to the rep's personal WhatsApp.",
+      "evidence": [
+        "okay um hold on your number is plus 38 5 9 1 1 3 2 0 7 5 4 yes yes okay um well i would send from from my whatsapp so no problem",
+        "You can send me screen screen on WhatsApp."
+      ],
+      "timestamp": "00:43:00"
+    }
+  ]
+}

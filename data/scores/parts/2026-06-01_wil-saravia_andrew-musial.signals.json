@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-01_wil-saravia_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "objected",
+      "evidence": "The training content was shown live as the Primal University library rather than pitched as the coaching pillar, and the prospect pushed back on its substance rather than its price: '199 for videos kind of doesn't sound good i mean he puts out these the majority of these videos for free on youtube and his his socials.' He repeated the objection twice more after the rep's rebuttal — 'Videos are free all over the place.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Shown as the Primal University nutrition section and meal-plan overview. The prospect asked the one question that mattered to him: 'It's nutrition, but it's not nutrition-based for me. It's not specific to me, correct?' The rep confirmed it is not, which removed the personalisation that the original $6,000 pitch had been built on."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not presented, because the product on this call does not contain it. The rep stated it plainly — 'Everything, the whole program is not one-on-one ... You're not getting coaching from Trevor' — and offered weekly live group calls and a community in its place. Accountability was the pillar the prospect had responded to most strongly on 30 May ('Accountability, yeah. Somebody say, hey, you failed'), and it is the one the downsell drops."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_content_from_the_same_provider",
+      "raw": "i mean he puts out these the majority of these videos for free on youtube and his his socials you know",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own YouTube and social media output",
+      "note": "The most consequential anchor in the batch. The company's free marketing content is what the prospect priced the $199 tier against, and he was not wrong about what he was being shown — the walkthrough led with movement demonstrations. The rep's counter, that the structured month-by-month plan is not free, is correct and arrived only after the objection had been made twice."
+    },
+    {
+      "type": "prior_offer_from_the_same_rep",
+      "raw": "on saturday you were willing to put 4k on the table for training yes for personal training but this is not personal training this is videos",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The improvised $4,000 tier from two days earlier became an anchor against the company. The prospect used the gap between $4,000 of coaching and $199 of video to argue that the two products are not comparable, which is exactly right and is the risk of discounting into a ladder that has no middle."
+    },
+    {
+      "type": "spouse_budget_ceiling",
+      "raw": "no big financial conversations with Natalie. So you can start today.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The rep attempted to convert the $2,000 household ceiling into a selling point by pricing under the threshold at which his wife's involvement is triggered. The prospect did not take it and reasserted his own standard instead: '$1.99 for videos is not what I was aiming for.'"
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one coaching with a real coach at a price a $1,000-1,500 monthly household surplus can carry",
+      "why_unmet": "There is nothing between $199 a month of self-serve video and $4,000 for three months of coaching. The prospect stated the gap precisely — 'it's not outside of that, the personal training dropping significantly. It's just not going to happen for us' — and it is a genuine hole in the product line rather than a positioning failure.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Something in the paid tier that is demonstrably not already free",
+      "why_unmet": "The Primal University walkthrough led with movement libraries and demonstrations, which is the material the prospect has already seen for free. The differentiator the rep eventually named — the sequenced week-by-week plan — was not what was shown.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

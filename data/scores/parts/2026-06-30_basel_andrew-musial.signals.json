@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-30_basel_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Fully presented — three to four days a week, 30-40 minutes, strength, conditioning and mobility in every session, plus 5-10 minute daily mobility protocols, with an explicit offer to reduce to two days to protect recovery around his calisthenics. The prospect agreed without questions: \"Yeah, yeah, definitely\" and, when asked if he had any, \"No, I think you cleared everything up.\" Note that the delivery included a disparaging claim about his current training — \"calisthenics it's, it's too static... It's not burning fat\" — which he accepted with \"Correct.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Presented as what you eat, when you eat, how much you eat, with an eating window and no calorie counting. The prospect pushed for mechanism rather than pushing back on value: \"every nutritional advice that I've seen is just counting calories and making sure that you're in a calorie deficit to lose fat\" and \"I'm quite, like, I'm curious as to how this would work without counting calories.\" He had already flagged it as the part he expected to struggle with, and accepted the food-quality and eating-window answer."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar he tied to his own problem unprompted. After the rep described the app, weekly check-ins, video form review and Trevor's personal cell number, the prospect finished the thought himself: \"So you just don't follow up.\" / \"That's the secret.\" / \"Of staying consistent.\" This is the pillar aimed directly at the gap he had already named — \"there's no discipline whatsoever.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "self_stated_budget",
+      "raw": "It was less than half than that, to be honest... I was thinking maybe 2,000, 2,500, that would make sense to me. I didn't have any idea whatsoever about how much it would be, but when I made the assumption, I was thinking 2,000, 2,500, anything in that range. For six months, it felt, you know, it felt fair.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A clean, volunteered number at roughly 40% of the offer, arrived at with no prior information about pricing. Useful signal: this is what a fit, solvent prospect intuitively prices a six-month remote coaching engagement at before anyone frames it."
+    },
+    {
+      "type": "incumbent_coach",
+      "raw": "Usually, I exercise three times a week, and it's in a class with a coach who's monitoring my progress and everything. So I'm not doing things on my own... usually the class size is anywhere between 5 and 10 people, so there's enough attention.",
+      "direction": "undercuts_price",
+      "competitor": "Local calisthenics coach, Jordan",
+      "note": "He already pays for supervised, monitored coaching at a group-class price point and it produced a real result — \"My body shape is way better.\" That is the per-month reference the $6,000 is silently measured against, and the rep only engaged it by disparaging the modality rather than by repositioning the offer."
+    },
+    {
+      "type": "competitor_shortlist",
+      "raw": "I was also planning to go see someone here, one-on-one, face-to-face, in person, that can help me. And I want to see what programs they have, and what pricing they also have, and just compare.",
+      "direction": "undercuts_price",
+      "competitor": "Two unnamed in-person trainers in Jordan",
+      "note": "Live comparison shopping against local market rates, scheduled for the week after the call and before the booked follow-up. He asked for written terms specifically to enable it and was told none exist, so the comparison will run without anything representing the offer."
+    },
+    {
+      "type": "asset_base",
+      "raw": "I have a family business that I have to take care of, which is tying me a bit. It's not like I have a job that I can just quit and leave everything behind. I have assets that I have to look out for. So it does come with its own privileges",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Elevator supply and maintenance business, real estate holdings and a boutique hotel he runs himself. Capacity to pay is plausibly there — the objection is expectation, not liquidity — which is exactly what the untouched financial-picture questions would have established."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Something concrete in writing — price and programme terms — so he can fairly compare against local trainers",
+      "why_unmet": "No written artefact exists. The rep stated it twice: \"There is no offer\" and \"we haven't had anything that is written. Like, everything is super custom, tailored to what each individual, who can make at any given moment.\"",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "In-person, face-to-face coaching",
+      "why_unmet": "Delivery is remote by design — app-based programming, self-recorded video for form feedback, weekly in-app check-ins and text access to Trevor. There is no in-person component and the rep did not attempt to reframe remote delivery as an advantage.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Help fixing his sleep, which he identified himself as the anchor of the entire problem",
+      "why_unmet": "Sleep is not one of the three pillars. The rep acknowledged it directly — \"especially if your sleep schedule is not on point right now for a few more weeks. That's the thing that we need to address\" — and then described nothing that addresses it beyond a weekly check-in question. Coaching around sleep and recovery is plausibly within what Trevor does; nobody said so.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Assurance that adding kettlebells two days a week will not interfere with his three calisthenics classes",
+      "why_unmet": "Partially answered — the rep said Trevor would adjust the programme and might drop him to two days for recovery — but the answer was paired with a claim that calisthenics is \"too static\" and \"not burning fat\", which undercuts the stated intent of keeping both. Whether the programme genuinely supports running alongside another modality was left unvalidated.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

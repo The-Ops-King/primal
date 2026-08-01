@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-07-01_nate-slayton_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The rep stopped the call before any presentation because of the pending MRI. The only gesture toward the pillar is a general assurance: \"I know that Trevor can map out the whole program around your schedule and around your lifestyle. This is what we do.\" No mechanism, no structure, no reaction to record."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Diet was gathered in baseline and the rep offered one incidental tip about burger dressings — \"you should go make it at home. Just use ketchup, ketchup and mustard, you know, skip the mayo\" — but the pillar itself was never presented."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered as a pillar, which is the notable miss of the call given the prospect had already sold it to himself: \"I think it's the accountability piece... appreciated the accountability aspect of having somebody to check in. And track progress, track form.\" The rep's only related content was the WhatsApp anecdote about onboarded clients reporting knock-on improvements."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "diy_substitute",
+      "raw": "I mean, I think, you know, right, I could go and just, you know, build my own program, find a program, buy it, stick to it. So I think it's the accountability piece.",
+      "direction": "undercuts_price",
+      "competitor": "Self-programming or an off-the-shelf paid program",
+      "note": "He named the cheap substitute himself and then argued past it in the same breath, which is the ideal position for a seller. No price was ever put against it, so the anchor sits unresolved into the follow-up call."
+    },
+    {
+      "type": "prior_coaching_experience",
+      "raw": "And I've been an online trainer before and have, you know, appreciated the accountability aspect of having somebody to check in.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Read as having had an online trainer, which would make him the only prospect in this batch with a positive prior experience of paid remote coaching — a reference class that supports rather than undercuts. The phrasing is ambiguous enough that it should be confirmed on the follow-up before being relied on."
+    },
+    {
+      "type": "existing_equipment",
+      "raw": "I've done some kettlebell training in the past, I've got like two kettlebells here in my office that I use sometimes",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Already owns the equipment and already likes the modality, so there is no start-up cost and no modality objection to overcome — unusually low friction for this corpus."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To know whether training now is safe and useful with surgery pending on the knee",
+      "why_unmet": "There is no clinical intake, screening or clearance step anywhere in the offer, so the question could only be answered by deferring the sale and waiting for his orthopedic surgeon. The rep handled it well by judgement; the process gave him nothing to work with.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Structured prehab to use the pre-surgery window and recover faster afterwards",
+      "why_unmet": "The rep raised this himself as a possibility — \"if the surgery is going to be like in two months or three months, that's definitely a period that you can prepare yourself to actually recover faster from the surgery\" — but nothing in the programme is described as prehab or as post-surgical rehabilitation, and no coach with that scope was named. Whether this exists is unknown.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Form correction he can trust, having taught himself kettlebells with an undiagnosed bad back",
+      "why_unmet": "The video form-review mechanism would answer this directly and was never presented, because the call stopped before the pillars. A live positioning miss rather than a capability gap.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that works around an SSRI-associated drop in energy and motivation and six to eight months of broken sleep",
+      "why_unmet": "Recognised sharply by the rep — he connected the SSRI to the energy dip before the prospect did — and then never converted into anything the programme does. Sleep and medication are not among the three pillars.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}
