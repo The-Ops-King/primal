@@ -786,6 +786,59 @@ def build_offer_signals(records, deals, playbook, adherence, signals, icp):
                            if deal_stage[d["deal_id"]] == i and i < len(FUNNEL)],
         })
 
+    # ---- objection rollup: type -> top tactics, with resolve rate each ----
+    # Rendering every tactic string produced an unreadable wall; what matters
+    # is which handful of responses get used and which of them actually work.
+    obj = {}
+    for r in records:
+        for o in r.get("objections", []):
+            t = o.get("type") or "other"
+            b = obj.setdefault(t, {"type": t, "n": 0, "resolved": 0, "tactics": {}})
+            b["n"] += 1
+            if o.get("resolved"):
+                b["resolved"] += 1
+            tac = (o.get("response_tactic") or "unspecified").replace("_", " ")
+            tb = b["tactics"].setdefault(tac, {"tactic": tac, "n": 0, "resolved": 0})
+            tb["n"] += 1
+            if o.get("resolved"):
+                tb["resolved"] += 1
+    objection_rollup = []
+    for b in obj.values():
+        tacs = list(b["tactics"].values())
+        for t in tacs:
+            t["rate"] = round(t["resolved"] / t["n"] * 100) if t["n"] else 0
+        # "none" and "unspecified" record the absence of a tactic, not a
+        # tactic — ranking them as a best response is meaningless.
+        NON_TACTIC = {"none", "unspecified", "n/a", "na", "-", ""}
+        common = [t for t in tacs
+                  if t["n"] >= 3 and t["tactic"].strip().lower() not in NON_TACTIC]
+        common.sort(key=lambda x: (-x["rate"], -x["n"]))
+        objection_rollup.append({
+            "type": b["type"], "n": b["n"], "resolved": b["resolved"],
+            "rate": round(b["resolved"] / b["n"] * 100) if b["n"] else 0,
+            "distinct_tactics": len(tacs),
+            "best": common[:3],
+            "worst": [t for t in reversed(common)][:3],
+        })
+    objection_rollup.sort(key=lambda x: -x["n"])
+
+    # ---- duration buckets ----
+    BUCKETS = [(0, 20, "Under 20 min"), (20, 30, "20–29 min"), (30, 45, "30–44 min"),
+               (45, 60, "45–59 min"), (60, 75, "60–74 min"), (75, 10**6, "75+ min")]
+    dur_buckets = []
+    for lo, hi, label in BUCKETS:
+        grp = [r for r in records
+               if (r["call"].get("duration_min_est") or 0) >= lo
+               and (r["call"].get("duration_min_est") or 0) < hi]
+        if not grp:
+            continue
+        closed_n = sum(1 for r in grp if r["outcome"]["disposition"] == "closed")
+        dur_buckets.append({
+            "label": label, "lo": lo, "n": len(grp), "closed": closed_n,
+            "close_rate": round(closed_n / len(grp) * 100),
+            "share": round(len(grp) / len(records) * 100),
+        })
+
     # ---- duration vs outcome ----
     duration = sorted(
         ({"prospect": r["prospect"]["name"], "rep": r["rep"]["name"],
@@ -907,7 +960,9 @@ def build_offer_signals(records, deals, playbook, adherence, signals, icp):
 
     return {
         "funnel": funnel,
-        "duration": duration,
+        "duration": duration[:40],
+        "duration_buckets": dur_buckets,
+        "objection_types": objection_rollup,
         "duration_summary": duration_summary,
         "pillars": pillars,
         "anchors": anchors,

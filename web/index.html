@@ -205,17 +205,35 @@ function render(d){
   <p class="sub">${objs.length} objections across ${n} calls ·
      ${objs.filter(o=>o.resolved).length} resolved (${pct(objs.filter(o=>o.resolved).length,objs.length)}%)</p>
   <div class="scroll"><table>
-    <thead><tr><th>Objection</th><th style="width:96px">Seen</th><th style="width:190px">Resolved</th><th>What worked / what didn't</th></tr></thead>
-    <tbody>${objRows.map(([t,v])=>`
-      <tr>
-        <td><strong>${esc(OBJ_LABEL[t]||t)}</strong><div class="mono" style="color:var(--muted)">${esc(t)}</div></td>
-        <td><strong style="font-size:20px">${v.n}</strong></td>
-        <td>${v.r}/${v.n} · ${pct(v.r,v.n)}%<div class="bar"><i style="width:${pct(v.r,v.n)}%"></i></div></td>
-        <td style="color:var(--muted);font-size:13.5px">${esc(
-          v.items.map(i=>(i.resolved?"✓ ":"✗ ")+(i.response_tactic||"—").replace(/_/g," ")).join(" · ")
-        )}</td>
-      </tr>`).join("")}</tbody>
+    <thead><tr><th>Objection</th><th style="width:80px">Seen</th><th style="width:170px">Resolved</th>
+      <th style="width:270px">Best response</th><th style="width:270px">Worst response</th></tr></thead>
+    <tbody>${(d.rollups.objection_types||[]).map(o=>{
+      const col = o.rate>=50?"var(--won)":o.rate>=25?"var(--warn)":"var(--lost)";
+      const cell = (list, tone) => list.length
+        ? list.map(t=>`<div style="font-size:12.5px;margin-bottom:3px">
+            <strong style="color:${tone}">${t.rate}%</strong>
+            <span style="color:var(--muted)"> ${esc(t.tactic)}</span>
+            <span class="mono" style="color:var(--muted);font-size:10.5px"> n=${t.n}</span></div>`).join("")
+        : `<span style="color:var(--muted);font-size:12.5px">no tactic used 3+ times</span>`;
+      return `<tr>
+        <td><strong>${esc(OBJ_LABEL[o.type]||o.type)}</strong>
+            <div class="mono" style="color:var(--muted);font-size:11px">${o.distinct_tactics} distinct tactics tried</div></td>
+        <td><span class="num" style="font-size:22px">${o.n}</span></td>
+        <td><strong style="color:${col}">${o.rate}%</strong>
+            <div class="mono" style="color:var(--muted);font-size:11px">${o.resolved} of ${o.n}</div>
+            <div class="bar"><i style="width:${o.rate}%;background:${col}"></i></div></td>
+        <td>${cell(o.best, "var(--won)")}</td>
+        <td>${cell(o.worst, "var(--lost)")}</td>
+      </tr>`;}).join("")}</tbody>
   </table></div>
+  <div class="banner" style="margin-top:var(--s3)">
+    <strong>Read the tactic columns with care.</strong> Only tactics recorded at least three times appear.
+    Most objection types show none, because the tactic label was captured as free text rather than from a
+    fixed vocabulary — so two reps doing the same thing often get two different labels. The
+    <em>distinct tactics</em> count is therefore an upper bound on genuine variety, not a measurement of it.
+    The Seen and Resolved columns are unaffected and reliable. Fixing this needs a controlled tactic
+    vocabulary and a re-score, not a re-extraction.
+  </div>
   <p class="sub" style="margin-top:10px">Price is the most common objection (3 of ${n} calls) and the
   worst-handled — resolved once. The single resolution came from structuring a plan live. The two failures
   came from a takeaway (“go back to her”) and a deferral (“let me go back to the team”).</p>
@@ -432,6 +450,17 @@ function render(d){
       conduct:"Conduct", data_integrity:"Data integrity", compliance:"Compliance",
     };
     const crit = F.by_severity.critical || 0, high = F.by_severity.high || 0;
+    // Spread the sample across categories so one dominant category cannot
+    // crowd the others out of view.
+    const critSample = (() => {
+      const byCat = {};
+      (F.urgent || []).filter(f => f.severity === "critical")
+        .forEach(f => (byCat[f.category] = byCat[f.category] || []).push(f));
+      const out = [], keys = Object.keys(byCat);
+      for (let i = 0; out.length < 20 && keys.some(k => byCat[k].length); i++)
+        for (const k of keys) if (byCat[k].length && out.length < 20) out.push(byCat[k].shift());
+      return out;
+    })();
 
     const row = f => {
       const [sl,sc] = SEV[f.severity] || ["—","var(--muted)"];
@@ -503,20 +532,13 @@ function render(d){
         ${c.date_range[0]?` · ${esc(c.date_range[0])} → ${esc(c.date_range[1])}`:""}
       </div>
       ${(c.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
-      <div style="margin-top:10px">${c.members.slice(0,12).map(mem=>
-        `<div style="padding:5px 0;border-bottom:1px dotted var(--line);font-size:12.5px;color:var(--muted)">
-          <span class="mono">${esc(mem.date||"")}</span>
-          ${mem.prospect?" · "+esc(mem.prospect):""}${mem.rep?" · "+esc(mem.rep):""}
-        </div>`).join("")}
-        ${c.members.length>12?`<div style="color:var(--muted);font-size:12px;margin-top:6px">+ ${c.members.length-12} more</div>`:""}
-      </div></details>`;}).join("")}` : ""}
+      </details>`;}).join("")}` : ""}
 
-  ${F.urgent.length ? `<h3 style="margin-top:var(--s6);color:var(--lost)">Critical and high — every instance</h3>
-  <p class="sub">Every flag below rests on words actually said on the call. Open one to see them.</p>
-  ${F.urgent.map(row).join("")}` : ""}
-
-  ${F.all.length > F.urgent.length ? `<h3 style="margin-top:var(--s6)">Medium and low</h3>
-  ${F.all.filter(f=>!["critical","high"].includes(f.severity)).map(row).join("")}` : ""}`;
+  ${F.urgent.length ? `<h3 style="margin-top:var(--s6);color:var(--lost)">Critical — sample</h3>
+  <p class="sub">${F.by_severity.critical||0} critical flags in total. Showing
+  ${Math.min(critSample.length, 20)} spanning every category, each with the words it rests on.
+  The rest are in <span class="mono">data/scores/parts/*.flags.json</span>.</p>
+  ${critSample.slice(0,20).map(row).join("")}` : ""}`;
   }
 
   /* ---------- Where deals die ---------- */
@@ -558,26 +580,25 @@ function render(d){
   </div>
 
   <h3>Call length against outcome</h3>
-  <p class="sub">Duration is one of the few signals broken diarization cannot corrupt, so it is worth
-  watching. Closed calls average <strong>${DS.closed_avg} min</strong> against
-  <strong>${DS.other_avg} min</strong> for everything else.</p>
+  <p class="sub">Bucketed, because the per-minute view is noise. Closed calls average
+  <strong>${DS.closed_avg} min</strong> against <strong>${DS.other_avg} min</strong> for everything else.</p>
   <div class="scroll" style="margin-bottom:var(--s3)"><table>
-    <thead><tr><th style="width:110px">Length</th><th>Distribution</th>
-      <th style="width:120px">Outcome</th><th style="width:120px">Died at</th></tr></thead>
-    <tbody>${DU.map(x=>{
-      const [lab,cls]=LABEL[x.disposition];
-      const col = x.disposition==="closed"?"var(--won)":x.disposition==="lost"?"var(--lost)":"var(--warn)";
+    <thead><tr><th style="width:130px">Length</th><th style="width:110px">Calls</th>
+      <th style="width:90px">Share</th><th style="width:230px">Close rate</th></tr></thead>
+    <tbody>${(d.rollups.duration_buckets||[]).map(b=>{
+      const col = b.close_rate>=30?"var(--won)":b.close_rate>=15?"var(--warn)":"var(--lost)";
       return `<tr>
-        <td><span class="num" style="font-size:22px;color:${col}">${x.minutes}</span>
-            <span style="color:var(--muted);font-size:12px"> min</span></td>
-        <td><div class="bar" style="height:9px"><i style="width:${Math.round(x.minutes/maxMin*100)}%;background:${col}"></i></div></td>
-        <td><span class="tag ${cls}">${lab}</span></td>
-        <td style="font-size:12.5px;color:var(--muted)">${esc((F[x.stage-1]||{}).label||"—")}</td>
+        <td><strong>${esc(b.label)}</strong></td>
+        <td><span class="num" style="font-size:22px">${b.n}</span></td>
+        <td class="mono" style="color:var(--muted)">${b.share}%</td>
+        <td><span class="num" style="font-size:22px;color:${col}">${b.close_rate}%</span>
+            <span class="mono" style="color:var(--muted)"> ${b.closed}/${b.n}</span>
+            <div class="bar"><i style="width:${b.close_rate}%;background:${col}"></i></div></td>
       </tr>`;}).join("")}</tbody>
   </table></div>
-  <p class="sub">The ordering is clean in this sample — longest closed, shortest lost — but with
-  ${DU.length} calls that is as likely to be a symptom as a cause. A call that is going well runs long
-  <em>because</em> it is going well. Worth tracking, not worth coaching to.</p>`;
+  <p class="sub">Read this as a symptom, not a lever. A call runs long <em>because</em> it is going well —
+  telling reps to stretch calls would not reproduce the effect. The useful signal is the short end: calls
+  that end early ended early for a reason.</p>`;
   }
 
   /* ---------- ICP ---------- */
