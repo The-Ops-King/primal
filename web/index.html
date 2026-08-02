@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Primal Instinct — Call Integrity Audit</title>
+<title>Primal Instinct — Integrity Audit</title>
 <link rel="stylesheet" href="./brand.css">
 <style>
   /* All colour and type tokens come from brand.css. Nothing is declared here. */
@@ -165,8 +165,8 @@ function render(d){
 
   const el = document.getElementById("app");
   el.innerHTML = `
-  <p class="eyebrow">Integrity audit · pilot</p>
-  <h1>Primal Instinct — Call Intelligence</h1>
+  <p class="eyebrow">${esc(d.rules_window || "2026")} · ${d.corpus.deals} deals</p>
+  <h1>Primal Instinct — Integrity Audit</h1>
   <p class="lede">Every sales call broken into its component parts — avatar, goals, pains, objections,
   outcome — then compared. <strong>${n} calls</strong> across <strong>${d.corpus.deals} deals</strong>,
   ${esc(d.rules_window || "May–July 2026")}. Internal team meetings, training and manager 1-1s are
@@ -230,7 +230,7 @@ function render(d){
   ${callTableSection(d)}
 
   <footer>
-    <strong>Primal Instinct call integrity audit.</strong>
+    <strong>Primal Instinct — Integrity Audit.</strong>
     ${d.corpus.calls_ingested} calls → ${d.corpus.deals} deals · generated ${esc(d.generated_at.slice(0,10))} ·
     ${d.counts.goals} goals, ${d.counts.pains} pains, ${d.counts.objections} objections,
     ${d.counts.check_scores} script checks scored.<br>
