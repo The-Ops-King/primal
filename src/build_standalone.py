@@ -112,7 +112,7 @@ def main():
     out = WEB / "standalone.html"
     out.write_text(html, encoding="utf-8")
     print(f"Wrote {out.relative_to(ROOT)}  ({len(html)//1024} KB)")
-    print(f"  fonts embedded, {len(data['calls'])} calls inlined")
+    print(f"  fonts embedded, {data['rollups']['summary']['calls']} calls summarised")
 
 
 if __name__ == "__main__":

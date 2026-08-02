@@ -133,9 +133,6 @@ const OBJ_LABEL = {
 };
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pct = (a,b) => b ? Math.round(a/b*100) : 0;
-const adhVals = cs => cs.map(c=>c.adherence?.adherence_pct).filter(v=>v!=null);
-const meanAdherence = cs => { const v=adhVals(cs); return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
-const adherenceRange = cs => { const v=adhVals(cs); return v.length ? Math.min(...v)+"–"+Math.max(...v)+"%" : "n/a"; };
 /* Close rate uses one colour scale everywhere on the page. */
 const rateTone = r => r>=30?"var(--won)":r>=15?"var(--warn)":"var(--lost)";
 /* One bucket, rendered as a box. The page reports themes with rates rather
@@ -164,7 +161,11 @@ function box(o){
 (async () => {
   let data;
   try {
-    const res = await fetch("./data.json");
+    // no-cache revalidates rather than disabling caching: data.json is
+    // rewritten by every build, and a stale copy renders a page whose numbers
+    // silently disagree with the payload. Vercel sets must-revalidate on this
+    // path too; this covers every other way the file gets served.
+    const res = await fetch("./data.json", {cache: "no-cache"});
     if (!res.ok) throw new Error("HTTP " + res.status);
     data = await res.json();
   } catch (e) {
@@ -179,7 +180,8 @@ function box(o){
     console.error("render failed", e);
     document.getElementById("app").innerHTML =
       "<h1>Render failed</h1><p class='sub'>The data loaded (" +
-      (data.calls || []).length + " calls) but the page could not draw it.</p>" +
+      ((data.rollups && data.rollups.summary || {}).calls || "?") +
+      " calls) but the page could not draw it.</p>" +
       "<pre class='mono' style='white-space:pre-wrap;color:var(--lost)'>" +
       esc(e.stack || e.message) + "</pre>";
   }
@@ -188,18 +190,12 @@ function box(o){
 
 function render(d){
   window.__D = d;
-  const calls = d.calls;
-  const n = calls.length;
-  const closed = calls.filter(c=>c.outcome.disposition==="closed");
-  const notClosed = calls.filter(c=>c.outcome.disposition!=="closed");
-  const cash = calls.reduce((s,c)=>s+(c.outcome.cash_collected_usd||0),0);
-  const verified = closed.filter(c=>c.outcome.confidence>=0.9).length;
-
-  const objs = calls.flatMap(c=>(c.objections||[]).map(o=>({...o, call:c})));
-  const byType = {};
-  objs.forEach(o=>{ (byType[o.type] ??= {n:0,r:0,items:[]}); byType[o.type].n++;
-                    if(o.resolved) byType[o.type].r++; byType[o.type].items.push(o); });
-  const objRows = Object.entries(byType).sort((a,b)=>b[1].n-a[1].n||b[1].r-a[1].r);
+  // Every figure below is precomputed in build_db.py. The payload deliberately
+  // carries no per-call array: nothing on this page is a per-call view, and
+  // shipping one anyway would put 422 call records on a public URL to render
+  // a handful of averages.
+  const S = d.rollups.summary;
+  const n = S.calls;
 
   const el = document.getElementById("app");
   el.innerHTML = `
@@ -220,35 +216,35 @@ function render(d){
     counts as closed, even where the transcript ends before payment confirms. Applied uniformly across
     all ${n} calls. It overstates against any deal that agreed and never paid — and separately,
     recordings that stop at the moment payment is taken mean the true close rate is likely
-    <em>higher</em> than the ${pct(closed.length,n)}% shown. Those two biases push in opposite
+    <em>higher</em> than the ${S.close_rate}% shown. Those two biases push in opposite
     directions and neither is quantified without a CRM join.
   </div>
 
   <div class="grid g4" style="margin-top:16px">
     ${stat(n,"Calls ingested","5 reps · 5 outcomes")}
-    ${stat(closed.length+"/"+n,"Closed","inferred · "+pct(closed.length,n)+"%")}
-    ${stat("$"+cash.toLocaleString(),"Cash confirmed","payment verified on call")}
-    ${stat(meanAdherence(calls)+"%","Mean script adherence","range "+adherenceRange(calls))}
+    ${stat(S.closed+"/"+n,"Closed","inferred · "+S.close_rate+"%")}
+    ${stat("$"+S.cash_usd.toLocaleString(),"Cash confirmed","payment verified on call")}
+    ${stat(S.adherence_mean+"%","Mean script adherence",
+           "range "+S.adherence_min+"–"+S.adherence_max+"%")}
   </div>
-  <p class="sub" style="margin-top:8px">${verified} of ${closed.length} closes sit at ≥0.90 confidence.
-  Cash combines $6,000 confirmed live with a $7,200 payment-plan contract value
-  ($1,200 × 6) — contract value, not same-day cash.</p>
+  <p class="sub" style="margin-top:8px">${S.high_confidence_closes} of ${S.closed} closes sit at ≥0.90
+  confidence. Cash combines confirmed live payments with payment-plan contract value — contract value,
+  not same-day cash.</p>
 
-  ${closedVsNotSection(d, calls, closed, notClosed)}
+  ${closedVsNotSection(d)}
 
   ${flagsSection(d)}
   ${funnelSection(d)}
 
-  ${objectionSection(d, objs, n)}
+  ${objectionSection(d, n)}
 
-  ${scriptSection(calls, d.playbook)}
+  ${scriptSection(d.playbook)}
 
   ${discriminatorSection(d)}
   ${avatarSection(d)}
   ${icpSection(d)}
   ${painGoalSection(d)}
   ${offerSection(d)}
-  ${callTableSection(d)}
 
   <footer>
     <strong>Primal Instinct — Integrity Audit.</strong>
@@ -261,15 +257,15 @@ function render(d){
   </footer>`;
 
   /* ---------- Objections, in four buckets ---------- */
-  function objectionSection(d, objs, n){
-    const G = d.rollups.objection_groups || [];
-    const resolved = objs.filter(o=>o.resolved).length;
+  function objectionSection(d, n){
+    const G = d.rollups.objection_groups || [], S = d.rollups.summary;
+    const total = S.objections, resolved = S.objections_resolved;
     const worst = [...G].filter(g=>g.n>=50).sort((a,b)=>a.rate-b.rate)[0];
     const biggest = G[0];
     return `
   <h2>Objections — what we face, what we actually resolve</h2>
-  <p class="sub">${objs.length} objections across ${n} calls, ${resolved} resolved
-  (${pct(resolved,objs.length)}%). The ${(d.rollups.objection_types||[]).length} recorded objection types
+  <p class="sub">${total.toLocaleString()} objections across ${n} calls, ${resolved} resolved
+  (${pct(resolved,total)}%). The ${(d.rollups.objection_types||[]).length} recorded objection types
   collapse into ${G.filter(g=>g.key!=="other").length} things people actually say. Rates are computed over
   every objection in the corpus, not over the buckets shown.</p>
 
@@ -303,7 +299,7 @@ function render(d){
   }
 
   /* ---------- Script adherence, by section of the script ---------- */
-  function scriptSection(calls, pb){
+  function scriptSection(pb){
     const R = window.__D.rollups;
     const ph = R.phases;                       // playbook order — this is a sequence
     const totEarned = ph.reduce((s,p)=>s+(p.adherence_pct??0)*p.calls_scored,0);
@@ -426,28 +422,18 @@ function render(d){
   }
 
   /* ---------- Closed vs not closed, computed ---------- */
-  function closedVsNotSection(d, calls, closed, notClosed){
+  function closedVsNotSection(d){
     const R = d.rollups, D = R.discriminators;
-    const rate = g => g.length ? Math.round(g.length) : 0;
-    // structural facts, measured rather than asserted
-    const has = (arr, fn) => arr.filter(fn).length;
-    const planLive = g => pct(has(g, c=>c.offer && c.offer.payment_plan_structured_live), g.length);
-    const planOffered = g => pct(has(g, c=>c.offer && c.offer.payment_plan_offered), g.length);
-    const guarantee = g => pct(has(g, c=>c.offer && c.offer.guarantee_mentioned), g.length);
-    const avgDur = g => { const v=g.map(c=>c.call.duration_min_est).filter(Boolean);
-      return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
-    const adh = g => { const v=g.map(c=>c.adherence&&c.adherence.adherence_pct).filter(x=>x!=null);
-      return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
-    const objRes = g => { const all=g.flatMap(c=>c.objections||[]);
-      return pct(all.filter(o=>o.resolved).length, all.length); };
+    const a = R.summary.closed_profile, b = R.summary.other_profile;
+    const closed = {length: a.n}, notClosed = {length: b.n};
 
     const rows = [
-      ["Mean script adherence", adh(closed)+"%", adh(notClosed)+"%"],
-      ["Objections resolved", objRes(closed)+"%", objRes(notClosed)+"%"],
-      ["Payment plan structured live", planLive(closed)+"%", planLive(notClosed)+"%"],
-      ["Payment plan offered at all", planOffered(closed)+"%", planOffered(notClosed)+"%"],
-      ["Guarantee mentioned", guarantee(closed)+"%", guarantee(notClosed)+"%"],
-      ["Average call length", avgDur(closed)+" min", avgDur(notClosed)+" min"],
+      ["Mean script adherence", a.adherence+"%", b.adherence+"%"],
+      ["Objections resolved", a.objections_resolved_pct+"%", b.objections_resolved_pct+"%"],
+      ["Payment plan structured live", a.plan_live_pct+"%", b.plan_live_pct+"%"],
+      ["Payment plan offered at all", a.plan_offered_pct+"%", b.plan_offered_pct+"%"],
+      ["Guarantee mentioned", a.guarantee_pct+"%", b.guarantee_pct+"%"],
+      ["Average call length", a.avg_duration_min+" min", b.avg_duration_min+" min"],
     ];
 
     const topWin = (D.top_favours_close||[]).filter(r=>["check","phase","phase_full","play"].includes(r.kind)).slice(0,4);
@@ -502,32 +488,7 @@ function render(d){
       conduct:"Conduct", data_integrity:"Data integrity", compliance:"Compliance",
     };
     const crit = F.by_severity.critical || 0, high = F.by_severity.high || 0;
-    // Spread the sample across categories so one dominant category cannot
-    // crowd the others out of view.
-    const critSample = (() => {
-      const byCat = {};
-      (F.urgent || []).filter(f => f.severity === "critical")
-        .forEach(f => (byCat[f.category] = byCat[f.category] || []).push(f));
-      const out = [], keys = Object.keys(byCat);
-      for (let i = 0; out.length < 20 && keys.some(k => byCat[k].length); i++)
-        for (const k of keys) if (byCat[k].length && out.length < 20) out.push(byCat[k].shift());
-      return out;
-    })();
-
-    const row = f => {
-      const [sl,sc] = SEV[f.severity] || ["—","var(--muted)"];
-      return `<details style="border-left:3px solid ${sc}">
-        <summary>
-          <span class="tag" style="background:color-mix(in srgb,${sc} 18%,transparent);color:${sc}">${sl}</span>
-          <span style="margin-left:7px">${esc(CAT[f.category]||f.category)}</span>
-          <div style="color:var(--muted);font-weight:400;font-size:13.5px;margin-top:6px">${esc(f.summary)}</div>
-        </summary>
-        ${(f.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
-        <div class="mono" style="color:var(--muted);font-size:11.5px;margin-top:8px">
-          ${esc(f.date||"")}${f.timestamp?" · "+esc(f.timestamp):""}
-          ${f.source_type==="internal"?' · <span style="color:var(--accent)">internal call</span>':""}
-        </div></details>`;
-    };
+    const TH = F.themes || [];
 
     return `
   <h2>Integrity flags</h2>
@@ -565,32 +526,26 @@ function render(d){
     </tr>`).join("")}</tbody>
   </table></div>
 
-  ${(F.systemic||[]).length ? `
-  <h3>Recurring — the same issue across multiple calls</h3>
-  <p class="sub">Flags clustered by what they describe, so one systemic problem reads as one finding with
-  a count rather than dozens of near-identical rows. These are the ones worth fixing at the process level.</p>
-  ${F.systemic.map(c=>{
-    const [sl,sc] = SEV[c.severity] || ["—","var(--muted)"];
-    return `<details style="border-left:3px solid ${sc}">
-      <summary>
-        <span class="num" style="font-size:22px;color:${sc}">${c.n}×</span>
-        <span class="tag" style="background:color-mix(in srgb,${sc} 18%,transparent);color:${sc};margin-left:8px">${sl}</span>
-        <span style="margin-left:7px">${esc(CAT[c.category]||c.category)}</span>
-        <div style="color:var(--muted);font-weight:400;font-size:13.5px;margin-top:6px">${esc(c.exemplar)}</div>
-      </summary>
-      <div style="margin-top:10px;font-size:13px;color:var(--muted)">
-        Across ${c.calls.length} call${c.calls.length===1?"":"s"}${c.reps.length>1?` · ${c.reps.length} different reps`:""}
-        ${c.date_range[0]?` · ${esc(c.date_range[0])} → ${esc(c.date_range[1])}`:""}
-      </div>
-      ${(c.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
-      </details>`;}).join("")}` : ""}
-
-  ${F.urgent.length ? `<h3 style="margin-top:var(--s6);color:var(--lost)">Critical — sample</h3>
-  <p class="sub">${F.by_severity.critical||0} critical flags in total. The clusters above are the view that
-  matters — one systemic problem read as one finding. Showing ${Math.min(critSample.length, 8)} individual
-  flags spanning every category, so the counts above are not taken on trust. The rest are in
-  <span class="mono">data/scores/parts/*.flags.json</span>.</p>
-  ${critSample.slice(0,8).map(row).join("")}` : ""}`;
+  ${TH.length ? `
+  <h3>What the flags are actually about</h3>
+  <p class="sub">All ${F.total.toLocaleString()} flags sorted by the problem they describe rather than by
+  the call they came from. Each box is one recurring issue, how many times it was raised, and how many
+  calls and reps it spans. A problem appearing across most of the reps is a process problem — it gets
+  fixed once, not call by call.</p>
+  <div class="grid g2" style="margin-bottom:var(--s5)">
+    ${TH.slice(0,10).map(t=>{
+      const [sl,sc] = SEV[t.severity] || ["—","var(--muted)"];
+      return box({
+        big: t.n.toLocaleString(), tone: sc, label: t.label, bar: t.share*4,
+        meta: `${t.share}% of all flags · ${t.calls} call${t.calls===1?"":"s"} · ${t.reps} rep${t.reps===1?"":"s"}`,
+        blurb: t.blurb,
+        foot: `${t.critical?`<span class="chip" style="color:var(--lost);border-color:var(--lost)">critical ×${t.critical}</span>`:""}
+               ${t.high?`<span class="chip" style="color:var(--lost);border-color:var(--lost)">high ×${t.high}</span>`:""}`
+      });}).join("")}
+  </div>
+  ${TH.length>10 ? `<p class="sub">${TH.length-10} smaller themes are not shown; they account for
+  ${TH.slice(10).reduce((s,t)=>s+t.n,0)} of the ${F.total.toLocaleString()} flags. Full detail for every
+  flag is in <span class="mono">data/scores/parts/*.flags.json</span>.</p>` : ""}` : ""}`;
   }
 
   /* ---------- Where deals die ---------- */
@@ -982,7 +937,7 @@ function render(d){
   /* ---------- Pains and goals ---------- */
   function painGoalSection(d){
     const PG = d.rollups.pain_groups || [], GG = d.rollups.goal_groups || [];
-    const base = pct(d.calls.filter(c=>c.outcome.disposition==="closed").length, d.calls.length);
+    const base = d.rollups.summary.close_rate;
 
     // Close rate is only interesting against the corpus baseline — every group
     // sits within a few points of it, and saying so is the finding.
@@ -1020,74 +975,7 @@ function render(d){
   </div>`;
   }
 
-  /* ---------- Call by call, paginated ---------- */
-  function callTableSection(d){
-    return `
-  <h2>Call by call</h2>
-  <p class="sub">${d.corpus.calls_ingested} calls across ${d.corpus.deals} deals.
-  ${d.corpus.multi_call_deals} deal${d.corpus.multi_call_deals===1?"":"s"} span more than one call.
-  Prospect and closer identities are deliberately omitted throughout this dashboard — use the Drive link
-  if you need to look a specific call up at source.</p>
-  <div class="scroll"><table>
-    <thead><tr><th style="width:110px">Date</th><th>Avatar</th>
-      <th style="width:110px">Outcome</th><th style="width:100px">Adherence</th>
-      <th style="width:100px">Length</th><th style="width:90px">Cash</th>
-      <th style="width:90px">Source</th></tr></thead>
-    <tbody id="callRows"></tbody>
-  </table></div>
-  <div id="pager" style="display:flex;gap:var(--s2);align-items:center;justify-content:space-between;
-       margin-top:var(--s3);flex-wrap:wrap"></div>`;
-  }
-
   function stat(n,l,f){return `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div><div class="f">${f||""}</div></div>`;}
-
-  drawCalls(1);
-}
-
-/* ---------- pagination for the call table ---------- */
-const PAGE_SIZE = 25;
-function drawCalls(page){
-  const d = window.__D;
-  const rows = [...d.calls].sort((a,b)=> b.call.date.localeCompare(a.call.date));
-  const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
-  page = Math.min(Math.max(1, page), pages);
-  const slice = rows.slice((page-1)*PAGE_SIZE, page*PAGE_SIZE);
-
-  document.getElementById("callRows").innerHTML = slice.map(c=>{
-    const [lab,cls] = LABEL[c.outcome.disposition];
-    const av = (AVATARS[c.avatar.assigned]||{}).name || c.avatar.assigned;
-    const a  = c.adherence ? c.adherence.adherence_pct : null;
-    const acol = a==null?"var(--muted)":a>=70?"var(--won)":a>=45?"var(--warn)":"var(--lost)";
-    const url = c.source.drive_file_id
-      ? "https://drive.google.com/file/d/"+c.source.drive_file_id+"/view" : null;
-    return `<tr>
-      <td class="mono">${esc(c.call.date)}</td>
-      <td style="font-size:13px">${esc(av)}</td>
-      <td><span class="tag ${cls}">${lab}</span></td>
-      <td><strong style="color:${acol}">${a==null?"—":a+"%"}</strong></td>
-      <td class="mono" style="color:var(--muted)">${c.call.duration_min_est?c.call.duration_min_est+" min":"—"}</td>
-      <td class="mono">${c.outcome.cash_collected_usd
-          ? "$"+c.outcome.cash_collected_usd.toLocaleString() : "—"}</td>
-      <td>${url?`<a href="${url}" target="_blank" rel="noopener"
-             style="color:var(--accent);font-size:12.5px">Drive ↗</a>`:"—"}</td>
-    </tr>`;}).join("");
-
-  const btn = (p,label,on)=> on
-    ? `<button onclick="drawCalls(${p})" style="background:var(--chip);color:var(--ink);
-         border:1px solid var(--line);border-radius:var(--r-sm);padding:6px 13px;cursor:pointer;
-         font-family:var(--font-body);font-size:13px">${label}</button>`
-    : `<button disabled style="background:transparent;color:var(--muted);border:1px solid var(--line);
-         border-radius:var(--r-sm);padding:6px 13px;font-family:var(--font-body);font-size:13px;
-         opacity:.4">${label}</button>`;
-
-  document.getElementById("pager").innerHTML = `
-    <span style="color:var(--muted);font-size:13px">
-      Showing ${(page-1)*PAGE_SIZE+1}–${Math.min(page*PAGE_SIZE,rows.length)} of ${rows.length} calls</span>
-    <span style="display:flex;gap:6px;align-items:center">
-      ${btn(page-1,"← Prev",page>1)}
-      <span style="color:var(--muted);font-size:13px;padding:0 6px">Page ${page} / ${pages}</span>
-      ${btn(page+1,"Next →",page<pages)}
-    </span>`;
 }
 </script>
 </body>

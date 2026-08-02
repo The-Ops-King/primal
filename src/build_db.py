@@ -1160,6 +1160,135 @@ OBJECTION_GROUPS = [
       "timing_medical", "icp_mismatch")),
 ]
 
+# Flag themes. Greedy Jaccard clustering on the summary text splits one
+# systemic issue into five near-identical clusters whenever the agents phrase
+# it differently — the page showed "Pricing deviation" five separate times,
+# each with a per-incident sentence as its heading. These are the actual
+# recurring problems, matched on keywords, so one issue reads as one row with
+# a count no matter how it was worded.
+FLAG_THEMES = [
+    ("no_clearance", "Loaded training sold without clinician clearance",
+     "A prospect disclosed an injury, condition or active treatment and was "
+     "sold loaded or ballistic kettlebell work anyway, with no clearance "
+     "sought and no stop rule anywhere in the process.",
+     ("clearance", "clinician", "cleared", "sign-off", "physician approval",
+      "medical approval", "without consulting")),
+    ("no_screening", "Disclosed condition, no screening question",
+     "A medical disclosure passed without a single follow-up question. There "
+     "is no screening step in the script for it to have failed.",
+     ("no screening", "screening question", "never asked about", "disclosed",
+      "did not ask", "no follow-up question", "unexplored")),
+    ("clinical_claim", "Unqualified clinical claims",
+     "A rep asserting a medical or rehabilitative outcome they are not "
+     "qualified to promise — that the programme will fix, heal or resolve a "
+     "diagnosed condition.",
+     ("unqualified", "clinical claim", "medical advice", "diagnos", "cure",
+      "heal", "fix the", "rehabilitat", "therapeutic claim")),
+    ("unsanctioned_tier", "Prices outside the sanctioned list",
+     "Tiers and figures presented as standard that do not appear in the "
+     "documented offer — improvised three-month, one-month and trial "
+     "structures, priced live on the call.",
+     ("tier", "outside the", "improvised", "price list", "sanctioned",
+      "not in the", "invented", "unsanctioned", "off-menu")),
+    ("plan_terms", "Payment plan terms differ call to call",
+     "Instalment totals, deposits and differential-credit mechanics stated "
+     "differently to different prospects, and often with the total never "
+     "stated at all.",
+     ("instalment", "installment", "payment plan", "differential", "deposit",
+      "total was never", "never stated", "monthly figure", "per month")),
+    ("guarantee", "The guarantee is not a fixed thing",
+     "Refund and guarantee language varies by whoever is on the call, when it "
+     "is mentioned at all.",
+     ("guarantee", "refund", "money back", "money-back")),
+    ("recording_stopped", "Recording stopped at the moment of payment",
+     "The transaction and any terms stated during it are absent from the "
+     "corpus. This biases the close rate in both directions and cannot be "
+     "resolved without a CRM join.",
+     ("stopped the recording", "recording stops", "recording was stopped",
+      "recording ends", "cuts off", "stopped at", "truncated recording")),
+    ("file_conflation", "One file, two calls — or the wrong name on it",
+     "Drive files containing two unrelated sales calls back to back, and "
+     "titles naming a different prospect than the transcript. Anything "
+     "counting or joining on files is wrong by this amount.",
+     ("single drive file", "two entirely separate", "two separate",
+      "back to back", "title", "misnamed", "mislabel", "wrong prospect",
+      "folder", "file contains")),
+    ("attribution", "Speaker labels cannot be trusted",
+     "Diarisation errors and mislabelled speakers, including one label that "
+     "names the wrong rep entirely. Rep attribution has to come from folder "
+     "and content, never the transcript label.",
+     ("diarization", "diarisation", "speaker", "attribution", "inverts",
+      "label", "misattribut")),
+    ("payment_pressure", "Pressure and card-on-file tactics",
+     "Taking a card from prospects who said they could not pay, deposits "
+     "framed as commitment devices, and manager instruction to do so.",
+     ("card on file", "card details", "credit card", "take a card",
+      "cannot pay", "can't pay", "pressure", "manager instruct",
+      "credit limit", "open a credit")),
+    ("financial_advice", "Advice on the prospect's finances",
+     "Steering purchases around divorce settlements, tax write-offs and "
+     "invoice descriptions. Not a training issue.",
+     ("write-off", "write off", "tax", "invoice", "divorce", "settlement",
+      "business expense", "financial advice", "borrow")),
+    ("pii", "Personal data captured on the recording",
+     "Card numbers, addresses and contact details dictated onto a call and "
+     "preserved in the stored transcript.",
+     ("card number", "full card", "home address", "personal data", "pci",
+      "postcode", "date of birth", "sensitive personal")),
+    ("consent", "Recording and disclosure gaps",
+     "Calls recorded without a stated disclosure, third parties captured "
+     "incidentally, and claims made without the qualifying context.",
+     ("consent", "disclosure", "recorded without", "not disclosed",
+      "no disclosure", "notice", "third party", "third pa", "bystander",
+      "unrelated conversation")),
+    ("nutrition_advice", "Dietary advice given alongside medication",
+     "Fasting windows, eating protocols and supplement guidance offered to "
+     "prospects on active medication, by people not qualified to give it.",
+     ("fasting", "eating window", "glp", "nutrition advice", "diet advice",
+      "supplement", "calorie", "macro", "eating protocol")),
+    ("coercion", "Coached pressure technique",
+     "Refusing to accept a stated answer, holding the position until the "
+     "prospect complies, enlarging their goal to enlarge the sale, and "
+     "keeping buyers on the phone until they pay. Coached, not improvised.",
+     ("until they comply", "keep buyers", "on the phone until", "enlarge",
+      "bigger goal", "refusing to accept", "does not accept", "hold the",
+      "holding the position", "pressure", "push back until", "coached to",
+      "override", "detach")),
+    ("profiling", "Prospects profiled by who they are",
+     "Country of origin, accent and demographic used as a proxy for ability "
+     "to pay, with harder qualification prescribed on that basis.",
+     ("country of origin", "nationality", "profile prospects", "demographic",
+      "ethnic", "accent", "where they are from")),
+    ("unverified_proof", "Unverified numbers used as proof",
+     "Client counts and result figures presented as the primary trust asset "
+     "with nothing behind them, in place of specific evidence.",
+     ("unverified", "unsubstantiated", "trust asset", "no evidence",
+      "cannot be verified", "client figure", "success rate", "testimonial")),
+    ("process_skipped", "Documented steps skipped after the sale",
+     "Agreements never signed live, onboarding steps missed, written terms "
+     "promised and never sent. The process exists; it is not being run.",
+     ("agreement", "onboarding", "never returned", "no confirmation",
+      "not confirmed", "never sent", "promised", "signed", "written terms",
+      "follow-up email")),
+    ("policy_reversal", "A policy stated, then reversed",
+     "Rules given as fixed to a prospect and abandoned within hours when the "
+     "deal was at risk, or contradicted in the same breath. The pattern says "
+     "there was no policy.",
+     ("reversed", "no longer offered", "then offered", "contradict",
+      "same breath", "one day after", "inconsistent", "reversal", "abandoned")),
+    ("corpus_gaps", "Calls missing from the corpus entirely",
+     "Selling calls absent while their onboarding call is present, and "
+     "role-played sequences that read as genuine to any content classifier. "
+     "Both bias the denominator.",
+     ("not present", "missing", "post-sale", "no discoverable", "role-play",
+      "role played", "not in the batch", "absent from the", "incomplete")),
+    ("pipeline_definition", "Definitions that flatter the pipeline",
+     "Disposition rules confining 'lost' to explicit refusals, so everything "
+     "unresolved lands in follow-up and the pipeline never shrinks.",
+     ("disposition", "crm", "pipeline", "inflates", "lost' to", "follow-up "
+      "forever", "never closed out")),
+]
+
 ICP_CRITERIA = {
     "successful": "Already successful",
     "income": "Makes good money",
@@ -1355,7 +1484,56 @@ def build_buckets(records, deals, signals, icp, rollups):
         c["miss_pct"] = round(c["missed"] / d * 100) if d else 0
     icp_criteria = sorted(crit.values(), key=lambda x: -x["miss_pct"])
 
+    # ---- corpus summary ----
+    # Everything the page used to derive by iterating the per-call array. With
+    # these precomputed the payload no longer has to ship 422 call records for
+    # a dashboard that reports only aggregates — and a per-call array nobody
+    # renders is still a per-call array sitting on a public URL.
+    def _mean(vals):
+        vals = [v for v in vals if v is not None]
+        return round(sum(vals) / len(vals)) if vals else 0
+
+    closed = [r for r in records if r["outcome"]["disposition"] == "closed"]
+    other = [r for r in records if r["outcome"]["disposition"] != "closed"]
+    adh_all = [r.get("adherence", {}).get("adherence_pct")
+               for r in records if r.get("adherence")]
+    adh_all = [a for a in adh_all if a is not None]
+
+    def profile(group):
+        objs = [o for r in group for o in r.get("objections", [])]
+        has = lambda fn: sum(1 for r in group if fn(r))
+        share = lambda k: round(has(k) / len(group) * 100) if group else 0
+        return {
+            "n": len(group),
+            "adherence": _mean([r.get("adherence", {}).get("adherence_pct")
+                                for r in group if r.get("adherence")]),
+            "objections_resolved_pct": (round(sum(1 for o in objs if o.get("resolved"))
+                                              / len(objs) * 100) if objs else 0),
+            "plan_live_pct": share(lambda r: (r.get("offer") or {}).get("payment_plan_structured_live")),
+            "plan_offered_pct": share(lambda r: (r.get("offer") or {}).get("payment_plan_offered")),
+            "guarantee_pct": share(lambda r: (r.get("offer") or {}).get("guarantee_mentioned")),
+            "avg_duration_min": _mean([r["call"].get("duration_min_est") for r in group]),
+        }
+
+    summary = {
+        "calls": len(records),
+        "closed": len(closed),
+        "close_rate": round(len(closed) / len(records) * 100) if records else 0,
+        "cash_usd": sum(r["outcome"].get("cash_collected_usd") or 0 for r in records),
+        "high_confidence_closes": sum(1 for r in closed
+                                      if (r["outcome"].get("confidence") or 0) >= 0.9),
+        "adherence_mean": _mean(adh_all),
+        "adherence_min": round(min(adh_all)) if adh_all else 0,
+        "adherence_max": round(max(adh_all)) if adh_all else 0,
+        "objections": sum(len(r.get("objections", [])) for r in records),
+        "objections_resolved": sum(1 for r in records
+                                   for o in r.get("objections", []) if o.get("resolved")),
+        "closed_profile": profile(closed),
+        "other_profile": profile(other),
+    }
+
     return {
+        "summary": summary,
         "anchor_themes": anchor_themes,
         "anchor_theme_total": a_total,
         "unmet_themes": unmet_themes,
@@ -1416,6 +1594,43 @@ def build_flags(records):
     flags.sort(key=lambda x: (SEVERITY_ORDER.get(x.get("severity"), 9), x.get("date") or ""))
     clusters = cluster_flags(flags)
 
+    # ---- themes ----
+    # What the flags are actually about, independent of how each agent worded
+    # it. cluster_flags splits one issue into several whenever the phrasing
+    # drifts, so it cannot carry the summary view on its own.
+    meta = {k: (lab, bl) for k, lab, bl, _ in FLAG_THEMES}
+    meta["other"] = ("Everything else",
+                     "Flags that matched no theme — the genuine long tail, "
+                     "reported rather than dropped so the map can be judged.")
+    th = {}
+    for fl in flags:
+        key = _theme_of(fl.get("summary"), FLAG_THEMES)
+        lab, bl = meta[key]
+        b = th.setdefault(key, {"key": key, "label": lab, "blurb": bl, "n": 0,
+                                "calls": set(), "reps": set(), "severities": {},
+                                "dates": []})
+        b["n"] += 1
+        if fl.get("call_id"):
+            b["calls"].add(fl["call_id"])
+        if fl.get("rep"):
+            b["reps"].add(fl["rep"])
+        sev = fl.get("severity") or "unknown"
+        b["severities"][sev] = b["severities"].get(sev, 0) + 1
+        if fl.get("date"):
+            b["dates"].append(fl["date"])
+    total_flags = len(flags) or 1
+    for b in th.values():
+        worst = min(b["severities"], key=lambda s: SEVERITY_ORDER.get(s, 9))
+        b["severity"] = worst
+        b["critical"] = b["severities"].get("critical", 0)
+        b["high"] = b["severities"].get("high", 0)
+        b["calls"] = len(b["calls"])
+        b["reps"] = len(b["reps"])
+        b["share"] = round(b["n"] / total_flags * 100)
+        b["date_range"] = [min(b["dates"]), max(b["dates"])] if b["dates"] else None
+        b.pop("dates", None)
+    themes = _named_first(th.values())
+
     by_cat, by_sev = {}, {}
     for fl in flags:
         cat = fl.get("category", "other")
@@ -1437,6 +1652,7 @@ def build_flags(records):
         "by_category": sorted(by_cat.values(),
                               key=lambda x: (-x["critical"], -x["high"], -x["n"])),
         "clusters": clusters,
+        "themes": themes,
         "systemic": [c for c in clusters if c["n"] >= 3],
         "urgent": [f for f in flags if f.get("severity") in ("critical", "high")],
         "calls_flagged": len({f["call_id"] for f in flags if f.get("call_id")}),
@@ -1623,15 +1839,25 @@ def redact_payload(payload, records):
     FIN_WORDS = ("credit", "cash on hand", "surplus", "left over", "leftover",
                  "financial picture", "monthly")
 
+    # One alternation, one pass, longest literal first. Substituting key by key
+    # in a loop re-scans text a previous substitution just inserted: replacing
+    # 1000 with "the $1,000–$2,500 band" leaves a literal "$2,500" in the
+    # string, which the next key then bands again. That cascade produced
+    # "the the $2,500–$5,000 band–the $5,000–the under 580 band,000 band band"
+    # in the published copy. A single pass cannot match its own output.
+    money_rx = (re.compile(r"(?<![\d,])(" +
+                           "|".join(re.escape(s) for s in
+                                    sorted(disclosed, key=len, reverse=True)) +
+                           r")(?![\d])")
+                if disclosed else None)
+
     def scrub_prose(node):
         if isinstance(node, dict):
             return {k: scrub_prose(v) for k, v in node.items()}
         if isinstance(node, list):
             return [scrub_prose(v) for v in node]
         if isinstance(node, str) and any(w in node.lower() for w in FIN_WORDS):
-            for src in sorted(disclosed, key=len, reverse=True):
-                node = re.sub(rf"(?<![\d,]){re.escape(src)}(?![\d])",
-                              disclosed[src], node)
+            return money_rx.sub(lambda m: disclosed[m.group(1)], node)
         return node
 
     if disclosed:
@@ -1677,29 +1903,12 @@ def slim_payload(p):
     shipping it means every visitor downloads the whole extraction database
     to draw a few tables. Full fidelity stays in data/calls/ and primal.db.
     """
-    for c in p.get("calls", []):
-        # objections drive the objection table; only these fields are read
-        c["objections"] = [{"type": o.get("type"), "resolved": o.get("resolved"),
-                            "response_tactic": o.get("response_tactic")}
-                           for o in c.get("objections", [])]
-        for heavy in ("goals", "pains", "notable", "quality"):
-            c.pop(heavy, None)
-        c["prospect"] = {k: c.get("prospect", {}).get(k) for k in ("name",)}
-        c["avatar"] = {"assigned": c.get("avatar", {}).get("assigned")}
-        c["rep"] = {"name": c.get("rep", {}).get("name")}
-        c["setter"] = {"name": c.get("setter", {}).get("name")}
-        c["source"] = {k: c.get("source", {}).get(k)
-                       for k in ("drive_file_id", "original_title")}
-        c["call"] = {k: c.get("call", {}).get(k)
-                     for k in ("date", "stage", "duration_min_est")}
-        c["outcome"] = {k: c.get("outcome", {}).get(k)
-                        for k in ("disposition", "confidence", "cash_collected_usd")}
-        off = c.get("offer", {})
-        c["offer"] = {k: off.get(k) for k in
-                      ("presented", "tiers", "guarantee_mentioned",
-                       "payment_plan_offered", "payment_plan_structured_live")}
-        if c.get("adherence"):
-            c["adherence"] = {"adherence_pct": c["adherence"].get("adherence_pct")}
+    # The per-call array goes entirely. This dashboard is an aggregate view —
+    # there is no call-by-call table and no per-prospect anything on it — and
+    # every figure it used to derive by iterating this list is precomputed in
+    # rollups.summary. Shipping 422 call records to draw a dozen averages put
+    # a per-call dataset on a public URL for no rendering benefit.
+    p.pop("calls", None)
 
     f = p.get("rollups", {}).get("flags")
     if f:

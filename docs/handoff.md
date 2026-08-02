@@ -50,6 +50,29 @@ What changed:
    `render(DATA)` appended before `</script>` (calling it inline hit a temporal
    dead zone on `PAGE_SIZE`).
 
+### Third pass — flag themes, and the per-call array is gone
+
+- **Flags are themed, not clustered.** `cluster_flags` greedy-Jaccard split one
+  issue into five near-identical accordions whenever the agents worded it
+  differently — the page showed "Pricing deviation" five separate times, each
+  headed by a per-incident sentence. `FLAG_THEMES` (22 themes, keyword-matched,
+  72% coverage) replaces that with one box per recurring problem: count, share,
+  calls spanned, reps spanned, severity mix. Top ten rendered. `clusters` and
+  the individual critical-flag sample are no longer on the page at all.
+- **"Call by call" section deleted**, and with it the entire `calls` array in
+  the payload. Everything the page derived by iterating 422 call records is
+  precomputed into `rollups.summary` (close rate, cash, adherence range,
+  objection totals, and a closed-vs-other profile). A per-call dataset nobody
+  renders is still a per-call dataset on a public URL.
+  Payload **1.31 MB → 470 KB**; page **78 → 22 screens**.
+- **Third redaction bug.** The money-banding scrub looped one key at a time
+  over the same string, so it re-scanned text a previous substitution had just
+  inserted: banding `1000` inserts a literal `$2,500`, which the next key bands
+  again. Output read `the the $2,500–$5,000 band–the $5,000–the under 580
+  band,000 band band`. Now a single alternation regex in one pass.
+- `fetch("./data.json")` now passes `{cache:"no-cache"}` — a stale payload
+  renders numbers that disagree with the build.
+
 **Not yet deployed** — `npx vercel --prod --yes` still to run.
 
 ## What This Is
