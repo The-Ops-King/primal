@@ -59,16 +59,32 @@ def main():
     html = html.replace('<link rel="stylesheet" href="./brand.css">',
                         f"<style>\n{brand}\n</style>")
 
-    # Replace the network fetch with the payload itself. The replacement goes
-    # through a lambda so JSON backslash escapes are not read as regex templates.
-    payload = "const DATA = " + json.dumps(data, separators=(",", ":")) + ";\nrender(DATA);"
+    # Replace the network loader with the payload itself. Anchored on the
+    # explicit LOADER markers in index.html, not on the shape of the fetch
+    # call: the previous pattern ended at the first "});" after the fetch,
+    # which is inside render(), so the build silently shipped a page whose
+    # render function had had its opening lines eaten. The replacement goes
+    # through a lambda so JSON backslash escapes are not read as regex
+    # templates.
+    payload = "const DATA = " + json.dumps(data, separators=(",", ":")) + ";"
     html, n = re.subn(
-        r'fetch\("\./data\.json"\)[\s\S]*?\}\);',
+        r"/\* LOADER:START[\s\S]*?/\* LOADER:END \*/",
         lambda _: payload,
         html, count=1,
     )
     if n != 1:
-        raise SystemExit("Could not find the data.json fetch call to replace.")
+        raise SystemExit("Could not find the LOADER:START/END block to replace.")
+    if "function render(d)" not in html:
+        raise SystemExit("render() was destroyed by the loader replacement.")
+
+    # The call to render has to go last, not where the loader was. In the
+    # hosted page render() runs from an async callback, so every top-level
+    # const in the script has already initialised by the time it fires;
+    # calling it inline here instead runs it before PAGE_SIZE and friends
+    # exist and dies in the temporal dead zone.
+    html, n = re.subn(r"\n</script>", "\nrender(DATA);\n</script>", html, count=1)
+    if n != 1:
+        raise SystemExit("Could not find the closing </script> to append render() to.")
 
     # The style guide ships as its own file and has no counterpart here.
     html = html.replace('<a href="./style-guide.html">Style guide</a>', "")

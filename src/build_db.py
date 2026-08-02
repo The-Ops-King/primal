@@ -974,6 +974,400 @@ def build_offer_signals(records, deals, playbook, adherence, signals, icp):
     }
 
 
+# ---------------------------------------------------------------------------
+# Buckets.
+#
+# Three of the extracted vocabularies came back as free text: anchor `type`
+# (852 distinct strings across 1,513 anchors), unmet-demand `want` (1,283
+# distinct across 1,283 records) and, less severely, the pain and goal
+# categories (26 and 25). At that cardinality nothing reaches a countable
+# threshold and every table becomes an enumeration. These maps fold the long
+# tail into a handful of themes so the page can show buckets with rates.
+#
+# Matching is first-hit over an ordered list, so the more specific themes are
+# listed first. Anything that matches nothing lands in "other" — which is
+# reported, not hidden, because a large "other" is the signal that the map
+# needs another theme rather than that the tail is small.
+# ---------------------------------------------------------------------------
+
+ANCHOR_THEMES = [
+    ("our_own_tier", "Our own cheaper tier",
+     "They were shown, or found out about, a lower Primal price point and "
+     "anchored to that instead of the one being sold.",
+     ("internal_lower_tier", "own_lower_tier", "lower_tier", "own_product",
+      "one_month_tier", "internal_", "in_house", "rep_introduced_discount",
+      "rep_offered")),
+    ("cheaper_competitor", "A named competitor's price",
+     "A specific rival coach, app or programme with a number attached. The "
+     "hardest anchor to move, because it is concrete.",
+     ("competitor", "rival", "incumbent", "named_", "other_provider",
+      "market_rate", "industry_", "alternative_provider", "competitive_process",
+      "local_market", "peer_comparison")),
+    ("free_or_diy", "Free or do-it-yourself",
+     "YouTube, a spreadsheet, an app they already own, or simply doing it "
+     "themselves. The comparison is against $0, not against a competitor.",
+     ("free", "diy", "self_directed", "self_serve", "self_suffic", "youtube",
+      "content", "information", "substitute", "app_", "self_programming",
+      "owned_alternative", "employer_provided", "never_paid")),
+    ("pays_for_coaching", "Already pays for coaching",
+     "Prior or current spend on coaches, mentors or health. This anchor "
+     "supports the price — it establishes that paying an expert is normal.",
+     ("existing_", "prior_", "current_", "precedent", "self_investment",
+      "paid_coaching", "health_spend", "coaching_spend", "tax", "founder_",
+      "social_proof", "sunk", "willingness", "reframe_upward", "peer_proof",
+      "value_acceptance", "habitual_coaching", "creator_", "quality_signal",
+      "price_as_quality", "opportunity_cost", "write_off", "assets",
+      "career_", "runs_his_own")),
+    ("money_tight", "Money is tight or already committed",
+     "Cash spoken for elsewhere, thin credit, or lumpy income. Not a value "
+     "objection — a sequencing one, and it responds to terms, not to pitch.",
+     ("competing_", "household", "capital", "discretionary", "commitment",
+      "liquidity", "income_volatility", "cash", "membership", "debt",
+      "credit", "financing", "affordability", "retirement_income",
+      "income_cadence", "macro_conditions")),
+    ("budget_ceiling", "A number they arrived with",
+     "A price they had already decided was right before the call — a budget, "
+     "a monthly figure, an expected pricing model.",
+     ("price_expect", "expectation", "budget", "pricing_model", "subscription",
+      "monthly", "currency", "ceiling", "quote", "stated_", "expected_price",
+      "price_point", "price_scale", "unit_price", "no_reference",
+      "cost_of_living", "own_pricing")),
+]
+
+UNMET_THEMES = [
+    ("nutrition", "Nutrition and diet",
+     "Food, macros and eating habits — asked for as part of the programme "
+     "rather than as a separate thing.",
+     ("nutrition", "diet", "macro", "meal", "food", "eating", "recipe",
+      "calorie", "supplement")),
+    ("clinical", "Injury, rehab and clinical scope",
+     "Whether the programme can be run around a live medical constraint. This "
+     "is the bucket that overlaps the clinical-risk flags.",
+     ("injur", "rehab", "physio", "shoulder", "knee", "back pain", "surger",
+      "hernia", "rotator", "labrum", "disc", "arthrit", "cancer", "thyroid",
+      "medication", "pregnan", "postpartum", "menopaus", "clearance",
+      "clinician", "doctor", "physical therap", "condition")),
+    ("access", "More direct access to a coach",
+     "One-to-one time, live form checks, technique correction, in-person "
+     "contact. A request for a higher-touch version of what is already sold.",
+     ("one-to-one", "one to one", "1:1", "in-person", "in person", "form check",
+      "live call", "personal train", "face-to-face", "direct access",
+      "weekly call", "video review", "check-in", "form", "technique",
+      "live ", "feedback", "correction", "watch", "supervis", "accountab")),
+    ("proof", "Evidence it works for someone like them",
+     "Case studies, results, track record — proof at their age, their body "
+     "type or their starting point. A trust request, not a product one.",
+     ("evidence", "proof", "case stud", "testimonial", "track record",
+      "results for", "people like", "someone like", "year-old", "success stor",
+      "research", "science", "data on", "before and after", "credential")),
+    ("integration", "Fit it around what they already do",
+     "Run the programme alongside an existing sport, gym routine or coach "
+     "rather than replacing it.",
+     ("alongside", "integrat", "combine", "existing training", "existing "
+      "routine", "supplement", "in addition to", "on top of", "current "
+      "programme", "current program", "keep doing")),
+    ("partner", "Include a partner or family",
+     "Train with a spouse, partner or family member, or get a household rate. "
+     "A packaging question the offer has no answer for.",
+     ("wife", "husband", "spouse", "partner ", "couple", "together", "family",
+      "daughter", "son ", "household")),
+    ("commercial", "Cheaper, shorter or more flexible terms",
+     "Not a product request — a request to buy the same product differently. "
+     "Almost always a positioning or packaging question.",
+     ("price", "payment", "monthly", "subscription", "cheaper", "discount",
+      "trial", "shorter", "month-to-month", "pause", "cancel", "refund",
+      "guarantee", "instal", "deposit", "commit")),
+    ("sport", "Sport or hobby specific programming",
+     "Training that serves something they already do. The programme is "
+     "general strength; they want it pointed at their thing.",
+     ("running", "runner", "golf", "jiu", "bjj", "martial", "climb", "hik",
+      "cycl", "swim", "danc", "tennis", "ski", "row", "sport", "marathon",
+      "triathlon", "football", "soccer", "surf", "yoga", "pilates", "lifting")),
+    ("logistics", "Equipment, travel and scheduling",
+     "Practical delivery: what they own, where they train, when they can do "
+     "it. Cheap to solve and often already solved.",
+     ("equipment", "barbell", "dumbbell", "gym access", "travel", "schedul",
+      "time zone", "offline", "app", "video", "weight set", "home gym")),
+]
+
+PAIN_GROUPS = [
+    ("body", "The body has stopped cooperating",
+     "Injury, medical constraint and age. The pain is physical and already "
+     "diagnosed — they are not guessing that something is wrong.",
+     ("injury", "medical", "aging", "mobility", "injury_prevention")),
+    ("consistency", "Cannot stay consistent",
+     "They know what to do and do not do it. Time, work and motivation "
+     "collapse into one complaint: it never lasts.",
+     ("consistency", "motivation", "accountability_gap", "time_scarcity",
+      "work_stress")),
+    ("guidance", "Do not know what to do",
+     "Competence anxiety, a fragmented stack of apps and programmes, and "
+     "dissatisfaction with what they are currently running.",
+     ("competence_anxiety", "confidence", "program_fit", "fragmented_solutions",
+      "training_barrier", "training_dissatisfaction", "fear_doubt")),
+    ("diet_sleep", "Diet and recovery are the unsolved part",
+     "Training is handled; what they eat and how they sleep is not.",
+     ("nutrition_habit", "sleep")),
+    ("spillover", "It is costing them outside the gym",
+     "Mood, relationships, self-image and the things they used to be able to "
+     "do. This is the emotional register — the copy source.",
+     ("emotional", "mental_health", "relationship", "hobby_performance",
+      "sustainability", "energy_performance")),
+]
+
+GOAL_GROUPS = [
+    ("longevity", "Still be doing this at seventy",
+     "Function, mobility and staying unbroken. The dominant want in this "
+     "corpus and the one the offer is actually built for.",
+     ("longevity_function", "longevity_family", "mobility", "injury_prevention",
+      "sustainability", "aging", "injury_confidence")),
+    ("look", "Look the part",
+     "Fat loss, muscle and appearance. Stated less often than longevity but "
+     "rarely absent underneath it.",
+     ("fat_loss", "appearance", "muscle_gain")),
+    ("perform", "Perform at something",
+     "Strength, endurance and a sport or hobby they want to be better at.",
+     ("strength", "hobby_performance", "energy_performance", "endurance",
+      "pregnancy_prep")),
+    ("identity", "Become someone who shows up",
+     "Consistency, confidence and being the example at home. An identity "
+     "goal, not an outcome one — and the one that sells a year, not a month.",
+     ("consistency", "confidence", "family_role_model", "relationship",
+      "accountability", "accountability_gap")),
+    ("fit_in", "Make it fit a full life",
+     "Convenience above all: it has to survive a real week.",
+     ("convenience", "nutrition_habit", "sleep")),
+]
+
+OBJECTION_GROUPS = [
+    ("money", "Money",
+     "Price, affordability, cashflow timing and cheaper alternatives — every "
+     "objection where the blocker is the number.",
+     ("price", "affordability", "timing_cashflow", "value_vs_cheaper_alternative")),
+    ("stall", "Not now",
+     "No stated blocker, just deferral. The hardest group to resolve because "
+     "there is nothing concrete to answer.",
+     ("think_about_it", "timing_other", "life_event_conflict")),
+    ("third_party", "Someone else decides",
+     "A spouse, a partner or unresolved doubt about the provider. The "
+     "decision is not the prospect's alone to make on the call.",
+     ("spouse_consult", "trust_provider")),
+    ("fit", "Will it work for me",
+     "Medical fit, fear of harm, unfamiliarity with kettlebells, and whether "
+     "it is worth it at reduced scope. A confidence problem, not a money one.",
+     ("fear_doubt", "program_fit", "medical_program_fit", "risk_of_harm",
+      "value_at_reduced_scope", "unfamiliar_modality", "program_longevity_proof",
+      "timing_medical", "icp_mismatch")),
+]
+
+ICP_CRITERIA = {
+    "successful": "Already successful",
+    "income": "Makes good money",
+    "neglected_health": "Health is neglected, not a crisis",
+    "good_to_great": "Wants good → great, not rescue",
+    "not_deconditioned": "Not 50 lb overweight and gym-averse",
+}
+
+
+def _theme_of(text, themes, default="other"):
+    """First-hit theme lookup over an ordered map. Returns the theme key."""
+    t = (text or "").lower()
+    for key, _label, _blurb, needles in themes:
+        if any(nd in t for nd in needles):
+            return key
+    return default
+
+
+def _named_first(buckets, size=lambda b: b["n"]):
+    """Rank buckets by size, but always park the catch-all last. A large
+    'everything else' sorting to position one reads as the headline finding
+    when it is really the residue."""
+    rows = sorted(buckets, key=lambda b: -size(b))
+    named = [b for b in rows if b["key"] != "other"]
+    other = [b for b in rows if b["key"] == "other"]
+    return named + other
+
+
+def _theme_shell(themes, extra_label="Everything else",
+                 extra_blurb="Did not match any theme. A large share here "
+                             "means the map needs another bucket."):
+    """Ordered accumulator, one slot per theme plus a reported 'other'."""
+    out = {k: {"key": k, "label": lab, "blurb": bl, "n": 0, "closed": 0, "deals": 0}
+           for k, lab, bl, _ in themes}
+    out["other"] = {"key": "other", "label": extra_label, "blurb": extra_blurb,
+                    "n": 0, "closed": 0, "deals": 0}
+    return out
+
+
+def build_buckets(records, deals, signals, icp, rollups):
+    """Fold the free-text long tails into themed buckets.
+
+    Every rate here is computed over the whole corpus, not over the sampled
+    lists the payload ships — that distinction matters, because slim_payload
+    caps anchors at 60 of 1,513 and a rate taken from the sample would be a
+    different number wearing the same label.
+    """
+    by_call = {r["call_id"]: r for r in records}
+
+    # ---- anchors ----
+    anchors = _theme_shell(
+        ANCHOR_THEMES,
+        extra_blurb="Anchors that matched no theme. Reported rather than "
+                    "dropped so the bucket map can be judged.")
+    a_total = 0
+    for e in signals["calls"]:
+        r = by_call.get(e["call_id"])
+        if not r:
+            continue
+        closed = r["outcome"]["disposition"] == "closed"
+        for a in e.get("anchors", []):
+            key = _theme_of(f"{a.get('type','')} {a.get('competitor','') or ''}",
+                            ANCHOR_THEMES)
+            b = anchors[key]
+            b["n"] += 1
+            a_total += 1
+            if a.get("direction") == "undercuts_price":
+                b["undercuts"] = b.get("undercuts", 0) + 1
+            if closed:
+                b["closed"] += 1
+    for b in anchors.values():
+        b["undercuts"] = b.get("undercuts", 0)
+        b["undercut_pct"] = round(b["undercuts"] / b["n"] * 100) if b["n"] else 0
+        b["share"] = round(b["n"] / a_total * 100) if a_total else 0
+        b["close_rate"] = round(b["closed"] / b["n"] * 100) if b["n"] else 0
+    anchor_themes = _named_first(anchors.values())
+
+    # ---- unmet demand ----
+    unmet = _theme_shell(
+        UNMET_THEMES,
+        extra_blurb="Requests that matched no theme — one-offs, and the "
+                    "genuinely idiosyncratic.")
+    u_total = 0
+    for e in signals["calls"]:
+        r = by_call.get(e["call_id"])
+        if not r:
+            continue
+        closed = r["outcome"]["disposition"] == "closed"
+        for u in e.get("unmet_demand", []):
+            key = _theme_of(u.get("want", ""), UNMET_THEMES)
+            b = unmet[key]
+            b["n"] += 1
+            u_total += 1
+            v = u.get("verdict") or "unvalidated"
+            b.setdefault("verdicts", {})[v] = b.setdefault("verdicts", {}).get(v, 0) + 1
+            if closed:
+                b["closed"] += 1
+    for b in unmet.values():
+        b.setdefault("verdicts", {})
+        b["share"] = round(b["n"] / u_total * 100) if u_total else 0
+        gap = b["verdicts"].get("product_gap", 0)
+        b["product_gap_pct"] = round(gap / b["n"] * 100) if b["n"] else 0
+    unmet_themes = _named_first(unmet.values())
+
+    # ---- pains / goals, grouped ----
+    # Deal counts cannot be summed across the categories in a group — one deal
+    # routinely carries two categories from the same group — so membership is
+    # recounted per deal rather than added up from the category rollup.
+    def group_rollup(kind, groups):
+        """Deal-level group membership, counted once per deal per group."""
+        call_index = {r["call_id"]: r for r in records}
+        cat_to_group = {c: k for k, _l, _b, cats in groups for c in cats}
+        acc = {k: {"deals": 0, "closed": 0, "cash": 0.0, "mentions": 0}
+               for k, _l, _b, _c in groups}
+        acc["other"] = {"deals": 0, "closed": 0, "cash": 0.0, "mentions": 0}
+        for d in deals:
+            keys = set()
+            for cid in d["call_ids"]:
+                for item in call_index[cid].get(kind, []):
+                    cat = item.get("category")
+                    if not cat:
+                        continue
+                    k = cat_to_group.get(cat, "other")
+                    keys.add(k)
+                    acc[k]["mentions"] += 1
+            for k in keys:
+                acc[k]["deals"] += 1
+                if d["disposition"] == "closed":
+                    acc[k]["closed"] += 1
+                    acc[k]["cash"] += d["cash_usd"] or 0
+        n = len(deals) or 1
+        out = []
+        meta = {k: (lab, bl, cats) for k, lab, bl, cats in groups}
+        meta["other"] = ("Everything else",
+                         "Categories outside the named groups, including the "
+                         "uncategorised bucket.", ())
+        for k, a in acc.items():
+            lab, bl, cats = meta[k]
+            out.append({
+                "key": k, "label": lab, "blurb": bl,
+                "categories": list(cats),
+                "mentions": a["mentions"], "deals": a["deals"],
+                "closed": a["closed"], "cash": a["cash"],
+                "share": round(a["deals"] / n * 100),
+                "close_rate": round(a["closed"] / a["deals"] * 100) if a["deals"] else 0,
+            })
+        return _named_first(out, size=lambda b: b["deals"])
+
+    # ---- objections, grouped ----
+    obj_index = {o["type"]: o for o in rollups.get("objection_types", [])}
+    cat_to_group = {c: k for k, _l, _b, cats in OBJECTION_GROUPS for c in cats}
+    obj_acc = {k: {"key": k, "label": lab, "blurb": bl, "types": [],
+                   "n": 0, "resolved": 0}
+               for k, lab, bl, _c in OBJECTION_GROUPS}
+    obj_acc["other"] = {"key": "other", "label": "Everything else",
+                        "blurb": "Objections that did not fall into a named "
+                                 "group, including the uncategorised bucket.",
+                        "types": [], "n": 0, "resolved": 0}
+    for o in rollups.get("objection_types", []):
+        b = obj_acc[cat_to_group.get(o["type"], "other")]
+        b["n"] += o["n"]
+        b["resolved"] += o["resolved"]
+        b["types"].append({"type": o["type"], "n": o["n"], "rate": o["rate"]})
+    obj_total = sum(b["n"] for b in obj_acc.values())
+    for b in obj_acc.values():
+        b["rate"] = round(b["resolved"] / b["n"] * 100) if b["n"] else 0
+        b["share"] = round(b["n"] / obj_total * 100) if obj_total else 0
+        b["types"].sort(key=lambda x: -x["n"])
+    objection_groups = _named_first(obj_acc.values())
+
+    # ---- ICP criteria, aggregated out of the per-prospect assessments ----
+    fits = ("core", "edge", "outside")
+    crit = {k: {"key": k, "label": lab, "matched": 0, "missed": 0,
+                "by_fit": {f: {"matched": 0, "missed": 0} for f in fits}}
+            for k, lab in ICP_CRITERIA.items()}
+    scored = 0
+    for a in icp["assessments"]:
+        fit = a.get("fit")
+        if fit not in fits:
+            continue
+        scored += 1
+        for m in a.get("matches", []):
+            if m in crit:
+                crit[m]["matched"] += 1
+                crit[m]["by_fit"][fit]["matched"] += 1
+        for m in a.get("misses", []):
+            if m in crit:
+                crit[m]["missed"] += 1
+                crit[m]["by_fit"][fit]["missed"] += 1
+    for c in crit.values():
+        d = c["matched"] + c["missed"]
+        c["assessed"] = d
+        c["miss_pct"] = round(c["missed"] / d * 100) if d else 0
+    icp_criteria = sorted(crit.values(), key=lambda x: -x["miss_pct"])
+
+    return {
+        "anchor_themes": anchor_themes,
+        "anchor_theme_total": a_total,
+        "unmet_themes": unmet_themes,
+        "unmet_theme_total": u_total,
+        "pain_groups": group_rollup("pains", PAIN_GROUPS),
+        "goal_groups": group_rollup("goals", GOAL_GROUPS),
+        "objection_groups": objection_groups,
+        "icp_criteria": icp_criteria,
+        "icp_assessments_scored": scored,
+    }
+
+
 SEVERITY_ORDER = {"critical": 0, "high": 1, "medium": 2, "low": 3}
 
 
@@ -1140,6 +1534,16 @@ def _band(v, edges, fmt="${:,.0f}"):
     return f"{fmt.format(lo)}+"
 
 
+# Surnames in this corpus that are also ordinary words. Replacing these on a
+# word boundary would still corrupt prose ("Cash confirmed" → "C. confirmed"),
+# and a bare common noun identifies nobody on its own. The full-name form is
+# still replaced; only the standalone-surname pass skips these.
+GENERIC_SURNAMES = {"cash", "moore", "white", "young", "price", "long", "best",
+                    "free", "close", "call", "plan", "king", "strong", "green",
+                    "brown", "black", "short", "rich", "small", "great", "day",
+                    "week", "month", "year", "back", "core", "edge", "fit"}
+
+
 def redact_payload(payload, records):
     """Pseudonymise the PUBLISHED payload only.
 
@@ -1161,7 +1565,7 @@ def redact_payload(payload, records):
     because they leak into derived keys (2026-07-23_robyn-stillwater_...)
     and into quoted evidence, and missing one of those is the whole ballgame.
     """
-    subs = {}
+    subs, bare_surnames = {}, {}
     for r in records:
         full = (r["prospect"].get("name") or "").strip()
         parts = full.split()
@@ -1172,16 +1576,26 @@ def redact_payload(payload, records):
         subs[full] = short
         for extra in [full, " ".join(parts[:2]), f"{first} {last}"]:
             subs[extra] = short
-        subs[last] = last[0] + "."                       # bare surname in prose
         subs[full.lower().replace(" ", "-")] = f"{first}-{last[0]}".lower()
         subs["-".join(p.lower() for p in parts)] = f"{first}-{last[0]}".lower()
         if r["prospect"].get("aka"):
             subs[r["prospect"]["aka"]] = first
+        # A bare surname in prose ("...what Stillwater actually said") still
+        # identifies, so it is replaced too — but NOT by naive substring
+        # replace. Some prospects are recorded as "Jason S", which put
+        # subs["S"] = "S." and rewrote every capital S in the whole payload:
+        # "Sport" became "S.port", "Stephanie" became "S.tephanie". Surnames
+        # shorter than three characters carry no identifying information on
+        # their own and are skipped; the rest match on a word boundary.
+        if len(last) >= 3 and last.lower() not in GENERIC_SURNAMES:
+            bare_surnames[last] = last[0] + "."
 
     blob = json.dumps(payload)
     for src in sorted(subs, key=len, reverse=True):       # longest first
         if src:
             blob = blob.replace(src, subs[src])
+    for src in sorted(bare_surnames, key=len, reverse=True):
+        blob = re.sub(rf"\b{re.escape(src)}\b", bare_surnames[src], blob)
     out = json.loads(blob)
 
     CASH = [500, 1000, 2500, 5000, 10000]
@@ -1311,22 +1725,52 @@ def slim_payload(p):
                 b[key] = items[:n]
                 b[f"{key}_truncated_from"] = len(items)
 
-    cap(R.get("pains"), 12)
-    cap(R.get("goals"), 12)
-    cap(R.get("pillars"), 15)
     cap(R.get("objection_plays"), 12, "instances")
 
+    # Per-observation and per-prospect lists. The dashboard is an aggregate
+    # view — it reports rates and themes, never "here are the 231 people who
+    # were an edge fit". Every one of these is now summarised by a bucket
+    # rollup computed over the full corpus, so the lists themselves are dead
+    # weight in the payload as well as on the page.
     if R.get("anchors"):
         R["anchors_total"] = len(R["anchors"])
-        R["anchors"] = R["anchors"][:60]
+    R.pop("anchors", None)
     if R.get("unmet_by_verdict"):
         R["unmet_totals"] = {k: len(v) for k, v in R["unmet_by_verdict"].items()}
-        R["unmet_by_verdict"] = {k: v[:20] for k, v in R["unmet_by_verdict"].items()}
-    R.pop("unmet_demand", None)          # duplicate of unmet_by_verdict
-    if R.get("icp", {}).get("assessments"):
+    R.pop("unmet_by_verdict", None)
+    R.pop("unmet_demand", None)
+    for b in R.get("pains") or []:
+        b.pop("items", None)
+    for b in R.get("goals") or []:
+        b.pop("items", None)
+    for b in R.get("pillars") or []:
+        b.pop("items", None)
+    for b in R.get("avatars") or []:
+        b.pop("names", None)
+    for key in ("demand_goals", "demand_pains"):
+        for b in R.get(key) or []:
+            b.pop("names", None)
+    for f in R.get("funnel") or []:
+        f.pop("deals_died", None)
+    if R.get("icp"):
         icp = R["icp"]
-        icp["assessments_total"] = len(icp["assessments"])
-        icp["assessments"] = icp["assessments"][:30]
+        icp["assessments_total"] = len(icp.get("assessments") or [])
+        icp.pop("assessments", None)
+        for f in icp.get("fit_counts") or []:
+            f.pop("who", None)
+    if R.get("offer_consistency"):
+        # One row per call — 422 rep/guarantee pairs. The finding is the
+        # variance itself, and that is already a count.
+        R["offer_consistency"].pop("guarantees", None)
+    # The per-call duration list drove a scatter that the bucketed table
+    # replaced; duration_summary and duration_buckets carry everything the
+    # page reads.
+    R.pop("duration", None)
+    for k in ("longest", "shortest"):
+        v = (R.get("duration_summary") or {}).get(k)
+        if isinstance(v, dict):
+            v.pop("prospect", None)
+            v.pop("rep", None)
     D = R.get("discriminators")
     if D:
         D["all"] = []                     # top_favours_* already carry the ranked view
@@ -1407,6 +1851,7 @@ def main():
     rollups = build_rollups(records, deals, playbook, adherence)
     rollups["discriminators"] = build_discriminators(records, deals, playbook, adherence)
     rollups.update(build_offer_signals(records, deals, playbook, adherence, signals, icp))
+    rollups.update(build_buckets(records, deals, signals, icp, rollups))
     rollups["flags"] = build_flags(records)
 
     counts = {

@@ -65,6 +65,18 @@
   footer{margin-top:var(--s8);padding-top:var(--s5);border-top:1px solid var(--line);
     color:var(--muted);font-size:13px}
   .warnrow{background:color-mix(in srgb,var(--warn) 6%,transparent)}
+  /* Bucket box. The page reports themes with rates, not enumerations, so this
+     is the workhorse: one box per bucket, always the same four parts —
+     headline number, label, denominator, and a sentence saying what it is. */
+  .box{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
+    padding:var(--s4);display:flex;flex-direction:column;gap:9px}
+  .box .big{font-family:var(--font-display);font-weight:400;font-size:34px;line-height:1;
+    letter-spacing:var(--display-tracking)}
+  .box h4{margin:0;font-size:14.5px;font-weight:700;line-height:1.35}
+  .box .meta{font-size:11px;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.09em;font-weight:600}
+  .box p{margin:0;font-size:12.5px;color:var(--muted);line-height:1.55}
+  .box .foot{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
   .topbar{display:flex;justify-content:space-between;align-items:center;gap:var(--s3);
     flex-wrap:wrap;margin-bottom:var(--s5)}
   .topbar a{color:var(--muted);text-decoration:none;font-size:13px;
@@ -113,17 +125,42 @@ const OBJ_LABEL = {
   icp_mismatch:"“Am I even your customer?”", program_longevity_proof:"Will results actually last?",
   unfamiliar_modality:"Never done kettlebells", life_event_conflict:"Life event in the way",
   medical_program_fit:"Medical — program may not fit", value_at_reduced_scope:"Worth it at reduced scope?",
-  risk_of_harm:"Fear of making an injury worse", timing_medical:"Timing — mid-treatment"
+  risk_of_harm:"Fear of making an injury worse", timing_medical:"Timing — mid-treatment",
+  think_about_it:"“Let me think about it”", spouse_consult:"Needs to ask a partner",
+  fear_doubt:"General doubt it will work", trust_provider:"Doesn't yet trust the provider",
+  timing_other:"Timing — something else first", program_fit:"Program may not suit them",
+  other:"Uncategorised"
 };
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pct = (a,b) => b ? Math.round(a/b*100) : 0;
 const adhVals = cs => cs.map(c=>c.adherence?.adherence_pct).filter(v=>v!=null);
 const meanAdherence = cs => { const v=adhVals(cs); return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
 const adherenceRange = cs => { const v=adhVals(cs); return v.length ? Math.min(...v)+"–"+Math.max(...v)+"%" : "n/a"; };
+/* Close rate uses one colour scale everywhere on the page. */
+const rateTone = r => r>=30?"var(--won)":r>=15?"var(--warn)":"var(--lost)";
+/* One bucket, rendered as a box. The page reports themes with rates rather
+   than enumerating what is in them, so this is the repeated unit:
+   o = {big, tone, label, meta, blurb, bar, foot}. */
+function box(o){
+  const tone = o.tone || "var(--ink)";
+  return `<div class="box"${o.tone?` style="border-color:${o.tone}"`:""}>
+    <div class="big" style="color:${tone}">${o.big}</div>
+    <h4>${esc(o.label)}</h4>
+    ${o.bar!=null?`<div class="bar"><i style="width:${Math.min(100,o.bar)}%;background:${tone}"></i></div>`:""}
+    ${o.meta?`<div class="meta">${o.meta}</div>`:""}
+    ${o.blurb?`<p>${esc(o.blurb)}</p>`:""}
+    ${o.foot?`<div class="foot">${o.foot}</div>`:""}
+  </div>`;
+}
 
 // Distinguish a fetch failure from a render failure. Conflating them cost a
 // debugging cycle once: the data loaded fine and render() threw, but the page
 // said "could not load data.json" and swallowed the stack.
+/* LOADER:START — build_standalone.py replaces everything between these two
+   markers with the payload inlined. Do not remove them, and do not rely on
+   matching the fetch call itself: a non-greedy match for the end of this block
+   ran on into render() and silently shipped a standalone page with no render
+   function at all. */
 (async () => {
   let data;
   try {
@@ -147,6 +184,7 @@ const adherenceRange = cs => { const v=adhVals(cs); return v.length ? Math.min(.
       esc(e.stack || e.message) + "</pre>";
   }
 })();
+/* LOADER:END */
 
 function render(d){
   window.__D = d;
@@ -201,42 +239,7 @@ function render(d){
   ${flagsSection(d)}
   ${funnelSection(d)}
 
-  <h2>Objections — what we face, what we actually resolve</h2>
-  <p class="sub">${objs.length} objections across ${n} calls ·
-     ${objs.filter(o=>o.resolved).length} resolved (${pct(objs.filter(o=>o.resolved).length,objs.length)}%)</p>
-  <div class="scroll"><table>
-    <thead><tr><th>Objection</th><th style="width:80px">Seen</th><th style="width:170px">Resolved</th>
-      <th style="width:270px">Best response</th><th style="width:270px">Worst response</th></tr></thead>
-    <tbody>${(d.rollups.objection_types||[]).map(o=>{
-      const col = o.rate>=50?"var(--won)":o.rate>=25?"var(--warn)":"var(--lost)";
-      const cell = (list, tone) => list.length
-        ? list.map(t=>`<div style="font-size:12.5px;margin-bottom:3px">
-            <strong style="color:${tone}">${t.rate}%</strong>
-            <span style="color:var(--muted)"> ${esc(t.tactic)}</span>
-            <span class="mono" style="color:var(--muted);font-size:10.5px"> n=${t.n}</span></div>`).join("")
-        : `<span style="color:var(--muted);font-size:12.5px">no tactic used 3+ times</span>`;
-      return `<tr>
-        <td><strong>${esc(OBJ_LABEL[o.type]||o.type)}</strong>
-            <div class="mono" style="color:var(--muted);font-size:11px">${o.distinct_tactics} distinct tactics tried</div></td>
-        <td><span class="num" style="font-size:22px">${o.n}</span></td>
-        <td><strong style="color:${col}">${o.rate}%</strong>
-            <div class="mono" style="color:var(--muted);font-size:11px">${o.resolved} of ${o.n}</div>
-            <div class="bar"><i style="width:${o.rate}%;background:${col}"></i></div></td>
-        <td>${cell(o.best, "var(--won)")}</td>
-        <td>${cell(o.worst, "var(--lost)")}</td>
-      </tr>`;}).join("")}</tbody>
-  </table></div>
-  <div class="banner" style="margin-top:var(--s3)">
-    <strong>Read the tactic columns with care.</strong> Only tactics recorded at least three times appear.
-    Most objection types show none, because the tactic label was captured as free text rather than from a
-    fixed vocabulary — so two reps doing the same thing often get two different labels. The
-    <em>distinct tactics</em> count is therefore an upper bound on genuine variety, not a measurement of it.
-    The Seen and Resolved columns are unaffected and reliable. Fixing this needs a controlled tactic
-    vocabulary and a re-score, not a re-extraction.
-  </div>
-  <p class="sub" style="margin-top:10px">Price is the most common objection (3 of ${n} calls) and the
-  worst-handled — resolved once. The single resolution came from structuring a plan live. The two failures
-  came from a takeaway (“go back to her”) and a deferral (“let me go back to the team”).</p>
+  ${objectionSection(d, objs, n)}
 
   ${scriptSection(calls, d.playbook)}
 
@@ -257,6 +260,48 @@ function render(d){
     Outcomes are transcript-inferred and not CRM-verified.
   </footer>`;
 
+  /* ---------- Objections, in four buckets ---------- */
+  function objectionSection(d, objs, n){
+    const G = d.rollups.objection_groups || [];
+    const resolved = objs.filter(o=>o.resolved).length;
+    const worst = [...G].filter(g=>g.n>=50).sort((a,b)=>a.rate-b.rate)[0];
+    const biggest = G[0];
+    return `
+  <h2>Objections — what we face, what we actually resolve</h2>
+  <p class="sub">${objs.length} objections across ${n} calls, ${resolved} resolved
+  (${pct(resolved,objs.length)}%). The ${(d.rollups.objection_types||[]).length} recorded objection types
+  collapse into ${G.filter(g=>g.key!=="other").length} things people actually say. Rates are computed over
+  every objection in the corpus, not over the buckets shown.</p>
+
+  <div class="grid g2" style="margin:var(--s4) 0 var(--s3)">
+    ${G.map(g=>box({
+      big: g.rate+"%", tone: g.rate>=35?"var(--won)":g.rate>=20?"var(--warn)":"var(--lost)",
+      label: g.label, bar: g.rate,
+      meta: `resolved · ${g.n} raised · ${g.share}% of all objections`,
+      blurb: g.blurb,
+      foot: g.types.slice(0,4).map(t=>
+        `<span class="chip">${esc(OBJ_LABEL[t.type]||t.type.replace(/_/g," "))} ×${t.n}</span>`).join("")
+    })).join("")}
+  </div>
+
+  <div class="panel" style="border-color:var(--lost)">
+    <h3 style="color:var(--lost)">Nearly half of everything you hear is one bucket</h3>
+    <p style="color:var(--muted);margin:0">${biggest ? `<strong>${esc(biggest.label)}</strong> is
+    ${biggest.share}% of all objections raised and resolves ${biggest.rate}% of the time —
+    ${biggest.n} raised, ${biggest.resolved} resolved.` : ""}
+    ${worst && biggest && worst.key!==biggest.key ? ` The lowest resolve rate is
+    <strong>${esc(worst.label)}</strong> at ${worst.rate}%, which is the harder problem but a third of the
+    volume.` : ""}
+    One drilled response to the biggest bucket is worth more than a complete playbook for the rest, because
+    the volume is not close.</p>
+  </div>
+
+  <p class="sub" style="margin-top:var(--s3)">One caveat: which <em>rebuttal</em> works is not shown, because
+  the tactic label was captured as free text rather than from a fixed vocabulary — two reps doing the same
+  thing get two different labels, so nothing reaches a countable threshold. Counts and resolve rates are
+  unaffected. Fixing it needs a controlled vocabulary and a re-score, not a re-extraction.</p>`;
+  }
+
   /* ---------- Script adherence, by section of the script ---------- */
   function scriptSection(calls, pb){
     const R = window.__D.rollups;
@@ -269,6 +314,12 @@ function render(d){
     const plays = R.objection_plays;
     const totTrig = plays.reduce((s,p)=>s+p.triggered,0);
     const totFull = plays.reduce((s,p)=>s+p.hit,0);
+    // Flatten every check out of its section. Seven accordions each holding a
+    // full table is the same data spread over seven scrolls; one ranked list
+    // answers the only question anyone asks of it — what do we drill first.
+    const allChecks = ph.flatMap(p=>p.checks.filter(c=>c.pct!=null)
+                                     .map(c=>({...c, phase:p.name})))
+                        .sort((a,b)=>a.pct-b.pct);
 
     return `
   <h2>Script adherence by section</h2>
@@ -309,24 +360,23 @@ function render(d){
       </tr>`;}).join("")}</tbody>
   </table></div>
 
-  <h3 style="margin-top:var(--s6)">Down to the individual question</h3>
-  <p class="sub">Which specific moves inside each section actually get run. This is the coaching list.</p>
-  ${ph.map((p,i)=>{
-    const worst = p.checks.filter(c=>c.pct!=null).sort((a,b)=>a.pct-b.pct).slice(0,3)
-                   .map(c=>c.text.slice(0,52)).join(" · ");
-    return `<details>
-      <summary><span class="mono" style="color:var(--muted)">${i+1}.</span> ${esc(p.name)} — <span style="color:${p.adherence_pct>=70?"var(--won)":p.adherence_pct>=45?"var(--warn)":"var(--lost)"}">${p.adherence_pct==null?"—":p.adherence_pct+"%"}</span>
-        <span style="color:var(--muted);font-weight:400"> · weakest: ${esc(worst||"n/a")}</span></summary>
-      <div class="scroll" style="margin-top:var(--s3);border:none"><table style="min-width:560px">
-        <thead><tr><th>Move</th><th style="width:110px">Run</th><th style="width:130px">Hit / part / miss</th></tr></thead>
-        <tbody>${p.checks.sort((a,b)=>(a.pct??0)-(b.pct??0)).map(c=>{
-          const col = c.pct>=70?"var(--won)":c.pct>=45?"var(--warn)":"var(--lost)";
-          return `<tr><td style="font-size:13.5px">${esc(c.text)}</td>
-            <td><strong style="color:${col}">${c.pct==null?"—":c.pct+"%"}</strong>
-                <div class="bar"><i style="width:${c.pct||0}%;background:${col}"></i></div></td>
-            <td class="mono" style="color:var(--muted)">${c.hit} / ${c.partial} / ${c.miss}</td></tr>`;
-        }).join("")}</tbody>
-      </table></div></details>`;}).join("")}
+  <h3 style="margin-top:var(--s6)">The coaching list — the twelve least-run moves</h3>
+  <p class="sub">Every individual scripted move across all ${ph.length} sections, ranked by how often it
+  actually gets run, worst first. ${allChecks.length} moves are scored in total; drilling the bottom twelve
+  is the whole of the near-term coaching plan. The rest are at or above the corpus average and are not
+  where the losses are.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Move</th><th style="width:150px">Section</th><th style="width:150px">Run</th>
+      <th style="width:130px">Hit / part / miss</th></tr></thead>
+    <tbody>${allChecks.slice(0,12).map(c=>{
+      const col = c.pct>=70?"var(--won)":c.pct>=45?"var(--warn)":"var(--lost)";
+      return `<tr><td style="font-size:13.5px">${esc(c.text)}</td>
+        <td style="font-size:12px;color:var(--muted)">${esc(c.phase)}</td>
+        <td><strong style="color:${col}">${c.pct==null?"—":c.pct+"%"}</strong>
+            <div class="bar"><i style="width:${c.pct||0}%;background:${col}"></i></div></td>
+        <td class="mono" style="color:var(--muted)">${c.hit} / ${c.partial} / ${c.miss}</td></tr>`;
+    }).join("")}</tbody>
+  </table></div>
 
   <h3 style="margin-top:var(--s6)">Objection plays</h3>
   <p class="sub">How often each scripted objection comes up, and how often the rep actually runs the play.</p>
@@ -536,17 +586,17 @@ function render(d){
       </details>`;}).join("")}` : ""}
 
   ${F.urgent.length ? `<h3 style="margin-top:var(--s6);color:var(--lost)">Critical — sample</h3>
-  <p class="sub">${F.by_severity.critical||0} critical flags in total. Showing
-  ${Math.min(critSample.length, 20)} spanning every category, each with the words it rests on.
-  The rest are in <span class="mono">data/scores/parts/*.flags.json</span>.</p>
-  ${critSample.slice(0,20).map(row).join("")}` : ""}`;
+  <p class="sub">${F.by_severity.critical||0} critical flags in total. The clusters above are the view that
+  matters — one systemic problem read as one finding. Showing ${Math.min(critSample.length, 8)} individual
+  flags spanning every category, so the counts above are not taken on trust. The rest are in
+  <span class="mono">data/scores/parts/*.flags.json</span>.</p>
+  ${critSample.slice(0,8).map(row).join("")}` : ""}`;
   }
 
   /* ---------- Where deals die ---------- */
   function funnelSection(d){
-    const F = d.rollups.funnel, DU = d.rollups.duration, DS = d.rollups.duration_summary;
+    const F = d.rollups.funnel, DS = d.rollups.duration_summary;
     const worst = F.filter(f=>f.died_here>0).sort((a,b)=>b.died_here-a.died_here)[0];
-    const maxMin = Math.max(...DU.map(x=>x.minutes));
 
     return `
   <h2>Where deals die</h2>
@@ -555,8 +605,8 @@ function render(d){
   price, or on the handling afterwards.</p>
 
   <div class="scroll" style="margin-bottom:var(--s3)"><table>
-    <thead><tr><th style="width:44px">#</th><th>Stage</th><th style="width:230px">Reached</th>
-      <th style="width:100px">Died here</th><th>Who died</th></tr></thead>
+    <thead><tr><th style="width:44px">#</th><th>Stage</th><th style="width:280px">Reached</th>
+      <th style="width:150px">Died here</th></tr></thead>
     <tbody>${F.map(f=>{
       const isWorst = worst && f.stage===worst.stage;
       const col = f.pct>=80?"var(--won)":f.pct>=40?"var(--warn)":"var(--lost)";
@@ -566,8 +616,10 @@ function render(d){
         <td><span class="num" style="font-size:20px;color:${col}">${f.pct}%</span>
             <span class="mono" style="color:var(--muted)"> ${f.reached}/${d.corpus.deals}</span>
             <div class="bar"><i style="width:${f.pct}%;background:${col}"></i></div></td>
-        <td>${f.died_here?`<span class="num" style="font-size:20px;color:var(--lost)">${f.died_here}</span>`:'<span style="color:var(--muted)">—</span>'}</td>
-        <td style="font-size:12.5px;color:var(--muted)">${esc(f.deals_died.join(", ")||"—")}</td>
+        <td>${f.died_here
+          ? `<span class="num" style="font-size:20px;color:var(--lost)">${f.died_here}</span>
+             <span class="mono" style="color:var(--muted)"> ${pct(f.died_here,d.corpus.deals)}% of deals</span>`
+          : '<span style="color:var(--muted)">—</span>'}</td>
       </tr>`;}).join("")}</tbody>
   </table></div>
 
@@ -604,8 +656,16 @@ function render(d){
 
   /* ---------- ICP ---------- */
   function icpSection(d){
-    const I = d.rollups.icp;
+    const I = d.rollups.icp, C = d.rollups.icp_criteria;
     const FIT = {core:["Core ICP","var(--won)"], edge:["Edge","var(--warn)"], outside:["Outside","var(--lost)"]};
+    const FIT_BLURB = {
+      core:"Meets every stated criterion. Closes at more than double the corpus rate — the offer works "
+          +"exactly as designed on these people.",
+      edge:"Meets some criteria, misses others. The bulk of the corpus, and the bulk of the wasted call time.",
+      outside:"Fails most of the definition. Should not have reached a sales call at all; the cost of these "
+             +"is measured in rep hours, not lost revenue."
+    };
+    const total = I.fit_counts.reduce((s,f)=>s+f.n,0) || 1;
     return `
   <h2>ICP — stated vs. actual</h2>
   <p class="sub">The avatars describe who shows up. This describes who Primal <em>says</em> it wants, and
@@ -621,40 +681,58 @@ function render(d){
       `<span class="chip">${esc(c.label)}</span>`).join("")}</div>
   </div>
 
-  <div class="scroll" style="margin-bottom:var(--s3)"><table>
-    <thead><tr><th>Fit</th><th style="width:80px">Deals</th><th style="width:170px">Close rate</th><th>Who</th></tr></thead>
-    <tbody>${I.fit_counts.map(f=>{
+  <div class="grid g3" style="margin-bottom:var(--s5)">
+    ${I.fit_counts.map(f=>{
       const [lab,col]=FIT[f.fit]||[f.fit,"var(--muted)"];
-      return `<tr>
-        <td><span class="tag" style="background:color-mix(in srgb,${col} 16%,transparent);color:${col}">${lab}</span></td>
-        <td><span class="num" style="font-size:24px">${f.n}</span></td>
-        <td><span class="num" style="font-size:20px;color:${f.close_rate>=60?"var(--won)":f.close_rate>=30?"var(--warn)":"var(--lost)"}">${f.close_rate}%</span>
-            <div class="bar"><i style="width:${f.close_rate}%;background:${col}"></i></div></td>
-        <td style="font-size:12.5px;color:var(--muted)">${esc(f.who.join(", "))}</td>
+      const share = pct(f.n, total);
+      return box({
+        big: f.close_rate+"%", tone: col, label: lab+" — "+f.n+" deals", bar: f.close_rate,
+        meta: `close rate · ${share}% of the corpus`,
+        blurb: FIT_BLURB[f.fit] || ""
+      });}).join("")}
+  </div>
+
+  <h3>Which criterion actually fails</h3>
+  <p class="sub">The five stated criteria, scored against every one of the ${I.assessments_total}
+  prospects assessed. This replaces reading them one prospect at a time: if you want to know why so few
+  people are core ICP, it is the top row, and only the top row.</p>
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Criterion</th><th style="width:190px">Missed</th>
+      <th style="width:110px">Core</th><th style="width:110px">Edge</th>
+      <th style="width:110px">Outside</th></tr></thead>
+    <tbody>${(C||[]).map((c,i)=>{
+      const col = c.miss_pct>=50?"var(--lost)":c.miss_pct>=30?"var(--warn)":"var(--won)";
+      const cell = f => {
+        const b=c.by_fit[f]||{matched:0,missed:0}, d=b.matched+b.missed;
+        const p = d?Math.round(b.missed/d*100):0;
+        return `<td><span class="mono" style="color:${p>=50?"var(--lost)":p>=30?"var(--warn)":"var(--muted)"}">${p}% miss</span></td>`;
+      };
+      return `<tr${i===0?' class="warnrow"':""}>
+        <td><strong>${esc(c.label)}</strong></td>
+        <td><span class="num" style="font-size:22px;color:${col}">${c.miss_pct}%</span>
+            <span class="mono" style="color:var(--muted)"> ${c.missed}/${c.assessed}</span>
+            <div class="bar"><i style="width:${c.miss_pct}%;background:${col}"></i></div></td>
+        ${cell("core")}${cell("edge")}${cell("outside")}
       </tr>`;}).join("")}</tbody>
   </table></div>
+  ${C && C.length ? `<div class="panel" style="border-color:var(--accent)">
+    <h3 style="color:var(--accent)">One criterion is doing all the filtering</h3>
+    <p style="color:var(--muted);margin:0"><strong>${esc(C[0].label)}</strong> is missed on
+    ${C[0].miss_pct}% of assessed prospects — and never once on a core-ICP prospect. Every other criterion
+    is met more often than not. That makes it the single qualifying question worth asking before a call is
+    booked, rather than discovered forty minutes into one.</p>
+  </div>` : ""}
 
-  ${I.observations.map(o=>`<details>
+  ${I.observations.map(o=>`<details style="margin-top:var(--s3)">
     <summary style="color:var(--accent)">${esc(o.finding)}</summary>
-    <p style="color:var(--muted);margin:10px 0 0">${esc(o.detail)}</p></details>`).join("")}
-
-  <p class="sub" style="margin-top:var(--s3)">Per-prospect assessment:</p>
-  ${I.assessments.map(a=>{
-    const [lab,col]=FIT[a.fit]||[a.fit,"var(--muted)"];
-    const [dl,dc]=LABEL[a.disposition]||["—",""];
-    return `<details>
-      <summary><span style="color:${col}">${lab}</span> · ${esc(a.prospect)}
-        <span class="tag ${dc}" style="font-size:9.5px;padding:2px 7px">${dl}</span></summary>
-      <p style="color:var(--muted);margin:10px 0 8px">${esc(a.note)}</p>
-      <div>${a.matches.map(m=>`<span class="chip" style="color:var(--won);border-color:var(--won)">✓ ${esc(m.replace(/_/g," "))}</span>`).join("")}
-           ${a.misses.map(m=>`<span class="chip" style="color:var(--lost);border-color:var(--lost)">✗ ${esc(m.replace(/_/g," "))}</span>`).join("")}</div>
-    </details>`;}).join("")}`;
+    <p style="color:var(--muted);margin:10px 0 0">${esc(o.detail)}</p></details>`).join("")}`;
   }
 
   /* ---------- Offer signals ---------- */
   function offerSection(d){
     const R = d.rollups, C = R.offer_consistency, P = R.pillars,
-          A = R.anchor_directions, AN = R.anchors, U = R.unmet_by_verdict;
+          A = R.anchor_directions, AT = R.anchor_themes,
+          UT = R.unmet_themes, T = R.unmet_totals || {};
     const REACT = {enthusiastic:["Enthusiastic","var(--won)"], accepted:["Accepted","var(--won)"],
                    clarifying:["Needed clarifying","var(--warn)"], confused:["Confused","var(--lost)"],
                    objected:["Objected","var(--lost)"], not_presented:["Not presented","var(--muted)"]};
@@ -676,15 +754,13 @@ function render(d){
     are protected by depends entirely on who picked up the call.
   </div>
 
-  <div class="scroll" style="margin:var(--s4) 0 var(--s5)"><table>
-    <thead><tr><th style="width:170px">Rep</th><th>Guarantee as stated on the call</th></tr></thead>
-    <tbody>${C.guarantees.map(g=>`<tr>
-      <td>${esc(g.rep)}</td>
-      <td style="font-size:13.5px">${g.guarantee
-        ? esc(g.guarantee)
-        : '<span style="color:var(--lost)">— never mentioned —</span>'}</td>
-    </tr>`).join("")}</tbody>
-  </table></div>
+  <div class="grid g4" style="margin:var(--s4) 0 var(--s5)">
+    ${stat(C.distinct_versions,"Distinct guarantees","different wordings on record")}
+    ${stat(pct(C.never_mentioned,C.total_calls)+"%","Calls with no guarantee",C.never_mentioned+" of "+C.total_calls)}
+    ${stat(C.calls_with_offer,"Calls presenting the offer","of "+C.total_calls+" total")}
+    ${stat(Math.round(C.distinct_versions/Math.max(1,C.total_calls-C.never_mentioned)*100)+"%",
+           "Wordings per mention","100% means no two calls said the same thing")}
+  </div>
 
   <h3>Tier exposure</h3>
   <p class="sub">Which price points prospects were actually shown.</p>
@@ -717,21 +793,12 @@ function render(d){
         return `<span class="chip" style="color:${col};border-color:${col}">${lab} ×${v}</span>`;}).join("")}</td>
     </tr>`).join("")}</tbody>
   </table></div>
-  ${P.map(p=>`<details>
-    <summary>${esc(p.name)} — what prospects actually said</summary>
-    ${p.items.filter(i=>i.reaction!=="not_presented").map(i=>{
-      const [lab,col]=REACT[i.reaction]||[i.reaction,"var(--muted)"];
-      return `<div style="padding:9px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
-        <span class="tag" style="background:color-mix(in srgb,${col} 16%,transparent);color:${col}">${lab}</span>
-        <strong style="margin-left:6px">${esc(i.prospect)}</strong>
-        <div style="color:var(--muted);margin-top:5px">${esc(i.evidence)}</div></div>`;}).join("")}
-  </details>`).join("")}
-
   <h3 style="margin-top:var(--s6)">What prospects price you against</h3>
-  <p class="sub">Anchors they bring to the call — the number or product already in their head when they
-  hear $6,000. The rates below are computed across all
-  <strong>${(R.anchors_total||AN.length).toLocaleString()}</strong> anchors in the corpus; the table
-  shows a sample of ${AN.length}.</p>
+  <p class="sub">The number or product already in their head when they hear $6,000. All
+  <strong>${(R.anchor_theme_total||0).toLocaleString()}</strong> anchors in the corpus, sorted into
+  ${(AT||[]).filter(t=>t.key!=="other").length} themes plus a reported remainder — the raw labels ran to 852
+  distinct strings, which is a vocabulary problem rather than eight hundred different situations.
+  <em>Undercuts</em> is the share of that theme arguing the price down.</p>
   <div class="grid g2" style="margin-bottom:var(--s3)">
     ${A.map(a=>{
       const good = a.direction==="supports_price";
@@ -742,39 +809,41 @@ function render(d){
         <div class="f">${a.n} anchors · close rate of the deals carrying them</div>
       </div>`;}).join("")}
   </div>
-  <div class="scroll" style="margin-bottom:var(--s5)"><table>
-    <thead><tr><th style="width:150px">Anchor type</th><th>What they said</th>
-      <th style="width:130px">Effect</th><th style="width:110px">Outcome</th></tr></thead>
-    <tbody>${AN.map(a=>{
-      const good = a.direction==="supports_price";
-      const [lab,cls]=LABEL[a.disposition];
-      return `<tr>
-        <td><strong style="font-size:13px">${esc(a.type.replace(/_/g," "))}</strong>
-            ${a.competitor?`<div class="mono" style="color:var(--muted)">${esc(a.competitor)}</div>`:""}</td>
-        <td style="font-size:13px"><div class="q" style="border-color:${good?"var(--won)":"var(--lost)"};margin:0">${esc(a.raw)}</div>
-            <div style="color:var(--muted);font-size:12px;margin-top:5px">${esc(a.note)}</div></td>
-        <td><span class="tag" style="background:color-mix(in srgb,${good?"var(--won)":"var(--lost)"} 16%,transparent);color:${good?"var(--won)":"var(--lost)"}">${good?"Supports":"Undercuts"}</span></td>
-        <td><span class="tag ${cls}">${lab}</span></td>
-      </tr>`;}).join("")}</tbody>
-  </table></div>
+  <div class="grid g3" style="margin-bottom:var(--s5)">
+    ${(AT||[]).map(t=>box({
+      big: t.close_rate+"%", tone: rateTone(t.close_rate), label: t.label, bar: t.close_rate,
+      meta: `close rate · ${t.n} anchors · ${t.share}% of all`,
+      blurb: t.blurb,
+      foot: `<span style="color:${t.undercut_pct>=70?"var(--lost)":"var(--muted)"}">
+              ${t.undercut_pct}% of these argue the price down</span>`
+    })).join("")}
+  </div>
 
   <h3>Demand you don't serve</h3>
-  <p class="sub">Things prospects asked for that the offer does not currently do. A product gap is
-  something to build; a positioning gap is something you may already do but never said.</p>
-  ${Object.entries(U).map(([v,items])=>{
-    const [lab,col]=VERDICT[v]||[v,"var(--muted)"];
-    return `<details>
-      <summary><span style="color:${col}">${lab}</span>
-        <span style="color:var(--muted);font-weight:400"> — ${items.length}</span></summary>
-      ${items.map(i=>{
-        const [dl,dc]=LABEL[i.disposition];
-        return `<div style="padding:9px 0;border-bottom:1px dotted var(--line)">
-          <strong style="font-size:13.5px">${esc(i.want)}</strong>
-          <span class="tag ${dc}" style="font-size:9.5px;padding:2px 7px;margin-left:6px">${dl}</span>
-          <div style="color:var(--muted);font-size:13px;margin-top:5px">${esc(i.why_unmet)}</div>
-          <div class="mono" style="color:var(--muted);font-size:11px;margin-top:4px">${esc(i.prospect)}</div>
-        </div>`;}).join("")}
-    </details>`;}).join("")}`;
+  <p class="sub">Things prospects asked for that the offer does not currently do —
+  <strong>${(R.unmet_theme_total||0).toLocaleString()}</strong> requests, themed. Every want was recorded as
+  a distinct sentence, so a list of them is a list of a thousand sentences; these are the six recurring
+  shapes, covering ${(UT||[]).slice(0,6).reduce((s,t)=>s+t.share,0)}% of all of them.
+  <em>Product gap</em> is the share of the theme judged to need building rather than saying.</p>
+  <div class="grid g4" style="margin-bottom:var(--s3)">
+    ${Object.entries(T).sort((a,b)=>b[1]-a[1]).map(([v,cnt])=>{
+      const [lab,col]=VERDICT[v]||[v,"var(--muted)"];
+      return `<div class="stat" style="border-color:${col}">
+        <div class="n" style="color:${col}">${cnt.toLocaleString()}</div>
+        <div class="l">${lab}</div>
+        <div class="f">${pct(cnt, Object.values(T).reduce((s,x)=>s+x,0))}% of unmet requests</div>
+      </div>`;}).join("")}
+  </div>
+  <div class="grid g3">
+    ${(UT||[]).slice(0,6).map(t=>box({
+      big: t.n.toLocaleString(), tone: t.product_gap_pct>=40?"var(--lost)":"var(--warn)",
+      label: t.label, bar: t.share*2.5,
+      meta: `${t.share}% of unmet demand`,
+      blurb: t.blurb,
+      foot: `<span style="color:${t.product_gap_pct>=40?"var(--lost)":"var(--muted)"}">
+              ${t.product_gap_pct}% judged a product gap</span> · ${100-t.product_gap_pct}% positioning or unvalidated`
+    })).join("")}
+  </div>`;
   }
 
   /* ---------- What separates closed from not closed ---------- */
@@ -806,8 +875,8 @@ function render(d){
       </tr>`;
     };
 
-    const win = D.top_favours_close.slice(0,14);
-    const lose = D.top_favours_loss.slice(0,14);
+    const win = D.top_favours_close.slice(0,6);
+    const lose = D.top_favours_loss.slice(0,6);
     const perfectWin = D.top_favours_close.filter(r=>r.perfect);
 
     return `
@@ -912,88 +981,42 @@ function render(d){
 
   /* ---------- Pains and goals ---------- */
   function painGoalSection(d){
-    const P = d.rollups.pains, G = d.rollups.goals;
-    const pMax = Math.max(...P.map(x=>x.count)), gMax = Math.max(...G.map(x=>x.count));
-    const SEV = {critical:"var(--lost)",high:"var(--lost)",medium:"var(--warn)",low:"var(--muted)"};
+    const PG = d.rollups.pain_groups || [], GG = d.rollups.goal_groups || [];
+    const base = pct(d.calls.filter(c=>c.outcome.disposition==="closed").length, d.calls.length);
 
-    const block = (rows, max, tone, kind) => rows.map(b=>`
-      <details style="border-left:3px solid ${tone}">
-        <summary>
-          <span style="color:${tone}">${esc(b.category.replace(/_/g," "))}</span>
-          <span style="color:var(--muted);font-weight:400"> — ${b.count} across ${b.calls} call${b.calls===1?"":"s"}</span>
-          <div class="bar" style="margin-top:6px"><i style="width:${Math.round(b.count/max*100)}%;background:${tone}"></i></div>
-          ${Object.keys(b.severities||{}).length ? `<div style="margin-top:6px">${
-            Object.entries(b.severities).sort((x,y)=>y[1]-x[1]).map(([s,n])=>
-              `<span class="chip" style="color:${SEV[s]||"var(--muted)"};border-color:${SEV[s]||"var(--line)"}">${esc(s)} ×${n}</span>`
-            ).join("")}</div>` : ""}
-        </summary>
-        <div style="margin-top:10px">${b.items.map(i=>{
-          const [lab,cls]=LABEL[i.disposition];
-          return `<div style="padding:7px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
-            <span style="color:${tone}">${kind==="pain"?"▲":"●"}</span> ${esc(i.text)}
-            <div style="color:var(--muted);font-size:12px;margin-top:3px">
-              ${esc(i.prospect)} <span class="tag ${cls}" style="font-size:9.5px;padding:2px 7px">${lab}</span>
-              ${i.severity?`<span class="chip" style="color:${SEV[i.severity]||"var(--muted)"}">${esc(i.severity)}</span>`:""}
-            </div></div>`;}).join("")}</div>
-      </details>`).join("");
-
-    const demandTable = (rows, tone, kindLabel) => `
-      <div class="scroll" style="margin-bottom:var(--s5)"><table>
-        <thead><tr><th>${kindLabel}</th><th style="width:130px">Demand</th>
-          <th style="width:170px">Close rate when present</th><th style="width:110px">Cash</th></tr></thead>
-        <tbody>${rows.map(b=>{
-          const ccol = b.close_rate>=60?"var(--won)":b.close_rate>=30?"var(--warn)":"var(--lost)";
-          return `<tr>
-            <td><strong style="color:${tone}">${esc(b.category.replace(/_/g," "))}</strong></td>
-            <td><span class="num" style="font-size:20px">${b.share}%</span>
-                <div class="mono" style="color:var(--muted)">${b.deals} of ${d.corpus.deals} deals</div>
-                <div class="bar"><i style="width:${b.share}%;background:${tone}"></i></div></td>
-            <td><span class="num" style="font-size:20px;color:${ccol}">${b.close_rate}%</span>
-                <div class="bar"><i style="width:${b.close_rate}%;background:${ccol}"></i></div></td>
-            <td class="mono">${b.cash?"$"+b.cash.toLocaleString():"—"}</td>
-          </tr>`;}).join("")}</tbody>
-      </table></div>`;
+    // Close rate is only interesting against the corpus baseline — every group
+    // sits within a few points of it, and saying so is the finding.
+    const groupBoxes = (rows, tone) => rows.map(b=>{
+      const delta = b.close_rate - base;
+      return box({
+        big: b.share+"%", tone,
+        label: b.label, bar: b.share,
+        meta: `${b.deals} of ${d.corpus.deals} deals · ${b.mentions} mentions`,
+        blurb: b.blurb,
+        foot: `Closes at <strong style="color:${rateTone(b.close_rate)}">${b.close_rate}%</strong>
+               <span style="color:var(--muted)">(${delta>0?"+":""}${delta} vs the ${base}% corpus rate)</span>`
+      });}).join("");
 
     return `
   <h2>Pains &amp; goals</h2>
-  <p class="sub">
-    <span style="color:var(--lost);font-weight:600">▲ PAINS</span> are what they are running from —
-    what hurts today. <span style="color:var(--won);font-weight:600">● GOALS</span> are what they are
-    running toward.</p>
+  <p class="sub">What people are running from and running toward, grouped.
+  ${d.counts.pains.toLocaleString()} pains and ${d.counts.goals.toLocaleString()} goals were recorded across
+  51 categories — too many to read and too thin individually to trust, so they are rolled into five groups
+  each. Counted per <strong>deal</strong>: a deal is in a group if any of its calls raised anything in it.</p>
 
-  <h3 style="margin-top:var(--s6)">Demand — what people actually want</h3>
-  <p class="sub">The marketing view. How often each want comes up across all deals, and how well the people
-  who want it convert. High demand plus a high close rate is a message to lead with; high demand plus a low
-  close rate is traffic you are attracting but not serving.</p>
+  <h3 style="color:var(--lost);margin-top:var(--s5)">▲ Pains — what hurts today</h3>
+  <div class="grid g3" style="margin-bottom:var(--s5)">${groupBoxes(PG, "var(--lost)")}</div>
 
-  <h3 style="color:var(--won);margin-top:var(--s5)">● Goals by demand</h3>
-  ${demandTable(d.rollups.demand_goals, "var(--won)", "Goal")}
+  <h3 style="color:var(--won)">● Goals — what they are running toward</h3>
+  <div class="grid g3" style="margin-bottom:var(--s5)">${groupBoxes(GG, "var(--won)")}</div>
 
-  <h3 style="color:var(--lost)">▲ Pains by demand</h3>
-  ${demandTable(d.rollups.demand_pains, "var(--lost)", "Pain")}
-
-  <h3 style="margin-top:var(--s6)">In their own words</h3>
-  <p class="sub">Every category with the raw language behind it. Open one to see exactly how prospects
-  phrased it and which deals it came from — this is the copy source.</p>
-  <div class="grid g2">
-    <div>
-      <div class="panel" style="border-color:var(--lost);margin-bottom:var(--s3)">
-        <h3 style="color:var(--lost)">▲ Pains — ${d.counts.pains} recorded</h3>
-        <p style="margin:0;color:var(--muted);font-size:13.5px">
-          <strong style="color:var(--lost)">${esc(P[0].category.replace(/_/g," "))}</strong> leads at
-          ${P[0].count} mentions across ${P[0].calls} calls. ${P.length} categories in total.</p>
-      </div>
-      ${block(P, pMax, "var(--lost)", "pain")}
-    </div>
-    <div>
-      <div class="panel" style="border-color:var(--won);margin-bottom:var(--s3)">
-        <h3 style="color:var(--won)">● Goals — ${d.counts.goals} recorded</h3>
-        <p style="margin:0;color:var(--muted);font-size:13.5px">
-          <strong style="color:var(--won)">${esc(G[0].category.replace(/_/g," "))}</strong> leads at
-          ${G[0].count} mentions across ${G[0].calls} calls. ${G.length} categories in total.</p>
-      </div>
-      ${block(G, gMax, "var(--won)", "goal")}
-    </div>
+  <div class="panel" style="border-color:var(--warn)">
+    <h3 style="color:var(--warn)">What people want does not predict whether they buy</h3>
+    <p style="color:var(--muted);margin:0">Every group above closes within a few points of the
+    ${base}% corpus rate. That is a real result, not a null one: it says the wants people arrive with are
+    not the lever. Two people with identical goals close or don't close on what happens in the call — which
+    puts the weight back on the script sections and the objection buckets, and makes these groups a
+    <em>messaging</em> input rather than a targeting one.</p>
   </div>`;
   }
 

@@ -1,7 +1,56 @@
 # Session Handoff
 
 ## Last Updated
-2026-08-01, end of first session
+2026-08-01, end of second session
+
+## Second Session — condensing the dashboard
+
+The page was an enumeration. It listed every prospect per ICP band, every
+per-prospect assessment, all 422 rep/guarantee pairs, 60 individual price
+anchors and 51 pain/goal accordions. Measured: **70,650 px, 147 accordions,
+698 table rows — 78 screens.** It is now **23,664 px / 26 screens**, same
+findings, no identities, no per-observation lists.
+
+What changed:
+
+- **New bucket layer** in `build_db.py` (`build_buckets`, plus the
+  `ANCHOR_THEMES` / `UNMET_THEMES` / `PAIN_GROUPS` / `GOAL_GROUPS` /
+  `OBJECTION_GROUPS` / `ICP_CRITERIA` maps). Three extracted vocabularies came
+  back as free text — anchor `type` had **852 distinct strings** across 1,524
+  anchors, unmet `want` was 1,288 distinct sentences. First-hit keyword maps
+  fold them into 6–10 themes. Unmatched items land in a reported `other`
+  bucket rather than being dropped: anchors 21%, unmet 27%. A growing `other`
+  is the signal the map needs another theme.
+- **Every rate is computed over the full corpus**, then the underlying list is
+  discarded. Previously `slim_payload` shipped 60 of 1,524 anchors, so any
+  rate read off the table was a sample statistic wearing a population label.
+- **All per-prospect lists removed** from both page and payload: ICP `who` +
+  assessments, funnel `deals_died`, per-rep guarantees, pillar quotes,
+  pain/goal items, avatar names, the per-call duration list. Payload
+  1.31 MB → 942 KB.
+- Seven script-adherence accordions (one table each) → one ranked
+  **twelve least-run moves** table. Discriminator tables 14 rows → 6.
+  Critical-flag sample 20 → 8; the systemic clusters already carry that story.
+
+### Two real bugs found and fixed
+
+1. **Redaction was corrupting the whole payload.** Prospects recorded as
+   "Jason S" (single-letter surname) put `subs["S"] = "S."`, and redaction is a
+   blind whole-blob `str.replace` — so *every capital S, R and L in the
+   payload* was rewritten. "Sport" → "S.port", "Stephanie" → "S.tephanie".
+   Visible in the old screenshots. Surnames under three characters are now
+   skipped, the rest match on a word boundary, and surnames that are ordinary
+   words (`GENERIC_SURNAMES`) are skipped in the standalone-surname pass only.
+2. **`standalone.html` had been shipping broken.** `build_standalone.py`
+   matched the loader with `fetch\("\./data\.json"\)[\s\S]*?\}\);` — the first
+   `});` after the fetch is *inside* `render()`, so the build ate the opening
+   of the render function. The committed standalone contained no `render`
+   at all. Now anchored on explicit `/* LOADER:START */` … `/* LOADER:END */`
+   markers in `index.html`, with an assertion that `render` survives, and
+   `render(DATA)` appended before `</script>` (calling it inline hit a temporal
+   dead zone on `PAGE_SIZE`).
+
+**Not yet deployed** — `npx vercel --prod --yes` still to run.
 
 ## What This Is
 Integrity audit of Primal Instinct sales calls. Transcripts live in a Google
