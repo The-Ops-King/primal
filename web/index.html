@@ -331,21 +331,23 @@ function render(d){
   <h3 style="margin-top:var(--s6)">Objection plays</h3>
   <p class="sub">How often each scripted objection comes up, and how often the rep actually runs the play.</p>
   <div class="scroll" style="margin-bottom:var(--s3)"><table>
-    <thead><tr><th>Objection</th><th style="width:100px">Triggered</th>
-      <th style="width:200px">Play run</th><th>Detail</th></tr></thead>
+    <thead><tr><th>Objection</th><th style="width:110px">Triggered</th>
+      <th style="width:220px">Play executed</th><th style="width:110px">Ran in full</th>
+      <th style="width:110px">Partial</th><th style="width:110px">Not run</th></tr></thead>
     <tbody>${plays.map(p=>{
       const rate = pct(p.hit + p.partial*.5, p.triggered);
       const col = rate>=70?"var(--won)":rate>=35?"var(--warn)":"var(--lost)";
+      const cell=(n,tone)=>`<span class="num" style="font-size:20px;color:${tone}">${n}</span>
+        <span class="mono" style="color:var(--muted)"> ${pct(n,p.triggered)}%</span>`;
       return `<tr>
         <td><strong>${esc(p.trigger)}</strong>
             <div class="mono" style="color:var(--muted)">${esc(p.play)}</div></td>
-        <td><span class="num" style="font-size:22px">${p.triggered}</span></td>
+        <td><span class="num" style="font-size:24px">${p.triggered}</span></td>
         <td><strong style="color:${col}">${rate}%</strong>
-            <div class="bar"><i style="width:${rate}%;background:${col}"></i></div>
-            <div class="mono" style="color:var(--muted);margin-top:4px">
-              ${p.hit} full · ${p.partial} partial · ${p.miss} missed</div></td>
-        <td style="font-size:12.5px;color:var(--muted)">${p.instances.map(i=>
-            `<div style="margin-bottom:4px"><strong>${esc(i.rep)}</strong> — ${esc((i.ran||"").toUpperCase())}</div>`).join("")}</td>
+            <div class="bar"><i style="width:${rate}%;background:${col}"></i></div></td>
+        <td>${cell(p.hit,"var(--won)")}</td>
+        <td>${cell(p.partial,"var(--warn)")}</td>
+        <td>${cell(p.miss,"var(--lost)")}</td>
       </tr>`;}).join("")}</tbody>
   </table></div>
 
@@ -472,8 +474,7 @@ function render(d){
         </summary>
         ${(f.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
         <div class="mono" style="color:var(--muted);font-size:11.5px;margin-top:8px">
-          ${esc(f.date||"")}${f.rep?" · "+esc(f.rep):""}${f.prospect?" · "+esc(f.prospect):""}
-          ${f.timestamp?" · "+esc(f.timestamp):""}
+          ${esc(f.date||"")}${f.timestamp?" · "+esc(f.timestamp):""}
           ${f.source_type==="internal"?' · <span style="color:var(--accent)">internal call</span>':""}
         </div></details>`;
     };
@@ -528,7 +529,7 @@ function render(d){
         <div style="color:var(--muted);font-weight:400;font-size:13.5px;margin-top:6px">${esc(c.exemplar)}</div>
       </summary>
       <div style="margin-top:10px;font-size:13px;color:var(--muted)">
-        Across ${c.calls.length} call${c.calls.length===1?"":"s"}${c.reps.length?` · ${esc(c.reps.join(", "))}`:""}
+        Across ${c.calls.length} call${c.calls.length===1?"":"s"}${c.reps.length>1?` · ${c.reps.length} different reps`:""}
         ${c.date_range[0]?` · ${esc(c.date_range[0])} → ${esc(c.date_range[1])}`:""}
       </div>
       ${(c.evidence||[]).map(e=>`<div class="q" style="border-color:${sc}">${esc(e)}</div>`).join("")}
@@ -890,8 +891,7 @@ function render(d){
       const meta = AVATARS[a.avatar]||{name:a.avatar,blurb:""};
       const col = a.close_rate>=60?"var(--won)":a.close_rate>=30?"var(--warn)":"var(--lost)";
       return `<tr>
-        <td><strong>${esc(meta.name)}</strong>
-            <div style="color:var(--muted);font-size:12.5px">${esc(a.names.join(", "))}</div></td>
+        <td><strong>${esc(meta.name)}</strong></td>
         <td><span class="num" style="font-size:26px">${a.deals}</span></td>
         <td class="mono" style="color:var(--muted)">${pct(a.deals,deals)}%</td>
         <td><span class="num" style="font-size:22px;color:${col}">${a.close_rate}%</span>
@@ -944,8 +944,7 @@ function render(d){
         <tbody>${rows.map(b=>{
           const ccol = b.close_rate>=60?"var(--won)":b.close_rate>=30?"var(--warn)":"var(--lost)";
           return `<tr>
-            <td><strong style="color:${tone}">${esc(b.category.replace(/_/g," "))}</strong>
-                <div class="mono" style="color:var(--muted);font-size:11px">${esc(b.names.join(", "))}</div></td>
+            <td><strong style="color:${tone}">${esc(b.category.replace(/_/g," "))}</strong></td>
             <td><span class="num" style="font-size:20px">${b.share}%</span>
                 <div class="mono" style="color:var(--muted)">${b.deals} of ${d.corpus.deals} deals</div>
                 <div class="bar"><i style="width:${b.share}%;background:${tone}"></i></div></td>
@@ -1004,11 +1003,13 @@ function render(d){
   <h2>Call by call</h2>
   <p class="sub">${d.corpus.calls_ingested} calls across ${d.corpus.deals} deals.
   ${d.corpus.multi_call_deals} deal${d.corpus.multi_call_deals===1?"":"s"} span more than one call.
-  Every row links to the source transcript in Drive.</p>
+  Prospect and closer identities are deliberately omitted throughout this dashboard — use the Drive link
+  if you need to look a specific call up at source.</p>
   <div class="scroll"><table>
-    <thead><tr><th>Prospect</th><th>Date</th><th>Rep</th><th>Avatar</th>
+    <thead><tr><th style="width:110px">Date</th><th>Avatar</th>
       <th style="width:110px">Outcome</th><th style="width:100px">Adherence</th>
-      <th style="width:90px">Cash</th><th style="width:80px">Source</th></tr></thead>
+      <th style="width:100px">Length</th><th style="width:90px">Cash</th>
+      <th style="width:90px">Source</th></tr></thead>
     <tbody id="callRows"></tbody>
   </table></div>
   <div id="pager" style="display:flex;gap:var(--s2);align-items:center;justify-content:space-between;
@@ -1037,14 +1038,11 @@ function drawCalls(page){
     const url = c.source.drive_file_id
       ? "https://drive.google.com/file/d/"+c.source.drive_file_id+"/view" : null;
     return `<tr>
-      <td><strong>${esc(c.prospect.name)}</strong>
-          <div class="mono" style="color:var(--muted)">${esc(c.source.original_title)}</div></td>
-      <td class="mono" style="color:var(--muted)">${esc(c.call.date)}</td>
-      <td>${esc(c.rep.name)}${c.setter.name
-          ? `<div class="mono" style="color:var(--muted)">set by ${esc(c.setter.name)}</div>`:""}</td>
+      <td class="mono">${esc(c.call.date)}</td>
       <td style="font-size:13px">${esc(av)}</td>
       <td><span class="tag ${cls}">${lab}</span></td>
       <td><strong style="color:${acol}">${a==null?"—":a+"%"}</strong></td>
+      <td class="mono" style="color:var(--muted)">${c.call.duration_min_est?c.call.duration_min_est+" min":"—"}</td>
       <td class="mono">${c.outcome.cash_collected_usd
           ? "$"+c.outcome.cash_collected_usd.toLocaleString() : "—"}</td>
       <td>${url?`<a href="${url}" target="_blank" rel="noopener"
