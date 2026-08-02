@@ -1,0 +1,137 @@
+{
+  "call_id": "2026-06-09_michael-schaedle_harry-edmonds",
+  "source": {
+    "drive_file_id": "1fPM6Ol3kKB9T3adFfCs2-cA_uEb85IbF",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "06/09/2026 - Michael Schaedle x Harry Edmonds ",
+    "display_title": "06/09/2026 - Michael Schaedle x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 24371
+  },
+  "call": {
+    "date": "2026-06-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 25,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "UK — stated as 'London' on this call, stated as 'Leicester' on other calls the same day" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter suffix on the title and no setter named or referenced anywhere in the transcript. The prospect came inbound through a referral chain from his tennis pro rather than through a set: 'My tennis pro, Mark P. Bernat, has designed his own sort of beast workout following Trevor's Instagram feed.'"
+  },
+  "prospect": {
+    "name": "Michael Schaedle",
+    "aka": "12155304250",
+    "name_source": "title",
+    "location": "Philadelphia, Pennsylvania, USA (also has a shore house)",
+    "age": 58,
+    "occupation": "Lawyer at a major law firm",
+    "family_status": null,
+    "height_in": 69,
+    "weight_lb": 210,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former college athlete and long-ago distance runner; describes himself as 'fairly athletic'. Current week: tennis twice, a fencing lesson twice at his club, lifting twice, plus a bike ride or run once, and a lot of dog walking. Lifting is mainly bench and plyometric dumbbell work, with dedicated weekly calf work because he identifies his calves as the most debilitated muscle group with age. Has tried a few kettlebell workouts and enjoys them but calls himself 'very much a beginner' — the handbooks he has used do not convey proper technique. Owns a few kettlebells in his basement and has access to a kettlebell set at his club. Has already lost 25-30 lb through his own diet and exercise before starting the GLP-1. Member of Germantown Cricket Club. Dislikes gym environments: 'an environment I've never really enjoyed much.'",
+    "kettlebell_experience": "some",
+    "medical": "Type 2 diabetes, actively managed. Currently on a GLP-1 receptor agonist and expecting the dose to increase, with the explicit worry that continued weight loss will come from muscle mass — 'what I'm worried about is that in the process of losing that 10 to 15 pounds, I lose muscle mass that I need to get old with.' References endocrine changes from the medication he does not fully understand. Blood pressure is a stated active target — 'I want my blood pressure to be under, in an appropriate range for my age' — implying it is not currently there. Sustained a shoulder injury roughly three months before the call attempting a 225 lb bench press, still not resolved: 'my shoulder has been slightly damaged for about three months after that.' Heals slowly and is explicit about it: 'when I tear something nowadays, I heal so much slower than I used to' and 'I don't repair quickly. I don't expect at 59 I'll be any better.' Age 58, turning 59."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.7,
+    "signals": [
+      "Older and already medically managed — type 2 diabetes, active GLP-1 therapy, blood pressure a named target, physician-directed weight loss already 25-30 lb in",
+      "Goal is explicitly holding function rather than gaining: 'I lose muscle mass that I need to get old with' and 'maintain a good level of strength for a fair period of time'",
+      "Health-literate and unusually precise about mechanism — distinguishes appetite suppression from endocrine effects, and cares about blood sugar control over the scale: 'I don't really care about what the number is, I care about how my endocrine system is fixing itself'",
+      "No vanity motive at all: 'I don't care how I look. I don't care about the number on the scale. I like functional fitness.'",
+      "Frames the stakes as mortality, not aesthetics: 'My other alternatives are to die in my 70s, so I would prefer to live a little longer than that healthfully.'",
+      "Secondary pattern — strong warm-referral characteristics that do not dominate the assignment: arrived via his tennis pro Mark Pibernat, knew the $6,000 price before the rep stated it, and raised no price objection. Diverges from the_warm_referral in that the referrer is not a client and got his results free from Instagram, and in that his motivation is clinical preservation rather than social proof."
+    ]
+  },
+  "goals": [
+    { "text": "Design a properly calibrated, appropriate-intensity kettlebell programme rather than a 'beast' workout", "category": "other" },
+    { "text": "Preserve muscle mass while losing weight on a GLP-1, specifically in arms, chest and legs", "category": "muscle_gain" },
+    { "text": "Get from about 210 lb down to 195-200 lb", "category": "fat_loss" },
+    { "text": "Get blood sugars under better control and blood pressure into an appropriate range for his age", "category": "other" },
+    { "text": "Keep the strength he needs to age well — 'muscle mass that I need to get old with'", "category": "longevity_function" },
+    { "text": "Learn correct kettlebell form so he does not injure himself, given he heals slowly at 58", "category": "injury_prevention" },
+    { "text": "Play tennis longer and possibly return to veterans fencing competition", "category": "hobby_performance" },
+    { "text": "Train at home in his basement or at his shore house without needing a gym", "category": "convenience" },
+    { "text": "Live meaningfully past his 70s in good health", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Type 2 diabetes requiring active management, with blood sugar control as a primary objective", "category": "medical", "severity": "high" },
+    { "text": "Fear that GLP-1 therapy will strip muscle mass he needs for later life, worsening as the dose escalates", "category": "medical", "severity": "high" },
+    { "text": "Shoulder still damaged three months after a heavy bench press attempt; heals far more slowly than he used to", "category": "injury", "severity": "medium" },
+    { "text": "Calves specifically debilitated with age, requiring dedicated weekly work", "category": "aging", "severity": "medium" },
+    { "text": "Kettlebell handbooks do not convey technique well enough for him to train safely — 'if I don't learn how to do these exercises, I'm going to damage myself'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Dislikes gym environments and does not want to have to attend one", "category": "training_barrier", "severity": "medium" },
+    { "text": "Evening snacking is his main dietary weakness", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Describes his physiology as chronically strained — 'think of my engine as overheated all the time'", "category": "medical", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "when I look at the movements on Trevor's feet, or when I see Mark do a workout, I know that if I do them wrong, I'm not just not going to perform, I'm potentially going to, you know, damage myself.",
+      "timestamp": "00:17:06",
+      "rep_response": "Answered on substance with the form-first framing — 'the first month is purely focused on mastering the form of the kettlebell... You can't just jump in the deep end of it' — and agreed with the concern ('That's not what we want'). Did not ask about the existing shoulder injury, the diabetes, the GLP-1 or whether any clinician had cleared the training.",
+      "response_tactic": "form_first_month_reassurance",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I'm looking for a baby program from you guys that would be manageable for me that maybe I could grow on.",
+      "timestamp": "00:04:09",
+      "rep_response": "Never addressed as a scope question. The rep responded with the full six-month all-encompassing programme and the standard trifecta pitch, so a request for a small starter product was answered with the only product that exists.",
+      "response_tactic": "none_reframed_to_full_offer",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "why don't you send me whatever you want me to look at and then we can talk on Friday and I'll either sign up or I won't by then, okay?",
+      "timestamp": "00:24:43",
+      "rep_response": "Accepted without running any play, agreed to send material and to put Friday in the calendar with a link. Did not attempt to isolate what would decide it, and did not ask what specifically he needed to see in order to say yes beyond a general 'What did you really want to see in that?'",
+      "response_tactic": "accept_and_book_follow_up",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'The results are guaranteed. So over a six month period, we guarantee you that by the end of that six months, you'll be swinging around a 20 pound heavier kettlebell than when you started, with all the main movements. And that's really the best way to guarantee results for everybody.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "'Can you send me, either by text or by email, a proposal about how this would work and how it would get started?'",
+      "'if I like it, I'll buy it, and if I don't, I really appreciate your time, Harry, okay?'",
+      "'why don't you send me whatever you want me to look at and then we can talk on Friday and I'll either sign up or I won't by then'",
+      "Follow-up agreed for the coming Friday with the rep to send a calendar link: 'Okay, shall I put that in the calendar and send you a link over?' / 'Please do.'",
+      "Strong buying signals: he already knew the price and did not react to it, and said of the tailoring 'it makes perfect sense, sure, and justifies the cost'.",
+      "Counter-evidence: no payment, no verbal commitment, and the call was cut short by his hard stop — he gave the rep seven compressed minutes, so the pitch was delivered under time pressure and the decision explicitly deferred to a written proposal he has not yet seen."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a written proposal by text or email covering how the programme works, how it gets started and the general module progression; follow-up call booked for the coming Friday with a calendar link to be sent."
+  },
+  "notable": {
+    "note": "The most clinically loaded prospect in this batch and the one with the least screening. Type 2 diabetes, active GLP-1 therapy with the dose still escalating, blood pressure outside his target range, and a shoulder injury unresolved for three months — all volunteered, none asked about, and no question at any point as to whether a physician had cleared loaded ballistic kettlebell training. He was then quoted the full $6,000 with a guarantee of a 20 lb load increase across all main movements. Separately he handed the rep the strongest consequence frame in the entire batch unprompted — 'My other alternatives are to die in my 70s' — and the rep replied 'Yeah, I would too' and moved on. Price was correct at $6,000 with no deviation, and no money objection ever arose; he already knew the number before the call. Two commercially important disclosures: an unmanaged referral channel in Mark Pibernat, a tennis pro at Germantown Cricket Club who has generated at least one $6,000 client and possibly two while building his own programme free from Trevor's Instagram feed and receiving nothing — the prospect himself said 'you should probably pay him something because he's a fabulous ambassador' — and a repeated, unmet request for a written proposal with a module-by-module outline before purchase."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect is recorded under his phone number '12155304250' rather than his name for the entire call. Attribution inverts repeatedly on short turns — at 00:00:17 and 00:00:23 the two speakers' lines are crossed within the Zoom-access exchange, at 00:09:49 the prospect's 'My other alternatives are to die in my 70s' sits inside the rep's block, and at 00:18:56 and 00:22:23 the rep's and prospect's turns are merged. Roles were read from content throughout. The call was audio-only over the phone because corporate IT security prevented the prospect from joining the Zoom link, and it was cut short by his hard stop, so the pitch was compressed into the final seven minutes."
+  }
+}

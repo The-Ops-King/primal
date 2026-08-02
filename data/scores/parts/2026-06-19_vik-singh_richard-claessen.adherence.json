@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-19_vik-singh_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Frame reduced to two parts — 'I'm really here to see if I can actually get you some help. If it's with us, great. If it's not with us, I'd also like to point you in the right direction.' No where-you-are / where-you-want-to-go / what's-in-the-way structure and no explicit agreement check; the rep moved straight on. Open question run: 'what can we actually potentially help you with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "miss", "P2d": "miss", "P2e": "hit", "P2f": "hit", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age (32), weight (170) and height (5'10\") taken; desk-bound work established; current training and results covered well; nutrition covered in unusual detail down to supplements. But no health-conditions question, no injury or chronic-pain question, and no sleep or energy questions — on a prospect who volunteered 'I know my back is weak' and 'I have like a forward pacing' and was about to be sold overhead ballistic loading."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "hit", "P3e": "partial", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Surface and mid layers ran well — pushed past 'look like Trevor' to specifics, asked 'is there anything personal that comes with that', and got the posture and longevity answer. The rep also correctly caught a filler 'we' and probed whether someone else was involved. But the deep layer was skipped: no 'who else does that impact', nothing on kids, marriage, legacy or identity, and the summary at 00:17:07 was a factual recap rather than the 'this isn't really about X' reflection."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "partial", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "'what do you feel like is missing in the way that you're working out now' produced the real gap — guidance and form — and the rep drew it out cleanly. The prospect named it himself: 'even if you're going to the gym, you know, and your forms isn't right, that's not correct either.' Weaker on why it lapsed for five years; the rep accepted 'priorities were different' without pressing, and never ran the 'information isn't the problem' question."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "partial", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The two-year question was attempted — 'where do you see yourself in like 10, 15 years if that stays the exact same' — and the prospect dismantled it: 'it's not going to get worse, right? It's only going to get better because I'm actually actively working on it.' That is the correct answer for an optimizer and the rep had no second move. He dropped the phase entirely: no settling question, no 'why not', no line in the sand. The consequence frame that would have supported $6,000 was never built, which is directly why the price fell to $4,000 twenty minutes later."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "partial" },
+      "evidence": "A 1-10 scale substituted for the commitment questions and returned 'Like a 9, maybe a 10', which the rep upgraded to a 10 himself ('so it sounds like it's a 10 based on what you can know right now'). The all-in question was never asked. The prospect had already signalled the condition the rep needed to clear — that he wanted to understand what he was getting into — and the rep proceeded to price with it live."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "miss", "P11b": "hit", "P11c": "partial", "P11d": "partial" },
+      "evidence": "Step 2 done properly — onboarding with Trevor booked for Monday 1:15 ET, invite sent and confirmed on the call. Step 1 failed: payment was asked for, deferred twice by the prospect, and the rep accepted the deferral ('No, no, you can book the meeting' / 'It'll get done, don't worry'). Step 3 was described as a future event rather than executed — 'when you have done the payments, you will get an email that will be with a very simple agreement' — so nothing was signed on the call. Step 4 was described in the same conditional future tense. The call ended with the rep saying 'Please don't ghost me', which is the diagnostic for a P11 that did not complete."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Fear and doubt were the live objection — 'give me six grand right now, and I haven't met the guy'. The rep ran the pressure-removal move ('you don't have to give me six grand, right? It's not a must') and one analogy — the e-commerce start-up risk parallel — which the prospect defeated cleanly with 'But I'm betting on myself. I'm betting on someone else.' None of the scripted OE moves ran: no certainty question, no pleasure-versus-pain frame, no bridge, no plane, no burned-before. The rep resolved it with a price and term concession instead of with the play."
+    },
+    {
+      "play": "OC",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No capacity-to-pay objection ever appeared. The prospect asked about upfront versus over time out of caution rather than constraint and never claimed he could not afford it, so the open-wallet play was correctly not run."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two unscripted objections. First, a price-integrity challenge: the prospect had found a different price online, 'almost half of that'. There is no play for a prospect who has seen a conflicting number, and the rep improvised a tier rather than reconciling it. Second, a request for downside protection — 'is there some sort of scenario where we can work out where I'm comfortable on that end' — which he refused on principle ('then they're looking into problems'). Both are gaps in the assets available, not rep failures, but the improvised tier that resulted is a real commercial consequence."
+    }
+  ],
+  "notes": "This closed and still scores poorly on process. Phase 5 collapsed against an optimizer who correctly said nothing would get worse, and the rep had no alternative frame — so when price landed there was no cost of inaction holding it up, and it moved $6,000 to $4,000 within ninety seconds of a challenge. Coachable priority: build a consequence frame that works on someone already improving (opportunity cost and ceiling, not decline), and take payment on the call rather than accepting a deferral and asking the prospect not to ghost you."
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-07-09_chris-x-richard-1-1_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The sales manager corrected a closer for disclosing that instalments cost more due to interest when a prospect asked directly, and coached him to redirect to putting it on a credit card before establishing whether a plan was needed.",
+      "evidence": [
+        "if I don't want to spend, like, the 6K at once... Is it possible to split it in, like, if it's always six months, to do 6K in six months?",
+        "It would be a little bit more because there's interest with that, but...",
+        "That is not the way you would respond to that.",
+        "I usually immediately say, yeah, I hear you. Most guys usually just throw it on a credit card, take care of it that way. Yeah. But why do you ask? Do you, like, need a payment plan?",
+        "You can, you literally should have that memorized."
+      ],
+      "timestamp": "00:05:11"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Interest-bearing instalments are confirmed as an existing option on a live call, three days after the same closer told a prospect that nothing about payment plans was set in stone.",
+      "evidence": [
+        "It would be a little bit more because there's interest with that",
+        "We don't have anything, like, set in stone. It's like, this is exactly what we can also do.",
+        "we don't have any specific payment plans"
+      ],
+      "timestamp": "00:05:11"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A closer told a waiting prospect he was onboarding a new client while he was in fact still on an unclosed sales call with a different prospect.",
+      "evidence": [
+        "I already texted, like, I'm a few minutes late, I'm currently onboarding a new client",
+        "if I sent it to you, would you then be ready to start if it looks good? Yeah, yeah, definitely.",
+        "So I just sent it to him. So I feel like I can definitely still get him in."
+      ],
+      "timestamp": "00:00:14"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "A recorded and retained coaching session contains an employee's personal and family disclosures and a guided emotional-release exercise, stored alongside customer call recordings in the same shared Drive folder.",
+      "evidence": [
+        "I just don't want to drive back to the Netherlands. And that's not even the worst. Come back to my hometown... I need to start living with you guys again. I just can't.",
+        "Close your eyes. Put your awareness on both of those places. Take a deep breath in for four seconds, pause for two seconds, and then exhale out about six seconds.",
+        "So you feel like you'd be failing? Yep.",
+        "my dad, he was really like, why would you take that risk?"
+      ],
+      "timestamp": "00:24:18"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "2026-05-04_eliab-alvarez-de-la-campa_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "No setter involved, so the read-back is N/A — though the rep clearly held an application ('he said you were 59?') and did not use it. Frame ran to two parts plus the alignment clause: 'I just want to get a good idea of where you're at, where you want to go. If there's alignment, we can talk about it.' Agreement token only. Open question run verbatim: 'What was it that you were hoping we could help you with?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Diet was the only item properly elicited. Age came off the application rather than a question; height and weight were never established at all on a call that ended in a $6,000 quote — the only body metric anywhere is a waist measurement the prospect volunteered. Occupation surfaced at minute 31, by accident, and was immediately monetised into a tax-framing pitch rather than used for qualification. Most seriously, there was no health question and no injury question: a 59-year-old disclosed a torn rotator cuff he has been repairing for 20 months, and it appeared inside the accountancy conversation because the rep had never asked."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "miss", "P3b": "partial", "P3c": "miss", "P3d": "partial", "P3e": "miss", "P3f": "miss", "P3g": "partial", "P3h": "hit" },
+      "evidence": "The reflect-back landed cleanly and was confirmed: 'So it's really going from good to great for you, essentially, to keep it simple.' A real bridge attempt ran too — 'how do you feel about it in terms of you moving forward, not in terms of the program, but moving forward into what you want in terms of your future?' — and the rep's story about clients whose why is being a better dad did draw out the prospect's own service answer. But the specific ladder questions never ran: no 'what would you change, one thing', no 'something you want to do but can't', no 'what does that do for you', no 'who else does that impact'. The deepest material on the call — his father doing 25 pull-ups at 70, and 'the more I can be of service to me, the more I can be of service to those I love' — was entirely prospect-generated."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Not a single past-attempts question was asked. The prospect handed over an unusually rich history unprompted — CrossFit, P90X, wrestling, Spartan races, a self-organised marathon — and named his own root cause without being asked: 'as much experience as I have working out, I just don't think I'm doing the right protocol. I think that there's a much more efficient way that I can go about it.' Under the spec that is a miss on every check, because the script credits asking and nothing was asked."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Absent. This is the call in the batch where the consequence frame was most obviously available and most obviously declined — a man turning 60 whose entire stated purpose is 'to continue moving youthfully for as long as possible', who volunteers his father's decline benchmark and his own philosophy of leaning into resistance. The rep matched his energy with mutual-philosophy exchange for roughly six minutes instead of asking what the next two years look like if nothing changes."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "partial" },
+      "evidence": "'In terms of the process itself, how do you feel about it in terms of you, I guess, moving forward?' is a soft proxy for the belief check and it did produce something valuable — the prospect's doubt about whether six months is realistic. But that doubt was then left unresolved and the rep proceeded to price anyway, which is exactly what P6c forbids. The all-in question was never asked in any form."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "partial", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Nothing collected. No deposit was even offered, which is notable because the same rep used a $100 refundable deposit to hold follow-ups on two other calls in this same week — with this prospect, who was 'very very much leaning towards yes' and had a decision due in ninety minutes, he took nothing. Onboarding was scoped to real slots (Tuesday 7:15pm Eastern identified as workable) but booked conditionally at best. No agreement email, no signature, no welcome email, no Skool link, no questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I just need to confirm with my lady that it's cool' is the trigger in substance and none of the six OB moves ran. No money-aside isolate, no 'when you talk to her, what obstacles might come up?', no 'is there any reason she would NOT want you stronger?', no ownership challenge, and no deposit fallback. The rep's entire response was 'that's all good' followed by scheduling. Inconsistent with his own behaviour three days earlier on the Parker Stratton call, where he ran the isolate, the obstacle preview and the deposit against the same objection."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I want like a day to think about it' triggered nothing scripted. In fairness the prospect compressed his own timeline to ninety minutes unprompted, so the practical cost was low — but no move ran, and the two doubts he had actually voiced were left on the table going into that ninety minutes."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I didn't think it was going to be that much' is a money trigger and the OC play did not start. No isolate, no HOW-not-SHOULD frame, no permission for an honest financial conversation, none of the six financial-picture questions. What ran instead was off-script: a list of accepted payment methods, a mention of third-party financing, and an extended pitch on writing the fee off as a business expense."
+    },
+    { "play": "OD", "trigger_present": false, "ran": "not_applicable", "detail": "No timing conflict was raised; the prospect was pushing for the earliest possible onboarding slot." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt about capability — his stated frame is the opposite: 'I lean into the resistance. I want the resistance because I know that's where I grow.'" },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two distinct script gaps, both raised by the prospect and neither answered. First, an age and ICP-fit objection stated in his opening breath: 'in one of the videos, he was like, if you're between 30 and 45, and then I wonder, hmm, I wonder how many guys they have doing this protocol that's a 59.' There is no play for 'am I too old for this' and no social proof was offered for his age bracket in 41 minutes. Second, a request for honest timeline calibration: 'Is it reasonable? Is it a reasonable goal within a reasonable timeframe?' There is no play for a prospect asking to be told what is realistically achievable, and it went unanswered into the decision window."
+    }
+  ],
+  "notes": "The prospect ran his own discovery, named his own root cause and closed himself to a near-yes, and the rep never had to work — which is why the two questions he did ask, whether the programme fits a 59-year-old and whether six months is realistic, both went into his decision unanswered. Coach the obvious one first: when a prospect opens by telling you he is outside the advertised age range, that is the objection, answer it. Second: he disclosed a 20-month rotator cuff repair and the reply was 'absolutely, absolutely' about his accountant."
+}

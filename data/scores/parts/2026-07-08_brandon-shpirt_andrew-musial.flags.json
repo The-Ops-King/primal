@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-08_brandon-shpirt_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect disclosing two bulging lumbar discs, bilateral shoulder impingement and stretched knee ligaments, who states that returning to training under load is what injured him, was moved toward loaded kettlebell work with no clinician clearance sought and a guarantee of adding 8kg to his core movements.",
+      "evidence": [
+        "I had some pre-existing injuries from sports when I was younger. In my knees, I had two ligaments that were stretched. I had, in my lumbar, I have two bulging discs and things like that.",
+        "I tried to get back into the gym a few years ago. And I think I went too much too fast and I hurt my shoulders.",
+        "especially like with the shoulders and the back, shoulders having issues, it ruins any pushing workout, any pushing workout, whether it's overhead presses or chest presses or whatever it is",
+        "with like barbell loading my back and things like that, it was good up until it wasn't good",
+        "there's also a guarantee from him that in those six months, you will add at least eight kilos, which is like 17 pounds, to your core kettlebell movements"
+      ],
+      "timestamp": "00:02:11"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep offered to split the fee in half with interest explicitly waived, one day after his manager told him in a 1-1 that instalment plans are supposed to carry interest.",
+      "evidence": [
+        "Look, Brandon, you're a business guy. I'm a business guy too. If you want to split it in half, that's fine with me. There's no interest on that.",
+        "I'm not talking about that. I'm just, you know what I'm saying? I just want to, you know, because you guys are meeting me the same way I'm meeting you guys",
+        "Most of the guys just put it on a credit card up front... Like, for some, we can split it up if they really-"
+      ],
+      "timestamp": "00:30:57"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep asserted that the programme would reduce the prospect's chronic pain and address his named injury sites, without any clinical basis and without a clinician involved.",
+      "evidence": [
+        "Trevor will address all your pain areas, like mentioned, shoulders, hips, all of that, and we'll prepare for you like short mobility protocols",
+        "that's a big game changer for you, like you will get rid of those stiffness, and you will gain mobility, definitely, and feel less pain, that's it",
+        "The biggest goal, from a goal standpoint, is pain-free. That's the biggest goal. Because I deal with a lot of, you know, chronic inflammation and pains."
+      ],
+      "timestamp": "00:21:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The prospect assumed the outbound texts from the company were automated, and the rep confirmed he had sent them personally without addressing whether any of the outreach is automated.",
+      "evidence": [
+        "I'm going to be frank with you, a lot of times when you deal with these texts, a lot of, I thought a lot of them were, were automatically generated.",
+        "What you call, you texted me from, oh yeah, I see it, hi Brandon, this is Andrew, Trevor's Instinct team, got it.",
+        "This is a direct, this is a direct contact to you? I will give you my personal WhatsApp number"
+      ],
+      "timestamp": "00:31:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears anywhere in this sales call.",
+      "evidence": [
+        "Hello. Hey, you're muted. You're muted.",
+        "Apologies. Oh, okay. How are you?"
+      ],
+      "timestamp": "00:00:39"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording begins at 00:00:39 rather than at zero, so the opening of the call including any disclosure is not captured, and diarization inverts the exchange that establishes the prospect's age.",
+      "evidence": [
+        "00:00:39 - Brandon Shpirt Hello. Hey, you're muted. You're muted.",
+        "00:20:20 - Brandon Shpirt And how old are you right now? / 00:20:22 - Andrew Jin (Primal Instinct) 34.",
+        "00:20:24 - Andrew Jin (Primal Instinct) We're not getting any younger, man. The recovery, it's not like you're 20."
+      ],
+      "timestamp": "00:20:20"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "call_id": "2026-05-04_sunny-bal_harry-edmonds",
+  "source": {
+    "drive_file_id": "1Ejk2wtpybN9SGSpRtmRAk7_DSgsuWLQ2",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/04/2026 - Sunny Bal x Harry Edmonds ",
+    "display_title": "05/04/2026 - Sunny Bal x Harry Edmonds  — Undetermined",
+    "file_size_bytes": 8708
+  },
+  "call": {
+    "date": "2026-05-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 8,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "UK — spends time around Tottenham Court Road / Fitzrovia, London; travels extensively" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter referenced in the surviving portion of the recording."
+  },
+  "prospect": {
+    "name": "Sunny Bal",
+    "aka": null,
+    "name_source": "title",
+    "location": "England, recently returned — 'I haven't been in England for two years, except now.' Long trip to California planned.",
+    "age": null,
+    "occupation": "Left salaried employment about a week before the call and is building his own client base; works on sales funnels and marketing, including advising his own physiotherapist on one",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-standing gym-goer — 'I've been doing kettlebells for years' — and has cycled through many formats including F45 and kickboxing. Now running and playing padel again after rehabilitation. Started Trevor's free guide the morning of the call and completed workout one: 10 push-ups and 10 clean-and-jerks back to back, ten sets. Builds naturally in the upper body ('People thought once I was on steroids. I wasn't.') and struggles with core.",
+    "medical": "ACL injury from football years ago, compounded by muscle degradation over time — 'really got it bad in a bad place about a year and a half ago'. Roughly eighteen months of in-person physiotherapy plus weekly fascia massage, funded by workplace health insurance covering around 40 sessions; discharged approximately one week before this call. Now running and playing padel again. Also described the psychological toll: 'you get down, you get depressed and stuff when you go through these things.'"
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Lost ground to an injury and a hard season and is coming back out of it — 'really got it bad in a bad place about a year and a half ago... physio's got me back like I'm playing paddle now, I'm running again and I didn't think I would'",
+      "Wants to end up ahead of where he was, not merely restored: 'I think the exercise we've been doing it will get me stronger than I was before'",
+      "Names the emotional cost directly, which is characteristic: 'you get down, you get depressed and stuff when you go through these things'",
+      "Confidence reduced to 0.6 because the recording is truncated at 7:36 — goals, finances, timeline and any objection were never reached, so the assignment rests on the injury-recovery arc alone"
+    ]
+  },
+  "goals": [
+    { "text": "Build the Daniel Craig Casino Royale upper body — 'It's a good torso, it's a good upper body'", "category": "appearance" },
+    { "text": "Fix a long-standing weakness in the core", "category": "strength" },
+    { "text": "Improve mobility", "category": "mobility" },
+    { "text": "Train anywhere while living mobile — a kettlebell in the trunk of the car, workable in California and on the move", "category": "convenience" },
+    { "text": "Come back stronger than before the ACL injury", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "ACL injury and progressive muscle degradation that reached its worst point about eighteen months ago and stopped him running", "category": "injury", "severity": "high" },
+    { "text": "Low mood through the injury period — 'you get down, you get depressed and stuff when you go through these things'", "category": "mental_health", "severity": "medium" },
+    { "text": "Persistent core weakness despite building easily elsewhere — 'I've always struggled with core'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Has cycled through every format available — gyms, F45, kickboxing — without settling on one", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "About to become highly mobile with no fixed gym, having just left the job that funded his physiotherapy", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The recording ends mid-sentence at 00:07:36 — 'Can you hear me?' / 'I'm going.' — with no offer presented, no price named and no decision reached",
+      "The prospect had explicitly queued the two things he still needed: 'the only queries I've got is, yeah, the structure of it, how it's broken up, the pricing' and the rep deferred them: 'yeah yeah yeah we'll get to that'",
+      "Intent was high at the point of truncation — already running Trevor's free programme that morning, already sold on the system ('I know the system itself, I pretty much I like it'), and pre-disposed to online coaching",
+      "Counter-evidence for reading the high intent as a likely close: he has just left the job that paid for his healthcare, is building a new client base, and no affordability signal exists anywhere in the surviving audio",
+      "Disposition is undetermined because the call did not end here — the file did"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Unknown — the recording stops before structure or pricing was discussed. If a continuation exists it is not in this file."
+  },
+  "notable": {
+    "note": "Truncated recording, not a short call: it cuts mid-exchange with roughly five of its seven minutes spent on travel small talk about Cebu and the prospect's stated questions on structure and pricing still unanswered. Two things survive that matter. The prospect was discharged from ACL physiotherapy about a week before the call and had already performed clean-and-jerks that morning off the free guide, with no clearance question asked. And he is unusually sophisticated about the mechanism being used on him — he sells sales funnels for a living and volunteered that he was recommending Trevor's to his own physiotherapist as a model."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe, and compounded by truncation. From 00:00:42 to 00:03:22 the two speakers are merged into one unbroken block under the prospect's label containing the whole of the rep's questioning ('are you in Primal University?', 'do you do it yourself?', 'what did you do man?'). The line 'I had great health insurance at work' at 00:03:22 sits under the rep's label but is the prospect's. There is an unresolved contradiction about the prospect's location — he says he is 'not too familiar with London' at 00:00:06 yet describes travelling to Fitzrovia for physiotherapy at 00:03:24 — which may be a further swap; location has been recorded conservatively as a result. The file terminates mid-sentence."
+  }
+}

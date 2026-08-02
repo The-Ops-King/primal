@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-05-12_jacob-gaines_farooq-bey",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A $200 self-serve subscription purchase is recorded on a file titled as a one-to-one Game Plan Session where the coaching offer was never presented or priced, so this call will read as a coaching close in any close-rate rollup.",
+      "evidence": [
+        "05/12/2026 - Jacob Gaines & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+        "Well, I joined. It says like I got a receipt, so I'm good to go.",
+        "I'm open to hearing, too, what the one-on-one looks like.",
+        "One-on-one coaching from the sounds of it. I'm not sure if it will. This, on the other hand, probably is."
+      ],
+      "timestamp": "00:44:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The prospect had already decided to purchase the $200 product before the call and was routed into a closer appointment by the setter anyway, so the revenue attributed to this call was already inbound.",
+      "evidence": [
+        "Yeah, I was just going to say, I was planning on joining this one today, and then I got a call from Kim, so this started this conversation with the 1-on-1 thing. But I was already ready to go to sign up with this.",
+        "yeah, I spoke with Kim earlier today",
+        "Yeah, I mean, I was, yeah, I was gonna, I'm planning on joining today, so I might as well."
+      ],
+      "timestamp": "00:31:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Immediately after taking payment the rep accepted a free personal service from the customer for the customer's professional certification requirement, and moved the relationship onto WhatsApp to arrange it.",
+      "evidence": [
+        "Well, I mean, I'm actually finishing my practicum right now. If you want a free breathwork session, I actually have to lead eight people through an hour long journey and I have to get a feedback form to finish my practicum.",
+        "What do I have to lose? ... Send me the details, man. I got your, your phone number.",
+        "no, that's, that's my work phone. Are you on WhatsApp? Yeah. I'll show you a message online.",
+        "Maybe it's time to get a breath work coach."
+      ],
+      "timestamp": "00:42:59"
+    }
+  ]
+}

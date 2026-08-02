@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-06-19_vik-singh_richard-claessen",
+  "source": {
+    "drive_file_id": "17yh3_8BH7-pKCUzQkJ3zPUT7IR77B5k5",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/19/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/19/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 81915
+  },
+  "call": {
+    "date": "2026-06-19",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 68,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Vik Singh",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New Jersey, USA",
+    "age": 32,
+    "occupation": "Business owner — e-commerce brands and real estate; has a team in place",
+    "family_status": null,
+    "height_in": 70,
+    "weight_lb": 170,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Started training seriously roughly two months before the call and is in the gym daily doing isolation work; reports significant strength improvement already. Also follows a self-directed diet plan religiously. No kettlebell experience.",
+    "kettlebell_experience": "none",
+    "medical": "No conditions or injuries disclosed. Reports a weak back and forward-leaning posture from computer work, and self-assesses back and legs as his weakest areas."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Business goals already achieved and health is the deliberate next project: 'it was more of a mental goal that I have, hey, want to achieve this in my business first, then everything else falls in line. So I've already achieved that, right? So now it's like, okay, my next phase in life is I want to get my mental and my physical the best I can possibly get it'",
+      "Already training daily and dialled in on nutrition before the call — good moving to great, not rescue",
+      "Price itself was never the objection: 'No, the amount of money doesn't scare me' in substance — the resistance was to paying upfront to an unknown provider, not to the sum",
+      "Explicitly rejects half measures: 'I'm the type of person that tries to push it even as much as I can possibly push'"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger overall and fix the weak back and forward posture from years at a computer", "category": "strength" },
+    { "text": "Lose belly and leg fat and get lean enough to see definition", "category": "fat_loss" },
+    { "text": "Build the mobility and functionality that isolation gym work does not give him", "category": "mobility" },
+    { "text": "Achieve a physique similar to Trevor's", "category": "appearance" },
+    { "text": "Train efficiently at home instead of losing 15-20 minutes each way driving to a gym", "category": "convenience" },
+    { "text": "Avoid becoming permanently hunched as he ages", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Five years of building businesses left health on the back burner", "category": "other", "severity": "medium" },
+    { "text": "Isolation gym training does not hit everything and he is tired of chasing which exercise covers which gap", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Weak back and forward-leaning posture from sitting at a computer for hours", "category": "other", "severity": "medium" },
+    { "text": "Does not know whether his form is right and does not want to waste an hour a day doing it wrong", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Cannot verify the provider — has only seen four or five transformations in videos and no independent proof", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "So is that what his rate is? Is that usually what it is, or it's different? Because I've seen online that people are saying it's different than what you're mentioning... I don't know. They were saying it was like almost half of that.",
+      "timestamp": "00:46:24",
+      "rep_response": "Improvised on the spot — 'Oh, that's probably for the three months, I guess. We can also do three months, that's for $4,000' — inventing a tier to explain the discrepancy the prospect had found online.",
+      "response_tactic": "improvise_alternative_tier",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "there's the aspect of, hey, give me six grand right now, and I haven't met the guy, and this and that, you know? So that's the only thing, when it comes out.",
+      "timestamp": "00:51:11",
+      "rep_response": "Removed pressure ('you don't have to give me six grand, right? It's not a must'), then used a risk analogy from the prospect's own life — 'when you started your e-commerce business, wasn't it quite similar? In terms of taking a risk?' — which the prospect rebutted ('But I'm betting on myself. I'm betting on someone else').",
+      "response_tactic": "pressure_removal_plus_risk_analogy",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "Is it possible, and this is me trying to understand, we do three, and then we add on three more?",
+      "timestamp": "00:47:47",
+      "rep_response": "Accepted it and then improvised a hybrid: start on the three-month tier now and upgrade to six months before the beginning of July to recover the guarantee.",
+      "response_tactic": "concede_and_construct_upgrade_path",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I'm giving you six grand and then later, two months down the line, I'm like, oh, this is not working out for whatever. It's not going to be because I don't try... So where, where does that, is there, is there some sort of scenario where we can work out where, you know, I'm comfortable on that end.",
+      "timestamp": "00:48:47",
+      "rep_response": "Refused outright — 'Not necessarily. The reason I'm saying that is then they're looking into problems' — and substituted social proof: 1,200 clients coached and 1.2 million followers.",
+      "response_tactic": "refuse_and_substitute_social_proof",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000, "note": "Not a standard tier. Improvised live to explain a lower price the prospect had seen online." },
+      { "months": 3, "price_usd": 2000, "note": "Renewal price quoted for a second three-month block, making 3+3 total $6,000 — but explicitly without the guarantee." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Continuation rather than refund, and available only on the six-month tier: 'that's where we can actually give that guarantee of if you put in all of the efforts, you don't slack off or anything, we will also continue working with you. We just cannot do that on three months.' Also framed conditionally: 'If you slack off, you don't do anything, you don't respond to Trevor as he's pushing you, and you just don't do what you should be doing, then of course, we just cannot keep working with you.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.7,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Verbal agreement to the three-month tier with a stated upgrade intent: 'Yeah, that's fine. That's not a big deal. Give it like two to three weeks in, that's fine. And then we can extend, not a big deal. Yeah, let's do that.'",
+      "Payment link sent in the chat: 'we can do now is, and I will send you a link for now' and later 'let me know when you've been able to join it'.",
+      "Onboarding call with Trevor booked and confirmed for Monday 1:15pm Eastern, and a calendar email sent and acknowledged.",
+      "Rep told the prospect he would confirm payment with Trevor to stop the onboarding slot being cancelled: 'So I can tell him that somewhere today the payment will also come in because otherwise he's going to cancel the meeting'.",
+      "Counter-evidence, and the reason confidence is 0.7: no payment was taken on the call. The prospect deferred it twice — 'I'll take care of it a little bit within like an hour or so', 'It'll get done, don't worry' — and declined the rep's direct ask to complete it live ('I would say let's just get it started so I can actually book the meeting with him' → 'No, no, you can book the meeting').",
+      "Further counter-evidence: the call ends with the rep saying 'Please don't ghost me, right?'"
+    ],
+    "cash_collected_usd": 4000,
+    "cash_collection_basis": "three_month_tier_agreed_payment_deferred",
+    "next_step": "Prospect to complete payment after an internal meeting the same afternoon and message the rep; onboarding call with Trevor Monday 1:15pm ET; rep to book a check-in call at the end of the month."
+  },
+  "notable": {
+    "note": "The prospect had found a different price online — 'almost half of that' — and the rep did not know why. He answered by inventing a three-month tier at $4,000 on the spot, then a $2,000 renewal on top of it, producing a 3+3 path totalling $6,000 but explicitly stripped of the guarantee. A well-qualified core-ICP prospect who was a self-declared 10 out of 10 was therefore moved from the standard $6,000 six-month programme onto an improvised structure with worse terms. The guarantee itself is also worth review: it is a promise to keep coaching, conditional on the client's own compliance, and it was used as the reason to prefer the longer tier."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent short-turn inversion and several longer misattributions — the weight and height answers at 00:09:04 are labelled as the rep, and multiple rep questions in the 00:29:00-00:31:00 range are labelled as the prospect. The pricing exchange from 00:45:01 onward is legible and unambiguous."
+  }
+}

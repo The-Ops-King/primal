@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-18_ryan-mitchell_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Referenced the application without reading it back — 'I already saw your introduction, of course, as well in the form that you filled in.' Frame covered fit and the point-you-elsewhere promise but not the four parts: 'go a little bit deeper into that, hear everything from you. If it comes down to being a good fit... perfect... If not, I'll also point you in the best direction.' Agreement asked and given. Open question ran verbatim: 'So tell me, Ryan, what is it that we can potentially help you out with?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "miss", "P2f": "hit", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Almost no baseline. No age, height, weight, occupation, diet, sleep or energy question anywhere in sixteen minutes. Results from prior training were properly asked — 'did you actually see results with that trainer, even though you didn't really like going to the gym?' The injury check scores only partial and this is the consequential one: the rep never asked whether he had injuries or limitations. The pinched nerve surfaced only because he asked 'is your shoulder strength quite high?' while sizing a kettlebell, and once it surfaced he asked no follow-up at all — not what it is, not how long, not whether he has been cleared."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "No goals phase was run at all. Nothing about what he would change, nothing about mobility, strength or energy as targets, no bridge to what is driving it, no impact on anyone else. The only goal-adjacent material is what he volunteered — 'it's just a new start or trying to better myself in my new place of living' — which the rep affirmed warmly and then left. The call moved from his backstory straight into budget at 00:05:46."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "partial", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Past attempts were covered well for the time available — the previous online trainer, whether it was in person or online, and how he found the format. What happened came out clearly, including the trainer chasing him for drifting. Why it did not stick was only half explored; he self-diagnosed 'it was my fault it was more in the gym' and the rep moved on rather than pressing. No question about the one thing getting in the way, no invitation to name the structural gap, and the information-isn't-the-problem move never ran."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame at any point. No two-year question, no settle question, no line in the sand. The emotional material was there for the taking — a man who has just moved states alone and is trying to rebuild his habits — and none of it was worked."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "Neither commitment question was asked. The only commitment sought was a safety promise attached to the cheap tier — 'do you feel like you would be able to promise something like that to yourself, that you can actually take it slow' — which is not the phase. Price was introduced at 00:07:53 with no verbal yes of any kind in hand."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted on the $200/month tier — 'do you feel like, yeah, let's check out that university and get you started with that?' — and no payment was collected; the rep offered to send a link and call back tomorrow. Steps two to four could not be reached, and the Trevor onboarding step does not apply to that tier in any case."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Money surfaced at 00:05:00, before any discovery had been done. The rep asked one financial-picture question — 'what is sort of the budget that you have set for yourself' — and got $200/month. Nothing else from OC ran: no isolate, no should-versus-how reframe, no permission for an open financial conversation, no cash on hand, no monthly surplus, no cards, no available credit, no investments. He went straight from the budget number to disqualifying the prospect from the core offer and presenting a cheaper product. Note the sequencing: this happened at minute five of a sixteen-minute call, before goals, consequence or commitment existed."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Trigger at 00:12:59, 'I want to say yes, but... I would want to go over that one more time before I start.' No move from OA ran. The rep agreed with the hesitation and reinforced it: 'Yeah, of course. Like I said, I don't want to put you in a financial bad position.' He then set a callback. Even on a $200 product, the deciding-versus-thinking sequence was available and unused."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, and the most important one in this batch. The prospect disclosed a symptomatic, undiagnosed suspected pinched nerve under active chiropractic investigation with physical therapy being considered. There is no scripted play for a live clinical unknown, so the rep improvised — and improvised toward the sale, advising on kettlebell sizing for snatches and routing him into a self-guided programme. The playbook's own known-gaps list already records the absence of a clinical-fit play; this call is the clearest evidence of what that absence costs."
+    }
+  ],
+  "notes": "Sixteen minutes, and the money question arrived at minute five — before goals, consequence or commitment existed — which meant the call had no value built to defend when the budget came in low. The urgent coaching point is not adherence, though: an active shoulder injury was disclosed, no clearance question followed, and the rep gave loading advice for overhead ballistic work anyway."
+}

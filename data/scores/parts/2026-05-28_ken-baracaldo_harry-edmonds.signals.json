@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-28_ken-baracaldo_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented as the tailored onboarding with Trevor plus weekly progression — 'in some metric, you should progress every week... if we need to get stronger this week, we'll up the weight'. The prospect asked a mechanics question before the pillar was delivered — 'Would it be broken up into like two-month intervals or three-month intervals?' — and after delivery confirmed understanding: 'So every single week we're adapting it.' No pushback, but no volunteered enthusiasm either."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Only named in passing inside the tailoring and tracking description — 'In terms of mobility, in terms of strength, in terms of nutrition' and 'in terms of the nutrition, in terms of the mobility, we want to track everything'. Never developed as its own pillar despite the prospect having given a full diet answer earlier. He agreed without comment: 'Yes. Okay.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The clearest positive reaction in the call. After the 24/7 Trevor support and weekly check-in description, the prospect tied it to his own history unprompted: 'I think the support, I think the tracking, I mean, I've tracked. I used to do P90X and we had a sheet... every week when you show up to do the same, you can see what you did the week before. So the tracking definitely helps.' He had also pre-named structure as the thing he buys: 'as long as I have structure, I stick to it.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "cost_of_living_comparison",
+      "raw": "6K right now in New York City is, I mean, that's like almost two months of rent, you know?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect converted the price into rent-months rather than into coaching value. The rep spotted the mechanism correctly — 'I guess it depends what you compare it to' — but only after the anchor had already set. A live cost-of-living anchor in a high-cost metro is the strongest form of price resistance because it is arithmetic, not opinion."
+    },
+    {
+      "type": "competing_household_expense",
+      "raw": "that's money that we can use for the kids' school, which costs a lot, for gas, which, as you know, costs a lot",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Named summer camp, school, trips and bills as direct competitors for the same $6,000. This is not a value objection — it is a zero-sum household budget, and no scripted move addresses a genuinely allocated dollar."
+    },
+    {
+      "type": "cheap_self_directed_substitute",
+      "raw": "I started with kettlebells, read 20-minute kettlebell workouts, there's a book out on kettlebells... and I did that for a while, and it was working out",
+      "direction": "undercuts_price",
+      "competitor": "Self-directed programming from a published kettlebell book",
+      "note": "A near-zero-cost substitute the prospect says produced results. He surfaced the anchor himself as his wife's anticipated rebuttal — 'she's like, why don't you just do that yourself?' The rep never separated the book's content from the structure/accountability the offer sells, so the $6,000 sat directly against a working $20 alternative."
+    },
+    {
+      "type": "existing_paid_coaching_history",
+      "raw": "No, it's always been self-directed.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Never bought coaching of any kind in his life. No prior spend on a trainer, gym coach or programme means there is no reference price for personal coaching at all — the $6,000 was being compared against zero, not against a market rate."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An entry point he could fund from a two-job NYC household budget carrying childcare, school fees and rent",
+      "why_unmet": "Only $6,000/6mo exists as a legitimate tier; the rep improvised $4,000/3mo live and confirmed no discount is possible — 'Can't even do a dollar off. Literally can't even take a dollar off.' Instalments were offered verbally but never structured into a number he could evaluate.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A structured instalment figure he could take to his wife instead of a lump sum",
+      "why_unmet": "The rep said 'we can break it up if you need to' and then never returned to it — no monthly figure, no term, no deposit was ever put on the table, so the prospect declined against the full $6,000 he had never been shown an alternative to.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that fits alongside a pulmonologist's prescription of 40 minutes of daily aerobic work and a jiu-jitsu load of 2+ sessions a week",
+      "why_unmet": "Never addressed. The prospect stated the prescription at 00:03:02 and the rep did not respond to it or explain how the programme would sit around it, despite jiu-jitsu being the prospect's stated barometer for everything.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

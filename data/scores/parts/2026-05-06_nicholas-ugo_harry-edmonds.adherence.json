@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-05-06_nicholas-ugo_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Setter notes acknowledged but not read back — 'You spoke with Kim, I think. He kind of left me some notes, so I have a background on you' — which matters more here than anywhere else in the batch, because a read-back would have exposed that the notes were missing the two facts that decided the call. Frame two-part: 'I just want to get more of like depth, I guess, on where you are and where you want to be. If there's alignment, we can talk about the coaching.' Agreement token only. Open question run verbatim."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "hit", "P2g": "hit", "P2h": "hit", "P2i": "miss" },
+      "evidence": "The strongest baseline in the batch by some distance, and it contains the only sleep question anywhere in these twelve calls: 'I guess I'd check on your sleep. What's your sleep like? Pretty good or pretty whack?' That single question uncovered the redundancy that determined the outcome. He also pressure-tested the body fat figure ('is that like from DEXA or...?'), established the historical baseline properly ('when you said five years ago, in the best shape of your life, where were you at then in terms of body fat and weight?') and ran a genuine three-part diet sequence. Health conditions were still never asked — the mild S-curve came out only because the rep volunteered his own scoliosis — and work was only properly asked at minute 39, after the sale was lost."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "partial", "P3f": "miss", "P3g": "miss", "P3h": "hit" },
+      "evidence": "The surface layer was run better than anywhere else in the batch. He refused to accept a vague answer and pushed for the definition: 'when you say feeling good, what specifically, what aspects specifically... what do you mean in terms of feeling good?' — which produced strong, energised, low brain fog, focused, spry. Both reflect-backs landed and were confirmed. But the deep ladder never started. No bridge question, no 'who else does that impact'. The consequence is stark: the material that would have driven this call — a dicey childhood, wanting to coach men because 'men are hurting and the women in our lives are paying the price', 'become the person that you needed the most' — all surfaced after minute 41, as small talk, once the sale was already lost."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "hit", "P4c": "hit", "P4d": "partial", "P4e": "hit", "P4f": "miss" },
+      "evidence": "The best root-cause work in the batch. He dated the decline precisely — 'When did the fall off start?' → two years, from leaving Chicago — then offered a diagnosis the prospect refined himself: 'it sounds like there's two factors to the fall-off, one was internal, one was external' → 'I would say that's accurate, it's probably more 25 internal 75 external.' Then the final-straw question produced the real gap in the prospect's own words: 'I know that I can access it. I just don't want to, I'm bored and I don't want to do it by myself.' What never ran was the explicit past-attempts inventory and the closing root-cause line about information not being the problem."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Absent, and this is where the call was actually lost. A 48-year-old, two years into a decline, isolated in a suburb without a car, just made redundant, telling the rep 'the confidence is waning a little bit right now, so I was really curious and hoping that I could do something from a fitness standpoint, because it all bleeds over'. That is the cost of inaction stated by the prospect himself and it was never turned into a question. No two-year frame, no 'are you willing to settle for that', no line in the sand — so when the money conversation arrived there was nothing to weigh it against and the entire discussion became arithmetic."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "partial" },
+      "evidence": "'In terms of like the process, how do you feel about it?' → 'I really like everything that I'm hearing. Yeah, it's great. I think it aligns a lot.' A soft proxy for the belief check, asked before the price, which is the right sequence. The all-in question never ran, and 'it aligns a lot' is not the clear YES the playbook requires before proceeding — particularly with a prospect whose blocker was always going to be capacity rather than conviction."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "A close was attempted and none of it landed. No payment — the finance application was declined live on the call. Onboarding was mentioned as available Monday and never booked. No agreement, no welcome email, no questionnaire. The only thing sent was a Skool link to the $200/month self-guided product, which is a different product entirely."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The break-it-up move ran thoroughly — three structures enumerated with the trade-offs made explicit, including that monthly costs more and that early payoff removes the premium, which is unusually transparent. One financial-picture item was touched ('Do you know what it is? Your credit score?'). But the play was run backwards: no ISOLATE first, no 'finances aside, nothing else keeping you from 100%?', no 'you're not in a SHOULD I place, you're in a HOW place', no permission for an open financial conversation, and none of the other five picture questions. The rep learned the prospect had no cash, no credit and no one to borrow from and responded by submitting a credit application rather than by concluding the obvious."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I think that the better move for me is to just focus on getting a job' is OD in substance and no move ran. Arguably correct restraint here — 'things never slow down' is not an honest answer to redundancy — but recorded as a miss because the play was not run and nothing replaced it except a second attempt at financing."
+    },
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "No request for time to think; the decision was made on the call and the reason given was capacity, not deliberation." },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "No third party involved in the decision." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt about the method — 'this is something that I'm 100% dedicated to'. The waning confidence he described was about his circumstances, not about the programme." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two script gaps stacked. First, no play exists for a well-fitting prospect who genuinely cannot pay — OC assumes a wallet that needs opening, and this wallet was empty. The rep filled the vacuum with a credit application and then a downsell. Second, and this is a process gap rather than a script one: the prospect had disclosed both the redundancy and his payment-plan concerns to the setter the previous day, and neither reached the notes. A qualification step that catches 'just lost their job' before booking a closing call would have made the whole play unnecessary."
+    }
+  ],
+  "notes": "Discovery was the best in the batch — the only sleep question in twelve calls, a properly dated decline, and a root cause the prospect named himself — and it was spent on someone who had told the setter the day before that he had just been made redundant. Coach the qualification handoff first; then coach Phase 5, because a man who says his confidence is waning and that a fitness win would bleed into everything else was never asked what another two years of this costs him."
+}

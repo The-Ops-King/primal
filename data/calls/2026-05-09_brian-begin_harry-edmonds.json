@@ -1,0 +1,147 @@
+{
+  "call_id": "2026-05-09_brian-begin_harry-edmonds",
+  "source": {
+    "drive_file_id": "1Ox2krUR3PGfEZbG3kKckIDnB3NM3EOuZ",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/09/2026 - Brian Begin x Harry Edmonds ",
+    "display_title": "05/09/2026 - Brian Begin x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 69658
+  },
+  "call": {
+    "date": "2026-05-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 59,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "Not stated on this call; departing for Tulum, normally Medellín", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Brian Begin",
+    "aka": null,
+    "name_source": "title",
+    "location": "Medellín, Colombia — staying at the Kin co-living building; nomadic, born in California, formerly Bozeman, Montana",
+    "age": null,
+    "occupation": "Runs his own coaching business doing consciousness, neuroplasticity and emotional embodiment work; builds YouTube content and is fitting out a production studio in his apartment",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Martial arts in the past under a brutal instructor. Later hypertrophy work with max lifts, which triggered multi-day crashes until a trainer switched him to lifting for time under tension with no rep counting, which he says helped more than anything. Skis regularly and describes himself as a strong skier. Almost entirely untrained for the last few months; in the two days before the call did uphill treadmill walking and some light kettlebell swings. Previously worked with Functional Patterns and abandoned it. Owns an adjustable handle that converts a dumbbell into a kettlebell.",
+    "kettlebell_experience": "some",
+    "medical": "Extensive and active. Lifelong autoimmune disorders with a documented cytokine problem causing crashes that historically put him in bed for up to two weeks; recovery is faster now but crashes still cost about a week. Diagnosed SIBO and painful bladder syndrome, described as under control but flaring. Severe multiple food sensitivities including histamine intolerance — eats a near-carnivore diet, no prepackaged meat, no avocado, no bacon. Currently mid-protocol with a functional medicine practitioner (Mark Iron, Australia) following blood work showing ferritin too high (advised to donate blood), a thyroid marker off, poor methylation, and an omega-6 to omega-3 imbalance approaching the red; new supplements just ordered. Mild pectus excavatum with rib flare. Mild scoliosis. Distended lower abdomen with suspected anterior pelvic tilt and poor glute activation. AC joint separation from a skiing fall onto head and shoulder, surgically repaired, still clicks. History at his worst of blood in throat and urine, candida, thrush and C. diff. Believes food intolerances are ultimately psychosomatic and is pursuing neuroplasticity 'brain rewiring' to cure them."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.8,
+    "signals": [
+      "In the middle of an active health event rather than recovering from a past one — mid-protocol with a functional medicine practitioner, new supplements on order, blood markers still off",
+      "Training is explicitly framed as part of the fight: 'I really want to rebuild my body, but I want to make sure I don't take it too far to the point where I end up not being able to function'",
+      "Extremely high motivation with a stated ideology of pushing through — 'I'd just get up every day and I'd walk through the anxiety'",
+      "Textbook of the category's warning: highly motivated, no price resistance, said '99% I'm going to do it', and is the single prospect in this batch most in need of clinical screening",
+      "Overlaps with the_medically_constrained but is not blocked — he is gating himself on a clinician rather than being refused by one"
+    ]
+  },
+  "goals": [
+    { "text": "Correct the alignment of his body — pull in a distended lower abdomen, address anterior pelvic tilt and rib flare", "category": "other" },
+    { "text": "Activate and develop glutes and hamstrings, which he believes are the root of the misalignment", "category": "strength" },
+    { "text": "Build muscle mass, particularly shoulders, which he describes as small", "category": "muscle_gain" },
+    { "text": "Stop his legs burning out early when skiing so he can last a full ski season", "category": "hobby_performance" },
+    { "text": "Train consistently without triggering an autoimmune crash", "category": "consistency" },
+    { "text": "Rebuild his body without pushing so far that he loses the ability to function", "category": "sustainability" },
+    { "text": "Use training as a vehicle for releasing stored emotional trauma, as in his own embodiment work", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Autoimmune crashes that follow hard training — historically two weeks in bed to recover from two or three weeks of training", "category": "medical", "severity": "critical" },
+    { "text": "Severe food sensitivities and histamine reactions; one wrong meal undoes days of progress", "category": "medical", "severity": "high" },
+    { "text": "Chronic fatigue and low energy driven by inflammation markers still out of range", "category": "medical", "severity": "high" },
+    { "text": "Distended lower abdomen he finds distressing to look at — 'everything down here is just a sack of potatoes'", "category": "emotional", "severity": "high" },
+    { "text": "Structural presentations he cannot self-correct — mild pectus excavatum, rib flare, mild scoliosis, an alignment he can achieve briefly but cannot hold", "category": "injury", "severity": "high" },
+    { "text": "Cannot stay consistent with training because of the crash cycle", "category": "consistency", "severity": "high" },
+    { "text": "Bad experience with his previous provider — unreliable scheduling, no-shows and arrogance", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Childhood trauma he identifies as the origin of the autoimmune presentation", "category": "mental_health", "severity": "high" },
+    { "text": "Being told for years he was lazy when he could not get out of bed", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_medical",
+      "raw_quote": "So the question would be, would I want to start next week, or do I want to wait a couple weeks and let my body settle in from this new diet I just started, and get the supplements in, or do I want to, like, so that I start off with tons of energy? So that would be the only question.",
+      "timestamp": "00:48:41",
+      "rep_response": "Decoupled onboarding from the start date, telling him day one of coaching is his first training session so no weeks are lost, and that he could be fully onboarded and set up regardless of what his practitioner advised: 'if Mark says, do it in a week, do it in a month, you're still prepared and set up for everything to the point where it's a click of a finger you start.' Also asserted the mobility component would not tax the central nervous system.",
+      "response_tactic": "decouple_onboarding_from_start_date",
+      "resolved": false
+    },
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "And that's my biggest concern is this, I don't want to start something and then have my body crashing completely on me. And so I was to talk to Mark about what he thinks about my body's ability to be able to handle this and what he thinks and all that kind of stuff.",
+      "timestamp": "00:55:17",
+      "rep_response": "Did not endorse or encourage the clearance step, ask what the practitioner would need to know, or offer to have Trevor speak to him. Reiterated that onboarding could proceed regardless and repeated that mobility work is low-demand.",
+      "response_tactic": "reassure_and_proceed_without_clearance",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Can you give me till Monday? And then I can give you a clear answer on Monday. I feel 99% I'm going to do it. I don't see why. But can you give me till Monday?",
+      "timestamp": "00:52:09",
+      "rep_response": "Agreed immediately, then isolated the residual: 'I guess I'm just out of curiosity, because I'm curious, what's the 1%?' Booked a follow-up for Monday at 3pm and sent a new Zoom link on the call.",
+      "response_tactic": "isolate_the_residual_percent",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I also want to look at the money. I did just, it's, the money I don't think will be a big deal at all. I just spent 50-some K on another coaching package for my business.",
+      "timestamp": "00:52:36",
+      "rep_response": "Offered to break the payment up despite the prospect having just dismissed money as a concern, and noted that splits beyond two payments carry an unstated surcharge.",
+      "response_tactic": "pre_emptive_payment_split_offer",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Upfront on a credit card is the default. Two payments at 50/50 offered as the alternative. Anything split further carries an undisclosed premium: 'anything like broken up more than that, like there's extra on top.' The prospect said he would most likely pay in full for the credit card points.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent; payment mechanism was described only",
+      "Explicit deferral with a stated reason: 'Can you give me till Monday? And then I can give you a clear answer on Monday.'",
+      "Follow-up call booked for Monday 3pm Medellín time and a new Zoom link sent on the call",
+      "Very strong intent — 'I feel 99% I'm going to do it', 'I'm really excited about this', 'your program sounds way better than Kettlebell Grants for what I want to do', and money explicitly dismissed as a barrier",
+      "Counter-evidence: the residual 1% is a clinical gate, not a commercial one — he intends to ask his functional medicine practitioner whether his body can handle the training, and that conversation had not happened",
+      "Counter-evidence: he also intends to consult a brain-rewiring practitioner about sequencing, adding a second external dependency",
+      "The onboarding call with Trevor was described and tentatively slotted for Tuesday or Wednesday but was never booked"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call Monday 3pm; prospect to consult Mark Iron, his functional medicine practitioner, about whether and when to start."
+  },
+  "notable": {
+    "note": "The prospect raised a clinician gate himself — twice, and named it his biggest concern — and the rep responded by engineering around it rather than supporting it, offering to onboard and take payment now and let the practitioner decide the start date. That is the highest-risk moment in the batch. The tax write-off offer appears again and goes further here than on the Kamal Mohammed call: the rep offered to issue an invoice worded to suit the prospect's accountant. In doing so he also disclosed another client's identifying business details. Separately, the prospect's stated basis for believing his abdominal distension is trainable is a ChatGPT analysis, which the rep did not question."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. The first 59 seconds are a single unbroken block containing both speakers with no turn separation at all. Substantial inversions throughout: at 00:07:24 the prospect's account of what ChatGPT told him is split under the rep's label; at 00:23:00 the rep's question about kettlebell alignment sits under the prospect's label; at 00:35:00 an extended passage merges the prospect's fatigue explanation with the rep's first-month form pitch; at 00:40:30 and 00:46:36 the rep's lines carry the prospect's label. Role was read from content throughout."
+  }
+}

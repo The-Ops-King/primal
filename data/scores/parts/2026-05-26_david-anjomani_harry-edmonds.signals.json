@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-26_david-anjomani_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The philosophy pitch never happened — the rep disqualified the prospect for coaching at 00:05:02, before any pillar was delivered. Kettlebells came up only as a fit test: \"pretty much everything we do is kettlebells and it's like, if you wanted something where it's like, well, I do kettlebells once a week, but on the other days I do bench press and X, Y and Z, it wouldn't be a good fit.\" Mobility appeared only as a list item in the self-serve portal walkthrough."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Diet was asked about in baseline and the answer was competent (\"kind of paleo-ish... protein, chicken, fish, beef, and then lots of veggies\"), but the nutrition pillar was never pitched. It surfaced only as \"our full nutrition guidelines\" inside the portal demo."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. It was referenced only as the thing the prospect would be paying for and did not need: \"the coaching is, like, you have 24-7 support from Trevor, everything's custom. But usually, like, for it to be worth it, most people want more than to be kind of maintaining.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_alternative",
+      "raw": "I mean, I can save videos on Facebook and stuff here and there, but I'd like to have like a, a set plan, you know?",
+      "direction": "undercuts_price",
+      "competitor": "Saved social media workout videos",
+      "note": "His actual incumbent, and the reason he was on the call: free content works for him but does not assemble into a plan. That gap is a $200/month problem, not a $6,000 one, which is essentially the judgement the rep made out loud."
+    },
+    {
+      "type": "own_lower_tier",
+      "raw": "It's 200 bucks a month... There's no time frame commitment on it.",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct's own self-serve portal",
+      "note": "Introduced by the rep as a deliberate downsell, not raised by the prospect. Worth logging as an anchor because it establishes a $200/month reference for Trevor's programming and mobility content against $1,000/month for the coaching — a 5x step with no intermediate tier. It is also the same product a prospect earlier in this batch reported being offered by email at a promotional annual rate that does not reconcile with $200/month. See the flags file."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Something between a static self-serve plan and $6,000 of one-to-one coaching — a plan plus the ability to check in when needed",
+      "why_unmet": "He asked the question directly at the end: \"Maybe getting into this first, and if you need the coaching later, can you reach back out?\" There is no middle tier. The product line runs from $200/month with zero feedback to $1,000/month with 24/7 access, and the rep had to place a well-qualified, willing, already-engaged buyer at the bottom of that range because nothing sits in between.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Effective training in hotel rooms with little or no equipment, roughly two or three days every other week",
+      "why_unmet": "This was the first thing he raised and the most specific thing he wanted. The rep acknowledged it as \"a convenience aspect\" and never came back to it — the portal demo covered tutorials, nutrition, a three-month progression and mobility, but nothing was said about whether any of it works without kettlebells. Whether the offer serves this is genuinely unknown from the transcript.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

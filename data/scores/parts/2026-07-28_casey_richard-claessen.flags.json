@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-28_casey_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Three undocumented tiers were invented inside about sixty seconds - $1,200 for a single month with a right to stop, $1,200 a month across six months, and $4,000 for three months - and the deal closed on the $1,200 month.",
+      "evidence": [
+        "So we can do two. Two things. If you feel like you just want to get the knowledge, we can do one month first. That's 1,200 a month.",
+        "Then if we split it up into six, it would be 1,200 a month, but we can do one month. And if you feel like, well, I've learned a lot now. don't need more than this. We just stop it there.",
+        "I would say this is the best approach because we can also do three months, but that would be 4,000 for three months. So I would just advise you to do this.",
+        "Let's get you started with that. With the one month."
+      ],
+      "timestamp": "00:14:59"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep twice offered to take the prospect's payment card details himself and proposed removing the recorder from the call in order to do so.",
+      "evidence": [
+        "That's fine. Otherwise, if you want me to, I can also try. Did that for you?",
+        "Otherwise, I can also give it a try. We'll just remove the recorder from the call, and we can just go through it.",
+        "I will share my screen. Maybe my insight's a little bit more steady. don't You should just let me do it."
+      ],
+      "timestamp": "00:35:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The six-month instalment option was quoted at $1,200 a month, which totals $7,200 against the $6,000 cash price, and the difference was never stated or acknowledged.",
+      "evidence": [
+        "we have an investment of 6k for the six months",
+        "Then if we split it up into six, it would be 1,200 a month",
+        "If you do want to continue, then we can just continue with the rest of the six months. So the other five remaining."
+      ],
+      "timestamp": "00:14:59"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Payment was taken before the agreement was signed, with the rep acknowledging on the record that signing on the call is the normal step and choosing to skip it; no health, injury or medication question was asked at any point on the call.",
+      "evidence": [
+        "But I will say is usually we'll do that on the call, but yeah, you probably know how it all works. So you've got an email with an agreement.",
+        "if you can get that agreement signed somewhere today after you've probably showered, cetera, then that's perfect",
+        "And then if you get that signed, then you get another email with a link for our school community"
+      ],
+      "timestamp": "00:36:41"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The paying customer cannot be reliably identified from the recording: the file is titled 'Impromptu Zoom Meeting', the prospect is diarized only as 'Zoom user', and three different first names appear in the transcript.",
+      "evidence": [
+        "00:00:19 - Zoom user: That's better?",
+        "Look, Luke, we can go over a few things.",
+        "I also just sent you a link on the chat, Casey, if you got that, just on your SMS.",
+        "Back to it, Brandon.",
+        "like the Wilson lineage of mine started from Wolf"
+      ],
+      "timestamp": "00:18:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The call was reassigned at short notice from another rep without the prospect being told, so the deal will be attributed to this rep's folder although it was set by Derek and originally booked with Andrew.",
+      "evidence": [
+        "Thanks for giving me a few minutes. Yeah, Andrew completely forgot to tell the emergency come up. So good to able to jump on anyway.",
+        "I already saw that you had a conversation with Derek",
+        "Probably not 45 minutes at this point. Probably like 20."
+      ],
+      "timestamp": "00:00:35"
+    }
+  ]
+}

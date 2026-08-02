@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-21_ethan-kyllo_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Pre-call information referenced but not read back — 'I already got some information from Trevor, but really what I would love to do is go through where you're at.' Two-part frame with the fit test attached, missing what's-in-the-way and what-you-need. Agreement asked ('okay?') and given. Open question ran: 'tell me about it, Ethan. What can we potentially help you out with?'"
+    },
+    "P2": {
+      "score": "hit",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "hit", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The only call in the batch where the basic baseline is actually taken rather than inferred from what the prospect volunteers. Age asked ('how old are you, actually?'), weight asked ('and how much do you weigh?'), height asked ('and how tall are you?'), and body fat probed with a practical check ('do you see your abs?'). Occupation asked directly ('what do you actually do for work?'). Injuries asked cleanly: 'Any injuries or anything that we should know about?' Nutrition covered in detail down to a calorie estimate. Progress from current training asked. Missing: health conditions and heredity, sleep, energy, and days trained per week — the time question that was asked was framed forward ('do you feel like you've got enough time to work out three, four times a week?') rather than as a record of what he currently does."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "miss", "P3d": "hit", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "hit" },
+      "evidence": "Surface goals were asked and confirmed, and the bridge question ran in a well-targeted form: 'so many people around 20, 25 are like, it's summer, I'll just go drink beers by the pool. So what do you feel like you really want to double down on it?' The reflect-back was thorough and checked — 'just to make sure I've got the picture correctly... anything else that I'm missing?' But the depth never arrived. No feeling question, no who-else-does-this-impact, no route to identity or family. Every goal answer stayed at 'I just want to get bigger' and was accepted at that."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "partial", "P4e": "miss", "P4f": "miss" },
+      "evidence": "No past-attempts sequence at all. Nothing about what he has tried before, what happened, or why it did not stick. The nearest question — 'why did you get started with it?' — is about origin rather than failure. The blocker was probed once and well ('why do you feel like you would need a structure to eat more, why not just eat more?'), which surfaced the appetite and picky-eating problem, and then it was dropped rather than developed."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame of any kind. Nothing about what happens if nothing changes, no settle question, no line in the sand."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "Neither commitment question was asked. The rep moved from the goals reflect-back straight into qualifying the budget at 00:07:59 — 'is it that you feel like you would really want to get a full transformation program with Trevor himself?' — which is a fit-and-money question, not a commitment check."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "The prospect was disqualified on budget before any payment step could exist — his stated ceiling was 'pretty much free, almost' against a floor of $200 a month. The rep correctly did not pursue a close, so the phase was unreachable rather than skipped and drops out of the denominator."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Money surfaced at 00:08:27 and none of the play ran — no isolate, no should-versus-how reframe, no permission ask, no financial picture beyond a single budget question. Recorded as a miss against the script, but flagged here as the right commercial judgement: the prospect's stated ceiling was effectively zero against a floor of $200 a month, and running an open-wallet sequence on a 20-year-old bar back would have been the wrong thing to do. The rep asked the budget question early, took the answer at face value, declined to invent a cheaper product, and redirected him to free content. Note the contrast with the other calls in this folder, where a low budget produced a new price rather than a disqualification."
+    }
+  ],
+  "notes": "Best baseline discipline in the batch — age, height, weight, work and injuries were all actually asked rather than picked up from what the prospect happened to say. Everything after discovery is absent, but the call was correctly ended on budget, so the phases that did not run were mostly unreachable. The one coachable miss is that the real problem, a 150 lb 20-year-old eating under 2,000 calories with no appetite, was surfaced and then dropped."
+}

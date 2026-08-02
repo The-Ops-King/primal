@@ -1,0 +1,133 @@
+{
+  "call_id": "2026-07-30_kevin-vibert_richard-claessen",
+  "source": {
+    "drive_file_id": "1DUQTGlFnlZlm5Bz5g3E-MPz14v5j9dLL",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/30/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 26438
+  },
+  "call": {
+    "date": "2026-07-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 23,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter referenced. Rep opened with 'I already saw your application'. Prospect had double-booked the meeting slot — 'I see you've gotten a meeting twice, I think.'"
+  },
+  "prospect": {
+    "name": "Kevin Vibert",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Connecticut, USA",
+    "age": 71,
+    "occupation": "Business owner with multiple ventures; works largely with people in India; in the process of purchasing property in Hawaii. No intention of retiring.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": 179,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training consistently for about 13 years; peaked at 228 lb roughly 14 years ago and has been as low as 165. Was going to a gym but has trained at home for several weeks — a set 30-minute morning routine, plus walking and bike riding. Follows Trevor and another mobility creator on YouTube.",
+    "kettlebell_experience": "none",
+    "medical": "Injures himself water skiing every year — a slalom skier who 'always crashes out' — and ends up in a chiropractor's office almost annually. Describes his back as 'probably my weakest area', though asymptomatic at the time of the call. Recurring leg cramps managed with potassium. No joint problems reported."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.62,
+    "signals": [
+      "Already fit and self-managing — 13 years of consistent training, 179 lb down from 228, eats mostly whole foods to a deliberate macro split",
+      "Explicitly good-to-great: 'I'm just looking to be in the best shape I can be for who I am right now' and 'I'm just looking to change up my routine and do something different'",
+      "Successful and expansionary — multiple businesses, buying property in Hawaii, 'I have no desire to retire'",
+      "Overlaps materially with the_preserver on age (71) and health literacy, but is rejected as that avatar because his goal is additive rather than protective: he wants to add muscle and live to 150, not hold on to what he has",
+      "Departs from the pure optimizer on price — deferred a $1,000 decision on financial grounds"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the last of the fat — target 165-175 lb depending on muscle gained", "category": "fat_loss" },
+    { "text": "Add muscle mass — 'I'd certainly like to look like Trevor'", "category": "muscle_gain" },
+    { "text": "More flexibility and mobility, and more depth in his routine", "category": "mobility" },
+    { "text": "Build strength", "category": "strength" },
+    { "text": "Live to 150 and stay in the best shape possible to do it", "category": "longevity_function" },
+    { "text": "Keep adventuring, keep running his businesses, never retire, buy and build in Hawaii", "category": "hobby_performance" },
+    { "text": "Stop injuring himself water skiing every year", "category": "injury_prevention" },
+    { "text": "A better structured nutrition plan than he currently has", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Injures himself water skiing every year and ends up at the chiropractor almost annually; back is his weakest area", "category": "injury", "severity": "high" },
+    { "text": "Recurring leg cramps, self-managed with potassium", "category": "medical", "severity": "low" },
+    { "text": "Morning routine has gone stale and he wants to change it up", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Nutrition is unstructured — 'I'd like to have a better plan than I've got'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Has stopped going to the gym in recent weeks", "category": "training_barrier", "severity": "low" },
+    { "text": "Wants a way to prove to himself he actually completed the plan", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay. All right. So, let me give it some thought. I'm not prepared to take either one of them today.",
+      "timestamp": "00:17:23",
+      "rep_response": "Asked when he would know, accepted 'probably tomorrow', agreed to send a link on request, then later asked what would stop him going ahead now",
+      "response_tactic": "accept_deferral_set_next_day_checkpoint",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Just financially, I just got to take a look at where I can put it.",
+      "timestamp": "00:19:44",
+      "rep_response": "Immediately offered to split the $1,000 into six, two or three payments without asking a single question about his financial position",
+      "response_tactic": "immediate_payment_split_offer",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "You know, I don't necessarily need to work one-on-one. I could deal with just a plan and maybe some form of commitment, some form of being able to prove that I did the plan and whatnot.",
+      "timestamp": "00:13:03",
+      "rep_response": "Accepted it without challenge and led with the $1,000 self-serve tier, describing the $6,000 one-to-one option only afterwards when asked",
+      "response_tactic": "accept_self_qualification_and_lead_with_downsell",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 1000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "On the $1,000 self-serve tier: $1,000 upfront, or $200/month for six months totalling $1,200, or — improvised on the call — two payments of $500 or three payments of roughly $333, both of which the rep said would keep the total at $1,000. No payment plan was discussed for the $6,000 tier.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit deferral: 'I'm not prepared to take either one of them today'",
+      "Stated intent toward the cheaper tier: 'if I get prepared, it'll probably be the first' — confirmed as 'The $1,000 one'",
+      "Decision timeline agreed for the next day: 'probably tomorrow'",
+      "No payment link sent — the rep made it contingent on the prospect messaging first: 'just send me a message and I will send you a link'",
+      "Counter-evidence: intent on the cheaper tier was strong and the blocker was stated as purely financial logistics rather than value"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect messages the rep the following day if he wants to proceed; rep then sends a signup link for the $1,000 self-serve programme"
+  },
+  "notable": {
+    "note": "A 71-year-old who injures his back water skiing every year and sees a chiropractor almost annually was steered toward the unsupervised self-serve programme — the tier where nobody reviews his form — with no question about clinical clearance. The rep described that tier as being 'made to those that don't have massive injuries' and sold it to him anyway. The rep also disclosed an existing client by first name, approximate age, health status and enrolment date. Almost no sales process ran: no past-attempts phase, no consequence frame, no commitment check, and both prices were on the table sixteen minutes into a twenty-three minute call, three of which were spent on banter about the rep's age and facial hair."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained swapping; whole question-and-answer pairs are inverted, most visibly at 00:04:59-00:06:00 where the rep's discovery questions appear under the prospect's label, and at 00:11:29-00:11:45 where the rep's summary is attributed to Kevin. Roles resolved from content. A 45-second stretch at 00:06:17-00:07:41 is the prospect playing a podcast advertisement aloud from his phone, which the transcriber captured as speech."
+  }
+}

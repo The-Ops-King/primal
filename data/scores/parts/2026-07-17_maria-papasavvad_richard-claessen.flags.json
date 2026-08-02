@@ -1,0 +1,80 @@
+{
+  "call_id": "2026-07-17_maria-papasavvad_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted a $1,000 six-month tier that is not one of the two approved prices, after opening with a range of '$1,000 to around $6,000'.",
+      "evidence": [
+        "so it could be either a thousand, could also be around six thousand",
+        "and this would be 1,000 for six months. So that does align a lot more with what you're, of course, also saying"
+      ],
+      "timestamp": "00:06:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect was told three different things about what $1,000 buys — six months, then three months, then 'the full coaching' — and left the call without a corrected understanding.",
+      "evidence": [
+        "So we don't have anything specific on three, like, it's basically the same, it's just a smaller time zone, basically. Smaller timeline.",
+        "Oh, so you're saying this $1,000 would be just three months? Yeah. Oh, okay.",
+        "No, so the $1,000 would be for the six months",
+        "But as you said before, that 1,000 and 1,500 was more than nutrition and all that, as I said. — Yeah, with the full coaching, exactly."
+      ],
+      "timestamp": "00:09:42"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed unspecified operations that barred her from lifting for two years; the rep never asked what they were, whether she is cleared, or whether she has restrictions, and recommended a kettlebell programme in the same conversation.",
+      "evidence": [
+        "But I had some operations done two years ago, which I was very consistent in training three times a week with a personal trainer, right?",
+        "But then I had I operations done where I wasn't allowed to lift anything, so two years have gone by, haven't done nothing",
+        "I would then honestly say, I feel like this would definitely help you get in a better physical position for yourself, fits into your budget, and it works.",
+        "it's just like, I wasn't allowed to lift anything, you know? — Yeah, and that's when it goes, that's when it goes south, right"
+      ],
+      "timestamp": "00:02:34"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The programme the rep recommended to a 56-year-old two years post-surgery is the self-guided tier, in which no coach observes her form — and she had already said she does not know whether she is moving correctly.",
+      "evidence": [
+        "It is more of the self-structured plan, but that does have a community in it. So you can ask all the questions that you have, when it comes to if your form is correct",
+        "I'm just looking around seeing different people trainings like where do I start what do I do am I doing it correctly and no and then I just leave"
+      ],
+      "timestamp": "00:08:12"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep pre-sold an unbuilt product — a cheaper one-to-one tier fronted by a second coach — with no price, no scope and no launch date, and made a follow-up commitment on it.",
+      "evidence": [
+        "We are actually currently working on creating a coaching program that's still one-on-one, but actually with Trevor's second guy, that's Caden.",
+        "But Trevor is still the one. One that would do the programming, the only aspect is that he would be your touchpoint",
+        "when we actually know more of how that would look like, also price-wise, I will give you a call, and we can go over that too"
+      ],
+      "timestamp": "00:13:24"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep asked the prospect to turn her camera on by tying it to the quality of help she would receive.",
+      "evidence": [
+        "Oh, yeah. No, I'm not putting on my face. Do I have to put my face on?",
+        "Well, I guess if you would like to have some guidance potentially with your fitness, it is the best. You don't have to. Not forcing you."
+      ],
+      "timestamp": "00:00:31"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization on this file inverts whole passages, so any line-level attribution drawn from it will be wrong.",
+      "evidence": [
+        "00:04:00 - Richard Claessen (Primal Instinct) ... Yeah, well, it depends on how much it is.",
+        "00:02:34 - Maria papasavvad ... Yeah, let's just have a conversation about that, right, like, it's what you're saying, we don't want to waste each other's time"
+      ],
+      "timestamp": "00:04:00"
+    }
+  ]
+}

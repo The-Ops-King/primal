@@ -1,0 +1,141 @@
+{
+  "call_id": "2026-07-16_david-moyle_michael-brideau",
+  "source": {
+    "drive_file_id": "1i3XqlFGCfv20BBy4TDQTwd92T8gnpTCm",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/16/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 90137
+  },
+  "call": {
+    "date": "2026-07-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 89,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "David Moyle",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Southern Tasmania, Australia",
+    "age": 47,
+    "occupation": "Chef, restaurateur and hospitality consultant — has owned and operated restaurants including top-ten-in-country venues, now consults on restaurants and hotel design internationally (Finland, USA, New York). Project work in 6-12 month full-time engagements; 16-hour days on his feet during projects.",
+    "family_status": "Married or long-term partnered; partner is 30 and runs a freediving expedition company teaching instructors. Discussing having children.",
+    "height_in": 77,
+    "weight_lb": 192,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong active. Small group training, substantial kettlebell work with a group of five in Byron Bay covering goblet squats, swings, snatches and cleans, plus HIIT classes and a lot of running including ultramarathon training. Rates his current body composition 4-5 out of 10. Has a basic garage gym and is setting up a better one. Goal is three to four runs plus three to four kettlebell sessions a week. Subsistence hunter and spearfisher — backpacks in and carries meat out. Maximum heart rate still 212 at 47. Recently signed up for freediving instructor qualification. Has followed Trevor for around 18 months.",
+    "kettlebell_experience": "some",
+    "medical": "Reports no current injuries and good shoulder mobility — 'injuries, pretty much non-existent'. Historical femur fracture from a car accident, long resolved, which is what made running significant to him. Recently ill and out of training for roughly two months. Notes increasing general stiffness with age and a measurable cardiovascular decline — a recent run sat at 170 bpm where the same pace used to sit at 140."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Already fit, lean and uninjured at 47 with an ultramarathon history and a 212 bpm max heart rate",
+      "Wants good to great in explicitly functional terms — 'my plans aren't aesthetic. It's more, for want of a better term, functional'",
+      "Successful operator who buys expertise on principle: 'I don't like that. I believe in expertise'",
+      "Says capacity to pay is not the issue — 'I've got the money to be able to spend, and I'm happy to invest in my health and my education'",
+      "Counter-signal against a clean optimizer read: he did do a genuine cost-benefit and balked at the packaging, so price was not purely a quality signal here. The blocker was the shape of the offer, not its level."
+    ]
+  },
+  "goals": [
+    { "text": "Build strength and mobility in a functional rather than aesthetic sense — move dynamically instead of pushing heavy weights", "category": "mobility" },
+    { "text": "Develop a programme he can maintain anywhere with minimal equipment, because his work moves him constantly and involves 16-hour days", "category": "convenience" },
+    { "text": "Have consistency in training that survives an inconsistent life, rather than the current up-and-down pattern", "category": "consistency" },
+    { "text": "Get back to running three to four times a week alongside three to four training sessions, and recover the lost cardiovascular base", "category": "endurance" },
+    { "text": "Learn kettlebell technique properly to a level he can self-programme from — treats it as acquiring a craft, not following a plan", "category": "other" },
+    { "text": "Stay capable and healthy for his wife and the children they are planning, and build a habit that carries forward", "category": "longevity_family" },
+    { "text": "Increase base working weight and have competitive goals to push against", "category": "strength" },
+    { "text": "Support the hunting and spearfishing he relies on for food — backpacking in and carrying meat out", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Life lacks routine entirely — consulting projects overseas, 16-hour days, two-to-three-week all-in periods that break any training pattern", "category": "consistency", "severity": "high" },
+    { "text": "Has the self-discipline but not the technical understanding or the time to write his own programme, and has no feedback loop on movement quality", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Measurable cardiovascular decline — a run that used to sit at 140 bpm now sits at 170 at the same pace", "category": "aging", "severity": "medium" },
+    { "text": "Carrying weight around the torso for the first time in his life, noticed over the last six months", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Recently ill and out of training for two months, and the last six months have been maintenance at best", "category": "training_barrier", "severity": "medium" },
+    { "text": "Gets progressively stiffer on conventional single-plane training; hips seize up after long days standing", "category": "training_barrier", "severity": "medium" },
+    { "text": "Historic pattern of training hard with a group then dropping off entirely — 'I'm sick of the back up and down'", "category": "consistency", "severity": "medium" },
+    { "text": "Previously approached his body as a capability tool rather than something to care for, and is deliberately trying to change that as he considers fatherhood", "category": "emotional", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_other",
+      "raw_quote": "Well, and that's the thing, like at this point, I'm between projects, so I've got a really good six-month window. But, like I said, my world shifts. It's pretty quickly.",
+      "timestamp": "00:45:45",
+      "rep_response": "Reframed the uncertainty as the reason to buy — 'I actually think that's the exact reason you should be really strongly considering this... how do we actually teach you how to have consistency when the world around us is inconsistent?' — and gave a concrete travel example of modifying with Trevor.",
+      "response_tactic": "inconsistency_as_reason_to_buy",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "off the U.S. dollars alone, it's okay, but then by the time you translate it into Australian dollars, it's like, oh, that's probably a bit more than what I was thinking.",
+      "timestamp": "00:55:14",
+      "rep_response": "Acknowledged the conversion, then asked whether it would have been worth it looking back from six months out. Never offered a payment plan at any point, and repeatedly re-diagnosed the whole objection as financial after the prospect had explicitly said four times that capacity to pay was not the issue.",
+      "response_tactic": "retrospective_worth_it_question",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I understand the need to wrap it in a bundle, but it just might not suit me, that's all.",
+      "timestamp": "01:22:24",
+      "rep_response": "Probed the gap repeatedly and asked him to define a ten out of ten, ran a consulting analogy about condensing 20 years into 12 months, reframed the time cost as roughly five hours a week, then offered an unnamed cheaper middle tier and agreed to email a few options with figures attached.",
+      "response_tactic": "analogy_reframe_then_improvised_downsell",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "It's just a consideration for me because it's different to what I expected. That's all. I have to think about it.",
+      "timestamp": "01:11:15",
+      "rep_response": "Responded 'Okay, cool. I don't get it, but cool,' then pressed the same point again including 'maybe I'm just silly and I don't understand things.' Later ran the isolation question and asked what else was keeping him from being 100 percent certain, but never ran the deciding-versus-thinking sequence.",
+      "response_tactic": "expressed_confusion_then_partial_isolation",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no verbal agreement and no payment link sent",
+      "Prospect explicitly declined to decide on the call: 'I'm not sure if I could commit to anything today. That's more just like I'm fact-finding, fact-finding at this point.'",
+      "Agreed next step is the rep emailing options: 'I'd like to be able to, I don't know, effectively get an email with a few options for me. And then make a decision based on that.'",
+      "Rep confirmed: 'I'll see if I can put a couple of options together for you. I'll shoot them off.'",
+      "Positive counter-evidence: he rated the presented programme a six out of ten, said 'if finances was completely out of the picture... Yeah, yeah, totally, yeah, without a question' and stated 'I'm already sold on your intention and how you do things'",
+      "Negative counter-evidence: the thing he actually wants is a staged product that does not exist, and he twice signalled the current package may simply not fit — 'It might not be a position for me. So that's, that's cool.'"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email a few options with prices attached; prospect to text back after assessing them."
+  },
+  "notable": {
+    "note": "The cleanest full-cycle sales call in this batch and the most instructive loss. All three pillars were presented well and drew genuinely warm reactions, and the standard $6,000 for six months was quoted correctly. It failed on structure, not delivery: there was no consequence frame at all — the cost of inaction was never raised — so when value resistance came there was nothing to return to. The objection itself is not price. He said four separate times that capacity to pay was not the issue and that he believes in paying for expertise; what he rejected was the shape of the package, wanting a staged programme with the education layer on the back end rather than a front-loaded six-month mastery bundle. The rep re-diagnosed it as financial anyway, never offered the payment plan the playbook says exists, and instead improvised an unpriced cheaper tier and offered to email options. He also twice expressed exasperation at the prospect on the call. Worth noting for the product file: this prospect described in detail the SKU he would buy."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts constantly, including whole exchanges. Clear instances: at 00:01:05 the rep's 'So walk me through it, man' is labelled david moyle; at 00:07:13 the rep's question about attitude to his body sits inside the prospect's turn; at 00:35:07 and 00:36:00 the rep's pillar delivery is attributed to the prospect; at 00:41:53, 00:49:58 and 01:02:16 the labels invert mid-exchange. Role was read from content throughout. Two long unpunctuated runs at 00:32:56-00:34:00 and 01:04:59-01:06:00 lose all speaker boundaries. Four internet dropouts are audible in the transcript (00:15:41, 01:08:36, 01:14:44 and one unmarked), with some content lost at each."
+  }
+}

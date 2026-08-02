@@ -1,0 +1,151 @@
+{
+  "call_id": "2026-07-11_juan-aguilera_michael-brideau",
+  "source": {
+    "drive_file_id": "1BbC2s8Tw2vUlV28vgrI8JJn6W869qmcP",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/11/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/11/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 70906
+  },
+  "call": {
+    "date": "2026-07-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 73,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": "Sophie",
+    "confidence": "medium",
+    "evidence": "'one of the things that I talked to Sophie on the text that we were saying back and forth, I'm committed' and later 'I text Sophie back and forth in this one... And she texts me back, like, Michael, I want to talk to you.' Sophie is not one of the three known setter codes (KFS, KL, DH) and no code appears in the title."
+  },
+  "prospect": {
+    "name": "Juan Aguilera",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Seattle, Washington, USA",
+    "age": 60,
+    "occupation": "Designer and large-format printer, employed by Funko; also teaches photography at college level",
+    "family_status": "Partner of 23 years told him on his 60th birthday, 24 June, that she wants to separate; divorce likely; they still train together; joint account now closed to him",
+    "height_in": 72,
+    "weight_lb": 202,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former Mexican Air Force parachutist, martial arts, competitive swimmer when younger; hikes 10 miles and 2,500 feet with camera gear; trains roughly an hour a day using dumbbells, cables, TRX and kettlebells; builds his own routines from Instagram plus ChatGPT; down from 220 lb to 202 lb over two years",
+    "kettlebell_experience": "some",
+    "medical": "Diagnosed diabetic around 2022-23 after crossing from pre-diabetic during the pandemic; declined metformin and reversed it through diet and exercise to between normal and pre-diabetic, monitored by a doctor and a nutritionist who set his carbs under 70g and roughly 2,500 kcal with a 300 kcal deficit. Sleep apnoea, uses a CPAP. Recurrent back pain from carrying print material. Cannot perform an unassisted bodyweight squat without lifting his heels, and cannot do an unassisted pull-up. Reports acute emotional distress — waking up crying, mood swings — since the separation three weeks before the call."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "60 years old and framing the goal as holding function rather than gaining: 'as good as possible at a guy who just hit 60... I'm being there, I've done that. So later on, it went away, gravity, you made damage'",
+      "Already medically managed and health-literate — reversed a diabetes diagnosis without drugs, works with a nutritionist, tracks macros in an app, uses a body-composition scale",
+      "Nominal professional income but effectively no discretionary liquidity: personal account running negative, joint account inaccessible, struggling with an existing car payment",
+      "Counter-signal: the divorce puts him partly in rebuilder territory, but the physical goal is preservation of capacity, not recovery of a lost physique"
+    ]
+  },
+  "goals": [
+    { "text": "Be in the best shape possible for a 60-year-old, ideally athletic like Trevor", "category": "longevity_function" },
+    { "text": "Channel the energy and grief of the separation into something productive rather than spiralling", "category": "other" },
+    { "text": "Keep hiking, backpacking and shooting photographs in national parks, now on his own", "category": "hobby_performance" },
+    { "text": "Keep his blood sugar out of the diabetic range without medication", "category": "other" },
+    { "text": "Learn a correct movement sequence and programme structure instead of assembling routines from Instagram and ChatGPT", "category": "consistency" },
+    { "text": "Achieve a proper unassisted squat and an unassisted pull-up", "category": "strength" },
+    { "text": "Reduce the remaining belly fat and gain muscle rather than losing both", "category": "appearance" },
+    { "text": "Build a new social circle after losing the couple friends from a 23-year relationship", "category": "relationship" }
+  ],
+  "pains": [
+    { "text": "Partner of 23 years ended the relationship on his 60th birthday; wakes some days crying, other days furious", "category": "emotional", "severity": "critical" },
+    { "text": "Fears giving up entirely — 'my worst fear is that I will give up. What's the point, I'm already 60'", "category": "mental_health", "severity": "high" },
+    { "text": "Crossed into the diabetic range during the pandemic and fears sliding back", "category": "medical", "severity": "high" },
+    { "text": "Sleep collapsed from nearly eight hours to about six since the separation, on top of sleep apnoea requiring CPAP", "category": "sleep", "severity": "high" },
+    { "text": "No programme structure — builds workouts from social media and ChatGPT and does not know the correct sequence", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Plateaued: 'I just got as high as I can possibly do without being a professional'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Losing roughly as much muscle as fat when the scale moves", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Back pain from carrying print material at work, plus morning stiffness he did not used to have", "category": "injury", "severity": "medium" },
+    { "text": "Cannot perform an unassisted squat or pull-up despite years of training", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Personal account is overdrawn, joint account inaccessible, and he expects heavy legal bills from the divorce", "category": "work_stress", "severity": "critical" },
+    { "text": "Losing his training, hiking and photography partner all at once, and most of his friendships were the couple's", "category": "relationship", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "yeah, like six grand in just one go. I'm honest, I cannot do it.",
+      "timestamp": "01:02:34",
+      "rep_response": "Isolated it properly ('finances aside, are we feeling 100% like this is the right thing, now is the right time?'), agreed the lump sum did not make sense, then argued that not doing it made even less sense",
+      "response_tactic": "isolate_then_cost_of_inaction",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "six grand right now is a no-go right now because of the way that it is.",
+      "timestamp": "01:05:02",
+      "rep_response": "Countered with urgency — 'situations only going to get worse financially as things go on, and we're in the best situation we can be right now' — then sent a third-party financing link",
+      "response_tactic": "urgency_plus_third_party_financing",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "we have been looking at couple counselors, even with insurance, it makes Trevor's investments none. Shrinks make a lot of money, man, and they're expensive... now I'm down for way above six grand, just with the shrink to try to make it work.",
+      "timestamp": "01:03:41",
+      "rep_response": "Argued that marriage counselling carries no guarantee of a good outcome and that putting himself first mattered more: 'even if you guys do end up doing therapy, that's still not guarantee of a positive outcome in the marriage'",
+      "response_tactic": "discredit_competing_spend",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm going to have to think about it. It's not something that I can just say like in the, oh. A hundred bucks a week. Let's go for it.",
+      "timestamp": "01:07:21",
+      "rep_response": "Asked what specifically he needed to look over, then asked what was accessible in his personal account and for his credit score",
+      "response_tactic": "clarify_then_financial_probe",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "The prospect proposed roughly $1,000 a month. The rep never quoted or structured an in-house plan and instead sent a PAVA financing link, which returned three payments of $2,300 (about $6,900) or twelve payments of $650 (about $7,800).",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": 700,
+      "note": "Personal account is running negative until the next paycheque — 'Minus... right now it's running in credit.' Barred from the joint account. Already finding his car payment difficult and said $650 a month 'is my car payment right there.' Expects substantial divorce legal costs and is separately considering marriage counselling he estimates at well over $6,000. Had been hoping to retire in about five years; says the divorce has ended that."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken; no payment link for the programme itself, only a PAVA financing application",
+      "Prospect declined to complete the financing form on the call: 'Well, I don't think I can do it right now. I'm already late for something.'",
+      "He rejected the financed terms as unaffordable: '650 for 12 months. But like I said, honestly, I'm really hesitant to do that much. That's my car payment right there.'",
+      "Counter-evidence: intent is genuinely high — 'the excitement is there... I really want to do it' and 'I think that that will be great for me regardless'",
+      "Rep left it open: 'Take a peek. Look at the account... we'll go from there, man. We're always here.'",
+      "No follow-up date, no deposit and no in-house plan quoted"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to review his personal account and the PAVA financing options; rep to hear back. Nothing scheduled."
+  },
+  "notable": {
+    "note": "A 60-year-old with a reversed diabetes diagnosis, sleep apnoea on CPAP, back pain and no unassisted squat was taken through the full presentation without a single health, injury or sleep question being asked — every condition was volunteered. The nutrition pillar as pitched (drop macro tracking, consolidate to an eight-hour eating window) directly contradicts the plan his own nutritionist and physician built to control his blood sugar, and nobody named that. Separately, the rep learned the prospect's personal account was overdrawn and that he was struggling with an existing car payment, and then sent a consumer-credit application; the financed totals came back at $6,900 and $7,800. The rep also argued down the prospect's competing spend on marriage counselling."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The first two minutes are a single Juan block containing both sides of the conversation, including the rep's questions ('how long has that been going on for now', 'how long's the relationship, and how long's the fight?'). Question-boundary inversions recur throughout — 'Does that all sound good to you?' at 00:02:34, 'Does that make sense?' at 00:42:54 and 'What questions do you have on how it works?' at 00:59:45 are all attributed to Juan. Role read from content throughout."
+  }
+}

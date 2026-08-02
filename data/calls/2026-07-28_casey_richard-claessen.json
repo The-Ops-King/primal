@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-07-28_casey_richard-claessen",
+  "source": {
+    "drive_file_id": "1L9M5VsFH2WvFoHge8EQOxsJi7lnvIBbQ",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 29299
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Follows a setter conversation with Derek the previous day, which the rep references twice and quotes from. The call was also reassigned at short notice from another rep - 'Andrew completely forgot to tell the emergency come up' - so the prospect arrived expecting someone else and had only twenty minutes available.",
+    "duration_min_est": 38,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "I already saw that you had a conversation with Derek, right, and already got like a good idea from where you're at - and again at 00:03:53, 'From what I saw as well in your conversation with Derek, you're currently at like a plateau or something, right?' No suffix appears in the file title."
+  },
+  "prospect": {
+    "name": "Casey",
+    "aka": "Diarized throughout only as 'Zoom user'. The rep addresses him once as 'Casey' at 00:18:04; the transcript also contains 'Luke' at 00:00:57, which is probably a mistranscription of 'look', and 'Brandon' at 00:30:00 under his label, which appears to be him speaking to someone else. He refers to 'the Wilson lineage of mine', suggesting a surname of Wilson. Identity should be treated as unconfirmed.",
+    "name_source": "transcript",
+    "location": "Oklahoma City, Oklahoma, USA",
+    "age": null,
+    "occupation": "Tattoo artist, currently working constantly and planning to cut back to a few days a week; building a fitness following on social media and considering moving into online coaching and selling programmes",
+    "family_status": "Has a family and wants more free time with them",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains six to seven times a week and describes himself as already in fairly good shape and staying lean. Has meaningful kettlebell knowledge already and writes programmes informally for people who ask him. Watches all of Trevor's YouTube content. Currently counts calories and alternates between intermittent fasting and eating after training; diet is broadly paleo and he is considering carnivore.",
+    "kettlebell_experience": "experienced",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Uses the ICP's own exclusion language about himself: 'I don't have, you know, 50 pounds to lose, I'm already in, you know, fairly good shape, I'm just wanting to fine-tune everything'",
+      "Trains six to seven times a week and is still progressing, explicitly not plateaued when the rep suggested he was",
+      "Buying knowledge and access rather than transformation: 'I think it's good for a coach to have a coach as well... that's my quickest route to master kettlebells'",
+      "Price was never resisted on level, only on term - he wanted monthly and asked whether he might only need eight weeks",
+      "Commercially motivated - he intends to convert what he learns into an online coaching and programme business"
+    ]
+  },
+  "goals": [
+    { "text": "Master kettlebells by learning directly from Trevor, as fast as possible", "category": "other" },
+    { "text": "Acquire enough knowledge to coach others and sell programmes online", "category": "other" },
+    { "text": "Get a simplified nutrition protocol he does not have to think about, so he can stop counting calories", "category": "sustainability" },
+    { "text": "Get a bit leaner from an already lean starting point", "category": "appearance" },
+    { "text": "Improve form and add variety to the exercises he already does", "category": "other" },
+    { "text": "Transition out of full-time tattooing and free up time with his family", "category": "other" },
+    { "text": "Learn Trevor's approach to lifestyle, longevity and mobility", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Has to count calories constantly and wants to stop - 'I'd kind of like to not even have to think about it'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Being asked for coaching and programmes by people and feeling he can only spitball it - 'there's always more to learn'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Working constantly at the tattoo shop with little family time", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Believes eating without limits the way Trevor describes would make him swell up", "category": "other", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "And like, uh, what if I don't need like six months? You know, what if I only need like eight weeks or something like that?",
+      "timestamp": "00:14:45",
+      "rep_response": "Constructed three new options on the spot - one month at $1,200 with the right to stop, six months split at $1,200 a month, and three months at $4,000 - and recommended the one-month version. Proposed label: term_length_objection.",
+      "response_tactic": "invent_shorter_tiers_live",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "So is that all upfront or is that like in payments?",
+      "timestamp": "00:14:22",
+      "rep_response": "'Most people pay it all upfront. If it's needed, we can always look into potentially doing payments.' No isolate, no financial picture, no permission question - straight into building alternatives.",
+      "response_tactic": "concede_payment_flexibility_immediately",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Six monthly payments of $1,200, which totals $7,200 against the $6,000 cash price - the difference was never stated. Alternatively a standalone first month at $1,200 with the option to stop or continue with 'the other five remaining'. A three-month tier at $4,000 was also named and then talked down.",
+    "guarantee_mentioned": "No guarantee. The nearest equivalent was the walk-away right on the single month: 'if you feel like, well, I've learned a lot now, I don't need more than this. We just stop it there.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment completed live after roughly fifteen minutes of card failures and confirmed by both sides: 'Did it work this time?' 'Ah, yeah. I just saw it.'",
+      "Verbal agreement first: 'Let's get you started with that. With the one month.' 'Yeah, let's do that.'",
+      "Agreement email sent, and the onboarding form texted",
+      "Counter-evidence on what was sold: this closed at $1,200 for one month with an explicit right to stop, not the $6,000 six-month programme, so it should not be counted as a flagship close",
+      "Counter-evidence on completion: no Trevor onboarding call was booked - he had just woken up and the rep promised to confirm times later - and the agreement was left unsigned, with community access gated behind it"
+    ],
+    "cash_collected_usd": 1200,
+    "cash_collection_basis": "one_month_tier_paid_in_full - the remaining five months at $1,200 each are optional and contingent on a check-in in a few weeks",
+    "next_step": "Prospect to sign the agreement later that day, then receive the Skool community link; rep to confirm a Trevor onboarding time once Trevor is awake; check-in in a couple of weeks to decide whether to continue"
+  },
+  "notable": {
+    "note": "The most flagrant pricing improvisation in the batch: three undocumented tiers created inside about sixty seconds - $1,200 for a single month with a walk-away, $1,200 a month across six months which totals $7,200 rather than $6,000, and $4,000 for three months - in response to a prospect simply asking whether he might only need eight weeks. The deal closed on the $1,200 month. Separately, the rep twice offered to take the prospect's card details himself and proposed removing the recorder from the call in order to do it. He also knowingly skipped the on-call signature step, taking payment against an unsigned agreement. And the prospect is openly buying the methodology in order to build his own online coaching business, which nobody addressed."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect is labelled only as 'Zoom user' and three different first names appear in the transcript, so his identity is genuinely uncertain. Attribution inverts constantly - the entire pillar presentation from 00:09:00 to 00:13:00 runs as one unpunctuated block under the rep with the prospect's confirmations swallowed into it, and the payment-terms exchange at 00:14:31 to 00:14:45 duplicates the prospect's line under both labels. Roughly fifteen minutes of the recording are dead air while the prospect fought a failing checkout, and the audio was cutting out on his side throughout. Roles assigned from content."
+  }
+}

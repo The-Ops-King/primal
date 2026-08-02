@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-05-04_eliab-alvarez-de-la-campa_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He had two concrete questions banked before the pillar was even delivered: 'where do you think I could start, like, how do we measure that, like, where I should start today, number one, if I were using one kettlebell, and the second question is, would I need to get another one of those, because I noticed that Trevor often uses two kettlebells.' He got an estimate (16 kg / 35 lb, single bell, technique-only first month) and accepted it, then asked follow-ups on session length and whether warm-up and cool-down sit inside the 45 minutes."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Pre-aligned and said so. The rep observed 'you sound like you're in alignment with diets' and the prospect had already described a Mediterranean pattern, a gram of protein per day, biomarker-driven supplementation and a plan to reintroduce intermittent fasting four days a week. No questions, no resistance — the one pillar where he was ahead of the presentation."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Asked precisely how the mechanic works: 'how frequently, I guess, am I sending Trevor a video just so that he can examine my form... Is that once a week type of thing?' The answer — every session in month one, tapering after — landed without objection: 'Understood. Makes sense.' No enthusiasm either; for a man who already self-regulates daily, the accountability pillar is the least differentiating of the three."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "expectation_below_price",
+      "raw": "to be completely honest with you i didn't think it was going to be that much",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He had a number in his head and $6,000 was above it. He then re-anchored it himself into a monthly frame — 'It's a grand per month, basically' — which the rep pushed back on ('If you break it down, but it's 6k for the six months'). Correct instinct: on the Ad Morris call two days earlier the rep volunteered the monthly figure himself and lost the sale to it."
+    },
+    {
+      "type": "existing_optimisation_spend",
+      "raw": "I've gone the function blood test, which gives me 126 biomarkers, I just got a DEXA scan, VO2 max, rest and metabolic rate, I'm inputting all of this data into CLAWD to come up with a supplemental as well as nutrition protocol",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest supportive anchor on the call and it went unused. He already buys diagnostics, supplements, a home gym, a Concept2 rower and a home wellness room. He is not price sensitive to health spending in general — he was surprised by this number specifically, which is a positioning problem rather than a budget one, and nobody positioned against the spend he already makes."
+    },
+    {
+      "type": "tax_treatment",
+      "raw": "a lot of our clients are business owners as well, so we're very, very used to framing it in a way that you can write off tax-wise, like I know we've framed it as a workplace injury prevention as before",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The rep's standard lever for lowering effective price with business owners, deployed here within a minute of learning the prospect owns a pawn shop. It reduces the perceived number without discounting it, which is commercially effective and separately problematic — see the conduct flag."
+    },
+    {
+      "type": "aspirational_comparator",
+      "raw": "you remind me of Brian Johnson... he's basically dedicated his whole entire life to reducing his age... I think he's in his 60s, and he looks 25",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The rep introduced a comparator whose protocol reportedly costs millions a year, which makes $6,000 look trivial by contrast. Well chosen for this prospect and clearly welcomed ('Yeah. Okay, I will.'), though it was placed at minute three and never referenced again when the price actually landed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Evidence that the programme works for someone approaching 60, given the marketing explicitly targets 30 to 45 — 'I wonder how many guys they have doing this protocol that's a 59'",
+      "why_unmet": "Raised in the opening minute and never answered across 41 minutes. The rep had the material to answer it — he later volunteered that Trevor has coached over 1,200 people and that he personally enrolled around 300 — and did not use any of it to place a single client in the prospect's age bracket.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "An honest calibration of what is actually achievable in six months — 'Is it reasonable? Is it a reasonable goal within a reasonable timeframe?'",
+      "why_unmet": "The rep agreed with the sentiment in the abstract and moved to next steps. The onboarding call with Trevor is where this would presumably be answered, and nobody said so, so the prospect went into his decision window without it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A holistic model that includes emotional, spiritual, financial and interpersonal health — his closing statement was 'you can't talk about fitness without talking about emotional and spiritual... it's all part of the big picture of wellness'",
+      "why_unmet": "The offer is explicitly a trifecta of kettlebells, nutrition and mobility. Three of the four dimensions he named as inseparable from health sit outside it entirely. The rep engaged warmly with the philosophy and did not claim the programme addresses it, which was honest but leaves his primary framework unserved.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Guidance on training around a rotator cuff that has been under repair for roughly 20 months",
+      "why_unmet": "The disclosure landed inside a conversation about accountancy and drew no response. There is no clinical screening step in the offer, so even had it been noticed there was no process to route it to.",
+      "verdict": "product_gap"
+    }
+  ]
+}

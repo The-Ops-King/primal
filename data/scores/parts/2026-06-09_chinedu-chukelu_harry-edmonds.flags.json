@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-06-09_chinedu-chukelu_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The six-month programme was quoted at £4,500 rather than the sanctioned $6,000, the third different GBP figure this rep has used in three calls across twelve days.",
+      "evidence": [
+        "for the six months in pounds, it's 4,500 pounds for the six months",
+        "So for six months, it is £4,500.",
+        "Cross-reference, same rep, 28 May, Rafal Sowa: 'it would come out to 4,470 pounds for the full six months' and then 'The exact number is 4,466.'"
+      ],
+      "timestamp": "00:28:33"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "A payment-plan surcharge policy was disclosed on this call but not on either of the other two sales calls in the batch, where instalments were offered with no mention that splitting further raises the price.",
+      "evidence": [
+        "It would be two. It would be split down the middle. If you break it up more than that, the price goes up. So I always recommend people to just split it in two if they can't do it in one.",
+        "Cross-reference, same rep, 28 May, Ken Baracaldo: 'But we can break it up if you need to. Like, we don't want money to get in the way.' — no surcharge mentioned.",
+        "Cross-reference, same rep, 28 May, Rafal Sowa: 'more than happy to kind of split it into two payments... about two payments of 2250' — no surcharge mentioned.",
+        "Cross-reference, 28 May 1-1, Chris Klevan coaching the rep to offer a longer plan: 'probably pitched him like a six pay'"
+      ],
+      "timestamp": "00:30:59"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "No health, injury or movement-limitation question was asked at any point before recommending loaded ballistic kettlebell training to a 102 kg prospect who had not trained for a year, reported exertional back pain and described himself as close to burnout.",
+      "evidence": [
+        "Last year was like zero gym for me. Like I didn't go to the gym for one day last year.",
+        "we went for a pumpkin patch, you know, it's good thing, kind of have to run around, you know, I I could have, like, came back with back pains, everything",
+        "I'm sort of almost at that burnout stage. I felt like I was, I talked to the bed and I'm just trying to get myself back. So an example is on the weekends, I'll just spend time just sleeping because I'm just extremely exhausted.",
+        "102 kg.",
+        "Rep's only response to the burnout disclosure: 'You've got to find a bit of balance in those moments.'",
+        "Rep on the risk in the abstract, never applied to this prospect: 'People can bench 150 kilos, but if they swing over a 30-kilo and they've never done it before, it won't end well'"
+      ],
+      "timestamp": "00:15:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The guaranteed load increase differs between the US and UK versions of the same six-month offer — 20 lb on one call and 8 kg (about 17.6 lb) on another — a roughly 12% difference in a promised outcome.",
+      "evidence": [
+        "The guarantee is that you will put eight kilos on all of the kettlebell movements by the end of the six months.",
+        "Cross-reference, same rep, 28 May, Ken Baracaldo: 'from the start until the end of the six months, you'll be swinging around a 20-pound heavier kettlebell in all of the movements'",
+        "Cross-reference, same rep, 28 May, Rafal Sowa: 'you will be swinging around an eight kilo heavier kettlebell in all the movements'"
+      ],
+      "timestamp": "00:29:00"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "call_id": "2026-06-18_chandra_ben-byrne",
+  "source": {
+    "drive_file_id": "1UC1ULViRExkwizYkF-u3B1J-rAaHKeVG",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/18/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/18/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 52437
+  },
+  "call": {
+    "date": "2026-06-18",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 53,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Canada — just back from a trip to another province" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named and no title suffix. The rep worked from a written application rather than setter notes — 'I took a look at your application and got like the basics. 41, you're in tech.' The prospect described finding Trevor through Instagram and reaching out himself two days earlier."
+  },
+  "prospect": {
+    "name": "Chandra",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Bay Area, California, USA — originally from India, travelling there mid-July to mid-August",
+    "age": 41,
+    "occupation": "Technology, desk-based",
+    "family_status": "Married; wife trains regularly and he wants to bring her into kettlebells too. Two children, a son and a daughter; the daughter was born three years ago.",
+    "height_in": 72,
+    "weight_lb": 198,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Ten years of consistent training, currently 20-22 workout days a month via Peloton — two to three cardio sessions and two to three strength sessions weekly. Never trained in a conventional gym, no barbell or rack work; all freeform dumbbell and bodyweight. Peak condition in 2016-17 via daily group HIIT classes, running two miles each way to them, combined with a two-month zero-carb diet that took him from roughly 220-230 lb to 179 lb. Regained to 205 after his daughter was born, now fluctuating 195-200. Discovered kettlebells through Peloton's introductory content and found Trevor on Instagram about a week before the call.",
+    "kettlebell_experience": "some",
+    "medical": "No conditions disclosed and none asked about. Reports shoulders still sore two days after a self-directed three-round kettlebell circuit with a 30 lb bell. Eating roughly 1,400-1,500 kcal per day for the past two months, occasionally 1,800-1,900, with weight loss stalled at 197-198. History of extreme dietary restriction — two months of no carbohydrate at all."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.65,
+    "signals": [
+      "Matches the defining axis exactly — no crisis, nothing wrong, wants good to great: 'I feel fantastic. There is no fatigue. There is no tiredness or any loss of energy. I have a great amount of energy.'",
+      "Already fit and highly consistent — ten years of training, 20-22 days a month, self-rates his effort at nine out of ten",
+      "The want is incremental and aesthetic: 'I want to look leaner and a little more chiseled ... it still looks like a little flabby and I want to reduce that'",
+      "Successful and time-poor rather than struggling — Bay Area tech, two kids, wants the thinking taken off his plate: 'I'm not going to spend my brain cycles on researching what I should be eating'",
+      "Diverges from the avatar on one clause and it is the clause that decided the call: price was a barrier, not a quality signal. He expected around $300/month, called $6,000 'a little bit of a sticker shock' and needs to draw on savings.",
+      "Considered the_rebuilder because he did lose ground after his daughter's birth, 179 lb back up to 205, but rejected it — he never stopped training, carries no regret, and describes his present state as fine rather than diminished"
+    ]
+  },
+  "goals": [
+    { "text": "Look leaner and more chiseled, reduce the flab he sees in the mirror", "category": "appearance" },
+    { "text": "Feel lighter and feel stronger — his own summary of what he wants", "category": "strength" },
+    { "text": "Break a physique plateau after ten years of consistent training", "category": "other" },
+    { "text": "Get back toward 179 lb without repeating the extreme zero-carb approach", "category": "sustainability" },
+    { "text": "Train at home in his garage on his own schedule around two children", "category": "convenience" },
+    { "text": "Stop spending cognitive effort deciding what to eat and what workout to do", "category": "convenience" },
+    { "text": "Keep training through a four-week trip to India in July and August", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Workouts are random and unstructured — picks whatever catches his eye on the Peloton app with no progression", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "No feedback loop at all — cannot tell whether he is training hard enough or has gas left in the tank", "category": "accountability_gap", "severity": "high" },
+    { "text": "Plateaued physique despite consistent effort — 'I'm putting in the effort' and 'it is not yielding the results'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Does not know whether his form is correct and worries about injuring himself", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Peloton's kettlebell and strength coaching is not good enough — 'with the kettlebell and strength, they are not there yet'", "category": "program_fit", "severity": "medium" },
+    { "text": "Weight loss stalled at 197-198 despite eating 1,400-1,500 kcal a day for two months", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "The only method that ever worked for him was unsustainable — two months of zero carbohydrate that he could not maintain", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Decision fatigue burns his limited window — 'I spent 15 minutes browsing through ... and then you'd be like, I'm too tired, I'm just going to sleep'", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Wonders whether age and metabolism are now the limiting factor", "category": "aging", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That's, uh, I was, I was, uh, Expecting a little lower than that. That's definitely a little bit of on the higher side. Let me think about it a little bit because I was more thinking about like, you know, and this is all going to be virtual, right? Like this is not going to be in-person and everything is just going to be through the app.",
+      "timestamp": "00:41:40",
+      "rep_response": "Did not address the virtual-versus-in-person half of the objection at all. Isolated the money instead — 'Outside of that, just having the 6K, is there anything else for you?' — and got a clean 'No, just the money'. Later returned to value with the personal-trainer business-model reframe: 'you could go hire a personal trainer for around what you're looking to invest, but their business model is not the same as ours.'",
+      "response_tactic": "isolate_money_then_business_model_reframe",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I was more prepared for like, you know, 300-ish per month. Given that it's like almost three times of what I planned for, I just need to figure out, like, how do I come up with the funds? That's pretty much it. That's the only thing that would block.",
+      "timestamp": "00:43:38",
+      "rep_response": "Offered 12-month financing at $650/month. Asked how he planned to raise the funds. Ran no financial-picture questions at all — no cash on hand, no savings figure, no credit cards, no available credit, no investments — and took no deposit.",
+      "response_tactic": "offer_financing_only",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "if I say that, like, hey, you know what, like, I can commit to 4k. I don't know, I'm just making up this number, right? Like, is that something that you're willing to go lower a little bit and still be able to accommodate me?",
+      "timestamp": "00:47:16",
+      "rep_response": "Held the rate and traded duration instead of discounting — 'the way it works with us is that if we decrease the price, we decrease the time. So we could go down to 4k, but it would just be for three months' — and then advocated for the six months on merit rather than taking the smaller deal.",
+      "response_tactic": "hold_price_trade_duration",
+      "resolved": true
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Let me think about it. Let me also talk to my wife and see if we can bite into some of the savings that we have. And that's something that I will probably be using to commit.",
+      "timestamp": "00:45:43",
+      "rep_response": "Ran one move of the play — 'is she aware that you have these goals with your fitness?' — which established she is aware, supportive and trains herself. Did not run any of the rest, and did not offer a deposit to hold the position while he spoke to her.",
+      "response_tactic": "partial_spouse_awareness_check",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "12-month financing at $650/month. Rep: 'we have a way to where people can finance it up to 12 months, which brings it down to 650 a month.' The prospect immediately identified the discrepancy — 'it's the same amount of money, it's just going to be for a longer period of time, or even more than the $6,000 for the 12 months' — and the rep neither confirmed nor corrected it. Twelve payments of $650 is $7,800.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "Clear verbal commitment in principle: 'I'm 100% committed. It's just like, I need to figure out like, how do I bring the funds so that I can pay for the program'",
+      "Prospect set his own deadline: 'this is a long weekend. So it'll also give me some time to talk to my wife. So by Monday, I'll be able to make a decision'",
+      "No payment, no payment link, no deposit and no scheduled follow-up call — only 'I'll just shoot you a text after'",
+      "Counter-evidence toward lost: he was anchored at $300/month against $1,000/month, called it sticker shock, and needs to draw down family savings with his wife's agreement",
+      "Counter-evidence toward lost: on the manager one-to-one recorded forty-five minutes after this call, the rep himself assessed the discovery as too shallow to hold — 'this is definitely not deep enough' and 'the most important thing for these damn fitness calls, he did not give me enough'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to speak with his wife over the long weekend and decide by Monday; rep to text him. Nothing scheduled and nothing collected."
+  },
+  "notable": {
+    "note": "This is the call the rep debriefed with his manager forty-five minutes later, and the diagnosis they reached together is correct and visible on the tape: the prospect has no why. Asked directly why he wants to build muscle now, he said 'I don't have a specific need that I'm looking for', and the rep accepted it and moved on rather than asking again. The manager's summary — 'that's about a $300 a month problem' — is exactly right, and $300 a month is exactly what the prospect had budgeted. Two things worth crediting the rep for: Phase 4 was genuinely well run, and when the prospect openly asked for a discount the rep held the price and traded duration instead of cutting. Two things against: no health or injury question was asked at any point in fifty-three minutes, and no deposit was taken from a man who had just said he was 100% committed — the precise failure his manager named to his face an hour later."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, including several full turns. At 00:05:12, 00:09:45, 00:12:42, 00:15:02, 00:18:03 and 00:23:29 the prospect's own narration is attributed to the rep; at 00:44:58 and 00:45:00 the rep's financing explanation and the prospect's reply are split across both labels. The prospect's label is lowercase 'chandra' throughout. The prospect's connection degraded around 00:06:31 and a fragment of speech was lost. Roles resolved from content."
+  }
+}

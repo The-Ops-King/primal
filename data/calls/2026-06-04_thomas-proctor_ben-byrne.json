@@ -1,0 +1,137 @@
+{
+  "call_id": "2026-06-04_thomas-proctor_ben-byrne",
+  "source": {
+    "drive_file_id": "17lfMzHRG0bjR9w62TkeV_pgToXwbLI0Y",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/04/2026 - Thomas Proctor x Ben Byrne KFS",
+    "display_title": "06/04/2026 - Thomas Proctor x Ben Byrne KFS — Closed",
+    "file_size_bytes": 40343
+  },
+  "call": {
+    "date": "2026-06-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Prospect: 'as I am sending my response to Kim, it's your agenda' and 'As I initially emailed to Kim'; rep: 'So yeah, I got a few notes from Kim'."
+  },
+  "prospect": {
+    "name": "Thomas Proctor",
+    "aka": "Tom",
+    "name_source": "title",
+    "location": "Los Angeles / Santa Monica, California, USA",
+    "age": null,
+    "occupation": "Architect, sole practitioner; practice based in Los Angeles with a consulting project in London",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong. Swam competitively from his teens through high school, was night manager of a gym while in grad school, and has trained with weights 'about as long as I can remember'. Worked with a personal trainer roughly 30 years ago. Currently an Equinox member training three to six times a week: weights two to three times and HIIT two to three times, and for the last two weeks a single 20-minute weights-plus-HIIT superset with no breaks. Writes his own programmes and changes their composition every week. Has added kettlebells to his routine over the past few weeks and bought his own two days before the call. Age not stated, but references a trainer 30 years ago, loving squats 30 years ago, last doing 30 push-ups 'probably two decades ago', flexibility declining 'over the decades', and a first trip to Japan about a decade ago.",
+    "kettlebell_experience": "some",
+    "medical": "Substantial and entirely volunteered. Sustained an injury with a personal trainer roughly 30 years ago while the trainer was testing his one-rep-max bench press: 'I had an accident, and it took me a couple of years to, I think, fully recover from that.' Has restricted left shoulder rotation — cannot get a jacket on or off comfortably: 'I can't get my left shoulder sufficiently rotated.' Cannot perform a single floor push-up despite attempting it the day before the call, and reports not understanding why: 'I don't understand how this happened.' Cannot rise from a seated position on the ground without using his hands. Has restricted himself to goblet squats only for the last ten years 'because of the mechanics involved'. Upper body strength down from 40 lb to 25-30 lb incline dumbbell presses. Describes his flexibility as 'really terrible'. Practises intermittent fasting for five to seven years and fasts for two to three days every few weeks. The rep asked no health, injury or medication question at any point and sought no clinical clearance."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.65,
+    "signals": [
+      "Wants a former self back with specific benchmarks: 30 push-ups again, sitting back on his knees the way he could at six and the way Japanese people in their eighties can, rising from the floor without hands",
+      "Explicit regret: 'I don't understand how this happened, I understand how I let it happen'",
+      "Overlaps the_preserver — older, health-literate, function-framed goals ('mobility is important, a healthy heart, and all of that is important') — but he is not medically managed and his language is rebuild and 'radically increase', not hold on",
+      "Overlaps the_optimizer on economics only: successful architect, Equinox member, zero price resistance ('it's more or less what I thought it would be'). He is not, however, already fit — he cannot perform one push-up."
+    ]
+  },
+  "goals": [
+    { "text": "Radically increase flexibility — his stated priority, described as 'really terrible'", "category": "mobility" },
+    { "text": "Be able to sit back on his knees again, the way he could at six and the way older Japanese people can", "category": "mobility" },
+    { "text": "Increase cardiovascular capacity", "category": "endurance" },
+    { "text": "Rebuild lost muscle and upper body strength — get back to doing 30 push-ups", "category": "muscle_gain" },
+    { "text": "Be able to get up from the floor without using his hands", "category": "longevity_function" },
+    { "text": "Move more easily day to day, including putting on a jacket", "category": "longevity_function" },
+    { "text": "Combine unconventional weight training with cardiovascular work in a joint-sparing way", "category": "injury_prevention" },
+    { "text": "Openly acknowledges an appearance motive: 'part of this is about health and part of it is about vanity'", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Cannot do a single floor push-up, having previously done 30, and does not know why", "category": "other", "severity": "critical" },
+    { "text": "Cannot rise from a seated position on the ground without using his hands", "category": "aging", "severity": "high" },
+    { "text": "Left shoulder will not rotate enough to get a jacket on or off", "category": "injury", "severity": "high" },
+    { "text": "Large decrease in upper body strength — incline dumbbell press down from 40 lb to 25-30 lb", "category": "aging", "severity": "high" },
+    { "text": "Flexibility has 'hugely decreased' over decades and he has never trained it", "category": "aging", "severity": "high" },
+    { "text": "Injured by a trainer testing his one-rep-max bench press and took two years to recover; has avoided coaching since", "category": "injury", "severity": "high" },
+    { "text": "Has restricted himself to goblet squats for a decade because of the mechanics of loaded squatting", "category": "training_barrier", "severity": "medium" },
+    { "text": "Changes the composition of his own programme every week, so nothing progresses", "category": "program_fit", "severity": "medium" },
+    { "text": "Sees no one locally who can teach him anything — 'there's really nothing that they could teach me'", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "And are those what's currently on YouTube? Or it's another set of, because he's got a hundred or so videos on YouTube. Or are these, these other videos?",
+      "timestamp": "00:38:16",
+      "rep_response": "Conceded the content may be the same and repositioned the value as curation and coaching: 'I mean, they might all be on YouTube if you want to go through like a hundred different videos, but we just have them all in like a place where you can easily go through them. The big thing is like making sure that you're doing them right, and then you're having a plan that you're following.'",
+      "response_tactic": "concede_content_reframe_to_curation_and_coaching",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "So am I, would I actually be working with Trevor or would I be working with someone else?",
+      "timestamp": "00:36:31",
+      "rep_response": "Asserted direct one-to-one delivery while acknowledging a wider coaching team: 'Trevor is the one who's in there looking at your programs. He's looking at the videos that you send. We do have other coaches as well, but Trevor, it is one-on-one with Trevor.'",
+      "response_tactic": "direct_assertion_of_principal_delivery",
+      "resolved": true
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "Well, right now, I need to get off of this video conference and do some work for a meeting that I have scheduled in two and a half hours. So what I'd like is for you to send me whatever paperwork you want me to complete. And then we can go from there and work the rest of this out.",
+      "timestamp": "00:48:31",
+      "rep_response": "Accepted the exit and extended it further, volunteering asynchronous completion: 'I can send over the link and you can kind of go through it on your own time if you want.' No attempt to complete payment inside the two minutes it would have taken.",
+      "response_tactic": "accepted_exit_and_deferred_to_email",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Prospect elected monthly by credit card. Rep's only disclosure was 'There is a bit of interest if we split up monthly, but we could definitely do that.' No rate, no number of instalments, no monthly amount and no total were stated, and the prospect agreed without any of those figures.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.7,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Verbal agreement to move forward: rep asked 'assuming we could make the investment work for you, do you feel like it's something that you want to do?' → 'Sure. It's more or less what I thought in terms of money, it's more or less what I thought it would be.'",
+      "Tier selected: 'I'd be leaning towards six months.'",
+      "Payment method selected: 'I would prefer monthly and I prefer by credit card.'",
+      "Payment link sent — rep on the call: 'I can send over the link... I'll put the payment link for the monthly with the agreement'; confirmed sent on the manager 1-1 recorded immediately afterwards: 'Yeah, I just sent it to him.'",
+      "COUNTER-EVIDENCE — no payment was taken on the call and nothing in this transcript confirms payment cleared.",
+      "COUNTER-EVIDENCE — the prospect's own wording left room to withdraw: 'we can go from there and work the rest of this out', and he had earlier asked to see the onboarding questionnaire before joining.",
+      "COUNTER-EVIDENCE — the sales manager treats this call as a missed deal, not a close. On the 1-1 recorded straight afterwards (file 1Luf600lfobPvBZOT5xgKBPHGCFCZlDmJ): 'You didn't reel him in... You didn't give any objection. You created one. You just, you created delay' and 'now you're gonna be chasing this guy down.' Disposition here follows the client-agreed close rule, which management does not apply."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Rep to email the agreement plus a monthly payment link with his contact details; prospect to pay, sign, then receive the onboarding form and access to the app and platform. No onboarding call with Trevor was scheduled and no follow-up date was set."
+  },
+  "notable": {
+    "note": "The highest-risk call in this batch on clinical grounds. The prospect volunteered that he cannot perform one push-up, cannot rise from the floor unaided, has a left shoulder that will not rotate enough to put on a jacket, restricts himself to goblet squats for mechanical reasons, and was injured badly enough by a trainer's one-rep-max test to need two years to recover — and the rep asked not one health or injury question, sought no clearance, and instead read out the post-purchase onboarding form which contains those very questions. He also fasts two to three days every few weeks against a backdrop of two decades of unexplained strength loss, and the rep's response was 'Awesome.' Separately, the prospect asked directly whether the programme content is the same as Trevor's free YouTube library and got a concession that it may be. The monthly plan was agreed with interest disclosed only as 'a bit'."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Multiple inversions. At 00:07:28 the prospect's label carries the rep's follow-up and vice versa; at 00:12:12 the rep's label carries the prospect's 'Yeah, I really can't'; at 00:44:43 the prospect's label carries the rep reading out his own onboarding form; at 00:47:43-00:48:19 the rep's label carries the prospect's 'I'd be leaning towards six months'. The rep also addresses the prospect as 'Dave' once at 00:36:12 despite calling him Tom elsewhere. Role read from content throughout."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-22_pukar-patel_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Accepted the structure on delivery — 'Yeah, I think it would be good' — then came back with practical mechanics questions rather than value questions: a 12-13 day trip to India in September ('So, I might be traveling in between September'), and the one that mattered to him, whether his form would actually be checked: 'I just want to make sure what I'm doing, like if I'm doing some kind of exercise, right? Am I doing it correctly? Because if I'm not doing it correctly, then it's not going to help.' The rep answered with the basic-movement progression and video submission. He also asked to see inside the app and the rep screen-shared another client's plan."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Immediate reaction was clean — 'No, I think it's straightforward' — but he returned to it twice for mechanics: 'nutritional, again, sorry, details will come once the program starts' and later 'you said diet or nutrition, and that's, so how will that work? So, he will basically create, know, a plan, meal plan?' The vegetarian question was handled directly by the rep ('Trevor eats meat. We're not hiding that. But we do have vegetarians also on board') and the protein-intake gap was named as something Trevor would address. One useful correction: the rep framed it as weight loss and the prospect pushed back — 'I don't want to lose weight... recomposition of the body, that's what I meant' — which the rep accepted."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no pushback and no questions: 'No, I think it's pretty good.' Earlier in the call he had already pre-sold himself on this pillar — 'I just never had someone give me a routine and show me like, here's what you need' and 'I want someone to tell you, here's exactly what you need to do in order for you to achieve this. Then I can do that for the next six months.' The rep had the strongest possible setup here and delivered the pillar as a standard block rather than tying it back to those words."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "Because I know, I was looking into them, there's a whole app called Primal University, which is like $200 a month type thing. Is that a different thing?",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own low-tier product)",
+      "note": "The prospect had independently researched the company and found its own $200/month app before the call, and arrived assuming that was the product. The rep had to separate them twice — 'This is a totally different thing. It's not a one-on-one coaching.' This is the second call in this batch where the company's own low-tier subscription sat in the buyer's head at the moment the $6,000 was named. At $200/month a buyer can self-anchor to $1,200 for the same six months, which is a five-fold gap the sales process never addresses head-on."
+    },
+    {
+      "type": "discount_expectation",
+      "raw": "There's no promotion for a new person, or any of that, or I don't know. Like don't you guys have any?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A reflexive new-customer-discount probe rather than an affordability signal — he said twice afterwards that he does not mind paying $6,000. The rep held the price without flinching, which is the correct handling and stands in direct contrast to the same rep collapsing to a $1,200 tier six days earlier on a buyer who had not even asked for a discount."
+    },
+    {
+      "type": "sunk_equipment_purchase",
+      "raw": "I even ordered the kettlebells from Tosco. had a set. And then Jimmy Matt. So it's coming to actually, it should be delivered today.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Bought a kettlebell set and mat before the sales call, on the day of delivery. The strongest intent signal available and the rep noted it warmly but never used it as commitment leverage when the prospect later asked for time to research."
+    },
+    {
+      "type": "peer_proof_pricing_reference",
+      "raw": "sometimes they have different programs, different tiers, and all that",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He expected a tiered menu and had to be told there is only one product at one price. Combined with the Primal University confusion, this suggests the market-facing product architecture reads as tiered even though the sale is single-tier."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Independent, non-company reviews of the six-month programme before committing $6,000 — 'I still like to understand what other people are saying about this six-month program, other than what you guys said'",
+      "why_unmet": "Only first-party proof exists. The rep could offer nothing but the testimonials already sent and a client before-and-after image shared in the Zoom chat, which is the exact source the prospect had already discounted. He explicitly distinguished 'general public websites' from company-supplied material. This is what the deal was lost on.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To see what the six-month programme actually contains before buying — a curriculum, a syllabus, a sample plan",
+      "why_unmet": "The rep said no such artefact exists because every plan is bespoke — 'I cannot show you, like, a program, because every single program is different... There is no such thing as, like, um, program that I could tell you' — and substituted a screen-share of another client's app. Full personalisation is the product's strength and is simultaneously why it cannot be evidenced pre-purchase.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "The agreement and payment link sent by email so he could review and complete in his own time",
+      "why_unmet": "Refused as a matter of process — 'usually what we do is we just take it, cover it over the meeting, because I need to onboard you, and that's the procedure.' The programme almost certainly can transact asynchronously; the refusal is a sales-process rule, not a product limitation, and here it closed off the only remaining route to the sale.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Ongoing management of a vegetarian diet with adequate protein and a measurable cholesterol reduction at his six-month re-test",
+      "why_unmet": "Partially served and never validated. The rep committed that Trevor would look at protein intake and build around existing foods, but nothing in the offer addresses lipid management, and the prospect has attached a specific clinical outcome to the purchase — 'in next six months, I'm going to redo it... I want to see that number go down.' Whether the programme can be held to that is unestablished.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

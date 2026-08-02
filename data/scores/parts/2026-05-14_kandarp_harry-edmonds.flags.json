@@ -1,0 +1,41 @@
+{
+  "call_id": "2026-05-14_kandarp_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording is filed under a fabricated celebrity name — 'Zayn Malik' — while the prospect is a medical resident named Kandarp in Georgia; this is the second fake-named title for this rep on the same day.",
+      "evidence": [
+        "05/14/2026 - Zayn Malik x Harry Edmonds",
+        "00:00:00 - Kandarp: Nice.",
+        "I'm a resident right now.",
+        "I'm in Georgia, United States. Atlanta? Yeah.",
+        "No problem, Kandarp. Have a good rest of your day."
+      ],
+      "timestamp": "00:00:05"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "An affordability-constrained prospect was disqualified with no payment plan offered, in the same week and by the same rep who structured live instalment terms for another prospect with the same objection.",
+      "evidence": [
+        "It is. It's about $1,000 a month. It's $6,000 for the six months. Primal University is like $200. And I feel like for what you want, it's probably a better fit anyway.",
+        "I will say the cost would have been an issue with one-on-one coaching. I'm not there yet. In a year, I would be.",
+        "What we typically do is you do 50% down, so 3k down, and then you do the other 3K within 90 days.",
+        "or you can pay it monthly, but it works out to be a bit more"
+      ],
+      "timestamp": "00:11:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization is inverted across most of the call and one long block merges both speakers with no boundary, so speaker labels in this file cannot be used for automated extraction.",
+      "evidence": [
+        "00:03:56 - Kandarp: You said you're at your heaviest now.",
+        "00:06:15 - Kandarp: And then I guess for you then, so, what's really the outcome you're looking for?",
+        "00:11:10 - Kandarp: I feel like that's better for you."
+      ],
+      "timestamp": "00:06:15"
+    }
+  ]
+}

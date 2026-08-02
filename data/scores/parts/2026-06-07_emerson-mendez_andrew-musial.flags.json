@@ -1,0 +1,107 @@
+{
+  "call_id": "2026-06-07_emerson-mendez_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect with several years of recurrent, episodically debilitating sciatica was moved toward loaded kettlebell training and told the programme would stop it recurring, with no question at any point about whether a clinician had cleared him.",
+      "evidence": [
+        "Oh, so I've had this issue for a number of years now.",
+        "it was pretty debilitating, so usually with rest and some hot compresses, give or take, maybe four or five days.",
+        "basically I can't do much, can't even stand straight.",
+        "you mentioned the hips stiffness yeah uh uh like taking care of that also sciatica so it doesn't appear again yeah",
+        "so you're going to be working out like three to four times a week and the sessions are going to be some something between 30 to 40 minutes a day at home"
+      ],
+      "timestamp": "00:04:09"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 with a half-now half-in-30-days split was offered, a duration and price outside the $6,000/6mo and $9,000/12mo offer, and the second appearance of this invented tier on the same day.",
+      "evidence": [
+        "And six and 12 months, it's not attainable for you right now. But what if we would start with a three-month option?",
+        "So with the three-month option, it's $4,000. You can definitely split it up like in half, for example, so you can pay half now and half in 30 days.",
+        "So for you, three months, it would be 4K, and you can even split it into installments or put it on a credit."
+      ],
+      "timestamp": "00:45:14"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $200 per month cancel-anytime community subscription called Primal University was screen-shared and offered as a downsell, a product and price point that appears nowhere in the stated offer or the playbook.",
+      "evidence": [
+        "But Trevor is also running like a community. Where inside that community, you get... Well, actually, I can pull that up and show you.",
+        "So it's called Primal University.",
+        "and that it's only $200 a month and you can cancel whenever you feel like",
+        "that's like a first step that you could take get your feet wet and then onwards decide if when you have some extra cash on hand to actually get it going"
+      ],
+      "timestamp": "00:47:04"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The rep told the prospect the three-month option delivers everything the six-month programme does, contradicting the position taken with another prospect the same day that three months is not enough time to get someone in shape.",
+      "evidence": [
+        "So with the three-month option, you get basically everything the same as in six months. Everything that I covered.",
+        "But it's a shorter period, but it will actually at least get you started and then moving.",
+        "So usually we don't offer three months for the regular people, because it's not enough time in three months to get them in shape.",
+        "Because like six months is needed for the full transformation."
+      ],
+      "timestamp": "00:45:14"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The prospect reported that the setter was deliberately vague about price and that the application funnel never disclosed it, so he reached a 50-minute closing call with a budget a fifth of the price.",
+      "evidence": [
+        "One thing I asked him, too, and he was a bit vague, is also the cost of the program. He did mention that it's a premium service.",
+        "Kim was vague in what he said about the structure of how much it's going to be, but I didn't have an idea that it was going to be that much, right?",
+        "And, you know, I never had that outlet within his page that would show me. And so I followed the rabbit hole in the sense of, you know, filling in the information, talking to Kim, and now you.",
+        "maybe I'll be willing to spend, uh, I'll be, you know, a couple thousand"
+      ],
+      "timestamp": "00:37:41"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep asked the prospect to name his budget and then priced the offer against that number, rather than running the scripted financial picture or building value.",
+      "evidence": [
+        "So let me know, like, because maybe, actually, of course, like, I want to help you as much as I can. Like, what's your budget range that you were thinking, actually?",
+        "maybe I'll be willing to spend, uh, I'll be, you know, a couple thousand for, I'm not sure, actually, for, for, for, for, uh, in-depth program.",
+        "But what if we would start with a three-month option?"
+      ],
+      "timestamp": "00:41:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep characterised personal trainers generally as having an incentive not to make clients self-sufficient, while the prospect was actively considering a named fitness coach.",
+      "evidence": [
+        "So the thing is, like, I don't want to, like, say bad words on on PTs, because a lot of them, they're great, but their business model is just way different than what Trevor does.",
+        "Because personal trainer is making money when you're working out with him, right? As soon as you stop, he stops making money.",
+        "So his idea is not to teach you how to fish. He's just giving you the fish all the time."
+      ],
+      "timestamp": "00:30:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep restated the prospect's weight loss as 50lb when the figure established earlier on the call and confirmed by the prospect was 15lb.",
+      "evidence": [
+        "you've already made some solid changes with, uh, with diets, uh, dropping 15 pounds. Is that correct? Yeah.",
+        "But cutting the gluten and sugar and dropping 50 pounds, that is work that you've already done."
+      ],
+      "timestamp": "00:33:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The rep speaks under the label 'Andrew Jin (Primal Instinct)' throughout, so a label-driven parse would attribute this call to a different closer.",
+      "evidence": [
+        "06/07/2026 - Emerson Mendez x Andrew Musial KFS ",
+        "Where exactly do you live? Cause I'm also into hiking and so."
+      ],
+      "timestamp": "00:12:49"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-25_alan_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Asked directly whether it would clear the stiffness he answered 'Well, I think so, yeah.' He engaged with the simplicity argument he had raised himself — 'what's interesting to me is the simplicity of the factor' — but he did not tie the pillar to his own goal or ask how it would work, and the back-pain question he cared most about was answered with a caveat rather than a mechanism."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'I mean, I'm pretty sure I'm comfortable with that, yeah' and, on the eating window, 'I like the window. Yeah, window's good.' He had already pushed back once on rigid dieting — 'it's not sustainable to have a routine that you're going to just die by' — and accepted once told there was no calorie counting."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "confused",
+      "evidence": "This pillar needed correcting twice. He asked 'Are these check-ins with Trevor himself, or with you?', then 'how many clients does he have right now?', 'How does he have time for everybody?', 'Wait, he does check-ins with 60 different people?', 'So it's not like a one-on-one meeting with him every week?' and finally 'What's the difference between this and like other apps? Like there's a ton of stuff out there that does this kind of stuff.' The rep had to restate it deliberately — 'I do want to say that again. Like, it's not just an app in which he checks a few things a few times' — and the prospect confirmed the misunderstanding: 'because I think it was like a small miscommunication.' The pillar he named as most important for him is the one he understood least."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "at least over here, I was paying $200 a month, I could cancel the subscription, I'm giving you $6,000 up front",
+      "direction": "undercuts_price",
+      "competitor": "Previous local CrossFit and in-person personal training at roughly $200/month",
+      "note": "The anchor is not the price but the cancellability. He is comparing a monthly he could exit against a prepayment he could not, on a body that has failed him repeatedly. Objection C has no move for this."
+    },
+    {
+      "type": "payment_model_expectation",
+      "raw": "genuinely, I thought it was going to be more like a subscription model",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Stated at 01:17, over an hour in, as the reason he took the meeting at all. He had also asked immediately after the number landed: 'So it's like you, it's a one-time fee or monthly payment or something?'"
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "We also have that, but it's not going to fit for you. It's not going to help you get to your goal. So you can pay us two in a box a month.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "The rep surfaced the monthly product himself when the subscription expectation came up, and dismissed it in the same breath. Reads as roughly two hundred a month through the garbled audio, matching the figure named in the 06/22 team meeting and quoted to a different prospect three days earlier."
+    },
+    {
+      "type": "self_stated_capacity",
+      "raw": "I've wasted millions of dollars. I don't give a about six grand. It's about my own personal commitment.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Removes price from the equation entirely and moves the whole objection to self-trust. The rep correctly isolated on it — 'Outside of the money, like, why do you have a commitment issue?' — but then had no fear-and-doubt play to run."
+    },
+    {
+      "type": "failed_prior_solutions",
+      "raw": "I've had chiropractors, I've had physical therapists, I've had doctors, had MRIs, I have personal trainers, personal trainer, personal trainer, personal trainer, in-person personal trainer, online personal trainer, buddies that are ripped and bodybuilders. I've done it all.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Ten years of paid attempts that did not work is its own anchor: every one of them lowers the expected value of the next. He states the consequence explicitly with the shark metaphor — he has stopped expecting the glass to break."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To try a session before committing $6,000 — 'I'd rather try a session and see if it's going to agitate my back'",
+      "why_unmet": "There is nothing between free social content and a $6,000 six-month prepayment. The rep answered the request with a refund assurance rather than a trial, and the request was never revisited.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Assurance that a back flare-up will not strand the prepayment",
+      "why_unmet": "The company evidently does pause clients who get injured — the rep cited a case from that morning's team chat — but it was relayed as an anecdote with no terms, no duration and no mechanism, alongside an off-the-cuff 'we'll send it back'. The thing that would have answered the objection exists and could not be stated as a policy.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that loaded kettlebell work will not aggravate a suspected degenerated disc",
+      "why_unmet": "Nothing in the process assesses this. The coach is not a clinician, the rep said so twice, and there is no clearance step, screening question or contraindication protocol anywhere in the offer. The prospect asked for exactly this in his first answer of the call and never got it.",
+      "verdict": "product_gap"
+    }
+  ]
+}

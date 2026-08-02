@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-05-18_andrew-gallegos_harry-edmonds",
+  "source": {
+    "drive_file_id": "1oiiZfzATINdWXh1Afmc7kVXfHS_7uRTb",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/18/2026 - Andrew Gallegos x Harry Edmonds KFS ",
+    "display_title": "05/18/2026 - Andrew Gallegos x Harry Edmonds KFS  — Closed",
+    "file_size_bytes": 48887
+  },
+  "call": {
+    "date": "2026-05-18",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep at 00:01:14: 'I know you spoke with Kim, he gave me like an overview, so I've got a little bit of a head start on you.' Note this rep consistently refers to Kim as 'he'."
+  },
+  "prospect": {
+    "name": "Andrew Gallegos",
+    "aka": null,
+    "name_source": "title",
+    "location": "Redding, California, USA (Pacific Time)",
+    "age": 27,
+    "occupation": "Studying prerequisites for nursing while working a part-time job. Holds a first degree as a physical therapy assistant (PTA). Switched career paths after his first child to get a three-day week and longer weekends.",
+    "family_status": "Married to Anna. Two children: a two-year-old son and a three-week-old daughter. One shared bank account, held in his wife's name; she manages the household finances. Describes a difficult childhood — 'I did have a weaker dad. There was some form of abuse with my mom' — and was homeschooled for a long time with few close relationships.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained on and off in his early twenties, always stopping after three or four months. Has not worked out at all in roughly one to two years. Tried Trevor's posted workouts for a couple of weeks about a year or two ago and got good results. Stays incidentally active — daily dog walks, carrying his son. Owns a 35 lb and a 40 lb kettlebell; picked up the 35 recently and was still sore days later. Raised vegan until around sophomore year.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.7,
+    "signals": [
+      "Proposed label: the_overwhelmed_novice. Distinct from the_rebuilder because there is no former self to recover — he has never been in shape and says so: 'I haven't seen myself in the best shape I've ever, like, you know, I don't even know what my body would look like' and 'I've never been happy with myself. So I don't know what that looks like.'",
+      "The blocker is not effort or money in the ordinary sense, it is information paralysis from free content: 'with the knowledge on social media, there's so many different types of workout programs... over time that sort of actually made me less motivated to do anything'",
+      "Buying accountability and permission rather than programming — 'my biggest thing is I just want that accountability. I want someone that's kind of in your corner. I don't have that around me.'",
+      "High vulnerability markers: 27, three-week-old baby, mid-career-change, no personal access to household funds, and volunteered childhood abuse, isolation and self-described mental stuckness during discovery"
+    ]
+  },
+  "goals": [
+    { "text": "Be efficient with training time and stop wasting it deciding what to do", "category": "convenience" },
+    { "text": "Have accountability and one person in his corner to cut out the noise", "category": "consistency" },
+    { "text": "Finally stick with something for six months — 'finally having stuck with something'", "category": "consistency" },
+    { "text": "Get in the best shape he can before he turns 30", "category": "appearance" },
+    { "text": "Keep shoulder mobility and stop feeling stiff through shoulders and pecs", "category": "mobility" },
+    { "text": "Be a role model his son and daughter can watch and learn this from", "category": "family_role_model" },
+    { "text": "Have the energy to keep up with two small children through the day", "category": "energy_performance" },
+    { "text": "Feel good in his own skin so he has the confidence to try more in other areas of life", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Paralysed by the volume of conflicting fitness information online; follows many pages and does nothing", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Has not trained in one to two years and historically quits after three or four months", "category": "consistency", "severity": "high" },
+    { "text": "Self-sabotage — gets a quick result, decides it is good enough, stops", "category": "motivation", "severity": "high" },
+    { "text": "No accountability structure and no driven people around him: 'the people I'm around now aren't necessarily driven. They're kind of just settling'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Physically drained and mentally drained by disliking how he looks: 'I'm not happy with how I present myself physically. And so that's always kind of dragging me down'", "category": "confidence", "severity": "high" },
+    { "text": "New baby three weeks old plus nursing prerequisites plus a part-time job; no time and no motivation", "category": "time_scarcity", "severity": "high" },
+    { "text": "Difficult childhood with abuse in the home, homeschooled, no camaraderie or sport growing up", "category": "emotional", "severity": "medium" },
+    { "text": "All-or-nothing pattern with food; discards the whole plan if it does not connect to a big picture he cannot define", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "No independent access to household money — one joint bank account in his wife's name and a personal credit limit below the price", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "A little disappointed. I mean, I want to do it so bad, but she thinks it's more than our house payment monthly. I don't know, dude. She thinks I can learn it by myself.",
+      "timestamp": "00:42:18",
+      "rep_response": "Asked permission to speak man-to-man, established that his wife did not know the depth of what had been discussed, then argued his showing up for his kids outweighed her financial concern. Asked once whether it would put him in a tough spot, accepted 'not necessarily', and reframed proceeding as courage. Predicted she would be glad in five years that he had gone against her. Booked onboarding, then took the card. No payment plan was offered and the scripted deposit-with-refund fallback was not used.",
+      "response_tactic": "reframe_spouse_refusal_as_courage_to_self_commit",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "She thinks I can just learn the information by myself, pretty much.",
+      "timestamp": "00:42:46",
+      "rep_response": "Did not address the substance directly with her reasoning; redirected to what the prospect needed emotionally — 'does she know to the level of depth that you and I have been into about really what's going on?' The prospect answered the objection himself: 'my biggest thing is I just want that accountability.'",
+      "response_tactic": "redirect_to_emotional_need",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Okay. Well, I have a 5,000 limit on my credit card, and that's sitting at zero. So I'll get my, I think she has better credit and she has a bigger credit card.",
+      "timestamp": "00:37:33",
+      "rep_response": "Not treated as an objection. The rep answered the logistics question — 'We take care of it now if that's possible' — and did not register that the stated personal limit was below the price, nor ask any financial-picture question.",
+      "response_tactic": "none_proceed_to_payment",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'the guarantee is that, for example, for the six months, you will be swinging a eight kilo, which is almost 20 pounds heavier kettlebell with every movement by the end of the six months... if you don't reach that when we work together, we work with you for free until you get to that point, so you pay for the result.' Also stated that upgrading from six to twelve months later costs $3,000 rather than a second $6,000.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Disclosed a personal credit card limit of $5,000 sitting at zero — below the $6,000 price — and that his wife has the larger card and better credit. Stated there is one household bank account and it is in her name: 'no we have one bank account it all goes into hers'. Wife's objection was framed in monthly household terms: more than their house payment. No income, surplus or savings figure was requested at any point."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect committed to the six-month tier: 'well then, yeah, let's start with the six months'",
+      "Onboarding call with Trevor booked live for Wednesday at 3:15pm Pacific",
+      "Payment capture under way: 'well here's the i'm just gonna give you the debit card number and then i'll get beat up later', followed by the rep confirming his email and the recording being stopped to take card details",
+      "Strong counter-evidence, recorded deliberately: his wife had explicitly refused minutes earlier and the account is in her name. The charge is therefore exposed to dispute or reversal and should not be treated as settled revenue until it clears",
+      "Further counter-evidence: the recording ends at 00:49:09 before any payment confirmation, so success is not evidenced on the transcript",
+      "Prospect's own framing of the decision was conflicted throughout: 'I kind of need that boost, I guess' and 'that jiggle was one of, like, you'll be sleeping on the couch for a week'"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Onboarding Zoom with Trevor booked for Wednesday 3:15pm Pacific; rep offered that the wife could join that call. Tailored training, nutrition and mobility plans 24-48 hours after, so Wednesday or Thursday."
+  },
+  "notable": {
+    "note": "The most serious conduct finding in the batch. The prospect left the call to ask his wife, who holds the sole household bank account and manages their money, and she said no on the grounds that $6,000 exceeds their monthly house payment and that he could learn it himself. The rep then coached him to proceed anyway — 'the word is courage... courage to put yourself first', 'it's courage for you to get your [ass] kicked maybe for a week', 'she'll look back on this moment and go, I'm pretty glad that he went against me on that one' — and took the card. He had already disclosed that his own credit limit is $5,000 against a $6,000 price. No payment plan was offered on this call at all, even though the rep had structured 50/50 splits for two other prospects two days earlier and the wife's objection was explicitly about monthly cost. Set against that, the discovery was the best in the batch: the sabotage observation at 00:13:14, the perfect-version-of-Andrew question at 00:14:13 and the reflect-back at 00:19:41 are textbook, and this rep's phase 3 and phase 4 work here is genuinely excellent."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion, particularly in long turns. The block at 00:04:00 opens under the rep label but is mostly the prospect describing his training history. The block at 00:19:41 attributed to the rep runs both sides together, and 00:21:00 under the prospect label opens with the rep's commitment question 'I've got two questions for you'. The offer walkthrough and the payment exchange from 00:47:04 onward alternate wrongly, with the rep's scheduling lines landing under the prospect label. Roles read from content throughout."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-27_rick-tuha_andrew-musial",
+  "source": {
+    "drive_file_id": "1pzrfwNoObSE1vMJHQFoJ6Oy17FPER4cw",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/27/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/27/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 10307
+  },
+  "call": {
+    "date": "2026-07-27",
+    "stage": "onboarding",
+    "sequence_position": 2,
+    "sequence_note": "Deal was agreed on an earlier, unrecorded call. This session exists only to execute the agreement signature, take payment and book onboarding. The rep opens with 'did you manage to go through the agreement?', implying it was sent after a prior conversation.",
+    "duration_min_est": 22,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Rick Tuha",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Nampa, Idaho, USA",
+    "age": null,
+    "occupation": "Runs a non-profit cultural festival (10,000+ attendees); role/day job not stated",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.2,
+    "signals": [
+      "PROPOSED LABEL: insufficient_signal — this is a payment-and-onboarding-only session with no discovery content whatsoever. No goals, pains, training history, medical history or motivations are discussed, so no avatar can be assigned honestly from this transcript. The discovery sits on a prior call that is not in this batch.",
+      "Only personal colour available: runs a non-profit cultural festival in Idaho, describes it as 'completely non-profit, we're not trying to make money'."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": true,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Card details taken live and entered by the rep into a manual payment form: 'now I would need the card details'",
+      "Agreement received and signed during the call: 'Yeah, got the agreement. Okay. ... Okay, signed.'",
+      "Onboarding call with Trevor booked for Wednesday the 29th at 12:15 Mountain Time",
+      "COUNTER-EVIDENCE: the rep never verbally confirms the charge succeeded on this call — he says 'I have the link that I need to fill out all the details' but no authorisation or receipt is confirmed before hang-up",
+      "COUNTER-EVIDENCE: no price or contract value is stated anywhere in this transcript, so cash collected cannot be established from the recorded corpus"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email kettlebell purchasing information and the onboarding questionnaire manually (both missing from the automated flow because the agreement is custom); onboarding call with Trevor Wed 29th 12:15 MT."
+  },
+  "notable": {
+    "note": "The prospect's full 16-digit MasterCard number, expiry and CVC are dictated aloud, repeated back several times for confirmation, and are captured verbatim in the recorded transcript now sitting in Drive. Separately, the deal runs on a 'fully custom' agreement outside the standard checkout link, routed through a manager named Angelo for e-signature, and its commercial terms appear nowhere in the recorded corpus."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy swapping throughout. The card digits, address spelling and the question 'Did you send me the contract already, Andrew?' are all attributed to the wrong speaker — the line addressing Andrew by name is labelled as Rick's turn but sits inside an Andrew-labelled block. Role was read from content: the rep is the one collecting payment details and checking Trevor's calendar."
+  }
+}

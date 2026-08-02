@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-07_julian-malfregeot_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Engaged on mechanics rather than being sold — asked repeatedly about specific tools he wanted added, 'the steel mace, I think having things like that, maybe some sandbag movement, or whatever it may be, just introducing some new stuff', and probed what the coaching would actually catch. Notably he had assumed it was a follow-along product until this point: 'I didn't know such direct access and it was a custom program. thought it was more so just another follow-along type deal.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "Pushed back on the substance because the pillar contradicts his practice. The rep pitched simplicity over tracking — 'he's not about, actually, obsessive calorie counting and tracking' — to a man who tracks macros daily and enjoys it: 'Do you actually enjoy calorie counting and weighing everything?' / 'Yeah, honestly, I actually do.' He had already declared 'I would say nutrition is something I definitely have dialed in.' The rep conceded the pillar entirely — 'Trevor will only review it... this isn't, like, a massive overhaul for you' — which removed a third of the offer's value for this prospect."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no questions — 'Awesome, awesome' — after the app, weekly check-ins and direct cell access were described. The rep himself acknowledged the pillar's usual framing did not apply: 'for a guy like you, you don't need motivation. I think for you, would be actually pausing you or stopping you to maybe do less a little bit.' Accepted rather than valued."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "Max trains through an app called Playbook. You have to pay for his program. There's a slew of different programs within the Playbook app",
+      "direction": "undercuts_price",
+      "competitor": "Maximilian Moves (Playbook app)",
+      "note": "The dominant anchor and a working one. A year of five-day-a-week training, real strength progression, and a full library of programmes at app pricing. He found Trevor only because the two coaches follow each other on Instagram, so the competitor is also the referral source."
+    },
+    {
+      "type": "other",
+      "raw": "I mean, it's just about a thousand bucks a month for the six months, essentially.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He unit-priced the offer immediately and the rep pushed back on the framing rather than the number — 'We don't like to put it for a month because you're getting a transformation.' Once a prospect converts to a monthly rate the comparison set becomes personal trainers and gym memberships, which is exactly where he took it: 'it is steep for like a workout program.'"
+    },
+    {
+      "type": "other",
+      "raw": "4K in the market right now could be 5-6K in the same amount of three months. can make 2K and continue doing what I'm doing.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Opportunity cost of capital as an explicit anchor — unusual and worth noting at scale. He is comparing the programme not to other coaching but to leaving the money invested, and quantified the alternative return live. No play exists for this."
+    },
+    {
+      "type": "other",
+      "raw": "I would definitely be willing to spend more money on something that was like in, in person as opposed to something virtual.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "In-person coaching as the reference standard against which remote delivery is discounted. The rep agreed with the premise, which conceded that the product sits below the anchor rather than beside it."
+    },
+    {
+      "type": "other",
+      "raw": "I do get massages monthly. I have a massage memberships. I do go and get worked on monthly as well.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Established habit of paying recurring money for physical maintenance, alongside a completed three-month paid chiro and physio programme and a paid training app. Willingness to spend on health exists; it is the size of this specific cheque against a working incumbent that failed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "In-person or local training rather than remote coaching.",
+      "why_unmet": "The programme is structurally virtual — app, video form review, text access. He was explicit that this was the deciding factor: 'if we were in the same city and we could train together or train in person, this would be like a completely different conversation, but doing something like virtually.' The rep conceded the point rather than defending the model.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A lower-commitment, lower-price offer for someone already advanced who needs refinement rather than transformation.",
+      "why_unmet": "The productised offer starts at six months and $6,000 and is positioned around transformation. He identified the mismatch himself from the intake questionnaire. The company's own response was to invent a three-month tier at $4,000 on the spot, which is the clearest possible evidence that the gap is real and currently filled by improvisation rather than by product.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Movement-library breadth — steel mace, sandbag and other tools beyond kettlebells and calisthenics.",
+      "why_unmet": "He raised this twice as his primary reason for the call and it was never answered. The rep acknowledged the steel mace exists in Trevor's content but never confirmed whether those tools appear in a client's programme, so the prospect's central question went unaddressed for the whole 38 minutes.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To learn programming well enough to write his own workouts and eventually coach other people.",
+      "why_unmet": "The rep claimed this is the philosophy — 'by the end of six months, you don't actually need him... we teach you how to fish' — but offered no mechanism, curriculum or evidence, and the prospect had already said he could not picture what competence would look like. Whether a one-to-one coaching programme actually transfers programming capability, as opposed to delivering programmes, is not established anywhere on this call and needs a human answer.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

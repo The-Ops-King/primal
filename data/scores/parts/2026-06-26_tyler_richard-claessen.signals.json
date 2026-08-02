@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-26_tyler_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yes.' at 00:27:18 and 'Probably. Sure.' when asked whether it would improve on what he is doing. He was already pre-sold on the modality and had explained why before the pillar was delivered: 'clearly doing isolated workouts isn't doing what I want it to do.' His enthusiasm sat with the concept rather than with the pillar as presented."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "confused",
+      "evidence": "The eating-window explanation was garbled and had to be corrected: 'You said not eating from when we're awake to when we're asleep?' and 'I was like, well, if I'm not eating from when I'm awake to when I'm asleep, when am I eating?' Once clarified he engaged strongly and set his own condition — 'If I'm going to eat healthy, I want to make sure I enjoy it... I don't want boiled chicken and white rice with salt and pepper. And go, man, I'm living life right now.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He rejected the substance of it, twice and explicitly. 'I'd rather be more independent and get some check-ins than have constant access that I may or may not use.' And 'I am the kind of guy who's not going to text somebody, you know, I'm not a big bother people. I understand everyone's busy, I'm busy, and so I know I would not use that.' The rep pushed once — 'But why wouldn't you, would you not want to make the most use of it?' — and got 'I guess if I'm paying that much, I would', which is compliance rather than conviction. This is the pillar the $6,000 is priced on and it is the one he does not want."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "For a weekly check-in, you know, I mean, weekly check-in, some videos being sent, maybe critiques, I was estimating, you know, some nutrition stuff here and there, I was estimating around 500 or less a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The anchor was built from the presentation itself. He priced what he had been described, and unlimited direct access had not been described clearly enough to be in the number. Half the gap between $500 and $1,000 a month is a delivery problem, not a value problem."
+    },
+    {
+      "type": "household_budget",
+      "raw": "as a family, do we think that taking $6,000 out of, or $3,000 more than I'm expecting, out of the budget is something",
+      "direction": "undercuts_price",
+      "competitor": "Everything else four children need",
+      "note": "The competing claim on the money is a family of six, and the co-decider is explicitly not invested: 'My wife is not dying for me to look great.' Nothing in the call gave her a reason to be."
+    },
+    {
+      "type": "competitor_set",
+      "raw": "there's a bunch of people or coaches I've seen online and I haven't gone to them... they're still on my Facebook feed",
+      "direction": "undercuts_price",
+      "competitor": "Other kettlebell and fitness coaches on social media",
+      "note": "An unpriced but crowded substitute set he is already consuming for free. The rep asked the right question — what stopped him going to them — and got a genuine differentiator back about full-body versus isolation work, which is the strongest positioning moment in the call."
+    },
+    {
+      "type": "planned_equipment_spend",
+      "raw": "I'm ready to pull the trigger. I'm ready to buy adjustable kettlebells. I've already priced one out.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Genuine buying behaviour already underway before the price was named, and evidence that the modality objection is not a dodge. It is also a competing budget line in the same household."
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "That would be either two grand a year or 200 a month.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "Introduced in response to a scope request rather than to hesitation, which makes it the most defensible of the four times this tier appears in the batch. It still ends the call with the prospect deliberating between $200 a month and $1,000 a month."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Periodic expert form review without unlimited access — 'maybe less frequent contact, you know, once a month review of my stuff? Hey, you're doing great, maybe tweak this here and there, rather than constant'",
+      "why_unmet": "There is nothing between unlimited one-to-one at $6,000 and a community tier where, in the rep's own words, Trevor reviews form only 'sometimes' and another coach called Caden handles some of it. The exact product this prospect described does not exist at any price.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Evidence that a 35 lb two-handed kettlebell is as effective as the 90 lb dumbbells he already uses — 'Just want to see it lived out'",
+      "why_unmet": "No trial, no demonstration and no evidence beyond before-and-after photographs he had already seen. The mechanistic question he asked was answered with an anecdote about how tired he would be. The programme almost certainly has an answer; nobody gave it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Workout logging in the app on the lower tier",
+      "why_unmet": "Answered directly: the app exists because Trevor needs visibility on the one-to-one tier, so on the community tier 'you can very easily just go into Sheets, log it there for yourself'. A deliberate boundary, but it removes the tracking layer from the tier he is most likely to buy.",
+      "verdict": "product_gap"
+    }
+  ]
+}

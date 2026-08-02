@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-06-12_sales-team-meeting_ben-byrne",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A reviewed call in which the prospect disclosed an undiagnosed back injury from deadlifting and was closed at $6,000 with no clinician clearance sought was praised in training as textbook process.",
+      "evidence": [
+        "I was trying to deadlift, and, you I built my way up to something about 220, 245 pounds, something like that, deadlift, and I think I pulled my back, so that put me out for a little bit. So, I never got diagnosed, you know, or anything, but I did some preventative exercises, strength in my lower back, so there was some, there was maybe a strain there, perhaps",
+        "So, that's what I wanted to ask, any other chronic conditions? No. Nothing.",
+        "It's all close. I mean, not much more to really say about this. He's a great prospect, and you handled the call really, really well. It's like a textbook, great process, great prospect. This is exactly who we close, and you ran it, you ran the play well."
+      ],
+      "timestamp": "00:36:10"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Manager described the actual target customer as men needing to lose 20-40 lb, directly contradicting the ICP as stated to prospects on live calls, and confirmed new marketing is being built around it.",
+      "evidence": [
+        "We're targeting people, essentially, who have like, their entire life put together, except fitness. Like guys in there. 40s, 50s, that's the type of person we're really more targeting towards",
+        "they have life together, they might have some injuries, they might have some things, and they need help to actually, like, get their health in order. Like, they need to lose maybe 20, 30, 40 pounds.",
+        "That's the sweet spot.",
+        "So that's where we're making a whole new VSL around"
+      ],
+      "timestamp": "00:41:52"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager coached the open-wallet sequence as a method for maximising cash extraction, including directing a prospect with available credit to put the full amount on a credit card.",
+      "evidence": [
+        "then I would open wallet him and figure out exactly what sort of payment plan he would need to make work. Because that's how you collect the most cash out from somebody that you can collect.",
+        "maybe you find out he could have piffed. And he has $20,000 on a credit card, and then you find out, dude, just put it on the credit card, pivot. That's why people do it."
+      ],
+      "timestamp": "00:38:53"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Prices outside the stated $6,000/6mo and $9,000/12mo offer are in routine use across the team — a $4,000 three-month tier, a $4,000 split into two payments, and a $4,000-plus-$2,000-top-up bridge into the six-month programme.",
+      "evidence": [
+        "He got in for three months, but he will do the six months. ... He was just short on cash at the moment. He was just making sure that if it's going to be what I said, that after those three months, he will only top up with the 2K, that is secured, yeah? So that he will do the six months.",
+        "Monday was 6K. Wednesday was 6K with two pay. Then was one piff, 6K split in two, and the 4K split in two.",
+        "2Pay. 2Pay 4K?"
+      ],
+      "timestamp": "00:00:47"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A six-month payment plan was quoted at $1,200 per month against a $6,000 programme, a total of $7,200, with the uplift used on the call as a reason to pay in full.",
+      "evidence": [
+        "So, I mean, you can't do like 1,000 per month, you know, that sort of thing? So the thing is, you could, but it's going to be a little bit more expensive.",
+        "So it's not going to be 1k per month. It's going to be 1,200.",
+        "you went right into telling him what it would be and using the interest against him to want to pay more, so you use interest as the thing as to why he should do it, which I don't really love that frame."
+      ],
+      "timestamp": "00:38:38"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Recording was deliberately terminated mid-meeting so the manager could speak privately with a rep, truncating the transcript at 47:29.",
+      "evidence": [
+        "Nice, bro. Let me get rid of these note takers. Just wanna have a heart to heart with you.",
+        "Just going back through my notes to see what they all did for work."
+      ],
+      "timestamp": "00:47:29"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospects were characterised by ethnicity and by name during the call review, with a work-ethic generalisation attached.",
+      "evidence": [
+        "And he's also half Indian, I think. So work for them is always a priority.",
+        "He's got the whitest name ever, though. ... Thomas Joseph. Interesting. Love it. No judgment. I just had to point it out."
+      ],
+      "timestamp": "00:34:28"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Manager endorsed as a favourite line a framing that tells prospects they need not read the agreement before signing it on the call.",
+      "evidence": [
+        "Do I sign it now or do you to read it now first? You can read it.",
+        "Because I always love it when people were like, do I have to read it? And it's like, you don't have to read it, but you can read it.",
+        "We're not hiding anything from you. Read it."
+      ],
+      "timestamp": "00:37:58"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-06-09_michael-schaedle_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "No setter and no application, so P1a is unreachable. The frame was the same two-part version used across the batch, with one improvement — a disqualification clause: 'I just want to get a good idea of where you're at. You know, build out what it is that you want. And then if there's alignment and we can help you because we can't help everyone, then we can talk. And if not, that's fine as well.' Still missing 'what's in the way' and 'what you need'. Agreement taken ('All righty?' / 'Sure.') and the open question ran clean: 'What were you hoping we could potentially help you out with, man?' Handled the Zoom failure and the switch to phone gracefully."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "miss", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "One baseline question was asked in the entire call — 'What's your diet like?' — and it was a good one. Everything else the rep ended up knowing, the prospect delivered himself in an unprompted three-minute self-brief: age ('I'm 58, going on 59'), height and weight ('My weight is about 210 on a 5'9 frame'), the full training week, the type 2 diabetes, the GLP-1, the shoulder injury and the slow healing. Under the rule that the script credits asking rather than luck, all of those score miss. The consequential ones are P2c and P2d: a prospect on active pharmacological therapy for type 2 diabetes with a three-month-old unresolved shoulder injury, and the rep asked no health question and no injury question. Work was never asked either — the law firm surfaced only during the Zoom troubleshooting. Sleep and energy never came up."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "partial", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "hit" },
+      "evidence": "Two genuinely good reflect-backs, and almost nothing else. The clarifying question at 00:05:42 was sharp and worth keeping — 'when you said easy, you mean in terms of convenience, right?' — which drew the important correction 'I don't need it to be easy on me. I need it to be appropriate to me.' The reflect-back at 00:09:49 was excellent and landed cleanly: 'the concern for you is, with the GLP-1s... you don't want it to come from muscle', answered 'Right.' Then 'You care about health, not the number on the scale' produced 'I don't care how I look.' But the rep never asked what would change, never asked what he cannot currently do, never asked what is driving this beyond the physical, and never asked who else it impacts — no family, spouse or dependants were mentioned once in twenty-five minutes. The prospect supplied the deep why himself and it went nowhere."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "One scoped past-attempts question ran — 'What's your experience like with kettlebells?' — which usefully produced both the attempt and its failure mode: 'the handbooks that I've had don't really give me a real great sense of how to properly use the kettlebell.' The prospect named his own gap, technique knowledge, and volunteered a vivid failure story: attempting 225 lb on the bench after watching an Eagles defensive tackle, managing four reps and damaging his shoulder for three months. That is a complete past-attempt-and-consequence narrative and the rep did not ask a single follow-up on it. No 'why do you feel it didn't stick', no 'what's the one thing getting in the way', no 'the information isn't the problem'."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Not run, and this is the most conspicuous miss in the batch. The prospect delivered the consequence frame himself, unprompted and in the strongest possible terms — 'My other alternatives are to die in my 70s, so I would prefer to live a little longer than that healthfully' — and the rep's entire response was 'Yeah, I would too.' A two-year picture, a willingness-to-settle question, a why-not and a line in the sand were all sitting there fully loaded. Nothing was asked. He later added 'think of my engine as overheated all the time', a second open door, also unused."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind. The belief question was never asked in any form — the rep asserted capability instead ('I feel like we can') rather than asking the prospect whether he believed it. P6b never asked, so nothing was isolated before the number. P6c fails by default: the rep went straight from the support and progression description to the guarantee and the $6,000 with no yes of any kind on the table, under a visible time squeeze created by the prospect's hard stop."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Unreachable. The prospect requested a written proposal and deferred the decision to a Friday follow-up, so no payment, onboarding booking, agreement or welcome sequence was in play. Unlike the Ken and Rafal calls, the Trevor onboarding call was not even pre-framed — the rep described Trevor as the coach but never walked through the start sequence, which is arguably the specific thing the prospect asked for."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Fear of injury was raised twice and explicitly — 'if I do them wrong, I'm not just not going to perform, I'm potentially going to damage myself' and 'if I don't learn how to do these exercises, I'm going to damage myself'. The rep answered on substance and answered well, with the form-first-month framing and the bench-press analogy ('somebody can bench press 400 pounds and then they try and do a 70 pound [swing], it's not going to end up going very well'), and the prospect visibly accepted it: 'It does 110%, right?' None of the five scripted OE moves ran — no certainty question, no pleasure-versus-pain, no bridge, no plane, no burned-before. Scored partial because the concern was substantively resolved without the play. Worth noting this is arguably the correct call: the objection here is a legitimate clinical concern from a 58-year-old with an unhealed shoulder, and treating it as a fear pattern to be reframed would have been the wrong move."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I'll either sign up or I won't by then' and 'if I like it, I'll buy it, and if I don't, I really appreciate your time' is the trigger. No play ran. The rep accepted the deferral, agreed to send material and booked Friday. He did ask one useful fragment — 'What did you really want to see in that?' — which got a specific answer about module progression, but never asked what would make it a yes, never tested whether the written proposal was the real blocker, and never established what happens if the proposal is good."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clinical suitability. The prospect disclosed type 2 diabetes, active GLP-1 therapy with an escalating dose, blood pressure outside his target range, a shoulder unresolved for three months and markedly slowed healing — and there is no scripted path for establishing whether loaded ballistic kettlebell work is appropriate or for asking whether a physician has cleared it. This is the third appearance of the known clinical gap in this batch alone. Compounding it, the offer includes nutrition programming for a man whose eating is currently governed by a GLP-1 prescribed for diabetes, and the rep invited it ('feel free to suggest stuff about nutrition') with no reference to coordinating with his medical team."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Documentation request. The prospect asked twice for a written proposal with a module-by-module outline before he would buy — 'how would you describe each module that you would take me through' — and the script has no asset for it. The rep's answer effectively declined the question: 'It's not structured in a manner which is, well, in week eight you do this, it's completely tailored.' Tailoring is real, but a corporate lawyer asking for a written scope of work before a $6,000 commitment is not an objection to be handled, it is a buying process to be served, and the absence of any sales collateral is a company gap rather than a rep failure."
+    },
+    {
+      "play": "OC",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No money objection arose. The prospect already knew the price before the rep said it ('Well, you know how much it is' / 'the six months is six K, you know that'), and responded to the tailoring explanation with 'it makes perfect sense, sure, and justifies the cost'. Recorded because one anchor went unexamined: at 00:06:00 he had said he was 'willing to pay something modest', which sits some distance from $6,000 and was never reconciled."
+    }
+  ],
+  "notes": "Discovery was effectively outsourced to the prospect. He is articulate, organised and briefed himself thoroughly, which produced a good information set and a bad call — the rep asked one baseline question, ran no consequence frame and no commitment check, and reached the price with nothing established that he had earned. Two moments define it: the prospect said his alternative was dying in his seventies and got 'Yeah, I would too'; and he described a three-month shoulder injury from a single mistimed lift and was not asked one question about it before being recommended six months of progressive kettlebell loading. The reflect-backs on the GLP-1 muscle-loss concern were genuinely good and are the transferable part. Priorities for coaching: run P2c and P2d on every call without exception, and when a prospect hands you a mortality frame, stop and use it."
+}

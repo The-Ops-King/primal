@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-13_matt-smith_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Rep led on mobility as the foundation given the toe-touch failure. Prospect engaged and then probed a genuine gap - 'What about aerobic exercises? How does this play into it? I know doing the kettlebell workouts is aerobic to some degree, but... I'll start to get pain in my knees.' He also self-diagnosed overtraining mid-pitch: 'I've probably been working out too much... I may be overdoing it.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Accepted the what/when/how-much frame - 'Yeah, that sounds good' - then immediately volunteered the TRT episode and later challenged the credential behind the plan: 'What's Trevor's, what are his qualifications? Or, you know, what's his background in terms, I'm just thinking about nutrition. How did he gain this knowledge?'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Weekly check-in form, app and Trevor's cell number delivered against his travel and grandchildren. Response: 'Sounds like a good, well thought out plan.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "household_spend_threshold",
+      "raw": "we've kind of always said if we're going to buy something over $1,000, we consult with each other before we do that",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The strongest anchor on the call and it is structural, not competitive: any purchase above $1,000 is a joint decision in this household, and the offer is six times that threshold. It also means a payment plan under $1,000 a month would have changed the shape of the decision entirely, and none was presented."
+    },
+    {
+      "type": "personal_trainer_model",
+      "raw": "when you work with a personal trainer, like his business model is to keep you as long, as long as you can... Trevor's approach is to teach you how to fish and not just feed you with fish.",
+      "direction": "supports_price",
+      "competitor": "personal trainers",
+      "note": "Rep-introduced and it landed - 'I see the value in that, yeah.' The only reframe on the call that visibly moved him."
+    },
+    {
+      "type": "competing_capital_call",
+      "raw": "I've got two kids starting their own businesses at this right, right now... we're helping them get started, you know, financially",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Two children's business start-ups are consuming discretionary cash flow. The money exists ($50,000 emergency fund) but is spoken for, which is why this is a cash-flow objection and not an affordability one - a distinction the rep identified and then failed to solve for."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Nutrition guidance that safely accounts for twelve years of medicated type 2 diabetes",
+      "why_unmet": "He raised the question directly by asking about the coach's qualifications, and the answer was 'years and years of being a guinea pig on himself... just years and years of training, trial and error.' The programme offers no clinical or dietetic credential and no stated interface with his prescribing physicians, while the plan on offer would change his carbohydrate intake and eating window.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To run again without knee pain, having been cleared structurally by an orthopaedist",
+      "why_unmet": "Aerobic and running work sit outside the kettlebell programme. The rep offered a theory ('the muscles are not supporting your knees right now') and deferred the rest to Trevor - 'Definitely, that's something Trevor is going to address' - without establishing that the programme addresses running at all.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A payment structure that keeps any single outlay under the household's $1,000 consult threshold",
+      "why_unmet": "The rep promised options - 'we can do it like this, this, or this way' - and then never produced any, so the prospect went to his wife holding only the $6,000 figure.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

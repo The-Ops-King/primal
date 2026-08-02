@@ -1,0 +1,30 @@
+{
+  "call_id": "2026-07-15_ryan_michael-brideau",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Two prospects were double-booked into the same slot, so both calls were abandoned and rescheduled and neither produced any discovery; both appear in this single Drive file and will read as two calls in any per-file count.",
+      "evidence": [
+        "Ryan, give me a quick sec. Somebody just jumped in my waiting room. I want to make sure they're taken care of real quick.",
+        "I just realized there's some confusion with the calendar.",
+        "I'm just going to put you on mute and give them a super quick call, okay?",
+        "00:09:16 - Jonesie  I said good afternoon. I'm sorry. It was showing a video, then the video went away.",
+        "Yeah, you're all good, man. How you doing? Thanks for your patience there, man. I was wrapping up another call"
+      ],
+      "timestamp": "00:06:44"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Prospect disclosed a substance-use issue and a relationship breakdown in the opening minutes, unprompted, and the disclosure is retained in a transcript stored in Drive with no discovery having followed it.",
+      "evidence": [
+        "I just broke up with my girl of two years this past week, so it's been tough.",
+        "I've always struggled with [redacted] use, but it became prevalent and understood that my use was affecting our ability to connect at a long distance.",
+        "the past month, she said she would break up with me if I continued to use that. So I stopped.",
+        "I know it's a long explanation, but I might as well tell you what's going on."
+      ],
+      "timestamp": "00:00:23"
+    }
+  ]
+}

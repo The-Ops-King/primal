@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-05-20_julie-lucas_harry-edmonds",
+  "source": {
+    "drive_file_id": "1PVlEBw-HzWyzuTJkdg6BScb4Gosri2Ke",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/20/2026 - Julie Lucas & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/20/2026 - Julie Lucas & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 63655
+  },
+  "call": {
+    "date": "2026-05-20",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I know you spoke with Kim. He kind of gave me a little bit of a head start, said, you're working with a trainer, but not too engaged, looking out the window, which isn't great."
+  },
+  "prospect": {
+    "name": "Julie Lucas",
+    "aka": null,
+    "name_source": "title",
+    "location": "Boston, Massachusetts, USA",
+    "age": null,
+    "occupation": null,
+    "family_status": "Married to Bernard Davitian, a former professional footballer who played for Lyon; describes herself as over 50",
+    "height_in": 64,
+    "weight_lb": 150,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "High school and college athlete; long history of personal trainers 'since I was probably old enough to afford one'; currently trains six days a week — three weight sessions with an Equinox trainer at $130-135 a session, two runs and a stretching day; heavy on deadlifts, split squats and walking lunges; has run multiple half-marathons; lifetime weight ~120 lb, lowest 92 lb, now at her heaviest ever",
+    "medical": "Broke seven bones in her left foot and her right ankle; has had knee surgery and shoulder surgery; injured her back doing Pilates with a one-on-one coach and still gets episodic back tightening under load ('when my trainer gives me like a 15 pound ball and I catch it... I sometimes feel it'), which she self-manages with stretches taught at the TB12 clinic and by stopping the workout. Allergic to all seafood."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.68,
+    "signals": [
+      "Already training six days a week and paying roughly $1,600 a month for an Equinox trainer — price is a quality comparison, not a barrier: 'You'll save money'",
+      "Switching providers on dissatisfaction with engagement quality, not on cost: 'He's a doll and a deer and a lovely man, but I just wish he were like in it more'",
+      "Counter-signal for the_rebuilder: the 30 lb gain and 'It's the most I've ever weighed in my life' carry real regret, but it accumulated over four to five years of lifestyle drift rather than a hard season, and she remains highly capable"
+    ]
+  },
+  "goals": [
+    { "text": "Have a thigh gap", "category": "appearance" },
+    { "text": "Get rid of belly fat", "category": "appearance" },
+    { "text": "Get rid of back fat", "category": "appearance" },
+    { "text": "Lose 25 pounds, from 150 down to 125", "category": "fat_loss" },
+    { "text": "More attention on arms — biceps and triceps — rather than legs", "category": "muscle_gain" },
+    { "text": "Be the first female testimonial on Trevor's site", "category": "other" },
+    { "text": "Cook at home more and eat clean, alongside her husband who wants the same", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "At 150 lb, the heaviest she has ever weighed, against a lifetime norm of about 120", "category": "emotional", "severity": "high" },
+    { "text": "Eats out five nights a week and orders in the other two, with a cocktail and two glasses of wine most evenings", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Trainer is disengaged and does not correct her form — 'I will say, hey, is my form correct?... And he's like, yep'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Trainer asked to use her as a demonstration for other clients, which she resented", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Training is leg-dominant and repetitive — 'lunking loads of 45 pound plates on a bar... I don't like that'", "category": "program_fit", "severity": "medium" },
+    { "text": "Episodic back tightening under load, with prior knee and shoulder surgeries and seven broken bones in one foot and ankle", "category": "injury", "severity": "medium" },
+    { "text": "Cannot perform mobility work she sees Trevor demonstrate — 'holy crap, I can't do that'", "category": "competence_anxiety", "severity": "low" },
+    { "text": "Working out six days a week and still not getting the result — 'I still have a back fat and I still have a belly fat'", "category": "training_dissatisfaction", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "because every single testimonial on Trevor's website is a guy, I was like, okay, this is either, like, not like I'm so easily offended, but I was like, is it for women at all? Like, can women benefit from, I mean, the answer has to be yes, but he does not say woman, female, one single time.",
+      "timestamp": "00:17:57",
+      "rep_response": "Explained that 90% of the audience is men so the marketing targets men, said his girlfriend trains with kettlebells and works for Trevor, said he signed a woman two days ago, and later showed the prospect photographs of his girlfriend's midsection as proof",
+      "response_tactic": "audience_explanation_plus_personal_photo_proof",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I always prefer in-person and would pay extra for in-person just so that again, someone's like with me telling me like, no, when you're doing the halo, swing it slower or like, so is there, is there in-person an option?",
+      "timestamp": "00:19:19",
+      "rep_response": "Named it honestly as the one con of the model, then reframed around 24/7 access versus three sessions a week and the video-review form loop in month one",
+      "response_tactic": "concede_con_then_reframe_on_support_volume",
+      "resolved": true
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I have to figure out how many sessions I have already paid for with my trainer. Um, and then close that door with him.",
+      "timestamp": "00:41:07",
+      "rep_response": "Offered to onboard her immediately and start the six-month clock on her first training day so no time is lost, but never asked for payment or a decision",
+      "response_tactic": "decouple_onboarding_from_start_date",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "most people, you know, summer vacation. So when I travel, like that's one question.",
+      "timestamp": "00:37:45",
+      "rep_response": "Offered three options — take a bell, use hotel/gym bells, or pause the programme and get the days back",
+      "response_tactic": "travel_pause_policy",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "So the guarantee is that by the end of the six months, for the main kettlebell lifts, the three main ones, you will be using an eight kilo heavier kettlebell by the end of it... with the same intensity. Rep added: 'that's the minimum. That's the guarantee, right? And we always guarantee less.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement sent, no onboarding call booked",
+      "Rep explicitly deferred the close: 'Text me when you're ready and we can jump back on'",
+      "High intent — 'I'm like, I'm excited', 'part of me wants to be like the first girl That Trevor uses to say all the testimonials', and she saved his mobile number as a contact on the call",
+      "Blocker is a prepaid trainer commitment she estimates at about six weeks, plus a Memorial Day weekend trip",
+      "Counter-evidence: she never said yes to buying and stated her intent as 'I feel very well-informed to be able to make the decision', which is pre-decision language"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to check how many prepaid Equinox sessions remain, tell her trainer in person after the holiday weekend, then text the rep to book a second call"
+  },
+  "notable": {
+    "note": "Best discovery of the batch so far on baseline and the only call where the rep rephrased an injury question after the prospect brushed it off — then he closed the loop by minimising what she disclosed rather than screening it. Two commercially significant findings sit in this call: the prospect volunteered that she would PAY MORE for in-person coaching, and she raised unprompted that the brand's marketing contains no female representation at all, which the rep confirmed ('90% of our audience is men'). The rep answered the second by showing her photographs of his girlfriend's midsection on camera. He also stated the guarantee as 8 kg / 17.5 lb here, versus 20 lb on another call the same day. He again could not name the city his own founder lives in. A textbook-qualified, enthusiastic, high-income prospect left the call with no agreement, no onboarding slot and no payment request."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive inversion. The rep's questions at 00:02:31 ('how much do you weigh right now?') and 00:03:02 ('how tall are you') sit inside the prospect's blocks, and long stretches from 00:29:48 to 00:35:31 have the offer narration attributed to the prospect. One line at 00:20:09 reads 'I live in California as well... San Francisco', which contradicts the opening (Boston, Red Sox, TB12 'being in New England', 'Memorial Day weekend here in the States') and appears to be a mis-split of the rep's line about Trevor being in California; location recorded as Boston on the weight of the other evidence."
+  }
+}

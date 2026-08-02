@@ -1,0 +1,73 @@
+{
+  "call_id": "2026-07-07_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $200-a-month product is treated on a manager-run training call as a normal fallback when a prospect balks at $6,000, with no correction from the manager, and it was deployed on a live call the same evening.",
+      "evidence": [
+        "I expected it was going to be, like, a $200-a-month thing, I didn't really know what this was, so maybe I'm mistaken, and I'm sorry about wasting your time",
+        "I can still run you through the 2-on-in-a-month thing, see if you're interested in that, yeah.",
+        "Yeah, yeah, yeah, yeah. You're not here to create something that isn't there.",
+        "I think I saw something online that it would be like, I don't know, like about $200 a month. So I was kind of like, preparing for that."
+      ],
+      "timestamp": "00:41:30"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Reps were coached that they may pitch calorie and macro dialling to well-informed prospects even though the manager acknowledges Trevor's programme does not require tracking, and the manager assented.",
+      "evidence": [
+        "So with those, I know that Trevor, like, isn't really like, you need to count calories, but with those sort of people, you can still put that, right? Like if they want to really optimize and they're not counting, but for the rest of doing everything, okay, then you can still put that in the pitch, right?",
+        "You could, or you could, yeah, absolutely.",
+        "But with, when someone is already completely dialed in, but they're not counting anything, then you can still use it in your pitch. Like, Trevor's going to look at that with you if we really want to get into the next stage, and it's good to also really dial on actually getting your protein, carbs that are in place, yeah.",
+        "so how much protein are you eating? Okay, and how many carbs are you getting into that? And how many Faths are you getting a day?"
+      ],
+      "timestamp": "00:44:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A new team member named Derek Harris joined on 2026-07-07, which supplies a candidate identity for the previously unresolved 'DH' setter code but only bounds it forward of this date.",
+      "evidence": [
+        "All right. Well, Derek, welcome to the team. Good to have you here. Let's do a quick intro.",
+        "I'm 22. I live in Virginia. I don't have much going on right now. I've worked on a couple of different offers, like between setting and closing, mostly setting though.",
+        "Derek, we'll figure out projections for you once we get you, probably look later this week."
+      ],
+      "timestamp": "00:01:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "On a recorded manager-run team call, nicotine was discussed as a cognitive enhancer used by top closers and an Adderall remark followed, with no redirection.",
+      "evidence": [
+        "i think that was about uh using nicotine everybody all of the all of the best closers on his team are using whether they are pouches",
+        "There have been enough studies to show that nicotine does have cognitive enhancing abilities.",
+        "And I did used to work on Cole's team. And a lot of people on that team have a nicotine addiction.",
+        "No, Adderall, though, not kidding. Um, let's keep rolling."
+      ],
+      "timestamp": "00:16:05"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A closer used an ableist slur about himself on a recorded team call and it passed without comment.",
+      "evidence": [
+        "Richard is better spoken than me in terms of English and so on. I feel like a retard.",
+        "Nah."
+      ],
+      "timestamp": "01:01:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization in this multi-party file repeatedly attributes lines to the wrong speaker, including splitting single turns across two labels during the role-play blocks.",
+      "evidence": [
+        "00:19:36 - Richard Claessen Like, I definitely could notice that there's tightness in my shoulders. / 00:19:40 - Chris Klevan You know, there's a little bit of tightness in my hips",
+        "00:20:24 - Chris Klevan Why do you feel like you want to work on that? Well, because I don't think it's going to get better.",
+        "00:34:49 - Richard Claessen Yeah. Yeah. That's one extra layer. / 00:34:54 - Chris Klevan Andrew? / 00:34:56 - Andrew Jin (Primal Instinct) Yeah. Andrew? Andrew?"
+      ],
+      "timestamp": "00:19:36"
+    }
+  ]
+}

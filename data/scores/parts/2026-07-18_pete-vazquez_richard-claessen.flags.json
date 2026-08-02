@@ -1,0 +1,103 @@
+{
+  "call_id": "2026-07-18_pete-vazquez_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 68-year-old with X-ray-documented back problems, pre-spasm warning episodes, peripheral neuropathy in both feet and unspecified medications was taken through a full close for loaded kettlebell training with no question about medical clearance at any point.",
+      "evidence": [
+        "they tell me that my back is pretty messed up when you look on x-rays",
+        "sometimes I feel like I'm going to, you know, like when your back gives out and you go into spasms, I get those like early tweaks and it kind of tells me, hey, be careful today because you're right there on the verge",
+        "for whatever reason, maybe because of some meds that I'm on, I have neuropathy in my feet",
+        "We have an investment of 6k USD."
+      ],
+      "timestamp": "00:12:49"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The rep told the prospect the programme would eliminate his pain, an outcome claim made to a man with documented spinal pathology and unresolved neuropathy that nobody had assessed.",
+      "evidence": [
+        "every single day for like five to 15 minutes, you're also going to do a very quick mobility routine that focuses on all of the pain points that you mainly have at the moment, like your neck, your back",
+        "we need to build those things up and as we're building them up after some time those pains are gone",
+        "I can tell you right now your functionality is never going to be better if you don't work on it that's for sure"
+      ],
+      "timestamp": "00:37:56"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep disparaged the prospect's chiropractor as a temporary band-aid that does not fix the problem, positioning the programme as the real solution, to a prospect who had already voiced distrust of medical professionals.",
+      "evidence": [
+        "Like a chiropractor, probably what you've noticed as well, like they fix it for like a day or two, and after it creeps back in, right? Correct. Because it doesn't actually fix the problem.",
+        "It's more so just a band-aid that you put on, but it just automatically falls off again after a few days.",
+        "here in the US, after COVID, and I worked in the medical field for 40 years. I don't know who I can trust, anymore, you know what I mean?"
+      ],
+      "timestamp": "00:13:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "$500 was collected on this call as a refundable deposit against a decision the prospect's wife has not yet made, creating a real risk of the call being recorded as a close and the deposit as collected revenue.",
+      "evidence": [
+        "So for the deposit, we usually do 500. Do you feel like that works? Yeah, yeah.",
+        "The payment method was verified.",
+        "I see a benefit, you know, I see a benefit. I think it's worth it. I just got to make sure I get the green light.",
+        "If your wife says, no, you're not going to do it, and eventually it comes down to not being able, we just put it back."
+      ],
+      "timestamp": "01:02:02"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The deposit was presented as universal company practice for calendar management, a justification that appears on no other call in this batch and differs from the playbook's use of a deposit as a spousal-objection fallback.",
+      "evidence": [
+        "How we usually do this is because we do completely understand that, but because we do always want to keep everyone that we speak to accountable, and because we get so many meetings in our calendar the whole time, we don't want to just block off a slot of someone who isn't 100% committed yet.",
+        "Do I need to give you some sort of a deposit now? Yeah. Overall, it is always how we do it."
+      ],
+      "timestamp": "00:59:24"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Payment terms were improvised live — two instalments of $3,000 agreed, with a garbled statement implying interest applies beyond three payments and a $500 deposit to be deducted from the total.",
+      "evidence": [
+        "Most people pay it all upfront on their credit cards. We can split it up if needed. I would recommend maximum free, because after that we do, there isn't interest with that.",
+        "So you said it was 6,000 US. Yes. And I'm thinking about maybe doing in two payments. Is that okay? Like 3,000 and 3,000? That's okay.",
+        "when we get started on Monday, we can do... Like, we just deduct the 500 from the..."
+      ],
+      "timestamp": "00:48:14"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect stated that reviewing his medications and preparing questions for his doctor was part of what this purchase was for, and the rep neither corrected the expectation nor declined it.",
+      "evidence": [
+        "this is my main focus this year, is how can I focus on me and my health, and what kind of changes do I have to make, not only physically with my training, but also with the meds that I'm on",
+        "I'm trying to figure out what kind of information can I get on my own, so that I can ask better questions to my doctor, and not just take medicines, I don't want to live like that.",
+        "And do you feel like, yeah, this is going to help me to live out those goals? Yeah, exactly. So this is part of it."
+      ],
+      "timestamp": "00:50:24"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Age-suitability reassurance for a 68-year-old was given entirely through unnamed and uncertain examples.",
+      "evidence": [
+        "An example, I forgot her name, but someone got started two months ago and it was a she as well. She was around 65, I think.",
+        "Trevor has worked with people around 60, 70. I think that always was 75, not 100% sure, but around that age."
+      ],
+      "timestamp": "00:28:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts speakers continuously across this file, including on the price presentation and the deposit exchange.",
+      "evidence": [
+        "00:47:45 - Pete Vazquez: We have an investment of 6k USD.",
+        "01:01:33 - Pete Vazquez: Overall, it is always how we do it."
+      ],
+      "timestamp": "00:47:45"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-26_dexter-stewart_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "enthusiastic", "evidence": "Tied both halves straight to his own goals when asked if anything was missing: 'you hit on the strength and core strength and upper strength, lower strength, and with the kettlebells, looking at that... And the mobility, I want to make sure that I stay mobile and not get where I can't move.' He had to ask the rep to repeat the third pillar ('What was the last one?') but understood it immediately." },
+    { "pillar": "nutrition", "reaction": "accepted", "evidence": "Agreed without questions — 'Yes sir' to the eat-clean philosophy and, at the end, 'the nutrition, like you said, is very key.' He had already self-diagnosed diet as the main lever in the opening: 'I know most, 90% of it is diet, and I have to taper that.'" },
+    { "pillar": "accountability", "reaction": "accepted", "evidence": "Took the 24/7 support, weekly check-in and weekly plan adaptation without pushback or questions — 'Yes, sir' — including the rep's direct callback to his plateau: 'I how you've been at 290 for four months. We want to make sure that every single week you're losing weight.'" }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "I would talk to Sifu for sure and see if maybe he would put me on something",
+      "direction": "undercuts_price",
+      "competitor": "His martial arts instructor (Sifu) and training partners at his school",
+      "note": "Proposed label: free_help_in_existing_community. He named his fallback out loud if his wife says no, and it is free, local and social — plus 'I've had them, you know, reach out to me and say, hey, you know, if you want, I'll help you.' The rep did not counter it or even acknowledge it."
+    },
+    {
+      "type": "other",
+      "raw": "right now we just bought a house in the Dominican Republic and we're in the process of buying a house here",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: competing_capital_commitment. Two property purchases in flight is the actual obstacle behind the spouse objection, and it went entirely unaddressed — no payment plan was offered even though instalment options exist."
+    },
+    {
+      "type": "other",
+      "raw": "It took me, it took me about a year and a half to lose it.",
+      "direction": "undercuts_price",
+      "competitor": "His own self-directed effort",
+      "note": "Proposed label: proven_self_efficacy. He has already lost 130 lb unaided, which is powerful evidence he can do it himself and quietly weakens the case for paying $6,000. It could equally have been used to support the price — the plateau is exactly what coaching solves — but that reframe never ran."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A programme he can actually run for the next month with an unhealed foot fracture in a walking boot",
+      "why_unmet": "The rep asserted it works — upper body only, month one is form anyway — with no clinical basis and without knowing anything about the fracture or the treating clinician. Whether a boot-compatible protocol genuinely exists was never established.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Extended fasting protocols — he wants to work up to three-day fasts",
+      "why_unmet": "The rep affirmed the idea in passing ('Yeah, that's probably right') but never said whether the programme includes, supports or supervises extended fasting, so the prospect leaves believing it is endorsed without knowing whether it is delivered.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Strength work that complements rather than replaces his martial arts training",
+      "why_unmet": "The rep's framing implicitly positioned kettlebells against martial arts — 'hey, I'm doing martial arts and I'm sweating. My cardio is good, but I'm not very strong' — and never addressed how four kettlebell days sit alongside dojo training he has done since he was five and has no intention of stopping.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

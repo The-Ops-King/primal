@@ -1,0 +1,148 @@
+{
+  "call_id": "2026-07-06_thomas-dixon_andrew-musial",
+  "source": {
+    "drive_file_id": "1nt7CNF3gnROrkyntNynjIYE8y8zSdyUN",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/06/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/06/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 33144
+  },
+  "call": {
+    "date": "2026-07-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": null,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No suffix in the title, no application read-back and no setter named anywhere on the call. The prospect describes finding the programme through Trevor's videos, which he has already used."
+  },
+  "prospect": {
+    "name": "Thomas A Dixon",
+    "aka": "Tom",
+    "name_source": "transcript",
+    "location": "Florida, USA",
+    "age": 70,
+    "occupation": "Retired and on Social Security, with some additional income and a large property to maintain. Sits at a computer four to five hours a day. Occupation was never asked; these details surfaced only when he refused the price.",
+    "family_status": "Married; his wife cooks for them and is a joint decision-maker on spending. Three daughters he is still supporting. A grandmother who lived to 95.",
+    "height_in": null,
+    "weight_lb": 165,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Competitive senior swimmer, entering the Florida senior games — November qualification, December state, and a national event in Iowa in January for the top twenty. Normally swims four events per meet but currently only has the stamina for two. Swims a lot and does nothing else; explicitly not interested in gyms. Formerly a serious cyclist who completed a 120-mile race across Florida, and ran a marathon many years ago. Has already bought one kettlebell and used Trevor's free videos to some degree. Weight 165 lb, would prefer to perform at around 160.",
+    "medical": "Extensive and serious. POSSIBLE PROSTATE CANCER, UNRESOLVED: after a severe urinary tract infection requiring hospitalisation before last November's qualification, 'the urologist told me he thought I had prostate cancer, and that I would have to get a biopsy to find out.' He declined the biopsy and instead self-treated — 'my wife and I looked around and came up with a protocol using ivermectin, some other things, and keto.' At a three-month review his PSA had normalised and the urologist said 'I don't think you have cancer' and to return in six months. That review is due in September, so the question is open. ORTHOPAEDIC: right knee ACL reconstruction; left knee meniscus damage he is managing and declining surgery for. Cannot run. OPHTHALMIC: tore a retina when his head struck concrete after a stationary bicycle fall he could not unclip from; continued and completed a 120-mile race, then delayed reporting it for a week before emergency surgery saved the eye. He no longer clips into pedals. SPINAL: intermittent lower back pain on rising from prolonged sitting, relieved by standing and stretching. He also reports a prior adverse experience with a kettlebell: 'A little worried on some of them, I locked myself out with a kettle ball because of, you know, swinging it around.' When asked directly early in the call whether he had any chronic conditions he answered no; the cancer disclosure came later, unprompted, and was not revisited."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.6,
+    "signals": [
+      "70 years old, health-literate and already medically managed — follows a named local keto physician, quotes his own PSA results, is under urological surveillance with a September review",
+      "Low discretionary liquidity against a stable base: on Social Security, some additional income, three daughters still supported, a large property, and a stated ceiling of about $500",
+      "The longevity frame landed harder than the competition frame — when the rep reframed to 'being healthy, capable of doing things on your own when you're in your 90s too', he agreed, and he brings up his grandmother reaching 95 himself",
+      "COMPETING READING, recorded deliberately: he can be argued as the_prehab_fighter — there is an active, unresolved cancer question and he is training through it. He was not assigned that label because his stated motivation is athletic performance and general strength rather than fighting the illness, and the illness is being fought on a separate nutritional track. The distinction is academic for the audit: the clinical screening imperative that attaches to the_prehab_fighter applies to this call in full, and it did not happen.",
+      "Not the_optimizer despite being competitive — price was an absolute barrier, not a quality signal: 'I'm not going to be able to make that.'"
+    ]
+  },
+  "goals": [
+    { "text": "Build strength and fast-twitch capacity so he can swim faster at the senior games", "category": "hobby_performance" },
+    { "text": "Have the stamina to swim all four of his events in a day instead of fading after two", "category": "endurance" },
+    { "text": "Qualify in November, place at the December state meet, and reach the national event in Iowa in January", "category": "hobby_performance" },
+    { "text": "Build some lean muscle without gaining weight — perform at around 160 lb rather than 165", "category": "muscle_gain" },
+    { "text": "Be generally stronger — 'just generally, in life, I feel like it would be better to be stronger than I am'", "category": "strength" },
+    { "text": "Stay capable and independent into his nineties, which he agreed matters more than the competition", "category": "longevity_function" },
+    { "text": "Avoid the overtraining injury that derailed last year's qualification", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Plateaued for years — swims only and does no resistance work of any kind", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Unresolved prostate cancer question with a declined diagnostic biopsy and a September review pending", "category": "medical", "severity": "critical" },
+    { "text": "Right knee ACL reconstruction and left knee meniscus damage, surgery declined", "category": "injury", "severity": "high" },
+    { "text": "Cannot run and has not returned to cycling since the retinal injury", "category": "injury", "severity": "medium" },
+    { "text": "Lower back pain on rising after four to five hours a day at a computer", "category": "injury", "severity": "medium" },
+    { "text": "Trained too hard before last November's qualification and ended up hospitalised, losing the race", "category": "training_barrier", "severity": "high" },
+    { "text": "Recovery at 70 is materially slower, making overtraining a live risk", "category": "aging", "severity": "high" },
+    { "text": "Fixed income — on Social Security, still supporting three daughters and maintaining a large property", "category": "other", "severity": "high" },
+    { "text": "A previous self-directed attempt at kettlebell swings from the free videos caused a problem", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I didn't think it would be cheap, but I wasn't prepared for that, Andrew. I'm sorry, but I'm not going to be able to make that.",
+      "timestamp": null,
+      "rep_response": "Ran the value isolate — 'Just to triple check, finances aside, does this kind of check all the boxes for you?' — then the custom-plans framing and the worst-case game-plan offer, then proposed a one-month engagement at $1,200. No financial-picture questions were asked at any point.",
+      "response_tactic": "isolate_then_custom_framing_then_one_month_tier",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I would have to be at, oh my gosh, something about half that amount for me to be able. ... I would have to say I would be more, do something about the $500 I can't, I'm on Social Security and I'm taking care of my family still. So I have three daughters",
+      "timestamp": null,
+      "rep_response": "Not addressed as a ceiling. The rep proceeded to offer a $1,200 first month, which is more than twice the figure the prospect had just named as his limit.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Well, I can talk with my wife and if there's something, you know, you can do regarding the amount and, you know, I would still be interested, but that's about all I can say.",
+      "timestamp": null,
+      "rep_response": "Ran the OB play thoroughly. Asked whether he had discussed it with her before and what her position is; pre-framed her likely objection ('my concern is that her response is going to be, okay, so we want to do a fitness program for how much? Are you crazy?'); asked what he would do if she said no; drew out that the decision is his; and then executed the scripted deposit fallback with a $100 refundable deposit, a next-day call, and a promise of immediate refund on a no.",
+      "response_tactic": "obstacle_preframe_then_ownership_then_refundable_deposit",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "okay, well, can I have a day to think about that?",
+      "timestamp": null,
+      "rep_response": "Absorbed into the deposit play rather than worked as its own objection — the day was granted, structured around the wife conversation and the next-day call.",
+      "response_tactic": "grant_the_day_inside_the_deposit_structure",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "The one-month structure again: 'Let's team up for a month. Trevor will meet with you for the whole program... and you will get in for a full month, yeah? And the full month, it's like 1,200. And after this one month you will decide if you're in a position to go for another five months, and you would need to just top up the remaining, or you will say, okay, that was great, but I cannot do it, and that's fine, and we just shake hands and part as friends.' The top-up figure was never stated. Separately, a $100 refundable deposit was taken on the call as the OB fallback, with the refund promised immediately if his wife says no. The twelve-month tier was never mentioned.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial-picture questions were asked. Everything recorded here was volunteered in refusing the price: on Social Security, still supporting three daughters, maintaining a large property, 'I do make some income, but I have to be responsible with that too.' Stated ceiling around $500, and a workable price at roughly half of $6,000."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No verbal agreement to proceed. He said 'let me talk with my wife about that' and 'can I have a day to think about that?', and the rep explicitly structured the next day around a yes-or-no answer: 'we meet up tomorrow... and you'll tell me whether it's a yes, or it's a no.'",
+      "The only money taken was a $100 refundable deposit, confirmed paid — 'Yeah, I see it. It went through.' A refundable deposit against an undecided purchase is not payment for the programme and the close rule is not satisfied.",
+      "Follow-up booked live for the next day, thirty minutes earlier than this call, 8:30am his time, same Zoom link, invite confirmed received.",
+      "Counter-evidence toward a positive read: he agreed the programme would get him to his goal, called the one-month structure 'reasonable', and said 'I would still be interested'.",
+      "Counter-evidence toward a negative read, and it is decisive: in the sales team meeting recorded later the same day, the rep reported overhearing this prospect after the call — because the parallel phone line stayed open — telling his wife 'I had to pay this guy, but I don't think he will buy. He just made me a courtesy', and the rep's own assessment was 'just to get rid of me, I think.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": "A $100 refundable deposit was taken. It is recorded as zero cash collected because it is refundable, was not payment for the programme, and the rep stated the same day that he did not expect the deal to convert. It must not be counted as a unit.",
+    "next_step": "Zoom the following day at 8:30am Eastern, thirty minutes earlier than this call, same link, invite confirmed. Prospect to speak with his wife and return a yes or no. Deposit to be refunded immediately on a no."
+  },
+  "notable": {
+    "note": "The most serious clinical disclosure in this batch and possibly the corpus. A 70-year-old told the rep that a urologist believed he had prostate cancer, that he declined the diagnostic biopsy, that he treated himself with a self-assembled protocol including ivermectin, and that he has an open review due in September. The rep's next words were 'Okay, okay, cool. So, but do you have, like, a dream to compete in January with the best?' Nothing about it was ever raised again — no question about clearance, no acknowledgement, no adjustment. On the same call the prospect disclosed a reconstructed ACL, meniscus damage in the other knee, a retinal tear from a head impact, back pain, a hospitalisation after overtraining before last year's race, and a previous injury from swinging a kettlebell unsupervised. He was then presented a programme of loaded ballistic training, told the knees would be 'addressed specifically', and reassured 'you're going to live at least 25 years'. Commercially: a man on Social Security who named $500 as his limit was offered a $1,200 first month, then given the scripted $100 refundable deposit and coached on how to present it to his wife as a commitment already made. He also asked, unprompted, for a senior pricing tier — 'maybe Trevor should consider when people are at my, maybe, you know, senior plan' — and was told 'I'll let him know.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The worst diarization in the batch. After 00:01:51 the transcript contains no further timestamps at all — the entire remainder of the call, roughly fifty minutes of content including all discovery, the full pillar presentation, the price, the objection sequence and the deposit, runs as a single undelimited block under one speaker label with both voices interleaved and no turn boundaries. Every role attribution in this record was reconstructed from content alone. Because there is no final timestamp, duration_min_est is recorded as null rather than guessed. Note also that the call was conducted with video on Zoom and audio over a parallel telephone line because the prospect could not hear the rep — 'you want to try calling me' — which is the same configuration the rep described in the team meeting as the reason he overheard the prospect's conversation with his wife after the Zoom ended."
+  }
+}

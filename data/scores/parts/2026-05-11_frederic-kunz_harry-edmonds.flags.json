@@ -1,0 +1,38 @@
+{
+  "call_id": "2026-05-11_frederic-kunz_harry-edmonds",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Asked why the setter would not disclose cost, the rep said the price is tailored and depends on the individual, when it is a fixed $6,000 for six months as he quoted twelve minutes later.",
+      "evidence": [
+        "I mean, I was asking, you know, what the program actually is in terms of costs, in terms of like time schedule, all that kind of stuff. And I didn't really have an answer for it.",
+        "Yeah, it's all tailored. So it depends for everybody, you know?",
+        "So I'll be honest. It's like six grand for six months."
+      ],
+      "timestamp": "00:00:44"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect reports that the setter would not answer direct questions about cost or time commitment — the second prospect in three days to report the same thing.",
+      "evidence": [
+        "It was good. Curious to learn more and to, you know, have a chat to see a bit what this actually entails. It was a little cryptic.",
+        "I mean, I was asking, you know, what the program actually is in terms of costs, in terms of like time schedule, all that kind of stuff. And I didn't really have an answer for it.",
+        "I mean, I was quite curious to learn more about it without having too much of an expectation about what was, you know, behind it.",
+        "I wasn't sure if this would lead to get a specific program, like a workout schedule from kettlebells or not."
+      ],
+      "timestamp": "00:00:14"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "The Skool community was offered as a parting next step with no price attached, the third call in four days on which the low tier was introduced outside the approved offer structure.",
+      "evidence": [
+        "what I'll do, I'll shoot you over the school community as well, you can have a look through that as well if you wanted to jump in there",
+        "and yeah dude we can catch up in a few weeks or a month or so"
+      ],
+      "timestamp": "00:14:40"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-06-22_adene_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "After $6,000/6mo was refused, the rep offered Primal University at $200 per month or $2,000 per year; the actual checkout price the prospect read aloud and paid was $199 a month.",
+      "evidence": [
+        "that investment is 200 a month and you can basically stop that whenever you want or 2000 for a year",
+        "Yeah, join, $1.99 a month, yeah.",
+        "Because I saw indeed that the payment went through."
+      ],
+      "timestamp": "00:29:57"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect explicitly asked twice whether a more affordable package existed and the rep declined to enumerate the options, presenting only the cheapest product.",
+      "evidence": [
+        "I didn't know that's a little pricey. Do you have different packages? Is there a more affordable package? Because I'm still interested.",
+        "Definitely 6K is definitely too much for me. Do you have more affordable options?",
+        "Yeah, we have a few things that I feel like we could still fit in, but I think I can mention every single thing, right? But that we're talking for like the next 40 minutes. So give me What would be more affordable for you?"
+      ],
+      "timestamp": "00:28:03"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A prospect reporting four to five years of progressively worsening knee, back and foot pain, which he distinguishes from normal training soreness, was sold a self-directed training product with no question about whether it had ever been medically assessed and no suggestion that it should be.",
+      "evidence": [
+        "after my basketball games, I feel like soreness, like it's pain soreness, like not good pain",
+        "Usually, I would say my knees, sometimes my back and like my feet.",
+        "do you feel like it's been getting worse over time since the last few years? ... It has been getting a little worse.",
+        "the soreness that you have slowly start to go away and then eventually only it will get better"
+      ],
+      "timestamp": "00:01:24"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The rep attributed resolution of four years of undiagnosed joint pain to the programme while presenting it, without any basis for the claim.",
+      "evidence": [
+        "Besides those trainings, we also do like five to 15 minutes a day of specific work to the mobility. So the soreness that you have slowly start to go away and then eventually only it will get better that you can actually feel better and keep going instead of just constantly having to rest after a game",
+        "The investment is to get to the goals where you have more muscle, have to factor your stronger, but mainly where you get finally rid of that soreness that you have after every workout or after every basketball training."
+      ],
+      "timestamp": "00:15:00"
+    }
+  ]
+}

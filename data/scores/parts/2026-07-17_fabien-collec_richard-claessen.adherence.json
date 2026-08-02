@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-17_fabien-collec_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Post-sale setup call. It opens with 'we're going to get you started' and never returns to discovery, so there is no opening or frame to score."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline belongs to the selling call, which is not in this batch. Note that the rep correctly routes intake to the coach rather than skipping it: 'that's what Trevor is going to need to make sure the programming can be perfect.'"
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Not reachable on a setup call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable on a setup call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reachable on a setup call."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Commitment was obtained on the prior call."
+    },
+    "P11": {
+      "score": "hit",
+      "checks": { "P11a": "partial", "P11b": "hit", "P11c": "hit", "P11d": "hit" },
+      "evidence": "The best execution of this phase in the batch. Payment: the three-instalment structure was confirmed and a link was worked ('let me check if this link works'), but no completed payment is stated on the recording and no amount or date was named, so partial. Onboarding call: booked live for Monday 19:15 local with the invite emailed to a confirmed address and the calendar double-checked. Agreement: chased through the inbox and signed on the call — 'in there, you have an agreement, very easy, just go over that one... when you've signed that one, then you also get another email', after which the next email arrived. Step 4: fully run — walked him through the Welcome to Kettlebell Body email, joined Skool live including account creation and profile, told him to install the app, explained the pending-membership state and who clears it, and chased the onboarding form twice with a deadline: 'try to do it today or before Monday, because that will give Trevor more time.'"
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two post-close triggers with no scripted play, both handled administratively rather than as objections, which is probably correct here but worth recording. First, a late scope comparison against the cheaper in-house product — 'what differs from the other plan, the primal university?' — answered by disparaging that tier. Second, an instalment request, 'about the payment, can we do it like in split ways?', answered by confirming three parts with no amounts or dates. The playbook has no post-sale equivalent of OC for a buyer renegotiating terms after committing."
+    }
+  ],
+  "notes": "Nothing to coach on process — this is what P11 should look like, and it is worth holding up next to the same rep's Everett call where the agreement and community steps were skipped entirely. The one gap is commercial hygiene: a three-part plan was confirmed without stating the total, the instalment amount or the dates."
+}

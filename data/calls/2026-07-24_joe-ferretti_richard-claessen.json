@@ -1,0 +1,113 @@
+{
+  "call_id": "2026-07-24_joe-ferretti_richard-claessen",
+  "source": {
+    "drive_file_id": "1D7De27LIX_odi1R3T4cwFg03CswW4R0s",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/24/2026 - Joe Ferretti and Richard Claessen - Gameplan ",
+    "display_title": "07/24/2026 - Joe Ferretti and Richard Claessen - Gameplan  — Follow Up",
+    "file_size_bytes": 8320
+  },
+  "call": {
+    "date": "2026-07-24",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "The prospect first contacted Primal roughly three months earlier and the rep references meetings booked previously that evidently did not happen - 'of course, you had a few meetings booked in with us earlier.' Those prior touches are not present in this batch. Despite the 'Gameplan' title and the two-names format that normally indicates an internal call, this is unambiguously a sales call: the other party is a prospect asking the price, referred by a friend already in the programme.",
+    "duration_min_est": 8,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. The lead source is a personal referral: 'I met him at the gym, and the guy was the one who gave me you guys link, and that's how I started, you know, with you guys.'"
+  },
+  "prospect": {
+    "name": "Joe Ferretti",
+    "aka": "ferrettijoe@yahoo.com - the only speaker label used for him in the transcript",
+    "name_source": "title",
+    "location": "Currently Miami, Florida for a month and a half; normally resident in Madrid, Spain",
+    "age": null,
+    "occupation": "Property investor and developer - buys homes, remodels them and returns them to the market. Three houses in progress simultaneously in Miami, coordinating plumbing, electrical and roofing crews. Also has business interests referred to as ARMB in Spain and Portugal.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained his entire life until the COVID pandemic, then stopped completely - 'it's been two and a half years since I've done anything.' Uses gyms in Miami that stock kettlebells and has equipment at home in Spain.",
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_warm_referral",
+    "confidence": 0.8,
+    "signals": [
+      "Arrived through a friend already in the programme and cited visible results as the reason for interest: 'I got a friend of mine that is in your system, and I've seen the difference. That's why I got, you know, interest.'",
+      "Almost no resistance to the product itself - offered to pay before any discovery, presentation or agreed price: 'I'll fill whatever up, give you my credit card, and we can start on Monday'",
+      "Price was not pre-framed, which is the one part of the pattern that does not hold - he had to ask, and led with 'it's all about the money'",
+      "The real friction is time and attention rather than conviction: he took five other calls during this one"
+    ]
+  },
+  "goals": [
+    { "text": "Be able to train anywhere in the world, at home in Madrid or in a Miami gym, because he travels constantly", "category": "convenience" },
+    { "text": "Get back to training after two and a half years of nothing - 'this is driving me crazy'", "category": "consistency" },
+    { "text": "Get the same kind of visible change he has seen in his friend Robert", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Has not trained at all in two and a half years, having trained his whole life before the pandemic", "category": "consistency", "severity": "high" },
+    { "text": "Extreme time scarcity - three simultaneous renovation sites, five inbound calls during an eight-minute conversation, 'I had to clone myself'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Splits his life between Miami and Madrid, so anything tied to one location or one gym does not work for him", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "But I'm going to make it short for you. How much is it? Because it's all about the money.",
+      "timestamp": "00:02:04",
+      "rep_response": "Made a brief attempt to hold the line - 'I can give you a range... a specific number I can't say until we've actually gone through an actual conversation' - and then gave a range anyway one minute later: 'It's between 1,000 and 7,000 USD.'",
+      "response_tactic": "attempt_to_defer_then_give_invented_range",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Do you have monthly payments? As in like that you can split it up?",
+      "timestamp": "00:03:40",
+      "rep_response": "Confirmed payment plans are available with no defined terms: 'There's no specific amounts, like overall we do quite custom, but if that would be needed, then we can always look into that, yes.'",
+      "response_tactic": "confirm_custom_terms_available",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Confirmed as available and custom, with no amounts, count or schedule stated",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Strong verbal intent from the prospect: 'I'll fill whatever up, give you my credit card, and we can start on Monday'",
+      "But no payment link was sent and no price was agreed - the rep committed only to emailing information: 'I'll send you the email, I'll send you all the information, take a look at it, and let me know which works the best for you'",
+      "No package was ever named, no offer was presented, and the quoted figure was a $1,000-$7,000 range",
+      "The verbal-agreement-plus-link rule does not apply because no link was sent and there was nothing specific to agree to",
+      "The call ends mid-exchange with the prospect apparently no longer present - 'I don't know if you can still hear me, Joe'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email information and options; prospect to review, choose and pay, with a stated intention to start Monday"
+  },
+  "notable": {
+    "note": "Two things. First, a third distinct invented price range from this rep in four days - '$1,000 and 7,000 USD' - where $7,000 appears nowhere in the price structure and the $1,000 floor is a sixth of the real entry price. Second, this file is titled as a Gameplan with two names, which is the naming pattern used for internal staff calls, and it is in fact a live sales conversation with a referred prospect; anything routing on titles will misclassify it. Also worth noting for the pipeline: the prospect first contacted Primal three months earlier and has had meetings booked that did not happen, none of which appear in this batch. A prospect who volunteered his credit card unprompted left the call without a link, a price or a booking."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short, chaotic and heavily inverted. The prospect is labelled only by email address. Several rep lines appear under the prospect and vice versa, including 'Do you mean like if we have multiple different packages' and 'So on Monday, you'll pay then.' The recording is effectively truncated: the last thirty seconds are the rep speaking into a call the prospect appears to have already left, and the whole conversation ran against five incoming calls on the prospect's side."
+  }
+}

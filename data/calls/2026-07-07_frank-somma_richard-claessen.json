@@ -1,0 +1,148 @@
+{
+  "call_id": "2026-07-07_frank-somma_richard-claessen",
+  "source": {
+    "drive_file_id": "1sdRoeT52xCEszBxXGxQpLhEogo1NzfSs",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/07/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/07/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 59558
+  },
+  "call": {
+    "date": "2026-07-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Of course, you already had a conversation with Kim."
+  },
+  "prospect": {
+    "name": "Frank Somma",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Jersey City, New Jersey, USA",
+    "age": 49,
+    "occupation": "Self-employed (business unspecified)",
+    "family_status": "Has a son who turns eight in February",
+    "height_in": 69,
+    "weight_lb": 217,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Played sports in high school; used personal trainers on and off since the early 2000s, none in the last 2-3 years. Currently training 5+ days/week, machines and light free weights, single muscle groups, 1.5-2 hour sessions plus incline power walking. Down from 235 lb in January to 217 lb.",
+    "kettlebell_experience": "some",
+    "medical": "L4/L5 disc herniation from car accidents and a slip-and-fall; knee issues; active right shoulder problem with clicking and bone-on-bone rubbing, in pain for the past month, cannot do overhead work (physical therapist and chiropractor both saw it and found no structural rotator cuff damage); history of cancer, described as 'gone now'; Lyme disease; heavy metal toxicity; toxic mold; autoimmune issues and autoimmune fatigue; repeated hospitalisations since his son was born. Currently seeing a chiropractor once or twice a week and considering starting with a physical therapist."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Lost years to cancer, Lyme, mould and autoimmune illness and is now rebuilding: 'I went through cancer for a few years, which is gone now, luckily'",
+      "Explicit regret about what illness cost him as a father: 'he's never seen me really healthy. I've been kind of like in and out of the hospital since he was born'",
+      "Wants a former self back rather than good-to-great: 'I kind of remember what I used to look normal in'",
+      "Not the_prehab_fighter: the cancer is described as resolved, not active"
+    ]
+  },
+  "goals": [
+    { "text": "Get under 200 lb, ideally 185-195, losing roughly another 20 lb", "category": "fat_loss" },
+    { "text": "Improve mobility and agility rather than build bulk; stop losing range of motion whenever he strength-trains", "category": "mobility" },
+    { "text": "Train with compound, full-body kettlebell movements instead of isolated machine work, and do it without re-injuring himself", "category": "injury_prevention" },
+    { "text": "Have consistent energy through the day instead of autoimmune fatigue and needing to sleep", "category": "energy_performance" },
+    { "text": "Be a physically capable role model his son can look at and keep up with", "category": "family_role_model" },
+    { "text": "Know he could take on something very challenging - a Tough Mudder or Spartan-type event - if he chose to, and jog again without fear", "category": "hobby_performance" },
+    { "text": "Lock in a foundation now so he does not have a painful old age or depend on others when older", "category": "longevity_function" },
+    { "text": "Get back into smaller clothes - a medium shirt and a 30-32 waist rather than a 34-36", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "L4/L5 disc herniation and knee issues from car accidents and a fall; fears one bad rep sets him back weeks", "category": "injury", "severity": "high" },
+    { "text": "Active right shoulder problem - clicking, bone-on-bone rubbing, painful for the past month even without training; cannot do overhead pressing", "category": "injury", "severity": "high" },
+    { "text": "History of cancer, Lyme disease, heavy metal toxicity, toxic mould and autoimmune illness leaving him prone to inflammation and fatigue", "category": "medical", "severity": "high" },
+    { "text": "Plateaued after three months of hard effort - scale not moving despite training up to twice a day", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No structured or targeted plan; piecing it together from YouTube and 'flying blind'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Previous trainers, including some with medical backgrounds, did not understand the complexity of his condition and overestimated what he could do", "category": "program_fit", "severity": "high" },
+    { "text": "Knows from history that he relapses - 'I've been in incredibly good shape in periods of my life and then I've gone backwards'", "category": "consistency", "severity": "medium" },
+    { "text": "Spending 1.5-2 hours per session with diminishing returns, which makes him want to quit", "category": "motivation", "severity": "medium" },
+    { "text": "Missed years of his son's life - had to say no to hikes, trips and amusement parks", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "But I know with pedal bells, there's a lot of pressing. There's a lot of overhead pressing. So I may need to, you know, go a little bit easy on that side, possibly, maybe just go super light.",
+      "timestamp": "00:07:31",
+      "rep_response": "Agreed it was normal to start light and said they would make sure his form was correct; did not ask whether his physical therapist or chiropractor had cleared overhead loading.",
+      "response_tactic": "reassure_and_move_on",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if I'm going to work with anybody, it has to be something that like, can't just either do myself at the gym or find on YouTube",
+      "timestamp": "00:20:47",
+      "rep_response": "Asked what made him book the call rather than keep figuring it out alone, then reframed his need as wanting something bespoke rather than cookie-cutter.",
+      "response_tactic": "reframe_to_customisation_need",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I mean, I don't, I don't know this person. don't know what their relationship is going to be like, and I can't say that, you know, 100% and, you know, invest in it.",
+      "timestamp": "00:46:29",
+      "rep_response": "Acknowledged he would have to experience it, then asked him to answer on gut feeling instead; got 'I'm interested'.",
+      "response_tactic": "gut_feeling_isolate",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay. Yeah, I'll think about it. I'm actually, I'm investigating a couple of other opportunities right now. So I have to, you know, I have to meet with this trainer. I've got another person from the internet that I'm meeting with this week also.",
+      "timestamp": "00:47:45",
+      "rep_response": "Asked whether the hesitation was the offer itself or only the comparison to other options, then started to probe his decision checklist; the prospect cut it off saying he had to go.",
+      "response_tactic": "isolate_then_probe_criteria",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I get off of this call really soon, because I have another meeting coming up, so if you could kind of get to that point, that would be helpful.",
+      "timestamp": "00:46:00",
+      "rep_response": "Said 'we're almost there' and pressed one more commitment question before quoting the price.",
+      "response_tactic": "acknowledge_and_compress",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly deferred: 'Yeah, I'll think about it.'",
+      "He is actively shopping: 'I have to meet with this trainer. I've got another person from the internet that I'm meeting with this week also.'",
+      "Counter-evidence for a warmer read: 'it sounds like it could be a good fit for me' and 'I'm interested.'",
+      "Counter-evidence for a colder read: he ended the call abruptly - 'we're kind of talking about the same things over and over again, and I don't mean to be rude, but, like, I got the information'",
+      "No payment link was sent, no payment taken, and no follow-up date was agreed"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect said he would get back to the rep after meeting two other coaching options; no date or link agreed."
+  },
+  "notable": {
+    "note": "Extensive and serious medical history - resolved cancer, Lyme, autoimmune disease, L4/L5 herniation and an actively painful right shoulder that his PT and chiropractor have been treating - and the rep never asked whether any clinician had cleared him for loaded kettlebell work. The offer was presented at 00:47 with only two minutes of call left because the prospect had a hard stop, so the price landed with no time for a proper close, and the rep's answer to 'what's the breakdown of that over six months' was vague ('he jumps on whenever it's needed')."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and persistent. Whole passages are inverted - the rep's opening frame and the scripted opener 'Tell me, what can we potentially specifically help you with, Frank?' are both attributed to Frank Somma, and long stretches from 00:07 to 00:09 and 00:42 to 00:43 alternate wrongly. Role was read from content throughout."
+  }
+}

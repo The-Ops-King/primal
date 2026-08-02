@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-07-09_manish_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A prospect under active physiotherapy for a seven-to-eight-month patellar tendinopathy asked directly whether the programme would worsen his knee and was reassured by the rep, with no suggestion of checking with the physiotherapist already treating him.",
+      "evidence": [
+        "I currently have a jumper's knee on my right knee. And that's been affecting me for maybe like seven, eight months now.",
+        "That stopped me from playing basketball for a good five weeks.",
+        "I've gone to physio, I'm looking at strengthening my flexors and strengthening the muscles around the knees",
+        "So that's okay, is it? That's okay with the jumper's knee? It's gonna make it worse?",
+        "Yeah, it just comes down to building it up. So we're not gonna start on the highest weight, we're going to build up slowly",
+        "he's going to give you the feedback on how to improve... And that you're also not going to be able to injure yourself."
+      ],
+      "timestamp": "00:14:12"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A six-instalment option priced at $7,200 was quoted — $1,200 above the standard $6,000 — described as a $200 per-instalment surcharge.",
+      "evidence": [
+        "You can pay it upfront, you can pay it in two times, and you can pay it in three times. All three of them come down to $6,000. You can do it in six times, that comes down to $7,200. That's because that's $200 per installment extra.",
+        "if you just don't want to pay interest, then the best decision is to do it in free payments because then it would be 2,000 USD"
+      ],
+      "timestamp": "00:57:41"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep stated there are no payment plans and then recited four defined payment structures with a defined surcharge six minutes later on the same call, and had told a different prospect three days earlier that nothing was set in stone.",
+      "evidence": [
+        "when it comes to it, like, what do you have set aside at the moment? Because we don't have any specific payment plans. That's the reason I'm just trying to see what would potentially work.",
+        "You can pay it upfront, you can pay it in two times, and you can pay it in three times. All three of them come down to $6,000. You can do it in six times, that comes down to $7,200.",
+        "Well, overall, most guys, they just put it all up front. We don't have anything, like, set in stone.",
+        "no, no, no, we can do it monthly. Like, oh, you can, we can split it up, but it's more so how much can we afford?"
+      ],
+      "timestamp": "00:51:28"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "USD and NZD were used interchangeably throughout the pricing conversation, including a per-payment figure given twice in the wrong currency, leaving the prospect budgeting toward an amount whose denomination is ambiguous on the recording.",
+      "evidence": [
+        "It's an investment of 6K USD, which is 10K New Zealand, I think.",
+        "So, the investment is 10k, right? Like, for everything we've spoken about with the one-on-one aspect in New Zealand.",
+        "So when it comes to it, because if we would split it up, it would increase the amount a little bit. So it would come down to like 19,000 2,000 per payment.",
+        "So when do you think you would be able to get, I'm just calculating, 3,300?",
+        "the best decision is to do it in free payments because then it would be 2,000 USD, like 3,300 USD",
+        "I have the 2,000 New Zealand to start with the one-on-one coaching with Trevor"
+      ],
+      "timestamp": "01:01:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This prospect had already been contacted roughly a year earlier and was lost to a callback that never happened; the lead was re-entered and is being counted as a first call.",
+      "evidence": [
+        "I decided that I'm probably going to go through with this, with Trevor's coaching program. I decided, I think sometime, I think last year, I already decided, and I think I already called up and spoken to one of you guys, but it just didn't work out for some reason.",
+        "someone even called me, and I just couldn't make the appointment, because I think I was driving, and then I told him to call me back next week the same time, and he didn't call back, and then I also didn't call back",
+        "It's good that you waited for that. Good that he didn't call back. Things happen for a reason."
+      ],
+      "timestamp": "00:31:14"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The rep confirmed to the prospect that a $200/month price exists for the offer he had researched online, without initially distinguishing it as a different product.",
+      "evidence": [
+        "I saw somewhere online that it was like 200 USD a month.",
+        "Yeah, that's true. That's everything except a lot. Is that different, maybe?",
+        "What is that $200 a month thing? It's primal university, but it's basically just programs that you can follow"
+      ],
+      "timestamp": "00:48:12"
+    }
+  ]
+}

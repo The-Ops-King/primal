@@ -1,0 +1,114 @@
+{
+  "call_id": "2026-05-19_jack-heekin_harry-edmonds",
+  "source": {
+    "drive_file_id": "19dSoa6I7yv1GffNgEzlOtaxsgxkr9z6s",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/19/2026 - Jack Heekin x Harry Edmonds",
+    "display_title": "05/19/2026 - Jack Heekin x Harry Edmonds — Undetermined",
+    "file_size_bytes": 30498
+  },
+  "call": {
+    "date": "2026-05-19",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 29,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter code in the title and no setter named on the call. The prospect describes an inbound route: \"I follow that dude on YouTube and I'm like, hey, like, you know, I'm looking for personal trainer and I'm like okay you know maybe rip this guy so I don't know how this works.\""
+  },
+  "prospect": {
+    "name": "Jack Heekin",
+    "aka": null,
+    "name_source": "title",
+    "location": "Splits the year between Michigan (about five months, summers) and Salida, Colorado (October to May)",
+    "age": 38,
+    "occupation": "Business owner in the cannabis industry — \"I'm in the pot business\"; owns more than one business and travels for work",
+    "family_status": "Speaks in the plural about both homes (\"we live in Colorado seven months out of the year\") and refers to brothers-in-law; marital status not explicitly stated on the call",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Active but unstructured. Skis, mountain bikes, plays basketball three times a week when in Michigan. Consistent sauna and cold plunge. Uses the ATG / Knees Over Toes method regularly, which he says helped his post-surgical recovery more than physical therapy. Has used kettlebells in mixed routines but never trained with them seriously. Jumps between ATG, YouTube workouts and morning routines. \"I'm not training, training in the sense of, like, regiment, schedule.\"",
+    "kettlebell_experience": "some",
+    "medical": "Back surgery a couple of years ago following a car wreck, with a period of being unable to walk — \"I had back surgery a couple years ago, got in a car wreck, and, like, couldn't walk for a while.\" Describes the procedure as \"they, like, chiseled a bone.\" Ongoing symptoms: \"my back, like, after basketball, like, I'll feel it this morning, and then I'll stretch it out, but I'm still feeling it.\" Now rides and skis less aggressively out of fear of recurrence: \"I don't want to go back to not being able to walk.\" Self-reports tight hamstrings. Regular cannabis use, disclosed. No clinician, diagnosis or clearance discussed at any point."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Business owner, already active and health-literate, buying the next increment rather than a rescue — the rep tested it explicitly (\"it doesn't sound like you're, oh, Harry, I'm 150 pounds overweight, my knees hurt\") and the prospect agreed: \"No\"",
+      "Wants understanding as much as instruction: \"like I eat healthy, but understanding it more would be, you know, I think helpful\" and \"if I'm ready to go to another level of understanding\"",
+      "Caveat on the assignment: he carries a serious surgical spinal history that the optimizer profile does not contemplate, and his own risk behaviour has already changed because of it (\"I'm not as aggressive as I used to be\"). On the clinical dimension he sits closer to the_medically_constrained, which nobody on the call tested for."
+    ]
+  },
+  "goals": [
+    { "text": "Put on more muscle mass as he gets older", "category": "muscle_gain" },
+    { "text": "Be more flexible — self-describes as very tight, particularly hamstrings", "category": "mobility" },
+    { "text": "Train consistently rather than jumping between routines", "category": "consistency" },
+    { "text": "Understand his own body and nutrition rather than just following instructions", "category": "other" },
+    { "text": "Feel better day to day and be healthier as he approaches 39", "category": "longevity_function" },
+    { "text": "Stop feeling his back after basketball", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Chooses work over everything else; training only happens if it is in the calendar and even then gets displaced by meetings and travel", "category": "time_scarcity", "severity": "high" },
+    { "text": "Jumps between ATG, YouTube workouts and morning routines with no through-line", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Ongoing back symptoms after basketball, two-plus years post spinal surgery", "category": "injury", "severity": "high" },
+    { "text": "Fear of re-injury has made him less aggressive skiing and mountain biking — \"I don't want to go back to not being able to walk\"", "category": "confidence", "severity": "medium" },
+    { "text": "Does not understand the body well enough to know what to work on — \"I don't know, if my glutes need to get bigger or stretch my hamstrings more\"", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Needs external accountability — \"it's the accountability, right? Inconsistency\"", "category": "accountability_gap", "severity": "high" },
+    { "text": "Generic apps do not fit him — \"I can get on these like Apple fitness and everything, but everyone's different, so you got to tailor it\"", "category": "program_fit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_other",
+      "raw_quote": "the only worry for me and I'm just trying to be straight up for you is like when I travel for work you know... Those sometimes, like, deals, I just can't miss it. You know what I mean?",
+      "timestamp": "00:19:50",
+      "rep_response": "Answered pre-emptively and adequately: \"I would say probably 65-70% of our clients are business owners who travel a lot. We tailor everything to that. So don't worry about that.\" and \"worst case scenario is if you go into, like, Myanmar or something, then we can pause it.\" Prospect accepted with \"Sweet.\"",
+      "response_tactic": "social_proof_plus_pause_policy",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "\"the results are guaranteed. I probably should have said that... the only way we can guarantee results for everyone, because everyone has different goals, is based on the weight of the kettlebell you use. So we guarantee that with the 6 months, from your starting weight, you will be swinging around 8 kilos, so it's about 20 pounds heavier of a kettlebell by the end of the 6 months.\" Note: here the rep equates 8 kg with 20 lb, which reconciles the two different figures used on the Castillo and Yzeiraj calls.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "The recording ends mid-sentence at 00:28:36 on an apparent connection failure — \"Did I lose ya?\" — with the prospect's Starlink already reported as unstable earlier (\"I think our Starlink just went down\")",
+      "Strong buying behaviour immediately before the cut: he asked for the total twice, then began scheduling training days around basketball — \"So, if I play basketball like Monday, Wednesday, Friday, would it be like a Sunday, Tuesday, Thursday?\"",
+      "An affirmative-sounding line sits in the transcript right after the write-off pitch — \"I mean, that, that adds up. Um, so I'm down\" — but it appears inside a passage where the diarization is unreliable and it is followed by a question about the 12-month option rather than by any commitment",
+      "Counter-evidence: no payment, no payment link, no onboarding call booked, no explicit yes to a term, and no close attempted before the recording stopped",
+      "Whether the call resumed after the dropout is not recoverable from this file and no continuation file appears in the batch"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Unresolved. Onboarding with Trevor had been offered for the following day or early the next week (Monday to Wednesday only) but was never booked before the recording ended."
+  },
+  "notable": {
+    "note": "The most serious clinical disclosure in the batch and the least examined. The prospect volunteered spinal surgery after a car wreck and a period of being unable to walk, plus current post-basketball back symptoms, and the rep asked not one follow-up question about it. He then pitched loaded ballistic kettlebell training, said the mobility work would help the back, and put the burden of disclosure on the prospect — \"if you've got specific diagnoses for your back tell us.\" Separately this is the fourth call in the batch where invoice framing for a tax write-off is offered, and here it is the most explicit: the rep names a recently signed client by their identifiable business, describes how that client's invoice was reframed, and closes with \"it's always better when it's almost free.\" Also worth noting the shape of the call itself — roughly the first five minutes are the rep asking the prospect for US travel recommendations."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Truncated and heavily swapped. Long rep passages sit under the Jack label (the whole 00:19:20-00:20:00 support explanation, \"I would say probably 65-70% of our clients are business owners\" at 00:20:11) and several of the prospect's lines sit under Harry Edmonds. The passage around 00:27:34 containing \"so I'm down\" is inside one of the worst-affected stretches and its attribution should not be relied on. Recording ends abruptly at 00:28:36."
+  }
+}

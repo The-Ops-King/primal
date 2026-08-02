@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-06-07_mike-chenard_andrew-musial",
+  "source": {
+    "drive_file_id": "16EQCEOBSCojFqzHFijQMu780BaKj3IEQ",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/07/2026 - Mike Chenard x Andrew Musial KFS",
+    "display_title": "06/07/2026 - Mike Chenard x Andrew Musial KFS — Follow Up",
+    "file_size_bytes": 41163
+  },
+  "call": {
+    "date": "2026-06-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "First closer conversation. A slot the previous day did not happen — the rep opens 'Apologize once more for the delay and yesterday' and the prospect replies 'It took way longer to, than we thought' — and a setter call with Kim preceded it.",
+    "duration_min_est": 49,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland", "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I talked with Kim. You spoke with him a few days ago. He briefed me in on your situation."
+  },
+  "prospect": {
+    "name": "Mike Chenard",
+    "aka": null,
+    "name_source": "title",
+    "location": "New Brunswick, Canada (Atlantic time zone)",
+    "age": null,
+    "occupation": "Schoolteacher; unionised, contract renewal with a pay increase due to be signed this month",
+    "family_status": "Married; daughter 17 entering her senior year of high school, son turning 14 in August. Put in a swimming pool last summer.",
+    "height_in": 70,
+    "weight_lb": 183,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training since before 2009; CrossFit from 2009, member of an affiliate for over 10 years until it closed, including a period of one-on-one coaching there. Then ~10 months of bodybuilding-style training at a local gym, then almost a year at a second CrossFit affiliate at roughly $175/month. Since COVID has trained at home and at his school gym using online programming: Street Parking (~$20/month) for about two years, Dave Lipson's Thunder Bro / Muscle Anarchy for a couple of years, Josh Bridges for about a year, and Jeff Nippard programmes for the past year. Currently weighs and measures his food.",
+    "kettlebell_experience": "none",
+    "medical": "No physical conditions disclosed; none were asked about. Disclosed roughly six months of work with a sports psychologist last year on body image — 'I worked with a sports psychologist on body image for six months or so... Because I beat myself up.'"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Highly self-directed and capable — has run his own training off low-cost online programming for roughly six years since his affiliate closed.",
+      "Anchored to a cheap alternative that genuinely worked: Street Parking at '20 bucks a month' for about two years, plus a stack of other sub-$100 programmes.",
+      "Price is a real barrier, not a quality signal — 'I just don't have that money right now' — which is what separates him from the_optimizer despite his fitness level.",
+      "Counter-signal for the_optimizer: he is already fit, explicitly wants good-to-great rather than rescue, and never disputed the programme's value, only its affordability."
+    ]
+  },
+  "goals": [
+    { "text": "Get his conditioning back after years of hypertrophy-focused training", "category": "endurance" },
+    { "text": "Be leaner while holding around 180 lb rather than dropping to the 160s to see definition", "category": "appearance" },
+    { "text": "Train in 30-40 minute sessions instead of 90-120 minutes, and get time back for other things", "category": "convenience" },
+    { "text": "Keep up with and play sport with his 13-year-old son and 17-year-old daughter", "category": "family_role_model" },
+    { "text": "Still be training, feeling good and moving well as he ages", "category": "longevity_function" },
+    { "text": "Recover the fun, challenge and athletic focus he had in CrossFit — 'what could I do with my body instead of what it looked like'", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Stuck in a repeating bulk-and-cut cycle — lean but feeling bad in a deficit, or eating enough and not liking how he looks", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Lost his gym community and identity when his CrossFit affiliate shut down after 10+ years and has never replaced it", "category": "emotional", "severity": "high" },
+    { "text": "Body-image struggle he has been in treatment for — ties confidence to looking a certain way while knowing that does not work", "category": "mental_health", "severity": "medium" },
+    { "text": "Conditioning has declined and he is aware of ageing — 'I'm not getting any younger'", "category": "aging", "severity": "medium" },
+    { "text": "Cycles through online programme after online programme without one-on-one coaching, which he names as the missing piece", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Workouts take 90 minutes to two hours, crowding out other things he wants to do", "category": "time_scarcity", "severity": "medium" },
+    { "text": "No cash available and known upcoming family costs with a daughter entering her senior year", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I mean, it's just, I don't, I don't have that money right now to do that.",
+      "timestamp": "00:35:19",
+      "rep_response": "Isolated the objection, reframed it as 'we're not in a should I do it place, we are in a more, how can I actually make it possible', then ran the full scripted financial picture — cash on hand, monthly surplus, number of credit cards, available credit, investments — and sent a link to a third-party financing processor.",
+      "response_tactic": "isolate_then_open_wallet_financial_picture",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I want to sleep on it and I want to talk to my wife, but I didn't just see, you know, how she feels about and stuff.",
+      "timestamp": "00:35:19",
+      "rep_response": "Ran the money-aside belief check and asked what obstacles might come up in that conversation, but never asked whether his wife would object to him being stronger, never tested whether this was genuinely a joint decision, and offered no deposit-and-refund fallback.",
+      "response_tactic": "money_aside_belief_check_plus_obstacle_preview",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm not going to just decide right now. Anyway, I want to sleep on it",
+      "timestamp": "00:35:19",
+      "rep_response": "Asked 'what's coming up?' twice, then accepted it — 'Sleep on it. But I think that this is the right solution. And let's lock in for tomorrow for another call.' None of the scripted deciding-versus-thinking moves were run.",
+      "response_tactic": "surface_the_blocker_then_book_next_call",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "And my daughter's starting her senior year in high school next year. And so we know there's going to be a lot of expenses coming that way.",
+      "timestamp": "00:37:31",
+      "rep_response": "Pointed out he could start on financing rather than wait — 'you can actually just start and don't wait for the bump with the project' — but did not run the cost-of-delay frame.",
+      "response_tactic": "finance_now_rather_than_wait",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "it's a lot of money. Uh, my, my Canadian dollars are not as much as the U S dollar.",
+      "timestamp": "00:36:13",
+      "rep_response": "Did not address the currency gap as a value question; later helped compute that $6,000 USD is about $8,300 CAD, which enlarged rather than reduced the number, and moved to financing.",
+      "response_tactic": "none_converted_the_figure_only",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200, "note": "Six monthly instalments of $1,200 — 'we could split it up in, into six, six months even, but that's going to be like a little bit more pricey. So in total, excuse me, it will be, um, 7,200.' A $1,200 premium over list, improvised live." },
+      { "months": 6, "price_usd": 6000, "note": "Two-pay: half now, half in 30 days — 'The best way that I would advise for you to break it up is just do it in half. That's it. Half now, half in 30 days.'" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Preferred: pay in full. Offered: 50% now and 50% in 30 days at $6,000 total; or six monthly payments of $1,200 totalling $7,200. Third-party financing through a processor the rep called Piva/Paiva was also offered, with a link sent in the Zoom chat; the prospect saw terms of up to 12 months on it.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 1400,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null,
+      "note": "Stated as roughly CAD 2,000 cash on hand, which the rep converted to about USD 1,400. Monthly surplus given as 'six or seven, maybe a hundred' CAD and expected to rise by CAD 100-200 bi-weekly once a new union contract signs. Credit card availability 'over $20,000' and a line of credit 'like $30,000 maybe'. No crypto, stocks or investments."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment was taken and no verbal agreement to proceed was given — 'I'm gonna talk to my wife and I'll, I'll let you know.'",
+      "A further call was booked for the next day: 'let's lock in for tomorrow for another call' at 3pm the rep's time, same link.",
+      "Counter-evidence toward a close: strong stated intent — 'it's definitely something I want to do. I know it's something I need too' and 'I really want to do this' — and he identified a funding route himself: 'So I could use my line of credit for that.'",
+      "Counter-evidence on the close rule: a link WAS sent, but it was a financing-application link to a third-party processor, not a payment link, and it was sent before rather than after any agreement to proceed.",
+      "The prospect also had a hard stop for another meeting, so the call ended on time pressure rather than on a decision."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call booked for 06/08/2026 at 3pm rep's time on the same link, after the prospect speaks with his wife and reviews the Piva financing options."
+  },
+  "notable": {
+    "note": "Two things a manager would want. First, a monthly plan was improvised live at $7,200 — six payments of $1,200 — which is a price that exists nowhere in the offer. Second, this is the clearest case in the batch of a prospect who is an excellent programme fit and a poor fit for the stated ICP: a schoolteacher with $1,400 of cash, no savings and a daughter starting her senior year, who was moved onto a $30,000 line of credit and a financing application within four minutes of saying he did not have the money. Separately, the rep claimed to turn away 70% of prospects during his third week on the job with no closes yet."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The rep speaks throughout under the label 'Andrew Jin (Primal Instinct)' but is Andrew Musial — he references Kraków-region life, his Polish accent elsewhere in the corpus, and the call sits in Andrew Musial's folder and title. Line-level attribution is also unreliable in both directions: several of the rep's questions appear under 'Mike' (for example 'So what's the missing piece for you?' at 00:08:03 and 'How does that sit with you?' at 00:33:01) and several of Mike's answers appear under the rep's label (for example 'I'm 5'10\"' at 00:10:23). Roles were resolved from content throughout. The recording also starts at 00:01:10, so the opening of the call is missing."
+  }
+}

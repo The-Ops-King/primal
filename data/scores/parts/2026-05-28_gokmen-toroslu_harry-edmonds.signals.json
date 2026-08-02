@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-28_gokmen-toroslu_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Pre-sold before the call started — he had already bought Trevor's kettlebells and was following the workouts: \"I bought his kettlebells. I'm doing all his workouts. I'm just trying, I'm, like, saving all the reels and stuff.\" He made the mobility argument himself and tied it to his age: \"I'm older, and I need more, like, mobility... I need to hit those muscles in those joints and tendons or whatever the hell that you don't typically use... But me, I'm 47, I'll be 48. It's like, I need to make sure I'm hitting everything.\" His only reaction to the pillar as delivered was agreement — \"Absolutely. Absolutely.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The one pillar he volunteered a need for, unprompted, after the walkthrough: \"a thing I struggle with too is the nutrition end of things. You know what I'm saying? So I'm happy that that's, I'm happy that's integrated into this.\" He named his own specific failure — \"one gram of protein per pound of body weight... I have not been doing that for years\" — and the rep did not engage with any of it, answering \"It's easy stuff, brother. We'll just fix it. We'll just tell you what you need to do.\" Enthusiasm on the prospect's side, no substance returned."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "He asked for it in the first two minutes, before anything had been presented: \"I just need a little more, a structured kind of thing. I need somebody on my case, like, you know what I mean?\" The rep answered in kind (\"Yeah, I'll be on your case, don't worry about it\") and returned to it at the close (\"I know you said you need someone on your case, so I'm going to be on your case\"). The 24/7 support and weekly check-in walkthrough drew straight agreement. Accountability is the product he came to buy; the structure gap is the one he named himself: \"I need more structure, you know? That's what I'm lacking.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "spouse_coaching_spend",
+      "raw": "That's not terrible. My wife pays 700 a month for her guy.",
+      "direction": "supports_price",
+      "competitor": "His wife's private trainer",
+      "note": "The decisive anchor and the reason the price landed softly. His household already spends $8,400 a year on one-to-one coaching, so $6,000 for six months read as comparable rather than extravagant — he did the comparison himself, immediately and unprompted. It also cuts the other way and the rep never used it: the person he must consult is the same person already paying $700 a month for exactly this category of service."
+    },
+    {
+      "type": "gym_membership",
+      "raw": "I've been a member of this gym for 15 years, dude... It's $59 a month. It just keeps coming. I finally canceled the account",
+      "direction": "undercuts_price",
+      "competitor": "Bay Ridge gym membership",
+      "note": "Nominally a cheap-alternative anchor but functionally the opposite, and the prospect knew it: roughly $10,000 spent over fifteen years on a membership he never used, which his wife mocks him for (\"you've been donating to the gym\"). The rep asked \"Why, though?\" and got the root cause out of it, but never converted it into the arithmetic — fifteen years of donations against six months of something that works."
+    },
+    {
+      "type": "sunk_equipment_spend",
+      "raw": "I got a whole setup here, bro, like, so there's no excuses... I got the sauna, I got the plunge, I got the Smith machine, I got the cable machine, the lat pull down, the kettlebells... she went crazy and bought all this machinery",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A recent and substantial discretionary spend on home fitness equipment that is under-used. Establishes both willingness to pay in this category and the fact that equipment was never the constraint — which is the argument for buying coaching rather than more hardware. Unused by the rep."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I'm just trying, I'm, like, saving all the reels and stuff, you know, trying to kind of create my own kind of workout strategies and stuff. It is difficult.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free reels and content",
+      "note": "His current method, and he disqualified it himself in the same sentence. The company's free content is once again both the acquisition channel and the incumbent competitor across this batch."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Concrete nutrition guidance, specifically protein intake, which he named as his own struggle",
+      "why_unmet": "It is squarely inside the nutrition pillar, so the programme almost certainly serves it — but the answer he got was \"It's easy stuff, brother. We'll just fix it.\" Nothing about how, nothing about what would change, no engagement with the one-gram-per-pound question he had just raised. This is the third call in the batch where a prospect's specific dietary question was answered in a single line.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A household or partner arrangement — his wife already pays $700 a month for private coaching and is the person whose sign-off he needs",
+      "why_unmet": "Never explored in any direction. Not as an expansion opportunity, not as a way to neutralise the spouse objection, and not as a reason the household would find the spend normal. The offer as presented is strictly individual and nothing was said about whether a couple can be taken on or what that would cost.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Protected personal time inside a schedule spread across a co-owned company, freelance project management for two other firms, and rental property",
+      "why_unmet": "He identified this as the real blocker — \"This is time for James. This is time for work. This is time for family. I need more structure\" — and the offer's answer is that the training takes 45 minutes, four days a week. That addresses the size of the commitment but not the scheduling and boundary problem he actually described, which is the thing that has beaten him for fifteen years. Whether the weekly check-in and daily support can hold that is unproven.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

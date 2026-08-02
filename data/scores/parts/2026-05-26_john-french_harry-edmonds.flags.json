@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-26_john-french_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After the prospect said the price was high, the rep volunteered an unadvertised third tier of $4,000 for three months that is not part of the stated $6,000/6mo and $9,000/12mo offer.",
+      "evidence": [
+        "There's a three month one, but it's 4k.",
+        "So I don't really offer it to people. just offer people the six because three months is rushed."
+      ],
+      "timestamp": "00:30:34"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed surgery on his big toe joint and a recurring shoulder injury; the rep said the shoulder would be 'fixed' and sold a four-day-a-week loaded kettlebell programme including swings and snatches without asking who operated, how recently, or whether he had been cleared to return to loaded training.",
+      "evidence": [
+        "I mean, I just had surgery on my foot, but that's kind of non-related thing. It wasn't an injury.",
+        "there was like this extra chunk of bone kind of growing into my toe. So, they had a. Go in and chop that out.",
+        "It's that one climbing the shoulder band. That had to have been 12, 13 years ago, but once in a while, it'll flare up.",
+        "And the mobility, want to see where you're at with it, right? What's going on with the shoulder? Let's fix that."
+      ],
+      "timestamp": "00:05:24"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A hard performance guarantee was stated verbally with no terms, no conditions and no reference to anything in writing.",
+      "evidence": [
+        "I don't know how I forgot to mention, we guarantee the results",
+        "whatever your starting weight is, the guarantee is that by the end of the six months you will be swinging around a 20 pound heavier kettlebell for all the main lifts",
+        "If you're snatching 20 pounds heavier, you look, feel, perform a lot better."
+      ],
+      "timestamp": "00:24:21"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts the two speakers repeatedly, including a clean factual reversal in the opening minute, which makes line-level attribution unusable for this file.",
+      "evidence": [
+        "00:00:15 - Harry Edmonds (Primal Instinct) Whereabouts are you? I'm in Southern California.",
+        "00:00:31 - John French I'm in London."
+      ],
+      "timestamp": "00:00:15"
+    }
+  ]
+}

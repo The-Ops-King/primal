@@ -1,0 +1,25 @@
+{
+  "call_id": "2026-06-17_unknown-prospect_richard-claessen",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "Call ended before any pillar was delivered; rep explicitly deferred it: 'I would take you through how we could actually help you' — next call." },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Diet was surveyed in baseline but the nutrition pillar was never presented as part of the offer." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Never delivered on this call." }
+  ],
+  "anchors": [
+    {
+      "type": "prior_spend",
+      "raw": "after I paid thousands of dollars, , they're gone",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "She has already spent thousands on online fitness programmes, so a four-figure price is not novel to her. It cuts both ways — the spend proves capacity and willingness, but the outcome was abandonment, which is exactly why she is suspicious of anything sold to her over video."
+    },
+    {
+      "type": "existing_subscription",
+      "raw": "I've had gym membership all my life",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A lifelong gym membership is her reference price for 'paying for fitness'. She was drawn to kettlebells specifically because 'it looks like the kettlebell is doable. You can do it anywhere' — i.e. the appeal was removing cost and friction, not adding it."
+    }
+  ],
+  "unmet_demand": []
+}

@@ -1,0 +1,76 @@
+{
+  "call_id": "2026-07-29_michael-critzer_richard-claessen",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Prospect reached a closer call after free content, an application and a setter call believing the coaching was free, learned only at minute sixteen that it costs four figures, and terminated the call accusing the company of hype.",
+      "evidence": [
+        "For one thing, he's not trying to charge your feet like everybody else.",
+        "I mean, there was nothing mentioned about any money or... Transaction or a fee for his services. And none of those videos did he ever say, well, yeah, this is going to cost.",
+        "So you did the hype. You got me here. Now you're telling me, oh, you're to be at least four figures.",
+        "You're wasting my time now.",
+        "Well, I mean, he should have said this up front... But you should be up front with you, you know, with the cops."
+      ],
+      "timestamp": "00:17:54"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted a price range of $1,000 to $8,000 under pressure with no offer presented; $8,000 appears nowhere in the price structure and this is the fourth different improvised range from this rep in nine days.",
+      "evidence": [
+        "it will be at least in the four figures",
+        "No, it's going to be somewhere between, that's reason I'm saying like four figures, can be between 1,000 and 8,000. So it's hard to say exactly what amounts, because it comes down to what actually fits well.",
+        "Well, you're not giving me a figure."
+      ],
+      "timestamp": "00:17:03"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 72-year-old disclosed x-ray-confirmed absence of the ACL in both knees with swelling and pain, and separately a 40 lb loss of muscle mass while on an injectable with almost no protein intake; no clearance was sought and neither disclosure was followed up.",
+      "evidence": [
+        "And I have no ACL in either knee. That's what I was told... I saw the x-rays and there were none there.",
+        "like the weather, it bothers me to walk a little bit... I just feel tightness. Sometimes I can feel swelling.",
+        "when I was doing this, doing a shot, you know, I lost a lot of muscle mass and everything, because I was not eating any protein. I was just, you just weren't hungry",
+        "Okay, and besides your knees when it comes to mobility, do you feel like you've got other parts that are also stiff or any injuries or something we should know about?"
+      ],
+      "timestamp": "00:01:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep's first response to the prospect's report of x-ray-confirmed bilateral ACL absence was to question whether he believed it.",
+      "evidence": [
+        "And I have no ACL in either knee. That's what I was told.",
+        "Do you believe that?",
+        "Well, some of the injuries I've had, yeah, I believe it, yeah. I saw the x-rays and there were none there."
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The $1,000 Primal University tier was offered to three other prospects in this batch, including two who closed on it, but was not mentioned to a prospect who ended the call solely over a four-figure price.",
+      "evidence": [
+        "There's a fee, but not four figures, you know, not $1,000 to $8,000.",
+        "Only thing that matches that amount is our primary university... and that would be $1.99 a month or $1,000 for six months.",
+        "that is a little bit less than 200 a month if we get started for six months that would be a thousand for six months",
+        "I think I'm comfortable going for the 1K for six months."
+      ],
+      "timestamp": "00:18:28"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep continued questioning the prospect after he had twice asked to end the call, including challenging his expectation that the service would be free.",
+      "evidence": [
+        "Well, I'll tell you what, if you want to charge me to do this, we can stop this right here, okay?",
+        "I'm curious, what did you sort of, that's just my own personal curiosity, like what did you sort of expect?",
+        "Hey, we'll just stop it here. Okay. Thank you.",
+        "I'm curious, Michael, I'm curious. What do you expect from you? A personal trainer, do you feel like a personal trainer would do something for free? They have to pay their groceries as well, right?"
+      ],
+      "timestamp": "00:18:53"
+    }
+  ]
+}

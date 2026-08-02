@@ -1,0 +1,143 @@
+{
+  "call_id": "2026-07-14_tony_richard-claessen",
+  "source": {
+    "drive_file_id": "1mccIxlF8khbxGgR9LLYY1uQaolD0zH6d",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/14/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/14/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 57511
+  },
+  "call": {
+    "date": "2026-07-14",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "And of course, I've heard a lot of great things already from Derek."
+  },
+  "prospect": {
+    "name": "Tony",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "El Paso, Texas, USA (Mountain time); relocating to Mexico around November",
+    "age": null,
+    "occupation": "Air conditioning sales; describes himself as being in sales",
+    "family_status": "Has a girlfriend who cooks and eats healthily with him",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-distance and steep hiking, mountain biking, some rock climbing, obstacle course races. Follows Trevor's free videos with one 30 lb kettlebell. Previously did a calisthenics programme he abandoned and an online programme costing roughly $80 a year that he never followed through.",
+    "medical": "Intermittent lower back pain and tight hamstrings that appear after about ninety minutes of hiking or two hours of mountain biking. A shoulder injured during an obstacle race that still hurts: 'I injured my my shoulder a little bit and I'm still I still have a little bit of pain in there but it's getting back.'",
+    "kettlebell_experience": "some"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Self-directed and capable: hikes, mountain bikes, climbs, races, and already trains with a kettlebell off free content. 'I mean, I can make them too, but you know, you guys are the pros.'",
+      "Anchored hard and low: a prior online programme at roughly $80 a year, and a stated ceiling of $300-400 for six months.",
+      "Rejects paid gym pricing on principle: 'I think that's one of the reasons I don't go to the gym too much. The money aspect.'",
+      "Argues he can reach the outcome himself: 'if there wasn't a way to get there by myself, and there is, I just see, yeah, that's the only way, then yes. But, you know, I just think that's not the only way.'",
+      "Divergence from the archetype: the cheap alternative did not actually work — he never followed through on the $80 programme — so the anchor is a price habit rather than a proven substitute."
+    ]
+  },
+  "goals": [
+    { "text": "Build upper body strength — shoulders, arms and chest — which he calls a long-standing insecurity", "category": "strength" },
+    { "text": "Have a structured plan and stop guessing at what to do each session", "category": "consistency" },
+    { "text": "Stop the shoulder giving out late in obstacle races when he gets tired", "category": "injury_confidence" },
+    { "text": "Stay functionally mobile so he can still climb, not just look big", "category": "mobility" },
+    { "text": "Lose the abdominal fat he gained while trying to put on weight", "category": "fat_loss" },
+    { "text": "Share the results and the method with friends once it works for him", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Training without a plan and not knowing whether he is doing it right", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Lower back pain and hamstring tightness appearing after ninety minutes of hiking", "category": "injury", "severity": "medium" },
+    { "text": "Shoulder still painful from an obstacle race injury and giving out under fatigue", "category": "injury", "severity": "medium" },
+    { "text": "Started a calisthenics programme and did not follow through because it needed equipment and a gym", "category": "training_barrier", "severity": "medium" },
+    { "text": "Dislikes gyms and will not train in one — 'going to a gym is not for me'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Upper body appearance is a long-standing insecurity", "category": "confidence", "severity": "medium" },
+    { "text": "Grabs burritos and sandwiches on the road during the busy summer season", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Moving country in November, which he expects to cost a lot of money", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "So that's $1,000 a month. Wow, that's crazy.",
+      "timestamp": "00:30:55",
+      "rep_response": "Asked what came up, isolated the investment, then asked whether the six-month version of him was worth $6,000.",
+      "response_tactic": "isolate_then_future_value_test",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "No, the $6,000 is definitely out of my budget, yeah.",
+      "timestamp": "00:38:00",
+      "rep_response": "Asked about credit cards and credit score, floated splitting into twelve payments, then moved to the $200/month community.",
+      "response_tactic": "financing_probe_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I mean, if there wasn't a way to get there by myself, and there is, I just see, yeah, that's the only way, then yes. But, you know, I just think that's not the only way.",
+      "timestamp": "00:33:25",
+      "rep_response": "Conceded immediately: 'No, I'm not saying it is, right?' then returned to the size of the number.",
+      "response_tactic": "concede",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "especially because, you know, I'm going to Mexico... that's gonna cost me a lot of money to move out there, you know.",
+      "timestamp": "00:36:42",
+      "rep_response": "Acknowledged and moved on to whether $6,000 was possible at all.",
+      "response_tactic": "acknowledge_and_move_on",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep floated splitting into twelve payments subject to credit, after asking for a credit card and credit score. No terms, no interest position and no total were stated, and the prospect declined before any plan was built.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": 650
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "The six-month one-to-one offer was refused unambiguously and twice: 'No, the $6,000 is definitely out of my budget' and 'even if you do 50%, I wouldn't do it, even if you, yeah, it's just way, way, way over what I was thinking.'",
+      "Asked directly whether $6,000 was even possible, he said 'Not at the moment.'",
+      "His stated budget was $300-400 for the full six months.",
+      "Counter-evidence and the reason confidence is only 0.7: money did change hands. He purchased the $200/month Primal University community live on the call — the rep confirmed 'So I see that you just paid' — and completed Skool account setup on the call.",
+      "Recorded as lost because the $6,000 coaching programme, which is the offer this corpus measures, was declined. The $200 subscription is a different product and is recorded in cash_collected_usd with its basis, so it does not inflate the coaching close rate."
+    ],
+    "cash_collected_usd": 200,
+    "cash_collection_basis": "downsell_community_subscription_not_core_offer",
+    "next_step": "Prospect enrolled in the $200/month Primal University Skool community and completing his profile after the call. Rep to check in every month or so and revisit one-to-one coaching later."
+  },
+  "notable": {
+    "note": "Three things. First, the $6,000 offer was refused and a $200/month recurring subscription was sold instead — a manager should decide how this is counted, because it is a paid call that is not a programme sale. Second, the prospect disclosed a still-painful shoulder and recurring lower back pain, and the rep sold him a self-guided programme while remarking that Trevor is useful 'if you have like massive injuries already'. Third, the prospect said the funnel had him talk to an AI before the human calls, and the rep replied 'the AI aspect, don't even think about that. That's a thing we've been testing out, but probably going away anyway.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, worst in the discovery block from 00:11:00 to 00:18:30 where several long prospect answers carry Richard's label and vice versa. The subscription terms read aloud at 00:41:59 are attributed to the prospect and appear to be him reading the checkout page. Role was determined from content throughout."
+  }
+}

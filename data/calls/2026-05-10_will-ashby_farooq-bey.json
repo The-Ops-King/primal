@@ -1,0 +1,137 @@
+{
+  "call_id": "2026-05-10_will-ashby_farooq-bey",
+  "source": {
+    "drive_file_id": "1h3c04K9csxOZdZkpnu54XVpzIc5Vwjvu",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/10/2026 - Will Ashby x Farooq Bey KFS",
+    "display_title": "05/10/2026 - Will Ashby x Farooq Bey KFS — Lost",
+    "file_size_bytes": 28937
+  },
+  "call": {
+    "date": "2026-05-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 28,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Will Ashby",
+    "aka": null,
+    "name_source": "title",
+    "location": "Iwakuni, Japan — US military posting; relocating to California in roughly 20 days",
+    "age": 33,
+    "occupation": "US military (Marine Corps), rising in rank, desk-bound office role with long hours",
+    "family_status": "Married with two children, a five-year-old son and a two-year-old daughter; separated from them for a year on this posting. Wife has a neurological disease which prevented her and the children from joining him.",
+    "height_in": 66,
+    "weight_lb": 150,
+    "bodyfat_pct_self_reported": 15.5,
+    "training_background": "Lifelong active through sport and military service; credits the Marine Corps with teaching him his habits. Has a home gym but no kettlebells. Has built and run one AI-generated kettlebell workout and enjoyed it. Self-describes as not flexible. Current training routine was never established on the call.",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.75,
+    "signals": [
+      "Explicitly good-to-great: 'I'm at like 15, 16 right now... I'm not in a bad position, but it's like one of those moments where I think people... I need to get ahead of this'",
+      "Holds himself to a standard already — 'being in the military, I've got like high standards for myself'",
+      "Diverges from the pure optimizer on price: a genuine liquidity constraint from an imminent cross-country move, childcare costs and a planned career change, disclosed unprompted before the offer was made"
+    ]
+  },
+  "goals": [
+    { "text": "Get from roughly 15-16% body fat to 10-12%", "category": "appearance" },
+    { "text": "An efficient programme he can do in 30-40 minutes so training does not eat into time with his wife and children", "category": "convenience" },
+    { "text": "Not become the veteran who lets himself go after leaving the military — 'I don't want to become one of those veterans that's like, you know, just lets himself go'", "category": "sustainability" },
+    { "text": "Be the example his kids and wife deserve — 'I feel like I owe it to my kids and my wife to be the best version of myself'", "category": "family_role_model" },
+    { "text": "Build real consistency with diet, macros and grocery shopping, which he names as his weakness", "category": "consistency" },
+    { "text": "Improve mobility — 'I need to be more mobile'", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Feels his metabolism slowing at 33 — 'I've now finally just felt myself slow down, I can, I feel like I can't do that anymore'", "category": "aging", "severity": "medium" },
+    { "text": "Never counted macros and is inconsistent with diet; skipping the Sunday meal prep leads to eating whatever the chow hall provides", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Job demands long office hours and he refuses to trade family time for three-hour workouts", "category": "time_scarcity", "severity": "high" },
+    { "text": "A year separated from his wife and two young children has taken a mental toll — 'it's easy to fall into that mental health trap, where you don't want to work out, you don't want to eat right'", "category": "mental_health", "severity": "medium" },
+    { "text": "When training and diet slip, his confidence and work performance follow — 'then I feel like I'm failing at work, and then I feel like I'm failing as a man, as a husband, as a father'", "category": "confidence", "severity": "medium" },
+    { "text": "Not flexible and knows it, but has never addressed it", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "life_event_conflict",
+      "raw_quote": "I won't be able to do it until after I settle in, I'm moving to California, uh, so, um, I had to move my family from one side of the country to the other, I had to fly back from another country, so I've got a lot going on",
+      "timestamp": "00:14:54",
+      "rep_response": "Acknowledged and promised to fit the recommendation to his context — 'we have plenty of options, so whatever accommodates you best, given what you've just said, I'll make that recommendation for you'. Did not qualify further and proceeded to the full pitch.",
+      "response_tactic": "acknowledge_and_defer_recommendation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Yes, that's a little steep right now. I'm not going to lie to you, just with where I'm at. Um, with my life, uh, about to change jobs and, um, uh, childcare, childcare, the United States childcare is what's really killing me.",
+      "timestamp": "00:23:26",
+      "rep_response": "Opened the payment-structure door once — 'if there was a potential structure that could make it work for you in your, your budget, are you open to it?' — then abandoned it without exploring finances and pivoted to a $200/mo Primal University downsell",
+      "response_tactic": "structure_probe_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "with where I'm at supporting two small kids, and moving across country, and then switching careers very soon, I'm just not in right position to spend that much money.",
+      "timestamp": "00:24:01",
+      "rep_response": "Validated the objection rather than working it — 'Depending on the time we stack some cash, get yourself right, so you're able to potentially do the coaching program one day'",
+      "response_tactic": "validate_and_park",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "No, I'll just have to sleep on that, think on that one, see if I'll go through that one or not.",
+      "timestamp": "00:26:17",
+      "rep_response": "Asked one probing question — 'Any reasons why you wouldn't like want to go through it? Just so I'm on the same page as you' — took the answer at face value and closed the call",
+      "response_tactic": "single_probe_then_release",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit decline of the coaching offer: 'I think it's a little too steep for me right now at this stage of life.'",
+      "Reconfirmed after the structure probe: 'I'm just not in right position to spend that much money.'",
+      "Deferred on the $200/mo Primal University downsell too — 'I'll just have to sleep on that, think on that one, see if I'll go through that one or not.'",
+      "No payment link sent, no follow-up date set — rep closed with 'the door's always going to be open, regardless'",
+      "Counter-evidence: intent was genuine and he flagged a future window — 'Once we get moved to California and everything settled, get the kids in school, then I'll be able to determine that financially.' A disciplined follow-up in ~60 days is a live opportunity that nobody booked."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None booked. No callback date, no link, no Primal U trial started."
+  },
+  "notable": {
+    "note": "The prospect volunteered a full financial disqualification nine minutes before the pitch — imminent cross-country move, career change, saving hard, US childcare costs — and the rep proceeded through the entire pillar presentation and price anyway rather than qualifying or pre-framing. Baseline (Phase 2) was almost entirely skipped: no health conditions, no injuries, no current training week, no sleep, no energy. Age, height and weight only entered the record because the prospect volunteered them. Also a $4,000 three-month tier outside the sanctioned offer, and a $200/mo Primal University product used as the downsell."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion. Rep turns repeatedly appear under the 'Will' label — e.g. 'To give you an understanding, some people don't know how these calls go' and 'And there's a key difference, man, between flexibility and mobility' are labelled Will but are plainly the rep; conversely 'Oh, I can do most things with kettlebells, my mobility' is labelled Farooq but is the prospect. First three minutes lost to the prospect's audio setup, so no content is missing. Prospect's surname never spoken aloud — taken from the title."
+  }
+}

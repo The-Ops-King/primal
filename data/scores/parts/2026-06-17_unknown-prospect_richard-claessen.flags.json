@@ -1,0 +1,34 @@
+{
+  "call_id": "2026-06-17_unknown-prospect_richard-claessen",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Call was abandoned at 17 minutes and explicitly continued into a separate scheduled recording that is not present in this batch, so this file captures only the opening of the opportunity.",
+      "evidence": [
+        "it's going to be very hard for me to show my screen and completely hear everything that you're saying, because here and there, you're calling out a lot. So I would say, let's just continue this conversation tomorrow",
+        "Can you, can you, be at the same time, like maybe behind a computer or like in more of a silent space?"
+      ],
+      "timestamp": "00:15:54"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep moved prospect communication onto his personal phone number over WhatsApp rather than a company channel.",
+      "evidence": [
+        "I will send you a WhatsApp message on my personal number, and then we'll see each other again tomorrow this time"
+      ],
+      "timestamp": "00:17:03"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "No health, injury, medication or pain questions were asked of a 45-year-old prospect at 5'4\" and 215 lb who volunteered that doctors had raised age-related muscle and bone loss with her, before the rep declared her a good fit.",
+      "evidence": [
+        "like the doctors are saying, okay, as you age, you know, you need to incorporate gaining muscles, all this and that",
+        "from what I'm hearing, it sounds like it's a good fit when it comes to what your goals are and where you're currently at"
+      ],
+      "timestamp": "00:05:31"
+    }
+  ]
+}

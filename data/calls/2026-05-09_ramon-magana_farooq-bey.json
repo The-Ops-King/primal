@@ -1,0 +1,128 @@
+{
+  "call_id": "2026-05-09_ramon-magana_farooq-bey",
+  "source": {
+    "drive_file_id": "11ysmLtNS0C8eVgQ0VMOuYV7SZsO47fUT",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/09/2026 - Ray Magana & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/09/2026 - Ray Magana & Farooq Bey KFS- Kettlebell Body Game Plan Session — Lost",
+    "file_size_bytes": 35178
+  },
+  "call": {
+    "date": "2026-05-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 28,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ramon Magana",
+    "aka": "Ray Magana (as written in the Fathom title)",
+    "name_source": "title",
+    "location": "Central California — Fresno / Tulare area, USA",
+    "age": 43,
+    "occupation": "Cal Fire — State Fire Department, on his feet all day",
+    "family_status": "Has one child, a 16-year-old son",
+    "height_in": 71,
+    "weight_lb": 181,
+    "bodyfat_pct_self_reported": 12,
+    "training_background": "Ex-high-school wrestler and cross country; seven to eight years of Muay Thai, trained under a world-class Thai fighter; dropped from 250 lb to 170 lb; currently full-body dumbbell workouts three times a week in a heated room, plus weekend sessions; recently went 195 lb to 181 lb in two months by cutting sugar",
+    "kettlebell_experience": "some",
+    "medical": "Bulging disc at L3/L4 impinging the sciatic nerve since age 18 (26 years). Daily pain, rated 1-3 in the morning, worse after six to eight hours on his feet; flare-ups roughly every three months. Doctors have recommended spinal fusion, which he has declined. Former two-pack-a-day smoker and heavy sugar/energy-drink consumer until age 28, when a doctor warned him he was pre-diabetic."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Already lean and active at 12% body fat, wants to break a plateau and go from good to great rather than be rescued",
+      "Frames the goal as a personal challenge — 'It's just a personal goal. I just want to see if I can do it.'",
+      "Diverges from the classic optimizer on price: cost was a hard barrier, not a quality signal — 'that's a little bit of my pay grade right now that I can afford'"
+    ]
+  },
+  "goals": [
+    { "text": "Break past the 12% body fat plateau he has cycled around for eight to ten years and finally add visible muscle", "category": "muscle_gain" },
+    { "text": "A toned 'swimmer / fighter' physique with real abs and chest development, comfortable with his shirt off", "category": "appearance" },
+    { "text": "Strengthen his lower back so the bulging-disc pain reduces and he can avoid the fusion surgery doctors are recommending", "category": "injury_prevention" },
+    { "text": "Be a role model so his 16-year-old son gets off video games and becomes more active", "category": "family_role_model" },
+    { "text": "Learn to lift and build muscle correctly with feedback on his form so he is not hurting himself unknowingly", "category": "strength" }
+  ],
+  "pains": [
+    { "text": "Bulging disc L3/L4 pressing on the sciatic nerve for 26 years, with daily pain and flare-ups every three months; surgeons want to fuse it", "category": "injury", "severity": "high" },
+    { "text": "Repeatedly plateaus at 12% body fat and then loses muscle rather than gaining it — 'this is what I usually get to before I kind of, like, I don't know what else to do'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Cycles on and off training every couple of years — 'Then I stop and get fat. Then I go back into it again.'", "category": "consistency", "severity": "medium" },
+    { "text": "Does not know how to programme or execute resistance training and has no way to check his own form — 'I could be hurting myself, not realizing it'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Has never had a coach for this, historically because of money", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Well, I mean, that sounds pretty good, but I didn't think the program was only $4,000.",
+      "timestamp": "00:25:35",
+      "rep_response": "Reframed cost as commitment and used a LeBron James analogy — 'The fact that it's expensive is why you should do it'",
+      "response_tactic": "price_as_commitment_reframe",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I think that's a little bit of my pay grade right now that I can afford.",
+      "timestamp": "00:26:05",
+      "rep_response": "Isolated the objection ('money aside, for a second, do you feel like we can even help you?') but never opened the wallet — no cash-on-hand, monthly surplus or credit questions. Improvised a $1,200 one-month trial instead.",
+      "response_tactic": "isolate_then_improvised_downsell",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I wouldn't know exactly what this program offers me to actually try it. You know what saying? You can't really... You know, can't say... You can help me out if I don't even know what the program is about or if I'm going to get the help out. So I can't say, I can't give you yes or I can't give you no answers.",
+      "timestamp": "00:26:45",
+      "rep_response": "Pointed back at the five-minute pillar explanation and the videos he had watched, then offered a paid one-month trial as the way to find out",
+      "response_tactic": "recap_then_paid_trial",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit decline: 'No, I think that's a little too much for me right now. I'm going to go ahead and pass it now.'",
+      "Rep accepted it and closed the call — 'Okay, man. No worries. We're going to be here.'",
+      "Counter-evidence: the prospect rated confidence in the programme a 10 out of 10 and said 'the help is not the problem, it's the cash flow', so the loss was on price and proof, not on belief in the method",
+      "No payment link was mentioned or sent at any point"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. Rep left the door open with 'We're going to be here.'"
+  },
+  "notable": {
+    "note": "Two pricing deviations in four minutes: a $4,000 three-month tier that is not part of the sanctioned $6,000/6mo and $9,000/12mo offer, then a $1,200 one-month trial improvised on the spot after affordability resistance. Separately, the prospect disclosed a 26-year L3/L4 bulging disc impinging the sciatic nerve with a standing surgical recommendation for fusion that he has refused, and the rep positioned the kettlebell and mobility programme as addressing the root cause without ever asking whether a clinician had cleared him for loaded kettlebell work."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive line-level inversion throughout. Whole rep turns are attributed to Ramon Magana and vice versa — e.g. 'so we can't take the call whilst you're driving, Ramon' is labelled as Ramon, and the rep's questions 'Why is that important for you?' and 'Why didn't you tell me that from the beginning, man?' land under the prospect's label. Role was resolved from content only. The Fathom title also names the prospect 'Ray Magana' while the transcript consistently calls him Ramon."
+  }
+}

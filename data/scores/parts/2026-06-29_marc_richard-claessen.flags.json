@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-06-29_marc_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep improvised a $100-$200 holding deposit against the $6,000 offer when the prospect could not pay, and collected $200 with no schedule set for the remaining $5,800.",
+      "evidence": [
+        "So the amount that we usually use for that is like $200, I don't know if that would work for you, at least that we have something in the calendar.",
+        "Yeah, usually $100 or $200.",
+        "Yeah, we can do half-half, but overall, is it just that it's absolutely not possible to get started now?"
+      ],
+      "timestamp": "00:47:22"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The $6,000 price was stated once and immediately garbled into an incoherent currency conversion, never restated, and the prospect afterwards indicated the amount was still open for discussion.",
+      "evidence": [
+        "We have an investment of $6,000, which I think is like $2,000, $5,000. 0.1k euros.",
+        "to be honest, I didn't plan any amount or anything about this, like, so that also was going to be something we need to discuss."
+      ],
+      "timestamp": "00:37:39"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep told the prospect the deposit could be reversed if he changed his mind, committing to a refund term that forms no part of the stated offer.",
+      "evidence": [
+        "we just put down like some amount, like very small, basically, that we at least have something in the calendar. And then if you feel like it's just not doable at that time, we can just revert it back",
+        "Usually, people put it all up front for their own accountability sometimes."
+      ],
+      "timestamp": "00:46:41"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect mentioned taking unspecified medication mid-call and disclosed recent smoking; neither was followed up, though the rep had screened for injuries and conditions earlier and been told there were none.",
+      "evidence": [
+        "Okay. Just give me a minute. I'm just taking my pills.",
+        "I had a big period in my life where I stopped working out and I start smoking and whatever that's bad for health.",
+        "so there's nothing that's like comes up with you at the moment that you feel like I have any like restrictions or any injuries or something, nothing like that, because it's very important to know, right?"
+      ],
+      "timestamp": "00:49:06"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-12_rob-end_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a near-fainting episode during training and ongoing exercise intolerance he attributes to his nervous system; the rep asked no medical-history questions, never suggested clinician clearance, and recommended a six-month loaded kettlebell programme.",
+      "evidence": [
+        "During COVID, did some training, and then I had issues with my nervous system, and I almost faded out one time, and then I completely stopped",
+        "I cannot do like an hour or one and a half hour workouts, and I'm flat for the whole day, because it's too much for my, right now, at least for my nervous system",
+        "at night during the sleep after practice workout, or like playing basketball... I have the feeling like a lack of magnesium that I cannot relax too much, I feel very excited at the morning",
+        "For you, I imagine a lot of that is coming from, like that will change just from when you are more consistent with the training"
+      ],
+      "timestamp": "00:02:41"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep offered to relabel the coaching invoice so the prospect could deduct it as a business expense, and cited a prior client whose purchase was described as a safety and injury prevention programme to be written off through his McDonald's franchises.",
+      "evidence": [
+        "yep, yep, 100%, I would say maybe 70% of our clients are all business owners, we do it all the time, so we can, we can frame it in loads of different ways",
+        "so if you want it to be, like, we can just frame it as coaching, we can frame it in a way that's like, because for what you do for work, your coaching, it's more like empower... And like mind-body stuff. We can frame it in a way like that too.",
+        "We write it off as taxes all the time for people. I had a guy maybe on Saturday, I think it was, who owned two McDonald's restaurants, and we framed it as a safety and injury prevention program. So he wrote it off through McDonald's"
+      ],
+      "timestamp": "00:55:30"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Six-month programme quoted at €5,100 rather than $6,000, with the rep asserting the two are equivalent.",
+      "evidence": [
+        "In euros, 5,100 euros for the six months.",
+        "It's 6,000 dollars. Yeah. So, 5,100 euros.",
+        "So, it was 5,100 dollars or euros? — Euros, euros."
+      ],
+      "timestamp": "00:52:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Rep referenced a three-month programme tier that does not exist in the stated offer of $6,000/6mo and $9,000/12mo; no price was attached to it.",
+      "evidence": [
+        "what I'm going to recommend is six months, like a timeframe. We do have a one-year program. We do also have a three-month program, but I want to be realistic",
+        "The three months, it would be too short for me."
+      ],
+      "timestamp": "00:51:30"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization on this file inverts roles across long passages, including the entire offer walk-through, so any automated speaker-attributed analysis of this transcript will be wrong.",
+      "evidence": [
+        "00:38:45 - Silke & Robert / But it's also, you don't have to work out for two hours a day, six days a week.",
+        "00:48:09 - Silke & Robert / Last thing, as I said, we don't want to coach you forever.",
+        "00:52:46 - Silke & Robert / For the full six months, yeah."
+      ],
+      "timestamp": "00:38:45"
+    }
+  ]
+}

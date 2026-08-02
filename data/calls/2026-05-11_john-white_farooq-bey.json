@@ -1,0 +1,122 @@
+{
+  "call_id": "2026-05-11_john-white_farooq-bey",
+  "source": {
+    "drive_file_id": "1UFA8C01br_-N3MOeaoBjkU3DXkOKdbMg",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/11/2026 - John White & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/11/2026 - John White & Farooq Bey KFS- Kettlebell Body Game Plan Session — Lost",
+    "file_size_bytes": 29836
+  },
+  "call": {
+    "date": "2026-05-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 27,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep at 00:27:05: 'the door's always gonna be open, so feel free to email myself or Kim in the future'"
+  },
+  "prospect": {
+    "name": "John White",
+    "aka": null,
+    "name_source": "title",
+    "location": "Wisconsin, USA",
+    "age": 62,
+    "occupation": "Real estate agent and school bus driver — both sedentary. Previously owned around 20 rental units and held a well-paid full-time job before the market crash.",
+    "family_status": "Cared for his mother in his home from mid-2019 to 2022 until she died; no partner or children mentioned",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-time jogger, no longer able to — 'I used to jog a lot, which I really can't do anymore, because it's so hard on my body.' Has cycled through weight loss and regain since childhood; found resistance work more effective than running. Trained with weights at home while caring for his mother. In the last few days has started windmills with dumbbells; does not own kettlebells yet.",
+    "medical": "Detached retina, surgically repaired on 23 March 2026 — roughly seven weeks before this call. Has not worked for the two to two-and-a-half months since. Otherwise states 'I've always had good health. I'm 62. I take no medications.' Also reports jogging is now too hard on his body."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.88,
+    "signals": [
+      "Lost ground across a compounding bad season — market crash, lost the well-paid job, three years caring for his dying mother, then a detached retina — 'I just went into a spiral, and then after I lost my job and... working with my mom that I lost her, it really took its toll'",
+      "Wants a former self back and knows exactly what it looked like — 'I had like 20 units, and I had a full-time, a good-paying job. And so money was really no issue'",
+      "Visible regret and self-blame: 'I hate to even tell people how much I weigh' and rates his body a 2 out of 10 against a mind he rates a 9 or 10",
+      "Not the prehab_fighter: the retinal surgery is post-operative rather than an active condition he is training through, and he does not frame training as part of fighting it"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the weight put on over the last two and a half years and get back in shape", "category": "fat_loss" },
+    { "text": "Fit back into the two closets of clothes he already owns instead of buying larger sizes again", "category": "appearance" },
+    { "text": "Have the body match the mind — 'I want to have the body to go with the mind'", "category": "confidence" },
+    { "text": "Free up mental bandwidth and creativity to rebuild his income — 'I know when my weight is down, I have more creativity, more oomph in what I want to do'", "category": "energy_performance" },
+    { "text": "Train with resistance work rather than running, which he can no longer tolerate", "category": "strength" },
+    { "text": "Get off the school bus and build a real estate career as an agent or investor", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Recent detached retina repaired by surgery on 23 March 2026, with no work and no income for the two months since", "category": "medical", "severity": "high" },
+    { "text": "Significant weight gain over two and a half years; could not squeeze into his clothes and had to go up a size when buying new ones — 'that just threw me. That was like, this is crazy'", "category": "confidence", "severity": "high" },
+    { "text": "Financial distress and no clear path to making ends meet — 'I don't know how I'm going to make ends meet, but I'll figure something out'", "category": "work_stress", "severity": "critical" },
+    { "text": "Grief and the aftermath of three years caring for his mother until she died — 'I just went into a spiral... it really took its toll'", "category": "emotional", "severity": "high" },
+    { "text": "Self-described laziness and exhaustion after work — 'when I finally do get home, I'm like, I'm exhausted. I don't really feel like doing that'", "category": "motivation", "severity": "high" },
+    { "text": "Two sedentary jobs and an unpredictable schedule with long hours — 'my schedule is so up in the air because of my work'", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Can no longer use his default training method, jogging, because it is too hard on his body", "category": "training_barrier", "severity": "medium" },
+    { "text": "Not being where he wants to be financially is affecting his psyche and his ability to act — 'I know that's playing something with my psyche'", "category": "mental_health", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I don't have that money. I can tell you that right now. I don't even, not even on a payment plan. I just don't have it.",
+      "timestamp": "00:22:30",
+      "rep_response": "Accepted it immediately and thanked him for it — 'Well, good. I appreciate that. I appreciate you just being upfront.' Made no attempt to isolate, explore finances or structure a plan; went straight to a $200/mo Primal University screen share.",
+      "response_tactic": "accept_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "If I had it, I would. Like I said, I just don't have it right now, but...",
+      "timestamp": "00:25:15",
+      "rep_response": "Accepted again and directed him to free resources — 'please use Instagram, Trevor's own YouTube channel... put aside some finances, and then we can potentially revisit this in the future'",
+      "response_tactic": "release_to_free_resources",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.98,
+    "close_rule_applied": null,
+    "evidence": [
+      "Immediate and unambiguous decline on the coaching offer: 'I don't have that money. I can tell you that right now. I don't even, not even on a payment plan. I just don't have it.'",
+      "Also declined the $200/mo downsell: 'If I had it, I would. Like I said, I just don't have it right now.'",
+      "Rep closed by directing him to free content and told him to revisit in future — no link sent, no follow-up date, no deposit",
+      "Counter-evidence on intent rather than outcome: he gave a clean commitment before price ('So John, are you actually ready to take that step?' / 'Yep. I'm ready to do it.') and named accountability as what he needed. The block was liquidity alone — he had been out of work for two months following eye surgery."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. Rep suggested free Instagram/YouTube content and an open-ended future revisit via himself or Kim."
+  },
+  "notable": {
+    "note": "Highest-severity clinical item in this batch. The prospect disclosed at 00:05:33 that he had a detached retina repaired on 23 March 2026 and had not worked since. The rep did not ask a single follow-up question about it — not about restrictions, not about clearance, not even about how he was recovering — and went on to present a loaded kettlebell programme and take a readiness commitment. Post-operative retinal detachment carries standard exertion and straining restrictions and this is a 62-year-old prospect. Separately, the tier menu changed shape again: only two tiers were presented here, three months at $4,000 and six months at $6,000, with the sanctioned $9,000/12-month tier omitted entirely. He also disclosed hard financial distress twenty minutes before the pitch ('I don't know how I'm going to make ends meet') and was pitched at full price anyway."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion — for long stretches the labels are simply reversed. Rep lines such as 'So, John, part my role here is to help you remove any blocks', 'Any questions, thoughts you want to add?' and 'So how do you see yourself, I guess, becoming better in these different areas of your life' all sit under the prospect's label, while prospect lines like 'I hate to even tell people how much I weigh' and 'So this way of training, we're turning it back to where it's designed to be' are split across both. Role assigned from content throughout. Several connection dropouts near the end caused short gaps, and the rep misnames the prospect twice, once as 'Sean' and once as 'Andy'. The speaker label itself carries the prospect's personal phone number."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-20_chad_richard-claessen",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Asked directly whether the coach holds any certifications, the rep said he did not know, and offered client volume and the absence of online complaints in place of an answer.",
+      "evidence": [
+        "So what are his qualifications? — He's worked with 1,200 people.",
+        "But he has any certifications or anything? — Not 100% sure, actually.",
+        "All I know that he's worked with 1,200 people, and I guess if it wasn't good, then probably you would see it all over the internet. Would you agree with that?"
+      ],
+      "timestamp": "00:19:16"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a three-to-four-month elbow problem with swelling and a knee injury from bad squat form, and the rep asserted the programme would strengthen and align them without any question about medical assessment.",
+      "evidence": [
+        "I have some elbow pain. So when I do biceps, sometimes my right elbow, I get some pain there. Left knee has some pain when I climb stairs sometimes.",
+        "if I do really hard, heavy weights or too many repetitions, then it, yeah, I feel the muscle tension, like pain... Swelling's a little bit of swelling.",
+        "so we need to strengthen the connective tissue there, make sure joints are aligned",
+        "No, it's like, yeah, three, four months."
+      ],
+      "timestamp": "00:05:12"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep refused three direct requests for the programme's format and price, conditioning disclosure on the prospect answering further discovery questions, and the prospect ended the call.",
+      "evidence": [
+        "we have discussed enough about me, so I want to know more about the plans, what kind of plans you have, so I can make some decisions",
+        "honestly speaking, I'm not sure yet if it's 100% of a good fit and the reason I'm saying that is these last few questions",
+        "I can tell you it's this price, this is how it works, but then we're also not going to work together. That's how it is.",
+        "Yeah, I think I have enough talk, yeah, but I'll contact you later."
+      ],
+      "timestamp": "00:22:59"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Absence of public complaints was presented as evidence of programme quality, and the prospect was asked to agree with the inference.",
+      "evidence": [
+        "I guess if it wasn't good, then probably you would see it all over the internet. Would you agree with that? — Yeah."
+      ],
+      "timestamp": "00:19:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A setter named Derek is identified on this call, which is direct evidence bearing on the DH setter code recorded as unknown in the extraction spec.",
+      "evidence": [
+        "already got some information from Derek, but I would just love to go through, where you're at at the moment",
+        "Yeah, so basically, as I was talking with Derek, you said?"
+      ],
+      "timestamp": "00:01:13"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization merges and inverts long stretches of this file, including the entire nutrition passage and the certifications exchange.",
+      "evidence": [
+        "00:06:02 - chad: Yeah, so we need to strengthen the connective tissue there, make sure joints are aligned",
+        "00:19:16 - Richard Claessen (Primal Instinct): So what are his qualifications?"
+      ],
+      "timestamp": "00:06:02"
+    }
+  ]
+}

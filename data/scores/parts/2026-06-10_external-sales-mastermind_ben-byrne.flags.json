@@ -1,0 +1,84 @@
+{
+  "call_id": "2026-06-10_external-sales-mastermind_ben-byrne",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A third-party sales-training recording containing no Primal Instinct participants has been captured into a rep's call folder, where it would be counted as a company call by any process that reads the folder rather than the content.",
+      "evidence": [
+        "00:00:00 - Josh Lyons: I still know how many dates he went on, there'll probably still be a time in the call where I know how much time they're investing",
+        "So, first one, I want to be super careful, because I don't want to seem like I'm not following advice I was already given, it's just that the circumstance just keeps changing. It's around my offer",
+        "I just let go of the management offer that I was doing",
+        "Original title carries no participant names: '06/10/2026 - Impromptu Zoom Meeting', filed under drive_folder 'Ben Byrne'"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The recording holds identifiable personal disclosures from at least seven third parties — childhood trauma, financial distress, employment circumstances — inside a company Drive folder now being processed for an internal audit, with no evident basis for holding it.",
+      "evidence": [
+        "I think by myself, comes from, like, more trauma of my childhood from parenting",
+        "So, financially, I'm kind of in a, eh, spot, I do have the money for the mastermind, so at least that's locked in, but still, I think it kind of puts me in a scarcity mindset",
+        "I signed up last night, off a wing. I was planning on paying this out of my own... And my brother's like, no, F this, I'm throwing you in.",
+        "we work with contractors, and I do the intro calls"
+      ],
+      "timestamp": "00:23:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Trainer directed a member disclosing childhood trauma to stop attributing her difficulties to it and to treat the past as non-existent, which is quasi-therapeutic advice given without qualification in a sales-training setting.",
+      "evidence": [
+        "I think by myself, comes from, like, more trauma of my childhood from parenting",
+        "I wouldn't advise you to hold on to the belief that it comes from trauma of your childhood, because that's the same as like the self-doubt being up in your head, meaning the trauma that you lived is in the past, it's not, it doesn't exist anymore",
+        "Fix where you're lacking in now, and the past will be irrelevant, 100%.",
+        "self-doubt is actually just coming from an accumulation of tangible actions that you're taking that are the wrong actions"
+      ],
+      "timestamp": "00:24:32"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The closer's external training teaches an explicitly anti-script methodology that omits the consequence frame and commitment check the company's own playbook requires, which is directly relevant to how his adherence should be read.",
+      "evidence": [
+        "since when was the ultimate way to have freedom, freedom to have complete control in the sense of you wanted freedom, and then you decided to have a rigid script. When did control ever turn into freedom?",
+        "Freedom comes from you having flexibility, you having adaptability, you having choices in the way that you sell.",
+        "what's the surface-level burning problem?... Then I gather all the data around that... then I would usually go into, so given that this is the issue... why now do you need to do something about it?",
+        "That's the difference with scriptless and scripted is, you are relying more on your own confidence"
+      ],
+      "timestamp": "00:11:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Trainer told a financially stressed closer that her lack of money is a reflection of an internal state she chooses, and advised a member to comply with an employer or be fired rather than raise a disagreement.",
+      "evidence": [
+        "even if you had a bunch of money in the bank, that's only there because of a reflection of your own internal abundance anyway... If you don't have something outside of you, it's because you don't have it inside of you, and the only thing you can change is the inside of you.",
+        "your only choice is do what they say or get fired. That's your two options.",
+        "just respectfully sit down, shut up, and do the work."
+      ],
+      "timestamp": "00:30:45"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Trainer made an unnecessary aside about sexual orientation while giving a coaching answer.",
+      "evidence": [
+        "you had the most beautiful girlfriend, unless you're gay and you like guys, so no disrespect there, but whatever your romantic ideal would be"
+      ],
+      "timestamp": "00:25:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Trainer advised treating a poor call show rate as a spiritual matter rather than fixing the booking or confirmation process.",
+      "evidence": [
+        "I wouldn't incentivize someone, because then you're essentially, you know, allowing that type of behavior",
+        "I would challenge you to try and solve this problem spiritually",
+        "It's usually a spiritual lesson when our call volume is around and going up and down and up and down. It's usually not a logical lesson."
+      ],
+      "timestamp": "00:15:50"
+    }
+  ]
+}

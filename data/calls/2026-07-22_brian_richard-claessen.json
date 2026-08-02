@@ -1,0 +1,107 @@
+{
+  "call_id": "2026-07-22_brian_richard-claessen",
+  "source": {
+    "drive_file_id": "10ddtGFz4GVsuhTroyr67yz2ttSpltQSU",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/22/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 16813
+  },
+  "call": {
+    "date": "2026-07-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 15,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Brian",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "City of Orange, California, USA",
+    "age": 70,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 66,
+    "weight_lb": 174,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains four to five times a week at a boot camp at 5am, which already programmes kettlebells alongside free weights. Ran Wednesdays with a run club until tearing his Achilles. Owns kettlebells in his garage. Found Primal through Trevor's Facebook reels.",
+    "kettlebell_experience": "some",
+    "medical": "Tore his Achilles around February or March 2026 and has not been able to run since. Currently treating it with acupuncture and testing it - 'this morning, I ran a mile, and it's, at the beginning it hurts, but then it works itself out'. No clinician involvement was mentioned or asked about. No other conditions disclosed; none were asked for."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Anchored to a cheap alternative that genuinely works for him - a boot camp he attends four to five times a week and enjoys, which already includes kettlebell work",
+      "Explicitly proposes doing it himself for free: 'he talks about doing the halos and the curls, and so that would be, I guess I could just do that on my own, I guess, you know, since I've, you know, I have some kettlebells in the garage I can use'",
+      "On hearing $1,000 for six months he retreated to the free option: 'maybe, you know, just with the bootcamp that I have now and, you know, following some of his reels on the days that I can't, maybe that would work for me'",
+      "Not skeptical of the product so much as satisfied with what he already has - this is the known script gap where a functioning low-cost substitute is the blocker rather than capacity to pay",
+      "Alternative reading is the_optimizer: 70 years old, trains five times a week, only nine pounds from target"
+    ]
+  },
+  "goals": [
+    { "text": "Something to do with kettlebells on days he cannot get to the boot camp or run", "category": "convenience" },
+    { "text": "Replace the cardio he lost when the Achilles stopped him running", "category": "endurance" },
+    { "text": "Drop from 174 lb to about 165 lb, weight he put on since he stopped running", "category": "fat_loss" },
+    { "text": "Get back to running once the Achilles allows it", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Torn Achilles since February or March; cannot run, so cardio has dropped away", "category": "injury", "severity": "high" },
+    { "text": "Put on weight since he stopped running", "category": "training_dissatisfaction", "severity": "low" },
+    { "text": "Gap in the week on days he cannot reach the 5am boot camp", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I guess at this point, I need to rethink, you know, if that's what I really wanted. Maybe, you know, just with the bootcamp that I have now and, you know, following some of his reels on the days that I can't, maybe that would work for me.",
+      "timestamp": "00:10:07",
+      "rep_response": "Agreed with him immediately and closed the conversation down - 'Yeah, you can do that.' No attempt to test the assumption, no question about what he had already achieved from the reels, no ask.",
+      "response_tactic": "capitulate_and_leave_door_open",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 1000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Quoted as 'a little bit less than 200 a month', or $1,000 if committing to six months up front",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified him from the flagship offer at roughly six minutes: 'I don't think that one-on-one with Trevor is like really what you would need in that sense... it sounds like that's not really what you're looking for, is that correct?' Answer: 'That's correct.'",
+      "The prospect then declined the downsell too, in substance: 'I need to rethink, you know, if that's what I really wanted'",
+      "No payment, no commitment, no meeting booked",
+      "Counter-evidence: the door was left genuinely open - the rep promised to send a Primal University link and said 'just let me know when you want to get started with it', so a later self-serve purchase is possible and would not appear in this record",
+      "The $6,000 one-to-one offer was never presented at all"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a Primal University link; prospect to text if he decides he wants it"
+  },
+  "notable": {
+    "note": "A second, much cheaper product exists and was sold from this call - 'Primal University', quoted at under $200 a month or $1,000 for six months. It is not in the audited price structure and the prospect had never heard of it. The disqualification itself was honest and probably correct, but it was made after roughly six minutes of discovery in which occupation, income, health history, diet, sleep and energy were never asked, and the rep folded at the first sign of hesitation on the downsell. Separately, a 70-year-old with a five-month-old torn Achilles who is running through pain on acupuncture alone was moved toward kettlebell training and told it would help the Achilles, with no clearance question asked."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts frequently on short turns. The location exchange at 00:00:08 is reversed (the prospect names City of Orange, the rep asks where that is), the age exchange at 00:05:41 is reversed, and the entire Bulgaria/Greece passage from 00:11:11 to 00:13:26 alternates wrongly - 'I live in a skiing town, so a lot of Greeks come here' is the rep describing Bulgaria but is labelled Brian. The whole Primal University pitch at 00:08:08 runs as one unpunctuated block. Roles assigned from content."
+  }
+}

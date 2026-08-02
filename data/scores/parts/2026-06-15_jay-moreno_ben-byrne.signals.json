@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-15_jay-moreno_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He tied it to his own goal before the rep had finished and named it his top priority twice: 'mobility, which is one of the biggest ones that I want to work on. It's, I gotta be honest with you, priority number one, like, for me.' On the start-slow framing he responded 'No, no, no. I'm dialed in right now. That's very, very smart because, I mean, if anyone, too much, too fast, it's discouraging.' He had independently pre-sold himself on the modality — 'he's big on strength and stamina and flexibility, mobility ... it's literally like, bro, same.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no resistance, because he is already compliant: 'that one, I have no problem ... we eat very, very cleanly here.' He welcomed the removal of macro tracking — 'If I can get away from not having to count macros' — and deferred entirely: 'I come in as a student of the game ... Trevor, what do you want me to eat, bro, just tell me.' The one live constraint he attached, IBS, was stated and not followed up: 'this is the only thing I can't have, because I have IBS, I can have garlic or onion, that's it.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "This is the pillar he was buying. He had already diagnosed it as his gap — 'There's also that accountability aspect of it ... as a business owner I hold myself accountable, but for the life of me, I cannot hold myself accountable for working out' — and volunteered the community as the thing he missed: 'that's one thing I've missed out on, is that routine, that accountability, that camaraderie.' On the community he added 'mentally sometimes it does [help] ... it feels nice to know that you're not the only [one]' and 'if you feel like half-assing the workout but you're doing it live, you're like, I'm still going, I gotta keep up.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "Oh, that's not bad. Oh, that's not bad. I thought it was, I thought it was gonna be like 15 or something like that.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: self_generated_high_anchor. The single most valuable anchor in the batch and the mirror image of the Vance call. He arrived expecting $15,000 for six months, and repeated it three times unprompted — 'I literally thought you were going to say six months 50K' and 'I'm just more excited about the fact that I thought it was going to be way more and it's not.' $6,000 read as a bargain. Nothing in the sales process created this; it came from his own sense of what elite coaching costs, which is exactly the reference class the other prospects in this batch lacked."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "the reason where I got the workouts, you know, the kettlebells, that was years, years ago, was through Onnit ... So I followed, like, the kettlebell workouts. That's how I started working out kettlebells years, years ago. I just felt better and stuff. But that's all, like, child's play stuff from back then.",
+      "direction": "supports_price",
+      "competitor": "Onnit",
+      "note": "He named a cheap prior alternative and disqualified it himself as 'child's play', framing the paid programme as the step up. Contrast with the known script gap around cheaper substitutes: here the substitute worked once and he still rejected it, because he had already decided the constraint was accountability rather than information."
+    },
+    {
+      "type": "other",
+      "raw": "I've been a user of kettlebells for a while now, but again, just kind of the same thing, going through Instagram, seeing a nice little workout by Trevor, actually. Or whoever, and then just saving it and then trying it later",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: free_content_of_the_same_provider. Same pattern as the David Elder call — the prospect has been self-serving from Trevor's free Instagram content for years and owns the equipment. Here it did not undercut the price because he explicitly framed the free version as the thing that had failed him: 'I've literally just been doing the same push and pull as that traditional workout. That's gotta end.' Worth tracking across the corpus as a pattern where the free content is both the lead source and the competing product."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Preparation specific to returning to jiu-jitsu and to a Spartan race next year, which he named as his two concrete competitive targets",
+      "why_unmet": "The programme was presented as general kettlebell strength, mobility and body composition. The rep's only linkage was a passing 'you get the cardio and everything going if you're going to do the marathons or the Spartan races as well'. Nobody established whether Trevor programmes toward a dated event or a grappling return.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Nutrition guidance compatible with IBS — no garlic or onion, limited carbohydrate tolerance, currently pulling carbohydrate from fruit",
+      "why_unmet": "The primal eating protocol was presented as simple whole-food guidelines with no discussion of medical dietary restrictions. The prospect assumed it would be accommodated — 'I'm sure he'll have that dialed in' — and nobody confirmed that Trevor, who is not a clinician, will be working around a diagnosed GI condition.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "The camaraderie and social pull of training alongside people in person, which he identified as the specific missing ingredient",
+      "why_unmet": "What is offered is an online community with weekly live sessions and Q&As. He accepted this warmly, but it is a substitute for the in-person gym dynamic he described rather than the thing itself.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

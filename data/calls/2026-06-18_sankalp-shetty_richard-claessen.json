@@ -1,0 +1,113 @@
+{
+  "call_id": "2026-06-18_sankalp-shetty_richard-claessen",
+  "source": {
+    "drive_file_id": "1SZvIBWfoGPKYn7-N3E4_7pJZBxXXdcbp",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/18/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/18/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 18251
+  },
+  "call": {
+    "date": "2026-06-18",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 16,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Sankalp Shetty",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Mumbai, India",
+    "age": null,
+    "occupation": "Physician. Quit his job roughly three and a half months ago and is currently interviewing for new positions.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Formerly very active — swimming, table tennis, cricket, bodyweight training, and could do 70-80 push-ups in a single set. Since 2019 essentially nothing; currently 3,000-4,000 steps a day plus stretching for his lower back, lower limb and left shoulder. Cannot hold a plank or push-up position for 5-10 seconds.",
+    "kettlebell_experience": "none",
+    "medical": "Extensive and active. Left frozen shoulder first diagnosed 2019 with MRI showing supraspinatus grade 1 tear, AC joint osteoarthritis and joint effusion; recurred after a second injury, treated with several months of physiotherapy each time; left scapular region still markedly weak. Two falls roughly five to six months apart caused by numbness in the right leg. Whole-spine MRI showing degeneration at C5-C6, T10-T11 and L5-S1 discs, plus facet joint arthritis and sacroiliac involvement. Psoriatic lesions on the palms diagnosed early 2026, leading to a final diagnosis of a psoriatic arthritic attack — 'I'm like currently undergoing treatment'. A recent MRI shows a new L4-L5 disc protrusion that was not present four months earlier. Gained 10-12 kg in six to seven months, then lost 8 kg through treatment. Left piriformis weak."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.6,
+    "signals": [
+      "In the middle of an active diagnosis and treatment, not recovering from a past one: 'the final conclusion came that it was a psoriatic arthritic attack which I had. So, got myself treated for that also, I'm like currently undergoing treatment'",
+      "New pathology appearing while he waits: 'it has like got a disc protrusion also, and the L5 L4, L5 level, which was not there previously, 4 months ago, but currently it has started'",
+      "Frames training as the way through the illness: 'I wanted to know how we could work through all these things, if I'm continuing with, or if I start with kettlebell exercise'",
+      "Overlaps with the_rebuilder — he wants a former self back ('earlier, I used to do almost like 70 to 80 push-ups in a single rod') — but the deciding factor is that he is mid-episode and mid-treatment, not post-episode",
+      "Departs from the archetype on one axis: motivation is high but he has no money, having spent his savings on treatment"
+    ]
+  },
+  "goals": [
+    { "text": "Understand whether he can safely do kettlebell training at all given his spine and shoulder", "category": "injury_confidence" },
+    { "text": "Rebuild strength in his left shoulder and scapular region so he can hold a plank and push-up position again", "category": "strength" },
+    { "text": "Resolve the stiffness in his lower back and the weakness in his left piriformis", "category": "mobility" },
+    { "text": "Get back to being as active as he was before 2019", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Recurrent frozen shoulder with a supraspinatus tear and AC joint osteoarthritis; left shoulder 'absolutely weak'", "category": "injury", "severity": "critical" },
+    { "text": "Multi-level spinal disc degeneration with a new L4-L5 protrusion appearing in the last four months, plus facet and sacroiliac arthritis", "category": "injury", "severity": "critical" },
+    { "text": "Two falls caused by right leg numbness, of initially unexplained origin", "category": "medical", "severity": "critical" },
+    { "text": "Psoriatic arthritis, currently under treatment", "category": "medical", "severity": "critical" },
+    { "text": "Cannot hold a push-up or plank position for even 5-10 seconds, having previously done 70-80 push-ups per set", "category": "other", "severity": "high" },
+    { "text": "Shift work of 24 to 48 hours straight destroyed any possibility of a training routine for years", "category": "time_scarcity", "severity": "high" },
+    { "text": "Savings exhausted by medical treatment and currently unemployed", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "The reason I would, I'm hesitant to start today is, because as I told, I'm short on budget right now, I'm short on the currency right now, and I'm looking for other jobs.",
+      "timestamp": "00:10:16",
+      "rep_response": "Ran the 'life only gets busier' timing challenge once, then asked twice more what he could put down today, got a flat 'No', and ended the call without presenting anything.",
+      "response_tactic": "timing_challenge_then_disqualify",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "if I keep aside like maybe 10,000, that would be around 60,000 Indian rupees... So it will be around 600 USDs... 600 overall, across six months.",
+      "timestamp": "00:08:32",
+      "rep_response": "Did not correct the anchor or state the actual price. Told him there was no use in going through the offer if they would have to wait a month anyway.",
+      "response_tactic": "defer_without_pricing",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": 0, "monthly_surplus_usd": null, "has_savings": false, "credit_score": null, "stated_six_month_budget_usd": 600 }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep financially disqualified before presenting: 'we, of course, always start with an investment, and it depends on how specifically we would approach it, and I would know that at the end of a meeting like this, but there is no use case in going into all of that right now, if we need to wait another month anyway.'",
+      "Prospect committed to a specific date to re-engage: 'the 15th of July is what I have booked for now' and agreed to message on WhatsApp.",
+      "Rep put the onus on the prospect to reach out: 'I want you to also take that commitment for yourself.'",
+      "Counter-evidence on the follow-up being real: the prospect has no job, no savings and a stated six-month budget of about $600 against a $6,000 programme — a tenfold gap that a month of employment will not close."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to text on WhatsApp on 15 July once employed, at which point a new call would be booked. Rep sent him a kettlebell workout video in the meantime."
+  },
+  "notable": {
+    "note": "The single most serious clinical exposure in the batch. A physician disclosed, in the first four minutes and in clinical detail, an unrepaired supraspinatus tear, degeneration at C5-C6, T10-T11 and L5-S1, a new L4-L5 protrusion, two falls from right-leg numbness, and active treatment for psoriatic arthritis. The rep asked no clearance question, made no referral, and closed the call by sending him a video of 'the best kettle belts workouts that you can actually be doing' and telling him to 'start maybe doing a few exercises'. Separately, this is the call the sales coach reviewed the following day, criticising the rep only for having qualified on money too early — the clinical picture was never mentioned in that review."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion in the middle third. Whole rep questions are attributed to SANKALP SHETTY, including the entire financial-qualification sequence at 00:08:32-00:09:44 ('And just to have an idea, would that be something you could do at the moment already') and the disqualification at 00:12:35. Roles resolved from content."
+  }
+}

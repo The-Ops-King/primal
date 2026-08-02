@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-07-06_daniel_andrew-musial",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "A twelve-month third-party consumer credit agreement was applied for, approved and part-paid live on the call without a total cost, interest rate, monthly amount or fee ever being stated.",
+      "evidence": [
+        "Or you could use your credit score and use the third-party financing option, which is like Klarna or we use Payva. And well, you need to get... It's but we can do it right now and you will see whether you get approved or not. It takes like three minutes and you can split it even up to 12 months.",
+        "Oh, I have been approved.",
+        "And just to make things a little bit easier, for me, I'm going to do the 12-month thing. It's easier to do it that way. Because I can always pay these off early.",
+        "it's asking for at least the first payment today, which I can do easily.",
+        "okay, it looks like it went through and my first payment was in there."
+      ],
+      "timestamp": "00:20:41"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A six-month instalment route of $1,200 per month, totalling $7,200, was quoted as an option without disclosing that it exceeds the $6,000 price, moments after the prospect stated his understanding as about $1,000 a month.",
+      "evidence": [
+        "it comes out to, you know, the average is like $1,000 a month, which is not crazy, considering what I'm getting from it.",
+        "So what I think, okay, two options. You could put it like on a six-month plan, paid monthly. That will be $1,200 per month.",
+        "So you can pay it like cash.",
+        "I don't quite get to the $6,000."
+      ],
+      "timestamp": "00:20:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A prospect who disclosed he was two years into a deliberate effort to reduce credit card debt and trying not to be careless was steered toward opening new consumer credit on the strength of his credit score.",
+      "evidence": [
+        "I actually had thought of getting just a personal loan to put all the credit cards onto one, just so I have one bill, instead of the four or five different bills that I've got right now. I've been on a journey the last two years to get my debt under control, and it's actually working pretty well. So I'm trying not to, you know, be careless about it.",
+        "And how is your credit score? Do you know? My credit's really good. It's over 700.",
+        "Or you could use your credit score and use the third-party financing option",
+        "Because if you say that you have over 700, you should be good to go.",
+        "So lately what I've been doing is just extra on credit cards. So I'm not paying the bare minimum. I just pay the extra."
+      ],
+      "timestamp": "00:19:59"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Payment was collected before any agreement was signed, and the rep actively deferred the signature that the sales process requires to be taken on the call.",
+      "evidence": [
+        "okay, it looks like it went through and my first payment was in there.",
+        "Uh-huh. Yes. Welcome. Invited to review and sign a new document.",
+        "Yes. No, no, no. That's the agreement part. You get that covered when you have free time.",
+        "And yeah, sign an agreement and you're going to be all good."
+      ],
+      "timestamp": "00:31:21"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The discovery call for this closed deal is not present in the corpus, so no health, injury or baseline screening can be verified for a prospect who was sold and paid.",
+      "evidence": [
+        "before we get into the logistic part, which is money, basically",
+        "do you still feel the same way about the whole program, your goals, and everything? I do.",
+        "I think the extra weight that I've got on me is throwing my hormones off."
+      ],
+      "timestamp": "00:11:12"
+    }
+  ]
+}

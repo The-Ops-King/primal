@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-06-10_carlos-baston_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Rep screen-shared the Primal University movement library and mobility module; prospect probed whether it could be individualised - 'with that, am I able to go on there and, like, kind of build, like, put in, like, specifically what I'm trying to build, focus more on, and kind of get a routine that way?' Answer was no: 'the program, it's not tailored to your specific needs.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented only in passing as a module inside the self-serve product - 'there are also his nutrition and fasting protocols.' Prospect dismissed the need: 'I wasn't really looking at it as far as to be like motivated, like on a meal plan or anything like that. I know all about intermittent fasting.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The rep presented accountability as the thing the prospect does not need - 'you don't need someone checking in on you every single week.' The prospect initially agreed and then pushed back on the substance: 'what if I had the money and still wanted to do it, you know, to get coaching to get like feedback on my on my uh technique so i can push myself more.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "self_directed_free_alternative",
+      "raw": "I know I can figure it out. I've been looking at videos on the forum, you know, how you gotta it up... I'm very resourceful, very like, you know, uh, with anything that I do.",
+      "direction": "undercuts_price",
+      "competitor": "free online video / self-teaching",
+      "note": "His working comparison is free instructional video plus his own dumbbells and bands. Against that, $200/mo already read as 'kind of expensive for just workout programs'."
+    },
+    {
+      "type": "affordability_precondition",
+      "raw": "I said, well, let me see how much something like this will cost. I think I can do this for six months, you know, if it's affordable.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived with an explicit affordability gate stated in the first fifteen minutes and the rep never quantified it before deciding the fit."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one form feedback and a leg-focused programme built around a truck-stop schedule, which he offered to pay for",
+      "why_unmet": "The programme does exactly this - it is the core $6,000 offer - but the rep judged him self-sufficient and steered him to a self-paced product that he had already been told is 'not tailored to your specific needs'. The want was declined rather than unserved.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A trial or reduced first month before committing",
+      "why_unmet": "No trial or introductory tier exists and discounts were refused outright.",
+      "verdict": "product_gap"
+    }
+  ]
+}

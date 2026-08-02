@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-05-16_antonio-gatlin-ii_farooq-bey",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Two tiers outside the stated structure were invented live on hesitation — a three-month programme at $4,000 (about $433/month) and a one-month 'love it or leave it' at $1,200 — taking the price from $6,000 to $1,200 in a single turn.",
+      "evidence": [
+        "there's a three month option. And the trial option, so the three-month is 4K, and we have an ability to spread it over 12 months, so you're paying like 433",
+        "it's called love it or leave it, you come in for a month, 1200 bucks, if you love it, you know, you're in a better financial position in a month, you can continue, if you hate it, no problem, we can part ways as friends",
+        "But, with either option, at least we've actually kind of done something, you know."
+      ],
+      "timestamp": "00:35:56"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep indicated these options are no longer offered and then offered them anyway in the same breath.",
+      "evidence": [
+        "Don't do this anymore.",
+        "We used to. There's a, we can, there's a three month option. And the trial option, so the three-month is 4K"
+      ],
+      "timestamp": "00:35:55"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The financed monthly figure the prospect actually evaluated was never converted into a total, so he assessed $650/month as reasonable without being told it comes to roughly $7,800 against a $6,000 cash price.",
+      "evidence": [
+        "we have an option to spread it over 12 months, little bit of interest, but it's about 650 bucks a month. We have the flexibility to spread it over 12 instead of six.",
+        "Let me see, 650 a month if we finance it with you guys.",
+        "Is that reasonable by just looking at things from a high level? I think with the value that you're getting, I think that is reasonable."
+      ],
+      "timestamp": "00:31:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Six months of unresolved shoulder pain was used as the stated reason to recommend the longer programme, with no question at any point about whether his VA providers had cleared him for loaded kettlebell work.",
+      "evidence": [
+        "I've only recently, I'd say maybe about the last six months or so, have started experiencing the shoulder pain... I think that's what's causing my shoulder pain.",
+        "I've also gone to the, you know, to see my medical providers with the VA and they've had, they haven't found anything through x-rays or anything wrong with it at all. So I think that actually training my shoulders would help me out substantially.",
+        "Just based on the journey that you've told me in the context that I've received, especially the shoulder pain, I recommend 12 because I think a year of one-on-one access with Trevor is going to benefit you the most."
+      ],
+      "timestamp": "00:04:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep told a prospect with an undiagnosed painful shoulder that the programme will eliminate injuries and 'bulletproof' him — the same scripted therapeutic claim used on other calls in this rep's corpus.",
+      "evidence": [
+        "you're going be in a position where you know how to do everything with precise form, which is going to get rid of any injuries in your body, any limitations, but more importantly, bulletproof yourself, make you more durable"
+      ],
+      "timestamp": "00:18:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Primal University at $200/month was offered as a placeholder after the main offer failed — a price outside the stated $6,000/$9,000 structure, and the second time in two days this rep has descended to it on a price objection.",
+      "evidence": [
+        "Well, in the meantime, just so you're not like left to your own devices, I recommend Primal University.",
+        "It's 200 bucks. You can cancel at any time. You're committed.",
+        "But it's designed to, as a placeholder, in terms of when we can next do the coaching."
+      ],
+      "timestamp": "00:37:33"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep again framed the company's own subscription as something to enter for a month, extract from and leave, the same framing used with another prospect the previous day.",
+      "evidence": [
+        "So some people come in for a month, they get what they need in there. You know, they write down their plan. At least they have that."
+      ],
+      "timestamp": "00:37:57"
+    }
+  ]
+}

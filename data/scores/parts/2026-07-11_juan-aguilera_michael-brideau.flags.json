@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-07-11_juan-aguilera_michael-brideau",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Rep pitched intermittent fasting and abandoning macro tracking to a diagnosed diabetic whose carbohydrate ceiling and calorie target were set by his own nutritionist and physician, with no clinician involvement mentioned.",
+      "evidence": [
+        "he sent me to the diabetic site. So whatever is the, you know, the chart, the AC and all that, he went from pre-diabetic all the way to the diabetic thing. First thing that they want me to do was get the Meta Forum, you know, drugs",
+        "I got a nutritionist who told me that my carbs are really important because the sugar, because the diabetes thing... He told me to keep it under 70, and I think that my 2,500 or something like that is my calories that I have with a deficit of 300, that's what the nutrition told me",
+        "hey, we don't have to worry too much about tracking and your macros and weighing every single freaking piece of food that you put into your mouth and punching it into an app",
+        "he talks a lot about intermittent fasting... Maybe we start you out eating in a 12-hour window, then a 10-hour window, then an 8-hour window"
+      ],
+      "timestamp": "00:46:50"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 60-year-old with diabetes, sleep apnoea requiring CPAP, recurrent back pain and no unassisted bodyweight squat was moved toward loaded ballistic kettlebell training without a single health or injury question and with no clinician clearance sought.",
+      "evidence": [
+        "I have a CPAT, because I have a sleep apnea",
+        "I'm really bad with legs, I cannot do a squat in self-defense, I lift my heels",
+        "I have my back sometimes hurts. Like I said, I'm a printer, so I carry material to put it in the printer",
+        "three weeks ago, I hit 60, so I'm not a spring chicken anymore",
+        "We actually have a lot of guys in their 50s, 60s, some guys even in their 70s. We've had one or two in their 80s as well who are coming on the program. So he's really custom to working with guys your age. It's not going to be an issue."
+      ],
+      "timestamp": "00:43:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep sent a consumer-credit application immediately after learning the prospect's personal account was overdrawn, he was barred from the joint account and he was already struggling to make his car payment.",
+      "evidence": [
+        "Oh. Minus. Oh, really? Right now it's, oh yeah, right now it's, right now it's running in credit. Until the next paycheck.",
+        "Unfortunately, I cannot use the Together account now, I'm banned to use it",
+        "I want to send you this thing called PAVA. We have some financing stuff that we could potentially look at. And I want you to punch your information in and see if it approves you for anything",
+        "It literally only takes like three seconds to fill out. you mind popping it open right now and see if we can even get you anything?",
+        "So I'm already having a hard time doing my car payment."
+      ],
+      "timestamp": "01:10:40"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep argued down the prospect's competing spend on marriage counselling and used his impending divorce costs as urgency, while the prospect was describing waking up crying three weeks after a 23-year relationship ended.",
+      "evidence": [
+        "even if you guys do end up doing therapy, that's still not guarantee of a positive outcome in the marriage",
+        "situations only going to get worse financially as things go on, and we're in the best situation we can be right now",
+        "there's days that I wake up and I start crying. That's the first thing that I do, cry.",
+        "I mean, I know we're just going through a divorce, and this may not even be on the mind yet, but I mean, hey, man, when you're in really good shape, and you're feeling really I mean, maybe the dating thing sorts itself out.",
+        "I think is going to be a really good, what's the word I'm looking for, container for you to make this transition"
+      ],
+      "timestamp": "01:06:03"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Third-party PAVA financing returned two totals materially above the $6,000 list price — three payments of $2,300 (about $6,900) and twelve payments of $650 (about $7,800) — and both were put to the prospect as options.",
+      "evidence": [
+        "It's talking about three months, three payments, $2,300 a month.",
+        "Yeah, 650 for 12 months.",
+        "And I think it says 650 or something, but I think you actually, once you apply for it, it'll give you different rates and terms based off your credit score and stuff.",
+        "the total investment for the total transformation is going to be $6,000"
+      ],
+      "timestamp": "01:12:07"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep could not quote an in-house payment plan when the prospect asked for one directly, deferring to unnamed internal decision-makers, despite the playbook stating that instalments are available for some clients.",
+      "evidence": [
+        "if the pin counters on your side, they look at it and they said, you know what, it's Juan, it's six months with Trevor, what about, I'm just spitting both here, let's say, what about a grand a month",
+        "it will be nice to know what it will be the adjustment that you guys have and see if we can make it work it out",
+        "let's say that you come back to me next week and something like that, tell me, hey, I talked to the bean counters, it can be this amount, a month or something",
+        "Well, most people put it on a credit card and just take care of it in one go, but would you, would you need, would you need a payment plan, or what would you need?"
+      ],
+      "timestamp": "01:02:34"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The first two minutes of the transcript attribute both sides of the conversation to the prospect, and question-boundary inversions recur throughout, so line-level attribution from this file is unreliable.",
+      "evidence": [
+        "00:00:00 - Juan Aguilera ... yeah, what's going on, man, well, I may get divorced, so, there we go, you got it, yeah, it's tough, man, how long has that been going on for now",
+        "00:02:34 - Juan Aguilera Does that all sound good to you? That sounds good to me.",
+        "00:59:45 - Juan Aguilera No, no, no. You explained it pretty good."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

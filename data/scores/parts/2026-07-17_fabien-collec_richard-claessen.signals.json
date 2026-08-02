@@ -1,0 +1,29 @@
+{
+  "call_id": "2026-07-17_fabien-collec_richard-claessen",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "No training content on this call. The only programme reference is scope-level: 'everything is completely custom. Trevor is going to be in your corner.'" },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Nutrition appears only as a feature of the cheaper tier being compared — 'they have also some guidelines on nutrition' — never presented to this buyer." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Not presented as a pillar. Access was described logistically in answer to a timezone question: 'he is literally almost always online... if you text him in the morning, you might have to wait like an hour or more.'" }
+  ],
+  "anchors": [
+    {
+      "type": "internal_lower_tier",
+      "raw": "What differs from the other plan, the primal university? What's the difference?",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "The buyer was still comparing against the cheaper in-house product after committing. The rep defended the gap by framing the cheap tier as unserious — 'people who are trying to sort of get started with everything, but they don't really want to take it that serious'. Worth tracking as a pattern: the company's own lower tier is the live anchor against its premium offer."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Coach responsiveness during European working hours",
+      "why_unmet": "The coach is in a US timezone. The rep confirmed the constraint rather than solving it: Trevor is reliably online 'from, let's say, 12 your time... to late in the evening', and 'if you text him in the morning, you might have to wait like an hour or more'. For a European client who trains early, the feedback loop is structurally delayed.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Immediate access to the community after paying",
+      "why_unmet": "Skool membership stays pending until someone on the team approves it manually — 'give it a couple of hours and then the membership pending will change... I can't do that. That's something that our team has to do.'",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

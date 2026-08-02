@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-05-19_erenik-yzeiraj_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A monthly payment option was quoted at $1,200 per month for the six-month programme — $7,200 total, a $1,200 surcharge over the stated $6,000 price.",
+      "evidence": [
+        "Do you, is there any flexibility on, on, on a monthly payment? Uh, with the monthly payments you can, but it will be more money.",
+        "Okay. So it would be 1200 USD a month. So it's like an extra 1200 at the end of it.",
+        "what I suggest to people is either do it upfront or you can do it in two payments. If you do two payments, it would be 50% down. So 3K down and then 3K, as long as it's within three months, within 90 days."
+      ],
+      "timestamp": "00:27:33"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The same rep gave materially different payment-plan terms in the same week — a 50/50 split within 90 days plus a priced monthly option here, versus an improvised $1,200 down payment with no schedule and a half-down-half-next-month split on the Robert Castillo call four days earlier.",
+      "evidence": [
+        "If you do two payments, it would be 50% down. So 3K down and then 3K, as long as it's within three months, within 90 days.",
+        "with the monthly payments you can, but it will be more money",
+        "Most people just take care of it upfront, put it on a credit card or whatever."
+      ],
+      "timestamp": "00:27:44"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep volunteered, immediately after the prospect deferred the decision, that the company frames invoices however is needed for clients to obtain tax write-offs — the third instance of this pattern in this batch.",
+      "evidence": [
+        "Do you own your, do you own the business?",
+        "As I said, like 70% of our guys are business owners, so we're very used to framing invoices in whatever ways necessary for tax purposes as well. If you need to write any part of it off."
+      ],
+      "timestamp": "00:28:33"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "low",
+      "summary": "The results guarantee was stated as 8 kg of added kettlebell weight over six months here, versus 20 lb (about 9.07 kg) on the Robert Castillo call four days earlier — the guaranteed metric is not fixed.",
+      "evidence": [
+        "let's say you start off with a 16 kilo kettlebell. The guarantee is that by the end of the six months, whatever your starting weight is, you will be training with an eight kilo heavier kettlebell by the end of it",
+        "And if you're not at that point by the end of the six months and you've done everything we've told you to do, then we continue to work with you until you are there."
+      ],
+      "timestamp": "00:23:09"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a torn right ankle ligament with residual weakness and chronic lower-back soreness; no general health-conditions question was asked, no history taken on the injury, and no clinician clearance was sought before recommending loaded ballistic kettlebell work including snatches.",
+      "evidence": [
+        "my ankles have been weak, and I've had issues with the right one, I've torn a ligament there, so that's one, but that's fine",
+        "Since I work in private equity, so I have a desk job, and I try to be active, but obviously the back, bottom back, how do you call it, is a little bit sore",
+        "a lot of the movements, like snatches, the very explosive, agile, powerful",
+        "We can see from when you're doing the movements, how your body's using things. And then we can make a mobility plan for that."
+      ],
+      "timestamp": "00:14:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep dismissed the prospect's specific concern about fasting and muscle loss on the basis of his own personal practice and asserted a growth-hormone mechanism, prescribing a daily 16-hour fast without any dietary or medical assessment.",
+      "evidence": [
+        "Yeah, we will have you fasting every day with for 16 hours.",
+        "when you do longer fasts, you release more growth hormone, your body produces more growth hormone, so super good, super good",
+        "I fast 36 hours once a week and I'm pretty good with it",
+        "if you're looking to build muscle, no, it just keeps your body in check and keeps your metabolism in check... So I won't worry about that too much."
+      ],
+      "timestamp": "00:12:52"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts roles across long passages including the guarantee, the pause policy and the fasting discussion, so speaker-attributed analysis of this file will be wrong.",
+      "evidence": [
+        "00:24:22 - Erenik / And if you're, if you're not at that point by the end of the six months and you've done everything we've told you to do, then we work with you.",
+        "00:25:29 - Erenik / Most of our clients, would say probably 70% are business owners.",
+        "00:11:00 - Erenik / With her, we eat very little outside, mostly is home-cooked meals"
+      ],
+      "timestamp": "00:24:22"
+    }
+  ]
+}

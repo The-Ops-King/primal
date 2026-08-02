@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-11_juan-aguilera_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he interrogated. He raised a concrete capability gap and asked how the programme bridges it: 'I cannot make a squat, not even in self-defense, and I have movies and books of how to do it... it got to be like a easy step in between what you're showing me and what I'm doing. It's got to be like something in the middle.' The rep answered that Trevor would find the starting point and progress him into proper form over a couple of months. He also endorsed the mobility component from his own experience: 'The mobility is really important... first getting out of bed is this owl, who I didn't used to have it.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "He volunteered supporting evidence from his own body-composition scale rather than merely agreeing: 'I lose 1.2 fat, but I also lose six on muscle... so technically, yes, I lose two pounds, but half of that.' He also pre-endorsed the anti-obsession framing earlier — he had rejected other coaches for going 'on and on and on' about macros. Worth recording that the pitch to stop tracking and consolidate his eating window was accepted enthusiastically by a man whose blood sugar is being managed on a tracked plan by a nutritionist."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Named it unprompted as the single most important element when asked what stood out: 'the part that is for me the most is the, one, the accountability... It's not just like, here is the program, follow it, you pay for it, you want to succeed, do it... you're going to hold me, you already signed up, you already made this commitment, I'm going to push you until it happens. That is the part that most is important.' He connected it directly to his own volatility: 'right now I'm like, yeah, I can do it, but, you know, two days ago, I was like, indeed, no, I cannot do it.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competing_professional_service",
+      "raw": "we have been looking at couple counselors, even with insurance, it makes Trevor's investments none. Shrinks make a lot of money, man, and they're expensive... next week, if it's in the yes, and let's say that we book it, now I'm down for way above six grand, just with the shrink to try to make it work.",
+      "direction": "undercuts_price",
+      "competitor": "Marriage counsellors / therapists",
+      "note": "Not a cheaper substitute — a more expensive competing claim on the same money, aimed at the relationship he is trying to save. This is the anchor the deal actually turned on, and the rep's response was to argue therapy might not work."
+    },
+    {
+      "type": "existing_debt_obligation",
+      "raw": "650 for 12 months. But like I said, honestly, I'm really hesitant to do that much. That's my car payment right there. So I'm already having a hard time doing my car payment.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The financed monthly figure was benchmarked against a debt he is already struggling to service. This is the clearest affordability signal on the call and it arrived after the financing link was sent, not before."
+    },
+    {
+      "type": "prior_trainer_devaluation",
+      "raw": "First of all, I don't want to pay for a personal trainer in the gym who got a little bit above my pay rate and I have seen them training and I was like, I don't care about you, man... Oh yeah, I saw that one in YouTube.",
+      "direction": "undercuts_price",
+      "competitor": "Gym-floor personal trainers",
+      "note": "He arrives with a settled view that paid training is generally not worth it, having judged the trainers at his own gym. He exempts Trevor explicitly, so this anchor was already partly neutralised before the call — but nothing was done to convert that into price tolerance."
+    },
+    {
+      "type": "impending_legal_costs",
+      "raw": "I'm kind of preparing to a massive amount of bills to I hope you never go through that... it's going to be 10 rounds out of 20 to see who the hell keep this ugly Astrid who drive me nuts.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Disclosed in the first ten minutes, before the goal question. Every subsequent price conversation happened against a known expectation of substantial unquantified legal spend, and the rep used it as an urgency lever rather than as a qualification signal."
+    },
+    {
+      "type": "sole_provider_preference",
+      "raw": "there is a lot of programs out there, I want to go with the guy that I kind of believe, I kind of like, because he don't go on and on and on and on and on in his videos.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has narrowed to Trevor alone — 'I kind of narrowed in him' — and rejected other coaches on style. There is no competing coach in the frame, so the price was never being compared against another programme."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An in-house payment plan of roughly $1,000 a month, quoted on the call",
+      "why_unmet": "The playbook says plans exist for some clients, but the rep neither quoted nor structured one. He deferred to unnamed 'bean counters' and a possible follow-up next week, then redirected to third-party credit at $2,300 or $650 a month. The prospect had explicitly said a company-side adjustment was what he needed to pull the trigger.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Nutrition guidance that coordinates with the physician and nutritionist already managing his blood sugar",
+      "why_unmet": "The pillar was pitched as replacing tracking with intermittent fasting and whole-food rules. Nothing was said about how that interacts with a prescribed carb ceiling and calorie target set for glycaemic control, or whether any coordination with his clinicians happens.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Real-world social contact and companionship, not just an online group",
+      "why_unmet": "He raised it directly and wistfully — 'Too bad that you guys are all the way in California. It would be funny if you guys would be in Seattle and, you know, drinks around me, man. I need friends now.' The community offer is an online group, weekly Zoom classes and posts. The rep sold it as the answer to the loss of his couple friends, which overstates what an online cohort provides.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A scaffolded route to an unassisted bodyweight squat and pull-up he currently cannot perform",
+      "why_unmet": "Arguably served — the rep said Trevor would find the starting point and regress the movement — but nothing concrete was shown and the prospect had already tried books and videos for this exact problem without success. Flagged for a human because it is also the clearest indicator that ballistic loading needs screening first.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

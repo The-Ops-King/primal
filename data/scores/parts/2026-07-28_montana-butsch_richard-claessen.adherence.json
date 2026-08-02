@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-07-28_montana-butsch_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "The prospect opened the call and set the agenda ('just a couple of questions'). The rep referenced setter material twice — 'I had a conversation with Kim. He already gave me some information' and 'I think I saw in the notes like 1999' — but never read it back at the start. No four-part frame and no frame agreement. He did ask an open question, 'What is it that you're mainly looking for?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age, height and weight were all volunteered unprompted ('I'm 47'; 'I'm 6'3\", I'm about 250') — never asked, so scored miss. Work was never asked at all. Injury history was worked properly: 'is like a short term thing or is like very, very heavily?' and 'how long has it been since you haven't like really been in the weight room'. Training week was asserted rather than asked ('you do train boxing like six times a week overall... right'). Nutrition asked directly, including a treat-frequency probe. Sleep, energy and results-from-current-training never touched."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "partial", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Goals stayed entirely at the surface. 'And then any other goals that you have for yourself?' collected mobility, pain, fat loss and boxing carry-over, and the rep did reflect the list back ('so the big goals are getting rid of the mobility issue... lose some fats'), but with no 'this isn't really about X' reframe. The bridge question was never asked — the closest is 'what got you to book in a meeting now?', which is a timing question. No 'what does that do for you', no 'who else does that impact', nothing on family, identity or legacy. The deep-why work that carries the price was simply not run."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Past attempts were explored only against the back injury — 'besides going to the doctor, like already really tried to fix it really in the last couple of years or not really?' — answered with the osteopath and pending x-ray. No question about previous training or nutrition attempts, why they did not stick, or what is actually in the way. The rep in fact removed the root-cause frame himself: 'it's not like you need the accountability in order to make a change because you know.'"
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame of any kind. The two-year question, the willing-to-settle question, the 'why not' and the line-in-the-sand were all absent. Notably the raw material was sitting there — a 47-year-old ex-athlete in hospital that day with a 25-year-old back problem — and none of it was made consequential."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "not_applicable" },
+      "evidence": "No belief question and no all-in question. The rep asserted fit on the prospect's behalf — 'it sounds like it's definitely a fit in the sense of, of course, you have the commitment for yourself' — rather than asking for a verbal yes. P6c is N/A because no commitment was ever sought to return from."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "partial", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Scored as applicable because a payment document appears to have been issued: 'I'll just send you the invoice quickly, so at least you have it' and 'I just sent it to You. You can just check if you got it.' Nothing else in the sequence ran — no payment collected, no onboarding call with Trevor scheduled, no agreement email confirmed or signed, no welcome email, Skool link or questionnaire mentioned. If the word was 'invite' rather than 'invoice' this phase should be re-read as not_applicable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I'm still trying to decide what route I'm going to go, so it's all about data collecting at the moment' and 'now I just need to weigh it against kind of my reality' are textbook OA triggers. The rep ran none of it — no 'do you feel what we've gone through CAN get you there', no 'what's actually coming up that's preventing you from getting started', no 'thinking isn't the problem, deciding is'. He asked when a decision would come and booked a date."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I can't do anything right now, so I need to get back up and running' is a not-the-right-time objection in substance. No OD move was attempted — arguably correctly, since the reason is an acute medical episode and pushing 'things never slow down' against a hospital visit would be inappropriate. The gap is that nothing replaced it either."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I got to look at the costs' plus an unresolved price range in his head. No isolation question, no 'HOW place' reframe, no financial picture. The rep instead volunteered a payment plan unprompted — 'if it's really needed, we can always look into splitting it up' — which the script reserves for after isolation."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clinical-fit objection with no scripted play, matching the known gap in the playbook. The prospect is bed-bound after a hospital visit with a 25-year structural spine problem and pending imaging. The rep probed only far enough to satisfy himself training was possible ('Are you able to train overall? I'm just curious'), accepted 'I box' as the answer, and never raised clinician clearance. The script offers him nothing here."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Delivery-model objection — remote coaching versus the training partner and in-person feedback he is used to. The rep explained the film-and-24-hour-feedback loop but never resolved it; the prospect closed on 'that's what I got to figure out, and that's kind of the question before me'. No scripted play exists for this either."
+    }
+  ],
+  "notes": "This ran as a Q&A the prospect chaired, not as the process. Phases 3 through 6 — the ones carrying 80 of the weight — were essentially skipped, so there was no deep why, no consequence and no commitment to close against, which is why the call ended in a diary date. Coaching priority: take the frame back at minute one, and when a prospect is calling from a hospital bed, make clinician clearance an explicit gate before any price conversation."
+}

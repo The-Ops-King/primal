@@ -1,0 +1,80 @@
+{
+  "call_id": "2026-07-23_beau-paschall_andrew-musial",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep told a prospect who had just disclosed undiagnosed radiating hip and foot pain that a doctor had advised him to have a hip replacement and that kettlebells let him avoid surgery, using a personal outcome as evidence that the programme resolves joint pathology.",
+      "evidence": [
+        "on the outside of my left hip, there's always been like, I don't know if it's like a blood flow issue, but sometimes it'll just be like a spike in pain. And it always goes down to my foot as well, like the very top of my left foot",
+        "I was born with hip dysplasia. I think this is the problem.",
+        "he told me like, your hips look like you're 70 or 80. You should get hip replacement just like that.",
+        "So I'm not exaggerating, like when I say that kettlebells just saved my life, quote-unquote",
+        "Did you end up getting surgery ever? No, no. No, no surgery",
+        "What I'm doing, like a month ago, I did a 100-mile hike in four days."
+      ],
+      "timestamp": "00:23:44"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed recurring sharp left hip pain radiating to the top of the left foot with no diagnosis and an unexplained cause, and was sold six months of loaded kettlebell training with no clinician clearance sought or suggested.",
+      "evidence": [
+        "There's always been on my left side, there's like on the outside of my left hip, there's always been like, I don't know if it's like a blood flow issue, but sometimes it'll just be like a spike in pain.",
+        "And it always goes down to my foot as well, like the very top of my left foot, it'll be like kind of a really sharp pain. And it's worse sometimes than others",
+        "What's up with the hips? Is there anything flaring up?",
+        "Trevor is going to address that in, like, short mobility works that you can incorporate in your daily routine",
+        "So the full investment for that is 6K."
+      ],
+      "timestamp": "00:15:13"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep qualified the prospect on credit score and then steered a debt-free buyer who had just said $6,000 was affordable into a 12-month third-party credit product at roughly $600 a month, a total of about $7,200 for a six-month programme.",
+      "evidence": [
+        "What's your credit score?",
+        "Probably, like, 800-something.",
+        "Oh, damn. That's no brainer. So, yeah, because have you used Klarna or Affirm before?",
+        "So we use Pava, and I think that would be the best solution because it won't be like a big strain for your budget. You can even spread it over 12 months. So that would be like probably $600-ish.",
+        "But yeah, I'm debt-free too... But no, think 6K is totally doable for me.",
+        "If your credit score is 800, that's a no-brainer that you're going to be approved"
+      ],
+      "timestamp": "00:39:42"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep took a $100 refundable deposit to secure a follow-up call, justified with scarcity about the team's calendar; this is the second appearance of the same unbudgeted instrument in this batch and the first time it was paid.",
+      "evidence": [
+        "Just the process is that like we're freaking packed with calendars. So when I'm booking in, I'm like, you know, kicking someone out. So I just need to take like a refundable. We'll deposit for that, and we can schedule that, and that's a no-biggie.",
+        "Okay, so it's like the deposit, it's like, it's 100 bucks, so it's like two seconds.",
+        "Just submitted the $100.",
+        "It went through? Yep."
+      ],
+      "timestamp": "00:43:40"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Speaker attribution collapses for minutes at a time in this transcript, with multi-turn dialogue from both parties merged under a single label, making line-level attribution impossible across large sections.",
+      "evidence": [
+        "00:04:46 - Andrew Musial (Primal Instinct) — Yeah. it's just the difference is like noticeable, for sure... yeah yeah yeah but like come on you're not going to be um pushing like um bench pressing a car for example right",
+        "00:17:00 - Andrew Musial (Primal Instinct) — i guess like this is something that'll just come naturally with just how kettlebells work but just kind of grip strength is really important too",
+        "00:42:01 - Andrew Musial (Primal Instinct) — Yeah and I don't know they just have they have a fondness for me like I'd have everyone on the team"
+      ],
+      "timestamp": "00:04:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A setter named Derek is identified as the source of the pre-call notes, which is a candidate resolution for the DH setter code recorded as unknown in the extraction spec.",
+      "evidence": [
+        "I had a chat with Derek, so he kind of walked me through what's been going Going on in your life.",
+        "I think Derek mentioned to me that like the knowledge is a big deal for you",
+        "I think Derek also mentioned to me that you've tried some programs in the past, but eventually you hit a ceiling kind of thing."
+      ],
+      "timestamp": "00:01:50"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-05_igor-reoutt_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "The technique-first month landed without friction — 'Does that make sense?' / 'A hundred percent' — and he restated it in his own terms afterwards: 'technique, right? The foundation, if you have a foundation, nothing else is going to stack properly.' He had already pre-sold himself on the modality by mapping it to his trade: 'as an electrician, I deal with drills and tools that are awkward and heavy... this is like having a drill in my hand.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Pre-demoted by the rep — 'I know you're pretty good there... it's probably going to be the least focused on out of all three' — and the prospect had already agreed in advance: 'I feel like nutrition, I think I'm okay there. Maybe you might go look dude, it looks like you're not eating enough or maybe just cut back just a little bit.' Nineteen years gluten-free means he already runs a controlled diet, so the pillar had little to add."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest positive reaction on the call, and it was to the education endgame rather than to the supervision: 'I kind of run my business the same way. I tell clients, look, if you're educated, then you know what's going on... So I'm totally aligned with that. And I think that's great that it's not a perpetual cycle of like, okay, I want my money, I want my money.' Worth noting he had pre-declined the supervisory half — 'I don't think I need a whole lot of accountability other than, hey, man, how you doing?' — so what sold him was the finite mentor framing, not the daily contact."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "monthly_reframe",
+      "raw": "It's just 6K for the six months US. All right. So a G a month. / G a month. Yeah.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep offered the monthly division himself and the prospect adopted it instantly, then anchored his expectation there — 'I was thinking more like it would probably be a monthly thing'. Once the number is a recurring monthly commitment it competes with every other monthly obligation in a divorce settlement, which is where this call went."
+    },
+    {
+      "type": "rep_introduced_competitor",
+      "raw": "when it comes to fitness, like, I'm sure there's a guy out there who would do it for half the price, but it's like, at the end of the day, you know, if you want the best, you pay for the best",
+      "direction": "undercuts_price",
+      "competitor": "unnamed cheaper coach",
+      "note": "The rep introduced a half-price alternative that the prospect had never mentioned. The premium framing that follows is sound, but the anchor is now in the room and it came from the seller. On a call where affordability was already the live objection this is a self-inflicted comparison."
+    },
+    {
+      "type": "competing_financial_obligations",
+      "raw": "I'm going through a divorce and so like I'm supporting myself and then I've got something else that I'm supporting... some months are good and it's not an issue and some months you're like oh how am I gonna make all this work",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The dominant anchor on the call. This is not price resistance, it is a genuinely constrained and volatile cash position — divorce, two households, a business restarted within the last few weeks. The correct response is a financial picture or a clean disqualification, and instead the price moved."
+    },
+    {
+      "type": "premium_seller_empathy",
+      "raw": "I don't want to waste any more of your guys's time because, you know, my business kind of runs the same way, right? Like, I do luxury stuff, and it's not nothing that people need, but, you know, it ain't free.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest supportive anchor and it was left almost unused. He sells discretionary luxury to wealthy second-home owners for a living, so he understands premium pricing from the seller's side and was not disputing the value — only his own liquidity. The rep touched it for one sentence and then discounted anyway."
+    },
+    {
+      "type": "tax_treatment",
+      "raw": "I would say probably 65, 70% of our clients are business owners. We frame it in whatever way. So for example, we've framed what we do as workplace injury prevention before... We can create an invoice for you and frame it so you can write it off",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Deployed as an effective-price reduction the moment the number landed hard. The prospect's response — 'it's always better when it's nearly free' — is the same phrase the rep himself used on the Parker Stratton call, which suggests it is a scripted line rather than a spontaneous one."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A small, fixed movement set rather than a large library — 'it'd be nice if there was like, you know, 10 or something like that... I'm not looking to work my upper oblique'",
+      "why_unmet": "The programme is described as fully tailored, so it can almost certainly deliver a minimal set, but nobody said so. The rep answered the adjacent question about equipment instead. A simple 'you'll have about ten movements in month one' would have closed it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Low-touch support — 'I don't need you to call me and go, get on it, dude. I'm pretty disciplined like that.'",
+      "why_unmet": "The accountability pillar as presented is daily contact, video submissions every session in month one and a tick-off mechanic. He asked for check-in-level support and was sold supervision-level support. It is plausibly tailorable, and it was not addressed.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "An entry point that fits lumpy contractor income during a divorce",
+      "why_unmet": "No legitimate low-commitment tier exists between $6,000 for six months and nothing, so one was improvised live at $1,200 for a month — with the total cost of that path never stated. The demand is real and recurring; the product answer to it does not exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Assurance that ballistic overhead loading is safe given a head-injury history that recurred from cervical loading",
+      "why_unmet": "He believes himself resolved on the basis of acupuncture treatment. The offer contains no clinical screening step, so there was no mechanism to test that belief, and no one raised it.",
+      "verdict": "product_gap"
+    }
+  ]
+}

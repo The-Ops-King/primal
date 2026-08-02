@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-28_carlos-lopez_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest pillar reaction in the batch. When the rep made the everything-goes-up-together argument the prospect finished it himself: \"No, and I agree with you 100%. And that's kind of where I've been, like, what can I do that's going to help me in all this? Because yeah, like, the runners say, oh, don't lift. The lifters say, hey, don't run, you're going to lose muscle... at the end of the day, I'm like, man, yes, I feel stronger, but I'm tight.\" He then volunteered the specific problem the pillar solves — arms and shoulders developing while chest lags, and chest work aggravating the shoulder: \"there has to be a better balance here. Like, this can't be the way you do it.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Positioned as tweaks rather than change — \"the good thing for you is that you are already in a good place. It's not like we've got to tell you, hey man, it's not a good idea to eat donuts\" — and accepted without question. The prospect had already established that diet was the lever that took him from 250 lb (\"once I learned that... a lot of it is what I eat\"), so the pillar landed on solved ground. No questions asked and none invited."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "What he responded to was not the support machinery but the exit: \"I love the idea of, hey, here's the knowledge, here's what you need to move forward. And it's not like, no, this is for life. You have to come to us in order to keep through this journey.\" That maps exactly onto what he said success looks like at 00:08:32 — \"having a roadmap... really learn through exercise, like, what's best for me.\" He summarised the whole section as \"definitely attractive, for sure.\" This is the pillar that sold him, and it is also the one the rep spent the least time tailoring to him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "gym_membership",
+      "raw": "Right now, you know, my gym membership is, I think, like 50 bucks a month. Obviously, I knew this was going to be a lot more than that, and I'm willing to commit.",
+      "direction": "undercuts_price",
+      "competitor": "His existing gym",
+      "note": "The anchor that produced the sticker shock, offered in the same breath as the price reaction. $50 a month against $1,000 a month is a 20x step, and because no consequence frame had been built the prospect had nothing else to measure the number against. He later mentioned cancelling the gym membership as part of making the budget work, which is a $50 contribution to a $6,000 problem."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I'll watch a YouTube video. I'm like, all right, let me do this for a little bit, but I'm not progressing the way, like I kind of hit a plateau",
+      "direction": "undercuts_price",
+      "competitor": "YouTube, including Trevor's own free channel",
+      "note": "His incumbent method, and the acquisition channel — \"the only social media I consume is YouTube, and then through YouTube just because, you know, his videos kept coming up.\" He disqualified it himself twice, once on plateau and once on injury (\"have dealt with a few injuries because I'm not doing it right\"), handing the rep the differentiation argument fully assembled. It was never used against the $50 gym anchor."
+    },
+    {
+      "type": "competing_obligation",
+      "raw": "like everything else, man, daughter in college and expenses and... we just need to make sure that we don't have anything big coming up that I would have to commit some more funds to",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a competitor but the real budget constraint, and it is the same daughter he had described twenty minutes earlier as the person he pushes to break the family mould. The rep never connected the two, in either direction — not as a reason to buy in phase 3, and not as a fact to work with when the money conversation arrived."
+    },
+    {
+      "type": "credit_cost_comparison",
+      "raw": "It's better than the 30% that you pay with a credit card, you know?",
+      "direction": "supports_price",
+      "competitor": "Credit card interest",
+      "note": "Rep-generated, used to make the financing partner's interest rate look benign. Worth logging because the comparison reframes taking on debt for a discretionary fitness purchase as the prudent option, and it landed on a prospect who had just explained that his only debt is his mortgage and that he would not put something like this on a card."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A payment structure he can actually use at the list price",
+      "why_unmet": "He was willing and said so repeatedly. Upfront was out for a month or two; the 50/50 split within 90 days was still too fast; the zero-interest route was declined by Klarna despite an 822 Equifax score; and what remained costs $7,200 over six months or $7,800 over twelve. The rep also stated plainly that nothing standard exists — \"we don't have, like, set payment plans\" — so each call improvises its own commercial terms. The gap between a $200/month self-serve product and $1,000/month coaching, visible on the David Anjomani call two days earlier, is the same gap here.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Programming that works around a shoulder that hurts on every chest session and a hamstring injured three days before the call",
+      "why_unmet": "The rep gestured at it inside the mobility pillar — \"what's going on with shoulder, all right, what's going on with x y and z, why so you're stiff here\" — but never asked what was actually wrong, how long it had been going on, or whether anyone had looked at it, and then described a programme built on snatches. The prospect has a physical therapist friend he already consults, which is the obvious bridge and was not taken. Whether the offer can serve an injury-prone 45-year-old safely is not answerable from this call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A maintenance roadmap for after the six months — \"this roadmap to maintain, or if you want to keep going to the next level, this is the roadmap\"",
+      "why_unmet": "This was his literal definition of six-month success, stated first and most clearly, and the education promise does address it. But nothing concrete was described — no deliverable, no document, no handover — and the rep's related comment (\"you can always extend as well if you did, some people do because they just like having a coach\") points the other way. Probably served; not evidenced.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

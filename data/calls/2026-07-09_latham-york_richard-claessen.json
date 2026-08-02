@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-07-09_latham-york_richard-claessen",
+  "source": {
+    "drive_file_id": "1sgV4BKOTcbbnFGU0f8vp3WoZ4uLfJEUP",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/09/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/09/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 65438
+  },
+  "call": {
+    "date": "2026-07-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Originally booked for the previous day and rescheduled by the prospect because he expected to be driving — \"that's why I rescheduled yesterday\". No prior sales conversation took place.",
+    "duration_min_est": 61,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe (call taken at 23:09 local time)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named and no setter notes referenced. The prospect mentions an application form himself — \"I think I put in my thing, I'd like to just still be able to have energy at the end of the day\" — and rescheduled the call himself."
+  },
+  "prospect": {
+    "name": "Latham York",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Hickory, North Carolina, USA",
+    "age": 33,
+    "occupation": "Construction — owns or runs the business (\"I don't charge people the basement price because I don't want them to expect basement outcomes\", \"that's something from my business\"); works with his father-in-law; occasional 18-hour days",
+    "family_status": "Married; four-year-old daughter; works alongside his father-in-law. Describes a marriage crisis roughly a year ago.",
+    "height_in": 69,
+    "weight_lb": 240,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former college track and field thrower; majored in health and exercise science. Six years largely out of the gym, back in regularly for about the last year. Holds a gym membership he uses partly because they mind his daughter. Bought two 45 lb kettlebells recently after watching Trevor's videos and now trains at home. Tried the carnivore diet and dropped it as unsustainable. Has started running a little.",
+    "kettlebell_experience": "some",
+    "medical": "Upper back problems since high school, self-managed with overhead squats and snatches. Shoulder and elbow damage from college throwing which the kettlebell swings have re-aggravated — \"my shoulder's been bothering me\" — and he believes 45 lb is too heavy to be safe for some movements. Reconstructive surgery on his wrist, which is why he prefers neutral-grip work. Occasional knee stiffness, no knee pain. Previously undiagnosed sleep apnea, which he says is now under control. Family history: father died of what the family believes was a heart attack and was obese; both grandparents diabetic; grandmother had both knees replaced. No clinician was mentioned and none was asked about."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.65,
+    "signals": [
+      "Wants a former self back and names the weight — \"I would like to be around 190 pounds... That's about the size I was in high school\" and \"I haven't been at that weight, I haven't had that kind of energy, that mobility, for like 10 years\"",
+      "Lost ground across a hard season — six years out of the gym, a marriage crisis a year ago (\"I was lying to her about certain things\"), and a father who died of a heart attack",
+      "Carries regret and names it as a character flaw — \"I've gotten in bad habits of making those excuses\", \"that's something I've just been blamed for before, from my wife, but also from others\"",
+      "Counter-signal considered: he explicitly rejects the rescue framing — \"I'm just not in a crisis point, I'm just trying to be proactive\" — which is optimizer language, and he is a former college athlete who is genuinely strong. Confidence capped at 0.65 for that reason."
+    ]
+  },
+  "goals": [
+    { "text": "Have energy left at the end of a long workday so he is present and not \"mad at the world\" with his wife and daughter", "category": "energy_performance" },
+    { "text": "Get to around 190 lb — roughly 50 lb down — without losing strength", "category": "fat_loss" },
+    { "text": "Free up the upper back and shoulder so his joints stop wearing under the weight he carries", "category": "mobility" },
+    { "text": "Keep choosing physical work rather than having his body force him to stop", "category": "longevity_function" },
+    { "text": "Be the husband and father who takes the initiative rather than needing his wife to nag him", "category": "family_role_model" },
+    { "text": "Have structured workouts so the absence of a plan stops being the excuse not to train", "category": "consistency" },
+    { "text": "Get his father-in-law training, and eventually his wife and daughter", "category": "relationship" },
+    { "text": "Learn it well enough to pass on and possibly help others, given his health and exercise science background", "category": "other" },
+    { "text": "Avoid his family's trajectory — his father's fatal heart attack, his grandparents' diabetes, his grandmother's knee replacements", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "5'9\" and 240 lb, carrying roughly 50 lb more than he wants on his frame", "category": "other", "severity": "high" },
+    { "text": "Upper back problems since high school; shoulder aggravated by the kettlebell swings themselves", "category": "injury", "severity": "high" },
+    { "text": "No structure — knows individual moves but cannot assemble a workout, so he ends up doom-scrolling instead", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "45 lb bells are too heavy for some movements and he fears hurting himself with them", "category": "training_barrier", "severity": "medium" },
+    { "text": "Eats when bored rather than hungry; fasts through the day then buys \"trash\" after work", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Does not want his wife to have to be his accountability partner — \"she already does so much for me. It's like I feel guilty\"", "category": "accountability_gap", "severity": "high" },
+    { "text": "Losing motivation for the gym; anything he wants to use is busy", "category": "training_barrier", "severity": "medium" },
+    { "text": "Long-standing pattern of making excuses, named by his wife and others", "category": "consistency", "severity": "high" },
+    { "text": "Carries a family history of obesity, fatal heart attack and diabetes and is watching the same pattern in himself", "category": "aging", "severity": "high" },
+    { "text": "Was in a marriage crisis a year ago and is trying to stay ahead of anything that could become \"marriage ending, career ending\"", "category": "relationship", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That was definitely a little more than I had in mind. I can't lie.",
+      "timestamp": "00:47:24",
+      "rep_response": "Thanked him for the honesty, asked whether the hesitation was the money or something else, then later ran a future-worth check (\"looking six months, 12 months into the future, do you feel like it is worth $6,000 for you?\"), which he answered yes to.",
+      "response_tactic": "future_pace_worth_check",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I haven't shared much of this with my wife at all, so I don't know if I'd want to just go ahead and say yes without talking to her a little bit more about it first.",
+      "timestamp": "00:47:41",
+      "rep_response": "Ran a partial OB: isolated the objection to money, asked what her initial reaction would be, asked whether he would proceed if she said yes (\"If she gave me the thumbs up, absolutely\"), and asked what he would do if she said no. Did not ask whether she would have any reason not to want him healthier, did not test whether this was genuinely her decision or permission-seeking, and did not offer a deposit-with-refund path.",
+      "response_tactic": "partner_reaction_probe",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Something I have to think about",
+      "timestamp": "00:47:41",
+      "rep_response": "Folded into the spouse conversation and never addressed as its own objection; no OA moves run.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "there's other things that I think she'd probably rather spend money towards, like that amount of money",
+      "timestamp": "00:48:37",
+      "rep_response": "Did not address competing household spending at all; moved to the future-worth question.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision taken; blocked on spousal consultation — \"it's the most I've ever spent on something fitness-wise\" and his wife is out of town until Monday evening",
+      "Strong positive intent on the product itself: \"if I don't do it here, I'm going to find somewhere else\", \"that absolutely is worth it\", and to the commitment check \"Not really, unless something was just catastrophic\"",
+      "Explicit conditional close available: \"If she gave me the thumbs up, absolutely\"",
+      "Counter-evidence: he also pre-committed to an alternative path if it does not happen — \"I'm going to figure out a way whether or not I can do this or not... It's probably just going to take me longer\" — and pushed the follow-up out a full week to next Friday rather than taking the Tuesday the rep offered",
+      "The follow-up was not secured on the call: the rep had to leave for another meeting and said he would send the invite \"sometime tomorrow\""
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to speak to his wife after she returns Monday evening; follow-up call next Friday at 16:00 ET, with the wife invited to join if she has questions. Calendar invite not yet sent at the end of the call."
+  },
+  "notable": {
+    "note": "A prospect who is 5'9\" and 240 lb, self-identifies as needing to lose 50 lb, has treated sleep apnea, a father who died of a heart attack, diabetic grandparents, an upper-back problem since high school, reconstructive wrist surgery and a shoulder that the kettlebell swings are already aggravating — and not one question was asked about whether a doctor had cleared any of this. The family cardiac history was received as motivational material and the rep moved straight on to body fat weighing on joints. Separately: this is the only prospect in the batch whose stated blocker was purely the size of a single payment, and no payment plan was mentioned, despite internal evidence from the previous day that six-instalment plans and deposits are in active use."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion throughout — the rep's own questions repeatedly run under the prospect's label (\"How much pounds do you feel like you would ideally want to lose?\" at 00:15:42, \"Is that something that you have at the moment, that you're quite exhausted?\", \"Take me through it. What can we potentially help you with?\") and vice versa. Role read from content. The prospect was outdoors in a parked truck on a phone; there are several video freezes and one point where the rep missed the price question entirely (\"Did you hear everything that I said or did you just miss everything?\"). A few fragments are unrecoverable machine noise."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "call_id": "2026-06-02_aric-chang_ben-byrne",
+  "source": {
+    "drive_file_id": "1v62zZynIkY2YgsVM1RQdJFSDWw_KD4H1",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/02/2026 - Aric Chang x Ben Byrne KL",
+    "display_title": "06/02/2026 - Aric Chang x Ben Byrne KL — Follow Up",
+    "file_size_bytes": 40630
+  },
+  "call": {
+    "date": "2026-06-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 44,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Canada" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla Louie",
+    "confidence": "high",
+    "evidence": "Rep at 00:00:47: 'Well, I got some of the notes from Kyla yesterday, but I mean, curious, like how can we potentially help?'"
+  },
+  "prospect": {
+    "name": "Aric Chang",
+    "aka": null,
+    "name_source": "title",
+    "location": "New York, USA - travels internationally for weeks at a time",
+    "age": 30,
+    "occupation": "Never asked. Describes an intensive work schedule with frequent international travel for conferences and meetings, and periods of 'grinding at work'.",
+    "height_in": null,
+    "weight_lb": 155,
+    "bodyfat_pct_self_reported": 15,
+    "training_background": "Weightlifting at the gym on and off for several years, currently a push/pull/legs split with two leg days a week. Has deliberately added non-aesthetic work - Pallof presses, suitcase carries with kettlebells, hip abduction cable work - for core and stability. Trains four to five times a week when in New York for two to three weeks, then travels for two to three weeks or longer and does not train at all, losing about a week to getting resituated on return. Sessions currently run an hour and a half to two hours. Has used in-person personal trainers but never an online coach. Attended a total-body stretching centre near his home at over $100 a session and stopped because he could not stay consistent and they would not teach him the stretches to do alone. Self-describes as naturally very inflexible; cannot touch his toes or clasp his hands behind his back.",
+    "kettlebell_experience": "some",
+    "medical": "Injured the right side of his SI joint, which he attributes to a left-right flexibility asymmetry and compensation. Lower back pain that appears if he trains too long, trains consistently for a while, neglects his posture, lifts something incorrectly, or walks too much. Says it 'hasn't been much of an issue recently'. Separately reports an alcohol allergy and does not drink at all. Height was stated but the transcript is garbled ('I'm like 358') so it is not recorded. No clinician involvement was mentioned and no clearance was sought."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Already in reasonable shape and self-aware about it: 'It's not like I'm not, I think I'm decently fit, but like it would just be nicer to just like, look more just like, you know, leaner'",
+      "Raised no price objection at any point - the blocker was proof, not cost",
+      "Reasons in ROI terms about his own time: 'it'd be a lot higher ROI if I could just go to a gym and then just do a quick workout every day'",
+      "Wants Trevor's physique specifically as the target - 'I guess like Trevor is ideal'",
+      "Already pays for coaching-adjacent services at over $100 a session and has used personal trainers",
+      "Diverges from the archetype in one way that mattered: he wanted to de-risk before committing, asking three separate times for a trial or pay-per-session, which the archetype description does not anticipate"
+    ]
+  },
+  "goals": [
+    { "text": "Get leaner - body fat is a little over 15% and he wants it lower", "category": "fat_loss" },
+    { "text": "Build more muscle and reach a physique like Trevor's - athletic rather than bulky", "category": "muscle_gain" },
+    { "text": "Fix a long-standing lack of flexibility - cannot touch his toes or clasp his hands behind his back", "category": "mobility" },
+    { "text": "Be around and able for future children - to still play with them and pick them up when he is older", "category": "longevity_family" },
+    { "text": "Cut workouts from ninety minutes or two hours down to 30-45 minutes, a 40-50% reduction", "category": "convenience" },
+    { "text": "Train while travelling without having to find and join a gym in each new city or country", "category": "consistency" },
+    { "text": "Avoid ending up like the older men he describes as petrified and hunched over", "category": "injury_prevention" },
+    { "text": "Correct the left-right asymmetry he believes caused his SI joint injury", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Cannot stay consistent - trains four to five times a week for two to three weeks, then travels for two to three weeks and stops entirely", "category": "consistency", "severity": "high" },
+    { "text": "Intensive work schedule and constant travel leave no room for ninety-minute to two-hour sessions", "category": "time_scarcity", "severity": "high" },
+    { "text": "Right SI joint injury with lower back pain that recurs with posture lapses, heavy lifting or too much walking", "category": "injury", "severity": "medium" },
+    { "text": "Naturally very inflexible and does nothing about it - cannot touch his toes", "category": "training_barrier", "severity": "medium" },
+    { "text": "Stopped paying $100-plus per session for stretching because the provider would not teach him to do it alone", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Cannot sustain macro tracking - restaurant dishes and portions make it impractical", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Assembles his plan from saved Instagram reels rather than following anything coherent", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Fear of a slow physical decline into being unable to move well with age", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I really like Trevor's content and I do, you know, like our conversation as well. But then I think if the package is, let's say like a couple of thousands. But, you know, we're just kind of jumping into that before I really understand like what it's like working with Trevor. It's a bit of a leap for me in terms of just faith. So I'd be more comfortable committing if there's some kind of a trial or something.",
+      "timestamp": "00:37:38",
+      "rep_response": "Initially declined - 'the tricky thing is once we start working with you, Trevor's already going to start building out your plans... So we don't really do kind of a minimum package' - then quoted the standard prices. Later offered a three-month tier framed as requiring Trevor's approval, and finally, near the end and after the prospect had disengaged, disclosed a 'love it or leave it' guarantee that would have answered the objection directly.",
+      "response_tactic": "decline_then_downsell_then_late_guarantee",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "It doesn't have to be a free trial, but it's like, do I have to buy a whole 12-week package or something right off the bat? Or can I just pay per session to begin with just to see what it's like? That kind of stuff, right?",
+      "timestamp": "00:37:38",
+      "rep_response": "Explained why a minimum package does not work operationally, on the grounds that Trevor begins building the plan immediately. Did not offer any structure that would let the prospect sample the service, and did not surface the guarantee at this point, which is where it belonged.",
+      "response_tactic": "operational_justification",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Yeah, I mean, yeah, I guess maybe just let me think about it a bit and then, yeah, I'll get back to you guys.",
+      "timestamp": "00:40:07",
+      "rep_response": "Correctly isolated the reason - 'if like six months is too big of a commitment, I guess is that what's coming up for you? Is this like, well, like, I don't even know if I want to work with Trevor 100%' - and got a clean confirmation. Then went to the three-month tier rather than running any of the scripted moves.",
+      "response_tactic": "isolate_then_offer_shorter_tier",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "Are you like, are you a trainer yourself or do you mainly do intake for Trevor or how does that kind of work?",
+      "timestamp": "00:31:33",
+      "rep_response": "Answered honestly - 'Yeah, I'm just doing like the enrollment calls basically to, you know, get the right people into the program' - then described his own experience of the programme and the three-day fast at length. Proposed label: probing_reps_credentials.",
+      "response_tactic": "honest_role_disclosure_then_personal_story",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered pre-emptively before any money objection - 'we can split it up. Like, we can do some type of payment plan where you don't necessarily have to throw it all on credit card or something like that right away. You know, we're flexible' - and again against the three-month tier, with no instalment count, schedule, deposit or total ever stated.",
+    "guarantee_mentioned": "Disclosed late, at 00:42:14: 'we do have a love it or leave it guarantee'. Described as: 'let's say that we split up the six months, you put a deposit down for, I don't know, the first month. If you got to the end of the month and you're like, dude, this is not what I expected, then we could just cancel the contract, basically.' The deposit amount was not specified and no refund terms were given.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.87,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision, no payment, no link. The prospect deferred twice: 'let me think about it a bit and then I'll get back to you guys' and 'let me just kind of think about it. And then, yeah, we'll be in touch then.'",
+      "The call ended abruptly because the prospect had another meeting - 'I do have to run to another call now' - which the rep confirmed to his manager an hour later: 'towards the end of the call, before I could really like objection handle, he's like, oh, I got another meeting. gotta go.'",
+      "An artificial open item was created: the rep said he would message Trevor about the three-month package and the prospect anchored the next step to it - 'just let me know what Trevor says, and then we can go from there'",
+      "The core objection was never resolved - he wanted proof of what working with Trevor is like before committing, and the guarantee that addresses it was mentioned only after he had already disengaged",
+      "Counter-evidence pointing warmer: intent and urgency were high ('pretty much ASAP', 'I'm ready'), he raised no price objection at all, and he engaged closely with the mechanism throughout"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to report back on what Trevor says about a three-month package. Prospect to think it over and be in touch. No date was set and no follow-up was scheduled."
+  },
+  "notable": {
+    "note": "Three things stand out. First, this is the only call in the batch where recording was mentioned, and the prospect was told it was not really being recorded: 'It's just being recorded by my note-taker. It's not like being recorded. It's not on the internet somewhere.' Second, the rep presented the three-month $4,000 tier as an exception requiring the founder's approval - 'let me just message Trevor real quick... in some cases, what we could do' - roughly an hour after presenting that same tier to a different prospect as one of three standard options. Third, the prospect handed over the deepest motivation in the batch in his opening answer, wanting to be able to pick up his future children when he is older, and the rep closed the thread down as 'more of like a future thing then' and reduced the whole call to saving time on travel. He also read out several minutes of physiological claims about a three-day fast tied to a blue moon that the founder had instructed clients to do, and ended the call by thanking the prospect using the wrong name."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent and material inversion. Whole rep passages sit under the prospect label and vice versa: at 00:02:31 the rep's summary 'so a few things um you mentioned like the you've been on and off' is merged into the prospect's turn; at 00:07:45 a long prospect answer contains the rep's question; at 00:15:00 'The standard bodybuilding workouts that most people do' is labelled to the prospect but is the rep; at 00:21:17 through 00:23:00 the pitch and the nutrition question run together across both labels; at 00:34:12 'Essentially, hour 12 to 24 is when ketones enter the picture' is attributed to the prospect but is the rep reading from Trevor's post. Height is unusable ('I'm like 358'). Role assignment was read from content throughout."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-05-26_john-french_harry-edmonds",
+  "source": {
+    "drive_file_id": "1NoaK2RDLDv1dmnKExZqKjSbxlhwCNBEI",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/26/2026 - John French x Harry Edmonds",
+    "display_title": "05/26/2026 - John French x Harry Edmonds — Follow Up",
+    "file_size_bytes": 36191
+  },
+  "call": {
+    "date": "2026-05-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 33,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "John French",
+    "aka": null,
+    "name_source": "title",
+    "location": "Southern California, USA",
+    "age": null,
+    "occupation": "Shift-based role (8-10 hour shifts, currently between positions and moving into a more desk-based role)",
+    "family_status": "Married; no children yet but actively trying — 'I'm going to be going into the dad mode soon'. Has a six-month-old puppy.",
+    "height_in": null,
+    "weight_lb": 178,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete — parkour, climbing, softball, hiking, frisbee golf, slacklining, surfing. Swims three times a week, trains roughly five times a week, occasional gym. Has been using kettlebells informally for a while and consistently for the last few weeks following Trevor's free videos (swings, crossovers, presses, suitcase carries, halos, chops); owns 18 lb up to 45 lb bells. Can still do pull-ups and overhead presses.",
+    "kettlebell_experience": "some",
+    "medical": "Recent foot surgery — a bone growth in the big toe joint was removed, attributed to years of parkour impact. Left shoulder injury from climbing 12-13 years ago that flares up when he stops training. Explicitly reports no back, knee or joint pain. Late thirties (exact age not stated)."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.75,
+    "signals": [
+      "Self-directed and already executing: 'I'm getting up, I'm working out for five times a week, and the longer I do it, the more, the better I'm gonna be at it'",
+      "Anchored explicitly to a free substitute that is working for him: 'I can do the self-research and kind of figure out you know different things uh with like some pretty good free resources'",
+      "Buys the philosophy but not the need: 'I feel like I have a pretty good grasp on things. I just need to tighten things up'",
+      "Counter-signal: also reads as the_optimizer — genuinely fit, wants best shape of his life — but price resistance and the free-alternative anchor are the dominant behaviour"
+    ]
+  },
+  "goals": [
+    { "text": "Get into the best shape of his life — a phase he feels he has never reached", "category": "appearance" },
+    { "text": "Go from 178 lb to 190-195 lb of muscle, especially chest, shoulders and core", "category": "muscle_gain" },
+    { "text": "Avoid injury in his late thirties — 'I don't have time for injuries'", "category": "injury_prevention" },
+    { "text": "Be physically able and active for fatherhood, not the dad whose knees crack getting off the floor", "category": "family_role_model" },
+    { "text": "Keep the daily energy, focus, drive and productivity that training gives him", "category": "energy_performance" },
+    { "text": "A structured, progressive weekly routine instead of improvising each session", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "No programming knowledge — improvises each session: 'I don't really have like a good schedule, like a good build'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Gets bored with conventional gym training", "category": "training_dissatisfaction", "severity": "low" },
+    { "text": "Old climbing shoulder injury that flares when he regresses", "category": "injury", "severity": "medium" },
+    { "text": "Recent foot surgery limited what he could train", "category": "injury", "severity": "medium" },
+    { "text": "Under-eats during long work shifts — two solid meals and nothing for eight to ten hours", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Moving into a desk-based role after an active one", "category": "training_barrier", "severity": "low" },
+    { "text": "Fear of ageing into the cracking-knees version of himself he sees online", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "i mean i can do the self-research and kind of figure out you know different things uh with like some pretty good free resources obviously it's not gonna be like super optimized",
+      "timestamp": "00:28:35",
+      "rep_response": "Conceded the point outright — 'Yeah, I'd say you don't have to do it. If you feel like you can do it on your own, just do that' — then offered a single time-versus-money reframe and let it stand",
+      "response_tactic": "concede_then_time_vs_money_reframe",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "really i mean the price is pretty high",
+      "timestamp": "00:28:35",
+      "rep_response": "No isolation, no financial-picture questions. Later answered a factual question about instalments and named an unadvertised cheaper three-month tier.",
+      "response_tactic": "none_informational_only",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "i have that i have to talk with my wife to see if that's something",
+      "timestamp": "00:28:35",
+      "rep_response": "Dismissed it as not the real issue — 'it sounds like it's more of a thing for you rather than like the money or like speaking to your wife' — without running any of the spouse play",
+      "response_tactic": "reframe_as_personal_desire",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I see the benefit. I just got to think about it.",
+      "timestamp": "00:29:00",
+      "rep_response": "Accepted it: 'Yeah, just do what you wanna do, man.' Offered email as the follow-up channel.",
+      "response_tactic": "accept_and_defer",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Most pay up front on a credit card; 'there is ways to break it up if you want it to, depends on your credit score, but we have some good third parties for it'",
+    "guarantee_mentioned": "'We guarantee the results... the way we guarantee it is based on the weight of the kettlebell. Whatever your starting weight is, the guarantee is that by the end of the six months you will be swinging around a 20 pound heavier kettlebell for all the main lifts.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.65,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision reached: 'I'll give it some thought' and 'I just got to think about it'",
+      "A next step exists and the prospect asked for it: 'if it's something that I want to, you know, continue down, do I just like send an email to you or something?' — rep: 'Yeah, just shoot an email to me'",
+      "Counter-evidence, and it is strong: he twice moved toward a no — 'I don't know if I see that being the right type of investment for what I need' and 'I'm not sure if it's the right program then for me right now'",
+      "Counter-evidence: the rep disengaged rather than working it — 'just do what you wanna do, man' — so the follow-up is prospect-initiated with no scheduled date"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to email the rep if he decides to proceed; no date set, no follow-up call booked"
+  },
+  "notable": {
+    "note": "The rep volunteered an unadvertised three-month tier at $4,000 — 'There's a three month one, but it's 4k. So I don't really offer it to people' — after the prospect had already said the price was high, giving him a cheaper reference point that was never followed up on. He also stated a hard results guarantee (+20 lb on all main lifts in six months) with no written terms mentioned. A recent foot surgery went unexplored before selling swings and snatches."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Speakers invert repeatedly. In the first minute the 'Harry Edmonds (Primal Instinct)' label says 'I'm in Southern California' while the 'John French' label says 'I'm in London' — the reverse of the truth. Long stretches around 00:15:00, 00:22:00 and 00:28:00 attribute the rep's programme explanation and the prospect's price objection to the wrong speaker mid-sentence. Roles were resolved from content throughout."
+  }
+}

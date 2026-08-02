@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-07-16_evangelos-averkiou_richard-claessen",
+  "source": {
+    "drive_file_id": "1zhFxbrCAyby9qtlf0uAv6pXPcHDErl59",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/16/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 47578
+  },
+  "call": {
+    "date": "2026-07-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 40,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "because I saw something different in the application, so I just want to check"
+  },
+  "prospect": {
+    "name": "Evangelos Averkiou",
+    "aka": "Angelos — his everyday name; Evangelos is the official name on the application",
+    "name_source": "transcript",
+    "location": "Cyprus",
+    "age": 31,
+    "occupation": "Two jobs — two night shifts a week at a hospital (Sunday and Monday nights) plus full-time self-employed work as a financial planner and insurance agent",
+    "family_status": null,
+    "height_in": 67,
+    "weight_lb": 170,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Nothing at all for the last two to three weeks. Before that, running by the beach and light bodyweight work at home, push-ups. Previously went to the gym but stopped because of traffic and had no structure. Did intermittent fasting successfully when he was 93 kg. Has lost significant weight over the last few months, now 77 kg at 171 cm.",
+    "kettlebell_experience": "none",
+    "medical": "Left knee pain that comes and goes, rated 5 out of 10 when it flares, which he attributes to habitually shifting his weight onto that leg. Cracked bones in a motorbike accident roughly ten years ago, described as fully healed with no current pain. Night shifts disrupt his sleep."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: aspirational_low_liquidity — high intent and clear identity motivation, no meaningful training history, and a hard budget ceiling well below the offer. Same cluster as the Brandon Blair call in this batch.",
+      "No former athletic self to reclaim: 'I didn't really try it methodically up until now' and 'I haven't really worked out for a long time. I mean, consistently.'",
+      "Motivated by appearance, confidence and mortality rather than performance: 'I want to see myself in the best physical shape I can get it before I die.'",
+      "Hard capacity ceiling stated as 1k total for six months against a $6,000 offer, with two jobs and no discretionary room.",
+      "Not the_rebuilder, not the_optimizer and not skeptical_bargain_hunter — he named no competitor and no cheaper alternative at any point."
+    ]
+  },
+  "goals": [
+    { "text": "Change how he looks and get very fit", "category": "appearance" },
+    { "text": "Lose the remaining belly fat and get bigger arms", "category": "fat_loss" },
+    { "text": "Get strong and build a defined, structured physique like Trevor's", "category": "muscle_gain" },
+    { "text": "Train at home so traffic and a limited schedule stop being the reason he quits", "category": "convenience" },
+    { "text": "Exert confidence without having to say anything, including at work", "category": "confidence" },
+    { "text": "Stabilise his energy levels across the day", "category": "energy_performance" },
+    { "text": "See himself in the best physical shape he can reach before he dies", "category": "longevity_function" },
+    { "text": "Get rid of the intermittent left knee pain", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Has done nothing at all for two to three weeks and has never trained consistently or methodically", "category": "consistency", "severity": "high" },
+    { "text": "Left knee pain rated 5 out of 10 when it flares", "category": "injury", "severity": "medium" },
+    { "text": "Stopped going to the gym because the round trip took two hours with traffic, which he later concedes was an excuse", "category": "training_barrier", "severity": "high" },
+    { "text": "No structure — 'I tried on my own, but I don't have a structure to do it'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Works two jobs including two hospital night shifts a week, which wrecks his sleep and his energy", "category": "sleep", "severity": "high" },
+    { "text": "Feels very weak all day when he misses breakfast, which happens whenever he is rushed", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Had not eaten at all by 7.39pm on the day of the call and described himself as dead", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Rated his own appearance at the bottom of a one to ten scale and describes himself as still overweight with very small arms", "category": "confidence", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It's completely out of my budget, the amount of money.",
+      "timestamp": "00:32:05",
+      "rep_response": "Thanked him for the honesty, isolated the investment, asked what would be available, then asked whether the future version was worth 6k.",
+      "response_tactic": "isolate_then_capacity_then_worth_test",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Can you send me the details of this plan either on my email or on WhatsApp and I'll give you my answer by Monday?",
+      "timestamp": "00:36:19",
+      "rep_response": "Challenged the timeline directly — 'Can I challenge you actually? ... Why are we pushing to Monday? Why not tomorrow?' — and pulled the decision forward to Saturday with a promise.",
+      "response_tactic": "challenge_timeline_and_extract_commitment",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan structured for the six-month offer. The rep said 'Most guys have paid it all upfront overall. Sometimes we do, of course, have different approaches that we use', then moved to a $200 a month community tier when the prospect named a 1k total ceiling.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "The six-month offer was refused unambiguously: 'It's completely out of my budget, the amount of money' and 'I mean, 5k for six months, it's too much for me... You provide value, but it's not something that I can pay right now.'",
+      "His stated total ceiling was 1k for six months against a $6,000 offer — a six-fold gap.",
+      "Counter-evidence and the reason confidence is only 0.7: the conversation is genuinely live on the $200 a month community, with details to be sent on WhatsApp and a commitment to answer on Saturday: 'Yeah, on Saturday for sure I'm going to give you an answer.'",
+      "Counter-evidence: value was fully accepted — 'It's worth a lot more than 6K, but it's just my budget' — so this is a pure capacity loss.",
+      "Recorded as lost because the offer this corpus measures was explicitly refused; the downsell decision is captured in next_step."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send details of the $200 a month community on WhatsApp. Prospect committed to reviewing it on Saturday and giving an answer that day, with a signup link available for him to use directly."
+  },
+  "notable": {
+    "note": "Two things. First, the rep twice told him he has no injury in order to justify the unsupervised community product — 'the plans that we do have in there they're very much centered around people who don't have injuries and of course you don't really have an injury' — twenty-eight minutes after the same rep responded to a 5-out-of-10 knee pain with 'That's not little, of course.' Second, the rep predicted a specific numeric reduction in that pain from the programme. Note also the $200 a month figure was quoted flat here, while on another call the same afternoon the rep said that tier was moving to $1,000 per six months the following week."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion. The rep's questions about training, motivation and the negative future are repeatedly attributed to the prospect, most obviously in the block from 00:05:56 to 00:07:06 and again from 00:12:51 to 00:13:36. Several long stretches from 00:14:00 onward lose turn boundaries entirely and run as continuous text. Role determined from content."
+  }
+}

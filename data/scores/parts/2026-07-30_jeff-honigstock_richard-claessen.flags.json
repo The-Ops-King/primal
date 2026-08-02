@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-30_jeff-honigstock_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed medicated high blood pressure, borderline diabetes, a treating physician with standing exercise instructions, and recent surgery for a torn distal biceps tendon at the elbow; the rep asked no follow-up question about any of it and proceeded to sell progressive loaded kettlebell training with no clinical clearance sought.",
+      "evidence": [
+        "I have high blood pressure. I'm borderline diabetic right now. Like it's like literally at the bottom number, the diabetes number.",
+        "I go to a concierge doctor and the doctor's like, look, I just need you to walk two miles a day. I'm not even doing that.",
+        "I did, I'm coming off of a minor surgery on my bicep. I had what's called a pop-eye arm. It's my bicep just tore by my elbow, and I rehabbed it for six months.",
+        "do you have any types of pains or something that we should know about? — No.",
+        "we're not going to begin with heavy weights, you're going to be injuring yourself... We set up the full foundation, and then we build with weight"
+      ],
+      "timestamp": "00:14:33"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Prospect stated on the call that the programme would let him eliminate his prescribed blood pressure and diabetes medications; the rep did not correct, qualify or refer the claim and went on to close.",
+      "evidence": [
+        "I have high blood pressure. I'm borderline diabetic right now... I'm like, if I do it now, I could probably eliminate my medications. I know what the problem is.",
+        "That's a pain. I get it. I got it. I have it.",
+        "When it comes to getting to the shape, 185, it's definitely attainable in six months."
+      ],
+      "timestamp": "00:14:33"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The prospect had been corresponding with a setter named 'Sophia' whom he believed to be a person; 'Sophia' is an AI, and this was disclosed only because he happened to ask how large the company was.",
+      "evidence": [
+        "I saw, of course, also that you messaged Sophia about joining from the gym.",
+        "I know that this is a whole larger organization. I was expecting to see the person that I saw on the video... But how big, how big are you guys?",
+        "Sophia isn't a person, to be honest. — Really? — Yeah, it's AI.",
+        "the way that you followed up on every single, am I going to get on the call... I know from that process that you're going to have other processes that are going to help me"
+      ],
+      "timestamp": "00:00:31"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated the $6,000 price is not negotiable on this call, while on the previous day the same rep restructured the same product into a one-month trial for another prospect and on two other calls in this batch dropped to a $1,000 tier on price resistance.",
+      "evidence": [
+        "is he flexible on that number? — No, he's not flexible on the six. Like, he has set that worth to himself.",
+        "It's not per se for six months, right? It's for the results of it",
+        "If it's a no, because of the money only, let me know, because there is other things, but you are on a time constraint, so I can't run you through it right now."
+      ],
+      "timestamp": "00:48:47"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep used a named existing client as social proof with health details and an enrolment date that contradict the account he gave of the same client on other calls in this batch.",
+      "evidence": [
+        "It's not on Trevor's Instagram yet because Peter only started two months ago, but Pete started with Trevor like two or three months ago now, and he is, I think, 72.",
+        "He was in okay shape, but his mobility was the main thing that was killing him as well. Like, he constantly had pain in his back",
+        "And if someone from 72 can do that, why can't you do it at 56, without actually having a pain at the moment?"
+      ],
+      "timestamp": "00:26:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The pricing conversation was truncated by the prospect's next appointment, leaving an alternative offer explicitly referenced but never described, so the recording does not contain the full option set the prospect will decide against.",
+      "evidence": [
+        "I do have to hop, but I want to think about it",
+        "because there is other things, but you are on a time constraint, so I can't run you through it right now",
+        "I have an 11 o'clock I have to prepare for"
+      ],
+      "timestamp": "00:54:40"
+    }
+  ]
+}

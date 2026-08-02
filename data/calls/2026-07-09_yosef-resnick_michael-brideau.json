@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-07-09_yosef-resnick_michael-brideau",
+  "source": {
+    "drive_file_id": "1cC3RRQGEPGpv_jWmzLXPiQ2YJk5IkTY1",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/09/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/09/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 31508
+  },
+  "call": {
+    "date": "2026-07-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 30,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "medium",
+    "evidence": "Rep: 'So I know you spoke with Derek, so I have a bit of a head start on you, okay?' The prospect did not recognise the name with certainty — 'Was it Derek? Was that his name? I guess so.'"
+  },
+  "prospect": {
+    "name": "Yosef Resnick",
+    "aka": "Peter — legal first name; goes by his middle name Yosef",
+    "name_source": "transcript",
+    "location": "Connecticut, USA; commutes into New York two days a week",
+    "age": 62,
+    "occupation": "Clergy member and chaplain. Four part-time jobs, sometimes six: chaplaincy at a senior home, chaplaincy at Creedmoor Psychiatric Center in Queens NY, kitchen supervision at a retreat centre in western Connecticut, and Lyft rideshare driving; couples coaching currently dormant. Roughly 90% of the working day on his feet.",
+    "family_status": "Second marriage for both. His wife also carries extra weight and has type 2 diabetes; they work on food and exercise together. Five children each, ten in total, all grown and out of the house.",
+    "height_in": 69,
+    "weight_lb": 210,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Belonged to a local gym for a year and attended often; cancelled a few months ago over cost and contract lock-in. Did Taekwondo two summers ago and lost weight, stopped when starting a full-time hospital chaplaincy residency and out of concern about injuring himself. Lost weight as a teenager through daily 25-minute fast walks. Currently no structured training at all — fast walking plus exercises given by his physical therapist. Owns a kettlebell and says he likes the idea, but described no kettlebell training.",
+    "kettlebell_experience": "none",
+    "medical": "Type 1 diabetes. Diastasis recti — self-described as 'a tear down the middle of the stomach muscle' — which he is actively working on with a physical therapist. High blood pressure, stated as controlled with medication. Diabetic complications including peripheral neuropathy. Lower back strain and lasting pain if he lifts too heavy for too long, cause unknown to him: 'I don't know what the technical reason is.' Heaviest he has ever been at 62. Under the care of a physical therapist and a nutritionist. Rises at 3am and works up to seven days a week."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.6,
+    "signals": [
+      "62, health-literate and already medically managed — names diastasis recti precisely, has a physical therapist, a nutritionist and blood pressure medication.",
+      "Goal is arresting a decline rather than gaining anything: 'I'm just really concerned that I want to stop that progression and lose weight instead of gaining it.'",
+      "Very low discretionary liquidity: 'It is paycheck to paycheck' with 'a couple hundred a month' available.",
+      "DIVERGENCE FROM THE ARCHETYPE: the_preserver is described as often high nominal income, and he is the opposite — four part-time jobs including rideshare driving, and by his own estimate under half of $150,000. Everything else about the archetype fits, so it is assigned at reduced confidence rather than forced into rebuilder or medically_constrained, neither of which fits the medically-managed, preservation-motivated profile."
+    ]
+  },
+  "goals": [
+    { "text": "Lose 20 to 40 pounds — from 210 to 180-190, ideally 170", "category": "fat_loss" },
+    { "text": "Stop the upward weight trend before it worsens his diabetes and general health", "category": "longevity_function" },
+    { "text": "Heal the diastasis recti, which he is already working on with his physical therapist", "category": "injury_prevention" },
+    { "text": "Feel better about his self-image — being over 200 pounds is something he never expected to face", "category": "confidence" },
+    { "text": "Structured, consistent exercise he can actually keep to around a seven-day working week", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Type 1 diabetes with complications including neuropathy, plus medicated high blood pressure, at 62 and the heaviest he has ever been", "category": "medical", "severity": "critical" },
+    { "text": "Diastasis recti — an abdominal wall separation under active physical therapy", "category": "injury", "severity": "high" },
+    { "text": "Lower back strains and stays painful when he lifts too heavy, with no diagnosis he can name", "category": "injury", "severity": "medium" },
+    { "text": "No structured training at all since the gym membership lapsed a few months ago", "category": "consistency", "severity": "high" },
+    { "text": "The nutritionist's plan is unusable against his life — an elaborate seven-day, three-meals-a-day cooking plan for a man who eats breakfast standing at a counter or in his car after a 3am start", "category": "program_fit", "severity": "high" },
+    { "text": "Cannot reach his nutritionist — she does not answer texts, email is the only route and he rarely checks it", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Working four to six part-time jobs, up at 3am, sometimes seven days a week", "category": "time_scarcity", "severity": "high" },
+    { "text": "Living paycheck to paycheck with only a couple of hundred dollars of discretionary income a month", "category": "other", "severity": "high" },
+    { "text": "Distress at his own appearance: 'when I look at my profile in a window, it's very upsetting'", "category": "emotional", "severity": "medium" },
+    { "text": "Has cut food intake and added walking with no weight loss to show for it", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "this other program came up in my feed, and in their advertising, they say, if you don't make $150,000 a year, this program is not for you, which I thought was kind of shocking and, like, really unbelievable. Now, for all I know, you're, I mean, we're talking here about private coaching, and it's like a whole program, so you may have the same exact criteria. I don't know. I don't make nearly, I make, you know, if I'm lucky, I make half that much",
+      "timestamp": "00:11:37",
+      "rep_response": "Did not answer the question. Moved on to why the gym membership was cancelled and never returned to whether Primal has an income criterion.",
+      "response_tactic": "no_response",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It is paycheck to paycheck. And so, like, money that I spend on things like, you know, whether it's Taekwondo or a kettlebell or whatever it is, I have to, you know, just think long and hard about what I'm spending, just about my discretionary income spending.",
+      "timestamp": "00:21:25",
+      "rep_response": "The rep raised the affordability problem himself before the prospect ever refused — 'I don't know that it's going to be a perfect fit... that's probably going to be a little bit outside of the realm of possibility right now.' He then asked only for monthly discretionary income, made one identity-change value argument, and on hearing 'I just don't think it's doable for me right now' moved straight to a lower-priced product.",
+      "response_tactic": "self_disqualify_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "But it would be, whatever it is, I'd have to, you know, even if it's less, I'd still have to think about it.",
+      "timestamp": "00:22:42",
+      "rep_response": "Not addressed. No part of the think-about-it play was run.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 200,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Only monthly discretionary income was asked for, and only approximately — 'a couple hundred a month, yeah'. Annual income was volunteered as under half of $150,000. Cash on hand, savings, credit cards, available credit and investments were never asked about."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "Asked directly whether $6,000 was possible, the prospect said 'Uh, right now, no.'",
+      "'I mean, I think it's, uh, compelling and interesting, and, uh, but I don't, I just don't think it's, uh, doable for me right now.'",
+      "The rep effectively disqualified before the prospect refused: 'I'll kind of shoot it straight with you, man. I don't know that it's going to be a perfect fit.'",
+      "COUNTER-EVIDENCE: the call did not end at zero. The rep sent a live link to the Primal University group at 'a couple hundred bucks a month' and invited immediate purchase — 'if you feel like great, you can just punch in your card and get rock and roll'. The prospect said 'Okay, I'll check it out, yeah.' No purchase occurred on the recording.",
+      "COUNTER-EVIDENCE: the prospect's stated blocker was price alone; he twice described the offer as compelling, so the lead is not dead so much as unaffordable."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to open the Primal University link the rep sent during the call, watch the video, and decide; rep asked him to come back with questions. No follow-up call was booked."
+  },
+  "notable": {
+    "note": "The most medically complex prospect in this batch and the one where a clinical screen was most obviously needed. Type 1 diabetes, medicated hypertension, diabetic neuropathy, diastasis recti under active physical therapy, and undiagnosed lower back pain on loading — all disclosed inside the first five minutes. The only screening question asked was put to the prospect himself, 'Does any of that prevent working out or limit working out at all?', and his 'No, not from my experience' was accepted. The rep then speculated about the cause of the back pain — 'Is there a chance it could just be because the low back is weak right now?' — and later steered him toward an unsupervised, self-directed kettlebell and nutrition product with the claim that following the nutrition rules makes weight loss 'impossible not to'. Second point for a manager: the prospect asked outright whether Primal operates an income floor like a competitor he had seen advertise a $150,000 minimum, and the question was simply never answered."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Long alternating passages are collapsed into single speaker blocks with the roles inverted. The whole baseline sequence from 00:03:01 to 00:04:00 — age, height, work, denomination — sits under the rep label including the prospect's answers; conversely 00:00:58, 00:07:19, 00:12:00, 00:14:46 and 00:24:32 place unmistakable rep questions ('what did you want to change with it?', 'why did you discontinue it?', 'so what's your thoughts on that, though, man?') inside prospect blocks. All roles here were read from content."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-05-06_roy-norman_farooq-bey",
+  "rep": "Farooq Bey",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "No setter notes to read back. The frame ran in a compressed three-part form — 'It's just an opportunity for me to understand you. You know, where are you today? Where do you want to be? If we can help, I can show you some options' — which covers where you are, where you want to go and the options, but omits what is in the way and what you need. No agreement was sought, no 'does that work?'. The open question ran verbatim: 'How can we potentially help you?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "partial", "P2e": "miss", "P2f": "partial", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The baseline was almost entirely skipped and what exists was volunteered rather than asked. Age 41 came out in the prospect's opening monologue; height and current weight were never obtained at all, which is a striking omission for a strength and body-composition sale where the stated goal is regaining 20 lb of muscle. Health conditions and hereditary history were never asked — the father's diabetes emerged forty minutes later on a fasting tangent. Diet was never asked; the rep instead assumed it — 'I'm sure athletes like yourself... Nutrition is somewhat dialed in.' Sleep and energy were not touched. Work was engaged with but never characterised as desk-bound or active. Training week and injury status were both volunteered by the prospect, not elicited. That the prospect happened to be articulate and forthcoming is luck, and the script credits asking."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "partial" },
+      "evidence": "The best-run phase 3 in this batch. The rep refused to accept the prospect's first, logistical answer and pushed twice for the visceral version — 'I'm also focused on viscerally, visually, what do you want that to look like?' — which produced recovery time as the real success metric. Bridged out of the physical with 'would you say you're living up to your potential in this moment?', laddered with 'and why is that important?', then drove the ripple deliberately through employees, clients, wife and children: 'how is it going to bleed into, I guess, your identity as a husband, as a leader for your employees?' and 'is this something you can pass on to your kids one day?'. The reflect-back landed as a theme rather than the scripted contrast form — 'Balance, balance is my answer, balance' — hence partial on P3h."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "not_applicable", "P4d": "hit", "P4e": "hit", "P4f": "not_applicable" },
+      "evidence": "This phase is a poor fit for this prospect and the rep sensibly did not force it. There is no adherence failure to diagnose — the man trains three times a week, does daily mobility, and employs four specialists, so 'why didn't it stick' and 'why can't you stick to it on your own' are not applicable and are marked as such rather than as misses. What the phase should still have delivered, and partly did, is the gap: the prospect named it himself — 'I'm lacking of this, the structure and the strength' and 'that's the cherry of the cake, I miss, I'm missing this.' Past attempts were only lightly covered; the traditional heavy-lifting history was described by the prospect and never probed for what specifically failed."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "partial" },
+      "evidence": "No consequence frame at any point. The two-year question, the settle-for question and the 'why not' were never asked. The nearest move was 'would you say it's generally time for you to step into that higher capacity version of a man as a husband, as a leader?', which functions as a soft line in the sand and got a yes. The cost of inaction was never made real, and the material was sitting there — a 230 km race in November, 20 lb of muscle already gone, and a stated fear that his body will not hold up in the back half. Later, at 00:50:04, the rep did ask a consequence question, but about the purchase rather than the life: 'If you do go and crunch the numbers and you realize... I don't think I can. What is going to happen in that moment?'. The prospect answered that he would simply revisit in four or five months, which is exactly the outcome a properly run phase 5 exists to prevent. The rep then solved that by cutting the price rather than by raising the stakes."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "miss" },
+      "evidence": "P6a ran well: 'do you feel internally capable of getting to Rory 2.0?' produced 'I think that I'm very capable of doing that. I just need some tweaks in my body, in my structure.' P6b ran in a narrower money-isolation form — 'putting the money aside, the investment aside for a moment, do you actually want to do this?' — rather than the full all-in question. P6c failed outright and is the pivotal error of the call. The alignment check was run AFTER the pillars, and the answer was explicit hesitation: 'for me, it's 50-50, right?... The other 50 will be maybe I will reply or maybe answer myself when I see the results.' The script says do not move forward without a clear yes and, on hesitation, return to phase 5. The rep acknowledged the answer, complimented its depth, and went straight to the price. Because phase 5 had never run, there was no consequence frame to return to, and the eventual close was bought with a discount instead."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Phase 11 cannot be scored. Immediately after the verbal yes the rep said 'So what I'll do, Roy, I'll remove my Fathom Notetaker' and the recording ends. Payment collection, the Trevor onboarding booking, the agreement email and signature, and the welcome email and Skool instructions are all off the record. Marked not applicable rather than miss because absence of evidence here is a recording decision, not a demonstrated failure — but see the data_integrity flag, because this makes the terms of every deal this rep writes unauditable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Money was the sole blocker and the rep ran the opening of the play cleanly. The isolation move was textbook — 'putting the money aside, the investment aside for a moment, do you actually want to do this?' — and he followed with the worth-it question and the 'why do you say it's worth the investment' follow-up, both scripted. He then asked how the investment would be processed and offered the credit-card normalisation, which is adjacent to the play. But he never ran the financial picture: no cash on hand, no monthly surplus after bills, no number of cards, no available credit, no investments. And the scripted resolution — 'most clients pay upfront, but for some we break it up. Want to explore making it work?' — was never offered. The prospect actually reached for a payment plan himself ('maybe I can split that into maybe three months') and the rep replied only 'Yeah' and did not build on it. Instead of financing the real product, the rep replaced it with a $1,200 one."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A clear timing deferral at 00:50:25: 'maybe in four or five months, say, hey, Farooq, I'm ready to do that... I don't think this is a decision like just right away.' None of the OD moves ran. No 'things never slow down', no 'when does it actually become the right time', no 'the longer you wait the harder this gets'. This prospect had the single most usable version of that argument available — a 230 km race in November and a build-up already underway — and it was never used. The rep instead treated the deferral as a pricing problem."
+    },
+    {
+      "play": "OA",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No think-about-it in substance. His hesitation was consistently about budget reallocation and scope overlap, not about deferring the decision itself."
+    },
+    {
+      "play": "OB",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "Wife discussed at length but never as an approval gate."
+    },
+    {
+      "play": "OE",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No fear or doubt objection. His concern about fasting was a health question, handled under the nutrition pillar, not an objection to the offer."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A script gap not yet on the known list and worth adding: overlapping-spend on an existing specialist stack. The prospect already pays a nutritionist, an exercise physiologist, a running coach and a therapist, and said plainly 'I don't want to double the spend in something I already have.' Two of the three pillars — nutrition and accountability — duplicate services he is already buying. There is no scripted play for this, no training-only or reduced-scope tier, and no move for demonstrating that the pillars complement rather than replace an existing team. The rep isolated the money and never touched the duplication, which meant the objection was still live when the discount arrived."
+    }
+  ],
+  "notes": "Phase 3 here is a model of the process and should be used as a coaching example. Everything after it went wrong in a specific, repeatable way: no consequence frame, an alignment check answered '50-50' and ignored, and a close bought by inventing product. The rep quoted an unlisted $4,000 three-month tier and then an unlisted $1,200 'Love It or Leave It' trial he himself flagged as something he is not meant to recommend, and described its duration two different ways in consecutive sentences. This is not a coaching issue, it is a pricing-control issue. The single highest-leverage fix for this rep across the batch is the same one: when hesitation lands after the number, return to phase 5, do not reduce the product."
+}

@@ -1,0 +1,144 @@
+{
+  "call_id": "2026-06-04_cole-crossland_ben-byrne",
+  "source": {
+    "drive_file_id": "1m8H0ICXCiHBSZzY7V5-pan2W81z4Mut0",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/04/2026 - Cole Crossland x Ben Byrne KFS ",
+    "display_title": "06/04/2026 - Cole Crossland x Ben Byrne KFS  — Lost",
+    "file_size_bytes": 47481
+  },
+  "call": {
+    "date": "2026-06-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 48,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I've got a few notes about you. Looks like you spoke to Kim on our team, and I've got those details'; prospect later: 'I looked at his notes and someone said he suggested like a 30 kilo to begin with for my weight.'"
+  },
+  "prospect": {
+    "name": "Coleman Crossland",
+    "aka": "Cole",
+    "name_source": "title",
+    "location": "United States; state not disclosed. Lives on roughly seven acres and is currently building a house.",
+    "age": 38,
+    "occupation": "Works in a retail store; on his feet all day, 12,000-20,000 steps daily",
+    "family_status": "Married; wife has coeliac disease; two children aged 7 and 9. Heavily involved with his church on Sunday mornings, Sunday nights and Wednesday evenings.",
+    "height_in": 71,
+    "weight_lb": 200,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has never done strength training. Runs every day on a 1,002-day streak — was doing a 5K daily for two and a half years, dropped to a mile after surgery and is working back up. Very active at work and mows seven acres in roughly two and a half hours. Has recently started doing Trevor's five-minute morning mobility routines found through Facebook reels, though not every day. Tried the FitBod app but stopped because it required a gym. Never worked with a personal trainer or coach of any kind.",
+    "kettlebell_experience": "none",
+    "medical": "Slipped discs in his lower back from lifting improperly at work roughly 20 years ago: 'I slipped some discs and they've never fully healed.' Rates the pain a consistent six to seven out of ten, triggered by standing after sitting and severe after mowing — 'after I get off that lawnmower, I'm hurting bad.' Stiffness specifically in shoulder, hip and lower back. Has already sought care: 'I've been to doctors. I've had x-rays. I've been to chiropractors. I've done all that.' Had a surgery within roughly the last year that cut his daily run from 5K to one mile; he described it only as 'just an elective surgery' and 'nothing major' and the rep did not establish what it was. Losing muscle mass and strength. Non-smoker (quit years ago), light drinker, eats 1,800-2,200 calories of whole foods daily. No clinician clearance for loaded training was sought at any point."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Already disciplined and consistent across every domain except strength: 1,002-day running streak, clean diet, no fast food, quit smoking, minimal alcohol — 'I'm consistent with everything else, but not this'",
+      "Explicit good-to-great framing with no rescue element: 'I just want to get in better shape than I am, be toned up' and 'maintain my range of motion, increase my range of motion, and maintain my strength'",
+      "Diverges from the classic optimizer on price, which was the whole blocker — 'I'm a tight wad' — so this is an optimizer profile without the optimizer's price behaviour",
+      "Some the_rebuilder overlap around the 20-year back injury and declining strength, but he is not trying to recover a former self; he has never been trained and says so: 'I've never been in shape like that, I've never been toned'"
+    ]
+  },
+  "goals": [
+    { "text": "Get toned up — build visible muscle definition he has never had", "category": "appearance" },
+    { "text": "Increase and maintain range of motion; reduce joint stiffness in shoulder, hip and lower back", "category": "mobility" },
+    { "text": "Regain and maintain strength — stop struggling to pick things up at work and at home", "category": "strength" },
+    { "text": "Be healthy and durable for his two young children — get down on the floor with them and play and teach sports", "category": "longevity_family" },
+    { "text": "Work through the 20-year back problem rather than keep living with it", "category": "injury_confidence" },
+    { "text": "Train at home with minimal equipment and no gym — 'I like the idea of not having to go to a dang gym and waste all the time'", "category": "convenience" },
+    { "text": "Learn what to actually do — his repeated framing of the core problem", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Unhealed slipped lumbar discs causing consistent six to seven out of ten pain for about 20 years", "category": "injury", "severity": "critical" },
+    { "text": "Severe back pain after mowing and on standing up after sitting", "category": "injury", "severity": "high" },
+    { "text": "Stiff shoulder, hip and lower back with reduced range of motion", "category": "injury", "severity": "high" },
+    { "text": "Losing muscle mass and strength approaching 39 — 'I've never been weak. So it's been a little challenging'", "category": "aging", "severity": "high" },
+    { "text": "Has no idea what to do — 'I just don't know what to do. I have no idea what to do'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "A surgery cut his daily run from 5K to a mile", "category": "medical", "severity": "medium" },
+    { "text": "Has never been toned or consistent with strength work despite being consistent in everything else", "category": "consistency", "severity": "medium" },
+    { "text": "Too busy for the gym and unwilling to fill his home with equipment", "category": "training_barrier", "severity": "medium" },
+    { "text": "Doctors, x-rays and chiropractors have not resolved the back", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Do I have the money? Yeah, of course I have the money. Have I ever spent this much money on something like this? No.",
+      "timestamp": "00:35:29",
+      "rep_response": "Isolated it well, splitting value from capacity — 'do you feel like it's worth, let's say 6K? Do you feel like it's more of like you don't think it's worth it? Or do you feel like it's more about like, do I have that much money?' — established it was neither, then moved to financing options and an improvised trial instead of taking a financial picture or returning to Phase 5.",
+      "response_tactic": "isolate_value_vs_capacity_then_offer_structure",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I've just never had to make a decision like this before, so I just gotta think about it. I don't make decisions on money very quickly.",
+      "timestamp": "00:37:22",
+      "rep_response": "Probed twice — 'where is your head at with all this? Are you leaning towards doing it, but figuring it out how to make it work? Or are you leaning away?' and 'what is the main thing that you are hung up on?' — but ran none of the scripted moves and ultimately dispositioned it himself: 'We'll just call it a no for now.'",
+      "response_tactic": "direction_check_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "That's a big expense. I've to talk about that with my wife and kids to consider, having an emergency fund to consider, stuff like that.",
+      "timestamp": "00:46:08",
+      "rep_response": "Gave a genuinely de-pressurising answer first — 'if it's like your last 6K, it probably doesn't make sense to do it at all' — then reframed the children as the reason to buy rather than the reason to hold back: 'a lot of people in this situation, they kind of use the reason they need to do it is the reason why they're not going to do it.' No scripted spouse play ran.",
+      "response_tactic": "depressurise_then_invert_the_family_objection",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I don't know anything about your company. You know, it looks legit. I've been screwed before, too... I've been talking to a guy who I don't know on the internet. I don't even know where you're at.",
+      "timestamp": "00:40:32",
+      "rep_response": "Answered factually and openly — confirmed he is in Canada, Trevor is in California, the team is distributed, and that he works only for Trevor. Offered no testimonials, references or third-party proof, and did not run the scripted burned-before move that matches this objection exactly.",
+      "response_tactic": "factual_transparency_about_company_and_role",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three routes offered. In-house split ('we could split it up into payments'). Credit card ('you could throw it on a credit card'). Third-party consumer finance over up to two years at roughly $288 a month via named providers 'Pava' and Klarna, with the rep asserting no early-payoff penalty and estimating '$300, $400 of interest total' if paid off in six months while admitting 'some of them have different interest rates'. The prospect computed the implied rate as 'like 28% interest' and was not corrected. Finally an improvised $1,200 30-day entry with the remaining payments cancellable if unsatisfied.",
+    "guarantee_mentioned": "Improvised live at 00:42:30: 'we do have an option where it's basically, I love it or leave it, right, so you put down, if you want to do six months, you put down $1,200, it gives you 30 days in the program, at the end of it, if you're not like totally satisfied, we just cancel the remaining payments.' The prospect declined it.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.6,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep closed the call out as a no: 'We'll just call it a no for now, but, you know, if something changes, if something, or whatever, just feel free to reach back out then.' Prospect: 'Definitely.'",
+      "The prospect declined even the de-risked $1,200 30-day entry: 'Yeah, I don't think I would do that part' / 'The love it or leave it.'",
+      "No payment, no payment link, no follow-up date and no second call booked",
+      "COUNTER-EVIDENCE — the prospect twice asked how to reach the company, which is buying behaviour: 'Are you gonna email me, or someone gonna email me or something?' and 'I don't know who to contact if I decide to do it.'",
+      "COUNTER-EVIDENCE — he never said no. His position was 'I just need some time, my man' and 'I'll reach out if we decide to move forward with this.' A defensible alternative reading of this call is follow_up; it is recorded as lost because the rep terminated it as a no and no next step of any kind was agreed.",
+      "COUNTER-EVIDENCE — capacity was never the issue: 'Do I have the money? Yeah, of course I have the money.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. The prospect said he would reach out if he decided to proceed; the rep did not confirm which channel he would use or set a date."
+  },
+  "notable": {
+    "note": "The best discovery in the batch and the worst clinical outcome. The rep ran a textbook pain workup — location, mechanism, duration, severity on a one-to-ten scale, trajectory — establishing unhealed slipped lumbar discs at six to seven out of ten for twenty years, and then never once asked whether a clinician had cleared him for loaded training, instead positioning the programme as what would free up the joint pain and setting a goal of adding eight kilos of load. He also improvised a $1,200 thirty-day tier with a satisfaction-based cancellation, quoted specific interest figures for named third-party lenders whose rates he admitted not knowing, and voiced the cheapest alternative on the prospect's behalf ('I could work out for free'). Two commitment questions did run properly before the price, which is the only call in this batch where that happened."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The worst diarization in the batch. Long stretches are systematically inverted: at 00:03:52-00:04:08 the question 'Every time you stand up?' and the answer 'No, every time' are swapped; at 00:06:26-00:07:04 the prospect's whole account of his diet and quitting smoking runs partly under the rep's label; at 00:09:02-00:09:47 the BMI exchange is inverted throughout; at 00:11:00-00:12:00 an entire rep discovery block appears under the prospect's label; at 00:34:00 the rep's tier explanation opens under the prospect's label. Role read from content in every case."
+  }
+}

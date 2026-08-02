@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-27_jacob_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "After two lenders declined the prospect's credit application live on the call, the rep took $100 and set him the task of getting his credit union to raise his card limit so he could buy.",
+      "evidence": [
+        "Oh, it says, unable to offer a payment plan at this time.",
+        "Your interest in choosing Primal. Right now we can't offer any flexible payment options.",
+        "What's the limit? 2k.",
+        "How much work is it to, like, up your, not screw up, but, like, dial it up the limit?",
+        "I never thought that I would need to expand my credit for something like this, but...",
+        "what I would say the best next steps is see if you can give them a call now. Like, if you have time, just that the ball's already rolling on Monday"
+      ],
+      "timestamp": "01:14:14"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "A $100 holding payment was accepted and Trevor's onboarding call was booked and email-confirmed before any substantive payment, against the deposit rule the manager gave this rep five days earlier.",
+      "evidence": [
+        "I cannot book in a meeting until, like, there's some sort of form of commitment, just because we want to have Trevor's calendar open as much as possible.",
+        "what we could do, if that works for you, is that we just do a hundred, then we book something in, and then before you have the meeting with him",
+        "Did you get the invite from Trevor? Yep.",
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call. But they have to pay at least the $1,200 before the onboarding call happens, and if they don't, cancel it and be on top of it ASAP."
+      ],
+      "timestamp": "01:15:25"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The offer was restructured live into third-party financing at 13-14% APR over 24 months, an effective price of roughly $7,000 against the published $6,000, with the interest priced aloud by the rep.",
+      "evidence": [
+        "Yeah, so this one says 24, there's a 24-month option. 288 a month, that's 13, 14% APR, so it's about $1,000 in interest.",
+        "with the 12 for this one, it would be 158 in total interest",
+        "we have also in-house um like payments right now we can only do it in six times we cannot do it up to a year",
+        "for the 12 months, it's essentially saying it's $650"
+      ],
+      "timestamp": "00:57:36"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The prospect screen-shared a live credit application and payment checkout for roughly twenty-five minutes, and card details were taken verbally, putting his legal name, date of birth, address, phone number and credit data into the recording.",
+      "evidence": [
+        "It asks your legal name and then for an email address and date of birth. So I'd fill What is the date of birth?",
+        "before we can offer you a plan, we need to perform a soft pull of your credit report",
+        "share your screen, because I can actually see what you're doing",
+        "I just took a look online while you were getting your cards.",
+        "What is the expiration date on that?"
+      ],
+      "timestamp": "00:50:50"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The prospect stated that the decision required a conversation with his pregnant partner; money was taken and onboarding booked without that conversation ever being raised again.",
+      "evidence": [
+        "And this is something obviously I'd have to talk with my partner about as well. But yeah, that number is probably more doable.",
+        "we just do a hundred, then we book something in",
+        "Then I can tell Trevor that you're ready to go. And it just comes down to the, to the bank thing."
+      ],
+      "timestamp": "00:47:42"
+    }
+  ]
+}

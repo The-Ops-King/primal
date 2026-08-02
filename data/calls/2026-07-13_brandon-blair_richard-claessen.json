@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-07-13_brandon-blair_richard-claessen",
+  "source": {
+    "drive_file_id": "1MPxXdsBzrHK6vWczWqYOhcvVaDh4tX7s",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/13/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/13/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 70239
+  },
+  "call": {
+    "date": "2026-07-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 56,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "I heard a lot of things already from Derek, but I would just love to go through it with you"
+  },
+  "prospect": {
+    "name": "Brandon Blair",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Michigan, USA",
+    "age": null,
+    "occupation": "Costco employee, recently moved into a new position; aiming for management",
+    "family_status": "Engaged; fiancee approximately seven weeks pregnant with their first child",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Martial arts since age 15 with a long-standing one-to-one sensei; roughly six weeks of calisthenics recently; gym with his father in high school. Owns four kettlebells (26, 35, 44, 53 lb).",
+    "kettlebell_experience": "some",
+    "medical": "Left wrist pain when a kettlebell contacts the wrist during overhead pressing; self-suspected, undiagnosed: 'I think I have, I don't know what the hell it is, maybe psoriatic arthritis or something like that in it'."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: aspirational_low_liquidity — fits the physical and motivational profile of an optimizer (trained, disciplined, wants good to great) but has roughly $50 available and $150-200 monthly discretionary income, with a first child due.",
+      "Physically capable and self-directed: martial arts since 15, already owns four kettlebells and has been running calisthenics.",
+      "Zero value resistance and high stated intent throughout; the only blocker at any point was liquidity.",
+      "Not the_optimizer because price was an absolute barrier, not a quality signal; not skeptical_bargain_hunter because he never argued the offer was overpriced."
+    ]
+  },
+  "goals": [
+    { "text": "Get shredded and lean enough to show a six-pack without flexing", "category": "appearance" },
+    { "text": "Develop his legs so his lower body matches his upper body", "category": "muscle_gain" },
+    { "text": "Learn the full A-to-Z process himself so he can cut and bulk on his own for life", "category": "sustainability" },
+    { "text": "Be a father his child looks up to once the baby arrives", "category": "family_role_model" },
+    { "text": "Pass the knowledge on to his fiancee and to people at work", "category": "other" },
+    { "text": "Build the daily discipline and structure that would get him promoted into Costco management", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Doing kettlebell work self-taught and getting it wrong; the bell strikes his left wrist on overhead presses and hurts", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Left wrist pain during loaded overhead work, self-suspected as psoriatic arthritis and never diagnosed", "category": "injury", "severity": "medium" },
+    { "text": "Learned to train from his father without ever being told why, so he never got the full picture", "category": "training_dissatisfaction", "severity": "low" },
+    { "text": "Approximately $50 available now and $150-200 discretionary per month, with a baby due", "category": "other", "severity": "high" },
+    { "text": "Carries visible belly fat under his shirt and notices it when he undresses", "category": "confidence", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "So would I have to drop that full six grand right here, right now?",
+      "timestamp": "00:40:42",
+      "rep_response": "Isolated the objection ('outside of the money aspects, just to see if it actually makes sense'), then asked what was available now and what was left over monthly.",
+      "response_tactic": "isolate_then_financial_picture",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I would say probably 50 bucks, to be completely honest.",
+      "timestamp": "00:46:53",
+      "rep_response": "Asked about monthly leftovers, then floated third-party financing and asked for his credit score.",
+      "response_tactic": "third_party_financing_probe",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "If it comes down to it, it's a little too expensive or something along those lines. I get it. I'm sure I can find something different, you know, for maybe a little bit cheaper or something.",
+      "timestamp": "00:49:21",
+      "rep_response": "Did not defend the value; moved to a credit-score probe and then withdrew the offer.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "maybe I'll have to do it later on. When I'm more financially stable, you know, something along those lines",
+      "timestamp": "00:51:36",
+      "rep_response": "Agreed with the delay and confirmed he would not recommend proceeding now.",
+      "response_tactic": "agree_and_defer",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan was structured. The rep said 'most clients pay upfront, but it's not like...' and then offered third-party financing described as 'not taking out a loan', which the prospect refused.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 50,
+      "monthly_surplus_usd": 150,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified on affordability: 'Yeah, then I'm just going to be honest on this. I would not do this for now. I would just not even recommend it. I wouldn't even recommend you taking a loan for it.'",
+      "Prospect disclosed roughly $50 available and $150-200 monthly discretionary income with a first child due.",
+      "Counter-evidence: intent was total and never wavered — 'Oh, 100%. I want to get started. Yeah. Guaranteed.'",
+      "Counter-evidence: the call did not end in a flat no. The rep pivoted to a $200/month group community and the prospect said 'yeah, that sounds good', with a signup link to be sent. No payment was taken and no commitment was made, so the six-month offer is recorded as lost.",
+      "Counter-evidence for the sales record: this is a refused core offer with a live downsell, not a clean loss."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a free training video plus a signup link for the $200/month group community; check back in after the prospect's next paycheck and revisit one-to-one coaching once he reaches Costco management."
+  },
+  "notable": {
+    "note": "Two things a manager should see. First, the rep described third-party financing to a former banking-industry employee as 'not taking out a loan... It takes a little bit on your credit, but it doesn't really take out a loan or anything', and the prospect corrected him. Second, the rep improvised a $200/month or $2,000/year community tier that sits outside the stated $6,000/$9,000 offer. Separately, the prospect disclosed suspected psoriatic arthritis causing wrist pain during overhead kettlebell work and the rep answered 'it's an easy fix, that's a form fix' without asking whether anyone had looked at it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and continuous label inversion. Long passages of the prospect's speech are attributed to Richard Claessen and vice versa — for example the 'hidden strength' answer at 00:03:27, the six-pack line at 00:06:51, the fiancee-pregnancy exchange at 00:17:50, and most of the closing sequence from 00:52:25 onward. Role was read from content throughout; the rep is whoever is running discovery and presenting."
+  }
+}

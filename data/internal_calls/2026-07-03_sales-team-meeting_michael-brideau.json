@@ -1,0 +1,46 @@
+{
+  "call_id": "2026-07-03_sales-team-meeting_michael-brideau",
+  "type": "internal",
+  "subtype": "team_meeting",
+  "date": "2026-07-03",
+  "participants": [
+    "Chris Klevan (sales manager, runs the meeting)",
+    "Richard Claessen (closer)",
+    "Kim Forbes-Sobers (setter — the KFS in call titles)",
+    "Andrew Musial (closer, joins late from a sales call)",
+    "Michael Brideau (closer, first team meeting, new to the offer)"
+  ],
+  "referenced_not_present": [
+    "Trevor (founder and delivering coach)",
+    "Zach (referenced on CRM data being up to date)",
+    "Luke (built an earlier in-house AI DM bot)",
+    "SalesKick / 'Sophia' (third-party automated booking and messaging system)",
+    "Cole Gordon, Kino, Greg O'Gallagher, Springs Rejuvenation, Burr Invest Academy (Michael Brideau's prior sales offers)"
+  ],
+  "source": {
+    "drive_file_id": "1AJx32HwP_8yE7Bwr379QPNpOZeyTQBB3",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/03/2026 - Primal Instinct - Sales Team Meeting",
+    "file_size_bytes": 65751
+  },
+  "duration_min_est": 58,
+  "summary": "Standard weekly sales team meeting run by Chris Klevan, covering CRM disposition questions, wins, individual projections, announcements and then a recorded-call review. It opens with Richard Claessen asking whether he may log a lost deal as financially disqualified rather than a failed close so his closing rate is not damaged, which Chris redirects toward accurate entry. Wins and projections follow: Richard is at one unit and one deposit for the week against a target of four; Kim is at seven sets and one unit; Michael Brideau, attending his first team call and only a few calls into the offer, is given a projection of two units this week and four a week thereafter. Chris states the team's benchmark maths out loud — roughly four booked calls a day, about three showing, a 30% close rate, and an average upfront cash collection of about $4,000 per unit against a $6,000 price. Announcements cover two new setter hires including a dedicated DM setter, and ongoing problems with the SalesKick automation spamming prospects and misinforming them about meeting times. The back half is a review of Andrew Musial's call with a prospect named Tom, who has a husband called Radu, earns roughly $65,000 to $70,000, has around $600 in the bank and is recovering financially from a hospital episode. Chris's coaching is largely sound on empathy and pacing — slow down, let the prospect finish, hear the real objection behind the stated one, run the open wallet before handling objections, and swap 'let's get this straight' for softer phrasing with American prospects. It sits alongside a scripted deposit rationale that is factually untrue, coaching to call a disengaged prospect from an unrecognised number, and sustained banter identifying and mocking prospects by sexual orientation.",
+  "notable": [
+    "Payment-plan reality, stated by the manager: 'On average, our upfront cash collected on a unit is about 4K' against a $6,000 price. Instalments, two-pays and deposits are the norm, not the exception — which directly contradicts what Michael Brideau told two prospects the same day.",
+    "Deposits are a standard mechanism at $100 or $500, described as fully refundable and used as a seriousness test: 'The deposit is there to check if they're actually serious or not.'",
+    "The scripted justification for the deposit is not true: 'We do a deposit with people because we don't do any follow-ups. We don't put people back on the calendar because we get so busy with people.' Follow-ups are discussed as routine throughout the same meeting, Michael has 'plenty of slots', and Chris personally drafts a follow-up message for Andrew minutes later.",
+    "Performance benchmarks for the rollup: roughly four calls booked per closer per day, about three showing, a 30% close rate assumption, four units a week as the standard individual projection, and $6,000 per unit.",
+    "Disposition coding is contested and outcome-sensitive. Richard asked to log a lost prospect as FDQ 'to make sure that my closing rate doesn't get destroyed'; Chris said to log accurately but also that 'if I know somebody's an FDQ, I'm looking at it, and I'm going to make a case for it'. Any close-rate denominator built from this CRM needs treating with care.",
+    "There is a second, cheaper product in market — Primal University — and price resistance is being felt at the top of the funnel: 'everyone I was getting through to was just like, I saw the price of Prime University and it was too expensive'.",
+    "Michael Brideau, whose four sales calls on 2026-07-03 are in this batch, was on his first team meeting and first few calls on the offer: 'This is the first day he's been on the call' and 'I've had my first couple calls.' He came from five years of door-to-door and roughly four years of high-ticket closing for other offers. This is material context for reading his adherence scores and for his improvised $1,200 tier on the Jerry Harding call.",
+    "Two prospects in evident financial distress are discussed approvingly: one with 'minus 67 bucks on his bank account' who paid a deposit and is scheduled to pay $1,200, and Tom, who has about $600 in the bank while recovering from a hospital episode.",
+    "The prospect Tom discussed in the call review is Andrew Musial's, and is a different person from the Tom Eldon call in this same batch — different rep, married to a man named Radu, employed, based in the US.",
+    "The third-party automation is actively damaging prospect relationships and corrupting show data. Prospects are identifying it as a bot, receiving wrong meeting times and no-showing as a result; the vendor is on holiday and the recommended fix is to phone the prospect and 'make it a joke'.",
+    "The manager corrected the discriminatory banter once — 'Tom is just a guy. It doesn't matter who he's attracted to or how is whatever. None of that matters' — and then made the same joke himself about two minutes later."
+  ],
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Five speakers and heavy swapping. The most consequential inversions are in the call-review section from roughly 00:21:19 onward, where playback audio of Andrew's recorded call with the prospect Tom, Andrew's live commentary and Chris's coaching are all attributed to whichever label happens to be active — long passages of the prospect Tom's speech appear under Chris Klevan, and Chris's coaching appears under Richard Claessen and Andrew Musial. Roles were resolved from content: Chris is whoever gives coaching and sets projections, Kim is the setter reporting sets, Michael is the new joiner giving an introduction. Quoted evidence in the flags file was attributed by content, not by label."
+  }
+}

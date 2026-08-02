@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-10_jonn-nolitt_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "partial", "P1d": "miss" },
+      "evidence": "Setter notes read back well - 'I spoke with Kim... I went through the information. So I got a pretty good picture of where you're at currently.' Frame was one-part only: 'before I walk you through anything, I want to ask you a few questions so we can build this specifically around your situation.' No four-part frame, no explicit 'does that work?', and no 'what are you potentially looking for help with?' - the rep went straight into confirming application data."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "hit", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Body fat confirmed from the application (9.9%) and weight volunteered (187), but age and height were never asked. Injuries asked properly - 'let me just circle back to the Achilles recovery. Is that limiting you?' Results asked - 'in those four and a half years that you did X3, how close have you gotten to the 7%?' Diet confirmed. Health conditions never asked: a 10-peptide stack was volunteered, not elicited. Sleep and energy never asked."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Strong on the individual layer - 'what's the actual driver here for you?' and 'when you picture yourself operating at 7% body fat, what does that version of you look like?' But the rep never asked who else this impacts and never drove to family, marriage or legacy despite a wife being mentioned. Reflect-back was commercial rather than emotional: 'you've maxed out a lot of things, so the game now is precision.'"
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "History surfaced (X3, 10 years vegan, Ben Pakulski time-under-tension) but almost entirely volunteered. No root-cause work at all - understandable given nothing has failed for this prospect, but the script credits asking and none of P4c-P4f was attempted."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame of any kind. The prospect's own 'you're either degenerating or regenerating' was the closest thing to a cost-of-inaction, and it came from him unprompted."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "miss", "P6b": "partial", "P6c": "miss" },
+      "evidence": "Commitment check ran AFTER the full pitch, not before: 'are you fully committed to actually doing what it takes to get there?' The answer was a five-minute anecdote about a spin bike, not a yes, and the rep proceeded anyway with 'if there's a will, there's a way' and dropped the price."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "miss", "P11d": "partial" },
+      "evidence": "Payment collected on a split link and onboarding booked for Tuesday 11:15 Pacific. The agreement email never arrived - 'Do you got the one with the agreement, too?' 'No.' - so nothing was signed on the call; rep deferred it to 'a quick reminder'. Community/app access mentioned in one line but the Skool link and onboarding questionnaire were not walked through."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'Can you break that up at all?' landed and the rep jumped straight to a 50/50 split. None of the OC moves ran: no isolation ('finances aside - nothing else keeping you from 100%?'), no SHOULD-I/HOW reframe, no financial picture at all. The split was conceded before the objection was even qualified."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The prospect hedged twice - 'Well, we'll see' on the guarantee and 'Yeah, we'll see. That could be harder' at the commitment check. No certainty question, no bridge, no plane or burned-before frame. The rep advanced to scheduling instead."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap: the prospect has an active competing modality (X3) he has used successfully for 4.5 years and intends to run kettlebells solo for three months as an A/B test. There is no scripted play for 'my existing method already works, prove yours is better', and the rep answered with a mechanism claim ('kettlebells hit completely different adaptations than band resistance') that was never validated against the prospect's own data."
+    }
+  ],
+  "notes": "Textbook example of process quality diverging from outcome: this closed at full price on a two-pay while missing P5 entirely, running the commitment check after the pitch, and conceding the payment split without a single open-wallet question. Coach the money play - a prospect spending $2,000/month on supplements should have been isolated and asked for the PIF before any split was offered."
+}

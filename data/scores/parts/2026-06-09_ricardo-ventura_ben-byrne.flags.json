@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-06-09_ricardo-ventura_ben-byrne",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep stated a specific numeric results guarantee with no terms, remedy, timeframe or conditions, in direct answer to a question about what guarantee exists — using figures presented as average results and as an aspirational goal on other calls the same week.",
+      "evidence": [
+        "she would probably wonder how much of a guarantee, I guess you could say, would Trevor provide when it comes to results",
+        "I mean, our guarantee is based off of, well, number one, we can't guarantee that you're going to do the work, I mean, keep you accountable, but tangibly, the guarantee is losing 10% body fat and adding 20 pounds to your kettlebell lifts",
+        "Cross-reference, 2026-06-07_john-viola_ben-byrne at 00:45:01 — 'six-month average results is across like thousands of clients. 10% body fat loss... adding 20 pounds to the core kettlebell lifts'",
+        "Cross-reference, 2026-06-08_berish-lampert_ben-byrne at 00:41:04 — 'the whole goal is that by going through this, you're dropping at least 10% body fat... adding at least 20 pounds to your kettlebell workouts'"
+      ],
+      "timestamp": "00:42:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Direct question about whether payment is all up front was deflected to a credit card with no mention of the instalment plans or third-party financing the same rep disclosed to other prospects that week — the third instance of this pattern in the batch.",
+      "evidence": [
+        "And so... that sounds like it's paid up front?",
+        "Well, a lot of our clients just throw it on a credit card and then, you know. They kind of make the payments there? Yeah.",
+        "I mean, I have a link they could just send to send over to you. You can pay it on any card.",
+        "Cross-reference, 2026-06-07_john-viola_ben-byrne at 01:04:05 — 'there's PayPal credit, there's another one called Pava'"
+      ],
+      "timestamp": "00:38:06"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "Company tenure and client-volume claims are inconsistent across calls in the same week, understating and overstating on different calls.",
+      "evidence": [
+        "Trevor's been doing this for the past seven years across a couple thousand clients",
+        "Cross-reference, 2026-06-06_jay-bremner_ben-byrne at 00:20:20 — 'Trevor has been working with kettlebells for the past 10 years. We've worked with over a thousand clients'",
+        "we have 1000s of people that have gone through the program"
+      ],
+      "timestamp": "00:25:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed partly genetic high cholesterol as a health outcome he wants the programme to improve, and it was never followed up, screened or connected to any clinician; the only health screening on the call was a leading statement about injuries.",
+      "evidence": [
+        "I have high cholesterol. I can see my cholesterol dropping. In this case, some of it is genetical. Some of it is simply habitual",
+        "Yeah, I love that. Were your parents like that?",
+        "He's going to ask you a few questions, see if there's any restrictions that you have versus other people. Sounds like you don't have any major injuries or pain or anything like that. I don't have any, no."
+      ],
+      "timestamp": "00:20:23"
+    }
+  ]
+}

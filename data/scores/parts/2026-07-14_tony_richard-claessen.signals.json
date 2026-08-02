@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-14_tony_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions: 'Do you feel like, yeah, that mobility and the training aspect is something I'm looking for? Correct.' He had already framed the same idea himself earlier — 'I want to be strong, but functionally strong' — so the pillar matched a belief he already held."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Asked to understand the mechanics before agreeing: 'Yeah, so I guess the nutrition, we'll have to work into the meal preps.' The rep corrected him — 'No, not really' — and he accepted after the protocol was re-explained."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Probed the obligations rather than the value: 'Is that a mandatory, the community thing, and messages?' Later he checked the live-workout timing twice and reacted to the answer: '9.30 is a dream, so their 9.30 or my 9.30?' then 'Dang it. On Thursdays?'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "the last program was, like, I think it was an 80 per year",
+      "direction": "undercuts_price",
+      "competitor": "Prior online training programme",
+      "note": "His only paid reference point for online training is roughly $80 a year against $12,000 a year equivalent. He also never completed it, so the anchor is a price habit rather than a working substitute — a distinction the rep never drew out."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "So I was thinking maybe $300, and yesterday I was like, well, you know, I can expand it to maybe $400",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Stated expectation of $300-400 for the full six months, confirmed as a total when the rep checked. Fifteen to twenty times below the offer, and arrived at after the setter call, meaning the funnel set no price expectation at all."
+    },
+    {
+      "type": "existing_spend",
+      "raw": "that's that's how much my bike costs",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He used his mountain bike to argue $6,000 is a lot, but it is direct evidence he has already made a $6,000 discretionary purchase for a hobby he loves. The strongest supportive anchor on the call and the rep did not touch it."
+    },
+    {
+      "type": "category_price_resistance",
+      "raw": "I think that's one of the reasons I don't go to the gym too much. Um, the, the money aspect.",
+      "direction": "undercuts_price",
+      "competitor": "Commercial gym membership",
+      "note": "He does not pay for gym access at all on price grounds, so there is no existing coaching or facility spend to displace."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Professional programming plus occasional form checking, at a few hundred dollars rather than six thousand",
+      "why_unmet": "There is nothing between the $200/month self-serve community and $6,000 one-to-one coaching. He named the specific thing he wanted — 'I just kind of like wanted, you know, a structure, like what exercises to do every so often' — which is the cheap half of the offer.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A live weekly workout he can actually attend",
+      "why_unmet": "The single Thursday slot lands at 9.30am Mountain time while he is at work; he leaves for jobs at 7.45am. Recordings exist but the live accountability, which is the point of the session, does not reach him. The same constraint appears on other calls in this batch at other time zones.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Assurance that a still-painful shoulder can be trained around safely on a self-guided programme",
+      "why_unmet": "No clinical assessment exists in either tier, and he was moved to the unsupervised product with the injury unresolved.",
+      "verdict": "product_gap"
+    }
+  ]
+}

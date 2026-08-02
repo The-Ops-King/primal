@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-06-24_sales-team-meeting",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Third-party consumer credit data on named prospects — income, available credit and credit score — is pulled and read aloud at set time to decide whether to book them.",
+      "evidence": [
+        "you also, for most of these leads, you're going to be able to look at the sales kick financial data and see what it graded them. You know, if it graded them like a three, then you probably don't have to hard financially qualify them at all.",
+        "so he's a chauffeur it says his income on sales kick is 70,000",
+        "what about his uh credit available uh credit available available credit 6,000 it says okay and then what's his credit score uh 654"
+      ],
+      "timestamp": "00:18:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "A departed coach still has access to the Fathom account in which the current closer's recorded prospect calls sit, and a recording from him appeared in it that day.",
+      "evidence": [
+        "I just looked into my Fathom. And from today, there's a call from Andrew Jin, the former coach of that.",
+        "Yeah, it's weird that he's still somehow able to get in to a Fathom that isn't his. I don't really know what's going on there. I guess we have to change the password, or I don't know what we got to do."
+      ],
+      "timestamp": "00:04:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Leads are screened for ability to pay by country of residence and by occupation, with specific nationalities and named employers used as proxies for affordability.",
+      "evidence": [
+        "I would maybe add, like, I one rule of thumb that if someone is outside of U.S., I would give them the range because it's way different for Europeans to spend 6K",
+        "if it is somebody who's like, you know, from Europe somewhere, or Mexico, or South America, somewhere where it's a little bit harder for them financially, I would set them up with an expectation",
+        "Like, if somebody's a doctor in India, we know that doesn't necessarily mean that they make a lot of money.",
+        "the glaring red flags would be I work at Chick-fil-A, you know, like, I work for Starbucks, I'm a barista, I'm a teacher",
+        "With U.K. leads, and that's not only my observation, because I know a lot of guys from U.K., and there's this, no offense, U.K. mentality that they don't invest in themselves.",
+        "I would be very careful running that thought process."
+      ],
+      "timestamp": "00:09:42"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager coached assembling a single purchase from a card payment plus third-party credit for a named prospect whose total available credit was $6,000 and credit score 654.",
+      "evidence": [
+        "can we split those payments sometimes like part of uh doing with cash and part with financing uh yeah there should be a way to do that",
+        "if there's a certain amount that they want to pay on card do that first get them to pay it and then do the other amount in the custom payment thing and then try to run it then try to have them check out with Klarna to finance the rest of the smaller amount",
+        "We have Klarna. just not, it hasn't been that great. So what happens is when you check out with PayFunnels, there's an option on there that it'll say, like, you can pay with Klarna once they start going through it. So they're welcome to try it. We just haven't had a lot of people accepted with it."
+      ],
+      "timestamp": "00:19:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Closer reported a deal closed the previous day to a prospect with serious back issues, with no mention anywhere of clinical clearance for loaded kettlebell training.",
+      "evidence": [
+        "For me, it's going to be yesterday close. Cool guy that needs our help, definitely. He has some back, serious back issues, but he wants to get, like, he's an entrepreneur and wants to get back from his prime time from 2018",
+        "And he was so happy also when joining in, so that's cool."
+      ],
+      "timestamp": "00:05:25"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Manager states a price range including Primal University at $2,000 for a year and a three-month coaching option roughly $1,000 above it, while the closer quoted $4,000 for three months on two sales calls the same day.",
+      "evidence": [
+        "Well, technically, we have a range of, like, he could do one year of Primal U for 2K, or if he wants to",
+        "Spend an extra $1,000 and wants more customized coaching than he could do the three months or you know maybe we maybe Andrew has a chat with him and realizes dude like you really need to do six months so we'll do it for 6k"
+      ],
+      "timestamp": "00:17:53"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Closer described having effectively diagnosed a prospect's gut symptoms on a sales call while the prospect was still awaiting blood test results.",
+      "evidence": [
+        "That's why I didn't push the guy for the deposit or something, because I know he will show up from the call he was on. He actually sort of diagnosed him. asked him, okay, just tell me what's going on. Some gut issues and everything.",
+        "And then I was, and he mentioned like drinking beer and so on. And I was like, okay, do you hear what you're saying? And on top of that, you're adding jujitsu. Jiu-Jitsu, kettlebells, and everything. So how your body will respond to that? Come on, give me a break, yeah?",
+        "So probably the results will, hopefully it will come out everything okay, and the blood and everything. So yeah, we'll get them, we'll get them in."
+      ],
+      "timestamp": "00:34:13"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Setters are instructed not to answer the price question, and one told a prospect who asked directly that the price was 'custom' when the offer has two fixed tiers.",
+      "evidence": [
+        "some of them, they're asking how much is it? Of course, we... We don't say how much is it, but giving them, like, a ballpark that it's not, like, $200, yeah? It's, like, giving the figure that it's going to be four figures",
+        "yeah I spoke with him already and he asked me what the price was and I told him it was custom"
+      ],
+      "timestamp": "00:18:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Every transcript in this rep folder is speaker-labelled with a former coach's name rather than the closer who ran the call, so any rollup keyed on the transcript label attributes the whole folder to the wrong person.",
+      "evidence": [
+        "And from today, there's a call from Andrew Jin, the former coach of that.",
+        "Yeah, it's weird that he's still somehow able to get in to a Fathom that isn't his."
+      ],
+      "timestamp": "00:04:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Calendar and CRM disagree on booking times, causing a prospect to attend a call he was not scheduled for and be sent away while another prospect was taken.",
+      "evidence": [
+        "what happened is i have him i have him booked for saturday and he showed up for the call today when i was like an hour ago and he said he had it in his calendar",
+        "There was supposed to be Ryan here, and he doesn't look like a Ryan. So I said, there must have been a mix-up, so I will call you, and we'll schedule for tomorrow or the day after",
+        "Yeah, I did schedule him in for today, actually, it looks like, on my end. So I'm not too sure what's going on there."
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Setter calls are not reliably recorded — some run on Zoom or WhatsApp and some are missed when the recorder is not started — so the setter half of the funnel is systematically under-captured.",
+      "evidence": [
+        "do you know why sometimes the call is not there?",
+        "The only other reason there wouldn't be a recording is if Kim forgot to hit his Fathom in the, in the Zoom room or something.",
+        "Or, every now and again, I call someone on WhatsApp, or, or something like that, but, very rarely."
+      ],
+      "timestamp": "00:15:33"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Setter qualification strictness is deliberately varied with calendar fill, so lead quality is not constant across weeks and close rates are not comparable period to period.",
+      "evidence": [
+        "you notice that when calendars were a little bit lighter, you started less financially qualifying to get more momentum back on the calendar because that's what you have to do.",
+        "When the calendars are super full, you might get less sets, but you're harder financially qualifying to make sure the sets are better, like a lot better."
+      ],
+      "timestamp": "00:22:58"
+    }
+  ]
+}

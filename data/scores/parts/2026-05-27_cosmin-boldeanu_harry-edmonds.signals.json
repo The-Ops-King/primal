@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-27_cosmin-boldeanu_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "clarifying", "evidence": "Arrived pre-sold on the modality — 'I've done a lot of research, and that's why I'm sitting here with you' — and then worked through the mechanics: 'is there follow along stuff that like I can follow along? Because being I've never worked out with kettlebells, I'm a little like, I don't even know where to start', 'you guys guide me on what kettlebells to start off with?', 'what are the average length of the workouts?' and 'is it seven day a week training? Is it three to four day a week training?' He also sought confirmation of the core premise: 'Kettlebells are the way, right? If you're trying to reduce impact, joint stuff.'" },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Named as one of the three pillars and then dropped in a single clause: 'the nutrition piece you're dialed with, which is good. If we need to make any optimization. We will.' No philosophy, no sustainability framing, no guidance — the rep assessed his diet as handled off one volunteered line ('I fast, I eat right') without asking a single nutrition question." },
+    { "pillar": "accountability", "reaction": "accepted", "evidence": "Took the 24/7 support and weekly check-in model without questions or pushback — 'Yeah' — and echoed the education goal back in his own words: 'to where I can incorporate this into my routine type thing.' The rep pitched it against physio: 'You've basically got him at your disposal whenever you need him... It's not like a physio thing where you see us once a week.'" }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "they're likely gonna say PT. And physical therapy can be great, I just don't have any good options for it.",
+      "direction": "undercuts_price",
+      "competitor": "Physical therapy, covered by his insurance",
+      "note": "Proposed label: insurance_covered_clinical_pathway. The genuine alternative sitting in front of him costs him little and is about to be prescribed. He discounted it himself on quality grounds — 'Every PT I've gone to is a joke' — which is what made the $6,000 conceivable, and the rep leaned on that rather than distinguishing the two things."
+    },
+    {
+      "type": "other",
+      "raw": "there might be a balance effect. So my, the 6K might cost me 12 because that brought 6K.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: household_reciprocal_spend. His effective price is double because a discretionary spend of this size triggers an equivalent one on the other side of the marriage. That doubles the real number to $12,000 and was never worked."
+    },
+    {
+      "type": "other",
+      "raw": "we can frame it in whichever way you need to frame it to help you write it off",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: tax_deductibility_framing. Rep-introduced and it visibly moved him — 'Well, you're talking some serious now.' It is also the single most exposed thing said on the call."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A way to train hard that his shoulders and elbows can actually tolerate — the entire reason for the call",
+      "why_unmet": "The programme's answer is form mastery, video review and mobility observation, with no clinical input, no assessment and no reference to the imaging that is already underway. Whether loaded kettlebell work is appropriate for these specific joints is unknown to everyone on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Rehabilitation of an actively symptomatic shoulder and elbow — the rep offered to 'fix the shoulder'",
+      "why_unmet": "This is a strength and conditioning programme, not a rehabilitation service, and it was sold as a substitute for the physical therapy he is about to be referred to. The promise exceeds what the product is.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training scheduled around his own recovery — 'I'm going to train based off of my recovery'",
+      "why_unmet": "The answer given was a fixed three-to-four days a week. Whether the plan flexes around flare-ups in a body with hereditary arthritis was never addressed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-07-16_chris-wiley_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised three prices outside the price book in roughly four minutes and closed on a $1,200 one-month tier that does not exist, against a buyer who had already accepted $6,000 and stated he has the cash.",
+      "evidence": [
+        "Monthly, it's going to be a little bit more expensive. It's going to be $1,200 a month. But if you really want to split it, let's split it in three. And that's going to be $2,000 a month.",
+        "Okay, can I have a counter-proposal? And I think you're gonna like it, because it's like in terms, like from what you said just a second ago, let's sign up for a month, for 1,200, okay?",
+        "After one month, you will decide whether this is for you, you want to continue for another five months, and you will just top that up with $4,800",
+        "That's what I was thinking. I was thinking that, if was me, what would I want? What would I charge?",
+        "I don't go for those. No. I got the cash."
+      ],
+      "timestamp": "00:46:48"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 64-year-old who disclosed a total cholesterol of 328 was sold kettlebell training and told a coach would design him 24-, 36-, 48- and 72-hour fasting protocols, with no clinician clearance sought at any point.",
+      "evidence": [
+        "I just got a whole panel done at Quest, and big one, like 78 deals, tests, and my cholesterol was 328.",
+        "Okay, so don't do that by yourself right now. Wait until you meet with Trevor and he will design the whole fasting protocol for you.",
+        "And now the last part is also the fasting. So longer fasts, as I said, Trevor will look into that and will design the protocol of fasting for you too, those 24 hours, 48, 36, 72 if you want to.",
+        "Client shall add at least eight kilograms to their working weight"
+      ],
+      "timestamp": "00:09:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep affirmed the prospect's belief that cholesterol guidance is a scam designed to sell medication, reinforcing distrust of his own medical team in the same call where a 328 total cholesterol was disclosed.",
+      "evidence": [
+        "A high, well, you know what, the whole cholesterol thing's a scam too. So if they think you have 205, They wanted to get you on that medicine.",
+        "Yeah, we want to imply that, but yeah, that is the case."
+      ],
+      "timestamp": "00:10:30"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep read out a six-month performance guarantee as the guarantee attaching to a purchase he had just restructured to one month, leaving the prospect signing an agreement whose central promise cannot apply to what he bought.",
+      "evidence": [
+        "Because that's the six months guarantee, yeah? If for some reason you would follow everything to the T and you wouldn't add those eight kilos, Trevor will be with you for free until you do.",
+        "That 8 kilos is around 17 pounds, but that's for 6 months.",
+        "That won't happen in one month.",
+        "Boy, you guys got it all professional, don't you?"
+      ],
+      "timestamp": "01:02:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A single Drive file contains two consecutive and unrelated sales calls with different prospects, so any per-file counting treats two calls as one.",
+      "evidence": [
+        "Bye-bye. All right. I'm back.",
+        "Hey, I'm jumping in right now.",
+        "Hey, Steve, it's Andrew from Trevor's Instinct. I'm good, I'm good, thank you. Did you get my text message?"
+      ],
+      "timestamp": "01:13:21"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep volunteered demeaning generalisations about women and about the prospect's trading counterparties, and invited the prospect to keep one of them confidential.",
+      "evidence": [
+        "There's this saying. Let's leave it between us. You know, men age as wine, but women as milk.",
+        "And that is 100% sure, accurate.",
+        "Look, I understand, I'm into Latinas and they're also crazy, so you know.",
+        "You can text her that there's a 43 Polish, don't say guy on the line, waiting."
+      ],
+      "timestamp": "01:07:17"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "call_id": "2026-07-29_michael-galvan_richard-claessen",
+  "source": {
+    "drive_file_id": "1f1LXc0NWQzLf800OVUFJQFKZ_uxz3L8x",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/29/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 68920
+  },
+  "call": {
+    "date": "2026-07-29",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 62,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'Kim is by the way his name. Kim already gave me some ideas from where you want to go to, where you're at at the moment.' Later: 'That was Kim. You booked him with Kim and Kim is in the UK.'"
+  },
+  "prospect": {
+    "name": "Michael Galvan",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Japan (US expatriate; travelling to Nagasaki for work the following week)",
+    "age": 33,
+    "occupation": "Commercial diver — inspections, repairs, cleaning, videography and photography on vessels and ships",
+    "family_status": null,
+    "height_in": 66,
+    "weight_lb": 185,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Swam religiously through high school and college and was lean then; nothing consistent since. Recently trained at a gym with a colleague for roughly three-hour sessions and it did not suit him. Bought his first kettlebell about a week before the call and has been experimenting with it from YouTube videos.",
+    "kettlebell_experience": "some",
+    "medical": "Underwent throat surgery approximately one month before the call for an obstruction that left him unable to breathe properly; he traces the problem back to around 2017 and it was destroying his sleep. Paid for the surgery out of pocket and is awaiting insurance reimbursement. Quit smoking after the surgery and now rarely drinks — 'the last time I had a drink was on my birthday.' No clinician was consulted about training."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Lost roughly a decade to an undiagnosed medical problem — 'I've pretty much been living just a subpar life, barely staying alive with this whole breathing issue. And I never really knew what it was'",
+      "Wants a former self back: lean like his college swimming years, and explicitly framed as recovery — 'now that I can rest properly, I want to get stronger'",
+      "The surgery is the pivot point and he says so directly: 'it all goes back to that surgery I had. Like, prior to it, I was just hanging on'",
+      "Not the_prehab_fighter: the health event is behind him rather than active, and he presents as recovering rather than fighting"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger — the primary goal, stated first and repeatedly", "category": "strength" },
+    { "text": "Lose body fat, particularly around the stomach, and get to a lean look — roughly 20 lb", "category": "fat_loss" },
+    { "text": "Physically excel at his job as a diver", "category": "hobby_performance" },
+    { "text": "More mobility in shoulders and back, which take the load of the hydraulic tool and hose work", "category": "mobility" },
+    { "text": "Stop being sore after every dive", "category": "injury_prevention" },
+    { "text": "Structure and knowledge around nutrition — 'I definitely need guidance. I'd have no knowledge on that whatsoever'", "category": "other" },
+    { "text": "Make it a permanent part of life rather than a six-month push — 'I'm seeing this thing as something that is going to become a part of my life for the rest of it'", "category": "sustainability" },
+    { "text": "Be in great shape at 45 when he moves to a dive supervisor role — hiking, climbing a mountain, doing whatever he wants physically", "category": "longevity_function" },
+    { "text": "Use his newly free evenings productively instead of drinking and smoking them away", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Recent throat surgery for an obstruction that had gone undiagnosed for years and had destroyed his sleep", "category": "medical", "severity": "high" },
+    { "text": "Roughly a decade of exhaustion he had attributed to his job — 'I was so tired... and I just kept pushing through'", "category": "energy_performance", "severity": "high" },
+    { "text": "Gym training with a colleague did not suit him — three-hour sessions, heavy lifting, and he felt unable to say so because the colleague was donating his time", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No knowledge of programming or nutrition — 'if I'm left to my own devices, I'm not going to know what the hell to do'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Completely unstructured eating — roughly 80g of protein a day by his own estimate and no idea of totals", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Sore and tired after dives; carries about 100 lb of equipment before entering the water", "category": "injury", "severity": "medium" },
+    { "text": "Previously smoking and drinking heavily, using a cigarette and coffee as breakfast", "category": "other", "severity": "medium" },
+    { "text": "Cash constrained at month end — surgery paid out of pocket, rent due, and two weeks of hotel costs to front for a work trip", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "That I might need some time on, strictly because I don't have that on hand at the moment, but there's no reason I can't get it pretty quickly.",
+      "timestamp": "00:47:14",
+      "rep_response": "Asked what he had on hand ($4,000), then proposed two payments of $3,000, then $1,200 to start, then a $100 deposit with a $5,900 balance on reimbursement",
+      "response_tactic": "successive_downward_deposit_offers",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "I could agree with that, but also I feel like just for my comfort, I would rather just pay it upfront. Like I said, if there's no issue with time, let me get another week or two for that reimbursement to come in, and I'll just pay it all upfront. I don't need to muddle things up with split payments. It's how I like to operate.",
+      "timestamp": "00:50:01",
+      "rep_response": "Continued to press for a partial payment across four further turns rather than accepting the stated preference. Proposed label: 'prefers_to_pay_in_full_later' — a payment-preference objection rather than an affordability one.",
+      "response_tactic": "persist_against_stated_preference",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I do still have my rent due on the 1st, and that's already going to be about $1,200, you see how this is going to compound up, I don't want to immediately just start giving out money immediately.",
+      "timestamp": "00:53:56",
+      "rep_response": "Acknowledged the constraint, then reduced the ask again to a $100 deposit framed as a commitment device rather than a business requirement",
+      "response_tactic": "reduce_ask_and_reframe_as_commitment",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Four different structures were proposed live and in descending order within seven minutes: pay in full upfront; two payments of $3,000; $1,200 to start with the balance later; and finally a $100 deposit now with $5,900 payable when his insurance reimbursement arrives. The last was agreed and a payment link for the $100 was sent by WhatsApp during the call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 4000,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.72,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Verbal agreement to the deposit structure: 'Yeah, no, see, that I can work with. Yeah, that's fine. Yeah, let's do that.'",
+      "Payment link for the $100 deposit sent during the call by WhatsApp and confirmed received: 'Yes, I just sent you a WhatsApp. That's for the hundreds' — 'Yeah, I pulled it up. Yes.'",
+      "Commitment to complete within the hour: 'Just keep in touch and I'll have this done within the hour', after leaving to retrieve his wallet from his car",
+      "Counter-evidence: no payment was confirmed on the call, and only $100 of a $6,000 contract was ever at stake in it",
+      "Counter-evidence: the balance of $5,900 is contingent on an insurance reimbursement with no confirmed date — 'next week, if not the week after'",
+      "Counter-evidence: the prospect twice stated a clear preference to wait one to two weeks and pay in full, and was moved off that position by the rep rather than by his own reasoning"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Prospect completes the $100 deposit within the hour and fills in the onboarding document; Trevor meeting proposed for Monday; the $5,900 balance follows the insurance reimbursement in one to two weeks"
+  },
+  "notable": {
+    "note": "Prospect disclosed throat surgery one month prior and the rep never asked a single question about recovery status, restrictions or clinical clearance before selling progressive loaded kettlebell training. Separately, the prospect stated twice and unambiguously that he would rather wait one to two weeks and pay the full $6,000, and disclosed $1,200 of rent due and roughly $1,500 of work travel to front — and the rep continued pressing for an immediate partial payment across four further turns until a $100 deposit was extracted. The rep also justified a $1,200 starting figure as 'what's needed to sort of set up all the systems' and then accepted $100 four minutes later."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained swapping — the rep's discovery questions repeatedly appear under the prospect's label and vice versa, most visibly at 00:01:46 ('take me through it, Michael' is the prospect's label but the rep's line), throughout 00:07-00:14, and across the entire pricing sequence from 00:46:51 onward where the $6,000 figure sits under the prospect's label. Roles resolved from content. A gap between 00:59:06 and 01:00:13 is the prospect leaving to fetch his wallet."
+  }
+}

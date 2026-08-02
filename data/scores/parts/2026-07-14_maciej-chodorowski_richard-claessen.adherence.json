@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-14_maciej-chodorowski_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Best opening in the batch. Application read back and used to make him feel seen: 'I saw that you had quite a big application, I read through it... I saw that you already made quite a bit of progress yourself over the last years.' Frame covered three of four parts — 'go over where you're at at the moment... where you want to go. See if we can help you bridge that gap' — missing 'what's in the way' and 'what you need'. Agreement obtained ('okay? Mm-hmm. Yeah. Perfect.'). Open question asked verbatim."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "hit" },
+      "evidence": "Nutrition was the standout — asked open, then probed calories, protein, carbohydrate composition and processed food. Energy was probed with a one-to-ten scale and disambiguated between post-training and baseline. But age, height and weight were never asked (all volunteered), occupation was never asked and only surfaced 52 minutes in during a money question, health conditions were never asked, and sleep was never asked. Crucially the spine history came out inside a mobility answer and the rep asked nothing about it."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "miss", "P3g": "partial", "P3h": "hit" },
+      "evidence": "Six of eight ran and the bridge was asked properly: 'you're already getting stronger... Like, why is it important for you to then still get to the next level... So where is it sort of coming from for you?' The reflect-back was clean: 'goals are more muscle, more athletic, but those are byproducts of having the longevity where you're not going to get injuries as you grow older. Is that correct?' The gap is P3f — he was never asked who else this impacts, and the wife and daughter only appeared 70 minutes later as closing analogies rather than as reasons to buy."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "hit", "P4b": "partial", "P4c": "miss", "P4d": "partial", "P4e": "miss", "P4f": "miss" },
+      "evidence": "'have you ever had a personal trainer or someone that helps you with actually having like a transformation like this before?' ran and got a clean no. Then the phase collapsed. The prospect had already described twenty years of losing weight and regaining it — 'I usually succeeded. But then within next three, four years, it came back. And sometimes even more' — and was never once asked why it did not stick, what the gap was, or why he could not sustain it alone. That is the single largest missed opening on the call."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "partial", "P5b": "hit", "P5c": "miss", "P5d": "miss" },
+      "evidence": "P5a and P5b were bundled into one question: 'would you be willing to settle for a life where it just stays at the point that it's at now... and maybe in the future, your mobility will flare up a little bit again?' He answered a flat 'No.' The rep then explained why he had asked and moved to praise, never asking 'why not?'. The cost of inaction was therefore never articulated by the prospect, which left nothing on the scale when 5.2k landed."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "hit", "P6c": "partial" },
+      "evidence": "P6b ran well: 'Is there anything else that would potentially stop you from getting to the point where you're having more energy, where you're just are even more athletic, have more muscle?' produced 'No, I don't think of anything.' The rep then declared commitment — 'it sounds like you're there to commit and you're ready to go' — without testing capacity or willingness to pay. When hesitation surfaced at price, the script says return to Phase 5; the rep instead stayed in rebuttal for roughly forty minutes."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted repeatedly ('We can do that. Let's get you started with that', 'I would say let's just do it and get you started') and no payment was collected. The remaining steps were never reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran cleanly: 'Outside of the money aspect, do you feel like, yeah, I do want to do this?' — yes. Good diagnostic follow-up: 'is it just like, phew, that's a lot? Or is it more like, I just don't have it on my bank account?' Monthly leftover was asked. Splitting was offered and a three-payment plan structured. Never ran: number of credit cards, available credit per card, used versus available, crypto/stocks/investments. The prospect deflected the savings question — 'it doesn't matter... it's rather about a some psychological level' — and the rep accepted the deflection instead of reframing to the HOW place."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger: 'Well, I will think about it. I will sleep on that.' Two scripted-adjacent moves ran — 'You're saying like considering the amount of money, but you do feel like it's worth it. So isn't then the amount of money just a byproduct?' and 'as it really comes down to thinking about it, it's more like you've already made the decision.' Never ran: 'what's actually coming up that's preventing you from getting started', 'thinking isn't the problem, deciding is', 'that man you want to be, how does HE decide right now', 'are you sure, nothing else keeping you from being 100% in'."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "Doubt about the online modality was met with the full uncertainty play. Certainty framing ('An important decision will always come with somewhat of uncertainty'), the bridge/first-step idea, the plane equivalent delivered as skydiving ('it just comes down to taking that first step and jumping out of the airplane'), and repeated personal analogies: house purchase, car, marriage proposal after fourteen years, and starting his business. Ran through to the end even though it did not convert."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The deciding objection has no scripted play: a cheaper alternative the prospect believes is good enough, priced at 250 euro a month against roughly 1,000. This is the documented gap — Objection C assumes the blocker is capacity to pay, not perceived value against a functioning substitute. The rep improvised (doctor analogy, driving-lesson analogy, 'don't expect to find something for less') and ultimately conceded: 'I'm totally fine if you do it like that, right? Like, if that works for you, I should say do it.'"
+    }
+  ],
+  "notes": "The opening and the goals work were the strongest in the batch, and the call was still lost for a structural reason: Phase 4 was skipped on a prospect whose entire history is a twenty-year cycle of losing and regaining weight, and Phase 5 stopped at the first 'No' without asking why. With no root cause and no consequence on the table, the whole close rested on analogies — and the prospect answered with arithmetic. Second coaching point: forty minutes of rebuttal after a clear decision produced nothing and risks the relationship."
+}

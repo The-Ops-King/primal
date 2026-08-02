@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-07-06_daniel_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call — the pillars were presented on the prior call, which is not in this batch. The only residue here is the prospect relaying his own paraphrase of the whole-body principle to his sister: 'How he doesn't work like muscles in isolation. He's working the full movement... something like just doing a bicep. You're not just doing bicep curls. You're doing a whole thing.' That he retained and re-taught the concept days later, accurately enough to defend it, indicates the pillar landed on the first call."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. Notable by its absence: the prospect spends several minutes describing a host family in Tallinn who have told him 'we don't want you to make your... We prefer that you eat what we provide', covering breakfast and dinner for three weeks. Neither party connected that to the nutrition pillar he had been sold days earlier."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. The prospect's own summary of what he believes he is buying maps to it — 'I'm basically getting, you know, for lack of a better way to describe it, an on-call, one-on-one instructor... People will spend a couple of hundred dollars just for an hour with a personal trainer, let alone available at all times' — which suggests the pillar was received as always-on access rather than as structured weekly review."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "future_medical_cost",
+      "raw": "So like $6,000 now, as opposed to how many thousands will I have to pay if my health just gets worse, because I need to constantly have medicines or surgeries. My mom just had her knee reconstructed last fall, and it looked awful.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The most powerful supporting anchor in the batch and it was entirely self-generated. He built the whole consequence frame himself — his mother's knee reconstruction, his son's three days in neonatal intensive care at $28,000 — and reached the conclusion the playbook's Phase 5 is designed to produce: 'everybody knows that if you don't take care of your health, it doesn't become cheaper later.' A rep never had to make the case. Worth studying for what the consequence frame sounds like when it works."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "People will spend, you know, a couple of hundred dollars just for an hour with a personal trainer, let alone available at all times. So, I, I don't necessarily have issues with that",
+      "direction": "supports_price",
+      "competitor": "Personal trainers generally",
+      "note": "Same benchmark that helped on the Eddie call two days earlier, and again the prospect did the arithmetic unprompted. Personal-trainer hourly rates are consistently the anchor that makes $6,000 defensible in this corpus, and reps consistently fail to introduce it themselves."
+    },
+    {
+      "type": "monthly_price_framing",
+      "raw": "it comes out to, you know, the average is like $1,000 a month, which is not crazy, considering what I'm getting from it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He had reframed the price into a monthly figure himself and made peace with it at $1,000 a month. This matters because the rep then quoted $1,200 a month for the six-month plan without noting the difference — the prospect's own stated anchor was silently exceeded by twenty percent."
+    },
+    {
+      "type": "existing_debt_load",
+      "raw": "I actually had thought of getting just a personal loan to put all the credit cards onto one, just so I have one bill, instead of the four or five different bills that I've got right now. I've been on a journey the last two years to get my debt under control, and it's actually working pretty well. So I'm trying not to, you know, be careless about it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most important disclosure on the call. He is two years into deleveraging, explicitly guarding against carelessness, and about to add a twelve-month credit agreement. The rep did not treat this as a constraint to work within; he treated the credit score attached to it as an asset to draw on."
+    },
+    {
+      "type": "anticipated_family_disapproval",
+      "raw": "I did tell her, I'm like, well, it was, you know, definitely a significant cost. And I didn't tell her how much it was because she would have been like, absolutely not. Don't do it. So I didn't tell her how much it cost.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He predicts that the person closest to the decision who has relevant professional knowledge would tell him not to buy, and concealed the number from her to prevent that. Records as an anchor because it is a suppressed counter-pressure sitting under the sale, not because it surfaced as an objection."
+    },
+    {
+      "type": "windfall_liquidity",
+      "raw": "My son just graduated high school, so I don't have to pay child support anymore. So I'm suddenly an extra $900 a month.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Recent and material improvement in monthly room, volunteered freely, plus expected per diem from the Estonia trip. This is the genuine affordability signal on the call and it is the reason a payment structure was defensible here in a way it was not for the Felipe Dublanc call four days earlier."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To know what the twelve-month financed route actually costs in total",
+      "why_unmet": "No figure was ever stated. He was told the term could stretch 'even up to 12 months', applied, was approved, chose twelve months and paid — without a total, an interest rate, a monthly amount or a fee being spoken aloud by either party. He accepted on the strength of 'I can always pay these off early'. Whether the financed total matches, exceeds or is unrelated to $6,000 is not recoverable from this recording.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A way to run the first three weeks of the programme from a host family's home in Tallinn with no equipment and meals provided by someone else",
+      "why_unmet": "Never discussed by either party, despite the trip occupying several minutes of the call and starting five days later. He is away 11 July to 1 August — which is the movement-learning phase the rep elsewhere describes as taking about a month and requiring recorded form checks. The host family has explicitly asked him to eat what they provide, which sits directly against the nutrition pillar. The programme probably can accommodate this, since travel adaptability is one of its main selling points, but nobody said so and nobody planned it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Onboarding with Trevor before flying out on Saturday",
+      "why_unmet": "Served, and served well — booked for Tuesday, three days ahead of departure. Recorded because he raised it as a condition ('hopefully before Saturday, because it's when I go out of town') and it was met without friction.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

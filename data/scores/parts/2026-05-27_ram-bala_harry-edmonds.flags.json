@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-05-27_ram-bala_harry-edmonds",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Asked directly whether payment could be split, the rep stated the programme is paid in one instalment — the day after telling a different prospect that payments can be broken up through third-party finance.",
+      "evidence": [
+        "Now the entire program, right? Six months. So are we gonna do this month on month? I mean, this is from a payment term. So are we gonna do month on month or three months and three months or one, six months, one shot? How does that work?",
+        "It's six months, one shot.",
+        "so it's just comes down to the cost aspect of it, which I need to kind of figure that out and digest"
+      ],
+      "timestamp": "00:35:45"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a 2010 disc bulge, ongoing lower-back stiffness, active chiropractic care and explicit fear of loading his spine; the rep normalised lumbar loading during swings, offered his own scoliosis as common ground, told him pre-programme blood work was unnecessary, and never suggested clearing loaded ballistic training with the chiropractor or any clinician.",
+      "evidence": [
+        "I figured out in 2010, I had a disc bulge. And I went through traction and massages.",
+        "Now, does it concern me when I'm lifting weights? Yes, 100%, 100%, right? So I'm extremely careful.",
+        "I've got scoliosis, so I can relate.",
+        "a lot of people, when they do kettlebell swings, their lower back does a lot of the work rather than the hips and it's fine. It's just normal. It's just a tweak you have to make.",
+        "Now, do I have to, before we get started, we have to do blood work, and things like that, or no? / If you want to do it, you can. It's not necessary."
+      ],
+      "timestamp": "00:12:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Large sections of the transcript merge both speakers under a single label, including the whole philosophy pitch and the price reveal, making line-level attribution unusable.",
+      "evidence": [
+        "00:20:54 - Harry Edmonds (Primal Instinct) ... does that align with what you're looking for that's that's that's exactly what it is you know uh i mean like i told you right it was a very casual conversation",
+        "00:36:46 - Harry Edmonds (Primal Instinct) ... The six months is 6K for the six months. Wow."
+      ],
+      "timestamp": "00:20:54"
+    }
+  ]
+}

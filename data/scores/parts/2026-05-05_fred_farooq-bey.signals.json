@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-05-05_fred_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He validated the mechanism against his own experience and volunteered why it matters. On the pillar overall: 'Yeah, I mean, that's sensible. It's what I'm doing, plus one. And, you know, I like the timings of it.' On the film-and-review loop specifically, asked whether it could take him to the next level: 'Yeah, I mean, yeah, it's crucial. If I just wanted to watch videos, I'll just watch videos.' He had already pre-sold himself on it twenty minutes earlier by describing the gun dog trainer who used exactly this model, and the rep made the connection explicitly. This is the component he wanted and the only one he was ever buying."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "He set a constraint rather than asking about the content: 'The one thing for me with nutrition, I've got a family. I'm generally the cook. It needs to be simple... something that I can smash together for myself in 15 minutes, max.' He then pre-empted the supplementation element: 'I take a bit of creatine and protein, but I don't want to take a lot of supplements. I just take those two, because I think they're essential for me.' The rep responded by recommending vitamin D3 and K2 with a testosterone claim attached. Note that this prospect is already running a stricter protocol than the programme would prescribe, at 1,300-1,400 calories with 170 g protein and no carbs."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "One question, and it went straight to delivery capacity rather than value: 'How many clients does he have on? I mean, how much time does he spend per client?' He was told 'about 25, 25 clients' and that Trevor spends roughly twenty minutes a day responding to messages within seven or eight hours a day dedicated to clients. He did not react to the answer. Notable that this is the pillar with least purchase on him — he had already told the rep twice that motivation is not his problem: 'It's happening regardless.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "validated_cheaper_delivery_model",
+      "raw": "I got a dog about a year ago and I worked with a professional gun dog trainer, right? And we did pretty much exactly this. So he would tell me what to do. I'd take the dog out, I'd film it. And I would send that and immediately he would send me critique on the video... And I got very good results with a dog.",
+      "direction": "undercuts_price",
+      "competitor": "professional gun dog trainer",
+      "note": "The most informative anchor in the corpus and it cuts both ways sharply. It proves the delivery model works on him, which the rep correctly used — 'it's the same thing that you did with your dog trainer, essentially.' But it also tells him exactly what film-and-critique coaching costs, from a domain where it costs a fraction of $4,000. Nobody asked what he paid the dog trainer, and that number was the whole negotiation."
+    },
+    {
+      "type": "explicit_value_ceiling",
+      "raw": "Oh, it's 100% not worth that to me. I can get that way cheaper than that.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The cleanest piece of pricing intelligence in the batch, obtained because the rep asked the right isolating question. This is a value rejection from a man who did not claim he could not pay — a former City stockbroker turned handyman by choice. He is not priced out; he has surveyed the market for what he wants, which is kettlebell form critique, and concluded this is several multiples of it."
+    },
+    {
+      "type": "existing_free_structure",
+      "raw": "Tuesdays and Thursdays, I do HIIT training with a group of friends... I do a 10k run every Wednesday. I swim on Saturdays, and then I throw in two kettlebell sessions.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Six sessions a week already happening, at zero or near-zero cost, with social accountability built in through the friends' HIIT group. The programme is not filling a void, it is competing with a functioning routine — his own summary of pillar one was 'It's what I'm doing, plus one.' That phrase is the whole commercial problem stated in five words."
+    },
+    {
+      "type": "free_information",
+      "raw": "you can learn quite a lot from internet videos and so on, but, you know, with my age and everything... If I just wanted to watch videos, I'll just watch videos.",
+      "direction": "undercuts_price",
+      "competitor": "YouTube / Instagram",
+      "note": "Unusually, he dismissed the free option himself rather than defending it, which is why the rep's self-sufficiency challenge worked here. It narrows the paid value to exactly one thing — critique — and that narrowing is also what made $4,000 unjustifiable to him."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Kettlebell form critique alone, without programming, nutrition or accountability",
+      "why_unmet": "He stated the scope precisely and twice: 'I'm 100% confident I can build myself a program-ish, but I can't tell if I'm doing it right' and 'the kettlebells section of it, I'm a complete novice at it.' The offer bundles three pillars and there is no tier between the $200/mo self-paced product and $4,000 that sells video critique on its own. Third occurrence of this gap in the batch and the third time it was the deciding factor.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Form critique at a price comparable to what remote video coaching costs elsewhere",
+      "why_unmet": "His benchmark is a professional gun dog trainer running the identical film-send-critique loop, and he has personally validated both the method and its price. Nothing in the product line comes near it, and the rep did not attempt to justify the gap once the value objection was isolated.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Preparation for a half Ironman and a muscle-up by his fiftieth birthday",
+      "why_unmet": "Both were named in his opening answer and neither was addressed again. A half Ironman is an endurance event requiring periodisation around a swim, bike and run block he is already running; the kettlebell programme was never positioned against it. This is the third endurance-athlete positioning miss in the batch, after Bryant Fields and Paul Bionaz.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Nutrition that fits family cooking and assembles in fifteen minutes",
+      "why_unmet": "He set the constraint clearly and the rep acknowledged it with 'Yep' three times without ever confirming the programme meets it. The no-weighing, no-macro-counting design probably does satisfy this and it was never claimed against the stated requirement.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on whether a 1,300-1,400 calorie intake is appropriate alongside six training sessions a week at 49",
+      "why_unmet": "He volunteered the numbers and framed them tentatively — 'I'm not an expert, but from what I've been reading... it seems to make sense for a short time.' That is a direct invitation for expert input and it was answered with 'Sure.' The rep then recommended adding fasting protocols on top. No qualified view was offered on the deficit, the training load or the interaction between them.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

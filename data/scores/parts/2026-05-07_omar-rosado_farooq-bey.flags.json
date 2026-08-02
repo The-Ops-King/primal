@@ -1,0 +1,95 @@
+{
+  "call_id": "2026-05-07_omar-rosado_farooq-bey",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep pressed a newly married 23-year-old to pre-commit against his wife's possible refusal, supporting it with an unevidenced claim that nobody who leaves to consult a spouse ever returns.",
+      "evidence": [
+        "Obviously, I need to talk all of this with her, man, because now we're a team.",
+        "Because I've had this conversation 2,000 times, dude. You know, when anyone says they speak to their wife, I've never seen anyone come back. It's just how, it's just how human beings are, you know?",
+        "So, so even if she says like, hell no, you're still going to do it?",
+        "So, just so I understand you're, I'm on the same page. If she says yes, you're doing it. If she says no, still going to do it.",
+        "Probably.",
+        "I'm new to the marriage, so I just want to make the option, you know?"
+      ],
+      "timestamp": "00:33:43"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The quoted twelve-month instalment figure implies a total roughly 29% above the quoted programme price, and no financing cost was disclosed at any point.",
+      "evidence": [
+        "So what I recommend is getting into the three months, and we have an option to spread it over 12 months for you. So you're paying like 430 bucks a month.",
+        "we get you in for the 433",
+        "So if it's three months, it'll be 3,900 as a total, right? can divide that over 12 again, if necessary.",
+        "So for three months, it's 4,000 us for six is six, six K."
+      ],
+      "timestamp": "00:28:07"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep gave an unqualified verbal refund promise with no window, conditions or written terms, and the prospect explicitly stated he would use it to obtain his wife's agreement.",
+      "evidence": [
+        "And if after that you say, she says, or you both say, hey, man, I can't, like, we hate this, then we can refund you.",
+        "Yeah, I think I can make her trust me. And if, like, if it's true what you say about the refund, I can make her trust me in that way, too.",
+        "Like, I can make her, like, trust me for these three months. Let's see how it works out."
+      ],
+      "timestamp": "00:30:45"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep presented an unlisted $4,000 three-month tier and took a $100 holding deposit at an amount he invited the prospect to choose, neither of which is in the published offer.",
+      "evidence": [
+        "There's a three-month, six, and 12. I don't think you need 12 with us, Omar. So, the three months is 4,000 US, and the six is six, okay?",
+        "I mean, if you want to, like, speak later, right, and you want to do this, we just take a small deposit. I don't care what it is, $100, $200.",
+        "you're happy with the $200 deposit? Can I do $100? Yeah, sure. You can do $100. I don't care what it is."
+      ],
+      "timestamp": "00:35:04"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep offered a twelve-month in-house instalment plan with no mention of a finance partner, having stated the previous day that in-house plans stretch to three months at most and anything longer requires a finance partner and a credit line.",
+      "evidence": [
+        "we have an option to spread it over 12 months for you. So you're paying like 430 bucks a month. And then if you want to pay it off sooner, you've stacked enough cash, you can do that.",
+        "[cross-call, same rep, 2026-05-06_brandon-johnson_farooq-bey at 00:50:12] If you have to spread it over 12 months or say six months, you've got to utilize one of our finance partners to do that, right? Outside of finance partners, outside of credit lines, we can use our own in-house payment plan options to spread it over three months tops, whether it's the 12, the six, or the three."
+      ],
+      "timestamp": "00:28:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep moved payment-receipt collection onto his personal WhatsApp line mid-transaction.",
+      "evidence": [
+        "You know, Omar, I just sent you a text on WhatsApp through my personal line. You can send it to me there, alright?",
+        "Before we wrap up, man, yeah, if you could send me that receipt, that would help."
+      ],
+      "timestamp": "00:43:37"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Prospect's email address and detailed personal financial position were captured verbatim in the stored recording and transcript.",
+      "evidence": [
+        "Check your email, man. I think kdelso at gmo.com?",
+        "I get paid $2,600? don't know, $2,600? At the end of the month.",
+        "My credit score right now is... last time I checked, it was almost 700",
+        "And do you know the available amount, roughly, on the card? I have no one on it, so it's only 200."
+      ],
+      "timestamp": "00:41:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts attribution throughout, and one passage collapses roughly six alternating turns including the entire three-versus-six-month upsell into a single unbroken speaker block.",
+      "evidence": [
+        "00:00:14 - Omar  It's going good, man. Where are you calling from, Omar?",
+        "00:23:50 - Omar  ...so we can definitely make a plan to touch base maybe on the 30th or you know whenever you've you put enough money aside to actually do it and if you were to do it which one are you leaning towards the three months or six I would say six or maybe three [continues unbroken to 00:25:11]"
+      ],
+      "timestamp": "00:23:50"
+    }
+  ]
+}

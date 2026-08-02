@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-06_nic_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Rep delivered the 3-4x/week 30-40 minute structure plus 5-15 minute daily mobility and the 'teach you how to fish' framing. Prospect confirmed only: \"Yes, it does\" to \"Does that all make sense to you?\" No questions, no elaboration, no tie-back to his own goal."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The one pillar he volunteered energy on. On fasting: \"I did actually see his post recently about the full moon cycle that he does once a month, and yeah, I really love that... I know how powerful it is, and not many people I know do it.\" He had named fasting and gut health as personal interests unprompted at 00:01:43."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "On the app, video submissions, Trevor's personal chat and the nudging: \"Transparency, yeah, for sure.\" And after the Thursday live workout / community add-on: \"No, you've covered it pretty well, yeah, I'm on board with what you guys have to offer, I guess it just comes down to the payment systems.\" Understood and agreed, but moved straight to price."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I was thinking like 200 bucks a month was something that I was willing to sacrifice... I typed into Google what it might cost to go down this endeavor and that's where I got the 200-a-month answer.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The anchor was set by a Google search two days before the call, not by a competitor he had used. He arrived expecting an app with video clips and occasional lives — a $200/mo subscription shape — and priced the entire category at that. A 30x gap the rep did not attempt to reframe; he matched the anchor instead."
+    },
+    {
+      "type": "existing_trainer",
+      "raw": "my partner is actually a personal trainer... she's got an app, and she can make me a weekly [plan]",
+      "direction": "undercuts_price",
+      "competitor": "Prospect's own partner (qualified personal trainer, free)",
+      "note": "He has free, qualified programming at home and already uses it. His stated reason for looking elsewhere is modality (kettlebells) and his partner's bias toward weights training — not absence of coaching. Nobody differentiated the paid offer against the free one in the house."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "Save his routines that he posts on Facebook and write them down and implement them myself, but it's just very time-consuming copying and pasting his work",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Facebook content",
+      "note": "The prospect is already consuming the coach's free output and getting some of the value. His stated complaint is transcription effort and not knowing if his form is right — a narrow, cheap-to-solve problem, which makes the $200/mo tier feel proportionate to him and the $6,000 tier feel absurd."
+    },
+    {
+      "type": "competing_spend",
+      "raw": "currently trying to buy a house. Currently, the single income owner of the house we're in, we're renting... I'm going to Brisbane to go to a business conference for my partner",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Household is running a house deposit, a partner's business launch and a conference on one income. The $6,000 competes against capital allocation, not against other coaching."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A self-paced kettlebell education — understanding the why behind the movements well enough to eventually coach others alongside his partner",
+      "why_unmet": "The offer is delivered as one-to-one transformation coaching toward a personal goal. Certification, teaching methodology or coach-track content was never mentioned, though the rep did lean on the 'teach you how to fish' framing.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Form correction while training away from home in a hotel room with no equipment",
+      "why_unmet": "The tier he was actually sold (Primal Instinct University) is community-based with group correction, not the one-to-one video review the rep described in the $6,000 presentation. His specific need — knowing whether he is doing the movements correctly — is the thing the cheaper tier serves least well.",
+      "verdict": "product_gap"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-06-29_siddiq-farid_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The off-menu three-month tier at $4,000 with a $2,000 top-up was offered again, this time in response to a prospect asking for a $4,000-$5,000 price.",
+      "evidence": [
+        "Now, there is an option for three months, and it's 4K for the three months. And you can also speed it up. Now, that said, when you finish the three months, and you want to continue for another three months, you just top that up. Yeah? So it's going to be additional 2K, not additional 4K, if that makes sense.",
+        "At the end of the 4k, can we split that into two? Yeah. Yeah. No, no interest on that."
+      ],
+      "timestamp": "00:04:39"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect explicitly asked that Trevor be consulted about a $5,000 price and the request received no response at all, leaving the call with it outstanding.",
+      "evidence": [
+        "I would request Trevor to consider whether he would be willing to do this for 5K.",
+        "So the three months I only presented you for an option that would be more feasible for you financially right now, because the thing is, like, you need the six months still.",
+        "I think a number that I'll be more comfortable with is probably around $4,000 or $5,000. I'm not sure that's possible for Trevor to accommodate and so forth."
+      ],
+      "timestamp": "00:05:43"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The payment figures put to the prospect within ninety seconds do not reconcile, so he could reasonably have left with a different understanding of what he owes and when.",
+      "evidence": [
+        "there is an option for three months, and it's 4K for the three months",
+        "So it's going to be additional 2K, not additional 4K",
+        "So right now you would be, uh, that would be for you just 2k because that could work, right?",
+        "At the end of the 4k, can we split that into two? Yeah. Yeah. No, no interest on that."
+      ],
+      "timestamp": "00:06:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "This is the second call in a sequence whose first call is not present in the corpus, so discovery, the offer presentation and the pillar reactions for this prospect are unrecorded.",
+      "evidence": [
+        "Listen, I had a conversation, so a couple of things here, right? So there's two elements over here that we need to sort of navigate.",
+        "my question is, you said something about three months, that whether you could do it like in three months",
+        "What I said was the option of splitting the payment into two."
+      ],
+      "timestamp": "00:00:36"
+    }
+  ]
+}

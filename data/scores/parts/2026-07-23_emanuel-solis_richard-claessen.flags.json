@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-07-23_emanuel-solis_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A one-month $1,200 trial with an explicit right to walk away was invented live and is the structure the deal actually closed on; no trial exists in the $6,000/6mo or $9,000/12mo offer.",
+      "evidence": [
+        "Or we get you started on 12 on a today. And then we just book in another meeting for, in a couple of weeks from now, like three, four weeks from now. If you feel like I love this, then we keep going. If you feel like I hate it, we leave it.",
+        "And then how much you said? So if we would do that, it would be 1,200.",
+        "are you going to put in your full effort, even if we make it a trial period?"
+      ],
+      "timestamp": "00:49:23"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Two different contract totals were stated in consecutive sentences - $6,000 and six payments of $1,200, which is $7,200 - and the prospect agreed without either being clarified or restated.",
+      "evidence": [
+        "And then if you feel like in three to four weeks from now, I love this, we can split up into two or three extra payments after that, and then it would stay 6,000. Otherwise, it would be six times 1,200.",
+        "Got it. That sounds interesting.",
+        "Perfect. And basically with this, I think from what you're also saying, you want to make sure you're doing the right thing for yourself, then this is the only thing that really fits. So I would say, let's get you started."
+      ],
+      "timestamp": "00:50:10"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep stated on the record that payment terms are not fixed and are negotiated per prospect, immediately after refusing the prospect's proposed structure - the fourth distinct payment arrangement this rep has constructed in four days.",
+      "evidence": [
+        "We don't have anything like set in stone, like this is exactly what we can do. We can always take a look at it, just to triple check, right, to see if that actually has any worth.",
+        "So what I would say is we don't do like 2,000 and then two months in between, 2,000, two months in between. We don't do that.",
+        "We can do two things. We split it up into three times. That would be one now, one next month, then another month."
+      ],
+      "timestamp": "00:46:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "File is titled 'Impromptu Zoom Meeting' with no prospect name, the fourth such untitled sales recording in this batch; the name is recoverable only from the diarization label and an email address read aloud.",
+      "evidence": [
+        "07/23/2026 - Impromptu Zoom Meeting",
+        "I sent it to Solis.Emmanuel at gmail.com."
+      ],
+      "timestamp": "00:56:40"
+    }
+  ]
+}

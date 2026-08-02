@@ -1,0 +1,153 @@
+{
+  "call_id": "2026-05-30_sean-stover_ben-byrne",
+  "source": {
+    "drive_file_id": "1-jQxa0p5WlbZKpHFUN08UNzhzFThuEUn",
+    "drive_folder": "Ben Byrne",
+    "original_title": "05/30/2026 - Sean Stover x Ben Byrne KL",
+    "display_title": "05/30/2026 - Sean Stover x Ben Byrne KL — Lost",
+    "file_size_bytes": 44375
+  },
+  "call": {
+    "date": "2026-05-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 47,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Canada" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla Louie",
+    "confidence": "high",
+    "evidence": "Rep at 00:00:55: 'So, um, I, I got the notes. From Kyla, I'm clear on that, but I'm curious, in your opinion, what would you say is the biggest challenge that you're having with your fitness right now?'"
+  },
+  "prospect": {
+    "name": "Sean Stover",
+    "aka": null,
+    "name_source": "title",
+    "location": "Nashville, Tennessee, USA - grew up in Montana and expects to move back",
+    "age": 47,
+    "occupation": "High school English teacher",
+    "family_status": "Divorced, has children, co-parenting; not currently dating and deliberately not looking for around seven or eight years",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 11,
+    "training_background": "Five years of self-taught calisthenics learned from YouTube, progressively increasing difficulty. High-intensity training 30-40 minutes daily Monday to Friday, plus roughly four-mile runs twice a week and four-mile walks twice a week. Has run Spartan races. Former skier and soccer player. Self-reports a visible six pack and 10-12% body fat. Has never worked with a trainer or paid for any fitness coaching. Owns one 25 lb kettlebell and has been copying movements from Trevor's Instagram videos.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.72,
+    "signals": [
+      "Self-directed and demonstrably capable - five years of YouTube-taught calisthenics that produced a six pack and 10-12% body fat with no coach and no cost",
+      "Explicitly anchored to a cheaper substitute he was already considering: 'another thing I was gonna maybe do is, was get like a weighted vest and continue doing what I'm doing'",
+      "Previously evaluated and rejected a paid CrossFit-style gym on the same logic: 'I decided not to do that because I was getting a lot of results and it wasn't costing me any money'",
+      "Priced the decision before valuing it - asked the cost four separate times before hearing the offer, and pre-emptively framed a ceiling: 'If we're talking like the individualized thing is four figures...'",
+      "Bought the cheap option and left the door open on the expensive one",
+      "Counter-signals toward the_optimizer are strong - he is already lean, trains daily and wants good to great, which the rep himself named on the call; the reason optimizer was not assigned is that price was a hard barrier rather than a quality signal",
+      "Secondary the_rebuilder undertone: five years of post-divorce reinvention, though he never fell off, so there is no lost ground to recover"
+    ]
+  },
+  "goals": [
+    { "text": "Build more muscle, particularly in the legs, back toward how they were when he skied and played soccer", "category": "muscle_gain" },
+    { "text": "Still be able to do a full-out sprint in twenty years and stay physically active for the next thirty or forty", "category": "longevity_function" },
+    { "text": "Get back into skiing", "category": "hobby_performance" },
+    { "text": "Full-body training that works multiple muscle groups at once rather than isolating body parts", "category": "strength" },
+    { "text": "Good movement quality, not just gym strength", "category": "mobility" },
+    { "text": "Be in a completely different physical position from his peers in ten to fifteen years", "category": "longevity_function" },
+    { "text": "Eventually connect with a partner who shares an active, health-focused outlook", "category": "relationship" },
+    { "text": "Keep the credibility and edge his physique gives him with the high schoolers he teaches", "category": "confidence" },
+    { "text": "Keep working on himself during this season of life so he has more to offer later", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Has plateaued on calisthenics and has to keep artificially inventing harder variations to stay challenged", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Calisthenics only hits targeted body parts, so he has to deliberately construct circuits to cover everything", "category": "program_fit", "severity": "medium" },
+    { "text": "Legs are undertrained relative to upper body - running and walking are not the same as leg strength work", "category": "program_fit", "severity": "low" },
+    { "text": "Let his fitness slide during his marriage because it was not a shared priority, and is still rebuilding that part of his identity", "category": "emotional", "severity": "low" },
+    { "text": "Paying down student loans and unwilling to spend the buffer he has built while close to being debt-free", "category": "other", "severity": "high" },
+    { "text": "No urgent catalyst - he acknowledged there is no single thing driving change right now", "category": "motivation", "severity": "medium" },
+    { "text": "Does not know what kettlebell weights to buy to progress beyond the single 25 lb bell he owns", "category": "competence_anxiety", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Well, I, I'll be, I'll be honest. Like I, I, I, I. I'm not at the spot where I'm going to do the $6,000 or the $9,000 right now. I'm paying back some student loans and I need to focus on writing that out to the end of that.",
+      "timestamp": "00:38:53",
+      "rep_response": "Ran no part of the money play. Did not isolate finances, did not ask permission for a financial conversation, asked none of the six financial picture questions, and never offered a payment plan on the flagship. Accepted the no immediately and processed the downsell: 'Yeah, man. Yeah, I can just send you the link.'",
+      "response_tactic": "accept_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I think I'm going to live a, just given what I know I have to do financially, I think I would remove my buffer that I have that I've created for myself. And I don't want, I don't want to do that while I'm like so close to being done. So I think the wise choice for me is to stay course and just finish what I know I've got to get done here with my student loans.",
+      "timestamp": "00:44:31",
+      "rep_response": "Agreed with the reasoning and reinforced it by reference to his salary: 'obviously the gym teacher's salary, it's not like if you're a business owner, you might be able to justify to yourself... But I mean, you get paid what you get paid regardless.' No OD moves were run - no 'when does it actually become the right time', no compounding-cost frame.",
+      "response_tactic": "validate_and_reinforce_deferral",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "the other, another thing I was gonna maybe do is, was get like a weighted vest and continue doing what I'm doing, and just continue doing, you know, put an extra 25 pounds on and just keep doing what I'm doing and trying different things",
+      "timestamp": "00:17:22",
+      "rep_response": "Conceded the price comparison outright - 'Well, I mean, I can guarantee you a weighted vest is cheaper' - then argued the prospect's own case for him: 'it just probably makes more sense to just continue doing the calisthenics, just get the weighted vest and just amp that up.' Reframed the programme as being for people who resonate with Trevor specifically rather than differentiating on outcome.",
+      "response_tactic": "concede_and_self_disqualify",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I mean, again, it really just depends on what the cost of that is. If we're talking like the individualized thing is four figures, I mean, I don't know what the cost is. You know, like I, you know, if it's, I mean, that's, that's my main thing, is it's in the middle of it all, like the cookie-cutter thing I might I able to do it.",
+      "timestamp": "00:25:32",
+      "rep_response": "Answered by naming two products at opposite ends - the flagship and Primal University - rather than addressing the stated want for something in the middle. Proposed label: wants_mid_tier_option.",
+      "response_tactic": "present_two_poles",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": 200 },
+      { "months": 12, "price_usd": 2388 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Stated as an eight-kilogram gain across lifts over six months, delivered incompletely and then miscalculated: 'the guarantee with our, like our flagship program is, is that over the six months, you also put on at eight kilograms. So all of your lifts.' Followed by 'I think eight kilograms is, what is it? 2.2. it's about 16. It's just times two.' Eight kilograms is approximately 17.6 lb, not 16.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.82,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal of the audited offer: 'I'm not at the spot where I'm going to do the $6,000 or the $9,000 right now'",
+      "The rep also partially disqualified him before price was ever discussed: 'it just doesn't seem like there's a, you know, like a, really like a burning desire... or a problem where it's like, we can specifically only solve that'",
+      "No payment was taken for anything on the call - 'You don't have to give me your card or anything'",
+      "Counter-evidence: he did verbally agree to take the $200/month Primal University for June and July and the rep sent the link, so under a literal reading of the verbal-agreement-plus-link rule this could be scored closed. It is recorded as lost because the agreement was to a different, lower-priced product and the flagship offer was explicitly declined; scoring a $200/month subscription into the same close rate as $6,000 deals would corrupt the metric.",
+      "Counter-evidence: he stated real future intent - 'I might try to circle back around at some point and be like, let's freaking do it, man. I've got this, I've got the money now' - so a follow_up reading is defensible; the deciding factor is that a definite no was given on this call to the offer being audited.",
+      "Prospect was warm throughout and closed the call positively: 'I think it's a great opportunity. I think it's awesome.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep sent a self-serve Primal University link at $200/month for the prospect to sign up himself, with the intention of doing June and July. No follow-up date was set for the flagship programme and no callback was scheduled."
+  },
+  "notable": {
+    "note": "The rep introduced the $200/month Primal University tier at 00:26:18, before quoting $6,000 - anchoring the prospect against his own flagship. He then declined to offer a payment plan to a prospect with an explicit, temporary cashflow constraint and a stated intention to buy later, four days after improvising a deposit and instalment plan for a prospect who had not asked for one. He also closed by agreeing with the prospect's reason not to buy, citing his salary: 'you get paid what you get paid regardless.' Separately, the prospect stated a clear want for a mid-tier product between $200/month and $6,000, and no such option exists."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained inversion. Rep questions are repeatedly appended to the end of the prospect's turns rather than being attributed to the rep - clear cases at 00:07:09 ('Is it more about just balancing out your physique right now'), 00:10:15 ('What, like, where are you looking to build muscle at on your body?'), 00:17:22 ('well, I mean, you definitely could do that') and 00:23:30. The age exchange at 00:11:55 is inverted, with 'I'm 47' attributed to the prospect but 'You're 47' attributed to the rep in the wrong order. The prospect's speaker label is 'Sean' with no surname; the surname comes from the title only. All role assignment was made from content."
+  }
+}

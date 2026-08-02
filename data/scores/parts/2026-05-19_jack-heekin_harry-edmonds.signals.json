@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-19_jack-heekin_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Already sold on the coach before the pillar was delivered — he came in from Trevor's YouTube — and he tied it to himself unprompted: \"that's why I like, you know, like watch his videos and just the way he talks and everything... all the stuff aligns with me in short.\" He then asked two mechanics questions, whether mobility is stretching (\"Yes and no... Mobility is more so building strength in the stretch\") and whether he could keep running ATG alongside it (yes). The rep also promised the pillar would address his back: \"then mobility, it's going to help you with your back.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered as the standard micronutrient and sustainability pitch with fasting protocols mentioned in passing. The prospect had already flagged nutrition as a place he wanted understanding rather than rules — \"like I eat healthy, but understanding it more would be, you know, I think helpful\" — and offered no reaction, question or pushback to the pillar itself. The rep never connected the pillar back to that stated want."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The one pillar he interrogated, and he found its edge: \"so really the accountability is not like during the workout. It's more about like I put in the data. And then at the end of the week, like, he's not really analyzing or you're not really analyzing me during the workout.\" Rep: \"With videos, yes. At the first moment.\" Prospect: \"But not like live.\" Rep: \"Not live.\" He accepted the answer (\"Got it\") and the rep recovered with humour rather than substance (\"if you don't tick that you've done that workout, it's going to be on your... I'll be on your too\"). Notable because accountability is the gap he had named himself minutes earlier."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_method",
+      "raw": "I do ATG quite a bit. I don't know, the knees over toes guy, if you've seen him, that really helps with me. It helped after the surgery more than physical therapy.",
+      "direction": "undercuts_price",
+      "competitor": "ATG / Knees Over Toes Guy",
+      "note": "The strongest undercutting anchor in the batch. A low-cost programme that he uses consistently and that, by his own account, outperformed clinical physical therapy after spinal surgery — so it has both price and credibility on its side. The rep's response was to absorb it (\"we can add it all in it's not a problem\") and to admit limited knowledge of it: \"I'm not a hundred percent like I know everything about ATG but I understand like I understand what it is in a way I know it's good.\""
+    },
+    {
+      "type": "existing_subscription",
+      "raw": "I can get on these like Apple fitness and everything, but like, you know, everyone's different, so you got to tailor it, you know what I mean?",
+      "direction": "undercuts_price",
+      "competitor": "Apple Fitness",
+      "note": "Raised and self-resolved in the same breath — he named tailoring as the reason a cheap app is not enough, which is the argument the rep would otherwise have had to make. Logged because it sets the baseline expectation of what fitness content costs."
+    },
+    {
+      "type": "tax_write_off",
+      "raw": "We can help you write it off. As I said, 65% of people are business owners, dude... we can frame the invoice however we need to. So you can just speak to your accountant... So it's pretty, it's, it's always better when it's almost free.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A supportive anchor manufactured by the rep rather than found in the prospect: the $6,000 is reframed as effectively costless via a business deduction. It arrived immediately after the price and before the prospect had reacted to it, and the prospect responded \"I mean, that, that adds up.\" This is the fourth call in the batch where it appears and the only one where the price is characterised as \"almost free\". See the flags file."
+    },
+    {
+      "type": "personal_trainer_expectation",
+      "raw": "I follow that dude on YouTube and I'm like, hey, like, you know, I'm looking for personal trainer",
+      "direction": "undercuts_price",
+      "competitor": "Conventional personal trainer",
+      "note": "He arrived shopping for a personal trainer, a category priced per session and typically bought hourly. Nothing in the call repositioned the offer away from that comparison before the number landed, and his first pricing question was structured on that assumption: \"What is it? Does cost like monthly or?\""
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live coaching or real-time analysis during workouts",
+      "why_unmet": "He probed for it specifically and the answer was no: form review is asynchronous via video clips in the first month, plus a weekly data check-in. The programme is not built to observe a session as it happens. He accepted it without objection, but this was the one thing he tested the accountability pillar for, and accountability is the gap he named as his own.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Rehabilitative confidence after spinal surgery — training that lets him stop holding back on a mountain bike and stop feeling his back after basketball",
+      "why_unmet": "The rep asserted the mobility pillar would help the back and asked the prospect to self-report any diagnoses (\"if you've got specific diagnoses for your back tell us\"), but nobody established what the surgery was, what the restrictions are, or whether loaded ballistic work is appropriate. Whether the offer can serve this want is genuinely unknown on this evidence, and it needs a human and probably a clinician rather than a verdict from the transcript.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

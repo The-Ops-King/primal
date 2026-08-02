@@ -1,0 +1,135 @@
+{
+  "call_id": "2026-06-05_cole-farry_ben-byrne",
+  "source": {
+    "drive_file_id": "1N9Uvoul8V4F5scXri8WUfz1rmL9hbp_u",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/05/2026 - Cole Farry x Ben Byrne KFS",
+    "display_title": "06/05/2026 - Cole Farry x Ben Byrne KFS — Lost",
+    "file_size_bytes": 31427
+  },
+  "call": {
+    "date": "2026-06-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Prospect: 'in the first call interview I had with that, I can't remember the guy's name, but...' Rep: 'Kim?' Prospect: 'Yup.'"
+  },
+  "prospect": {
+    "name": "Cole Farry",
+    "aka": null,
+    "name_source": "title",
+    "location": "Minnesota, USA",
+    "age": 34,
+    "occupation": "Quality engineer; sedentary desk role reviewing reports and programming, around 3,000 steps on an active day",
+    "family_status": "Married; two boys — a toddler and a six-month-old; has dogs",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 10,
+    "training_background": "Long-term self-directed bodybuilding-style training with adjustable dumbbells at home after his first son was born, previously a regular gym-goer. Took up running after injuring his shoulder and built up to a half marathon, estimating himself at roughly 10% body fat at that point. Describes a lifelong pattern of six-month committed streaks followed by months off, with the off periods lengthening over time. Stopped essentially all training six months ago when his second son was born and is up about 20 pounds from eight months ago. Recently bought one kettlebell and has done a couple of workouts with it without knowing what he is doing. Has never hired a coach of any kind; leant informally on a friend who became a fitness coach, and has bought and used free bodybuilding plans including bodybuilder.com.",
+    "kettlebell_experience": "some",
+    "medical": "Bankart fracture in his shoulder sustained roughly a year before the call, self-rehabbed and still limiting: 'I was doing a lot of pull-ups before that, but then obviously I couldn't. So I've been working my way up. I can do a couple, but I try not to push it.' Recurrent sciatic pain: 'you get a sciatic pinch every so often.' Self-reported sleep apnoea linked to weight gain — 'by gaining some weight, you know, I sleep apnea, kind of... Not like I need to go get a mask, but you know, some snoring and stuff' — with non-restorative sleep, morning headaches and a suspicion he is not breathing well overnight, plus daytime sluggishness managed with caffeine. Was planning a hormone blood panel out of curiosity about his testosterone levels; his brother-in-law, a doctor, told him he is fine. No clinician clearance for kettlebell training was sought at any point."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.65,
+    "signals": [
+      "Lost ground to a specific hard season and names it precisely: 'when you had your second son six months ago, is that when the activity fell off?' → 'Totally. Yeah. Basically stopped everything.'",
+      "Wants a former self back with a number attached: 'I'm up like 20 pounds from where I was at like eight months ago... 20 pounds would be nice to drop back down to'",
+      "Regret is present but softened: 'kind of let myself go and haven't really done anything since' and 'not to blame my kid, but if I didn't have the kid, then I would probably still be active'",
+      "Not skeptical_bargain_hunter despite the free-plan history — he is not anchored to a cheap alternative that worked; his self-direction has repeatedly failed, and his blocker was inexperience with paying for coaching at all rather than a functioning substitute"
+    ]
+  },
+  "goals": [
+    { "text": "Build functional and stabilising strength rather than size — 'I'm not looking for size either, so I'm functional'", "category": "strength" },
+    { "text": "Lose the 20 pounds gained over the last eight months", "category": "fat_loss" },
+    { "text": "Improve mobility and reduce tightness, particularly back and legs", "category": "mobility" },
+    { "text": "Keep up with and play hard with his two boys as they grow", "category": "longevity_family" },
+    { "text": "Learn how to actually use a kettlebell — movement quality and how to combine movements into a workout", "category": "other" },
+    { "text": "Get his energy back and stop feeling sluggish by the end of the day", "category": "energy_performance" },
+    { "text": "Continue rehabbing the shoulder — hanging and rotation work", "category": "injury_prevention" },
+    { "text": "Get back into a consistent routine and break the streak-then-fall-off cycle", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Bankart shoulder fracture from about a year ago, self-rehabbed, still cannot do the pull-ups he used to and consciously avoids pushing it", "category": "injury", "severity": "high" },
+    { "text": "Recurrent sciatic pinch", "category": "injury", "severity": "medium" },
+    { "text": "Self-reported sleep apnoea with snoring, morning headaches and non-restorative sleep", "category": "sleep", "severity": "high" },
+    { "text": "Up 20 pounds and has lost muscle since his second son was born", "category": "other", "severity": "medium" },
+    { "text": "Chronically low energy and sluggishness, chased with caffeine", "category": "other", "severity": "medium" },
+    { "text": "Lifelong cycle of commitment then collapse, and the off periods are getting longer — 'as time has gone on, I've gone through longer and longer and longer stretches'", "category": "consistency", "severity": "high" },
+    { "text": "No time and no bandwidth with a six-month-old and a toddler; training window depends on whether the baby wakes", "category": "time_scarcity", "severity": "high" },
+    { "text": "Sedentary desk job at around 3,000 steps a day", "category": "training_barrier", "severity": "medium" },
+    { "text": "Does not know how to structure kettlebell work or combine movements — 'I don't really have a good grasp on it'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Has never paid for coaching and is uneasy about the format — 'as far as paying for it and doing videos and sending it to people, I've just never done anything like that'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I don't know if I do want to fully go with the online coach as far as like sending in videos. And doing this and doing that, I haven't quite like made up my mind about it... but as far as coaching, I don't know if I'm ready to go that far. I haven't done it, so there's hesitation there.",
+      "timestamp": "00:24:48",
+      "rep_response": "Asked the right opening question — 'Where does the hesitation come from?' — got the answer ('I've just never done it... I've just never done anything like that'), and then ran none of the fear play. Instead he immediately reframed the conversation around a cheaper self-serve option: 'for you, maybe it would make sense to start off with the first one where you can just get going and it's less of a commitment.'",
+      "response_tactic": "isolate_the_fear_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I guess I'll just have to kind of think about investing that much into the kettlebell side of it.",
+      "timestamp": "00:36:24",
+      "rep_response": "None. The rep responded 'Okay. Got you, man. So I guess we'll just call it a no for now, then.'",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Like I said, I was checking it out, you know, looking into it. I don't, it'd be nice to have that, to have access to, but I was just more or less checking it out. Kind of wanted to talk to you guys, see what kind of program you guys had behind you.",
+      "timestamp": "00:36:24",
+      "rep_response": "Accepted immediately and dispositioned the call himself as a no without a single question",
+      "response_tactic": "accepted_and_self_dispositioned",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": null, "price_usd": 199 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep dispositioned it explicitly and the prospect agreed: 'So I guess we'll just call it a no for now, then.' → 'Yeah. Yeah, I think so, for now.'",
+      "No payment, no link, no follow-up channel, no date, and no second call. The rep's closing words were 'Okay. No worries. I guess I'll, well, you have a good day.'",
+      "Low intent was declared at the top of the call and never moved: 'I didn't know how far I wanted to go with this, but I kind of wanted to see, check it out' and 'I applied, but like I stopped right before the end and I kind of like hesitated and then backed out.'",
+      "COUNTER-EVIDENCE — genuine product interest was present and unconverted: 'I think the best route if I were to do it would be just get on, get the plan, get access to the inventory would be the best' and 'it'd be nice to have that, to have access to'.",
+      "COUNTER-EVIDENCE — 'for now' was said by both parties, leaving the door open, but nothing was scheduled to walk back through it."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. No follow-up was proposed by either party and no contact method was agreed."
+  },
+  "notable": {
+    "note": "The flagship offer was never actually presented or priced. Told the prospect was unsure about coaching, the rep pivoted within ninety seconds to Primal University at $199 a month and described Kettlebell Body only as 'a six, three to twelve month commitment, obviously in the thousands'. The fear objection was isolated perfectly with 'Where does the hesitation come from?' and then answered with a cheaper product instead of the scripted fear play. Context worth flagging for the principal: on the team meeting two days earlier the rep learned for the first time that closers earn commission on Primal University sales. Clinically, a self-rehabbed Bankart shoulder fracture that still limits pull-ups, recurrent sciatica and self-reported sleep apnoea with morning headaches were all disclosed, and the recommendation made was the option with no form review at all."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion. The very first line, 'Hey Cole', is labelled Cole. Whole discovery blocks run under the wrong label: 00:09:24-00:09:32, 00:12:52-00:13:09, 00:14:30-00:14:43, 00:22:53-00:23:04 and 00:27:00-00:28:53 all invert. The rep's product explanation from 00:27:26 onward is split across both labels mid-sentence. Role read from content throughout; the rep is identifiable as whoever is asking discovery questions and describing the programme."
+  }
+}

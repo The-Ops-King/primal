@@ -1,0 +1,157 @@
+{
+  "call_id": "2026-05-06_ryan-franks_farooq-bey",
+  "source": {
+    "drive_file_id": "1ycGd-HTUL6PIMsw8xADnVAzTS7h2Pwal",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/06/2026 - Ryan Franks x Farooq Bey",
+    "display_title": "05/06/2026 - Ryan Franks x Farooq Bey — Lost",
+    "file_size_bytes": 47133
+  },
+  "call": {
+    "date": "2026-05-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 48,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ryan Franks",
+    "aka": null,
+    "name_source": "title",
+    "location": "Pennsylvania, United States (Philadelphia area)",
+    "age": 34,
+    "occupation": "Remote technical support for TV systems at care/focus homes — on-call, desk-bound",
+    "family_status": "Single; unsure about children; would like an aligned partner",
+    "height_in": 69,
+    "weight_lb": 212,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "On-off cycle for 10+ years. Currently doing a morning loosening-up routine plus light kettlebell work; did a kettlebell class ~5-6 years ago; follows kettlebell/mobility content on Instagram and YouTube. Golfer.",
+    "kettlebell_experience": "some",
+    "medical": "Ankle injury sustained at age 15 (~20 years); suspected bone cyst, recently examined, MRI and possible surgery pending — ankle doctor appointment in two weeks. Long-term cigarette smoker, currently quitting on nicotine patches. On melatonin for sleep and a peptide blend (described as 'Wolverine blend' / 'TPS') prescribed via his employer for injury and tissue repair. Right shoulder previously hurt, self-described as weakest area."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Repeated 10-year cycle of starting, seeing results, then falling off or getting hurt",
+      "Explicitly wants a former, more mobile self back: 'when was that last time I was really fluid and mobile, probably 10 years ago'",
+      "Carries visible regret — laughed at his own excuses, named ruined relationships and work standing",
+      "Not in an active health crisis, but pending ankle surgery adds a prehab element"
+    ]
+  },
+  "goals": [
+    { "text": "Cut down extra body fat and get 'shredded' / look like Leonidas from 300", "category": "fat_loss" },
+    { "text": "Perfect kettlebell movement so he can eventually run his own routine confidently and without injury", "category": "confidence" },
+    { "text": "Regain flexibility and mobility, which he has never had", "category": "mobility" },
+    { "text": "Prolong his ability to golf into his later years", "category": "hobby_performance" },
+    { "text": "Build a non-negotiable daily routine he does not fall off", "category": "consistency" },
+    { "text": "Become a self-confident version of himself; sees confidence as the real prize", "category": "confidence" },
+    { "text": "Be a better partner in relationships and eventually find an aligned partner", "category": "relationship" }
+  ],
+  "pains": [
+    { "text": "Repeating 10+ year cycle of getting into shape then falling out of routine or getting hurt", "category": "consistency", "severity": "high" },
+    { "text": "Ankle injury since age 15 with a suspected bone cyst; MRI and possible surgery pending, which he fears will break his routine again", "category": "injury", "severity": "high" },
+    { "text": "Lack of mobility and flexibility, felt daily", "category": "training_barrier", "severity": "high" },
+    { "text": "Lack of self-confidence that he says affects every area of life, including ruined relationships and standing at work", "category": "confidence", "severity": "high" },
+    { "text": "Describes a snowballing negative mental state — 'a balanced mental state' is what the cycle has cost him", "category": "mental_health", "severity": "medium" },
+    { "text": "Desk-bound on-call job, sits all day, standing desk unused due to cable setup", "category": "training_barrier", "severity": "medium" },
+    { "text": "Diet is 'one week on, three weeks off'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Energy self-rated 5/10", "category": "other", "severity": "medium" },
+    { "text": "Long-term cigarette smoker mid-quit", "category": "other", "severity": "medium" },
+    { "text": "Self-described comfort-seeking and fear of starting; saves exercise videos on Instagram instead of training", "category": "motivation", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I might have to stop you here. I mean, the price tag does seem a little steep.",
+      "timestamp": "00:40:05",
+      "rep_response": "Reframed the price as the reason to commit ('are you going to be more committed to something you're paying six grand for'), then pushed him to confirm the outcome was worth the investment.",
+      "response_tactic": "price_as_commitment_reframe",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "But we're getting right into golf season, and that's going to be very expensive. So I may have to follow up with you guys for winter and set the cash aside for starting the program.",
+      "timestamp": "00:40:05",
+      "rep_response": "Did not address the timing frame at all; moved straight to affordability and value questions.",
+      "response_tactic": "none_ran",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "that could definitely be a one-year membership at a nice country club. Like, well, I mean, then I could walk a course every day and maybe get, you know, the same level of movement for that same price",
+      "timestamp": "00:42:29",
+      "rep_response": "Did not engage the country club comparison; pivoted to asking whether he had the investment available.",
+      "response_tactic": "pivot_to_affordability",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "For my pay scale, not worth the investment right now.",
+      "timestamp": "00:44:24",
+      "rep_response": "Ran the open-wallet financial picture (cash on hand, credit cards, available credit, savings, credit score), then improvised an off-menu 3-month tier at $4,000 payable at ~$400/month over 12 months.",
+      "response_tactic": "open_wallet_then_invented_lower_tier",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I think it's the price tag is looking pretty expensive, though. I'm going to have to pump the brakes on it, though. I'm going to continue, I guess, learning off YouTube and saving the videos on Instagram and try it my way.",
+      "timestamp": "00:47:38",
+      "rep_response": "Accepted the no and wished him luck.",
+      "response_tactic": "accepted_no",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$4,000 for 3 months of coaching, payable over 12 months at 'around $400 a month' — improvised live; the stated monthly figure does not reconcile with the stated total.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 4000,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": 790
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly declined: 'I'm going to have to pump the brakes on it'",
+      "Stated he would continue self-directed via YouTube and Instagram",
+      "Rep closed out with 'I wish you the best of luck either way'",
+      "Counter-evidence: prospect twice affirmed the outcome was worth the investment in principle and disclosed a 790 credit score and ~$3-5k cash, so the loss was framed as pay-scale rather than desire",
+      "No payment link, no next call, no follow-up date agreed"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. Prospect suggested he might revisit in winter after golf season; the rep did not book or confirm anything."
+  },
+  "notable": {
+    "note": "Rep invented an off-menu $4,000 / 3-month tier with a 12-month, ~$400/month plan after running the full open-wallet financial interrogation. The arithmetic does not close ($400 x 12 = $4,800). Separately, the prospect disclosed a suspected ankle bone cyst with an MRI and possible surgery pending in two weeks; the rep acknowledged it only to note US medical costs and never asked whether a clinician had cleared him for loaded kettlebell training, while continuing to sell."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent line-level swapping throughout. Discovery questions repeatedly appear under the 'Ryan Franks' label and prospect answers under 'Farooq Bey (Primal Instinct)' — e.g. 'How can we potentially help you?' at 00:00:37 and the entire close sequence. Roles were resolved from content: Farooq Bey is the rep running the call. Content is intelligible; attribution is not."
+  }
+}

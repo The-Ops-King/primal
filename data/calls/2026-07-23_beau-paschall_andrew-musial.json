@@ -1,0 +1,135 @@
+{
+  "call_id": "2026-07-23_beau-paschall_andrew-musial",
+  "source": {
+    "drive_file_id": "1s9N04szcx8yzthTP61-ZcAixEfQLdu_I",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/23/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/23/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 53430
+  },
+  "call": {
+    "date": "2026-07-23",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 47,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "medium",
+    "evidence": "Named three times as the source of the pre-call notes: 'I had a chat with Derek, so he kind of walked me through what's been going on in your life', 'I think Derek mentioned to me that like the knowledge is a big deal for you', and 'I think Derek also mentioned to me that you've tried some programs in the past, but eventually you hit a ceiling.' No surname given and the title carries no suffix, so the code is null. NOTE FOR THE CENTRAL ROLLUP: the setter roster records DH as unknown; a setter called Derek is a plausible resolution for that initial and should be checked against other DH-suffixed titles."
+  },
+  "prospect": {
+    "name": "Beau Paschall",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Seattle, Washington, USA — recently relocated from Colorado, and before that San Diego",
+    "age": null,
+    "occupation": "Account and project manager at a SaaS company, fully remote with a flexible schedule and international customers. His employer acquired a Polish image-recognition technology company, Shelfwise, and much of his team is Polish.",
+    "family_status": null,
+    "height_in": 71,
+    "weight_lb": 172,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Spent his twenties on pure bodybuilding-style weight training with no functional work and little walking or running. From around 27-28 shifted to 10,000 steps a day and a bodyweight core of push-ups, pull-ups, dips, squats and legs, supplemented with cables and kettlebells. Trains almost every day, minimum twenty minutes, and describes rest days as something he is bad at. Has a well-equipped gym on the first floor of his building plus a 20lb kettlebell in the apartment. Has not bench pressed in about eighteen months. Snowboards, climbs, and hikes seriously — Olympic National Park at 20 miles a day with full packs, and the W circuit in Patagonia. Uses sauna and cold plunge.",
+    "kettlebell_experience": "some",
+    "medical": "Recurring sharp pain on the outside of the left hip that radiates to the top of the left foot, intermittent and worse without rest days, cause unknown and self-hypothesised as possibly a blood-flow issue. Restricted shoulder range of motion. Reduced forearm and grip strength relative to his climbing history. No other conditions disclosed and none were asked about — no bloodwork, medications or diagnoses were discussed at any point."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Already fit and training daily by choice — 'I made a promise to myself years ago, probably even like 20 years ago, that I'll always be in shape the rest of my life'",
+      "Explicitly buying a ceiling break rather than a rescue: 'it was that last 10 to 20% of just knowledge about what I'm doing and how I'm going about it that I'm just missing. But outside of that, I feel like I have a pretty good foundation'",
+      "Price treated as a non-issue — 'I think 6K is totally doable for me' — and he is debt-free with a credit score around 800",
+      "Wants capability rather than appearance: 'I just want to kind of be ready for anything.' No aesthetic goal was ever stated, which is unusual in this corpus",
+      "Long-horizon framing: 'this is the one that seemed to align the most with kind of where I'm headed, you know, for the next 10, 15, 20 years'"
+    ]
+  },
+  "goals": [
+    { "text": "Be physically ready for anything without having to re-orient his training around each activity", "category": "hobby_performance" },
+    { "text": "Perform better at snowboarding, climbing and long hikes", "category": "hobby_performance" },
+    { "text": "Fix the hips and legs he has neglected for years", "category": "mobility" },
+    { "text": "Improve shoulder range of motion", "category": "mobility" },
+    { "text": "Build grip and forearm strength, both for climbing and because he now understands it tracks with longevity", "category": "strength" },
+    { "text": "Learn to plan and structure his own training rather than winging it", "category": "consistency" },
+    { "text": "Become genuinely expert at kettlebells rather than improvising from Instagram clips", "category": "other" },
+    { "text": "Hold muscle on his legs, which he says sheds off because he walks so much", "category": "muscle_gain" },
+    { "text": "Keep the twenty-year promise to himself to always be in shape, sustainably, for the next 10 to 20 years", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Sharp recurring pain on the outside of the left hip radiating to the top of the left foot, cause unknown", "category": "injury", "severity": "high" },
+    { "text": "Hits a ceiling on every programme and lacks the final 10-20% of knowledge to break through", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Never learned to plan a session — 'I kind of just go in and work on what's like not sore, which I know is like a trainer's worst nightmare to hear'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Retreats from a muscle group entirely when he stops progressing instead of finding the next step", "category": "motivation", "severity": "medium" },
+    { "text": "Restricted shoulder range of motion", "category": "training_barrier", "severity": "medium" },
+    { "text": "Cannot take rest days — feels guilty when not training, works out almost daily", "category": "other", "severity": "medium" },
+    { "text": "Regrets a decade of isolation-only training — 'it's so silly all the time I spent doing that'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Under-eating protein at roughly 100-120g a day on one meal plus a morning smoothie", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Grip and forearm strength has fallen off — 'if I went and climbed today, my forearms would be sore for a week'", "category": "hobby_performance", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Yeah, I think so. And then we could just, yeah, split it up over the course of the six months. Yeah, I think that would be all right.",
+      "timestamp": "00:39:22",
+      "rep_response": "Asked whether he preferred to split or put it on a credit card, then asked directly for his credit score. On hearing 800, steered to third-party financing — named Klarna and Affirm, then recommended Pava spread over 12 months at roughly $600 a month, and sent the application link. Caveated that approval was outside his control.",
+      "response_tactic": "credit_score_qualification_then_third_party_financing_over_12_months",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200, "note": "third-party financed via Pava over 12 months at roughly $600/month — the option the prospect selected" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Rep recommended external consumer financing through Pava spread over 12 months at approximately $600 per month, against a six-month programme. A separate $100 refundable deposit was taken on the call to hold a follow-up slot.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": 800,
+      "note": "The only call in this batch where a financial-picture question was actually asked — 'What's your credit score?' Prospect answered 'Probably, like, 800-something', volunteered that he is debt-free and that lenders keep raising his limits unprompted, and stated '6K is totally doable for me'. No cash-on-hand or monthly surplus was established."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.55,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Clear verbal agreement to proceed: 'Absolutely. Like this is, this is, yeah, that's the reason I finally reached out', 'no, think 6K is totally doable for me', and on the financing route 'Cool. Yeah, let's do that. Let's do that one.'",
+      "Pava financing application link sent on the call",
+      "$100 refundable deposit paid and confirmed live — 'Just submitted the $100' / 'It went through?' / 'Yes, I got that taken care of'",
+      "Follow-up call booked for 11:30am Pacific the same day and the calendar invitation confirmed as received",
+      "MATERIAL COUNTER-EVIDENCE — this close is fragile and the disposition is borderline. The $6,000 was NOT collected. The only money taken was a $100 refundable booking deposit, which is not a purchase",
+      "COUNTER-EVIDENCE: the financing application had not returned when the call ended — 'It hasn't come through yet' — and approval is a genuine third-party contingency the rep explicitly disclaimed: 'I cannot promise that you're going to get approved. It's not dependent from me'",
+      "COUNTER-EVIDENCE: no onboarding call with Trevor was booked, no agreement was sent or signed, and no welcome sequence was triggered. None of P11 completed",
+      "The disposition follows the client-agreed close rule literally — verbal agreement plus a link sent. If the rollup treats a credit application as distinct from a payment link, this should be reclassified as follow_up. Confidence is set at 0.55 to reflect that genuine ambiguity rather than doubt about the prospect's intent, which was high"
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_booking_deposit_only_programme_payment_pending_third_party_financing_approval",
+    "next_step": "Follow-up call with the rep at 11:30am Pacific the same day to confirm Pava approval and complete the purchase, after which onboarding with Trevor would be scheduled. Nominal financed contract value roughly $7,200 over 12 months if approved."
+  },
+  "notable": {
+    "note": "Three things stand out. First, the setter is named — Derek — which is the only named setter in this batch and a candidate resolution for the unidentified DH code in the setter roster. Second, the rep asked a real financial-picture question for the only time in twelve files ('What's your credit score?'), then used the answer to steer a debt-free prospect with an 800 score into a 12-month consumer credit product at roughly $7,200 for a six-month programme, when the prospect had just said $6,000 was 'totally doable'. Third, and most serious, the rep responded to a prospect with undiagnosed radiating left hip and foot pain by telling him his own story of being advised to have a hip replacement and avoiding surgery through kettlebells — 'kettlebells just saved my life' — which functions as an implied clinical claim to exactly the person least able to discount it. The $100 refundable deposit-for-a-calendar-slot appears here for the second time in this batch and was paid this time."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained attribution inversion. Long merged blocks contain both speakers with no boundary — the passage at 00:04:46 runs several minutes of alternating dialogue under a single label, as does the grip-strength and Slavic-squat exchange around 00:17:00 and the whole Poland aside at 00:42:01. Both speakers' lines routinely appear under the other's name; the rep's pillar delivery and the prospect's answers are transposed repeatedly. Roles were read from content throughout and no attribution-dependent claims are recorded. Age could not be established: the exchange at 00:22:42-00:23:01 is garbled and suggests a birthday the following week and an age near 30, but no number is stated cleanly, so the field is left null rather than inferred."
+  }
+}

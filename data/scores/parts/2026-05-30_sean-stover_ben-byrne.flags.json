@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-05-30_sean-stover_ben-byrne",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A whole product tier outside the audited offer was quoted with four mutually inconsistent numbers in a single exchange - $200/month, $199/month, a $389 saving, an annual total of $2,388, an 'annual subscription' of $19.99 and a figure of $289.",
+      "evidence": [
+        "Yeah. So that one's 200 bucks a month. It's kind of like, uh, it's pay as you go.",
+        "we also give people a bit of a discount. Aren't they? I want to do the whole year in advance",
+        "Yeah. So you basically save $389. So it's $199 a month. Yeah. Yeah. So it would be $23.88 for the year. The annual subscription is $19.99. It's $289.",
+        "That still turns out to be, what, 2400 at the end of the year?"
+      ],
+      "timestamp": "00:41:10"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "No payment plan was offered to a prospect with an explicit, temporary and quantified cashflow constraint, four days after the same rep improvised a deposit and instalment plan for a prospect who had not asked for one.",
+      "evidence": [
+        "I'm not at the spot where I'm going to do the $6,000 or the $9,000 right now. I'm paying back some student loans and I need to focus on writing that out to the end of that.",
+        "Yeah, man. Yeah, I can just send you the link. We, I mean, if you just want to do it for two months, totally fine.",
+        "I might try to circle back around at some point and be like, let's freaking do it, man. I've got this, I've got the money now."
+      ],
+      "timestamp": "00:38:53"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The flagship guarantee was stated as an eight-kilogram gain in a sentence that was never completed, then converted to pounds incorrectly, leaving the prospect with a wrong figure for what is guaranteed.",
+      "evidence": [
+        "I guess the guarantee with our, like our flagship program is, is that over the six months, you also put on at eight kilograms. So all of your lifts.",
+        "So that'd be like going up from a 25 to a 35 kind of, or let's see, that'd be like, No, that would be 16 pounds.",
+        "I think eight kilograms is, what is it? 2.2. it's about 16. It's just times two."
+      ],
+      "timestamp": "00:42:33"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep supplied the prospect with a reason not to buy based on his occupation and earning ceiling, after the prospect had already declined.",
+      "evidence": [
+        "obviously the gym teacher's salary, it's not like if you're a business owner, you might be able to justify to yourself. Oh, if I'm feeling better and better shape, then I'll have more energy for my business and I can make more money. But I mean, you get paid what you get paid regardless.",
+        "No, I'm an, I'm an English teacher."
+      ],
+      "timestamp": "00:45:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep argued the prospect's own case for the cheaper competing option before the offer had been presented or priced.",
+      "evidence": [
+        "Well, I mean, I can guarantee you a weighted vest is cheaper.",
+        "if you're going to tell me like, yeah, I could do it. really just depends on the cost of like, well, to me, I mean, it just probably makes more sense to just continue doing the calisthenics, just get the weighted vest and just amp that up",
+        "it just doesn't seem like there's a, you know, like a, really like a burning desire, like a burning, like a, or a problem where it's like, we can specifically only solve that."
+      ],
+      "timestamp": "00:20:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure or consent to record appears anywhere in the transcript, which opens with the recording already running.",
+      "evidence": [
+        "Hey, Sean. Hey.",
+        "How you doing? I'm doing good."
+      ],
+      "timestamp": "00:00:02"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization repeatedly appends rep questions to the end of prospect turns, so a large share of the rep's discovery questions are attributed to the prospect in this file.",
+      "evidence": [
+        "So I kind of get, get, get, get it going with the legs, but that's not the same as doing strength training with the legs. So it's okay. It's kind of, you know, just kind of mix it up. Yeah. Is it more about just balancing out your physique right now and building muscles?",
+        "you know, and I would, I would be open to that. Like. What, like, where are you looking to build muscle at on your body?",
+        "you know, and I've, so, well, I mean, you definitely could do that, you know, I could, yeah, it's probably a lot cheaper"
+      ],
+      "timestamp": "00:07:55"
+    }
+  ]
+}

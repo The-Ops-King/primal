@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-06-30_carl-fiorentino_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A 69-year-old prospect characterised medical advice against heavy lifting as 'all false information' and the rep affirmed and reinforced it instead of screening.",
+      "evidence": [
+        "the doctors tell them, hey, don't lift heavy, be careful with your joints, and it's all false information, right? Because your body adjusts to what you do.",
+        "You're the best evidence of that, that you've been working out whole life, and look at you.",
+        "I mean, I'm 69 years old, so you know, how much can I?"
+      ],
+      "timestamp": "00:07:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 69-year-old was moved toward loaded ballistic kettlebell work with no health-condition question asked and no clinician clearance raised, on a call where he had just dismissed medical caution about lifting.",
+      "evidence": [
+        "Do you feel any stiffness or any injuries that you have from the past that are arising right now? Nothing at all? Nothing really bothers me.",
+        "kettlebells are the best to support fat loss",
+        "with kettlebells, each workout, you're going to be working as a unit. So you're going to work with your whole body. You're going to work also on strength, conditioning, and mobility in each and every workout."
+      ],
+      "timestamp": "00:04:01"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A monthly option of $1,200 was quoted, which is neither published tier and reconciles to $7,200 over six months without the total ever being stated.",
+      "evidence": [
+        "Trevor is going to be working with you for six months, that's the full transformation. And the investment for that is 6K.",
+        "If you want to pay for monthly, that's going to be $1,200. So it's going to be a little more."
+      ],
+      "timestamp": "00:19:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect twice restated the price as a monthly figure and the rep never corrected him, leaving the call on a materially wrong understanding of what he would pay.",
+      "evidence": [
+        "No, I'm just saying it's $6,000 a month, basically.",
+        "Bye $1,000 a month is my big deal."
+      ],
+      "timestamp": "00:19:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts whole passages in this transcript, including the exchange containing the clinical-risk evidence, so line-level speaker attribution here is unreliable.",
+      "evidence": [
+        "00:01:56 - Carl Fiorentino ... so so so carl walk me through like uh what brought you to us",
+        "00:06:15 - Carl Fiorentino ... How do you do that? I think mostly genetics, but you know, I really take care of myself. Is your dad still alive?"
+      ],
+      "timestamp": "00:01:56"
+    }
+  ]
+}

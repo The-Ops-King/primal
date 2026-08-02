@@ -1,0 +1,101 @@
+{
+  "call_id": "2026-06-17_unknown-prospect_richard-claessen",
+  "source": {
+    "drive_file_id": "1ZIG_hekZYd5E3pb-nuyWr4cDuQtVGbpL",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/17/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/17/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 19136
+  },
+  "call": {
+    "date": "2026-06-17",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 17,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": null,
+    "aka": "iPhone (6)",
+    "name_source": null,
+    "location": "United States",
+    "age": 45,
+    "occupation": "Not currently working — lost her job",
+    "family_status": "Lives with family; both parents died",
+    "height_in": 64,
+    "weight_lb": 215,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former US Navy sailor. Has held a gym membership for years but trains without any plan and inconsistently.",
+    "kettlebell_experience": "none",
+    "medical": "No diagnosed condition disclosed. Reports doctors advising her to build muscle because of age-related muscle loss and bone protection. Menstruating."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.75,
+    "signals": [
+      "'I lost people from, you know, my parents died. Everyone was getting sick left and right. I lost my job, all that stuff.'",
+      "'Finally, I could breathe and then make a decision. must have some changes, I guess, to get better, to get my life back.'",
+      "Former Navy sailor: 'I knew what needs to get done' — wants a prior version of herself back"
+    ]
+  },
+  "goals": [
+    { "text": "Build and retain muscle mass because women lose it with age", "category": "muscle_gain" },
+    { "text": "Protect her bones so she does not break anything, and live longer", "category": "longevity_function" },
+    { "text": "Get to a bodyweight between 130 and 150 lb at 5'4\"", "category": "fat_loss" },
+    { "text": "Regain the discipline she had when she was younger", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Has gained a lot of weight over the years and lost the discipline she used to have", "category": "consistency", "severity": "high" },
+    { "text": "Bereavement and job loss took over her life and pushed training aside", "category": "emotional", "severity": "high" },
+    { "text": "Goes to the gym but follows no plan or programme", "category": "training_barrier", "severity": "medium" },
+    { "text": "Paid thousands of dollars to Instagram programmes that handed her a video library and disappeared", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Does not know whether her form is correct — worries about doing a swing wrong", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I see a lot of programs that I see on Instagram. I did sign up for like a few things. They're like, I'll sign up and we'll help you with that. So after I paid thousands of dollars, , they're gone. They're like, okay, here. Here's the website. Watch all these videos and figure it out yourself. I'm like, okay, amazing. Some people are just out there for money.",
+      "timestamp": "00:11:13",
+      "rep_response": "Reflected it back as a need for one-to-one guidance and agreed that videos alone do not produce results, but never addressed the trust concern or offered any proof.",
+      "response_tactic": "reflect_and_differentiate",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep terminated discovery early because of the prospect's environment: 'it's going to be very hard for me to show my screen and completely hear everything that you're saying, because here and there, you're calling out a lot. So I would say, let's just continue this conversation tomorrow'",
+      "Prospect agreed to the same time the next day from a quiet space: 'Yeah, I'll be home.'",
+      "No offer, price or programme structure was presented at any point",
+      "Counter-evidence on intent: prospect was eating breakfast, on a phone, with family interrupting, and at one point asked 'what is it that you want me to answer... You're not gonna approve me or something?'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rescheduled call the following day at the same time from a quiet space; rep to send a new calendar invite and a WhatsApp message."
+  },
+  "notable": {
+    "note": "Call was abandoned roughly 17 minutes in because of background noise and the prospect eating; the substance of this opportunity therefore sits in a second recording that is not in this batch. The prospect is 5'4\" and 215 lb — squarely inside the exclusion the stated ICP uses to define itself — and the rep told her 'it sounds like it's a good fit.' Rep also offered to message her from his personal number."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained label inversion. Many rep questions are attributed to 'iPhone (6)' and several prospect answers to the rep — e.g. the framing statement at 00:00:52 and the discovery question at 00:09:03 are both labelled as the prospect. Role was resolved from content throughout."
+  }
+}

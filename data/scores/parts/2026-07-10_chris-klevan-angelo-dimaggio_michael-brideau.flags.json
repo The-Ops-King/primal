@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-07-10_chris-klevan-angelo-dimaggio_michael-brideau",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Lead disposition in the CRM depends on a rep manually changing a status, cancelled calls are pooled into the no-show list, and leads not cleared by hand reappear in the next day's dialling list.",
+      "evidence": [
+        "This guy answered and he's like, I answered and he's basically like, wow, not interested. So, how do I, because what I understand is it'll take him off of this list, but he's going to pop up again tomorrow. So, how do I just take him so he's not actually in this list?",
+        "Why would he be in the no-show list if you mark him? Well, technically he canceled the sales call. That's why he's in there.",
+        "Oh, then can you move them to like DQ? Yeah, go back to the lead. So just change the status of it.",
+        "And then just turn it to, just put it in lost, yeah.",
+        "Yeah, just update that status. That'll be an easy way to do it. And then I'll make sure that no, nobody with that status is in this list."
+      ],
+      "timestamp": "00:11:28"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An automated agent that contacts leads is acknowledged by both the manager and the operations lead to be damaging more prospects than it helps, and the decision was to keep it running and send feedback to the vendor.",
+      "evidence": [
+        "I know a team that was using it, and they actually shut it off, because they were like, this is burning more people than it's helping.",
+        "Yeah, I've had a couple people say that.",
+        "I just want to keep, anytime we see some weird wonkiness going on with the LNS, I just want to keep sending the feedback, because my hope is that a lot of teams are sending them this feedback, and that they're working on it to try and fix it",
+        "there are moments where I watch it, and I'm like, this is pretty good. And then there's moments where I'm like, what happened here? What is even going on?",
+        "I think the LNS is very like, subpar, at best."
+      ],
+      "timestamp": "00:20:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A commission-only closer told management he had nothing in his bank account while continuing to take live sales calls, and the response was mindset coaching rather than any change to his caseload or oversight.",
+      "evidence": [
+        "Well, , I mean, let's make that one sooner. Because I'm looking at my bank account right now, and I'm stressed. tell you that.",
+        "it is just, like, it literally is stressful right now where it's like, bro, I'm, I'm like, this, I think is the legit, the tightest I've ever been financially where I'm like, what the ?",
+        "I got $0 in my bank.",
+        "Yeah, the only thing that's going to, that's the only thing that's going to knock you off is yourself. So just continue to keep grounding yourself every single day.",
+        "Okay. That's, that's a part of it. I understand that's where the pressure is coming from. Like, I get that. And that's real."
+      ],
+      "timestamp": "00:05:05"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Recorded prospect sales calls are being processed through AI analysis tooling, and a management assessment of a rep's call was formed partly from the machine summary rather than the recording.",
+      "evidence": [
+        "I mean, I didn't look through the discovery, but based off. What I saw in the summary, I had an AI analysis of it, and I listened to the end",
+        "it didn't seem like there was much intent there, and it seemed like you kind of knew it, and you were trying to build intent",
+        "Does anybody have issues with Fathom today, or it's only me?"
+      ],
+      "timestamp": "00:06:57"
+    }
+  ]
+}

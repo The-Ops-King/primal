@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-11_steven-silbert_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The only prospect in this batch to interrogate the mechanics. Played the delivery back to check he had it — 'so it's kettlebells three to four times a week, mobility before bed. How long are the mobility sessions usually?' — reacted to the answer ('Five to 10 minutes.' / 'Oh, that's nothing.') and then pinned down the feedback loop: 'so film myself for 10 minutes per week... just kind of like a general overview of like some of the exercises I'm doing and stuff like that?' Understanding-seeking rather than resistance; he already knew the modality."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed easily because it matched what he already does — asked about fasting he answered 'Yeah, I do. Yeah, on occasion... I've been waking up earlier, so I do, like, an earlier window' and 'Prolonged fast at least once or twice a month.' Notable that the pillar was pitched to him as an add-on — 'it's not the meat and potatoes of the program, so to say' — when nutrition calibration was one of the two specific things he had asked for in his opening answer."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Tied it straight to his own diagnosis and closed the loop himself: 'Yeah, no, it's kind of what I was hoping for' and then, when asked whether the three pillars matched the need, 'I think this is what I needed, really. Like, I needed the in-depth kettlebell feedback, and then 1-on-1 and also community support. That's all I need, I think.' He had opened the call saying he abandons plans he writes himself, so external accountability was the pillar he came for."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "when I hurt my back, they were sending me to the hospital at Walter Reed and they just gave me a handout with like three different exercises. And nothing worked. And I went to, uh, I paid $350 for a personal, uh, physical therapist that I heard about. And he helped me and then he introduced me to foundation training.",
+      "direction": "undercuts_price",
+      "competitor": "Independent physical therapist / Foundation Training",
+      "note": "The most dangerous anchor on the call and it went unaddressed. A $350 private intervention is the thing that actually fixed the injury that derailed him, and it worked where the institutional option failed. It sets his reference price for expert physical help at three figures, and it is the story he will tell Hannah when she asks what $6,000 buys that $350 did not."
+    },
+    {
+      "type": "household_decision_threshold",
+      "raw": "She's more stringent on the strings, on the first strings... Because the first two, it's like $100, $200. And then like close to $1,000, it's like, okay, it's going to be a much longer conversation.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "An explicit household rule: purchases approaching $1,000 trigger a long joint conversation. The offer is six to nine times that threshold. The rep responded by finding a product just above the threshold rather than by mapping the household's actual capacity."
+    },
+    {
+      "type": "prior_joint_purchase",
+      "raw": "We have for like a bathroom remodel. Okay. But nothing like personal training.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The rep surfaced a precedent for a large joint spend, established it was a mutual decision, and then did not use it. 'Nothing like personal training' is the real objection underneath — the category, not the amount, is what is unfamiliar to the household."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "I have a lot of information, and I've successfully put it together to get healthy before, but, I mean, the experience speaks for itself. I'm still overweight.",
+      "direction": "supports_price",
+      "competitor": "Self-directed research — Primal Blueprint, Pavel's Simple & Sinister, YouTube, ChatGPT",
+      "note": "He disqualified the free option himself, on the record, in response to the rep's question. Seventeen years of owning the information and still overweight is the strongest value argument available on this call, and it was never brought back when price landed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Something concrete his fiancée can evaluate before a four-to-nine-thousand-dollar joint decision — 'that way she can actually see what you're getting into, and it's tangible'",
+      "why_unmet": "There is no partner-facing material, no demo, no sanctioned trial and no structured way to bring a spouse into the decision. The rep filled the gap by improvising a $1,200 month, a buyer-priced refundable deposit, and an offer to email him a script for the conversation.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Calibration of food to training load — 'what level of exercise warrants what amount of food', 'how many carbs is too many carbs? How do I track?'",
+      "why_unmet": "He named this in his first answer as one of two reasons for the call. The nutrition pillar was then delivered as food groups, supplementation and fasting, prefaced with 'it's not really the meat and potatoes of the program'. Trevor's custom protocol probably does address it, but nobody connected the pillar to the question he actually asked.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Warm-up and recovery programming — 'warm-ups and recovery or something I'm not that great at. That's something I could be better about'",
+      "why_unmet": "Volunteered when the rep asked what support he needed beyond accountability, and then never mentioned again. The mobility programme may well cover it; it was never said.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

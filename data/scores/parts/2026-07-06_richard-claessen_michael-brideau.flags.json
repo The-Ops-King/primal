@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-07-06_richard-claessen_michael-brideau",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A two-payment structure of $3,000 each was practised as the standard interest-free split, a price arrangement outside the $6,000/6mo and $9,000/12mo list, and it went uncorrected in the debrief.",
+      "evidence": [
+        "For what I'm hearing, honestly, I feel like it's best for you if you just split it up into two, because otherwise it would add interest.",
+        "So if we split up into two, so two times 3,000, then it would stay the exact same. How does that sound? Do you feel like that is something you would personally feel like would be reasonable for you?",
+        "So for what I'm hearing, it sounds like we just need to split it up and then from on there, that would, that would be workable, right?"
+      ],
+      "timestamp": "00:12:01"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Reps rehearsed a standard instalment structure between themselves hours before the manager scripted them to tell prospects that no set payment plans exist.",
+      "evidence": [
+        "So if we split up into two, so two times 3,000, then it would stay the exact same.",
+        "I feel like it's best for you if you just split it up into two, because otherwise it would add interest.",
+        "So look, everything we do is custom. We don't have any sort of set payment plans at all. It just really depends on what we can make work with the person."
+      ],
+      "timestamp": "00:12:15"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Interest on the longer payment plans was acknowledged only as a reason to avoid them, with no rate, total or terms stated anywhere in the practised script.",
+      "evidence": [
+        "because otherwise it would add interest. And from what I'm hearing, it doesn't sound like you're really someone who would want to pay interest. Is that correct?",
+        "Yeah, that's correct. Yeah.",
+        "so two times 3,000, then it would stay the exact same"
+      ],
+      "timestamp": "00:12:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Reps coached each other on a play designed to talk a prospect out of consulting their spouse about a $6,000 purchase, including using the prospect's body as the source of leverage.",
+      "evidence": [
+        "You can also just put the responsibility of him being fat on him, right? Like, you don't even have to put on work.",
+        "in regards to results of your health up to this point, because we're not in great shape over the last 5 years, like, was that on you? Yeah. Okay, and your wife hasn't been involved in you not doing the work.",
+        "So with all due respect to your wife, man, and, like, you know, I have a partner myself. Why do you think it's fair for you to actually go to her and ask her to make a decision on something that... She's never really been involved with it.",
+        "what's the decision that he makes right here and right now? And it's probably not, go and ask his wife.",
+        "why don't we just, you know, respectfully, like, keep the wife out and we can just talk about, you know, the finances"
+      ],
+      "timestamp": "00:20:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The CRM close rate counts disqualified calls as taken calls, so the denominator reps and management report from is known to be wrong.",
+      "evidence": [
+        "So, what my close rate is? I've got no idea because close rate in... In my opinion, this close rate in sales kick in Piff Perfect doesn't really make sense because it doesn't count disqualifies.",
+        "Because it looks at what you're taking causes and what the... And if you have a disqualified, it's still a taken call.",
+        "Only thing I've got that's going for me at the moment is a higher show rate, but that's about it."
+      ],
+      "timestamp": "00:02:45"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Sales call recordings are routed automatically into an internal sales channel, which reps are aware of and which one says is affecting his performance; the recording ends within seconds of him raising it.",
+      "evidence": [
+        "It's annoying that these recordings go directly back into the sales channel.",
+        "Yeah. Usually, I'm always able to sort of just pick things out of air, but I don't know what it is, mate, but since yesterday, I've been so in my head, bro.",
+        "Hold Hold up. up. Hold up. up. up. up. up. Thank you. There you go. What's coming up for you,"
+      ],
+      "timestamp": "00:23:34"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A $200/month downsell was described as the intended path for a live prospect that day.",
+      "evidence": [
+        "he would also be willing to pay 200 a month, because this one was going for a down sell"
+      ],
+      "timestamp": "00:04:24"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording terminates mid-sentence immediately after a rep raises where the recordings are being sent, so the remainder of the exchange is not observable.",
+      "evidence": [
+        "Hold Hold up. up. Hold up. up. up. up. up. Thank you. There you go. What's coming up for you,"
+      ],
+      "timestamp": "00:23:39"
+    }
+  ]
+}

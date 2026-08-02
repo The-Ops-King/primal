@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-22_daniel-borunda_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Asked a run of mechanical questions to understand the shape of it - 'how long are the workouts 30, 40 minutes', 'this mobility routine is right before these workouts', 'so for those other three to four days is, I mean, it's just the mobility stretching' - and then landed on 'It seems very doable.' Understood and satisfied, but bought on feasibility rather than on desire."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The longest pillar delivery on the call, tied to his own fasting practice, and the entire reaction was 'Yeah, sounds all practical.' No questions, no enthusiasm, no objection."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Asked the one substantive product question of the call - 'How many different, I mean, how many different types of workouts does he have?' - and the rep could not answer it: 'I seriously don't have an answer because there's a whole bunch... To be honest, I'm not even sure about what the number is.' The prospect supplied the number himself ('Like 50 or 100 or something like that?') and the rep agreed. Later, asked to commit, he came back to exactly this: 'I can't necessarily see it just yet until you guys show me the details on it.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "One-on-one trainings, coaching programs are around $129 to $199 a month. So that's what I kind of thought you guys were at.",
+      "direction": "undercuts_price",
+      "competitor": "an unnamed YouTube coach he has followed for years, plus a second unidentified programme",
+      "note": "The decisive anchor. He expected roughly $1,200 for a year and heard $6,000 for six months - a factor of ten. He trusts the competitor on years of free content, which is the same mechanism that brought him to Primal."
+    },
+    {
+      "type": "recent_competing_purchase",
+      "raw": "so I spent 6k, um, to purchase a, an AI automation, um, course, and I'm probably a week two in it into it right now",
+      "direction": "undercuts_price",
+      "competitor": "an AI automation course",
+      "note": "He spent exactly the offer price on a different self-improvement product two weeks earlier, and it cost him two months of extra work to fund. Proof of willingness to pay this amount, and proof that the wallet for it is currently empty. Both facts were sitting in the setter call material and nobody surfaced them before the price was named."
+    },
+    {
+      "type": "rep_stated_market_rate",
+      "raw": "It's usually around $3,000 for six months, $3,000, $4,000, something like that.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep positioned the kettlebell-coaching market at $3,000-$4,000 for six months to argue the competitor's $199/month could not be genuine one-to-one. The side effect is that he told the prospect Primal is priced at roughly double the market, immediately after disclosing that Primal itself has a $3,000 version."
+    },
+    {
+      "type": "owned_equipment_and_gym",
+      "raw": "I have access to a gym, I paid 100 bucks a month for a gym, so I have access to it",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He already owns two kettlebells, 70 lb adjustable Powerblocks, a weight bench, a self-built automated cold tub, a sauna and a flow rope, and pays $100 a month for a gym. The equipment barrier is zero, which removes one of the usual justifications for the price."
+    },
+    {
+      "type": "established_spend_on_self_optimisation",
+      "raw": "Supplementation, I'm using that on a regular basis. I tried so many different things as a... My own guinea pig type of thing with research... from peptides to NMN and NR, stuff like that.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He habitually spends real money on health optimisation - peptides, research compounds, a custom automated cold tub, contrast therapy - and on knowledge. The category spend is established; only the timing is wrong."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Concrete detail before committing - what the workouts actually are, how many there are, what the programme looks like. He said so plainly when asked to commit: 'I can't necessarily see it just yet until you guys show me the details on it.'",
+      "why_unmet": "Nothing is ever shown on these calls, and when he asked the one specific question about the movement library the rep did not know the answer. A prospect who bought a $6,000 course two weeks earlier is used to seeing a curriculum before paying.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "As many science-backed tools for losing weight as he has for gaining it - he frames his gap as missing knowledge, not missing accountability",
+      "why_unmet": "The programme does teach the why and the how, and the lifelong-success pillar is squarely aimed at this, but nobody connected the pillar to his framing. Instead the rep agreed with the tools framing, which made a cheap information product a rational alternative.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To keep gaining muscle mass while losing fat, with enough load available to keep progressing - he specifically worried about weight ceilings: 'you need to go more than 50 pounds and every gym doesn't go past 50'",
+      "why_unmet": "Whether kettlebell programming can carry a 42-year-old's hypertrophy and bone-density goals alongside fat loss was never addressed, and he raised it as the criterion on which he would compare Primal against the alternative.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

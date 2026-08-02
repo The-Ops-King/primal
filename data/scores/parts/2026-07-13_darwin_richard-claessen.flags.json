@@ -1,0 +1,24 @@
+{
+  "call_id": "2026-07-13_darwin_richard-claessen",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording is truncated at 2,969 bytes and terminates mid-sentence exactly as the prospect asks for the price, so the outcome of this call and any answer given is absent from the corpus.",
+      "evidence": [
+        "before we continue, because I don't want to waste your time either, in case, you know, we do proceed with this, is the price, like, I want to know whether or not this fits in my budget, because I know that there will be"
+      ],
+      "timestamp": "00:01:57"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The call ran for roughly ninety seconds while the prospect was actively driving before the rep noticed and ended it; the prospect had to pull over mid-conversation.",
+      "evidence": [
+        "I just cannot see you just yet. Give me one moment, because I'm driving at the moment. Give me two seconds. Let me make a quick stop.",
+        "because you're driving, like we never want to put someone in danger. So I would say it's best if we just reschedule for a time where you can be at home"
+      ],
+      "timestamp": "00:00:25"
+    }
+  ]
+}

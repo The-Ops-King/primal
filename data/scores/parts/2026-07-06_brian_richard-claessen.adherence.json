@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-06_brian_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "miss",
+      "checks": { "P1a": "miss", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "The first two minutes were spent trying to move the meeting rather than opening it — 'What's the reason you need me on camera?' / 'we don't usually take calls when people are in the car' / 'Do you have the same time available this Friday?' — against a prospect who had already been rescheduled once by the rep's own double booking and said 'I'm doing the best I can to squeeze this in right now.' No application readback, no frame, no agreement. The scripted open question did land cleanly once he moved on: 'tell me, what can we actually potentially help you with, Brian?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The injuries check was the best-run item on the call and got a clean, explicit answer: 'any injuries, mobility things that come up, those sort of things?' → 'No, I don't have any injuries... no limitations.' Weight and height were both asked and captured (190 lb, 5'10\"), age never. Diet was asked and then usefully pushed — 'what's clean for you?' and 'take me quickly to a normal day' — though the prospect deflected the second one. Training time was asked ('How much time do you actually have to work out?') but current days trained never was. Nothing on work type, health conditions, sleep or energy."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "miss", "P3d": "hit", "P3e": "hit", "P3f": "miss", "P3g": "partial", "P3h": "hit" },
+      "evidence": "The bridge was asked properly and it worked: 'a lot of times the physical is driven by the mental. So is there something that you're trying to improve on in the sort of the mental field for yourself as well? Or is there a bigger why?' produced the deepest line on the call — 'I want my physical body to match the levels that I've attained on the other side of the fence. I want to feel better in my body.' The reflect-back was clean and the prospect corrected and extended it himself ('I want to be stronger. I want more stamina'). But it stopped there. Nobody was asked who else this impacts — no family member is mentioned anywhere in thirty minutes — and longevity was supplied by the prospect ('I want to be able to move into my eighties') rather than driven to."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "miss", "P4d": "partial", "P4e": "hit", "P4f": "miss" },
+      "evidence": "Past attempts and what happened were both run — 'How long have you been [doing] those things for?' → 'On and off for two years' — and the prospect named the gap himself: 'that's where I get confused on the programming.' The decisive miss is P4c and P4f. The prospect said 'either I don't stick to it, or it doesn't feel like I'm making progress and I get discouraged', which contains two different root causes, and the rep accepted the prospect's own diagnosis — programming — without ever asking why it didn't stick. The one probe in the right direction, 'are you looking for someone to actually be in your corner and constantly be available for you? Or do you just want to have something that you can follow?', got 'the coaching would be good' and was not developed."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "partial", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "One glancing attempt — 'what got you to now want to look into having a coach instead of continuing on the same path for the next few months?' — which is a trigger question, not a cost-of-inaction question, and it returned a feature answer about wanting to add load. Nothing on where he is in two years, nothing on whether he would settle, no line in the sand. A man who had just described two years of circling was given no reason at all that this week is different from the last hundred, which is precisely why he was comfortable leaving to take three more calls."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "miss" },
+      "evidence": "The only pre-price commitment question was a fit check, not a belief check: 'do you feel like this is something you see yourself doing just based on what I've just told you?' The answer was explicitly conditional — 'It sounds like he can offer what I'm looking for. So yeah, I am interested' — and 'I am interested' was treated as a yes. The all-in question was never asked, and the script's instruction to return to Phase 5 on hesitation was not followed."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "A close was attempted — 'Where do we go from here?... do you feel like, yeah, Richard, let's just get started or what's your thoughts?' — so the phase applies and nothing in it ran. No payment, no deposit offered, no Trevor call booked, no agreement, no welcome sequence. The prospect left with no calendar entry of any kind; the entire next step depends on him choosing to text."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The deferral is a comparison shop rather than a stall, but the OA machinery still applies and the rep started it well — he split the decision into objective and subjective halves and won the objective half outright: 'do you feel like this does cross all of the points on your list?' → 'It does. Yes.' That is the strongest card on the call and he put it straight back down. None of 'thinking isn't the problem, deciding is', none of 'when do you make a different decision', none of 'that man you want to be, how does HE decide right now', and no final are-you-sure. He asked the feel question, was told the call had been awkward, agreed with the prospect, and accepted the timeline."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, and a new one for the playbook's list: a live competitive bake-off. 'I've got four of these calls scheduled, and I'm considering one more, and I'm trying to understand what the differences in the programs are.' The prospect asked what makes Primal different three separate times and never got a differentiator — he got the standard three-pillar walkthrough and concluded 'it's pretty much par for the course.' There is no scripted path for a buyer running a structured evaluation, and the one piece of intelligence he handed over for free — that the previous provider lost him on arrogance, not on substance — was acknowledged and never used."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Second script gap: a price expectation set by the company's own automated texting before the call. 'Why was I told that it was between two and four?' There is no play for reconciling a pre-call price anchor the rep did not set and cannot see. The improvised response made it worse — it disclosed a $2,000 do-it-yourself tier and a $4,000 three-month tier that had not been part of the conversation, drawing 'So there were other options available. You just went right at the six. I get it.'"
+    }
+  ],
+  "notes": "The best-qualified prospect in the batch, handled at the level of the worst. Front half was competent — the open question, the injuries check, the diet probe, the mental bridge and the reflect-back all landed. Then Phase 5 and Phase 6 were skipped entirely, so price arrived with no urgency behind it and on a conditional 'I am interested'. Three specific fixes: run the consequence frame on a man who has just told you he has been going in circles for two years; when a prospect confirms you meet every criterion on his written list, close on that sentence instead of moving to the feel question; and when a prospect twice gives you direct feedback that the conversation is not working, reset the call rather than agreeing with him. Note also that the rep's own pre-call handling created two of the obstacles — a double booking forced the reschedule, and a $6,000 price landed against a company text saying two to four."
+}

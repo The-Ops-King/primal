@@ -1,0 +1,127 @@
+{
+  "call_id": "2026-06-04_usman-khan_ben-byrne",
+  "source": {
+    "drive_file_id": "1AJ-E4PhqIpNhLoncTScjcc8BauISGXrQ",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/04/2026 - Usman Khan x Ben Byrne KFS ",
+    "display_title": "06/04/2026 - Usman Khan x Ben Byrne KFS  — Follow Up",
+    "file_size_bytes": 37998
+  },
+  "call": {
+    "date": "2026-06-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 44,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I got a, you know, a few notes from, looks like you spoke to Kim earlier, right?' Prospect: 'Yeah.'"
+  },
+  "prospect": {
+    "name": "Usman Khan",
+    "aka": null,
+    "name_source": "title",
+    "location": "Southern England, UK",
+    "age": 30,
+    "occupation": "One main job plus two side jobs, and founder of a neglected startup in Pakistan; holds a PhD",
+    "family_status": "Married with two toddlers; one child was ill during the call",
+    "height_in": null,
+    "weight_lb": 172,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Consistently trained roughly three years ago (2020-2022) with a personal trainer at a calisthenics gym next to his PhD campus — kettlebells, gymnastic rings, handstands and mace work, swinging a 10 kg mace. Since then a repeated cycle of a month on and several months off. Restarted ten days before the call with bodyweight only: about 100 push-ups, 100 squats and 20-30 chin-ups spread across the day in five-minute blocks. Bought a pull-up bar; owns no kettlebell or mace.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Lost ground over a hard multi-year season — PhD completion, unemployment, job hunting, then three jobs and two toddlers: 'finishing my PhD was super stressful... finding a good job was super stressful'",
+      "Wants a former self back, explicitly benchmarked: was 67-68 kg of 'the good kind of weight', now 77-78 kg of 'definitely not the good kind'",
+      "Visible regret about the cost to his family: 'they definitely don't get what they deserve from me as an individual... I'm not giving them my best self'",
+      "Not the_preserver or the_optimizer — he is 30, not medically managed, and is trying to recover lost ground rather than protect or extend a good position"
+    ]
+  },
+  "goals": [
+    { "text": "Get his energy back — stop being tired five minutes into playing with his toddlers", "category": "energy_performance" },
+    { "text": "Lose the belly fat he has gained, from 78 kg back toward roughly 70 kg, while adding muscle", "category": "fat_loss" },
+    { "text": "Build muscle and feel strong again", "category": "muscle_gain" },
+    { "text": "Train without having to think about it — 'what I would ideally like is to be able to do it without thinking about it'", "category": "convenience" },
+    { "text": "Show up as the best version of himself for his wife, kids and friends", "category": "family_role_model" },
+    { "text": "Regain mental clarity and a more positive outlook, which he associates with being active", "category": "energy_performance" },
+    { "text": "Stay in one place, get into a routine and finally be consistent — 'something like this would actually help me ground myself'", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Chronically low energy and tiring quickly, dating back roughly three years", "category": "other", "severity": "high" },
+    { "text": "No mental bandwidth left to plan or evaluate his own training — 'brain capacity is the main issue. I don't want to have to think'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Repeated start-stop cycle: 'I've just always tried to get into things probably a month and then fall off. And then after a few months, try again, fall off'", "category": "consistency", "severity": "high" },
+    { "text": "Becoming snappy and irritable with his family and focusing on the negatives", "category": "emotional", "severity": "high" },
+    { "text": "Relationships at home are not what they should be — 'nothing's bad, but it's not what it should be'", "category": "relationship", "severity": "medium" },
+    { "text": "Overloaded across one main job, two side jobs, a startup and two toddlers — 'I suck at juggling them all'", "category": "work_stress", "severity": "high" },
+    { "text": "Overthinks whether his form and volume are correct, which stalls him — 'am I doing enough? Is it too little, too much? Is it the right form?'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Dislikes gyms and has never been able to stay consistent in one", "category": "training_barrier", "severity": "medium" },
+    { "text": "Can no longer afford the trainer who worked for him", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It's probably three months. But yeah, like I said, I'd probably just need to weigh things up.",
+      "timestamp": "00:42:17",
+      "rep_response": "Asked what needed weighing up, got 'finances, primarily', ran the isolate question 'aside from the money, is there anything else?', got a clean no, then offered only 'we can see if we can figure out a plan that would work for you' and let the prospect leave. No financial picture was taken.",
+      "response_tactic": "isolate_then_abandon",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "this is something that I'd love to take away and assess",
+      "timestamp": "00:41:05",
+      "rep_response": "Agreed to send a written summary on WhatsApp and confirmed his number; ran none of the think-about-it play",
+      "response_tactic": "accepted_deferral_and_sent_summary",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No structure given. Rep said only 'a lot of our clients [pay] in full... some people aren't able to do that. So, I mean, we can really split it up, assuming it's something that you want to do'. No number of instalments, no amounts, no interest discussed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect asked to take it away: 'this is something that I'd love to take away and assess. But yeah, cool. Is it okay if you just send me a summary on a message?'",
+      "No payment taken and no payment link mentioned",
+      "Counter-evidence of intent: 'it sounds good. It sounds like what I need, for sure' and 'I would want to start immediately'; only blocker named was money",
+      "Prospect indicated the cheapest tier: 'It's probably three months'",
+      "Rep's own audible post-call assessment after the prospect dropped: 'Ah, what could I have done differently on that one? Well, definitely could have open-walleted.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a written summary of the options on WhatsApp; prospect to sleep on it and come back with questions. No date and no follow-up call booked."
+  },
+  "notable": {
+    "note": "Second consecutive call in which the rep presents a $4,000 three-month tier alongside the documented $6,000 and $9,000 offers — and here he presents it as a standard option rather than a concession, which immediately pulled the prospect to the cheapest tier. The prospect stated he owns no kettlebell or mace and equipment cost was never mentioned. The rep ran no health, injury, sleep or diet questions in a 44-minute call while the prospect described three years of unexplained fatigue, and then offered a physiological explanation for that fatigue himself. The rep's own closing remark to an empty room confirms he knew he had skipped the money play."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversions on short turns and several long ones. At 00:05:00 a long prospect answer runs under the rep's label; at 00:24:14-00:28:26 whole blocks are inverted, including the rep's option-ladder explanation appearing under the prospect's label and the prospect's Pakistan travel plan appearing under the rep's. Role read from content throughout."
+  }
+}

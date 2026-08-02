@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-20_julie-lucas_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "She tied it straight to her own dissatisfaction — the rep contrasted kettlebells with 'lunking loads of 45 pound plates on a bar' and she cut in with 'And that's what I feel like he has me doing. Like, that's what I feel like I'm doing. I don't like that.' She then volunteered what pulled her in: 'when I see Trevor's videos... I'm like, holy crap, I can't do that... if someone can do something I can't do, I'm like, oh, I should be able to do that.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "She had already conceded the premise before it was presented — 'it's the kitchen that gets me, and I think the kitchen is probably 80%, and the gym is probably 20%' — and met the eat-for-health framing with agreement rather than questions: 'No processed foods and just being healthy.' Asked only a mechanical follow-up about sample meals and recipes."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Ran a string of mechanics questions rather than reacting to the value: 'when you say check-in just like online the zoom or just—', 'it sounds like maybe have a new or a different or enhanced plan based on the data', 'How long would you say when you say educate and then no trainer needed?', and 'so this sounds good... tutorial equals video.' Understood and interested, but interrogating the delivery model rather than buying into it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_trainer_cost",
+      "raw": "So it's like $130, $135 or something like that... So it's like $400 a week.",
+      "direction": "supports_price",
+      "competitor": "Equinox personal trainer",
+      "note": "The strongest supporting anchor in the batch. Three sessions a week at ~$135 is roughly $1,600 a month against $1,000, and the rep converted it explicitly: 'you'll be saving yourself about 600 bucks a month anyway, from what you're doing with your trainer now.' She had already priced the alternative herself and found it wanting on quality."
+    },
+    {
+      "type": "premium_spend_habit",
+      "raw": "he's not inexpensive and it's, it's an Equinox, which in America is a very good gym",
+      "direction": "supports_price",
+      "competitor": "Equinox",
+      "note": "Long-standing habit of paying for coaching — 'I have had trainers since I was probably old enough to afford one' — plus eating out five nights a week and ordering in twice. Willingness to pay is established; the buying question is provider quality, not budget."
+    },
+    {
+      "type": "in_person_premium",
+      "raw": "I always prefer in-person and would pay extra for in-person",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "She priced the in-person model ABOVE the offer, unprompted. The anchor is not a cheaper substitute but a more expensive one that the programme cannot supply — an inverted anchor, and a genuine pricing signal for any future in-person or hybrid tier."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I want to try and do some like kettlebell stuff at home. Once I get home with like, just Trevor's Facebook stuff that I've like copied the link and then texted it to myself.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free Facebook content",
+      "note": "She intends to start on the free content during the six weeks before she can begin paying. The risk is obvious and unaddressed: if the free material satisfies her, the paid programme loses its urgency. The rep did not respond to this line at all."
+    },
+    {
+      "type": "cheaper_substitute",
+      "raw": "I think I just ordered this cookbook. It's like a Mediterranean diet cookbook.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A $20 self-directed attempt at the exact problem the programme charges most of its value for. She offered to abandon it ('if we decide to move forward, then I'm happy to switch that up'), so it was neutralised, but it shows the default alternative she reaches for."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "In-person, hands-on form correction — and she volunteered that she would pay a premium for it",
+      "why_unmet": "The programme is online-only and the coach is on the opposite coast; the rep conceded this outright as 'a con of doing this for you personally'. Her core anxiety is form and injury given knee surgery, shoulder surgery and a reactive back, and the offer's answer is asynchronous video review.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Evidence that the programme works for women — testimonials, before-and-afters, any female representation at all",
+      "why_unmet": "It almost certainly does work for women (the rep says there are women clients and that he signed one two days earlier), but nothing exists to show her. The only proof produced on the call was a personal photo of the rep's girlfriend. This is the second most senior finding in the call and it is pure marketing inventory.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Upper-body emphasis — 'I probably need more attention On my biceps and triceps'",
+      "why_unmet": "Almost certainly served by the programme, but never addressed. The rep answered every goal with 'every single one of your goal is achieved by doing the same. And that's losing weight', which does not respond to a request for a different training emphasis.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A programme that adapts around episodic back pain, prior knee and shoulder surgery and a foot and ankle with seven healed fractures",
+      "why_unmet": "The mobility pillar was described generically ('with a lot of people, if there's no specific issues, it's just full body feeling better') after the rep had already decided there were no specific issues. No screening, no clearance step, and a guarantee that commits to loading her 8 kg heavier.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

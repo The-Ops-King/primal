@@ -1,0 +1,100 @@
+{
+  "call_id": "2026-06-15_jonathan_ben-byrne",
+  "source": {
+    "drive_file_id": "1Mxa4IL4gAzcTE8mPnp0LDhQMM7C-auOu",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/15/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 15236
+  },
+  "call": {
+    "date": "2026-06-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "First of two calls with this prospect. Terminated by connection failure roughly fourteen minutes into discovery and rescheduled live on the call to 20 June, which is the transcript titled '06/20/2026 - Johnathan and Ben - Primal Instinct'.",
+    "duration_min_est": 23,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Newfoundland, Canada — visiting for the weekend, not in his office" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named and no title suffix. The rep opened with 'I don't have a ton of information about you' and had a different prospect, 'Sid', on his calendar, so no setter notes were in hand."
+  },
+  "prospect": {
+    "name": "Jonathan",
+    "aka": "Labelled 'John' for the first half of the transcript and 'Jonathan' after he rejoined from a different device; the same person throughout",
+    "name_source": "transcript",
+    "location": "France",
+    "age": null,
+    "occupation": "IT — works with B2B clients surveying their buildings for access point placement; roughly half on client sites and half from home",
+    "family_status": "Married; one young son",
+    "height_in": 67,
+    "weight_lb": 198,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Did bodybuilding-style training ('musculation') including dips until roughly a year ago, then stopped entirely during a three-week honeymoon in Japan and never restarted. Has been researching calisthenics on the internet. Has never worked with a personal trainer or online coach.",
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.5,
+    "signals": [
+      "Confidence is low because the call was cut off before the deeper drivers were reached; the assignment is carried forward from the fuller 20 June conversation with the same prospect",
+      "Lost ground in a specific hard season — stopped training on his honeymoon, kept eating the same way on return, and has been up roughly 15 kg since: 'I kept on eating whatever I wanted, but I didn't do sports again. So I gained some weight back.'",
+      "Wants a functional former state back rather than a new peak: 'I don't want to be sweating when I carry him'",
+      "Diverges from the classic rebuilder in that his ambition is aspirational rather than restorative — he has never had the body he is describing"
+    ]
+  },
+  "goals": [
+    { "text": "Drop from 90 kg to 75 kg", "category": "fat_loss" },
+    { "text": "Build muscle back alongside losing the weight", "category": "muscle_gain" },
+    { "text": "Not feel limited by his body — carry shopping bags without sweating", "category": "energy_performance" },
+    { "text": "Carry his growing son without getting out of breath", "category": "family_role_model" },
+    { "text": "Control his body the way calisthenics practitioners do — 'feel light and being able to do what I want with my body'", "category": "mobility" },
+    { "text": "Improve mental health alongside physical health, which he sees as linked", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Does not know what to eat — named as his single biggest challenge before anything about training", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Does not know what to do to get healthier and finds researching it exhausting — 'it's asking me too much brain, too much time'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Has wanted to lose the weight for years without managing it", "category": "consistency", "severity": "high" },
+    { "text": "No time to work it out for himself now that he has a son", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Lost the training habit entirely during a three-week honeymoon and never restarted", "category": "consistency", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The call failed technically, not commercially: 'Hey, John, can you still hear me? Lost him.' followed by a two-and-a-half minute gap before the prospect rejoined by phone",
+      "Rescheduled live and confirmed: a calendar invite was sent and adjusted to the prospect's preferred hour — 'I just sent you an invite if you want to check your gmail to see if you got that for Saturday'",
+      "Prospect closed with 'Thank you for everything. And see you by the end of the week.'",
+      "No offer was presented, no price was named and no objection arose, so there is nothing to disposition beyond the reschedule"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rescheduled call on 20 June, 15:00 Paris time, calendar invite sent and accepted."
+  },
+  "notable": {
+    "note": "Two operational issues. First, the rep had a different prospect on his calendar — 'I had someone named Sid on my calendar, but maybe the schedules got mixed up' — which is the third scheduling mismatch in this batch alone. Second, the rep took the call from a weekend trip on connectivity he flagged as bad at the outset, and the call failed because of it; roughly two and a half minutes of unrelated personal conversation about going quad riding were recorded while the prospect was disconnected. The discovery that did happen was decent for fourteen minutes, and the rep correctly chose to reschedule rather than push through a degraded connection."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short-turn inversions throughout, e.g. at 00:07:55 and 00:10:53 the prospect's narration and the rep's question are swapped. The prospect's label changes from 'John' to 'Jonathan' at 00:17:15 when he rejoined from a different device — the same person, not two speakers. Transcript also contains a stretch of the rep's off-call conversation with people in the room while the prospect was disconnected."
+  }
+}

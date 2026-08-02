@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-03_tim-wigg_ben-byrne",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a three-month $4,000 tier live on the call, two minutes after the prospect said the price was more than expected.",
+      "evidence": [
+        "There is, like, another option, it would, you know, as far as, like, payments, it would be maybe a little bit more per month, but the total is a bit smaller, so we have, like, a three-month option for $4,000",
+        "So it's, it's 6K us 8,400, I guess, Aussie dollars. And then the other one's 4K, which translates to $5,600.",
+        "Okay. Yeah, that's a bit more than what I was expecting."
+      ],
+      "timestamp": "01:03:15"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Six-payment plan quoted at $1,200 per month against a $6,000 headline price totals $7,200; the rep disclosed only 'a bit of interest' and never stated the total.",
+      "evidence": [
+        "versus six of, if we do a six pay for the $6,000, there's a bit of interest at it, so it's $1,200 per month, which is... It's about $16.80 Aussie dollars",
+        "The year is 9K US. Six months is six."
+      ],
+      "timestamp": "01:03:15"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The improvised $4,000 three-month tier was broken into three payments of $1,500, a total of $4,500, and the prospect wrote down $4,000 as the figure.",
+      "evidence": [
+        "we have, like, a three-month option for $4,000, which, you know, we could break down to three payments of $1,500",
+        "Yeah. Like it's like 2K less.",
+        "So the six months, so could you just give me the figure for the six months again, the original?"
+      ],
+      "timestamp": "01:03:15"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a recent shingles episode he worked through and ongoing pain, and the rep asked no health, injury or clearance question before recommending loaded ballistic kettlebell training.",
+      "evidence": [
+        "off the back of that, I became pretty sick as well, with shingles, I don't know if you know shingles",
+        "I got shingles straight after it, but I then, I had to work through the, I had to work with shingles, doing an underground, a three phase mains, underground. Like hand digging and all that",
+        "whenever I'm. So I'm not going to the gym, my body sort of starts to tell me, you know, like sort of starts to create some pains and things like that"
+      ],
+      "timestamp": "00:19:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep endorsed a three-day dry fast, including 24 hours without water, on health grounds and timed to a lunar cycle, to a prospect who then said he had been contemplating fasting.",
+      "evidence": [
+        "I just did a three-day fast from Saturday till yesterday",
+        "the first 24 hours were tough because I did a dry fast where you, you, you don't drink any water or anything",
+        "Trevor was like, hey, it's a blue moon. Something about fasting during the blue moon. There's a bunch of scientific reasons why it's a good idea",
+        "I've actually been like, I've been contemplating fasting in the last little while"
+      ],
+      "timestamp": "01:10:35"
+    }
+  ]
+}

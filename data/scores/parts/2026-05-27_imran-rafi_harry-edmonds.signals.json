@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-27_imran-rafi_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "enthusiastic", "evidence": "Volunteered his own version of the philosophy back: 'Yeah, completely. Because I just... There's got to be a better solution than just going to the gym and lifting weights. I never felt good doing it. I did it because of rugby... I'm not a gym buff. I just like to do mobility. I like to move.'" },
+    { "pillar": "nutrition", "reaction": "accepted", "evidence": "The rep pre-empted any objection by endorsing what he already does — 'Trevor loves keto. He used to do a lot of carnivore, a lot of keto back in the day. If you enjoy keto, he'll probably put you on it as well' — and the prospect took it without questions. Notably this reverses his experience with his last coach, who told him 'I wouldn't recommend it' about keto and fasting." },
+    { "pillar": "accountability", "reaction": "enthusiastic", "evidence": "He had already named the video-feedback loop as the thing that sold him, before the pitch: 'You know what sold it to me was when he said, you send in videos, and then you send the video back saying, no, correct this or correct that... I want to see a video to say, no, no, you're doing this wrong, that's why you're going have wrist ache.' He confirmed the model back at the end: 'they give you the routine, you just follow it on your own, and if you have any issues you get back in touch, and you have that check-up once a week.'" }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "I thought it was going to be like, you know, 200 euros a month, or 300 euros a month, that's a grand a month, dude, that's so steep",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: stated_price_expectation. A three-to-five-fold gap between expectation and offer, stated the instant the number landed. The same gap appears on another call in this batch where the prospect expected $400/month, which suggests the market is arriving with a sub-$500/month frame."
+    },
+    {
+      "type": "other",
+      "raw": "I had a gym instructor for a year last year, it was a gift from my partner... It was a year, nothing. I actually got a lot more done when I was by myself",
+      "direction": "undercuts_price",
+      "competitor": "A local personal trainer",
+      "note": "Proposed label: failed_prior_paid_coaching. The strongest anchor on the call and the one nobody worked. He has already spent a year on paid one-to-one coaching, judged it worthless, and concluded that his own unsupervised effort beats a paid coach. It also contains a live product objection: that trainer told him not to do keto and fasting."
+    },
+    {
+      "type": "other",
+      "raw": "I've signed up for a couple of things in the past, but I've never, but they're like online platforms and you don't really speak to anybody. And it was like GMB, GMB workouts, the gold medal bodies.",
+      "direction": "undercuts_price",
+      "competitor": "GMB (Gold Medal Bodies) and similar low-cost online platforms",
+      "note": "Proposed label: prior_cheap_online_platform. His reference class for online fitness products is a low-cost self-serve library, which is where the EUR 200-300/month expectation comes from."
+    },
+    {
+      "type": "other",
+      "raw": "I'm in a position, thankfully, I can afford more things now. It's not a chef's wage anymore, and I have a space to do it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: improved_disposable_income. He volunteered his own ability to pay unprompted, immediately before the pitch. The rep did not use it when the price objection came, and instead discounted."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To be able to climb a rope and do gymnastic rings work — a three-year personal promise and the most concrete goal he named",
+      "why_unmet": "He flagged it himself as outside the modality — 'going back to the rope climb or gymnastic rings, they're a little bit different' — and the rep never responded to it, before or after. Whether pulling strength and rope work sit inside a kettlebell and bodyweight programme was left completely open.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A shorter commitment he could digest — 'definitely a bit more bite-sized chunks'",
+      "why_unmet": "It was met, but only by improvising a three-month tier and a one-month trial that are not part of the stated offer. The demand is real and recurring across the batch; the response to it is currently invented per call.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A programme that survives three weeks away at a wedding in Corsica",
+      "why_unmet": "Rather than answering it — he already bought a kettlebell abroad last summer specifically to keep training — both parties agreed a holiday means you cannot give it 100%. Travel-proofing is something the product plausibly does and nobody claimed it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that a paid coach will do better for him than his own unsupervised effort, after a year of paid coaching produced nothing",
+      "why_unmet": "Never addressed. The rep asked why the previous coaching failed, got a clear answer about diet being the lever, and did not come back to it when the price objection landed on exactly that doubt.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

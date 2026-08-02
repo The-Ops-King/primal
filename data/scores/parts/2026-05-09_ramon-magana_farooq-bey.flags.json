@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-05-09_ramon-magana_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a 26-year L3/L4 bulging disc impinging the sciatic nerve, with a standing surgical recommendation for fusion, and was taken through a loaded kettlebell offer without anyone asking whether a clinician had cleared him for it.",
+      "evidence": [
+        "I have a bulging disc, L3, L4, it's hidden against my static nerve.",
+        "Basically what it says is that the stronger my lower back gets, the less the pain I get, because the disc is actually fishing against the mirror, like really, really close back. Doctors basically tell me, they want to give me surgery. I don't want it.",
+        "They want to infuse my disc, and I'm like, I don't want my lower back to get infused.",
+        "So this is where you get two programs for yourself, a kettlebell program and a mobility program. On the kettlebell side, it's just three to four times per week, 30 minutes per session."
+      ],
+      "timestamp": "00:12:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was presented as a standard programme option; the sanctioned offer is $6,000/6mo and $9,000/12mo only.",
+      "evidence": [
+        "So the investment for this is, we have three programs, three months, six and 12. The investment for three... Every month is $4,000. For six, it's six, and for 12, it's nine.",
+        "For three months, it's $4,000 for three months. That's right."
+      ],
+      "timestamp": "00:24:53"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After affordability resistance the rep improvised a one-month trial at $1,200 that is not part of the sanctioned offer, cutting the entry price from $4,000 to $1,200 in roughly two minutes.",
+      "evidence": [
+        "You come in for a month, you try it, 1200 bucks. If you like it, we can get you on for the three or six or the 12. If not, no problem. part ways as friends",
+        "I think that's a little bit of my pay grade right now that I can afford."
+      ],
+      "timestamp": "00:27:37"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The rep made therapeutic claims about a diagnosed spinal condition — that the programme would address its root cause and clear injuries — which read as medical advice.",
+      "evidence": [
+        "Because, Ramon, remember when you told me that, obviously, this bulging disc issue has been there for almost three decades, right? We need to understand what the root cause of this is, because pain is only a symptom, you know?",
+        "To make yourself more mobile and fluid in your body, we need to address the root crack. The root cause as opposed to the surface level symptoms",
+        "It's going to help you avoid injuries, clear any injuries, and just really progress when it comes to getting more functionally strong"
+      ],
+      "timestamp": "00:19:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "When the prospect said he was refusing the spinal fusion his doctors had recommended, the rep affirmed the refusal and immediately positioned the programme as the thing to focus on instead, with no suggestion of consulting his medical team.",
+      "evidence": [
+        "Doctors basically tell me, they want to give me surgery. I don't want it.",
+        "Right, right, right, right. They want to infuse my disc, and I'm like, I don't want my lower back to get infused. I've been fighting like this since more than 30 years.",
+        "So that's, that's definitely an area that we need to focus on."
+      ],
+      "timestamp": "00:15:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The Fathom title names the prospect 'Ray Magana' while the transcript consistently identifies him as Ramon Magana, so title-keyed and transcript-keyed records will not join.",
+      "evidence": [
+        "05/09/2026 - Ray Magana & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+        "Hello, hello. Hello. I think you're on mute, Ramon."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

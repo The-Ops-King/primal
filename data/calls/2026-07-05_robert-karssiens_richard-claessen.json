@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-07-05_robert-karssiens_richard-claessen",
+  "source": {
+    "drive_file_id": "1UcU98tZzYSVnsHsMGf6_Rl96wF5yuNm6",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/05/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/05/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 71842
+  },
+  "call": {
+    "date": "2026-07-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 61,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "A setter call happened and the prospect experienced it as a closing attempt, but no setter is named: 'And the guy that got on the phone with me was trying to close me from the first moment we were talking. I manage a hedge fund. So good luck with all that.'"
+  },
+  "prospect": {
+    "name": "Robert Karssiens",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "East London, United Kingdom; travels to Saudi Arabia and the Middle East for two to four weeks at a time",
+    "age": 66,
+    "occupation": "Manages a hedge fund, currently trading energy assets at $2.2bn ticket size; first career in law enforcement",
+    "family_status": "Married; wife is Ukrainian, a gymnast from age 4 to 18 and now teaches gymnastics. Has a son and a one-year-old grandson. Half Dutch — his father was from Groningen.",
+    "height_in": null,
+    "weight_lb": 243,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Weight training since age 15-16, plus martial arts, rugby and a period of CrossFit. Now trains five times a week for an hour — 45 minutes kettlebells and bodyweight, 15 minutes abs, push-ups and stretching — at 6:30am before work. Uses 12kg to 32kg bells and has self-assembled a four-day rotation from Facebook routines including Trevor's own free content. Selects hotels with gyms when travelling. Will not use static machines or leg machines. Measures progress by volume, not load.",
+    "kettlebell_experience": "experienced",
+    "medical": "States 110 kg and wants 90 kg. A lifetime of injuries from rugby, martial arts and law enforcement. Has had a number of operations on his back. Has nerve damage from accidents. Knee injuries from belted squatting — 'what I got out of that was injured knees'. Shoulder injuries. Reduced flexibility and mobility. Takes daily medication, unspecified, alongside vitamins and creatine. Says none of it currently flares up during kettlebell work. No alcohol. Sweet tooth."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Self-directed and genuinely capable — 'I have a good understanding, not perfect, but I have a good understanding of what's needed to create that base level and to improve it... So that I can do'",
+      "Anchored to a cheap alternative that works — 'I pay, I go to this gym for 45 pounds a month... And now I'm going to go do something for $1,000 a month'",
+      "Runs explicit ROI arithmetic on the offer, including estimating the coach's per-client revenue — 'if he's doing five people a month... then I start looking at, well, what is the hourly rate that somebody's paying'",
+      "Carries preserver traits too: 66, health-literate, goal is 'maintain, maintain and improve' rather than transform, and he has many competing claims on discretionary money despite high income"
+    ]
+  },
+  "goals": [
+    { "text": "Drop from 110 kg to 90 kg so his frame carries less load", "category": "fat_loss" },
+    { "text": "Stay fit enough to walk 20 km with his wife without it fazing him", "category": "endurance" },
+    { "text": "Keep the mental sharpness his hedge fund work demands — 'being fit is really good for the mind, and I have to be super sharp in what I do'", "category": "energy_performance" },
+    { "text": "Nail down one repeatable base set of movements he can run in 20-30 minutes anywhere, including hotel gyms in Saudi", "category": "convenience" },
+    { "text": "Learn the why behind each kettlebell movement so he can self-direct correctly for the next twenty or thirty years", "category": "sustainability" },
+    { "text": "Improve technique specifically to stop injuring himself the way heavier loading has before", "category": "injury_prevention" },
+    { "text": "Get back mobility and flexibility he has lost", "category": "mobility" },
+    { "text": "Not end up like his sedentary same-age friends — 'they come home, they gin and tonic, and they whine... if I [go] before them, I'll be deeply disappointed'", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Multiple back operations, nerve damage from accidents, injured knees from belted squatting and shoulder injuries accumulated over a lifetime", "category": "injury", "severity": "high" },
+    { "text": "Noticeably less mobile and flexible than he used to be at 66", "category": "aging", "severity": "medium" },
+    { "text": "Assembles his programme from Facebook routines by several different coaches with no single structure — 'I've been taking a lot of routines off of Facebook... a bunch of others'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Does not know whether his technique is right and has never been taught the movements properly — 'they were doing around the world, right? Which is great. But nobody explained'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Travels two to four weeks at a stretch across big time zone gaps, which is the one thing he expects to break the routine", "category": "training_barrier", "severity": "medium" },
+    { "text": "Sweet tooth, worsened by constant work travel to Saudi Arabia — 'every other shop is [cakes] and stuff, and they get deeply offended' if he declines", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Tendency to overdo things when he picks them up, which historically ends in injury", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That's a lot of money, to be honest, right now. You know, I'll have to think about it. want to talk to my wife about it.",
+      "timestamp": "00:43:19",
+      "rep_response": "Named the stack without defensiveness — 'You're throwing everything in the book at me' — then isolated: asked whether, money aside, he wanted to do it, and asked directly whether it was 'too much and just don't want to invest that upfront or is it more so I don't see the value'.",
+      "response_tactic": "name_the_stack_then_isolate_money_from_value",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "So what I'm trying to associate is... You know, $6,000, right? $6,000. What is that going to bring me in six months that I can't do myself?",
+      "timestamp": "00:45:11",
+      "rep_response": "Reached for the compounding-interest metaphor from the prospect's own industry and asked whether he would compound faster alone or with someone. Got agreement in principle — 'That be massively beneficial' — but never converted that into a number, a comparison against his current results, or anything that answered the actual question.",
+      "response_tactic": "compounding_interest_analogy",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "But then again, I don't like to just say, I'm not going to do that because my gut instinct said, no, I like, I like to take it away and think about it.",
+      "timestamp": "00:50:13",
+      "rep_response": "Ran the strongest move on the call — 'Is it really something you have to think about? Just be honest with me. Like, let's say you hang up. Do you feel like you are actually going to think about it or there is already a made decision for you? Like, if it's already a made decision, that's okay.' — which produced the truth: 'when you say six grand, I was like, no, I'm not going to do that.' Then asked what would need to change and what he still needed to know.",
+      "response_tactic": "permission_to_say_no_to_surface_the_real_decision",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So at $3,000, it's my decision. $6,000, it's our decision.",
+      "timestamp": "00:59:49",
+      "rep_response": "Asked what the conversation with his wife would look like and what would happen either way, then conceded — 'yeah, then I guess, yeah, go, go talk to her about it. I don't see a use case of forcing someone to do something' — and booked Tuesday evening.",
+      "response_tactic": "explore_then_concede_and_rebook",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "A specific follow-up was agreed with a day, a time and a channel — 'let's have a conversation on Tuesday... Let's speak Tuesday evening at 7 o'clock' and 'I'll send you a message on WhatsApp.'",
+      "He left a door open contingent on his wife — 'if she gives you a green light, then there's a chance that you would be like, okay. It's down to me. That's right.'",
+      "Strong counter-evidence that this is effectively lost: 'when you say six grand, I was like, no, I'm not going to do that' and 'I just don't see myself spending six grand on gym, sorry, on fitness in the next six months.'",
+      "He had a pre-formed budget of $3,000 before the call and confirmed he would probably have bought at that number — 'Would you have done it if I would have said it was three grand? Probably, yeah.'",
+      "The rep himself read it as dead — 'it sounds like it's already a no for you, but maybe it's going to change.'",
+      "No payment, no deposit, no payment link, nothing collected."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "WhatsApp message from the rep; follow-up call Tuesday evening after the prospect discusses it with his wife."
+  },
+  "notable": {
+    "note": "The most financially qualified prospect in this batch and the clearest lost-on-value case. He disclosed multiple back operations, nerve damage and knee and shoulder injuries; the rep asked one aches-and-pains question, accepted 'nothing flares up', summarised it as 'so, no injuries', and then designed a progressive kettlebell and mobility programme around it without asking what the surgeries were, what the nerve damage is, what medication he takes daily, or whether any clinician has seen this plan. Separately: the rep only realised he was recording when the prospect volunteered that he records everything — 'Okay, so I'm recording. I should have told you.' The prospect had a pre-call budget of $3,000, told the rep he would probably have bought at that number, converted the fee to $1,000 a month himself, and was never offered a payment plan or a deposit. He also weighed the fee directly against $500 a month for his one-year-old grandson and chose the grandson."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, particularly around short turns — the rep's diet and Coke questions sit under the prospect's label at 00:10:34-00:11:00, and several of the prospect's answers sit under the rep's. The price line is garbled: 'is an investment of $6,000, so that would be $4,500 a month'. Context makes clear the second figure is a GBP equivalent of the total, not a monthly amount, because the prospect immediately and repeatedly works from $1,000 a month and 'six grand' in total, and never queries $4,500. Recorded here as heard, flagged as a pricing ambiguity."
+  }
+}

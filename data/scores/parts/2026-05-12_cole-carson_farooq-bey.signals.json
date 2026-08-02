@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-12_cole-carson_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Straightforward agreement — 'Yeah. Yeah.' to 'does that make sense, firstly?' and 'No, I don't think so anymore' to the invitation for questions. The rep did hook it to his stated issue ('How limited are you in terms of your mobility? mentioned your hips') which was the right connection, but the prospect did not engage further on it despite having named tight hips twice as his main concern."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Brief and positive — 'No, I like it.' He had already volunteered that he and his wife try to eat organic and clean and do not eat out much, so the optimise-don't-overhaul framing fitted him without needing work. No questions asked and no reaction beyond assent."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Clearly the pillar he came for, and he tied it to his own diagnosis unprompted: 'it's like, sounds like exactly what I was talking about, like having the accountability part and like the community is going to be really great. Yeah, it sounds like exactly what I need. Like, I feel like I have all this stuff. I just need, like, help putting it together.' He then asked the only mechanical question of the call, about how training is delivered through the app."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "household_decision_threshold",
+      "raw": "My wife and I, usually, we have a rule that we talk about things that are, like, over $100 purchase, so I'm not just going for it without talking to you... because diapers and blah, blah, you know.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The single most important number on the call and it surfaced in the last ninety seconds. The household's autonomous-spend ceiling is $100; the recommended tier was $9,000, ninety times that. Even the $200/month downsell sits above it. Had P6b run, this would have been known before any price was said."
+    },
+    {
+      "type": "liquidity_ceiling",
+      "raw": "Probably about, like, four or five, maybe... [credit card] Might be about the same.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Roughly $4-5K liquid and a single card with about $4-5K available, so total accessible capital sits at or below the six-month tier and well below the twelve. To his credit the rep did the arithmetic out loud and refused to take it, which is the correct read of an open-wallet conversation rather than the usual one."
+    },
+    {
+      "type": "recent_major_expense",
+      "raw": "We're moving house. Yeah, we, yeah, we had a move.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A house move plus a young child in nappies immediately before the call. The rep surfaced this himself with 'it sounds like you've invested into something recent, correct?' and correctly treated it as a real constraint rather than an excuse to reframe."
+    },
+    {
+      "type": "self_sufficiency",
+      "raw": "I've always been a guy that's like, I'm doing my own workouts, I'm doing my own kettlebell thing. It's like, you know, so maybe a little bit of pride in there, like, oh, I don't need help... you know what, if help is there and I can benefit from it, I might as well, you know, not be prideful and try something if it's not working.",
+      "direction": "supports_price",
+      "competitor": "His own self-directed kettlebell training",
+      "note": "He identified his own DIY habit as the obstacle and dismantled it himself, unprompted. That is the strongest possible version of the P4f answer and it arrived free. Nothing was built on it when price landed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A price point compatible with a young ministry family that discusses any purchase over $100 — he declined $9,000, $6,000 and $4,000, and deferred even on $200/month",
+      "why_unmet": "The offer ladder starts at a tier roughly sixty times his household's autonomous-decision threshold, and the only rung below it is a separate self-serve product. There is nothing between one-to-one coaching at $4,000 and a $200/month course, and nothing at all designed for a buyer at this income with this level of intent.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Specific work on tight hips, which he named twice as the main thing he needs to address before it becomes a problem",
+      "why_unmet": "The rep referenced the hips once when describing the baseline audit and never explained what the mobility programme actually does for hip restriction. The programme almost certainly serves this directly; it was the most concrete want on the call and it went unanswered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way to train that survives new fatherhood, where the free pockets of time are exactly the moments he wants for himself — 'it's not what I want to go do at that moment because I finally have a moment to myself'",
+      "why_unmet": "This is a sharper and more specific problem than general busyness, and the accountability pillar answers general busyness. The 30-minute session length is a direct answer to it and was mentioned only in passing, never connected back.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

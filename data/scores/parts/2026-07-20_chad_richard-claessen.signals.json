@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-20_chad_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The call ended inside discovery, before any pillar was delivered. The prospect asked for the format directly — 'is it like a live session, or will you just give a plan, I need to practice on my own, record myself, and then he will evaluate?' — and got a one-line answer, 'He will be there with you on the text', before the rep returned to questions."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never presented. The only nutrition content delivered was an unprompted tip during discovery — 'First cut down, then bulk up' — which the prospect accepted without comment."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never presented. The nearest reference was the rep's caveat that 'eventually, it's going to be on you to actually put in the work'."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "recent_personal_trainer",
+      "raw": "I had like four, five sessions... because I had these injuries, so I wanted to get the trainer so he could show me the right way of doing things",
+      "direction": "undercuts_price",
+      "competitor": "In-person personal trainer",
+      "note": "He has just bought a small block of in-person sessions for exactly the problem being sold against, and considers the job done for now — 'I need to practice what he has taught for at least three, six months'. Both a price reference and a live substitute, and neither was surfaced or challenged."
+    },
+    {
+      "type": "gym_membership",
+      "raw": "previously I used to work out just at home, but then I joined the outside gym",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A gym joined roughly a month ago that both he and his wife use and rate. His objection to it is the thirty-minute round trip, not the cost, so the incumbent spend is live and satisfactory."
+    },
+    {
+      "type": "free_ai_and_youtube",
+      "raw": "I ask, like, through AI, like, okay, how much, like, bowl of rice, calories in a bowl of rice and all that",
+      "direction": "undercuts_price",
+      "competitor": "AI chatbot / YouTube",
+      "note": "Nutrition is currently handled free by an AI and training discovery by YouTube. He also found the programme itself through YouTube. The baseline he is comparing against costs nothing."
+    },
+    {
+      "type": "credential_uncertainty",
+      "raw": "But he has any certifications or anything? — Not 100% sure, actually.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a price anchor in the usual sense but it functions as one. A prospect explicitly evaluating providers was told the seller does not know whether the coach is certified, which lowers the defensible price of everything that follows."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A straight answer on the coach's professional qualifications and certifications",
+      "why_unmet": "The rep did not know and the company appears not to have equipped him with an answer. What was offered instead — 1,200 clients and no visible complaints online — does not address the question asked.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "The programme format and price on request, so he could decide whether to continue",
+      "why_unmet": "The sales process withholds both until discovery is complete, by design. For a prospect running a vendor comparison rather than a transformation conversation, that design is a barrier rather than a filter.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Live one-to-one coaching during sessions",
+      "why_unmet": "He asked 'is he going to be there with me for the whole 40 minutes, one-on-one?' and was told no — support is asynchronous over text. The expectation the marketing set and what the product delivers are not the same thing here.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Resolution of a three-to-four-month elbow and knee problem",
+      "why_unmet": "He bought personal training specifically for this and it did not fix it. The programme has no clinical screening or rehabilitation pathway, and the rep's response was a mechanism assertion — 'we need to strengthen the connective tissue there, make sure joints are aligned'.",
+      "verdict": "product_gap"
+    }
+  ]
+}

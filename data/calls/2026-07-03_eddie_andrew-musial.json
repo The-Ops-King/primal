@@ -1,0 +1,150 @@
+{
+  "call_id": "2026-07-03_eddie_andrew-musial",
+  "source": {
+    "drive_file_id": "1KqnsBvHLfI8V90saguBCmSzRXpSGTevY",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/03/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/03/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 52486
+  },
+  "call": {
+    "date": "2026-07-03",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 59,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No suffix in the title and no setter named on the call. An application exists — 'I saw your application that you filled out and sent to us' — and the prospect describes being handed over by an unnamed female setter via text: 'I got a text message from a girl saying that I have a meeting with you, and she was like, yeah, so I was like, okay, that kind of like threw me a little off.' On the KFS/KL codes both candidates are female, so the code cannot be resolved from content."
+  },
+  "prospect": {
+    "name": "Eddie",
+    "aka": "iPhone",
+    "name_source": "transcript",
+    "location": "California, USA — Pacific time zone",
+    "age": null,
+    "occupation": "Restaurant owner. Runs a quick-service restaurant that opens at 07:30 and is actively looking for a second location. Manages rather than cooks, though he covers front and kitchen when needed and drives to meet clients and view sites. Previously a managerial and director-level role in fine dining and nightclubs. Heavily involved with his church, including a month and a half of church work overseas.",
+    "family_status": null,
+    "height_in": 69,
+    "weight_lb": 182,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains four to five times a week and has done consistently for two and a half to three years, having trained on and off since 18. Sessions run an hour and a half to two and a half hours: 30 to 40 minutes of stretching then an hour to an hour and a half of weights plus some cardio, on a one-body-part-per-day split. Has moved heavily toward calisthenics over the last year — 50 to 80 pull-ups before back day, dips after chest day, now adding weighted pull-ups and dips to break a plateau. Has used personal trainers in the past who included some kettlebell work. Trains between 4pm and 6pm. Did not train at all for the month and a half he was overseas.",
+    "kettlebell_experience": "some",
+    "medical": "DISCLOSED AND NOT FOLLOWED UP: 'I had some health complications in 2017. And I, you know, I got some chronic illness due to, like, stress-related reasons.' The nature, current status and management of the chronic illness were never asked about. He is under ongoing care of a physical therapist whom he quotes on his own biomechanics. Long-standing mobility restriction he attributes to 'years of not really focusing on my body', presenting variously at hips, lower back, and most often shoulders and neck, with pain migrating side to side. He self-manages by training only when the body feels right — 'if my body doesn't feel right or like something feels tweaked then I won't try to go out of my way to work out... because if I get hurt, the time it takes for me to recover and come back, it's just so much longer.' Runs five-day liquid fasts every other month (January, March, June). Weight history: peaked at 198-199, 190-195 at the start of the year, plateaued at 180-184 since March/April, 182 on the morning of the call. Target 170-175. No alcohol."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.8,
+    "signals": [
+      "Already training four to five times a week for two to three years with a structured split, a stretching protocol and a calisthenics progression — he is not starting, he is refining",
+      "The ask is explicitly good-to-great and bounded: 182 to 170, 'I want to continue, like, getting cut, and I don't really want to get, like, very extremely bulky'",
+      "Price is treated as a valuation question rather than a barrier — '$6,000 is not a lot of money, but it's also not a little bit of money for getting physical training, which I understand. That's how much personal trainers usually cost' and 'is it really worth $6,000 worth $10,000'",
+      "Successful operator buying like one: owns a restaurant, scouting a second site, repeatedly self-identifies as 'a businessman' who thinks things through before committing",
+      "Health-literate and already self-managing — extended fasting protocols, a physical therapist, deliberate deload days, tracked weight history to the pound"
+    ]
+  },
+  "goals": [
+    { "text": "Drop from 182 to 170-175 lb and reduce body fat percentage", "category": "fat_loss" },
+    { "text": "Get a workout that fits a restaurant owner's schedule — 40 to 50 minutes, four times a week, instead of two-hour gym sessions", "category": "convenience" },
+    { "text": "Keep and build strength so he does not lose power, since the job requires regular lifting", "category": "strength" },
+    { "text": "Improve mobility, which he calls a big issue approaching 40", "category": "mobility" },
+    { "text": "Avoid injury, because recovery time at his age costs him too much", "category": "injury_prevention" },
+    { "text": "Break the 180-184 plateau he has been stuck at since March", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Plateaued at 180-184 lb since March despite fasting and consistent training", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Two-hour sessions no longer fit the schedule — 'it's getting more difficult to go with that time, with my current schedule'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Opening a second restaurant location on top of running the first", "category": "work_stress", "severity": "medium" },
+    { "text": "Chronic illness acquired in 2017 through stress-related causes, nature undisclosed", "category": "medical", "severity": "medium" },
+    { "text": "Long-standing mobility restriction across hips, lower back, shoulders and neck, managed with a physical therapist", "category": "injury", "severity": "medium" },
+    { "text": "Irregular sleep — bed between 11pm and 1am, awake 5:30 to 6:30, catching up once or twice a week; describes himself as a night owl with 'an untapped energy source' late at night", "category": "sleep", "severity": "medium" },
+    { "text": "Business dining several times a week, sometimes daily, plus church meals, with late eating on weekends", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Energy dips in the lulls of the day, in traffic and driving home", "category": "consistency", "severity": "low" },
+    { "text": "Schedule volatility defeats structure — 'my schedule does not allow me to like fully be structured all the time'", "category": "consistency", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I mean, it's not cheap. ... Yeah, it's not cheap. I guess that's the biggest factor. I mean, $6,000 is not a lot of money, but it's also not a little bit of money for getting physical training, which I understand.",
+      "timestamp": "00:42:18",
+      "rep_response": "Did not run the financial picture. Answered with the graduate-in-six-months differentiator against personal trainers, then a time-value frame, then the deathbed frame, then the guarantee.",
+      "response_tactic": "differentiation_then_value_reframe_then_guarantee",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "That's how much personal trainers usually cost. From what I know, it's usually anywhere from 10 to 12 sessions is $1,000. ... One of the things that personal trainers do is they keep you accountable, right?",
+      "timestamp": "00:42:28",
+      "rep_response": "The best-handled objection on the call. Distinguished the business models directly — 'the idea of working with personal trainer, like his business model, is for you to work with him constantly, as long as possible. With Trevor... after six months, you don't need him.' The prospect bought it outright and restated it himself as teaching a man to fish.",
+      "response_tactic": "business_model_differentiation",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "my main thing is, like, okay, like, 50 minutes a day, that seems too good to be true, right? Almost.",
+      "timestamp": "00:45:11",
+      "rep_response": "Not addressed as a doubt. The rep took the time claim as an asset and amplified it — 'imagine what you could do with those extra 45 to an hour that you're gonna recover from not having to be in the gym for two hours' — then offered the guarantee as proof. The prospect had already half-answered it himself by noting his own trainers never worked him more than an hour.",
+      "response_tactic": "amplify_the_benefit_plus_guarantee",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I guess I just need a little bit of time to, like, think about it, I guess. It's not something I would just, you know, like, of course, you know, like, there's always a part of me that's just like, just run it, you know, but there's, you know, as you may know, I'm a businessman. I tend to like to think about things",
+      "timestamp": "00:49:54",
+      "rep_response": "Ran the surfacing question ('so what's coming up?'), tested whether the real doubt was follow-through rather than money ('it's not about the money, but isn't it like you're not so sure that you were going to be able to follow through?'), and when the prospect confirmed it was the money, resolved it by offering an unpriced one-month trial. Pushed once more ('so I need to give up on you that easy') and then conceded a next-day call.",
+      "response_tactic": "isolate_then_offer_unpriced_one_month_trial",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "When I signed up, I kind of was expecting to see Trevor as well, but I got a text message from a girl saying that I have a meeting with you, and she was like, yeah, so I was like, okay, that kind of like threw me a little off, I was like, oh, I mean, I get it, he's a busy guy, which I also understand.",
+      "timestamp": "00:52:54",
+      "rep_response": "Explained the division of labour — 'Trevor does one thing and one thing only, which is coaching people. That's why he needs us and the whole team around him to do all the admin, all the marketing' — and confirmed Trevor would meet him to map the programme.",
+      "response_tactic": "explain_team_structure_and_confirm_trevor_contact",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two structures were raised and neither was specified. On the six-month price: 'most of the guys just put it on a credit card upfront and have it sorted. If for someone the budget is tight, there are ways we can break it up' — no instalment count, amount or total. Then the closing structure, offered with no price whatsoever: 'don't marry Trevor yet. Go with him on a date. For one month, in this one month, he will map out the whole program and everything... and after this one month, you will decide, all right, I love it, I want to follow through the next five months, or we'll say, it's not working.' The prospect verbally accepted this route without ever being told the cost. The twelve-month tier was never mentioned. Equipment is not included — the prospect asked and was told he must buy his own kettlebell and mace.",
+    "guarantee_mentioned": "Stated twice, inconsistently. First, broadly: 'there's a guarantee on that, that in those six months, you will reach your goals, yeah.' Later, in its actual terms: 'the guarantee is on that you will add eight kilos, which is around 17, 18 pounds, to the baseline of your kettlebell weight in core movements. And if you don't, for some reason, you will follow everything, follow the program, do all the workouts, and you won't hit that in six months. He will work for you. He will work with you for free until you do.' The rep also asserted 'that's on paper, because that's obviously science behind that.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent, so the verbal-agreement-plus-link rule does not apply",
+      "The prospect explicitly refused to close on the call: 'can I get back to you on this?', 'I do need like a day or two to just kind of weigh it out', and 'the thing is, you won't be able to close the deal today'",
+      "Follow-up booked live for 2pm Pacific the next day, 4 July, same Zoom link, calendar invite sent",
+      "Counter-evidence toward a positive read, and it is substantial: 'you have me sold', 'I am down to do the one month thing', 'the one month thing is something that I'd be definitely more interested', and 'knowing my personality, if I do the one month thing, most likely I'll do the six month'",
+      "Counter-evidence on what was actually agreed: he accepted a structure whose price was never stated, so there is no agreed figure to record"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up Zoom at 2pm Pacific on 4 July, same link, invite sent on the call. The prospect flagged he may only have 20 to 30 minutes and that the 4th of July trade at his restaurant is unpredictable."
+  },
+  "notable": {
+    "note": "The most serious clinical omission in the batch. The prospect volunteered 'I got some chronic illness due to, like, stress-related reasons' at minute ten and the rep never asked a single follow-up question about it — not what it is, not whether it is active, not whether anyone has cleared him to train. He also referenced an ongoing physical therapist. He was then told to abandon his current training ('I would ditch completely the static bench pressing and all that. It doesn't give you anything') and move to loaded ballistic kettlebell work, and was layered with an eight-hour daily fasting protocol on top of the five-day liquid fasts he already runs every other month. Commercially, two things: the guarantee was stated first as covering 'your goals' and only later as a strength-only guarantee, when this prospect's entire goal is fat loss; and the closing structure was a one-month trial offered with no price attached, which the prospect verbally accepted. Set against that, the Baseline phase here was the rep's strongest in the batch — he built a complete weight timeline and correctly identified the plateau — and the personal-trainer objection was genuinely well handled."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained. The prospect appears only as the device label 'iPhone' and his name is recoverable solely from the rep's greeting at 00:00:13. Long undiarized run-on blocks carry both speakers under a single label with no turn boundaries — the passages at 00:03:49-00:07:14, 00:39:56-00:41:02 and 00:49:42-00:51:09 each contain multiple exchanges from both sides, and the 00:49:42 block inverts them so the rep's 'so what's coming up?' sits under the prospect's label. Roles reconstructed from content throughout. Age is recorded as null because the prospect said only 'I'm almost 40 now' and the rep later said 'you're 40'; neither is a stated figure."
+  }
+}

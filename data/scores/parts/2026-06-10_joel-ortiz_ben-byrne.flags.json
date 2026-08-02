@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-06-10_joel-ortiz_ben-byrne",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed an unresolved right shoulder injury from roughly two months earlier that stopped him doing push-ups and cost him a SWAT tryout, and it drew no follow-up question, no clearance question, and was instead answered with a claim that mobility work is good for rehab.",
+      "evidence": [
+        "so I started feeling shoulder pain, and it got to the point where I couldn't do pushups and so I just gave it a rest because I didn't want to make sure to tear anything like my rotator cuff or anything",
+        "I couldn't even try out because I ended up hurting my shoulder... it was like, really bad pain",
+        "your shoulder injuries and stuff, like we have a ton of clients that come to us with all kinds of like reconstructed shoulders or like blown out discs, herniated discs in their back or, you know, torn ACLs and stuff. And just the mobility work and getting your body moving right again... it's really good for rehab",
+        "we're not going to throw you into doing some crazy like NFL routines"
+      ],
+      "timestamp": "00:12:03"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect with relapsing gastritis severe enough to have cost him a year of work, still producing one-to-two-week episodes, was pitched an intermittent-fasting eating window including raw and unpasteurised dairy with no clinician question, despite the rep correctly asking about dietary restrictions moments earlier.",
+      "evidence": [
+        "I was out of work for a whole year and kind of lost my weight. I couldn't eat anything. I couldn't hold anything down... I lost 30 pounds rapidly",
+        "I still have episodes where I have a relapse sometimes that would last a week or two just because my stomach since then has become very sensitive and I have to be very careful as to certain things that I eat",
+        "do you have any dietary restrictions of things that you can eat, maybe also due to your gastritis or anything like that?",
+        "we kind of have like a intermittent fasting approach with fasting incorporated into it... during these hours of the day, you're eating window that you can eat as many of these foods as you want",
+        "if they are, let's say, milk or cheeses or something, they're not like full of, you know, like they're unpasteurized or raw milk and stuff like that if you wanted to"
+      ],
+      "timestamp": "00:07:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised a 30-day entry arrangement with an upgrade conversation at day thirty, undertaking to instruct the team, as a way to defer the prospect's decision — the same unlisted mechanism the manager described as a standing tool on the 08 June team meeting.",
+      "evidence": [
+        "we could always, we could probably just do a thing where we get you in for the 30 days as you go through it. At the end of the 30 days, if you want to upgrade, then we could figure out the difference",
+        "We'll get you in for six months on some type of plan that works for you, give you 30 days in the program. I'll tell the team, you know, at the end of the 30 days, if you want to upgrade, then we can just talk about that point.",
+        "Cross-reference, 2026-06-08_sales-team-meeting_ben-byrne at 00:12:37 — 'I got him on a Love It or Leave It' and 'that is something that's valid'"
+      ],
+      "timestamp": "01:21:36"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Three-month tier at $4,000 presented as a standard menu option alongside the six- and twelve-month prices — the third occurrence of this unsanctioned tier in this batch.",
+      "evidence": [
+        "the kettlebell body, which is one-on-one coaching with Trevor, which goes by duration, whether three, six or 12 months",
+        "so for the year, is 9,000, six months is six, and then three months is three, sorry, four.",
+        "Yeah, three months is 4K, six months is six, and then the year is nine."
+      ],
+      "timestamp": "00:55:39"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep gave three different and incompatible answers to the same commercial question about extending or upgrading within eleven minutes, one of which he admitted he would have to confirm.",
+      "evidence": [
+        "We don't have a prorated rate. You want to do three more months, it's just the price",
+        "I'm sure we'd figure something out where you wouldn't have to, you know, pay another $6,000 if you're not, like, through the initial program yet... I just probably have to, you know, I just have to confirm that.",
+        "if you join and on your first call, you're like, hey, you could just ask him",
+        "at the end of the 30 days, if you want to upgrade, then we could figure out the difference"
+      ],
+      "timestamp": "01:06:14"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep stated a results guarantee twice with specific figures, including a 10% body-fat-loss guarantee to a 140 lb prospect whose goal is to gain weight — noticing the mismatch mid-sentence without resolving it.",
+      "evidence": [
+        "we have basically a guarantee for someone who works with us for six months is that you're adding at least 20 pounds to your lifts, losing 10% body fat, unless you're already at 10% now, which might not be realistic",
+        "we do have the guarantee about the fat loss, adding, you know, at least 20 pounds or lifts, like 91% of them report more energy",
+        "I'm at 140 right now, but it's just, I don't have the muscle that I used to have",
+        "Cross-reference, 2026-06-09_ricardo-ventura_ben-byrne at 00:42:00 — 'the guarantee is losing 10% body fat and adding 20 pounds to your kettlebell lifts'"
+      ],
+      "timestamp": "00:40:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Payment plan quoted loosely with interest implying roughly $7,200 total on the $6,000 six-month tier, with no rate, term, total or provider stated, and no plan actually fixed.",
+      "evidence": [
+        "usually if we do payment plans, they add like a little bit of interest to it. Like if you were to split it up monthly, it would be like an extra 200 bucks a month. So 1,200, but I mean, yeah, we're flexible.",
+        "What makes sense for them can, you have to, I don't know, split it two payments of 3K or, you know, three payments of 2K",
+        "It just depends on your resources, I guess."
+      ],
+      "timestamp": "01:13:55"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Mobility training presented as rehabilitation for reconstructed shoulders, herniated discs and torn ACLs, to a prospect with an active shoulder injury.",
+      "evidence": [
+        "we have a ton of clients that come to us with all kinds of like reconstructed shoulders or like blown out discs, herniated discs in their back or, you know, torn ACLs and stuff. And just the mobility work and getting your body moving right again... it's really good for rehab",
+        "many times those things happen just because your body doesn't know... if you try to push your muscle past the weak point in your body, which is the connecting tissues and stabilized muscles, you're going to hurt yourself",
+        "Most of our clients are like, after they've gone through a program, they're like, dude, I feel like I'm 25 again."
+      ],
+      "timestamp": "00:48:45"
+    }
+  ]
+}

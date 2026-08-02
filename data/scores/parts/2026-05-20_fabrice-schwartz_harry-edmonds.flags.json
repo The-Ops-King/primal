@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-05-20_fabrice-schwartz_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An inbound closer call was priced at $200 per month for a Skool membership; neither the $6,000/6-month nor the $9,000/12-month offer was quoted or mentioned at any point.",
+      "evidence": [
+        "we have something that's it's $200 a month and essentially it's pretty much everything you could ever need",
+        "okay all righty and that's 200 a month okay all righty that's probably what i would recommend man",
+        "I think that's probably what is probably all you need to be honest with you"
+      ],
+      "timestamp": "00:08:51"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect asked outright what was being offered and was never told the one-to-one coaching product exists, leaving the call believing the $200/month membership is the offer.",
+      "evidence": [
+        "What exactly is the thing you're offering to understand?",
+        "Everything is completely tailored.",
+        "Okay. Um, what I'm probably thinking is, uh, we have something really good on school, so I think that'll probably be the best.",
+        "if you want to do it you can just sign up on the app so it will just be there for you to sign up"
+      ],
+      "timestamp": "00:08:36"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A prospect reporting pain in shoulders, back, elbows and knees on four to five hours of fragmented sleep a night was routed to an unsupervised self-serve kettlebell library, with no injury history taken and no question about whether a clinician had assessed him.",
+      "evidence": [
+        "Shoulders, back, like my elbow also, like sometimes knees.",
+        "Not much, like 4 to 5 a night.",
+        "it's like two hours and three hours, three hours, two hours, not even like five hours straight",
+        "You then have all of our mobility stuff. That'll be important for you for the pain.",
+        "if you want to do it you can just sign up on the app"
+      ],
+      "timestamp": "00:05:23"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep concluded the prospect would not buy the coaching and downsold him without asking a single affordability or commitment question; the prospect raised no price objection at any point.",
+      "evidence": [
+        "sounds like you just want the structure back and then yeah i'd just go through that",
+        "I think that's probably what is probably all you need to be honest with you",
+        "No, most likely just getting back in shape."
+      ],
+      "timestamp": "00:11:00"
+    }
+  ]
+}

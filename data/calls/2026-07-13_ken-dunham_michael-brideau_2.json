@@ -1,0 +1,153 @@
+{
+  "call_id": "2026-07-13_ken-dunham_michael-brideau_2",
+  "id_note": "Suffixed _2 because a different call with the same prospect, rep and date already exists at 2026-07-13_ken-dunham_michael-brideau.json — that is the eight-minute call the same morning that the rep abandoned on a connectivity failure (drive_file_id 1qd4kJODUZRbuCQ18BpoxRHMNMXsON_3X). This record is the rebooked call later the same day, and it is the one that closed. Do not merge them.",
+  "source": {
+    "drive_file_id": "1mt-qxTCepiIBNZ0s0Q8ac1Ylo4gdx-U3",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/13/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/13/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 164751
+  },
+  "call": {
+    "date": "2026-07-13",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Rebooked continuation of the aborted call earlier the same day (call_id 2026-07-13_ken-dunham_michael-brideau). The rep opens on it: 'I appreciate you being flexible, man. Yeah, the internet's been super funny the last two, three days' and 'some of the stuff you kind of shared last time, I got some basic notes.' IMPORTANT: this Drive file contains two entirely separate sales calls back to back — this one runs 00:00:00 to 01:05:42, and a second call with Saagar Patel-Francis runs 01:05:55 to 02:26:15 in the same file.",
+    "duration_min_est": 66,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ken Dunham",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Dallas, Texas, USA",
+    "age": 63,
+    "occupation": "Organizational development and culture consultant with his own practice; charges $5,000-6,000 a day; work is roughly 50/50 sitting and standing, often facilitating groups of 20-30 on his feet",
+    "family_status": "Married four years, second marriage; 23-year-old daughter; wife's 23-year-old grandson lives with them; a couple of grandchildren",
+    "height_in": 72,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": 25,
+    "training_background": "Lifelong athlete; consistently training five days a week for two years in a home gym he built. Body-part split using dumbbells, Smith machine, fly machine and cable pulley, plus planks and calisthenics; cycles. Started kettlebells two weeks before the call after following Trevor's channel, and reports visible rib-cage definition already.",
+    "kettlebell_experience": "some",
+    "medical": "Two shoulder replacements, reports full recovery, full extension and no current restriction; took a year to return to training on the second. Small meniscus tear in the left knee, diagnosed, surgery deferred for about a year, and he believes the right knee is heading the same way. Was on TRT, came off after levels reached around 2,500; now on clomiphene holding levels around 700-800. Currently on a peptide regimen, roughly $6,000 for three to four months covering him and his wife. Raised estradiol on blood work while on testosterone with visible chest effects."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.9,
+    "signals": [
+      "Already fit and training consistently; the ask is V-shape, defined chest and a six-pack rather than rescue",
+      "Price read as a professional-rate question, not a barrier: 'I'm not saying that he's not worth it. I charge $5,000 a day... So I totally get where he's coming from'",
+      "Successful independent consultant to senior leadership teams who explained Trevor's leverage model back to the rep unprompted",
+      "Spends readily on optimisation — $6,000 on peptides two months earlier, a $20,000 vacation club",
+      "The sole hesitation was marginal value over doing it himself, which is this avatar's characteristic objection"
+    ]
+  },
+  "goals": [
+    { "text": "See a six pack again, and ideally have it without trying", "category": "appearance" },
+    { "text": "Build a V-shape — rounder shoulders, defined and lifted chest, more upper-body bulk", "category": "muscle_gain" },
+    { "text": "Get body fat down from roughly 25% and stop the belly showing through his shirt", "category": "fat_loss" },
+    { "text": "Stay in shape for his wife — 'I'm going to stay in shape as long as I can to please her'", "category": "relationship" },
+    { "text": "Keep up for his wife, daughter and grandchildren — 'life's not over'", "category": "longevity_family" },
+    { "text": "Do ten really solid pull-ups", "category": "hobby_performance" },
+    { "text": "Rebuild core and lower-body stability and get visible definition back in his legs", "category": "strength" },
+    { "text": "Add 20-30 lb to his lifts, per his application", "category": "strength" },
+    { "text": "Have a correct, ordered routine rather than piecing one together from saved videos", "category": "consistency" },
+    { "text": "Get the same or better results in 30 minutes rather than an hour and a half", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Going through the motions — 'having a routine that I'm comfortable with, that it's making a difference. Sometimes I just feel like I'm going through the motions'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Piecing his own kettlebell programme together from hundreds of saved videos without knowing correct order or frequency", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Afraid of getting the sequencing wrong and wasting months — 'I really don't want to waste my time and have to come back later and realize I did that in the wrong order'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Chest dropped with age, and raised estradiol on testosterone produced visible chest changes that angered him", "category": "aging", "severity": "high" },
+    { "text": "Definition that used to return in days now takes months of hard training", "category": "aging", "severity": "high" },
+    { "text": "Diagnosed meniscus tear in the left knee, surgery deferred a year, and concern the right knee is following", "category": "injury", "severity": "high" },
+    { "text": "Fear of blowing a shoulder out given two shoulder replacements — 'I don't want to blow a shoulder out. So I just want to take it slow'", "category": "injury", "severity": "high" },
+    { "text": "Avoids mobility work entirely because he sees no immediate return — 'I don't see as much bang for my buck'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Competing financial commitments — 'I've got too many of those type of things, investments'", "category": "other", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "I've got a small veniscus tear in my left knee, and I've been putting it off for a year to get anything done with it, and I'm a little concerned about going under the knife. I've heard sometimes those surgeries don't. But more so I'm worried about not being able to work out. So you have any experience with that on a meniscus tear? Can I still do the kettlebell pedals? Am I still going to be able to squat?",
+      "timestamp": "00:18:39",
+      "rep_response": "Said Trevor works around every body and injury, would strengthen around it and add mobility, and raised the prospect of the surgery becoming unnecessary. No clinician clearance suggested and no qualification of the ballistic movement library against a meniscus tear.",
+      "response_tactic": "work_around_it_plus_recovery_possibility",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm going to think about it. Obviously, I'm all in on doing it, but that's 6K a month, or 6K for six months. That's a lot. So, just got to do the math.",
+      "timestamp": "00:46:35",
+      "rep_response": "Isolated it — 'Finances aside though, do you feel like ultimately everything we covered, like it checks all the boxes for you?' — then probed his last comparable purchase, surfacing the peptides and the vacation club",
+      "response_tactic": "isolate_then_prior_investment_probe",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "it's back to your original question is how much better is this going to be for me than continuing to do what I do on my own? You know, can I get there on my own and my own discipline and kind of sticking through what I've been doing?",
+      "timestamp": "00:47:15",
+      "rep_response": "Conceded he could work it out alone, then reframed on time-to-result against the prospect's own day rate — 'even if he just saves you a day of time over the next six months, you're basically paying for it right then and there' — and drew the parallel to how the prospect's own clients buy results rather than hours",
+      "response_tactic": "day_rate_roi_reframe",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "Does it come with a discount, Michael?",
+      "timestamp": "00:50:54",
+      "rep_response": "Refused the discount — 'I can't discount it' — and then five minutes later offered a $1,200 one-month entry that is not part of the standard offer",
+      "response_tactic": "refuse_discount_then_reduced_entry_tier",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Improvised 'love it or leave it' structure: $1,200 for the first month, taken on the call, then $4,800 for the remaining five months only if the prospect chooses to continue. Total $6,000 if completed. The prospect may exit after month one with no further obligation and keep what he has learned.",
+    "guarantee_mentioned": "Stated as: 'he puts a full guarantee on the program... providing you're putting in the work, doing the check-ins, doing the workout, is that we can at least add eight kilograms onto your lifts. So if for some reason, [we] don't add at least eight kilograms, and ideally it's going to be more, he's going to continue working with you for free until we actually get to those eight kilograms on some of the primary lifts.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Charges $5,000-6,000 a day consulting. Spent roughly $6,000 on a peptide regimen two months earlier covering himself and his wife, and recently bought a $20,000 vacation club membership. Capacity was never in doubt and the rep correctly diagnosed the objection as value rather than affordability."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Card payment of $1,200 taken live and confirmed on the call: 'All right, just hitting the button right now, I'll let you know if anything pops up on our end here. Okay, that went through perfect then.'",
+      "Verbal agreement preceded it: 'Shake hands on it?' — 'All right. I'll shake hands on it.'",
+      "Onboarding call booked live for 5:15pm Central the following day and confirmed visible in the prospect's inbox",
+      "Counter-evidence on value: only $1,200 was collected. The remaining $4,800 is contingent on him choosing to continue after a one-month love-it-or-leave-it period, so this must not be booked as $6,000 of cash collected.",
+      "Counter-evidence on completeness: the agreement never arrived. The prospect checked twice — 'Not through yet' and 'Yeah, don't see anything' — including his spam folder, and the rep left for his next call promising to sort it by text. Nothing was signed on the call."
+    ],
+    "cash_collected_usd": 1200,
+    "cash_collection_basis": "trial_month_only",
+    "next_step": "Onboarding call at 5:15pm Central the next day. Rep to find and resend the agreement for signature plus the Skool and onboarding links that were meant to follow it."
+  },
+  "notable": {
+    "note": "The prospect's full Visa card number, CVC, expiry, billing address, phone number and email were read aloud and are captured verbatim in this transcript, which sits in Google Drive. That is the most serious finding in the batch and is independent of the sale itself. Beyond it: a 63-year-old with two shoulder replacements and a diagnosed meniscus tear he has deferred surgery on for a year asked directly whether he could still squat, and was told the programme might make the surgery unnecessary, with no clinician clearance raised. The $1,200 love-it-or-leave-it month is the second time in three days this rep has invented that exact tier, and here it came five minutes after he had correctly refused a discount. Finally, the closing steps were left incomplete — no signed agreement and no confirmed onboarding materials — because the rep had a back-to-back call waiting."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion at turn boundaries and inside long blocks. The rep's own background story at 00:17:02-00:17:47 is split across both labels; 'So that's $250 a week' at 00:37:26 sits inside a rep block with the prospect's reply merged in; 'Questions on that? Is there anything written? Do I get anything?' at 00:40:43 mixes both speakers. Audio also dropped repeatedly on both sides and both parties comment on it, so some speech is missing entirely. Role read from content throughout."
+  }
+}

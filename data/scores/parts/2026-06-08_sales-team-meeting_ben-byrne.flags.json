@@ -1,0 +1,127 @@
+{
+  "call_id": "2026-06-08_sales-team-meeting_ben-byrne",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "After the manager left the meeting, both closers mocked prospects' sexual orientation on the company recording, including a joke that being gay is caused by low testosterone and insufficient training, and a remark tying it to a prospect's ethnicity.",
+      "evidence": [
+        "I had a call with this Indian guy from New Jersey. He's like a software engineer. And he's like, yeah, I'm married. You know, I'm not really trying to get confidence to date. I'm married. I'm like, oh, do you and your wife have any kids? And he's like, oh, my husband. I was like, oh, ah, ah, well, that's awkward.",
+        "But anyway, uh, sorry, this program is not for you. I mean, if you start working out again and get your T-levels fixed, you might go back to your wife. Just kidding. Wow, do you think that you turned gay because you haven't been working out that much?",
+        "Why are you gay?",
+        "Why are you gay? So he says, I'm Puerto Rican. That's So that explains the gay thing",
+        "Yeah. Like, that threw me off a little bit when he... Because I got information about two kids, and before I dig on that, he mentioned something about his boyfriend, and I was like, what the..."
+      ],
+      "timestamp": "00:50:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The closer has never logged call dispositions in the CRM, so booked calls, no-shows, reschedules and outcomes are missing from Close for his entire tenure — any close rate or show rate built from that data is unreliable.",
+      "evidence": [
+        "your pipeline, inside of Close, if you have a sales call, even if, like, anybody that's booked on your calendar, whether the call happened or didn't happen, a custom activity needs to be updated inside of Close, every single one of them. We can't let that fall through the cracks",
+        "In theory, yeah, I just have to do it, I guess. I've never really used those. It's fine.",
+        "Anybody you already had a sales call with, anybody that you maybe didn't have a sales call with because they no-showed, put that on there, too. If they rescheduled, put it on there. All the dispositions need to be put in there."
+      ],
+      "timestamp": "00:40:12"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An unlisted 'Love It or Leave It' one-month entry offer is in active use as a fallback for hesitant prospects and is endorsed by the manager as a standing tool, outside the $6,000/6mo and $9,000/12mo structure.",
+      "evidence": [
+        "Yeah, the one, the Indian guy, I got him on a Love It or Leave It.",
+        "So that's why I went the route of the love it or leave it because I believe after a month he will go for a full six months",
+        "love it or leave it is definitely something you can use in your back pocket for somebody who has sort of like trust issues within themselves with us, right? Like that is something that's valid",
+        "it's also just making sure that it's not the first thing you go to obviously... that's where I start to like kind of draw the line with the love it or leave it, if we're just offering it to everybody"
+      ],
+      "timestamp": "00:12:37"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Manager coaches reps to present results as biologically guaranteed and to suppress any expressed uncertainty, scripting a full rebuttal built on that claim.",
+      "evidence": [
+        "the main thing is wanting to make sure that we're actually reframing them and putting it back on them and showing them that like well dude like we've worked with thousands of clients and ultimately it's science like if you eat the food that we're saying to eat and you train this way do you really think you're not going to get good results",
+        "Make it not a question of like us getting the results and don't show any sort of uncertainty in yourself. Like have full conviction that we get results and it's science because we know it's science at the end of the day",
+        "If they eat the foods and they do the work. The result has to happen. It's human biology. It has to happen.",
+        "So what is it that's actually coming up that makes him think that it won't work for him? Like he's some special person that the laws of biology don't work for."
+      ],
+      "timestamp": "00:15:38"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager scripts a line telling prospects the closer has no financial stake in the sale, when closers are paid on the close and were spending the meeting moving cash targets between weeks.",
+      "evidence": [
+        "it's literally my job to make sure that I don't let people in that we can't help. Because if you come into this and you don't get results, then I'm going to be honest with you, it doesn't look good on us, doesn't look good on me, and I'm not getting paid for that either.",
+        "I'm here to protect the program and make sure that we put in people that are actually going to help us grow the program and actually get results for it. That's the truth.",
+        "So where do you want to move that $3,600?"
+      ],
+      "timestamp": "00:19:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Closer asked internally whether the nutrition protocol accommodates vegetarians and received only a vague assurance, two days after telling a vegetarian prospect it was fully customised for vegetarians and vegans.",
+      "evidence": [
+        "I kind of have a, it's almost like an objection that has come up twice now with vegetarian people. Like, as I've gone through Trevor's nutrition stuff now, it's, a lot of it's based off of like, you know, eating a lot of meat.",
+        "We've worked with clients that are vegetarian. Okay. That's what I figured, but I was wondering.",
+        "Yeah. There's ways around it. Yeah. I'll just keep it simple.",
+        "Cross-reference, 2026-06-06_dan-sigman_ben-byrne at 00:39:55 — 'Does he customize it for vegetarians?' answered 'Yeah. We've got vegetarians, vegans. Whatever type of dietary restriction you have, it's fully customized.'"
+      ],
+      "timestamp": "00:15:04"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Manager scripts an unconditional money-back assurance with no terms, window or conditions, and then coaches the rep to steer away from it in the same breath.",
+      "evidence": [
+        "And obviously, we're not going to hold your money or hold you in here if you can't get the result. But we're not even going to go down that path because I want to make sure that genuinely, if you're committing to this, that you're actually going to follow through and do it.",
+        "Cross-reference, 2026-06-07_john-viola_ben-byrne at 00:54:59 — 'there's just no way we would just give you back your money obviously we're not gonna take your money'"
+      ],
+      "timestamp": "00:19:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Closer's internal account of when he began using kettlebells is in tension with the personal results story he told a prospect the previous day.",
+      "evidence": [
+        "Funny enough, it happened just after I was, like, the day before, I'm like, maybe I'll start doing some kettlebell workouts, you know? And I watched some more of Trevor's stuff and his nutrition stuff, and I was like, oh, maybe I should try this.",
+        "Cross-reference, 2026-06-07_john-viola_ben-byrne at 01:06:05 — 'I started doing the Kettlebells, like maybe like a week after working with Trevor. I started with mobility... Literally after one session of the mobility routine, the basic one that Trevor teaches, I'm like, my knees aren't clicking anymore.'"
+      ],
+      "timestamp": "00:00:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Setter acknowledges booking calls that should not have been set, which inflates the denominator for any close-rate calculation across this period.",
+      "evidence": [
+        "sets, 20 on the dot, units, I know there was a couple that I set that shouldn't have been set with hindsight, but I also think that there were three extra people who should have been, like, units",
+        "It's 79.6. Do we round up, or...? No, that's reality."
+      ],
+      "timestamp": "00:34:24"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Manager again talked a setter above the number she stated, this time by claiming to have misheard her — the same pattern recorded in the 06/05 team meeting.",
+      "evidence": [
+        "How many of you finishing with today? Four. Four sets? Five. Four. I heard five. I think I heard five. We'll do five.",
+        "Do five. Are you going to hit five? We'll do five.",
+        "You got five. You can do it."
+      ],
+      "timestamp": "00:37:48"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Closer described a prospect in ethnic shorthand while explaining a lost deal, and the manager built the coaching rebuttal around the stereotype rather than correcting it.",
+      "evidence": [
+        "I think I was trying to go, yeah, I was trying to go that route, but he was so freaking Silicon Valley engineer, analytical Indian guy.",
+        "Yeah, but that's the type of guy who's going to say this stuff because he's trying to figure out all the inner workings. And he's also the type of person that this reframe would work really well on."
+      ],
+      "timestamp": "00:16:23"
+    }
+  ]
+}

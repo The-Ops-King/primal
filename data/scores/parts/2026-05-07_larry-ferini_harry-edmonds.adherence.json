@@ -1,0 +1,76 @@
+{
+  "call_id": "2026-05-07_larry-ferini_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "miss", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "The title carries a KFS setter suffix, so a setter call preceded this, and unlike every other KFS call in the batch the setter is never mentioned and nothing is read back. Frame two-part: 'I just want to get a good idea where you're at, build out what it is that you want to achieve. If there's alignment there, we'll talk about the coaching.' Agreement token 'Alrighty?' / 'Sure.' Open question run verbatim."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "partial" },
+      "evidence": "Diet was run properly and at length — 'What are you eating now? Are you still on the Whole 30 or do you have anything in place?' — and the weight history came out well via 'are you 190 now?'. Everything else is thin or absent. Age and height never asked. Work was only established at minute 41 and only as a lead-in to the tax pitch: 'You have a business, right?' No health question at any point — the psoriasis surfaced at minute 46, volunteered by the prospect, an hour into the call. No injury question. No sleep question. Energy was discussed extensively but always on the prospect's initiative."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "partial", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "hit" },
+      "evidence": "The outcome question ran cleanly — 'What's really the outcome? Like six months down the road, where do you want to be at?' — and the reflect-back was the best of the batch: 'it's all about sustainability, it's all about being capable... whether it's hike, whether it's chase after the dog, whether it's play baseball... It's a baseline level of lifestyle that really is what you're looking for', which the prospect answered with the pull-ups goal. But the deep ladder is entirely absent, and the omission is glaring: the prospect said 'my wife just asked for a divorce' and 'it sucks for the kiddo' and 'now it's time for me to kind of do something for myself', and the rep replied 'That's a nightmare' and moved to the presentation. Nobody asked who else this impacts, or what being capable again would mean for a newly single father."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "hit", "P4c": "hit", "P4d": "partial", "P4e": "partial", "P4f": "miss" },
+      "evidence": "Strong root-cause work. The full diet history came out — Whole30 to 220, carnivore to 190, back to 210 — and the rep asked the right emotional follow-up: 'when you have bread and then it spirals, do you beat yourself up over it? Or if you skip the gym...?' He then named the pattern accurately and got agreement: 'It sounds like you're at two extremes, and the extremes are, I'm all in, and I had bread, everything's over.' What he did not do is make the prospect name it — he supplied the diagnosis himself ('it sounds like you've just kind of been shooting from the hip a little bit') — and the root-cause line about information not being the problem never ran."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Absent, on the call in this batch where it was most obviously available. A man at the start of a divorce, about to sell his house, explicitly saying 'now it's time for me to kind of do something for myself' and 'I want to create a sustainable future for how I navigate', was never asked what the next two years look like if the pattern holds. Instead the rep matched his energy with mutual lifestyle chat for twenty minutes. When the price landed there was nothing built up to weigh against it, which is why the conversation from minute 42 onward is almost entirely arithmetic."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "miss" },
+      "evidence": "The belief question ran and ran well, though late and inside the money conversation: 'Do you have any hesitation about results?' → 'No, I don't. I know that if I just dedicate myself and figure out the energy component... I know I could be successful.' The rep then isolated correctly: 'So it's just a logistics thing. It's just a financial.' The all-in check appeared only as 'anything you think is missing'. P6c was breached outright — hesitation surfaced repeatedly and culminated in a flat refusal, and the playbook says return to Phase 5, which had never happened. What happened instead was that the price was cut until the refusal dissolved."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "partial", "P11b": "partial", "P11c": "miss", "P11d": "miss" },
+      "evidence": "The recording ends as the rep begins the payment and onboarding sequence — 'let's set you up for the onboarding first, and then we can kind of do the, the payment, I just remove' — so nothing is verifiable. Onboarding was scoped to Monday or Tuesday but no slot was fixed. No agreement email, nothing signed, no welcome email, no Skool link, no questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The cleanest isolate in the batch — 'Do you have any hesitation about results?' followed by 'So it's just a logistics thing. It's just a financial' — and the break-it-up move ran in four different shapes. What did not run: the permission question ('are you comfortable having an open, honest conversation about exactly where you're at financially?') and every one of the six FINANCIAL PICTURE items. The prospect volunteered the picture unprompted anyway — roughly six thousand in the bank earmarked for bills and rent, more owing on the credit card than in the account, house sale pending, condo deposits needed — and the rep responded by cutting the entry price rather than by concluding what that picture implied."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Triggered twice: 'There's probably no time to think about it, Harry, is there?' and then the flat 'I can't make a decision today, Harry.' Several moves ran, mostly in paraphrase. The belief check ran. A version of 'thinking isn't the problem, deciding is' ran as 'You can, you're just not willing to. I don't like I can't language, Chris.' The cliff line stood in for the delay reframe. Not run: 'the way you've been approaching this brought you here — when do you make a different decision?', 'that man you want to be, how does HE decide right now?', and the final 'are you sure, nothing else keeping you from being 100% in?'. The play was substituted mid-flight for a price reduction, which is what actually closed it."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'It's just scary' about putting $1,200 on the card is the trigger. The rep ran an off-script comfort-zone move and a long personal story about spending his life savings on a mentor and asking his father for advice — structurally the BRIDGE move, take the first step rather than see the whole other side. None of the scripted framings ran: no certainty question, no pleasure-versus-pain, no PLANE, no BURNED BEFORE, no 'how will you know if you never actually try'."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "A genuine timing conflict — a divorce in progress, a house to sell, condo deposits pending. One OD-shaped line ran: 'if there's a cliff to climb, or if there's a cliff to jump off today, you're gonna have to jump off it tomorrow too.' Nothing else. No 'things never slow down', no 'the longer you wait the harder this gets', no 'what if all you had to do was show up and everything else was handled'."
+    },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "'See, my wife would think it's crazy' is stated in the past tense of a marriage that is ending, not as a decision gate. He is not seeking her approval and the rep correctly did not treat it as an objection." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two script gaps. First, a clinical one of a different shape from the rest of the batch: the prospect wants the programme to resolve an autoimmune skin condition specifically so he can avoid dermatologist-prescribed injections. There is no scripted response for a prospect proposing to substitute the offer for medical treatment. The rep half-declined ('I don't think Trevor's like an expert on psoriasis') and half-accepted ('we can test with no dairy'), and never said see your dermatologist. Second, the same gap as the Igor Reoutt and Nicholas Ugo calls: no path exists for a well-fitting prospect in genuine financial distress, so the rep invented a tier."
+    }
+  ],
+  "notes": "Sixty-six minutes with a warm, honest, self-aware prospect, a good reflect-back and the cleanest money isolate in the batch — and no Phase 5, so when he said 'I can't make a decision today' the only lever left was the price, which fell from $6,000 to $1,200. Coach the sequence, not the objection handling: this call had the raw material for a consequence frame handed over on a plate — a divorce, a daughter, thirteen years of putting everyone else first — and used none of it. Second point: when a prospect says he wants to avoid a dermatologist, the answer is see the dermatologist."
+}

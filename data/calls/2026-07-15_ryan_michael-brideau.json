@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-07-15_ryan_michael-brideau",
+  "source": {
+    "drive_file_id": "15OPhdLCqAtn26dwjo6U3Sjl-cj6ZFUz8",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/15/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 9450
+  },
+  "call": {
+    "date": "2026-07-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "IMPORTANT: this Drive file contains two separate prospect calls, both abandoned and rescheduled — this one runs 00:00:00 to 00:08:08, and a 70-second call with a prospect named Jonesie runs 00:09:04 to 00:10:23. Neither reached discovery.",
+    "duration_min_est": 8,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil (Atlantic time)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ryan",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Mountain time zone, USA (state not stated)",
+    "age": null,
+    "occupation": "Holds two jobs; was driving between them during the call and starts the second at 6pm, finishing at 8 or 9pm",
+    "family_status": "Ended a two-year relationship in the week before the call; the partner has children",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": "Disclosed a substance-use issue in the context of the breakup: 'I've always struggled with [redacted] use, but it became prevalent and understood that my use was affecting our ability to connect at a long distance.' States he stopped roughly a month before the call after his partner said she would end the relationship over it. The substance is redacted in the transcript. No other health information was gathered."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.2,
+    "signals": [
+      "Proposed label: unassessed_rescheduled. The call was abandoned after eight minutes over a calendar conflict without a single fitness question being asked, so there is no basis for an avatar read at all.",
+      "The only substantive content is personal: a relationship ending, two jobs, and a disclosed substance-use issue he says he stopped a month ago.",
+      "Assigning any real avatar here would be invention. Recorded as 'other' deliberately so the rollup does not treat this as a genuine profile."
+    ]
+  },
+  "goals": [],
+  "pains": [
+    { "text": "Ended a two-year relationship the week before the call and describes it as a tough week", "category": "relationship", "severity": "high" },
+    { "text": "Longstanding substance use that he stopped about a month ago under threat of the relationship ending", "category": "other", "severity": "high" },
+    { "text": "Working two jobs with an evening shift running to 8 or 9pm, leaving almost no window for a call", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The call was abandoned before any discovery: 'I just realized there's some confusion with the calendar. And since you're going to be kind of hopping into work anyways, I just want to make sure we have enough time to like answer all your questions.'",
+      "Rescheduled live to 8pm Mountain the following day, with the rep confirming an updated calendar invite was sent",
+      "No fitness question of any kind was asked, no offer, no price",
+      "The prospect was accommodating and engaged throughout — 'Cool, bro. You take your call. I'll talk to you tomorrow' — so there is no signal of a lost deal here, only a lost slot"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rebooked for 8pm Mountain the following day; calendar invite sent on the call."
+  },
+  "notable": {
+    "note": "An eight-minute call lost to a double-booked calendar, in which the only thing gathered was a candid personal disclosure — a relationship ending and a substance-use issue stopped a month earlier — offered in the first three minutes before any question had been asked. A second prospect, Jonesie, was sitting in the waiting room throughout and appears in the same recording immediately afterwards. Note for the corpus: the prospect's first name is Ryan, which is also the name of Saagar Patel-Francis's husband in the 13 July call. They are different people and the records should not be cross-linked."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Inverted from the first line — 'Hi, hello! How you doing, bro?' is labelled to the prospect but the rep's greeting and the prospect's answer are merged. The scheduling exchange from 00:06:44 to 00:07:53 alternates incorrectly throughout, with several of the rep's proposals appearing under the prospect's label. Role read from content."
+  }
+}

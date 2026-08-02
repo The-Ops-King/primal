@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-05-28_rafal-sowa_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He pushed twice for the delivery mechanics before accepting the pillar, because the pitch kept answering 'tailored' rather than 'how': 'But what are the options? What kind of coaching do you, can you provide?' and then 'is it like a PT, you know, one-to-one session that we meet online and then you tell me what to do? Or you, let's say, you send me a list of exercises that I do'. Once the kettlebell rationale was given — 'it's arguably the most efficient way to train... It's fluid function. It's not linear pressing' — he accepted: 'Yes. Yeah, yeah.' He had also pre-warmed it himself: 'I like the idea of working with a kettlebell... I have done some stuff with it, and I think I enjoyed it.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered as philosophy only — 'philosophy with food is eating clean, eating healthy. We're not eating chicken, rice, and broccoli 15 times a day. It's eating for micronutrients.' He agreed without engaging. Worth noting he had already ruled it out as a need at 00:10:19: 'I'm quite happy with my sort of muscle mass and my diet as well', and the rep never revisited that mismatch — a third of the offer is being sold to a man who says he does not need it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "This is the one pillar he pushed back on the substance of. Asked what he wanted from coaching he answered: 'I would say I would need a plan, as in exercises that are tailored to my needs', and after the dropout restated it more firmly — 'I suspect it wouldn't be, it wouldn't look like, you know, we're meeting online and then you'd tell me what to do. I don't think I need that. But definitely a plan.' The rep then presented daily support and weekly adaptation anyway ('we can hold you accountable to the standards... we get in there every single day') without reconciling it against what the prospect had just declined."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_paid_coaching",
+      "raw": "I used to have a PT for years so I stopped having my PT when I moved to the UK that was 10 years ago",
+      "direction": "supports_price",
+      "competitor": "Personal trainer (historic, pre-2016)",
+      "note": "He has a long history of paying for one-to-one coaching, so personal coaching is an established category of spend for him rather than a novel one. The rep never used it — never asked what he paid, what it was worth, or what stopped."
+    },
+    {
+      "type": "self_sufficiency",
+      "raw": "I have got my routine, and I'm sort of quite happy with it... I'm not sure if I actually need help as such. I'm just interested",
+      "direction": "undercuts_price",
+      "competitor": "His own self-directed programme",
+      "note": "The strongest anchor in the call and it was set in the first two minutes. A prospect who opens by saying he may not need help and is browsing has no pain gap to price against, and nothing in the call ever moved him off that position — he never once said he was stuck."
+    },
+    {
+      "type": "existing_effective_modality",
+      "raw": "I have recently realized that, for example, Pilates is very good on my back",
+      "direction": "undercuts_price",
+      "competitor": "Pilates",
+      "note": "A low-cost modality he has already found works for the exact complaint the offer is being sold against — flexibility and back pain. Never addressed, so kettlebell mobility work was implicitly competing with something already delivering."
+    },
+    {
+      "type": "income_interruption",
+      "raw": "I am starting a sabbatical from the 1st of June... So I just have to be wise with money from, you know, for the next few months.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Six months of no income beginning three days after the call, against a six-month programme. This is the decisive anchor and it arrived after the price because occupation was never asked in baseline."
+    },
+    {
+      "type": "unresolved_medical_spend",
+      "raw": "I was hoping that I can have a new hip and that would solve the pain problem, but my surgeon doesn't want to do it",
+      "direction": "undercuts_price",
+      "competitor": "Hip replacement surgery",
+      "note": "He has a known future major medical event — a hip replacement inside roughly 15 years — sitting behind any discretionary health spend, and he has already spent on an arthroscopy that failed. Prior money spent on this problem that did not work is a live reason to discount the next promise."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A tailored exercise plan without live coaching contact — 'definitely a plan' but explicitly not one-to-one sessions",
+      "why_unmet": "The offer is structured and priced as a full coaching system with daily support, weekly adaptation and an onboarding call. He stated twice that he did not think he needed the coaching contact, and no reduced-scope or plan-only option exists to sell him.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Assurance that loaded kettlebell training is appropriate for an MRI-confirmed impinged hip with a failed arthroscopy and constant pain",
+      "why_unmet": "Nobody established it. The only response to the hip was 'everything we do is tailored... especially considering the hip and the back', and the guarantee offered was the opposite of reassuring for that body — an 8 kg load increase across every movement in six months. No clinician clearance was sought or suggested.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Progress on flexibility specifically, which he named as his priority above strength",
+      "why_unmet": "Probably served — mobility is one of the three pillars — but the guarantee, the tracking examples and the progression language were all framed around load, reps, intensity and volume. Nothing in the pitch promised or measured flexibility, which was the one thing he actually came for.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

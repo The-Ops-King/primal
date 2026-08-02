@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-27_rick-tuha_andrew-musial",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "The prospect's full 16-digit card number, expiry date and CVC were dictated aloud on a recorded Zoom call, repeated back for confirmation, and are stored in plaintext in the Drive transcript alongside his full home address.",
+      "evidence": [
+        "Okay, and now I would need the card details.",
+        "5-1-5-6-7-6-9-0-3-8-4-0-2-6-5-8.",
+        "The expiration date? 11-29.",
+        "And the CVC? 425. 425.",
+        "2-1, 2-9, W for West, W dot, C as in Cabot, C-A-B-O-T ... Nampa, Idaho ... 836-86."
+      ],
+      "timestamp": "00:12:14"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The deal was written on a 'fully custom' agreement outside the two standard tiers, processed through a manual payment form rather than the standard link, and no price or contract value appears anywhere in the recorded call.",
+      "evidence": [
+        "Okay, custom agreement, is that the one?",
+        "Because I have the link that I need to fill out all the details. Because it is custom, and usually what we do, we send out the link that you can just go through. But since it's fully custom, I have to do it manually.",
+        "Let me, yeah, I think because it is custom, I need to send that to you manually."
+      ],
+      "timestamp": "00:09:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The signed agreement was issued and countersigned by a third party ('Angelo', described as the manager) who was not on the call and was not introduced to the prospect, leaving the prospect unsure who the contract was coming from.",
+      "evidence": [
+        "Did you send me the contract already, Andrew? Let me check with the manager.",
+        "Oh, so it won't come from you?",
+        "Yeah, because he has the version of the online signature, yeah?",
+        "Yeah, Angelo just sent me info that he sent the... Agreement 2."
+      ],
+      "timestamp": "00:13:27"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This is the second call in a sequence and contains no discovery, offer or close; the call on which the deal was actually agreed is not present in this batch, so the close risks being attributed twice or to the wrong session.",
+      "evidence": [
+        "Okay, so Rick, did you manage to go through the agreement?",
+        "I'm going to do, I'm going to do, that right now. Yeah, please do. Just because I have been so busy",
+        "So the start date will be basically the 3rd of August."
+      ],
+      "timestamp": "00:02:45"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Onboarding hand-off ended with three promised deliverables outstanding and no recording or data-handling disclosure was made at any point despite payment card data being read onto the recording.",
+      "evidence": [
+        "I will send that to you with the info on Kerbos too.",
+        "There's an onboarding form? Yeah, there should be in the email. ... I cannot see.",
+        "you will get that from me by the end of the day"
+      ],
+      "timestamp": "00:21:19"
+    }
+  ]
+}

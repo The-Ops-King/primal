@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-07-05_richard-claessen_michael-brideau",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Both closers make ethnicity-based generalisations about prospects, using national origin as a proxy for whether a prospect is lying about ability to pay.",
+      "evidence": [
+        "Today I had this guy that, it's an Indian, so I don't actually know if he actually doesn't have the money, but he said he didn't.",
+        "He's not going to come back to you. But it's his Indians. That is Indians.",
+        "Yeah, Indians are the worst, dude."
+      ],
+      "timestamp": "00:00:36"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Closer discloses he is in acute personal cash distress with no savings and needs to close imminently, an incentive structure that raises pressure-selling risk on live calls.",
+      "evidence": [
+        "I am so tight financially, because this last thing I was doing before, like, I was kind of paycheck to paycheck with it.",
+        "I got to close for , like, tomorrow kind of thing.",
+        "Do you not have savings you can dip into? No, I've been running paycheck to paycheck for a little bit, dude, to be honest with you."
+      ],
+      "timestamp": "00:01:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Closer states on record that he does not yet have working talk tracks for spouse, fear and payment-plan logistics objections, so adherence scores on his live calls in this period reflect an unlearned script rather than a settled process.",
+      "evidence": [
+        "I don't have that scripted out and in my head yet. So that's one thing I need to work on.",
+        "it's just been so long since I've had to do this stuff consistently"
+      ],
+      "timestamp": "00:02:00"
+    }
+  ]
+}

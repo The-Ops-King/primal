@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-06-15_jay-moreno_ben-byrne",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a never-diagnosed back injury that left him bedridden for over a week, plus knee pain and damaged shoulders and elbows, and was moved toward loaded ballistic kettlebell work without anyone asking whether a clinician had cleared him.",
+      "evidence": [
+        "My back, so I fell, I fell and hit the corner of the step with my back, with like the middle of my back ... I think it was a muscle. I forgot what it was, a contusion or spasm or something, but I was bedridden for like a week straight, week and a half, like with heat pads and everything. I could not move.",
+        "The only other thing that I really have are just occasionally my, my knees hurt",
+        "my elbows are jacked sometimes, my shoulders",
+        "I know that I have more in me, but I'm like, I don't want to injure myself, you know? So, yeah, that's very limiting mentally in a sense.",
+        "there's no way I can't do windmills, like, kettlebell windmills, like, without, like, feeling like I'm going to tear something"
+      ],
+      "timestamp": "00:11:44"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An AI text bot operates under a human first name and the prospect could not tell it was automated; the disclosure only happened because he asked at the very end of the call.",
+      "evidence": [
+        "No, there's only one. Who's Sophie?",
+        "Sophie is an AI responder thing. Kyle is a real person.",
+        "I was just like, oh, you're calling, then I'm like, bro.",
+        "It's kind of like an AI reminder bot thingy, X thingy."
+      ],
+      "timestamp": "01:16:12"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed diagnosed IBS with specific food triggers and was told the nutrition protocol would be handled by the coach, with no clinician or dietitian involvement raised.",
+      "evidence": [
+        "My diet is, I have IBS. So as far as processed stuff goes, none of that.",
+        "this is the only thing I can't have, because I have, you know, I have IBS, I can have garlic or onion, that's it, anything else, tell me what to eat, you know what mean?",
+        "I'm sure he'll have that dialed in",
+        "our clients, they're not counting calories or tracking macros even. It's very simple. Trevor's just giving you his guidelines"
+      ],
+      "timestamp": "00:14:20"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A high-intent verbal commitment was left with no payment link, no deposit, no card on file and no booked onboarding call, so the deal's true status depends entirely on an untracked inbound text from the prospect.",
+      "evidence": [
+        "don't worry, brother, you got yourself a sale. I promise you, I just gotta get this one",
+        "Yeah, so just shoot me a text. I'll shoot you over the link, get you in, make sure that you're all squared away.",
+        "Well, I'm going to go out and drive ATVs now. So, nice to meet you, man."
+      ],
+      "timestamp": "01:15:32"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-07-29_sean-feeney_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a shoulder that 'went out' and unresolved bilateral hip pain with a physical therapy appointment still six weeks away, and the rep affirmed programme suitability without asking whether any clinician had assessed or cleared him.",
+      "evidence": [
+        "my right hip, I started to feel last year, I think it's probably, it feels like sciatica or something like that. But then now my left hip is also starting to feel the same way",
+        "a few months ago, my left shoulder went out, and it's still like, especially if it's not warmed up or anything, it's pretty injured. I'm going to have a meeting lined up with physical therapy, not till, I believe it's mid-August was the earliest appointment",
+        "now my right shoulder is starting to, probably from, you know, overcompensating for the left is starting to go out",
+        "So it's not like with your hips, your shoulders, you wouldn't be able to do it. You will just comes down to taking it slow, not taking it. We are increasing the weight constantly"
+      ],
+      "timestamp": "00:36:41"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After price resistance the rep introduced an unpublished tier at $1,000 for six months or $200/month for six months ($1,200 total), neither of which is $6,000/6mo or $9,000/12mo.",
+      "evidence": [
+        "we have an investment of 6k USD",
+        "that is either $1,000 for six months, or $200 a month for six months, so we come down to $1,200",
+        "Sounds like that's a lot more doable in the range that you're mentioning as well"
+      ],
+      "timestamp": "00:38:16"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep committed on the call that the full $1,000 self-serve fee would later be credited against the $6,000 coaching, with no stated conditions, time limit or written terms.",
+      "evidence": [
+        "We would always put that $1,000 towards the coaching with Trevor as well. So it's not like it would be lost.",
+        "It would directly be an investment yourself now. And also for in the future, it would also go towards that."
+      ],
+      "timestamp": "00:38:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep asserted an unquantified value multiple for the paid product over free material he was simultaneously recommending.",
+      "evidence": [
+        "But I know that this is going to be 20,000 times more valuable than what I could send over to you, what's in there."
+      ],
+      "timestamp": "00:44:10"
+    }
+  ]
+}

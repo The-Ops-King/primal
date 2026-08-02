@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-07-06_primal-instinct-sales-team-meeting",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Unpaid deposits are counted as closed units when the manager calculates a closer's close rate, converting one paid deal out of nine calls into a reported 33% close rate over the rep's own objection.",
+      "evidence": [
+        "So you had two deposits, one unit, so that's technically three people that committed. Are any of those deposits going to come through? Both.",
+        "Both of them are going to come through, so that's technically three units, right?",
+        "Okay, so then you close three out of nine, so that's 33%, essentially.",
+        "That's not that bad, bro. No, they're not in yet. No, but you said you're going to get them in, yeah?"
+      ],
+      "timestamp": "00:26:26"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer collected a deposit from a prospect who then told his wife on a still-open phone line that he had only paid to make the rep go away, and the manager normalised it rather than treating the deposit as invalid.",
+      "evidence": [
+        "I closed my Zoom, but I forgot about the phone. And I heard him talking with his wife. So, oh yeah, I had to pay this guy, but I don't think he will.",
+        "So he gave you the deposit just because? Yeah, just to get rid of me, I think.",
+        "Yeah, sometimes people will do that.",
+        "I still have a $100 deposit of a guy who was also sold in, but then just got scared.",
+        "return it back to them, because you don't want, because especially when people get super scared like that, one, you're not getting any commission on it, two, if they get super scared and they don't want to get on the phone with you again, then they might just charge it back."
+      ],
+      "timestamp": "00:23:25"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Closers are coached to route prospects with no liquid cash onto credit cards and third-party financing, and the team is actively adding financing partners after several prospects were declined.",
+      "evidence": [
+        "it turned out like he bought a house in California, cash, so he got flushed out of cash, but he said he's taking another job",
+        "he told me his credit score was 700-something, and I was like, dude, put it on a credit card, and I figured out, yeah, the PayVide's gonna be the best solution",
+        "Did you try to do PayPal credit with them as well?",
+        "one of those guys said credit limit of 2000, and you only got approved for a thousand, but of course not for six",
+        "the guy was, he was a kind of a student, I think, so maybe that's the thing",
+        "we're working on a couple different financing partners... we want to get more financing, so let's do that"
+      ],
+      "timestamp": "00:19:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A payment plan was described as six payments of $1,200, which totals $7,200 against the stated $6,000 six-month price, with no premium explained.",
+      "evidence": [
+        "we went through the open wallet, and then I figured out, okay, like, he could do six times 1,200",
+        "So, like I mentioned, the whole process takes six months, and in order to finish that, the investment is $6,000.",
+        "I definitely can set aside $1,000 every month.",
+        "dude, I don't have the 1,200 right now"
+      ],
+      "timestamp": "00:19:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A publicly published $200/month Primal University price is anchoring prospects who then take $6,000 calls, and management has confirmed the mismatch is known and deliberately deprioritised.",
+      "evidence": [
+        "The 200 a month. I had someone today, and he read that online, so that's exactly what he expected.",
+        "He said like, yeah, I wouldn't have booked a meeting if it was six grand because I just can't do that right now. And he was just showing up with the 200 month.",
+        "Yeah, I've talked to the team about it. It's a lower priority because all of our focus is on marketing right now.",
+        "it's kind of it's not ideal when somebody comes in with a price anchor like that"
+      ],
+      "timestamp": "00:47:56"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer again identified prospects by sexual orientation and ethnicity in the team meeting, three days after the manager corrected him for the same thing, and this time nobody corrected it.",
+      "evidence": [
+        "Because I pressured the gay guy.",
+        "Because you did have a hat trick, so did you pressure all three of the gay guys?",
+        "What about Tom? Where's that guy? Who? Tom, yeah, the gay one.",
+        "he told me like, no, you won't make a deal today with Eddie, the Asian guy",
+        "Oh, I forgot to tell you, Tom, the gay guy, he actually didn't hang up."
+      ],
+      "timestamp": "00:12:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording ends mid-sentence during the group review of the closed Dan Keogh call, so the coaching content and the remainder of that call review are missing.",
+      "evidence": [
+        "From the very first sentence, do you need a payment plan? I even sounded like you. No."
+      ],
+      "timestamp": "00:53:45"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-06-18_chandra_ben-byrne",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Financing was described only as bringing the price 'down to 650 a month'; when the prospect worked out aloud that twelve payments would exceed $6,000, the rep neither confirmed nor corrected it and the total was never stated.",
+      "evidence": [
+        "we have a way to, where people can finance it up to 12 months, which brings it down to 650 a month",
+        "So it's the same amount of money, it's just going to be for a longer period of time, or even more than the $6,000 for the 12 months.",
+        "Yeah. Okay. Any, I guess, thoughts of how you're going to do that over the next day or two?"
+      ],
+      "timestamp": "00:44:20"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The unpublished 3-month $4,000 tier was offered again, the fourth prospect in this batch; here the rep stated it as a standing rule that price reductions are matched by shorter duration.",
+      "evidence": [
+        "if I say that, like, hey, you know what, like, I can commit to 4k ... is that something that you're willing to go lower a little bit and still be able to accommodate me?",
+        "Right, so the way it works with us is that if we decrease the price, we decrease the time. So we could go down to 4k, but it would just be for three months, right?"
+      ],
+      "timestamp": "00:47:42"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "No deposit was taken from a prospect who stated he was 100% committed and blocked only on funds, eight days after deposits were mandated for exactly this situation.",
+      "evidence": [
+        "I'm 100% committed. It's just like, I need to figure out like, how do I bring the funds so that I can pay for the program, right?",
+        "So I guess from here then, what we could do is like, I can just shoot you a text on maybe on WhatsApp or just normal text.",
+        "let me talk to my wife and then like reach out to you guys back. Does that sound like a plan?"
+      ],
+      "timestamp": "00:44:13"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed eating 1,400-1,500 kcal a day for two months with weight loss stalled, plus a history of two months of zero-carbohydrate restriction, and was recommended a protocol incorporating fasting with no clinician question and no health or injury screening anywhere in the call.",
+      "evidence": [
+        "I roughly eat about 1400-ish calories a day, 1400 to 1500 calories a day ... But even in spite of that, I'm not seeing the results as much.",
+        "for like two months, I did not eat any carbs",
+        "there's a certain like eating protocol around like combining intermittent fasting with fasting",
+        "My shoulders are still sore after doing that, right?"
+      ],
+      "timestamp": "00:22:16"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-05-02_ad-morris_harry-edmonds",
+  "source": {
+    "drive_file_id": "1vJLi4bqdJUO8JKWYxPpS2wy10t8zbDX3",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/02/2026 - Ad Morris x Harry Edmonds ",
+    "display_title": "05/02/2026 - Ad Morris x Harry Edmonds  — Lost",
+    "file_size_bytes": 26901
+  },
+  "call": {
+    "date": "2026-05-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 25,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "Leicester, UK (from near Birmingham)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "Rep opened by confirming there had been no setter call: 'You didn't speak with Kim.' No setter suffix in the title either."
+  },
+  "prospect": {
+    "name": "Ad Morris",
+    "aka": null,
+    "name_source": "title",
+    "location": "Macclesfield, just south of Manchester, UK",
+    "age": null,
+    "occupation": null,
+    "family_status": "Has a partner referred to as 'my missus' and 'Fife'; nephews mentioned visiting",
+    "height_in": 73,
+    "weight_lb": 240,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Over 10 years lifting; years of Thai boxing including a year training in Thailand, now dips in and out. Past few years on self-written 5-3-1 with Mike Mentzer-style HIT assistance, upper/lower split. 200 kg deadlift, 80 kg overhead press. Started at 75 kg fight weight, now 110-115 kg. Has read Pavel's books and run Geoff Neupert's Dry Fighting Weight. Owns two 24 kg, two 16 kg and one 32 kg kettlebell.",
+    "kettlebell_experience": "experienced",
+    "medical": "No conditions disclosed. Reports being too heavy to run — 'it does smash my knees up far too much' — and has not run for a long time."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.72,
+    "signals": [
+      "Fully self-directed: writes his own 5-3-1 programming, owns a kettlebell set, has worked through Pavel and Geoff Neupert's Dry Fighting Weight",
+      "Anchored to near-free substitutes that did work for strength — his objection to them is progression and novelty, not efficacy: 'when I do kettlebells, it's kind of like I'm making it up as I go along or the programs seem too basic'",
+      "Asked verification questions before buying — how many on the weekly call, are there testimonials, is there a website, how many coaches are there",
+      "Chose the £147/mo self-guided product over one-on-one coaching on price and wanted to sleep on even that: 'don't make any decisions on financial things sort of straight off the bat'"
+    ]
+  },
+  "goals": [
+    { "text": "Get leaner — down from 15-20% body fat to around 10% and see some abs", "category": "fat_loss" },
+    { "text": "Get more functional and stop adding mass; hold around 100 kg / 195 lb rather than drifting to 120 kg", "category": "longevity_function" },
+    { "text": "Be light enough to run again without wrecking his knees, and to climb and actually hold on to the wall", "category": "hobby_performance" },
+    { "text": "Follow structured kettlebell programming with real progression instead of making it up as he goes", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Feels bigger all over but not more defined — 'super like stiff and blocky' at 110-115 kg", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Too heavy to run; it smashes his knees up, so he has stopped entirely", "category": "training_barrier", "severity": "medium" },
+    { "text": "Calorie counting has never stuck — 'I'd get busy with work and then it just goes out the window'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Self-written kettlebell sessions feel improvised and the off-the-shelf programmes he has found are too basic with no progression", "category": "program_fit", "severity": "high" },
+    { "text": "Worried about staying on a trajectory that ends 'stupid and not very functional anymore'", "category": "aging", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I mean, I wasn't expecting it to be quite that much for the, the one-on-one, but what does that work out a month?",
+      "timestamp": "00:12:51",
+      "rep_response": "Restated the maths (£730/month over six months) and immediately offered to walk him through whichever option he preferred, presenting the £147/month self-guided product alongside it.",
+      "response_tactic": "restate_maths_then_present_cheaper_tier",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I mean, I think my missus would shoot me, if they, to commit to £700 a month for something, so yeah.",
+      "timestamp": "00:13:21",
+      "rep_response": "Joked back ('You and the Yorkshire Dales, mate') and moved straight on to the cheaper product's commitment terms. No isolation, no play run.",
+      "response_tactic": "none_ran",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "does sound really good, but yeah, it's just a lot more than I was kind of expecting with that... I don't think I could swing that with Fife, yeah.",
+      "timestamp": "00:21:20",
+      "rep_response": "Agreed and recommended the cheaper product: 'It's all good, it's all good. Do Primal University then, man, that's what I would do.'",
+      "response_tactic": "concede_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'll kind of have a think about it and stuff, don't make any decisions on financial things sort of straight off the bat. So I'll sleep on it, I'll check those testimonials out, and then, yeah, we'll go from there.",
+      "timestamp": "00:24:25",
+      "rep_response": "Accepted it without a play: 'I can send you the link and if you want to do it do it if you don't that's fine.'",
+      "response_tactic": "none_ran",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": null, "price_gbp": 4400, "note": "One-on-one coaching, quoted as '4,400 pounds' for six months and restated as '730 quid a month'. Not the $6,000/6mo standard offer." },
+      { "months": 1, "price_usd": null, "price_gbp": 147, "note": "Primal University self-guided, quoted first as 'about 150 quid a month' then corrected to '147 pound a month'. Monthly rolling, no commitment period." },
+      { "months": 12, "price_usd": null, "price_gbp": 1400, "note": "Primal University annual, improvised live: 'I think it'd be about £1,500 quid. Yeah, £1,400 for a year'." }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "Coaching was declined outright on affordability: 'I don't think I could swing that with Fife, yeah'",
+      "The rep did not contest it and redirected: 'Do Primal University then, man, that's what I would do'",
+      "No payment taken, no link sent on the call, no next call booked",
+      "Counter-evidence: the conversation is not dead — he asked how to sign up, asked for testimonials and said 'I'll sleep on it... and then, yeah, we'll go from there'. What remains live is the £147/mo self-guided product, not the coaching offer this corpus measures",
+      "Counter-evidence: rep could not produce Primal University testimonials on the call and promised to send some, so the follow-up depends on material that does not readily exist"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send the Skool link and hunt for Primal University testimonials; prospect to sleep on the £147/month self-guided subscription."
+  },
+  "notable": {
+    "note": "Two findings a principal should see. First, the entire offer was quoted in sterling at £4,400 for six months — not the $6,000 standard — with the monthly equivalent volunteered unprompted. Second, the rep talked the prospect out of the high-ticket offer and into a £147/month product within nine minutes of first naming a price, then volunteered that this happens routinely: 'I'm in sales and I find it very difficult to upsell people out of Primal University.' Price landed at 00:12 of a 25-minute call, before any question about age, work, health or injuries had been asked."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and continuous. Whole rep turns are attributed to 'Ad' — the opening frame and the 'What was it that you were hoping we could potentially help you with, man?' line both sit under the prospect's label — and the nutrition philosophy block at 00:06 is split alternately between the two speakers mid-sentence. Long stretches from 00:02 to 00:05 run as unpunctuated single blocks containing both sides. All roles read from content."
+  }
+}

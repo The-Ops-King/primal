@@ -1,0 +1,102 @@
+{
+  "call_id": "2026-07-28_jeffrey-silver_andrew-musial_call1",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 68-year-old disclosed a cervical fusion of the neck in direct answer to the rep's injury question, and was then sold a six-month loaded kettlebell programme built on overhead movements with no clinician clearance sought, suggested or made a condition of enrolment.",
+      "evidence": [
+        "and then other than that, I've had cervical fusion on my neck, but that's. It's not really caused me any issues.",
+        "That's great. That's great. Okay. How about nutrition?",
+        "Swings, swings. Then pull-ups, and sometimes to overhead, those type of movements.",
+        "when you're going to be doing kettlebell workouts, the beauty of them is that every single workout that you're going to be doing, you're going to address three things at the same time, which is strength, conditioning, and mobility",
+        "So, for that time to work with Trevor, to get you stronger, the investment is 6K."
+      ],
+      "timestamp": "00:03:36"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The same prospect disclosed bilateral knee problems that prevent him squatting and a right ankle reconstruction limiting dorsiflexion; the rep acknowledged neither, scoped neither, and proceeded to a programme whose core movements load exactly those joints.",
+      "evidence": [
+        "I have bilateral knee problems. Um, so that squatting, I can't squat all that much.",
+        "So I've had ankle reconstruction on my right ankle, which has limited my ability to dorsiflex my, my, uh, ankle joint.",
+        "Yeah. So my knees hurt. They ache and they pop, but that's about it.",
+        "That's great. That's great.",
+        "in order to fit your busy daily schedule, I think three to four times a week, 30 to 40 minutes, that would be the, like a sweet spot for you"
+      ],
+      "timestamp": "00:03:36"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A qualified clinician who has already assessed the prospect's movement — his own daughter, a physical therapist — was cited approvingly by the rep as validation for the mobility pitch, but was never suggested as the person to clear him for loaded ballistic training.",
+      "evidence": [
+        "And my daughter is a physical therapist and basically she says, my mobility, my lack of mobility, I don't trigger my glutes.",
+        "And your daughter was absolutely right when it comes to mobility. I would say it's a foundation of kettlebell movements, because you probably saw that those ranges of motion are pretty big.",
+        "those ranges of motion are pretty big",
+        "muscles, they adapt way faster than joints and tendons, and we don't want to get injured, that's for sure"
+      ],
+      "timestamp": "00:07:29"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Progressive loss of muscle mass over two to five years in a 68-year-old, consistent with sarcopenia, was treated purely as an aesthetic and training problem with no suggestion of medical assessment for an underlying cause.",
+      "evidence": [
+        "over the past couple of years, I've been losing muscle mass. It's mostly my glutes and my legs.",
+        "I have a saggy butt. ... And I've never had that before",
+        "I've felt more tired lately. My work has been more pressured lately",
+        "So you mentioned that you're losing muscle mass. How did you notice that, actually?"
+      ],
+      "timestamp": "00:00:46"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep offered only credit card payment or interest-bearing third-party financing, withholding the interest-free in-house instalment plan that he disclosed to this same prospect thirty minutes later and which closed the deal within ninety seconds.",
+      "evidence": [
+        "Use a credit card. Or you can use a third-party financing option too. So you can split it up into even 12 months. If you have a decent credit score, I think that's the reasonable solution because you don't have to put it all up front.",
+        "I understand. I'm going to have to look at that, but okay. I understood. How do you take payments?",
+        "Stressful is making sure I have financial wherewithal to be able to retire comfortably. And I do not have that right now, so I can't retire."
+      ],
+      "timestamp": "00:24:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep declined to send a payment link to a prospect who had verbally agreed and explicitly asked for one, requiring him to end the call and reconnect, after which the prospect returned asking to postpone the purchase by a month.",
+      "evidence": [
+        "Yeah. I mean, I can't pay you right now. Again, I have to go. I'm in the car and everything, but I will go to my office and I'll sit down and I will work out payments if you send me the link.",
+        "Oh, we need to go over the call because I need to onboard you properly, get you on a call. With Trevor and so on",
+        "we have still 30 minutes so go to your office let's reconnect in the same link",
+        "I've been thinking about this, and I'm not sure that I can do $6,000 right now."
+      ],
+      "timestamp": "00:24:41"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This deal spans two separate recordings roughly thirty minutes apart on the same day, so one prospect and one sale will appear as two calls unless deduplicated, inflating the close-rate denominator and risking double-counting of the revenue.",
+      "evidence": [
+        "we have still 30 minutes so go to your office let's reconnect in the same link and yeah let's let's let's do it",
+        "okay all right thank you Andrew right so 10 minutes yeah okay all right see you in a bit",
+        "I've been thinking about this, and I'm not sure that I can do $6,000 right now.",
+        "you didn't mention installments, you just said put it on a credit card and pay the credit card off"
+      ],
+      "timestamp": "00:24:51"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "A twenty-six minute sales call including a $6,000 offer was conducted with the prospect parked at the roadside in his car on his way to work, and continued after he indicated he needed to leave.",
+      "evidence": [
+        "I pulled off the road. I was going to be at my computer, but there was a car accident on the way in and it cost me 20 minutes. So I'm five minutes out from my office, but I'm off the road so I can talk to you.",
+        "I hope you're not driving, man.",
+        "I mean, I can't pay you right now. Again, I have to go. I'm in the car and everything",
+        "because you're next to the to your office right now I'm about seven eight minutes away"
+      ],
+      "timestamp": "00:00:06"
+    }
+  ]
+}

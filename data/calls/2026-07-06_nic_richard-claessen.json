@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-07-06_nic_richard-claessen",
+  "source": {
+    "drive_file_id": "1u6EMnlYIXlel8pVTEpjCWkmuNMlE463O",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/06/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/06/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 68780
+  },
+  "call": {
+    "date": "2026-07-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 59,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Nic",
+    "aka": "Nick",
+    "name_source": "transcript",
+    "location": "Perth, Western Australia, Australia (working away regionally at time of call)",
+    "age": null,
+    "occupation": "Carpenter (\"chippy by trade\"), works away from home on regional jobs",
+    "family_status": "Partner (not married, a personal trainer, currently stay-at-home); one son under a year old",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Ex Australian Rules football at a high level; calisthenics; some Muay Thai; trains with partner at the gym on weekends, at least twice a week; self-taught kettlebell work copied from Trevor's Facebook posts; snowboarding, surfing, fishing, swimming",
+    "kettlebell_experience": "some",
+    "medical": "Historic buckled knee causing depression fractures (femur into tibia) and meniscus disruption, eight months off work; later AC joint (shoulder) damage aggravated by golf and a snowboarding trip. States he has been injury-free for about two years, with occasional knee niggles and a stiff back when inconsistent. Rep asked about injuries and prospect confirmed both are resolved."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.55,
+    "signals": [
+      "Self-directed and capable — already replicating the coach's free Facebook workouts himself and has a personal-trainer partner producing weekly plans on an app for free",
+      "Arrived anchored to a price he researched himself: \"I typed into Google what it might cost to go down this endeavor and that's where I got the 200-a-month answer\"",
+      "Expected an app with video clips and occasional lives, not one-to-one coaching",
+      "Not a pure bargain hunter — he grants the value (\"there's no price on your health\") and the blocker is genuine household cashflow, so confidence is moderate"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger and broader through the back, shoulders, glutes and lower back without conventional bodybuilding", "category": "strength" },
+    { "text": "Build a \"bulletproof\", injury-proof body so old knee and shoulder problems do not return", "category": "injury_prevention" },
+    { "text": "Master kettlebell technique and understand the movements properly rather than copying posts", "category": "other" },
+    { "text": "Regain consistency and a structured routine that survives working away from home", "category": "consistency" },
+    { "text": "Build mental strength and discipline that carries into work and family life", "category": "confidence" },
+    { "text": "Be a father his son copies — actions over words — and a role model to people around him", "category": "family_role_model" },
+    { "text": "Absorb enough knowledge to eventually help others in the fitness industry alongside his partner", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Since becoming a dad his time is limited and he cannot carve out training time when he is at home", "category": "time_scarcity", "severity": "high" },
+    { "text": "Consistency \"has fallen right off\" since a Fiji holiday about six weeks ago; comfortable rather than progressing", "category": "consistency", "severity": "high" },
+    { "text": "No structure or game plan — copying Trevor's Facebook routines onto paper is slow and he does not know if he is doing them correctly", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Working away with no gym access breaks his routine; training in a small room is unmotivating", "category": "training_barrier", "severity": "medium" },
+    { "text": "Does not have the knowledge or foundation to make kettlebell work land properly", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Residual knee niggles and a stiff back when he is not moving enough", "category": "injury", "severity": "low" },
+    { "text": "Feels guilty about going backwards while people he previously inspired have moved ahead of him", "category": "emotional", "severity": "medium" },
+    { "text": "Single household income, renting, saving toward a house purchase and funding partner's business — limited discretionary money", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Well, the initial reaction is, it's a lot of money, obviously, but there's no price on your health.",
+      "timestamp": "00:38:27",
+      "rep_response": "Did not defend the price; asked a future-pacing worth question (\"six months, 12 months from now... would it be worth six grand to you?\"), got a yes, then moved to isolate finances.",
+      "response_tactic": "future_pace_worth_check",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "we're not necessarily in a great financial position for that to be an easy decision",
+      "timestamp": "00:41:54",
+      "rep_response": "Asked what he had left over at the end of the month; prospect disclosed a $200/month budget ceiling; rep abandoned the $6,000 offer and presented the Primal Instinct University tier at $200/month or $2,000/year.",
+      "response_tactic": "partial_financial_picture_then_downsell",
+      "resolved": true
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So my money is her money, our money. We will need to have a conversation of how we can make that work.",
+      "timestamp": "00:38:27",
+      "rep_response": "Asked what her reaction would be and whether she would be supportive; explored whether he felt selfish; never asked whether it was genuinely a joint decision or offered a deposit-and-refund path.",
+      "response_tactic": "partner_reaction_probe",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I don't really want to make a decision right here right now I just want to sleep on it and we can make it work.",
+      "timestamp": "00:49:00",
+      "rep_response": "Explicitly declined to push (\"I'm not going to force you into doing anything\"), reframed it as uncertainty, ran the skydiving/plane analogy, then accepted the delay.",
+      "response_tactic": "uncertainty_reframe_skydiving_analogy",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I don't really have any of my kettlebells, my gym environment, my normal ability to start a new endeavor... This is just more of a discovery call to see how I can make this work and map it out.",
+      "timestamp": "00:53:01",
+      "rep_response": "Agreed with the objection — \"Does sound fair in the sense of you don't have anything with you at the moment\" — and booked a 15-minute setup call for Sunday instead of closing.",
+      "response_tactic": "concede_and_reschedule",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No structured plan was built. Rep said only: \"most guys, they just put it all up front. We don't have anything, like, set in stone... we would just have a conversation about it and see what would work.\"",
+    "guarantee_mentioned": "\"After that, you'll stay in the community. And of course, if you had done everything that you needed to do in those six months, but we just haven't touched a goal specifically yet, he would stay with you until you have.\"",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 200,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Verbally agreed to the low tier: \"Awesome. Yeah. Awesome. Let's get started with that.\"",
+      "Immediately walked it back: \"I still need to run this with my partner and make a game plan with her... I don't really want to make a decision right here right now I just want to sleep on it.\"",
+      "No payment taken and no payment link sent — only a calendar invite for a 15-minute Sunday setup call and an informational link about Primal Instinct University",
+      "Counter-evidence: the rep himself framed Sunday as \"get you set up\", so intent to buy the $200/mo tier is high; but nothing was collected or committed on this call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "15-minute call Sunday 17:00 Perth time with Richard (partner invited) to set up the Primal Instinct University membership; informational link sent in the meantime."
+  },
+  "notable": {
+    "note": "The $6,000/6mo offer was abandoned mid-call and replaced live with a much cheaper community product (Primal Instinct University, $200/mo or $2,000/yr) as soon as the prospect named a $200/month budget. The rep never ran the money play to completion — no cards, credit or assets were explored — and later conceded the timing objection outright rather than working it. This is a substantially out-of-ICP prospect (carpenter, single household income, renting) who was downsold rather than disqualified."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent single-turn inversions throughout — e.g. at 00:01:43 the rep's own framing question \"So Simon, what can we potentially actually help you with?\" is attributed to Nic, and at 00:32:17 the rep's answer is labelled Richard while the question is labelled Nic. Role was read from content. Connection also dropped repeatedly (\"you cut out for a second\"), and there is at least one garbled machine artefact around 00:26:27."
+  }
+}

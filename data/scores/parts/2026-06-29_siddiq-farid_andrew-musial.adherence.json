@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-29_siddiq-farid_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "miss",
+      "checks": { "P1a": "not_applicable", "P1b": "miss", "P1c": "miss", "P1d": "not_applicable" },
+      "evidence": "The prospect took the frame within thirty seconds and kept it for the whole call: 'Listen, yeah, I'll keep it short. Listen, I had a conversation, so a couple of things here, right? So there's two elements over here that we need to sort of navigate.' The rep never set an agenda, never asked whether that worked, and never reclaimed control. Setter read-back and the opening discovery question are not applicable on a second call."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Follow-up call. Baseline was gathered on the prior call, which is not in this batch."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goal discovery belongs to the prior call. Worth recording for the coach that the rep never once referenced the prospect's established why on this call, which is scored against him under P5 and under the not-the-right-time play rather than here."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts and root cause belong to the prior call."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "partial", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "This is the phase the call needed and it barely ran. The objection was a five-week deferral, and the entire consequence frame was one line — 'The is, there's never perfect timing, yeah? There's always going to be never is.' — which the prospect agreed with and which the rep did not build on. No two-year picture, no 'is that something you're willing to settle for', no 'why not', no line in the sand. A month of delay was conceded without the cost of the delay ever being made real."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "The prospect volunteered commitment three times — 'I'm committed to this, I want to do this', 'Physical commitment is there. It's a financial commitment', 'I would prefer to do the full six months, just commit to it' — and the rep never asked either scripted question, so under the scoring rule none of it counts. P6c is the sharpest miss: clear hesitation surfaced and the correct move was to return to Phase 5; instead the rep moved to restructuring the offer and then to booking a date."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No payment was attempted or possible — the prospect deferred to late July. Note that no deposit was requested either, although the internal calls show deposits are routine for exactly this situation."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The trigger is explicit and is the whole call: 'for me, this would be August 1st commencement thing.' Two moves ran. The rep correctly separated the stated reason from the real one — 'when you say the timing is not perfect, you mean like... You're going to be traveling, what's going on?' — and established it was cash cycle rather than schedule. He then ran the what-if-everything-was-handled move well: 'Trevor maps out the whole program, it is tailored to your needs, your schedule, to your lifestyle, and on top of that... whenever something unpredictable happens... you just text him and he adjusts the program.' After that it stopped. The 'things never slow down, when does it actually become the right time' question was reduced to a single assertion the prospect simply agreed with. The compounding-cost moves never ran, and 'the only thing you can control is right now' never ran. The rep's last attempt was a peer nudge — 'I thought today, you know, you're a business guy, I'm a business guy too' — which is not in the play."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger present at the top: 'the overall budget is a bit stretching it... around $4,000 or $5,000.' The isolate never ran — no 'finances aside, is there anything else keeping you from being 100% in'. No SHOULD-versus-HOW frame. No permission question about an open, honest financial conversation. None of the six financial-picture questions ran: no cash on hand, no monthly surplus, no credit cards, no available credit, no investments. The only OC element present was the payment-plan opener, and it arrived as a product change rather than a structure conversation. Third-party financing was offered late and declined flat. Mitigating: the prospect had already stated capacity, so the wallet was demonstrably open and the financial picture would have added little — but that is a judgement the rep never tested."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap worth adding to the two already logged. This is a qualified, solvent, self-declared-committed buyer deferring purely to align the payment with his cash cycle — 'I don't want to start the program now and make payments later. want to start the cycle then.' The script's only tools for money are capacity tools: isolate, financial picture, payment plan, financing. None of them address a buyer who can pay and simply wants to pay in five weeks. The available answer sits outside the playbook entirely and inside the team's own operating practice: take a deposit to hold the deal and the price, which the internal calls show is routine. It was never offered."
+    }
+  ],
+  "notes": "Eleven minutes in which the prospect ran the agenda and the rep negotiated rather than sold. The one thing this call needed was a consequence frame on a five-week delay, and it got a single line. Two concrete coaching points: when a prospect defers on cash cycle rather than affordability, stop restructuring the offer and start building the cost of the delay; and when a prospect asks you to take a price request to the coach, answer it on the call — leaving a $5,000 request unacknowledged hands the next conversation to him."
+}

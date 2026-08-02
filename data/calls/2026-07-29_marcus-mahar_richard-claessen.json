@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-07-29_marcus-mahar_richard-claessen",
+  "source": {
+    "drive_file_id": "1Fwclm6pE87cOIhcXBtSgVBls_FNnV4WT",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/29/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 59320
+  },
+  "call": {
+    "date": "2026-07-29",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 59,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named. Rep opened with 'I already saw like your application', suggesting a self-submitted application rather than a setter call."
+  },
+  "prospect": {
+    "name": "Marcus Mahar",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Los Angeles, California, USA",
+    "age": 40,
+    "occupation": "Desk-based work, sits approximately 8 hours a day (specific occupation never asked)",
+    "family_status": "No partner, no children; father is 91 and still alive",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Started going to the gym about two years ago; worked with a trainer who introduced him to mobility work, but that trainer left the country. Currently barely trains — the community gym is small and gets crowded. Does self-administered myofascial release with a ball; walks 6,000-8,000 steps a day; occasional hikes.",
+    "kettlebell_experience": "none",
+    "medical": "Self-reported lumbar hyperlordosis (he calls it 'pronation... when the lower back kind of caves in a bit more') and a 'slight form of scoliosis' which he says gives him no problems beyond upper-back tightness. Chronic tightness in chest, quads and hamstrings from prolonged sitting. Explicitly worried about entrenching bad posture through training."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Already lean and eating clean — 'I have like a lean physique. It's just that I want to kind of shed, like just around the midsection'",
+      "Bought at full price after evaluating alternatives on value, not affordability — 'I look at things of, like, investment versus, like, what you get out of it'",
+      "Longevity framing off his 91-year-old father rather than any crisis",
+      "Purchase framed as a reward: 'It's kind of like a gift to myself'"
+    ]
+  },
+  "goals": [
+    { "text": "Lose fat around the midsection while staying lean", "category": "fat_loss" },
+    { "text": "Build muscle, particularly shoulders and chest, and get visible definition", "category": "muscle_gain" },
+    { "text": "Build strength", "category": "strength" },
+    { "text": "Keep and improve mobility, release tightness from sitting", "category": "mobility" },
+    { "text": "Hold on to mobility, strength and muscle as he ages — driven by watching his 91-year-old father", "category": "longevity_function" },
+    { "text": "Be in better shape by his 41st birthday in September as 'a gift to myself'", "category": "appearance" },
+    { "text": "Short full-body workouts he can do at home or anywhere, without losing time to the gym", "category": "convenience" },
+    { "text": "Learn to do it himself rather than stay dependent on a trainer", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Community gym is tiny and gets packed; standing around waiting between reps feels like wasted time, so he mostly does not go", "category": "training_barrier", "severity": "high" },
+    { "text": "Lost the trainer who taught him mobility — 'that trainer's gone, he left the country, so I feel like I also don't have the knowledge of what to do'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Sits eight hours a day and manages the resulting tightness himself with a massage ball", "category": "training_barrier", "severity": "medium" },
+    { "text": "Chest, quad and hamstring tightness; upper back tightness attributed to slight scoliosis", "category": "injury", "severity": "medium" },
+    { "text": "Poor posture and lumbar hyperlordosis, with an explicit fear of making it worse through training", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Has been unable to build his chest with gym weights", "category": "training_dissatisfaction", "severity": "low" },
+    { "text": "Sweet tooth and weekend eating out — pastries, burgers, pizza", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Watching his 91-year-old father's decline and wanting to avoid it", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "Well, I'll think about it, and I can, like, let you know via text message, or?",
+      "timestamp": "00:33:56",
+      "rep_response": "Did not accept the deferral — asked 'do you feel like it is something you feel like, yeah, you see yourself doing this?' and kept digging until the real blocker surfaced",
+      "response_tactic": "refuse_deferral_and_probe_for_real_blocker",
+      "resolved": true
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I kind of want to look into different options of, okay, well, how, you know, if I find a local trainer or something, like, how many sessions will that get me, and what type of, you know, so, yeah, I just want to kind of, like, compare and, yeah, see what the best fit is for me.",
+      "timestamp": "00:34:23",
+      "rep_response": "Asked whether an in-home local trainer actually fits the time constraint he had named, then asked whether he would know how personalised that trainer would be before starting either — turning the comparison back on itself",
+      "response_tactic": "test_alternative_against_his_own_stated_criteria",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "It's like a one time and then it's like, well, now I, if I don't like it, if I'm not happy with the, you know, the feedback time or whatever the case may be. Like I'm kind of stuck with it for six months.",
+      "timestamp": "00:41:20",
+      "rep_response": "Invented a one-month 'love it or leave it' trial on the spot with the balance to $6,000 payable if he continues, plus a review meeting booked three and a half weeks out",
+      "response_tactic": "improvised_trial_period_concession",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "the thing that I'm more concerned about is, um, signing up and then it maybe not feeling as, um, yeah, as personalized",
+      "timestamp": "00:39:25",
+      "rep_response": "Gave informal response-time estimates ranging from 'within a minute' to 'within a day' and pointed out he could not verify personalisation with any provider before starting",
+      "response_tactic": "estimate_sla_and_reframe_unverifiability",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "A one-month 'love it or leave it' trial constructed live: pay for one month, review at three and a half weeks, and if he continues 'it would just become 6,000 in total again'. The price of the first month was never stated aloud at any point on the call. Payment was taken during the call but the amount is not spoken.",
+    "guarantee_mentioned": "Not a guarantee in the refund sense — the rep offered an exit rather than a refund: 'we do a month, and then we book in a meeting for three and a half weeks from now... if you say, Richard, I love this, then we'll continue. If not, I want to hear your feedback, things that we can do better.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment confirmed on the call by both parties — prospect: 'I finished the agreement, and then I did the payment as well'; rep: 'the payment I saw come true'",
+      "Agreement email received and signed during the call",
+      "Trevor onboarding call booked for Monday 3:15pm Pacific, invite sent and confirmed received",
+      "Skool community access opened on agreement completion; onboarding questionnaire link sent by WhatsApp and email",
+      "Review meeting booked for Thursday the 27th at 7am Pacific under the trial arrangement",
+      "Counter-evidence: the amount paid is never stated on the call, and what he bought is a one-month trial rather than the six-month programme, so the revenue actually collected cannot be established from this transcript"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": "Payment was taken and confirmed live, but the sum was never spoken. The structure is a one-month trial with a stated total of $6,000 if continued; the first-month figure is absent from the transcript and must be reconciled against the payment processor.",
+    "next_step": "Complete onboarding questionnaire and join Skool today; Trevor onboarding call Monday 3:15pm Pacific; trial review call Thursday 27th 7am Pacific"
+  },
+  "notable": {
+    "note": "Cleanest process call in the batch and the only completed onboarding — all four P11 steps executed and confirmed on the call. Two things a principal should see anyway: a one-month 'love it or leave it' trial was invented live and is not part of the published offer, and the first-month price is never stated in the transcript despite payment being taken. Separately, the prospect disclosed scoliosis and lumbar hyperlordosis, explicitly said he feared entrenching bad posture, and the rep responded by promising a mobility routine 'aligned with the scoliosis' without anyone asking whether a clinician had cleared him for loaded work."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent swapping — many of the rep's discovery questions carry the 'Marcus' label and several of the prospect's answers carry the rep's label, including the scoliosis disclosure at 00:03:25-00:03:38 which is split across both labels. Roles resolved from content. Surname taken from the rep reading the prospect's email address back to him and asking about the pronunciation of his last name ('mahar.marcus85.gmail.com'). A 2-minute gap at 00:47:57-00:49:28 is the rep leaving for the bathroom, and a 45-second gap at 00:52:05-00:52:58 is unexplained."
+  }
+}

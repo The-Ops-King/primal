@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-13_jorge-suira_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The three-pillar system was never delivered on this call. The rep moved from the readiness challenge straight to a Primal University screen share at 00:13:51 and described that product's contents instead. Pillar one was never named. Notable because mobility and flexibility were the prospect's own stated priorities and pillar one is built for exactly that."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered, and never even mentioned as a pillar. The prospect had identified meal structure as one of his two gaps — 'I don't really have like a structure to like working out and like meal plans and all that stuff' — and the pillar that answers it directly was not presented to him."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Also the pillar most likely to have changed this call: the prospect had just diagnosed his own problem as a total absence of external challenge — 'I stopped challenging myself... the people that I was surrounded with weren't really challenging me to better myself' — and 'somebody being there, and you're kind of committed' was what he said he was looking for. Nothing was said about it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_substitute",
+      "raw": "from when I started working out, like maybe like after what, like a month and a half ago. So I've lost like 30 pounds and I do a mix. Like I do two, three days at the, I go to Lifetime. So at the gym, they have the turf and I just do some of the stuff that Trevor does, his routines, mobility movements that he does. And then some other girl called Vanya.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Instagram and YouTube content, plus another free coach",
+      "note": "The decisive anchor and the strongest instance of the known script gap anywhere in this corpus. The free version of the product is currently producing 30 lb of weight loss in six weeks for this prospect. It surfaced only at 00:17:15, after he had declined, because the rep never asked what he was currently doing or what results he was getting."
+    },
+    {
+      "type": "competitor_program",
+      "raw": "because I joined another competition, some, like, some other guy in Miami, and yeah, it was just like, you know, you sign up, they do all these things that you have to do, and yeah, you do see the changes. That's what I thought it kind of was.",
+      "direction": "undercuts_price",
+      "competitor": "A Miami-based 90-day transformation challenge",
+      "note": "He has bought and completed a competitor's structured challenge and it worked. That experience is the template he arrived with, and it defines both the format and the likely price he expected. Never explored."
+    },
+    {
+      "type": "advertising_expectation",
+      "raw": "from what I saw in the ad, it was like, you know, when they look for certain people to do a challenge and see like a, like it was a three month, right? So 90 day transformation.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The offer in his head before the call was a selected challenge, not a purchased coaching package. Everything quoted afterwards was measured against a format he believed he was being invited into rather than sold. This is a marketing-to-sales handover problem, not a rep problem."
+    },
+    {
+      "type": "sunk_equipment_and_content",
+      "raw": "I do have like, I do have kettlebells and I do have maces. I bought them because of Trevor. I do some of his like Instagram and YouTube stuff at home when I can't go to the gym.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Two years of following, equipment bought specifically because of this coach, and daily use of the content. Extraordinary pre-existing affinity — the warmest lead in the batch on paper — which makes the loss a process failure rather than a lead-quality one."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A selected 90-day transformation challenge with a prescribed start-to-finish protocol — 'let's go from point A to this... you guys can commit to like the days that you guys want, what I have to eat, all these things. If I follow it to a T, I want to see this transformation'",
+      "why_unmet": "No such product exists. The offer is three, six or twelve-month one-to-one coaching, or a self-navigated content library. He had done exactly this format elsewhere and it worked, and he came to this call expecting to be selected into one.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Done-for-you structure rather than another library to self-navigate — he already assembles his own programme from several coaches' free material",
+      "why_unmet": "Primal University is a roadmap he would still have to drive himself, which is the thing he is already doing successfully for free. The one-to-one coaching does close this gap, and it was recommended against before he could evaluate it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "External challenge and commitment — 'it's different, obviously, when you just kind of do your own thing, and then you kind of have, like, a structure and somebody being there, and you're kind of committed'",
+      "why_unmet": "This is precisely what the accountability pillar and the weekly Trevor contact provide, and neither was presented on this call. He named the need in his fourth answer and left without hearing that the product exists.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

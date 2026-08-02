@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-06-07_jan-falesnik_andrew-musial",
+  "source": {
+    "drive_file_id": "1kK3uAyMRcsVAyx-btmiplX08D1zW6ZM1",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/07/2026 - Jan Falesnik x Andrew Musial ",
+    "display_title": "06/07/2026 - Jan Falesnik x Andrew Musial  — Closed",
+    "file_size_bytes": 58385
+  },
+  "call": {
+    "date": "2026-06-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 67,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Kraków, Poland (originally Poznań)", "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "So, Kim told me a little bit about you. So, you're in field sales, so to speak. You've been, you're driving, driving all day. You have a six-year-old sun."
+  },
+  "prospect": {
+    "name": "Jan Falesnik",
+    "aka": null,
+    "name_source": "title",
+    "location": "Zlín, Czech Republic",
+    "age": 38,
+    "occupation": "Field sales — drives long distances daily, overnight business trips Wednesday and Thursday",
+    "family_status": "Married with a six-year-old son; wife referenced as someone he needs to consult on the spend",
+    "height_in": 71,
+    "weight_lb": 148,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Daily 5-10 minute morning mobility, stretching or power yoga at around 5.30am, largely copied from Trevor's YouTube routines which he has followed for four to six months. Inconsistent with heavier compound training — trains on no fixed days. Bought his first kettlebell, 12kg, about three months ago and has been imitating Trevor's routines without knowing whether his technique is correct. Also runs, bikes, hikes, and does pull-ups, push-ups and dips. Hiked 18km in the Beskydy mountains the day of the call. Has been the same weight since age 15 and has always struggled to gain.",
+    "kettlebell_experience": "some",
+    "medical": "Two years of lower back pain attributed to prolonged sitting and driving. Has had an MRI: a vertebra he identified as 'number six from below' is displaced — 'It's dorsally forward. It's not crashed or anything, but you know, it's sliding.' A doctor reviewed it and told him it is not a surgical case but to be aware of it. Physiotherapy was tried and did not help. He was considering seeing a chiropractor. Also reports poor sleep quality, which he manages by not eating after 6pm."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.7,
+    "signals": [
+      "Proposed label: the_pre_sold_content_follower — arrives already converted by the founder's organic content rather than by a person. Distinct from the_warm_referral because there is no partner or friend in the programme; the pre-framing is entirely parasocial.",
+      "Four to six months of watching Trevor on YouTube — 'I think I'm watching Trevor like six months now' — and has watched 'pretty much all' of the Q&As, so he arrived knowing the four stages and the programme structure.",
+      "Already acting on the free content daily: does Trevor's morning routines and bought a 12kg kettlebell three months ago specifically because of him.",
+      "Told the rep not to sell: 'you don't need to like sell on me about like the program, because I think that I'm definitely want to do something like that'.",
+      "Counter-signal for the_optimizer: he is lean and active but explicitly lacks structure and consistency, and price was a mild real constraint — his card limit could not carry $6,000 in one transaction."
+    ]
+  },
+  "goals": [
+    { "text": "Build consistency and structure into training instead of exercising on whatever day happens to be free", "category": "consistency" },
+    { "text": "Gain lean muscle — has been 67kg since he was 15 and has always struggled to put on weight", "category": "muscle_gain" },
+    { "text": "Get rid of the lower back pain by fixing its cause rather than working around it", "category": "injury_confidence" },
+    { "text": "Three properly dialled-in 30-40 minute workouts a week that fit around driving and overnight trips", "category": "convenience" },
+    { "text": "Be able to keep up with and match his son as the boy grows — 'the guy who can match whatever his son throws at him in the next 10-20 years'", "category": "family_role_model" },
+    { "text": "Still be mobile at 70 or 80 — 'I want to be mobile when I'm gonna be 70 or 80 or whatever'", "category": "longevity_function" },
+    { "text": "Learn to perform kettlebell movements correctly rather than guessing from videos", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Two years of lower back pain from sitting and driving, with an MRI showing a displaced vertebra; worsens on long drives and occupies his attention through the day", "category": "injury", "severity": "high" },
+    { "text": "Physiotherapy was tried and did not help — 'that really didn't click with me or that really didn't help'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No structure at all — never schedules training, trains on random days, picks routines off YouTube ad hoc", "category": "consistency", "severity": "high" },
+    { "text": "Trying many modalities at once — runs, bikes, hikes, calisthenics, kettlebells — and seeing no progress from any of them", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Does not know whether his self-taught kettlebell technique is correct or too advanced for him", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Poor sleep quality, which he has been self-investigating", "category": "sleep", "severity": "medium" },
+    { "text": "Fear of failing himself if he commits and does not follow through — 'you are afraid of failing'", "category": "confidence", "severity": "medium" },
+    { "text": "Unpredictable schedule — long drives, variable hours, two nights a week away from home", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "that is a lot of cash though",
+      "timestamp": "00:44:00",
+      "rep_response": "Slowed the conversation, isolated finance from everything else — 'let's put finances aside for a second. Apart from that, is there anything else, any other reason that will stop you from being 100% in on this?' — and let the prospect argue himself round. Jan supplied his own reframes: the Africa trip, the cost of back surgery, and 'you can earn more money, but then this is your health'.",
+      "response_tactic": "isolate_then_let_prospect_self_reframe",
+      "resolved": true
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "i don't want to really like say straightforward that i need to talk to my wife but i do",
+      "timestamp": "00:44:00",
+      "rep_response": "Nothing. The rep did not acknowledge, repeat or address this at any point in the remaining 23 minutes. He redirected to isolating finances and then closed on the same call. No scripted OB move was run and the wife was never mentioned again by either party.",
+      "response_tactic": "none_objection_ignored",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "So is there any way how I could go through this and give you guys feedback tomorrow? Or you just need to know it right away now?",
+      "timestamp": "00:44:00",
+      "rep_response": "Declined the delay by redirecting — 'Okay, yeah, let's slow down for a second' — isolated the money, surfaced fear of failure as the real blocker, then closed assumptively: 'From what I'm hearing, you already made the decision. You just need someone to, like, pat you on the back.'",
+      "response_tactic": "isolate_then_assumptive_close",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I can definitely say I'm scared uh to to commit but at the same time i really know i really have to",
+      "timestamp": "00:39:57",
+      "rep_response": "Reframed the fear as evidence of caring — 'being scared, that means that you care' — then ran the Andy Frisella comfort line, 'tell me one thing in your life that is great, that came as a result of being comfortable', and the brain-wired-for-comfort frame. Jan engaged and moved on.",
+      "response_tactic": "reframe_fear_as_commitment_plus_discomfort_frame",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "the only thing is that my credit cards are probably going to hold me onto this, because my limits are not this high to pay in one amount.",
+      "timestamp": "00:50:40",
+      "rep_response": "Asked for the card limit, waited while Jan searched his online banking and went to his car for the card, then offered the sanctioned two-pay: 'we could split it in half so you can start already... pay half in 30 days'. Payment processed on the call.",
+      "response_tactic": "split_to_two_payments_to_fit_card_limit",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two payments: 50% ($3,000) charged on the call, the remaining 50% ($3,000) taken from the same card in 30 days. This matches the sanctioned two-pay described by sales operations on 05/26 as 'payment 1 today, payment 2 in 30 days'. Offered specifically because the prospect's card limit could not carry the full amount, and framed as avoiding interest — 'so you don't pay more on the interests'.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial picture was taken. The only figure sought was the credit card limit, which the prospect could not locate. He stated 'The job I'm working is a good-paying job' and 'I'm okay with the money... it's not like I don't have it', while also saying 'I'm definitely not super wealthy' and '$6,000, it is a lot of money for sure for me'. He compared the price to a 10-day trip to Africa he took last year."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment was actually taken and confirmed live, not merely agreed: 'All right, processing.' followed by the rep's 'Okay, let me check. Okay, got you, man.'",
+      "The agreement was signed on the call — 'You were invited to review and sign a document' and then 'All right. I've signed that.'",
+      "Onboarding call with Trevor booked for the following evening at 7.15 and confirmed in the prospect's calendar: 'Onboarding session seems I have it, yeah.'",
+      "Contact details confirmed for onboarding: email falesnikjan@gmail.com and a phone number.",
+      "Counter-evidence a manager should see: the prospect said he needed to speak to his wife before deciding and was closed 23 minutes later without that ever being addressed or resolved.",
+      "Counter-evidence on readiness: 'I didn't expect you, you will be wanting $6,000 from me on Sunday evening. So I was not ready for this at all.'"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor on Monday 06/08/2026 at 7.15pm. Second payment of $3,000 auto-charged to the same card in 30 days. Rep also volunteered to send his personal WhatsApp number for informal progress updates."
+  },
+  "notable": {
+    "note": "The most serious clinical finding in this batch. Jan disclosed an MRI-confirmed displaced vertebra and two years of back pain, and was sold a programme built on kettlebell swings — a loaded ballistic hip hinge — with no question at any point about whether a clinician had cleared him for it. The rep instead diagnosed the mechanism himself, dismissed the chiropractic route as not addressing root cause, told him physiotherapy had failed him, and promised results 'within just first few weeks'. Separately, the prospect stated he needed to talk to his wife and the rep never acknowledged it, closing on the same call. Commercially the call was clean: list price, sanctioned two-pay, payment taken, agreement signed live, onboarding booked — the P11 execution is the best in the batch."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and continuous inversion. The rep speaks under the label 'Andrew Jin (Primal Instinct)' but is Andrew Musial — he states he lives in Kraków and is originally from Poznań, and the title and folder both say Musial. Beyond that, whole passages are attributed backwards: the opening 'Hi Jan' at 00:00:01 sits under Jan's own label, the prospect's answer 'I'm 180. I have 67 kilos' at 00:08:38 sits under the rep's label, and the entire pricing passage from roughly 00:44:00 attributes the rep's '$6,000' delivery and the prospect's reaction to the wrong speakers. Roles were resolved from content throughout. Title also carries a trailing space and, unusually for this rep's calls, no setter suffix, although the transcript names Kim explicitly."
+  }
+}

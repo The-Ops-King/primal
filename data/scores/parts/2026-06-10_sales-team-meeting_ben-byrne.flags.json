@@ -1,0 +1,96 @@
+{
+  "call_id": "2026-06-10_sales-team-meeting_ben-byrne",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "Sales manager stated he looked up a prospect's personal credit and income data before the call and briefed the closer on it; the figures also contradicted what the prospect disclosed live an hour later.",
+      "evidence": [
+        "He's got a strong driver, strong intent, and I looked up his financial data. He's got 10K credit, he's got 106K income, he's a total beginner, so he's in a good spot. Do your best.",
+        "Like the David Elder guy?"
+      ],
+      "timestamp": "00:05:59"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Manager instructed reps to take a card on file with an assurance it will not be charged until an agreed date, noting the card can be run regardless once held.",
+      "evidence": [
+        "Even if it's like a credit card commitment, even if they're like, I cannot run money, be like, cool, then we'll just take down the card on file and I won't run it until this day.",
+        "Because once the card's on file, we can technically just run it."
+      ],
+      "timestamp": "00:09:42"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager instructed the team to apply a harder financial qualification to prospects based on their country of origin.",
+      "evidence": [
+        "If they come from certain, like UAE is one of those countries where I probably wouldn't hard financially qualify too much. If somebody's coming from Egypt, yeah, I probably would, you know, like let them know a little bit harder about the investment, Kim.",
+        "if you have somebody from countries that it might be harder for them to afford things, just, like, let them know, you know? Just kind of give them a little bit of a harder FQ."
+      ],
+      "timestamp": "00:23:15"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A prospect reported in writing that he was pressured and that his disclosed feelings about his father were used against him on a closing call; the coaching response addressed objection technique rather than the pressure.",
+      "evidence": [
+        "he basically said that he didn't like at the end that he felt pushed and used the emotions about his father and so on. Yeah, so I technically burned him, but now we know.",
+        "You got the feedback. He gave you the feedback, too. We've clarified. know exactly what the thing is. And just got to do a better job of isolating the right objection and understanding where the person's coming from."
+      ],
+      "timestamp": "00:14:28"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Manager stated payment plans are only offered where affordability is certain and improvised financial terms only when the prospect proposes them; the same afternoon a closer on this call improvised three unpublished lower price points for a prospect with zero income and zero savings.",
+      "evidence": [
+        "I only sell people if I know for sure they can afford it and it's not going to put them in a tight spot when I offer payment plans and I do stuff like That's what I do.",
+        "the only time I ever do something financially for somebody that I'm like, whoa, that's not something I would do, is if they suggest it. Because I'm not here to play God.",
+        "I got to use the washroom really quick, and then I'm going to jump on with David and end the day with a couple sales here."
+      ],
+      "timestamp": "00:54:28"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager taught deliberately withholding the deposit amount in order to gauge and then challenge the prospect's reaction.",
+      "evidence": [
+        "I actually like to not tell them what the deposit is going to be and then see if they react terribly to it. And then I say, Hey dude, like I could have told you it was $1. Like what's going on?",
+        "Yeah. That's my favorite. They always look at me like, damn, you're right. You got me."
+      ],
+      "timestamp": "00:09:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect-facing text conversations are handled by an AI chatbot and read back by reps, with no disclosure of the automation mentioned anywhere in the meeting.",
+      "evidence": [
+        "He messaged our AI bot that I already know everything from the first call. I only need to know the price.",
+        "Manny yesterday didn't show up, but well, he actually texted also our AI chat bot, and I didn't see that."
+      ],
+      "timestamp": "00:03:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A results guarantee is taught as a closing rebuttal without any stated terms, conditions or scope.",
+      "evidence": [
+        "Would you bring up also the performance guarantee at that point? Yeah, I would. I'd bring it up. I'd we're literally guaranteeing it.",
+        "When it comes to guaranteeing the results, like we do, Trevor's the best. And that's why the investment is what it is."
+      ],
+      "timestamp": "00:48:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A pending close was being held out of the weekly numbers pending an international transfer, and the new deposit rule changes how commitments are logged mid-corpus.",
+      "evidence": [
+        "I'm not going to count in that Jorge guy until the money's in the account, and that might not be until Friday.",
+        "We'll get a commitment because we can't put an onboarding call. Like moving forward, no onboarding calls go on the calendar unless we take a deposit."
+      ],
+      "timestamp": "00:16:53"
+    }
+  ]
+}

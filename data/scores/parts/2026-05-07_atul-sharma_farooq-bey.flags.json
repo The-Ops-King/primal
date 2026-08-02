@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-07_atul-sharma_farooq-bey",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated the company does not run a subscription model and then, ten minutes later on the same call, offered a $200 per month cancel-anytime subscription.",
+      "evidence": [
+        "we're not interested in the business of you using us after the program is done. Once you're done, you're done. It's not a subscription model that we run here, okay?",
+        "You're going to notice it's $200 a month, but you're not committed to anything. You can cancel that at any time. But yeah, ultimately, I think that's what's going to best serve you."
+      ],
+      "timestamp": "00:35:10"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Having disqualified the prospect from the company's programme, the rep disclosed that he runs his own fitness coaching business alongside this role.",
+      "evidence": [
+        "If you were to really, like, put gun to my head, I don't really think you need the one-on-one coaching like that, you know?",
+        "Um, I do what I'm doing now with a few other businesses, consult, mainly in the fitness space. have my own fitness coaching that I'm doing here as well. So yeah, doing a few different things at the moment.",
+        "You know, doing your own thing is always better than jobs."
+      ],
+      "timestamp": "00:41:25"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A full 42-minute sales call is stored under the title 'Impromptu Zoom Meeting' with no prospect name, so it is invisible to any title-driven identification of sales calls and would plausibly be classified as internal.",
+      "evidence": [
+        "05/07/2026 - Impromptu Zoom Meeting",
+        "00:00:44 - Farooq Bey (Primal Instinct)  So, Atul, we have a limited amount of time. Let's dive straight into it.",
+        "00:31:10 - Farooq Bey (Primal Instinct)  So, yeah, it's really simple in terms of next steps at all. There's only three levels of a program."
+      ],
+      "timestamp": "00:00:44"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Rep presented an unlisted $4,000 three-month tier, an unlisted $1,200 one-month tier and a $200 per month Primal University subscription alongside the published $6,000 and $9,000 prices.",
+      "evidence": [
+        "So, for three months, the investment is 4,000 US. For six, it's six. And for 12, it's nine. We have a one-month option, which is called Love It or Leave It... And that's 1,200 bucks, right?",
+        "You're going to notice it's $200 a month, but you're not committed to anything.",
+        "Yeah, you get access to our community, which is usually $200 a month. You guys get access to that included, okay?"
+      ],
+      "timestamp": "00:31:10"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed lifelong lower back, hip and shoulder pain and ongoing chiropractic care; the rep explored the symptoms but never asked whether a clinician had cleared him for loaded ballistic kettlebell work while positioning the programme as the remedy.",
+      "evidence": [
+        "Mostly lower back, hip area, right? And then shoulders, I guess.",
+        "It's always been the case. It's improving, but, you know, I think it can be much better.",
+        "All my chiropractors say I'm the stiffest guy that I've ever met, you know, especially for the amount of workouts and all this stuff I do.",
+        "You're to be a position where you know how to do every single move with pristine form, which is obviously going to help to alleviate any limitations and always, you know, also to avoid injury."
+      ],
+      "timestamp": "00:08:45"
+    }
+  ]
+}

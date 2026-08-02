@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-05-11_colin-kobza_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The coaching price was quoted only in Canadian dollars, guessed aloud at three different figures before the rep looked up a conversion, and never stated in the USD it is actually priced in.",
+      "evidence": [
+        "it's 6k us for six months so I think that would be around eight grand Canadian something like that I would assume maybe eight and a half 8.3",
+        "how much is 6,000 us dollars in Canadian dollars how much is 6,000 us dollars in Canadian dollars my series not working let me get it for you",
+        "I'll tell you what it is um 8 200 Canadian"
+      ],
+      "timestamp": "00:09:57"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A CAD 270 per month Skool tier outside the approved offer structure was presented as the primary product and occupied most of the call.",
+      "evidence": [
+        "that's the coaching but then we have the more self-guided stuff which is I'll tell you what that is in Canadian uh 270",
+        "And that's what, 260? 270 Canadian per month.",
+        "It's monthly. It's just monthly recurring. You don't have to commit to a specific time period.",
+        "Okay. That's good. Well, you'll save some money then."
+      ],
+      "timestamp": "00:10:53"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "A 45-year-old former professional contact athlete volunteered a history of accumulated bodily damage and chronic soreness, was asked nothing about it, and was directed toward an unsupervised self-guided programme with no coach reviewing form.",
+      "evidence": [
+        "for me, I'm 46 now, and like, the big thing that I needed to change in my body is I was always sore. And I know I'm going to be sore, like, I beat the living piss out of my body for years.",
+        "I played minor professional hockey. I was close to making the National Hockey League.",
+        "This would be great for making sure you're not sore, right? Making sure your joints are all good.",
+        "the difference with the coaching is it's tailored to you, Trevor creates it for you and he's there for support 24-7. That's the only real difference."
+      ],
+      "timestamp": "00:13:18"
+    }
+  ]
+}

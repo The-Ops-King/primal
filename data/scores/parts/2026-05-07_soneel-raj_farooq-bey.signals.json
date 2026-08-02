@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-07_soneel-raj_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no questions — asked 'Any questions, thoughts, things you want to share?' he answered 'No' and moved on. The rep tied it to his stated constraint well, referencing 'points of instability in your body, such as the knees'. He only returned to mechanics at the price, confirming frequency: 'you said this is a 30 minute every three to five times a week?'. Notable that the knee was used as a selling point for the pillar without any question having been asked about it."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Took it without pushback — 'Yeah, no, I got it. Okay.' The significant thing is what he did not say at this point: he already has a Mayo Clinic nutritionist working with him on exactly this, referred by his Mayo primary care physician, and only disclosed it fifteen minutes later while comparing options — 'there are elements of this I'm going to get here anyway, because of the system I'm in.' The pillar was accepted in the moment and then quietly discounted from the value calculation."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar that mapped onto his own diagnosis. Before it was presented he had already said 'I found that I was most motivated when I had that trainer, honestly' and 'I like the idea of somebody holding my feet to the fire.' Afterwards he named it as the differentiator against the local option: 'I can travel and do it. And I can have that accountability through your system. That's all pluses, which I won't get if I have somebody local, except if I'm traveling, they're useless.' He built the case for the offer himself and the rep did not press the advantage."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "if I go to the club, if I price him out three to five times a week, I think I'd be ahead of that 4K number... at 4k, if I can get somebody who will hold my feet to the fire in person, that's a no-brainer",
+      "direction": "undercuts_price",
+      "competitor": "Personal trainer at his golf club",
+      "note": "The decisive anchor and an unusually strong one, because it is not a discount substitute — it is a comparable-price, in-person alternative he has direct access to and intends to go and price before the next call. He also stated his decision method: a written criteria comparison with cost treated as neutral. That means the sale will be won or lost on differentiation, not on price, and the only real differentiator (portability across constant international travel) was left unspoken by the rep."
+    },
+    {
+      "type": "existing_specialist_stack",
+      "raw": "we have a nourishment, I haven't, I didn't tell you this, but I'm part of Mayo, have you heard of Mayo Clinic?... I have a person there who does my, who I signed up. She did my first meeting with me to talk about nutrition. Generally, she's a nutritionist there. And my primary care is at Mayo as well.",
+      "direction": "undercuts_price",
+      "competitor": "Mayo Clinic — primary care physician and nutritionist",
+      "note": "Pillar two duplicates a service he already receives inside a clinical system he trusts and has already paid into. Second instance of this anchor in two days across two unrelated prospects, which suggests the bundled three-pillar price is systematically overpriced for anyone who already buys health services separately."
+    },
+    {
+      "type": "expected_price_point",
+      "raw": "If I did six months, it's 6K. It's about a 1K a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted the tier into a monthly rate himself and immediately used that rate as the basis for comparison against a per-session trainer. Once the offer is denominated in dollars per month it is competing in the personal-training market rather than in the transformation-programme market, which is the frame the rep spent fifty minutes building."
+    },
+    {
+      "type": "owned_alternative",
+      "raw": "So I got the Peloton in January, started walking pretty regularly till the knee started hurting... I was walking three miles with that [weighted vest]... I lost, I don't know, almost seven, eight pounds.",
+      "direction": "undercuts_price",
+      "competitor": "Peloton and weighted-vest walking",
+      "note": "Already-owned equipment that produced a real, measurable result — seven to eight pounds. He is not a man who has failed at self-direction; he is a man whose self-direction worked and then hit a ceiling. That is a materially different starting point from most of this corpus and the rep never established it explicitly."
+    },
+    {
+      "type": "premium_health_spend",
+      "raw": "I did these things you do here where you go get the blood drawn and they give you a hundred biomarkers, so I did that, knock on wood, everything's good",
+      "direction": "supports_price",
+      "competitor": "Function Health biomarker panel",
+      "note": "The one clearly supportive anchor. He buys premium, discretionary, preventative health services without being asked to justify them, and he confirmed funding is not the issue. The purchase decision here is entirely about demonstrated value, not capacity to pay — which makes the absence of a consequence frame and of a differentiation answer the whole story of the call."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Proof points before committing — a way to test whether he can keep up and whether the method suits him, before signing a three-to-twelve-month commitment",
+      "why_unmet": "The published tiers begin at three months and $4,000 with nothing beneath them. The need was met only by an unlisted $1,200 product the rep introduced with 'we don't only typically do this', so the answer to the most common objection in this corpus exists off-menu and at the rep's discretion.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Hands-on, in-person correction of his form — the thing he believes a local trainer gives him that a remote programme cannot",
+      "why_unmet": "Genuinely not offered; the model is weekly video review. The programme's real counter is that a local trainer is useless during heavy international travel, which the prospect said himself and the rep never used. Recorded as positioning rather than product because the value case exists and was simply not made.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A scope that does not duplicate the nutrition guidance he already receives from a Mayo Clinic nutritionist and primary care physician",
+      "why_unmet": "The offer is a fixed three-pillar bundle at one price with no training-only option, and nobody addressed how the nutrition pillar would coordinate with, or defer to, an existing clinical provider.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Programming appropriate for a 58-year-old carrying 25 lb of excess weight with knee pain that has already stopped one training modality",
+      "why_unmet": "The rep asserted that this way of training returns the body to how it is designed and cited the knees as a reason to buy, but no question was asked about the knee, the inflammation, or whether any clinician had cleared him for loaded ballistic work. The claim was made; the suitability was never established.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

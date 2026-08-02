@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-07-29_michael-galvan_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed throat surgery one month before the call, still within the insurance claim period, and was sold progressive loaded kettlebell training with weight increases without a single question about recovery status, restrictions, or whether a surgeon had cleared him for exertion.",
+      "evidence": [
+        "It all stems from a surgery that I recently had. So I recently had throat surgery because I was unable to breathe properly.",
+        "I just had surgery last month and had to pay all that out of pocket. I'm still waiting to get reimbursed by my insurance company.",
+        "Now that I feel like I'm starting to get more energy, like I could probably go and join my friend in the gym again",
+        "Of course, we're going to begin with one specific weight, get use of the motion, and then also increase the weight to constantly address your muscles.",
+        "when you're swinging a kettlebell like that, you're also going to get your heart rate up"
+      ],
+      "timestamp": "00:03:56"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Four payment structures outside the sanctioned terms were proposed in descending order within seven minutes — two payments of $3,000, a $1,200 start, and finally a $100 deposit with a $5,900 balance contingent on an insurance reimbursement.",
+      "evidence": [
+        "We have an investment of 6k USD.",
+        "How about we... Put it in two, two times 3,000. Next time you get paid, we just do the other three.",
+        "We can get you started with $1,200, and then we just do the rest when you're ready",
+        "then we just do a small deposit of 100, and that's just to actually have that commitment, right? And then we do the other 5,900 when the rest hits."
+      ],
+      "timestamp": "00:47:56"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospect stated twice and unambiguously that he preferred to wait one to two weeks and pay in full, and disclosed $1,200 of rent due and roughly $1,500 of work travel to front; the rep continued pressing for an immediate partial payment across four further turns until a deposit was agreed.",
+      "evidence": [
+        "I could agree with that, but also I feel like just for my comfort, I would rather just pay it upfront... I don't need to muddle things up with split payments. It's how I like to operate.",
+        "No, I get that, right? But you also don't want to waste time, I think, I feel like.",
+        "I'm going to hold fast to this reimbursement thing strictly because that money that I have left, I do have to be mindful of that.",
+        "I do still have my rent due on the 1st, and that's already going to be about $1,200, you see how this is going to compound up, I don't want to immediately just start giving out money immediately.",
+        "Best thing we can really do is we just split it up, but it just comes down to getting you started and we just do the rest when you're ready",
+        "I'm not just trying to throw out all my financial business out there, but it would be best for me to just wait for that reimbursement to come"
+      ],
+      "timestamp": "00:50:01"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep justified a $1,200 minimum starting payment as the amount required to set up the systems, then accepted $100 four minutes later and described the deposit as not actually needed by the business.",
+      "evidence": [
+        "the reason I'm saying this specific amount is also that's what's needed to sort of set up all the systems, et cetera. We can get you started with $1,200",
+        "We do do a small deposit, not because we really need it, but mainly for your own commitment that we've already set the step.",
+        "And the rest, 5,900, rest, we do that when the payment hits. How about that?"
+      ],
+      "timestamp": "00:53:31"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The call ends with payment unconfirmed and the majority of the contract value contingent on an undated third-party insurance reimbursement, so this close cannot be treated as collected revenue without processor reconciliation.",
+      "evidence": [
+        "Where is my wallet? It's in my car. Yeah, no, my wallet's definitely in my car.",
+        "Just keep in touch and I'll have this done within the hour.",
+        "do you think somewhere next week it will come in? — Potentially, yeah. Next week, if not the week after. Historically, it's never taken them longer than two weeks to reimburse me for anything."
+      ],
+      "timestamp": "01:00:13"
+    }
+  ]
+}

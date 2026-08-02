@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-07-08_dj-hayden_andrew-musial",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording is clipped at both ends — it opens mid-conversation and terminates mid-exchange before any price was stated — so this call cannot support a disposition and must not enter a close-rate denominator as a win or a loss.",
+      "evidence": [
+        "00:00:36 - Andrew Jin (Primal Instinct) Okay, we're back. All right, great.",
+        "Thanks for being able to reschedule with me.",
+        "00:26:58 - Dj Hayden so. Yeah, I don't I have any questions. Sounds great. I don't know if I lost yet. I feel like frozen to me."
+      ],
+      "timestamp": "00:26:58"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The guarantee was again paired with an unqualified appeal to science as its basis, with nothing offered to support it.",
+      "evidence": [
+        "there is also a guarantee from Trevor on what he does that in those six months, you will add at least eight kilos, which is around 17 pounds to the baseline weight of the kettlebells, the core kettlebells movements.",
+        "And that combined with proper nutrition gets you to your goal. It's just pure science behind that."
+      ],
+      "timestamp": "00:16:32"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears in the captured portion of this sales call.",
+      "evidence": [
+        "00:00:36 - Andrew Jin (Primal Instinct) Okay, we're back. All right, great.",
+        "00:00:54 - Andrew Jin (Primal Instinct) I saw your application. Now, I want to get a little bit in more... Depth and in detail, what's been going on"
+      ],
+      "timestamp": "00:00:36"
+    }
+  ]
+}

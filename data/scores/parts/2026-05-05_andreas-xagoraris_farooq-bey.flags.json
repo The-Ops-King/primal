@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-05-05_andreas-xagoraris_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 60-year-old disclosed a vestibular disorder that makes him dizzy when he turns and rules out Turkish get-ups, plus a recent elbow injury requiring a medical injection, and was then recommended an unsupervised self-paced kettlebell and mace programme with no clearance sought and the limitation never acknowledged.",
+      "evidence": [
+        "if I have to move too much, I don't know, it's my vestibular system, I just get dizzy and I just, I can't do a lot of turning, you know?",
+        "I'm not going to do the turkey getup, you know, whatever the Turkish getup.",
+        "about three months ago, I was at the gym and I was feeling good... I went to 95, and next thing I know, I have this sharp pain in my left, my middle elbow... I went to the doctor and he injected me",
+        "this is what we call Primal University... it's a complete kettlebell and mace system. All it is is just a structure and the foundation from A to Z as to what to actually do with the kettlebell",
+        "So we've designed in such a simple way, Andreas, that all we need to do, my friend, is just follow it. It's very, very simple."
+      ],
+      "timestamp": "00:02:50"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "No health, medication or injury question was asked at any point in a 26-minute call with a 60-year-old on a statin, and every clinical fact on record — including the vestibular disorder, the statin, the reflux medication and a declined testosterone conversation with his urologist — was volunteered without follow-up.",
+      "evidence": [
+        "I don't have high blood pressure. I just take some medicine for cholesterol... I take some, you know, some reflux medicine. I take some zinc.",
+        "If I didn't take my medicines, the only one I would miss would be the Crestor.",
+        "My free testosterone is good, it's like 600... Now my urologist says you can tweak that if he wants me to feel younger, or stronger, or faster, or more energetic. He says I could give you testosterone supplements, but I don't know if I want that either",
+        "Let's get a further baseline for yourself before we dive in a bit further. You said you're six foot and a half and 185, correct?"
+      ],
+      "timestamp": "00:11:25"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The prospect appears throughout under a device label with no human name anywhere in the transcript, so his identity rests entirely on the file title with no in-call confirmation of spelling or identity.",
+      "evidence": [
+        "00:00:01 - AX15Pro — I'm tired. How are you?",
+        "05/05/2026 - Andreas Xagoraris x Farooq Bey",
+        "So I'll leave the floor to yourself... How could we potentially help you?"
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts throughout and several turns merge both speakers under a single label, including the pivot into the disqualification, so line-level attribution is unusable.",
+      "evidence": [
+        "00:20:05 - AX15Pro — I just, you know, and God knows I pay for a membership at the gym. It only cost me 300 bucks a month. Right. Hi, Echo. So, Andreas, would you like me to be honest with you and nice? Of course, man.",
+        "00:04:28 - AX15Pro — Appreciate the context.",
+        "00:00:29 - Farooq Bey (Primal Instinct) — Yeah. She's an aspiring doctor. So it's a big one. I am a doctor. What are the odds?",
+        "00:26:06 - AX15Pro — Have fun at your Ezekiel DC's graduation."
+      ],
+      "timestamp": "00:20:05"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "call_id": "2026-05-04_sunny-bal_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording terminates mid-sentence at 00:07:36 with no offer presented and the prospect's stated questions on structure and pricing unanswered, so this call will appear in the corpus as a no-offer call when it plainly continued.",
+      "evidence": [
+        "I guess the only queries I've got is is yeah the structure of it how it's broken up the pricing and that's it because I know the system itself I pretty much I like it",
+        "yeah yeah yeah we'll get to that",
+        "It's like a resort. called, sorry? Tambuli.",
+        "Can you hear me?",
+        "I'm going."
+      ],
+      "timestamp": "00:07:36"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed an ACL injury with eighteen months of physiotherapy that ended roughly a week earlier, and reported already performing clean-and-jerks off the free guide that morning; no question was asked about whether his physiotherapist had cleared loaded ballistic training.",
+      "evidence": [
+        "acl from football years ago so many like uh acl injury from years and years and years ago then you know i started playing again and then i guess just muscle degradation over time um really got it bad in a bad place about a year and a half ago",
+        "are you in physio like a patient in a way yeah yeah up until just like a week ago",
+        "Even today, it felt good. 10 pushups, 10 jerk, cleaning jerks, whatever you call them, back to like 10 sets of 10 back to back.",
+        "Nice. I'm happy for you."
+      ],
+      "timestamp": "00:02:00"
+    }
+  ]
+}

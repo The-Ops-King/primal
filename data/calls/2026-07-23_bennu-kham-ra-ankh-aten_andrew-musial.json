@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-07-23_bennu-kham-ra-ankh-aten_andrew-musial",
+  "source": {
+    "drive_file_id": "1hktapp6GBdw_-Qbgc4hKltz0ojq_nepk",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/23/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/23/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 17853
+  },
+  "call": {
+    "date": "2026-07-23",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Second call, the day after the first. The rep opens on the outcome of a homework task — 'let me know how the conversation with your wife go last night' — and repeatedly cites data captured previously: 'you told me yesterday that you got about 1600 left over most months. Yeah? And a card with some room on it' and 'you told me yesterday, nothing else is standing between you and doing this except the financial piece, right?' A deposit had already been taken on the prior call and is refunded during this one. Discovery, goals and the pillar presentation all happened on the earlier call, which is not in this batch.",
+    "duration_min_est": 22,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named and no title suffix. A manager is referenced as the authority for issuing the refund — 'I'll just get to my manager and let him know that we're refunding you the deposit' — but is not named."
+  },
+  "prospect": {
+    "name": "Bennu Kham Ra Ankh Aten",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": "Not working at the time of the call; describes seasonal work resuming after the following month — 'after this month, I start working again, because the season picks up'. Household finances are controlled by his wife as a result.",
+    "family_status": "Married; wife holds the financial decision and vetoed the purchase. She wants to spend on the apartment instead.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": "none",
+    "medical": "A previous leg injury, referenced but not described. Re-injury is his wife's stated concern and is the only health content on this call — 'what if I, you know, I re-injured my leg, because she's really worried about me re-injuring my leg as well.' No detail, no diagnosis and no current status was established here; any of that would be on the prior call."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.45,
+    "signals": [
+      "PROPOSED LABEL: 'the_household_veto'. Not price-blind and not a bargain hunter — he wants the product badly and says so three times ('it's something I want to do, but I won't be able to do it now', 'I really wanted to do the other one. That's the one I was envisioning'). The blocker is that he currently has no income and his spouse holds the decision: 'Everything's based on her. She I'm not working because I'm not working now.'",
+      "Anchored at $200 a month and said so honestly while acknowledging it was unrealistic — 'I was thinking more like it's going to be like about maybe like 200 a month, something like that, but that's not nowhere realistic to what you guys do'",
+      "Declined for third-party financing on a soft credit check, which rules out the liquidity workaround",
+      "NOT skeptical_bargain_hunter despite the $200 anchor: he has no cheap alternative that worked, and the anchor is a budget ceiling rather than a value judgement",
+      "Almost no discovery content exists on this call, so the avatar should be reassigned from the first-call transcript once located rather than treated as settled"
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "She's like, that's too much. She said that's entirely too much. She's saying that for that price, I can get a person trying to work with me, you know, in person. That's what she's basically saying.",
+      "timestamp": "00:00:40",
+      "rep_response": "Acknowledged the number, then tried to convert a lump sum into instalments — 'What if this wasn't one big number, but something, you know, just spread out over a few months. Would that change the conversation with her?' Later attempted to move the decision back to the prospect: 'this is your health, man, yeah? That's a decision only you can really make.' Never asked whether the wife would have any reason not to want him stronger and less in pain.",
+      "response_tactic": "restructure_to_instalments_then_return_decision_to_prospect",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Like I mentioned to you earlier, it's kind of steep. It's kind of steep, but it's something I want to do, but I won't be able to do it now.",
+      "timestamp": "00:01:02",
+      "rep_response": "Isolated the objection cleanly, citing the prior call's financial picture, then asked for the real comfortable monthly number, then proposed third-party financing at roughly $300 a month over 12 months through Payva or Klarna. The soft credit check was declined.",
+      "response_tactic": "isolate_then_ask_for_real_number_then_third_party_financing",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "she's basically saying you're going to something blind, like you're not, you know, she's just worried about that, you know, I started, it didn't finish, that's what she's worried about as well. And I'm out of the money.",
+      "timestamp": "00:02:03",
+      "rep_response": "Addressed the follow-through and injury concerns with programme design and an injury-pause commitment: 'if you would get injured for any reason... we always pause the subscription for the time that you need to get well.' Also restated that the programme is built around the client's schedule and physical capacity.",
+      "response_tactic": "programme_adapts_to_you_plus_injury_pause_guarantee",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Like I said, I give me just like it's September and see if I can have some wiggle room with everything because I'll be back.",
+      "timestamp": "00:17:04",
+      "rep_response": "Accepted it without running any part of the not-the-right-time play. Offered to reconnect mid-September, agreed to refund the deposit, and exchanged WhatsApp numbers so the prospect could reach him directly.",
+      "response_tactic": "accept_deferral_and_schedule_reconnect",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 3000, "note": "PRICING DEVIATION — one-to-one coaching quoted at $3,000 for six months, half the $6,000 list price. Referenced repeatedly by both parties as the established figure from the prior call" },
+      { "months": 6, "price_usd": 3000, "note": "three payments of $1,000, stated as interest-free" },
+      { "months": 6, "price_usd": 3600, "note": "six payments of $600, stated as carrying interest" },
+      { "months": 12, "price_usd": 3600, "note": "roughly $300/month over 12 months via third-party financing (Payva or Klarna) — application submitted and declined" },
+      { "months": 6, "price_usd": 1000, "note": "DOWNSELL — Primal University self-paced platform, no one-to-one coaching, offered at $1,000 for six months" },
+      { "months": 6, "price_usd": 1200, "note": "downsell instalment option, six payments of $200" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Four structures floated against the $3,000 figure — 3 x $1,000 interest-free, 6 x $600 with interest, or roughly $300/month over 12 months via external financing — plus a $1,000 self-paced downsell also offered as 6 x $200. None were taken.",
+    "guarantee_mentioned": "An unwritten injury-pause commitment, stated as standard practice: 'if you would get injured for any reason, yeah, because sometimes those things happen, we cannot predict that, we always pause the subscription for the time that you need to get well, yeah? So, when you get well, you come back and you just follow for the rest of the time.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 1600,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Monthly surplus of roughly $1,600 and a card with available room were both captured on the prior call and recited back by the rep. Credit score not stated but the third-party soft check was declined; the rep speculated a 700 threshold. Prospect is not currently working and his wife controls the household budget."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.65,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, and the deposit collected on the prior call is being refunded — 'In the meantime, I'm sending you back the deposit' and 'I'll just get to my manager and let him know that we're refunding you the deposit'",
+      "Third-party financing application submitted live and declined: 'we're sorry we're unable to offer you a payment plan at this time'",
+      "Both the $3,000 one-to-one offer and the $1,000 self-paced downsell were declined",
+      "A specific reconnect was agreed and the rep took ownership of it — 'I'll reach out to you like in mid-September' and 'I'm putting you on a list to reach out to you in September'",
+      "WhatsApp numbers exchanged at the prospect's request so he can initiate contact himself",
+      "CASE FOR follow_up, which is the classification used: the prospect never said no to the programme and repeatedly said he wants it — 'it's something I want to do', 'I really wanted to do the other one. That's the one I was envisioning' — and the vocabulary reserves 'lost' for an explicit no or a rep disqualification, neither of which occurred. The rep deliberately kept it open",
+      "CASE FOR lost, which the rollup may prefer: the existing deposit was unwound and refunded, credit was formally declined, the household decision-maker refused twice, and the prospect has no income until the season restarts. If the corpus treats a refunded deposit plus a declined credit application as a dead engagement, reclassify this to lost"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": "prior_deposit_refunded_in_full_on_this_call",
+    "next_step": "Rep to refund the deposit within one to two days and to reach out again in mid-September when the prospect's seasonal work has resumed and household cashflow improves. Prospect has the rep's personal WhatsApp and can initiate."
+  },
+  "notable": {
+    "note": "The single most important pricing finding in this batch: the one-to-one programme is being sold to this prospect at $3,000 for six months, half the $6,000 list price, and both parties treat that figure as long settled from the previous day's call. The rep also offered a $1,000 six-month Primal University downsell as a live alternative to coaching, and quoted a $3,600 six-payment variant. Separately, this call is a direct contrast with the documented Badrane Hriouch assessment in icp.json: an identical $200-per-month anchor, but where that rep 'recognised this live and disqualified rather than discounted', this rep discounted, then attempted to place consumer credit with a prospect who has no current income and whose spouse had already refused twice — an application that was formally declined. The rep did ultimately withdraw with good grace, refunded the deposit unprompted and stated 'I don't want to put you on account, man.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained inversion. The entire Payva link exchange from roughly 00:07:02 to 00:08:08 runs under the prospect's label while containing the rep's instructions, and the whole Primal University screen-share walkthrough from 00:11:51 to 00:16:12 — several minutes of the rep presenting, including embedded audio from Trevor's own videos — is attributed to the rep but has the prospect's questions folded in. The soft-pull exchange around 00:09:37 has the two speakers transposed. Roles were read from content throughout. This is a partial engagement record: the discovery call that set the $3,000 figure, the financial picture and the leg injury detail is referenced repeatedly but is not present in this batch, which is why the prospect fields are almost entirely null."
+  }
+}

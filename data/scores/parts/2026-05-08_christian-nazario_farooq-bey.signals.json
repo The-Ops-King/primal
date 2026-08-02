@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-08_christian-nazario_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Understood immediately and from the delivery side rather than the buying side: 'I know. I mean, I've said this exact things to my clients when I first got them. So I kind of know what I need to go through. Yeah. I'm just trying to be a good student now.' No questions. He did volunteer his kettlebell competence honestly when asked — 'I've seen a couple exercises that I mimic... would I say I'm proficient? I'm trying to learn more.' Notable that a pillar built on form correction was delivered to a man with five shoulder surgeries without either party connecting the two."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Took it without questions or pushback — 'Okay' and, on the claim that the 80-20 nuances would help him compete at HYROX, 'Yeah. I believe that.' No dietary information was ever gathered from him, so the pillar was accepted entirely on trust with nothing specific to him in it. He is a former personal trainer and competitive bodybuilder, which makes the absence of a single diet question on either side the more striking."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'That makes sense.' No questions and no elaboration. The rep tailored it reasonably to his situation — 'you're pouring into your clients, right? So if I was you, I'd steal as much knowledge and information from this guy as possible' — which is the right angle for a practitioner buyer, and it drew no reaction. All three pillars were accepted flatly by a prospect who already sells this material for a living, which suggests the pillar presentation does little work with fitness-industry buyers."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "personal_cashflow_ceiling",
+      "raw": "My account, after, after everything, I think I have maybe like three, four hundred dollars. And that's not, not including like gas or food... Yeah, hopefully, hopefully $400 [left at the end of each month].",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The operative number. Roughly $400 liquid before fuel and food, and roughly $400 of monthly surplus, against a cheapest programme instalment of $433 a month. The programme's lowest available payment exceeds his entire monthly disposable income, which no structure can resolve. He is also two to three months from commissions starting, so this is a temporary trough rather than a permanent position — which is the argument for a diarised follow-up rather than a downsell."
+    },
+    {
+      "type": "rep_introduced_finance_charge",
+      "raw": "We have an option with a six or 12, you divide it over 12 months, slight bit of interest, but it gives you the ability to spread it over 12 months if necessary.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The characterisation and the arithmetic diverge sharply. On the three-month tier the twelve-month option totals roughly $5,196 against a $4,000 list price, a 30% uplift, and the prospect worked that out himself and reacted to it: 'In a whole sense of 12 months, it's like 5,200, something like that, and a heavy, heavy load.' The uplift, not the headline price, is what killed the deal — and it was introduced by the seller."
+    },
+    {
+      "type": "credit_line_under_repair",
+      "raw": "I can't take too much right now. The card that I'm currently bringing down, to bring it back up. They're working against me right now, until I start fully seeing income coming in.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His $3,000 of available credit is not available in any meaningful sense — it is the thing he is actively repairing after a consolidation dropped his score to the mid-600s. He said so clearly and had to repeat it after the rep recommended drawing on it. Recorded as an anchor because the seller treated a repair-in-progress as a funding source."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "ChatGPT is great. I definitely did my research and you know, ask, chat, everything I could first, but at the same time, I want something structured and tailored to me, coming from an actual human. It's, you can't really beat that.",
+      "direction": "supports_price",
+      "competitor": "ChatGPT, YouTube, Instagram",
+      "note": "A rare fully supportive answer — he has already tried the free route, articulated exactly why it falls short, and did the persuasion himself. Combined with his having followed Trevor for up to a year before booking, conviction was never the issue on this call."
+    },
+    {
+      "type": "deadline",
+      "raw": "I'm doing High Rocks. So I want to just make sure I'm in tip-top shape... Five months, actually, in October, end of October.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A dated competitive event five months out, volunteered as the reason he decided to act now. This is the strongest urgency anchor available anywhere in this batch and it was mentioned twice in passing, never converted into a consequence frame, and never used to argue against waiting until the end of June."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Programming that is safe and appropriate for shoulders reconstructed five times, given the programme's reliance on overhead ballistic movements",
+      "why_unmet": "Never established. Surgical history was elicited but not explored — no dates, no surgeon or physiotherapist, no restrictions, no clearance question — and the shoulders were then presented as something the programme would resolve. Whether the movement library can be adapted around bilateral shoulder reconstruction is unknown to both parties.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Specific preparation for a HYROX competition at the end of October",
+      "why_unmet": "Raised twice by the prospect as the trigger for the call and answered only with 'all of these small 80-20, the nuances are going to help you to compete at a high level there.' No HYROX-specific capability, protocol or precedent was offered, and the five-month runway was never used to argue for starting now.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To learn the system well enough to teach it — to his personal training clients and to a minimal-equipment men's fitness group at his church open to all shapes and sizes",
+      "why_unmet": "Stated three separate times and treated purely as motivation rather than as a requirement. There is no coach certification, licensing or teach-the-teacher pathway, and no guidance on whether programme material may be used with third parties. For a practitioner buyer this is the commercial case for the purchase and it has no product behind it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An entry point at or below roughly $400 a month, or a start date aligned to when his sales commissions begin in two to three months",
+      "why_unmet": "The cheapest programme instalment is $433 a month, marginally above his entire monthly surplus. The gap was closed by selling a different $200 product rather than by parking the deal against his stated date of end of June, which is what the facts supported.",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

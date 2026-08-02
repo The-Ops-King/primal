@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-07-13_brandon-blair_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "After the training and mobility block the prospect tied it directly to his own stated goal: 'I like that. Yep. That's exactly how, yep. I mean, cause that's exactly where I'm trying to get to be completely honest.' He had already volunteered the frame himself earlier — 'I want to be able to perfect it before I start doing something and go and guess on what I'm doing.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions or pushback: 'Exactly. Makes sense. Yeah, 100%.' He had already described his own diet as clean and had no follow-up on the eating-window mechanic."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed, no clarifying questions: 'Right.' then 'Quite a bit of information, but I hope that it all makes sense... Yeah, 100%. Love it.' He did not probe the video-review loop, the app or the Thursday live workout."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I'm not paying 85, you know, $70 to $100 a freaking month to go to the gym and just hope and pray that I get to where I want to be",
+      "direction": "undercuts_price",
+      "competitor": "Commercial gym membership",
+      "note": "His entire reference frame for spending on fitness is $70-100 per month, and he framed even that as bad value. $6,000 for six months is roughly 10x his mental ceiling, and the rep never repositioned against this anchor."
+    },
+    {
+      "type": "existing_spend",
+      "raw": "I've got a 26-pounder, I've got a 35-pounder, a 44-pounder, and a 53-pounder",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He had already bought four kettlebells before the call — evidence of committed spend and intent. The rep noted it but never used it as a buying-behaviour signal."
+    },
+    {
+      "type": "monthly_capacity",
+      "raw": "my total per month would probably, I mean, I'd probably say, man, probably like a, I don't even know, better safe than sorry, probably like 150, 200 bucks, just easy spend",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Self-reported discretionary capacity of $150-200 per month against a $1,000/month equivalent. This was discoverable in Phase 2 and was only surfaced 48 minutes into the call."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one kettlebell coaching at a price payable from roughly $150-200 per month, with no lump sum and no financing",
+      "why_unmet": "The offer is $6,000 upfront or a third-party financed equivalent; the only in-budget product is the $200/month group community, which removes the one-to-one form correction that was his stated reason for the call.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "A specific fix for wrist pain during overhead kettlebell pressing, possibly caused by an undiagnosed arthritic condition",
+      "why_unmet": "The programme has no clinical assessment pathway; the rep answered it as a form issue without anyone examining the wrist.",
+      "verdict": "product_gap"
+    }
+  ]
+}

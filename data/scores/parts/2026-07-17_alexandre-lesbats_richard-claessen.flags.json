@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-07-17_alexandre-lesbats_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep offered a $1,000 six-month community tier, a price and product that is not one of the two approved offers.",
+      "evidence": [
+        "So when it comes to that, we can do six months of our community for. That would basically... Everything that we just talked about, just without the complete one-on-one programming with Trevor himself.",
+        "when it comes to your price range and what you're more so looking for, then I feel like this is still a very good fit, and that is $1,000.",
+        "That's a thousand euros or a thousand? — Dollars. So not even euros."
+      ],
+      "timestamp": "00:58:54"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved from $6,000 to $1,000 — an 83% reduction — within roughly ten minutes, triggered only by the prospect naming a $1,500 budget.",
+      "evidence": [
+        "We have an investment of 6k USD, which is 5.2k euros.",
+        "it's me, I had like a, more or less like a 1.5k in mind",
+        "When it comes to what you had in mind, we can also do something with that."
+      ],
+      "timestamp": "00:56:46"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep offered to split the already-reduced $1,000 into instalments to get the prospect started before his paycheck, with no terms and no approval referenced.",
+      "evidence": [
+        "Of course, half of the month is still half the month which you're sort of throwing away in that sense, right?",
+        "What do you have available so you can get started and we just split it up? What would be a possible amount for you?"
+      ],
+      "timestamp": "01:06:48"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The community tier was sold with Trevor's personal involvement in form feedback, which contradicts the same rep's description of that tier on another call the same day as being without Trevor.",
+      "evidence": [
+        "If you want to have the feedback on your routines, still film yourself in the community post those Trevor, Caden, Trevor's, let's say, second man, also other people in the community that are going to give you advice on how to do your form",
+        "Then we also have, if you want form feedback, you can still send it in the community. People are going to come back to that. Trevor is going to come back to that, to constantly give you the pieces of advice as well."
+      ],
+      "timestamp": "01:00:38"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep undercut his own value case to justify the downsell, telling a hesitating prospect that he no longer needed the full programme because he was already in decent shape.",
+      "evidence": [
+        "So if we would have been in that city, would have probably been like, yes, I need to do this because it's like, also because of your weight, et cetera, right? That's not the case at the moment.",
+        "Like, if you would have been very injured, and I would have never said this, because then you need the one-on-one aspect"
+      ],
+      "timestamp": "00:56:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep pushed for an immediate transaction after the prospect stated a personal policy of never deciding on a call.",
+      "evidence": [
+        "Then what we can do is we can set you up right now. Basically, it's very simple. I want you to do everything, and then you can get started from on today, basically.",
+        "But if you feel like I actually want to commit myself to it, then I would say, let's just get started and not put it off anymore.",
+        "So when it comes there, what's stopping you from saying... yeah, let's get going, will call her afterwards"
+      ],
+      "timestamp": "01:03:08"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts speakers across large parts of this file including the opening frame and the closing objection, so line-level attribution from it is unreliable.",
+      "evidence": [
+        "00:01:10 - Alexandre Lesbats: Sounds good? Perfect. So tell me, like, what can we pretend to help you out with, Alexandre?",
+        "01:04:50 - Alexandre Lesbats: What's stopping you from saying, yeah, let's get going, will call her afterwards."
+      ],
+      "timestamp": "00:01:10"
+    }
+  ]
+}

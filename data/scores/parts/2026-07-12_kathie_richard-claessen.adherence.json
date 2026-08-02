@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-12_kathie_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Referenced the setter but explicitly declined to read anything back: 'Already got some information from Derek. I just want to go through the conversation without really knowing that much.' The frame was two-part, not four — 'if I feel like, yeah, it's actually something we can help you with right now... If not, or not right now, we'll look into what the rest could look like' — with no where-you-are / where-you-want-to-go / what's-in-the-way / what-you-need structure. Got frame agreement ('Sounds good?') and opened correctly: 'what can we potentially help you out with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "partial", "P2i": "hit" },
+      "evidence": "Age, weight, occupation, desk-bound status, menopause and hormone therapy were all volunteered unprompted — 'I am a 62 year old woman', 'I have a job where I do a lot of sitting', 'I'm on bioidentical hormones'. Height and body composition were never established at all. Injuries were probed only after she raised them ('when it comes to your flexibility, mobility, like, how is that currently looking like?'), and duration was never asked — the two-year misdiagnosis and December surgery date came from her. Training week reduced to 'how many steps do you think that you get in a day' and a capacity question about 30-45 minute sessions. Nutrition asked directly ('So nutrition-wise, at the moment?') and energy asked directly ('how is your energy looking like overall?'); sleep arrived only as part of her answer."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "miss", "P3b": "hit", "P3c": "partial", "P3d": "miss", "P3e": "hit", "P3f": "partial", "P3g": "hit", "P3h": "miss" },
+      "evidence": "Strong on the deep end, weak on the structured ascent. Never asked the one-thing-you-would-change question and never ran the explicit bridge ('outside of the physical, what's actually driving this?'). Did run the future-state question — 'Six months in the future from now... how would that be for you when you're back in that state?' — and drove all the way through to retirement, Hawaii and the aging mother with dementia. Impact-on-others was approached obliquely via 'how old is your granddaughter?' rather than asked. Never reflected the theme back as 'this isn't really about the weight — it's about X'."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "Past attempts (personal trainer, keto, fasting, a ~$3,000 app) surfaced because she volunteered them; the rep's only direct probe was 'How much did you spend on that?' and that came in the objection phase, not P4. Never asked why previous efforts didn't stick and never ran 'the information isn't the problem — why can't you stick to it on your own?', which was the obvious move given she said 'I know what I need to do. I just, I'm having trouble getting started.' Did land the blocker question — 'do you think that there's anything else that would stop you...?' — and let her name it herself: time, structure and accountability."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "partial", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Ran the two-year question well: 'how would that be in a couple of years from now if that all sort of stays at the same level?', which produced the retirement-in-Hawaii and dementia-mother material. But 'willing to settle' was delivered as a statement rather than a question — 'Sounds like something that you're not willing to settle for' — so she was never made to argue her own case, the 'why not?' follow-up was never asked, and there was no line-in-the-sand ask."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "miss", "P6b": "hit", "P6c": "hit" },
+      "evidence": "Ran the no-other-reason check twice, once before and once after the pillar presentation: 'do you feel like there would be any other reason for why you wouldn't be able to get to the results of losing the weight, getting more muscle?' — answered 'No, I don't think so.' Never asked whether she believes she can get there with the right structure and the right person, which was the check that mattered given she later said the blocker was doubt about the provider, not about herself. He did have a clear yes before presenting price."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Price was presented but the prospect deferred ('let me think about it overnight'), so no payment, onboarding booking, agreement or welcome-email sequence was reachable. The rep booked a follow-up call instead."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger: 'let me think about it overnight and I'll let you know.' The rep did run the isolate — 'does the thinking about it come down to the investment part, or what does that mainly come down to for you?' — and did challenge the value of thinking once: 'if you go and think about it, there's nothing more you're going to see in that sense.' But none of the escalating moves ran: no 'do you feel what we've gone through CAN get you to your goal', no 'thinking isn't the problem, deciding is', no 'the way you've been approaching this brought you here — when do you make a different decision', no identity close. He instead validated the delay ('just have a think about it... I'm not the one that's going to be able to convince you') and booked a second call."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger: 'That's quite a bit, actually' and 'it's quite a bit of money to put up front.' He attempted the isolate twice ('outside of that, would it then just be the investment for you?') but never confirmed it cleanly, never used the should-I / how framing, never mentioned that most clients pay upfront and some break it up, and never asked permission for an honest financial conversation. Zero of the six financial-picture questions ran — no cash on hand, monthly surplus, credit cards, available credit or investments. The only money move was 'if it comes down to money, of course, then we can find a solution there', which offers flexibility without structuring it and left an unpriced possibility hanging."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A textbook burned-before trigger: a prior ~$3,000 automated app that 'was not worth the money for sure' plus 'I don't want to get ripped off.' The scripted BURNED BEFORE move ('if you got hurt in a relationship once, do you never trust again?') exists for exactly this and was never used, nor were the certainty question, the bridge or the plane. The rep agreed with her frustration and offered to send a document — which converts a fear objection into an information request and hands the decision to a PDF."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Gap in the script, not a rep failure: a 62-year-old postmenopausal woman objected on demographic fit — 'all of the ads and everything are very male-centric' and 'does he really have a lot of experience dealing with older women and women in general?' There is no scripted play for this. The rep answered honestly ('overall, like 95% of the people that he works with are men') and substituted an injury-rehab proof point for the female-physiology proof point she actually asked for. The objection was still live when the call ended."
+    }
+  ],
+  "notes": "Warm, honest call with genuinely good P3 and P5 depth, undone by a hollow baseline and a soft finish: almost every fact in P2 was volunteered rather than asked, and the two objections that actually decided the call — trust after being burned and coach-fit for an older woman — were met with empathy and a promise to send a list. Coach on OE and on isolating money properly: 'if it comes down to money we can find a solution' with no financial picture behind it is the single most fixable moment here."
+}

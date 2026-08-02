@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-07-27_david-pasco_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep disclosed unprompted that a second six months with the same coach costs $3,000 rather than $6,000 — a half-rate renewal that appears nowhere else in the corpus and that matches the figure quoted as an initial price on another call four days earlier.",
+      "evidence": [
+        "if you really want to work with him for longer, and we had guys that they wanted to go for a year, for example, yeah, that is possible.",
+        "after six months, you will say, look, I would like to work more with Trevor for another six months. That will cost you another $3,000, and that's it. You don't need to pay another $6,000.",
+        "But like I said, it's a conversation not for now.",
+        "the full investment for that is 6K"
+      ],
+      "timestamp": "00:47:10"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep positioned the training programme as part of the prospect's psychological repair after disclosures of chronic nightmares, a constant fight-or-flight state, isolation and repeated experiences of rock bottom, with no mental health support suggested and a deposit taken the same call.",
+      "evidence": [
+        "it's just kept me in this constant like fight or flight state",
+        "Probably like an unlimited cortisol kind of situation",
+        "the depths and depravity that I am exposed to consistently is unfathomable. And I mean, like the darkest parts of the human experience is like my daily",
+        "I've had so many experiences with rock bottom in my life at this point that like, just pick a definition of rock bottom. And like, I've been there",
+        "So this is again, it's, it's more of a, this is going to be like a part of work on yourself too. Like, making this promise to yourself, that you're able to do it. And keeping that promise will build you up.",
+        "Let's It puts a small refundable deposit right now, like $100, that's it."
+      ],
+      "timestamp": "00:43:19"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed chronic severe sleep deprivation, a congenital lower-limb condition braced in infancy, an uneven gait that worsens under load, flat feet and 60-70lb of excess weight, and was taken through a full pitch for loaded ballistic training with no clinician clearance sought.",
+      "evidence": [
+        "when I was a baby I was born, I don't know, there was something with my legs, and they were like, out like this. So for the first six months of my life, I had to wear a brace on both legs",
+        "I have an uneven gait. And so it's something that if I walk too much, or I put the incline up too fast, it starts to really compound the imbalance",
+        "I have flat feet which is you know just my feet are always aching from walking",
+        "I probably have to lose like 60 or 70 pounds",
+        "regardless of when I go to sleep, I end up waking up at maybe sometimes, if I fall asleep really early, I'll usually wake up at 1 a.m. If I fall asleep at midnight, I'll wake up at 3 a.m.",
+        "I'm not recovering well, it's a bit like the bottom line to the question"
+      ],
+      "timestamp": "00:04:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A $100 refundable deposit was taken to hold a follow-up call, justified with calendar scarcity and framed as a test of seriousness — the third appearance of this unbudgeted instrument in this batch and the second time it was paid.",
+      "evidence": [
+        "Let's It puts a small refundable deposit right now, like $100, that's it. I have something to come back to Trevor with. And we touch base in beginning mid-September.",
+        "So this is, like, basically, you know, I'm serious enough to schedule this.",
+        "Exactly, because our schedules are pretty packed, so we don't reschedule calls if someone is not able to, you know, commit actually at least to putting out a refundable deposit",
+        "I just went through."
+      ],
+      "timestamp": "00:53:59"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Two above-list structures quoted again — six payments of $1,200 totalling $7,200, and Payva financing at roughly $650 a month over 12 months totalling about $7,800 — against a $6,000 price.",
+      "evidence": [
+        "If you want to split it up to six months, that's fine, but that's going to be like $1,200 a month. Okay. So that's like a little bit of interest on that.",
+        "we use Pava. That's the same. Like you need to get approved by them, but you can even split it up to 12 months. So that's going to be like $650 per month",
+        "And if that checks out, you only need $600 today to start."
+      ],
+      "timestamp": "00:49:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A single Drive file contains two consecutive and unrelated sales calls with different prospects, so any per-file counting treats two calls as one.",
+      "evidence": [
+        "All right. Take care. Thank you. care.-bye.",
+        "Hey, Yannick.",
+        "Sorry for the few minutes of being late. was just wrapping up a call with a previous client."
+      ],
+      "timestamp": "01:02:56"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The setter's brief understated the prospect's weight-loss goal by a factor of roughly three, and the correction only surfaced because the rep read the note back.",
+      "evidence": [
+        "And Kim also mentioned that you want to lose extra pounds. 20, 30 pounds, and that's correct?",
+        "Yeah. mean, I would say, honestly, I probably have to lose like 60 or 70 pounds",
+        "but in terms of what he had said in the six month window, I don't want to be fanatical or, you know, unrealistic"
+      ],
+      "timestamp": "00:03:21"
+    }
+  ]
+}

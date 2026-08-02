@@ -1,0 +1,38 @@
+{
+  "call_id": "2026-06-25_chris-x-richard-1-1_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The setter is coached to re-approach a prospect after the closer call under a deliberately staged good cop framing, opening with a neutral-sounding check-in and probing payment plan options.",
+      "evidence": [
+        "you can just play good cop, bad cop, because the closer is kind of the bad cop, because they're the one asking for the money. The setter is like the good cop, because they're like, yeah, dude, I want to help you. We'll figure it out. No worries.",
+        "hey, just curious, how did the call go with John?",
+        "Okay, well, did they talk to you about payment plan options or any different things?... Because honestly, there's probably some more things that we can do. I'm surprised I didn't talk to you about that. Let me go ahead and get you back on",
+        "And I can't tell you how many times I've saved the deal being the setter."
+      ],
+      "timestamp": "00:13:05"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager treats a $100 deposit as a legitimate commitment three days after telling the same rep that $500 is the deposit floor for booking onboarding and $1,200 must be paid before it runs.",
+      "evidence": [
+        "I just gave this guy a hundred bucks to hold me accountable, and he's holding me accountable, and am I giving up on my goals, or what's going on?",
+        "when somebody gives a commitment and they put a deposit down, they're basically telling you, hey, I made a commitment to this, and I want you to hold me accountable to it",
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call. But they have to pay at least the $1,200 before the onboarding call happens"
+      ],
+      "timestamp": "00:03:53"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Leads are instructed to be prioritised by country of origin when two prospects clash on the calendar.",
+      "evidence": [
+        "Alan doesn't really have a great app, Taz also doesn't really have a great app, but Alan is from the US, so I would prioritize Alan over Taz.",
+        "That's the way I always look at it. But whoever shows up first."
+      ],
+      "timestamp": "00:12:07"
+    }
+  ]
+}

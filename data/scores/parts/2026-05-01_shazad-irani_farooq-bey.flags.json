@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-05-01_shazad-irani_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "No health, injury, medication or clinician question was asked at any point before closing a loaded kettlebell programme, and the prospect's only disclosed symptom — new-onset knee strain — was volunteered by him and never followed up.",
+      "evidence": [
+        "But the next two days, I started to feel some strain on my knees. And I'm thinking, is it that the sport is too hard for me, or is it just me getting old?",
+        "If I start to feel something, that means it's time, I need to start taking care of my health.",
+        "On the kettlebell side, it's just three to four times a week, nothing more, 30 minutes per session.",
+        "before we design anything for you, Shaz, we need to understand what is your ground zero, what is your baseline, what is your current capability when it comes to the kettlebells, what are some limitations in your body, which if we're not aware of, could lead to injury"
+      ],
+      "timestamp": "00:20:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed chronic severe sleep restriction as a rostered airline captain — 2 a.m. wake-ups, four to five hours a night, six hours described as luxury — and three to four loaded sessions a week were added on top with no discussion of recovery capacity or fatigue risk.",
+      "evidence": [
+        "The entire week, I've been waking up at 2 a.m. every day. So I have to force myself into bed at about 7 or 8.",
+        "I can probably squeeze in four or five hours before I need to wake up and start preparing.",
+        "So over the years, I've been sacrificing on sleep. A good night's sleep is six hours. Six hours is luxury for me, you know?",
+        "the more I work out, the more tired I get. And when I'm tired, I usually don't eat. I'm just thirsty."
+      ],
+      "timestamp": "00:14:15"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The sale closed at $4,000 for three months, a tier outside the sanctioned $6,000/6mo and $9,000/12mo structure, and the rep also quoted an unlisted differential-upgrade mechanic.",
+      "evidence": [
+        "There's three levels of the program. A three-month, a six, and a 12. Okay? We charge a USD. So, for three months, it's 4,000 US. For six, it's six. And for 12, it's nine.",
+        "So I'm thinking, let's go with the three-month program.",
+        "If you're coming for the three months, and you want to do, you know, an extra eight months with us, or a full... We charge you the differential as opposed to, you know, paying again in chunks or say, if you want to do six months, you pay 2K instead of another 4K."
+      ],
+      "timestamp": "00:41:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The rep disabled the recorder at the exact moment payment collection began, so the entire Payment and Onboarding phase of a closed deal is unobservable — and if this is habitual it removes P11 from every close in this folder.",
+      "evidence": [
+        "Okay, let's do it. I'll remove my Fathom note-taker, okay? I'm going to take sensitive information.",
+        "So we process the investment, get through the next steps, I onboard you, then I'll book the call with Trevor next week."
+      ],
+      "timestamp": "00:43:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "While selling, the rep disclosed to the prospect that he runs his own private coaching practice covering the same ground as the programme, and described his role here as gatekeeping fit rather than coaching.",
+      "evidence": [
+        "So I don't do coaching, although I coach privately on the side. I just have these conversations to make sure people are the right fit for the business.",
+        "Yeah, it's not just the kettlebells. Again, my kickboxing background, I've done hot yoga for years. I do a blend of different things. It's like a functional, I call it my functional method. And then I do a bit of life coaching as well."
+      ],
+      "timestamp": "00:38:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Asked directly whether blood-group-based dieting is scientifically proven, the rep neither corrected the premise nor declined it, implying diagnostic testing becomes appropriate as the client progresses; he separately made an unqualified longevity claim for fasting in over-40s.",
+      "evidence": [
+        "I'm not sure if this stuff is scientifically proven or not... I see a lot of fitness influencers speaking about diet based on blood groups.",
+        "You can achieve very, very high levels of health without doing that. Okay. The deeper down the rabbit hole you get, you want to be doing it. Okay. So that's a question that I would say, save it for Trevor.",
+        "Likewise with supplementation and even fasting protocols, especially as we hit over our 40s, fasting is really important for longevity."
+      ],
+      "timestamp": "00:33:48"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization in this file inverts speakers repeatedly, including mid-sentence during the price recitation, making line-level attribution unusable.",
+      "evidence": [
+        "00:06:31 - Farooq Bey (Primal Instinct) — And it makes me look even worse.",
+        "00:09:01 - Shazad Irani — When you really think about it, has that kind of had an impact on you? In what way?",
+        "00:41:23 - Shazad Irani — And for 12, it's nine."
+      ],
+      "timestamp": "00:41:23"
+    }
+  ]
+}

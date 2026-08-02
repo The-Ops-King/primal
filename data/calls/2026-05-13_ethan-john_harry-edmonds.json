@@ -1,0 +1,97 @@
+{
+  "call_id": "2026-05-13_ethan-john_harry-edmonds",
+  "source": {
+    "drive_file_id": "1K3i-g3AneizmiQGGNtdH-ZbxQkv6k8vS",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/13/2026 - Ethan John & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/13/2026 - Ethan John & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Undetermined",
+    "file_size_bytes": 3539
+  },
+  "call": {
+    "date": "2026-05-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 5,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": null },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep names her while referencing her handover notes: 'Well, Kim told me that you're quite straightforward.'"
+  },
+  "prospect": {
+    "name": "Ethan John",
+    "aka": null,
+    "name_source": "title",
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has been going to the gym for a considerable time and describes himself as 'kind of lean'. Currently a paying Primal University customer — bought one month to trial it and had just finished a week-three workout. Follows Trevor's morning mobility and lymphatic drainage content online.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.5,
+    "signals": [
+      "Already training and lean, seeking skill acquisition rather than rescue: 'I've been working out for a decent amount of time. I'm like kind of lean, but I wanted to really learn how to...'",
+      "Wants to add a full movement repertoire: 'I at least want to have in my repertoire, like the entire kettlebell, the mace, all that stuff'",
+      "Already bought the low-tier product and is stepping up to ask for tailoring: 'I understand there's like Primal University and stuff like that, but I wanted a more tailored program'",
+      "Time-poor and work-dominated: 'I'm like really really busy with work honestly'",
+      "Confidence is low because the call terminated at 00:04:43 before baseline, goals, finances or occupation were reached"
+    ]
+  },
+  "goals": [
+    { "text": "Learn the full kettlebell and mace movement repertoire properly rather than improvising", "category": "other" },
+    { "text": "Get a tailored programme with someone actually watching him, rather than the self-guided Primal University course", "category": "other" },
+    { "text": "Lock in a short daily morning mobility routine — the reason he started following Trevor at all", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Has never found a morning mobility routine that fits: 'I've always tried to find like a five-minute mobility thing in the morning, and I've never found the right one or the perfect one'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Work leaves him almost no time — was up late the night before and took the call while walking on a treadmill", "category": "time_scarcity", "severity": "high" },
+    { "text": "Self-guided course is not enough on its own; wants someone to see what he is doing", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.5,
+    "close_rule_applied": null,
+    "evidence": [
+      "Recording ends mid-sentence at 00:04:43 with the rep saying 'Here's what I'm going to do.' — no resolution is on tape",
+      "Audio failed repeatedly throughout: 'Oh, you broke up, by the way. Still can't hear you.' and 'You've gone again, brother.'",
+      "No offer was presented, no price was discussed and no objection was raised",
+      "Counter-evidence toward a live opportunity: the prospect is an existing paying Primal University customer and explicitly asked for the upgrade — 'I wanted a more tailored program'",
+      "Counter-evidence toward a reschedule: he declined video and floated moving the call — 'if you could do in like 30 minutes or something maybe'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Unknown — the rep began stating a plan ('Here's what I'm going to do') and the recording cuts. A reschedule is the most likely intent given he had already offered one, but it is not on tape."
+  },
+  "notable": {
+    "note": "This is a failed connection, not a sales conversation: roughly five minutes of audio and video failures with no discovery completed. It must not sit in a close-rate denominator as a loss. Worth chasing separately — the prospect is already paying for Primal University, asked unprompted for the tailored upgrade, and never got the conversation. The rep did the right thing pushing back on a treadmill call ('we like to make sure it's a face-to-face conversation'), but no reschedule is confirmed on tape."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. The block from 00:00:58 to 00:02:01 is attributed entirely to 'Ethan John' but contains both sides of the exchange, including the rep's reschedule push ('is there a better time you want to reschedule for because we're kind of building out a game plan'). The 00:04:31 and 00:04:35 turns are also inverted. Roles resolved from content."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-05-25_daniel-manchulenko_harry-edmonds",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospect was contacted before the call by an SMS persona called Sophia that he suspected was software; the rep confirmed it is AI only after being challenged, and stated that the system is designed to avoid arousing suspicion.",
+      "evidence": [
+        "Yeah, was Kim, looking through the... The text chain with, allegedly, Sophia, who I'm not convinced is AI.",
+        "I'll be super transparent with you. Sophia's AI. Saves me and saves Kim a lot of time.",
+        "I mean, she's pretty good at, like, Sophia is typically pretty good at, you know, not causing any suspicion, but I have seen some times where I was like, oh, Sophia, you need a bit of work, you know?",
+        "I just, I'm like, I'm like, I think this might be, I think this might be AI, but I'm like, whatever."
+      ],
+      "timestamp": "00:01:55"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep promised that a six-month renewal would cost $3,000 rather than $6,000, the prospect confirmed the term back, and that promise decided the tier — moving the deal from the $9,000 twelve-month option to the $6,000 six-month option.",
+      "evidence": [
+        "let's say you do six months at 6K. Yeah. And then you're like, oh, I want to do another six months. It's another 3K. It's not another 6K. So it works out the same financial-wise anyway.",
+        "So if I do six and then want to extend it, I could do another six for just 3K. Yeah. It's exactly the same.",
+        "It's not like if you do the 12 up front, you get it cheaper than if you would do six or six. It's the same.",
+        "Okay. Well, that's good to know. That's good to know. Then I would, yeah, then I'd just do the six."
+      ],
+      "timestamp": "00:56:19"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A monthly payment option was quoted at $1,250 per month for the six-month programme — $7,500 total, a $1,500 surcharge over the stated $6,000 price.",
+      "evidence": [
+        "if you do it monthly it's 12.50 a month so it's like an extra $1,500 over the top of the $6,000",
+        "if you did want to do a monthly payment, it's $1,250 a month. So it works out to be $1,500 more is what I'm saying.",
+        "That's why I say just do it up front or split it if it's a money issue is what I usually say."
+      ],
+      "timestamp": "00:46:17"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep offered to send his own materials to address the prospect's two-and-a-half-year sleep problem rather than treating a chronic sleep complaint as something for a clinician.",
+      "evidence": [
+        "increased flexibility, better sleep, I haven't really been sleeping well in the last two and a half years",
+        "I used to have really bad insomnia. I'll help you out with that for free. I'll send you some stuff over.",
+        "I paid a sleep coach 10 grand for three months of sleep coaching just purely because I needed it."
+      ],
+      "timestamp": "00:20:59"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Rep stopped the recording at the point of taking card details, so this close — like the Parth Shukla close three days earlier — is evidenced only as commenced, and the final payment structure chosen is not on the record.",
+      "evidence": [
+        "Did you want to do it on like a Visa, MasterCard, credit card? I'll pull this up.",
+        "I want to do it on my Visa. Okay. Let me just pull this up for you. Okay, I'll kick the recorder out for you."
+      ],
+      "timestamp": "01:00:43"
+    }
+  ]
+}

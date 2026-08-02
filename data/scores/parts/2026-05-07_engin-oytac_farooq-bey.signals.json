@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-05-07_engin-oytac_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Asked no questions when first invited, then came back unprompted to confirm the two parameters: 'So actually, I do have five-minute mobility is for the evenings, not the mornings, right?' and 'And the kettlebell program is 30 minutes, four times a week?' — corrected to three to four. Engaged and precise. Notable that the rep delivered the injury-avoidance framing during this pillar — 'the last thing we want for you is to get injured or overextend yourself' — without ever having asked about the back injury the prospect had disclosed two minutes earlier."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Interrupted with his actual and only nutrition problem: 'I pretty much we eat everything, and we always eat healthy stuff here... so my only problem with nutrition is that I get these, you know, sweet cravings in the afternoons, so I need to kind of really figure that out.' The rep answered with a physiological explanation and a claim about another client: 'something to do with your insulin and blood sugar... My dad is a diabetic, and it's the same thing for him before we started working with Trevor.' The prospect accepted it — 'It makes sense' — but the alcohol he had already named as his real dietary issue was never revisited."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions or elaboration — 'Yeah, I agree', then 'Okay. Yeah', then 'That's good. Okay, makes sense.' No pushback and no enthusiasm. Worth noting against what he had said earlier: 'I got to either find a private coach who comes home, and so I'm committed to working out with him, so that I can't just give up.' He had independently identified enforced accountability as the thing he needs and was willing to hire someone in person for it, and the pillar built for that need drew the flattest reaction of the three."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "expected_price_point",
+      "raw": "if it was 100, 200 bucks a month, something we can handle, but that's right now, it's not within our budget",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The decisive anchor, and stated with a precision that makes it useful for the corpus: $100-200 per month against a $1,200 entry point and a $4,000 minimum programme. That is a gap of roughly ten to twenty times, not a negotiation. He also complained that the prices are not published, which means he arrived at a closing call with an anchor nobody had tested or reset at any point in the funnel."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "the first question in my mind is, you know, can I do this with, just by watching YouTube and just, you know, getting those movements in there",
+      "direction": "undercuts_price",
+      "competitor": "YouTube",
+      "note": "Raised by the prospect himself as the very first thing in his mind at the alignment check, which is the ideal moment to answer it. He then half-answered it in the programme's favour — 'I think it will be good to work with someone, especially making sure that the movements are right' — and the rep did not close the loop."
+    },
+    {
+      "type": "owned_alternative",
+      "raw": "All my kids are really fit. We have a gym in the house, downstairs. So I have the whole time to myself, you know, so I'm very flexible. I can't do anything, but I don't get to do it.",
+      "direction": "undercuts_price",
+      "competitor": "His own home gym and his sons",
+      "note": "Equipment, expertise and unlimited time all already in the house and unused. This is the strongest possible evidence that his blocker is not access but enforcement, which is the accountability pillar's exact value proposition — and it was never used that way. He also mentioned doing kettlebell movements with the household dumbbells and enjoying them."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "Now I started walking five kilometers a day, and I've been doing this for a month... with walking, I've been feeling good. The fact that I can walk, I've walked every day. That just makes me feel good.",
+      "direction": "undercuts_price",
+      "competitor": "His own walking programme",
+      "note": "A zero-cost self-directed intervention that is currently working and that he is pleased with. Unlike most of this corpus, his self-direction has not failed him — which makes the case for paying $4,000 substantially harder and was never addressed."
+    },
+    {
+      "type": "prior_online_program",
+      "raw": "we did use a membership for my son, where one of them was actually online, like this was not helpful at all. But the other one was very helpful. So it just depends on the program.",
+      "direction": "undercuts_price",
+      "competitor": "A previous online coaching membership",
+      "note": "Direct household experience that online coaching is a coin flip. He said so out loud at the alignment check and it went unanswered. Third prospect in this batch, after Omar Rosado and Roy Norman, to bring a prior failed or distrusted remote-coaching experience to the call."
+    },
+    {
+      "type": "considered_in_person_coach",
+      "raw": "Because I got to either find a private coach who comes home, and so I'm committed to working out with him, so that I can't just like, give up. So I was more thinking of that",
+      "direction": "supports_price",
+      "competitor": "An in-home private trainer he had considered hiring",
+      "note": "The only supportive anchor and it was passed over. He had already decided he needed to pay someone to enforce accountability and had not yet found anyone. The rep asked one question about it ('You can still do that with an in-person coach who comes to your house, right?') which pointed the prospect back toward the competitor rather than toward the offer."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Assurance that the programming is safe and appropriate for a worsening back injury that already ended his swimming, at roughly BMI 36 and with recently managed sleep apnea",
+      "why_unmet": "Neither condition was asked about or acknowledged. The rep asserted the programme would prevent injury and overextension, but nothing was established about whether ballistic loaded kettlebell work is suitable for this back, and no clinician was mentioned by either party.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that his movements are correct so that he does not injure himself — he named this as his key criterion in so many words",
+      "why_unmet": "Fully served by the product: the weekly filming and form-review loop is exactly this and had been described eight minutes earlier. It was never connected to his stated criterion, so he left believing the question was open.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "An entry point at $100-200 per month",
+      "why_unmet": "The lowest price of any kind is a $1,200 one-month trial. There is no product in this range and no plausible route to one.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "To know the price before committing to a call — he asked for it to be published on the website",
+      "why_unmet": "Pricing is withheld until the closing call by design. This prospect spent twenty-five minutes and the rep spent twenty-five minutes to discover a mismatch of an order of magnitude that a published figure would have surfaced in five seconds. Recorded because it is a repeatable cost, not a one-off.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Enforced accountability from someone who makes it impossible to skip — he was already willing to pay an in-home trainer for exactly this",
+      "why_unmet": "The accountability pillar plausibly serves it, but remotely, and he was never shown how a coach in Sacramento enforces attendance better than someone standing in his kitchen. The rep instead reinforced the in-person option.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-06-03_scriptless-mastermind-training_ben-byrne",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Two different external mastermind recordings in the Ben Byrne folder share the identical generic title 'Impromptu Zoom Meeting' on the same date, and both embed long replays of unrelated sales calls.",
+      "evidence": [
+        "If you are new to the Mastermind, welcome aboard. We start off these calls with some brief wins.",
+        "All right, let's rock and roll with our cool reviews. So who has the first call to be reviewed? Joao?",
+        "So I've got John and I've got... Your energy's chill, which is good."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A third party's confidential financials are captured to the penny in a recording stored in Primal Instinct's Drive.",
+      "evidence": [
+        "197,903 times and 45 cents",
+        "So, it was 192.754.14",
+        "we spend, between EU and UK, within the region of 40,000 50,000 pounds each month",
+        "staffing's probably about ten thousand pounds a month"
+      ],
+      "timestamp": "01:24:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The trainer coaches closers to answer a prospect's pushback by attacking their competence rather than rescheduling the call.",
+      "evidence": [
+        "you've kind of got to flip it back on him and be like, well, you tell me, is it a problem, your business and the lack of results you're getting?",
+        "Now you're not concentrating either. So between the two of you, I'm not surprised that your brand isn't where you want it to be.",
+        "what's wrong with you, like are you mentally broken, or are you just like slow",
+        "I need to hold the line of truth and let them know that their behavior is unacceptable"
+      ],
+      "timestamp": "01:39:44"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The trainer instructs closers to establish whether two joint decision-makers are romantically involved in order to select a different set of tactics on them.",
+      "evidence": [
+        "I would double tie it down, and you've got to be very calibrated with this, and I would say, is there anything personal between you, aside from like, that business... Is it Like, are you dating in any way, shape, or form?",
+        "how I can navigate a call when two people are business partners, when two people are lovers and business partners, very different. I have a lot more tactics and different tactics.",
+        "You've got to be super careful that it doesn't come across as like, who are you asking that?"
+      ],
+      "timestamp": "01:28:00"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-06-03_tim-wigg_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Presented at length as 'phase number one is mastery of the kettlebell and your mobility', including retraining movement patterns and rebalancing under- and over-developed muscles. The prospect tied it straight to his own frame: 'I'm actually excited to kind of like learn about the whole, you know, the correct way to hold the kettlebells instead of just doing swings... learning a skill, I suppose. It's like an apprenticeship in how to use a kettlebell.' He also volunteered that the minimal-equipment angle landed: 'it's not some fancy thing that I have to buy or install in my house... that's really attractive to me.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as Trevor's 'primal eating protocol' — food guidelines rather than macro counting. The prospect agreed and mapped it onto his current habits without questions or pushback: 'I've definitely had that problem in the past with the previous... it sounds good, yeah, not, yeah, definitely, rice and chicken and stuff like that.' He described his porridge and poached-egg breakfasts as evidence he already eats this way."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Presented as 24/7 access to Trevor, form-video review, monitoring of sleep and energy, and long-term self-sufficiency. Initial response was flat agreement ('Great. Awesome. Yeah.'), but the prospect came back to it after price to test the mechanics: 'How often is the interaction? Like, is it like a weekly check-in or weekly discussions with Trevor?' The rep's answer was vague — 'he just makes himself available to you, like, basically 24-7... it's kind of like as needed' — with no stated cadence, which matters given the prospect's stated need was routine and scheduled check-ins."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competing_coaching_spend",
+      "raw": "I'm paying my business coach $1,600 a month, so $1,400 on top of that's going to be a bit of a stretch",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The blocker is not that he does not buy coaching — it is that a different coach already occupies the monthly budget line. He is comparing $1,400/mo AUD for fitness against $1,600/mo AUD for business, and his wife has already questioned carrying two coaches. The script has no play for a competing-spend anchor."
+    },
+    {
+      "type": "prior_coaching_price_expectation",
+      "raw": "Because I do have a budget, obviously. I've got a budget in mind, because I've had one in the past for coaching.",
+      "direction": "undercuts_price",
+      "competitor": "Former online coach (UK coach based in Bali), 12 months",
+      "note": "He arrived with a number already set by twelve months of paying an online coach, and the rep never surfaced what that number was before quoting $6,000. The reaction — 'that's a bit more than what I was expecting' — was predictable and preventable."
+    },
+    {
+      "type": "existing_coaching_habit",
+      "raw": "I've had a business coach, and I've had a PT coach with Max, like, and I've had really good results",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He is a habitual buyer of coaching who attributes his best results to coaches rather than to self-direction, despite holding an exercise science degree. That is a strong supportive anchor the rep never leaned on."
+    },
+    {
+      "type": "currency_conversion",
+      "raw": "So it's about 8,400 Australian. So I've divided that over per month. So it works out to be about 1,400.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect re-anchored the price upward himself by converting to AUD mid-call and then dividing into a monthly figure. The rep let a two-minute silent calculation happen rather than framing the number, and the objection arrived in the prospect's own currency and his own monthly terms."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A defined check-in rhythm — a scheduled cadence he can rely on when work spikes. He named routine and accountability as the exact thing he gets from coaching that he cannot self-generate.",
+      "why_unmet": "Asked directly whether it is a weekly check-in, the rep answered only 'he just makes himself available to you, basically 24-7... it's kind of like as needed' and named no cadence at all. On-demand access is close to the opposite of what this prospect said he needs, and it also resembles the failure mode of his last coach.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Coaching that adapts when a brutal work season hits, rather than treating the workload as an excuse — the explicit reason he left his last coach, who called his 14-hour days 'noise'.",
+      "why_unmet": "The rep did assert this ('we're not going to be like, we'll do it anyway... let's figure out how can we still make this work for you'), but offered no mechanism, no example and no proof, so the single biggest purchase driver rested on an unsupported claim.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

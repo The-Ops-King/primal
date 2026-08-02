@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-05-06_boris-kojic_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The pillar was never delivered. No kettlebell programme, no mobility programme, no three-to-four sessions of thirty minutes, no baseline movement assessment and no mention of Trevor designing the programming. The only product description on the call was a price range and, later, 'Primal University, which is pretty much that, videos, structure...everything is centralized into an app called School.' The prospect had explicitly asked what he would get and received no answer beyond a number."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never mentioned in any form, despite the prospect volunteering his diet unprompted at 00:02:58 — 'I'm eating clean now, I'm just eating couscous and other high-protein stuff' — and naming stubborn belly fat as his single most persistent frustration. The most directly relevant pillar to his stated goal was left on the table."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "The formal pillar never ran — no Trevor cell phone number, no community, no no-subscription framing. The concept was raised only as a discovery question at 00:20:53 ('if you had someone guiding you, someone coaching you, someone holding you accountable to show up three times a week') to which the prospect said 'Yes.' He accepted the principle of paid accountability and then, twenty seconds after the price, replaced it with his wife. The pillar that would have defended against exactly that substitution was never presented."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_alternative",
+      "raw": "Just look at YouTube, look at those things that people are doing and actually save those videos and then record myself and then re-watch it and see if I'm doing it properly.",
+      "direction": "undercuts_price",
+      "competitor": "YouTube / self-recording",
+      "note": "The strongest anchor on the call, and partly self-inflicted — the rep himself introduced the comparison at 00:20:12 by asking 'what is stopping you from putting together a routine with kettlebells using ChatGPT or YouTube'. That question is scripted to expose the free route as a proven failure, but the prospect took it as a suggestion and adopted it as his plan."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "There's also my wife who is, like I said, a psychologist. has a great memory, unbelievable memory. So she always helps me out as well. She always puts me back on the track, makes me keep focused.",
+      "direction": "undercuts_price",
+      "competitor": "His wife (psychologist / counsellor)",
+      "note": "A free, in-house, clinically-credentialled accountability substitute — the single hardest anchor to beat in this batch, and the rep ended up endorsing it. Worth noting for positioning: earlier in the same call the prospect had said he deliberately does not bring this burden to his wife, so the substitute contradicts his own stated preference and that contradiction was available to use."
+    },
+    {
+      "type": "existing_trainer",
+      "raw": "I usually work out with a trainer, like I said to you before, but I forget almost instantly because my short-term memory is really bad",
+      "direction": "undercuts_price",
+      "competitor": "Personal trainer at his gym",
+      "note": "He already pays for one-to-one coaching an hour a day and considers it expensive — 'I used to go to the gym one hour every day before, and that's a lot of money.' His reference price for coaching is a per-session gym rate. He also volunteered that the existing arrangement does not work for him, which was a supportive angle nobody used."
+    },
+    {
+      "type": "rep_introduced_price_floor",
+      "raw": "the investment is anywhere from 1,200 bucks to 9 grand US dollars",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep created this anchor himself. Once $1,200 is in the room the $6,000 and $9,000 tiers are reframed as the expensive end of a range rather than the product, and the prospect's next move was to look for the cheapest version of what he needed. The subsequent $200 Primal University mention compounded it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Asynchronous form review — the ability to send his own training videos to a coach and be told whether he is performing the movements correctly. He raised this three separate times and it was the concrete thing he came to the call for.",
+      "why_unmet": "Nobody ever told him whether the coaching includes video form review. The offer was never described, so the one feature that would have closed him went unmentioned; instead he was pointed at a $200 self-serve video library, which is the opposite of what he asked for.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A rewatchable, permanently accessible movement library he can return to repeatedly because short-term memory impairment means he forgets movement patterns almost immediately after being taught them",
+      "why_unmet": "The programme's delivery model was never explained. On the evidence available the True Coach app and the programme library probably do serve this, but it was never said, and Primal University was offered as though it were a separate lesser product.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Programming that adapts around multiple sclerosis — relapse periods where he cannot train, and a rate of muscle loss he describes as losing everything within a week of stopping",
+      "why_unmet": "There is no clinically-adapted pathway. The strongest claim available to the rep was 'not with MS, but actually maybe one person, but with scoliosis' — he could not point to a protocol, a clinical relationship, or a precedent he was confident of.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A training commitment that fits 30-40 minutes rather than the hour-plus he associates with gym and trainer time",
+      "why_unmet": "The programme is in fact 30 minutes per session three to four times a week, which is exactly what he asked for. It was presented to a different prospect on the same day and simply never said on this call.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-09_ramon-magana_farooq-bey",
+  "rep": "Farooq Bey",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "miss", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Opened straight into the discovery question — 'welcome to the call... I'll turn the floor to yourself, Ramon. How can we potentially help you, man?' No four-part frame, no frame agreement, and no read-back of setter notes despite a KFS-set call; the rep later had to ask 'Where did you come across us, man?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "hit", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Got age, height and weight ('How old are you? Let me get a bit of a baseline... And what's your height and weight?'), work and standing hours ('What do you do for work, man?' / 'So were you probably on your feet a lot then?'), training week and current results. Never asked about health conditions — the disc was volunteered: 'And I have lower back problems as well, just to let you know.' Diet was volunteered too. Sleep and energy never touched."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "miss", "P3d": "hit", "P3e": "partial", "P3f": "partial", "P3g": "partial", "P3h": "miss" },
+      "evidence": "Good persistence on the why — asked 'why is it important for you to even get past that point?' and pushed again with 'Why is that a goal for you, though?' when the first answer was thin. The ripple question ('how is it going to impact into different areas of Ramon's life?') surfaced the 16-year-old son, but the rep took one turn on it and moved on rather than driving it home, and never reflected the deeper driver back ('so this isn't really about the weight, it's about X')."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+      "evidence": "Asked 'Why do you feel like you haven't been able to do that thus far? What do you feel like is missing?' and let the prospect name the gap himself — weightlifting knowledge and no external feedback on form. 'Have you had a coach before?' and 'why haven't you got a coach?' got close to the structural question but the rep took 'lack of finance' at face value and did not press on why self-direction keeps failing."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame at any point. The two-year question, the settle question, the 'why not' and the line-in-the-sand were all skipped. The rep went from root cause straight into 'All right man listen I'm confident we can help you' and the pillars."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "miss" },
+      "evidence": "Ran a 1-10 scaling question as a substitute ('10 out of 10 is, yeah, I trust these guys to help me, and one is I'm not sure') and got a 10, but when he probed the reason the answer was explicitly hollow — 'I honestly, I don't even know, actually. I can't give a good answer.' He presented price anyway instead of returning to Phase 5. No 'any reason you wouldn't go all in' question."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Close was attempted but the prospect declined outright before any payment step — 'I'm going to go ahead and pass it now.' Onboarding, agreement and welcome-email steps were unreachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The isolate move ran cleanly — 'So money aside, for a second, do you feel like we can even help you?' — and correctly surfaced that belief was not the blocker ('the help is not the problem. It's the cash flow'). Nothing after that was scripted: no 'you're not in a SHOULD I place, you're in a HOW place', no 'most clients pay upfront but for some we break it up', no permission question for an honest financial conversation, and none of the six financial-picture questions (cash on hand, monthly surplus, number of cards, available credit, used vs available, investments). Instead of opening the wallet the rep cut price, offering a $1,200 one-month trial."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clear certainty-seeking trigger: 'if I'm spending the money in this, I'm not getting the results... what's the end result off that after three months you put in.' None of the OE moves ran — no 'would it be fair to say you're looking for certainty', no bridge, no plane, no 'how will you know if you never actually try'. The rep answered the fear with a discount instead of a frame."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap: the prospect's actual objection was that he could not evaluate the deliverable — 'You can help me out if I don't even know what the program is about.' There is no scripted play for a proof-of-deliverable demand, and no sanctioned trial or demo asset to point at, so the rep manufactured one at $1,200. This is a script and collateral gap, not only a rep failure."
+    }
+  ],
+  "notes": "Discovery was decent and the root-cause work was genuinely good, but the call skipped the entire consequence frame and treated a hollow 10-out-of-10 as a commitment. With no pain of inaction established and no real yes banked, the price landed on an empty frame and the rep had nothing to hold — so he discounted twice. Coach the P5/P6 sequence and, specifically, running OC's financial-picture questions instead of cutting price."
+}

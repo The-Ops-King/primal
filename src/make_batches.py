@@ -43,13 +43,24 @@ def main(batch_size=BATCH_SIZE, only_rep=None, limit=None):
     if only_rep:
         files = [f for f in files if f["rep_folder"] == only_rep]
 
-    # already-extracted calls are skipped so the run is resumable
+    # Already-processed calls are skipped so the run is resumable. Must check
+    # BOTH directories — internal calls land in data/internal_calls/ and would
+    # otherwise be re-read every restart, which at ~25% of the corpus is a
+    # large amount of wasted work.
     done_ids = set()
-    for p in (ROOT / "data" / "calls").glob("*.json"):
-        try:
-            done_ids.add(json.loads(p.read_text())["source"]["drive_file_id"])
-        except Exception:
-            pass
+    for d in ("calls", "internal_calls"):
+        for p in (ROOT / "data" / d).glob("*.json"):
+            try:
+                rec = json.loads(p.read_text())
+                fid = (rec.get("source") or {}).get("drive_file_id")
+                if fid:
+                    done_ids.add(fid)
+                # a call may absorb a continuation file rather than write it
+                cont = (rec.get("source") or {}).get("continued_in_drive_file_id")
+                if cont:
+                    done_ids.add(cont)
+            except Exception:
+                pass
     pending = [f for f in files if f["id"] not in done_ids]
     skipped = len(files) - len(pending)
 

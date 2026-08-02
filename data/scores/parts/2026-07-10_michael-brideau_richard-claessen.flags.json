@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-10_michael-brideau_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Reps drilled a scripted sequence whose explicit purpose is to persuade a prospect that consulting their spouse about a $6,000 purchase from a joint account is unfair, and to push past money already earmarked as children's savings.",
+      "evidence": [
+        "why do you feel like it is fair for you to actually go to her and ask her to make a decision on something that she's never been involved in?",
+        "Well, yeah, I guess, but like it is money that's in a shared bank account usually.",
+        "Usually, we always make them together.",
+        "Well, I have it, but it's in savings for the kids, et cetera. Like we've got some on our payment account, but not six grand.",
+        "what decision does he make right here, right now, so that he can actually show up for his wife and his kids the way that he wants to? dude, it's probably not running chat with his wife."
+      ],
+      "timestamp": "00:20:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rehearsed close frames a prospect declining to buy as choosing mediocrity, a pressure frame applied after the prospect has already said the money is not liquid.",
+      "evidence": [
+        "or we crumble and we go back to just where we're at right now. we stay there and settle for mediocrity with all due respect.",
+        "Does he step forward and face adversity head-on, or does he crumble and retreat back to mediocrity?"
+      ],
+      "timestamp": "00:30:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This file is a rep-to-rep roleplay in which a $6,000 offer is presented and objections are run, so it reads as a sales call to any automated pass and would inflate the denominator if not routed out.",
+      "evidence": [
+        "Sweet. Awesome, Richard. So the total investment for the transformation to lose the 20, 30 pounds and to have the skill sets to do this for the rest of your life is maybe $6,000.",
+        "What do you want to work on today, bro?",
+        "part of me wanting to roleplay this is to actually be able to get to the roleplay"
+      ],
+      "timestamp": "00:03:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The same meeting is recorded twice in Drive under two different file ids, one in each participant's rep folder, so any per-file count treats a single call as two.",
+      "evidence": [
+        "Drive file 1l8R6UolC_Jh0t8Fmremsu6LdotHWnP9v, folder 'Michael Brideau', 40,476 bytes, title '07/10/2026 - Michael x Richard'",
+        "Drive file 1uz7vZI1gk2hWYpxB7q049oqImMnem-x0, folder 'Richard Claessen', 39,683 bytes, title '07/10/2026 - Michael x Richard' (batch_013)",
+        "Both transcripts open with the same exchange and run the same two roleplay passes; wording and timestamps differ because they are separate transcriptions of one Zoom."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A closer described his own state as flat and low-energy and stated he would take live prospect calls anyway, then left this session for a call twelve minutes later while saying he did not yet have the objection script down.",
+      "evidence": [
+        "I'm very tired today. I'm feeling a bit like gray, if that makes sense.",
+        "I woke up like pretty tired and it's like gray... my whole, I can just tell my energy is very like, or my mood is very flat. So yeah, show up, take calls, do the thing, sleep.",
+        "right now the primary goal is like, dude, I want to get the act, like I need to actually be able to say it because I can't, like I don't have it down for me.",
+        "no i've got a call in 12 minutes i think you have one too"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

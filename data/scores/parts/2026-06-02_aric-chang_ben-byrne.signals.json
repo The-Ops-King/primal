@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-02_aric-chang_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He asked for it before it was offered - 'I don't know if like this program helps with like flexibility and mobility at all' and again at 00:14:29, 'would these training sessions help out with like mobility and flexibility or is it more just kind of like a physique or a bodybuilding kind of thing?' - which is the strongest pull toward this pillar anywhere in the batch. He then kept probing the mechanics: 'Are you familiar with the different primal movements? A bit, yeah', and after the explanation, 'how would it work in terms of if I'm actually starting sessions? Am I required to buy additional equipment? Like how often are the sessions?' Confirmed comprehension with 'No, that makes sense. Yeah. It's helpful.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Accepted the no-macro-tracking positioning as matching his own experience - he had already said tracking was 'just too difficult to do consistently' - and then asked the sharpest question of the call about it: 'Are there like kind of like caloric goals or like different types of macros to pay attention to or that I need to track on the diet side if I were to work with Trevor?' The answer he received was 'It just depends on your goal', followed by the acknowledgement that cutting to 6% body fat means 'you absolutely got to track that', which partly contradicts the pillar he had just been sold. He accepted it without pressing further."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no questions - 'okay, those other goals yeah, all right, so nice, yes'. The rep positioned it against the prospect's own bad experience, mirroring back the stretching centre: 'you brought it up with the physio place, like their whole business model is okay, how often can we keep you coming back... our whole thing is like, ideally this is the last fitness program you need.' That was well done and it landed. The irony is that accountability across a two-to-three-week travel absence is the single hardest thing this prospect needs and it was never specifically addressed."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I've been going to like some kind of like, it's not exactly physical therapy, but there's just this like center near where I live that they just help you do like total body stretching... And each time you go, it's like over $100 per session.",
+      "direction": "supports_price",
+      "competitor": "An unnamed total-body stretching centre in New York",
+      "note": "Genuinely supportive and the only clean one of its kind in the batch. He has already paid over $100 a session for a narrower service, so a per-session price frame favours the offer. He also volunteered the reason he left - the provider deliberately would not teach him to do it himself - which hands over both a price comparison and a trust grievance the offer directly answers. The rep used the trust half well and never used the price half."
+    },
+    {
+      "type": "other",
+      "raw": "then it's like my gym sessions are like an hour and a half to two hours long so then it's like oh I'm coming all the way to this different country or different state like I had like people to meet and work to do and now I'm on top of that I have to find a gym I'm not a member of... it'd be a lot higher ROI if I could just go to a gym and then just do a quick workout every day",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: values_time_over_money. He priced the decision in returns on his own time rather than in dollars, and never once reacted to $6,000 or $9,000. This is the profile the offer is built for, and the rep responded by pre-emptively offering to split the payment for a prospect who had raised no affordability concern at all."
+    },
+    {
+      "type": "other",
+      "raw": "It doesn't have to be a free trial, but it's like, do I have to buy a whole 12-week package or something right off the bat? Or can I just pay per session to begin with just to see what it's like?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: expects_pay_per_session_model. His mental model of buying coaching is per-session, set by personal trainers and the stretching centre. Against that, a six-month prepaid commitment is not expensive so much as structurally unfamiliar. The gap to close was the shape of the commitment, not the size of the number, and the guarantee that bridges it was mentioned only after he had disengaged."
+    },
+    {
+      "type": "other",
+      "raw": "We've worked with over a thousand, but we've got 120, about 119 active.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: scale_disclosure. The prospect asked directly how many clients there are and got an honest and precise answer, which he received well ('Yeah, that's a lot'). Recorded here because the same rep described the community as 'a couple hundred people' and 'hundreds of people' on three earlier calls in this batch, so the accurate figure given here sets the reference point for those claims."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A way to sample the service before committing - a trial, a few sessions, or pay-per-session. Asked three separate times and explicitly not required to be free.",
+      "why_unmet": "No trial or per-session product exists, and the operational reason given was that Trevor begins building the plan immediately. The love-it-or-leave-it guarantee is the nearest available answer and was not offered until the very end of the call, after he had already deferred twice.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training and accountability that survive two-to-three-week international travel blocks, which are the actual cause of his inconsistency.",
+      "why_unmet": "The rep addressed the equipment and time dimension well but never addressed what happens to coaching, check-ins or adherence during the weeks he is away and historically stops entirely. This is his central problem and the offer was never mapped onto it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Clarity on whether he will actually have to track macros or calories, having been told the programme does not require it and then told that a 6% body fat goal means 'you absolutely got to track that'.",
+      "why_unmet": "The answer given was 'It just depends on your goal', which leaves the prospect with two contradictory statements about the same pillar and no resolution.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Assurance that loaded kettlebell work is appropriate for an SI joint injury with recurring lower back pain and a known left-right asymmetry.",
+      "why_unmet": "The injury was explored for where it shows up but never for whether it constrains training. No clearance question was asked. The programme's strength evaluation was described as protecting against overload, which is adjacent but is not clinical screening.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-07-07_jake-brenner_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed repeated exertional near-collapse with loss of sensation in his feet at work; he was sold high-intensity loaded kettlebell training the same hour and nobody asked whether a clinician had ever assessed it.",
+      "evidence": [
+        "at the end of every fire. I literally feel like I'm gonna die. Like, I feel like I'm gonna pass out.",
+        "the last fire I was on, I was walking around and like, I couldn't feel my feet. Because I was just like in this trans of exhaustion. And that's something like that's very scary.",
+        "Sounds like like you're... Also putting yourself a little bit in danger and also other people a little bit in danger when that's like your state. Is that true?",
+        "that sluggishness will go away because you're just so active the whole time"
+      ],
+      "timestamp": "00:10:24"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed taking prescribed Adderall in self-described large amounts alongside 400 mg of caffeine daily; the rep told him the programme would remove the need for it and took a commitment to cut caffeine, without any reference to his prescribing clinician.",
+      "evidence": [
+        "I'm also prescribed Adderall, so I take a ton of Adderall at work to try to stay focused and alert",
+        "I'll drink a Celsius in the morning about like an hour after I wake up. And then I'll drink another one after lunch. So about 400 milligrams of caffeine a day.",
+        "Okay, that's that's definitely something we need to work on.",
+        "you don't need to take the Adderall anymore, you don't need to take the caffeine anymore the whole time just to go through the day",
+        "Can you commit to also making those changes in your diet and also to limit the caffeine?"
+      ],
+      "timestamp": "00:16:59"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Statements about the programme replacing a prescription stimulant and reversing a described physiological state read as medical advice from a non-clinician.",
+      "evidence": [
+        "you don't need to take the Adderall anymore, you don't need to take the caffeine anymore the whole time just to go through the day",
+        "of course, actually function with your body instead of drugs that you have to put in you",
+        "Because your body is reversing all of the things that I've been building up over the last one, two years"
+      ],
+      "timestamp": "00:35:03"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Disclosed occupational trauma exposure and psychological distress were reframed as a discipline problem and used as closing material, with no signposting to any support.",
+      "evidence": [
+        "it was just like super mentally draining of like seeing and all this tragedy around you and dealing, just dealing with it and taking it home",
+        "my inner voice is just kind of, like, dragging me down... I'm just giving up all the time because I'm just used to being disappointed in myself",
+        "it sounds like at the moment, there's more of a devil talking to you, like, yeah, it's fine where you are, you don't really need to change",
+        "I think I'd just start becoming angry. I'd be super angry at myself, but then I'd start lashing out on other people."
+      ],
+      "timestamp": "00:14:04"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Full card and billing details were collected verbally on a recorded Zoom call that is stored as a transcript in Drive.",
+      "evidence": [
+        "I'm just checking, do you have like a credit card? Probably you do, right?",
+        "On your card, what's the name on there?",
+        "Okay. So for the bidding address, is it also just Jacob Brenner?",
+        "Address? 145."
+      ],
+      "timestamp": "00:59:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording terminates mid-sentence during payment capture, so payment confirmation, agreement signature and the Trevor onboarding booking are all absent from the record for a call counted as a close.",
+      "evidence": [
+        "Address? 145. Let me actually just... Mm-hmm. Can we just... Whiting?",
+        "Then I will also check Trevor's calendar so we can actually get you started, might even be, if you have time, that he actually has time today, I will have to check, but who knows."
+      ],
+      "timestamp": "01:00:24"
+    }
+  ]
+}

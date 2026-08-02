@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-05-07_engin-oytac_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a worsening back injury that had ended his swimming, plus recently managed sleep apnea, at roughly BMI 36; the rep asked no follow-up question about either and presented loaded ballistic kettlebell training with no clinician mentioned by either party.",
+      "evidence": [
+        "I used to swim. I can't swim now. My back is getting worse.",
+        "I did laps. I used to do 40 laps in a 25-meter pool. Then I increased it to 70 laps. But then my back's got bad, really bad. I hurt my back. So all of a sudden, I couldn't do something.",
+        "I had sleep apnea too, so now I got a device that's helping me, I hope, but yeah, so that might have affected me.",
+        "I don't know, but probably 118 kilograms. And how tall are you? 5'11\".",
+        "before we decide, design anything for you, need to understand what is your ground zero... Because the last thing we want for you is to get injured or overextend yourself",
+        "making sure that the movements are right. I'm not injuring myself. That's the key."
+      ],
+      "timestamp": "01:12:14"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep gave a physiological explanation for the prospect's sugar cravings and cited his diabetic father's improvement under the programme as evidence it would resolve them.",
+      "evidence": [
+        "so my only problem with nutrition is that I get these, you know, sweet cravings in the afternoons, so I need to kind of really figure that out.",
+        "Yeah, something to do with your insulin and blood sugar, you know? My dad is a diabetic, and it's the same thing for him before we started working with Trevor, you know?",
+        "So once we understand what you need to eat in the morning, those sugar cravings are actually going to be like this, as opposed to like this."
+      ],
+      "timestamp": "01:17:31"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep presented the $1,200 'love it or leave it' product as a standard fourth level of the programme, having twice in the previous twenty-four hours introduced the same product as an exception he was not meant to offer.",
+      "evidence": [
+        "So there's four levels of the program, okay? I'll explain the fourth in a moment, but we have a three-month, six, and 12.",
+        "For people who are not sure about this, or could working with Trevor, they're not sure about Caterbell training. We have a love it or leave it option, which is one month. For 1,200 bucks.",
+        "[cross-call, same rep, 2026-05-06_brandon-johnson_farooq-bey at 00:55:44] Typically I'm not meant to really offer this, but I believe they are serious enough that you want to commit to this",
+        "[cross-call, same rep, 2026-05-06_roy-norman_farooq-bey at 00:51:45] So I'm not meant to really recommend this, but we have something called Love It or Leave It."
+      ],
+      "timestamp": "01:20:39"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Rep presented an unlisted $4,000 three-month tier and an unlisted $1,200 one-month tier alongside the published $6,000 and $9,000 prices.",
+      "evidence": [
+        "So the investment for three is 4,000 US, six is six, and for 12, it's nine.",
+        "We have a love it or leave it option, which is one month. For 1,200 bucks."
+      ],
+      "timestamp": "01:20:47"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This sales call is stored inside a recording file titled for a different prospect, so it exists in the corpus only as an unnamed second half and will be missed by any title-based or one-call-per-file process.",
+      "evidence": [
+        "00:56:14 - Engin's iPhone  Hi there. Hello. Hello.",
+        "00:57:20 - Farooq Bey (Primal Instinct)  Cool. So, Engin, welcome to the call. We have a limited amount of time, so shall we dive into it?",
+        "05/07/2026 - Soneel Raj & Farooq Bey KFS- Kettlebell Body Game Plan Session"
+      ],
+      "timestamp": "00:56:14"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts attribution throughout and the prospect appears under two different speaker labels after a mid-call device change.",
+      "evidence": [
+        "01:19:23 - enginoytac  What questions do you have for me, Engin?",
+        "00:56:14 - Engin's iPhone  I'm going to try to join from my laptop. Hold on a second.",
+        "00:56:36 - enginoytac  Thank you. Thank you. Okay. How are you?"
+      ],
+      "timestamp": "01:19:23"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-11_colt-campbell_michael-brideau",
+  "rep": "Michael Brideau",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Long rapport open about Michigan and Texas with no structure. The application was read back, but 28 minutes in rather than at the open: 'I did want to touch on something I saw in your application.' No four-part frame and no frame agreement was ever sought. The open question landed: 'Let's talk about fitness, bro. What's going on with fitness?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "hit", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Work was asked ('What do you do from work?') but never characterised as desk-bound or on-feet. Height, weight and the 21 lb loss were volunteered unprompted ('right now I'm at, like, 262. I'm 5'11\"'), never asked. Age never established. Health conditions never asked — the asthma and the hospitalisation were volunteered inside a story about why he lost shape. Injuries, diet, sleep and energy were not asked at all. Only training frequency was properly gathered: 'How many hours a week did you say you're working out right now?'"
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "hit", "P3e": "hit", "P3f": "miss", "P3g": "partial", "P3h": "hit" },
+      "evidence": "Strongest phase by far. 'What's the ideal body? What are some other fitness things that are important to you?' then repeated why-laddering: 'why is all that stuff important to you, man? Like, why does that actually matter?' and 'Why is that important, though, to have that confidence and that capability?' Reflected back at the identity level: 'I'm not looking at this just from a fitness perspective, bro. I'm looking at it from a Colt living up to his potential perspective.' Never asked who else it impacts, and the father's death was surfaced from the application rather than driven to as legacy."
+    },
+    "P4": {
+      "score": "hit",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+      "evidence": "'You'd mentioned that you were in shape before and it didn't stay — why didn't it stay?' produced the full history. 'What's been holding you back from making progress?' and the follow-up about past risks let the prospect name the gap himself as self-sabotage and a belief system. The 'information isn't the problem' move was softened to 'why are you feeling like you might need a little bit of help to actually get there, out of curiosity?'"
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No two-year cost-of-inaction question, no 'is that something you're willing to settle for', no line in the sand. The nearest thing came after the price and after the objection: 'Are you ultimately happy with where you're at currently?' — which the prospect deflected by listing his wins. The whole consequence frame was skipped before the presentation."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind before presenting. The rep went straight from 'What's your thoughts on that, though?' into the three pillars and then the price. The 1-10 question and 'if you knew for 100% for certain... here's my credit card' both came after the number was on the table, which is the wrong side of the script."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted twice and no payment was collected, so step 1 is a miss; steps 2-4 were never reachable. The call ended with 'If you decide to go for it, shoot me a text' — no onboarding call with Trevor, no agreement, no Skool link, no scheduled follow-up."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger was explicit and repeated: 'when do you prefer an answer? Because I'm not giving you one right now' and 'I always think about it.' The rep ran the deciding-not-thinking family of moves — 'what benefit is there in kicking the can down the road?' and 'would you say that all your decisions and your thinking process has gotten you to where you're at today?' — and the prospect conceded there was no logical reason. He never ran the opening isolation ('Do you feel what we've gone through CAN get you to your goal?'), never asked 'what's actually coming up that's preventing you from getting started', and never closed the loop with 'Are you sure? Nothing else keeping you from being 100% in?' He abandoned the play mid-run to end the call for another appointment."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Money was raised directly ('6,000 obviously is no small amount', 'that comes out to what, almost $300, $400 an hour'). The rep skipped the mandatory isolation ('Finances aside — nothing else keeping you from 100%?'), never asked permission for an open financial conversation, and ran none of the six financial-picture questions — no cash on hand, no monthly surplus, no cards, no available credit, no investments. Instead he jumped straight to structure: an unprompted 3x$2,000 plan and then an improvised $1,200 one-month trial. The Hormozi value-versus-hourly-rate reframe was the only value move and it was not tested for agreement."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The doubt was substantive and stated twice: 'it's hard to grasp that you can get in like great shape in like an hour and a half a week of training.' The rep opened correctly with the certainty frame — 'if you knew for 100% for certain that... you would get the results?' — which is the OE 'looking for certainty' move, but then dropped it. No bridge, no plane analogy, no 'how will you know if you never actually try', and critically no proof, client example or result was offered against the specific claim the prospect could not believe."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap — a cheaper functioning substitute. 'For $6,000, I could hire a personal trainer that would do this with me, hold me accountable, do all these other things for longer.' This is the same gap logged against the Badrane Hriouch call: OC assumes inability to pay, and this prospect can plainly pay. The rep answered with a Hormozi anecdote about pricing rather than any differentiation of Trevor's programme against a local trainer, and never established whether the local-trainer option was real or rhetorical."
+    }
+  ],
+  "notes": "Excellent discovery and root-cause work, then the script falls off a cliff: no consequence frame, no commitment check, and the price was named before any yes had been earned. The pattern to coach is sequence, not skill — this rep can run P3 and P4 as well as anyone in the corpus and then improvises everything from the presentation onward, including inventing a $1,200 trial tier when the objection landed."
+}

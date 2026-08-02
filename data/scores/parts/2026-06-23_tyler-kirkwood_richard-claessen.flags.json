@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-06-23_tyler-kirkwood_richard-claessen",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "A full card number was dictated digit by digit onto the recording along with the cardholder's name, email address and full home address, and all of it is preserved in the stored transcript.",
+      "evidence": [
+        "The card, do you have the card with you?",
+        "Yes. What's the number? 4147.",
+        "Can I put it on Tyler Kirkwood and then TKtyler Kwood at gmail.com?",
+        "And that's in Harrisburg.",
+        "Actually, let me just quickly throw this thing out because I don't want that to be on the recording."
+      ],
+      "timestamp": "00:56:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A prospect who had just said he had nothing available until payday was told his checking balance was zero and, under a calendar-scarcity frame, left the call with $100 charged to a credit card.",
+      "evidence": [
+        "As of right now, unfortunately, I don't have anything I could put towards it right now.",
+        "I think you've got zero dollars on your checking.",
+        "because we have so many meetings in our calendar, I don't want to just book up a slot for you in the sense of, without having some sort of commitment, right?",
+        "I would have to transfer some over, but I could put like 125 to it right now.",
+        "We can do 100 right now. Then we can at least book something in for tomorrow. Then you also have the commitment for yourself."
+      ],
+      "timestamp": "00:51:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A structure outside the two-tier offer was improvised live — a $100 commitment deposit plus 12-month third-party financing at interest against the $6,000/6mo programme.",
+      "evidence": [
+        "when it comes to the investment to get to feeling more lean, feeling more confident, being the younger version of yourself again, basically, is an investment of 6k",
+        "If I'm making monthly payments, I could probably do three to four. Maybe, maybe $500 a month.",
+        "Question, what's your credit score like?",
+        "What I'm thinking we can do is we can finance it and then you can do it over 12 months, but it might add a little bit of, I forgot, interest",
+        "We can do 100 right now."
+      ],
+      "timestamp": "00:49:19"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "A $100 deposit was accepted and an onboarding call with Trevor scheduled off it, against the deposit rule the sales manager set out to this rep the previous day.",
+      "evidence": [
+        "We can do 100 right now. Then we can at least book something in for tomorrow.",
+        "then tomorrow we do the financing and we can book in a meeting with Trevor for on Thursday",
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call. But they have to pay at least the $1,200 before the onboarding call happens, and if they don't, cancel it and be on top of it ASAP."
+      ],
+      "timestamp": "00:52:44"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Five years of knee problems severe enough that the prospect avoids running and jumping, plus unresolved lower back issues, were discussed in detail and he was moved to a deposit without anyone asking whether a clinician had assessed him.",
+      "evidence": [
+        "I've had bad knees for for quite a while now and so I just try to try to do things that aren't too that are low impact",
+        "five years probably like more like five years",
+        "if I do try to run full speed, or if I do, you know, the box jumps and stuff like that, I'll feel it for the next few days",
+        "your knees issues have been there for five years, you still have a little bit in your lower back. It's been getting better, but it doesn't sound like it's 100% gone, right?"
+      ],
+      "timestamp": "00:05:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep made a therapeutic claim about reversing a five-year musculoskeletal problem, with no clinician involved and no qualification.",
+      "evidence": [
+        "over time, we're basically going to be reverting the issues that we've caused over the last few years, and then when that is on a baseline again, it will get better, so you're actually going to start feeling younger again",
+        "so you're doing the right movements, you're not going to make your knee, your back worse, it's only going to become better from on there"
+      ],
+      "timestamp": "00:31:49"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording ends abruptly mid card-number capture, directly after the rep says he is removing something from the recording, so the close, the payment completion and any booking are not captured.",
+      "evidence": [
+        "Actually, let me just quickly throw this thing out because I don't want that to be on the recording."
+      ],
+      "timestamp": "00:56:58"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-06-30_giovanni-sornatale_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Engaged with the mechanics as a knowledgeable buyer rather than reacting to the pitch. Confirmed the physiology unprompted — 'a lot of it comes down to like lubricating joints and stuff too, like when you're naturally working out' — then asked a series of practical questions: 'You said it's workouts three to four times a week?', 'you said the workouts a month in advance, so you get the whole month of workouts?' and, tellingly, 'And how basic is it? Because I do have some pretty solid fundamentals.' No objection, but no enthusiasm either; he was assessing fit for an experienced trainee."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed immediately and without questions: 'No, it sounds great.' He had already pre-empted most of the content by describing his own meal prep, protein powder and creatine, and had stated plainly 'food is not the issue' and 'right now, nutrition is pretty solid'. The only adjustment the rep proposed was pushing protein toward the upper end of his existing range, which the prospect had effectively already conceded."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "This pillar was structurally thinner because the product presented was a community rather than one-to-one coaching, and the prospect probed exactly that. Asked what he needed, he said 'I think like a check-in could be helpful, you know, like if there was like a once a week check-in thing or once a month check-in thing, you know, I, uh, again, I don't know if I really fully need that.' He then asked how delivery actually works — 'Do you send emails? Is it like on a Discord or something?' — and had to be walked through Skool, which he had not heard of. There is also an unresolved tension the rep never addressed: the prospect had said earlier 'I don't like social media, I want to stay off social media as much as possible', and the product is delivered through a social platform."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "stated_budget",
+      "raw": "in terms of like a home thing, I'm, I'm, I wouldn't want to spend much more than, you know, 100, 150 bucks a month. But again, I don't, I don't fully know what it entails.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The single most consequential anchor in the batch, because the rep solicited it before presenting anything — 'what's the range that you were expecting for yourself?' — and then let it determine which product was presented. Against $6,000 for six months this anchor is roughly a tenth of the offer. The prospect himself flagged it as provisional ('I don't fully know what it entails'), meaning it was an uninformed anchor that hardened into the outcome. He later added a second bound: 'I don't necessarily think I need to start off with a $350, $400 a month program.'"
+    },
+    {
+      "type": "competitor_price",
+      "raw": "There's not much around me. Like, I've looked up kettlebell gyms in Los Angeles before... and in-person coaching tends to be significantly more expensive. I would imagine, I would hope it, at least it's less expensive than in-person coaching.",
+      "direction": "undercuts_price",
+      "competitor": "In-person personal training and kettlebell gyms in Los Angeles",
+      "note": "He expects remote coaching to be materially cheaper than in-person, which is the opposite of how the flagship is priced. He also drew a distinction that undercuts the whole category: he will pay for specific skill instruction — a tennis lesson, a golf lesson, boxing — but not for general day-to-day fitness, which he believes he should own himself."
+    },
+    {
+      "type": "self_directed_alternative",
+      "raw": "part of me feels like I can just put some time and effort into coming up with, you know, a relatively simple workout plan with the knowledge that I have and go from there.",
+      "direction": "undercuts_price",
+      "competitor": "Himself — free, self-programmed kettlebell training",
+      "note": "The strongest competing option, and unusually credible: he already has good kettlebell fundamentals, is an ex-athlete, and trains at home with equipment he owns. His stated need is narrow — 'I just need a little bit of guidance. I don't need that much guidance' — which caps what any programme can be worth to him. The rep correctly countered that self-programming is precisely what has failed him for years, and the prospect conceded the point but did not change position."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A clear, straight answer on what the one-to-one programme costs and what it includes — asked more than once",
+      "why_unmet": "Never provided. The rep answered 'usually in a couple of thousands', then 'No, it goes a little bit higher' to a direct check of $2,000 for six months, and added it 'depends a little bit on how specific you would make it', which describes variable pricing that does not exist. The prospect said plainly 'I'm a little bit fuzzy on like, what it actually entails' and remained so.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To learn from and train with the programme without increasing his social media exposure",
+      "why_unmet": "The community tier is delivered through Skool, a social platform, and the free-content funnel is Instagram. He was explicit that this is a problem for him: 'I don't like social media, I want to stay off social media as much as possible... there's a maximum amount that you can be exposed to before it just starts getting terrible for you.' Neither he nor the rep connected this to the product being offered.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A short, low-commitment entry point to build trust before spending more",
+      "why_unmet": "Actually met, and it is the one thing that went right commercially — the $200 monthly community tier matches his stated buying pattern exactly: 'I'm the type of person that would want to like be sold up as I go through it.' Recorded here because it demonstrates real demand for an entry tier from a prospect who otherwise fits the flagship ICP on profile.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Commitment terms that fit a work life he can only see three months ahead in",
+      "why_unmet": "The flagship requires a six-month commitment and the annual community tier a twelve-month one, while he stated 'three months is what I can see into the future right now.' The month-to-month option resolves this, but the six-month flagship structurally does not fit a freelance schedule of this kind.",
+      "verdict": "product_gap"
+    }
+  ]
+}

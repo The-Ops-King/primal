@@ -1,0 +1,94 @@
+{
+  "call_id": "2026-05-19_mike-terpin_harry-edmonds",
+  "source": {
+    "drive_file_id": "19zbqg2M0u-PnjR9II4CncP2YnIy98sDt",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/19/2026 - Mike Terpin x Harry Edmonds KFS",
+    "display_title": "05/19/2026 - Mike Terpin x Harry Edmonds KFS — Undetermined",
+    "file_size_bytes": 4005
+  },
+  "call": {
+    "date": "2026-05-19",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 4,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"I know Kim called you yesterday to reschedule.\""
+  },
+  "prospect": {
+    "name": "Mike Terpin",
+    "aka": "Samsung SM-F766U (joined from a phone; device model is the only speaker label in the transcript)",
+    "name_source": "title",
+    "location": null,
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former Division I athlete with an explicit working knowledge of strength training and bodybuilding programming — \"I understand, like, strength training, bodybuilding, the difference between, you know, the different types... a rep range of an 8 to 10 if you're trying to build some muscle is a solid way to go with a progressive overload.\" Already training with kettlebells for some time.",
+    "kettlebell_experience": "experienced",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.4,
+    "signals": [
+      "Former Division I athlete, already training consistently, explicitly not a rescue case — rep: \"it's not like you're coming here eating donuts never worked out before, right?\" — prospect: \"No, definitely not.\"",
+      "Buying direction and programming rather than transformation: \"a little bit more like focused direction would be\"",
+      "Confidence is low by necessity — the recording ends at 00:04:14 before baseline, goals, occupation or finances were reached, so this assignment rests on four minutes of material"
+    ]
+  },
+  "goals": [
+    { "text": "Get kettlebell programming that is structured toward an actual outcome rather than just producing fatigue", "category": "other" },
+    { "text": "Train in flows — stringing movements together — rather than conventional straight-set bodybuilding schemes", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Effort is not converting into results — \"it's just a lot of like work but not necessarily productivity that I end up doing\"", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "His sessions vary session to session with no through-line — \"it kind of varies, which is part of the problem\"", "category": "program_fit", "severity": "medium" },
+    { "text": "Conventional progressive-overload rep schemes work but bore him — \"it gets boring, you know, I'm not really trying to be a bodybuilder\"", "category": "motivation", "severity": "medium" },
+    { "text": "Cannot assemble the free workouts he likes into a coherent plan — \"how would I string these together to, like, actually accomplish something, versus, like, just get really tired?\"", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "undetermined",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The recording ends mid-conversation at 00:04:14 on a connection failure: \"Oh, you cut out now too? You there?\"",
+      "The rep had flagged connectivity trouble from the opening — \"my Wi-Fi has been messing up all day\"",
+      "The call had only reached the opening of discovery; no offer, no price, no objection and no decision of any kind occurred on the recorded portion",
+      "Whether the call resumed after the dropout, was rescheduled, or was abandoned is not recoverable from this file — no continuation file appears in the batch"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": null
+  },
+  "notable": {
+    "note": "Not a junk file by the size rule (4,005 bytes, above the 2,000-byte threshold) but functionally a fragment: four minutes of a call that dropped on a connection failure the rep had already reported at the top. Kept in the corpus as undetermined; it must not be counted in any close-rate denominator without a note, and it is the second file in this batch where the technical record rather than the sales process decides the outcome. The prospect appears only as a device model, Samsung SM-F766U."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Truncated and swapped. The rep's own frame-setting and open question at 00:00:31-00:00:42 are split across both labels, and at 00:00:49 the prospect label carries the rep's question echoed back verbatim (\"What was it that you were hoping we could potentially help you out with?\"), which is an artefact rather than a real turn. The prospect is identified only by a phone device label throughout; the name comes from the title."
+  }
+}

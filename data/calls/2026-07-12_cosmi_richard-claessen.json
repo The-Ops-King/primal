@@ -1,0 +1,151 @@
+{
+  "call_id": "2026-07-12_cosmi_richard-claessen",
+  "source": {
+    "drive_file_id": "1CBNv8hR7kq2gKnz1E19SpFJjIioXwooA",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/12/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/12/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 54260
+  },
+  "call": {
+    "date": "2026-07-12",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Cosmi",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Romania",
+    "age": 49,
+    "occupation": "Medical oncologist; works roughly 12 hours a day, Monday to Thursday, largely desk-bound",
+    "family_status": "Married ~22 years; an 18-year-old son who is a weightlifter, and two daughters",
+    "height_in": 72,
+    "weight_lb": 196,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Runs regularly and completed the Malaga Marathon with his son last year; ~15,000 steps on running days, ~5,000 otherwise. Home gym with a treadmill and a 12 kg kettlebell he has experimented with. No consistent resistance training and an explicit aversion to gyms.",
+    "medical": "No conditions disclosed. Self-describes as 'a little overweight' at 1.83 m / 89 kg targeting 75-80 kg. Recent DEXA scan reported muscle mass as okay and visceral fat within limits, with abdominal fat as the main issue. Former smoker, quit 18-19 years ago and gained weight after quitting; has cycled up and down in weight ever since."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.75,
+    "signals": [
+      "Already performing at a high level — a marathon finisher and a practising oncologist — explicitly adding a modality rather than fixing a crisis: 'it turns out that resistance training is a very important factor for my longevity.'",
+      "Frames the purchase as an investment decision rather than an affordability one: 'The money aspect is not that big of a problem. It's just that it's a risk.'",
+      "Research-led and evidence-literate — cites a DEXA scan, BMI targets and the post-50 acceleration of muscle and bone loss.",
+      "Counter-signal weighing against a clean optimizer read: the price genuinely surprised him ('I didn't expect a figure that large') and he has an 18-19 year weight-cycling history, which carries a rebuilder note."
+    ]
+  },
+  "goals": [
+    { "text": "Build consistent resistance training two to three times a week at home, without going to a gym", "category": "strength" },
+    { "text": "Get from 89 kg to somewhere between 75 and 80 kg, losing abdominal fat specifically and not muscle", "category": "fat_loss" },
+    { "text": "Train for longevity and to slow the post-50 decline in muscle and bone mass", "category": "longevity_function" },
+    { "text": "Turn resistance training into a permanent habit rather than another cycle he abandons in two or three weeks", "category": "consistency" },
+    { "text": "More energy to get through 10-12 hour clinical days", "category": "energy_performance" },
+    { "text": "Keep running — wants a hybrid of endurance and strength, not a bodybuilder physique", "category": "endurance" },
+    { "text": "Be a health role model for his son and two daughters, and finally act on his son's advice", "category": "family_role_model" },
+    { "text": "Rebuild self-esteem after two decades of weight cycling", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Daily sugar habit — 'even after I ate a whole lot of food, I still feel the need to eat something sweet' — which he names as the reason he cannot shift the weight", "category": "nutrition_habit", "severity": "high" },
+    { "text": "18-19 years of losing and regaining weight since quitting smoking — 'I'm on a carousel of losing and gaining weight'", "category": "consistency", "severity": "high" },
+    { "text": "Hates gyms and weightlifting — 'I hate, absolutely hate going to the gym' — and is certain he would quit a gym programme within two or three weeks", "category": "training_barrier", "severity": "high" },
+    { "text": "Cannot tell credible fitness information from noise — 'you can find tens of thousands of so-called specialists. They recommend this exercise. This is bad. The other one says, no, this is bad.'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Very stressful job at roughly 12 hours a day, four days a week, mostly seated", "category": "work_stress", "severity": "medium" },
+    { "text": "Doubts his own willpower will hold — 'that's all of my willpower... will be the only thing that stands between the present me and the 78 kilo me'", "category": "motivation", "severity": "medium" },
+    { "text": "Uncertain his 12 kg kettlebell is the right load and that he is executing safely without guidance", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Turning 50 in January and aware that muscle and bone loss accelerate from that point", "category": "aging", "severity": "medium" },
+    { "text": "Low self-esteem tied to long-standing weight — 'I'm fighting with this success weight for quite a long time'", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Six thousand dollars? ... Well, that's quite a lot. I didn't expect that kind of figure.",
+      "timestamp": "00:32:33",
+      "rep_response": "Did not defend or reframe the number; moved straight to isolating whether money was the real blocker",
+      "response_tactic": "isolate_immediately",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "It's an investment and I'm not sure that I'm investing in the right product. It's not like I'm buying an iPhone or something, because when you buy an iPhone, you know what you get. But here, all these sound very good, but to invest $6,000 in something that you're not quite sure that is going to work, it's a little bit risky.",
+      "timestamp": "00:33:08",
+      "rep_response": "Cited 1.3 million Instagram followers and over a thousand clients coached, argued the results would be publicly disputed if false, normalised the uncertainty ('75% of the people that I speak to all have that sort of inner voice'), then ran the marriage-proposal and skydiving analogies to argue certainty only arrives after the decision",
+      "response_tactic": "social_proof_then_normalise_then_analogy",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Yeah, I'm gonna need some time to think about it.",
+      "timestamp": "00:32:51",
+      "rep_response": "Repeatedly probed what would change with time ('what is going to change if you have a few hours, if you have a night for it?'), argued he would generate more reasons against than for, then offered a $1,200 one-month starter as the only way to resolve the uncertainty, then finally accepted the delay and booked a 15-minute decision call for the following Friday",
+      "response_tactic": "interrogate_the_delay_then_discount_then_deadline",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if you try a system that's 100 bucks a month or something like that, and it doesn't work, it's fine. It's not a problem. It's 100, whatever. But if you put down an investment of 6,000 and it doesn't work, it's a little bit more difficult to, I don't know, to get over it.",
+      "timestamp": "00:41:24",
+      "rep_response": "Did not address the comparison; responded by asking what would change overnight and then by offering the $1,200 one-month option",
+      "response_tactic": "not_addressed",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "Maybe I will think that there's $6,000. money it's be or Maybe I can ensure my son's studies at the university, for example.",
+      "timestamp": "00:43:41",
+      "rep_response": "Treated it as evidence that delay would harden his resistance — 'if you're thinking like that already then like how do you think that you're going to think in 12 hours from now?' — rather than engaging with the competing claim on the money",
+      "response_tactic": "reframe_as_evidence_of_drift",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Rep improvised a one-month starter at $1,200 during the think-about-it objection: 'Usually it's always up front, but then we do one month for 1,200, and then I'm sure you're going to be like, whoa, I actually love this, I want to continue. But even if that wouldn't be the case, then you can just stop after a month.' No terms were stated for months two to six, no total contract value, and no statement of whether the $6,000 six-month price would still apply on continuation.",
+    "guarantee_mentioned": "Explicitly no guarantee. Rep: 'The only things with an investment in yourself that are actually guaranteed is nothing. It comes down to actually the F that we put in, and then eventually the results that come out... there is no guarantee in the sense like it's 100,000% going to work because it comes down to how much effort you put in.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect deferred at least six separate times, ending with 'Let me think about it for a couple of days'.",
+      "A 15-minute decision call was booked for Friday at 11 a.m. and the invite was sent live: 'It should be on the way now, so you should get it within a minute.'",
+      "No payment taken and no payment link sent.",
+      "The $1,200 one-month option was floated but never accepted — prospect answered only 'It could be, yeah... it's another way of looking at it with a smaller amount to be paid, but let me think about it'.",
+      "Counter-evidence toward a future close: 'Yes, I do want to take that step' and 'It probably is the right choice' — intent is high and money was explicitly de-isolated as the blocker.",
+      "Counter-evidence against: he raised his son's university fees as a competing use of the money late in the call, which is a hardening signal rather than a softening one."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "15-minute decision call booked for Friday 11 a.m.; rep told him to make a decision either way by end of that week and to message sooner if he wanted to start."
+  },
+  "notable": {
+    "note": "This is the cleanest ICP fit in the batch — a practising oncologist, marathon runner, financially unconstrained, explicitly wanting good-to-great for longevity — and it did not close. The decisive moment is at 00:46:07, where the rep invented a $1,200 one-month starter tier that exists nowhere in the offer, immediately after stating that the standard is always upfront, with no terms attached for the remaining five months. Separately, the rep let the prospect name 'willpower' as the root cause and then reinforced that framing repeatedly, which puts the failure mode on the buyer and quietly undercuts the accountability pillar the programme is sold on. Proof claims used to close (1.3 million Instagram followers, 'he's helped over a thousand people') were asserted, not evidenced, and the rep offered no case study when the prospect asked for certainty."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. Location attribution is inverted in the opening (the transcript has the rep saying 'I'm calling from Romania' when it is the prospect who is in Romania and the rep in Bulgaria). Prospect self-descriptions are repeatedly attributed to the rep, e.g. 00:01:45 'I'm quite an active person' and 00:09:11 'According to my BMI, my ideal weight should be below 82'. A long unpunctuated block from roughly 00:23:00 to 00:29:40 is attributed wholly to the rep but contains prospect turns inside it. All roles were resolved from content."
+  }
+}

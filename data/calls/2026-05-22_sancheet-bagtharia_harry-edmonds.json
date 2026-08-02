@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-05-22_sancheet-bagtharia_harry-edmonds",
+  "source": {
+    "drive_file_id": "1Jkco9WCmmtSsu_9M7P1H3l0QzIJFF4gC",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/22/2026 - Sancheet Bagtharia x Harry Edmonds KFS ",
+    "display_title": "05/22/2026 - Sancheet Bagtharia x Harry Edmonds KFS  — Follow Up",
+    "file_size_bytes": 22586
+  },
+  "call": {
+    "date": "2026-05-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 19,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I know you spoke with Kim, he gave me a little bit of an overview, so I've got a little bit of a head start"
+  },
+  "prospect": {
+    "name": "Sancheet Bagtharia",
+    "aka": "Sancheet",
+    "name_source": "title",
+    "location": "Canada (prices quoted in Canadian dollars; recently relocated — 'since I moved here')",
+    "age": 31,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 71,
+    "weight_lb": 157,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Weighted calisthenics specialist — handstand push-ups, weighted pull-ups and dips, EMOMs and hypertrophy work. Peak was 2023 at 60 kg added on weighted dips for sets of five, before relocating disrupted his training. Currently trains three days a week plus a racket or field sport once a week, and does mobility twice a week. Plays soccer. Owns a single 20 lb kettlebell but has zero kettlebell training experience.",
+    "kettlebell_experience": "none",
+    "medical": "No conditions disclosed. Mentioned occasional joint sensations he dislikes and trains to avoid — 'my knee is spinning or my elbow is pinching, I hate that feeling' — with no injury, diagnosis or clinician mentioned, and the rep did not ask."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Already lean, already training, already doing mobility twice a week — wants sharpness and muscle, not rescue: 'I need the sharpness to get in again'",
+      "Buying criterion is education rather than motivation: 'educating is more important for me instead of the accountability part because I don't mind putting in the work'",
+      "Counter-signal, and the reason confidence is not higher: price is a genuine barrier here, which the optimizer profile does not predict — 'It is definitely above budget for sure'"
+    ]
+  },
+  "goals": [
+    { "text": "Feel much more athletic than he is now", "category": "hobby_performance" },
+    { "text": "Gain serious muscle, particularly shoulder width", "category": "muscle_gain" },
+    { "text": "Regain explosive fast-twitch firing and whole-body endurance for soccer", "category": "endurance" },
+    { "text": "Get back the training intensity he had before, in a 30-45 minute session instead of two hours", "category": "convenience" },
+    { "text": "Move, jump and bounce around freely without knees or elbows pinching", "category": "injury_prevention" },
+    { "text": "Have the next six to twelve months of programming decided for him", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Cannot reach his former training intensity because of work and schedule", "category": "time_scarcity", "severity": "high" },
+    { "text": "Lost sharpness and definition after gaining a few pounds", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Occasional knee and elbow pinching when moving, which he trains specifically to avoid", "category": "injury", "severity": "low" },
+    { "text": "Does not want to work out his own programme for the next six to twelve months", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Dislikes training core separately and wants it integrated", "category": "program_fit", "severity": "low" },
+    { "text": "Cost is above what he has budgeted and would require setting aside a considerable amount", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It is definitely above budget for sure. But given the fact that I'm getting what I'm getting is something to consider and I think I need a bit of time to definitely go over it.",
+      "timestamp": "00:17:00",
+      "rep_response": "Delivered the guarantee, then asked one isolating question about whether the upfront amount was the concern, and offered to split it — half down and the balance due before month three. Took no financial picture at all.",
+      "response_tactic": "guarantee_then_split_payment_offer",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "at least a week's time",
+      "timestamp": "00:18:44",
+      "rep_response": "Asked how long he needed, accepted the answer, offered his phone number and ended the call",
+      "response_tactic": "accept_timeline_and_exchange_contact",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "What I don't like is training core separately. I like to have core integrated in whatever I do.",
+      "timestamp": "00:06:10",
+      "rep_response": "Answered it directly and well — 'with kettlebells... your core is every single movement to activate in your core' — and extended it to shoulders",
+      "response_tactic": "map_objection_to_modality_benefit",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Half down and half within three months, quoted concretely in Canadian dollars: 'it's 4140 down and then the other 4140 as long as it's done before the third month'. No premium or interest was mentioned, and the total matches the cash price.",
+    "guarantee_mentioned": "the guarantee is that with every movement, with the same intensity, volume, reps, all of that, you, by the end of the six months, you'll be Swinging around a 20-pound heavier kettlebell for the same of everything... So that's all guaranteed, and we work with you for free until you get to that point.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement sent, no onboarding call booked",
+      "Prospect asked for time and named a timeframe: 'I need a bit of time to definitely go over it' and 'at least a week's time'",
+      "Real interest present — 'given the fact that I'm getting what I'm getting is something to consider' and 'that was helpful, thanks Harry'",
+      "Blocker is affordability rather than belief: 'It is definitely above budget for sure'",
+      "Counter-evidence: he explicitly did not want to buy under financial pressure — 'I might be under pressure and get it, but then I realize that it's difficult to manage. That's not what I want.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to take about a week to work out whether he can set the money aside; rep to send his phone number and remain available. No follow-up call booked."
+  },
+  "notable": {
+    "note": "A third distinct payment-plan structure from this rep inside three days: half down with the balance due before month three here, a $1,200 minimum down payment with the balance 'taken care of' later on the Frederick Eisler call, and — per the team meeting the same afternoon — a standard six-payment plan of $1,200 that totals $7,200. Whichever is correct, prospects are being quoted materially different terms for the same product. This call also contains the only statement of the guarantee's remedy found anywhere in the batch — 'we work with you for free until you get to that point' — which was omitted from every other presentation of the same guarantee. Best baseline capture of the batch (age, height and weight all actually asked) alongside a complete absence of past attempts, consequence frame and commitment check. Two vegetarian-specific issues went unresolved: the nutrition pillar is elsewhere described as animal-protein-led, and this prospect's goal is muscle gain."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Badly swapped in places and with two long unpunctuated run-on blocks (00:04:00-00:05:00 and 00:15:45-00:18:44) that contain both speakers' turns, including the entire pricing and payment-plan exchange. Several rep questions ('What's your food like?', 'Any questions on any of that, man?', 'we don't want to coach you forever') are attributed to the prospect. Role assigned from content throughout. The prospect's exact age is recorded as 31 from 'I'll be turning 32 now'."
+  }
+}

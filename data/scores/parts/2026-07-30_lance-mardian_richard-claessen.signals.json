@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-07-30_lance-mardian_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "The pitch was tailored to him — the rep picked up his calisthenics interest ('You will love Trevor because he does the same thing') and addressed the scoliosis directly. 'Do you feel like you're going to be able to stick to that when you have Trevor in your corner?' — 'Absolutely. Yeah. Yeah.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "He asked how the eating window actually worked — 'so you're saying that there's an eating window, right? So there's going to be some fasting going on during the day?' — and then volunteered that it was already a non-issue: 'I usually eat only one meal a day, dude.' This was also his most wanted component: 'if you guys had a nutrition plan, then it's like, okay, there it is. Simple, there it is, I'll do it. The work's already been done.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He pushed back on the substance at 00:46:00 — 'I'm paying for the accountability, but if I'm going to be my old self again, I don't need to be accountable to anybody. I've been accountable to myself my whole life.' This directly contradicts what he said at 00:05:00, before any pricing: 'I love the accountability aspect of it. That's probably the biggest thing I need in my life... if I'm accountable to Trevor or somebody, I always pull through and do what I'm supposed to do.' The pillar he named as his top need became the pillar he refused to pay for, once the number was on the table."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_information",
+      "raw": "I would believe that 70-80% of it can be found online... what I'm really paying for here is probably that last 10 or maybe at most 20% there that Trevor has an edge over other people.",
+      "direction": "undercuts_price",
+      "competitor": "Free online content — YouTube, cookbooks he already owns, nutrition research he has already done",
+      "note": "The most precisely quantified anchor in the corpus. He is not comparing against a competitor product, he is valuing the delta between the offer and free information at 10-20%, which prices the programme at $600-$1,200 in his own arithmetic. Note that the unpublished self-serve tier is $1,000 — squarely inside his implied range — and was never mentioned to him."
+    },
+    {
+      "type": "self_reliance_precedent",
+      "raw": "two, three years ago, I, for like five grand or 10 grand, I could have bought this thing online... it was this automated trading thing... I saved myself that $5,000, $10,000.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A specific, emotionally weighted precedent of refusing to buy a five-figure shortcut and succeeding alone. This is the belief the sale had to overturn, and it is stronger than any price objection because it is a story about his own competence."
+    },
+    {
+      "type": "existing_spend",
+      "raw": "a DoorDash meal is by the time, you know, it's 30, 35 bucks by the time all the fees and stuff come in... I would say 80% of my diet is like fast food now.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest unused asset on the call. At $30-35 a meal across roughly 80% of his meals, he is already spending on the order of several hundred dollars a month on the exact behaviour he is trying to stop. He also flagged it himself — 'not only am I blowing money out the wazoo doing that'. The rep did not do the arithmetic out loud at any point."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A done-for-you nutrition protocol as a standalone thing — 'if you guys had a nutrition plan, then it's like, okay, there it is. Simple, there it is, I'll do it.'",
+      "why_unmet": "Nutrition is only available bundled inside the $6,000 coaching. He was ready to buy this component on its own and there is nothing to sell him.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A smaller first step he could take before committing five figures — he needed to try and fail on his own terms first",
+      "why_unmet": "The rep presented only the $6,000 tier. The $1,000 self-serve programme exists and was offered to three other prospects by the same rep in this same batch, but was never mentioned here despite the prospect valuing the offer's marginal contribution at 10-20% of $6,000.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Support for the underlying problem he actually named — that he has stopped caring about himself",
+      "why_unmet": "The programme addresses training, nutrition and check-ins. He explicitly located the root cause elsewhere: 'if I can get that care back again, then I'll start doing things again.' Nothing in the offer speaks to that, and the rep converted it into a closing argument rather than exploring it.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Left-right unilateral programming to stop his stronger right side outpacing his weaker left, given his scoliosis",
+      "why_unmet": "He specified this in detail and unprompted. The response was a general assurance that Trevor 'has worked with a couple of people who've had like that sort of same aspect of scoliosis' — no confirmation that unilateral programming is part of the method.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

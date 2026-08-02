@@ -1196,6 +1196,98 @@ def redact_payload(payload, records):
     return out
 
 
+URGENT_CAP = 250
+CLUSTER_MEMBER_CAP = 25
+
+
+def slim_payload(p):
+    """Strip the web payload to what the dashboard actually renders.
+
+    The full corpus is ~24 MB — every goal, pain, quote and evidence string
+    for 422 calls. All of it is already summarised in the rollups, and
+    shipping it means every visitor downloads the whole extraction database
+    to draw a few tables. Full fidelity stays in data/calls/ and primal.db.
+    """
+    for c in p.get("calls", []):
+        # objections drive the objection table; only these fields are read
+        c["objections"] = [{"type": o.get("type"), "resolved": o.get("resolved"),
+                            "response_tactic": o.get("response_tactic")}
+                           for o in c.get("objections", [])]
+        for heavy in ("goals", "pains", "notable", "quality"):
+            c.pop(heavy, None)
+        c["prospect"] = {k: c.get("prospect", {}).get(k) for k in ("name",)}
+        c["avatar"] = {"assigned": c.get("avatar", {}).get("assigned")}
+        c["rep"] = {"name": c.get("rep", {}).get("name")}
+        c["setter"] = {"name": c.get("setter", {}).get("name")}
+        c["source"] = {k: c.get("source", {}).get(k)
+                       for k in ("drive_file_id", "original_title")}
+        c["call"] = {k: c.get("call", {}).get(k)
+                     for k in ("date", "stage", "duration_min_est")}
+        c["outcome"] = {k: c.get("outcome", {}).get(k)
+                        for k in ("disposition", "confidence", "cash_collected_usd")}
+        off = c.get("offer", {})
+        c["offer"] = {k: off.get(k) for k in
+                      ("presented", "tiers", "guarantee_mentioned",
+                       "payment_plan_offered", "payment_plan_structured_live")}
+        if c.get("adherence"):
+            c["adherence"] = {"adherence_pct": c["adherence"].get("adherence_pct")}
+
+    f = p.get("rollups", {}).get("flags")
+    if f:
+        # Clusters carry the systemic story; individual medium/low flags are
+        # long-tail detail that lives in data/scores/parts/ for anyone digging.
+        f["urgent_total"] = len(f.get("urgent", []))
+        f["urgent"] = f.get("urgent", [])[:URGENT_CAP]
+        f["all"] = []
+        for cl in f.get("clusters", []):
+            cl["members"] = cl.get("members", [])[:CLUSTER_MEMBER_CAP]
+        f["systemic"] = [c for c in f.get("clusters", []) if c["n"] >= 3]
+        f["clusters"] = []
+    # Rollups ship one entry per observation — 1,524 anchors, 3,314 pain items,
+    # 1,288 unmet-demand records. Nobody scrolls those, and the counts that
+    # drive every chart are already computed. Cap the illustrative lists and
+    # record what was truncated so the UI can say so honestly.
+    R = p.get("rollups", {})
+
+    def cap(lst, n, key="items"):
+        for b in lst or []:
+            items = b.get(key) or []
+            if len(items) > n:
+                b[key] = items[:n]
+                b[f"{key}_truncated_from"] = len(items)
+
+    cap(R.get("pains"), 12)
+    cap(R.get("goals"), 12)
+    cap(R.get("pillars"), 15)
+    cap(R.get("objection_plays"), 12, "instances")
+
+    if R.get("anchors"):
+        R["anchors_total"] = len(R["anchors"])
+        R["anchors"] = R["anchors"][:60]
+    if R.get("unmet_by_verdict"):
+        R["unmet_totals"] = {k: len(v) for k, v in R["unmet_by_verdict"].items()}
+        R["unmet_by_verdict"] = {k: v[:20] for k, v in R["unmet_by_verdict"].items()}
+    R.pop("unmet_demand", None)          # duplicate of unmet_by_verdict
+    if R.get("icp", {}).get("assessments"):
+        icp = R["icp"]
+        icp["assessments_total"] = len(icp["assessments"])
+        icp["assessments"] = icp["assessments"][:30]
+    D = R.get("discriminators")
+    if D:
+        D["all"] = []                     # top_favours_* already carry the ranked view
+
+    w = (p.get("rules") or {}).get("corpus_window") or {}
+    if w.get("from"):
+        p["rules_window"] = f"{w['from']} to {w['to']}"
+    for k in ("deals", "rules"):
+        p.pop(k, None)
+    pb = p.get("playbook", {})
+    p["playbook"] = {"name": pb.get("name"), "phases": pb.get("phases"),
+                     "objection_plays": pb.get("objection_plays"),
+                     "known_gaps_in_script": pb.get("known_gaps_in_script")}
+    return p
+
+
 def main():
     records = load_calls()
     playbook = load_json(ROOT / "data" / "playbook.json")
@@ -1286,7 +1378,8 @@ def main():
         "calls": records,
     }
     # SQLite keeps real names for local analysis; the web payload does not.
-    WEB_DATA.write_text(json.dumps(redact_payload(payload, records), indent=2))
+    web = slim_payload(redact_payload(payload, records))
+    WEB_DATA.write_text(json.dumps(web, separators=(",", ":")))
     conn.close()
 
     print("Built", DB_PATH.relative_to(ROOT))

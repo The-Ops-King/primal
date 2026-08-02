@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-06-15_jay-moreno_ben-byrne",
+  "source": {
+    "drive_file_id": "1LkYOCUkyIWTGznvAvbMo3kdgT9xLGpi_",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/15/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 78826
+  },
+  "call": {
+    "date": "2026-06-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 78,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Travelling — joined from a last-minute trip, not his office" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Rep: 'I heard you and Kyla had a good conversation the other day. I got some of the details about that.' Prospect later confirms and distinguishes her from the bot: 'Who's Sophie?' → 'Sophie is an AI responder thing. Kyle is a real person.'"
+  },
+  "prospect": {
+    "name": "Jay Moreno",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Tracy, California (Central Valley), USA — originally from the Bay Area",
+    "age": 35,
+    "occupation": "Real estate investor running his own business; appears on camera for marketing content. Has three closings this month.",
+    "family_status": "Married; three children — two teenagers aged 15 and 14, and a nine-year-old daughter, Juno",
+    "height_in": null,
+    "weight_lb": 236,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Chubby as a child, got fit at 19; fought MMA, wrestled, ran five to seven miles a day; fighting weight 205 lb. Later trained down to 215 lb while trying to enter the Air Force. Has used kettlebells for about four years, seriously for two, but self-directed from saved Instagram posts. Current routine is essentially one movement — five sets of eight to ten double 50 lb kettlebell thrusters, chosen by asking ChatGPT for a single full-body movement — plus treadmill running, roughly two and a half days a week. Also does an Onnit-era and Joe Rogan-style kettlebell circuit occasionally.",
+    "kettlebell_experience": "experienced",
+    "medical": "IBS — cannot tolerate garlic or onion, avoids processed food, seed oils and artificial dyes. Back injury roughly three years ago: fell and struck the middle of his back on the corner of a step, describes it as a contusion or spasm, was bedridden for a week to a week and a half with heat pads, never medically diagnosed; says movement was limited for a time but is fine now. Cracked a rib in MMA and was immobile for two months. Occasional knee pain, attributed to childhood knock knees. Reports 'my elbows are jacked sometimes, my shoulders' from years of machine-based training. Stopped fighting partly out of fear of CTE from repeated head blows. Reports significant stiffness and total loss of flexibility — cannot high kick, cannot do kettlebell windmills 'without feeling like I'm going to tear something'. Takes magnesium, reduced caffeine from 600mg to 400mg, uses nootropics."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.93,
+    "signals": [
+      "Textbook lost ground: former MMA fighter at 205 lb, now 236 lb — 'I looked at myself in the mirror, I'm like, this is ridiculous'",
+      "Explicit regret and self-deception theme he raised himself: 'I've had this thing where I'm almost lying to myself' about how hard he is training",
+      "Wants the former self back specifically, not a new one — 'get back into my fighting shape, and it's like how I used to'",
+      "The wound is identity and fatherhood: 'they made a comment that really hurt me, but in a good way, which is, oh, dad's always been like that. He's always been trying to lose weight, but he doesn't.'",
+      "Not the prehab fighter — no active health event; not the optimizer — he is recovering ground, not sharpening an edge"
+    ]
+  },
+  "goals": [
+    { "text": "Get back to fighting shape — down from 236 lb toward the 205 he fought at", "category": "fat_loss" },
+    { "text": "Restore flexibility and mobility, named repeatedly as priority number one — able to high kick and do windmills again", "category": "mobility" },
+    { "text": "Get his legs strong again the way they used to be", "category": "strength" },
+    { "text": "Return to jiu-jitsu and compete again, without sparring or blows to the head", "category": "hobby_performance" },
+    { "text": "Beat his business rival Luis at a Spartan race next year", "category": "hobby_performance" },
+    { "text": "Be a physical role model his children can remember — they only know him chubby", "category": "family_role_model" },
+    { "text": "Get his confidence back so he can appear on camera for his real estate business", "category": "confidence" },
+    { "text": "Build a routine he finds exciting enough to actually stick to", "category": "consistency" },
+    { "text": "Live long and out of pain — 'it's my one time on this earth, and this is the one body I get'", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Avoids appearing on camera for his own business and deletes the videos — directly costing him marketing output", "category": "confidence", "severity": "high" },
+    { "text": "Lying to himself about effort — two or three sets and calling it a workout because he can still lift heavy", "category": "accountability_gap", "severity": "high" },
+    { "text": "Cannot hold himself accountable for training despite being highly disciplined in business — 'for the life of me, I cannot hold myself accountable for working out. It's the weirdest thing ever.'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Severe loss of flexibility — cannot high kick, cannot do windmills without feeling he will tear something, feels like a 60-year-old at 35", "category": "training_barrier", "severity": "high" },
+    { "text": "No routine and no progression — picks a saved Instagram workout at random, effectively one movement repeated", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Self-esteem and confidence hit from seeing old photos at 205 lb and jacked versus the mirror now", "category": "emotional", "severity": "high" },
+    { "text": "His children commented that he is always trying to lose weight and never does", "category": "emotional", "severity": "high" },
+    { "text": "Fear of re-injury holding back effort — 'I know that I have more in me, but I'm like, I don't want to injure myself'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Too heavy and stiff to return to jiu-jitsu — 'there's no way, I'm not gonna be able to roll'", "category": "training_barrier", "severity": "medium" },
+    { "text": "No camaraderie or excitement in solo training, which he says is the only reason he does not stay on it", "category": "motivation", "severity": "medium" },
+    { "text": "Eats very cleanly and still is not losing weight because the training is not there", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "IBS restricts the diet — no garlic or onion, limited carbohydrate tolerance", "category": "medical", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "The price is not a problem. One thing is, I have a closing. I have three closings this month. And I have to wait until the closing. Thankfully, thank God. It's the end of this week. Okay? So, The closing is at the end of this week. And I have to wait because I don't want to use my business card to pay for it because that one's purely, purely business transactions.",
+      "timestamp": "01:07:35",
+      "rep_response": "Confirmed the constraint was purely logistical ('so are you saying that you, it's basically just like, you need the money from this deal to close to do it'), then offered two paths: reach back out on the 18th and start then, or take a deposit now and collect the balance on the 18th so Trevor's calendar could be secured this week. When the prospect explained he has no personal account at all until the deal closes, the rep accepted it and put the next move on the prospect — 'just shoot me a text. I'll shoot you over the link.'",
+      "response_tactic": "confirm_logistics_then_offer_deposit",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 0,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.82,
+    "close_rule_applied": null,
+    "evidence": [
+      "Verbal agreement was unambiguous — 'don't worry, brother, you got yourself a sale. I promise you, I just gotta get this one' and 'The price is not a problem'",
+      "But no payment link was sent, so the verbal-agreement-plus-link-sent rule is not satisfied. The rep explicitly deferred it to the prospect: 'just shoot me a text. I'll shoot you over the link, get you in, make sure that you're all squared away.'",
+      "No deposit taken. The rep did offer one — 'we can do a deposit now and then just collect the rest on the 18th' — but the prospect could not transact from any account until his deal closes on the 18th",
+      "No onboarding call with Trevor booked; timing was discussed conversationally ('it would be Monday') and left there",
+      "Counter-evidence toward closed: the prospect scored the offer a 10 out of 10 before hearing the price, said he expected $15,000 and was relieved at $6,000, wrote the numbers down, and named the exact mechanism and date by which he would pay",
+      "Counter-evidence toward follow_up: the money is contingent on a real estate closing that has not happened, and he must open a new personal bank account before he can pay"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to text the rep after his deal closes on 18 June, then the rep sends the payment link; Trevor onboarding likely the following Monday. Nothing scheduled, nothing collected."
+  },
+  "notable": {
+    "note": "The best-run call in this batch and the one that most clearly shows where the money is being left. Discovery was genuinely strong — full injury history, full training week, energy, diet, and a real drive-through to the children and to identity. The prospect volunteered his own consequence frame, scored the offer 10 out of 10 before the price, had no price objection at all and had anchored himself at $15,000. Then the close was not executed: no link sent, no card taken for later, no onboarding call provisionally booked, and the rep signed off to go drive ATVs. Five days earlier the manager had mandated deposits and specifically taught the fallback for exactly this situation — take the card on file and do not run it until the agreed date — and that fallback was never offered. Separately, this is the call where the AI text bot surfaces: the prospect had to ask 'Who's Sophie?' because he could not tell whether he had been texting a person."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion throughout, including long passages. At 00:06:10 and 00:21:10 the prospect's own narration is attributed to the rep; from roughly 00:38:00 to 00:47:00 the deep-driver monologue alternates labels almost every line while remaining one continuous speech by the prospect; at 01:06:41 the price reveal and the prospect's '$15K' reaction are inverted; the closing exchange at 01:15:32 attributes 'you got yourself a sale' to the rep when it is plainly the prospect. Roles were resolved from content throughout. A long stretch around 01:00:00 also lost its timestamp markers entirely and runs as unpunctuated text."
+  }
+}

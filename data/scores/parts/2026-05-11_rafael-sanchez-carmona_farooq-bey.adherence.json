@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-11_rafael-sanchez-carmona_farooq-bey",
+  "rep": "Farooq Bey",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "No setter suffix on the title and no setter named on the call, so the read-back check does not apply. The usual two-part frame — 'where are you today? Where do you want to be? If we can help, I can show you one of the many options that we have. Okay?' — missing 'what's in the way' and 'what you need'. Open question ran: 'The floor to you, Rafael, how can we potentially help you?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "partial" },
+      "evidence": "The most consequential P2 failure in the batch. Age was asked ('And how old are you?' — 48); height was never asked and the 125 kg came from the prospect volunteering it. Work was covered in rapport but the desk-bound question never ran. Critically, the health-conditions check never ran at all: gallbladder surgery on 26 April, hypertension peaking at 200, new medication, obesity and a fatty liver were all volunteered by the prospect, and the rep asked no follow-up about restrictions, recovery status or clearance. The injuries and limitations check also never ran. Diet was never asked either — the rep delivered creatine and fasting recommendations and only then heard, unprompted, that the prospect is on a clinician-directed strict low-fat post-operative diet. Sleep never asked; fatigue surfaced only inside a different question."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "partial", "P3c": "miss", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "partial" },
+      "evidence": "The identity work was strong and patient. 'What do you feel like that's cost you over the years?' opened it, and 'when you're looking at yourself in the mirror at age 50, who do you want to see in the eyes? Take your time' produced the best answer on the call — 'I think it's time for me to invest on myself. I have been worried too much about others, about work, about other people's ambitions.' P3f ran ('who else would be impacted as well?') but returned little, since he lives alone. P3a was pushed harder than it needed to be: the rep pressed the beach and swimming pool angle three times against a prospect who kept saying it did not really bother him."
+    },
+    "P4": {
+      "score": "hit",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "partial", "P4e": "partial", "P4f": "hit" },
+      "evidence": "Cleanly run. 'What have you been trying, what have you explored to really get your health back on point?' got the app and gym history; 'Why did you stop?' got 'it was not a priority for me'; and P4f ran twice and well — 'what's the rationale for yourself in terms of working with a coach as opposed to exercising at home, using the app, going for walks?' and later 'do you feel like you could reverse the trend for yourself with or without support?' Only weakness is the same leading habit seen elsewhere: 'what has been the main reason why you haven't made this a priority? Is it due to being comfortable?' supplied the answer instead of letting him name the gap, though the follow-up 'Why do you say that?' recovered some of it."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "miss", "P5c": "partial", "P5d": "hit" },
+      "evidence": "P5a ran with a good soft entry — 'I know it could be maybe a bit uncomfortable to think about, but what do you feel like that future would look like for yourself?' and, when misread, the clarification 'No, the opposite' — producing 'it's gonna go very bad for me. And this is a warning.' P5d landed via a neat distinction: 'You think it's time to worry about yourself or you know it's time?' / 'I know it's time.' P5b never ran. In fairness the consequence frame was largely pre-built by the surgery, and the prospect said so himself: 'I'm not even posing myself that question, because it's not an option.'"
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "miss", "P6c": "partial" },
+      "evidence": "P6a ran twice — 'do you believe it's possible for someone to go from your position to where...?' and 'do you feel internally capable of following a step-by-step process to actually get there?' — both answered yes. P6b never ran. P6c is scored partial rather than hit because hesitation did surface at exactly this point and was not returned to: 'I have some limitations, maybe, because I am not very fit now, so maybe I have some issues at the beginning in terms of what type of exercises I have to do.' That is a capability concern from a man three weeks post-surgery, and the response was 'we want to make you into Superman' followed immediately by price."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "partial", "P11b": "partial", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Only partly observable — the rep removed the Fathom notetaker at the payment step, so the recording ends before anything can be verified. On the record: collection was initiated ('we process the investment') but no payment is witnessed; the Trevor onboarding call was committed to but not scheduled ('either tomorrow or the day after' with no time agreed); no agreement email was mentioned and nothing was signed on the call; and there was no welcome-email, Skool-link or onboarding-questionnaire instruction, none of which appear anywhere in this transcript. Scored on what is evidenced, with the caveat that steps may have occurred off-recording."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "No money objection at any point. The prospect volunteered the opposite — 'realistically speaking, like, I think this is a fair investment' — and selected the higher of the two tiers himself."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A real fear-and-doubt trigger surfaced at the commitment check — 'I have some limitations, maybe, because I am not very fit now, so maybe I have some issues at the beginning.' None of the OE moves ran: no 'would it be fair to say you're looking for certainty', no bridge, no plane, no 'how will you know if you never actually try'. The rep substituted flattery ('you make for our best case studies... we want to make you into Superman') and moved to price."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The known script gap, in its sharpest form yet. This prospect is three weeks post abdominal surgery, newly medicated for hypertension that peaked at 200, newly diagnosed with a fatty liver and at 125 kg, and he raised his own physical limitations. The playbook has no clinical-fit play and, more importantly, no gate — nothing in the process requires a rep to ask whether a clinician has cleared the prospect before selling loaded ballistic training. The rep did note the surgery once as a programme-design input but never as a qualifying question. This is a process defect, not a rep failure, and it needs a scripted gate rather than a scripted rebuttal."
+    }
+  ],
+  "notes": "Scored on process, not on the outcome: this closed at the top tier with zero resistance because the prospect arrived pre-sold by a health scare, not because the process was run well. P4 was the best-run phase and the identity question in P3 was genuinely good. But P2 collapsed exactly where it mattered most — a man three weeks out of surgery with newly medicated hypertension had no health question asked of him, and the nutrition pillar was delivered blind to a medically restricted diet. The single highest-value fix in this whole batch is a hard clinical gate in Phase 2: if surgery, medication or a new diagnosis is disclosed, ask whether a clinician has cleared exercise before anything else proceeds."
+}

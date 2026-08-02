@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-05_robert-karssiens_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Presented as a Trevor-built 30-40 minute programme plus a 5-15 minute daily mobility routine. He took it without questions — 'Sounds fine. I don't need to see it... No, sounds fine.' He had already been pre-sold on the mechanism earlier in the call and volunteered the physiology himself; the rep's active-versus-static stretching explanation was the one moment he leaned in: 'Oh, that's interesting. Good. I'll be curious about that.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Minimal engagement, because the rep told him he was already compliant — 'you're already doing the fasted aspect, like the intermittent fasting aspect' — and framed the three levers as when, what and how much. Prospect: 'Sure. Yeah.' Nothing was asked of him that he was not already doing, so nothing was at stake."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "Two substantive pushbacks. First a hard delivery constraint on the form-video mechanism: 'when I'm in the UK, I train at a gym, and they will not let me use cameras in the gym to film.' Then he attacked the economics of the pillar directly: 'how many hours a month would Trevor spend on my stuff?' and, on being told 'as much as needed', did the sums out loud — 'if he's doing five people a month, it's taking on five people a month, so he probably has other people he's already working with, so that's five grand plus whatever it is per month... then I start looking at, well, what is the hourly rate that somebody's paying to do something, I can't help it, that's the way I think.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "self_set_budget",
+      "raw": "And I had in my head, it was going to be $3,000... Would you have done it if I would have said it was three grand? Probably, yeah. Probably.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The single most actionable number in this file. He set a $3,000 ceiling before the call and confirmed on the record that $3,000 would probably have closed. The offer was double his anchor and nothing in the call moved the anchor, because no consequence frame ran."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I mean, it's a lot of money. You know, I pay, I go to this gym for 45 pounds a month. Right? And now I'm going to go do something for $1,000 a month, right?",
+      "direction": "undercuts_price",
+      "competitor": "His London gym",
+      "note": "A 22x monthly multiple stated out loud within seconds of hearing the price. The comparison is not apples to apples but nobody separated the two, so it stood."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I would not go to a personal trainer, $45 or pounds an hour. I wouldn't do that. Right. Because I'm absolutely not convinced. I've seen a lot of personal trainers and what they're doing. I have paid that for my wife",
+      "direction": "undercuts_price",
+      "competitor": "Personal trainers, including one he pays for his wife at roughly £500 for 10 hours",
+      "note": "He has already bought and evaluated the nearest category, was unimpressed, and buys it only for his wife. He also converts everything to an hourly rate reflexively, which is the worst possible frame for a fixed-fee six-month programme."
+    },
+    {
+      "type": "existing_free_substitute",
+      "raw": "I've been taking a lot of routines off of Facebook, some of them, in fact, the... chap that, that is, I guess, the founder of this, of this program... And a bunch of others.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free content, plus other online coaches",
+      "note": "He is already running the founder's material for free and rates the field as largely interchangeable — 'largely the exercises from the good guys are pretty much the same... there isn't like a special sauce in exercise.' The paid offer has to beat the free version of itself."
+    },
+    {
+      "type": "competing_allocation",
+      "raw": "do I spend another $500 a month on this, which is what it is, $500 a month, or do I take that $500 a month and give it to my grandson? Do something for him, because I am not the only pull on my money... to be honest with $500 a month on my grandson is actually worth more to me.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The offer lost a head-to-head against his one-year-old grandson. The playbook's own P3f check — 'who else does that impact?' — is the move that would have put the grandson on the same side of the ledger as the programme instead of against it, and it was never asked."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A smaller-scope, education-first purchase — the correct base movement set and the why behind each one, without the full six-month coaching wrap",
+      "why_unmet": "Only one tier was offered. His stated need is precision and technique, not structure or accountability, and he said so plainly: 'I'm pretty disciplined from that point of view' and 'what I want to do kettlebells and getting that kind of intense understanding is important to me.' There is no product between free content and $6,000.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A defined service level — how many hours a month the coach actually spends on him",
+      "why_unmet": "Answered with 'As much as needed, like seriously, as much as you require, like he is available throughout the whole day', which is unbounded and therefore unpriceable. For a buyer who converts everything to an hourly rate, an unbounded answer reads as no answer.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Form correction that works when his gym bans filming and he is abroad for two to four weeks at a time",
+      "why_unmet": "The rep improvised a partial workaround — film in a quiet corner, only the exercises that need correcting — and the prospect half-agreed, but nothing was established for the travel weeks, which he had already named as the one thing that would break the routine.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

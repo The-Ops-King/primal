@@ -1,0 +1,101 @@
+{
+  "call_id": "2026-07-08_jacob_richard-claessen",
+  "source": {
+    "drive_file_id": "12k2r3H4NhN2znmsMO3x_Cit5up31Omxv",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/08/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/08/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 20413
+  },
+  "call": {
+    "date": "2026-07-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 20,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named. The rep works from an application form only — \"I saw that you also noted down that you want to make sure that your mobility is going to get better\" and \"you also noted that you want to build more muscle\"."
+  },
+  "prospect": {
+    "name": "Jacob",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "France (calling from his wife's father's home)",
+    "age": null,
+    "occupation": "Not stated; works night shifts — \"Because of my job also, I work at night, so it's quite different from the normal schedule\"",
+    "family_status": "Married; newborn daughter born the previous month",
+    "height_in": 76,
+    "weight_lb": 176,
+    "bodyfat_pct_self_reported": 10,
+    "training_background": "Ex-army, in his best shape at 95 kg during service. Has not trained seriously for five or six years. Was going to the gym until his wife became pregnant about a year ago, then stopped. Dislikes gyms — \"too many people, too many movements, too many hours\". Bought a pull-up bar recently and a kettlebell two weeks ago after finding Trevor's YouTube channel; currently doing 5-10 minute sessions to build a foundation with no structure.",
+    "kettlebell_experience": "none",
+    "medical": "Broke his wrists when very young; still feels them on pull-ups and explosive push-ups, and describes his grip as weak. No other pain, injuries or conditions disclosed. Asked directly and answered \"No pains, no, not at all.\""
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Already lean and functional and explicitly wants good to best, not rescue — \"I feel great right now, but I can feel better\" and \"I don't think it's bad at all. I can touch the floor with my hands\"",
+      "Roughly 10% body fat by his own last measurement, 193 cm, wants to add 13-15 kg of muscle to return to his army weight",
+      "Acts fast and buys to test — found the channel two weeks ago, bought a kettlebell immediately; the rep read this correctly: \"Sounds like you're a man of taking action\"",
+      "Rebuilder was considered and rejected: he is not chasing a lost self out of regret, and the trigger is forward-looking — the birth of his daughter last month. Price resistance is untested because the call ended before the offer, so confidence is capped."
+    ]
+  },
+  "goals": [
+    { "text": "Gain 13-15 kg of muscle to get back to his army weight of 93-95 kg", "category": "muscle_gain" },
+    { "text": "Get the mental state back that he had in the army — the right routine and the head in the right place", "category": "other" },
+    { "text": "Be the role model his newborn daughter needs — \"I want to be the role model, so for me, in my head, to be the role model, I need to be in the best of my shape for her\"", "category": "family_role_model" },
+    { "text": "Improve mobility generally, with no specific target", "category": "mobility" },
+    { "text": "Learn correct kettlebell form and get structured workout routines", "category": "other" }
+  ],
+  "pains": [
+    { "text": "No structure — doing five to ten minute sessions off YouTube with no programme", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Hard to execute the movements without anyone telling him what to do — \"I find it a little bit harder to execute without someone to tell you you need to do that and this and that\"", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Hates the gym, which has blocked him from any consistent routine since leaving the army", "category": "training_barrier", "severity": "medium" },
+    { "text": "Stopped training entirely when his wife became pregnant a year ago", "category": "consistency", "severity": "medium" },
+    { "text": "Struggles to gain weight and has to force-feed himself; eats with no tracking and no eating window", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Old wrist fractures flare on pull-ups and explosive push-ups; weak grip", "category": "injury", "severity": "low" },
+    { "text": "Night-shift work puts him on a schedule unlike everyone else's", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep ended the call himself for connection quality, not the prospect: \"I'm thinking it's best for us to reschedule and it's not because I don't want to have a conversation with you... it's very hard for me to actually completely understand everything.\"",
+      "Rescheduled and confirmed live — Saturday 1pm, invite sent and accepted on the call: \"Did you get it?\" / \"Yeah, I already answered.\"",
+      "No offer, no price and no objections — discovery reached goals and past attempts and stopped there",
+      "Warm and forward-leaning at the point of interruption; the rep said he already has a good picture and expects to be able to start on Saturday if it fits"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconvene Saturday 1pm from a location with better internet; rep to cover the remaining detail and present."
+  },
+  "notable": {
+    "note": "Aborted at 20 minutes for connectivity. The rep handled it well — he offered to reschedule rather than push through a degraded call, and did not attempt to present or price into a broken connection. The second half of this conversation exists in a later recording (Saturday 11 July, outside this batch's date range), so this record and any close must not be counted independently of it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion — the rep's own questions repeatedly appear under Jacob's label (\"So take me through that, like how is your mobility at the moment?\" at 00:05:25, \"Take me through it\" at 00:08:13, \"Do you have like an idea from what your body fat percentage is\") and vice versa. Role read from content. The prospect's connection dropped repeatedly and at 00:17:08 his answer to the key question — why he stopped going to the gym — was lost entirely (\"you cut out completely so I did not hear anything that you were saying just now\"). Several short fragments are unrecoverable machine noise."
+  }
+}

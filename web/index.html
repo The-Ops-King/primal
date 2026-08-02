@@ -121,10 +121,32 @@ const adhVals = cs => cs.map(c=>c.adherence?.adherence_pct).filter(v=>v!=null);
 const meanAdherence = cs => { const v=adhVals(cs); return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
 const adherenceRange = cs => { const v=adhVals(cs); return v.length ? Math.min(...v)+"–"+Math.max(...v)+"%" : "n/a"; };
 
-fetch("./data.json").then(r=>r.json()).then(render).catch(e=>{
-  document.getElementById("app").innerHTML =
-    "<h1>Could not load data.json</h1><p class='sub'>"+esc(e.message)+"</p>";
-});
+// Distinguish a fetch failure from a render failure. Conflating them cost a
+// debugging cycle once: the data loaded fine and render() threw, but the page
+// said "could not load data.json" and swallowed the stack.
+(async () => {
+  let data;
+  try {
+    const res = await fetch("./data.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    data = await res.json();
+  } catch (e) {
+    console.error("data load failed", e);
+    document.getElementById("app").innerHTML =
+      "<h1>Could not load data.json</h1><p class='sub'>" + esc(e.message) + "</p>";
+    return;
+  }
+  try {
+    render(data);
+  } catch (e) {
+    console.error("render failed", e);
+    document.getElementById("app").innerHTML =
+      "<h1>Render failed</h1><p class='sub'>The data loaded (" +
+      (data.calls || []).length + " calls) but the page could not draw it.</p>" +
+      "<pre class='mono' style='white-space:pre-wrap;color:var(--lost)'>" +
+      esc(e.stack || e.message) + "</pre>";
+  }
+})();
 
 function render(d){
   window.__D = d;
@@ -135,23 +157,20 @@ function render(d){
   const cash = calls.reduce((s,c)=>s+(c.outcome.cash_collected_usd||0),0);
   const verified = closed.filter(c=>c.outcome.confidence>=0.9).length;
 
-  const objs = calls.flatMap(c=>c.objections.map(o=>({...o, call:c})));
+  const objs = calls.flatMap(c=>(c.objections||[]).map(o=>({...o, call:c})));
   const byType = {};
   objs.forEach(o=>{ (byType[o.type] ??= {n:0,r:0,items:[]}); byType[o.type].n++;
                     if(o.resolved) byType[o.type].r++; byType[o.type].items.push(o); });
   const objRows = Object.entries(byType).sort((a,b)=>b[1].n-a[1].n||b[1].r-a[1].r);
-
-  const painCat = {}; calls.forEach(c=>c.pains.forEach(p=>painCat[p.category]=(painCat[p.category]||0)+1));
-  const goalCat = {}; calls.forEach(c=>c.goals.forEach(g=>goalCat[g.category]=(goalCat[g.category]||0)+1));
-  const top = o => Object.entries(o).sort((a,b)=>b[1]-a[1]);
 
   const el = document.getElementById("app");
   el.innerHTML = `
   <p class="eyebrow">Integrity audit · pilot</p>
   <h1>Primal Instinct — Call Intelligence</h1>
   <p class="lede">Every sales call broken into its component parts — avatar, goals, pains, objections,
-  outcome — then compared. This is the <strong>${n}-call pilot</strong> that validates the extraction
-  schema before the full 2026 corpus runs through it.</p>
+  outcome — then compared. <strong>${n} calls</strong> across <strong>${d.corpus.deals} deals</strong>,
+  ${esc(d.rules_window || "May–July 2026")}. Internal team meetings, training and manager 1-1s are
+  reviewed for integrity findings but excluded from every sales metric.</p>
 
   <div class="banner">
     <strong>Read this before you trust a number.</strong>
@@ -160,9 +179,11 @@ function render(d){
     follow-up here, forever. Every figure carries a confidence score.
     <br><br>
     <strong>Close rule in force:</strong> a verbal agreement to move forward plus a payment link sent
-    counts as closed, even where the transcript ends before payment confirms. That is the agreed
-    standard and it is applied consistently — one of the two closes below qualifies this way.
-    It will slightly overstate close rate against any deal that agreed and then never paid.
+    counts as closed, even where the transcript ends before payment confirms. Applied uniformly across
+    all ${n} calls. It overstates against any deal that agreed and never paid — and separately,
+    recordings that stop at the moment payment is taken mean the true close rate is likely
+    <em>higher</em> than the ${pct(closed.length,n)}% shown. Those two biases push in opposite
+    directions and neither is quantified without a CRM join.
   </div>
 
   <div class="grid g4" style="margin-top:16px">
@@ -175,41 +196,7 @@ function render(d){
   Cash combines $6,000 confirmed live with a $7,200 payment-plan contract value
   ($1,200 × 6) — contract value, not same-day cash.</p>
 
-  <h2>Closed vs. not closed</h2>
-  <p class="sub">The whole point of the audit. With n=${n} these are leads to test, not laws.</p>
-  <div class="grid g2">
-    <div class="panel">
-      <h3 style="color:var(--won)">What the two closes had in common</h3>
-      <ul style="margin:0;padding-left:18px;color:var(--muted)">
-        <li><strong>The money question got resolved inside the call.</strong> Robyn had no price
-        objection at all — her partner pre-framed it. Francisco raised one and Richard structured a
-        payment plan live, on the spot: $1,200 × 6.</li>
-        <li><strong>A concrete next step was booked before hanging up.</strong> Both had an onboarding
-        call with Trevor on the calendar.</li>
-        <li><strong>The rep asked for the money and then stayed silent.</strong> Neither close needed a
-        discount — only a structure.</li>
-      </ul>
-    </div>
-    <div class="panel">
-      <h3 style="color:var(--lost)">What the three non-closes had in common</h3>
-      <ul style="margin:0;padding-left:18px;color:var(--muted)">
-        <li><strong>The blocker was deferred, not dissolved.</strong> Farooq probed for a payment plan,
-        got a yes to exploring it — then ran out of time and pushed to tomorrow.</li>
-        <li><strong>No live restructure was attempted.</strong> Payment plans were offered in 2 of 5
-        calls and structured live in only 1. That 1 closed.</li>
-        <li><strong>Two of three had no firm next date.</strong> Tyron's next step depends on him
-        sending MRI documents unprompted.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="panel" style="margin-top:14px;border-color:var(--accent)">
-    <h3 style="color:var(--accent)">The one pattern worth testing at scale</h3>
-    <p style="margin:0;color:var(--muted)">In this sample, <strong>every call where the rep structured
-    a payment plan live, closed. Every call where the rep deferred the money conversation, did not.</strong>
-    That is 1-for-1 and 0-for-1 respectively — nowhere near significance, but it is the cheapest thing to
-    check first across the full corpus, and it is a coaching change rather than a pricing change.</p>
-  </div>
+  ${closedVsNotSection(d, calls, closed, notClosed)}
 
   ${flagsSection(d)}
   ${funnelSection(d)}
@@ -365,6 +352,71 @@ function render(d){
     as sharper than it was. Section-level rates are far more robust to that than per-call scores — a whole
     section being skipped is a countable fact, not a judgement — but blind scoring against CRM-verified
     outcomes is still what would settle it.
+  </div>`;
+  }
+
+  /* ---------- Closed vs not closed, computed ---------- */
+  function closedVsNotSection(d, calls, closed, notClosed){
+    const R = d.rollups, D = R.discriminators;
+    const rate = g => g.length ? Math.round(g.length) : 0;
+    // structural facts, measured rather than asserted
+    const has = (arr, fn) => arr.filter(fn).length;
+    const planLive = g => pct(has(g, c=>c.offer && c.offer.payment_plan_structured_live), g.length);
+    const planOffered = g => pct(has(g, c=>c.offer && c.offer.payment_plan_offered), g.length);
+    const guarantee = g => pct(has(g, c=>c.offer && c.offer.guarantee_mentioned), g.length);
+    const avgDur = g => { const v=g.map(c=>c.call.duration_min_est).filter(Boolean);
+      return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
+    const adh = g => { const v=g.map(c=>c.adherence&&c.adherence.adherence_pct).filter(x=>x!=null);
+      return v.length ? Math.round(v.reduce((a,b)=>a+b,0)/v.length) : 0; };
+    const objRes = g => { const all=g.flatMap(c=>c.objections||[]);
+      return pct(all.filter(o=>o.resolved).length, all.length); };
+
+    const rows = [
+      ["Mean script adherence", adh(closed)+"%", adh(notClosed)+"%"],
+      ["Objections resolved", objRes(closed)+"%", objRes(notClosed)+"%"],
+      ["Payment plan structured live", planLive(closed)+"%", planLive(notClosed)+"%"],
+      ["Payment plan offered at all", planOffered(closed)+"%", planOffered(notClosed)+"%"],
+      ["Guarantee mentioned", guarantee(closed)+"%", guarantee(notClosed)+"%"],
+      ["Average call length", avgDur(closed)+" min", avgDur(notClosed)+" min"],
+    ];
+
+    const topWin = (D.top_favours_close||[]).filter(r=>["check","phase","phase_full","play"].includes(r.kind)).slice(0,4);
+    const topLose = (D.top_favours_loss||[]).slice(0,4);
+
+    return `
+  <h2>Closed vs. not closed</h2>
+  <p class="sub">The whole point of the audit. ${closed.length} closed against ${notClosed.length} not
+  closed, measured rather than asserted — every figure below is computed from the corpus.</p>
+
+  <div class="scroll" style="margin-bottom:var(--s3)"><table>
+    <thead><tr><th>Measure</th><th style="width:150px;color:var(--won)">Closed</th>
+      <th style="width:150px;color:var(--lost)">Not closed</th><th style="width:110px">Gap</th></tr></thead>
+    <tbody>${rows.map(([label,a,b])=>{
+      const na=parseFloat(a), nb=parseFloat(b), gap=Math.round(na-nb);
+      const col = gap>0?"var(--won)":gap<0?"var(--lost)":"var(--muted)";
+      return `<tr><td><strong>${esc(label)}</strong></td>
+        <td><span class="num" style="font-size:20px;color:var(--won)">${a}</span></td>
+        <td><span class="num" style="font-size:20px;color:var(--lost)">${b}</span></td>
+        <td><strong style="color:${col}">${gap>0?"+":""}${gap}</strong></td></tr>`;}).join("")}</tbody>
+  </table></div>
+
+  <div class="grid g2">
+    <div class="panel" style="border-color:var(--won)">
+      <h3 style="color:var(--won)">Most enriched in closed deals</h3>
+      <p class="sub" style="font-size:13px">Actionable behaviours only — things a rep chooses to do.</p>
+      ${topWin.length ? topWin.map(r=>`<div style="padding:7px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
+        <strong style="color:var(--won)">+${r.diff}</strong> ${esc(r.label)}
+        <div class="mono" style="color:var(--muted);font-size:11px">${r.closed_pct}% of closed vs ${r.other_pct}% of the rest</div>
+      </div>`).join("") : `<p style="color:var(--muted);margin:0">Nothing separates cleanly yet.</p>`}
+    </div>
+    <div class="panel" style="border-color:var(--lost)">
+      <h3 style="color:var(--lost)">Most enriched in deals that didn't close</h3>
+      <p class="sub" style="font-size:13px">Includes prospect traits — those are a targeting signal, not a coaching one.</p>
+      ${topLose.map(r=>`<div style="padding:7px 0;border-bottom:1px dotted var(--line);font-size:13.5px">
+        <strong style="color:var(--lost)">${r.diff}</strong> ${esc(r.label)}
+        <div class="mono" style="color:var(--muted);font-size:11px">${r.other_pct}% of non-closed vs ${r.closed_pct}% of closed</div>
+      </div>`).join("")}
+    </div>
   </div>`;
   }
 
@@ -655,7 +707,9 @@ function render(d){
 
   <h3 style="margin-top:var(--s6)">What prospects price you against</h3>
   <p class="sub">Anchors they bring to the call — the number or product already in their head when they
-  hear $6,000.</p>
+  hear $6,000. The rates below are computed across all
+  <strong>${(R.anchors_total||AN.length).toLocaleString()}</strong> anchors in the corpus; the table
+  shows a sample of ${AN.length}.</p>
   <div class="grid g2" style="margin-bottom:var(--s3)">
     ${A.map(a=>{
       const good = a.direction==="supports_price";

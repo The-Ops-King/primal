@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-08_jonathan_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was offered live as the appropriate option for this prospect, a duration and price that exist in neither the six-month nor the twelve-month offer.",
+      "evidence": [
+        "Well, usually it's $6,000 because this is the full transformation people are going through for full six months.",
+        "So definitely like the six months, I don't think that's applicable to you. Yeah. We could do three months. That's… Yeah, that could be something for you. That's 4K.",
+        "But it's up to you to decide whether you want to do it and, and, and spend 4k for this.",
+        "Because this is the premium. I'm one-on-one coaching with Trevor. Yeah. It's a four-figure range of an expense. Now, my question is…,000 or $10,000?"
+      ],
+      "timestamp": "00:07:21"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The $200/month Primal University community was offered again, its second appearance in two days, confirming it as a recurring fallback that sits outside the documented offer rather than a one-off improvisation.",
+      "evidence": [
+        "Look, well, we also have, if you would be interested, Trevor is also running like a school community.",
+        "there's also like a three-month progression workout program that you can adapt once a week. There's a weekly live session training with Trevor and Q&A, and that's like 200 bucks per month, and you can cancel any time, so you can go in for a month.",
+        "Get what you want, and then leave, if you feel okay.",
+        "Yeah, maybe send me the information on that."
+      ],
+      "timestamp": "00:14:49"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears anywhere in this sales call.",
+      "evidence": [
+        "00:00:01 - Jonathan Hey, how are you doing?",
+        "00:00:03 - Andrew Jin (Primal Instinct) Doing great, living the dream, man."
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts speakers through the pricing exchange, leaving the exact figure the rep floated as a bracketing question unrecoverable from the transcript.",
+      "evidence": [
+        "00:06:51 - Andrew Jin (Primal Instinct) Yeah. Well, that said, look, I'm going to be totally transparent. Because this is the premium. I'm one-on-one coaching with Trevor. Yeah. It's a four-figure range of an expense. Now, my question is…,000 or $10,000? Like… Well, usually it's $6,000",
+        "00:01:16 - Andrew Jin (Primal Instinct) I'm just looking to put on a little bit more muscle.",
+        "00:03:45 - Andrew Jin (Primal Instinct) Go ahead. I can't break through 15 pull-ups."
+      ],
+      "timestamp": "00:06:51"
+    }
+  ]
+}

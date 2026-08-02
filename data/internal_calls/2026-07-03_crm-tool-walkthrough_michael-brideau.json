@@ -1,0 +1,43 @@
+{
+  "call_id": "2026-07-03_crm-tool-walkthrough_michael-brideau",
+  "type": "internal",
+  "subtype": "tool_demo",
+  "date": "2026-07-03",
+  "participants": [
+    "Angelo DiMaggio (operations / systems)",
+    "Michael Brideau (closer, new to the offer)"
+  ],
+  "referenced_not_present": [
+    "Chris Klevan (sales manager)",
+    "Kim Forbes-Sobers (setter, referred to as 'he')",
+    "Andrew Musial (closer, had the double booking)",
+    "Trevor (founder)",
+    "Sam, Tommy, Curtis, Daniel, Tom, Jorge, Andy, Mickey (prospects on the calendar)",
+    "SalesKick and its messaging persona 'Sophia'"
+  ],
+  "source": {
+    "drive_file_id": "1OeFvGEVkNE-O7d-HVsoWOW86rOs-iXg6",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/03/2026 - Impromptu Zoom Meeting",
+    "file_size_bytes": 12270
+  },
+  "duration_min_est": 12,
+  "summary": "A short screen-share walkthrough of the sales stack for a newly onboarded closer. Angelo takes Michael through Zoom join-sound settings, how to read confirmation status on the calendar and in Close, how the SalesKick automation confirms booked calls, how to disposition a call where no pitch happened, and how sets are identified. Two conventions are established explicitly: a green marker on the calendar means Kim confirmed the booking, and the KFS suffix in a booking title means it is one of Kim's sets — which validates the setter-code convention used throughout the corpus. Angelo describes the automated confirmation sequence as being sent under the name 'Sophia from Primal Instinct Coaching', a persona with no corresponding person on the team. Michael asks what kettlebells to recommend and is told Dick's Sporting Goods or Rogue Fitness. The call ends with Angelo reassigning a prospect to Michael because Andrew Musial has a double booking at 3pm Eastern — the prospect is described as retired after 32 years at UPS with 'a decent financial grade, decent credit', which identifies him as Tom Eldon, whose call appears later the same day in this batch.",
+  "notable": [
+    "Setter-code convention confirmed at source: 'Whenever it says KFS, it means it's one of his sets', and a green calendar marker means Kim confirmed the booking. Bookings with no initials are direct, unset leads.",
+    "The automated confirmation sequence writes to prospects as a named person who does not exist: 'just going to say, hey, Michael, this is Sophia from Primal Instinct Coaching. You know, you booked a call with Michael... he has some ideas on how he can help you with X, Y, and Z, which is based on their application.'",
+    "The delivery app is TrueCoach — 'we use true coach, Chris answered that' — which the same rep had been unable to answer for a prospect earlier, and which the sales manager separately coached him to avoid discussing rather than simply naming.",
+    "Disposition coding for a call that happened but where no pitch occurred is explicitly undefined: 'If you didn't pitch them, then yeah, I would just leave them in a book sales call... Yeah, mean, either way. It's kind of like a really gray area.'",
+    "The Tom Eldon call in this batch originates here as a reassignment: 'Andrew has a double booking at 3 p.m. Eastern Time... I'm going to reassign you this guy's name's Tommy... Says he's retired, but he worked for 32 years at UPS.' On the call itself the prospect was told a different reason: 'I'm taking over for Andrew... he had to step out.'",
+    "Prospects carry a financial assessment in the system before any conversation: 'That's a decent financial grade, decent credit.'",
+    "Team shape at this date: three closers, one setter, with another setter and a dedicated DM setter being hired. An in-house AI DM setter was previously in use — 'We had, like, an AI DM setter thing, and it was, like, doing pretty good.'",
+    "Direct bookings are not confirmed by anyone. 'Any direct booking is, I don't think they're, that he's reaching out to confirm, but double check with Chris. And if anything... I would just call your own leads.' This is a plausible driver of show-rate variance between set and unset leads.",
+    "Self-assessment from the closer who holds four follow-up dispositions in this batch: 'I'm definitely not the greatest at follow-up and like trying to stay organized and be on top. Like, bro, my brain just does not function that way like at all.'",
+    "Equipment guidance reps give prospects: Dick's Sporting Goods or Rogue Fitness, with weight selection being the common question."
+  ],
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Two speakers, frequently inverted, and the screen-share format produces short fragmentary turns that compound it. Angelo's instructions repeatedly appear under Michael's label — the disposition guidance at 00:03:59 and the reassignment walkthrough at 00:08:25 both run across both labels. Roles resolved by content: Angelo is whoever knows the systems and gives instructions, Michael is whoever asks where things are."
+  }
+}

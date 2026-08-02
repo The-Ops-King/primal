@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-12_dylan_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The three-pillar presentation never happened on this call. The rep moved from the root-cause question straight to a screen share of Primal University at 00:09:12. Pillar one was never named or delivered."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Notable because the prospect had identified diet as a probable cause of his failure — 'I don't know if I've been doing the right stuff or the right diet. I guess I kind of have not been as true to a certain diet as I would like, but I need to get better at that' — and the nutrition pillar answers that directly."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Also notable: the prospect had just conceded that self-direction was the problem — 'I've kind of just thought I could always figure it out on my own... And yeah, I suppose that hasn't worked out' — and was then recommended a self-serve product with no personal accountability in it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_substitute",
+      "raw": "I've been saving those videos and making my own program for kettlebells, but I just wanted to know if you guys custom make these or what or how it is",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free YouTube videos, self-assembled",
+      "note": "He is already doing a free version of the thing being sold and was open about it. The distinguishing feature he was probing for was customisation, which is precisely what the $200 product does not provide and what the coaching does — and coaching was never presented."
+    },
+    {
+      "type": "trial_expectation",
+      "raw": "Yeah, and there's not a trial to see if this is what I was looking for?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He expected to test before paying, on a $200 product. The rep converted the cancellation right into a de facto trial. A prospect who wants a trial at $200 was never going to be qualified for $6,000 without one, which the rep sensed but never tested."
+    },
+    {
+      "type": "household_consultation",
+      "raw": "If you put the link in the chat, I'll check it out when I get home and run it by my fam and make sure that I want to do that.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Even $200 requires a family conversation. Surfaced only at the very end and not explored at all."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A programme customised to his goals — asked twice, and named as the reason he would be more interested: 'I didn't know if it did give a program, but, you know, that I could kind of customize to what I need or want to do. But if it does, that's terrific. And I would be more interested in doing that'",
+      "why_unmet": "Primal University is a fixed self-serve curriculum. Customisation is the defining feature of the coaching programme he applied for and was never shown. The question was left unanswered rather than answered either way, so he is proceeding on an unconfirmed belief.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way to try the programme before committing",
+      "why_unmet": "No trial exists at any tier. The rep substituted the subscription cancellation right, which is a reasonable answer for a $200 product but leaves the $6,000 tier with nothing.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training that works around two injured knees, one out of action since November",
+      "why_unmet": "Never explored, never acknowledged, and no clinician was involved or suggested. A kettlebell curriculum was recommended without anyone knowing whether his knees tolerate loading.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

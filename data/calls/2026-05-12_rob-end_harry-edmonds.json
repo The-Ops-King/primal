@@ -1,0 +1,133 @@
+{
+  "call_id": "2026-05-12_rob-end_harry-edmonds",
+  "source": {
+    "drive_file_id": "1UuneECUuAsNnT15JxZhItWkszpZlFHw1",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/12/2026 - Rob End & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/12/2026 - Rob End & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 77460
+  },
+  "call": {
+    "date": "2026-05-12",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 75,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"You spoke with Kim, I think, right?\" / \"Yeah, he kind of gave me an overview of where you're at.\""
+  },
+  "prospect": {
+    "name": "Rob End",
+    "aka": "Silke & Robert (shared Zoom account label; wife is Silke)",
+    "name_source": "title",
+    "location": "Berlin, Germany",
+    "age": 40,
+    "occupation": "Life coach — runs a six-month mentoring program",
+    "family_status": "Married to Silke, co-owner of their business; has children",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Played basketball to a decent level in youth and still plays; tried gym/machine weightlifting repeatedly and quit each time; trained during COVID until a nervous-system episode stopped him; had not trained for about three months at time of call",
+    "kettlebell_experience": "some",
+    "medical": "Self-reported nervous-system problems: \"I had issues with my nervous system, and I almost faded out one time, and then I completely stopped.\" Reports he cannot tolerate 60-90 minute sessions (\"I'm flat for the whole day\"), post-exercise inability to down-regulate at night, suspected magnesium deficiency, stiffness after basketball. No diagnosis named; no clinician mentioned."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.55,
+    "signals": [
+      "Lost ground after a nervous-system episode during COVID-era training and stopped entirely",
+      "Explicitly describes himself as starting over: \"maybe I'm really rock bottom and I start from zero\"",
+      "Imperfect fit — he is not recovering a former physique, he says he never built one (\"I never trained and I never, I was always skinny\"); the rebuilder is the closest available label"
+    ]
+  },
+  "goals": [
+    { "text": "Build genuine physical strength and muscle, and a felt connection between mind and body", "category": "strength" },
+    { "text": "Be able to play basketball for an hour or 90 minutes regularly and jump higher", "category": "hobby_performance" },
+    { "text": "Have a routine he actually sticks with over years, not weeks", "category": "consistency" },
+    { "text": "Progress slowly and sustainably in a way that does not overload his nervous system", "category": "sustainability" },
+    { "text": "Better recovery — sleep, stiffness and down-regulation after training or basketball", "category": "energy_performance" }
+  ],
+  "pains": [
+    { "text": "Chronic start-stop pattern with training; three months without training at time of call", "category": "consistency", "severity": "high" },
+    { "text": "Self-sabotage and ego-driven overreaching that ends in quitting", "category": "motivation", "severity": "high" },
+    { "text": "Nervous-system episode during training — \"I almost faded out one time, and then I completely stopped\"", "category": "medical", "severity": "high" },
+    { "text": "Cannot relax or sleep well after exertion; body stays \"very busy\" releasing tension", "category": "sleep", "severity": "medium" },
+    { "text": "Insecure about kettlebell technique and afraid of injuring his 40-year-old body", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Gym and machine training feels joyless; a premium Berlin studio left him feeling unseen", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Good at coaching others, poor at holding himself accountable", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Is there some negotiation space in there? In terms of, like, the price?",
+      "timestamp": "00:54:36",
+      "rep_response": "Held firm without discounting — \"No, the price is the price. It is what it is.\"",
+      "response_tactic": "hold_price_no_discount",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "This is definitely something I got to think about.",
+      "timestamp": "00:54:29",
+      "rep_response": "Did not run the OA sequence at the moment it landed; moved to next-steps logistics, then later probed with a fear frame (skydiving analogy) and asked what was holding him back. Accepted the delay and agreed to book a follow-up.",
+      "response_tactic": "fear_reframe_then_concede_timeline",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "this also my wife is also part of the company holder I would have to ask her. So I have to get back to you on this point and yeah and then check with her",
+      "timestamp": "00:57:00",
+      "rep_response": "Ran most of the OB play — isolated with 'money aside, do you feel like we can get you to where you want to go', asked her name, asked what she would say, and asked whether it was an FYI or a permission conversation. Prospect confirmed it was not a permission issue but still would not decide live.",
+      "response_tactic": "isolate_then_permission_vs_fyi_frame",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I just want to like, take myself the time to feel it and to really make this internal connection... I'm not going to make this step now once I haven't tiled it through in myself.",
+      "timestamp": "01:08:00",
+      "rep_response": "Tested for fear, accepted the answer, offered to compress the timeline via WhatsApp, then conceded to a follow-up call the following Monday/Tuesday.",
+      "response_tactic": "fear_check_then_book_follow_up",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect asked for one night to decide: \"as I said, one night, probably tomorrow\"",
+      "Agreed to a booked follow-up call — \"we can set something up for Monday if you'd like, or Tuesday... I'll send you my link and you can book on my calendar\"",
+      "Strong buying language in favour: \"I'm pretty sure I'm going to do it\" and \"the probability of succeeding is much higher with this program than any other\"",
+      "Counter-evidence: no payment taken, no payment link sent, no onboarding call with Trevor booked, and he still intended to discuss it with his wife/business co-owner"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep sends Calendly link over WhatsApp; prospect books a follow-up for Monday or Tuesday after sleeping on the decision and speaking to Silke"
+  },
+  "notable": {
+    "note": "Two things a manager would want to see. (1) The rep volunteered to re-label the invoice so the prospect could take it as a business tax deduction, citing a prior client whose coaching was framed as \"a safety and injury prevention program\" and written off through his McDonald's franchises. (2) The prospect disclosed a near-fainting episode during training and ongoing nervous-system intolerance to exertion; the rep never asked a single medical-history question and never suggested clinician clearance before recommending six months of kettlebell training. Also: the price was quoted in euros (€5,100) as the equivalent of $6,000, and the prospect's live anchor was Primal's own Primal University email offer at €1,000/year."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and continuous swapping. Long stretches of the rep's programme explanation (offer walk-through, three pillars, weekly check-ins) are attributed to the prospect label \"Silke & Robert\", and several prospect replies sit under the Harry Edmonds label. Roles were read from content throughout. The prospect label itself is a shared account name (Silke & Robert); only Robert speaks."
+  }
+}

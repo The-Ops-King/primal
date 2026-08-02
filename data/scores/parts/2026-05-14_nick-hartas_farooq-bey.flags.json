@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-05-14_nick-hartas_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "No health, injury, medication or limitation question was asked at any point, and the prospect's volunteered shoulder and back pain was never followed up before a three-to-four-day-per-week loaded kettlebell programme was recommended.",
+      "evidence": [
+        "it's shoulder pain, sometimes back pain. I'm like, you know, it's just causing stiffness in a sense",
+        "Nick, this is where you can receive two separate programs from us, a kettlebell-based program and a mobility-based program. The kettlebell side is just three to four times per week",
+        "But before we design anything, we need to understand what the hell is your capability with the kettlebell"
+      ],
+      "timestamp": "00:04:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The six-month price was restructured live into a 12-month financed plan carrying an unquantified amount of interest, so the total the prospect would pay exceeds $6,000 and no figure for it was ever stated.",
+      "evidence": [
+        "what we can do is take the six months and divide it over 12 using one of our partners called Paver. Okay. So it's a little bit of interest, but it'll allow you to pay it over 12 months",
+        "About six, bucks a month.",
+        "What was the, um, the, uh, payment plan name again, it's called paver P a Y V a, or there's an option planner K L a R N a."
+      ],
+      "timestamp": "00:28:38"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "low",
+      "summary": "The rep stated payment plans are available to everyone based on circumstances, which is broader than the playbook position that most clients pay upfront and plans are broken out only for some.",
+      "evidence": [
+        "I appreciate the honesty, man. I mean, we, we accommodate for everyone depending on what their financial circumstances are.",
+        "From there, most people just put it on a credit card, but we have payment plan options if necessary."
+      ],
+      "timestamp": "00:28:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "An audio dropout in the first two minutes cut the prospect's opening answer and the transcript records the recovery rather than the lost content.",
+      "evidence": [
+        "Yes, can you hear me? No idea what happened there, man, sorry about that.",
+        "Where did it cut off at?"
+      ],
+      "timestamp": "00:01:30"
+    }
+  ]
+}

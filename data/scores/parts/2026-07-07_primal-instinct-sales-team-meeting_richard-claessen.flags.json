@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-07_primal-instinct-sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The sales manager observed and named a closer attempting to manufacture a pain point that the prospect did not have, in a training roleplay.",
+      "evidence": [
+        "A couple of moments, Richard, that you did on the call with me in that role play is you tried to manufacture something that wasn't there a couple of times. You were trying to dig to try and see if you could find something.",
+        "that was where we started to have a little bit of sticking points where I was like, no, like, it's fine, because it felt like you were pushing it to me",
+        "And then, yeah, you still have to make it look big enough for them in order to actually have them...",
+        "You can't make something look big enough that isn't there."
+      ],
+      "timestamp": "00:40:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A roughly $200/month tier is discussed in team training as a sanctioned fallback for prospects who cannot take the $6,000 offer, confirming the downsell seen on live calls is not an individual improvisation.",
+      "evidence": [
+        "I expected it was going to be, like, $200 a month thing. I didn't really know what this was, so maybe I'm mistaken, I'm sorry about wasting your time",
+        "I can still run you through the two hundred a month and see if you're interested in that.",
+        "Yeah, yeah, yeah. You're not here to create something that isn't there."
+      ],
+      "timestamp": "00:42:06"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The sales manager affirmed nicotine's cognitive-enhancing effect in the context of closer performance and followed it with an Adderall aside, on a team call with a first-day hire present.",
+      "evidence": [
+        "I saw a reel with Cole Gordon... all of the best closers on his team are using, whether they are pouches or something like that",
+        "There have been enough studies to show that nicotine does have cognitive-enhancing abilities, so I can't deny that that is also true, but I know plenty of closers who have done very well in this space that didn't use any nicotine.",
+        "I did use the work on Cole's team, and a lot of people on that team have a nicotine addiction.",
+        "Nah. Adderall, though. No, I'm kidding. Let's keep rolling."
+      ],
+      "timestamp": "00:16:30"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording terminates mid-sentence during the second roleplay, so the objection-handling training that Andrew Musial specifically asked for is only partially captured.",
+      "evidence": [
+        "What's my objection? What am I saying? Uncertainty? No. What am I saying?",
+        "What am I not seeing? What am I not seeing? am I"
+      ],
+      "timestamp": "00:55:05"
+    }
+  ]
+}

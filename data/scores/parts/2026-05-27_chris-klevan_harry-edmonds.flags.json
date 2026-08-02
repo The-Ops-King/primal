@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-05-27_chris-klevan_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The closer who recorded every call in this batch was, on 27 May, judged by his manager to be avoidant and passive on live calls and was offered time off; he self-assessed at roughly 20% of his sales ability and kept taking calls for financial reasons.",
+      "evidence": [
+        "And what I saw today on your calls is avoidance and the passivity, which is pretty selfish.",
+        "imagine I had 100% of my ability... I feel like I'm tapping into 20% of it",
+        "the closer that is in front of you, that you have seen, is almost like, this is going to sound very negative, but I don't mean it to sound negative, but almost like a shell of the closer who I am",
+        "do you feel like you're in a position right now where you can take the sales calls and operate from a place of, like, just doing the role and being the best that you can be? Or do you feel like you need some time off? / I don't know. That's the honest answer.",
+        "If I had more money in my bank, I'd take the time off."
+      ],
+      "timestamp": "00:04:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The manager framed a rep's failure to press an objection as morally equivalent to standing by while a family member takes their own life, using that analogy to define the standard for objection handling.",
+      "evidence": [
+        "By avoiding, because you're like, well, it doesn't really mean anything about me, so it doesn't matter. I don't need to do, I don't need to get involved. I don't need to handle the objection. That's actually prideful.",
+        "If your mother came to you right now and was like, I'm going to kill myself, would you just be like, well, it's okay. It'll be fine. You can figure it out.",
+        "Exactly. That's courage."
+      ],
+      "timestamp": "00:13:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer described his own peak sales performance as a 40% close rate achieved on a bait-and-switch, without correction or follow-up from the manager.",
+      "evidence": [
+        "And when I'm at 100%, I'm closing at 40% on a bait-and-switch. And I'm calling people on their , and I'm objection-handing the out of them, and I'm caring about them, and I'm closing them.",
+        "Yeah. No, I know that you have like a lot of the tactics down."
+      ],
+      "timestamp": "00:09:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Leads and recording rooms cross between closers informally, with another rep's note-taker joining this rep's Zoom room mid-meeting, creating a route for calls to be misattributed between rep folders.",
+      "evidence": [
+        "Did you, this Ram lead, did you give it to Andrew?",
+        "Because it just said that his note-taker joined my room.",
+        "I'll call him in a second, it's Kyla's lead anyway"
+      ],
+      "timestamp": "00:17:23"
+    }
+  ]
+}

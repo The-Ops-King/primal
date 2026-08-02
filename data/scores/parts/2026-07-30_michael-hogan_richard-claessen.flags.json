@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-30_michael-hogan_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect stated he definitely has injuries as well as back, knee and shoulder stiffness at 5/10; the rep later re-characterised him as not injured in order to qualify him into the unsupervised self-serve tier, and no clinician clearance was sought at any point.",
+      "evidence": [
+        "Do you feel like you have stiffnesses and injuries or something? — Yeah, for sure. I definitely have stiffness and injuries.",
+        "Just back stiffness, knee stiffness, shoulder stiffness. I'm 45 years old.",
+        "on like a scale from one to ten... Probably five.",
+        "that basically comes down to people are not completely injured and you're not injured yourself, right?",
+        "kettlebell workouts, still the mobility routines based around like the typical stiffnesses, like back, shoulders, knees, hamstrings"
+      ],
+      "timestamp": "00:43:19"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An unpublished $1,000 six-month self-serve tier was introduced after resistance to the $6,000 offer, matching the same off-book tier used on three other calls in this batch.",
+      "evidence": [
+        "this part, with the six months, that comes down to 6K USD",
+        "How about this? We get just started with something that's a little bit more self-based",
+        "So just to get the programs is 1,000."
+      ],
+      "timestamp": "00:43:19"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Prospect asked directly for a breakdown of the investment options; the rep raised a twelve-month option, never stated its price, and then asked him to choose between them.",
+      "evidence": [
+        "So break down the different investment options.",
+        "So this part, with the six months, that comes down to 6K USD. And if you feel like I want to go for 12 months, which is something that some people do, that's nice.",
+        "Which one works better for you, do you think?"
+      ],
+      "timestamp": "00:37:17"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep committed, with no written terms, time limit or conditions, that the full $1,000 self-serve fee would be credited against the $6,000 coaching whenever the prospect chose to upgrade — the same open-ended credit promise made to a different prospect the previous day.",
+      "evidence": [
+        "we would put that whole investment of 1,000, that is, towards that one-to-one coaching. So it's not like it would be lost or anything",
+        "like the 1,000, if you use it for two weeks, and in two weeks you tell me, Richard, I love this... Then we would do the 1,000 towards it, but also if you've used it for six months and you want to go to the 1-on-1 at that point"
+      ],
+      "timestamp": "00:43:54"
+    }
+  ]
+}

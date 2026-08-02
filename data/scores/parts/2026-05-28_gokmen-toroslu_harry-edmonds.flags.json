@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-05-28_gokmen-toroslu_harry-edmonds",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep stated that a $100 deposit is always taken when scheduling a follow-up call and took one live; no other follow-up in this batch involved a deposit, including three booked by the same rep in the preceding fortnight.",
+      "evidence": [
+        "I was going to say, cause this is what we do when we schedule follow-ups. We always take a hundred dollar deposit because yeah, it's refundable anyway. And then we can jump on tomorrow. You want to do that?",
+        "I'm just going to text you a $100 Stripe link.",
+        "By the way, it is refundable if you do need it back, if, like, you don't do it, just so you know."
+      ],
+      "timestamp": "00:39:31"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $100 charge outside the stated offer was taken by Stripe link during the call, framed both as a commitment device and as standard follow-up practice.",
+      "evidence": [
+        "I want to challenge you to put a hundred buck deposit down. And if worst case scenario, she says no, or whatever, we can refund it",
+        "Are you, are you not willing to put down a hundred bucks refundable deposit?",
+        "No, I'll give you a hundred dollars for the call.",
+        "That just came through, by the way, I saw that."
+      ],
+      "timestamp": "00:37:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The prospect named in the file title does not match the name used by both parties throughout the call, leaving the identity of a live deal ambiguous in the corpus.",
+      "evidence": [
+        "05/28/2026 - Gökmen Toroslu x Harry Edmonds  (file title)",
+        "So there is something coming up. Be real with me, James. Just be real.",
+        "Imagine you were in a room with the best version of yourself, right? The most whole, perfect version of James that could ever exist."
+      ],
+      "timestamp": "00:00:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization on this file is inverted across most of the second half including the entire offer walkthrough, the guarantee and the price statement, so speaker-attributed analysis will misread who said what.",
+      "evidence": [
+        "00:25:11 - James / Just pretty much identify what is going wrong and what's out of alignment with you showing up as your best, right?",
+        "00:31:44 - James / So let's say you start with a 35 pound kettlebell.",
+        "00:32:11 - James / But yeah, it's six grand for the six months."
+      ],
+      "timestamp": "00:25:11"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "call_id": "2026-05-05_andreas-xagoraris_farooq-bey",
+  "source": {
+    "drive_file_id": "1dMAuqZg3OsfJqS7pD89aWzBShuXEtRo3",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/05/2026 - Andreas Xagoraris x Farooq Bey",
+    "display_title": "05/05/2026 - Andreas Xagoraris x Farooq Bey — Lost",
+    "file_size_bytes": 30592
+  },
+  "call": {
+    "date": "2026-05-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 26,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellin, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Andreas Xagoraris",
+    "aka": "AX15Pro",
+    "name_source": "title",
+    "location": "New York City, USA — commutes to work in New Jersey",
+    "age": 60,
+    "occupation": "Physician, and from context a surgeon — 'I did two cases' on the day of the call. Rutgers alumnus. Highly irregular hours: starts at 6 or 7 a.m., works anywhere from two to fourteen hours, describes the job as stressful.",
+    "family_status": "Has an adult daughter who has moved out; he lives alone with a dog in a New York apartment. Previously lived in Bergen County for fifteen years and then Arizona.",
+    "height_in": 73.5,
+    "weight_lb": 185,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong trainer with a strong history. Kept a full home gym in his Bergen County basement for fifteen years — elliptical, treadmill, squat rack, dumbbells, universal, mirrors, TV, fans, rubber mats — and stayed in shape throughout. Outdoor training and boxing in Arizona. During COVID bought a Rogue Fitness pull-up bar and dip bar for roughly $250 total and stayed in great shape on pull-ups and dips alone. Now goes to a $300/mo gym roughly three times a week, or four to five times a week for a stretch and then nothing for a month. Mixes kettlebells with bench press, leg press, pull-ups, farmer's walks and goblet squats. Owns kettlebells and a mat at home, with a spare third bedroom he could dedicate to training. Waist 32-33.",
+    "kettlebell_experience": "experienced",
+    "medical": "Age 60. Takes Crestor for cholesterol, a reflux medication, zinc and hair vitamins; describes everything except the statin as 'vanity driven'. No high blood pressure. Free testosterone around 600 and total testosterone normal for his age; his urologist offered testosterone supplementation and he declined it. VESTIBULAR DISORDER — 'if I have to move too much, I don't know, it's my vestibular system, I just get dizzy and I just, I can't do a lot of turning', which he says rules out Turkish get-ups. Medial elbow injury roughly three months before the call from progressive barbell curls to 95 lb, self-diagnosed, did not settle with rest, and resolved after an injection from a doctor. Occasional mini cigars while walking the dog; minimal alcohol; no cigarettes. The rep asked no health, medication or injury question at any point — every one of these facts was volunteered."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Older, health-literate and already medically managed — he is a physician, knows his own testosterone numbers, is on a statin, has an active urologist relationship and turned down offered TRT",
+      "The goal is holding on to function rather than gaining anything, stated explicitly: 'as I get older, my back, my core, my legs are key to me having a quality of life as I get older. You know, I don't want to be like these brittle old people who can barely walk.'",
+      "Frames the horizon in decades — the rep's own summary, which he accepted, was about maintaining 'as you age into your seventies and eighties'",
+      "High nominal income with fitness already a real line item: a $300/mo gym membership plus fifteen years of a fully equipped basement gym",
+      "The small gain goals he does name are modest and maintenance-shaped — 'drop three to five pounds of fat, put on four to five pounds of muscle, get back to feeling good when I climb stairs'",
+      "PARTIAL MISMATCH: low discretionary liquidity was never established and is unlikely here; the assignment rests on the age, health-literacy, medical-management and preservation-goal dimensions, which match closely."
+    ]
+  },
+  "goals": [
+    { "text": "Feel fit and feel stronger — his own stated single biggest metric", "category": "energy_performance" },
+    { "text": "Get back to being 185 pounds and solid rather than 185 and trim", "category": "muscle_gain" },
+    { "text": "Drop three to five pounds of fat and put on four to five pounds of muscle", "category": "fat_loss" },
+    { "text": "Stop the mid-afternoon energy crash and hold a more regular pattern of energy through the day", "category": "energy_performance" },
+    { "text": "Preserve back, core and leg strength specifically to protect quality of life into his seventies and eighties", "category": "longevity_function" },
+    { "text": "Avoid ending up like 'these brittle old people who can barely walk'", "category": "longevity_function" },
+    { "text": "Build a consistent home routine so that on days he will not get to the gym he still does twenty to forty minutes", "category": "consistency" },
+    { "text": "Feel good climbing stairs", "category": "mobility" },
+    { "text": "Train without hurting himself — 'not let my ego write a check my body can't cash'", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Binary consistency — four to five gym sessions a week for weeks, then a full month without going once", "category": "consistency", "severity": "high" },
+    { "text": "Fitness is genuinely not a priority and he says so: 'I'm not going to give up rest, or time with my loved ones to go to the gym'", "category": "motivation", "severity": "high" },
+    { "text": "Exhausted by mid-afternoon after 5.30 a.m. starts and long surgical days, with no energy left to train", "category": "time_scarcity", "severity": "high" },
+    { "text": "Lost the environment that made him consistent — moved from a house with a full basement gym to an apartment with a mat in a spare bedroom", "category": "training_barrier", "severity": "high" },
+    { "text": "Gets no 'charge' from training at home the way he does at the gym, so home sessions do not happen", "category": "motivation", "severity": "high" },
+    { "text": "Vestibular dizziness on rotational movement, which he says rules out Turkish get-ups and limits how much he can turn", "category": "medical", "severity": "high" },
+    { "text": "Recent medial elbow injury from pushing curl weight, requiring a medical injection to resolve", "category": "injury", "severity": "medium" },
+    { "text": "Saved workout videos from Instagram and Facebook are boring and he does not follow them — 'do 20 of these, do five of these, and it's just not what I want'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Diet has degraded since his daughter moved out — stopped cooking for one, now cheeseburgers, pizza and Chinese food", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Wakes tired and slow to start, though he sleeps roughly seven hours", "category": "sleep", "severity": "medium" },
+    { "text": "Has visibly lost the muscle and shape he used to carry — smaller back, shoulders and legs than before", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "during COVID, there's a company called Rogue, Rogue Fitness. 130 bucks, I got an incredible pull-up bar, 120 bucks, I got like a dip bar... and I just did pull-ups and dips, and I stayed in great shape.",
+      "timestamp": "00:19:09",
+      "rep_response": "Did not engage with it. Asked instead about the space available in his apartment",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "I've always been a self-starter... I know the information is out there.",
+      "timestamp": "00:16:40",
+      "rep_response": "Ultimately agreed with it and disqualified: 'My honest opinion, man, I don't think you need us... if you're able to just find that consistency and the drive, it's going to be easy for you to get into shape without having the need of a coach like Trevor'",
+      "response_tactic": "honest_disqualification",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "No, I want to take a look at it. If that's okay, you know, I don't, I don't, I need to see.",
+      "timestamp": "00:25:39",
+      "rep_response": "Accepted immediately — 'Sure. Any questions that you need me to answer?' — and closed the call out",
+      "response_tactic": "accepted",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "On Primal University only: 'it's 200 bucks, but you can cancel it at any time. So some people come in for a month, they get that structure, they're good, and that's fine.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified him unprompted and before presenting anything: 'Andreas, would you like me to be honest with you or nice?' — 'Of course, man.' — 'My honest opinion, man, I don't think you need us.'",
+      "He repeated it when making the recommendation: 'again, I don't feel like the one-on-one coaching is going to best serve you. We have a program called Primal University, which is just 200 bucks.'",
+      "The prospect accepted the assessment and had reached it himself: 'Yeah. You know, I mean, I had those thoughts as well. I just figured, you know, just give it a shot and see... but I appreciate your honesty.'",
+      "IMPORTANT: none of the three pillars was presented and no coaching price was ever quoted, so this call generates no price-resistance data point and should not be counted as one in any rollup.",
+      "A Primal University link was put in the Zoom chat and the prospect deferred on it: 'No, I want to take a look at it.' No payment of any kind.",
+      "COUNTER-EVIDENCE: this prospect is the closest match to the stated ICP in the entire batch on every written criterion, and the disqualification was made on need, which the stated ICP does not measure."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to review the Primal University link at $200/mo. No follow-up booked; rep offered open-ended contact by email or text."
+  },
+  "notable": {
+    "note": "The most important ICP case in the batch. A 60-year-old practising physician who makes good money, is genuinely fit for his age, has let his health slide as the neglected corner of a demanding career, and wants to go from good to better — he satisfies all five stated ICP criteria, which nobody else in this folder does — and the rep disqualified him inside twenty-one minutes and offered him a $200 subscription instead. Clinically, the prospect volunteered a vestibular disorder that makes him dizzy on rotation and that he says rules out Turkish get-ups, plus a medial elbow injury three months earlier that needed an injection, a statin, and a declined TRT conversation with his urologist. The rep asked no health question at any point, never acknowledged the vestibular limitation, and then recommended a self-paced kettlebell and mace programme — maces being an almost entirely rotational implement. He was also handed the cleanest anchor in the corpus and did not use it: this man pays $300 a month for a gym and kept a full basement gym for fifteen years, which is proof of willingness to pay that never entered the conversation because price never did."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained inversion, with several turns merging both speakers under one label. Clear examples: at 00:20:05 the label AX15Pro carries the prospect's line about his gym membership and then the rep's entire pivot — 'Hi, Echo. So, Andreas, would you like me to be honest with you and nice? Of course, man' — inside one block; 'Appreciate the context' at 00:04:28 is labelled AX15Pro and is the rep; 'I am a doctor' at 00:00:29 sits under the rep's label and is the prospect. The prospect appears throughout under a device label, 'AX15Pro', and his name never appears in the transcript at all — it is recovered only from the file title, and there is no in-call confirmation of the spelling. One garbled artefact at 00:26:06 renders the cousin's graduation as 'your Ezekiel DC's graduation'. Roles resolved from content throughout."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "call_id": "2026-06-29_sales-team-meeting",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A prospect with a negative bank balance and a credit score of 400-500 remains in the pipeline with a follow-up booked specifically to collect $1,200 when money lands in his account.",
+      "evidence": [
+        "one of them had minus 67 bucks on their account. So, yeah, he didn't have the money.",
+        "got a follow-up with him on Thursday, because that's when he gets some money transferred for deposit, and then the 1200 would only be collected.",
+        "he said, like, yeah, I've got 67, The minus at the moment. And his credit score was like four or five hundred. Like, what do you even do with that?",
+        "So I'll see if he reaches back out. Like I'm not going to count on him coming in. Like absolutely not. I still have it on my followup list for like next week."
+      ],
+      "timestamp": "00:13:12"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Reps are pasting recorded prospect sales calls, which contain health disclosures and financial details, into personal AI assistants outside any stated company control.",
+      "evidence": [
+        "And then after every call, I also run the call through my custom cloud, and, like, an example from the call that I just had with that guy, he was in Euros.",
+        "I have with, in Claude, I have my few of my assistants, like, I call them, there are a few of them, like, there's soul one for those soul kind of conversations, like mindset and so on. There's a second one. For health, fitness, and all that stuff... So I actually pasted in the transcripts of our past two calls."
+      ],
+      "timestamp": "00:48:54"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The open-wallet play is taught as funding the purchase from a credit card, with home equity probed as a further source and equity loans cited as something clients have done.",
+      "evidence": [
+        "you have a credit card for $5,000 on it. And ultimately, we could probably make a payment plan work with that to where if you put $4,000 down, and then we did a payment plan for the rest, and then you just paid off the card as you go",
+        "I would put down $4,000 on your credit card and then I would try to pay off the credit card as soon as you can.",
+        "The only thing I have is my house, but that, of course, costs money. ... No, you don't have any equity in it? A little bit. A little bit? Okay, not that we touch it. That'd be, like, absolutely the last thing, and that'd be completely up to you, but I'm just saying.",
+        "I've had people do it where they'll take, they just decide they want to take. Like equity out on their house, like a little loan or something. You just have to go to the bank and you can do it."
+      ],
+      "timestamp": "00:38:26"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The one-month 'love it or leave it' trial improvised on a 06/24 sales call is now being used as a live standard tool, and no monthly or trial tier exists in the stated offer.",
+      "evidence": [
+        "So the thing is, he was, so we decided on the Love It or Leave It, because he wanted to, like, he wanted to speak to Trevor first, and I was like, no. That's not possible, but I figured out, okay, so if he's so skeptical about it, I proposed to love it or leave it",
+        "If it's a money thing, then you can see if you can work around it and just do the 1,200 or whatever you need to do."
+      ],
+      "timestamp": "00:07:48"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager coached the rep to argue a prospect out of a stated personal principle against taking on debt by reframing the origin of that belief.",
+      "evidence": [
+        "Well, like my dad did, he always up. So I want to be a better father figure for my kids in that sense. Show them what to actually do with finances. ... if I'm going to take out a loan and I'm just going in against my own boundaries, basically.",
+        "Have you ever been to a big city? ... Do you think that the people that own those buildings paid for them in cash?",
+        "yes, like maybe your father made some decisions that didn't work out with credit. Well, that doesn't necessarily mean that credit and loans are bad because ultimately, it also allowed you to get a house."
+      ],
+      "timestamp": "00:39:59"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Reps are scripted to tell prospects that no set payment plans exist, while the manager teaches standard structures in the same session.",
+      "evidence": [
+        "Look, we don't really have any set payment plans. We do everything custom, depending on what makes the most sense for the client",
+        "It's very important that you ask if it's okay for us to have an open, conversation about finances. ... So you need to make sure that it's very clear that it's super custom. You have no idea.",
+        "You do have $1,200 a month, right? ... ultimately, we could do a payment plan with $1,200 a month for the next six months.",
+        "if you put $4,000 down, and then we did a payment plan for the rest ... we'd probably space out the $2,000 over, I don't know, we could do three months, could do four months."
+      ],
+      "timestamp": "00:22:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A prospect's request to speak to the coach before committing $6,000 was refused outright and answered with an improvised trial offer instead.",
+      "evidence": [
+        "he wanted to, like, he wanted to speak to Trevor first, and I was like, no. That's not possible, but I figured out, okay, so if he's so skeptical about it, I proposed to love it or leave it"
+      ],
+      "timestamp": "00:07:48"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A euro-based prospect who has already paid a deposit appears to have had the price stated with the currencies conflated.",
+      "evidence": [
+        "an example from the call that I just had with that guy, he was in Euros. So I was like, ah, it's 6k US dollars, it's that's Euros, I shouldn't even have done it, I should have just been like, it's 5.2k Euros, that's it. Instead of just trying to make it more difficult on what it actually is."
+      ],
+      "timestamp": "00:48:54"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Month-end target rules exclude deposits and set a $1,200 minimum first payment, creating pressure to extract a larger up-front sum in the final two days of the month.",
+      "evidence": [
+        "Hit the dialer if you need to. Find the person that can give us at least $800. Make it work. And by the way, it can't be deposits, so they need to at least give you $1,200.",
+        "Deposits don't count.",
+        "800 gets you $500. If you could just collect $800, you basically get a PIF for it."
+      ],
+      "timestamp": "00:10:40"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Prospects' bank balances and credit scores are written into CRM free-text notes as disqualification reasons.",
+      "evidence": [
+        "When someone has minus 67, can I put them as a financial DQ or not?",
+        "you put them as financial logistics or financial whatever on there.",
+        "And then you just write a note and say this person had negative $67 in their bank account."
+      ],
+      "timestamp": "00:50:37"
+    }
+  ]
+}

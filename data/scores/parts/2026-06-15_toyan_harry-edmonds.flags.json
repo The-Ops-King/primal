@@ -1,0 +1,41 @@
+{
+  "call_id": "2026-06-15_toyan_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This file is not a Primal Instinct call at all — it is a private paid coaching session between the rep and an unaffiliated third party, captured because the rep's Fathom notetaker was still bound to his former employer's account and depositing recordings into their Drive folder.",
+      "evidence": [
+        "I just thought, can you remove this Fathom? / Yeah, yeah. / My Fathom. Your Fathom's fine. My Fathom, though. Because I just realized that this is from my old offer. Oh, really? I think so, yeah.",
+        "so these first sessions really just to just have a bit of a chat, a bit of a game plan, and for me to see how you communicate, right?",
+        "And now I have both of you as students.",
+        "So, in fact, this may be useful for you to hear about how I've ended up even launching this program."
+      ],
+      "timestamp": "00:21:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The rep had left the Primal Instinct offer by 15 June and cites a lead-volume shortage as the reason he was not taken back, so this rep's call record terminates and any post-early-June trend in his numbers is an artefact of departure rather than performance.",
+      "evidence": [
+        "So what's going on, man? Tell me, like, so this fitness offer that you used to be on, are going back to that or...?",
+        "Well, I spoke to my old manager. He said no, because they said they ain't got lead volume, but I'm going to try and get back on my old, old fitness offer.",
+        "Because I just realized that this is from my old offer.",
+        "I've been closing for like... Two and a half years, give or take. I started off in B2B, went to fitness, and then predominantly the most of my career has been fitness."
+      ],
+      "timestamp": "00:00:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "A private conversation with an unaffiliated third party was recorded into a company Drive without that party's knowledge of where it was going, and the rep asked for the notetaker to be removed only after realising mid-call that it belonged to his former employer.",
+      "evidence": [
+        "This meeting is being recorded. Sorry for the wait. I just had to run and get my daughter from school.",
+        "can you remove this Fathom? ... My Fathom, though. Because I just realized that this is from my old offer.",
+        "Toyan's disclosed personal and commercial detail captured in the file: 'I was Johnny Mao's sales manager, and I was coaching in his program, and I was doing, like, 60K a month. But I was working 14 hour days. I was really unwell.'",
+        "obviously now I'm not making 15%, I'm making the whole thing... I'm now doing 100K a month"
+      ],
+      "timestamp": "00:00:01"
+    }
+  ]
+}

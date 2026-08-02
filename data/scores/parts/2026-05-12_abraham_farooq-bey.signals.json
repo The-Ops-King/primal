@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-12_abraham_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Flat agreement with no questions — 'Yep. Yep.' to 'Is that making sense so far?' and 'Um, nothing. It's, it's, it's pretty fine. Pretty good' when invited to raise thoughts or concerns. Notable given this is the pillar aimed directly at his injury; the rep told him it would 'get rid of the injuries in your body and make yourself more bulletproof' and he asked nothing about how."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar that drew a volunteered positive reaction, and he asked for its name again to be sure he had it: 'No questions. I really like this, this, this one, this, this last second, what do you call it?' Striking because nutrition had never been discussed in discovery — no diet question was ever asked — so there was nothing personal for it to attach to, and he responded to it anyway."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Minimal engagement — 'Yeah', 'Yeah', 'Mm-hmm' through the delivery and 'Yeah. Yeah' to 'Do you understand what I mean by that?' He had earlier named structure, technique correction and progression as what he needed from a coach, and accountability was not among them, so the pillar the rep called most important was the one this prospect had not asked for."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_subscription",
+      "raw": "It's in school, I see. Have you used school before? Yeah. Yeah. I have a subscription in Acroyoga.",
+      "direction": "undercuts_price",
+      "competitor": "Acroyoga Skool subscription",
+      "note": "He already pays for a coaching subscription on the very same platform, so he has a live reference price for exactly this kind of product. He never named the figure and the rep never asked — a free calibration on what this prospect considers a normal monthly spend, left on the table."
+    },
+    {
+      "type": "absolute_affordability_limit",
+      "raw": "It's my financials with my money. I don't have much more money.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a negotiating position. He confirmed he could afford only the $200 product, and then that he could not afford that either until the middle of the following month. The gap between his capacity and the lowest coaching tier is roughly twentyfold."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "Yeah, I have my two kettlebells, my two fierce kettlebells here... And I'm saving the reels from you.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free Instagram reels and YouTube content",
+      "note": "He already owns the equipment and is already collecting the free content, and the rep actively endorsed continuing — 'please use YouTube, use Trevor's Instagram. There's a lot of good material there.' Kind in the moment, but it hands a financially constrained prospect a free version of the thing he was about to be asked to pay for, five weeks before the scheduled follow-up."
+    },
+    {
+      "type": "self_efficacy",
+      "raw": "I know I can do that because I did something similar with me, myself, being solo... If I make a decision, if I go all in, I know it will work.",
+      "direction": "undercuts_price",
+      "competitor": "His own self-directed training",
+      "note": "Offered as a statement of confidence, but read plainly it says the execution is his and only the structure is missing — which is an argument for the $200 product rather than the $4,000 one. He built the case for the downsell himself before the downsell was made."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Technique correction — asked for explicitly and first when the rep asked what he needed: 'Overall structure and the technique, correction with the technique' and 'the progression'",
+      "why_unmet": "The product he was steered to, Primal University at $200, is self-serve content with community support and no personal form review. The weekly video feedback loop that would deliver exactly what he asked for sits only in the one-to-one coaching he cannot afford. He named the one feature the affordable option does not have.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Resolution of a year-old elbow and shoulder injury so he can press, curl and lift boxes at work again",
+      "why_unmet": "Nobody established what the injury is, whether it has been assessed, or what is contraindicated. The rep asserted the programme would 'get rid of the injuries in your body' and then advised a specific kettlebell load and free online content without any of that information. Whether the programme serves this is unknown to both parties.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Coaching at a price reachable on a forklift operator's income in rural Catalonia",
+      "why_unmet": "The lowest coaching tier is $4,000 against a prospect who could not fund $200 in the current month. No tier, plan or structure in the offer comes within range.",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-29_marcus-mahar_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed scoliosis and lumbar hyperlordosis and stated an explicit fear of entrenching bad posture through exercise; he was sold and took payment on the call for progressive loaded kettlebell training with nobody asking whether a clinician had assessed or cleared him.",
+      "evidence": [
+        "No injuries, I do have, I think it's called pronation, like sort of when the lower back kind of, you know, caves in a bit more, like it's a bit more exaggerated",
+        "I also have like a slight form of scoliosis, which doesn't really give me problems, maybe some tightness in the upper back area",
+        "given my, I don't really have good posture... as I work out, I don't want to kind of solidify a bad posture... I don't want to do something where it all kind of exaggerates it or get me like stuck in that way",
+        "in the beginning, it's really, really, really important that your form is correct... And after that, we also start increasing the weight",
+        "I finished the agreement, and then I did the payment as well"
+      ],
+      "timestamp": "00:03:25"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep represented that the mobility routine would be built to address the prospect's scoliosis, a therapeutic claim about a diagnosed spinal condition made by a salesperson with no clinical involvement in the programme.",
+      "evidence": [
+        "he's also going to create a specific mobility routine that is also aligned with the scoliosis that you have a little bit with the things that you already feel in your back, your hamstrings, like basically everywhere that you already feel",
+        "That sounds like making sure you're doing the exercise the right way... instead of it sort of spiking something that's only going to have a snowball effect in the worst"
+      ],
+      "timestamp": "00:21:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A one-month 'love it or leave it' trial with a top-up to $6,000 on continuation was constructed live; it is neither $6,000/6mo nor $9,000/12mo and is not a published term.",
+      "evidence": [
+        "We have an investment of 6k USD",
+        "So what we could do is that we do it a month, basically call love it or leave it... And that comes down to trying it for a month with the idea of continuing for the whole six",
+        "So it's the whole month, and if you don't want to continue, then it would just become 6,000 in total again",
+        "No, so literally what we would do is we do a month, and then we book in a meeting for three and a half weeks from now"
+      ],
+      "timestamp": "00:42:33"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Payment was taken and confirmed on the call without the amount ever being stated aloud — the price of the one-month trial appears nowhere in the transcript, so what the prospect agreed to pay cannot be established.",
+      "evidence": [
+        "So it's the whole month, and if you don't want to continue, then it would just become 6,000 in total again",
+        "I see what you're saying. Let's see. Yeah, I would do that.",
+        "Yeah, I did the, I finished the agreement, and then I did the payment as well.",
+        "Yes, yes, the payment I saw come true"
+      ],
+      "timestamp": "00:54:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Three materially different feedback turnaround times were quoted across the call — a couple of hours, within a day, and within a minute — to a prospect who had named response speed as his specific reason for hesitating.",
+      "evidence": [
+        "if you send it to him now, you will have response within a couple of hours. Basically, when he sees it, he directly comes back to it",
+        "But he will come back to you within a day",
+        "I can send Trevor a message, and he can respond within a minute, and the other time, it's within two hours",
+        "if I'm spending that type of money, like, maybe I'd want something a bit more personalized, a bit more, you know, like, response time is quicker"
+      ],
+      "timestamp": "00:38:54"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording contains two unexplained silent gaps during the onboarding sequence, including a two-minute absence while the rep left the call, so part of the payment and agreement exchange is not captured.",
+      "evidence": [
+        "I just sent you the invite for Monday as well, but I really need to go to the toilet real quick, so give me one second, I'll be back in a minute.",
+        "Okay. So I have the lover of leader, right? Yeah, exactly."
+      ],
+      "timestamp": "00:47:22"
+    }
+  ]
+}

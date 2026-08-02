@@ -1,0 +1,137 @@
+{
+  "call_id": "2026-05-27_brooks-van-horn_harry-edmonds",
+  "source": {
+    "drive_file_id": "1wPWGpWqQRLurmaNbwRHgiIILjcQglQMJ",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/27/2026 - Brooks Van Horn x Harry Edmonds KFS",
+    "display_title": "05/27/2026 - Brooks Van Horn x Harry Edmonds KFS — Lost",
+    "file_size_bytes": 33977
+  },
+  "call": {
+    "date": "2026-05-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 36,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I know you spoke with Kim. He gave me, like, a background, so I've got a bit of a head start"
+  },
+  "prospect": {
+    "name": "Brooks Van Horn",
+    "aka": "Brooks's iPhone",
+    "name_source": "title",
+    "location": "Los Angeles, California, USA",
+    "age": 37,
+    "occupation": "Finance for a manufacturing company; office-based five days a week with a 90-minute each-way commute",
+    "family_status": "Married with three young children; currently on paternity leave with a nine-month-old about to start daycare",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "About a year of self-taught kettlebell training from Instagram and YouTube, using a 20 kg / 45 lb bell, typically a couple of times a week and roughly six times a week for the last eight weeks while on leave. Also jump rope and running, alternated. Has used personal trainers in the past. Prefers 20-30 minute efficient full-body sessions.",
+    "kettlebell_experience": "some",
+    "medical": "No diagnosed conditions disclosed. Reports that when he stops training for a month his knees and back 'get wrecked' by day-to-day life with the kids, and that his hips get sore quickly from running in a way they did not used to. Notes he gets injured less often with kettlebells than with running."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.75,
+    "signals": [
+      "Self-directed and it is working: a year of self-programmed kettlebell training, six sessions a week for the last eight weeks, 'feel pretty good right now'",
+      "Explicitly wants to test himself before paying: 'I probably want to kind of see how I can do on my own getting back into work and seeing if I can kind of keep up the consistency I've had before cutting that kind of check'",
+      "Hard price expectation formed from the brand's own marketing: 'I was expecting it to be maybe like 400 bucks a month'",
+      "Counter-signal: he is not chasing a cheap version of the same thing so much as he is unconvinced he needs to buy anything at all"
+    ]
+  },
+  "goals": [
+    { "text": "Keep training consistently once he returns to work and stop the routine from slipping", "category": "consistency" },
+    { "text": "Functional strength and mobility so day-to-day life with three young kids does not wreck his knees and back", "category": "longevity_function" },
+    { "text": "A structured plan and schedule instead of pulling complexes off Instagram", "category": "convenience" },
+    { "text": "Form feedback so he can safely increase weight above 20 kg without injuring himself", "category": "injury_confidence" },
+    { "text": "Show up better for his kids, his wife and his work — 'being physically fit kind of leads into every other aspect of life'", "category": "family_role_model" },
+    { "text": "Keep a sense of personal progress and growth in a season of life given over to everyone else", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "About to return to a job an hour and a half away, five days in office, so training has to move to 5am or late at night", "category": "time_scarcity", "severity": "high" },
+    { "text": "Has fallen off consistency before when work and life take over", "category": "consistency", "severity": "medium" },
+    { "text": "Does not know what he is doing with kettlebells — picks exercises off social media with no progression", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Worried about injuring himself if he increases weight on overhead movements without guidance", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Knees, back and hips deteriorate quickly whenever he stops training", "category": "injury", "severity": "medium" },
+    { "text": "When the routine slips he drinks more, snacks more and eats worse", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "The grind of a season of life with three young kids leaves no time for personal progress", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Honestly, that's a little bit more than I was expecting. Just some of the stuff that I had seen from. I think one of Trevor's websites or something was that the model with not being live sessions would be less expensive than personal training.",
+      "timestamp": "00:29:52",
+      "rep_response": "Corrected the product confusion (that was Primal University at $200/month), then asked whether the outcome was worth it and later probed the expectation: 'Out of curiosity, how much were you expecting it to be?'",
+      "response_tactic": "clarify_product_confusion_then_probe_price_expectation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "that is, that is a little bit more than I am able to, to spend on coaching",
+      "timestamp": "00:32:27",
+      "rep_response": "Ran the value comparison — a mentor rather than a trainer, 'half the price of a trainer, but you get double the support' — then offered the $200/month self-paced product instead and agreed to text him the link",
+      "response_tactic": "value_vs_personal_training_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I probably want to kind of see how I can do on my own getting back into work and seeing if I can kind of keep up the the consistency I've had before cutting that kind of check",
+      "timestamp": "00:31:11",
+      "rep_response": "One good callback — 'I know the big thing for you was, like, to get a coach so that you don't have to do that' — followed by the belief question, then he let it go",
+      "response_tactic": "callback_to_stated_need_then_isolate_belief",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'The guarantee is that by the end of the six months, you will be using a 20-pound heavier kettlebell for all of the main movements... an 8-kilo heavier kettlebell for all of the movements... And that's all guaranteed, and we work with you for free until you get to that point if it's not completed by six months.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "stated_price_expectation_usd_per_month": 400
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Declined the coaching on affordability: 'that is a little bit more than I am able to, to spend on coaching'",
+      "Wants to test himself first: 'I probably want to kind of see how I can do on my own... before cutting that kind of check'",
+      "The rep moved off the coaching entirely and onto the $200/month self-paced product: 'I can send you the link for Primal University' — the prospect asked for it and said 'I think I will check that out'",
+      "Counter-evidence: he did say 'I might, like, come back to it' and 'the outcome is probably worth it', so a later return is plausible",
+      "Counter-evidence: no follow-up call, date or next step was set for the coaching, and the only action agreed was a text link to a different product"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to text a link to Primal University ($200/month self-paced community); prospect to self-serve sign-up on the app if he wants it. Nothing set for the coaching."
+  },
+  "notable": {
+    "note": "The prospect arrived expecting roughly $400/month because of Trevor's own marketing that the personal-training model is too expensive to be sustainable — a marketing-to-price gap that was the entire objection. The rep resolved it by downselling to Primal University at $200/month, a product he quoted and offered here but withheld and left unpriced when a different prospect asked about a group option the same day. No payment plan was offered."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect joined from a phone labelled 'Brooks's iPhone' and the labels invert repeatedly — the rep's open question at 00:01:51 ('that you were hoping we could potentially help you with, man?'), the entire employment probe at 00:15:00, the pitch section from 00:22:18 and the live-sessions answer at 00:26:52 all sit under the wrong label. Roles resolved from content."
+  }
+}

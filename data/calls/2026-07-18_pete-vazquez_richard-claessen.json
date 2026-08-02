@@ -1,0 +1,169 @@
+{
+  "call_id": "2026-07-18_pete-vazquez_richard-claessen",
+  "source": {
+    "drive_file_id": "1hJoer6WKegs0nsAqJYcNw97ah0IgLpWF",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/18/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/18/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 78012
+  },
+  "call": {
+    "date": "2026-07-18",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 69,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named on the call. The only pre-call artefact is a written application the rep had read: 'Already read through your application a little bit' and later 'I saw in your application you don't want to let the old man in.'"
+  },
+  "prospect": {
+    "name": "Pete Vazquez",
+    "aka": "Peter",
+    "name_source": "transcript",
+    "location": "Miami, Florida, USA",
+    "age": 68,
+    "occupation": "Retired October last year after almost 40 years in the pharmaceutical industry, latterly with small startup companies in a field sales role. Now effectively running three unpaid operations: his 93-year-old mother's at-home hospice care including staff and nursing coordination, support for his wife caring for her 101-year-old mother who lives with them, and childcare for his one-year-old granddaughter three days a week. Also active in several church ministries and practises saxophone an hour a day.",
+    "family_status": "Married; two adult sons; one granddaughter aged one; 93-year-old mother in at-home hospice; 101-year-old mother-in-law living in the home; three brothers",
+    "height_in": null,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former college baseball player and long-time gym-goer in his youth. Completed P90X strictly at around 57-58 and got visible abs. Did yoga and home lifting until the saxophone displaced it. No coach or trainer ever. Bought four kettlebells recently after finding Trevor on Instagram and has been training with them for a couple of weeks; heaviest bell is 20 lb.",
+    "kettlebell_experience": "some",
+    "medical": "Substantial and largely unscreened. Peripheral neuropathy in both feet which he suspects may be medication-related; he paid roughly $8,000 to a neuropathy clinic this year, is still paying it off, and the problem persists. Plantar fasciitis in the right foot for years, currently settled. Chronic low back pain with documented findings — 'they tell me that my back is pretty messed up when you look on x-rays' — and warning signs of spasm episodes: 'like when your back gives out and you go into spasms, I get those early tweaks.' Attended a chiropractor for the first five months of this year. Ongoing pain in elbows, knees, neck and lower back, worst on waking; recent neck pain he associates with kettlebell halos. General stiffness. On unspecified medications."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.93,
+    "signals": [
+      "Older and explicitly holding on rather than gaining: 'at this age, that's not as important to me, just to be functional' and 'I don't want to let the old man in'",
+      "Health-literate and already medically managed — 40 years in pharma, on medications, under chiropractic care, actively researching so he can 'ask better questions to my doctor'",
+      "High former income and low current liquidity: 'I don't have the income that I used to have that was coming in. You know, now I'm on a limited budget'",
+      "Goal is delaying decline, not building: 'I know that at some point you reach a point in your life where physically there's a lot of things that you cannot do. And so I'm trying to delay that as much as possible.'",
+      "Time is consumed by caregiving for a 93-year-old, a 101-year-old and a one-year-old"
+    ]
+  },
+  "goals": [
+    { "text": "Regain functional movement and lose the stiffness so he can keep doing what he wants", "category": "longevity_function" },
+    { "text": "Reduce or remove the daily pain on waking in neck, back, knees and elbows", "category": "injury_prevention" },
+    { "text": "Run around and play with his one-year-old granddaughter", "category": "longevity_family" },
+    { "text": "Have the strength and vitality to keep travelling, including long flights to Europe", "category": "hobby_performance" },
+    { "text": "Start playing pickleball, beginning by hitting against a wall at the local park", "category": "hobby_performance" },
+    { "text": "Lose fat and get from 190 lb to around 185, and see a bit of definition — explicitly a byproduct, 'I'm not trying to become Mr. America'", "category": "appearance" },
+    { "text": "Build habits and knowledge he can keep running after the six months — 'I want to create habits that I can continue to do after our six months'", "category": "sustainability" },
+    { "text": "Avoid injuring himself, because at his age an injury would set him back a long way", "category": "injury_confidence" },
+    { "text": "Have a challenge to be motivated by now that his sales career is over", "category": "other" },
+    { "text": "Eventually get his wife training too — 'lead by example'", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Daily pain on waking across neck, lower back, knees and elbows — 'that's how I know I'm not dead, if it hurts'", "category": "aging", "severity": "high" },
+    { "text": "Documented back problems and warning signs of spasm — 'they tell me that my back is pretty messed up when you look on x-rays... I get those early tweaks and it kind of tells me, hey, be careful today because you're right there on the verge'", "category": "injury", "severity": "high" },
+    { "text": "Peripheral neuropathy in the feet, possibly medication-related, unresolved after an $8,000 clinic course he is still paying off", "category": "medical", "severity": "high" },
+    { "text": "Plantar fasciitis in the right foot for years, which has kept him from playing pickleball", "category": "injury", "severity": "medium" },
+    { "text": "General stiffness he attributes to decades at a desk — 'my kids say that I'm very stiff and that's true'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Time consumed by caring for a 93-year-old mother, a 101-year-old mother-in-law and a one-year-old granddaughter — 'right now we don't have a lot of time to take care of ourselves'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Will not use a commercial gym and has ruled it out — 'I told my wife, I can't do this, man'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Overwhelmed by conflicting free fitness information — 'it's a lot of information, almost too much, and I feel like I could be doing stuff and maybe not maximizing what I'm doing, and just basically wasting time'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Reduced income in retirement — 'now I'm on a limited budget'", "category": "other", "severity": "high" },
+    { "text": "Loss of distrust in medical guidance — 'here in the US, after COVID, and I worked in the medical field for 40 years. I don't know who I can trust anymore'", "category": "emotional", "severity": "medium" },
+    { "text": "Loss of the competitive identity that drove him — 'that used to be my sales career... That's all gone now'", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "as a 68 year old, can I benefit from your program? Do you have other 68 or, you know, older people?",
+      "timestamp": "00:27:27",
+      "rep_response": "Conceded progress would be slower, gave an unnamed example of a woman around 65 who started two months ago and is seeing results, claimed Trevor has worked with people around 60, 70 and possibly 75, and asserted 'your functionality is never going to be better if you don't work on it'.",
+      "response_tactic": "concede_pace_then_anonymous_social_proof",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I don't want to do something where I could hurt myself. Because at this age, an injury could really set me back a lot",
+      "timestamp": "00:21:29",
+      "rep_response": "Described the form-feedback loop, starting weights and Trevor pre-teaching the movements. No question about his medical history, no suggestion of clinical clearance.",
+      "response_tactic": "mechanism_reassurance",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "especially, you know, if I'm going to pay and I don't know how much it's going to cost, but that's another, you know, real objection for me now, because I don't have the income that I used to have that was coming in. You know, now I'm on a limited budget.",
+      "timestamp": "00:32:31",
+      "rep_response": "Acknowledged it, pre-framed the price as premium because of Trevor's standing, and moved on. When the number landed he divided it down — 'it's like $1,000 a month then, basically' — and offered instalments. No financial-picture questions were asked at any point.",
+      "response_tactic": "premium_preframe_then_monthly_reframe",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "It's a little more than I was thinking. I knew it was going to be expensive. It's a little more than I was thinking, but... So, you know, I'm going to get a lot of benefit, I think. I just don't want to hit and miss.",
+      "timestamp": "00:48:52",
+      "rep_response": "Explored what hit-and-miss meant, then isolated: 'outside of the investment aspect, you feel like, yeah, I do want to do this?' — answered yes.",
+      "response_tactic": "clarify_then_isolate",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I see a benefit, you know, I see a benefit. I think it's worth it. I just got to make sure I get the green light.",
+      "timestamp": "00:52:43",
+      "rep_response": "Ran most of the play — asked what her reaction would be ('too much money, you can look up videos'), asked what his game plan would be to bring her round, asked what happens if she says no — and then closed to a $500 refundable deposit plus a follow-up call on Monday.",
+      "response_tactic": "explore_partner_position_then_deposit_close",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I don't know. You know, I, I think I need to let it settle in, in my own head.",
+      "timestamp": "00:57:15",
+      "rep_response": "Did not work the hesitation; moved directly to 'what do you think we should do from here?' and then to the deposit mechanism.",
+      "response_tactic": "move_to_next_steps",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two instalments of $3,000 agreed at the prospect's request. The rep stated the general rule as 'most people pay it all upfront on their credit cards. We can split it up if needed. I would recommend maximum three, because after that... there isn't interest with that' — garbled, but implying interest applies beyond three payments. Separately a $500 refundable deposit was taken on this call and is to be deducted from the total.",
+    "guarantee_mentioned": "The deposit was framed as fully refundable if the deal does not proceed: 'If your wife says, no, you're not going to do it, and eventually it comes down to not being able, we just put it back' and 'it's also refundable if it isn't a go.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "SCORING NOTE — money did change hands on this call and it would be easy to log this as closed. It should not be. What was taken is a $500 refundable deposit explicitly conditioned on his wife's approval, not the purchase: 'The payment method was verified' at 01:05:46, against 'I just got to make sure I get the green light' and 'we have a small deposit... it's also refundable if it isn't a go.'",
+      "The purchase decision is unresolved and owned by a second person who has not been spoken to: 'I think I need to have the conversation with her and then give back to you guys so that you know that I'm in.'",
+      "He predicted her likely objection himself: 'Initially, oh, too much money. You can look up videos and do it.'",
+      "The prospect also asked for time to think independently of his wife: 'I think I need to let it settle in, in my own head.'",
+      "Positive counter-evidence: intent is strong and repeatedly confirmed — 'I see a benefit... I think it's worth it', 'if money was not an object, I would say, yeah, it's a no-brainer', he proposed the instalment structure himself (2 x $3,000), paid the deposit without hesitation, and a decision call is booked for Monday 10am Eastern with the invite confirmed received.",
+      "No agreement signed, no Trevor onboarding call booked, no Skool access."
+    ],
+    "cash_collected_usd": 500,
+    "cash_collection_basis": "Refundable deposit only, taken to hold a Monday decision call and stated to be deducted from the total if the deal proceeds. Not a payment for the programme and not evidence of a close.",
+    "next_step": "Prospect to discuss with his wife over the weekend; 30-minute decision call with the rep on Monday 20th at 10am Eastern; if it is a go, payment is completed on that call and a Trevor onboarding meeting is booked for Tuesday or Wednesday."
+  },
+  "notable": {
+    "note": "The most exposed prospect in the batch. A 68-year-old with X-ray-documented back problems, back-spasm warning signs, peripheral neuropathy in both feet, plantar fasciitis and unspecified medications was taken through a full close for loaded kettlebell training, and no one asked whether a clinician had cleared him. The rep also actively undermined the prospect's chiropractor — 'they fix it for like a day or two... it doesn't actually fix the problem, it's more so just a band-aid' — to a man who had already said 'I don't know who I can trust anymore' about US medicine, and told him the programme would make the pain go away. Commercially, $500 was collected as a refundable deposit against a decision his wife has not yet made, which is a real risk of being counted as revenue and as a close."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and continuous inversion. The file opens with the prospect's label carrying the rep's line, and throughout, the rep's questions appear under 'Pete Vazquez' (00:14:49, 00:19:24, 00:21:34, 00:47:45, 00:54:50, 01:01:33) while the prospect's answers appear under the rep (00:11:20, 00:12:31, 00:25:14, 00:50:24). The price presentation itself at 00:47:45 is attributed to the prospect. Roles resolved from content throughout. There are also garbled and censored stretches around 00:32:57 and 00:26:00."
+  }
+}

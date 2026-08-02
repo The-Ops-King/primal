@@ -1,0 +1,97 @@
+{
+  "call_id": "2026-05-14_prem-patel_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect volunteered an autoimmune condition and the rep neither acknowledged nor asked a single question about it, then went on to prescribe specific kettlebell weights; severity is unassessable precisely because nothing was asked.",
+      "evidence": [
+        "Yeah, so I have an autoimmune condition, so I'm really dialed into my eating, and so the only thing I would, that I need to be mindful of is making sure I'm getting enough protein in",
+        "The good thing for you, you probably don't need that much, like, how much do you weigh, 130?",
+        "if I was to get 3, if I was you, get a 12 or 16 or 20",
+        "no health or injury question was asked at any point in the 35-minute call"
+      ],
+      "timestamp": "00:16:23"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep advised the prospect against buying the coaching before quoting a price and then screen-shared the $200 self-guided product, the third call in this batch where he routed a prospect from the $6,000 offer to the entry product.",
+      "evidence": [
+        "Before I get into it, like what I would say to you is that you don't need to do the coaching.",
+        "Every person in the world has the capability to achieve whatever they want on their own, if they put their mind to it",
+        "Like you don't need it.",
+        "i'll be honest with you this is more of uh i'm in sales i find it hard to upsell people out of this is the best way i'll explain it to you",
+        "You can do it on your own, save yourself some money"
+      ],
+      "timestamp": "00:22:23"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep guaranteed a doubling of working kettlebell weight — 12 kg to 20 kg on every lift in six months — to a prospect with an unexamined autoimmune condition who had just described failing to complete his third round at 12 kg.",
+      "evidence": [
+        "in six months, we guarantee that from your starting weight, you will put on eight kilo of your kettlebell on every lift",
+        "if you're doing that with a 12 kilo, you're basically doubling the weight",
+        "by the third round, was like, I can't finish this, this round. Yeah. I had to put it down and like, take a second and then go back to it.",
+        "If you do everything we say, you don't get that within the six months, then we'll just work with you until you are at that"
+      ],
+      "timestamp": "00:24:49"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep again offered tax advice, suggesting the prospect write a personal fitness purchase off against his business — the second occurrence of this pitch in two days.",
+      "evidence": [
+        "You can write it off as tax as well for your future. So, you know.",
+        "That doesn't do anything for me. It's still, it's still money out the door.",
+        "Fair."
+      ],
+      "timestamp": "00:29:46"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep quoted a three-month term at $4,000, which is not part of the sanctioned $6,000/6mo and $9,000/12mo offer.",
+      "evidence": [
+        "Well, there's six months, three months and 12 months.",
+        "And then you have three months, which is 4k. And then the whole year is 9k. They're the difference in numbers.",
+        "For six months. It's six grand."
+      ],
+      "timestamp": "00:24:36"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep used internal segmentation jargon directly to the prospect, reciting the ICP definition including the acronym and the excluded customer type.",
+      "evidence": [
+        "That's why I say to you, it's like, it depends whether you want to take it to the next level because the people who get this program, like are like, uh, you know, ICP, for example",
+        "it's not, um, people who are a hundred pounds overweight who are, you know, looking to lose",
+        "like it's people who are already great and they were already good and they want to be great"
+      ],
+      "timestamp": "00:26:02"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The recording notice again read as a live stream and the prospect had to ask what it meant; the rep confirmed this has been happening repeatedly and reassured rather than obtaining explicit consent.",
+      "evidence": [
+        "it says the meeting is being live streamed where is it being",
+        "yeah i don't know why everybody everybody you said something about that the last few days. It's just been recorded.",
+        "Don't worry, not on Facebook."
+      ],
+      "timestamp": "00:00:50"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization is inverted across most of the call including the entire price exchange, so speaker labels in this file cannot be used for automated extraction.",
+      "evidence": [
+        "00:23:13 - Harry Edmonds (Primal Instinct): I'm a business guy. Yeah. For six months. It's six grand.",
+        "00:03:16 - Harry Edmonds (Primal Instinct): And I don't really want to, you know, I could go on ChatGPT or something, create me a kettlebell workout, whatever.",
+        "00:10:52 - Prem Patel: Yeah. What do you feel like is important for you?"
+      ],
+      "timestamp": "00:23:13"
+    }
+  ]
+}

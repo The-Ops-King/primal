@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-06-02_pat-klaver_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He built the case for the modality himself before it was presented, mapping it onto his own experience of manual labour: 'when I ran my sawmill, it's everything that I did from running that sawmill, it was all weight-dependent, but your body had to be able to lift the weight, your core had to be able to sustain your body... seeing the kettlebells and actually trying it a couple different times, it makes perfect sense because you're using more of your body to move.' After the pillar was delivered he confirmed it against a workout he had done that morning: 'I can feel my back and my neck muscles because I can tell that they were worked this morning still. I can feel my legs... Whereas, if I would have just did chest and arms today, that's all I would feel.' No questions and active corroboration."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Responded 'Absolutely' when asked whether it made sense, with no questions. This was the correctly calibrated presentation in the batch - because the rep had actually asked what he eats, he was able to position it as marginal rather than transformational: 'You're already doing a lot of that, so, you know, there might be some things that you can improve just to shred off a bit more.' The prospect had independently reached the same conclusion, having lost 55 lb by changing his own eating, so acceptance here is real but the pillar carries little persuasive weight for him."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Answered 'Sure' and 'No questions'. He had pre-qualified himself on this dimension when asked whether he is disciplined: 'I would say I feel like I'm naturally disciplined, but a nudge here and there never helps you' - which is an invitation to sell accountability as a light-touch supplement rather than as a rescue, and it was not taken up. The specific accountability feature he cares about was named earlier and separately: getting the knowledge up front 'so I inevitably don't hurt myself', which is form correction, not adherence chasing."
+    },
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Second, distinct reaction worth recording because it is the one live question he brought to the call and it was never answered: 'I like the idea of getting your body woken up and moving from laying down all night long. But I'm just not sure if jumping right into a weight routine is the right idea. So that would be guidance I'd be looking for.' He is up at 3:30am, at work by 5, and does not know whether lifting first thing is appropriate. The rep acknowledged the question and moved on without addressing it at any point in the call."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "with just going through the divorce, I don't have that... I'd have to go back through my finances after this all washes out to understand what it winds up being... get half of everything, my friend.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: pending_legal_settlement. Not a competing price but a total suspension of the prospect's ability to price anything. It is unusually strong because it is external, documented and dated - he meets his lawyer in the middle of the following week - which makes it both a hard block now and a genuine, trackable buying window later. Every money move on the call ran into it."
+    },
+    {
+      "type": "other",
+      "raw": "Yeah. So that one's... it's $199 a month. You can cancel at any time. You could do $2,000 for the year, basically, which saves you about $350, something like that.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University - the company's own lower tier",
+      "note": "Proposed label: internal_downsell_tier. Third appearance of this pattern in the batch. Uniquely here it failed as an anchor because the prospect rejected it and reaffirmed the flagship - 'I'd rather be able to figure out the one-on-one. That's what matters for the most part' - which is the clearest evidence in the batch that the downsell is being offered to prospects who do not want it and withheld from one who explicitly asked for a cheaper version."
+    },
+    {
+      "type": "other",
+      "raw": "And then the other option is if you maybe wanted a shorter timeframe, then we could do three months for $4,000.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: improvised_short_tier. Introduced by the rep in the same breath as the two real prices, before any objection had been raised. It reframes the six-month programme as divisible and prices time at $1,333 a month against the headline $1,000 a month, which makes the flagship look like the value option but also establishes that duration and price are negotiable."
+    },
+    {
+      "type": "other",
+      "raw": "I don't have the time to sit in a gym for an hour and a half and deal with the competition for machines and equipment and all that stuff.",
+      "direction": "supports_price",
+      "competitor": "A conventional gym membership",
+      "note": "Proposed label: gym_rejected_on_time_not_cost. He has already dismissed the cheap alternative on grounds that have nothing to do with money, which removes the usual competitor. Combined with his stated preference to pay in full up front and his history of paying his own way, there is no cheap substitute in his head - the only thing standing between him and the purchase is a number his lawyer has not given him yet."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An answer to whether lifting first thing in the morning, straight out of bed at 3:30am, is appropriate for him.",
+      "why_unmet": "He asked for exactly this guidance at 00:10:05 and the rep acknowledged it without answering, then never returned to it. It is a free credibility win that costs nothing and it was left on the table.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way to commit now and start now while the divorce settlement remains unresolved for at least another week.",
+      "why_unmet": "Every available structure requires him to know a number he cannot know yet. The financing option was rejected because he dislikes recurring payments, the lower tier was rejected because he wants the one-to-one, and no held start date, deposit or deferred-start arrangement was offered.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confidence that progressive loading is appropriate given a back surgery and medical discharge from the military.",
+      "why_unmet": "The surgery was disclosed at 00:05:10 and never mentioned again by either party. No clearance question, no discussion of how programming adapts to a repaired back, and no acknowledgement at all before the rep described 'progressively overloading and continually increasing the difficulty over the next six months'.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training that works while away at his son's weekend baseball tournaments across the state.",
+      "why_unmet": "This one is genuinely served and the prospect said so himself - 'which, again, is exactly how the kettlebell routine would help, I can bring them with me' - recorded here only because it is the single strongest fit point on the call and was never used as a closing argument.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

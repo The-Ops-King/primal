@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-06-06_jay-bremner_ben-byrne",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a three-month tier at $4,000 live on the call, a term and price that exist nowhere in the stated $6,000/6mo and $9,000/12mo structure.",
+      "evidence": [
+        "So, you know, what we would do, like, the price is not negotiable, but we could go from six months down to three, right? Which brings it down",
+        "So it goes from 6K to 4K, which is about 5,500 Canadian.",
+        "Yeah, correct. 4K for three months."
+      ],
+      "timestamp": "00:43:32"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep downsold to a Primal University subscription at $199/month or $1,999/year, prices outside the sanctioned structure, after the prospect declined the coaching programme.",
+      "evidence": [
+        "The way it works is it's $1.99 per month, or you can sign up for $19.99 for the year. So you save about $350.",
+        "As far as the other one, the Kettlebell University, I mean, if you want, I can give you a quick breakdown of it."
+      ],
+      "timestamp": "00:47:13"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep invited the prospect to negotiate and then stated the price was not negotiable, before immediately cutting the price by shortening the term.",
+      "evidence": [
+        "We have ways that we could maybe work together. A few other options where it's maybe less of a commitment financially, where we'll see if we can find a way to meet in the middle",
+        "if there, if this is, uh, something that is negotiable, I'm open to talk about it",
+        "like, the price is not negotiable, but we could go from six months down to three"
+      ],
+      "timestamp": "00:40:31"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed recurring back spasms and SI joint dysfunction that flare when he lifts heavy, and was taken through a full loaded kettlebell pitch and priced without anyone asking whether a clinician had assessed or cleared it.",
+      "evidence": [
+        "I guess I get reoccurring stuff going on in my back or my SI joint kind of flows in and out of my life as it sees fit.",
+        "if I'm hitting the gym and I'm pushing particularly hard weights or something like that, then it can flare up. And then I'll start getting spasms and stuff like that",
+        "The back, like, it can spasm, and it can be a problem, right? Like, I can tweak it somehow, some way, and it can turn into a problem.",
+        "before we start working on you doing like a 50-kilogram or anything crazy, we want to make sure that you're feeling good"
+      ],
+      "timestamp": "00:05:32"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep presented the mobility phase as the remedy for the prospect's specific back condition without any clinical basis or caveat, which reads as a treatment claim rather than a training claim.",
+      "evidence": [
+        "So first thing that we're going to do, like you mentioned, like your back pain, that can spasm. The thing that we always do with people is start them off with a mobility routine.",
+        "If you start getting into dysfunctional movement patterns, people sitting down a lot or whatever the case may be, the body gets out of alignment."
+      ],
+      "timestamp": "00:20:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep introduced himself as one of Trevor's head coaches while functioning purely as a closer, and later described his colleagues on the same team as sales staff.",
+      "evidence": [
+        "Well, I'm Ben. I'm one of Trevor's head coaches over here.",
+        "So there's Kyla and there's Harry. Harry's from the UK, but they just live in Vancouver. They're on the sales team."
+      ],
+      "timestamp": "00:00:36"
+    }
+  ]
+}

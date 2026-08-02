@@ -1,0 +1,132 @@
+{
+  "call_id": "2026-07-18_ryan-mitchell_richard-claessen",
+  "source": {
+    "drive_file_id": "1F1Cvc44BxjAlSVhARWgvG8L2qK5a7BQm",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/18/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/18/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 19470
+  },
+  "call": {
+    "date": "2026-07-18",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 16,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. The only pre-call artefact is an application form: 'I already saw your introduction, of course, as well in the form that you filled in.' He self-sourced from following Trevor on Instagram for years."
+  },
+  "prospect": {
+    "name": "Ryan Mitchell",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "South Carolina, USA (relocated from Indiana one month ago)",
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained for about a year with an online trainer via Instagram at roughly $200/month, stuck with it and saw results, but disliked spending the time in a gym. Has had in-person trainers previously who cancelled repeatedly. Describes himself as a visual learner who can copy form from video. Owns one 35 lb kettlebell bought second-hand for about $60. Prefers to pay six months to a year in advance when he can.",
+    "kettlebell_experience": "some",
+    "medical": "Suspected pinched nerve in the shoulder, currently symptomatic — 'if I'm bending down and reaching forward, it's hurting'. Undiagnosed and under active investigation: has seen several chiropractors and is planning to start with a physical therapist if it does not improve. The rep also referenced a mobility limitation from his application form: 'with your mobility, you're struggling a little bit as well.'"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Anchored to a cheap alternative that genuinely worked: a $200/month online trainer — 'That was the one I actually stuck with, and I was seeing results'",
+      "Self-directed and confident he can learn from video alone — 'I'm more of a visual learner where I can watch a video and pretty much be spot on with positioning and form'",
+      "Price-hunting behaviour is explicit — bought his kettlebell second-hand, 'I was able to find the 35 for, like, $60, which is cheap'",
+      "Imperfect fit worth flagging for the clustering pass: he is not sceptical of the provider at all — he has followed Trevor for years and is openly enthusiastic. What he shares with this avatar is the cheap functioning substitute and the hard price ceiling, not the scepticism. A proposed alternative label would be 'the_priced_out_believer'."
+    ]
+  },
+  "goals": [
+    { "text": "Use a fresh start in a new city to change his habits — 'it's just a new start or trying to better myself in my new place of living'", "category": "other" },
+    { "text": "Train with kettlebells at home instead of spending time in a gym", "category": "convenience" },
+    { "text": "Find one type of workout he enjoys so that he sticks with it long term", "category": "consistency" },
+    { "text": "Do Trevor's dynamic morning mobility routines — 'I liked his morning routines, do these five dynamic movements before your day starts'", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Symptomatic suspected pinched nerve in the shoulder, unresolved after several chiropractors — 'if I'm bending down and reaching forward, it's hurting'", "category": "injury", "severity": "high" },
+    { "text": "Cannot fund monthly coaching or even a gym membership after relocating — 'I don't really have the money to pay for a gym membership month to month'", "category": "other", "severity": "high" },
+    { "text": "Wasted time and drifted in the gym on his phone until his trainer had to call him out — 'hey, you're taking too long at the gym'", "category": "consistency", "severity": "medium" },
+    { "text": "In-person trainers repeatedly cancelled on him — 'the last in-person trainer I had canceled on me like three times'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Mobility limitation carried over from his application form and acknowledged by the rep", "category": "training_barrier", "severity": "medium" },
+    { "text": "Torn between commitment and financial risk — 'yes, I would be committed, but I can't risk putting myself in the financial...'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I'm in a new city. I don't really have the money to pay for a gym membership month to month. Granted, I don't know if I'll have the money to pay him month to month",
+      "timestamp": "00:05:00",
+      "rep_response": "Asked directly what budget he had set, got '$200 a month' as a maximum, disclosed that Trevor's coaching is 'at least in the four-figures', and moved to the Primal University tier without attempting to work the objection.",
+      "response_tactic": "budget_question_then_immediate_downsell",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "my max is 200 a month, but I know a lot of trainers, especially with what Trevor's doing, I doubt that's what he's charging because he does nutrition, week to week workouts",
+      "timestamp": "00:07:20",
+      "rep_response": "Agreed with him, framed the disclosure as honesty and as protecting him financially, and stated the one-to-one 'would boil down to between six and 1,200 monthly'.",
+      "response_tactic": "transparency_frame_and_disqualify_from_premium",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I want to say yes, but I do want to, I would do my budget last night, and I just, just to make sure in my head that I can do it, I would want to go over that one more time before I start",
+      "timestamp": "00:12:59",
+      "rep_response": "Accepted immediately — 'Yeah, of course. Like I said, I don't want to put you in a financial bad position' — offered to send the University link and a Trevor video, and scheduled a follow-up call for the next day.",
+      "response_tactic": "accept_and_book_callback",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 1, "price_usd": 200 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "The rep said instalments were available for the one-to-one — 'Well, with Trevor, it would be doable' — but no plan was structured because the prospect was routed to the monthly University tier instead.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 200,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.86,
+    "close_rule_applied": null,
+    "evidence": [
+      "Positive intent on the reduced tier: 'That definitely is more doable' and 'I want to say yes'",
+      "But he explicitly deferred pending a budget review: 'I would want to go over that one more time before I start'",
+      "No payment taken and no payment link sent; the rep offered only to send the University link and a video",
+      "A callback was scheduled for the following day: 'I'll just give you a call tomorrow after my meetings, see what the outcome is, and then we'll potentially get you started on a Primal University'",
+      "Counter-evidence on the premium offer: he is effectively disqualified from the $6,000 programme on price by the rep himself, so any eventual conversion would be to a $200/month product, not to the core offer"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send the Primal University link and a Trevor YouTube video; callback the following day at the same time to check his budget review, with a view to starting him on Primal University."
+  },
+  "notable": {
+    "note": "The most serious clinical exposure in this batch. The prospect disclosed a symptomatic, undiagnosed suspected pinched nerve in his shoulder that several chiropractors have not resolved and for which he is considering physical therapy. Nobody asked whether he had been cleared to train, and the rep proceeded to give him specific loading advice for kettlebell snatches — an overhead ballistic movement directly loading that shoulder — and then moved him toward a self-guided programme where no coach observes his form. Separately, three different price points appear on a sixteen-minute call: 'at least four figures', 'between six and 1,200 monthly', and $200/month, plus a fourth unbuilt tier the rep says is coming."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion of short turns throughout, including in the passage that matters most: the shoulder disclosure at 00:10:41-00:10:54 is split across both labels, with the prospect's symptom description ('it's more like if I'm bending down and reaching forward, it's hurting') attributed to the rep. The rep's Primal University pitch at 00:08:42 is attributed to the prospect. Roles resolved from content throughout."
+  }
+}

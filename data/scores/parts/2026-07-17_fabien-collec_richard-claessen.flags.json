@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-07-17_fabien-collec_richard-claessen",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The same rep characterised the Primal University tier as being for people who are not serious, hours after selling that identical tier to another prospect as a very good fit that produces massive results.",
+      "evidence": [
+        "Primal University is just there for people who are trying to sort of get started with everything, but they don't really want to take it that serious.",
+        "That's it. So there's a few programs in there. They have also some guidelines on nutrition, a live workout on Thursday. That's basically it."
+      ],
+      "timestamp": "00:01:55"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A three-instalment payment plan was confirmed without the total, the instalment amount or any payment dates being stated on the call.",
+      "evidence": [
+        "Yeah, about the payment. Can we do it like in split ways? Is it possible? — Yeah, we talked about doing it in two or three times, right?",
+        "Which one works the best for you? I think we do three times.",
+        "let's say we do three times, right? And you'd pay right now, and then next month you feel like, oh, well, I can actually just do the other, like, 66%, then we just do it all at that time."
+      ],
+      "timestamp": "00:02:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording contains several multi-minute silences while the prospect reads and completes forms, and diarization inverts speakers on many turns.",
+      "evidence": [
+        "00:11:03 - Richard Claessen (Primal Instinct): Then in there, you have an agreement, very easy, just go over that one.",
+        "00:14:02 - Fabien COLLEC: i'm just finishing reading yeah take your time just tell me when you've gone through it"
+      ],
+      "timestamp": "00:11:03"
+    }
+  ]
+}

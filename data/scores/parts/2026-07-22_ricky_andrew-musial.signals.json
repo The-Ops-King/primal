@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-07-22_ricky_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Late-stage contract negotiation; the pillars were delivered on an earlier call not present in this batch. The only training-adjacent content here is the prospect noting he may need to buy equipment before his August 3rd start — 'I might need to buy some equipment. I mean, I don't know what I need to do. I want to get prepared.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not discussed at any point. Appears only as a line item the prospect read aloud from the agreement: 'direct access to Trevor, use for training, form check-ins, nutrition guidance'."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not presented as a pillar. It surfaces only as contract mechanics the prospect is resisting — the weekly check-in forms appear as a condition on the exit provision rather than as a benefit, which inverts the pillar entirely: 'I don't have to complete it or submit all weekly check-in forms with 30 days. I don't want to be hamstrung in.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "category_distrust",
+      "raw": "Is Trevor an AI-generated person on the internet?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The purest form of the trust anchor in the corpus: before price or programme, the buyer needed to establish the coach exists. The rep's reply — 'You're the first one, actually, to ask' — is worth escalating precisely because it will not remain true. Three of the four sales calls in this batch so far carried an unprompted authenticity or scam doubt about paid online coaching, and this is the extreme end of that distribution. The answer that resolved it was the offer of live Zoom contact, which is a cheap and repeatable proof asset."
+    },
+    {
+      "type": "existing_subscription",
+      "raw": "What does that mean? One weekly live workout class? What is that?",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own self-paced product)",
+      "note": "Third appearance of the low-tier product inside a $6,000 sale in this batch. Here it arrives through the agreement rather than through the buyer's research, and the rep had to explain it as 'a Self-paced, no-coaching community' bundled in as an add-on. The prospect's reaction — 'Oh, so that's not real. That's that other thing. That's not, that's additional' — shows the bundled item read as filler rather than value."
+    },
+    {
+      "type": "renewal_incentive",
+      "raw": "Oh, there's a $500 credit. If I meet the toward renew. Oh, that's if I want to renew afterwards.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A $500 credit toward a 12-month renewal sits in the agreement and was discovered by the prospect reading rather than presented by the rep. Recorded as a pricing element the sales process is not using: it is a retention lever that never appears in any pitch in this batch."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A contract that terminates automatically at 30 days unless the client affirmatively opts to continue in writing, rather than continuing unless the client opts out",
+      "why_unmet": "The standard agreement runs the other way — continuation is the default and exit requires an email plus, under section 3G, completion of all weekly check-in forms within 30 days. The rep could not agree it on the call and had to escalate: 'I'll get back to this with this to the manager.' A bespoke manually-issued document is now required, which breaks the automated pay-and-issue flow.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An exit right not conditioned on programme compliance — 'I don't want to be hamstrung in. I want to decide.'",
+      "why_unmet": "The 'love it or leave it' provision is gated on completing and submitting all weekly check-in forms within 30 days, and is paired with a waiver of chargeback rights. A practising lawyer reading it live rejected it on sight. The commercial intent is understandable but the drafting makes the guarantee conditional in a way no sales call in this batch discloses.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To conduct the continue-or-stop conversation with the coach rather than with the salesperson",
+      "why_unmet": "Blocked by process design — 'That's what, that's our process over here.' Defensible on coach-time grounds and the prospect accepted it, but it means the renewal decision is owned by sales rather than by the person delivering the service, which the buyer found counterintuitive: 'Why wouldn't I have the final conversation with him? Because he's the one training me.'",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A Word version of the agreement he can redline",
+      "why_unmet": "Everything is issued electronically for signature and auto-generated on payment. A custom term forces a manual path the rep described as exceptional: 'If it wouldn't be custom, you would just pay and it would be sent out to you automatically. But if it's going to be custom with a different provision, I need to prepare it and I need to send it to you.' Serviceable but slow, and it is what pushed the payment past this call.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

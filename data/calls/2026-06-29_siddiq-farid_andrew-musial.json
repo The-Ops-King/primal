@@ -1,0 +1,140 @@
+{
+  "call_id": "2026-06-29_siddiq-farid_andrew-musial",
+  "source": {
+    "drive_file_id": "1Pu836dF6c_qDQ13ivPqTofMugFJbLQqV",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/29/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 12386
+  },
+  "call": {
+    "date": "2026-06-29",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Short follow-up to an earlier closer call that is not in this batch. The offer, the pillars and the discovery all happened on that prior call — the prospect opens by listing the two items he has decided to negotiate, and the rep refers back to something the prospect said last time about three months.",
+    "duration_min_est": 11,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": [],
+    "name_note": "The Fathom speaker label reads 'Andrew Jin (Primal Instinct)', which is not this rep — the 06/24 team meeting establishes Andrew Jin is a former coach whose Fathom account the closer records into. On this call the prospect confirms the rep is in Poland ('let's do first thing, Polish time. You guys are one hour ahead of London, right?') and addresses him as 'Andrej'."
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Siddiq Farid",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United Kingdom, London time zone; regular business travel to Singapore",
+    "age": null,
+    "occupation": "Business — 'you're a business guy, I'm a business guy too', unchallenged. Two work trips planned for July, to Singapore and London.",
+    "family_status": "Has a new baby whose schedule is disrupting his mornings, and an older son going on a cricket tour that is a significant upcoming expense.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Already training independently and already using kettlebells — 'I didn't have time to go to the gym. So I was like, screw it. I just went outside... half an hour, I melted out with two kettlebells.' Plans around travel without prompting: hotel gym in Singapore, day passes at a UK chain in London, and improvising with dumbbells where kettlebells are unavailable.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Affluent and explicit that price is not the barrier: 'I can afford it. I'd rather just pay it. I just want to be comfortable as to when on the timing of it' and 'In the grand scheme of things, not a lot of money, but it's a timing thing.'",
+      "Already training and already using kettlebells; wants structure and commitment, not rescue — 'I would prefer to do the full six months, just commit to it.'",
+      "Runs his own cash-flow discipline: 'I don't want to stretch myself too thin... I like my sleep. I like to be comfortable.'",
+      "Declined third-party financing on principle rather than eligibility: 'I prefer not to. I just want to, you know, I can afford it.'",
+      "Caveat on the fit: he did ask for a $4,000-$5,000 price, which is not classic optimizer behaviour. He framed it as comfort rather than capacity, and it did not resurface once the deferral was agreed.",
+      "Confidence is held down because discovery happened on the prior call, which is not in this corpus — the avatar is read from an 11-minute negotiation only."
+    ]
+  },
+  "goals": [],
+  "pains": [
+    { "text": "Several large financial commitments falling in the next five weeks, including his son's cricket tour, which he does not want to stack a $6,000 payment on top of", "category": "other", "severity": "medium" },
+    { "text": "Two work trips in July, to Singapore and London, that would fragment the start of a programme he wants to begin properly at home with the right equipment", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "On my timing perspective, I just have a couple of big expenses coming out over the next few weeks, so I'm committed to this, I want to do this, but for me, this would be August 1st commencement thing, right, so we can reach out again, sort of end of July, sign up then, start the payment then, and start the program then, because I'm also traveling quite a bit before that, and just timing of expenses.",
+      "timestamp": "00:00:36",
+      "rep_response": "Tested whether the blocker was travel rather than money, then used one line of the not-the-right-time play — 'there's never perfect timing' — and reframed the travel with Trevor's programme adjusting around it. When the prospect held, the rep accepted and booked a date.",
+      "response_tactic": "test_blocker_then_single_no_perfect_timing_line_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I think the overall budget is a bit stretching it. You know, I think a number that I'll be more comfortable with is probably around $4,000 or $5,000. I'm not sure that's possible for Trevor to accommodate and so forth.",
+      "timestamp": "00:00:36",
+      "rep_response": "Did not answer the request directly. Offered the three-month tier at $4,000 with a $2,000 top-up to reach six months, and an interest-free split of the $4,000 into two payments.",
+      "response_tactic": "answer_price_request_with_shortened_tier_and_split",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I would request Trevor to consider whether he would be willing to do this for 5K.",
+      "timestamp": "00:05:43",
+      "rep_response": "No response to the request at all — the rep continued explaining the three-month-plus-top-up maths. The request was never accepted, declined or promised to be passed on, and the call ended with it outstanding.",
+      "response_tactic": "no_response",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I don't want to start the program now and make payments later. want to start the cycle then.",
+      "timestamp": "00:05:43",
+      "rep_response": "Attempted a light urgency push — 'I thought today, you know, you're a business guy, I'm a business guy too, you know?' — then offered third-party financing, which was declined, then agreed the deferral.",
+      "response_tactic": "peer_urgency_then_financing_then_concede",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000, "note": "Offered again as the affordable entry, with a stated $2,000 top-up to reach six months" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep agreed the $4,000 three-month figure could be split into two interest-free payments. Third-party financing was raised and declined. The prospect's own ask was a two-payment split of the full amount starting late July. Nothing was formalised, no dates or amounts were fixed and no deposit was taken.",
+    "guarantee_mentioned": "the six months is the full transformation, and that's with a guarantee, yeah?",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No figures asked for or given, and none of the scripted financial-picture questions ran. The prospect volunteered capacity — 'I can afford it. I'd rather just pay it' — and constraint by calendar, not by amount: several large commitments due within five weeks including a son's cricket tour."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "A specific follow-up was booked and the calendar invite sent and confirmed on the call: 'If we could reconnect, let's say, 24th of July, that's Friday' / '8 a.m. for me, so it's 7 a.m. for you. Let's do that' / 'I've sent you the invite... Yeah, got it.'",
+      "Intent is high and repeatedly stated: 'I'm committed to this, I want to do this', 'Physical commitment is there. It's a financial commitment', 'I would prefer to do the full six months, just commit to it.'",
+      "No money changed hands and no deposit was taken, so this is not a close under any reading.",
+      "Counter-evidence against optimism: the prospect deferred a second time on this call after already having had the offer presented once, still has an unanswered $5,000 request outstanding, and the rep will be away at the end of July — the booked date sits at the very edge of the prospect's own stated window."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconnect Friday 24 July at 08:00 Polish time / 07:00 UK, same Zoom link, to decide between three and six months and to sign and pay for an approximately 1 August start."
+  },
+  "notable": {
+    "note": "The prospect asked twice for a lower price, the second time explicitly asking that Trevor be consulted about $5,000, and the rep never answered — he left the call with an open request he may reasonably expect a response to. The $4,000 three-month tier appeared again, and the payment figures were given in an inconsistent sequence within ninety seconds. Most striking is what was not offered: the internal calls show deposits are routinely taken to hold a deal exactly like this one, and the manager's own line on this pattern is that a busy prospect will be busy again — neither the deposit nor that reframe was used, and a fully qualified, self-declared-committed buyer was allowed to set the date unchallenged."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short call but the labels invert repeatedly, including in the opening exchange where the rep's and prospect's introductions are transposed, and around the three-month pricing block at 00:04:33 to 00:07:30 where the payment mechanics are split across both labels. Role was read from content. The pricing sequence in that block is genuinely garbled in the source — 'that would be for you just 2k' does not reconcile with the $4,000 figure stated either side of it — and it is recorded here as an inconsistency rather than resolved."
+  }
+}

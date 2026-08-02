@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-05-28_sharmeena-syed_harry-edmonds",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Payment terms were described here as full up front, half down with the balance inside 90 days, or monthly — while the same rep told two other prospects in the previous two days that the programme is a single one-time payment.",
+      "evidence": [
+        "You've got many ways you can go around, like, paying for it. Most people just take care of it up front, put it on a credit card or whatever, get their miles",
+        "The other option I recommend people is you can do half down, and then half... As long as the other half is done within 90 days, you're fine.",
+        "You can do it monthly, but it works out to be more, so I wouldn't recommend doing it monthly."
+      ],
+      "timestamp": "00:29:33"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Asked whether the price was negotiable, the rep said not by a cent — one day after presenting a different prospect with a three-month tier and a one-month trial in response to the same objection.",
+      "evidence": [
+        "Is there any, like, negotiation at all? Or is it like a set-fix thing, and like, if you can make that...",
+        "Can't even take a cent off.",
+        "So it's 1,000 US a month."
+      ],
+      "timestamp": "00:29:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A monthly payment option was described as costing more than the stated $6,000 total, with the premium and the total never quantified.",
+      "evidence": [
+        "You can do it monthly, but it works out to be more, so I wouldn't recommend doing it monthly.",
+        "in canadian for the six months it comes out to 8200 so it's 6k us which is 8200 canadian"
+      ],
+      "timestamp": "00:29:33"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Two distinct prospect-side participants share a single speaker label, and the title surname does not match the account name in the transcript.",
+      "evidence": [
+        "00:01:25 - Harry Edmonds (Primal Instinct) What was your name? Sorry, I don't wanna... / 00:01:26 - Sharmeena Lalloo Hanan. H-A-N-N-A-N.",
+        "00:01:41 - Harry Edmonds (Primal Instinct) But it's for you, Sharmeena, right? / 00:01:42 - Sharmeena Lalloo Yes."
+      ],
+      "timestamp": "00:01:25"
+    }
+  ]
+}

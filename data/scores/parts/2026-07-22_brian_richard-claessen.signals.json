@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-07-22_brian_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "objected",
+      "evidence": "Delivered only inside the Primal University pitch - 'building the whole foundation for yourself with kettlebells... There is routines in there... has mobility routines in there on top of that' - and the prospect pushed back on the substance immediately: 'I guess at this point, I need to rethink... Maybe, you know, just with the bootcamp that I have now and, you know, following some of his reels on the days that I can't, maybe that would work for me.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Mentioned in a single clause within the downsell description - 'also nutrition aspects where you can also lose the extra weight that's going to help with guidelines there isn't going to force you on the chicken and rice' - never delivered as a pillar and drew no reaction."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "The three-pillar presentation never ran, because the rep withdrew the flagship offer at 00:06:14 before reaching it. The nearest equivalent offered was the group Thursday live workout in Primal University, which is not the accountability pillar."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_program",
+      "raw": "I work out like four to five times a week at a boot camp, and we do a lot of the kettlebell workouts",
+      "direction": "undercuts_price",
+      "competitor": "local boot camp",
+      "note": "The strongest anchor in the batch. He is not comparing Primal against nothing; he is comparing it against a programme he already attends five mornings a week, which already includes kettlebells, and which he likes. Price was never the barrier - marginal value was."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "he talks about doing the halos and the curls, and so that would be, I guess I could just do that on my own, I guess, you know, since I've, you know, I have some kettlebells in the garage I can use",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Facebook reels",
+      "note": "Primal's own free content is the competitor here. The prospect worked out on the call that the reels plus the kettlebells he already owns might be sufficient, and the rep agreed with him. Worth knowing at scale: top-of-funnel content that teaches the movements gives self-directed prospects a credible free path."
+    },
+    {
+      "type": "discretionary_spend_constraint",
+      "raw": "I was supposed to go to Greece this year, but I needed a new water heater.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Weak but real. A cancelled trip because of a domestic repair is not the profile of someone for whom a four-figure price is a quality signal. Income was never asked, so this is the only datapoint available."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Structured kettlebell programming to fill the two or three days a week he cannot get to the boot camp, without replacing what he already does",
+      "why_unmet": "The flagship offer is a whole-life transformation and the rep correctly said so. A product that does serve this demand exists - Primal University - but the prospect had never heard of it ('I don't know if you have heard Trevor talk about our primary university?' 'No.'), nothing in the funnel routed him to it, and he burned a closer call to discover it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on rehabilitating a torn Achilles so he can run again",
+      "why_unmet": "The programme is coaching, not clinical rehabilitation, and there is no assessment of whether loaded kettlebell work is safe for a five-month-old Achilles tear. The rep nonetheless implied the mobility work would help it.",
+      "verdict": "product_gap"
+    }
+  ]
+}

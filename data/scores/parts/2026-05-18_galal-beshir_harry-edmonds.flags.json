@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-05-18_galal-beshir_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording terminates mid-turn at 00:35:00, roughly twenty-six seconds after the price objection surfaced, so the outcome of the call and the handling of the money objection are unrecoverable from the file.",
+      "evidence": [
+        "Okay. Yeah. I'd have to see because 6K, yeah. Yeah.",
+        "Payment dipped on me, crazy."
+      ],
+      "timestamp": "00:35:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Repeated connection failures cost roughly two minutes of the opening and interrupted the call at least twice more, with the prospect's speaker label changing partway through when he rejoined on a different device.",
+      "evidence": [
+        "Sorry, I had to go ahead and grab my old gun. i had to grab my um computer i didn't realize my phone had died i thought it was something because we're so far",
+        "Yeah, give me one second. Let me just grab my chart. I don't to disconnect it. on me again, huh?",
+        "Sorry. You still with me? Yeah, I'm here."
+      ],
+      "timestamp": "00:02:55"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The eight-kilogram guarantee was rounded up to 'almost 20 pounds' and then illustrated as a doubling from 20 lb to 40 lb, overstating the actual 17.6 lb entitlement — the same overstatement this rep made on the Andrew Gallegos call.",
+      "evidence": [
+        "you will be using an eight kilo heavier kettlebell in six months time with the same rep, same intensity, same everything",
+        "eight kilos in kettlebells is quite a lot. Yeah, yeah, yeah. So it's like almost 20 pounds.",
+        "So as you can imagine, like, let's say you're swinging around a 20 now, you said. In six months, you will be swinging around double the weight that you're doing now."
+      ],
+      "timestamp": "00:32:00"
+    }
+  ]
+}

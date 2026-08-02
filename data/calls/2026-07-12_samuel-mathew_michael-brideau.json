@@ -1,0 +1,146 @@
+{
+  "call_id": "2026-07-12_samuel-mathew_michael-brideau",
+  "source": {
+    "drive_file_id": "16s65F8mZeY5w_dDqtfXl1jhWe3H-345q",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/12/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/12/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 62014
+  },
+  "call": {
+    "date": "2026-07-12",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 59,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named. The prospect twice addressed the rep as 'Richard' — at 00:00:01 and again at 00:52:09 when the price landed — which suggests the appointment may have been booked under a different rep's name."
+  },
+  "prospect": {
+    "name": "Samuel Mathew",
+    "aka": "Sam",
+    "name_source": "transcript",
+    "location": "New Jersey, USA (born in India, in the US over 20 years)",
+    "age": 52,
+    "occupation": "MRI technologist; a mix of sitting and standing, with two long shift days a week",
+    "family_status": "Married; travels frequently with his wife; has adult children; mother-in-law lives with them and recently had a stroke; no grandchildren yet",
+    "height_in": 70,
+    "weight_lb": 173,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong on-off pattern of training and dieting — keto, carnivore and others — never sustained, never gained muscle. Nine consecutive weeks of home-gym strength training at the time of the call: elliptical warm-up, squats, chest press, seated row, deadlift on Tuesdays; split squats, incline press, lat pull-down, hamstring curl on Fridays; a lighter session plus farmer's carries on Saturdays. Walks 7,000-8,000 steps daily. Owns a 30 lb kettlebell and has only ever done swings; ordered an adjustable kettlebell the day of the call.",
+    "kettlebell_experience": "some",
+    "medical": "Currently three weeks into tirzepatide, a GLP-1 agonist, and down nine pounds; states he must weight train and eat high protein on it to avoid muscle loss. Long-standing high cholesterol he attributes to genetics, seen a cardiologist and is on medication for it. A1C crossed into the pre-diabetic range for the first time; he used an over-the-counter continuous glucose monitor for three months and brought it back into range, no longer wearing it. Intermittent right knee pain with audible crunching on squats, wears a brace. Right elbow tendon pain assessed by an orthopaedic doctor who instructed him to continue training but use eccentric-tempo loading; resolved but recurs if stressed."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.6,
+    "signals": [
+      "52, health-literate and already medically managed — cardiologist, statin, GLP-1, continuous glucose monitor, macro tracking, body-composition scale",
+      "Frames the goal as holding function and independence: 'another motivation that I have is, for the future, is to live independently and not be dependent on my kids or anybody to care for me'",
+      "Explicitly positions himself past peak: 'I'm 52, you know, so I think I'm past the peak and on my way down'",
+      "Competing read — the_optimizer also fits on starting point: BMI is in the normal range, diet is already dialled in and the goal is tone and strength rather than rescue. It fails on the optimizer's defining trait, since price was a hard barrier rather than a quality signal: 'it's a bit steep for my pocket'"
+    ]
+  },
+  "goals": [
+    { "text": "Gain muscle and increase strength, which he has never managed despite decades of attempts", "category": "muscle_gain" },
+    { "text": "Preserve and ideally increase skeletal muscle while losing fat on the GLP-1", "category": "muscle_gain" },
+    { "text": "Get more toned and reduce the midline bulge that appeared after 50", "category": "appearance" },
+    { "text": "Live a long healthy life and avoid the decline he sees in older family members", "category": "longevity_function" },
+    { "text": "Stay independent and not need his children to care for him", "category": "longevity_family" },
+    { "text": "Keep travelling with his wife and be around for future grandchildren", "category": "longevity_family" },
+    { "text": "Have more energy and stop feeling fatigued despite eating properly", "category": "energy_performance" },
+    { "text": "Learn correct kettlebell form and weight selection before hurting himself", "category": "injury_prevention" },
+    { "text": "Finally be consistent instead of repeating the on-off cycle", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Decades-long cycle of starting, losing weight, never gaining muscle, getting demotivated and stopping", "category": "consistency", "severity": "high" },
+    { "text": "Believes he may lack the genetics for hypertrophy and has given up on that goal before", "category": "confidence", "severity": "high" },
+    { "text": "After 50, the same intensity of training and dieting stopped producing any result", "category": "aging", "severity": "high" },
+    { "text": "Repeated injuries have ended previous training blocks", "category": "injury", "severity": "high" },
+    { "text": "Never had a trainer and does everything alone — 'I do things on my own. I mean, I don't go, I never had a trainer'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Fear of injuring himself with free-form kettlebell movement, which he named as the entire 30% holding him back", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Weak grip, wrists and shoulders — struggles to press or rack a 30 lb bell", "category": "training_barrier", "severity": "medium" },
+    { "text": "High cholesterol under cardiologist care and an A1C that crossed into pre-diabetic range", "category": "medical", "severity": "medium" },
+    { "text": "Chronic fatigue when training hard despite eating properly", "category": "other", "severity": "medium" },
+    { "text": "Mother-in-law living with them had a stroke, which was the trigger for this attempt", "category": "emotional", "severity": "medium" },
+    { "text": "Only motivated by an alarm — 'Each time I need some kind of a motivating factor, either it's blood work that's out of range or something like this that happened in the family'", "category": "motivation", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "there is the concern in the back of my mind about injury. Again, you know, if I am not doing something right, because right now when I'm using machines, like I'm not thinking too much, I'm just lifting the weights, right? Whereas with this, it's like free form. And, you know, I'm just worried that I might injure myself.",
+      "timestamp": "00:27:23",
+      "rep_response": "Addressed it directly and at length with light starting weights, video form checks, the mobility protocol, and personal and anecdotal recovery stories, plus the assertion that injury becomes progressively harder with kettlebells",
+      "response_tactic": "product_answer_plus_safety_assertion",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "Yes, that is also true. But it's a bit steep for my pocket.",
+      "timestamp": "00:52:42",
+      "rep_response": "Isolated it — 'finances aside, do you really feel like everything that we covered ultimately can get you into the shape that you're wanting to get into?' — and got a yes, then repeated the isolation",
+      "response_tactic": "isolate_and_confirm_value",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It's not, I mean, definitely accessibility is one, but also, I did not imagine, I did not expect it to be, you know, this kind of a figure... the sticker price, it was a little shock to me.",
+      "timestamp": "00:55:21",
+      "rep_response": "Ran a future-retrospective close — 'six months from now... do you feel like it would have been worth six grand?' — which the prospect first agreed with and then explicitly retracted. No payment plan was ever offered.",
+      "response_tactic": "future_retrospective_value_close",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "Maybe I just need, you know, time to explore maybe other programs and see what kind of training they offer. And because honestly, this is the, you're the first person I spoke with. And so I have no, I have zero idea.",
+      "timestamp": "00:57:09",
+      "rep_response": "Ended the call: 'Cool. Okay. Well, sweet, dude. Why don't we just leave it there? And then, I mean, if you explore some other ones and you want to pull the trigger with us and feel free to reach out'",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Stated as: 'one thing Trevor actually does is he puts a guarantee on his program where if you don't add at least eight kilograms to your primary lifts in the six months, he'll continue working with you for free until you do.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly retracted his own value concession: 'I take back what I said. Yeah, looking back, okay, I have the body that I wanted, but at the end of the day, $6,000? I don't know.'",
+      "Stated intent to shop competitors: 'maybe I just need time to explore maybe other programs and see what kind of training they offer'",
+      "Rep terminated rather than continued: 'Why don't we just leave it there?'",
+      "No payment, no link, no payment plan offered at any point, no follow-up date and no follow-up cadence agreed",
+      "Counter-evidence: he rated the programme 10 out of 10 before the price and said 'I'm willing to give it a shot, definitely. And I'm willing to put in 200% from my side'",
+      "Counter-evidence: he asked for the rep's contact details to proceed if he changes his mind — 'So if I decide to go ahead, who should I contact?' — so a re-open is possible; scored 0.7 rather than higher for that reason"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to research competing kettlebell coaching programmes and pricing; he has the rep's mobile number and would need to initiate. Nothing scheduled."
+  },
+  "notable": {
+    "note": "A prospect who scored the offer 10 out of 10 before the price and was lost inside seven minutes of hearing it, with no payment plan offered at all — the only call in this batch where instalments were never raised. He is also the batch's most medically active prospect: three weeks into tirzepatide, on cardiologist-prescribed cholesterol medication, recently pre-diabetic, with a braced knee and an orthopaedic instruction to load his elbow eccentrically. Nobody asked whether a clinician had cleared ballistic kettlebell work, and the nutrition pillar pitched at him was a consolidated eating window, which sits directly against the protein-prioritisation his GLP-1 protocol requires. Two further items to verify centrally: the rep stated a specific performance guarantee (eight kilograms added to primary lifts or free continuation) that appears nowhere in the playbook, and the prospect twice called the rep 'Richard'."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Turn-boundary inversions are frequent but the long blocks are reliable. Examples: 'Sam, let me get some baseline with you real quick' at 00:16:01 is attributed to the prospect, 'What's your thoughts on that, or what questions do you have on that?' at 00:32:23 is attributed to the prospect, and 'And what was the third pillar?' at 00:44:25 is attributed to the rep. There is also a brief connection drop near 00:58:20. Role read from content throughout."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "call_id": "2026-05-13_jorge-suira_farooq-bey",
+  "source": {
+    "drive_file_id": "1fyLSdh-l_AVeS5fvmGg7TDEVeNJ3_D79",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/13/2026 - Jorge Suira x Farooq Bey ",
+    "display_title": "05/13/2026 - Jorge Suira x Farooq Bey  — Lost",
+    "file_size_bytes": 20602
+  },
+  "call": {
+    "date": "2026-05-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 18,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Jorge Suira",
+    "aka": null,
+    "name_source": "title",
+    "location": "Ontario, Canada — about an hour outside Toronto",
+    "age": 39,
+    "occupation": null,
+    "family_status": "Married roughly ten years; two children who play hockey, ski and snowboard",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has followed Trevor for two years and bought kettlebells and maces because of him. Trains two to three days a week at Lifetime gym using Trevor's routines and mobility work off Instagram and YouTube, plus another coach's programming and his own weights. Runs five laps three times a week at a local high school with his kids. Plays indoor soccer in winter and softball in summer, skis and snowboards, and formerly did extreme sports. Says he was 'more ripped than Trevor' about ten years ago before marrying. Has lost roughly 30 lb in the six weeks before this call.",
+    "medical": "No condition disclosed. Reports non-specific age-related stiffness — needing to warm up now, and 'ducking and then can't get back up because something's tweaking in my back or my knee' — but explicitly frames himself as being in reasonable shape and describes no injury, diagnosis or treatment."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Stated the good-to-great distinction almost verbatim when pressed — 'But do you want to be okay?' / 'I want to be great'",
+      "Already visibly fit by his own and his neighbours' account — 'if you get pretty much all the people that are in my neighborhood, like all the guys, I'll probably be the best-looking one, but to me, I'm not where I should be'",
+      "No price resistance whatsoever: he declined on what the offer was, not on what it cost, and never once mentioned money",
+      "Counter-signal toward the_rebuilder: his reference point is a former self — 'I'm comparing myself to how I used to be... I was like ripped... about 10 years ago before I got married' — but he frames the goal forward, toward being great and toward his kids' teenage years, rather than as recovering something lost"
+    ]
+  },
+  "goals": [
+    { "text": "Tone up and get back toward the physique he had ten years ago", "category": "appearance" },
+    { "text": "Mobility and flexibility so ordinary movement stops tweaking his back or knee — 'not have to worry about ducking and then can't get back up'", "category": "mobility" },
+    { "text": "Stay physically able to keep up with his two children — 'I'm pretty much the only dad that can play with them'", "category": "family_role_model" },
+    { "text": "Look good enough by the time his kids are teenagers that people take him for their brother", "category": "appearance" },
+    { "text": "Be like the 55-year-olds at his gym who look good, stay active and are visibly not in pain", "category": "longevity_function" },
+    { "text": "Get actual structure for training and meals rather than assembling it himself", "category": "consistency" },
+    { "text": "Stop being okay and be great — get out of an eight-year comfort zone", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Eight to nine years in a comfort zone since getting married — 'comfort zone is the dead zone. It's where nothing grows'", "category": "motivation", "severity": "high" },
+    { "text": "Lost the six-pack and mass in legs and arms, and stopped challenging himself", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No structure for workouts or meal plans; assembles his own from several coaches' free content", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Feeling his age — now needs to warm up, and gets back or knee tweaks on ordinary movements", "category": "aging", "severity": "medium" },
+    { "text": "Not consistent with the mobility work he knows he should do daily", "category": "consistency", "severity": "medium" },
+    { "text": "Surrounded by people who do not challenge him — 'the people that I was surrounded with weren't really challenging me to better myself'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Children's schedules absorb most of his available time", "category": "time_scarcity", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "from what I saw in the ad, it was like, you know, when they look for certain people to do a challenge and see like a, like it was a three month, right? So 90 day transformation... it was like, okay, let's go from point A to this... If I follow it to a T, you know, like, I want to see this transformation. But now if you're just going to come and sell me a package with like, either directly with Trevor or other stuff, just to like, you know, sell the product, then that's kind of like, not what, like, the advertising that I understood. That's what I'm trying to get at.",
+      "timestamp": "00:13:01",
+      "rep_response": "Did not engage with the mismatch at all. Answered 'Sure, man. Sure' and immediately screen-shared the Primal University downsell. Never explained what the advertisement actually offers, never acknowledged the gap, never bridged from the 90-day expectation to the products that exist.",
+      "response_tactic": "acknowledge_and_pivot_to_downsell",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I wasn't just, here, let me see where you fall in, and if you fall into our, like, elite packages, and not, then you can just get, like, you know, the follow-through, the school, the school download kind of thing.",
+      "timestamp": "00:16:07",
+      "rep_response": "Restated that he only recommends what he believes fits — 'I'm just going to recommend what is best for you. If I generally feel like it's coaching, I would have said that' — without addressing why a content library beats the free content the prospect is already using successfully",
+      "response_tactic": "restate_recommendation_integrity",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "I came in for one thing and it's not kind of what I thought it would be.",
+      "timestamp": "00:17:15",
+      "rep_response": "None — the prospect went on to disclose his 30 lb loss and current routine, then closed the call himself",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Primal University recommended at $200/month, presented as effectively a one-off $200 purchase because it can be cancelled.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and final decline of both options: 'okay, Farooq, time is money, I'm not going to waste your time, definitely not going to waste my time, so yeah, I'm grateful, but I'm not interested in that package either'",
+      "Prospect ended the call himself and the rep accepted without a further attempt",
+      "The coaching tiers were quoted only after the prospect asked what the other programme was, and only after the rep had already recommended against them: 'Just from what I've heard, I think this is a better fit for you than the 1-on-1 coaching'",
+      "Loss driver was not price — money was never objected to and never discussed. It was offer mismatch: 'I came in for one thing and it's not kind of what I thought it would be.'",
+      "Counter-evidence on lead quality: this was a two-year warm follower who owns the kettlebells and maces, uses the free content daily, and had just lost 30 lb. On paper one of the best leads in the batch."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. No follow-up booked, no link sent, no callback offered."
+  },
+  "notable": {
+    "note": "The most useful lost call in the batch, because the prospect said exactly why. He responded to advertising he understood to offer a selected 90-day transformation challenge — 'when they look for certain people to do a challenge... So 90 day transformation' — and found a sales call routing him between a $4,000-plus coaching package and a $200 content library. He named the gap twice and the rep engaged with it neither time. This was a two-year follower who had bought the kettlebells and the maces because of Trevor, was using the free content three times a week, and had lost 30 lb in six weeks — which he only mentioned at 00:17:15, after he had already declined, because nobody asked. The rep also never asked what he does for work and never asked a single financial question, then judged him out of the coaching tier on the basis that he had answered 'possibly' to a readiness question. The three pillars were never presented on this call at all. Pricing again included the unsanctioned $4,000 three-month tier."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Sustained inversion. The rep's questions repeatedly sit under the prospect's label — 'How long would you say you've been comfortable for?', 'What do you feel like that's cost you so far?', 'So are you actually ready to take that step?' — with the prospect's answers under the rep's, and in several places a single labelled block contains both sides of an exchange. Roles resolved from content. The prospect joined by phone because the meeting link email never arrived. One reference is ambiguous and left unresolved in this record: 'that's why I bought the school one' may refer to Primal University or to a different Skool community, and the rep did not clarify it."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-05-09_cole-carson_farooq-bey",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep stated the company policy against taking calls with people who are driving, waived it in the same breath, and then declined the prospect's two offers to reschedule, running the full recorded call while the prospect drove to a gig.",
+      "evidence": [
+        "Typically, we don't take the calls whilst people are driving just because of safety, but, you know, it's okay. I'll make an exception today.",
+        "Is it possible that can maybe even pull over for, like, 20, 25 minutes? I don't know if you have anywhere to be.",
+        "But, I mean, if there's another time that, if there's another time that we could reschedule too, if you would rather, you know, do that.",
+        "But I'd be down to reschedule if you wanted to.",
+        "Let's multitask. know, if the Wi-Fi gets too bad, we'll probably just have to reschedule."
+      ],
+      "timestamp": "00:00:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file title names the prospect as Luis Jauregui, but the person on the call is Cole Carson throughout, addressed as Cole by the rep from the first minute — and this is the second such mismatch on the same rep's files, since the same prospect's 2026-05-12 call is titled 'Steven Silbert x Farooq Bey'.",
+      "evidence": [
+        "Hi there. Hey, Cole, how's it going?",
+        "Cool. Cool. Well, Cole, we have a limited amount of time. Let's dive into it.",
+        "So what's shifted for yourself then, Cole, that's made this more of a priority?"
+      ],
+      "timestamp": "00:00:07",
+      "pattern_note": "Both known Cole Carson calls in the Farooq Bey folder carry a different person's name in the title (Luis Jauregui on 05/09, Steven Silbert on 05/12). If the mis-titling is systematic in this folder, prospect identity cannot be trusted from titles anywhere in the corpus and repeat prospects will be counted as distinct people in any close-rate denominator."
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording terminates mid-sentence at 00:15:50 while the rep is still inside the goals phase, so the offer, price, close attempt and outcome are all unobservable and the call cannot enter a close-rate denominator either way.",
+      "evidence": [
+        "You know, I spoke to a gentleman yesterday, he said, the reason why he wants to do this is just, he's just lost his presence at home. So by doing this, it's going to be a way for him to improve that.",
+        "I think there's a bit of lag. I'm not sure. I think it's on your end.",
+        "Lost you there for a sec, Cole."
+      ],
+      "timestamp": "00:15:50"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization is unreliable enough to invert whole exchanges, including the opening greeting and two consecutive prospect turns attributed to the rep.",
+      "evidence": [
+        "00:00:07 - Cole Carson / Hi there. Hey, Cole, how's it going? Good, how are you doing?",
+        "00:04:48 - Farooq Bey (Primal Instinct) / Just me trying to be trying to like motivate myself to do that.",
+        "00:00:41 - Cole Carson / Where are you based, dude? I'm in LA area. I'm in Costa Mesa, so Orange County, I guess, now."
+      ],
+      "timestamp": "00:00:07"
+    }
+  ]
+}

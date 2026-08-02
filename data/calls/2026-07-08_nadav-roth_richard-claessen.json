@@ -1,0 +1,156 @@
+{
+  "call_id": "2026-07-08_nadav-roth_richard-claessen",
+  "source": {
+    "drive_file_id": "1X7PloVHfxEJechIUlnKZMmAfMVSeG-ST",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/08/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/08/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 52029
+  },
+  "call": {
+    "date": "2026-07-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 52,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria (Dutch, calling from Bulgaria)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named. The rep references only an application form — \"I do know that you filled in an application\" and \"I thought that when I was quickly looking over your application\" — with no mention of a prior conversation with a setter, unlike the Jake Brenner call where Kim is named."
+  },
+  "prospect": {
+    "name": "Nadav Roth",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Israel",
+    "age": 36,
+    "occupation": null,
+    "family_status": "Has family in Israel; weekly Friday family dinners. No partner or children mentioned.",
+    "height_in": 75,
+    "weight_lb": 200,
+    "bodyfat_pct_self_reported": 25,
+    "training_background": "Played basketball almost daily until age 28, when an ankle injury ended it; has spent eight years looking for a replacement sport. Found the gym boring and switched to home training. Worked with a personal trainer on and off for three years — in person until it became too expensive, then a digital programme where he filmed himself for form corrections. That trainer moved to Thailand and stopped responding about eight months ago. Bought his first kettlebell a couple of months ago after seeing Trevor's videos and now trains at home for 25-30 minutes with no structured programme.",
+    "kettlebell_experience": "some",
+    "medical": "Müller-Weiss disease in the left ankle, described by the prospect as a chronic disease; he cannot run. L5 lower-back injury sustained at age 14 from daily basketball training, which he still feels intermittently under exertion. Right shoulder pain lasting roughly four years that no clinician could diagnose, which he says he resolved himself two to three months before the call. Rates his stiffness 7-8 out of 10 and cannot touch the floor bending forward; tightest through hamstrings and hips."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Lost his sport and his identity in it to injury — \"I used to play basketball for a lot of years. Then I got injured in the ankle. And since then, I didn't find any other sports that I like... I think it's now eight years that I'm still searching\"",
+      "Peak weight of 103 kg sixteen years ago, \"I used to be really fat\", now 90-91 kg and wanting 84-85",
+      "Frames it as unfinished business now that a long-standing blocker cleared: \"now that I no longer have this pain in the shoulder that was keeping me back... now I can do the next jump\"",
+      "Confidence is moderate because the dominant feature of the call is liquidity, not identity — he lives month to month with no savings and declined on price, which is not what usually stops a rebuilder"
+    ]
+  },
+  "goals": [
+    { "text": "Improve mobility and flexibility from a self-rated 7-8 out of 10 stiffness; be able to touch the floor", "category": "mobility" },
+    { "text": "Build functional strength rather than gym-style strength", "category": "strength" },
+    { "text": "Lose five to six kilos to reach 84-85 kg and look more shredded", "category": "fat_loss" },
+    { "text": "Wake up with energy instead of tired — \"I want that angel feeling to kick in\"", "category": "energy_performance" },
+    { "text": "Protect his mental health through training — \"it's for my mental health, you know. I want to feel good\"", "category": "other" },
+    { "text": "Keep functioning as he approaches 40 — \"I'm not getting any younger... it's not a joke anymore\"", "category": "longevity_function" },
+    { "text": "Learn the technique properly so he knows what he is doing and can continue alone", "category": "sustainability" },
+    { "text": "Stop the lower back flaring up under exertion", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Müller-Weiss disease in the left ankle means he cannot run at all", "category": "medical", "severity": "high" },
+    { "text": "Old L5 injury from adolescent basketball still surfaces under exertion", "category": "injury", "severity": "medium" },
+    { "text": "Severe stiffness through hamstrings and hips; cannot reach the floor", "category": "injury", "severity": "high" },
+    { "text": "No structure or programme — \"I don't really know what I'm doing. I'm only watching Trevor's videos and other guys in different directions\"", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Cannot sustain effort alone — his previous trainer moved abroad and forgot about him, and the last programme was the shortest he ever followed", "category": "accountability_gap", "severity": "high" },
+    { "text": "Nutrition holds together in the week and collapses at weekends on ice cream and chocolate", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Wakes up too tired and lacks energy on days he does not train", "category": "other", "severity": "medium" },
+    { "text": "Lives month to month with no savings; cost of living in Israel high and the war has made it worse", "category": "other", "severity": "high" },
+    { "text": "Eight years without a sport he enjoys since the ankle ended basketball", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Wow. I think it's way too much for me.",
+      "timestamp": "00:44:20",
+      "rep_response": "Converted it to local currency unprompted (\"It's 18,000 Israeli\"), then isolated — asked whether setting the investment aside he wanted to start.",
+      "response_tactic": "isolate_finances",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "it's like, ah, it's half of my rent, you know, so it's a lot of money that I cannot afford",
+      "timestamp": "00:45:30",
+      "rep_response": "Asked monthly surplus and whether he had savings; on learning there were none and he lives month to month, stopped working the $6,000 and offered Primal University at $2,000/year or $200/month.",
+      "response_tactic": "partial_financial_picture_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I think it's not what I'm looking at right now at the moment.",
+      "timestamp": "00:50:12",
+      "rep_response": "Confirmed the reason was that he wanted the one-to-one aspect, did not attempt to rebuild value, and moved to booking a check-in in a couple of months.",
+      "response_tactic": "accept_and_nurture",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm going to have to think about it.",
+      "timestamp": "00:49:55",
+      "rep_response": "Answered the price question that followed and let the thinking stand; no OA moves run.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Maybe in a couple of months, you know, when I see my bank was letting me... Save some and focus on the budget",
+      "timestamp": "00:50:48",
+      "rep_response": "Agreed, booked a check-in for a couple of months out and offered to send a free beginner kettlebell video in the meantime.",
+      "response_tactic": "schedule_future_checkin",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 2000 },
+      { "months": 1, "price_usd": 200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 0,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit decline on the main offer: \"I feel like it's really a whole package and it's a whole program that combines everything. But at the moment, I cannot afford it. So thank you.\"",
+      "Explicit decline on the downsell too: \"I think it's not what I'm looking at right now at the moment\" — because he wants the one-to-one element",
+      "No savings and no available funds disclosed: \"I don't really save, you know, in each month. So it's living from a month to a month\"",
+      "Counter-evidence for treating it as follow_up: the rep booked a check-in for a couple of months out and offered to send a free beginner video, and the prospect said \"maybe in a couple of months, when I see my bank\" — so a nurture path exists. But both tiers were declined on this call and there is no open decision, so it is scored lost rather than follow_up."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a free beginner kettlebell video later the same day and put a check-in in the calendar for one to two months' time."
+  },
+  "notable": {
+    "note": "The prospect disclosed a named chronic bone condition in the ankle (Müller-Weiss), an L5 spinal injury from adolescence and four years of undiagnosed shoulder pain. The rep's response when pitching the self-directed tier was to characterise all of it as not really injuries — \"you don't even actually really have injuries at the moment, more so stiffnesses\" — and he had already promised in the main presentation that \"you're not going to be able to hurt yourself.\" No question was asked at any point about whether a doctor or physiotherapist had cleared loaded kettlebell training. The second Primal University downsell of the batch, again triggered by the prospect naming a budget."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Constant inversion — the rep's own framing question \"So take me through, like, what can we potentially help you with?\" at 00:02:09 is filed under Nadav, and several of the rep's summary turns run under the prospect's label and vice versa around 00:07:33, 00:26:27 and 00:50:12. Role read from content. Audio was poor at the open and the prospect repeatedly asked for questions to be repeated; there are also several garbled machine artefacts (\"Bye. Bye합니다\", \"if radio You we work in our jobs\") where content is unrecoverable. One figure is unreliable: asked what he has left at month end he answered \"$200, $400... Yeah, something like that. Something like that, $1,500 or something\", which is self-contradictory, so monthly_surplus_usd is recorded as null."
+  }
+}

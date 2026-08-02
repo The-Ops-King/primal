@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-30_michael-hogan_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'When it comes to the training and the mobility, do you feel like, yes, that's something you see yourself doing?' — 'Yeah.' 'Any questions on it?' — 'No, I like the sound of it.' He had already pre-qualified himself on the format, asking whether the workouts were three to four hours a week and confirming 'I think that would be doable.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Do you feel like, yeah, that sounds doable, and you want to make those tweaks there as well?' — 'Yeah.' He had already named the two things the rep then targeted: protein at 100g against a 150g target, and daily wine. No questions asked and no resistance to the wine being addressed."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The most consequential pillar reaction in the batch. He rejected it not on value but as an additional burden: 'I'm feeling a lot of pressure for the one-on-one right now. I don't want to add, I'm trying to have good growth without adding too much pressure.' Earlier he made the mechanism concrete: 'I would hate to like start with Trevor and Trevor's like, take this video and send this to me and la la la. And then I'm like, then I don't do it. You know, I'm signed up.' He also cited his existing business coach as evidence — 'I have a coach in my business and I have to like meet up with them and do their thing. And I can barely do that.' He chose the tier without accountability specifically to avoid it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "market_rate",
+      "raw": "I don't know if I'm ready to invest $1,000 a month, necessarily, but I know that's how much a lot of coaches are charging.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Rare and valuable — a prospect who validated the price against his understanding of the market in the same breath as hesitating on it. He had also said earlier he had no idea what market value was ('I'm not really sure what the market value is for this type of situation'), so the $1,000-a-month framing did the anchoring work itself. The price was not the problem on this call."
+    },
+    {
+      "type": "diy_substitute",
+      "raw": "I'm basically just following an app and it's working fine, but I'd like to have a little bit more customized approach",
+      "direction": "undercuts_price",
+      "competitor": "An unnamed fitness app he currently follows",
+      "note": "The incumbent is working. He is buying an incremental improvement over something adequate, which is why nothing in the discovery generated urgency and why the settle question in Phase 5 got deflected."
+    },
+    {
+      "type": "competitor_program",
+      "raw": "I did one program and it was very similar. I had to talk to the coach, and then you get some texts, and there was an app... And then they do weekly calls. So it's not really... there's a format for these things.",
+      "direction": "undercuts_price",
+      "competitor": "A prior online coaching programme, unnamed",
+      "note": "He has bought this category before and considers the delivery format commoditised — 'there's a format for these things.' He also pre-empted the not-talking-to-the-founder issue himself: 'oftentimes, you don't talk to the guy that you followed online. That's just the nature of it.'"
+    },
+    {
+      "type": "coaching_capacity",
+      "raw": "my business is I have a coach in my business and I have to like meet up with them and do their thing. And I can barely do that... sometimes even my business coach right now will be like, okay, I need this information or I need these statistics and I just can't get it to them.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a price anchor but a capacity anchor, and the one that actually decided the call. He has a live, recent experience of paying a coach and failing to keep up with the homework, and he projected it directly onto this purchase."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A deferred start — begin the one-to-one coaching in three weeks when his children go back to school and his hours open up",
+      "why_unmet": "There is no deferred-start or paused-start option. The rep improvised around it by selling the $1,000 self-serve tier now with an upgrade later, which is a workaround rather than the thing he asked for.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Coaching that does not add homework — value delivered without requiring more of his time",
+      "why_unmet": "The coaching model is built on the client filming workouts, sending videos and responding to check-ins. For a buyer whose binding constraint is hours, the core mechanism is a cost. Nothing in the offer scales down the client-side effort.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "The twelve-month pricing, in answer to a direct request to break down the investment options",
+      "why_unmet": "The rep raised the twelve-month option — 'if you feel like I want to go for 12 months, which is something that some people do' — and never stated its price, then asked which one worked better for him.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that the programme is worth it for someone who has already run this category before and found the format generic",
+      "why_unmet": "No differentiation was offered against the prior coaching programme he described in detail. The pitch delivered was the same three pillars given to every prospect in this batch, unadapted to a buyer who told the rep he already knows the format.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

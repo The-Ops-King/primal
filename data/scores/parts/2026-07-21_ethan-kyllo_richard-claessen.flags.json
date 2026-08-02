@@ -1,0 +1,25 @@
+{
+  "call_id": "2026-07-21_ethan-kyllo_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The $200/month community tier was quoted again as the bottom of a price ladder, described as 'at least 200 a month', which is neither of the two approved prices.",
+      "evidence": [
+        "Lowest that we have is a community with full programs that you can follow, also nutrition guidelines, live workouts every week, and that is at least 200 a month.",
+        "That's like the least amount that we have."
+      ],
+      "timestamp": "00:09:11"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization reverses the speakers across the height, weight and budget exchanges, which are the two passages that determine both the record and the disposition.",
+      "evidence": [
+        "00:03:35 - Richard Claessen (Primal Instinct): 150.",
+        "00:08:44 - Ethan Kyllo: Just be honest with me, like, what do you feel like is sort of the budget that you have set for yourself?"
+      ],
+      "timestamp": "00:03:33"
+    }
+  ]
+}

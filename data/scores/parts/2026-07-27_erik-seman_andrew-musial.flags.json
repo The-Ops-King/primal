@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-07-27_erik-seman_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 45-year-old with 22 years of sedentary desk work, who reports being out of breath climbing one flight of office stairs, was sold six months of loaded ballistic kettlebell training after a single question about injuries and no screening for health conditions, cardiac history, blood pressure or hereditary risk.",
+      "evidence": [
+        "Have some limitations in their movements, in their body? Is there anything that's happening for you? Any injuries or anything like, you know, lower back pains, hips, whatever?",
+        "I cannot stand going up the stairs to my office and, like, be out of breath. That's ridiculous.",
+        "I lost all my athletic abilities or anything, like, just because I was working and working.",
+        "when you are over 40, and you don't sleep well, or you don't sleep enough, you feel kind of like the whole body hurts"
+      ],
+      "timestamp": "00:08:39"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The call ends with the deal verbally agreed but payment uncollected, and the continuation session booked for 20:30 the same evening is not present in this batch, so the actual outcome cannot be verified from the corpus.",
+      "evidence": [
+        "It's loading, loading, loading, but it doesn't work.",
+        "Do I have to process it now or can I do it after the call and let you know?",
+        "So what time you're available today, later?",
+        "Okay, so see you at 8.30? 8.30, yeah, that's it."
+      ],
+      "timestamp": "00:44:13"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep made specific health and longevity claims as established science while presenting the offer, without qualification, to a prospect on whom no health screening had been performed.",
+      "evidence": [
+        "there are science studies on that, that strength, resistance, strength-resistant training, it's strictly correlated with our longevity",
+        "a grip strength is also kind of a factor of your lifespan",
+        "when you put it like in the intermittent fasting eating window, that's like a combination together with the workouts that allows our bodies to lose fat, like it becomes like a powerhouse for losing fat"
+      ],
+      "timestamp": "00:21:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "When the payment link failed for a technical reason outside the prospect's control, the rep declined the prospect's request to pay later and required him to obtain a different computer and reconvene the same evening.",
+      "evidence": [
+        "Do I have to process it now or can I do it after the call and let you know?",
+        "So that's the process because I need to have it on the call because I need to onboard you right after?",
+        "Well, it's going to take me some time to get a new computer when I go back home. So let's say 9 p.m. my time.",
+        "I'm actually having a meeting at 9 p.m. I could do 8.30."
+      ],
+      "timestamp": "00:44:13"
+    }
+  ]
+}

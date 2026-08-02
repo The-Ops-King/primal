@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-11_colt-campbell_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Delivered in full — onboarding call with Trevor, custom programme, weekly one-to-one check-ins, body-fat monitoring, plus a five to ten minute daily mobility block and the 'modern man syndrome' framing. Prospect answered only 'Yep. Okay.' and when asked 'Any questions on that part?' said 'No, not at.' Doubt surfaced later but on the time-efficiency claim, not the mechanics."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as two to four principles rather than tracking — intermittent fasting stepped from 12 to 10 to 8 hours, whole foods, a protein baseline. Asked 'Questions on that?' the prospect said 'No.' He later named simplicity as what stood out: 'He doesn't overcomplicate it. A lot of people that usually sell overcomplicate stuff.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered it unprompted as the main pro and tied it to his own failure pattern: 'Accountability, I mean, it works... they can kind of shut your brain off from assuming what it is... that kind of refrains you from going like in a downward, like depressive spiral thinking you aren't doing something right.' He engaged with the self-sabotage framing and gave two detailed examples when asked."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "Hell, for $6,000, I could hire a personal trainer that would do this with me, you know, hold me accountable, do all these other things for longer.",
+      "direction": "undercuts_price",
+      "competitor": "An unnamed local personal trainer in Toledo or Detroit",
+      "note": "The anchor is duration, not price — he is comparing $6,000 for six months against what a local trainer would give him over a longer period. The rep never asked whether this trainer existed or what they charged, so the anchor was never sized."
+    },
+    {
+      "type": "hourly_rate_math",
+      "raw": "he talks to me for, like, 45 minutes once a week on a video call... That's 18 hours. That's $6,000. I mean, that comes out to, what, almost $300, $400 an hour.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He priced the programme as contact hours and got to $300-400/hr. This is the most dangerous anchor on the call because it is arithmetic, and the rep answered it with an anecdote rather than by repricing the deliverable as a transformation plus a custom programme he keeps."
+    },
+    {
+      "type": "discretionary_spend_substitute",
+      "raw": "I could go to , I could go to Europe for, you know, two and a half, three weeks for six grand.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Sets $6,000 against a holiday, i.e. against pleasure rather than against the cost of staying as he is. The absent consequence frame is exactly what would have countered this."
+    },
+    {
+      "type": "existing_gym_time_cost",
+      "raw": "right now on a week in a week basis, I probably spent 10 hours in the gym. If I could cut that down to like a couple hours, I have an extra eight hours.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect built the ROI argument himself and later computed that the reclaimed time would let him pay for the programme in about a month. The rep picked this up but only after the price objection had already hardened."
+    },
+    {
+      "type": "high_ticket_familiarity",
+      "raw": "So I work for acquisition.com, Alex Ramosi's company, as a appointment setter, and I'm actually going to be a closer here soon.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect sells high-ticket for a living, has read the Hormozi books, and recognised the value-versus-hourly-rate reframe as it was being run on him — 'That's good. That's a good angle.' Price literacy cuts both ways here: it neutralised the reframe as much as it supported the number."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Evidence that roughly two hours of training a week can produce fat loss at the rate he is currently achieving on ten hours a week",
+      "why_unmet": "The claim was asserted repeatedly but never evidenced — no client results, no before-and-after, no mechanism beyond 'intense 40 minutes'. This was the one thing the prospect said kept it off a 10 out of 10, and nothing was produced against it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A short paid trial before committing to six months",
+      "why_unmet": "The offer is a six-month programme with no trial tier. The rep improvised a $1,200 one-month 'love it or leave it' to meet the demand, which the prospect then declined anyway.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Access to a peer group of ambitious, business-minded people, not just a coach",
+      "why_unmet": "He described in detail wanting to be around people 'moving forward in life and moving forward in business' after the cigar-lounge story. The rep asserted the programme delivers this — 'you're going to get around more of the people who are actually moving forward' — but the only community component named anywhere in the pillars is the Skool group, which was never mentioned on this call.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

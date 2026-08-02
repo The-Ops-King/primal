@@ -1,0 +1,124 @@
+{
+  "call_id": "2026-07-21_giulian-carcioppolo_richard-claessen",
+  "source": {
+    "drive_file_id": "17CuDTPpvGUVlZWO6ilKijN19DZl7orM1",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/21/2026 -  Giulian Carcioppolo x Richard Claessen",
+    "display_title": "07/21/2026 -  Giulian Carcioppolo x Richard Claessen — Follow Up",
+    "file_size_bytes": 57835
+  },
+  "call": {
+    "date": "2026-07-21",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 57,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Giulian Vito Carcioppolo",
+    "aka": null,
+    "name_source": "title",
+    "location": "Pennsylvania, USA",
+    "age": 27,
+    "occupation": null,
+    "family_status": "Girlfriend / fiancee, currently in Italy, a hip-hop and contemporary dancer; getting married soon",
+    "height_in": 71,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Gym weightlifting historically; last 4-5 months calisthenics only (pull-ups, push-ups) to protect the shoulder; trains every other day; stretches every morning; lost roughly 20 lb in the last 3 months",
+    "kettlebell_experience": "none",
+    "medical": "Right shoulder pain roughly 8 months, undiagnosed - self-speculates rotator cuff or scapula; 4/10 on waking, 6/10 with overhead movement. Traumatic brain injury from a snowboarding accident ~5 months ago causing Wernicke's aphasia; unable to speak for 2-3 months; no surgery; still attending speech therapy at a college 45 minutes away for 2-3 hours multiple mornings a week."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.55,
+    "signals": [
+      "Mid-recovery from an active neurological event - still in weekly speech therapy for post-TBI aphasia, not recovered from a past bad season",
+      "Explicitly names the accident as the motivator: 'I think that like the accident that I said. It motivated me a lot.'",
+      "Very high stated motivation and near-zero resistance to the concept, blocked only by cash and a partner conversation",
+      "Alternative reading is the_rebuilder, but the health event is active rather than behind him"
+    ]
+  },
+  "goals": [
+    { "text": "Get leaner and more toned, particularly around the stomach; athletic rather than bodybuilder build", "category": "appearance" },
+    { "text": "Build a stronger core so his body stays healthy and he avoids future lower-back problems", "category": "injury_prevention" },
+    { "text": "Improve flexibility and freedom of movement, self-rated 5/10", "category": "mobility" },
+    { "text": "Resolve the shoulder so he can do everyday things again, e.g. throw a ball at a carnival game with his girlfriend", "category": "hobby_performance" },
+    { "text": "Stay healthy and functional long term rather than getting injured as he ages", "category": "longevity_function" },
+    { "text": "Learn the underlying knowledge so it sticks after six months rather than falling off", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Right shoulder painful for roughly eight months; 4/10 on waking, 6/10 with anything overhead; cannot throw a ball properly", "category": "injury", "severity": "high" },
+    { "text": "Post-accident brain injury with Wernicke's aphasia; unable to speak for two to three months, still relearning language in therapy", "category": "medical", "severity": "high" },
+    { "text": "Has had to drop weightlifting entirely for four to five months and train with less resistance", "category": "training_barrier", "severity": "medium" },
+    { "text": "Historically inconsistent - 'I've always kind of did more, like, go to the gym every other week, and same thing, like the diet came, like, come and go'", "category": "consistency", "severity": "medium" },
+    { "text": "Has never used kettlebells and does not know how the equipment could help him", "category": "competence_anxiety", "severity": "low" },
+    { "text": "Carrying fat around the stomach he wants gone", "category": "training_dissatisfaction", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I don't want to say no or yes right now, because I have to get the money available, but I don't want to be another guy that just says, all right, I'll think about it, and then forget.",
+      "timestamp": "00:43:58",
+      "rep_response": "Isolated the objection ('outside of the investment, you feel like, yes, want to do this?'), asked what cash was available, and improvised a six-month instalment plan at $1,000/month, then restated it as $1,200/month because of interest",
+      "response_tactic": "isolate_then_structure_payment_plan_live",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I would have to talk to with my girlfriend and see that, like, you know, I'm good to go. And, like, we can, because we have money, like, we're getting married, something soon. So, all the money has to be. You know, available.",
+      "timestamp": "00:46:34",
+      "rep_response": "Did not run the scripted partner play; went straight to the deposit fallback - proposed a refundable $100 deposit to secure a slot and booked a follow-up call, framing it as putting commitment on himself",
+      "response_tactic": "refundable_deposit_to_secure_commitment",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Six monthly instalments; quoted first at $1,000/month then restated as $1,200/month 'because there's interest on top of that' - a $7,200 total. Rep added that paying the balance up front after a month or two would reduce the interest. Separately a refundable $100 deposit was taken on the call.",
+    "guarantee_mentioned": "No guarantee stated. The only refund promise was on the deposit: 'if it comes down to, well, it's actually not financial available at the moment, we just send the deposit back.'",
+    "prospect_financials": {
+      "available_now_usd": 1000,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly withheld a decision: 'I don't want to say no or yes right now, because I have to get the money available'",
+      "Needs his fiancee's agreement before spending: 'just to talk to her and just make sure'",
+      "A $100 refundable deposit was paid on the call and the rep confirmed receipt ('Yeah, I saw it come true'), but this is a deposit, not the programme purchase, and was explicitly returnable",
+      "Counter-evidence for a close: a payment link was sent and money changed hands, but there was no verbal agreement to move forward on the $6,000, so the verbal-agreement-plus-link rule does not apply",
+      "Follow-up booked for Friday same time, with the rep offering to jump on same-day if the partner conversation resolved before 7pm EST"
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_deposit_only",
+    "next_step": "Prospect calls his fiancee in Italy about the money and texts the rep; call booked Friday 9am ET, or sooner by phone if resolved before 7pm EST that day"
+  },
+  "notable": {
+    "note": "Two material clinical disclosures - an eight-month undiagnosed painful shoulder and a five-month-old traumatic brain injury with ongoing aphasia rehab - and at no point did the rep ask whether any clinician had cleared him to train, while promising the shoulder would improve and prescribing overhead-loaded kettlebell work. Pricing also drifted twice on this call: an interest-bearing instalment plan totalling $7,200 and a $100 deposit, neither of which is in the published $6,000/$9,000 structure. The rep also floated an undefined cheaper alternative ('Maybe we can get you started with something else')."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, especially in the second half. Whole rep turns are attributed to the prospect (e.g. the $6,000 price reveal at 00:42:29 and the pillar-confirmation questions at 00:35:44 and 00:38:01 are labelled Giulian). The prospect also has post-TBI aphasia, so his turns contain heavy disfluency and word-finding gaps which the transcriber sometimes renders as gibberish. Roles were assigned from content throughout."
+  }
+}

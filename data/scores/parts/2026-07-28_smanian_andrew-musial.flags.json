@@ -1,0 +1,101 @@
+{
+  "call_id": "2026-07-28_smanian_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved from $6,000 to $3,000 within roughly nine minutes of the first hesitation, via a half-price 'light version' tier invented live on the call and staffed by a different coach, with no financial-picture questions completed and no discount authority referenced.",
+      "evidence": [
+        "so to work with Trevor for six months, in order to get there, then the full investment is 6K",
+        "what I can propose is like a light version of the program which means that it's also six months everything is almost the same like trevor is also preparing the the program itself but day by day you're being coached by his head coach that he trained",
+        "and that's like half price of of working with Trevor one by one yeah so it's only 3k",
+        "But it's the same program, basically, like the weekly check-in.",
+        "it's just, it's not Trevor hands-on, it's his head coach."
+      ],
+      "timestamp": "00:49:48"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The half-price tier was characterised as substantially equivalent to the full programme even though it removes the coach whose videos and philosophy were the prospect's sole stated reason for making contact, and the substitute coach's credentials were never established.",
+      "evidence": [
+        "everything is almost the same like trevor is also preparing the the program itself",
+        "Does his head coach have a channel or a YouTube channel or anything like that, or is it just?",
+        "Oh, no.",
+        "Trevor, one of his videos, I don't remember which one, but just his raw philosophy just seemed to like, make sense to me.",
+        "you guys have done it. You guys are assuming in like, great shape ... you've reached a level that is, is I want to be at that level."
+      ],
+      "timestamp": "00:51:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep stated that pricing and payment terms are always fully customised to what the individual customer can afford, which contradicts the two fixed tiers of the stated offer and matches the undocumented 'fully custom' agreement seen on another call in the same batch.",
+      "evidence": [
+        "So we always, like, do it fully custom, depending on what's achievable, what's possible for the customer, yeah?",
+        "So depending, like, what cache on hand you have right now that you could put down, then the rest we can, you know, split into some installments.",
+        "Depending how you look at it. Like, if you pay it upfront, it's, you know, it's one-time payment. Or you can split it up."
+      ],
+      "timestamp": "00:48:05"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect volunteered a shoulder injury that had stopped him training for two weeks, and referred to recurring aches and pains; the rep never followed up on either and asked no injury, health-condition or movement-limitation question at any point before selling a programme built on get-ups and overhead pressing.",
+      "evidence": [
+        "I also hurt, I hurt like my shoulder wasn't feeling like it. So I stopped like two weeks, but then I picked it up again",
+        "I want to be strong and not have the aches and, you know, pains that I have sometimes",
+        "I got to the 32-kilogram bell, and I was doing, you know, swings, and one-arm swings, and the get-ups",
+        "each and every time we're going to be doing strength, conditioning, and mobility part, 30 to 40 minutes, three to four times a week"
+      ],
+      "timestamp": "00:13:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A third-party consumer credit product was offered to a prospect who had just described his household finances as shaky, with no provider named, no interest rate, no term and no total repayable disclosed beyond a vague acknowledgement that the total would be larger.",
+      "evidence": [
+        "Our situation, to be honest, is a little shaky in some ways. So that's why that's going to be tough.",
+        "Also, we could use the third-party financing option. If you're okay with paying a little extra interest, that's, that's something that you could, you know, explore.",
+        "That's going to be more digestible month to month, because that's... going to be like a few hundred dollars, but like in overall, it's going to be like a bigger sum.",
+        "I probably wouldn't do that just because I don't want to be paying the interest"
+      ],
+      "timestamp": "00:48:39"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep pre-emptively role-played the prospect's wife, scripting her objection to the children's school costs as 'blah, blah, blah' and framing her in advance as lacking context, before the prospect had spoken to her.",
+      "evidence": [
+        "I have a bad, bad news for you. Cause I know how this, yeah, yeah. I would know, I will know how this conversation with your wife, how it's going to go.",
+        "Hey, babe, I just got off the phone with somebody and a coach that I've been interested in working out with, and it's going to be $3,000 over six months. For what? Kettlebell training.",
+        "The thing that you're already doing by yourself, right? ... And you want to pay $3,000 for that. ... That's insane.",
+        "We have kids that need to go to school and blah, blah, blah, blah, blah, blah. There are going to be millions of other things.",
+        "You know why? Because she doesn't have the context."
+      ],
+      "timestamp": "00:52:47"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's name is never spoken by either party; he appears only as the Zoom handle 'smanian', so this record cannot be reliably matched to a CRM entry or deduplicated against other calls.",
+      "evidence": [
+        "00:00:04 - smanian",
+        "All right. The man, the myth, the legend.",
+        "Nice to meet you. Yeah."
+      ],
+      "timestamp": "00:00:11"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A warm prospect was left with a live discounted offer and no booked next step ahead of a two-week rep absence, so the outcome of this deal will not be attributable to any recorded call.",
+      "evidence": [
+        "Look, take your time. I'm going on vacation tomorrow. I'll be back in the second week of August, and we can pick it up there.",
+        "let me talk it over with her, then I can get back to you",
+        "I have a meeting coming up. So I was just, but at 12 years, I gotta, I gotta bounce."
+      ],
+      "timestamp": "00:55:12"
+    }
+  ]
+}

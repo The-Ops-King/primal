@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-05-02_ad-morris_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "No setter had spoken to him — 'You didn't speak with Kim' — so the read-back is N/A. Frame was again two-part: 'I just want to get a good idea of where you're at, you know? Get an idea of what your goals are. If everything then aligns, we can obviously talk about the coaching.' No 'what's in the way', no 'what you need'. Agreement was a bare 'All righty?' answered 'Sure.' Open question run verbatim."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "partial", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The baseline was barely run. Age never asked; height came from the application, not a question ('So yeah, six, one, geez, man'); weight and body fat were volunteered. Work was never asked at all despite the prospect naming it as the reason his nutrition attempts collapse ('I'd get busy with work and then it just goes out the window'). No health question, no injury question — the only injury signal on the call, knees that stop him running, was volunteered and never followed up. Sleep and energy absent. Training week and diet were the only two properly elicited."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "partial", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "Stopped dead at surface numbers. 'Where do you want to get to? Are you trying to get to like 8%, 12%, 10%, roughly?' and 'what are you trying to get to weight wise like 100?' is the entire goals phase — a body fat target and a scale target. Running and climbing were volunteered by the prospect, not elicited. The bridge question was never asked, nobody else's stake in the outcome was ever raised, and there was no reflect-back. This is a call where the rep knew the prospect's deadlift but not his why."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "'Why do you feel like you need a coach, dude?' is a decent adjacent question and it did surface the history — Pavel, Dry Fighting Weight, self-written 5-3-1, 'the programs seem too basic'. But the rep never asked why any of it failed to stick, never asked what the one thing in the way is, and never let the prospect name the gap. He had a highly self-aware prospect one question away from saying 'no progression and no accountability' out loud and did not ask it."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame of any kind. The prospect handed over the raw material unprompted — 'I don't want to stay on the trajectory... otherwise I'm going to end up like 120 kilos, and it just gets stupid and not very functional anymore' — and the rep answered it with a story about his 5'6\" mate who got to 100 kg. The two-year question was never asked."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check at all, in either direction. Price was named at 00:12 of a 25-minute call with no belief question and no all-in question preceding it. The nearest thing was the prospect volunteering his own commitment — 'I'm happy to commit and do what's necessary' — which the rep never converted into a yes he could hold him to."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted on the coaching offer — the rep withdrew it himself and recommended the self-guided product instead. Nothing was collected, no onboarding call, no agreement. The phase was never reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Money surfaced three separate times — 'I wasn't expecting it to be quite that much', 'I don't think I could swing that with Fife', 'don't make any decisions on financial things straight off the bat' — and not one move of OC ran. No isolate, no 'you're not in a SHOULD I place, you're in a HOW place', no offer to break it up, no permission for an honest financial conversation, and none of the six financial-picture questions. The rep's answer to money was to remove the price."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'My missus would shoot me' and later 'I don't think I could swing that with Fife' are the objection in substance. The rep answered the first with a joke about the Yorkshire Dales and the second by conceding. He never asked whether the partner would object to him being leaner and more functional, never asked whose decision it actually is, and never offered the deposit-and-refund fallback he used on the Parker Stratton call the day before."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Closing line was a textbook OA trigger — 'I'll have a think about it... I'll sleep on it'. The rep's full response was 'I can send you the link and if you want to do it do it if you don't that's fine.' None of the seven OA moves ran."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap of exactly the kind the playbook already logs from the Badrane Hriouch call. The prospect's anchor was a set of near-free substitutes that genuinely produced results — Pavel, Dry Fighting Weight, his own 5-3-1, a 200 kg deadlift to prove it — plus the company's own £147/mo product. There is no play for 'a cheaper alternative already worked for me', and the rep had no path other than agreeing with it."
+    }
+  ],
+  "notes": "Price was on the table at minute twelve of a twenty-five minute call, before a single question about work, health, injuries, sleep or why any of this matters to him — and then the rep argued the prospect's side of the money objection for him. Coach the order: nothing about price until Phases 3 to 6 have actually run, and when the answer is 'my missus would shoot me', that is the start of the OB play, not the end of the call."
+}

@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-09_manish_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Engaged with the mechanics rather than just accepting them. He proposed his own schedule (\"one day I will do the exercise... and then Tuesday, I'll go and shoot hoops for an hour\"), asked how upper and lower body balance works (\"I don't want to get too strong in the upper body that then the lower body is now prone to injuries\"), and asked the direct safety question: \"That's okay with the jumper's knee? It's gonna make it worse?\" He then confirmed he could stick to it — \"I can definitely stick to it, man. Like, easy. There's no reason to not do it.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Already moving in the same direction and said so — two meals a day, more protein and fibre — and accepted the protocol with a caveat that he mostly understands it: \"I feel like from a nutrition perspective, I think I understand it. But obviously, like if you have, I'll take all the info I can get.\" On the deficit mechanism: \"Yeah, hope so. Yeah.\" No questions on how it would be built."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest reaction on the call, and it was to the business model rather than the mechanics. He had raised a suspicion first — \"it's not like Trevor's business model is to keep me paying for the rest of my life?\" — and on hearing the six-month teach-to-fish answer: \"that sounds good man because I'm just like I'm not into that kind of business model... I'm glad that you guys aren't like that either because if you said something like that I would probably just walked off right now. Because I want to work with someone who actually genuinely wants the best for their clients.\" He also volunteered approval of the 24-48 hour response commitment."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I saw somewhere online that it was like 200 USD a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The fifth appearance of the $200/month anchor across this batch — it has now come up on three live calls and twice in internal training. Prospects are finding this number before they ever speak to a closer, and it is 30x below the offer. Notably the rep confirmed it exists (\"Yeah, that's true\") which validated the anchor rather than reframing it, and the prospect returned to it later (\"What is that $200 a month thing?\")."
+    },
+    {
+      "type": "own_valuation",
+      "raw": "If I get to a point where I can work the way I want to work and be as productive as I want to be, then 10K is like nothing, man. It's like a dent. It's barely a dent, right?",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He argued the value case himself and unprompted, and separately confirmed the worth check without hesitation (\"100%. It'll be worth it. There's no doubt about it\"). Value was never the issue on this call — liquidity was, and only liquidity."
+    },
+    {
+      "type": "existing_clinician",
+      "raw": "I've gone to physio, I'm looking at strengthening my flexors and strengthening the muscles around the knees",
+      "direction": "supports_price",
+      "competitor": "Physiotherapist currently treating him",
+      "note": "He already pays a professional for exactly the body part in question, which establishes a willingness to pay for expert help. It also means there is an existing clinician with an opinion on loaded ballistic training for his knee — never contacted, never suggested."
+    },
+    {
+      "type": "no_savings",
+      "raw": "because we've had like a bit of a turbulent lifestyle for the past few years, we don't have that kind of money saved up",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Hard constraint rather than resistance. He describes himself as at the start of his financial journey and supporting a wife and dogs on comedy-adjacent income plus part-time dentistry. His income is elastic by choice (\"if I need more money, I'll just work a bit more\") which is why he is a genuine follow-up rather than a loss."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Confirmation that loaded kettlebell training will not worsen a patellar tendinopathy currently under physiotherapy",
+      "why_unmet": "He asked the question outright and received a sales reassurance rather than a clinical answer. Whether the programme can safely accommodate an active tendinopathy is genuinely unknown from this call, and the physiotherapist already treating it was never mentioned as a route to finding out.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A true monthly payment option matched to income as it arrives",
+      "why_unmet": "He said explicitly \"I thought it would be a monthly thing, which would work with me. Because as I'm making money, I could pay stuff off monthly.\" The nearest available structure is six instalments at a 20% surcharge ($7,200), which he could not fund either. Between a $200/month community product and a $2,000-per-payment one-to-one programme there is nothing.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Something that covers his wife, who is independently trying to transform her body",
+      "why_unmet": "He raised it as a plan to work around the gap rather than a request — \"I told her that anything I learn, I'll probably teach her as well. I'm guessing that's okay, right?\" — and the rep confirmed \"of course.\" There is no partner or couples structure, so a second buyer sitting in the same house is being served for free by design.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Protocols for managing the body around sport — warm-ups, warm-downs, recovery between basketball sessions",
+      "why_unmet": "Named in his opening answer (\"I just want to know the right protocol, like, what is the right warm ups, right warm downs... I just want to know how to manage the body with sports more\") and never addressed in the presentation, which covered training, mobility and nutrition only. The programme may well cover it; nobody said so.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

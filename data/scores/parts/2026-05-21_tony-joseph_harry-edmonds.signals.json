@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-21_tony-joseph_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "Never delivered. The only description of the programme in the entire call was a load statement: 'Typically, we say three, four days a week of training' — which functioned as a barrier rather than as a pitch." },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Never delivered, despite the rep establishing that weekend eating is the prospect's clearest deficit ('I'm definitely over the calories that I should be having')." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Never delivered. The prospect's stated fear was that he would start and get bored in a few months, which is precisely what the accountability pillar exists to answer, and it was not offered as an answer." }
+  ],
+  "anchors": [
+    {
+      "type": "free_alternative",
+      "raw": "after I registered, I noticed that the Instagram page had a lot of videos on how to do yourself and things like that. So I was slowly going to start again. something from amazon and start myself",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's Instagram and YouTube content",
+      "note": "The prospect had already found the free substitute before the call, and the rep then explicitly endorsed it as the recommended route: 'do two kettlebell sessions a week. Follow the stuff on Trevor's Instagram or on his YouTube.' The free content is functioning as a competitor to the paid programme inside the sales call itself."
+    },
+    {
+      "type": "self_directed_track_record",
+      "raw": "I was quite 92 a year and a half ago. I got to 86, I think last year... And it was not me planning and setting, huh, I'll reduce this much weight. I was just consistent in what I'm doing. And that gradually showed up",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most powerful undercutting anchor available to any prospect: proof that the free, unstructured approach already works for him. Eight kilos lost with no coach, no plan and no cost. Unaddressed."
+    },
+    {
+      "type": "existing_provider",
+      "raw": "alternatively I try to go for like 30-40 minutes at the gym",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "An existing gym habit plus 6,000-8,000 daily steps from work already occupies the activity slot at near-zero marginal cost. Never priced or contrasted."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A low-commitment on-ramp — one or two 20-minute sessions a week to build confidence before scaling up",
+      "why_unmet": "The programme requires three to four days a week for six months and there is no smaller entry point; the rep stated the load as a qualifier and offered no alternative. The prospect described exactly the product he would buy and it does not exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Something that survives a schedule with 4am starts, 2am finishes and weekly travel between three emirates",
+      "why_unmet": "Never addressed. No flexibility, pause, or minimum-viable-week mechanism was described, and the only load statement made was a fixed frequency.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Progress without goals or deadlines — 'I want to make it like a part of my lifestyle... without me focusing particularly on the end goal'",
+      "why_unmet": "The programme's structure, the guarantee and the whole sales process are built on targets, weekly metrics and commitment framing. This is a genuine mismatch between what the buyer wants psychologically and how the product is built and sold.",
+      "verdict": "product_gap"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-19_donny_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The three-step process was never delivered. The prospect asked for the price at 00:09:33 — 'kind of like the bottom line up front would be like, what is the cost and how does that work' — and the rep went to the number without walking the pillars. The nearest thing to a training pitch was a one-sentence summary: 'easing back into a workout routine and giving you a plan that's simple to follow and incorporating kettlebells and building up the strength and cardio at the same time.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep established the prospect follows no nutrition plan at all and mentioned 'maybe cleaning up the eating' in passing. The prospect later ruled it out himself when choosing the cheaper product: 'I can clean up my diet on my own, so I don't need that either.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered as a pillar. Accountability was the prospect's actual gap — two years of nothing, no plan, a generic template from a previous trainer — and it was never presented as something the programme provides. He ended up buying the product that has none of it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "I know, I know it's not cheap, obviously, or it would be just posted there somewhere in the video or email.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: unpublished_price_inference. He arrived expecting a high number precisely because the price is not published, which is a supportive anchor and the rep had it for free. It was never built on — no range framing, no comparison, no value scaffold before the number landed. Contrast with the Jay Moreno call, where the same instinct produced a $15,000 expectation and a close-ready prospect."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I've done a couple personal training sessions, but last time I went to a gym, they, you know, they do the assessment workouts. And then give you a generic workout plan that was kind of, I think they just use a generic one that they give to everybody.",
+      "direction": "undercuts_price",
+      "competitor": "Commercial gym personal training",
+      "note": "His only paid reference point is a few gym PT sessions that produced a template. That sets both a low price expectation and a low expectation of what paid coaching delivers. The programme's genuine differentiator — custom programming from Trevor rather than a template — answers this objection directly and was never used, because the pillars were never presented."
+    },
+    {
+      "type": "other",
+      "raw": "I'm trying to work down some debt as well. So adding, adding six to it, isn't going to help.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: existing_debt_position. A disclosed debt load is the single most decision-relevant financial fact on the call and it drew no follow-up at all — no amount, no timeline, no question about whether it was consumer or structured. Under the open-wallet script this is the exact point where the financial picture opens; instead it closed the conversation."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A structured kettlebell programme without nutrition coaching, at a low monthly price",
+      "why_unmet": "Actually served, and this is the one call in the batch where the downsell matched the request precisely. He asked for it — 'I can clean up my diet on my own, so I don't need that either. So if it's just the workouts, and is it a program, or is it just like a bunch of random workouts?' — and Primal University at $199/month is that product. Recorded because the same want was refused as an unbundling request on the Vance call, where it was met with 'we don't really subtract it and then lower the prices'.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Programming that works around a reconstructed ACL and a shoulder that cannot tolerate pressing",
+      "why_unmet": "The coached programme can substitute movements — that capability was described to other prospects in this batch — but it was never described to this one, and he was routed to a self-directed library where no one adapts anything or reviews his form. The one feature that most justified the higher tier for this specific prospect went unmentioned.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Something he can train with during a month in Europe without kettlebells",
+      "why_unmet": "He raised the constraint directly — 'I'm gone pretty much all of August ... I won't have kettlebells or anything'. The coached programme handles exactly this by adapting workouts and incorporating calisthenics, as explained on other calls. On a self-serve video library it is unaddressed, and the risk is that his subscription runs through a month he cannot use it.",
+      "verdict": "product_gap"
+    }
+  ]
+}

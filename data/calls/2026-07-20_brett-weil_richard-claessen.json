@@ -1,0 +1,143 @@
+{
+  "call_id": "2026-07-20_brett-weil_richard-claessen",
+  "source": {
+    "drive_file_id": "1u18mFTgISG9d4aQo7PqoAX4-UpJshMhf",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/20/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/20/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 20021
+  },
+  "call": {
+    "date": "2026-07-20",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 15,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. The prospect came in directly through Trevor: 'this all started because I asked Trevor, like, just what is the program cost? And he was like, he wants to do a full orientation.' An application form was completed — 'I see that you already filled a few things in your form'."
+  },
+  "prospect": {
+    "name": "Brett Weil",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "East Hampton, Long Island, New York, USA (normally New York City)",
+    "age": 40,
+    "occupation": "Tech investor; travelling to Paris for work the same evening",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": 176,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-time runner who used running as his primary cardio. Put on more weight than ever before after an injury and a period of letting things slide, reaching 192 lb around New Year. Since then has changed diet, changed training, used a GLP-1 and returned to 176 lb — his best shape ever. Now lifting compound movements in a circuit format to keep his heart rate up, and has recently bought kettlebells and been copying Trevor's exercises off TikTok and YouTube. Also has a Peloton subscription with kettlebell content available. Describes himself as disciplined on food, sleep and alcohol.",
+    "kettlebell_experience": "some",
+    "medical": "Left shoulder injury with a tear, surgery planned but deferred — 'I have a torn. At some point, I'll do the surgery, but I'm just not doing it now.' He self-manages by avoiding certain movements on that side. Also currently or recently on a GLP-1 medication for weight loss. Describes himself as not flexible and never having been. No clinician contact was asked about."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.82,
+    "signals": [
+      "Explicitly good-to-great: 'I'm in the best shape and condition that I've been in. I'm just trying to level up.'",
+      "Already successful and time-poor — a tech investor taking the call from a garden between work commitments before a flight to Paris",
+      "Self-directed and disciplined: 'pretty disciplined in what I'm eating, pretty disciplined around my sleeping, drinking less, working out a lot'",
+      "Wants programming rather than motivation — 'perhaps it could help a little bit on motivation, but I think I'm good there'",
+      "Counter-signal that keeps confidence below 0.9: price behaved as a barrier rather than a quality signal here. He heard $6,000 and disqualified himself inside thirty seconds — 'that's more than I'm, like, totally transparently' — which is not the classic optimizer response."
+    ]
+  },
+  "goals": [
+    { "text": "Get from 176 lb to around 170 lb, which he expects to mean lower body fat and more muscle", "category": "fat_loss" },
+    { "text": "Look more toned and defined — 'look more like Trevor does'", "category": "appearance" },
+    { "text": "Get stronger, which he sees as increasingly important with age and testosterone decline", "category": "strength" },
+    { "text": "Be given a plan so that programming is one less way to fail — 'if I could just be given a plan and follow it, you take away one way that I can fail'", "category": "convenience" },
+    { "text": "Keep training varied so he does not get bored and hit diminishing returns", "category": "consistency" },
+    { "text": "Keep building on the momentum from his turnaround — 'if you're not moving forward, you're going to end up stagnating and move back'", "category": "sustainability" },
+    { "text": "Train efficiently and get out — 'I don't love going to the gym, so I want to get out of there'", "category": "convenience" },
+    { "text": "Avoid making the torn left shoulder worse", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Torn left shoulder with surgery deferred, restricting which movements he can do", "category": "injury", "severity": "high" },
+    { "text": "Boredom with his own repeated self-made workouts and the diminishing returns that follow", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Cannot design his own programming — 'I don't feel like I can make up my own exercises'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Poor flexibility — 'I'm not that flexible. I've never been that flexible'", "category": "training_barrier", "severity": "medium" },
+    { "text": "Dislikes gyms and wants minimal time in them", "category": "training_barrier", "severity": "low" },
+    { "text": "Aware of age-related decline at 40, including testosterone", "category": "aging", "severity": "low" },
+    { "text": "Heavy work travel — flying to Paris the same evening and away for several days", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "I mean, I think this all started because I asked Trevor, like, just what is the program cost? And he was like, he wants to do a full orientation. Maybe we just start there. Like, what does the program cost?",
+      "timestamp": "00:09:55",
+      "rep_response": "Complied. Gave a short summary of what he had heard back, then quoted a range: 'at least in the four figures, usually around like 2,000 to 6,000 USD for six months, more so to the upper end of that scale.'",
+      "response_tactic": "comply_and_quote_a_range",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "So you're saying 6,000 for six months, it's $1,000 a month to basically get access to Trevor. Yeah, that's more than I'm, like, totally transparently.",
+      "timestamp": "00:10:47",
+      "rep_response": "Agreed immediately and did not attempt to isolate, reframe or defend the price. Within a minute he had pivoted to Primal University at $200 a month.",
+      "response_tactic": "concede_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "I mean, may not be the right fit. I mean, he's sort of now, I imagine, you know, you get a lot of inquiries. And he's now got a very public persona, so that's great for him that he's able to monetize in that way, but I think I'm probably not the right...",
+      "timestamp": "00:10:52",
+      "rep_response": "Accepted the self-disqualification and agreed with it — 'exactly' — then offered the cheaper tier, framing the early disclosure as respecting his time.",
+      "response_tactic": "accept_self_disqualification",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Can you send, can I try it out for like, I don't know, a month or two weeks or something like that? And then if it works out, I'll sign up.",
+      "timestamp": "00:13:47",
+      "rep_response": "Explained there is no trial as such but that a month can be bought and cancelled, then asked when he would decide and accepted a one-week timeline.",
+      "response_tactic": "reframe_month_as_trial_then_set_decision_date",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200 },
+      { "months": 6, "price_usd": 1000 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.84,
+    "close_rule_applied": null,
+    "evidence": [
+      "Clear positive signal on the cheap tier: 'That sounds better' and 'That's exactly what I want. That's the price range I want.'",
+      "But no payment was taken, no link or details were sent on the call, and he asked the rep to send them afterwards: 'will you send me the details of that, and then I can consider it?'",
+      "A decision timeline was agreed: 'this time next week, I'll probably be in a position to make a decision one way or the other'",
+      "The core $6,000 offer is dead and he disqualified himself from it explicitly — 'I think I'm probably not the right [fit]' — so any conversion would be to a $200/month subscription",
+      "He is travelling to Paris for work for several days immediately after the call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send details of Primal University; prospect to decide within about a week, with the option of a single month at $200 or $1,000 for six months."
+  },
+  "notable": {
+    "note": "This is the closest fit to the stated ICP in the entire batch — a 40-year-old tech investor in the best shape of his life, explicitly wanting good-to-great — and he was off the core offer inside thirty seconds of hearing the price, with no attempt made to hold it. It is also the fourth different price structure this rep has quoted in four days: the six-month programme was described as a range from $2,000 to $6,000, and Primal University was offered at both $200 a month and $1,000 for six months. Clinically, he disclosed a torn left shoulder with surgery deferred and was routed to the tier with no coach supervision, with no question asked about what he has been told he can and cannot do."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion of alternating turns. The prospect's occupation answer at 00:01:07 ('I am a tech investor') is attributed to the rep, the rep's price quote at 00:10:25 runs under his own label but the prospect's reply is split, and the entire exchange from 00:11:28 to 00:13:11 has the rep's Primal University pitch and the prospect's questions swapped. There is also a dropout between roughly 00:02:00 and 00:02:45 during which the prospect was speaking and was not recorded — 'You just got out for like the whole time. I only just started hearing you again' — so part of his opening narrative is missing from the file."
+  }
+}

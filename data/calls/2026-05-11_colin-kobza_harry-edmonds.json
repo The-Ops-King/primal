@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-05-11_colin-kobza_harry-edmonds",
+  "source": {
+    "drive_file_id": "1q5H7mE2WKxAqqPceR8WjGFJuJQk10Wdn",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/11/2026 - Colin Kobza x Harry Edmonds ",
+    "display_title": "05/11/2026 - Colin Kobza x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 23294
+  },
+  "call": {
+    "date": "2026-05-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 21,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "No setter code in the title and no setter referenced on the call. The rep opened with 'I saw your application', indicating this came through an application rather than a setter conversation."
+  },
+  "prospect": {
+    "name": "Colin Kobza",
+    "aka": null,
+    "name_source": "title",
+    "location": "Alberta, Canada (Mountain time); lived in Cabo San Lucas, Mexico from 2020 for four years",
+    "age": 45,
+    "occupation": "Online and digital marketing with his wife; formerly a distributor for Enagic, the Kangen Water company. States 'we built online programs.' His wife runs events.",
+    "family_status": "Married; two children, both described as really active",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Played minor professional hockey and came close to the NHL. Training has been part of his life since about fifteen, with periods on and off since. Currently gets himself to the gym without difficulty but has no structure for kettlebell work. Does splits, around-the-worlds and halos picked up from reels. Has bought several roughly $20-a-month programme apps. Follows Joe Rogan and Gary Brecca content. Has spent the last six months focused on restoring body mechanics and core strength.",
+    "kettlebell_experience": "some",
+    "medical": "No conditions disclosed and none asked about. Volunteered a history of accumulated wear from his hockey career — 'the big thing that I needed to change in my body is I was always sore. And I know I'm going to be sore, like, I beat the living piss out of my body for years.' No injuries, diagnoses or current limitations were established."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.75,
+    "signals": [
+      "Anchored to cheap alternatives that have served him — 'I've bought a couple of little things on like, you know, say $20 a month apps'",
+      "Self-directed and needs no external motivation: 'I make my way to the gym and I just want to have a plan'",
+      "Declined coaching before it was presented — 'I don't know if I need a health coach... I'm just looking for a program'",
+      "Evaluates the product as a producer rather than a consumer: 'we built online programs. I get the re[sources]... there's a lot of resources in this program for sure'",
+      "Explicitly price-conscious at the decision point: 'obviously want to be mindful of money I spend'",
+      "Counter-signal: warm, generous and complimentary throughout — the scepticism is commercial rather than personal"
+    ]
+  },
+  "goals": [
+    { "text": "Get a laid-out kettlebell programme and structure — a plan telling him which day to do what", "category": "other" },
+    { "text": "Strengthen his core and restore body mechanics", "category": "strength" },
+    { "text": "Stop being constantly sore after years of hockey", "category": "injury_confidence" },
+    { "text": "Be able to move with his two active children", "category": "family_role_model" },
+    { "text": "Keep moving well into middle and later life — not be a 55 or 65-year-old who cannot move", "category": "longevity_function" },
+    { "text": "Train the body as a system rather than in isolation", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Chronic soreness from a career of contact sport — 'I beat the living piss out of my body for years'", "category": "injury", "severity": "medium" },
+    { "text": "Does not know enough about kettlebells to programme them himself", "category": "competence_anxiety", "severity": "high" },
+    { "text": "No structure — has been picking up movements from reels with no plan", "category": "other", "severity": "high" },
+    { "text": "Has come and gone with training over thirty years", "category": "consistency", "severity": "medium" },
+    { "text": "Fears becoming immobile as he ages and being unable to keep up with his kids", "category": "aging", "severity": "high" },
+    { "text": "Finds isolation work limiting compared with full-body training", "category": "training_dissatisfaction", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "And I understand, like, you know, I understand the program, like, you know, I like coaching is key, but no, I, and I, I don't, I don't mean to be, uh, say this inherently. Like, I just, I don't know if I need a health coach.",
+      "timestamp": "00:09:10",
+      "rep_response": "Agreed immediately and steered toward the cheaper product before either had been presented: 'Okay. That's good. Well, you'll save some money then.' The coaching was never presented, defended or re-offered at any point in the call.",
+      "response_tactic": "concede_and_route_to_low_tier",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Let me ponder it, you know, because there is some pretty good programs out there. Like, you know, there's really good programs, and I'm just kind of just, you know, obviously want to be mindful of money I spend and stuff, and, you know, but I do see the value in the program, for sure.",
+      "timestamp": "00:20:55",
+      "rep_response": "No attempt to hold the conversation. 'Yeah, I'll send you the link for it, and then you can check it out. If you want to do it, do it. If not, that's fine as well.' Nothing scheduled.",
+      "response_tactic": "concede_and_send_link",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "price_quoted_cad": 8200 },
+      { "months": null, "price_usd": 199, "price_quoted_cad": 270, "terms": "per month, Skool self-guided community, monthly recurring with no commitment period" }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no link sent on the call, nothing scheduled and no date agreed",
+      "Prospect deferred explicitly: 'Let me ponder it... obviously want to be mindful of money I spend'",
+      "Rep placed the entire onus on the prospect — 'I'll send you the link for it... If you want to do it, do it. If not, that's fine as well. You can just sign up on the link.'",
+      "Positive but non-committal toward the community only: 'I do see the value in the program, for sure' and 'there's a lot of resources in this program for sure'",
+      "Counter-evidence for reading this as lost: the coaching was declined by the prospect before it was presented — 'I don't know if I need a health coach' — and the rep never attempted to sell it, so on the audited offer this is closer to a refusal than an open conversation",
+      "Counter-evidence for reading this as follow_up: he named a competing set of options he wants to weigh, which is a live comparison rather than a decision"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a Skool community sign-up link. No call, date or commitment agreed."
+  },
+  "notable": {
+    "note": "The offer under audit was abandoned ninety seconds after the opening question. The prospect said he was looking for a programme rather than coaching, and the rep's immediate response was 'that's good, well, you'll save some money then', after which the coaching was never mentioned again except as a price comparison. No baseline, no goals work, no consequence frame and no commitment check ran at all — the call was rapport for nearly seven minutes, a price comparison, and then a fifteen-minute screen tour of the community app. Both prices were quoted only in Canadian dollars, with the rep audibly guessing the conversion before looking it up. This is the third call in four days on which the low tier was presented, and the second on which it displaced the coaching entirely."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. The rep's frame and open question at 00:06:49 to 00:07:08 are split so that 'What was it that you were hoping we could potentially help you out with, man?' sits under the prospect's label. The entire pricing passage from 00:09:57 to 00:11:03 runs both speakers together under one label, including the rep talking himself through a currency conversion. Further inversions at 00:13:17, 00:14:33 and 00:20:25 to 00:21:17. Role was read from content throughout. Note also that the prospect states his age twice with different values — 'I'm 45 now' at 00:07:08 and 'I'm 46 now' at 00:13:18 — and 45 has been recorded, with the discrepancy possibly a transcription artefact."
+  }
+}

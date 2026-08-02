@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-07-14_personal-vlog_andrew-musial",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A personal travel vlog containing no prospect and no company content is filed in the rep's sales-call folder under the same generic title as nine genuine sales calls in this batch, and is large enough to pass a size-based junk filter.",
+      "evidence": [
+        "07/14/2026 - Impromptu Zoom Meeting",
+        "00:04:51 - Speaker 2 I'm here, I'm here, I'm I'm here, I'm I'm I'm I'm here",
+        "A to jest, moi drodzy, moja kuchnia, która raczej będzie wykorzystywana w warunkach awaryjnych.",
+        "dzisiaj polecimy sobie już bezpośrednio przez całą Austrię do Słowenii, do miejscowości Bled, jakieś 5 godzin 19 minut jazdy przed nami"
+      ],
+      "timestamp": "00:03:36"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The meeting recorder captured extended personal, non-business content — including third-party commercial promotion and a discount code for the rep's own vlog channel — which is now stored in a company Drive folder under his name.",
+      "evidence": [
+        "A no i jeżeli chodzi o liomi, to napisali mi, że miło im będzie, jeżeli wrzucę ich na vlogaska",
+        "na hasło vlogcasza na ich stronie dostaniecie zniżkę, wysyłka jest naprawdę bardzo szybka",
+        "Zapraszam was na timelapsika z przejazdu po Austrii i widzimy się później.",
+        "ja już chyba jestem na tym etapie w życiu, że..."
+      ],
+      "timestamp": "00:04:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Transcription of this file has failed comprehensively — Polish speech is rendered as Portuguese in long passages, a repetition artefact runs for dozens of tokens, and the recording does not begin until 00:03:36.",
+      "evidence": [
+        "00:03:36 - Andrew Jin (Primal Instinct) Thank you.",
+        "Então, aqui, de adeus, que eu vou me mudar para o cabelo de casha, e feito um entrego de adeus",
+        "Eu não sei se, como me ainda mais gostei. Eu vou fazer algum tempo por mais uma eu não precisaria, partir de poluição."
+      ],
+      "timestamp": "00:04:51"
+    }
+  ]
+}

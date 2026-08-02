@@ -1,0 +1,115 @@
+{
+  "call_id": "2026-07-10_sourav-kumar_michael-brideau",
+  "source": {
+    "drive_file_id": "1hWTo1PzfalS7AsA2eDNQRGILW6CMStEq",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/10/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/10/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 22089
+  },
+  "call": {
+    "date": "2026-07-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 18,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named. The rep worked from a written application: 'I read your application. I have a bit of a headstart on you.'"
+  },
+  "prospect": {
+    "name": "Sourav Kumar",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Odisha, eastern India",
+    "age": 29,
+    "occupation": "Government organisation, desk job, 10:00 to 17:30, sitting all day",
+    "family_status": "Married three months, an arranged marriage; had known his wife around five to six months",
+    "height_in": 68,
+    "weight_lb": 138,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained push-pull-legs six days a week in a small home gym for about a year and saw results in muscle but none in the joints. Stopped four to five months ago for reasons he twice referred to only as personal. Currently restarting, five days a week, plus ten to fifteen minutes of morning stretching he describes as light yoga. Owns a kettlebell but has never used it the way Trevor's videos show. Weight was stated as '62.57', converted here from kilograms.",
+    "kettlebell_experience": "none",
+    "medical": "Rheumatoid arthritis — an autoimmune inflammatory joint disease — which he raised in his first answer as the reason he wants to train. Active joint pain in the right shoulder, both knees and sometimes the hips, worse in winter. Describes trembling in the joints under pressure and says the condition limits both his training and his day-to-day life: 'I can't do heavy loads.' A year of resistance training did not improve it. No medication, rheumatologist, disease activity or treatment history was asked about or disclosed."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.65,
+    "signals": [
+      "Training is explicitly the treatment, not the goal: 'The sole reason of my working out was because I wanted to let the pain go away.'",
+      "He is inside an active, ongoing condition rather than recovering from a past one — pain in shoulder, both knees and hips, worse in winter, with joints that tremble under load.",
+      "He researched his way to kettlebells himself as a therapeutic route: 'When I get into the YouTube, I'm gonna try to look everywhere. How can I help with my joint to get stronger. So that's how I got up with kettlebells.'",
+      "The archetype's warning applies exactly — motivation extremely high, and clinical screening is the thing that matters most.",
+      "DIVERGENCE: unlike the archetype he did show price resistance, and it is what ended the call. Rheumatoid arthritis is also chronic rather than an acute event like surgery or a new cancer diagnosis. the_medically_constrained was considered and rejected because no clinician appears anywhere in this call — nobody was consulted, so nobody blocked him."
+    ]
+  },
+  "goals": [
+    { "text": "Strengthen the shoulder, knee and hip joints so they stop giving way under pressure", "category": "injury_confidence" },
+    { "text": "Reduce or eliminate the rheumatoid arthritis joint pain, which a year of weight training did not touch", "category": "other" },
+    { "text": "Build a good physique and look good shirtless", "category": "appearance" },
+    { "text": "Cut training down from an hour and fifteen minutes to twenty or thirty minutes maximum", "category": "convenience" },
+    { "text": "General health, framed as 'health is wealth. It's the most important wealth that any man or woman can have'", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Rheumatoid arthritis with active joint pain in the right shoulder, both knees and sometimes the hips, worse in winter", "category": "medical", "severity": "critical" },
+    { "text": "Joints tremble under load and he cannot lift heavy — 'due to this joint pain, my working out is limited. My working day-to-day life is kind of limited.'", "category": "injury", "severity": "high" },
+    { "text": "A full year of push-pull-legs built muscle and did nothing at all for the joints", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Has no idea what would actually help — 'I don't know how to get help with my joints getting stronger, you know?'", "category": "other", "severity": "high" },
+    { "text": "Stopped training entirely four to five months ago for reasons he twice declined to name", "category": "consistency", "severity": "medium" },
+    { "text": "Desk-bound from 10 to 5:30, sitting all day", "category": "training_barrier", "severity": "low" },
+    { "text": "Sessions of over an hour are more time than he is willing to spend", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "400,000? Yeah. Yeah. Oh. Right. It's actually a very big money. It's a big amount in our currency.",
+      "timestamp": "00:16:54",
+      "rep_response": "The rep had raised the affordability question himself, unprompted, framed on national income — 'I know that in India, like, income's a little bit different than in the United States'. On hearing the reaction he confirmed the disqualification rather than exploring anything: 'Would that even be possible for where you're at right now? Or is that just a little bit outside of the budget?' No financial picture was taken. He then offered Primal University at 'just a couple hundred bucks a month'.",
+      "response_tactic": "preemptive_disqualify_then_downsell",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 4000 },
+      { "months": null, "price_usd": 10000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Asked directly whether the price could work, the prospect said 'Yeah, it's actually outside the budget.'",
+      "The rep disqualified rather than working it: 'I figured I'd just kind of be upfront with you on where does that pricing wise' and 'probably the best bet... I would maybe just keep watching his videos.'",
+      "COUNTER-EVIDENCE: intent was extremely high throughout and never wavered. The prospect had researched his way to kettlebells, already owned one, and named the programme as his only idea for fixing his joints.",
+      "COUNTER-EVIDENCE: no financial facts were ever established. Income, savings, monthly surplus and credit were not asked about; the affordability judgement rests entirely on the prospect's reaction to a rupee conversion.",
+      "The rep offered to text a Primal University link at 'just a couple hundred bucks a month'; the prospect said 'Okay, okay, cool' and nothing was purchased on the call."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Rep to text a Primal University link. No follow-up call booked; the prospect was told to text with questions."
+  },
+  "notable": {
+    "note": "The clearest clinical case in the batch. The prospect opened by naming rheumatoid arthritis as the entire reason for the call and asked the rep directly whether he knew what it was. His belief — that kettlebell training will strengthen his joints and make the arthritis pain go away — went uncorrected and was affirmed: 'I think it's a great fit.' The only screening question was leading and closed: 'But the joint pain, like you can still work out even though you have the joint pain, right?' No rheumatologist, medication, disease activity or flare history was ever asked about. Separately, the pricing quoted here matches nothing in the offer: 'Trevor's coaching can be anywhere from 4,000 USD all the way up to, like, 10,000 USD, depending on how we set it up', converted live to roughly 400,000 rupees. And the affordability conversation was opened by the rep on the basis of the prospect's country before a single financial fact had been established."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Shorter and cleaner than the other files in this batch but still inverted at several points: 00:05:37 puts 'Walk me through your current workout routine' under the prospect label, 00:12:40 and 00:16:11 place rep questions inside prospect turns, and the rep's protein recommendation at 00:14:51 is attributed to the prospect. Some of the prospect's speech is garbled by the transcription, and the rep twice asked him to repeat himself. Roles read from content."
+  }
+}

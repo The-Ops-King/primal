@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-05-04_paul-bionaz_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep moved from the prospect's opening answer straight to a screen-share of Primal University at 00:05:13, and the only product description given was of that lower-tier product: 'a complete kettlebell and mace system. You get a step-by-step technique breakdown, a full A-to-Z as to how to progress.' The two-programme structure, the 3-4x30min frequency, the daily mobility block and the film-and-review feedback loop were all omitted."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered, and the omission is conspicuous. The prospect had just described several weeks of severe caloric deficit with substantial muscle loss and a three-month rebuild window — the single most nutrition-dependent situation in this batch — and nutrition was mentioned only as a bullet inside the Primal University feature list: 'there's even some nutrition advice in this community.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Trevor's personal phone number, the over-communication instruction and the community were not described. The community was referenced only as a headcount on the Primal University screen — 'There's about 283 people in here, people like yourself, they just don't feel like coaching is for them.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_professional_coaching",
+      "raw": "I have strength coaches, I have nutrition coaches that are already like assigned to my unit and whatnot. So, you know, I just have that, I kind of have that like face to face coaching already, if that makes sense.",
+      "direction": "undercuts_price",
+      "competitor": "US Army unit strength and nutrition staff",
+      "note": "The strongest undercutting anchor in the corpus. It is not a cheaper substitute, it is a free one, delivered in person by professionals, already embedded in his working week. No price argument reaches past it, and the rep did not attempt one — the response was 'Makes sense, brother.' Paired with 'I have access to free gyms', his entire cost base for this problem is zero."
+    },
+    {
+      "type": "free_information",
+      "raw": "How come? You know, there's ChatGPT, YouTube, information is so abundant now. Why haven't you been able to piece together your own workout?",
+      "direction": "undercuts_price",
+      "competitor": "ChatGPT / YouTube",
+      "note": "Rep-generated, which makes it an own goal rather than an anchor the prospect brought. It is a scripted move that assumes the answer exposes a gap; with a disciplined, capable buyer the answer was agreement — 'nah, you're right. I should be able to.' Worth flagging at a coaching level: this move should be conditional on the prospect having already demonstrated failure to self-direct."
+    },
+    {
+      "type": "existing_competence",
+      "raw": "I'm pretty familiar with, with kettlebell, at least the movement techniques and whatnot.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He removed the technique-instruction value proposition himself in his second answer, which is most of what the lower-tier product sells. What he actually wanted was programming and progression, not instruction, and that distinction was never used to reposition anything."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A fixed one-to-two-month at-home programme block timed to a specific selection date three months out",
+      "why_unmet": "Nothing in the product line is shaped like that. The coaching tiers are 3, 6 and 12 months and the self-paced product is an open-ended monthly subscription with a preset A-to-Z progression rather than a dated preparation cycle. He asked for this in his opening sentence and no version of it exists.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Strength programming that runs concurrently with high endurance volume without compromising either",
+      "why_unmet": "He named the constraint explicitly — 'I'll be running alongside the program. So I've got to do like a lot of endurance stuff' — and concurrent training was never addressed. This is the second call in this batch, after Bryant Fields, where an endurance athlete's periodisation question went unanswered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Sessions that survive an unpredictable window at home rather than a fixed slot",
+      "why_unmet": "'at home, it's harder to predict when I'm going to have 45 minutes of time to just get after it.' The 30-minute session length is a partial answer and it was never given to him, because pillar one was never presented.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Programming appropriate to acute post-selection depletion — rebuilding muscle after weeks of several-thousand-calorie deficits and sleep restriction",
+      "why_unmet": "The physiological state he is actually in was described in detail and never engaged with. Whether the standard preset progression is appropriate for someone two weeks out of Ranger School, or whether it should be sequenced differently, was neither asked nor answered, and the product he was pointed at has no mechanism to adapt to it.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

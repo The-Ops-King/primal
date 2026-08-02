@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-20_brett-weil_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Only the Primal University version was ever described, and he interrogated the delivery model rather than the content: 'But it's not one-on-one interactive, it's just like, it's broadcast or it's on-demand, yeah' and 'So there's a library already, and then there's going to be new content created.' He then drew the comparison himself: 'That's sort of what I'm doing with his TikTok and YouTube stuff, right? Already.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never presented and never asked about. He volunteered that he had changed his diet and used a GLP-1 to get from 192 lb to 176 lb, and the topic was not returned to at any point."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. It was ruled out before it could be, by both parties: the prospect said 'perhaps it could help a little bit on motivation, but I think I'm good there', and the rep confirmed 'you don't need that accountability aspect.' Notable because accountability is the pillar that most distinguishes the $6,000 tier from the $200 one, and it was conceded away before the price was named."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_subscription",
+      "raw": "I have Peloton, so I know that that is a resource. They have a Peloton kettlebell, you know, content.",
+      "direction": "undercuts_price",
+      "competitor": "Peloton",
+      "note": "A subscription he already pays for that covers the same modality, raised by him unprompted before any price was discussed. It sets his expectation for what programming costs at subscription level, and it was never addressed."
+    },
+    {
+      "type": "free_version_already_working",
+      "raw": "That's sort of what I'm doing with his TikTok and YouTube stuff, right? Already. Yeah. I'm just like doing it.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free TikTok and YouTube content",
+      "note": "He is already getting the result he wants from the free content — 'I sort of liked the result it's had on me... I'm getting more toned, I'm getting stronger'. The paid library was pitched as more of the same, which invites exactly this comparison, and he made it out loud."
+    },
+    {
+      "type": "self_calculated_unit_price",
+      "raw": "So you're saying 6,000 for six months, it's $1,000 a month to basically get access to Trevor.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted the price into a monthly rate himself within seconds and rejected it on that basis. The framing 'access to Trevor' is also telling — the value was understood as access rather than as outcome, which is what the pillar presentation exists to prevent and it never happened."
+    },
+    {
+      "type": "prior_self_directed_success",
+      "raw": "I went on a GLP-1, and I kind of did everything that I needed to get back to my old weight, and I'm in, to be honest, the best shape that I've been in",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He solved his biggest health problem this year without a coach. The evidence in his own head is that he does not need one, which he said outright: 'I wish I didn't need a trainer. I wish I could just do this on my own.'"
+    },
+    {
+      "type": "professional_income",
+      "raw": "I am a tech investor.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The one supportive anchor. Capacity to pay is almost certainly not the constraint here — his objection was value, not affordability — which is why conceding the price without a single isolating question was the costly move."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A real trial before committing",
+      "why_unmet": "No trial exists. The rep improvised one by reframing a cancellable month — 'the trying it out thing, of course, you have to sign up for one month to actually try it, but you can sign up for a month, you can cancel the payments'. The prospect asked twice, which suggests it is a repeatable ask.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Programming that works around a torn shoulder awaiting surgery",
+      "why_unmet": "The tier recommended has no individual programming and no coach reviewing his movements, and no one established which movements he has been told to avoid. The one product that could adapt to it is the one he was just priced out of.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Something between a $200 self-serve library and $6,000 of one-to-one coaching",
+      "why_unmet": "Nothing exists in between. A prospect who wanted structured programming plus some expert oversight had to choose between a content subscription and a thirty-times-more-expensive product, and took neither on the call.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Something better than the free TikTok content he is already copying",
+      "why_unmet": "The paid library was described in terms that make it sound like an organised version of the free content — monthly workouts, a live session, a community — and the differentiating elements, form correction and individual programming, sit in the tier he rejected.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

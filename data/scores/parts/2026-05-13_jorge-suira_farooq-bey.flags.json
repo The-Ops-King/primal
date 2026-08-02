@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-05-13_jorge-suira_farooq-bey",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Prospect states twice that the advertising he responded to promised a selected 90-day transformation challenge, and that the call instead routed him to packages he never applied for; the rep never corrects the record or acknowledges the mismatch.",
+      "evidence": [
+        "So, like I said, the way that the ad that I clicked on was branded, has, like, I had one idea and the way this is going is another way.",
+        "from what I saw in the ad, it was like, you know, when they look for certain people to do a challenge and see like a, like it was a three month, right? So 90 day transformation.",
+        "But now if you're just going to come and sell me a package with like, either directly with Trevor or other stuff, just to like, you know, sell the product, then that's kind of like, not what, like, the advertising that I understood.",
+        "I came in for one thing and it's not kind of what I thought it would be."
+      ],
+      "timestamp": "00:13:01"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "One-to-one coaching quoted as a three-tier ladder starting at $4,000, which is not in the sanctioned $6,000/6mo and $9,000/12mo offer, and no tier durations were stated at all.",
+      "evidence": [
+        "The investment for that is a four grand, six grand and nine."
+      ],
+      "timestamp": "00:15:50"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The $200 Primal University product was described in a single sentence as both a cancel-anytime subscription and a $200 investment, and the rep then coached the prospect to take one month and leave, leaving the recurring nature ambiguous.",
+      "evidence": [
+        "And as you can see here, it's a $200 investment. You can cancel at any time. So I don't say $200 a month.",
+        "If people, if I was just, if I was you, I come in for a month, I do it, take everything I need and head on my way from there."
+      ],
+      "timestamp": "00:15:10"
+    }
+  ]
+}

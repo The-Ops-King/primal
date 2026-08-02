@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-07-11_alex_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Asked the price directly, the rep quoted a variable range of $2,000 to $8,000 with a midpoint of 'around like 5,000, 6,000' and said it depends, rather than the fixed $6,000 six-month figure quoted flatly to every other prospect in this batch.",
+      "evidence": [
+        "The one-on-one coaching, it's quite a big range, but it's at least in the four figures.",
+        "And that range is usually between like 2,000 and 8,000. So there's a big range there, but it's at least in the four figures.",
+        "Yeah, so that's variable within those ranges. It depends a little bit. Usually it's around like the middle, so around like 5,000, 6,000.",
+        "So how do you guys go about pricing then?",
+        "Cross-reference, four other calls in this batch, same rep, same week: '6k for the six months', 'an investment of 6k USD', 'It's going to be 6k USD, which is 5.2k', 'everything is 6,000 USD in total.'"
+      ],
+      "timestamp": "00:22:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep tried to get the prospect to name his own budget before disclosing any price, and when the prospect declined, gave three successive non-answers to a direct pricing question.",
+      "evidence": [
+        "I wanted to hear what you guys had to offer, and I wanted to hear the price",
+        "what is exactly the right fit, right? We have a few things that we could do. So what is sort of the range in which you're looking to invest in your own personal growth?",
+        "So, yeah, I mean, personally, I'd rather have you guys recommend the price because you guys are familiar with what your costs are associated with the program. So if you guys share with me a price, like I'll tell you if that's where I can.",
+        "if the price isn't right, then I'm just not going to be wanting to go with you guys",
+        "Okay. What I would say. Can you tell me a little bit about like what the one-on-one includes?"
+      ],
+      "timestamp": "00:21:18"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect volunteered a long-standing illness through residency and a fructose intolerance, and neither was followed up before training and nutrition were discussed; no injury or health-condition question was asked at any point.",
+      "evidence": [
+        "I just finished medical residency, so I was just super stressed, couldn't really work out, and I had gotten sick previously. That was pretty long-standing sickness. Ended up getting better, fortunately.",
+        "basically I found out I can't eat fruit, which is kind of stupid, but yes I just have like gassiness and I can't tolerate the fructose",
+        "one issue I had was I cut, I lost the weight, and then I got into like a starvation state when I was down at like 155",
+        "I haven't worked out in basically like a year",
+        "Okay, how is your mobility at the moment?"
+      ],
+      "timestamp": "00:01:45"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The prospect stated that calorie and macro tracking is the method he expects and has succeeded with, and was given an ambiguous answer that both offered it and discouraged it.",
+      "evidence": [
+        "I've done the calorie counting and everything, so I think I'll be successful with that, if that's the way you guys normally do things.",
+        "We don't do specific calorie counting. We don't do only chicken and rice.",
+        "Okay, so you guys don't do calorie counting, it's just whole foods?",
+        "Yeah, of course. If you really want to track the small things, then Trevor is also doing that with a few people, but a lot of people don't find that sustainable for the long run.",
+        "we hit the macros that we want, and I just stick to that. That'd be awesome."
+      ],
+      "timestamp": "00:26:21"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-05-22_ross-surratt_harry-edmonds",
+  "source": {
+    "drive_file_id": "1vQuOVL20RwsSjXShppG3fgauE8tP-vo6",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/22/2026 - Ross Surratt x Harry Edmonds ",
+    "display_title": "05/22/2026 - Ross Surratt x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 28422
+  },
+  "call": {
+    "date": "2026-05-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 25,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ross Surratt",
+    "aka": "rsurratt",
+    "name_source": "title",
+    "location": "Denver, Colorado, USA",
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 13,
+    "training_background": "Describes himself as previously untrained ('That was pretty much a turd'). Eleven or twelve weeks into a paid sixteen-week virtual kettlebell course built almost entirely on swings and Turkish get-ups — roughly 400 swings a week across four sessions, five get-ups a side, with goblet squats and deadlifts as warm-ups. Down about 20 lb and from roughly 20% to 13% body fat. Owns 30, 35, 44 and 53 lb bells and currently swings 44 and 53 lb. Trains at home, 30-45 minutes, will not drive to a gym. Highly disciplined nutrition for four to five months.",
+    "kettlebell_experience": "experienced",
+    "medical": "Active lower-back and hamstring tightness for the three or four weeks before the call, which he attributes to hinging with his back rather than his glutes. Has had prior intermittent back problems ('A little bit, off and on') predating kettlebells. Paused kettlebell training for about three weeks because 'my back was messed up' and substituted dips and pull-ups to avoid hinging. Has been through physical therapy for the back and is doing the exercises they prescribed."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Accepted the framing explicitly — rep: 'it sounds like you went from all right to good. Now you want to go from good to great.' → 'Yeah. In a way.'",
+      "Already 13% body fat, disciplined nutrition with four cheat meals in four months, and shopping for the next programme before the current one ends",
+      "Price is a quality comparison rather than a barrier: paid 'a couple thousand bucks' for the current course and raised no affordability concern at any point",
+      "Buying criterion is coaching quality — specifically frequency of form feedback — not cost or motivation"
+    ]
+  },
+  "goals": [
+    { "text": "Go from where he is now to 'really fit' within six months", "category": "appearance" },
+    { "text": "Lose the last couple of points of body fat in stubborn areas", "category": "fat_loss" },
+    { "text": "Feel athletic rather than just strong — 'I'm stronger, I'm more fit, but I don't feel more athletic'", "category": "mobility" },
+    { "text": "Fix the stiffness and lower-back and hamstring tightness that came with high-volume swinging", "category": "injury_prevention" },
+    { "text": "Get significantly more attention on his form than once a month", "category": "other" },
+    { "text": "Keep training in 45 minutes or less at home", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Lower back and hamstring tightness for three or four weeks, bad enough that he paused kettlebell training for three weeks", "category": "injury", "severity": "high" },
+    { "text": "Feels stiffer and less athletic despite being stronger and leaner", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Stuck in a rut of swings and get-ups only — 'I'm just stuck in the rut of swings and get-ups'", "category": "program_fit", "severity": "high" },
+    { "text": "Form feedback from his current coach arrives about once a month, which he names as the thing he is missing", "category": "accountability_gap", "severity": "high" },
+    { "text": "Believes he may have been hinging with his back rather than his glutes for a period", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Torn between continuing alone and needing structure — 'there's part of me that says you're in this far enough that you can do it on your own'", "category": "consistency", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_other",
+      "raw_quote": "So you've still got five weeks left of your other one?",
+      "timestamp": "00:23:51",
+      "rep_response": "The rep raised the delay himself and proposed the postponement — 'I would assume we'll probably be jumping back on in like a month or so, when it's at the end of it' — and did not offer the onboard-now, start-later bridge he had used on another call two days earlier",
+      "response_tactic": "rep_initiated_postponement",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I don't remember, I don't want to quote a number, I don't remember, but it was a couple thousand bucks if I remember it.",
+      "timestamp": "00:12:53",
+      "rep_response": "Asked the price of the incumbent programme and then never used the answer — no comparison of scope, no per-month contrast, no differentiation from a substitute that had already produced 20 lb and 7 points of body fat",
+      "response_tactic": "gathered_but_unused",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I could also make the argument that I'm not coming into this thing fully cold. So let's tell me what the three and the six month options look like.",
+      "timestamp": "00:18:31",
+      "rep_response": "Quoted a three-month tier at $4,000 alongside the six-month at $6,000, argued for six on runway, and noted the guarantee applies only to the six-month",
+      "response_tactic": "quote_both_and_steer_to_six",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "we have a guarantee on the six months, so the guarantee is that by the end of the six-month period, let's say your starting weight is 40 pounds, we'll just say it's 40 pounds, the guarantee is that you'll put on 20 pounds on all of your lifts on the kettlebell by the end of it, with the same intensity, the same reps, the same actual training session",
+      "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement sent and no onboarding call booked",
+      "Both parties agreed to reconnect after the current course ends: 'I'll just keep track of the 949 number and I'll shoot you a text in a month or so'",
+      "The rep proposed the delay himself rather than testing it — 'I would assume we'll probably be jumping back on in like a month or so'",
+      "Genuine intent present — the prospect sought Primal out specifically for mobility and said 'I'm a believer in the kettlebells'",
+      "Counter-evidence: he declined the offered materials ('I mean, I don't need that'), gave no verbal commitment, and his incumbent provider is actively trying to retain him"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to text the thank-you page with FAQs and stay in touch; prospect to text the rep in about a month when his current sixteen-week course finishes"
+  },
+  "notable": {
+    "note": "Two findings sit above everything else in this call. First, a three-month tier at $4,000 was quoted, which is not part of the sanctioned $6,000/6mo and $9,000/12mo structure and was offered on the prospect's request. Second, a prospect with three or four weeks of active lower-back and hamstring symptoms, who had already paused training for three weeks because his back was 'messed up' and had been through physical therapy for it, was quoted a guarantee committing him to 20 lb more load on every lift — with no question about whether his physical therapist had cleared continued loaded hinging. Beyond that this was the rep's best discovery of the batch on past attempts and root cause, and it was thrown away at the end: no commitment check, no close, and the rep himself proposed pushing the decision out a month rather than using the onboard-now bridge he had used on a different call two days earlier. This is also the clearest live instance of the known script gap — a cheaper alternative that demonstrably worked."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Swapped on short turns throughout — the rep's questions at 00:03:56 ('What about get-ups? What's been the volume?') and 00:18:01 ('Any questions on any of that?') sit in the prospect's blocks, and the exchange at 00:04:06-00:04:24 about prior back issues is inverted. The passage from 00:21:59 to 00:23:12 is a single unpunctuated run-on containing both speakers. The prospect appears only as the handle 'rsurratt'; the rep addresses him as Ross once, and the full name comes from the title."
+  }
+}

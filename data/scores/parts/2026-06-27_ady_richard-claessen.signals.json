@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-27_ady_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "'Got it. Perfect.' then 'That could work for me, yeah' followed immediately by a mechanics question to check the real commitment: '55 minutes is what you are asking me for the commitment from daily, right?' He engaged with the shape of it rather than the substance, and the home-based, no-commute framing directly answered the constraint he had opened the call with."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Yes, that's fine. Yeah.' The lowest-stakes pillar for him by a distance — he already measures everything, eats 1,400-1,500 calories of whole foods with no processed food at all, and drinks three litres of water a day, and the rep conceded as much: 'you're already focusing very well on that'. There is almost nothing to sell here."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He pushed back on the substance of the pillar immediately and never came off it. 'My only part is that, is the one-on-one support of filming... that is the only part where I'm a little bit hesitant on this program.' Pressed on where the hesitancy came from, he explained the mechanism: 'If I'm doing things, and I'm recording it, and I'm sending it across, versus someone just looking at me, that what exactly I'm doing, there are two different things.' The pillar meant to remove his blocker is the one he does not believe will remove it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_product",
+      "raw": "how is this different for me than just paying up an app with Nike or Ladder or something, you know, to just do it, right?",
+      "direction": "undercuts_price",
+      "competitor": "Nike Training Club, Ladder",
+      "note": "A subscription-app anchor rather than a coach anchor, which prices the offer against roughly $15-30 a month rather than against personal training. Notable that it was raised before any price was named — he is testing differentiation, not affordability."
+    },
+    {
+      "type": "self_built_ai_plan",
+      "raw": "I use a lot of AI, and so I have created my own plan on what exactly I want to do and stuff, and the scared part of the legs has basically got me not able to follow it.",
+      "direction": "undercuts_price",
+      "competitor": "AI-generated programming",
+      "note": "The programming layer is already solved for free, and he knows it. What he cannot buy from AI is the thing he actually needs, which is someone watching his knees. The rep had this opening and used it once, glancingly."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "maybe I just need to go after getting a personal trainer for a month to just be sure that, okay, I can very clearly be with you, understand it",
+      "direction": "undercuts_price",
+      "competitor": "Local in-person personal trainer, one month",
+      "note": "The genuine competing purchase, and the one he keeps returning to. It is cheap, short and synchronous — three properties the offer does not have. His own stated reason for not having done it already is scheduling, not money."
+    },
+    {
+      "type": "sunk_local_option",
+      "raw": "I can basically go and do a CrossFit at some particular time so that my mental block gets away.",
+      "direction": "undercuts_price",
+      "competitor": "CrossFit box",
+      "note": "A modality that demonstrably worked for him before — 'I was at the best of my life, best of my level when I was doing that' — and which failed only on class times. The blocker there is logistics, not efficacy, which makes it a live alternative rather than a dead one."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Synchronous form correction, at least for the first weeks — someone watching in real time rather than reviewing a video the next day",
+      "why_unmet": "The coaching model is asynchronous by design. The only live element is a weekly group session, and that sits at around 10am Pacific, which is the middle of a Northeast working day for him. He identified the lag as the specific risk: 'it is an afterthought... and then I'm basically getting to the next day in order to figure out, like, okay, what exactly was my information.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A short, front-loaded foundation engagement — buy the form correction, then leave — 'you pay for the plan and that's it. These are the exercises you do for the first week. We can help you in order to make sure that your form is right. And after that, you don't need us. We don't need you. I'm fine with that too.'",
+      "why_unmet": "The standard engagement is six months. The rep verbally proposed three months as a better fit for him and then never priced it, so no packaged product answers the request. The prospect described the exact shape he would buy, unprompted, and it does not exist on any price list.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A live session at a workable time for a US East Coast professional",
+      "why_unmet": "There is one live workout a week and the rep himself flagged the problem: 'usually at around 10am in the morning, so that's going to be hard for you to, of course, always take part of'. The fallback is watching a recording, which is the same asynchronous experience he had already objected to.",
+      "verdict": "product_gap"
+    }
+  ]
+}

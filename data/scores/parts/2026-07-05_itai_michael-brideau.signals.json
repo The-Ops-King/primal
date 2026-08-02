@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-05_itai_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Understood the training half immediately but asked what the mobility component actually was: 'I mean, training makes sense in terms of like kettlebell workouts, mobility, specifically, what is it?' Rep answered with 'he has a lot of different exercises... it's just going to be dependent on your body and your aches and pains'. Prospect said 'Cool' and had no further questions."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Yeah. That makes sense. I mean, I've never been into tracking my macros.' The no-macro-tracking positioning aligned with an existing preference, so it landed without resistance and without enthusiasm."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Agreed through the weekly check-ins, Trevor's cell number and the community without pushback, but the summary reaction to the whole methodology was flat: 'not many thoughts. That all makes really a lot of sense. It's just kind of general well-being, common sense stuff that I've heard before.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "cheaper_alternative_generic",
+      "raw": "I'm also wondering if there's other, other methodologies that I could, that I could be following that would not cost me six grand.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a specific competitor with a specific price - an unpriced belief that equivalent methodology exists cheaply. The rep answered it with differentiation rather than by pricing the alternative, so the anchor was reframed but never quantified."
+    },
+    {
+      "type": "free_content_substitute",
+      "raw": "I've been following, as well, like, ATG. I don't know if you've heard of him. Knees over toes guy.",
+      "direction": "undercuts_price",
+      "competitor": "ATG / Knees Over Toes Guy",
+      "note": "He is already consuming functional-mobility content in the same category as the offer, at or near zero cost, and cites it as what he likes about the programme. The single closest substitute in his head and it was never addressed."
+    },
+    {
+      "type": "price_expectation_gap",
+      "raw": "the fact that there was no indication anywhere of prices beforehand, it is a little bit frustrating as a consumer, as a client",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He came in with no anchor at all because none was set upstream, so $6,000 landed cold at minute 45 after he had already flagged he was time-constrained. This is the second instance in this rep's corpus of a prospect arriving with a wrong or absent price expectation."
+    },
+    {
+      "type": "existing_practitioner_spend",
+      "raw": "I see a my physiotherapist pretty regularly she helps with um yeah just general alignment stuff",
+      "direction": "supports_price",
+      "competitor": "Physiotherapist",
+      "note": "He already pays for recurring hands-on care for exactly the problem the offer targets. The rep noted the physio as a failed past attempt but never converted the ongoing spend into a cost comparison against $6,000."
+    },
+    {
+      "type": "competing_capital_commitment",
+      "raw": "I'm looking to do a move overseas sometime next year, which is also a costly investment.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The $6,000 is competing against a named savings goal, not against another coach. That makes it a timing and allocation problem, which the OC play does not address."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Rehabilitation of a specifically diagnosed structural injury - a supraspinatus tear he was told is hard to rehabilitate, plus recurring neck tweaks that only occur on overhead lifts",
+      "why_unmet": "The offer's core movement library is loaded overhead kettlebell work, which is the exact pattern that provokes his symptoms. Nobody established whether his physiotherapist considers that appropriate, and the rep answered with a general claim that aches resolve.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Meaningful muscle and size gain as a self-described hard gainer with a fast metabolism",
+      "why_unmet": "The programme was positioned around fat loss, mobility and sustainability; the hypertrophy answer was a single line about 'making sure that we're eating enough' with no protocol, and the rep steered back to function.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To know the price before committing an hour to the call",
+      "why_unmet": "No price is published anywhere and it was not disclosed before or early in the call, so he reached the offer already out of time and unable to evaluate it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To keep yoga as his primary enjoyable practice and add kettlebells around it",
+      "why_unmet": "Served - the rep explicitly confirmed 'If you want to keep going to the yoga because you love it, great' - but the six-month programme's three to four sessions per week was never reconciled against his existing five to seven weekly sessions, so total training load was left unresolved.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-22_jason_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yeah. Yeah.' when asked whether the three-to-four sessions plus daily mobility work would deliver strength and flexibility. He had already accepted the underlying premise earlier when the rep contrasted a bench press with carrying a bag of horse feed: 'absolutely, I want to be able to squat down and pick it up.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Engaged and asked for the thing he was worried about rather than agreeing flatly: 'To me, that's the thing is mapping that out a little bit without just being too crazy.' He had pre-emptively set a boundary — 'I'm not going to just eat chicken and broccoli' and 'turning into a health food aficionado is going' — and needed reassurance that the protocol was not a diet. He also self-identified nutrition as his weakness: 'I know that that's a weakness of mine, because I'm not the biggest diverse vegetable eater.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar he had already asked for and the one he named as the reason he was on the call: 'for me, I want a coach. I want somebody to say, hey, do this for a little bit. Let's see how it's working.' And afterwards: 'My concern is solely I don't want to have the ebb and flow and the one step forward, two step back because of not having support or structure... that's my biggest concern, and the reason for wanting a proper coach.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "no_reference_price",
+      "raw": "I didn't have any way of determining a number other than, yeah, I didn't really have a ballpark or even have a clue... That doesn't seem ridiculous to me, but at the same time, I have no idea what I was expecting.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The only prospect in the batch with no competing price in his head at all — he has never hired a coach, never had a gym membership he used, and did not convert $6,000 into a monthly figure. The absence of an anchor is why $6,000 landed as 'not scary' rather than as 'a thousand a month', and it is the cleanest evidence in the batch that the monthly conversion prospects perform themselves is what damages the price."
+    },
+    {
+      "type": "business_cash_cycle",
+      "raw": "just because this 45 days is where we have two major shows that are very cash-out-of-pocket. Personal finances, I never like to go below certain amounts of dollars.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not an affordability constraint but a seasonal liquidity one, with a self-imposed floor. He is the second prospect in this batch whose obstacle is cash timing rather than capacity, which is exactly what a defined payment plan exists to solve — and there is no defined payment plan."
+    },
+    {
+      "type": "opportunity_cost_framing",
+      "raw": "It wouldn't be the right time to spend that kind of money on something that doesn't make money or put money right back in.",
+      "direction": "undercuts_price",
+      "competitor": "Reinvestment in the ranch business",
+      "note": "A business owner measuring a health purchase against return-generating uses of the same cash. He resolved it himself — 'Obviously, this is a crucial thing for my life' — but the rep never addressed the frame directly."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A clearly stated payment plan with a defined number of instalments, an amount per instalment and a total",
+      "why_unmet": "None exists. The rep constructed one in a single sentence, never stated the total ($7,200), never wrote a schedule down, and left the condition for removing the $200 per-term surcharge undefined. The prospect had explicitly asked 'what are the payment structures' and did not receive one.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confidence that a knee that complains kneeling and a back that is tight from thirty years of riding can safely take loaded ballistic work",
+      "why_unmet": "He raised the physical decline himself, including 'some degenerative life in there'. The rep answered with programme mechanics and reassurance about building form slowly, and no clinical assessment or clearance route exists in the offer.",
+      "verdict": "product_gap"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-15_jonesie_michael-brideau",
+  "source": {
+    "drive_file_id": "15OPhdLCqAtn26dwjo6U3Sjl-cj6ZFUz8",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/15/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 9450
+  },
+  "call": {
+    "date": "2026-07-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "IMPORTANT: this Drive file contains two separate prospect calls, both abandoned and rescheduled. A call with a prospect named Ryan runs 00:00:00 to 00:08:08 and this one runs 00:09:04 to 00:10:23. This prospect sat in the waiting room for roughly nine minutes while the other call ran, then had 70 seconds before being handed back to a setter.",
+    "duration_min_est": 1,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "medium",
+    "evidence": "The rep handed rebooking back to a setter by name: 'I'm going to have Derek reach out to you tomorrow and coordinate.' Derek also appears as the setter on the Brandon Salisbury call the previous day and is named in the Michael x Richard internal call. He is not one of the three known setter codes."
+  },
+  "prospect": {
+    "name": "Jonesie",
+    "aka": "Zoom display name only; no legal name captured",
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": "Employed and returning to work after the appointment; no detail captured",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": "Mentioned only that he had a medical appointment starting in about 25 minutes and lasting an hour. No nature, condition or context was given and none was asked."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.1,
+    "signals": [
+      "Proposed label: unassessed_rescheduled. The call lasted 70 seconds and contained no fitness, health, goal or financial content whatsoever.",
+      "The entire exchange is a reschedule plus a compliment about the prospect's watch.",
+      "Recorded as 'other' deliberately so the rollup does not treat this as a profile."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The prospect had a medical appointment in 25 minutes and the rep judged there was not enough time: 'the call is usually about 45 minutes to an hour, depending how many questions you have'",
+      "Rebooking was handed back to a setter rather than scheduled live: 'I'm going to have Derek reach out to you tomorrow and coordinate, just because my schedule's up in the air the next couple days here'",
+      "No date or time was agreed on the call, which makes this a weaker reschedule than the Ryan call in the same recording",
+      "No discovery, no offer, no price"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Derek to contact the prospect the following day to arrange a new time. Nothing booked on the call."
+  },
+  "notable": {
+    "note": "Seventy seconds. The prospect waited roughly nine minutes in the waiting room while the rep finished a call that had itself been double-booked, then arrived to a reschedule with no time agreed and a handoff back to a setter, on a day the rep described his own schedule as up in the air. Two prospects lost their slots in the same ten-minute recording. Only a display name was captured, so this record cannot be matched to a CRM entry without the Drive metadata."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short call, but the final exchange merges both speakers under the rep's label — 'Appreciate you, man. Thank you. All right. You have a blessed one.' contains both sides. Role read from content. There is far too little material here to assess reliability properly."
+  }
+}

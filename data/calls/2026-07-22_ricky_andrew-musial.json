@@ -1,0 +1,132 @@
+{
+  "call_id": "2026-07-22_ricky_andrew-musial",
+  "source": {
+    "drive_file_id": "1ipfRLmdc0shn7D1q5p38CUPXuJ2-wtt9",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/22/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 18475
+  },
+  "call": {
+    "date": "2026-07-22",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "A late-stage contract and payment negotiation, not a discovery call. The offer, the price and a bespoke one-month entry structure were all agreed on an earlier call not present in this batch — 'did you go through the agreement?', 'you told me you can make the changes', and 'I negotiated to be able to get out after one month'. No baseline, goals, pains or pillar presentation occur here.",
+    "duration_min_est": 23,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named and no title suffix. A manager is referenced as the approval authority for contract changes — 'I'll get back to this with this to the manager' — but is not named."
+  },
+  "prospect": {
+    "name": "Ricky",
+    "aka": null,
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": "Lawyer — 'I'm a lawyer. And I know how contracts work.'",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.4,
+    "signals": [
+      "PROPOSED LABEL: 'the_contract_negotiator'. This call contains no health, fitness, body or motivation content whatsoever, so none of the existing avatars can be evidenced from it. The assignment should be inherited from the earlier discovery call once that transcript is located rather than guessed here.",
+      "What is observable: a lawyer who reads and redlines terms live, negotiates auto-renewal out of the agreement, and refuses conditional exit provisions — 'I don't want to be hamstrung in. I want to decide.'",
+      "Price-insensitive within the structure discussed — repeatedly volunteered readiness to pay ('I'm willing to pay, like, tomorrow, the next day, whatever') while negotiating term and exit rights rather than amount",
+      "High stated intent — 'I'm like 95% confident that we're going to continue' — combined with a demand for a hard 30-day termination default",
+      "Guarded about publicity: resisted the testimonial ask, 'Testimonials, I'm always a little... I like to kind of keep private'"
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I think you've heard this question before, but maybe you have. Is Trevor an AI-generated person on the internet?",
+      "timestamp": "00:00:36",
+      "rep_response": "Answered directly and truthfully that Trevor is a real person the client will meet on Zoom, and noted the prospect was the first ever to ask. Prospect accepted: 'I was like, you know, AI is getting good, but I don't know. I was like, I don't think it is, but I don't want to be had either.'",
+      "response_tactic": "direct_denial_plus_offer_of_live_zoom_proof",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "I want it automatically to terminate in 30 days, but if I decide... To go forward, you meet with me, and then we decide. It's all the same terms, but instead of the option to leave it, I don't have to complete it or submit all weekly check-in forms with 30 days. I don't want to be hamstrung in. I want to decide.",
+      "timestamp": "00:20:50",
+      "rep_response": "Conceded the principle and escalated it — 'I'll get back to this with this to the manager. Yeah. I think he's going to be okay with that. And I will organize you the wording, the word document of the agreement.' Explained the revised agreement would have to be prepared and sent manually rather than issued automatically on payment.",
+      "response_tactic": "concede_and_escalate_to_manager_for_bespoke_redraft",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "Well, this is built on six months. So my term is one month, and then you can say there's an additional, then you can do another contract.",
+      "timestamp": "00:21:50",
+      "rep_response": "Argued the six-month framing was administrative convenience rather than substance — 'It's just because to have less administrative work' — and proposed handling continuation by email inside the existing agreement rather than issuing a second contract.",
+      "response_tactic": "reframe_term_as_administrative_and_offer_email_renewal_clause",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "But why would I have that final conversation with you instead of Trevor? Why wouldn't I have the final conversation with him? Because he's the one training me. Why wouldn't I discuss that with him?",
+      "timestamp": "00:10:51",
+      "rep_response": "Held the line on process — 'That's what, that's our process over here' — and framed it as protecting the coach's time. The prospect accepted it himself: 'Look, I'll stay with the process because I respect his time.'",
+      "response_tactic": "defend_process_and_protect_coach_time",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 1, "price_usd": 1200, "note": "bespoke one-month entry, payable now" },
+      { "months": 6, "price_usd": 6000, "note": "one month at $1,200 followed by the remaining $4,800 split into four interest-free instalments of $1,200" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$1,200 for month one, then 4 x $1,200 for the remaining five months, explicitly interest-free. The rep additionally requested two non-monetary items in return: a referral after month one and a testimonial after month six. A $500 credit toward a 12-month renewal appears in the agreement.",
+    "guarantee_mentioned": "The agreement contains an optional 'love it or leave it' provision at section 3G whose conditions the prospect read aloud and rejected — it requires the client to complete and submit all weekly check-in forms within 30 days to qualify, and is paired with a clause under which the 'Client further agrees not to initiate chargeback disputes.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken. The rep flagged the link as still outstanding — 'there's a payment link that I need to send to you for the 1200 for the first month' — and no send is confirmed anywhere in the transcript",
+      "The close rule does not apply: there is a verbal agreement in principle but no payment link was sent",
+      "Call ends on a redraft, not a signature: 'Hey, I got to go into my meeting, but I'm willing to do it' / 'Let me get back to you with the revision'",
+      "Agreement is unsigned and being amended; the rep must obtain manager approval for the termination-default change and issue a manual bespoke document",
+      "No Trevor onboarding call was confirmed — the rep proposed Tuesday the 28th, the prospect countered with the 27th, and the rep deferred with 'we'll get into that' and never returned to it",
+      "STRONG POSITIVE SIGNALS: 'I'm willing to pay, like, tomorrow, the next day, whatever', 'I'm like 95% confident that we're going to continue', and a self-set start date of August 3rd",
+      "COUNTER-EVIDENCE: the prospect admits he has still not read the agreement he is negotiating ('Honestly, I have not. I've been so busy'), and is reading it for the first time during this call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to seek manager approval for a hard 30-day auto-termination default in place of the auto-continuation provision, prepare a bespoke Word version of the agreement and send it for redline. Payment link for the first $1,200 still to be sent. Prospect wants the Trevor call around July 27-28 and a programme start date of August 3rd."
+  },
+  "notable": {
+    "note": "The most informative call in the batch about what is actually in the contract, because the prospect is a lawyer reading it aloud clause by clause. Three things surfaced that no other call reveals: the 'love it or leave it' exit is conditional on the client completing and submitting all weekly check-in forms within 30 days; the same section requires the client to waive chargeback rights; and the agreement's 'private online community with calendar for coaching calls' turns out on questioning to mean group follow-along workouts inside the self-paced Primal University product, not coaching calls. The prospect also opened by asking whether Trevor is an AI-generated person, and the rep said he was the first ever to ask. Separately, the same improvised $1,200 one-month entry structure used on Chris Wiley six days earlier appears here as an established arrangement, and the rep attached a referral and a testimonial to it as consideration."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavily inverted attribution throughout, including in the opening exchange where the rep's and prospect's lines are transposed within single blocks ('Is Trevor an AI-generated person on the internet?' and the answer 'No, he's not AI-generated' both appear under the wrong labels). Long negotiation passages merge both speakers. The prospect was driving for part of the call and audio drops out around 00:08:28. Roles were read from content. This is a partial engagement record: the discovery call that established price, goals and health history is not in this batch, so the prospect fields here are almost entirely null by necessity rather than by omission."
+  }
+}

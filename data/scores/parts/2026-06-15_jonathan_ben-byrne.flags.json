@@ -1,0 +1,38 @@
+{
+  "call_id": "2026-06-15_jonathan_ben-byrne",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A booked prospect call failed and had to be rescheduled because the rep took it from a weekend trip on connectivity he flagged as poor in the opening two minutes.",
+      "evidence": [
+        "so the Wi-Fi might also be kind of bad here, so if it cuts out, just let me know",
+        "Hey, John, can you still hear me? Lost him. I don't if his internet was super bad or mine.",
+        "I was just going to say, if it gets really bad, we could always reschedule for later in the week. I'm here until Wednesday",
+        "Yeah, we can reschedule if you want, maybe. By the end of the week?"
+      ],
+      "timestamp": "00:01:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The rep had a different prospect booked in the slot than the one who joined — the third calendar or CRM mismatch across this batch.",
+      "evidence": [
+        "I had someone named Sid on my calendar, but maybe the schedules got mixed up.",
+        "Freaking, like, completely different guy joined my Zoom room. Supposed to be talking to a Sid, this guy's named John. Like, who are you?",
+        "I was trying to connect with the link I had, but it wasn't working. So I tried to reschedule. And so that the new link were working."
+      ],
+      "timestamp": "00:00:34"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Roughly two and a half minutes of the rep's private in-person conversation was recorded and retained in the call file while the prospect was disconnected.",
+      "evidence": [
+        "Looks like it's about to rain soon. I'm down, dude. His dad said he was going to take Eric's quad and come through it.",
+        "Nice. How far are you guys going to be? Do you want to go for a quad ride?"
+      ],
+      "timestamp": "00:14:06"
+    }
+  ]
+}

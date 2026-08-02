@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-06-12_sales-team-meeting",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The target customer stated internally is a man who needs to lose 20-40 pounds, which directly contradicts the ICP told to prospects on live calls, and a new VSL is being built around the internal version.",
+      "evidence": [
+        "We're targeting people essentially who have like their entire life put together, except fitness. Like guys in their 40s, 50s, that's the type of person we're really more targeting towards.",
+        "they have life together, they might have some injuries, they might have some things, and they need help to actually, like, get their health in order. Like, they need to lose maybe 20, 30, 40 pounds.",
+        "That's the sweet spot.",
+        "that's where we're making a whole new VSL around"
+      ],
+      "timestamp": "00:41:44"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 is in active use outside the published $6,000/6mo and $9,000/12mo structure, sold with a verbal promise that a later $2,000 top-up secures the full six months at the standard price.",
+      "evidence": [
+        "He got in for three months, but he will do the six months. Nice. He was just short on cash at the moment.",
+        "He was just making sure that if it's going to be what I said, that after those three months, he will only top up with the 2K, that is secured, yeah?",
+        "Monday was 6K, Wednesday was 6K with two pay, then was one piff, 6K split in two, and the 4K split in two, yeah."
+      ],
+      "timestamp": "00:00:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Closer states he routinely gives prospects his personal WhatsApp number at the end of sales calls and the sales manager approves the practice, moving client contact onto an unlogged personal channel.",
+      "evidence": [
+        "And I also, I'm doing one thing, most of the time at the end of the call... I share my private WhatsApp with them, just for the sake, like, look, if you have any questions whatsoever, just hit me up",
+        "Yeah, I don't see an issue with that.",
+        "most of them, they react very positive about it, like, that I'm a real guy, and it's so cool"
+      ],
+      "timestamp": "00:44:53"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A prospect's motivations are inferred from his presumed ethnicity during a coaching review, as a basis for how the call was run.",
+      "evidence": [
+        "if he's a psychiatrist working eight, 10 hours a day, like definitely there's a work priority and he's also half Indian, I think. So work for them is always a priority."
+      ],
+      "timestamp": "00:34:00"
+    }
+  ]
+}

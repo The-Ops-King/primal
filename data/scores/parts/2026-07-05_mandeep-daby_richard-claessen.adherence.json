@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-05_mandeep-daby_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Referenced the application — 'a few things that you noted already, like in the form that you fill out for a meeting'. Frame was three-part not four: 'where you're currently at, where you want to go, make sure we can actually help you bridge that gap'; no 'what's in the way / what you need'. Never asked 'does that work?' — the prospect volunteered 'Okay. All right.' Open question ran: 'So take me through it. Can we specifically potentially help you with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "hit" },
+      "evidence": "Age asked ('How old are you actually at the moment?') and weight confirmed at 70kg, but height never asked. Occupation was volunteered — 'Due to the nature of my work, as I told you, I'm a dentist' — the rep never asked what he does or whether it is desk-bound. No health-conditions or hereditary question at all. Aches asked ('do you feel like you have any sort of small aches, pains') but not how long. Training frequency asked. Diet asked. Sleep never mentioned on the call. Energy asked with a one-to-ten scale."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "hit" },
+      "evidence": "Strongest phase of the call. 'Do you feel like you look good enough to your own standards?' then 'what do you feel like isn't good enough'. Mobility probed directly. Bridge ran — 'why is it important for you to get rid of all of the things that are not good enough... So many people would just be okay with this'. Impact-on-others ran and landed on the fiancée, the wedding day and the brothers. Reflected back — 'it sounds like you want to actually make an impact to the rest of your family as well'. Never asked for a specific physical thing he cannot currently do."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "The dietitian and the previous 10% body fat came out from the prospect rather than from a 'what have you tried before' question. Root cause was pushed properly — 'Do you really feel like it was impossible to stay on diet and to actually keep getting the workouts in during those few months?' — and the prospect named the gap himself: 'It's like a mental thing, maybe, like, I was distracted.' The blocker question ran ('is there anything else that would stop you... or is it only that time aspect?'). The 'the information isn't the problem' line was never used, which matters here because a dietitian plan had already worked for him."
+    },
+    "P5": {
+      "score": "hit",
+      "checks": { "P5a": "hit", "P5b": "hit", "P5c": "hit", "P5d": "hit" },
+      "evidence": "'How would that look like for you in a couple of years from now when everything is sort of still the same?' then 'Is that something that you would be willing to settle for?' then pushed the why-not through to the wedding day — 'suppose at my wedding day, I still have a tummy'. Closed the phase with 'are you actually willing to make that change to get into the full aspect instead of just doing a few workouts here and there?'"
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "hit", "P6c": "hit" },
+      "evidence": "The belief question was never asked in the scripted form; the prospect volunteered it instead ('I have great faith in the workouts... in my mind, I think like this program, it works'). The all-in question ran after the pillars rather than before — 'is there something that's going to make you fall off?' — and the rep correctly refused a soft yes: 'you're saying that you think so, like, that sounds a little bit uncertain to me.' Note the sequencing: most of the commitment work sat after the presentation, not before it."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "partial", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Payment was attempted and declined — 'it's saying like I don't have enough credit on that'. No Trevor onboarding call was booked (it was only described prospectively: 'we would then book in a meeting with Trevor, probably be tomorrow on Tuesday'). No agreement email, no signature, no Skool link, no questionnaire. The homework was promised, not delivered."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran ('sounds like if you would have the money at the moment, you would just want to do it') and the open-conversation invite ran ('we can have an open conversation, see if we can make something work'). Cash-on-hand was probed once ('do you have something like set aside for yourself for like rainy day budget'). The rest of the financial picture was never taken: no question on monthly surplus after bills as a number, no count of credit cards, no available versus used credit, no crypto/stocks/investments. Instead of completing the picture the rep negotiated the price downward in public — 12 instalments, then six at $1,200, then a $500 deposit, then $200, then $100, then 'it can be 50'."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The prospect twice asked to defer a week ('Why don't you check in with me? Let's say another week'). None of the scripted moves ran — no 'things never slow down', no 'the longer you wait the harder this gets', no 'the only thing you can control is right now'. The rep substituted a commitment-deposit argument ('when you put somewhat of a commitment down for yourself... that's when you're actually going to stick to it') and repeated it after the card had already declined."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "detail": "Unscripted trigger: the prospect had already reached his target body composition once with a dietitian and is currently getting results from Trevor's free Instagram content — 'I've seen a few videos of Trevor and I started doing a few of those. So I've seen results.' The playbook has no play for a cheaper substitute that demonstrably worked, and the rep never addressed why $6,000 beats what already worked for him."
+    }
+  ],
+  "notes": "Discovery and consequence were genuinely good — P3 and P5 were run close to the book. The call then fell apart at the money: the rep abandoned the OC financial picture in favour of improvising ever-smaller numbers, and kept pressing after a declined card. Coach the OC financial-picture sequence to completion before any number is negotiated, and do not present a plan whose total ($7,200) exceeds the stated price without saying so plainly."
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-06-08_sales-team-meeting",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Two closers spent roughly a minute of a recorded company meeting ridiculing a named prospect's sexual orientation, including suggesting the programme is not for him and that training would return him to his wife.",
+      "evidence": [
+        "he just, like, got divorced because he has two kids with his wife and he has a boyfriend now",
+        "Sorry, this program is not for you.",
+        "I mean, if you start working out again and get your T-levels fixed, might go back to your wife.",
+        "Wow, do you think that you turned gay because you haven't been working out that much? What are you gay?",
+        "Why are you gay? So, he says, I'm Puerto Rican, so that explains the gay thing"
+      ],
+      "timestamp": "00:49:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Sales manager coaches reps to assert guaranteed results as scientific certainty and to show no uncertainty at all, which is the coaching that produces the unbounded guarantees given to prospects later in the batch.",
+      "evidence": [
+        "we've worked with thousands of clients. And ultimately, it's science. Like, if you eat the food that we're saying to eat, and you train this way, do you really think you're not going to get good results?",
+        "have full conviction that we get results and it's science because we know it's science at the end of the day. Genuinely what it is. If they eat the foods and they do the work, the result has to happen. It's human biology has to happen.",
+        "don't show any sort of uncertainty in yourself"
+      ],
+      "timestamp": "00:15:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A 'love it or leave it' one-month arrangement is in active use as a fallback for uncertain prospects, outside the $6,000/6mo and $9,000/12mo structure; the manager permits it but warns against using it as a default.",
+      "evidence": [
+        "the one, the Indian guy, I got him on a love it or leave it... I believe after a month, he, he will go for the, for the full six months",
+        "love it or leave it is definitely something you can use in your back pocket for somebody who has sort of, like, trust issues within themselves",
+        "that's where I start to, like, kind of draw the line with the love it or leave it if we're just offering it to everybody"
+      ],
+      "timestamp": "00:12:23"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospects are profiled and discussed by ethnicity during coaching, with the manager building a rebuttal strategy on that basis rather than on the prospect's stated objection.",
+      "evidence": [
+        "I think I was trying to go, yeah, I was trying to go that route, but he was so freaking Silicon Valley engineer, analytical Indian guy.",
+        "Yeah, but that's the type of guy who's going to say this stuff because he's trying to figure out all the inner workings"
+      ],
+      "timestamp": "00:16:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Systematic identity mismatch across the whole rep folder: every transcript labels the closer 'Andrew Jin (Primal Instinct)' while the folder and all call titles name him Andrew Musial, so any rollup keyed on the speaker label will split one rep into two.",
+      "evidence": [
+        "00:08:20 - Andrew Jin (Primal Instinct)",
+        "it's been freaking heat wave in Poland today, especially in the south where I am",
+        "06/10/2026 - Jonn Nolitt x Andrew Musial KFS"
+      ],
+      "timestamp": "00:08:20"
+    }
+  ]
+}

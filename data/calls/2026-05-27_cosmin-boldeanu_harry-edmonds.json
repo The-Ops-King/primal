@@ -1,0 +1,120 @@
+{
+  "call_id": "2026-05-27_cosmin-boldeanu_harry-edmonds",
+  "source": {
+    "drive_file_id": "1IEoPsb19lWTFJg7bpD9-ac8CEtc_fSKt",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/27/2026 - Cosmin Boldeanu x Harry Edmonds",
+    "display_title": "05/27/2026 - Cosmin Boldeanu x Harry Edmonds — Follow Up",
+    "file_size_bytes": 27259
+  },
+  "call": {
+    "date": "2026-05-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 26,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Cosmin Boldeanu",
+    "aka": "Casey / KC — the only name used on the call; the rep opens with 'KC?' and the speaker label is 'casey'. The title name never appears in the transcript.",
+    "name_source": "title",
+    "location": "Downtown Los Angeles, California, USA",
+    "age": 43,
+    "occupation": "Runs a business in construction — 81 men under him, doing site visits through the day and motivating crews from about 5:30am",
+    "family_status": "Married to Loretta; young children",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Surfer — his stated reason for caring about shoulder health. Long-term lifter, strong on dumbbells ('I can throw around like 100-pound dumbbells'), plenty of low-impact cardio and core work. Has reduced training frequency to manage joint problems and believes he was overtraining. Owns a 26 lb and a 35 lb kettlebell but has never trained with them. Completely stopped training about six weeks ago; last surfed 23 April.",
+    "kettlebell_experience": "none",
+    "medical": "Left shoulder surgery or procedure four or five years ago ('I've had that buffed and cleaned'). Right shoulder and right elbow currently symptomatic — self-described bicep tendonitis or tennis elbow, rear-shoulder discomfort and poor mobility. MRIs of the right shoulder and right elbow were taken the week before this call and results were not yet back; he expects to be referred to physical therapy. Hereditary arthritis — father has severe arthritis — with calcium deposits building up. Manages it with a no-gluten anti-inflammatory diet and fasting; still drinks alcohol. Lost about five pounds, mostly muscle, during six weeks off."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.55,
+    "signals": [
+      "Wants a recent former self back: 'I was in the best shape of my life just probably four or five months ago, or the wife was like, Jesus Christ, you look great. And then here I am'",
+      "Trapped in a decline cycle he describes with regret: 'I've been stuck in this cycle of workout, feel amazing. Somehow I injured myself, rest, recover, repeat'",
+      "Close alternative read is the_medically_constrained — high intent and the entire purchase is driven by joints that cannot tolerate his current training — but he is not blocked by a clinician; he has rejected them, which is what makes the rebuilder label the better fit"
+    ]
+  },
+  "goals": [
+    { "text": "Find a way to train that reduces impact and load on his joints", "category": "injury_prevention" },
+    { "text": "Get the right shoulder and elbow feeling good again", "category": "mobility" },
+    { "text": "Keep surfing for a long time — shoulder health is what protects it", "category": "hobby_performance" },
+    { "text": "Get stronger and stay balanced, without chasing heavy numbers", "category": "strength" },
+    { "text": "Create longevity and stay dialled as long as possible at 43", "category": "longevity_function" },
+    { "text": "Break the injure-rest-repeat cycle — 'I need a dramatic change in how I'm going about things'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Right shoulder and right elbow symptomatic with MRI results pending; expects to be told to do physical therapy", "category": "medical", "severity": "critical" },
+    { "text": "Repeating cycle of training well, getting injured, resting and starting again", "category": "injury", "severity": "high" },
+    { "text": "Hereditary arthritis and calcium deposits — 'I have poor genetics, my pops has pretty severe arthritis'", "category": "medical", "severity": "high" },
+    { "text": "Has not surfed since 23 April and has been completely off training for six weeks", "category": "training_barrier", "severity": "high" },
+    { "text": "Losing muscle and gaining visceral fat during the layoff", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No usable physical therapy option locally — 'Every PT I've gone to is a joke'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Cannot keep up with joint health despite backing off frequency", "category": "aging", "severity": "high" },
+    { "text": "Runs a crew of 81 and is chaotic from 5:30am to 8am most days", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So, I mean, that's a pretty big hit. I'm going to have to talk to my wife because she'll see 6K just walk away and I'm not coming home with like a used Rolex or anything.",
+      "timestamp": "00:20:56",
+      "rep_response": "Booked a follow-up call for the next day, asked her name (Loretta), asked 'What do you think the wife's going to say?' and then 'Are you all in though, from your side?'",
+      "response_tactic": "book_followup_then_probe_spouse_reaction_and_personal_commitment",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "there might be a balance effect. So my, the 6K might cost me 12 because that brought 6K.",
+      "timestamp": "00:24:48",
+      "rep_response": "Accepted it as the prospect's own problem to solve — 'It's all good. That's all good' — having earlier offered a tax write-off as the way to reduce the effective cost",
+      "response_tactic": "tax_write_off_framing_then_accept",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Stated as a single payment without being asked: 'it's a one-time payment and it's 6K for the six months.' Payment taken by card through Stripe.",
+    "guarantee_mentioned": "'The guarantee is that from your starting weight, let's say your starting weight's a 35lb... by the end of six months you'll be swinging around a 20lb heavier kettlebell from where you started, so if you're doing 26, you're going to double your weight.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision and no payment; blocked on a spouse conversation and on household budget balancing",
+      "Strong intent stated: 'I'm very interested. It's, I need to do something different. I need a dramatic change in how I'm going about things'",
+      "Follow-up call agreed and scheduled for the next day at 1:30pm London / 5:30am Pacific, with the rep sending a new link",
+      "Counter-evidence: he has MRI results on the right shoulder and elbow outstanding, which could change everything, and neither party mentioned waiting for them",
+      "Counter-evidence: he described needing to process it between site visits and framed the spend as potentially costing double in household terms"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call the next day after he speaks to his wife Loretta; rep to send a new Zoom link"
+  },
+  "notable": {
+    "note": "Three things. The prospect has MRIs pending on the exact joints the programme would load and the rep offered to 'fix the shoulder' without a word about waiting for results or seeking clearance. The rep echoed and reinforced the prospect's contempt for physical therapy while positioning the programme as the substitute. And he offered to structure the invoice so the fee could be written off against the prospect's business, citing another client by their identifiable business — 'a guy the other day who owns Culver's... we framed it as safety and injury prevention program, and he wrote it on his tax.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns swap constantly — the prospect's goal statements at 00:11:17 and the rep's pitch lines at 00:12:41 and 00:19:11 are under the wrong labels, and at 00:21:46 'We can help you write it off as well' is labelled as the prospect when it is plainly the rep. Separately, the identity in the title (Cosmin Boldeanu) does not match the person on the call, who is addressed and labelled as Casey/KC throughout. There is a ~2.5 minute gap at the start while the prospect parked."
+  }
+}

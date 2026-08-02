@@ -1,0 +1,121 @@
+{
+  "call_id": "2026-06-17_lane_richard-claessen",
+  "source": {
+    "drive_file_id": "1Zo4UI7nq-3wji8yC8QSFZsIGnPX9M_y6",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/17/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/17/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 51976
+  },
+  "call": {
+    "date": "2026-06-17",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 48,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "medium",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Lane",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States",
+    "age": 29,
+    "occupation": "Firefighter (48-hour shifts); references military service",
+    "family_status": null,
+    "height_in": 68,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Two HIIT sessions and two long runs (45-50 min) per week, kettlebells mixed into the HIIT; owns 20, 30, 40 and 60 lb kettlebells; played baseball growing up; dislikes traditional barbell lifting",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Self-directed and already capable: programs his own HIIT and running week and has been self-implementing kettlebell work from free content",
+      "Anchored to a free/low-cost alternative that was working: 'Even in the little bit of time that I've done kettlebells, I've seen growth. And I have a lot of room to grow.'",
+      "Hard budget ceiling far below the offer: 'The max I was going to go is $2,000. And that's not even close to where you guys are'",
+      "Not a classic optimizer — price was an absolute barrier rather than a quality signal, and he bought the cheapest option offered on the call"
+    ]
+  },
+  "goals": [
+    { "text": "Build strength and strength-endurance so he can lift heavy things at work without being winded", "category": "strength" },
+    { "text": "Perform his firefighting job effectively and keep pace with colleagues at his department", "category": "hobby_performance" },
+    { "text": "Improve flexibility and mobility, particularly tight hips, so he is not 'stuck in the mud'", "category": "mobility" },
+    { "text": "Fix kettlebell technique, especially snatches, so the bell stops banging his forearm", "category": "other" },
+    { "text": "Replace HIIT and calisthenics entirely with kettlebell training, keeping his long runs", "category": "other" },
+    { "text": "Get structure and a plan he does not have to research and build himself", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Cannot do kettlebell snatches without banging up his arm", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Very tight hips; cannot squat low without a counterbalance or he falls backwards; rates his flexibility 3/10", "category": "training_barrier", "severity": "medium" },
+    { "text": "Has to invent his own workouts and does not know whether what he is doing is right", "category": "program_fit", "severity": "medium" },
+    { "text": "Believes he is much less likely to put the effort in if he carries on self-programming", "category": "consistency", "severity": "medium" },
+    { "text": "Colleagues at his department can outpace him and every ounce of energy counts on the job", "category": "training_dissatisfaction", "severity": "low" },
+    { "text": "Has wanted to build strength for years but dislikes traditional lifts so never found a route to it", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Yeah, there's no way I could do 6K.",
+      "timestamp": "00:35:06",
+      "rep_response": "Ran a partial isolate ('Outside of the investment, do you feel like I do want to do this?'), asked whether it was absolutely not possible, established a $2,000 ceiling, mentioned splitting into payments but immediately dismissed it, then improvised a reduced-scope $200/month product on the call.",
+      "response_tactic": "isolate_then_downsell_to_lower_tier",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "So essentially, he's just not going to create, he, explain, explain,",
+      "timestamp": "00:36:54",
+      "rep_response": "Explained the downsell contains step-by-step exercise videos, a foundation program, community access, weekly live group classes and monthly challenges, and argued that as he has no injuries a non-personalised foundation program is sufficient.",
+      "response_tactic": "reframe_generic_program_as_sufficient",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep raised splitting the $6,000 'into a few pairs' but dismissed it in the same sentence because it would not change the $2,000 ceiling; no plan was structured.",
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": null, "monthly_surplus_usd": null, "has_savings": null, "credit_score": null, "stated_ceiling_usd": 2000 }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.6,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect enrolled and paid live on the call: 'I'm to do that 200 a month' after clicking the payment link the rep pasted in chat.",
+      "COUNTER-EVIDENCE: the audited $6,000/6-month offer was explicitly refused — 'Yeah, there's no way I could do 6K' and 'No, it's not even close. The max I was going to go is $2,000.'",
+      "COUNTER-EVIDENCE: what was sold is the separate 'Primal University' membership at $200/month, which the sales manager states on the same day does not count as a unit or as cash collected in projections.",
+      "No agreement email, no signature on the call, and no Trevor onboarding call — the rep instead booked his own 30-minute follow-up for 15 July and sent his personal WhatsApp number."
+    ],
+    "cash_collected_usd": 200,
+    "cash_collection_basis": "primal_university_monthly_downsell_first_payment",
+    "next_step": "Rep-booked 30-minute check-in on 15 July at the same time, plus WhatsApp contact with the rep directly."
+  },
+  "notable": {
+    "note": "Rep's first-ever call on this offer. He answered the prospect's direct question 'Do you do kettlebells?' with 'Yeah, I do' — on internal calls the same day he states he has never trained with kettlebells. He also described himself as 'the success manager' and gave out his personal WhatsApp number. The prospect stated a $2,000 total ceiling and was placed on a $200/month plan that totals $2,400 a year; the $2,000-for-12-months option existed but the rep did not know it. Payment was taken through a Skool join link showing '$1.99 a month' phrasing in the rep's read-out."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent short-turn inversions: several of the rep's questions are attributed to Lane (e.g. 'Okay, and what would you like to achieve with that?' at 00:00:55, 'Are you looking to change that overall' at 00:05:37) and several of Lane's answers are attributed to the rep. Role was read from content throughout. Long stretches around 00:20:30 and 00:26:00 are merged into single blocks."
+  }
+}

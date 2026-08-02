@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-05-26_david-anjomani_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "No setter on this call so the read-back check does not apply. The frame was three-part and the closest to script in the batch — \"I just want to be, you know, get real clear on where you're at, get real clear on what you want, and then if we can help you get it, we can talk about it. If not, that's fine as well. Alrighty?\" — missing only the 'what's in the way' element. Agreement was sought and given: \"Yeah, for sure.\" The open question ran verbatim: \"What was it that you were hoping we could potentially help you out with?\""
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "hit", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Three of nine in six minutes, and the three that ran were the right ones for a fit assessment. Training was probed properly and twice — \"Are you training with kettlebells now?\" then the important follow-up about whether he wanted to shift to kettlebells and bodyweight only or keep the mixed programme. Diet was asked (\"What's your diet looking like?\"). Limitations were asked directly and clearly (\"is there any, like, mobility-wise, any pains, any tightnesses, anything of that that you're trying to get rid of as well?\") and pushed once for clarification when the answer was vague. No age, height or weight; no work question; no health-conditions question; no sleep or energy. Given the call was heading to a disqualification, the omissions matter less than usual."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "The goal question was asked — \"what's the goal? Obviously you want to get a kettlebell plan, I know that, but like, what are you looking to achieve?\" — and produced consistency, strength, flexibility, and skiing and cycling: \"this is just to help me live my other lifestyle.\" The rep then disqualified within thirty seconds on the closing word of that answer, 'maintain'. Not one of the deep checks was run: no bridge, no 'what does that do for you', no 'who else does that impact', nothing about the wife or the child. There is a real coaching question here. The disqualification may well have been right, and it was made honestly, but it was made on a surface answer from a man who has been following the content for two months, travels constantly and has a young family — and phase 3 exists precisely because the first answer is rarely the real one. Scored as a miss on process while noting the outcome was probably sound."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "The rep disqualified the prospect for coaching at 00:05:02 and converted the remainder of the call into a walkthrough of the self-serve portal. Past attempts and root cause were never reached because the sale was deliberately abandoned, not because they were skipped."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reached — the coaching offer had already been withdrawn by the rep."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Not reached. There was no offer left to gain commitment to."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted on the coaching offer. The rep did complete the equivalent steps for the alternative product — showed it on screen, texted the sign-up link live, and confirmed receipt — but that is a different SKU with no scripted onboarding sequence."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap of a kind the playbook does not contemplate at all: the prospect never objected, and the rep withdrew the offer. There is no scripted disqualification procedure — no criteria for when to stop selling, no wording, no rule about what to do with the prospect afterwards. The rep improvised it well, tested fit on modality first (\"pretty much everything we do is kettlebells... it wouldn't be a good fit, so I want to make sure it's a good fit\"), gave the reason honestly (\"it's six grand for six months\"), and routed the prospect to a $200/month product instead. That improvisation is the most defensible conduct in the batch and it is currently unwritten, so it depends entirely on the individual rep's judgement."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Second gap: the downsell itself. A self-serve product exists at $200/month, it was pitched from the rep's screen and sold by text link on the call, and none of it appears in the playbook — no positioning, no price, no handover, no rule about when a coaching prospect should be routed to it. The prospect's follow-up question is the one the script should answer and does not: \"Maybe getting into this first, and if you need the coaching later, can you reach back out?\""
+    }
+  ],
+  "notes": "Score this one on conduct rather than on completion. Three of seven phases are not_applicable because the rep chose to stop selling, and that choice was correct and honestly made — he named the price as the reason and said outright he would rather the prospect got what he actually wanted. The one thing to coach is that the disqualification came off the word 'maintain' with no attempt to test it; phase 3 is thirty seconds of work and would either have confirmed the call or found a real reason to buy."
+}

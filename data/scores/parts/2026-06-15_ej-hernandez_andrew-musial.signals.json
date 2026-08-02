@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-15_ej-hernandez_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Delivered against the rotator cuff and the basketball - 'he will prepare like short mobility work specific to your needs.' Response: 'It makes perfect sense to me.' He then raised only a scheduling concern, not a substantive one: 'the only window of opportunity I have is... between 4.30 a.m. and 7.00.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "What/when/how-much frame delivered; he already eats twice a day, which the rep used as pre-alignment. Response: 'I think with the nutrition, I don't have any vices. In fact, a lot of the foods that we eat as a family never comes from a box... that part, I think it aligns with me.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Weekly check-in, app, video form review and Trevor's cell number. He accepted it but partly discounted the need - 'the program, I think it will be easy for me to stay consistent because I'm already consistent with my morning workouts... I don't expect me having any difficulties with performing the three to four times a week.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "internal_price_expectation",
+      "raw": "I honestly thought this was not going to be more than like... I honestly thought it was like $1,500 for the program, but I didn't realize it was going to be like, wow.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived expecting roughly $1,500 and was quoted $6,000 - a 4x gap, and he had also said 'I thought it was going to be three'. Nothing in the marketing had set his expectation anywhere near the real price."
+    },
+    {
+      "type": "currency_conversion",
+      "raw": "That's USD? USD, yeah... It's 8-1-40. Yeah, Canadian. Yeah, that's going to be steep, bro.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A Canadian buyer faces CAD 8,140 for the six-month tier and CAD 5,400 for the improvised three-month one. The rep looked the rate up live, which made the real cost vivid at exactly the wrong moment. There is no local pricing and no acknowledgement of FX in the offer."
+    },
+    {
+      "type": "competing_household_obligations",
+      "raw": "My mortgage is high, and then my tuition, the tuition is super high... I got robbed big time by a mortgage broker",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Two children in private school and a high-rate mortgage he is trying to refinance, with a four-to-six week turnaround dependent on the Canada Revenue Agency. This is a hard liquidity constraint, not a value objection, and the rep continued selling past it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Start now and pay once a mortgage refinance completes in four to six weeks",
+      "why_unmet": "There is no deferred-start or hold-my-place option in the offer. The rep filled the gap by inventing a $100 deposit on the spot, which is a commitment device rather than a product answer, and it failed at the card.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A shorter, cheaper scope suited to someone already training daily for 28 years",
+      "why_unmet": "A three-month option does exist internally at $4,000, but it is not part of the published offer, has no stated deliverables or guarantee, and was produced live as a concession to price resistance rather than as a designed tier. The prospect was told it is 'the option only for the fittest'.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

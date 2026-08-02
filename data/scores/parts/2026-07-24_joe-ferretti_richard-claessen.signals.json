@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-07-24_joe-ferretti_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "No presentation took place. The rep offered only to email information: 'I'll send you all the information, take a look at it, and let me know which works the best for you.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never raised."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never raised. The nearest approach was a leading menu question at 00:06:55 offering customization, changing programmes, someone to ask questions or learning it yourself, which the prospect did not answer."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "warm_referral_proof",
+      "raw": "I got a friend of mine that is in your system, and I've seen the difference. That's why I got, you know, interest.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest supporting anchor available - visible results on someone he knows personally from the gym, who handed him the link. Referral is what carried this prospect through three months of failed scheduling. Nothing was done to reinforce it; the rep asked for the referrer's surname to look him up and was rebuffed."
+    },
+    {
+      "type": "rep_quoted_price_floor",
+      "raw": "It's between 1,000 and 7,000 USD.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect now holds $1,000 as the entry point for a programme whose real entry is $6,000, and a $7,000 ceiling that does not exist. Whatever arrives by email has to climb over an anchor Primal set itself, for the third time in this batch."
+    },
+    {
+      "type": "portability_requirement",
+      "raw": "this I can take worldwide, because I travel a lot",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He named the offer's strongest differentiator himself in the first two minutes, before anyone pitched it - kettlebells work in a Miami gym and at home in Madrid. This is what he is actually buying and it was never developed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To be sent everything in writing and decide on his own time, without another call - 'if you can send me all the information... I can go ahead and see if I want to get it'",
+      "why_unmet": "There is no self-serve path for the flagship offer; the process requires a live conversation to reach a price. For a prospect running three building sites who has already failed to attend meetings twice over three months, that requirement is the main thing standing between him and a purchase.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that works identically in Miami and Madrid with no equipment dependency",
+      "why_unmet": "Genuinely served by the offer, and he identified it himself, but nobody presented it or connected it to the price. Recorded because the demand was left entirely unaddressed on the call.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

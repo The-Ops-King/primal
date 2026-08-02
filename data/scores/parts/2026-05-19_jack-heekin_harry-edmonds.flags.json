@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-05-19_jack-heekin_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed spinal surgery after a car wreck, a period of being unable to walk, and current back symptoms after basketball; the rep asked no follow-up question, sought no clinician clearance, recommended loaded ballistic kettlebell training and told him the mobility work would help his back.",
+      "evidence": [
+        "I had back surgery a couple years ago, got in a car wreck, and, like, couldn't walk for a while, all this , and got back",
+        "my back, like, after basketball, like, I'll feel it this morning, and then I'll stretch it out, but I'm still feeling it, you know?",
+        "it hasn't, like, gone back there and they, like, chiseled a bone and all this",
+        "I'm definitely more hesitant now when I hit a mountain bike, you know, or skiing or I'm not as aggressive as I used to be because I don't want to go back to not being able to walk",
+        "And then mobility, it's going to help you with your back. I've got scoliosis, so I know what that one's like.",
+        "mobility wise you need to see where you're at if you've got specific diagnoses for your back tell us"
+      ],
+      "timestamp": "00:06:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep offered to reframe the invoice so the purchase could be deducted as a business expense and characterised the resulting price as almost free — the fourth instance of this pattern in the batch and the most explicit.",
+      "evidence": [
+        "You, you, do you say you owned the businesses? Yeah. We can help you write it off.",
+        "obviously we do and we can frame the invoice however we need to. So you can just speak to your accountant.",
+        "for him, we framed it as like safety and injury prevention for the workplace program and just write it off. So yeah, we're pretty good at that stuff, too.",
+        "So it's pretty, it's, it's always better when it's almost free."
+      ],
+      "timestamp": "00:26:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep disclosed an identifiable recent client — their franchise brand, approximate number of locations, timing of purchase and the tax treatment applied to their invoice — to an unrelated prospect.",
+      "evidence": [
+        "I signed up a guy two days ago who owns, what's it, is it called Culver's? It's like a high-end fast food is what he said to me.",
+        "Yeah, dude, when you come out, I think like eight of them or something.",
+        "for him, we framed it as like safety and injury prevention for the workplace program and just write it off"
+      ],
+      "timestamp": "00:26:36"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Roughly the first five minutes of a 29-minute sales call were spent with the rep soliciting the prospect for travel recommendations for his own upcoming three-month US trip before any frame or discovery.",
+      "evidence": [
+        "Would you recommend Michigan? I'm coming to the States in January, and I'm coming for three months. I've got two places figured out, but the last place, I'm just, everyone, I'm asking everyone",
+        "But if you have a better recommendation for me, dude, I'm all ears.",
+        "I don't know how this whole thing works... so I don't know how this works we stayed touched but I'm happy to help you e-mail you different places to go to"
+      ],
+      "timestamp": "00:00:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Recording terminates at 00:28:36 mid-conversation on an apparent connection failure, leaving the outcome unresolvable, and the passage containing the only affirmative-sounding line falls inside a stretch where speaker attribution is inverted.",
+      "evidence": [
+        "so what's the, sorry, my, um, wifi is a little slow, so I don't mean to interrupt you. I think our Starlink just went down",
+        "So, if I play basketball like Monday, Wednesday, Friday, would it be like a Sunday, Tuesday, Thursday? No, Friday. Did I lose ya? . It is no streamer.",
+        "00:27:34 - Jack / Yeah. I mean, that, that adds up. Um, so I'm down."
+      ],
+      "timestamp": "00:28:36"
+    }
+  ]
+}

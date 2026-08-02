@@ -1,0 +1,124 @@
+{
+  "call_id": "2026-05-26_dexter-stewart_harry-edmonds",
+  "source": {
+    "drive_file_id": "1Se_WQyMMiVRcDBkAspzSLkuO7BYqheKV",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/26/2026 - Dexter  Stewart  x Harry Edmonds",
+    "display_title": "05/26/2026 - Dexter  Stewart  x Harry Edmonds — Follow Up",
+    "file_size_bytes": 30959
+  },
+  "call": {
+    "date": "2026-05-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 36,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Dexter Stewart",
+    "aka": null,
+    "name_source": "title",
+    "location": "United States, Eastern time zone; wife currently in the Dominican Republic",
+    "age": 67,
+    "occupation": "Business owner — recently started his own business, has a business partner/colleague (Ken) and client appointments",
+    "family_status": "Married to Celestina ('Selly'); daughter has just had a baby; buying a house in the Dominican Republic and in the process of buying another one at home",
+    "height_in": 68,
+    "weight_lb": 289,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Martial artist since age five — currently Wing Chun and Shaolin, previously karate, jiu-jitsu, hapkido, judo. Trains at the dojo and describes himself as fast for his size. Used to bench 375 lb in the 1980s. Currently doing pool work (punches and kicks underwater), medicine-ball push-ups, and swings with a 35 lb kettlebell he calls 'too heavy' for him. Class includes only ~10 minutes of strength work.",
+    "kettlebell_experience": "some",
+    "medical": "Peak weight 425 lb, now 289.8 lb (down 130 lb over about 18 months, plateaued 4 months). Height 5'8.5\", waist 55 in, chest 51 in. Misdiagnosed as asthma for 15 years and kept on 25 mg prednisone daily throughout — the underlying cause turned out to be his heart; he now takes prednisone only for flare-ups. Broke his left foot in January kicking a pole, walked on it for a month believing it bruised, and is in a walking boot until the end of June. Weak glutes and core; struggles to get up off the floor. Turns 68 in July."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Lost the ground to illness and medication: 'my asthma got so bad, or they thought it was my asthma, but it ended up that it was my heart... they had me on 25 milligrams of prednisone every day. And I did that for 15 years. And I just gained and gained'",
+      "Wants a former self back — last felt the way he wants to feel in 1990",
+      "Carries visible regret: 'it's embarrassing when I get on the floor and somebody wants to help me get up off the floor'",
+      "Already 130 lb into the rebuild, which is the classic rebuilder profile rather than a fresh start"
+    ]
+  },
+  "goals": [
+    { "text": "Get down to 160-165 lb from 289 lb", "category": "fat_loss" },
+    { "text": "Get genuinely strong — legs, glutes and core — not just fast and conditioned", "category": "strength" },
+    { "text": "Be able to get down to and up off the floor unaided so he can train ground work in martial arts", "category": "hobby_performance" },
+    { "text": "Not walk around like an old man; stay mobile rather than 'get where I can't move'", "category": "longevity_function" },
+    { "text": "Be comfortable in clothing and comfortable walking around — 'It's just overall comfort'", "category": "confidence" },
+    { "text": "Fix his eating — meal prep, stop drinking pop, and implement fasting", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Plateaued at ~290 lb for four months after losing 130 lb", "category": "consistency", "severity": "high" },
+    { "text": "Off his eating plan since breaking his foot — grabbing pop and chips while running around for the business", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Broken left foot, in a walking boot until the end of June, unable to do most of what he was doing", "category": "injury", "severity": "high" },
+    { "text": "Heart condition misdiagnosed as asthma for 15 years, treated with daily 25 mg prednisone, which drove the weight gain and repeated sedentary spells", "category": "medical", "severity": "critical" },
+    { "text": "Weak glutes and core — cannot get off the floor without help, which he finds humiliating", "category": "confidence", "severity": "high" },
+    { "text": "Martial arts gives conditioning but almost no strength work — 10 minutes at the end of class", "category": "program_fit", "severity": "medium" },
+    { "text": "Self-described laziness and no food prep while running a new business", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Diet pop triggers him back onto regular pop", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Ageing — turns 68 in July and does not want to lose function", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Definitely have to talk to my wife, because it'll be 6,000.",
+      "timestamp": "00:27:57",
+      "rep_response": "Ran part of the spouse play — asked her name, isolated with 'speaking to Selly aside, do you feel like we can actually help you get to where you want to be?', got 'I think you can help me', tested it with 'You sure?', then asked how she would react and what he would do if she said no. Closed by booking a call for the next day.",
+      "response_tactic": "isolate_belief_then_probe_spouse_reaction_and_book_followup",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "right now we just bought a house in the Dominican Republic and we're in the process of buying a house here, so she wants me to get, you know, she wants me to get healthier, but, you know, so she's going to be kind of in the middle",
+      "timestamp": "00:28:58",
+      "rep_response": "Did not address it. Two simultaneous property purchases were named as the reason his wife would hesitate and the rep neither isolated finances nor mentioned that payments could be broken up.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'The results are all guaranteed. So we guarantee everyone's results... we guarantee based on the weight of the kettlebell... by the end of the six months, you'll be swinging around a 20 pound heavier kettlebell for all of your movements... And we will work with you for free until you get to that point. If it's not done by the six months, that's guaranteed.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision and no payment; blocked on the spouse conversation: 'Definitely have to talk to my wife, because it'll be 6,000'",
+      "Positive intent: chose a tier unprompted ('I've been looking more at the six') and confirmed belief ('I think you can help me... I believe so')",
+      "Concrete next step agreed and calendared: 'I'm probably gonna talk to her tonight... I'll know something tomorrow', follow-up set for 4pm London the next day and an invite sent on the call",
+      "Counter-evidence: two house purchases in progress and the wife described as likely to be 'kind of in the middle', so the follow-up is not a formality"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call booked for the next day at 4pm London time (11am Eastern) after he speaks to his wife Celestina; calendar invite sent during the call"
+  },
+  "notable": {
+    "note": "A 67-year-old, 289 lb prospect with a cardiac condition, 15 years of daily high-dose prednisone and an unhealed broken foot still in a walking boot was taken through the full offer and priced, with the boot reframed as an advantage: 'this is the good thing about you being in the boot, right? The first month is all about mastering the form anyway.' He is already doing loaded swings with a 35 lb bell in the boot and the rep did not tell him to stop, ask who is treating him, or suggest medical clearance. The rep also endorsed three-day water fasts. He is also the explicit anti-ICP the company describes on its own calls."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns are frequently attributed to the wrong speaker — e.g. at 00:06:42 'But you could definitely do the upper body stuff' is labelled Dexter but is the rep, and at 00:25:50 'And then we would obviously get you onboarded on this call' is labelled Dexter but is clearly the rep mid-pitch. The long monologues are attributed correctly. There is a ~2 minute gap between 00:31:51 and 00:34:02 while the prospect checked his schedule, and a ~1 minute gap around 00:07:19 for a break; both appear to be silence rather than lost content."
+  }
+}

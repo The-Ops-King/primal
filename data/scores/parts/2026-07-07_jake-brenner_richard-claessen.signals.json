@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-07-07_jake-brenner_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered his own prior study of the method rather than just accepting it: \"I watched all of his videos and like the, what is it, the fascia connective tissues is what he talks about... I've done a little bit of research on that. And that's something like I'd like to get more info on.\" He had already named stretching as a personal knowledge gap earlier, so the pillar landed directly on a stated need."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions or pushback to the whole-foods, eating-window and caffeine-reduction protocol: \"Yeah, I can commit to that. And I've done it before.\" He then differentiated the offer himself — \"I've had trainers before, and I've done meal plans and stuff... but I've never seen it like this\" — but asked nothing about mechanics."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar he had explicitly asked for in discovery, and he reacted to the community element with unprompted positive energy: \"I didn't realize it was like a big community thing. So that's kind of cool, a cool aspect of it. And like, that'd be kind of cool if like people in my area wanted to like work out.\" On check-ins: \"I feel like the check-ins are gonna make me excited to do it, like motivated to do it.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_trainer",
+      "raw": "I've had trainers before, and I've done meal plans and stuff. Like I know how to do all of it, right? But I've never seen it like this.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has paid for coaching before and is using that history to argue himself into this one rather than against it. No price was ever attached to those prior trainers, so no numeric anchor was set."
+    },
+    {
+      "type": "competitor_offer",
+      "raw": "he's like, I'm going to give you like a six month commitment. And like, when that's not the same throughout other trainers.",
+      "direction": "supports_price",
+      "competitor": "Unnamed prior personal trainers",
+      "note": "The six-month duration is doing the differentiating work in the prospect's own head before the rep says anything. Free Instagram content functioned as a trial rather than a substitute — \"I don't know how to do it by just watching like little Instagram videos, like the Instagram snippets... I need to know more.\""
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To stop needing prescribed Adderall and 400 mg of caffeine a day to function at work",
+      "why_unmet": "This is a prescribed medication under a clinician's care. The programme has no clinical component and cannot manage, taper or discontinue a prescription, yet the rep presented the outcome as included — \"you don't need to take the Adderall anymore, you don't need to take the caffeine anymore the whole time just to go through the day\" — and took a commitment to reduce caffeine.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Help with the mental load of occupational trauma exposure — the negative inner voice, the slump, the what-ifs from fatal calls",
+      "why_unmet": "The prospect raised this as his primary problem (\"it was just like super mentally draining of seeing all this tragedy around you and taking it home\") and it was reframed as a discipline and motivation issue via the devil/angel metaphor. The offer is training, nutrition and accountability; nothing in it addresses trauma, and no support route was suggested.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Assurance he will not swing back into the arrogance that has ended every previous good streak",
+      "why_unmet": "He named this unprompted as his single biggest concern about succeeding — \"my biggest concern about this whole thing is when this happens... that I'm just still a humble, nice person\". The rep did not answer it; he redirected to the helping-others why. The programme probably does address relapse through the community and the teach-to-fish framing, but nobody connected those to the fear he actually stated.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

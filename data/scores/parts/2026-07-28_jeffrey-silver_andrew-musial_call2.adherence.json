@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-07-28_jeffrey-silver_andrew-musial_call2",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation call, resuming roughly thirty minutes after call 1 on the same Zoom link. The prospect opens by stating his position in the first sentence and the rep responds to it directly; no framing is required or expected."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "No baseline gathering on this call. It was done thirty minutes earlier on call 1, and done well — that call scores P2 as a hit, including a thorough injuries question that surfaced an ankle reconstruction, bilateral knee problems and a cervical fusion. What neither call contains is any clinical clearance, so payment was taken here from a 68-year-old with three disclosed surgical histories that nobody had cleared for ballistic loaded training."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "No goals work on this call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "No past-attempts work on this call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Consequence frame not reachable in an eleven-minute payment call. Notable only in that the objection was a postponement request — 'can I reschedule this for a month or so down the road?' — which is exactly what a consequence frame is designed to pre-empt, and the rep solved it commercially instead."
+    },
+    "P6": {
+      "score": "hit",
+      "checks": { "P6a": "hit", "P6b": "not_applicable", "P6c": "hit" },
+      "evidence": "P6a hit and run in the first fifteen seconds of the call, before any commercial concession was made: 'Just to make sure, apart from the finances, do you genuinely feel that this is something for you and this can get you to your goals?' Answered 'Yes', and the rep then confirmed the isolation with 'So it's purely a financial obstacle right now?' P6c hit — he only moved to restructuring the payment once he had that clear yes and had verified there was nothing else underneath it. P6b N/A — the all-in commitment was secured on the prior call. This is textbook discipline and it is the single best-executed sequence in the batch: belief confirmed, objection isolated, then and only then a solution offered."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "partial", "P11d": "partial" },
+      "evidence": "P11a hit — payment link sent in the Zoom chat and the prospect entered his own card details ('I just got my card. I'm putting the info in now'), with the rep verifying on his end. P11b hit and well run — four specific slots offered, 18:15 the following evening agreed, confirmation email arrival verified, and when the prospect asked about rescheduling and the email turned out to have no reschedule option, the rep improvised a workable fallback and confirmed the team would reach out regardless. P11c partial — the agreement email arrival was confirmed ('you're invited to review and sign a document') but the rep explicitly deferred the signature rather than obtaining it on the call, which is a direct departure from the scripted step: 'before the call with Trevor, please sign the agreement... So you don't have to do it like right now.' The result is that $2,000 was charged before any executed contract existed. P11d partial — the onboarding form was flagged with a soft deadline ('by the end of the day, it will be cool if you could fill it out') and the prospect confirmed the welcome email arrived, but the Skool community link was not mentioned at all, which is now the third call in this batch where that step is missing."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "The best-run money play in the batch, and it converted a cancellation into a close in about ninety seconds. The isolation move ran first and exactly as scripted — 'apart from the finances, do you genuinely feel that this is something for you and this can get you to your goals?' followed by 'So it's purely a financial obstacle right now?' — before any concession was floated. The break-it-up move then ran ('Even if you would split it up into installments?') and, critically, the rep disclosed a no-interest in-house option and structured it concretely on the spot rather than in principle. The six financial-picture questions were not run, and that was the correct judgement rather than a failure: the prospect had already volunteered the precise cause of the constraint ($12,000 air conditioner, $17,000 solar commitment) and the problem was liquidity timing, not capacity. Scored hit on execution while noting that the option which solved it should have been on the table one call earlier."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The opening line is a textbook OD trigger — 'can I reschedule this for a month or so down the road?' — and not one OD move ran. No 'things never slow down, when does it actually become the right time?', no 'the longer you wait the harder this gets', no 'the only thing you can control is right now'. This is recorded as a miss for scoring integrity, but it was the right decision in substance: the rep tested whether the timing request was really about money, confirmed within seconds that it was, and solved the actual constraint instead of arguing with the presenting one. A coach should hold this up as the correct instinct, not correct it."
+    },
+    { "play": "OA", "trigger_present": false, "ran": "miss", "detail": "No think-about-it. The prospect had already thought about it and arrived with a decision to postpone, which he reversed once the terms changed." },
+    { "play": "OB", "trigger_present": false, "ran": "miss", "detail": "No spouse or third-party consult raised at any point." },
+    { "play": "OE", "trigger_present": false, "ran": "miss", "detail": "No fear or doubt about the programme; belief was confirmed unambiguously in the opening exchange and never wavered." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "PROCESS GAP, NOT A REP FAILURE ON THIS CALL — the prospect stated plainly that the instalment option had never been mentioned to him: 'you didn't mention installments, you just said put it on a credit card and pay the credit card off.' He had decided to walk rather than take on credit card interest for a cost that the in-house plan eliminates entirely. There is no step anywhere in the playbook that requires the payment options to be disclosed in full when the price is presented, and this call is the proof of what that costs: a deal that had to be rescued, and which would have been lost outright had the prospect simply not rebooked."
+    }
+  ],
+  "notes": "Eleven minutes, textbook isolation discipline, and a save. Andrew did the hardest thing correctly here — he confirmed belief and isolated the objection BEFORE conceding anything, which is the move he skipped or ran late on almost every other call in this batch. Two things to carry forward. First, the win is also the indictment: the interest-free three-by-$2,000 plan solved this instantly and the prospect had never been told it existed, having been advised on the prior call to fund it with credit card debt. Disclose the payment options at the point the price is given, on every call, without waiting for resistance. Second, the agreement was left unsigned while $2,000 was taken; the script says sign on the call and there was no reason not to, since the prospect had the email open in front of him. Fix the sequence: signature, then payment, then onboarding."
+}

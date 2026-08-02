@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-07-20_brett-weil_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a torn left shoulder with surgery deferred and movements he already restricts, and was recommended a self-guided kettlebell programme with no coach supervision and no question about what he has been cleared to do.",
+      "evidence": [
+        "I have a left shoulder injury, and I have a torn. At some point, I'll do the surgery, but I'm just not doing it now.",
+        "And so I'm careful about which movements I do on my left shoulder, but other than that, I'm pretty fine.",
+        "So you want to make sure, of course, your shoulder doesn't get worse. Yeah.",
+        "the main important thing for you would be, you have those programs that change every single month"
+      ],
+      "timestamp": "00:05:52"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Current or recent GLP-1 use was disclosed and drew no follow-up at all, despite fat loss being the stated goal and the programme prescribing a calorie deficit.",
+      "evidence": [
+        "I went on a GLP-1, and I kind of did everything that I needed to get back to my old weight",
+        "If I could like lose another six pounds from here, which will be difficult"
+      ],
+      "timestamp": "00:03:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The six-month programme was quoted as a range from $2,000 to $6,000, implying prices below the approved figure.",
+      "evidence": [
+        "that does come with an investment, at least in the four figures, usually around like 2,000 6,000 USD for six months, more so to the upper end of that scale",
+        "I don't know what your thoughts are on that in the first place."
+      ],
+      "timestamp": "00:10:25"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Two further unapproved prices were offered for the same lower tier on the same call — $200 per month and $1,000 for six months.",
+      "evidence": [
+        "But that one would be $200 a month.",
+        "we can do two things. Or you would do it for $1,000 for six months.",
+        "$200 would basically be saved if you go for the $1,000."
+      ],
+      "timestamp": "00:13:11"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "A month-and-cancel arrangement was improvised as a trial in response to a direct trial request, with no stated cancellation terms.",
+      "evidence": [
+        "Can you send, can I try it out for like, I don't know, a month or two weeks or something like that? And then if it works out, I'll sign up.",
+        "so the trying it out thing, of course, you have to sign up for one month to actually try it right, but you can sign up for a month, you can cancel the payments, you're just in there for one month"
+      ],
+      "timestamp": "00:14:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A recording dropout swallowed roughly forty-five seconds of the prospect's opening narrative, which is acknowledged on the call itself.",
+      "evidence": [
+        "You just got out for like the whole time. I only just started hearing you again.",
+        "I wasn't talking. was just talking."
+      ],
+      "timestamp": "00:02:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts alternating turns across this file, including the occupation answer and the entire lower-tier pitch.",
+      "evidence": [
+        "00:01:07 - Richard Claessen (Primal Instinct): I am a tech investor.",
+        "00:11:28 - Brett Weil: Yeah. It is such bad weather here."
+      ],
+      "timestamp": "00:01:07"
+    }
+  ]
+}

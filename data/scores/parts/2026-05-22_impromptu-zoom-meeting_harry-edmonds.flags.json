@@ -1,0 +1,88 @@
+{
+  "call_id": "2026-05-22_impromptu-zoom-meeting_harry-edmonds",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "critical",
+      "summary": "Management stated the standard instalment plan as six payments of $1,200 — $7,200 in total against a $6,000 cash price — while the same week a rep offered a prospect $1,200 as a 'down payment' on a $6,000 total with the balance settled later and no schedule; the two descriptions of the same product differ by $1,200 and by structure.",
+      "evidence": [
+        "let's say somebody signed up on a six pay and the six pay is six payments of 1,200. The revenue would be 7,200.",
+        "let's say you close like a 6K pay in full and you close the six pay, your cash collected would be. 6,000 plus 1,200, 7,200. Revenue would be 13,200.",
+        "I was like, dude, just do a month.",
+        "heavily likely to have a 1200 this week too"
+      ],
+      "timestamp": "00:24:31"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The company's own reporting system tracks three product tiers — 3-month, 6-month and 12-month — confirming that a three-month product is standard inventory rather than a rep improvisation, and that the $6,000/6mo plus $9,000/12mo structure the audit is scored against is not the full commercial menu.",
+      "evidence": [
+        "Units sold. So we have three different tiers or programs. So if you sold two of these units, you would put a two here.",
+        "You sold 12M, 12-month programs, 12 6Ms, and then 0 3Ms.",
+        "We have loads of different timeframes."
+      ],
+      "timestamp": "00:18:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Management acknowledged on the call that the company's historical sales metrics are inaccurate — individual reps' scheduled-call counts were wrong, several metrics were never tracked on the old spreadsheet, and April figures may have carried into May — so any close rate or show rate reconstructed from records before May 2026 cannot be reconciled to the company's own numbers.",
+      "evidence": [
+        "Harry, when I was like doing your numbers, I noticed some of your numbers like didn't actually make sense. So I'm gonna, like your scheduled calls and your slot, and your scheduled calls wasn't actually like accurate.",
+        "the reason why some of it's not going to like look completely accurate is because we weren't tracking some of these numbers on the previous spreadsheet. So some numbers didn't get updated.",
+        "Really, some of these numbers are only going to be accurate if you look from May on. I didn't go back and edit all of your previous months.",
+        "some of it may have gotten brought over from April",
+        "Revenue and cash, I'll have to figure out why that's not actually coming in",
+        "Angelo, just a heads up, I just sent through an end-of-day report from that, and all of the numbers in Slack have come up at zero."
+      ],
+      "timestamp": "00:29:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer reported that his mandated one-to-one sessions are opening childhood trauma and have coincided with a two-week collapse in his close rate; the response was one question about whether he could do both at once, followed immediately by a change of subject to haircuts.",
+      "evidence": [
+        "I'm doing one-on-ones with Brian, and obviously it's not really sales training, it's like opening childhood trauma wounds. You know what mean?",
+        "the last thing that's on my mind is like handling a wife objection when it comes up",
+        "I think I had 50% close rate first week. And then the last two weeks it's like, that's when the wounds have been opened.",
+        "Can you still close and work on yourself at the same time?",
+        "Your beard and your hair is looking really good."
+      ],
+      "timestamp": "00:02:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closed client was announced to the team by nationality with the rep imitating his accent, and a colleague followed with a haggling stereotype; nobody present addressed it.",
+      "evidence": [
+        "Closed in Indian, with an Indian accent.",
+        "How'd you do that?",
+        "And he did a bargain.",
+        "Yeah, was great. Like 25 minutes, too."
+      ],
+      "timestamp": "00:01:20"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Fifteen of the rep's fifty-two live calls this month produced no offer, which means roughly 29% of live sales calls in this rep's corpus end without the offer being presented and would silently depress any close-rate denominator that assumes every live call was an offer.",
+      "evidence": [
+        "You had 52 live calls, 37 offers, 12 deals. So your show rate's 39%.",
+        "This is your call to close, 23%. Your offer to close is 32%."
+      ],
+      "timestamp": "00:17:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "A manager stated he has been logging into and entering data inside individual reps' accounts on the new reporting platform, and logged into one rep's account live during the meeting to demonstrate.",
+      "evidence": [
+        "So you should have, Harry, I've been actually in your account. So I don't know if you've actually signed in or if this is just for me, Kim, same, same with you. I've been in your account.",
+        "let me log into your account, Harry, because it'll just be easier rather than seeing all the different metrics",
+        "So I'm logged into Harry's."
+      ],
+      "timestamp": "00:20:00"
+    }
+  ]
+}

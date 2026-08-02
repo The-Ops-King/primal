@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-05-26_carlo-alleva_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a lumbar vertebral protrusion, a knee problem and an operation one month earlier that had stopped him training; the rep asked no follow-up question about any of it and moved to quoting the programme price.",
+      "evidence": [
+        "coming from a past of parkour and skateboarding, so I have a production in LN, like, yeah, one of the vertebrae",
+        "also I had an operation last month, so I'm not moving from, like I'm not training, I'm not training these months, like on the 6th I will be back on balance",
+        "I have also a problem with my knee",
+        "Well, I'll kind of walk you through it then. In terms of numbers, hold on."
+      ],
+      "timestamp": "00:01:30"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Six-month programme quoted as 5,100 EUR rather than the standard 6,000 USD, with no explanation of the currency or the different figure given on the call.",
+      "evidence": [
+        "okay in terms of the the coaching so for six months in euros it's 5100 in euros 5100 in euros for six months"
+      ],
+      "timestamp": "00:12:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Transcript loses all timestamps and speaker separation after 00:12:01, merging the price quote, the objection and the close-out into one block attributed to the prospect.",
+      "evidence": [
+        "00:12:01 - Carlo",
+        "okay in terms of the the coaching so for six months in euros it's 5100 in euros ... yeah that's all good man don't worry about it all righty i'll speak to you soon though"
+      ],
+      "timestamp": "00:12:01"
+    }
+  ]
+}

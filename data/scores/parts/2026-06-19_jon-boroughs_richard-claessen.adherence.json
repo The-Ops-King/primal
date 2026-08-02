@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-19_jon-boroughs_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Best-run opening in the batch. Referenced the application twice — 'I think we saw in your application as well, right, that you want to also just spend more time with loved ones' and 'I saw it in your message as well' — which is the P1a move even without a setter. Frame delivered in three parts with an explicit agreement check ('Sounds good?' → 'Sounds good'). Open question run cleanly."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "hit", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age, height and weight all captured, including the 338 lb figure from the doctor's visit; desk job established; steps, training history and diet all covered properly. Injuries were touched — 'Any other injuries, aches, something that you're feeling at the moment?' — but the answer ('No, I'm good now') was accepted at face value from a man who had been to a doctor three weeks earlier with an injury he could not explain. Health conditions were never asked despite the prospect himself raising diabetes and heart failure. Sleep and energy absent."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "partial", "P3f": "hit", "P3g": "hit", "P3h": "partial" },
+      "evidence": "The strongest goals work in the batch. Went from the weight target to 'what's your bigger reason' to the confidence layer, then to family — 'you're sort of like the role model of the family for the kids as well... What sort of impact would that bring to them' — which produced the brother disclosure: 'my brother told me he was worried about my health. I don't want them to worry about me.' The rep then dated that concern to establish recency. Only the explicit reflection ('so this isn't really about the weight, it's about X') was not stated cleanly."
+    },
+    "P4": {
+      "score": "hit",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+      "evidence": "Full sequence run. 'Have you ever before worked with a sort of coach' → never; 'What do you feel like stopped you from doing so' → no structure and better with people around; traced the last attempt to a month and a half and established why it stopped ('I wasn't losing weight... that's one of the things that discouraged me'). The prospect named the gap himself: accountability and scheduling."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "hit", "P5c": "partial", "P5d": "partial" },
+      "evidence": "Actually run, unlike most calls in this batch. 'what sort of impact do you think that that would have on your life in a couple of years from now, if nothing really changes?' produced 'I'd probably be disappointed... something to regret', and the rep followed with the settling question, well framed against the brother: 'would you be able to settle for yourself where you are disappointed in yourself and your brother stays worried about you?' → 'No.' The 'why not' was never asked and the line in the sand was softened into a readiness question."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "partial" },
+      "evidence": "The belief question was asked properly — 'when you make that change, would you also actually believe in yourself to keep pushing forward, even if something doesn't change?' → 'Yes.' But the all-in question was conditioned on money rather than asked clean: 'if we can figure out like the details, like you said, right, the investment of budgeting for yourself, do you feel like you're 100% committed'. The rep had also already been told at 00:20:53 that cost was the prospect's stated concern and moved to price anyway without resolving it."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No sale of the core programme occurred and the downsell could not be paid for either — the prospect had no cash and no credit card. Nothing to collect, onboard, sign or welcome."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "The most complete play run anywhere in this batch, and the one that most needs review. Isolation ran ('If, let's say, $6,000 would now fall from the top of the sky, do you feel like, yeah, let's just go for it?'), permission was asked ('would you mind having a sort of open conversation about that'), then cash on hand, monthly leftover, savings, credit cards and available credit were all worked through in sequence. It concluded with financing. Executed to script — which is precisely why the outcome is worth escalating: the script's own logic led a rep to propose $500/month financing to a man with roughly $450/month of surplus, no savings and no credit."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I'm really going to have to think on it, man' landed twice at 00:51:31 and 00:52:40. The rep isolated it to the financing question — the correct first move — and then abandoned the play entirely in favour of the Primal University downsell. None of the OA moves ran: no 'do you feel what we've gone through can get you there', no 'thinking isn't the problem, deciding is', no identity question. Defensible given the genuine absence of money, but it was not the play."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "An unscripted situation with no play: a prospect who has the intent, the why and the emotional buy-in but is structurally unable to pay in any form — no cash, no savings, no credit card, no assets. The script's only tool for this is financing, which requires credit he does not have. The rep improvised a downsell and a two-week payday follow-up, which is reasonable, but there is nothing in the playbook covering a genuine no-capacity prospect, and this is the second such prospect in four days."
+    }
+  ],
+  "notes": "Process-wise this is the best-run call in the batch — Phases 1, 3 and 4 all landed and Phase 5 was actually attempted. The problems are not adherence problems. Two things need escalating above the rep: the Primal University price was misquoted by a factor of ten and the prospect agreed to it, and the scripted open-wallet play routed a 53-year-old with no savings and no credit toward a 12-month loan costing more per month than he has spare."
+}

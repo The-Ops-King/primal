@@ -1,0 +1,157 @@
+{
+  "call_id": "2026-07-12_kathie_richard-claessen",
+  "source": {
+    "drive_file_id": "1Bn1roZc9Otaed3B0GFEWEK-C3GhHeR8s",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/12/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/12/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 62374
+  },
+  "call": {
+    "date": "2026-07-12",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 47,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "Rep: 'Already got some information from Derek.' Prospect: 'the little link that I got initially... did you get that link from Derek?' 'Yeah, I think so.'"
+  },
+  "prospect": {
+    "name": "Kathie",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Anchorage, Alaska, USA",
+    "age": 62,
+    "occupation": "Safety manager (desk-bound; previously field-based)",
+    "family_status": "Has a 30-year-old daughter and a 9-year-old granddaughter; caring for an 86-year-old mother with dementia",
+    "height_in": null,
+    "weight_lb": 200,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained 2x/week 30 min with a personal trainer in Fairbanks plus elliptical; describes that period as the best shape of her life. Ex-military. Home gym with elliptical, squat bench, pull-up station and three kettlebells (one 30 lb, two 10 lb). Currently inactive, ~6,000 steps/day.",
+    "kettlebell_experience": "some",
+    "medical": "Postmenopausal, on bioidentical hormones (previously waking at 3 a.m., now sleeping through). Foot/heel surgery in December 2025 repairing three ankle tendons after ~2 years of a misdiagnosed foot problem; ~3 months non-weight-bearing and sedentary; states she is 'finally recovered'. Reports residual balance deficit in the right foot, left hip stiffness, self-reported loss of muscle mass and bone density. Dairy allergy."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Explicitly wants to return to a former self: 'when I was doing personal training, I was in really good shape and I was weighing about 155. So that's my goal.'",
+      "Lost ground to a hard season — heel surgery plus menopause: 'since my surgery, I've definitely noticed a decrease in muscle mass and bone density.'",
+      "Carries regret about the lost time and the misdiagnosis; frames now as the first moment she is physically able to commit."
+    ]
+  },
+  "goals": [
+    { "text": "Get back to around 155 lb from a current 200 lb", "category": "fat_loss" },
+    { "text": "Rebuild muscle mass lost to menopause and post-surgical inactivity, and turn the metabolic advantage back on", "category": "muscle_gain" },
+    { "text": "Regain flexibility, especially the left hip and glutes, and re-address balance in the operated right foot", "category": "mobility" },
+    { "text": "Maintain bone density through resistance training", "category": "longevity_function" },
+    { "text": "Get energy levels back up through the day", "category": "energy_performance" },
+    { "text": "Be physically capable at retirement in ~5 years — move to Hawaii and farm/grow vanilla", "category": "longevity_function" },
+    { "text": "Keep up with a 9-year-old granddaughter, garden and maintain a large yard", "category": "family_role_model" },
+    { "text": "Avoid ending up as limited as her 86-year-old mother with dementia", "category": "longevity_family" },
+    { "text": "Short, efficient home workouts that fit around a 3-hour daily commute", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Post-menopausal muscle loss and insulin resistance — 'once I hit menopause, I hit the wall and the things that used to work for me are not working for me anymore'", "category": "aging", "severity": "high" },
+    { "text": "Three months of post-surgical inactivity after heel/ankle tendon reconstruction, with measurable loss of muscle and bone density", "category": "injury", "severity": "high" },
+    { "text": "Left hip stiffness and atrophied glutes; residual balance deficit in the operated foot", "category": "injury", "severity": "medium" },
+    { "text": "Very stressful job — 'the most stressful job I've ever had' — leaving no capacity to force herself to exercise after work", "category": "work_stress", "severity": "high" },
+    { "text": "Roughly 3 hours of daily commuting on top of a 7-3:30 workday", "category": "time_scarcity", "severity": "high" },
+    { "text": "Cannot self-start or stay consistent without someone looking over her shoulder", "category": "accountability_gap", "severity": "high" },
+    { "text": "Desk-bound role after previously being in the field", "category": "training_barrier", "severity": "medium" },
+    { "text": "Burned by a previous ~$3,000 fitness app that was fully automated and prescribed unscaled workouts she could not perform", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Not confident her kettlebell form is correct and worried about hurting herself", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Sleep was badly disrupted before starting bioidentical hormones", "category": "sleep", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "$6,000? ... That's quite a bit, actually.",
+      "timestamp": "00:30:11",
+      "rep_response": "Reframed as $1,000 a month, did not isolate, did not build a financial picture, later said 'if it comes down to money, of course, then we can find a solution there' without structuring anything",
+      "response_tactic": "monthly_reframe_then_vague_flexibility",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay, well, let me think about it overnight and I'll let you know.",
+      "timestamp": "00:31:22",
+      "rep_response": "Asked what the thinking came down to, surfaced the price and the prior bad experience, then agreed she should watch more videos and booked a 30-minute follow-up rather than pressing for a decision",
+      "response_tactic": "isolate_then_book_follow_up",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "the little link that I got initially, it said it was like $119 a month or something.",
+      "timestamp": "00:30:28",
+      "rep_response": "Explained the $119/mo link is the community product with standard programs and no one-to-one time, and said he would not recommend it for her",
+      "response_tactic": "differentiate_tiers_and_disqualify_cheaper_option",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I have actually done some of these app things before, and I was really disappointed because basically it was just on autopilot... I think it was around $3,000 or something like that... and then I didn't have any benefit whatsoever.",
+      "timestamp": "00:32:06",
+      "rep_response": "Sympathised ('this sort of makes my blood boil'), asserted Trevor works one-to-one and is not a robot, offered to send a written list of deliverables",
+      "response_tactic": "empathise_and_assert_differentiation",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "does he really have a lot of experience dealing with older women and women in general, you know, and so from a training perspective.",
+      "timestamp": "00:33:49",
+      "rep_response": "Conceded openly that roughly 95% of the coach's clients are men and his experience with women is 'a little bit less', then pivoted to his injury-rehab track record",
+      "response_tactic": "concede_then_pivot_to_injury_experience",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "it's hard to imagine that a person like that would understand where you're coming from when you're, you're older, you're still out of exercise",
+      "timestamp": "00:39:30",
+      "rep_response": "Told the coach's origin story — stiff, injured, not fit, built up over years — and said many clients start injured",
+      "response_tactic": "founder_origin_story",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect: 'Okay, well, let me think about it overnight and I'll let you know.'",
+      "A 30-minute follow-up call was booked and the calendar invite confirmed live: 'Yeah, 8pm to 9pm is what it's got, yep.'",
+      "No payment taken, no payment link mentioned, no verbal agreement to proceed.",
+      "Counter-evidence toward a future close: 'I do think it's a valuable investment in myself' and she has followed the brand for a year.",
+      "Counter-evidence against: two unresolved trust concerns (burned by a prior $3,000 app; coach's limited experience with older women)."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "30-minute follow-up call booked for the next day (8 p.m. Bulgaria time); rep to send a written list of programme deliverables; prospect to watch the remaining videos."
+  },
+  "notable": {
+    "note": "Prospect had a major foot/ankle tendon reconstruction in December and a residual balance deficit in that foot, and is being moved toward loaded kettlebell training with no question asked about surgical clearance. Separately the rep openly disclosed that ~95% of the coach's clients are men and that his experience with women is less — honest, but it left a live objection unresolved and is a repeatable positioning problem for a female prospect. A $119/month community tier surfaced from the setter's link and had to be untangled from the $6,000 offer."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversions. Whole rep turns are attributed to 'Kathie' and vice versa — e.g. at 00:01:37 the prospect's disclosure of her own foot surgery is labelled as the rep, and at 00:02:29 the prospect's statement of her three goals is labelled as the rep. Roles were resolved from content throughout."
+  }
+}

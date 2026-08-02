@@ -73,6 +73,18 @@
     },
     {
       "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The new Polish closer speaks throughout this transcript under the speaker label 'Andrew Jin (Primal Instinct)', so any label-driven parse would attribute Andrew Musial's calls, projections and call review to a different rep.",
+      "evidence": [
+        "It's the guy from yesterday that's when my malfunction of the Wi-Fi happened. That's interesting, isn't it, Chris?",
+        "I am just starting to notice this trend of Europeans having terrible Wi-Fi.",
+        "the cool thing in the close, and I was talking today with Angelo, he sent me the sales calls analyzer, like the prompt.",
+        "Yeah. First calls yesterday."
+      ],
+      "timestamp": "00:07:56"
+    },
+    {
+      "category": "data_integrity",
       "severity": "low",
       "summary": "A closed unit was reported at $3,000 against list prices of $6,000 and $9,000, consistent with split payments being booked at the first instalment rather than contract value.",
       "evidence": [

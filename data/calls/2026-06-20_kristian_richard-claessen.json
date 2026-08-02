@@ -1,0 +1,111 @@
+{
+  "call_id": "2026-06-20_kristian_richard-claessen",
+  "source": {
+    "drive_file_id": "1yVhuV2XZiH5bjHx_6qRp7VJSg5TmYmo_",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/20/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/20/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 54825
+  },
+  "call": {
+    "date": "2026-06-20",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 54,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Kristian",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Central Texas, USA",
+    "age": 48,
+    "occupation": "Built a book of business that pays him without requiring work; continues to work by choice. Former plumber. Owns more than one property and travels for a month or more at a time.",
+    "family_status": "Married 27-28 years; two sons aged 18 and 21. Wife trains consistently and does yoga.",
+    "height_in": 70,
+    "weight_lb": 205,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Avoided gyms his entire adult life until two and a half years ago, when he hired a trainer at $1,400/month and trained three days a week for four months before travel ended it. Has not been to a gym in about a year since the injury. Currently walks 12,000-25,000 steps a day, hangs from a pull-up bar daily for grip, and does band-assisted pull-ups only. Has done strict carnivore for six months at a stretch. No kettlebell experience.",
+    "kettlebell_experience": "none",
+    "medical": "Torn labrum in the left shoulder roughly a year ago, sustained bench pressing when the shoulder came out of the socket. Still in physical therapy and actively trying to avoid surgery — 'I don't think I'm going to need to have surgery, but that's kind of ongoing.' Re-injured it about four months ago doing push-ups. Also a lower spine injury from his plumbing years causing constant low-grade back pain for about 30 years, rated 2/10 but always present, worse on sitting and on waking; two to four times a year it becomes a back spasm that leaves him bedridden for several days and he takes muscle relaxers. His orthopedic surgeon was consulted about hanging only, and said 'if it hurts, don't do it'."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Regret is the dominant register: 'I've had so much opportunity and I've squandered it' and 'I'm amazing at self-loathing. I'm very, very good at that. I've practiced it a lot.'",
+      "Framed around what he owes others rather than what he wants: 'I need to be a better example for my sons, and my wife deserves better'",
+      "Reads partly as the_medically_constrained — high intent, zero price resistance, and an unrepaired labrum tear still in physical therapy — but that archetype requires being blocked by the injury or a clinician, and here he was sold rather than blocked, so the classification is uncertain",
+      "Departs from the standard rebuilder in one way: there is no former fit self to return to. He avoided gyms his whole adult life. What he is rebuilding is a self-image, not a physique."
+    ]
+  },
+  "goals": [
+    { "text": "Stop being in pain — get rid of the constant low back ache and the shoulder pain", "category": "other" },
+    { "text": "Build actual strength and muscle for function rather than appearance", "category": "strength" },
+    { "text": "Longevity — being capable rather than looking a certain way", "category": "longevity_function" },
+    { "text": "Show his sons he made a decision and followed through, and inspire them to take their own health seriously", "category": "family_role_model" },
+    { "text": "Be a better husband to a wife who has trained consistently for years", "category": "relationship" },
+    { "text": "Find something portable he can sustain permanently while travelling for months at a time", "category": "sustainability" },
+    { "text": "Learn the movements well enough not to hurt himself again", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Torn labrum still in physical therapy a year on, re-injured four months ago doing push-ups, trying to avoid surgery", "category": "injury", "severity": "critical" },
+    { "text": "Thirty years of constant lower back pain with spasms two to four times a year that leave him bedridden for days", "category": "injury", "severity": "high" },
+    { "text": "Severe self-directed shame — 'I'm amazing at self-loathing'", "category": "mental_health", "severity": "high" },
+    { "text": "Feels foreign and lost in gyms; told himself for decades 'I don't do that. I'm not that guy'", "category": "training_barrier", "severity": "high" },
+    { "text": "Travels for a month or more at a time, which ended his last coaching arrangement after four months", "category": "training_barrier", "severity": "high" },
+    { "text": "Anything requiring a lot of thought is something he cannot sustain — 'If it requires a lot of thought, it's hard for me to stick to it'", "category": "consistency", "severity": "medium" },
+    { "text": "Regret about the years lost and what it cost his sons", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I think the only thing is the cost, the financial cost.",
+      "timestamp": "00:47:03",
+      "rep_response": "Isolated it before answering — 'Outside of that being important, the most important thing is if you actually see this fitting in. So do you feel like if we start working on this that you are actually going to be able to get to the goals?' — got a yes, then named $6,000.",
+      "response_tactic": "isolate_then_present",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": null, "note": "A 12-month option was raised as a concept but never priced — 'With some people, they say like, okay, I do need that longer term commitment for myself. And then we sometimes go for 12 months.' The prospect chose six." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Immediate and unqualified acceptance at full price: '6K for the six months. is that the deal?' / 'Yeah, basically.' / 'Okay. Yeah, that sounds good.' / 'Yeah, let's do it.'",
+      "Signup link sent in the chat and the prospect began completing the form on screen.",
+      "Onboarding call with Trevor booked for Monday 2:45pm Central and the invite sent to the email used for the call.",
+      "Prospect left the call to fetch his card specifically to pay: 'I need to go get my, the credit card that I want to put on this is in the house.'",
+      "Counter-evidence, and why confidence is not higher: the recording ends at 00:53:46 with 'I'll be right back' — before the card was entered and before any payment confirmation. The close is inferred from intent, not observed."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to complete payment with his credit card immediately after the call; onboarding call with Trevor Monday 2:45pm CT; rep to message him on Telegram and book a check-in a month out."
+  },
+  "notable": {
+    "note": "The cleanest close in the batch and the most serious clinical exposure among the sales that actually completed. Kristian disclosed in the first three minutes that he has an unrepaired torn labrum, is currently in physical therapy for it, is trying to avoid surgery, and re-injured it four months ago doing push-ups — plus a 30-year lumbar injury that puts him in bed several days a year. The rep opened correctly with 'we need to make sure we don't make it worse', and then never asked the follow-up: whether his physical therapist or orthopedic surgeon considers loaded ballistic kettlebell work appropriate. The only clinician input on the record is the prospect's own, and it covered dead hangs only. He was sold $6,000 of overhead kettlebell training on the strength of 'we're always going to start with making sure that the form is, especially when you've had an injury before, 150% good.'"
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Regular short-turn inversion and some longer swaps — the whole 'Do you feel like saying she is really going to make a change' exchange around 00:18:38 is misattributed, as is the personal story at 00:31:40. The medical disclosures at 00:01:26-00:03:00 and the close from 00:47:26 are unambiguous."
+  }
+}

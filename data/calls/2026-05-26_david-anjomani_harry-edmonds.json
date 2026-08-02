@@ -1,0 +1,99 @@
+{
+  "call_id": "2026-05-26_david-anjomani_harry-edmonds",
+  "source": {
+    "drive_file_id": "1a2HJLbhBai7m6etEXhAR7YMuNG6tsDQk",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/26/2026 - David Anjomani x Harry Edmonds ",
+    "display_title": "05/26/2026 - David Anjomani x Harry Edmonds  — Lost",
+    "file_size_bytes": 11908
+  },
+  "call": {
+    "date": "2026-05-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 11,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter code in the title and no setter named anywhere in the recording. The prospect describes following Trevor's content for a couple of months, suggesting an inbound route."
+  },
+  "prospect": {
+    "name": "David Anjomani",
+    "aka": null,
+    "name_source": "title",
+    "location": null,
+    "age": null,
+    "occupation": "Desk-based; travels for work roughly every other week for two or three days at a time. Employer and role not stated.",
+    "family_status": "Married with a child",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains most mornings already, mixing kettlebell work with conventional lifting — bench press, back pulls. Confident on swings and goblet squats and describes those as the extent of his kettlebell repertoire. Improvises hotel-room workouts when travelling. Skis and cycles. Has been following Trevor's content for a couple of months.",
+    "kettlebell_experience": "some",
+    "medical": "Nothing disclosed. Asked directly about pains and tightness he reported only desk-related stiffness: \"I sit at a desk a lot, you know, so there's those kinds of things that come with that, but there's nothing, like, serious.\""
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.5,
+    "signals": [
+      "Proposed label: the_self_serve_maintainer — already fit, already training, already eating well, and explicitly buying structure rather than transformation. \"Just looking for a good plan to maintain.\" None of the listed avatars fit: he is not going good-to-great, not rebuilding, not medically constrained, and not price-resistant, because price never became an issue.",
+      "Closest listed alternative is skeptical_bargain_hunter — his substitute is free and self-assembled (\"I can save videos on Facebook and stuff here and there\") — but he showed no skepticism about the offer's value and never argued price",
+      "Low confidence by necessity: the rep disqualified him at 00:05:02 and the call ran eleven minutes, so there is little material"
+    ]
+  },
+  "goals": [
+    { "text": "Have a consistent structured plan he can follow rather than assembling workouts himself", "category": "consistency" },
+    { "text": "Learn the wider kettlebell repertoire beyond swings and goblet squats — \"teach me to fish\"", "category": "other" },
+    { "text": "Be able to train effectively in hotel rooms with little or no equipment", "category": "convenience" },
+    { "text": "Get stronger", "category": "strength" },
+    { "text": "Better flexibility", "category": "mobility" },
+    { "text": "Stay in good shape for skiing and cycling — \"this is just to help me live my other lifestyle\"", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "No structured plan — improvises from saved videos", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Limited kettlebell vocabulary; only confident on two movements", "category": "competence_anxiety", "severity": "low" },
+    { "text": "Travel roughly every other week disrupts training and hotel gym quality is inconsistent", "category": "training_barrier", "severity": "medium" },
+    { "text": "Desk-related tightness in back and lats, explicitly described as not serious", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified the prospect for the coaching offer, unprompted and early: \"I would probably suggest that coaching is not the right thing then, if it's just like wanting to maintain. I'll be frank.\"",
+      "He gave the reasoning explicitly and named the price while doing it: \"most people who do coaching, it's not like, hey, I want to get the coaching to maintain... Because it's six grand for six months.\"",
+      "He restated the decision after showing the alternative: \"I feel like that's better for you rather than the coaching\" — prospect: \"Yeah, I think so too.\"",
+      "The full coaching offer was never presented: no philosophy pitch, no three pillars, no guarantee, no tiers, no close attempt",
+      "Counter-evidence on classification: this is a loss for the $6,000 coaching product but not a lost customer — the rep downsold to the self-serve portal at $200/month and texted the sign-up link live on the call, and the door was left open (\"if you need the coaching later, can you reach back out? Yeah, it's all good, man\")"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to review the self-serve portal link sent by text and sign up at $200/month if he wants it; may return for coaching later"
+  },
+  "notable": {
+    "note": "The cleanest piece of conduct in the batch and it should be read as such. The rep tested fit twice before disqualifying — first on modality (\"if you wanted something where it's like, well, I do kettlebells once a week, but on the other days I do bench press, it wouldn't be a good fit, so I want to make sure it's a good fit\"), then on intent — and then talked himself out of a $6,000 sale to a willing buyer, saying so in as many words: \"I'd much rather you have what you want, and be able to actually get what you want, rather than being like, hey, buy the 6K program.\" He also cited Trevor's 150-client capacity constraint as the reason to protect the coaching roster, which is consistent with what he told a different prospect two weeks earlier. Two caveats worth logging: the disqualification rested entirely on the surface word 'maintain' with no attempt to find what sat underneath it, and the alternative product was priced live at $200/month, which does not reconcile obviously with the promotional pricing another prospect in this same batch reported receiving by email for what appears to be the same product."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short but badly swapped, and consequentially so. The rep's line \"It's 200 bucks a month\" at 00:08:37 sits under the prospect's label, as does most of the portal walkthrough. Most importantly, the exchange at 00:05:43-00:06:03 is inverted: the reaction \"happening right now. That's ridiculous\" is attributed to the prospect and sits immediately after the rep says \"it's six grand for six months\", but the following turns make clear it is the rep reacting to a tremor at his end in England, not the prospect reacting to the price. Any automated read of this file will likely mis-score it as a price objection."
+  }
+}

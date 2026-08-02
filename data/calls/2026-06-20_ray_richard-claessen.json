@@ -1,0 +1,133 @@
+{
+  "call_id": "2026-06-20_ray_richard-claessen",
+  "source": {
+    "drive_file_id": "1K3FIyqH9osw4zDwAPJI2yKU0QLo6-jZZ",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/20/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/20/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 75820
+  },
+  "call": {
+    "date": "2026-06-20",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Second contact overall. The setter Kim had already run a qualification conversation — 'I heard from Kim that you already had a very good conversation with him as well' — and the rep flagged he would repeat some questions.",
+    "duration_min_est": 68,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I heard from Kim that you already had a very good conversation with him as well.' Later: 'It's a different number than the one that you had contact with on with Kim.' Kim Forbes-Sobers is confirmed as the setter on the internal team meeting of 06/19 in this same batch."
+  },
+  "prospect": {
+    "name": "Ray",
+    "aka": "Rai Ipad",
+    "name_source": "transcript",
+    "location": "USA",
+    "age": 50,
+    "occupation": "Self-employed — aircraft mechanic, automotive mechanics, upholstery, car alarms and remote starts. Currently studying for his aviation licence and about to cut back to Saturdays only for roughly three months.",
+    "family_status": "Supporting other people financially — 'I'm taking care of other people.' Uncle was a cardiovascular surgeon.",
+    "height_in": 73,
+    "weight_lb": 167,
+    "bodyfat_pct_self_reported": 16.5,
+    "training_background": "Trains six days a week on the Built with Science push/pull/legs programme, joined about a month before the call; previously trained on his own doing weighted pull-ups and dips and believes he was overtraining. Sessions often run 75-90 minutes. Has used a kettlebell before but only one repetitive movement.",
+    "kettlebell_experience": "some",
+    "medical": "Congenital absence of ankle mobility in the right foot, stable and not worsening. Wrist broken through and through, surgically repaired and rehabilitated, now stronger than before. Last blood panel showed low ketone levels and low testosterone; he is trying to get another panel. No follow-up was asked about the testosterone result."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Anchored to a cheap alternative that is genuinely working for him: 'I paid $200 for one year for Jeremy, you know, and it's through an app. It's AI-operated'",
+      "Self-directed and technically capable — tracks body fat to a decimal, self-diagnoses overtraining, and reasons about recovery windows and muscle-group splits unprompted",
+      "Treats knowledge as a purchasable trade good and prices it by the hour, as he does his own: 'I know knowledge is not, doesn't come for free... I guess, like, $400, like, between $350 and $400 a month'",
+      "Not a pure bargain hunter — the constraint is a genuine three-month income gap while he studies for his aviation licence, not an unwillingness in principle: 'maybe in the next four months, I might be able to do that'"
+    ]
+  },
+  "goals": [
+    { "text": "Retain and gain muscle at 50 for longevity", "category": "muscle_gain" },
+    { "text": "Get from 16.5% to around 13% body fat and finally see a six-pack", "category": "fat_loss" },
+    { "text": "Be built like James Bond rather than the Rock — sleek, able to move and act on the fly", "category": "hobby_performance" },
+    { "text": "Improve mobility and flexibility from a self-rated 4-5 out of 10 to be able to do handstand push-ups", "category": "mobility" },
+    { "text": "Live to 125 and stay strong to the end without needing anyone to care for him", "category": "longevity_function" },
+    { "text": "Learn to use kettlebells correctly without hurting himself", "category": "injury_confidence" },
+    { "text": "Learn the half of health his grandfather never knew, and pass it to his family", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Believes he has been overtraining and losing muscle on his current six-day split", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Stuck between 16 and 16.9% body fat for a month and cannot find the extra push", "category": "other", "severity": "medium" },
+    { "text": "Mobility and flexibility self-rated at 4.5-5 out of 10 and unsure whether he is even stretching correctly", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Doing the same kettlebell movement repeatedly and needs variation and instruction", "category": "training_barrier", "severity": "medium" },
+    { "text": "Watched his grandfather die within a month of a back injury at 82 caused by lifting something too heavy", "category": "emotional", "severity": "high" },
+    { "text": "About to lose most of his income for three months while studying for his aviation licence, and is supporting other people", "category": "other", "severity": "high" },
+    { "text": "Customers frequently need him at weekends, which breaks any fixed schedule", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Oh, that is pretty pricey. Yeah, that I can't swallow right now.",
+      "timestamp": "00:49:06",
+      "rep_response": "Ran the isolation question ('let's say 6K just falls on your lap... Would you then actually be like, yes, let's just get this going?'), confirmed it was capacity rather than value, then opened a financial conversation.",
+      "response_tactic": "isolate_capacity_vs_value",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Right now, I'm trying to get my aviation license... a lot of money that I have now is going to have to support me for like the next three months till I pass.",
+      "timestamp": "00:49:27",
+      "rep_response": "Accepted the constraint and reframed the goal as getting him started on something now rather than waiting: 'let's say we like there is something I feel like would definitely fit for the couple of months from now and then later when you are a pilot when your income is higher we can circle back.'",
+      "response_tactic": "accept_constraint_and_bridge_to_downsell",
+      "resolved": true
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "Because I'll tell you, I paid $200 for one year for Jeremy, you know, and it's through an app. It's AI-operated and stuff like that. So, you know, I know it's not one-on-one.",
+      "timestamp": "00:57:13",
+      "rep_response": "Did not defend the 30x price difference. Introduced Primal University at $200/month directly after this, which is twelve times the annual rate he had just quoted.",
+      "response_tactic": "pivot_to_downsell",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200, "note": "Primal University, cancellable monthly, or roughly $2,000 for a year — 'if you feel like saving 400 bucks in a year, then you can also go for the yearly'" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": 0, "monthly_surplus_usd": 375, "has_savings": null, "credit_score": null, "stated_weekly_capacity_usd": 100 }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.6,
+    "close_rule_applied": null,
+    "evidence": [
+      "The $6,000 offer was declined for now on cash-flow grounds, with an explicit future window: 'maybe in the next four months, I might be able to do that, but as of this time, no.'",
+      "Downsell to Primal University at $200/month was verbally agreed as a trial — 'I could definitely say I would like to do, like, a one-month trial' and 'All right, cool. Let's get that started' — and a signup link was sent by SMS.",
+      "But he did not sign up on the call and explicitly deferred: 'I am going to sign up at least for one month, at least one month, but this is not the time that I could do it, like, right this second.'",
+      "A specific commitment date was set: 'on Monday I can expect a message of it started' → 'Yeah, absolutely. Yeah, Monday.'",
+      "Disposition is follow_up rather than lost because the refusal was explicitly conditional on a three-month income gap he expects to close, and both parties agreed a revisit — unlike the Erim call the same week, where the refusal was on value.",
+      "Counter-evidence: nothing was paid, and he ended the call saying his brain was 'starting to fizzle out'. Confidence is low at 0.6 because the classification turns on reading a deferral rather than an outcome."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to sign up for Primal University and message the rep on Monday; a progress check-in call to be booked once he does, and the one-to-one programme to be revisited once he has his aviation licence and higher income."
+  },
+  "notable": {
+    "note": "The clearest cheaper-substitute anchor in the batch and the one the playbook explicitly admits it has no play for. He is paying $200 per YEAR for Built with Science and was quoted $200 per MONTH for Primal University — twelve times the rate — and the rep did not address the comparison at all, moving straight into the pitch. Also worth flagging that he disclosed low testosterone on his last blood panel and the rep changed the subject to nutrition without a single follow-up. Finally, the rep pushed to complete signup after the prospect had said he was out of time and had a customer waiting, and the prospect eventually declined on the grounds that he was mentally spent."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive inversion, including several multi-minute blocks. The whole James Bond exchange around 00:06:00 is attributed to the rep when it is the prospect, and long stretches of the rep's pillar presentation between 00:39:00 and 00:47:00 are attributed to 'Rai Ipad'. There are also merged turns where both speakers appear inside one labelled block. All attributions here were resolved from content."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "call_id": "2026-07-28_jeffrey-silver_andrew-musial_call2",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "An interest-free in-house instalment plan of three payments of $2,000 was offered here, while the same rep in the same week offered two other prospects only interest-bearing third-party financing and framed upfront credit card payment as the norm.",
+      "evidence": [
+        "So what we can do is also like in-house payment plan, yeah? Okay. So to do it like with no interest at all, we could split it up, up to three payments of $2,000.",
+        "So today, it would be only 2K, then next 2K in the month, and next 2K in two months.",
+        "you didn't mention installments, you just said put it on a credit card and pay the credit card off",
+        "Even if you would split it up into installments?"
+      ],
+      "timestamp": "00:01:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Thirty minutes earlier on the paired call this prospect was told to fund the programme with a credit card or interest-bearing third-party financing, with no mention of the interest-free in-house plan, and he had consequently decided to postpone rather than incur interest he need never have paid.",
+      "evidence": [
+        "I've been thinking about this, and I'm not sure that I can do $6,000 right now. So if possible, can I reschedule this for a month or so down the road?",
+        "tell me about, you didn't mention installments, you just said put it on a credit card and pay the credit card off, which, God, I didn't, it was reluctant. I think to do that, just to end up paying more interest on it.",
+        "Use a credit card. Or you can use a third-party financing option too. So you can split it up into even 12 months. [from paired call 1, drive_file_id 1SrNxZbxEjymvilw2Oc2df7t-xOWo-i2M]",
+        "So to do it like with no interest at all",
+        "I can do that. Okay. Let's do it."
+      ],
+      "timestamp": "00:00:50"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A $2,000 payment was taken before any agreement was signed, with the rep explicitly telling the prospect he need not sign at that moment despite the contract email being open in front of him.",
+      "evidence": [
+        "I just got my card. I'm putting the info in now.",
+        "It's like the welcome to Kettlebell. Let's, yeah, you're invited to review and sign a document.",
+        "So before the call with Trevor, please sign the agreement. And also there is like an onboarding form to fill out.",
+        "So you don't have to do it like right now.",
+        "but please, by the end of the day, it will be cool if you could fill it out"
+      ],
+      "timestamp": "00:08:45"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The prospect's full mobile number was read aloud and captured verbatim in the recorded transcript, and the client relationship was then moved onto the rep's personal WhatsApp as the primary escalation channel.",
+      "evidence": [
+        "And your phone number is 252-903-2095? Yes, sir.",
+        "Do you use WhatsApp? ... I will add you to my contacts, I will send you a message, and if something would come up, you just text me",
+        "I'm going to be in touch with you because I really love to see how are you progressing"
+      ],
+      "timestamp": "00:06:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "One prospect and one $6,000 sale span two separate recordings thirty minutes apart on the same day, so this deal will appear as two calls and risks inflating the close-rate denominator and double-counting the revenue unless the pair is deduplicated.",
+      "evidence": [
+        "I've been thinking about this, and I'm not sure that I can do $6,000 right now.",
+        "you didn't mention installments, you just said put it on a credit card and pay the credit card off",
+        "we have still 30 minutes so go to your office let's reconnect in the same link",
+        "okay all right thank you Andrew right so 10 minutes yeah okay all right see you in a bit"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Only the first of three instalments was collected, so two thirds of the recorded contract value is an unsecured future receivable with no stated terms for missed payments.",
+      "evidence": [
+        "So today, it would be only 2K, then next 2K in the month, and next 2K in two months.",
+        "Let me know when it goes through on your end, because I need to check it also over here.",
+        "I just got my card. I'm putting the info in now."
+      ],
+      "timestamp": "00:01:05"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The onboarding confirmation email contained no rescheduling mechanism despite the prospect asking for one, and the workaround was to route rescheduling through the rep's private WhatsApp.",
+      "evidence": [
+        "is there something that I can text with to get it rescheduled just in case there's a problem?",
+        "when you get the email confirmation, you will see that there's a possibility of rescheduling that, yeah?",
+        "It doesn't say anything about rescheduling, but just join instructions on TAP Mobile where it doesn't have anything about rescheduling.",
+        "I'm having a hard time getting into my WhatsApp now. It's a new phone"
+      ],
+      "timestamp": "00:07:31"
+    }
+  ]
+}

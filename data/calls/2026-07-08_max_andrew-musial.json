@@ -1,0 +1,215 @@
+{
+  "call_id": "2026-07-08_max_andrew-musial",
+  "source": {
+    "drive_file_id": "1CtAAQEYBm7YG8dCmAYOrChVATPDuqVac",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/08/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/08/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 44407
+  },
+  "call": {
+    "date": "2026-07-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 54,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I spoke with Kim, that you had a call with him, I think, yesterday, right?' Prospect: 'Yeah.' Rep: 'So he briefed me in on your situation a little bit.'"
+  },
+  "prospect": {
+    "name": "Max",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New York, USA (travelling at the time of the call, moving to a new apartment in two weeks)",
+    "age": 25,
+    "occupation": "Former investment banker — quit the job. Starting medical school in roughly two months with an interest in orthopaedic surgery. Both parents work in the medical field.",
+    "family_status": null,
+    "height_in": 70,
+    "weight_lb": 160,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long history of bodybuilding-style training on machines and isolation movements, which he now describes as having no functional practicality. Was sedentary roughly 18 hours a day in investment banking. Plays tennis regularly; used to run a lot but stopped because his knees flare. Has tried Trevor's free YouTube kettlebell workouts with very light weight and reports feeling better after them than after any of his previous training. Describes himself as unable to sleep if he does not train. Says he stays lean easily and gets skinnier rather than fatter when he stops training.",
+    "kettlebell_experience": "some",
+    "medical": "Diagnosed nerve damage in the back — 'you have slight misfiring or damage of the thoracic nerve in your back', which clinicians attributed to lifting too heavily for too long, and which has produced a standing postural rotation and a visible asymmetry he describes as one hip sitting higher and further forward. Severe hip flexor and shoulder mobility restriction — cannot hold a deep squat for five seconds, demonstrated it on camera and got roughly 90 degrees. Chronically rolled-forward shoulders. Knees are aggravated by running, which he attributes to compensating for the hip imbalance. Standing for long periods is uncomfortable. Nose surgery to correct his breathing 20 days before this call, with a lifting restriction for those 20 days; he was cleared by a clinician the day before this call to resume lifting but not to attempt maximal loads."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.7,
+    "signals": [
+      "Proposed label: the_early_intervener — young, health-literate, not deconditioned and not in crisis, but carrying real structural dysfunction he can already feel, buying prevention rather than repair. Distinct from the_optimizer in that price is a hard barrier rather than a quality signal, and distinct from the_rebuilder in that there is no former self to reclaim; at 25 he has never had the function he is trying to buy.",
+      "None of the seven listed avatars fit. Not the_optimizer — he is not yet successful, quit his career and is about to be a student with no income, and he explicitly benchmarked against a gym membership. Not skeptical_bargain_hunter — he is not skeptical of the method and his cheap alternative (bodybuilding on machines) is what injured him. Not the_medically_constrained — nothing blocks him and he was cleared to lift.",
+      "The rep himself flagged the avatar mismatch on the call: 'of course, you're not over 30' and 'age is just a number... we even have women doing that. And that's not our avatar.'",
+      "Motivation is functional and identity-linked to a future career: he wants postural endurance to stand through surgeries in a lead vest."
+    ]
+  },
+  "goals": [
+    {
+      "text": "Stop feeling tight and stiff all the time — 'I feel like a mummy in my own body'",
+      "category": "mobility"
+    },
+    {
+      "text": "Correct the postural imbalance and rotation so standing tall is not uncomfortable",
+      "category": "injury_prevention"
+    },
+    {
+      "text": "Be able to run again without his knees getting messed up",
+      "category": "hobby_performance"
+    },
+    {
+      "text": "Open up his body so tennis feels different",
+      "category": "hobby_performance"
+    },
+    {
+      "text": "Build the postural endurance to stand through long operations in a lead vest as a surgeon",
+      "category": "energy_performance"
+    },
+    {
+      "text": "Find one thing he can do for essentially the rest of his life that makes him feel good, not just look good",
+      "category": "sustainability"
+    },
+    {
+      "text": "Get slightly leaner and more defined while staying around 160-170 lb",
+      "category": "appearance"
+    },
+    {
+      "text": "Get structure and form coaching so he does not injure himself again",
+      "category": "injury_confidence"
+    }
+  ],
+  "pains": [
+    {
+      "text": "Diagnosed thoracic nerve damage or misfiring attributed to lifting too heavily for too long, producing a standing postural rotation",
+      "category": "injury",
+      "severity": "high"
+    },
+    {
+      "text": "Nose surgery 20 days before the call with a lifting restriction throughout, cleared to resume only the day before",
+      "category": "medical",
+      "severity": "medium"
+    },
+    {
+      "text": "Hip flexor and shoulder mobility so restricted he cannot hold a deep squat; demonstrated roughly 90 degrees on camera",
+      "category": "injury",
+      "severity": "high"
+    },
+    {
+      "text": "Feels tighter after training than before it — the workouts themselves are making the problem worse",
+      "category": "training_dissatisfaction",
+      "severity": "high"
+    },
+    {
+      "text": "Knees flare when running, which he attributes to compensating for the hip imbalance; has effectively stopped running",
+      "category": "injury",
+      "severity": "medium"
+    },
+    {
+      "text": "Constant sense of fragility — 'I feel like at any second, like I could just snap, like when I'm playing tennis'",
+      "category": "emotional",
+      "severity": "medium"
+    },
+    {
+      "text": "18 hours a day sedentary in his previous job produced rolled-forward shoulders he calls 'modern man posture'",
+      "category": "training_barrier",
+      "severity": "medium"
+    },
+    {
+      "text": "Standing for long periods is uncomfortable, in a career that will require exactly that",
+      "category": "other",
+      "severity": "medium"
+    },
+    {
+      "text": "No structure and no form feedback — following free YouTube workouts without knowing whether he is doing them correctly",
+      "category": "competence_anxiety",
+      "severity": "medium"
+    },
+    {
+      "text": "About to leave paid employment for medical school; price benchmarked against a gym membership",
+      "category": "other",
+      "severity": "medium"
+    }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "you know, grand a month, like, do you think at my stage, I'm just thinking about my age, my health level, like, you know, really nice gym membership is probably a third of that. Just thinking the numbers wise.",
+      "timestamp": "00:45:14",
+      "rep_response": "Stopped him mid-comparison — 'let me pause you there for a second. You're putting numbers on something that, I would say, you cannot quantify' — then reframed to whole-life outcomes and to Trevor's expertise versus a gym: 'you're not buying a gym membership. You're not buying a PT here. You're buying your life transformation.' Asked twice to open a financial conversation and was refused both times. Then invented a one-month $1,200 entry point.",
+      "response_tactic": "reject_the_comparison_then_improvise_a_trial_tier",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Well, I don't think I'm going to decide to commit right now, but I'm going to take a little time, I think, and then come back to you guys if I decide it's right for me.",
+      "timestamp": "00:43:46",
+      "rep_response": "Ran the opening of the scripted play properly — 'do you feel that what we've actually gone through today can actually get you to the body that you want?' then 'What makes you feel it can?' then 'what's coming up with the uncertainty part?' — which surfaced the real blockers. Did not run the deciding-versus-thinking moves or the identity move. Eventually conceded: 'Look, I understand it's a no.'",
+      "response_tactic": "run_belief_questions_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I'm also, I'm moving into a new apartment in two weeks. So I'm traveling until then. So I don't even really think I'd be ready to start until like at least July 20th.",
+      "timestamp": "00:47:27",
+      "rep_response": "Answered only that the first phase is learning the movements, so the timing does not matter. None of the not-the-right-time play ran — no 'things never slow down', no 'when does it actually become the right time', no 'the longer you wait the harder this gets'.",
+      "response_tactic": "minimise_the_start_requirement",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I want to watch more of his YouTube videos. I want to talk to friends that are in sort of like the fitness space and make sure this is something they think is worth this much money.",
+      "timestamp": "00:53:08",
+      "rep_response": "Asked one good question — 'How can your friends actually help you with the decision?' — and then accepted the deferral when the prospect answered 'Who knows, man? You don't know until you ask.'",
+      "response_tactic": "challenge_the_third_party_then_concede",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": 1200, "label": "One-month entry improvised live after the prospect declined twice — full programme for a month, then 'you will just need to top up the remaining 4800' to complete the six months. Not part of the standard offer." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Mentioned only in principle and correctly for once: 'we can split it for six months, but that's going to be a little interest on that, too.' No amounts were worked because the prospect never engaged the financial conversation. The $4,800 top-up after the trial month was also offered flexibly — 'that of course we can also like schedule something that's feasible for you'.",
+    "guarantee_mentioned": "\"there's also a guarantee on that, why Trevor works for six months, because he guarantees that in those six months, you will add at least eight kilos, which is around 17 pounds, to your baseline kettlebell weights on the core movements.\"",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "Repeated deferral without a refusal: 'I'm not going to commit to it on this call, but I'll get back to you guys. I'm going to think it over a bit.'",
+      "He explicitly corrected the rep's characterisation of it as a refusal — Rep: 'Look, I understand it's a no.' Prospect: 'It's not, again, it's not... It's not silly now. I just need time. I want to think it over.'",
+      "Counter-evidence pointing to lost: the rep himself called it a no and closed the call on that basis, no follow-up was scheduled, and the prospect owns the next move entirely — 'I'll email you guys if I want to move forward.'",
+      "Counter-evidence: his stated next step is to consume more free content and seek peer validation, both of which run away from the purchase.",
+      "Counter-evidence: he declined even the improvised $1,200 one-month entry, which is the lowest-friction version of the offer available to him.",
+      "Recorded as follow_up rather than lost because the vocabulary requires an explicit no or a rep disqualification and neither occurred, but the practical read is a dead lead. Confidence is held at 0.72 for that reason."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to watch more of Trevor's YouTube content and consult friends in the fitness industry, then email if he wants to proceed. Nothing booked, nothing scheduled by the rep."
+  },
+  "notable": {
+    "note": "Three things. First, the prospect disclosed nose surgery 20 days earlier at 00:48:13 — as an aside, forty-five minutes after the rep's injury question had already been asked and answered — and the rep's response was to fold it into a reason to start now rather than to ask what the surgeon had restricted. Second, a one-month $1,200 tier with a $4,800 top-up was invented live, the third distinct improvised price point from this rep in two days and a completely different improvisation from the $200/month Skool tier he produced for Luke Charleston the day before; there is no consistent fallback, each rep-prospect pair gets a bespoke one. Third, this is the best objection handling in the batch — the OA opening moves ran close to script — and it still lost, because the discovery had built a vivid problem and never once attached a cost to leaving it alone. The rep in fact deliberately withdrew from the consequence frame: 'I don't want to, like, paint any more morbid picture for you... Let's paint a positive picture.' An hour after this call ended, his manager taught exactly that approach as correct for this prospect type."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and structural. Long stretches run as unpunctuated single-label blocks containing both speakers — 00:02:53 carries the prospect's entire account plus the rep's injury question plus the prospect's thoracic nerve disclosure under one label, and 00:11:41 and 00:26:25 do the same. Individual inversions throughout: at 00:02:02 the prospect's 'my hip mobility is really bad' sits under the rep's label; at 00:19:50 and 00:20:04 the squat assessment exchange is inverted; at 00:47:00 'Look, you're not buying a gym membership' carries the prospect's label although it is plainly the rep's line; at 00:52:16 'But if you decide that you don't want to move after that one month, I won't be harassing you' is the rep's and sits under the prospect's. Roles read from content throughout. The prospect's surname is never spoken, so the call_id uses the given name only."
+  }
+}

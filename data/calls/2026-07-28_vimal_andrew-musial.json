@@ -1,0 +1,163 @@
+{
+  "call_id": "2026-07-28_vimal_andrew-musial",
+  "source": {
+    "drive_file_id": "1IJsweM8xAclkwlR9fEYfKmJXT0HRjoH_",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 49272
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Second call in the sequence. A setter named Derek spoke to the prospect the previous day and handed over notes on his bodybuilding and boxing background, and also gave him a price range. The rep opens with 'I had a chat with Derek that you talked with' and the prospect later refers to 'The guy who I spoke to yesterday'.",
+    "duration_min_est": 50,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "Named by the rep at the top of the call — 'so I had a chat with Derek that you talked with' — and confirmed by the prospect twice: 'I covered a bit with Derek yesterday' and 'The guy who I spoke to yesterday... I asked him how much is going to be, he goes, it's between 1 and 6'. NOTE FOR THE CENTRAL BUILD, NOT A CLAIM: the corpus lists an unidentified setter code 'DH'. A setter called Derek could plausibly be that person, but nothing on this call gives a surname and the title carries no suffix, so this is a hypothesis to test against other transcripts, not a resolution."
+  },
+  "prospect": {
+    "name": "Vimal",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United Kingdom",
+    "age": null,
+    "occupation": "Business owner/executive — 'the business that I'm involved in, we have operations in UK, Europe, South Africa' and 'we employ quite a lot of people'. Office-based with substantial international travel.",
+    "family_status": "Two young children — daughter Amelia, 8, and a son, 4. Puts them to bed before his evening meal.",
+    "height_in": null,
+    "weight_lb": 185,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Twenty-plus years of consistent weight training, self-described as non-professional bodybuilding style with push/pull splits and rotating body parts. Trains every single day: roughly three days weights, three days boxing (bag, pads, light sparring, no competitive fighting), and a 20-25 km cycle on Sundays. Takes 5 g creatine daily and protein shakes. Very strong in fixed planes — leg presses 300 kg — but limited in free movement. Has tried a kettlebell once. Started meditating during COVID.",
+    "kettlebell_experience": "none",
+    "medical": "No formal conditions disclosed and none asked about. Self-reported musculoskeletal picture: restricted hip mobility which he attributes to long hours seated, and which he says presents as 'weak lower back, weak glutes, maybe a bit of knee pain'. Cannot squat deep with a free bar and keeps it 'really light' as a result. References occasionally pulling something in his back. States there are 'no day-to-day issues'. Sleeps a solid seven hours, wakes rested. Current weight 84 kg targeting 78 kg (recorded above in lb as 185). NOTE: no injury, health-condition or clearance question was asked at any point, and the rep recommended replacing his entire strength programme."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.92,
+    "signals": [
+      "Already fit, successful and explicitly seeking good-to-great — 'I don't think I'm that far from my goals'",
+      "Price treated as a quality signal and not a barrier — '6k is within my budget' and, decisively, 'Even if it was two grand, I think that's not the point'",
+      "Business owner with multi-country operations who frames fitness in terms of executive presence: 'If you're in shape, you immediately will get people's respect'",
+      "Trains every day already and enjoys it — 'if I don't train, I feel [expletive]' — so there is no consistency or motivation deficit to sell against",
+      "Buying a method rather than motivation: identified precisely that fixed-plane strength has not produced functional capacity — 'I can sit on a vertical leg press machine and do 300 kilos because my legs are strong, but I can't use them if I'm moving in certain directions'",
+      "Deliberate, unhurried decision-maker who named his own process: 'I make decisions by taking all the information, digesting, and making a decision, and then progressing'"
+    ]
+  },
+  "goals": [
+    { "text": "Fix restricted hip mobility, which he sees as the root of weak lower back, weak glutes and knee pain", "category": "mobility" },
+    { "text": "Take preventive steps now to avoid future injury — 'I want to make sure that I'm taking steps now to prevent any future issues'", "category": "injury_prevention" },
+    { "text": "Get from 84 kg to 78 kg, losing fat around the stomach specifically", "category": "fat_loss" },
+    { "text": "Achieve visible abs in his forties, which he has never had even at 78 kg", "category": "appearance" },
+    { "text": "Retain the strength built over twenty years while shifting to functional training", "category": "strength" },
+    { "text": "Be fit and healthy enough in ten years to train alongside his children when they are 18 and 14", "category": "longevity_family" },
+    { "text": "Move like a 40-year-old at 70 rather than the reverse — 'I've met 40-year-olds who move like they're 70, and I've met 70-year-olds to move like they're 40'", "category": "longevity_function" },
+    { "text": "Lead by example so his children absorb discipline, focus and delayed gratification through training", "category": "family_role_model" },
+    { "text": "Avoid becoming 'the old man at the gym that can't do anything' at 52 or 53", "category": "other" },
+    { "text": "Gain functional strength that transfers out of fixed machines into real movement", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Twenty years of training has produced strength that does not transfer — very strong on a leg press, restricted in free movement", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Restricted hip mobility from long hours seated in an office role", "category": "training_barrier", "severity": "high" },
+    { "text": "Weak lower back, weak glutes and some knee pain, which he reads as downstream symptoms of the hips", "category": "injury", "severity": "medium" },
+    { "text": "Cannot squat deep with a free bar and has to keep the load very light", "category": "training_barrier", "severity": "medium" },
+    { "text": "Gained roughly 6 kg over the past year, mostly muscle but with added belly fat", "category": "aging", "severity": "medium" },
+    { "text": "Hidden sugar intake he had not accounted for — one or two office biscuits daily plus two sugars per coffee and sweetened protein shakes", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Late evening meal at around 21:00 with bed at midnight, which he acknowledges is not ideal", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Stretching advice from physical training has not resolved anything — 'I'm not very good with the stretches, otherwise we probably wouldn't be having this conversation'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Frustration when injured is about losing training days rather than the injury itself — 'damn, I can't train now for four days'", "category": "emotional", "severity": "low" },
+    { "text": "Uncertainty about whether he would perform kettlebell movements with correct form unsupervised", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "No, I will digest because I didn't know what the price was going to be. ... So let me take that away. Let me at least consider it for a day and then I can come back",
+      "timestamp": "00:43:54",
+      "rep_response": "Worked it properly and in the right order. Isolated finances first — 'let's put finances aside. Like does this kind of check all the boxes for you?' — then ran the belief question, then checked for anything hidden ('apart from the finances is there anything else'), then asked the direct budget question, then 'So what's stopping you to actually start now?'. He also tried a mild guilt variant, 'I thought you are committed', which the prospect corrected cleanly. None of the OA decision-frame moves ran.",
+      "response_tactic": "isolate_then_belief_then_direct_budget",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if I was paying for a personal trainer would I be paying that kind of money? It seems like it's a bit more then what I'd be paying for a personal trainer if I was doing an hour a week, couple of hours a week. So I think it's at the top end of that.",
+      "timestamp": "00:45:31",
+      "rep_response": "Not addressed at all. The prospect half-answered it himself ('But also, this is something different, right? If I was going to just pay for a personal trainer, I would have done it') and the rep moved straight on to 'So what's stopping you to actually start now?'. The comparison to a UK personal trainer was left standing unchallenged.",
+      "response_tactic": "not_addressed",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "proposed_label": "deliberate_decision_process",
+      "raw_quote": "Even if it was two grand, I think that's not the point. This is a commitment over six months, which is my second call today, so I wouldn't just be impulsively just saying yes. I would be making sure, how do I make decisions? I make decisions by taking all the information, digesting, and making a decision, and then progressing.",
+      "timestamp": "00:46:57",
+      "rep_response": "Accepted it without challenge and moved to logistics, agreeing a 24-hour decision window and exchanging WhatsApp numbers. This is arguably the correct read of the prospect, but it means the call ended with no mechanism holding the decision — no deposit, no start date, no expiry.",
+      "response_tactic": "accept_and_set_24h_window",
+      "resolved": false
+    },
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "how does it work in terms of ensuring I'm doing things properly? Because lifting weights is relatively easy ... With this, where do my concerns come from? Which is, have I got the right form to be able to doing this properly?",
+      "timestamp": "00:31:59",
+      "rep_response": "Deferred it deliberately to the accountability section ('I'll get into that bit after nutrition, okay?') and then answered it with the video-feedback mechanism — record on the phone, send via app, receive video correction from Trevor. The prospect confirmed it landed: 'It covers my question from earlier.'",
+      "response_tactic": "defer_then_answer_with_video_feedback_mechanism",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "my only other thing would be, would this training, if it's replacing the current strength component of my training, would it still allow me to maintain a level of strength?",
+      "timestamp": "00:30:59",
+      "rep_response": "Answered with reassurance and mechanism rather than evidence — bodyweight work would be included (pull-ups, dips, push-ups) and he would progress from a starting bell. 'Absolutely... So you're going to be good, believe me.' No data, no case example and no acknowledgement that a man who leg presses 300 kg being started on a 16 kg bell is a legitimate concern.",
+      "response_tactic": "reassurance_plus_bodyweight_supplement",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "None structured. The rep deflected the payment-structure question with 'Usually guys just put it on a credit card and pay it up front, but that depends what's...' and the prospect explicitly set the topic aside ('less the payment profile'), so no plan was ever discussed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement raised",
+      "Explicit deferral with a self-imposed deadline: 'So I can make a decision on this by tomorrow. Yeah, give me 24 hours' and 'I'll drop you a note probably similar time tomorrow'",
+      "Very strong positive signal on fit and affordability — 'the program is pretty much what I was looking to get out of a program', '6k is within my budget', and 'Even if it was two grand, I think that's not the point'",
+      "No hidden objection when directly tested — 'apart from everything else I'm happy with everything else that you've covered and I think it's just a finance question'",
+      "WhatsApp channel established and verified live during the call: 'I've just received that'",
+      "The rep pre-committed the onboarding path — 'then I can message to someone within our team to get you onboarded'",
+      "COUNTER-EVIDENCE: he arrived expecting a price as low as $1,000 because the setter quoted a range of 'between 1 and 6', so the $6,000 landed at the top of a range he had been primed for",
+      "COUNTER-EVIDENCE: he benchmarked the price against a UK personal trainer and placed it 'at the top end of that', a comparison the rep never rebutted",
+      "COUNTER-EVIDENCE: the rep leaves for vacation immediately and returns 10 August, so if the 24-hour decision slips there is a twelve-day gap with only WhatsApp"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to make a decision within 24 hours and message the rep on WhatsApp at approximately the same time the following day. If yes, the rep hands to a team member for onboarding. Rep travelling from the next day, back 10 August."
+  },
+  "notable": {
+    "note": "Two findings worth escalating. First, the setter gave this prospect a price range of 'between 1 and 6' the day before — 'he goes, it's between 1 and 6, but he goes, the next call will tell you more. So it's come out at 6.' A setter quoting a range that starts at $1,000 primes every prospect to expect a tier six times cheaper than the real price, and it lands the closer at the top of a range instead of at a single number. Read alongside the improvised $3,000 tier on the smanian call the same day, there is a real question about what price points are actually being represented to the market. Second, the rep undercut physiotherapy advice unprompted — 'when they go to a PT, they say, oh, you need to stretch... but when your muscles are going to be weak, your stretching doesn't help you like at all' — to a prospect presenting with hip restriction, weak glutes and knee pain who has never been clinically assessed. On process this is otherwise one of the better calls in the batch: the baseline was genuinely thorough, the bigger-why question was asked verbatim, and the commitment check ran properly before price."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion. For long stretches the labels are simply reversed: 'So nutrition, could you just briefly walk me through, like, what exactly are you eating on a daily basis?' at 00:09:13 is labelled Vimal but is the rep, and the entire weight exchange at 00:06:41 ('Right now you're 84 kilos, right?' / 'And you want to hit 78') is split across the wrong speakers. The final objection sequence from roughly 00:44:17 to 00:47:23 runs as a single unpunctuated block with both speakers merged, including the critical 'is this 6k within your budget' question and its answer. Roles assigned entirely from content. SEPARATE ISSUE: there is a four-minute recording gap from 00:09:13 to 00:13:15 caused by the rep's laptop restarting mid-call; the opening of the nutrition discussion is lost from the record."
+  }
+}

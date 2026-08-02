@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-11_john-white_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Flat assent throughout the delivery — 'Yes. Yeah.' to 'Is that making sense so far?' and 'No' to 'Any concerns, anything at all?' Worth noting he had already self-started on the modality before the pillar was presented: 'I don't have the kettlebells yet, but I actually started with my dumbbells... doing some of the windmills and stuff like that, just to see how it feels. I was like, okay, this could probably work.' The rep never referenced that back."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "No reaction recorded at all. The rep delivered the food-group, supplementation and fasting content plus the True Coach app walkthrough and moved straight on. Nutrition had never been discussed in discovery, so there was nothing personal to attach it to."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar he reacted to on his own initiative. Asked to place himself on the 1-10 scale he answered need rather than a number — 'I, I need it. I need that. I need it.' — and when asked which piece drove that, he named it directly: 'I think the access and the accountability.' He had already framed his core problem as not doing anything about it despite knowing what to do."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "absent_disposable_income",
+      "raw": "I don't have that money. I can tell you that right now. I don't even, not even on a payment plan. I just don't have it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a value anchor — an absolute one. Two months without income after eye surgery and an active worry about making ends meet. Nothing about the price was negotiable because there was nothing to negotiate with, and he closed the payment-plan door himself before the rep could open it."
+    },
+    {
+      "type": "prior_income_reference",
+      "raw": "at one point I had like 20 units, and I had a full-time, a good-paying job. And so money was really no issue.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His financial self-image is anchored to a past he no longer occupies. He is measuring a $6,000 outlay against what he used to be able to afford, which sharpens the sense of loss rather than the willingness to spend."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "So what I recommend in the meantime, please use Instagram, Trevor's own YouTube channel. Please be consistent with it, John. You know, we still have free resources on the internet. So make the most out of that.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Instagram and YouTube content",
+      "note": "Introduced by the rep, not the prospect, and after the offer was declined. Recorded because it is a company-owned free substitute being positioned as the fallback for a prospect who had already agreed he needed accountability — which is the one thing the free content cannot deliver. Kind on the call, corrosive to future price if it is standard practice."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Structure and accountability at a price reachable by someone with no current income — he could not fund even the $200/mo product",
+      "why_unmet": "Every paid tier, from $6,000 down to $200/mo, sat above his available cash. The only thing left to offer was free content, which by his own diagnosis does not solve his problem because his problem is not information.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "A way to train that his body tolerates now that jogging does not — 'I really can't [jog] anymore, because it's so hard on my body'",
+      "why_unmet": "The kettlebell and mobility offer may well serve this, but nobody established what actually hurts, why he stopped running, or whether a 62-year-old seven weeks post retinal detachment surgery can safely perform loaded ballistic work. It was neither asked nor answered.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that the physical change would translate into income and career recovery — the rep himself framed it as 'How does this help you make more money?'",
+      "why_unmet": "The rep raised the outcome and then never substantiated it. No client example, no mechanism, nothing beyond the ripple-effect assertion, for a prospect whose stated reason to buy was economic recovery.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

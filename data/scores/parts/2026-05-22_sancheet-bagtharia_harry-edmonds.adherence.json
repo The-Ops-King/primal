@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-22_sancheet-bagtharia_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Setter acknowledged without a read-back: 'I know you spoke with Kim, he gave me a little bit of an overview.' Frame ran three-part as always — 'I just want to get a good idea where you're at, build out what it is that you want. And if everything makes sense, we'll talk about the coaching' — no 'what's in the way' and no 'what you need'. Agreement asked as 'Okay?' and given ('Yeah, for sure'). The open question ran in a stronger variant than the script's: 'what, in your opinion, what's the biggest challenge you've been facing right now with your health and your fitness?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The only call in the batch where all three of age, height and weight were actually asked — 'how much do you weigh', 'how tall are you', 'How old are you?'. Training week fully mapped, including the split and prior peak numbers, and food asked directly ('What's your food like?') producing the vegetarian and Indian-diet detail. Against that, the whole health half is absent: no health conditions and no injury or movement-limitation question at all, despite the prospect volunteering 'my knee is spinning or my elbow is pinching, I hate that feeling'. Occupation never asked, which is now the fourth sales call in this batch where the ICP's primary criterion went untested. No sleep, no energy."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "hit", "P3f": "miss", "P3g": "miss", "P3h": "hit" },
+      "evidence": "The vertical ladder ran properly, three levels deep. Six-month framing ('what's really the goal for you six months down the line'), then a definition probe when the answer was vague ('When you say athletic, what do you mean by athletic?'), then the aesthetics-versus-performance question ('Did you have like a specific number in mind, weight wise, or is it more about the look and the performance?') which produced shoulder width. Then the what-does-it-do-for-you question ran and landed the real motive — freedom of movement without joint pain — followed by a clean reflect-back: 'So it's more about just being able to live your life and not have any issues rather than training all the time and like getting injured.' The horizontal half is completely absent: no bridge to what is driving it, no 'who else does that impact', no identity or legacy thread. For a 31-year-old who has recently relocated countries, none of the obvious life context was explored."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "miss", "P4c": "miss", "P4d": "partial", "P4e": "partial", "P4f": "miss" },
+      "evidence": "Two why-now questions ran — 'what had you looking at kettlebells as maybe the thing for you?' and 'what kind of had you feeling like you wanted to get coaching?' — and the second produced the gap in the prospect's own words: 'I don't want to figure out what I want to do for my next six months or a year.' But nothing was asked about what he has tried, what happened with it, or why it stopped working, even though the prospect had already named a specific decline point ('2023 was the last time that I trained with like super high intensity... Since I moved here, it was tough to follow'). That is a two-year drop-off with a stated cause and it was never opened."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame at all. The prospect had described a two-year slide from a genuine peak and a fear of the body giving him trouble; nothing was asked about what the next two years look like if nothing changes, whether he would settle for it, or whether he is ready to draw a line. When money surfaced eight minutes later there was no accumulated cost of inaction to weigh it against."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check before presenting. Two useful adjacent questions ran — a feasibility check ('you'll be training three, four days a week with kettlebells, 30 to 45 minutes a session. Is that doable?') and a coaching-style question ('how do you like to be coached?') — but neither the belief question nor the all-in question was asked, and the rep went to the philosophy and then to price without ever seeking a yes."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Price was presented in two tiers and a payment plan was structured live, so the phase applies and nothing in it ran. No payment asked for. The onboarding call was described as a next step and even dated hypothetically ('so it would be for Monday or Tuesday') but never booked. No agreement sent or signed, and no mention of the welcome email, the Skool community or the onboarding questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Clear money trigger: 'It is definitely above budget for sure.' Two scripted elements ran — a narrow isolating question ('is it like the upfront amount that's concerning for you?') and the break-it-up move, delivered concretely as half down and half before month three. Everything else was skipped: no 'finances aside, nothing else keeping you from 100%', no SHOULD-I versus HOW reframe, no permission question for an honest financial conversation, and none of the six financial-picture items — no cash on hand, no monthly surplus, no cards, no available credit, no investments. The prospect told the rep the constraint was liquidity rather than desire ('the amount that I need to put aside for this would be considerable, given the fact where I am at right now') and nothing was quantified."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I need a bit of time to definitely go over it' and 'at least a week's time'. No OA move ran at all. The rep asked how long he needed, took the answer, and closed the call. Not asked: whether he believes the programme can get him there, what specifically is preventing him from starting, or the deciding-versus-thinking reframe."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap: a vegetarian prospect whose primary goal is muscle gain, on a programme whose nutrition pillar is described elsewhere by the same rep as 'a lot of protein, right, red meat, eggs, chicken, dairy'. The rep's entire answer was one clause — 'making sure that we're taking account for the vegetarian as well' — with no protocol, no example and no proof. There is no play, no asset and no case study for a dietary-restriction fit objection, and it went unexamined on a call where nutrition was the pillar most in question."
+    }
+  ],
+  "notes": "The strongest baseline capture and the strongest goals ladder in the batch, spent on a prospect it then failed to close for money — with no consequence frame built and no financial picture taken. The specific coaching instruction: when a prospect says the price is above budget and that the issue is what he can set aside, that is the open-wallet play's entire trigger, and the rep skipped from a single isolating question straight to a discount-shaped payment split."
+}

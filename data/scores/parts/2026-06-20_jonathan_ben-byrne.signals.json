@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-20_jonathan_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Understood it and asked practical mechanics questions rather than reacting emotionally: 'what about if I get outside a certain week ... does the program [follow] the fact that I don't have the kettlebell or any gears with me?' and 'is there any exercise with more calisthenics-oriented, like dips, pull-ups, push-ups?' His summary response was warm but flat — 'No, that's great. It's what I'm looking for.' The rep's plateau argument against pure calisthenics landed: 'I've seen that people have weight on them to do pull-ups when they reach a certain level.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar he reacted to with real energy, and it maps to the problem he named first on the previous call. On being told there is no macro tracking and simple guidelines instead: 'that's great because I'm moving a bit and I never know what to eat when I'm outside home and all that stuff. So that's a great thing.' He also engaged with the food-logging accountability idea unprompted: 'some people could just lie to themselves and say that, oh, I'm following everything, but they're eating like a pizza on Friday night.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "He probed the delivery model hard and twice, because he was not sure a real human would be involved: 'is he giving advice in person, or is it a team member that is following me if I enter the program?' and 'it is directly with Trevor, another coach. He's to manage all people on the program.' He also asked what survives the six months — 'do you still have access to the app with the information in when the six months end?' Accepted the answers without enthusiasm."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "I was, to be honest, I was looking to invest maybe a month, maybe a monthly, I was looking for 150, 150 or 200 a month, but right now, I don't even have that much money on my bank account",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: monthly_subscription_expectation. He arrived expecting a monthly coaching subscription in the 150-200 euro range and had no concept of a lump-sum programme — 'Because you don't do monthly, monthly schedule, monthly payment?' The gap between his expectation and the ask is roughly thirty-fold. This is the same shape as the Vance call and is worth aggregating: prospects arriving off Instagram advertising expect a subscription, and the offer is a four-figure lump sum. Nothing in the pre-call sequence appears to set that expectation."
+    },
+    {
+      "type": "other",
+      "raw": "At first I was looking at calisthenic, because I feel this is something I want to be able to control my body ... I'm looking on a few things, calisthenia, your program, and then also all the stuff trying to see what I enjoy the best",
+      "direction": "undercuts_price",
+      "competitor": "Calisthenics and other free bodyweight programmes",
+      "note": "Proposed label: zero_cost_modality_alternative. He was actively comparison-shopping against free options at the moment of the pitch, and said so. The rep answered it well on the merits — the plateau argument against unweighted calisthenics — but the comparison was never converted into a reason to pay four figures rather than nothing."
+    },
+    {
+      "type": "other",
+      "raw": "I was scrolling on Instagram and the pop-up showed me this program with kettlebells. I was, yeah, why not? Let's see how they work, what they offer as training, and how it goes.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: cold_advert_lead_no_setter. He had never heard of Trevor until roughly a week before, booked himself off an advert with no setter contact and no financial qualification at any point, and told the rep he simply wanted to see what it was. Both of the calls with him — nearly two hours of closer time — were spent on a lead nobody had qualified for budget. This is a routing finding, not a rep finding."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A monthly-payment route into one-to-one coaching at around 150-200 euros",
+      "why_unmet": "One-to-one is sold only as a lump sum of $4,000, $6,000 or $9,000. No payment plan or financing was offered on this call at all, although both were offered to other prospects earlier in the same batch. The only product at his price point, Primal University at $199/month, explicitly excludes the personalisation he said he needed.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Reassurance that a real coach, not a team member or a template, is behind the programme — asked twice and clearly a live doubt",
+      "why_unmet": "The programme genuinely does deliver one-to-one with Trevor, but the answer given was tangled and the prospect had to ask again. Rep: 'Because Trevor is doing it, like, Trevor is doing it, you know, directly, so I'll go into the way our program is structured.' The proof points that exist — 120-plus active clients, direct app access, form review — were mentioned only later and never tied back to the doubt.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Pricing and payment in euros for a French buyer",
+      "why_unmet": "Every figure was quoted in US dollars and converted approximately and out loud — '6K US, which is about, I believe, about 5k-ish euros. I don't have the exact converter in front of me' and '3,000 euros or something like that' for the three-month tier. No euro pricing, local payment method or currency handling appears to exist.",
+      "verdict": "product_gap"
+    }
+  ]
+}

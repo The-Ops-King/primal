@@ -1,0 +1,44 @@
+{
+  "call_id": "2026-05-09_brian-muthami_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation call. No setter on the title and none referenced, and a call whose purpose is executing a previously agreed purchase does not re-run the frame. Worth noting for coaching rather than scoring: roughly six and a half of the nine minutes elapsed before the rep reached the purpose of the call with 'were you ready? You were ready to get started today, right?'"
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline belongs to the prior discovery call, which is not in this batch. Nothing can be scored here without penalising the rep for an unreachable phase."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals work belongs to the prior call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts and root cause belong to the prior call. The prospect did restate his own diagnosis unprompted — 'the only thing I lacked is the knowledge and stuff' — and the rep agreed with it rather than testing it."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Consequence frame belongs to the prior call and would not be re-run on a payment call."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "partial" },
+      "evidence": "The belief and all-in questions belong to the prior call. The gate itself was checked, lightly — 'were you ready? You were ready to get started today, right?' — but the answer opened with hesitation, 'I think. Yeah, but we were, we were going to do the...', and the rep did not probe the 'I think' before moving to card details. On a call whose only job is to convert a prior verbal agreement into payment, that hedge was the one thing worth pausing on."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "miss", "P11d": "miss" },
+      "evidence": "The first two steps ran cleanly. Payment was collected on the call — 'Let me take the recording out so I don't record your card information' — and the onboarding call with Trevor was booked properly for Wednesday 6:15pm Central, worked around the prospect's 7am-to-4pm schedule, with contact details verified digit by digit and a new link promised. The last two steps did not run at all: no agreement email was mentioned and nothing was signed on the call, and there was no welcome email, no Skool community link and no onboarding questionnaire. This is the same P11c and P11d gap seen across every closed call in this batch."
+    }
+  },
+  "objection_plays": [],
+  "notes": "Scored on P6 and P11 only; every discovery phase is genuinely unreachable on a continuation payment call. Two things to coach: the payment structure was confirmed without either party reconciling $1,200 plus $1,800 against the stated $6,000 total, which needs correcting with the client before the 30-day balance falls due; and the last two onboarding steps — agreement signed on the call, welcome email and Skool link — were skipped again, which is now the consistent pattern rather than an omission."
+}

@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-06_brandon-johnson_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "confused",
+      "evidence": "He read the pillar back and got two of the three parameters wrong, requiring correction on both: 'that's going to be training for kettlebell three to five times a week, 30 to 45 minutes mobility. You said brush your teeth, so about two times a day when we wake up.' The rep corrected the mobility timing — 'We only need you to do it before you go to bed' — and then the frequency and duration — 'the kettlebell piece is three to four times a week, not five, and 30 minutes per session'. Notable because the misunderstanding came from a professional fitness instructor, which suggests the toothbrush analogy actively misleads. Once corrected he was positive: 'I'm really just liking the fact that it's a 30-minute sequence.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Asked two practical mechanics questions: 'would that entail like me cooking?' and later, mid-way through the financial questioning, 'I'm assuming that if we were to do that three step, which is to meal, someone do meal prepping for me, that would be something extra to pay for, right?' — answered yes. He also volunteered a negative history — 'I had a nutritionist coach about five years ago, and while she was fine, I've never been so stressed out my entire life' — and read the fasting protocols as a possible remedy for that: 'since you're talking about fasting protocols, I think we might be able to reduce like any anxieties or different attitudes towards that.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered a positive reaction and tied it to his own self-concept: 'I do like the inclusion of pillar number three, because, again, I'm more of like a mindset type person. I've always been like that type of person who's wanting to grow just kind of like here more than my body, because I'm a firm believer that the body listens to the mind.' This is also the pillar that matches the gap he had already named — that he is only consistent when supported — so it did the most work of the three."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "personal_cashflow_ceiling",
+      "raw": "between what I owe the government, what I owe rent, and then what I would be owing you guys, it's about, that's $6,000 a month I have to fork off. Just before any other bills. And then so, what I'm bringing in... is like 6,200.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The dominant number in this prospect's head was not a competitor price, it was his own monthly solvency margin — roughly $200 before other bills, inside active Chapter 7 proceedings with no credit access. No offer at any published tier could clear it, and he worked that out on the call himself. This is the anchor the whole conversation turned on."
+    },
+    {
+      "type": "employer_provided_alternative",
+      "raw": "I'm going to find myself getting into another group fitness area, and then so, which would feature me doing kettlebell training, right?... and obviously that particular gym, they would give me training for it, but it's one of those things where it's like I want it to be something I live and breathe",
+      "direction": "undercuts_price",
+      "competitor": "The gym hiring him",
+      "note": "A free, credentialled substitute already committed to him by his new employer. He named it in his opening sixty seconds and it was never mentioned again by either party. The differentiator he offered unprompted — wanting to live and breathe it rather than be certified in it — was the obvious value hook and went unused."
+    },
+    {
+      "type": "prior_coaching_price",
+      "raw": "when it came to the personal training, the one thing that always kind of drew me back was like the payment thing",
+      "direction": "undercuts_price",
+      "competitor": "Personal trainer he used in 2023",
+      "note": "His reference frame for coaching is a per-session or monthly personal-training rate, and he has a history of being deterred by it even when the coaching worked — that 2023 trainer produced the best condition of his life. Supportive material sat inside this anchor and was never converted."
+    },
+    {
+      "type": "rep_introduced_discount",
+      "raw": "Typically I'm not meant to really offer this, but I believe they are serious enough that you want to commit to this, you know, whatever it takes, right? So a one month option, it's called a love it or leave it. $1,200, one-time payment.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Rep-created, and the fourth distinct price presented in fourteen minutes after $4,000, $1,500 x3 and $2,000 x2. Second appearance of this unlisted product in the batch from the same rep on the same day."
+    },
+    {
+      "type": "rep_introduced_aspirational_price",
+      "raw": "All this is going to force you to do, Brandon, is just to level up yourself so you can afford a 50K program in a year's time from now, or two years, or whenever it is.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Recorded because it is anomalous rather than because it worked. A $50,000 figure corresponds to no known Primal Instinct product, and it was said to a man in bankruptcy proceedings thirty seconds after he described feeling broken by the purchase. Escalate for a policy answer on what reps may claim about future offerings."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A payment structure longer than three months that does not require a credit line or a finance partner — the only structure that could have made any real tier work for him",
+      "why_unmet": "Stated policy is that in-house plans stretch to 'three months tops' and anything longer routes through finance partners, which require credit he cannot access during Chapter 7 proceedings. The published product is therefore structurally unbuyable for anyone in insolvency, and the gap was closed by shrinking the product to one month rather than by financing it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Kettlebell competence at an instructor standard — he is buying partly so he can credibly teach kettlebell classes in a new group fitness role: 'I want to look the part and be the part and know the part'",
+      "why_unmet": "Nobody established whether a programme designed to train an individual also develops the technical knowledge to coach others. Trevor's form-review loop plausibly does a lot of this, but it was never framed that way and no instructor precedent was cited. Since this is the commercial reason he called, it is the thing most likely to determine whether he extends past the one month.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Done-for-you meal preparation as part of the nutrition pillar",
+      "why_unmet": "Confirmed on the call as an additional cost outside the programme — the pillar instructs rather than provides. Straightforward and correctly handled, but recorded because it adds cost for exactly the prospects least able to bear it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Nutrition guidance that does not reproduce the calorie-and-macro tracking that previously caused him significant stress",
+      "why_unmet": "Actually well served — the no-tracking, no-MyFitnessPal positioning is squarely aimed at this — and he connected the two himself. Logged as positioning only because the rep did not link the pillar back to the history the prospect had just disclosed, which would have been the strongest moment in the pitch.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

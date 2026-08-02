@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-06-15_sales-team-meeting",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Sales manager instructs the team to move away from the good-to-great customer and target men 20-30 pounds overweight, the exact profile the company's ICP script tells prospects it does not work with.",
+      "evidence": [
+        "We're trying to get away from chatting with people who are already in decent shape and just like want a little bit of help.",
+        "We want to mainly focus on guys that are going to be like, you know, 20, 30 pounds overweight, they do well in business, they do well in their life, but fitness is the kind of the one thing that they're kind of struggling with",
+        "We want to get away from the good to great guys, because they just haven't really... I mean, some of them close, but it's very rare.",
+        "Those two avatars are going to be the biggest ones we dial in."
+      ],
+      "timestamp": "00:08:56"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Manager instructs reps to present financed pricing as a monthly figure and steer prospects away from the total, on a plan he states adds roughly $1,800 of interest to the $6,000 price.",
+      "evidence": [
+        "Wait, Shane, 12 months on 6K? Yeah, through PAVA, like the financing. Oh, yeah, yeah, yeah. With the interest added, it might be 7,800, yeah.",
+        "Pavo just say, we can get it as low as $650 a month, and then just get them focused on the monthly and not focused on the overall amount.",
+        "frame it as like, this is actually going to be a bit cheaper than what we would offer, and you paid off for a year, it's financing, and so it'd be about $650 a month for the year",
+        "just let them know it's like a $650 for 12 months, like that's it. It's 12 months, $650 bucks."
+      ],
+      "timestamp": "00:15:12"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Financed pricing of approximately $7,800 total, or $650 per month over twelve months, is in active use against a published price of $6,000 for six months.",
+      "evidence": [
+        "if you do the 12 months on six. It brings it up to 78, right? Something like that.",
+        "With the interest added, it might be 7,800, yeah.",
+        "So what would the payments be monthly? 650.",
+        "You guys are more than welcome to use the financing partners as much as you need. And we are working on bringing in another one at some point very soon, too."
+      ],
+      "timestamp": "00:14:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "On learning a signed client had been hospitalised for emergency surgery with payment outstanding, the manager's first questions were about whether the deal would still close and about contacting the client's doctor for an update.",
+      "evidence": [
+        "his payment balance on... Friday, but he had emergency appendix surgery over the weekend. He's going to get into the, look into the payment issue when he gets released.",
+        "Okay, but he's going to close now?",
+        "How do we call his doctor and see how he's doing? Get an update."
+      ],
+      "timestamp": "00:31:07"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Two team departures inside eight days plus ads being switched off and back on shift the setter mix, closer coverage and lead source inside this batch window, so period-over-period comparisons across the corpus are not like for like.",
+      "evidence": [
+        "We already know about Harry parting ways from the team, but also Kyla has decided to part ways as well",
+        "With Kyla being out, Kim, now you have full reign. mean, you're going to get all the lead flow again.",
+        "when it comes to marketing, we are turning ads back on, just so you guys are aware. We turned them off for a little bit.",
+        "We finished the new VSL script... once the new VSL is up, we are going to be looking to get back into cold traffic again very soon afterwards."
+      ],
+      "timestamp": "00:00:13"
+    }
+  ]
+}

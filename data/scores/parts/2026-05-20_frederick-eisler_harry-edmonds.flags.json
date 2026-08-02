@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-05-20_frederick-eisler_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 66-year-old with two rounds of multi-level lumbar decompression and discectomy, an L5-S1 spinal fusion and daily NSAID-managed shoulder pain was walked through an offer for loaded ballistic kettlebell training, given a 25-35 lb starting-weight estimate and sold a guarantee of a 20 lb load increase on every movement in six months, with no clinician clearance sought for the programme.",
+      "evidence": [
+        "I did have a couple of back surgeries, had decompression, discectomy from L3, L4, L4, L5, L5, S1. And that was in 2016. And then in 2021, in January, I had discectomy, decompression from L3, L4, L4, L5, L5, S1. And then I got fused at L5 and S1.",
+        "Yeah. Okay. Discectomy, L3, L4, L4, L5, L5, S1, and then fused L5, S1. Right.",
+        "I have this stuff it's called diclofenac sodium... I take it in the morning and at night and if I take if I stop taking it for about two weeks my shoulders will start aching",
+        "I would assume he will probably say anywhere from 30, 35 pounds. I would assume, but don't buy that until you've had your call with him",
+        "So the guarantee is that from day one until the end of six months, you will be using a 20-pound heavier kettlebell for every movement",
+        "I mean, I can still move, and everything's all healed up and everything. And my doc told me I can do anything I want."
+      ],
+      "timestamp": "00:05:29"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The entry price moved from $6,000 to a $3,000/$3,000 split to a $1,200 minimum down payment inside roughly ten minutes, all rep-initiated on hesitation, with no financial picture taken.",
+      "evidence": [
+        "The six months comes in at 6K, and the full year is 9K.",
+        "you can put 3K down and then do the other 3K once you're all onboarded to give you that little bit of certainty there as well",
+        "So you can start for like 1200 would be the lowest as a down payment. And then once you're in there, once you've had your call with Trevor, once you train in down a couple of weeks. So, you know, okay, this is real. We can take care of the rest."
+      ],
+      "timestamp": "00:44:04"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The $1,200 entry was offered with no stated schedule, due date or mechanism for the remaining $4,800, and after the coaching agreement had already been emailed, so the terms the prospect was invited to read are not the terms he was verbally offered.",
+      "evidence": [
+        "So you can start for like 1200 would be the lowest as a down payment... We can take care of the rest.",
+        "And if you wanted to take some out of a different account and pay for some of it out of that, it's fine. I can just take a down payment. And then once you're all in the program, you can pay the rest as well.",
+        "It's pretty simple. It's just formalities, really. You've not got any 70-page fine print."
+      ],
+      "timestamp": "00:39:42"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled 'Mitchel Po x Harry Edmonds' but the entire call is with Frederick Eisler, so any join on title-derived prospect names will mis-attribute this record; the rep also stated his own CRM notes had the wrong state for this prospect.",
+      "evidence": [
+        "00:00:00 - Frederick Eisler: Oh, I'm in Northeastern North Carolina.",
+        "Oh, Carolina. don't know why it says California on my notes. Interesting.",
+        "yeah, I'm Fred Eisler. I'm here to meet these ladies",
+        "All right, Fred. I've enjoyed it. I'll see you soon."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Roughly the final twelve minutes of a sales call are unrelated personal anecdotes, including the rep volunteering and extending an exchange disparaging women's appearance and age, while the offer sat unclosed.",
+      "evidence": [
+        "I remember I took this girl on a date, and I went and picked her up, and she said to me on the message, she's like, by the way, I'm tall... I kid you not... And she's got to be 6'3 minimum.",
+        "her hair's standing up from rubbing on the ceiling for too long. And I'm like, this is not a good idea.",
+        "That's the one way you take them to McDonald's, right?"
+      ],
+      "timestamp": "00:48:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Asked how payment works, the rep's first answer steered a 66-year-old retiree to credit-card financing before any discussion of cost, and the prospect had to raise the 24-31% interest problem himself.",
+      "evidence": [
+        "So is that, how is that payable? Is that all up front, or is that...",
+        "Most people just stick it on a credit card, yeah.",
+        "Credit cards where I used to have a six or 7% interest rate, some of them are like 24, one of them's 31%. And I don't want to pay that kind of interest."
+      ],
+      "timestamp": "00:31:43"
+    }
+  ]
+}

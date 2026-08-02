@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-07-10_sourav-kumar_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered as a pillar. The whole of the programme description ran to a few sentences before the price qualification: 'the coaching program Trevor comes in with you, works with you for six months, one-on-one and gets this like super, super dialed in... If we can teach you how to use a kettlebell, you can do it from home.' No mobility work, no form review, no progression, no guarantee. The prospect's specific question — whether kettlebells can strengthen arthritic joints — was never answered mechanically, only affirmed."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "One line in passing, and it was a prescription rather than a pillar: 'we're actually probably going to have to have a little bit more protein in our diet, to shoot it straight with you. We might, we'll probably look for like 150 grams, something like that.' The prospect, who tracks protein and currently eats 100 grams a day, did not respond to it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not mentioned at all. The nearest thing was the teach-a-man-to-fish framing — 'We want to teach you to fish, not just give you a fish' — with no check-ins, no direct access to Trevor and no community described. The call moved to price within ninety seconds of the pitch starting."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "purchasing_power",
+      "raw": "400,000? Yeah. Yeah. Oh. Right. It's actually a very big money. It's a big amount in our currency.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The decisive anchor and the only one that was tested. The rep converted the price live and the rupee figure did the disqualifying. Nothing about the prospect's actual income, savings or capacity was ever established, so what is recorded here is a reaction to a number, not a financial constraint. Worth flagging to the business: a government professional in India with an active clinical need is a lead type the current price simply cannot serve, and the funnel is producing them."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I'm trying to look into yoga. I've been doing much more, diving in much more deeper. Besides that, I'm trying, I think that will help me. So nothing else.",
+      "direction": "undercuts_price",
+      "competitor": "Yoga and self-directed weightlifting",
+      "note": "His stated fallback, and when asked what happens if he does nothing about the kettlebells he described it calmly and completely: 'I'm going to get into weightlifting, like not much heavy weight, but just moderate weight. Also with yoga.' He also already owns a kettlebell and has been following Trevor's free YouTube videos. The paid programme was competing against a free plan he was content with."
+    },
+    {
+      "type": "prior_self_directed_training",
+      "raw": "I was doing push-pull legs six days a week... Yeah, yeah. I saw results with that.",
+      "direction": "undercuts_price",
+      "competitor": "His own home gym programme",
+      "note": "A year of unsupervised training that produced the physique result he wanted at no coaching cost. The one thing it did not deliver was joint improvement, which is the whole opening — and the only argument that would have justified the price is precisely the one the programme is least equipped to make."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Relief from rheumatoid arthritis joint pain and structurally stronger shoulder, knee and hip joints — the sole reason he took the call.",
+      "why_unmet": "The programme is coaching, not clinical care, and nothing in it addresses autoimmune inflammatory disease. Nobody on the call said so; the fit was affirmed instead. A kettlebell offer marketed on joint-friendly functional movement will keep attracting exactly this buyer, and there is currently no screening step, no expectation-setting language and no referral path for them.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A version of the offer priced for a salaried professional outside the US — around 400,000 rupees was described as very big money.",
+      "why_unmet": "The only prices available are a four-figure USD coaching programme and an unspecified 'couple hundred bucks a month' group product. No regional pricing exists and the rep had no framework for the conversation, improvising both the range and the currency conversion live.",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

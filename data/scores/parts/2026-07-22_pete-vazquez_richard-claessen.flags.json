@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-07-22_pete-vazquez_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 68-year-old with multiple lingering injuries reported that the programme's own recommended beginner workout had left his knees hurting badly and his back tweaked, and that he had been hobbling the previous day; he was enrolled and paid on the same call with no question asked about clinical assessment or clearance.",
+      "evidence": [
+        "this is one of my fears. I'm, I'm an older guy. So I have a lot of injuries that, you know, are lingering that were there. So at the end, my knees hurt like crazy.",
+        "And tweaked my back doing that, you know.",
+        "mean, Monday I tweaked my back and Tuesday I was hobbling around. Until last night, ice and heat and all kinds of things.",
+        "my body is 68 years old, and it's been beat up quite a bit, so sometimes I get in trouble because I have a lot of energy, and I think I'm 30 years old, and I'm not",
+        "Perfect. What do you say? Let's get started?"
+      ],
+      "timestamp": "00:02:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep gave direct advice on managing an acute back and knee injury in a 68-year-old, instructing him to do mobility work that day and resume training the following day, with no qualification to do so and no referral.",
+      "evidence": [
+        "The biggest tip I can give you is push yourself less hard. Take more rest.",
+        "I would say maybe if you really want to work out today, if we get started with this, you can already go through the mobility. And I would say go through one of those mobility things and start working out again tomorrow. That's to be honest, what I would advise you to do.",
+        "Don't take it too hard. Just go through it slowly. Understand that you're of course, not 30 anymore."
+      ],
+      "timestamp": "00:07:37"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The deal closed at $1,000 for six months on the Primal University product, taken as two $500 payments across two calls - a price point outside the audited $6,000/6mo and $9,000/12mo structure, and the third appearance of this product in this batch.",
+      "evidence": [
+        "I think I'm comfortable going for the 1K for six months.",
+        "Did you do 500 or did you do 100?",
+        "Yeah, I just sent in the chat and it's 1,000, but it's discounted with 500.",
+        "Pay now $500. Click on that. Processing pay.",
+        "Invoice paid."
+      ],
+      "timestamp": "00:09:03"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep told the client not to bother correcting an incorrect pre-filled electronic signature on the coaching agreement, whose first page is a medical disclaimer.",
+      "evidence": [
+        "Okay. Now, the client's signature says P Vaz Sacks. That's not my signature. Should I?",
+        "Nah, it's it's fine.",
+        "Or if you can change it, that's also good. Otherwise, it's not that important.",
+        "Okay. So page one, medical disclaimer.",
+        "So this is like a contract, man. This is like heavy-duty stuff."
+      ],
+      "timestamp": "00:16:50"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The client was sent an invite to the private one-to-one coaching client hub in error, and after identifying it as the wrong group the rep told him he could join it anyway.",
+      "evidence": [
+        "It says, welcome to kettlebell body, the private coaching hub for Trevor shans clients. And then I can, it says joined group. So I can click and join group, seven admins, 142 members. So do I do that?",
+        "Yes, but I think it's actually the wrong one because that one is just for people we score, but you can do it for sure.",
+        "But this one is actually for the one-on-one and there's not much information in there because that's of course all what Trevor runs through with them."
+      ],
+      "timestamp": "00:19:09"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "This is the second half of a two-call sequence; the Monday call where discovery ran, the offer was presented and the first $500 was collected is not present in this batch, so half the deal is unaudited.",
+      "evidence": [
+        "when I hung up with you the other night on Monday, the other day, I did probably the workout that Trevor's going to recommend for week one",
+        "in that version that we spoke about, of course, that isn't like a full one-on-one aspect",
+        "No, I did 500. So you have that information."
+      ],
+      "timestamp": "00:02:08"
+    }
+  ]
+}

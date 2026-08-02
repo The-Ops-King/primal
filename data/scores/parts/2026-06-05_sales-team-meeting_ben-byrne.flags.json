@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-06-05_sales-team-meeting_ben-byrne",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Closer describes a workaround for consumer lenders that decline coaching programmes, routing the transaction through Apple Pay so the merchant category is not visible.",
+      "evidence": [
+        "Cause if it was like on a Stripe page, basically like Affirm and Klarna, don't really like coaching programs. So like the way to, there's like a way to do it where they got to go through like Apple pay and maybe it's something to do with that.",
+        "We do have Klarna, but it's just not, like, I would probably start with PayPal credit now."
+      ],
+      "timestamp": "00:13:34"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Manager role-plays deflecting a prospect's direct question about whether the $6,000 must be paid up front rather than disclosing that instalment financing exists.",
+      "evidence": [
+        "is that all do up front the 6k yeah yeah most people just start on a credit card take care of it that way why do you ask",
+        "We do have Klarna... So for now, PayPal credit and pay vote."
+      ],
+      "timestamp": "00:24:02"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Manager instructs the closer to proceed straight to processing payment when a prospect signals readiness rather than surfacing remaining concerns first.",
+      "evidence": [
+        "When the guy's giving you the sale, just take it.",
+        "So if they don't give you, like, a clear objection, it doesn't mean anything.",
+        "Do not end calls on maybe."
+      ],
+      "timestamp": "00:16:23"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Manager pushed the setter to commit to output above the projection she had just said she was not confident hitting, then reframed her hesitation as a personal fear.",
+      "evidence": [
+        "Can I challenge you to get four more so that way we can get Ben some calls on Saturday and Sunday?",
+        "where did that fear just come from of like, I need to make sure that I don't raise my projection?",
+        "as of this week, I'm not as confident in making six, seven, eight sets a day"
+      ],
+      "timestamp": "00:09:56"
+    }
+  ]
+}

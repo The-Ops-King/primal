@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-11_colin-kobza_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "No setter, but an application existed and was referenced without anything being fed back: 'I saw your application.' Frame was the usual two-part plus alignment, missing what's in the way and what you need. Agreement was checked — 'Alrighty?' answered 'Yeah. Cool.' — and the open question ran verbatim. The timing is the issue: the frame arrived at 00:06:49, after nearly seven minutes of unrelated conversation about Alberta, Cabo San Lucas, Tulum and Kangen Water, on a call that ran twenty-one minutes in total."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "miss", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The baseline phase did not run at all — nine checks, nine misses, the only complete miss in this batch. No height, no weight, no current training week, no diet, no sleep, no energy. Age was volunteered twice and inconsistently and never asked. Occupation surfaced during rapport and was never asked either. Most seriously, the prospect volunteered a career of accumulated musculoskeletal damage — 'I beat the living piss out of my body for years' and 'I was always sore' — and drew not one follow-up question from a 45-year-old ex-professional contact athlete."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "miss", "P3c": "partial", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "One goal-adjacent question was asked — 'What do you like about kettlebells though? I'm curious' — and the rep then spent roughly ninety seconds answering it himself with a story about a hailstorm before handing it back. Everything of value was prospect-generated and left unused: he drove himself all the way to kids, ageing and legacy without a single prompt — 'I want to be able to move with my kids... I don't want to be like a 55, 65-year-old guy that just doesn't move' — and the rep did not follow it, did not ask who else it impacts, and never reflected any of it back. The phase where the buying decision is made never ran."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "Past attempts appeared only because the prospect mentioned buying '$20 a month apps' in passing, and what happened with them was never asked. He named his own gap — 'I don't know enough, so that's why I want to get into a program' — but nobody tested whether knowledge is genuinely the gap for a man who has trained since fifteen and has come and gone with it for thirty years. The root-cause reframe never ran."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Never ran. The prospect handed over a fully formed version of it unprompted — a fear of being immobile at 55 or 65 and unable to keep up with two active children — and it drew no question at all."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind, in any form. No belief question, no all-in question, and no yes obtained before either price was named. The rep priced both products at 00:09:57, roughly ninety seconds after the opening question."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Scored rather than marked not applicable, because the call did reach the offer — two prices were named and a product was demonstrated on screen for around six minutes. No attempt was made to collect payment for either, no onboarding call was mentioned, no agreement, no welcome sequence. The call ended on 'If you want to do it, do it. If not, that's fine as well.'"
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap and the decisive moment of the call. The prospect disqualified himself from the audited offer before it was presented — 'I don't know if I need a health coach... I'm just looking for a program' — which is a scope objection, not a price or timing objection, and the playbook has no play for it. Worse than not running a play, the rep endorsed it: 'Okay. That's good. Well, you'll save some money then.' At that point no baseline had been taken, no goals established and no consequence frame run, so the rep had no basis on which to agree or disagree that coaching was unnecessary. The prospect's own stated pattern — thirty years of coming and going with training, and a gap he calls knowledge — is precisely the case for coaching, and it was conceded in one sentence."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'Let me ponder it, you know, because there is some pretty good programs out there' is a textbook trigger combined with a competitor reference. Not one move ran — no 'do you feel what we've gone through CAN get you to your goal', no 'what's actually coming up that's preventing you from getting started', no 'thinking isn't the problem, deciding is'. The response was verbatim the same concession used on the Varun Shankar call: 'If you want to do it, do it. If not, that's fine as well.'"
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Money was raised in substance in the same breath — 'obviously want to be mindful of money I spend and stuff' — and no move ran. No isolation, no HOW-not-SHOULD reframe, and no financial picture. Noted separately from OA because it identifies price rather than deliberation as at least part of the hesitation, and neither was explored."
+    }
+  ],
+  "notes": "The lowest-adherence call in the batch: P2 through P6 are misses across the board and the audited offer was abandoned ninety seconds in. Nearly seven of twenty-one minutes went on rapport before the frame, and roughly six more on a screen tour. The prospect volunteered a complete consequence frame — ageing, immobility, two active kids — and thirty years of on-and-off training that directly contradicts his self-diagnosis that he needs a programme rather than a coach, and neither was touched. Coach one rule: when a prospect says he does not need coaching, that is a hypothesis to test in P4, not a conclusion to agree with before discovery has happened."
+}

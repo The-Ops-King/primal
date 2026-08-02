@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-06-25_matteo-m_richard-claessen",
+  "source": {
+    "drive_file_id": "1_tOoOYCSHSsozxbyaqB3HazWNfJGPg86",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/25/2026 - Matteo X Richard ",
+    "display_title": "06/25/2026 - Matteo X Richard  — Closed",
+    "file_size_bytes": 58154
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 60,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": {
+    "name": "Richard Claessen",
+    "role": "closer",
+    "location": "Netherlands (originally Bulgaria; states he usually resides in Bulgaria)",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Matteo M.",
+    "aka": null,
+    "name_source": "title",
+    "location": "Milan, Italy",
+    "age": 38,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 76,
+    "weight_lb": 203,
+    "bodyfat_pct_self_reported": 31,
+    "training_background": "Trained hard in the gym 4-5x/week pre- and during COVID, then took roughly 2-3 years largely off and gained weight. Renewed gym membership end of March 2026 but attends on-off, one to two times a week. Has been working with a dietitian for about 11 months and has lost roughly 13 kg. Cites boredom with repetitive gym work as the reason attendance is inconsistent.",
+    "kettlebell_experience": "none",
+    "medical": "No serious health issues or injuries reported. Upper-back tension attributed to height and desk-based sitting; sees a physiotherapist roughly once a month for manipulation and tension release. Self-rates flexibility 5/10."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.55,
+    "signals": [
+      "Diet already dialled in with a paid dietitian; explicitly frames the goal as refinement — 'more focus on having a healthy body, mobility' rather than rescue",
+      "Already down ~13 kg under his own steam before the call; wants the last 10% body fat and a mobility upgrade",
+      "Price landed slightly above expectation but produced no real resistance — 'It's a little bit more than what I was thinking about... we can work around that for sure'",
+      "Counter-signal for the_rebuilder: lost real ground across a 2-3 year lapse and is partway back; assigned the_optimizer because there is no expressed regret and the driver is boredom with his current modality, not recovering a former self"
+    ]
+  },
+  "goals": [
+    { "text": "Build a healthy body with a more pleasing aesthetic — not bodybuilder or model, just lean and functional", "category": "appearance" },
+    { "text": "Drop roughly 10 percentage points of body fat, from a self-reported ~31% (BIA) toward 20-25%", "category": "fat_loss" },
+    { "text": "Add muscle mass while holding bodyweight between 88 and 92 kg", "category": "muscle_gain" },
+    { "text": "Improve mobility and flexibility from a self-rated 5/10 to a 9 or 10, particularly given age and desk work", "category": "mobility" },
+    { "text": "Train in a way that is engaging and entertaining enough that he actually keeps showing up as life gets busier", "category": "consistency" },
+    { "text": "Train through primal/natural full-body movement rather than isolation work", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Gym workouts have become boring and repetitive; even the thought of going makes him skip sessions", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Attendance is on-off — one or two sessions a week against an intended four to five", "category": "consistency", "severity": "high" },
+    { "text": "Lost 2-3 years of training entirely and gained weight during that lapse; says his body stores fat quickly when inactive even with the diet controlled", "category": "consistency", "severity": "medium" },
+    { "text": "Upper-back tension from height plus sitting most of the day, managed with roughly monthly physiotherapy", "category": "injury", "severity": "low" },
+    { "text": "Self-rates flexibility at 5/10 and says there is a lot of room for improvement", "category": "aging", "severity": "medium" },
+    { "text": "Does not know how to program or perform kettlebell work and expects to need form guidance", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "It's a little bit more than what I was thinking about. It's not something like a figure to hear. So we can work around that for sure.",
+      "timestamp": "00:40:45",
+      "rep_response": "Did not isolate, did not explore the gap, did not run the money play. Immediately treated it as a yes — 'Perfect. Amazing. Let's, let's get started then.' — and moved to booking.",
+      "response_tactic": "skipped_to_close",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "in terms of, you know, being carried or followed day by day, I don't think it's the case per person.",
+      "timestamp": "00:23:20",
+      "rep_response": "Reframed accountability away from hand-holding and toward form correction — asked whether he is 'someone that wants to make sure they're actually always doing the right thing' — which the prospect accepted.",
+      "response_tactic": "reframe_accountability_as_form_correction",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "50% down and 50% later, agreed live at the prospect's prompting. No second-payment date, amount or schedule was stated on the call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment link sent via chat and WhatsApp; prospect worked through a failed attempt on a UAE Mastercard and then reported 'Okay, it's processing now.'",
+      "Rep proceeded through full onboarding afterwards: Trevor onboarding call booked for Wednesday 19:15 local, agreement email sent, Skool community invite sent, onboarding questionnaire link sent on WhatsApp, plus a 30-day check-in booked for 23 July.",
+      "Counter-evidence: the transcript never contains an explicit payment-success confirmation. The rep says 'you should get two emails' and 'I think you don't, like, have access yet, right?' — Skool access was still pending at the end of the call.",
+      "Counter-evidence: the amount actually charged is ambiguous. The prospect asked 'Don't we say 50% down and 50% seconds?' and the rep agreed, so it is unclear whether $6,000 or $3,000 was collected on the call."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor on Wednesday at 19:15 CET; prospect to sign the agreement, join Skool and complete the onboarding questionnaire beforehand. Rep check-in booked 23 July at 18:00."
+  },
+  "notable": {
+    "note": "Call was originally booked with Andrew Musial, who was pulled away; Richard covered it cold and closed it. The entire Consequence Frame phase was skipped and the deep-why line was abandoned after the prospect said 'It's, you know, doing for yourself' — the deal closed on modality appeal rather than on emotional leverage. The price objection was never isolated; the rep conceded a 50/50 split on the prospect's request without setting terms. Medical screening ('you've never had like a serious injury, right?') was asked only after the payment was already processing, as a leading question."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained. Whole passages are inverted: the block at 00:01:15 labelled 'Matteo M.' contains the rep's discovery questions ('did you say 92 or 98 kilos?'), and the long stretch from roughly 00:12:45 to 00:14:30 runs both sides under a single label. The 00:36:44-00:38:16 offer-transition block and the 00:50:48 injury question are also attributed to the wrong speaker. Role was read from content throughout; no line-level attribution was relied on."
+  }
+}

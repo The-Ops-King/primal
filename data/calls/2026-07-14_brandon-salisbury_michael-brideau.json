@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-07-14_brandon-salisbury_michael-brideau",
+  "source": {
+    "drive_file_id": "18wH1x6FKtaOB7wziGzRi4dDry4gMS9f2",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/14/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/14/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 120815
+  },
+  "call": {
+    "date": "2026-07-14",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Follows a setter call the previous day with Derek. The prospect asked whether the notes had been passed over and they had not: 'I didn't see any notes anywhere, man. Normally I have them, so I don't know if it just got misplaced.' IMPORTANT: this Drive file contains two entirely separate sales calls back to back — this one runs 00:00:00 to 01:38:10, and a call with Joanna Rattan runs 01:38:43 to 02:12:34 in the same file.",
+    "duration_min_est": 98,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Florianopolis, Brazil" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "'you spoke with, who did you end up speaking with? I remember, was it Derek?' — 'Yes, it was Derek.' Derek is not one of the three known setter codes and no code appears in the title. He also appears in the Michael x Richard internal call as a setter: 'One of them is confirmed and is set it by Derek.'"
+  },
+  "prospect": {
+    "name": "Brandon Salisbury",
+    "aka": "beazy / BZ",
+    "name_source": "transcript",
+    "location": "Fair Oaks Ranch, Texas, USA (about 15 miles outside San Antonio)",
+    "age": 44,
+    "occupation": "Cybersecurity engineer specialising in digital forensics, roughly 15 years in the field; former US Army signals intelligence analyst; started a new on-site role one month before the call after five and a half years fully remote; part-time cybersecurity degree funded by the VA",
+    "family_status": "Single father living with his 16-year-old son, who wants to train alongside him",
+    "height_in": 69,
+    "weight_lb": 188,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Athletic since early childhood; Army PT background; historically able to do 58 pull-ups in a set and won unit competitions. Almost nothing for the last 18 months since a shoulder injury. Currently hikes fast in hill country at ruck-march pace, occasionally carrying two 25 lb sandbags, and stretches regularly. Owns 50 lb and 100 lb weight bags and some dumbbells. No kettlebell experience at all. No usable gym within 45 minutes.",
+    "kettlebell_experience": "none",
+    "medical": "Von Willebrand disease, a hereditary platelet and clotting disorder diagnosed at 21. He declined the prescribed medication and instead manages it with very high dietary garlic intake on the advice of an acupuncturist and herbalist, plus beef liver, bone marrow and bone broth supplements. Separately, a shoulder injury 18 months ago that he has never had imaged: no MRI, no physiotherapy, surgery recommended by two doctors and refused, VA offered painkillers which he refused. He reports no current pain but persistent discomfort on certain movements and could not push or pull for months. States plainly 'I don't trust anyone' about his medical providers."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Lost 18 months of condition to a specific injury and wants a former self back — his son's line was 'dad, like you used to have an eight pack. Like what the [hell]?' and his answer was 'yeah, exactly. I want to get back to that'",
+      "Visible regret, stated plainly: 'I've been in bad shape in my life, and I feel like I look like [shit], and that makes me feel like [shit]'",
+      "Describes the injury period as depressive: 'that kind of just depressed me, because there's certain things I couldn't do... it just depressed the [hell] out of me'",
+      "Counter-signal: commercially he presents as an optimizer — no price resistance at all and a strong professional identity — but the physical story is a rebuild after a hard season, which is the defining rebuilder trait"
+    ]
+  },
+  "goals": [
+    { "text": "Functional, fit, active, usable muscle rather than a magazine physique", "category": "longevity_function" },
+    { "text": "Get rid of the dad bod and return to the eight-pack condition his son remembers", "category": "appearance" },
+    { "text": "Be able to protect himself and his son physically if it ever came to it", "category": "confidence" },
+    { "text": "Feel the all-day energy and mental lift he used to get from morning Army PT — 'It helps with depression. It helps with anxiety. It helps with everything, and it's natural'", "category": "energy_performance" },
+    { "text": "Stay moving and live longer — 'The more I move, the longer I live'", "category": "longevity_function" },
+    { "text": "Rebuild the shoulder to the point where pushing and pulling work normally again", "category": "injury_confidence" },
+    { "text": "Train at home, because no usable gym exists within 45 minutes", "category": "convenience" },
+    { "text": "Train alongside his 16-year-old son and pass the knowledge on to him", "category": "family_role_model" },
+    { "text": "Get back to doing large sets of pull-ups", "category": "strength" }
+  ],
+  "pains": [
+    { "text": "Eighteen months of near-total inactivity since an untreated shoulder injury", "category": "injury", "severity": "high" },
+    { "text": "Could not push or pull at all without it feeling wrong, which he says depressed him into stopping altogether", "category": "mental_health", "severity": "high" },
+    { "text": "Seven and a half years of remote desk work leaving him, in his words, pretty sedentary", "category": "training_barrier", "severity": "high" },
+    { "text": "Deep distrust of his own doctors — the VA offering painkillers, a physician recommending surgery without imaging — leaving a real injury unmanaged", "category": "medical", "severity": "high" },
+    { "text": "No usable gym within 45 minutes; the local options are a tiny YMCA and an Anytime Fitness he describes as almost all cardio machines", "category": "training_barrier", "severity": "high" },
+    { "text": "Hates how he looks and says it makes him feel bad about himself", "category": "confidence", "severity": "medium" },
+    { "text": "Sleep disrupted by a new on-site job requiring a 6am start after five years of waking at 8.50", "category": "sleep", "severity": "medium" },
+    { "text": "Von Willebrand disease managed without medication and outside conventional care", "category": "medical", "severity": "high" },
+    { "text": "Wants to train with his son but their schedules do not overlap", "category": "time_scarcity", "severity": "low" },
+    { "text": "Only one credit card with a $2,500 limit and no habit of using credit, which blocked payment on the call", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "I wouldn't be able to do it with the larger kettlebells starting out that he's got. I would assume that wouldn't be wise... I noticed that he had replied back to somebody, I would start out with 12 kg... And I don't know if that would be too much with a slight injury, if I should start a little bit lower than that.",
+      "timestamp": "00:11:37",
+      "rep_response": "Deferred it to the onboarding call every time it was raised — 'if you end up doing the coaching with him, he'll walk you through it' — and then added that with strengthening and mobility the shoulder would likely be a non-issue in two or three months. He hedged once: 'I'm not going to say it's magically going to heal a tear.' No clinician clearance was ever suggested.",
+      "response_tactic": "defer_to_onboarding_plus_recovery_projection",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "The only thing I would need to do is, I would need to request... I've never really used credit much. Literally, I have one credit card, so I would need to call USAA and request an increase on my card.",
+      "timestamp": "00:03:38",
+      "rep_response": "Confirmed there was no other hesitation, then improvised a split — $2,000 on the card immediately with the remaining $4,000 automatically billed in 30 days — and pressed to take the $2,000 before his next call",
+      "response_tactic": "improvised_partial_payment_against_credit_limit",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Improvised on the call to work around a credit limit: $2,000 charged immediately and the remaining $4,000 billed roughly 30 days later, with the prospect choosing an automatic charge over a follow-up call. Nothing was documented and no payment was ultimately taken.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "One credit card with a $2,500 limit, rarely used, which he intended to have increased by phone during the call. No affordability objection at any point — he volunteered 'six grand for six months of realistic, functional... diet, all this is included. Like, dude, that's an investment that is worth it. 100%.' VA benefits fund his degree."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent, so neither limb of the close rule is met",
+      "Verbal agreement was unambiguous: 'Dude, you're 10 out of 10, you want to do this, right?' — 'Yeah. Yeah. I need to do it.' and he endorsed the price unprompted as worth it",
+      "The onboarding call was booked and confirmed for 5:15pm Monday and a calendar invite sent, before any money changed hands",
+      "Full legal name, billing address, postcode and contact details were taken and the rep began setting up the account",
+      "The call was cut short by a genuine work emergency — a power failure at the prospect's employer requiring him to attend site: 'I have to literally leave right now... this is like a disaster recovery situation'",
+      "Counter-evidence for a closed reading: everything except the transaction was completed, and the prospect said 'Text me, and I'll respond. So whether tonight works or tomorrow, either one should be good to go.' A reviewer could reasonably read this as a close in all but execution; scored 0.8 for that reason.",
+      "Counter-evidence for a lost reading: none. There was no objection of any kind to price, programme or fit."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to call USAA for a credit-limit increase; rep to text after his following call to reconvene the same evening or the next day after 4:15pm Central. Onboarding with Trevor already booked for Monday 5:15pm Central."
+  },
+  "notable": {
+    "note": "The prospect disclosed Von Willebrand disease — a hereditary clotting disorder — explained that he refuses medication for it and manages it by flooding his system with garlic on an acupuncturist's advice, and the rep's entire response was a joke about it being why he is single, followed by 'That's great.' No follow-up question, and it never entered the programme discussion. Alongside it sits an eighteen-month-old shoulder injury with no MRI, no physiotherapy and two refused surgical recommendations, on a man who says outright 'I don't trust anyone' about his doctors — a distrust the rep affirmed twice. He asked what starting weight would be safe three separate times and was deferred to the onboarding call each time. Commercially this was the easiest sale in the batch and it did not close, because the rep pressed to take a partial $2,000 payment against a $2,500 credit limit rather than let the prospect spend seven minutes getting a limit increase, and a work emergency then ended the call. He also booked the prospect into Trevor's onboarding calendar before collecting any money."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion at turn boundaries throughout. The rep's opening question 'what do you feel we can potentially help you with?' at 00:03:57 sits inside a beazy block; 'Did you ever do physical therapy?' at 00:09:43 is attributed to the prospect; the whole exchange around 00:14:25 to 00:14:33 alternates incorrectly. From 01:32:26 the transcript captures the prospect's separate live work call, which interleaves a third party's speech into the record. Role read from content throughout."
+  }
+}

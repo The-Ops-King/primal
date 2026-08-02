@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-12_cosmi_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Acknowledged the application without reading anything back: 'I've already seen a few things in your application, but I would just love to go over it with you.' The frame was the usual two-part version — 'See if we can actually help you out. If we can, I'll take you through how... And if not, I'll still point you in the right direction' — missing the where-you-are / where-you-want-to-go / what's-in-the-way / what-you-need structure. No explicit 'does that work?'; agreement was inferred from the prospect's 'Perfect.' Opened correctly with 'what can we potentially specifically help you out with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "partial" },
+      "evidence": "The single largest baseline failure in this batch: the rep did not learn his prospect was a medical oncologist until 00:18:27, eighteen minutes in, and only because the prospect volunteered it while answering a question about stress. Occupation was never asked. Age, height and weight were all volunteered ('I'm 49', '1 meter 83 centimeters. Today, I weighed 89 kilos'). Health conditions and sleep were never raised at all. Injuries were asked properly and pre-emptively — 'something I see a lot with runners is that they have stiffnesses, sorenesses, mobility issues come up. Is that something that also is arising for you?' Nutrition was the best-run check on the call, with a direct diet question and a frequency follow-up: 'how often do you think... I happens throughout the week for you.' Energy was suggested rather than measured — 'I don't know if that's something you also want to work on'."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "partial", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "partial" },
+      "evidence": "The strongest phase. Asked the physique target directly ('take me through your physique. What you want to achieve') and got a specific number. Ran the six-month future-state question and followed it into self-esteem and the 18-year weight carousel. Ran the who-else question explicitly — 'how do you think that would also look to your son if you finally listened to his advice?' — and drove through to family, turning 50 and role-modelling for three children. Never asked for a physical thing he wants to do but can't, and the reflect-back was a soft version ('It sounds like your why is high enough... I don't know if you agree with all of those thoughts') rather than the scripted 'this isn't really about the weight — it's about X. Is that right?'"
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "Past attempts were never asked about at any point. A man who has been cycling weight for 18-19 years and expects to quit a gym programme within three weeks was never asked what he has tried, what happened, or why it did not stick — the 'carousel of losing and gaining weight' surfaced incidentally inside an answer about self-esteem and was not pursued. The blocker question ran ('what do you think is the missing thing that we need to solve...?') and he named the gap himself — no professional programme, no guidance, no habit. But the rep then accepted 'willpower' as the root cause and reinforced it repeatedly ('it's your willpower that will be like, yeah, I'm just going to let go'), which is the exact inverse of the phase's stated intent that the problem isn't effort, it's structure. P4f was not just missed but contradicted."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "hit", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Both opening moves ran cleanly: 'just imagine if you don't, and it just keeps on going the same way... how would that be for you?' produced a genuine consequence answer about heart disease and diabetes, and 'would you be willing in any way to settle for a life where it doesn't change in a year from now?' was asked verbatim in substance. The rep then let him supply his own 'why not?' instead of asking it, and never asked for a line in the sand — which matters, because the commitment he did get was philosophical ('change is mandatory, progress is optional') rather than a decision."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "hit", "P6c": "partial" },
+      "evidence": "Both belief checks ran: 'do you feel like if we get that in place, you're going to be able to, first of all, lose the weight, get your energy up...?' and, before the presentation, 'is there something that would still be able to stop you from achieving the goals that you've just talked about?' The answers were hedged rather than clean — 'That's all of my willpower' and 'Yes, I wonder, yeah' — and the script says to return to Phase 5 when hesitation surfaces. Instead, when hesitation surfaced after the price, the rep discounted."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was achieved. Price was presented at 00:31:50 and the prospect deferred; the call ended with a decision call booked for Friday. Payment, the Trevor onboarding booking, the agreement and the welcome-email steps were all unreachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "Trigger raised at least six times, from 'I'm gonna need some time to think about it' onward. The rep ran most of the play with real persistence: confirmed the programme can get him there ('you feel like, yeah, if this is all the case... then we're going to get to the goals, right?'), asked what was actually preventing him from starting, and attacked the delay directly and repeatedly — 'what is going to change if you have a few hours, if you have a night for it?', 'what do you think, like, what is going to change in that one night?', 'which one do you think you're going to make more reasons for?'. He landed the deciding-not-thinking substance in his own words: 'That's the only way that you can actually find the certainty, and that's by testing it out, not by thinking it over.' He also held him accountable to a dated decision. Missing: the identity move ('that man you want to be — how does HE decide right now?'), which was available given the son and the role-model material already on the table."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The rep ran the isolate correctly and early — 'Outside of the investment amount, do you feel like, yeah, I do actually want to do this, it just comes down to finances?' — and again later, 'outside of the money aspect... do you feel like, yeah, I do actually want to make that jump?'. The prospect de-isolated money himself: 'The money aspect is not that big of a problem. It's just that it's a risk.' Correctly, none of the financial-picture questions were run, since capacity to pay was not the blocker. The failure is what happened next: having established that money was not the objection, the rep still solved it with money by inventing a $1,200 one-month price. That is the play applied to the wrong objection."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "The real objection on this call, and the rep recognised it: 'it sounds like it really comes down to a little bit of uncertainty around if this is actually the right thing.' He ran the certainty question ('I want you to be 100% certain before you even make that jump'), a close variant of the BURNED BEFORE relationship move using the prospect's own marriage ('were you like 100% certain, or was it like that small uncertainty... when you proposed to her?'), and the PLANE move as a skydiving version, played through to the harder-tomorrow conclusion: 'if you stay in the airplane... then you're going to try it again next day. Then do you think it's going to be easier, harder, or the same?' Missing only the pleasure/pain question. Well executed, and it still did not close."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two script gaps fired here. First, the known cheaper-alternative gap: 'if you try a system that's 100 bucks a month or something like that, and it doesn't work, it's fine.' The rep never engaged the comparison. Second, and not currently listed as a known gap, a competing-use-of-capital objection: 'Maybe I can ensure my son's studies at the university, for example.' There is no play for a prospect who can afford the programme but has a higher-status claim on the same money, and the rep's answer — treating it as proof the prospect was drifting — argued against the man's own son, which is the worst available ground. Worth adding to known_gaps_in_script."
+    }
+  ],
+  "notes": "Excellent P3 and a textbook OE, wrecked by a hollow P2 and an absent P4 — the rep spent fifty minutes with a medical oncologist without ever asking what he does for a living or what he has already tried, and then accepted 'willpower' as the root cause, which is precisely the diagnosis the process exists to overturn. Coach the single decisive error: money had been explicitly de-isolated, and the rep solved the objection with a $1,200 discount anyway. When the blocker is certainty, discounting confirms the doubt rather than removing it."
+}

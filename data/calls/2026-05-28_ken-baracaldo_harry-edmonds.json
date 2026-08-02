@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-05-28_ken-baracaldo_harry-edmonds",
+  "source": {
+    "drive_file_id": "1t6nu0LpW2OI6VAw6WUdMEbLk3si7SwsL",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/28/2026 - Ken Baracaldo x Harry Edmonds",
+    "display_title": "05/28/2026 - Ken Baracaldo x Harry Edmonds — Lost",
+    "file_size_bytes": 39890
+  },
+  "call": {
+    "date": "2026-05-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 41,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ken Baracaldo",
+    "aka": null,
+    "name_source": "title",
+    "location": "New York City, USA",
+    "age": null,
+    "occupation": "Psychotherapist; works two jobs",
+    "family_status": "Married, one son aged 3",
+    "height_in": 66,
+    "weight_lb": 150,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Self-directed his entire life, never had a coach or personal trainer. Brazilian jiu-jitsu at least 2x/week, has competed (fought at 125 lb). Started kettlebells this year off a book of 20-minute kettlebell workouts, structured in 8-week blocks, 4-5x/week, 20 min/session. Reduced training volume about a month ago due to illness and injury.",
+    "kettlebell_experience": "some",
+    "medical": "Bronchiectasis (chronic lung condition) — daily airway clearance, nebuliser with saline, Aerobika, percussion vest pending; under regular pulmonologist care and self-described as 'under control'. Pulmonologist recommends 40 minutes of aerobic exercise daily. Prone to recurrent pneumonia if airways are not cleared. Separately: neck injury sustained the week prior to the call with pain radiating to the scapula; recurrent jiu-jitsu tweaks roughly every couple of months."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.55,
+    "signals": [
+      "Entirely self-directed, never used a coach: 'No, it's always been self-directed. And I get the best results when I sit down and I have a calendar'",
+      "Cheap alternative that genuinely worked — a book of 20-minute kettlebell workouts: 'I did that for a while, and it was working out'",
+      "Anticipates the same objection from his wife: 'she's like, why don't you just do that yourself?'",
+      "Caveat on the assignment: his resistance was affordability-driven, not value-scepticism — he said 'I think it could benefit anybody'. No listed avatar covers a high-belief, budget-blocked prospect."
+    ]
+  },
+  "goals": [
+    { "text": "Get a game plan and structure that removes the guesswork from his training", "category": "consistency" },
+    { "text": "Get stronger and perform better in jiu-jitsu — more anaerobic endurance, longer in rounds, more burst", "category": "hobby_performance" },
+    { "text": "Improve mobility and flexibility, be less stiff and more limber", "category": "mobility" },
+    { "text": "Reduce body fat while holding roughly his current bodyweight — 'if I could be lean at this size, this would be cool for me too'", "category": "fat_loss" },
+    { "text": "Be a physical example for his three-year-old son so that daily exercise looks normal to him", "category": "family_role_model" },
+    { "text": "Build durable habits — waking at 5-6am to train before the household is up", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Chronic bronchiectasis requiring daily airway clearance; flare-ups make breathing painful and stop him training", "category": "medical", "severity": "high" },
+    { "text": "Neck injury the previous week with pain radiating into the scapula; recurrent jiu-jitsu injuries roughly every couple of months, which he attributes to stiffness and lack of flexibility", "category": "injury", "severity": "medium" },
+    { "text": "Had to reduce training volume about a month ago because of illness and injury", "category": "training_barrier", "severity": "medium" },
+    { "text": "Self-programming keeps defaulting to the same preferred workouts instead of working the whole exercise bank", "category": "program_fit", "severity": "medium" },
+    { "text": "Heaviest he has ever been; feels 'skinny fat' and describes having a dad bod and a belly", "category": "confidence", "severity": "low" },
+    { "text": "Once the household wakes, training opportunity disappears — the three-year-old needs constant supervision", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Two jobs and NYC cost of living; competing demands from school fees, summer camp, rent and gas", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Is there any way we can get that number down?",
+      "timestamp": "00:29:55",
+      "rep_response": "Refused any discount but immediately volunteered an unscripted three-month tier at $4,000 and offered to break payments up: 'I can't do anything on the numbers. We do have a three-month option. It's 4K. But we can break it up if you need to.'",
+      "response_tactic": "hold_price_offer_shorter_tier_and_instalments",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Sixk is a lot, and that's money that we can use for the kids' school, which costs a lot, for gas, which, as you know, costs a lot.",
+      "timestamp": "00:30:55",
+      "rep_response": "Did not run the scripted financial picture. Reframed value ('It gives you 6,000 reasons to get in the best shape of your life'), then contested the prospect's framing of inability: 'I'm sorry you're just not willing to' and 'if you had to pay for a surgery for somebody, and it was 6k, you'd find it'.",
+      "response_tactic": "value_reframe_and_resourcefulness_challenge",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "she doesn't even know I'm on this call because this, this, it would seem ridiculous to her",
+      "timestamp": "00:32:51",
+      "rep_response": "Coached him on how to present the purchase to his wife ('It depends how you frame it... I want to invest some money into actually getting a coach who's going to educate me so I can be the best dad I could ever be'), then redirected the objection back onto him: 'it sounds like you're not sure more so than her though.'",
+      "response_tactic": "reframe_for_spouse_and_redirect_to_prospect",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Results guarantee pegged to kettlebell load: 'from the start until the end of the six months, you'll be swinging around a 20-pound heavier kettlebell in all of the movements... and we work with you for free until you get that if we're not there at the end of the six months.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "'It sounds like it's a bit out of reach for me, to be honest.'",
+      "'I'm not able to spend 6k like that.'",
+      "'yeah, the 6k is, it seems pretty out of reach for me, to be honest'",
+      "Counter-evidence: the prospect stayed warm and complimentary to the end ('you ask good questions'), and no explicit 'no' to a future conversation was given — but no next step, follow-up date or payment link was arranged, and the rep closed with 'I'll see you soon, man.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None arranged. Call ended without a follow-up date, link or agreed next contact."
+  },
+  "notable": {
+    "note": "Prospect flagged price as the single blocker at 00:19:45 — 'the only thing honestly that would stand in the way is the price' — and the rep explicitly set it aside ('I wasn't talking about in the context of moving forward with this') rather than qualifying budget before presenting. The consequence frame (P5) was never run, so the rep reached the number with no cost-of-inaction leverage. An unscripted three-month / $4,000 tier was improvised on the spot. The prospect has an actively managed chronic lung condition and a one-week-old neck injury with radicular symptoms; the rep asked whether the lung condition affects exercise but never asked whether any clinician had cleared loaded kettlebell training."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Repeated short-turn attribution errors throughout — e.g. at 00:02:51 and 00:09:02 the rep's question and the prospect's answer are merged under one label, and several of the prospect's acknowledgements ('Okay', 'That makes sense') are attached to the rep's block and vice versa. Roles were read from content. Some garbled ASR passages ('go. go. Let's Thank', 'couple of We'll Thank') where audio dropped."
+  }
+}

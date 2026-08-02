@@ -1,0 +1,99 @@
+{
+  "call_id": "2026-05-08_christian-nazario_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed five shoulder surgeries across both shoulders plus ongoing back pain, and was sold toward an overhead ballistic kettlebell programme with no question about restrictions, treating clinicians or clearance.",
+      "evidence": [
+        "I've had surgery on my shoulders. I've surgery five times. Three on my right, two on my left.",
+        "They're good. I mean, they're, they're staying in place, but they do, they do, you know, ache and hurt a little bit from time to time.",
+        "my shoulders, they hurt. My back hurts.",
+        "Honestly, just to be pain free.",
+        "you're going to be in a position where you can do everything with perfect form, which is going to help you to alleviate any limitations of stiffness or aches and pains in your body, like the shoulders.",
+        "Based on your goals and some of the injuries that you've told me you've had, 12 months is probably a good recommendation"
+      ],
+      "timestamp": "00:02:25"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "critical",
+      "summary": "Rep described the instalment plans as carrying 'a slight bit of interest' when the twelve-month option on the three-month tier totals roughly $5,196 against a $4,000 list price — a 30% uplift — and no rate, total or cost of credit was ever stated by the rep.",
+      "evidence": [
+        "We have an option with a six or 12, you divide it over 12 months, slight bit of interest, but it gives you the ability to spread it over 12 months if necessary.",
+        "For the three months, you have option to do 1533, 800, or 433. Yeah, it's up to you which one you choose.",
+        "In a whole sense of 12 months, it's like 5,200, something like that, and a heavy, heavy load that I have to",
+        "Right now, I'm saying $12.23.40 a month... That's six, and over 12 is $6.68"
+      ],
+      "timestamp": "00:23:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep recommended funding the purchase from the prospect's only credit card immediately after the prospect explained he was actively paying that card down to repair a damaged credit score, on roughly $400 of monthly disposable income.",
+      "evidence": [
+        "My account, after, after everything, I think I have maybe like three, four hundred dollars. And that's not, not including like gas or food.",
+        "Yeah, hopefully, hopefully $400. $400 at the end of each month, okay.",
+        "I'm taking a hit right now because I had to consolidate something... So I would say six, something, six, mid-six or high-six.",
+        "So what I recommend, just looking at the numbers we have here, we take a little bit of the credit card available amount, okay? We get you in for at least a month.",
+        "I can't take too much right now. The card that I'm currently bringing down, to bring it back up. They're working against me right now, until I start fully seeing income coming in."
+      ],
+      "timestamp": "00:36:38"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep cited the founder as authority for continuing to sell to a prospect who could not afford it, directly against the sales manager's stated rule the previous day that prospects with no path to keep paying should not be sold.",
+      "evidence": [
+        "The only reason I'm even providing these options, Trevor says we shouldn't really let money get in the way of people actually having the success, their goals that they wanted on the call.",
+        "[cross-call, sales manager, 2026-05-07_chris-klevan-1-1_farooq-bey at 00:02:35] I don't want to put somebody on a love it or leave it for $1,200 if I just know they're going to default the month after. If there's no path for them to actually pay the payments after that... It's not worth it.",
+        "[cross-call, sales manager, same call at 00:02:30] Then no, he wasn't closeable."
+      ],
+      "timestamp": "00:38:28"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated the company does not run a subscription model and then, twenty minutes later on the same call, sold a $200 per month cancel-anytime subscription and onboarded the prospect onto it live.",
+      "evidence": [
+        "We don't. We want you to be relying on us, dude. It's not a subscription model that we run here. As soon as you're done, you're done.",
+        "So the investment for that is $200. You can cancel it at any time. So some people come in for a month, they get what they need, they write things down, and they can hop on their way.",
+        "I'm in. Okay. You see the classroom, the community, all of that good stuff?"
+      ],
+      "timestamp": "00:39:37"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep offered an unlisted $4,000 three-month tier, an unlisted $1,200 one-month entry, and a $200 per month Primal University subscription alongside the published $6,000 and $9,000 prices.",
+      "evidence": [
+        "So for three months, Christine, the investment is 4,000 US. For six, it's six. And for 12, it's nine.",
+        "We get you in for at least a month. It will just be $1,200, right? And then at the end of the month, if you decide to upgrade to the three months or six, you'll just be paying $2,800 or the difference",
+        "So the investment for that is $200. You can cancel it at any time."
+      ],
+      "timestamp": "00:36:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A recurring $200 monthly subscription was set up live with no written terms, no agreement and no cancellation process explained beyond a verbal assurance.",
+      "evidence": [
+        "So the investment for that is $200. You can cancel it at any time.",
+        "So I'll put this link in the chat for you. There we go. Have you used school before?",
+        "then it will prompt you to create your school account. That takes a couple of minutes and then you can complete it."
+      ],
+      "timestamp": "00:40:31"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts attribution near-continuously and the prospect appears throughout under the generic label 'Zoom user', with the price presentation and payment figures both mangled.",
+      "evidence": [
+        "00:00:00 - Zoom user  how's it going? I'm good brother, how are you?",
+        "00:15:00 - Zoom user  Yeah. What questions, thoughts do you want to share on that?",
+        "00:27:46 - Zoom user  What is it saying for you? Right now, I'm saying $12.23.40 a month."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

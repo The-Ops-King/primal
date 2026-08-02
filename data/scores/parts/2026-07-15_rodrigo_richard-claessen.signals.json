@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-15_rodrigo_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Flat agreement with no elaboration: 'Do you feel like, yeah, this makes sense to me, and I see myself doing it like that? Yeah, I am.' Delivered under an announced eight-minute time constraint, which limited engagement."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed and closed it down: 'Yeah, yeah, it sounds very straightforward.' He had already discounted the pillar in advance — 'the food is not as important, to be honest, but if it's part of the program, I take it' — while also saying it was the most important thing, so his position on it was unresolved and unexplored."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He objected to the mechanism twenty minutes before it was presented and the objection was never answered: 'it becomes like very tedious to kind of like, no, I have to spend an hour to take a picture, to take a video, to send it. And I know that's how you guys work, and I know it's very important, but the simplicity of his program was like, look, this is the workout, just follow it.' The rep replied 'And then you're in luck, to be honest. Like, getting on a call with us is indeed quite a bit of work, I know. After that, it's very simplicity' — then presented filmed workouts, app logging and weekly check-ins. His only response afterwards was to move straight to price."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "that's the reason why I'm in a very cheap gym, like I'm in a Planet Fitness, $28 a month, and I'm happy",
+      "direction": "undercuts_price",
+      "competitor": "Planet Fitness",
+      "note": "His actual current fitness spend is $28 a month against a $1,333 a month offer. Combined with twenty years of successful self-programming, this is a cheap alternative that has demonstrably worked."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "we have this gene. It that the high-end gyms cost like $300 a month with spa and these, and like amazing amenities... In fact, here in front, they're building these. Pampur Jim, this incredible Bali style, is only $275 a month.",
+      "direction": "undercuts_price",
+      "competitor": "High-end gym and spa memberships, Tulum and Los Angeles",
+      "note": "The comparison he actually made was against lifestyle, not against coaching: for under $1,000 he could hold two premium gym memberships. The rep did not separate the categories."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "these programs that they're like, yeah, it's like a thousand and something or seven, 600 a month",
+      "direction": "supports_price",
+      "competitor": "Three competing online coaching programmes he is evaluating",
+      "note": "The competing coaching offers are quoted at $600 to $1,000-plus a month — the same band as this offer. This validates the category price and the rep never used it."
+    },
+    {
+      "type": "value_acceptance",
+      "raw": "if I didn't mind, I will pay 4,000 for that program. So I think it's totally worth it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He accepted the value at exactly the price quoted. As with the Warsaw call, the objection is rate of return against alternatives, not affordability, and the rep kept answering price."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A three-month term he can commit to before deciding whether to continue",
+      "why_unmet": "The offer is six or twelve months. He raised this as his first and most repeated requirement and named it as the reason he rejected other providers. The rep improvised a $4,000 three-month price on the call, which is evidence the tier does not properly exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Low-friction coaching — voice notes and quick answers rather than filming, uploading and logging",
+      "why_unmet": "The delivery model is built on filmed workouts, an app and weekly check-in forms. He described the model he wants from a previous coach: 'every time I text him, he will reach out to me with a voice, he will reach out to me with a video, little things.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Kettlebells as one component alongside weights, yoga, running and cycling rather than as his whole programme",
+      "why_unmet": "He said plainly 'I don't want kettlebell be my only thing because again I get bored very easily so I want to implement it into my workout.' Nobody confirmed whether the programming accommodates concurrent training, and the presentation described three to four kettlebell sessions a week plus daily mobility as the whole plan.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

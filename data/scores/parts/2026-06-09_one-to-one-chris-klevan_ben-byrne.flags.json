@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-06-09_one-to-one-chris-klevan_ben-byrne",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "critical",
+      "summary": "Roughly thirteen CRM records covering the audited period are being backfilled a week late from the closer's memory, including no-shows he cannot recall, on the system the company states it pulls its analytics from.",
+      "evidence": [
+        "a lot of these guys are, like, from last, like, date was, like, June 2nd, you know, so they were people that were on your calendar that we just didn't update yet",
+        "Done. And then it'll automatically update it. So then you just go back to your list, and it should be good. So that's one. Done. You got like 12 more to go.",
+        "I don't think all these people were on my calendar. Oh, yeah, maybe they were. They probably were.",
+        "There's probably some that you just didn't have calls with, so you don't remember them because they were probably like no-shows or something.",
+        "I would consider it needing to be done every single day by end of day, because there's so much data that we pull from this that helps us."
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Manager coaches a materially shorter process than the documented Kettlebell Body sales process, ending discovery as soon as a driver is found and describing a method that contains no consequence frame and no commitment check.",
+      "evidence": [
+        "That's why usually when I find the thing, I'm like, all right, discovery's done. And then I just move on, you know, like I move on to the pitch.",
+        "If it's enough, it's enough.",
+        "you don't have to dig in to every little small thing either, you know?",
+        "they get the driver in 10 minutes",
+        "that's the, that's as simple as I can make it of how I do sales. And I would do it for any offer.",
+        "they get kind of tired of the whole sales process thing, because you get these guys that are like, I have to go through the whole thing and do every last question and every last thing. I have to get you into like, into all this pain."
+      ],
+      "timestamp": "00:11:19"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Manager coaches reps to enlarge prospects' stated goals and to reframe a prospect's lifelong ambition as the programme's first step in order to manufacture certainty about results.",
+      "evidence": [
+        "if you can also empower their dreams and be like, dude, like, let's make it even bigger. Like, that's not good enough. Like, you're so capable of so much more.",
+        "the result that you want that you think is your big dream is like a normal, normal thing for us",
+        "Then the certainty of like, we can get you there becomes so easy because it's like, dude, your lifelong dream is like our step one. So they're like, well, if that's like step one, and this has been my lifelong dream for so long, then like, clearly, they can get me there.",
+        "well, what makes you think your goal isn't realistic? What makes you think that you having six-pack abs isn't realistic?",
+        "Cross-reference, 2026-06-08_sales-team-meeting_ben-byrne at 00:23:36 — 'Be very careful with telling somebody what their why should be.'"
+      ],
+      "timestamp": "00:30:38"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A live opportunity with an inbound reply from the prospect was logged as lost while the manager watched, which understates the follow-up pipeline and misstates the outcome.",
+      "evidence": [
+        "I would say it's value. He ended up emailing us back. It's the guy that I should have just closed.",
+        "Up at the top, you need to do outcome, and then you need to do loss or follow-up, either one.",
+        "Probably loss, yeah."
+      ],
+      "timestamp": "00:04:29"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Closer states he was selling the programme while not bought into the methodology and without having tried the workouts, in the same week he gave a prospect a detailed personal-results testimonial.",
+      "evidence": [
+        "the other half was like, yeah, I just wasn't completely bought into Trevor's methodology. I was, you know, I hadn't watched. I haven't tried the workouts myself",
+        "That's probably like the overarching thing for me is just getting rid of that uncertainty in my discovery and the pitch.",
+        "Cross-reference, 2026-06-07_john-viola_ben-byrne at 01:07:11 — 'Literally after one session of the mobility routine, the basic one that Trevor teaches, I'm like, my knees aren't clicking anymore.'"
+      ],
+      "timestamp": "00:16:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Manager disparaged a client who had paid $6,000 two days earlier, mocking the reason he gave for buying now.",
+      "evidence": [
+        "Yeah, because he's in New Jersey, it's cold. That's stupid.",
+        "why does Florida suddenly mean that you can get in shape? And New Jersey, can't.",
+        "No, it makes no sense at all. There's tons of, some of the best bodybuilders in the world are from New Jersey."
+      ],
+      "timestamp": "00:27:47"
+    }
+  ]
+}

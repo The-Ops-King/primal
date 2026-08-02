@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-06-05_ruben-acosta_ben-byrne",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The six-month monthly plan was quoted at $1,200 a month against a $6,000 headline with the uplift described only as 'like a thousand bucks', and the $7,200 total was never stated while the prospect restated the price as $6,000.",
+      "evidence": [
+        "the year is $9,000 US, and then six months is $6,000",
+        "Yeah, I mean, we had a bit of interest if we're going to do it monthly. So it'd be $1,200 a month",
+        "So if I pay like the six month, it's $1,000. Well, $6,000. Yeah. Yeah. Exactly.",
+        "rather than just break it up because that adds. Six, like a thousand bucks of whatever payments."
+      ],
+      "timestamp": "00:44:05"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep steered the prospect toward putting the $6,000 on a credit card to avoid the plan's interest, matching the technique taught internally by the sales manager the previous day.",
+      "evidence": [
+        "So most people just throw it on a credit card and, you know, rather than just break it up because that adds. Six, like a thousand bucks of whatever payments.",
+        "it's a biggest investment for me at that amount",
+        "I don't think I can spend that, that kind of money right now"
+      ],
+      "timestamp": "00:44:26"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep answered a stated budget constraint by suggesting the prospect was not serious about transformation, then dismissed his interest in the affordable tier as a disguised refusal, ending a live opportunity.",
+      "evidence": [
+        "people that go into our program, they're looking to make a serious transformation and, you know, that's why they invest what they do. It sounds like maybe you're, you know, maybe not at that point.",
+        "you can always do the $80 thing, which is, seems like it's more of the same, but I mean, it is what it is",
+        "Primal University. Well, that's a little bit more on my range. I will definitely think about it.",
+        "I guess we'll just, you know, leave it at that. It's a think about it. Usually it's a nice way to say no, it is what it is."
+      ],
+      "timestamp": "00:47:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep joked that clients want to get in shape for their mistress, to a married prospect whose entire stated motive was more time with his wife and children.",
+      "evidence": [
+        "they also want to, you know, be in better shape for their wife. Bye. Bye. Bye. For their kids or, you know, their, their mistress or whatever.",
+        "my wife, you know, she likes that I work out, but at the same time, she's like, hey, I need some help here with them",
+        "That's pretty much why I wanted to have more time with, spend more time with them"
+      ],
+      "timestamp": "00:25:20"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Primal University quoted at $199 per month with an annual option saving about $350; recorded for completeness as a price other than $6,000/6mo or $9,000/12mo, though it is a distinct self-serve product.",
+      "evidence": [
+        "We do have a second thing, which is called primal... it just doesn't have the personalization and the direct coaching from Trevor or the, like, accountability",
+        "That one is, you can either do a year or. It's $1.99 per month. If you sign up, if you want to do the annual, you save like $350.",
+        "it's like a good entry point into Trevor's world without having to drop a ton of money"
+      ],
+      "timestamp": "00:50:03"
+    }
+  ]
+}

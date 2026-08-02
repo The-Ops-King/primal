@@ -1,0 +1,132 @@
+{
+  "call_id": "2026-07-28_montana-butsch_richard-claessen",
+  "source": {
+    "drive_file_id": "12XPf-PAYGNqNUPvIY4Su-XEXLUi4A7la",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 21286
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 18,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Prospect: 'He said it's between $1,000 and $6,000, but he didn't really go into detail'; rep: 'I think Kim already gave you an idea from the investment.'"
+  },
+  "prospect": {
+    "name": "Montana Butsch",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Chicago, Illinois, USA",
+    "age": 47,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 75,
+    "weight_lb": 250,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Ex-elite rower, tried out for the 2000 and 2004 Olympics; former personal trainer; now boxes roughly six days a week; last did structured weight training a couple of years ago, dumbbell-focused; no kettlebell mastery.",
+    "kettlebell_experience": "none",
+    "medical": "Chronic back problem dating to his rowing career in the 1990s (notes reference 1999). Went to hospital the day of the call after his back 'went' following Saturday boxing; took the call lying in bed, 'a little bit incapacitated'. Describes structural spinal issues, limited spinal flexibility, compensation patterns and muscle spasms. Currently cannot train: 'I can't do anything right now.' Returning to an osteopath for an x-ray to investigate. Also mentions discussing blood health with his doctor."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.5,
+    "signals": [
+      "Ex-Olympic-trial athlete and former personal trainer, self-directed: 'I don't suffer from motivational issues.'",
+      "Comparison-shopping deliberately: 'You're one of the options that I have... it's all about data collecting at the moment.'",
+      "Wants functional strength and mobility on top of an already active life rather than rescue.",
+      "Overlaps materially with the_medically_constrained — he is acutely unable to train and awaiting imaging, which could reclassify him once the clinical picture is known."
+    ]
+  },
+  "goals": [
+    { "text": "Fix the mobility/stiffness that he believes drives his recurring back problems", "category": "mobility" },
+    { "text": "Reduce or eliminate the chronic back pain and discomfort he trains through", "category": "injury_confidence" },
+    { "text": "Build functional strength via kettlebells instead of barbell/bodybuilding work", "category": "strength" },
+    { "text": "Lose about 10 lb of fat; would like to get from 250 lb toward 215 lb", "category": "fat_loss" },
+    { "text": "Learn how to program kettlebell movements and integrate them with his boxing", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Recurring back episodes since his twenties; hospital visit the day of the call and currently bed-bound", "category": "injury", "severity": "critical" },
+    { "text": "Trains 'with a fair amount of regular discomfort or pain'", "category": "injury", "severity": "high" },
+    { "text": "Does not know how to structure or progress kettlebell training despite a training background", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Finds remote coaching alien — used to a training partner and a team; sees no route to real-time feedback", "category": "program_fit", "severity": "medium" },
+    { "text": "Getting older and softer: 'you get fatter as you get older... I don't have the body of a 20-year-old anymore'", "category": "aging", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_medical",
+      "raw_quote": "I can't do anything right now, so I need to get back up and running.",
+      "timestamp": "00:15:16",
+      "rep_response": "Acknowledged, told him to rest and not hurt himself, and booked a follow-up call rather than exploring how the programme would handle the back or whether a clinician should clear him.",
+      "response_tactic": "acknowledge_and_defer",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "so now I just need to weigh it against kind of my reality and where I am vis-a-vis my back, I I can't even work out right now, so I'd like to, I need to resolve that first",
+      "timestamp": "00:15:52",
+      "rep_response": "Asked when he could make a decision, then proposed a call on the 6th; ran no part of the 'think about it' play.",
+      "response_tactic": "book_follow_up_call",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Yeah, it's just the traditional variables. I got to look at the costs, I need to look at the time, and I need to get back on my feet",
+      "timestamp": "00:15:29",
+      "rep_response": "Did not isolate or explore finances; asked what else he needed to know and moved to scheduling.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "program_longevity_proof",
+      "raw_quote": "this being virtual to me is different and strange... I find it to be confusing how to get, you know, real-time feedback on anything",
+      "timestamp": "00:13:05",
+      "rep_response": "Explained the asynchronous model — prospect films himself, Trevor returns feedback within 24 hours before the next workout — and asked whether he could see himself doing that.",
+      "response_tactic": "explain_delivery_mechanism",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "'It would be an investment upfront overall. If it's really needed, we can always look into splitting it up.' No structure, number of instalments or amounts discussed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly undecided: 'I'm still trying to decide what route I'm going to go, so it's all about data collecting at the moment.'",
+      "Follow-up call agreed for Thursday 11am ('how about we just jump on a quick call again, like on the, on the 6th maybe?' — 'Yep, that'll be fun').",
+      "Counter-evidence: the rep says 'I'll just send you the invoice quickly, so at least you have it' and later 'I just sent it to you. You can just check if you got it' — if that is an invoice rather than a calendar invite, a payment document went out with no verbal agreement. No agreement, price or tier was settled, so the close rule does not apply.",
+      "No commitment language from the prospect at any point; he says only 'this has been useful'."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up call with Richard on Thursday 11am (referred to as 'the 6th'); prospect to see an osteopath for an x-ray in the meantime."
+  },
+  "notable": {
+    "note": "A prospect who had been to hospital that day and was taking the call from bed was walked through programme mechanics and pricing without anyone asking whether a doctor, osteopath or physio had cleared him for loaded kettlebell work. Two separate off-book price ranges were put in his head: the setter's '$1,000 and $6,000' and the rep's 'between three and six'. The rep also actively de-emphasised the accountability pillar ('it's not like you need the accountability in order to make a change because you know'), and stated 'there's no trainers. It's like only Trevor overall', which is delivery-capacity information a principal may want to verify."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion: the rep's questions are repeatedly appended to the prospect's block and vice versa (e.g. 00:01:23 'However, I'm sure there's a process that you go by' is the prospect but labelled rep; 00:08:00-00:09:03 runs a long merged block containing both sides). Roles were assigned from content. The prospect's email is read back as 'John Butch at gmail.com' while the speaker label reads 'montana butsch' — likely ASR mangling of the same name; recorded as Montana Butsch with no aka asserted. 'Invoice' at 00:17:22 may be a mis-transcription of 'invite'."
+  }
+}

@@ -1,87 +1,27 @@
 {
   "call_id": "2026-07-28_kim-forbes-sobers_richard-claessen",
+  "type": "internal",
+  "subtype": "setter_debrief",
+  "date": "2026-07-28",
+  "participants": [
+    "Richard Claessen (Primal Instinct, closer)",
+    "Setter, labelled 'Speaker 1' — named in the file title as Kim Forbes-Sobers; he books calls, texts leads, writes CRM notes and reports his daily dial/set count"
+  ],
   "source": {
     "drive_file_id": "16L5yzG3PRS37DQWkirbEsB4I6Kq6u9hl",
     "drive_folder": "Richard Claessen",
     "original_title": "07/28/2026 - Kim Forbes-Sobers",
-    "display_title": "07/28/2026 - Kim Forbes-Sobers — Undetermined",
     "file_size_bytes": 16294
   },
-  "call": {
-    "date": "2026-07-28",
-    "stage": "internal",
-    "sequence_position": 2,
-    "sequence_note": "Second recorded internal sync between this closer and this setter in the batch, following 2026-07-27_kim-forbes-sobers_richard-claessen. Continues threads from that call, including the 23-year-old firefighter Sean and the calendar-filling arrangement.",
-    "duration_min_est": 14,
-    "prospect_named_in_title": false,
-    "prospect_name_recovered_from_transcript": false
-  },
-  "rep": {
-    "name": "Richard Claessen",
-    "role": "closer",
-    "location": "Bulgaria",
-    "additional_reps": ["Kim Forbes-Sobers (setter, labelled 'Speaker 1')"]
-  },
-  "setter": {
-    "code": "KFS",
-    "name": "Kim Forbes-Sobers",
-    "confidence": "medium",
-    "evidence": "Named in the file title. The other participant is plainly the setter — he books the calls, texts leads, writes the CRM notes, reports his daily set count ('I'm struggling today on zero sets so far') and is asked to fill the closer's calendar. Same speech patterns as the 'Speaker 2' setter on the 2026-07-27 internal call. Labelled only as 'Speaker 1' in the transcript."
-  },
-  "prospect": {
-    "name": null,
-    "aka": null,
-    "name_source": null,
-    "location": null,
-    "age": null,
-    "occupation": null,
-    "family_status": null,
-    "height_in": null,
-    "weight_lb": null,
-    "bodyfat_pct_self_reported": null,
-    "training_background": null,
-    "kettlebell_experience": null,
-    "medical": null
-  },
-  "avatar": {
-    "assigned": null,
-    "confidence": 0,
-    "signals": [
-      "Not applicable — internal call between a closer and a setter. No prospect present, so no avatar can be assigned."
-    ]
-  },
-  "goals": [],
-  "pains": [],
-  "objections": [],
-  "offer": {
-    "presented": false,
-    "presented_on_prior_call": false,
-    "tiers": [],
-    "recommended_tier_months": null,
-    "payment_plan_offered": false,
-    "payment_plan_structured_live": false,
-    "payment_plan_terms": null,
-    "guarantee_mentioned": null,
-    "prospect_financials": null
-  },
-  "outcome": {
-    "disposition": "undetermined",
-    "confidence": 1.0,
-    "close_rule_applied": null,
-    "evidence": [
-      "Internal pipeline call between the closer and his setter. No prospect on the line, so no sales disposition exists — 'undetermined' is recorded because the controlled vocabulary has no internal value.",
-      "Substance was a call post-mortem on a prospect referred to as Montana, pipeline review for the following two days, lead qualification practice, and the closer's monthly cash position"
-    ],
-    "cash_collected_usd": 0,
-    "cash_collection_basis": null,
-    "next_step": "Setter to add CRM notes, re-text two unresponsive leads and fill the closer's Friday calendar; closer has a second call booked with the Montana prospect on Thursday and expects two $100 deposits taken earlier that day to convert to full payment."
-  },
-  "notable": {
-    "note": "The single most useful file in this batch for management, none of it about a prospect. Six findings, all quoted. (1) Income qualification is being done with ChatGPT: of a commercial diver, 'when I put that into ChatGPT, it said he was probably making around 75k, around there', and of the 23-year-old firefighter, 'I once again chat GPT'd, like, estimated salary for a five-year firefighter, and it said that would be around 60k'. Financial qualification is a job-title lookup, not a conversation. (2) No clinical screening exists at the setting stage and the setter says so: about a prospect whose back is 'blown out', 'I don't actually think I asked many questions about whether he's actually good to start training now. So that's funny on me.' The closer agrees the injury is 'a little bit of a red flag' — and this is the same gap that goes unaddressed on the Scott Hamilton, Rudolph, Javier and Angelo calls in this batch. (3) A knowingly low-intent lead was booked deliberately: 'this is one of those guys who I knew had the money, but I financially qualified. I had him regardless, just like, because I almost wanted him to DQ himself, he was that low-intent.' (4) The $100 deposit is a systematic tactic, not a one-off: 'those two that I did at down payment earlier today', and the closer's frustration that it is all he is getting — 'the Andrew is closing 6K [paid in full] and I'm just getting down payments and whatever. Annoying.' (5) The closer is under explicit cash pressure that he ties directly to how he sells: 'I want to get to the 50K, and that means I have to do another 24K, my projection is 22, and I'm only at 12 so far', 'I need to get the cash', and of the injured firefighter, 'I will do my best to sell him on something.' (6) Call-taking is being triaged by expected wallet size: 'if someone is a commercial diver, I think they do make money... I'll sort of screw up my sleep for one day, but with someone that's like mid intent, don't even do it please.'"
-  },
-  "quality": {
-    "diarization_reliability": "medium",
-    "speaker_label_swaps_detected": true,
-    "notes": "Two speakers with the closer labelled correctly, so attribution is better than in the sales calls, but overlapping speech causes real problems. At 00:05:31 and 00:09:32 both speakers' lines are merged into single blocks with identical timestamps; at 00:11:09-00:11:28 the exchange about the firefighter interleaves wrongly so the closer's and setter's assessments are swapped; and at 00:06:06 the setter's ChatGPT salary estimate runs into the closer's reply. The setter is identified only from the file title. Several names are garbled or uncertain — 'Montana' and 'Discord' both appear to be mis-transcriptions of the same prospect's name."
-  }
+  "summary": "Fourteen-minute closer-and-setter pipeline sync, the second in this batch between the same pair. Richard debriefs a call with a prospect transcribed as 'Montana' that went nowhere: the man's back is 'blown out', he was in bed and off camera, he has a personal-training background and was only looking around, so Richard gave pricing clarity, never pitched, and booked a second call for Thursday. The setter accepts he did not screen the injury. They then run the next two days' calendar, chase unresponsive leads, discuss how they estimate prospects' incomes, and Richard talks through his month-to-date cash position and his frustration that he is taking deposits while another closer takes $6,000 paid in full.",
+  "notable": [
+    "No clinical screening exists at the setting stage and the setter says so plainly about a prospect with an acute back injury: 'I don't actually think I asked many questions about whether he's actually good to start training now. So that's funny on me.' The setter had already confirmed the prospect to 'three to four weekly sessions... 30 to 45 minutes each' while he was in bed with the injury; the closer's response was 'the injured part is a little bit of a red flag, of course', and a second call was booked anyway.",
+    "Income qualification is being done with ChatGPT. Of a commercial diver: 'when I put that into ChatGPT, it said he was probably making around, 75k, around there.' Of the 23-year-old firefighter: 'I once again chat GPT'd, like, estimated salary for, like, a five-year-old firefighter, and it said that would be around 60k.' These estimates are then written into CRM notes as qualification.",
+    "$100 deposits are being taken as a systematic close, not a one-off: 'those two that I did at down payment earlier today', 'Why would a sales guy do a deposit of 100 just to get rid of me?', and the contrast the closer draws — 'the Andrew is closing 6K [paid in full] and I'm just getting down payments and whatever. annoying.'",
+    "The closer is under explicit personal cash pressure and ties it directly to how he intends to sell: 'I want to get to the 50K, and that means I have to do another 24K, my projection is 22, and I'm only at 12 so far'; 'that's also the only reason I open my Friday, just need to get the cash in for myself, but also for the team'; and of the injured 23-year-old firefighter, 'I will do my best to sell him on something. It's just, it's annoying because I need to get the cash.'",
+    "A lead the setter believed was low intent was booked deliberately anyway: 'this is one of those guys who I knew had the money, but I financially qualified. I had him regardless, just like, because I almost wanted him to DQ himself, he was that low-intent.'",
+    "Availability is triaged by expected wallet size: 'if someone is a commercial diver, I think they do make money'; 'I'll sort of screw up my sleep for one day, but uh with someone that's like mid intense don't even do it please.'",
+    "Non-response to an introduction text is treated as a disqualifying signal: 'when someone doesn't respond to me, I'm like, why don't you respond to me? Because literally I've introduced myself. That's like the first red flag that I have.'",
+    "Transcript quality: overlapping speech merges turns at 00:05:31 and 00:09:32; the prospect name appears as both 'Montana' and 'Discord' and is almost certainly a mis-transcription of one name."
+  ]
 }

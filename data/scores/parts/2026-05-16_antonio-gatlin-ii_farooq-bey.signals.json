@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-05-16_antonio-gatlin-ii_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no friction — 'Not on the, you know, not on the first pillar, no. That's pretty straightforward' — and reframed the assessment step back in his own words: 'We have to have a basis to start with.' Did not connect the pillar to his own shoulder, and neither did the rep."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he interrogated, and he came back to it twice: 'I feel like one of the biggest issues that I want... would be nutrition. So how would the nutrition essentially work?' then 'is it more of a meal plan? Or is it more just kind of like a shopping list type of thing? Or how does that operate?' Supplied his own context unprompted — mason-jar salad prep, and glass being banned inside the prison."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered value beyond what was pitched, at length: 'that's key with the consistency... I think that's where it's going to be the biggest impact for me', and then extended it himself — 'being able to have something that I can pass down to my kids, or do with my kids in the mornings before I go to work... so that we can have that bonding time'. Also priced it against his own time: 'the amount of time that I would spend figuring these things out on my own, I feel would be worth it.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "value_acceptance",
+      "raw": "I do, I see the, I can justify the cost. You know what mean? I can justify spending that much money for this type of, for what this program is. This is very beneficial, I believe.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He accepted the price as fair on the merits and separately called $650/month 'very reasonable' for the value. This was never a value objection — it was pure capacity, which is exactly the distinction the OC play is built to test and which was never tested here."
+    },
+    {
+      "type": "seller_generated_discount_ladder",
+      "raw": "there's a three month option. And the trial option, so the three-month is 4K, and we have an ability to spread it over 12 months, so you're paying like 433, yeah, so it's significantly dropped from 650 and what, 975 for the year, it's called love it or leave it, you come in for a month, 1200 bucks",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most consequential anchor on the call and the seller created it. Once $4,000, $1,200 and $200/month are all spoken aloud in the same breath, the $6,000 has been repriced in the prospect's mind for any future conversation — and he explicitly expects a future conversation."
+    },
+    {
+      "type": "recent_income_reduction",
+      "raw": "With me just starting this job, I took a bit of a pay cut just starting off.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Four weeks into a new job with paychecks not yet stabilised, supporting a nine-person household. A timing constraint rather than a permanent one, which is why he asked how to reach the rep later."
+    },
+    {
+      "type": "future_liquidity",
+      "raw": "I've also had some potential milestones... We're looking at shop ownership and things like that. I have an investor that's wanting to do some things with a, with a new barber shop.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He is on a path toward the stated ICP rather than in it, and he flagged the risk himself: 'I don't want to be at that point where I'm like, well, this program isn't even available anymore when I am ready to pull the trigger.' That is a nurture signal, not a loss signal."
+    },
+    {
+      "type": "free_information_substitute",
+      "raw": "I've tried to, I've, I've to, I GPT before I started this job. I haven't tried it since I've gotten this job.",
+      "direction": "undercuts_price",
+      "competitor": "ChatGPT and YouTube",
+      "note": "He owns an 8kg bell already and had been building plans with AI. The rep pre-empted this at minute three, which is why it never resurfaced as an objection — the same move that worked on the Mike Sicoli call."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To do the training, or at least the mobility work, alongside his young children in the mornings — 'if this is possible at all, you know, I mean, obviously maybe not some of the kettlebells because they're younger, but doing some of these workouts, maybe the mobility types of things'",
+      "why_unmet": "He raised it unprompted and at length and the rep did not respond to it at all — the next turn moved to a different question. Nothing about whether the mobility programming is shareable with children, which it plausibly is.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A nutrition approach that survives a nine-person household with shared cooking, one fridge, several diets and no glass containers permitted at work",
+      "why_unmet": "The answer given was generic — a shopping list and a meal plan, with 'the vehicle you choose is up to you'. The specific constraint he described, which is the actual reason his previous meal prep collapsed, was never addressed.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A coached option somewhere between $6,000 and $200/month self-serve — he wanted the six-month programme and could not reach it, and said so plainly: 'I really like the six-month option... But, again, it's just out the reach right now'",
+      "why_unmet": "Nothing exists between the flagship and the subscription. What was offered instead was an ad-hoc three-month tier and a paid trial that appear to be discontinued, rather than a standing mid-tier.",
+      "verdict": "product_gap"
+    }
+  ]
+}

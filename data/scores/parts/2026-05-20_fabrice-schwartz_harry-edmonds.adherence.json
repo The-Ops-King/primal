@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-05-20_fabrice-schwartz_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Setter acknowledged without a read-back: 'I know you spoke with Kim. He gave me like a little bit of a head start.' Frame ran three-part as on every call in this batch — 'I just want to get a good idea of where you're at, really build out what it is that you want. And then if there's alignment, we can talk about the coaching' — missing 'what's in the way' and 'what you need'. Agreement sought only as 'All right.' Open question ran verbatim."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "partial", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "miss", "P2g": "partial", "P2h": "hit", "P2i": "miss" },
+      "evidence": "The most complete baseline in the batch relative to its length. Age, height and weight all asked ('How much do you weigh right now and how tall are you?', 'How old are you?' — the answer is lost to a diarization swap). Work asked but not characterised as desk-bound or on his feet. Sleep asked and probed for quality, which was the best moment of the call: 'how many hours of sleep would you say you're getting?' → 'like 4 to 5 a night' → 'is that the baby waking you up?'. Training week asked and history established. Pain located ('Whereabouts do you have pain now?') but never dated, and no injury or health-condition question at all. Food asked once and dropped the moment the prospect said 'food I'm pretty good with', with no follow-up. Energy never asked despite being one of his two stated goals."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "The surface layer ran cleanly — 'if we fast-forward six months, what is it that you really want? I know you said get back in shape, but what does that look like?' followed by 'In what way?' — which produced energy and pain relief. Everything below the surface is absent. No 'something physical you can't do right now', no bridge to what is actually driving it, no 'who else does that impact' and no legacy thread, on a call with a man who has an eighteen-month-old daughter and is building a new business on four hours of sleep. The single most obvious deep motive in the batch was sitting in plain view and was never asked about."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "hit", "P4d": "hit", "P4e": "partial", "P4f": "miss" },
+      "evidence": "Root cause was reached directly and early: 'What do you feel like is the biggest reason why you're not consistent ever since having the baby?' → 'Lack of sleep.' Also asked the right differentiating question about why now — 'you've been training with kettlebells for like four years. I guess, what had you feeling like you might want to get a coach rather than just going back to the old routine?' — which surfaced the real gap, wanting to be pushed and wanting new inputs. Past attempts were only partly mapped, no 'why do you feel it didn't stick' beyond sleep, and the 'why can't you stick to it on your own' move never ran despite the prospect handing him the line 'I know how to train, it's not like I need a trainer'."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. The prospect had already articulated the mechanism himself — 'when you stop, everything degrades and it's a negative' — which is the phase's own argument in the prospect's mouth, and it was met with 'Yeah. I get you, man.' Nothing was asked about the next two years, settling, or drawing a line."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind. Neither the belief question nor the all-in question was asked, and no verbal yes was sought before the rep decided what to offer."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close on the coaching was attempted because the coaching was never presented. The alternative $200/month product was handed over as a self-serve link — 'if you want to do it you can just sign up on the app' — with no payment step, no onboarding, no agreement and no next call, so none of the P11 steps were reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, and the most important one in this call. The prospect presented as self-sufficient and low-friction — four years of kettlebell experience, 'I know how to train, it's not like I need a trainer', food self-declared as fine, no stated pain about money. The playbook has no path for a competent self-directed trainee who needs a reason to buy coaching rather than a reason to afford it, and no path for a rep who privately concludes a prospect will not pay. The rep improvised a downsell to a $200/month product without ever testing the premise: no affordability question, no consequence frame, no commitment check. The prospect never objected to anything, because nothing was ever proposed for him to object to."
+    }
+  ],
+  "notes": "Good, efficient baseline and a clean root-cause question, then the call is abandoned at twelve minutes. The rep drew a conclusion about this prospect's willingness to pay without asking a single question that would test it, and priced him at $200/month on that assumption. Coach: present the offer before deciding the prospect cannot afford it — and if a downsell is genuinely the right call, it should be a documented decision, not an improvised one."
+}

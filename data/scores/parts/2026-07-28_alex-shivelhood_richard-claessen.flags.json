@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-07-28_alex-shivelhood_richard-claessen",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep offered to split the $6,000 into three payments of $2,000, five days after telling a different prospect that this exact structure is not something Primal does.",
+      "evidence": [
+        "The reason I asked that was if it's needed, we can split it up into three times, that it's two times three. That's We could also make that work if it's needed.",
+        "So what I would say is we don't do like 2,000 and then two months in between, 2,000, two months in between. We don't do that.",
+        "I wonder if, you know, it could be broken into three payments, you know, like 2,000 every two months."
+      ],
+      "timestamp": "00:45:47"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $100 refundable deposit was taken to secure a follow-up meeting, the second use of this undocumented instrument in the batch, here from a prospect who had just disclosed a 620 credit score, near-maxed credit cards and roughly $200 a month of surplus.",
+      "evidence": [
+        "we always just book in the next meeting with a small deposit, and if then it comes down to, well, you know, it's too much, we can't make it work, we'll jump on anyway",
+        "What's the deposit y'all want? It's 100.",
+        "So what is your credit score like at the moment? Just so I have an idea, so we can open all the options. 620.",
+        "I know my credit cards are almost max",
+        "Invoice paid, download receipt."
+      ],
+      "timestamp": "00:46:25"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed eleven broken ribs, a punctured lung and a permanently denervated abdominal wall muscle from eighteen months earlier; he volunteered his own medical clearance and the rep accepted it without asking what activity had been cleared or by whom, then described a programme of progressively loaded full-body training.",
+      "evidence": [
+        "I had a bicycle accident, broke 11 ribs and, um, clavicle and punctured my lung",
+        "they did a nerve block on a nerve to help with the pain from the rib... so now I have this floating muscle... that muscle may never wake back up, per se",
+        "I've been cleared from the two different doctors about that",
+        "ended up at a plastic surgeon, he's like, yeah, that muscle may not wake back up, you got to give it a couple years... he's like, absolutely, you have no restrictions on exercise",
+        "in the beginning, we're going to start with not all too heavy weights to make sure your form is going to be on point... and from on there, we increase the weight"
+      ],
+      "timestamp": "00:16:26"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed significant depression following the accident, a history of drug use and homelessness, three family bereavements while acting as caregiver, and lifelong emotional eating; the rep engaged with it as motivation material and asked nothing about current mental health, support or sleep.",
+      "evidence": [
+        "went into, um, bad depression afterwards. And I gained 50 back",
+        "in a three-year period, my mom, dad, brother, and that husband, he died. So all four died in three years and I was a caregiver to them. And so that's that point in my life, my whole life shifted to others. And then I went down a dark road and drugs and all that stuff to all the way to homeless.",
+        "that emotional eating and stuff that was probably going on. But my whole life, that's been an ongoing thing. And so I don't think I need therapy over it.",
+        "So you want to commit to yourself. That's basically the reason that I asked."
+      ],
+      "timestamp": "00:24:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "File is titled 'Impromptu Zoom Meeting' with no prospect name, the fifth such untitled sales recording in this batch, while the same prospect's follow-up the next day is correctly titled with his name and a setter suffix.",
+      "evidence": [
+        "07/28/2026 - Impromptu Zoom Meeting",
+        "07/29/2026 - Alex Shivelhood x Richard Claessen DH"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

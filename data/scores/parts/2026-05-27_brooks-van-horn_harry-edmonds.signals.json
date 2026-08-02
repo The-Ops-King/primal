@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-05-27_brooks-van-horn_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "accepted", "evidence": "Agreed to the philosophy with a flat 'Yeah' and had already volunteered his own alignment earlier: 'it's another thing I like about kettlebell generally as kind of like my primary form of exercise is, I tend to get injured less frequently than like with running.' The hips-and-knees remediation framing matched what he had described without further questions." },
+    { "pillar": "nutrition", "reaction": "accepted", "evidence": "Took it without pushback while explicitly de-prioritising it: 'to the extent that you have any thoughts or tips on, like, you know, dietary stuff, I would certainly take it. I feel like I have a decent handle on that... so it's not super high on the priority list, but yeah, I'm always happy to learn.'" },
+    { "pillar": "accountability", "reaction": "clarifying", "evidence": "The only part he interrogated: 'how many live sessions are there... is it like, I have like one or two sessions with him, but then it's kind of like, I'm just uploading the data?' He accepted the asynchronous answer ('that makes sense') and later confirmed accountability is the thing he is actually buying, noting of the cheaper product: 'And there's no accountability too. Right.'" }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "I was expecting it to be maybe like 400 bucks a month or something like that",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct's own marketing",
+      "note": "Proposed label: marketing_set_price_expectation. He built the anchor from Trevor's own content: 'I thought I saw Trevor saying like, you know, personal training model like doesn't really work because it's super expensive and like, you know, not sustainable for that reason.' The brand's positioning against expensive personal training set an expectation its own price then broke — a 2.5x gap, and the whole objection."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I feel like most personal trainers are like, you know, 100 bucks for whatever, an hour long session or something",
+      "direction": "undercuts_price",
+      "competitor": "Personal trainers generally; he has used them before",
+      "note": "His reference price for one-to-one help. The rep countered with a $2,000/month figure for three or four sessions a week in LA and the line 'it's half the price of a trainer, but you get double the support' — a comparison the prospect neither accepted nor challenged."
+    },
+    {
+      "type": "other",
+      "raw": "We have a school community that's 200 bucks a month, but that's not, it's not coaching.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (in-house)",
+      "note": "Proposed label: internal_downsell_product. Rep-introduced rather than prospect-held, and it became the exit route from the $6,000 close. Once named, the prospect asked about it twice and left with the link instead of the coaching."
+    },
+    {
+      "type": "other",
+      "raw": "I guess because I've done personal training in the past",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: prior_paid_coaching. He is not opposed to paying for coaching in principle and has done so before; this was never used to bridge to the price."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live sessions with the coach, or at least a clear picture of how much real-time contact he gets",
+      "why_unmet": "The programme has no live component at all — 'there's no live, there's no live stuff' — which is a deliberate design choice for a client base of busy professionals. He accepted the rationale, but it is a genuine absence of something he asked about first.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Structure, progression and accountability at a price near $400/month",
+      "why_unmet": "The only sub-$6,000 product is Primal University at $200/month, which he immediately identified as lacking the one thing he came for: 'And there's no accountability too. Right.' There is nothing between a self-paced community and $1,000/month coaching.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confirmation that his form is good enough to move above 20 kg without hurting himself — the specific reason he wanted a coach",
+      "why_unmet": "The video review-and-feedback loop was described and does appear to cover it, but it was never tied back to his stated fear of injuring himself on overhead work, so he never heard the product answer his actual worry.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

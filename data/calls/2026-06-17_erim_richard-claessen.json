@@ -1,0 +1,135 @@
+{
+  "call_id": "2026-06-17_erim_richard-claessen",
+  "source": {
+    "drive_file_id": "1eUg86WZMIxl8ulPHxBZAyXpnTECHfV9r",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/17/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/17/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 67214
+  },
+  "call": {
+    "date": "2026-06-17",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 66,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Erim",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "San Francisco, California, USA",
+    "age": null,
+    "occupation": "Desk-based, works in front of a computer all day and runs between meetings",
+    "family_status": "Has children in elementary school",
+    "height_in": 71,
+    "weight_lb": 187,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Runner for 12-13 years plus daily walking. Gym-trained before ~2011-2012, then quit because he found it boring. Occasional home dumbbell work with no consistency. Currently no strength training at all.",
+    "kettlebell_experience": "none",
+    "medical": null,
+    "age_note": "Exact age not stated. Said 'I'll be 40 soon' and 'your 30s are over and you're approaching 40s'.",
+    "medical_note": "No conditions, injuries or medications disclosed. Explicitly denies injury history: 'No, not really. No injuries.'"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.8,
+    "signals": [
+      "Anchored hard and repeatedly to a much lower price: 'the range I would be comfortable with is maybe $300, $400, maximum $500, but I don't think I will go up to $1,000 a month'",
+      "Self-directed and confident he could do it alone: 'if I trained myself, and I could very well spend $6,000 on a power rack, and work out for a year... I don't need Trevor for that transformation'",
+      "Demanded credentials rather than reassurance: 'what are Trevor's credentials, right? What has he done in the past academically?'",
+      "Note: he is also affluent ('it's a big investment, which, you know, I can afford'), so the resistance was to perceived value, not capacity to pay"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger for daily life, particularly a stronger back and shoulders to hold posture at a desk", "category": "strength" },
+    { "text": "Lose body fat and become leaner so the lower two abs become visible", "category": "fat_loss" },
+    { "text": "Build muscle as a by-product rather than as a target", "category": "muscle_gain" },
+    { "text": "Build discipline so the routine survives long-term rather than lapsing after six months", "category": "consistency" },
+    { "text": "Avoid injuring himself the way friends have with weightlifting and endurance sport", "category": "injury_prevention" },
+    { "text": "Eventually pass kettlebell training on to his children", "category": "family_role_model" },
+    { "text": "Look like Trevor", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Weak back and poor posture from sitting at a computer all day", "category": "other", "severity": "medium" },
+    { "text": "Finds gym training boring and isolated, which is why he stopped in ~2012 and never went back", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Does not know how to hold or move a kettlebell and is afraid of injuring himself or dropping it on his foot", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Has watched Trevor's content for months and bought nothing — no path from watching to doing", "category": "training_barrier", "severity": "medium" },
+    { "text": "Does not want to count macros or be 'super hung up' on food", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "I have to think about it.",
+      "timestamp": "00:51:04",
+      "rep_response": "Immediately isolated it — 'What is that mainly about? Is that mainly around the investment amount?' — which surfaced the real objection. Did not run the rest of the OA play.",
+      "response_tactic": "isolate_the_objection",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "No, I think it's too much. $1,000 a month is too much.",
+      "timestamp": "00:51:49",
+      "rep_response": "Tested whether it was capacity or value, offered to 'split it up', and asked whether he saw the value. Never established value; the prospect held the position for the next fifteen minutes.",
+      "response_tactic": "isolate_capacity_vs_value_then_offer_payment_plan",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if I trained myself, and I could very well spend $6,000 on a power rack, and work out for a year, or six months, and make that transformation myself, without needing Trevor",
+      "timestamp": "00:56:29",
+      "rep_response": "Turned his own earlier words back on him — 'didn't you just mention to me that buying a power rack isn't actually the thing that you should do because there's a big chance you will just stop with it again' — which the prospect conceded logically but did not act on.",
+      "response_tactic": "callback_to_prospect_own_words",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "what are Trevor's credentials, right? What has he done in the past academically? ... what has he done in the past to request $1,000 a month from a potential client? And from me, from what I see, it's worth something, but it's not $1,000.",
+      "timestamp": "01:00:04",
+      "rep_response": "Did not answer. Offered no credentials, no client references and no track record beyond 'You have seen that he can get the results, right?' Then pivoted straight to a cheaper product.",
+      "response_tactic": "deflect_and_downsell",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": null, "price_usd": 200, "note": "Primal University group programme quoted at $200 per month, cancellable monthly — offered as a downsell after the $6,000 was refused" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep said 'We could split it up if that makes it better' and 'In the amount of payments that's needed' but never proposed a number of instalments, an amount or a total.",
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": null, "monthly_surplus_usd": null, "has_savings": null, "credit_score": null, "stated_ceiling_usd_per_month": 500 }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and repeated refusal of the offer on value, not affordability: 'I'm not going to spend $6,000 without seeing what he offers me and what results I'm getting. I'm not going to do that.'",
+      "'the range I would be comfortable with is maybe $300, $400, maximum $500, but I don't think I will go up to $1,000 a month'",
+      "'No, I'm not questioning the worth. I'm questioning what I will be getting out of the $6,000.'",
+      "Counter-evidence: he did verbally accept a $200/month downsell and a link was sent in the chat — 'Yeah, yeah, let's do that. That sounds more reasonable' and 'Now this is reasonable, Richard' — but he did not complete signup on the call ('Let me go through this... And then I will definitely look at it and join') and the core offer was refused outright.",
+      "Rep booked a loose follow-up 'in a few months' rather than a next step on the $6,000 programme."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to join the $200/month Primal University community from the link sent in chat; rep to message him on his work number in a couple of hours and revisit the one-to-one programme in a few months."
+  },
+  "notable": {
+    "note": "The clearest value-objection in the batch and the one the script has no answer for. Erim explicitly said money was not the barrier ('it's a big investment, which, you know, I can afford') and asked twice for Trevor's credentials — the one question that would have closed him — and was never given an answer. The rep instead dropped from $6,000 to a $200/month community product inside four minutes of the objection landing. The rep also created time pressure at the moment of the downsell: 'let me just quickly text someone, because I'm actually late for another meeting.'"
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent short-turn inversion, and several whole rep passages are attributed to 'Erim' — e.g. the discovery questions at 00:04:40, 00:26:36 and 00:52:57 are labelled as the prospect. The core exchanges (price, objection, downsell) are unambiguous from content."
+  }
+}

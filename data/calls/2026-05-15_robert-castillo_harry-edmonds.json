@@ -1,0 +1,114 @@
+{
+  "call_id": "2026-05-15_robert-castillo_harry-edmonds",
+  "source": {
+    "drive_file_id": "17t5-sSDSLYbLKy5QFe_HZMqaBSNPDz9x",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/15/2026 - Robert Castillo & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/15/2026 - Robert Castillo & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 40047
+  },
+  "call": {
+    "date": "2026-05-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 42,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"kim tells me you've you're on a on a journey huh\" and the prospect's \"I was telling Kim yesterday that I kind of actually feel better being in ketosis\""
+  },
+  "prospect": {
+    "name": "Robert Castillo",
+    "aka": null,
+    "name_source": "title",
+    "location": "Houston, Texas, USA",
+    "age": null,
+    "occupation": "Works a nine-to-five (employer not named); also a certified health coach, not practising commercially — \"I'm still doing the nine to five thing right now\"",
+    "family_status": "Married; wife lost almost 100 lb alongside him; at least two children, son entering seventh grade and wants to play football",
+    "height_in": null,
+    "weight_lb": 165,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Seven-year health turnaround. First 2-2.5 years diet only via Virta Health (low-carb ketogenic), lost 80 lb from 245 lb. Then a year of bodyweight calisthenics via an app, then dumbbells. Now trains Monday/Wednesday/Friday for roughly 1.5-2 hours: a 50-55 minute full-body Bowflex adjustable-dumbbell session plus a 30-40 minute app workout. Maxed out at 52 lb on most dumbbell movements and self-reports a plateau.",
+    "kettlebell_experience": "some",
+    "medical": "Type 2 diabetes, self-reported reversed via Virta Health; also reports reversing cholesterol and blood pressure issues. Ongoing joint problems: \"my joints, my shoulders, things like that, they get sore, inflamed sometimes.\" Significant loose abdominal skin from the 80 lb loss (\"I've got this apron here\") and is contemplating cosmetic surgery. No current medications, clinician or clearance discussed."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Self-scored 7/10 and framed the purchase explicitly as the last three points: \"a 10, it looks like me being able to take my shirt off and be on Instagram\"",
+      "Health is already handled by his own account — \"health-wise, I feel like I'm a 10... my diet and my metabolic health, I know I'm good\" — so the buy is discretionary optimisation, not rescue",
+      "Imperfect fit on the price dimension: the optimizer treats price as a quality signal, and this prospect balked (\"I wasn't expecting quite that big of a chunk\"). His history is the_rebuilder; his present state and stated goal are the_optimizer, and the present state is what he is buying against."
+    ]
+  },
+  "goals": [
+    { "text": "Visible definition — be able to take his shirt off at the beach and feel confident", "category": "appearance" },
+    { "text": "More definition in arms and chest without getting bigger", "category": "appearance" },
+    { "text": "Break the plateau he has hit with 52 lb adjustable dumbbells", "category": "strength" },
+    { "text": "Recover the mobility and flexibility he feels he has lost to weight training", "category": "mobility" },
+    { "text": "Cut total training time from ~2 hours to something shorter and get an extra hour of sleep", "category": "convenience" },
+    { "text": "Model conditioning for his son, who wants to play football and needs to be physically conditioned first", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "What he sees in the mirror does not match the effort and progress he has made", "category": "emotional", "severity": "high" },
+    { "text": "Loose abdominal skin from an 80 lb loss that he believes may require cosmetic surgery", "category": "other", "severity": "high" },
+    { "text": "Plateaued on dumbbells — most movements maxed at 52 lb with no way to progress", "category": "program_fit", "severity": "medium" },
+    { "text": "Sore and periodically inflamed joints, particularly shoulders, which he attributes to weights plus age", "category": "injury", "severity": "medium" },
+    { "text": "Two-hour training blocks early in the morning eating into sleep", "category": "time_scarcity", "severity": "medium" },
+    { "text": "His training app cannot be customised toward what he actually wants to do more of", "category": "program_fit", "severity": "low" },
+    { "text": "Self-described body dysmorphia — \"this is more of a mental kind of that body dysmorphia, mental aesthetic thing now\"", "category": "mental_health", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I mean, honestly, I wasn't expecting quite that big of a chunk, but I would have to make some arrangements like banking wise in order to process that payment. So how, how could we do that?",
+      "timestamp": "00:31:27",
+      "rep_response": "Did not isolate or explore the financial picture. Immediately reduced the required amount to a $1,200 down payment to trigger onboarding, then when even that could not be moved same-day, booked a follow-up call for 2pm the same day and booked the Trevor onboarding call anyway on an unpaid commitment.",
+      "response_tactic": "improvised_reduced_deposit_then_book_follow_up",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two structures surfaced. First, the standard option offered unprompted: \"You can either pay it all up front, or you can do a split payment, half down, half next month.\" Second, improvised when the prospect could not move funds: \"we just need 1,200 and then we can process everything on board you... let's say it's like Monday when it's all done, we can just reach back out and do the rest.\" No schedule, no total restated, nothing documented on the call.",
+      "guarantee_mentioned": "\"we guarantee the results. So dependent on the timeframe, we guarantee that you will, for example, for six months, the guarantee is that you will, let's say you start with a 35 pound kettlebell, we guarantee that by the end of it, you'll be at 55. So whatever your starting weight is, we guarantee 20 pounds extra on the kettlebell in six months... we work with you until you hit that metric.\"",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "Verbal agreement is clear: \"You want to do the six? Yeah, I think so\" and, when asked directly, \"Is this something that you're definitely 100% all in on?\" — \"Yeah, for sure.\"",
+      "Trevor onboarding call was booked live for Monday 12:15 Central and a calendar invite was accepted on the call",
+      "A same-day follow-up with the rep was scheduled for 2pm Central to take payment",
+      "Counter-evidence — no money changed hands and no payment link was sent: the prospect needed a bank visit to move funds and could not even cover the improvised $1,200 deposit. The verbal-agreement-plus-link close rule is therefore not satisfied.",
+      "Counter-evidence — the onboarding slot was reserved against an unpaid commitment, which the prospect himself flagged as awkward: \"I don't want to commit to him or have him commit to a timeframe without having paid him of course.\""
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep and prospect reconvene at 2pm Central the same day to process payment once funds are moved; Trevor onboarding already held for Monday 12:15 Central"
+  },
+  "notable": {
+    "note": "The offer was never sold against a cost of inaction — there was no consequence frame at all — and the moment cash friction appeared the rep dropped the entry price to $1,200 rather than running the money play. Also worth a manager's attention: the rep told a prospect with an unassessed shoulder problem that his own scoliosis symptoms resolved through kettlebell training, and told him the programme would be \"getting rid of the pain\". The rep also probed for a business in order to arrange a tax write-off, the same pattern seen on the Rob End call three days earlier."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent swapping in both directions. Long rep passages sit under the \"robert\" label (the whole 00:18:00-00:18:24 offer transition, \"Does that like, as a philosophy align with you?\" at 00:20:29, most of the guarantee explanation at 00:25:00) and several prospect replies sit under the Harry Edmonds label. The prospect label is lowercase \"robert\" throughout; his full name is confirmed in-call as Robert Castillo."
+  }
+}

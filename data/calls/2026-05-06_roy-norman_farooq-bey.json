@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-05-06_roy-norman_farooq-bey",
+  "source": {
+    "drive_file_id": "1fQqQvXAwB_LMpDmYqjTOkKaalmeTOloK",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/06/2026 - Roy Norman x Farooq Bey",
+    "display_title": "05/06/2026 - Roy Norman x Farooq Bey — Follow Up",
+    "file_size_bytes": 52387
+  },
+  "call": {
+    "date": "2026-05-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 53,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Roy Norman",
+    "aka": "Transcript speaker label is redacted to 'R*'; the rep variously says Roy, Rory, Rui and Ross",
+    "name_source": "title",
+    "location": "Mexico City, Mexico",
+    "age": 41,
+    "occupation": "Owner of his own marketing agency; runs brand events; previously worked at Nike in retail, sneakers and launches",
+    "family_status": "Married three years; no children yet, refers to 'hopefully a great father'",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Ultra-distance trail runner for two years; ran 75 km solo and unsupported ten days before the call; targeting a 230 km race in Baja California in November, with marathons and a Backyard Ultra (12-15 laps, ~90 km) in September as build-up. Also skydives (A licence), mountaineers, and has a background in motocross, mountain bike and soccer. Currently does traditional weight training three times a week (upper body twice, lower body once), daily stretching, yoga and foam rolling. Employs a nutritionist, an exercise physiologist, a running coach and a therapist. No kettlebell experience.",
+    "medical": "No personal medical conditions disclosed. Reports losing roughly 20 lb of muscle mass over ~18 months from ultra-distance training volume. His physiologist assessed him post-race as uninjured but with 'overcharge' of tendons, ligaments and muscles. Father died 15 years ago following mistreated diabetes, which leaves him wary of fasting protocols and their effect on insulin and the pancreas."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Already highly fit and already successful; self-rates 'a very solid eight' against his own potential and wants the last two points",
+      "Explicitly frames the purchase as the missing piece in an existing stack: 'I have the expertise of a nutritionist, a physiologist... a running coach, and I'm missing that weight... that's the cherry of the cake'",
+      "Buys expert help as a habit — four paid specialists already engaged",
+      "Treats depth of process as a quality signal: 'I'm surprised, you know, in a good way that you're going deeper'",
+      "Diverges from the pure optimizer profile in one respect — price was a real constraint, not just a quality signal: 'this represents way more than I wanted to do'"
+    ]
+  },
+  "goals": [
+    { "text": "Build structural integrity and strength so his body carries him through the second half of an ultra when his mind is off", "category": "endurance" },
+    { "text": "Regain roughly 20 lb of muscle mass lost to ultra-distance training over 18 months", "category": "muscle_gain" },
+    { "text": "Shorten recovery time after big races — 'the athlete is not made by the way this guy endures, but the way this guy recovers'", "category": "energy_performance" },
+    { "text": "Stay away from injury and strengthen connective tissue, ligaments and tendons", "category": "injury_prevention" },
+    { "text": "Be ready for a 230 km race in Baja California in November", "category": "hobby_performance" },
+    { "text": "Cut training from two hours in a gym to a 40-60 minute session he can do anywhere while travelling", "category": "convenience" },
+    { "text": "Replace traditional heavy lifting, which he is bored of and which stresses his spine and joints", "category": "sustainability" },
+    { "text": "Reach a renewed version of himself — 'a new version of me, a renovated version'", "category": "confidence" },
+    { "text": "Be a better leader for his team, a better husband, and eventually a good father", "category": "family_role_model" },
+    { "text": "Achieve balance across body, mind and heart, offsetting the imbalance of ultra-distance", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Lost roughly 20 lb of muscle mass over 18 months of ultra-distance training and feels the absence in the back half of races", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Recovery after big races takes a week and his VO2 max drops; wants that window compressed", "category": "other", "severity": "medium" },
+    { "text": "Bored of traditional heavy weightlifting and does not want the spinal loading and impact it brings", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Training costs him up to two hours a day including travel; wants time efficiency", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Does not fully trust his body to hold up under greater demand: 'I need to raise the bar a bit so I can be more confident that my body will rescue me when my mind is off'", "category": "confidence", "severity": "medium" },
+    { "text": "Feels he has been the same man as five years ago and is actively working on this with his therapist", "category": "emotional", "severity": "medium" },
+    { "text": "Already funds four specialists and does not want to duplicate spend", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Wary of fasting protocols because his father died after mistreated diabetes", "category": "medical", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "because now I have this nutritionist, I have this companion, I have this... So I need just to maybe tweak, do like a scenario, a ready scenario for me. is me. So Spend-wise, right? Because I don't want to double the spend in something I already have.",
+      "timestamp": "00:45:35",
+      "rep_response": "Isolated the money — 'putting the money aside, the investment aside for a moment, do you actually want to do this?' — but never addressed the duplication itself or offered a reduced-scope option.",
+      "response_tactic": "isolate_money_without_addressing_overlap",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm spending a lot of Mexican pesos here, and this represents way more than I wanted to do. But again, just let me do maybe some tricks in my spend so I can say, okay, I can do the extra effort to do this and see what happens",
+      "timestamp": "00:46:30",
+      "rep_response": "Asked whether the outcome was worth the investment and why, then asked how he would process the payment ('Most people put it on a credit card').",
+      "response_tactic": "worth_it_question_plus_payment_mechanics",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "maybe in, I don't know, four or five months, say, hey, Farooq, I'm ready to do that. Now I'm ready. So let's do this, right? Because I don't think this is a decision like just right away.",
+      "timestamp": "00:50:25",
+      "rep_response": "Did not run the timing play. Instead reframed the deferral as an opportunity-cost problem and introduced an unlisted one-week trial product at $1,200 called 'Love It or Leave It'.",
+      "response_tactic": "opportunity_cost_reframe_then_trial_downsell",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": null, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "None formally offered by the rep. The prospect raised splitting the charge himself — 'maybe I can split that into maybe three months' on his credit card — and the rep responded only 'Yeah.'",
+    "guarantee_mentioned": "The 'Love It or Leave It' trial was described as: 'At the end of the one month, you've seen this is for you, you've tested Trevor, you've actually experienced it. If you're in a position where you want to extend, you have the license to do so. If you don't, if it's not for you, we shake hands, no problem, it's part ways as friends.' No refund mechanism, no written terms and no duration reconciliation were given.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "CORRECTED FROM AN EXTERNAL SOURCE. On the recording this call ends in an unambiguous verbal yes, and a naive read scores it closed. It did not convert. The rep described the off-recording continuation to his manager the following day: 'the Fathom, I took the Fathom out, we're about to pay, and that's when he was like, oh, paying now? I'm like, yeah, you just said you want to pay now. What's happening? What's going on?' (2026-05-07_chris-klevan-1-1_farooq-bey, 00:03:25)",
+      "The manager independently treats Roy as an unconverted opportunity: 'he was the only one who was technically closeable because he had the funds' and 'There was probably something on that call that would have allowed him to close.'",
+      "On-recording verbal agreement is nonetheless genuine and explicit: 'Sounds reasonable. Yeah.' / 'Let's do it, man.' / 'Happy. Yeah. Let's do it, brother.'",
+      "Rep then said 'So what I'll do, Roy, I'll remove my Fathom Notetaker' and the recording ends, so the collapse of the deal is not in the corpus at all",
+      "What he agreed to was in any case NOT the published programme — a $1,200 product the rep introduced with 'I'm not meant to really recommend this'",
+      "No payment link, card capture, agreement email or Trevor call is observable anywhere in the transcript",
+      "Three minutes before the yes he was still saying 'this represents way more than I wanted to do' and proposing to revisit in four or five months, which is consistent with him balking at immediate payment",
+      "The product's duration was stated as both 'one-week trial' and 'at the end of the one month' in consecutive sentences and was never clarified before he agreed",
+      "Scored follow_up rather than lost because no explicit refusal is on record from either source, and the manager's framing treats the opportunity as still live"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": "No cash collected. The prospect declined to pay once the recording stopped, per the rep's own account to his manager on 2026-05-07. An earlier reading of this transcript alone scored $1,200 collected; that was wrong, and the error is the exact bias introduced by stopping the recording at the point of close.",
+    "next_step": "Unclear. No follow-up call, date or link is evidenced in either the recording or the manager one-to-one."
+  },
+  "notable": {
+    "note": "Two things a principal should see. First, the rep sold a product he explicitly stated he was not supposed to sell: 'I'm not meant to really recommend this, but we have something called Love It or Leave It. So one-week trial, it's only 1,200 bucks' — and in the very next sentence described it as a month. A prospect who was leaning toward the three-month tier was actively steered DOWN to $1,200, framed as being in his interest on opportunity-cost grounds. Second, the rep removes the Fathom notetaker at the moment of close, so the payment terms of every deal he writes are unrecorded and unauditable. This is also the second call in this batch where the rep quoted an unlisted $4,000 three-month tier. Separately, the prospect disclosed that his father died after mistreated diabetes and that he is wary of fasting's effect on insulin and the pancreas; the rep responded by describing his own 72-hour fasts and saying 'it feels like something divine is happening.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and continuous inversion. The prospect's speaker label is redacted to 'R*' and large blocks of the rep's pillar presentation appear under it, while the prospect's answers appear under the rep's label. Roles resolved entirely from content: Farooq Bey runs the call. The prospect's first name is rendered inconsistently by the transcription (Roy, Rory, Rui, Ross, and once 'worry'); the title spelling 'Roy Norman' is used. Recording is deliberately terminated by the rep at the point of close, so the final segment of the call does not exist."
+  }
+}

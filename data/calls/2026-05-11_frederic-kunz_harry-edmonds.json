@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-05-11_frederic-kunz_harry-edmonds",
+  "source": {
+    "drive_file_id": "1r8NcFtOzG3ikXbfgGvG5ICc6Jqx6Wuxf",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/11/2026 - Frederic Kunz & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/11/2026 - Frederic Kunz & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Lost",
+    "file_size_bytes": 14753
+  },
+  "call": {
+    "date": "2026-05-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 15,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": null, "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "You spoke with Kim, I think, right? Yes, yes, I did."
+  },
+  "prospect": {
+    "name": "Frederic Kunz",
+    "aka": "Fred",
+    "name_source": "title",
+    "location": "Switzerland",
+    "age": 32,
+    "occupation": "Office-based corporate role; walks to and from work when the weather allows",
+    "family_status": null,
+    "height_in": 69,
+    "weight_lb": 192,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Served in the army. Has worked with a personal trainer for the last two months on full-body sessions — heavy squats or deadlifts twice a week plus dumbbell pressing and shoulder work, with plyometric and explosive work programmed on other days that he admits he skipped most of the time. Has tried many different programmes over the years and never knows what to commit to. Currently doing Trevor's Instagram workouts, which he saves and enjoys. Averaging 13,000 to 16,000 steps a day for the past two weeks. 87kg at 176cm, targeting 75-78kg.",
+    "kettlebell_experience": "some",
+    "medical": "Blood test analysis with a nutritionist showed a metabolic rate well below average and, in his words, really high cortisol levels. He is actively adapting his nutrition on that advice, including stopping the fasting he used to do because the nutritionist said it raised his morning cortisol. Reports gaining muscle very rapidly regardless of rep scheme. No injuries disclosed and none asked about."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.75,
+    "signals": [
+      "Explicit distrust of coaching providers' motives: 'they always have a hidden agenda or another motive and to book more courses or to try and sell you something else, so you never know if what you're getting is purely the right thing for you'",
+      "Anchored to a free alternative he already uses and enjoys — Trevor's Instagram workouts, which he saves and follows",
+      "Self-directed and capable: ex-army, currently working with a personal trainer, tracking steps, using a nutritionist and blood panels",
+      "Came to the call to evaluate rather than to buy — 'I was quite curious to learn more about it without having too much of an expectation'",
+      "Visibly surprised by the price and made no attempt to negotiate or explore it"
+    ]
+  },
+  "goals": [
+    { "text": "Drop 10 kilos over the next six to eight months, to 75-78kg", "category": "fat_loss" },
+    { "text": "Get leaner and smaller rather than bigger — stop bulking up so easily", "category": "appearance" },
+    { "text": "Raise his metabolism", "category": "other" },
+    { "text": "Get a pump and a cardio effect in a short amount of time", "category": "convenience" },
+    { "text": "Find one routine that works for his life and commit to it instead of cycling through programmes", "category": "consistency" },
+    { "text": "Independent validation that a kettlebell routine alone is sufficient and needs no supplementing", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Puts on muscle very quickly regardless of how he trains, which is the opposite of what he wants — suits no longer fit across the shoulders", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Metabolic rate well below average and high cortisol confirmed by blood work", "category": "medical", "severity": "medium" },
+    { "text": "Has cycled through many programmes and never knows what to stick to", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Skipped the conditioning half of his trainer's programme most weeks because of time", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Needs long sessions to offset the muscle gain with cardio, and does not have the time", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Does not trust that trainers recommend what is right for him rather than what sells", "category": "other", "severity": "high" },
+    { "text": "The setter would not tell him what the programme costs or involves — he described the conversation as cryptic", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "the point of using an another trainer ends up being they always have a hidden agenda or another motive and to book more courses or to try and sell you something else and so on. So you never know if what you're getting is purely the right thing for you.",
+      "timestamp": "00:11:07",
+      "rep_response": "Answered with the structure of the business rather than a rebuttal — all coaching is done by Trevor personally, there are no other coaches, and they cap active clients at 150 — and then, in effect, answered it by conduct, declining to sell and sending him back to the free content.",
+      "response_tactic": "single_coach_and_client_cap_then_decline_to_sell",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "Oh wow. Okay.",
+      "timestamp": "00:13:00",
+      "rep_response": "Did not handle it. Within seconds the rep withdrew the offer, telling the prospect he did not seem ready and should spend a month with Trevor's free workouts before any further conversation.",
+      "response_tactic": "withdraw_offer_and_defer",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I mean, I was asking, you know, what the program actually is in terms of costs, in terms of like time schedule, all that kind of stuff. And I didn't really have an answer for it.",
+      "timestamp": "00:00:32",
+      "rep_response": "Deflected with 'Yeah, it's all tailored. So it depends for everybody, you know?' — which does not describe the price, a fixed $6,000 for six months, and did not answer the question either.",
+      "response_tactic": "deflect_price_as_tailored",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified rather than the prospect refusing: 'I don't feel like you're like, I'm a hundred percent ready to really get into this stuff. And that's fine too.'",
+      "Offer explicitly withdrawn and deferred — 'go through Trevor's workouts, keep going through them, do it for like a month, see how you get on with it... and if you're there and you're like, I really like this... let's talk about the coaching'",
+      "No payment, no onboarding, no follow-up call booked and no date set — only 'we can catch up in a couple of weeks or like a month'",
+      "The prospect agreed readily and without pushback: 'no, it sounds good', 'sure, sure, yeah, that sounds good, let's do that'",
+      "Counter-evidence on the stated reason: the withdrawal came immediately after the price landed and the prospect said 'Oh wow', and he then confirmed 'definitely wasn't expecting the cost' — so a price loss reframed as a readiness deferral is an available reading",
+      "Counter-evidence the other way: the rep signalled the readiness concern in the same breath as the price, 'I want to make sure you're ready', and the prospect had already described himself as exploring rather than buying"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to spend a month with Trevor's free Instagram and YouTube workouts; rep to send the Skool community link; an informal catch-up in a few weeks to a month, with nothing scheduled."
+  },
+  "notable": {
+    "note": "The one call in this batch where the rep declined to sell. He named the price, read the reaction, and instead of discounting, deposit-taking or working the objection, told the prospect to go and use the free content for a month and come back only if he genuinely wanted it. Set against the $100 deposits and improvised instalment ladders elsewhere in this batch, it is the clearest evidence that the pressure behaviours seen on other calls are choices rather than habit. The concerning part is upstream and is now a pattern: this is the second prospect in three days to report that the setter would not answer a direct question about price. The rep then compounded it by saying the price 'depends for everybody' and is 'all tailored', which is not true of a fixed $6,000 six-month fee."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion of short turns — at 00:00:14 and 00:00:32 the rep's questions and the prospect's answers are swapped, as they are at 00:02:57, 00:03:48 and 00:04:33. The block from 00:05:59 to 00:07:13 runs both speakers together without separation, and the entire closing sequence from 00:13:03 to 00:15:01 merges the rep's disqualification with the prospect's replies under alternating labels. Role was read from content throughout. The prospect's label is a shortened first name, 'Fred'."
+  }
+}

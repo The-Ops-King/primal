@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-13_ken-dunham_michael-brideau_2",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He interrogated the delivery model harder than anyone else in the batch, and kept going until he had a straight answer: 'How often do I get time with Trevor?', then 'Is there a regular time with him?', then 'How long is the check-in?', then 'Like I'm on a video of myself doing a workout, send it to him. He's going to give me feedback.' The answer that emerged was that everything is asynchronous apart from optional group calls. He also engaged with the mobility pitch honestly, naming his own avoidance — 'I don't see as much bang for my buck' — and then conceding 'I got a knot back here... I need to work that out every day because I'm going to get kinked up.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Delivered as the usual principles — a protein baseline of roughly a pound of meat and six eggs, a consolidated eating window, whole foods. His only question was about the artefact rather than the content: 'Is there anything written? Do I get anything?' The rep answered that Trevor writes it out custom into the app. No pushback on the substance, which is notable given he already runs a high-protein low-carb diet with Sunday meal prep."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Framed to fit a self-motivated buyer: 'for a guy like yourself, obviously you don't need somebody holding your hand to go to every workout.' Response was 'Yeah. Sweet.' with no questions. Worth noting that he had earlier identified accountability as his real gap on mobility specifically — 'the thing about the mobility is I need to be accountable to doing that, so that would be the harder one for me' — and the pillar was never connected back to that admission."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "own_professional_day_rate",
+      "raw": "I'm not saying that he's not worth it. I charge $5,000 a day. So, you know, for my, not the coaching, but if you're going spend a day with me and I'm going to do work with you, it's $5,000 or $6,000. So I totally get where he's coming from.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest supports_price anchor in the batch, and the prospect supplied it himself along with the reasoning for why leveraged coaching is priced the way it is. The rep then used it as the closing lever. His own reaction — 'I never should have told you my hourly rate, Michael' — is a clean confirmation that this is the mechanism that closed the deal."
+    },
+    {
+      "type": "recent_comparable_health_spend",
+      "raw": "I'm on a regimen of peptides, it's helped me lose a lot of the visceral fat that I had, and I think I dropped six grand two months ago. Four, what, three or four months worth for my wife and I.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "An identical $6,000 spent on a health intervention eight weeks earlier, surfaced by the rep's 'What's the last one you did?' probe. That question converted a vague affordability objection into a proven precedent in about thirty seconds and is worth adding to the script."
+    },
+    {
+      "type": "recent_discretionary_spend",
+      "raw": "I just bought a life, a vacation club for $20,000.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Volunteered immediately after the peptides. Combined they establish beyond doubt that this was never a capacity objection."
+    },
+    {
+      "type": "diy_alternative",
+      "raw": "can I get there on my own and my own discipline and kind of sticking through what I've been doing?",
+      "direction": "undercuts_price",
+      "competitor": "Himself — self-directed training off Trevor's free content",
+      "note": "The real competitor on this call was free. He has hundreds of saved videos, a home gym and two years of consistency, and had already produced visible results in two weeks of self-directed kettlebell work. He also admitted the limit of it under questioning: 'I'm challenged to do that myself in six months and to figure out what my regiment's going to be and then hold myself to it.'"
+    },
+    {
+      "type": "competing_commitments",
+      "raw": "I've got too many of those type of things, investments, you know, that I'm doing. And so, I just need to think about it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not affordability but commitment fatigue — a wealthy buyer with several open subscriptions and programmes. The counter is portfolio pruning or a start date, not a discount, and neither was used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Scheduled live time with Trevor",
+      "why_unmet": "He asked three separate times and the answer each time was that there is none: check-ins are asynchronous forms, coaching is text and video message, and the only live contact is optional group calls. 'Is there a regular time with him?' — 'Not, not scheduled in regularly, like where you're going to be hopping on a call once a week, that's not scheduled.' For a buyer paying at a premium and used to buying and selling face-to-face professional time, this is a real gap between what one-to-one implies and what is delivered.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A clear answer on whether ballistic kettlebell work is safe on a diagnosed meniscus tear and two prosthetic shoulders, and whether it changes his surgical decision",
+      "why_unmet": "He asked it as a direct question. What came back was reassurance plus the suggestion that surgery might become unnecessary. No screening, no clearance, no contraindication list, and no acknowledgement that the surgical decision belongs to his surgeon.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Ten solid pull-ups",
+      "why_unmet": "Volunteered as a specific goal — 'I've seen him do pull-ups before, and I'm terrible at pull-ups. That would be another goal. If I could do 10 really solid pull-ups, I'd be it' — and never referenced again by the rep, not in the goals recap, not in the presentation and not in the close.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Certainty about the timeline and the endpoint before committing",
+      "why_unmet": "He asked 'How soon does that happen? What could I expect at the end of six months?' and was given verbal projections — a different human being in two to three months, 10% body fat loss being common, getting him from around 25% to 10-12% — with no case study, no before-and-after and no data. He had already seen the before-and-after photos himself, independently, which is what got him on the call.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

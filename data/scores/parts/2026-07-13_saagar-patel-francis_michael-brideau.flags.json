@@ -1,0 +1,99 @@
+{
+  "call_id": "2026-07-13_saagar-patel-francis_michael-brideau",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep disclosed that his standard payment process is to take card numbers verbally and enter them into his own processor, and pushed back when the prospect asked for an invoice with a secure payment link, which cost the sale.",
+      "evidence": [
+        "I have a processor on my end. usually just grab a credit card number and punch it in.",
+        "I mean, the security of the payment, it would be nice if it was like an invoice or something that I could pay with a link. That would be a little more comfortable.",
+        "The hesitation on that, is that that we're just going to take your card and run off to Mexico or like, what's the, just out of curiosity, man.",
+        "the way that I handle payments with anybody, especially when I first met them is through an invoice process. So it's like all like documented, it's secure.",
+        "if there's any way to do, like, a secure payment link to an invoice so that I can document that, that would be ideal... because all businesses have some kind of accounting software where they document everything and they allow the clients to pay with a secure portal"
+      ],
+      "timestamp": "02:18:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This single Drive file contains two entirely separate sales calls with different prospects recorded back to back, so any per-file count will undercount calls and any per-file analysis will conflate two prospects.",
+      "evidence": [
+        "Cool. I'm going to boot you out just because I got my next guy in the waiting room here, so we'll talk soon.",
+        "we'll talk to you later. Bye. Hello, hello. Hey, how's it going?",
+        "01:05:55 - Saagar Patel-Francis  Good."
+      ],
+      "timestamp": "01:05:36"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep requested a $500 deposit to hold the prospect's commitment while he consulted his husband, without stating any terms or the refund condition the playbook attaches to that move.",
+      "evidence": [
+        "Would it be fair to ask you to put a small deposit towards something like this, just to show them that you're actually committed and wanting to do it?",
+        "Oh, like what kind of deposit? — 500 bucks. So, I mean, what's the hesitation?",
+        "the way that I usually structure investments is... I'll run them by. My husband will make sure that we're aligned on it"
+      ],
+      "timestamp": "02:21:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The performance guarantee was stated in kilograms and then restated as pounds within the same explanation, so the prospect was given two different thresholds for the same promise.",
+      "evidence": [
+        "our guarantee is that within the six months, you will add in eight kilograms to your primary [lifts] on the kettlebell",
+        "But what we do know is that if you add eight pounds onto your kettlebell lifts, because it's such a functional and kind of holistic movement... you will have a transformation, like it's impossible not to",
+        "if we don't get you those eight kilograms, Trevor will continue working with you for free until we get to the eight kilograms"
+      ],
+      "timestamp": "02:11:23"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a spinal injury from barbell squatting that required chiropractic treatment, and the rep acknowledged it with two words and moved on without exploring it or asking whether ballistic loaded work had been cleared.",
+      "evidence": [
+        "the moment I took that belt away and tried to lift what I normally lift, my spine kind of buckled and it caused like a back issue that a chiropractor, thankfully, a good one helped, helped resolve",
+        "Yeah, gotcha.",
+        "I've got a set of 45-pound kettlebells. How many other weights are necessary to start the thing?",
+        "we've had people come in with injuries prior to working to us. And by the time they're halfway through the program, it's not even an issue anymore"
+      ],
+      "timestamp": "01:31:14"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep applied the spouse-consult play to reframe a stated joint financial decision as asking permission, after the prospect had twice explained that the money leaves shared accounts and both partners clear significant spending with each other.",
+      "evidence": [
+        "It's the same if he's doing something as well. It's just like, hey, there's this investment that I'd like to make. Are we good?",
+        "why do you feel like it's fair to go to him and ask him to make a decision on something that he doesn't fully know about, and he'll never actually be responsible for the results?",
+        "that version of Saagar, like how does he make a decision? Like it's in the moment when he actually recognizes that something is the right thing for him and it's, I would imagine it's probably not going and asking his partner",
+        "part of it is it's personal investments and making sure that we're aligned on what's literally coming out of our accounts in a given month",
+        "it's just like a respect thing to make sure that we talk about any investments that are significant"
+      ],
+      "timestamp": "02:23:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep asserted as fact that overeating within an eight-hour window on whole foods is literally impossible, repeating the absolute three times when the prospect questioned the mechanism.",
+      "evidence": [
+        "if we hit the baseline, and then if we focus on whole foods during that fasting period... it becomes almost impossible to overeat",
+        "Literally, literally almost impossible.",
+        "if we focus on whole foods during that time frame, it's literally impossible to overeat your calories. It's impossible, because you just can't fit that much food in that time period.",
+        "That's interesting. Because of the activity level, like what you're burning?"
+      ],
+      "timestamp": "01:55:21"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Prospect could not tell whether the Instagram messages that brought him to the call came from a person or an automation, and the rep named the handler while framing the answer as something to keep secret.",
+      "evidence": [
+        "it was just on the Instagram, so it could have been automated, or it may have been...",
+        "Okay, no, that would have been, it's top secret, don't tell, but it was actually Adam, so he's been running his tests.",
+        "That's all good. Shh, don't tell him. That means the business is doing well."
+      ],
+      "timestamp": "01:07:54"
+    }
+  ]
+}

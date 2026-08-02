@@ -1,0 +1,132 @@
+{
+  "call_id": "2026-07-21_declan-grund_richard-claessen",
+  "source": {
+    "drive_file_id": "15o6A6zV4g31v1a0ljoOqXSQs0Y840rNC",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/21/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/21/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 69668
+  },
+  "call": {
+    "date": "2026-07-21",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 60,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Declan Grund",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Toronto, Ontario, Canada",
+    "age": 31,
+    "occupation": "Carpenter — framing and structural steel, heavy physical work",
+    "family_status": "Lives alone; recently went through a breakup",
+    "height_in": 71,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": 30,
+    "training_background": "Long history of failed starts since age 19. Tried calisthenics and found it stressful and defeating. Started one-kettlebell training four weeks ago with a 30 lb bell, three days a week, 15-20 minute sessions plus push-ups and sit-ups. Occasional yoga classes, roughly monthly. Already seeing visible progress. Follows Trevor's free content closely.",
+    "medical": "Recurring right ankle instability — sprained and twisted many times, 'it kind of rolls easily'. Has a rehab exercise routine given to him by professionals but only does it while recovering from a re-injury, then stops. Most recent re-injury was shortly before he started kettlebell training. No other pain or conditions disclosed."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.62,
+    "signals": [
+      "Proposed label: 'the_first_attempt' — has never had the physique he wants, is not recovering a former self, has just started under his own steam, and carries a decade of regret about not starting. Emotionally the highest-intent prospect in the batch and financially the least able.",
+      "'I've been telling myself since I was 19 that I was going to do this... it's been more than 10 years'",
+      "'I don't feel like a man right now, you know?'",
+      "Not the_rebuilder — there is no former self to return to; not the_optimizer — he is at roughly 30% body fat by his own estimate",
+      "Bought the kettlebell and started before booking the call: 'I'm not coming to you saying, oh, I haven't started yet. I made sure that I've started already.'"
+    ]
+  },
+  "goals": [
+    { "text": "Build up the chest first, then shoulders, arms, glutes and quads — the muscles visible in clothes", "category": "muscle_gain" },
+    { "text": "Lose the remaining belly fat and reveal the abs", "category": "fat_loss" },
+    { "text": "Ease of movement at work — lifting beams and ladders overhead without it being a strain, crouching into tight spaces without the hip pinching", "category": "hobby_performance" },
+    { "text": "Consistent energy through the whole day instead of a late-afternoon crash", "category": "energy_performance" },
+    { "text": "Build a permanent athletic lifestyle — six months as a foundation, not an end point", "category": "sustainability" },
+    { "text": "Take care of his body so he can do carpentry longer and prevent injury", "category": "injury_prevention" },
+    { "text": "Confidence — 'I want to look in [the mirror] and smile because I love my body'; feel like a man rather than a boy", "category": "confidence" },
+    { "text": "Ankle strengthening integrated into the regular workouts rather than only after a re-injury", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Lifelong struggle with consistency and keeping a routine going", "category": "consistency", "severity": "high" },
+    { "text": "Nobody observes his training — no form feedback, nobody to push him when he wants to stop, easy to skip a workout", "category": "accountability_gap", "severity": "high" },
+    { "text": "Recurring right ankle sprains; rolls easily; rehab exercises abandoned each time he recovers", "category": "injury", "severity": "medium" },
+    { "text": "Unhappy with his physical shape — describes himself as skinny fat", "category": "confidence", "severity": "high" },
+    { "text": "Energy crash between finishing work and his evening workout, on workdays and weekends alike", "category": "other", "severity": "medium" },
+    { "text": "Uncertainty about nutrition — does not know whether under-fuelling is causing the low-energy days", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Gets overwhelmed easily and has to keep things simple or he stops", "category": "motivation", "severity": "medium" },
+    { "text": "Money is very tight — rent is expensive, lives alone, roughly $150/month of disposable income", "category": "other", "severity": "high" },
+    { "text": "Good at taking care of other people, has struggled to take care of himself; links this to a recent breakup", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "6,000? Man, there's no way I can do that.",
+      "timestamp": "00:50:44",
+      "rep_response": "Asked for the maximum monthly figure he could do, then walked down a ladder of alternatives: $200/month community, $1,000 for six months upfront, then three payments of $334. All were refused.",
+      "response_tactic": "descending_price_ladder",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "it might just might not be a good time for me to reach out for coaching just because obviously you guys need to get the value out of all the work you're doing and I totally get that",
+      "timestamp": "00:55:00",
+      "rep_response": "Accepted it, explicitly reframed it as not being a bargain-hunt — 'it doesn't sound like a thing of like oh well I just want to get the cheapest out of it... it's just not possible at the moment and that's totally fine' — and moved to free advice.",
+      "response_tactic": "accept_and_disqualify_gracefully",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200 },
+      { "months": 6, "price_usd": 1000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three payments of $334 against the $1,000 six-month community product, improvised on the call after the $200/month and $1,000 upfront options were both refused.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 150,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Flat refusal of the core offer: 'Man, there's no way I can do that.'",
+      "Refused every downsell including the smallest instalment: 'Even that is hard. No, even I still couldn't do that right now. That's the disposable income that I have left over.'",
+      "Rep closed it out as not-now rather than not-ever: 'let's get you started sometime in the future, but at least keep crushing it and don't give up'",
+      "Counter-evidence for a future follow-up rather than a hard loss: 'I'm not going to be in this kind of financial situation forever. So I would love to stay in contact.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send Trevor's YouTube channel and free mobility routines; stay in contact and revisit when the prospect's finances improve."
+  },
+  "notable": {
+    "note": "Textbook discovery — the deepest emotional dig in the batch, reaching identity ('I don't feel like a man right now') — against a prospect who could afford $150/month. Nothing in the qualification process surfaced budget before an hour of discovery had run. After the price was refused the rep walked down three unpublished price points in four minutes, and admitted uncertainty about his own pricing: 'when we do it for six months, it is a thousand. So that would be less than 200 a month, right? I don't know exactly what the number is'. The rep, who states twice that he is not a coach, then delivered a prescriptive nutrition and training protocol as a parting gift."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion, worst in the stats block around 00:15:19-00:16:00 where the age, height and weight questions and answers are attributed to the wrong speakers throughout, and again at 00:50:44 where 'Man, there's no way I can do that' is labelled as the rep. Roles were read from content throughout."
+  }
+}

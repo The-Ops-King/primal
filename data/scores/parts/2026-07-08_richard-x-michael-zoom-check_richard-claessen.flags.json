@@ -1,0 +1,30 @@
+{
+  "call_id": "2026-07-08_richard-x-michael-zoom-check_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer told a colleague that prospects with ethnically-marked names no-show more often and advised handling that named prospect differently on that basis; the colleague acted on the advice.",
+      "evidence": [
+        "I forgot to say, it is just facts. No show rates with different names definitely do change. That is the fact.",
+        "yeah, just people that are, like, called Abdul or something, I don't have anything against anyone, like, I like anyone, right, but, like, always a no-sure rate with those names are always higher, I don't know why, but it's whatever, I would say give them a call, just, even if it's 30 minutes beforehand.",
+        "Well, Abdul is going to show up. Abdul will show up.",
+        "Yeah, I just sent him a message, I'll give him a call here in two minutes as well."
+      ],
+      "timestamp": "00:04:39"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A closer is taking prospect calls from a short-term rental on connectivity that failed repeatedly during an eight-minute test, which degrades both the calls and the recordings that feed this corpus.",
+      "evidence": [
+        "I was trying the Wi-Fi a bunch and it just wasn't working",
+        "Dude, I can't even load a website. It's crazy.",
+        "Okay, but you're completely frozen. I can hear you, but I can't. I am frozen.",
+        "Let me try hotspotting and see if it helps.",
+        "that's also, like, I don't have unlimited data on my phone. So I'm going to have to figure something out."
+      ],
+      "timestamp": "00:07:22"
+    }
+  ]
+}

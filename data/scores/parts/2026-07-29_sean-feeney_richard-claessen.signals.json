@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-07-29_sean-feeney_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "After the full training + daily 5-15 minute mobility routine pitch, the rep asked 'do you feel like, yes, that's what I'm looking for, or do you have any questions on that?' and the prospect answered 'No questions. It feels like what I'm looking for.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Do you feel like nutrition-wise, it's also something you see yourself doing with making those tweaks?' — 'Yeah.' No questions, no elaboration."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Pitched as Trevor messaging him when he skips a workout and constant video-form feedback. 'Do you feel like, sounds good or any questions on that? Sounds good.' Earlier the prospect had independently named this as his reason for coming — 'I've never had someone who's focused on me and is able to hold me [accountable]' — so the pillar landed on pre-existing demand."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "I was thinking it was probably going to be, you know, somewhere around 100 a month. But obviously, that's quite a bit lower than the actual.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A 60x gap between the anchor in the prospect's head and the offer. The setter did not pre-frame price at all, and the prospect had set his own internal ceiling before the call: 'I said in my head, if it's like more than 150 a month, I'm not sure if... I wouldn't be able to.' This is a setter qualification failure surfacing at the closer stage."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "Take a look at Trevor's YouTube already in the meantime, take a look at the mobility routines, that's going to help you more than anything at the moment.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's YouTube channel",
+      "note": "The rep himself pointed the unsold prospect at free content that he described as what would help most right now — an anchor introduced by the seller against his own $6,000 offer."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Structured kettlebell coaching with real accountability at or under $150/month",
+      "why_unmet": "The published offer is $6,000/6mo. The rep reached for an unlisted $1,000/6mo ($200/mo) self-serve tier, which is still above the prospect's stated ceiling and explicitly not personalised — 'it's just not specifically customized to you.'",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Training that works around an undiagnosed shoulder and bilateral hip problem while he waits six weeks for physical therapy",
+      "why_unmet": "The programme has no clinical assessment or clinician liaison. The rep asserted suitability ('people who've had injuries have gone through that... it just comes down to taking it slow') rather than establishing it.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

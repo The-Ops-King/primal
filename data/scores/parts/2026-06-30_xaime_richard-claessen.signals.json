@@ -1,0 +1,58 @@
+{
+  "call_id": "2026-06-30_xaime_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Had already researched the format before the call and used the presentation to confirm mechanics rather than to evaluate: 'I watched some of the videos and I think Trevor mentioned like 30 to 40 minutes workout like three times per week and so I have to do it by myself here at home and just record myself and send you the videos.' The rep confirmed and corrected the frequency to three or four. No pushback and no enthusiasm — he was checking his understanding was right."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Engaged at length and volunteered his own uncertainty rather than objecting: 'it's more difficult for me maybe because I have never made like a diet or something, I never stick to a diet... I never know if I'm eating enough, if I am not eating enough, maybe if I'm eating enough protein.' He named nutrition as the one place he needs accountability, in contrast to training where he is already consistent. Notably, he had disclosed SIBO earlier and neither he nor the rep connected it to the intermittent fasting and protein-increase protocol being presented."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "confused",
+      "evidence": "Misunderstood the concept and needed correcting, then asked a second question to get it: 'I don't know what to say I didn't expect it like that... like the accountability, like he would be like, I don't know how do you say in english like a mom like scolding you for not doing the right thing.' The rep reframed it — 'as in like he's keeping you accountable for doing the right things' — and the prospect accepted it somewhat grudgingly: 'but that's how you can improve if you are kept accountable I guess.' He then asked a further clarifying question about how the community actually works."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "here in the city where I live, there's, like, a health clinic, and they have, like, doctors and physiotherapists, and they have, like, personal trainers and all that, and it's very expensive, but some people go because it's worth for them... You could say spend that money, 6K approximately, in one year with all that treatment and with a personal trainer and with a doctor.",
+      "direction": "undercuts_price",
+      "competitor": "Local multidisciplinary health clinic in his Spanish city — doctors, physiotherapists and personal trainers, roughly 6K over a year",
+      "note": "The decisive anchor, and an unusual one because it does not undercut on price at all — it is at parity. It undercuts on trust and modality: in-person, locally credentialed, medically supervised, imaging and manual therapy included, and validated by people he knows personally who got results. He also correctly identified that this price is regionally specific, noting the same care in the US or Netherlands would cost far more. For a prospect whose primary goal is fixing an undiagnosed back complaint, a clinic is a better-fitting product than remote coaching, and the offer has no answer to it."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "When I started working out, I had like a personal trainer. I was with him like for one year and it was like 200 euros per month, which I mean, it's okay. And so at the end of the year, it was like 2000 something.",
+      "direction": "undercuts_price",
+      "competitor": "Former personal trainer, 200 euros per month for one year",
+      "note": "Sets his internal reference for what coaching costs — roughly 2,400 euros for a year against 5,200 euros for six months, a little over four times the rate. He described that arrangement neutrally rather than as a failure, and it coincided with the three years of gains he is proud of, which makes it a functioning prior solution rather than a cautionary tale. This is the same $29-a-month-coach pattern already logged in the playbook's known gaps, at a higher price point."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Hands-on, in-person assessment and treatment of a specific chronic back complaint — physiotherapy, imaging, manual therapy, someone who can physically look at him",
+      "why_unmet": "The programme is remote and video-reviewed. It cannot examine, diagnose or manually treat a back, and the rep did not claim it could beyond asserting the pain would resolve. The prospect was explicit that this is what he would buy with the money.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Some certainty about the outcome before committing 5,200 euros",
+      "why_unmet": "No guarantee, refund policy, trial or risk reversal was mentioned at any point in the call, despite the prospect asking directly whether it was worth spending when the outcome is unknown. Other records in this corpus reference a guarantee being stated on calls, so this is likely available and simply was not used.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A nutrition protocol compatible with SIBO and its gluten and lactose triggers",
+      "why_unmet": "Never addressed. He disclosed the condition during the nutrition discussion and the rep did not acknowledge it, then presented intermittent fasting windows, full-day fasts and an initial calorie-counting phase without reference to it.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Coaching he can access locally and face to face rather than across a time-zone gap to America",
+      "why_unmet": "Structurally impossible in a remote model. The rep acknowledged the lag himself — 'if you ask him something in the middle of the night for him in America, it could take a little bit for him to respond.'",
+      "verdict": "product_gap"
+    }
+  ]
+}

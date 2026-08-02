@@ -1,0 +1,71 @@
+{
+  "call_id": "2026-06-17_sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A separate low-price product line, 'Primal University', is sold at $200/month, $2,000/12mo and $4,000/3mo alongside the $6,000/6mo and $9,000/12mo offer, and the manager discusses restructuring it live.",
+      "evidence": [
+        "He couldn't do 6k and I knew that we had the monthly option so I was like okay great I'll put him on the monthly option then for the university but I didn't know you can also do like 12 months in one time with 2k so I put him on the monthly.",
+        "Because if they do the $200 a month, it's $2,400.",
+        "There's also a three months for 4K, by the way.",
+        "If we just did 2K straight up, that's it for Primal U, but then, you know, maybe they could do a $200 a month option, but we led with the 2K."
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Primal University sales are counted as closes but deliberately excluded from units and cash-collected projections, so close-rate and revenue figures are computed on different populations.",
+      "evidence": [
+        "So here's the news about your clothes. It doesn't technically, it counts as a clothes, you can count it, but you can't put it on a unit for the projections.",
+        "Okay, so I should also not fill it in as actual cash collected in projections.",
+        "That's only about actual units. Yeah, don't fill it in. But Angelo keeps track of all the primal universities."
+      ],
+      "timestamp": "00:06:02"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Manager confirms a guarantee exists but coaches the closer to deflect it rhetorically and to hold internally that there is no guarantee.",
+      "evidence": [
+        "Yeah, I would say, I mean, yes, we do have a guarantee, but what in life is actually guaranteed?",
+        "Because we did have a guarantee, but I should always have in my background that we never have a guarantee, because I cannot guarantee anything, because the guarantee basically still falls on them",
+        "Like, yes, we have a guarantee, but it's only guaranteed for people who actually follow through and put in the work."
+      ],
+      "timestamp": "00:45:21"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager instructs the closer to pitch the nutrition pillar to every prospect on the premise that a nutrition problem must exist, rather than on what the prospect disclosed.",
+      "evidence": [
+        "No, that devalues two.",
+        "Your job is to figure out how to make pillar two match them because they wouldn't be here if there wasn't something up with their nutrition.",
+        "It's impossible that they would have great nutrition and be where they want to be because 90% of fitness is what you fuel your body with."
+      ],
+      "timestamp": "00:49:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager coaches answering a prospect's 'how do I know this works for me' doubt with a certainty framing rather than evidence, then shifting the burden to the prospect.",
+      "evidence": [
+        "Well, it's just science at the end of the day. If you lift something enough times, are you going to get stronger?",
+        "Yeah, it's just science at the end of the day. The question is, are you going to actually follow through and do it?",
+        "And if we were taking people on at 1,200 people with Trevor's following of 1.3 million, and we weren't able to deliver on the results, don't you think people would find out by now?"
+      ],
+      "timestamp": "00:43:19"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The automated SalesKick bot kept messaging a contact after they replied that it was a wrong number, and stopping it requires manual intervention by the rep.",
+      "evidence": [
+        "It just sends messages that don't really make sense that much, and someone is like, oh, wrong number, and it just keeps on pushing them with messages.",
+        "Yeah, mark them red, and then go into Sales Kick, and stop the bot from messing with them"
+      ],
+      "timestamp": "00:26:04"
+    }
+  ]
+}

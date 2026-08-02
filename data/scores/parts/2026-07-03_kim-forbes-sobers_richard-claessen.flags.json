@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-03_kim-forbes-sobers_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Financial qualification for a $6,000 offer is performed by entering a prospect's job title into ChatGPT and setting anyone whose estimated salary exceeds $60k.",
+      "evidence": [
+        "the way I financially qualify people is basically, I go on ChatGPT and put in their job. And if it's above 60k a year, like, estimated, I'll set them. And if it's under that, I'll financially qualify them.",
+        "Um, and, and he was over 60k, but obviously was just in a terrible position. So, yeah, I do apologize about that one.",
+        "The reason I asked is because I, I knew he was retired and I did financially qualify him"
+      ],
+      "timestamp": "00:00:06"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Closer asked the setter to relax financial qualification and send prospects who cannot afford the programme rather than leave his calendar empty, and the setter agreed.",
+      "evidence": [
+        "if you also speak to someone who might actually be underqualified, I wouldn't even mind if you throw them on for tomorrow or Sunday. Like, I'm going to be at home anyway, so I'd rather show Chris I can close a lot of people that are just don't have money to at least get them, um, like, emotional bought in.",
+        "Yeah, okay, I'll loosen up a little bit. I won't just set anybody, but I'll, uh, I'll loosen up a little bit for sure.",
+        "I'm just, I didn't close him, because now I didn't close someone today, and now I need to figure out how to close three people between, like, Saturday and Sunday."
+      ],
+      "timestamp": "00:00:06"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A deposit was collected from the prospect who had disclosed a $76 overdraft and a 545 credit score, with the closer stating he had expected the prospect not to pay.",
+      "evidence": [
+        "I got this guy who did not have money. Yeah, it was your set, Everett. He had not have money, and I still got him to do a deposit, so.",
+        "I got him to deposit on Thursday. To be honest, I thought he was going to flake. But some people, if you just give them the room, they will actually do it.",
+        "can I do a deposit of 300? I was like, okay, yeah, sure. Like, can you then do the 900s, like, in two weeks? Yeah, yeah, yeah, I can do the 900 in two weeks, but I need the deposit of 500 all of a sudden.",
+        "the only person he can actually probably pay will be on, uh, on the 16th"
+      ],
+      "timestamp": "00:00:06"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A prospect was logged as a disqualification so the outcome would not count against the closer's close rate, while the same prospect continued to be worked and paid a deposit.",
+      "evidence": [
+        "But I could have, I have, I put him on a disqualify anyway, so it doesn't neglect my closer.",
+        "your closing percentage is lower because Luke was asking about that. But then he also told me, like, I did that protection in the sense of, like, he did do deposits. You got people to actually commit in that sense.",
+        "So, it's still a good set. Like, he needed to change."
+      ],
+      "timestamp": "00:00:06"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The programme was positioned against back surgery for a prospect explicitly weighing that choice, with the rep enlisting the prospect's physician spouse to press the point.",
+      "evidence": [
+        "earlier he said, like, yeah, is it, like, I'm going to pay for this, or maybe for, like, surgery, and that's probably going to be more expensive.",
+        "me and his wife at the same time actually took him on it, like, that's not going to save you from getting surgery if you're just going to watch a few YouTube videos. And he did very much agree with that",
+        "especially because she was a doctor too. So, didn't make it easier"
+      ],
+      "timestamp": "00:00:06"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Lead allocation runs through a round-robin tool that both parties perceive as favouring different closers in different weeks, which undermines any direct comparison of close rates between reps.",
+      "evidence": [
+        "You're just booking in a round robin, right? — Yeah, I'm, I'm just going on, uh, on Sales Kick and just booking them in whenever actually suits them",
+        "it kind of goes through stages where it feels like it prioritizes one closer over the other and then all of a sudden it kind of changes",
+        "last week I noticed that Andrew was getting most of my sets and then, like, this week I've noticed that Michael's getting quite a few of them"
+      ],
+      "timestamp": "00:00:06"
+    }
+  ]
+}

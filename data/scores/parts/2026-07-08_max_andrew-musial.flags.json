@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-07-08_max_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect who had surgery 20 days earlier under a lifting restriction, and who has diagnosed thoracic nerve damage from lifting, was moved toward loaded kettlebell training with no enquiry into what his clinician had actually restricted — the recovery window was instead used as a reason to start now.",
+      "evidence": [
+        "Did I mention I had nose surgery 20 days ago? I had nose surgery to fix my breathing 20 days ago. So I haven't been allowed to like lift anything heavy for the past 20 days.",
+        "I just now had an appointment yesterday, got cleared to start lifting, you know, not going for PRs or anything, but getting back to where I was pre-surgery.",
+        "so that's the thing, thing, like, look, in the big... In you're going to be learning the movements.",
+        "I think I damaged a nerve in my back from lifting too much... they were like, you have slight misfiring or damage of the thoracic nerve in your back, and they thought it was probably from lifting too heavily for too long.",
+        "he guarantees that in those six months, you will add at least eight kilos, which is around 17 pounds, to your baseline kettlebell weights on the core movements"
+      ],
+      "timestamp": "00:48:13"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A one-month entry at $1,200 with a $4,800 top-up was invented live after the prospect declined twice, a price point that exists in neither the six-month nor the twelve-month offer.",
+      "evidence": [
+        "I can do one. One thing for you, and if you want to check it out for yourself, how Trevor is working and how that worked with you, we can get you for a month, okay?",
+        "And how much would getting in for that month? That's 1,200.",
+        "So when you're going to be, after this one month, deciding you want to move forward and move forward for the next five months, you will just need to top up the remaining 4800.",
+        "and that of course we can also like schedule something that's feasible for you"
+      ],
+      "timestamp": "00:49:55"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep conducted a remote movement assessment on camera, delivered a verdict on the prospect's squat, and asserted that his postural imbalance and nerve-related rotation can be reversed.",
+      "evidence": [
+        "Can I show you like, my squat? I don't know how bad it really is... Like, this is as far as I can go.",
+        "Okay. It's pretty bad. It is, I'm not gonna lie. It's tight.",
+        "You should be able to get your butt line below the knee line. So like, you're like this right now, like 90 degrees. It should be like 40. 45.",
+        "So there is hope definitely for you, and we can definitely reverse that.",
+        "the squat position is our natural position to rest. You should be able to sit in this for, like, hours even."
+      ],
+      "timestamp": "00:19:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears anywhere in this sales call.",
+      "evidence": [
+        "00:00:00 - Max Yep. Okay, great.",
+        "00:00:04 - Andrew Jin (Primal Instinct) How's your day been so far? I know it's early morning for you, right?"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization collapses long stretches of this call into single-label blocks containing both speakers, including the passage where the prospect discloses his nerve damage.",
+      "evidence": [
+        "00:02:53 - Max ...i want to find something that i can do for you know essentially the rest of my life... gotcha now um okay apart from those uh tight hips shoulders back do you have anything like any injuries or something that limits your movements",
+        "00:47:00 - Max Look, you're not buying a gym membership.",
+        "00:52:16 - Max All right. But if you decide that you don't want to move after that one month, I won't be harassing you."
+      ],
+      "timestamp": "00:02:53"
+    }
+  ]
+}

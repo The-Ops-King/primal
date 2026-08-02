@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-27_erik-seman_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Full presentation delivered — 3-4 sessions a week at 30-40 minutes, strength/conditioning/mobility simultaneously, five-to-ten-minute daily mobility protocols, six-month duration justified by 'After those six months, you won't need him anymore.' Rep checks 'Okay, any questions on training or mobility?' and gets silence, then moves on. Understood and agreed, no questions, no volunteered enthusiasm."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "What/when/how much framing plus the eight-hour eating window and the once-a-week pizza allowance. The prospect had already pre-empted this ('I don't have many problems with diet... I don't eat unhealthy'), and answers the check flatly: 'No. No. No. Okay.' Lowest-engagement pillar of the three, which is consistent — it addresses a problem he does not believe he has."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Clearly the pillar that sold him. He volunteers a positive reaction twice and ties it to his own named failure mode: 'Well, it's an approach I have never seen, and it's really like on hand, like you feel like you have your personal trainer' and later 'I told you that I'm kind of surprised how on hands this is.' He then builds the case himself against app-based self-tracking. The rep's line 'if you miss a workout, he will be knocking on your phone and asking, hey, Erik, where you been?' maps directly onto the inconsistency he had already named as what was killing him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_failed_substitute",
+      "raw": "you can download as many apps as you can and, you know, like, checking, like, okay, I've done this, I've done this, but then you just stop checking because something happens and, like, nobody cares really.",
+      "direction": "supports_price",
+      "competitor": "self-serve fitness tracking apps",
+      "note": "The prospect volunteers and then dismisses the cheap substitute himself, and does it BEFORE any price is mentioned. This is the inverse of the Badrane Hriouch pattern: rather than a low-cost alternative that worked and anchored price down, this is a low-cost alternative that demonstrably failed him, which pre-justifies paying for human accountability. Worth noting that the rep did not have to do the work here — the prospect anchored himself."
+    },
+    {
+      "type": "workplace_authority_analogy",
+      "raw": "even when you have like bosses in your work, you don't really want them to knock on your office door. Yeah. like, where, where is my, like, where is the project?",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect maps the coach onto a boss chasing deliverables — an authority relationship he already accepts and pays for professionally. Useful language for the accountability pillar with senior professionals: they buy supervision, not information."
+    },
+    {
+      "type": "existing_gym_access",
+      "raw": "the beauty with kettlebells is that, I would say 95% of gyms have kettlebells. And 95% of the time, nobody's using them.",
+      "direction": "undercuts_price",
+      "competitor": "commercial gym membership",
+      "note": "Rep-introduced, not prospect-introduced, and mild. It is deployed to dissolve the travel objection but it also states that the equipment is free and universally available, which quietly frames the $6,000 as buying programming and supervision only. No resistance followed, so it cost nothing here — but it is a line that could anchor badly against a price-sensitive prospect."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To pay by a route that works behind a locked-down corporate VPN, on a work machine he cannot modify",
+      "why_unmet": "The only payment rail offered is a single web link, which his VPN blocked twice. No fallback — invoice, bank transfer, phone payment or manual capture — was available, and the rep's stated requirement was that payment happen on the call.",
+      "verdict": "product_gap"
+    }
+  ]
+}

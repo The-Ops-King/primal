@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-06-26_tyler_richard-claessen",
+  "source": {
+    "drive_file_id": "1RvOURa-BcixUAxZsLPHv8AdmFRekU0fb",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/26/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/26/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 61345
+  },
+  "call": {
+    "date": "2026-06-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 57,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Tyler",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Outside Savannah, Georgia, USA",
+    "age": 39,
+    "occupation": null,
+    "family_status": "Married with four children, the youngest a daughter about two and a half months old. His wife's grandmother had just died and he was travelling to the funeral the following week.",
+    "height_in": 72,
+    "weight_lb": 179,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Roughly three years of training two to three times a week in a garage gym with his neighbour and one other man, on a single bench and rack. Sessions run an hour to an hour and a half, much of it spent waiting and changing plates. Traditional isolation work assembled from protocols he finds on Facebook. Can curl 45 lb one-handed. Has watched Trevor's videos and tried to replicate the movements.",
+    "kettlebell_experience": "some",
+    "medical": "Lower back injury about eighteen months ago from a box squat — 'put too much weight on, bounced off my back'. Pain present more days than not, rated 2/10 at rest and 4-5/10 after five hours of driving. Under active chiropractic care; the chiropractor's stated finding is that he has an unusually straight back with no lumbar curve and 'my nerves are impinging on the bone'. ACL torn and surgically repaired five or six years ago, and he remains wary of heavy squats. A previous shoulder problem, now settled. Reports becoming lightheaded on standing up. Low water intake and disrupted sleep since the new baby."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.55,
+    "signals": [
+      "Lost ground to a specific injury and a hard season — a failed box squat eighteen months ago that left constant back pain, then a newborn two and a half months ago that broke the training rhythm: 'I've been working out quasi-regularly, a little inconsistent since I've had my recent daughter'",
+      "The function he wants back is explicitly the reason he had surgery: 'the goal of getting it repaired and going through all that headache was to play with my kids and be able to mow the yard'",
+      "Counter-signal: he is not chasing a former physique, he has never had the one he describes — 'I'd like bigger arms that pop out of my shirt' and rates himself 6/10",
+      "Counter-signal: the defining constraint is a household budget rather than a body — 'as a family, do we think that taking $6,000 out of the budget is something' and 'My wife is not dying for me to look great'. None of the listed avatars carries a family-budget buyer, and skeptical_bargain_hunter does not fit because his self-directed approach has demonstrably failed him."
+    ]
+  },
+  "goals": [
+    { "text": "Build muscle, particularly upper body — 'I'd like bigger arms that pop out of my shirt more than not'", "category": "muscle_gain" },
+    { "text": "A more defined midsection and no love handles or residual belly fat; look better in a regular t-shirt", "category": "appearance" },
+    { "text": "Get rid of the lower back pain so he can sit, drive and bend without it flaring", "category": "injury_confidence" },
+    { "text": "Play with his kids and mow the yard without the back stopping him — the original reason he had the ACL repaired", "category": "longevity_family" },
+    { "text": "Cut an hour-and-a-half garage session down to thirty efficient minutes", "category": "convenience" },
+    { "text": "Avoid re-tearing the ACL or doing further damage — 'I don't want to tear an ACL doing something that is stupid and then have to do that whole thing again'", "category": "injury_prevention" },
+    { "text": "Know what he is actually doing rather than assembling protocols from Facebook", "category": "other" },
+    { "text": "A lean, defined build rather than a bodybuilder's — cites Trevor and Anatoly as the reference rather than 'the big guy who can't put his arms together'", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Constant lower back pain since a box squat accident eighteen months ago, present more days than not and worsened by sitting", "category": "injury", "severity": "high" },
+    { "text": "Three years of effort with no visible result — 'I can go in and I can move a bunch of weight. Is it being effective for the long-term strategy, or am I literally just burning time in the gym?'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Does not know what to do or when — 'that's where I'm just floundering mostly'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Assembling training from whatever appears in his Facebook feed and never sticking with one long enough to see results", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Sessions collapse from three a week to one because of bad sleep with a newborn and general household load", "category": "consistency", "severity": "high" },
+    { "text": "Broken sleep since the baby arrived two and a half months ago", "category": "sleep", "severity": "high" },
+    { "text": "An hour to ninety minutes in the garage gym of which much is spent waiting for the single bench and changing plates for stronger training partners", "category": "time_scarcity", "severity": "high" },
+    { "text": "Wariness of heavy loading since the ACL repair, which constrains what he will attempt", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Lightheadedness on standing up, unresolved — 'I just stood up and went, oh, okay. I need to take a minute here'", "category": "medical", "severity": "medium" },
+    { "text": "Water intake 'not as good as it should be', and he trains at 5.30am straight out of bed without drinking first", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Has considered giving up training altogether — 'I've contemplated not going to the gym anymore, right? What's the point if I'm not gaining anything'", "category": "motivation", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, that's, that's much higher than I thought it would be... For a weekly check-in, you know, I mean, weekly check-in, some videos being sent, maybe critiques, I was estimating, you know, some nutrition stuff here and there, I was estimating around 500 or less a month.",
+      "timestamp": "00:43:52",
+      "rep_response": "Discovered that the presentation had under-sold the offer and corrected it — 'Did I not mention that you get his personal cell number as well, and you, like, he texts you and you text him constantly?' — to which the prospect answered 'No, you said it was a weekly video, a weekly tag-up.' Then isolated: 'outside of the investment... do you feel like, is this something I would want to do?'",
+      "response_tactic": "restate_omitted_value_then_isolate",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I mean, again, you know, I have a family with, you know, four kids and a wife. And so, yes, I'd love to get in great shape and do that. However, is what I would have to sacrifice on the other end, right, worth $6,000. So, yeah, I'd love to look great. My wife is not dying for me to look great. And so, you know, as a family, do we think that taking $6,000 out of, or $3,000 more than I'm expecting, out of the budget is something.",
+      "timestamp": "00:46:20",
+      "rep_response": "Reframed it as a worth question rather than a household decision — 'it's more of a, is it worth it at the moment rather than if it's possible' — and then moved to reducing the scope. The wife was never addressed again.",
+      "response_tactic": "reframe_to_worth_and_park_the_household",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I'd rather be more independent and get some check-ins than have constant access that I may or may not use... I am the kind of guy who's not going to text somebody, you know, I'm not a big bother people. I understand everyone's busy, I'm busy, and so I know I would not use that. The only part I would want would be a weekly review of my metrics, my stuff, you know, where am I going without the necessarily constant access.",
+      "timestamp": "00:48:24",
+      "rep_response": "Took it at face value and moved him to the Primal University tier at $2,000 a year or $200 a month, then walked through what that does and does not include when questioned.",
+      "response_tactic": "downsell_to_community_tier",
+      "resolved": false
+    },
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "I understand the physics behind kettlebells and the asymmetrical weight and its distribution. I get all that. Just want to see it lived out... I want to do it and see under right coaching to say, yes, this is as efficient, lifting 35 pounds is, with two hands, is as efficient as lifting 90 pounds, you know, dumbbells, right?",
+      "timestamp": "00:38:02",
+      "rep_response": "Answered with a personal anecdote rather than evidence or a demonstration — 'I can tell you from experience, the first few workouts, you're going to be like, this is harder than I expected it to be' — plus a caveat that his starting weight might be higher than average.",
+      "response_tactic": "personal_anecdote_reassurance",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay. Yeah. I'm going to have, I'm going to think on it.",
+      "timestamp": "00:54:37",
+      "rep_response": "Probed what specifically — 'is it more of like which one instead of am I even going to want to do this?' — and established a timeline, then accepted a week's delay without pressure once a family bereavement was disclosed, and exchanged phone numbers.",
+      "response_tactic": "probe_the_thinking_then_accept_and_exchange_numbers",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no link, no agreement, no onboarding booking",
+      "He is deciding between two tiers rather than whether to buy: 'just if I want to do the 200 for just a community aspect, or if I want to spend, you know, thousand a month for direct access, so that's what I need to think on'",
+      "Timeline is a week and driven by a bereavement: 'my wife's grandmother passed away, so I'm heading to a funeral over the next week... probably over that time'",
+      "Numbers were exchanged and confirmed on the call — the rep texted him and he replied so both had contact details",
+      "Counter-evidence: he rated the programme 8-9 out of 10 before price and said 'I'm ready to pull the trigger. I'm ready to buy adjustable kettlebells. I've already priced one out', so intent is genuine",
+      "Counter-evidence the other way: the $6,000 tier is probably dead — the value he does not want is exactly what it charges for, and the household budget question was never resolved"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to decide during or after the funeral week and message the rep with which tier he wants; rep to be ready to start him."
+  },
+  "notable": {
+    "note": "Three things a manager should see. First, the clinical picture: an eighteen-month-old spinal injury with pain most days, active chiropractic care and a stated finding of nerve impingement on bone, plus a repaired ACL and unexplained lightheadedness on standing — and the response was a claim that the programme would 'get rid of that pain in your back', with no question about whether the treating chiropractor had cleared loaded ballistic work. Second, the price objection was partly self-inflicted: the prospect priced the offer at $500 a month because unlimited access to Trevor had not landed in the presentation, and the rep only discovered this after the number was refused ('No, you said it was a weekly video, a weekly tag-up'). Third, the accountability pillar — the one the $6,000 mostly buys — was actively rejected on value: 'I know I would not use that.' The prospect also asked directly whether the rep was a gatekeeper and got a straight answer."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous inversion of short turns plus long fused blocks. 'Perfect. Love it. So what I would like to...' sits under the prospect at 00:00:51; the whole injury follow-up question at 00:04:19 is attributed to the prospect; 'In, like, six months to a year from now...' at 00:20:30 is the rep's question inside the prospect's block. Several passages are unintelligible or reduced to filler ('So. So. So. So.' at 00:33:59), which the rep himself predicted at the top of the call because the prospect's connection was unstable and his video kept cutting out. Role was read from content throughout. The prospect's surname is never spoken and his occupation is never established."
+  }
+}

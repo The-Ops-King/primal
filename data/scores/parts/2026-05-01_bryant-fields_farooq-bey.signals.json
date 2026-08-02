@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-01_bryant-fields_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Full pillar delivered at 00:20:41 including the two programmes, the 3-4x30min kettlebell frequency, daily mobility and the weekly film-and-review feedback loop. Prospect's entire response was 'That makes sense. Yeah.' and when asked 'What questions or thoughts do you want to add or share to that?' he answered 'No, I'm good.' Understood, no engagement — notable given he had already described conflicting kettlebell technique advice as one of his pains, which this pillar directly answers."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered with a runner-specific framing — 'if we're not optimizing the way we fuel ourselves, especially as a runner, as an athlete like yourself, you're going to be white-knuckling your way through things as opposed to thriving' — plus the inflammation-and-injury link, which was well targeted at his injury history. Prospect: 'Yeah. Yeah.' and to 'Any questions or thoughts you want to add to that?' — 'No. No.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he engaged with, consistent with his stated need. He came back to it after price: 'you mentioned community, the third one. Can you elaborate on what that means?' and then probed the mechanics repeatedly — 'so this is more just self-paced?', 'what is the experience in terms of outcomes?', 'you're saying, unlike in the one-on-one, you get three to four workouts per week — is it also three to four?', 'you don't have any trials with the Primal University?'. He had already named this as his blocker: 'I think it's accountability, just an accountability partner.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_in_person_trainer",
+      "raw": "I had a personal trainer... I felt like it was more important to just have someone coaching me through it than necessarily what I was doing.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His reference price for coaching is a local in-person personal trainer, a category that in New York typically runs well under $1,000/month. The rep never asked what he had been paying, so the actual anchor number was never surfaced and never displaced."
+    },
+    {
+      "type": "failed_remote_coaching",
+      "raw": "I had a remote coach when I, during the pandemic, just, it wasn't, it wasn't, that's why, like, it wasn't the same... at that time, it was better than nothing.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most damaging anchor on the call. He has already bought remote coaching once and rated it inferior to in-person. Every dollar of the $6,000 has to overcome a lived belief that this delivery model underperforms. The rep asked about it but never rebutted it."
+    },
+    {
+      "type": "existing_coach_relationship",
+      "raw": "I have a run coach, right? Like, I know that I'm doing my runs every week because he's hounding me.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He already pays for accountability coaching and can articulate exactly why it works for him. This was the strongest supportive anchor available and the rep did not use it — he never asked what the run coach costs, which would have established both a payment habit and a price frame."
+    },
+    {
+      "type": "rep_introduced_alternative_price",
+      "raw": "And the investment for that is just 200 bucks. It says per month, but you're not entitled to pay on a monthly basis. You can cancel it at any time.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "The competing anchor was created by the rep, not the prospect. A $200/mo self-serve tier was placed alongside the $6,000 coaching offer within three minutes of the price reveal, and the prospect immediately re-priced himself to it: 'it would only be the Primal University. I wouldn't do the one-on-one.'"
+    },
+    {
+      "type": "stated_budget_expectation",
+      "raw": "Yeah, that's way out of my expectation.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Arrived within seconds of the tiers being read, before any question about what he expected. The gap was never quantified because the rep never asked what his expectation actually was."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "In-person or hands-on coaching, or a delivery model that closes the gap he experienced with remote coaching",
+      "why_unmet": "The programme is remote by design. The film-and-review feedback loop is the answer to this, and the rep described it earlier in the call, but never connected it to the objection when it was raised.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on how kettlebell and mobility work integrates with a marathon training block — specifically what to do three weeks out from a race, and across a three-marathon season",
+      "why_unmet": "Nobody addressed periodisation around endurance events. The prospect's stated reason for not committing was that he could not see how it fits his calendar: 'I don't know how this would fit in, whether it doesn't matter which one it is.' Trevor almost certainly can programme around a taper; it was simply never said.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Coaching that is compatible with, and ideally coordinated with, an active course of physical therapy",
+      "why_unmet": "The prospect is training three days a week under a physiotherapist's prescription and wants to move 'from a rehab state to a prehab state'. Neither the offer nor the rep addressed how the programme interacts with an existing clinical rehab plan, and no clearance question was asked.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Lean mass gain programming alongside endurance training — a service his run coach explicitly does not provide",
+      "why_unmet": "This is squarely what the programme does and it went unclaimed. He said 'I want to build lean mass. And that's not what he does. And I've basically tried to do it on my own', and the rep did not position pillar one against that stated hole.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-08_varun-shankar_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A £150 per month self-guided Skool tier, which is not part of the $6,000/6mo or $9,000/12mo offer structure, was presented as a co-equal option and the prospect was asked to choose between it and the coaching.",
+      "evidence": [
+        "I'll tell you the numbers for both and we can, you can kind of choose which one you want to look at.",
+        "And then we do also have a school community as well, um, which is more self-guided rather than complete one-on-one. Uh, and that's about 150 pounds a month.",
+        "Which one would you want to take a look at? Self-guided, please.",
+        "and you don't have to commit to a specific time period it's just monthly rolling"
+      ],
+      "timestamp": "00:12:16"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The coaching's monthly equivalent was misstated as £880 when £4,400 over six months is £733, overstating it by twenty per cent in the same breath as offering a £150/month alternative.",
+      "evidence": [
+        "I think converted to pounds of the coaching for six months is 4,400 pounds for the six months for coaching.",
+        "So I think the coaching is like 880 pounds a month, and the coaching is, and the more self-guided stuff is 150 pounds a month.",
+        "Which one would you want to take a look at? Self-guided, please."
+      ],
+      "timestamp": "00:12:56"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The coaching price was again quoted only in pounds, hedged with 'I think', and never stated in the USD the checkout actually charges.",
+      "evidence": [
+        "I think converted to pounds of the coaching for six months is 4,400 pounds for the six months for coaching."
+      ],
+      "timestamp": "00:12:16"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "No health, injury, medication or movement-limitation question was asked at any point before recommending an unsupervised, self-guided ballistic kettlebell programme with no coach reviewing form.",
+      "evidence": [
+        "I just feel like I've probably like weakened a lot, so I don't know. I mean, not a lot, but like, yeah, I just am not able to push as much as I could.",
+        "if I like, for example, now I'm struggling to do a full pull up, I can use like a rope or something.",
+        "the difference is that this is Trevor's brain written down into programs and put them down into full protocols and then you're not paying for his time"
+      ],
+      "timestamp": "00:16:56"
+    }
+  ]
+}

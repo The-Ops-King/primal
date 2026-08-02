@@ -1,0 +1,26 @@
+{
+  "call_id": "2026-05-27_luke-pancoe_angelo-dimaggio",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A conversation with no Primal Instinct participant and no Kettlebell Body content is filed inside the Ben Byrne rep folder, contaminating the rep's call corpus.",
+      "evidence": [
+        "He just said he crossed seven figures in his first year. He says his team is 15 people.",
+        "he's trying to focus more on, like, having it be, like, a content, like, a done-for-you content agency. And, like, sell a 30k offer, and he wants to increase the prices. Um, on it from, like, 30 to 50k",
+        "I'll send you over his recording."
+      ],
+      "timestamp": "00:00:04"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The call is a debrief about a separate recording that is not itself in the corpus, so the call it discusses cannot be audited.",
+      "evidence": [
+        "So, I just got off a call with him.",
+        "I can, I can, I can send you the call and get your feedback"
+      ],
+      "timestamp": "00:03:04"
+    }
+  ]
+}

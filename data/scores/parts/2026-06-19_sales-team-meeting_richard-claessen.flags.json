@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-06-19_sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Management directs the team to target fewer good-to-great prospects and more people with injuries and recent life events, which directly inverts the ICP the company states verbatim to prospects on live calls.",
+      "evidence": [
+        "we want to get less of like the good to great people and more people that like, the only thing they're really struggling with is their health, sort of people",
+        "or people that, you were former athletes, like, you know, our actual like avatar, people that have like actual kind of like somewhat injuries, there's had like a recent life event that caused them to be more intent to want to make a change, and actually have the money, obviously, to be able to invest",
+        "So okay, yeah, so we're working on. That, the VSL, I read the script."
+      ],
+      "timestamp": "00:09:28"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The stated acquisition strategy is to deliberately source prospects with injuries and recent health events into a loaded ballistic kettlebell programme, with no mention anywhere in the meeting of clinical screening or clearance.",
+      "evidence": [
+        "people that have like actual kind of like somewhat injuries, there's had like a recent life event that caused them to be more intent to want to make a change",
+        "Jorge, he's like still, you know, recovering from a surgery.",
+        "It would be like if somebody came to you who was clearly like super overweight, and they're like, they need to lose 50 pounds."
+      ],
+      "timestamp": "00:09:28"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Coach frames refusing to accept a prospect's stated answer as core technique, including holding the position until they comply or the call ends.",
+      "evidence": [
+        "I just don't accept their . That's really what it is. I don't accept anything at face value. I don't just accept what they're saying. You can't. You have to check it.",
+        "That's me saying I'm not going to accept that answer, dude. You're not just going to say that to me today.",
+        "if I'm super convicted that what I'm asking needs to be answered in order for us to move on, I do not move on until that question is answered. It doesn't happen. I will sit there and die on that hill with them.",
+        "So yeah, I would end the call if they want to end the call."
+      ],
+      "timestamp": "00:18:38"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Reps are coached to enlarge a prospect's stated goal beyond what they asked for, on the grounds that a bigger goal is a bigger sale.",
+      "evidence": [
+        "sometimes it's like, you hear what they think the best version of themselves is, and you're like, dude, you can do, you have no idea your potential. And you make it even better.",
+        "If someone's goal is like, yeah, I want to lose a couple pounds. It's like, well, damn, dude. Like, I mean, we are a transformation program.",
+        "So, that we could sell."
+      ],
+      "timestamp": "00:29:47"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The meeting contains two full role-played sales sequences in prospect voice, including price, which a content-based classifier would count as genuine sales calls.",
+      "evidence": [
+        "Still an objection, though. I could just say, well, okay, $6,000 is a dude kettlebell. I guess I could just keep doing what I'm doing.",
+        "What was the 6K? / Okay, so it's just the money?",
+        "Yeah, I've tried for so long. Like, it's never worked for me. Like, how can I know that it's actually going to work for me as well with you guys?"
+      ],
+      "timestamp": "00:32:47"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The unverified 1,200-client figure is coached as the primary trust asset and is used to answer a doubt objection in place of any specific evidence.",
+      "evidence": [
+        "I know that it might seem hard for you to see this, losing the two pounds because you've been doing this for so long, but we've worked with 1,200 clients and we've lost way more than that for a lot of clients.",
+        "you've got to figure out who has the most scientifically proven backed way of you actually achieving the result. Somebody who's done it 1,200 times",
+        "Because the 1,200 people who played ball got great results."
+      ],
+      "timestamp": "00:31:11"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "A closer reports taking recorded sales calls from premises he describes as trespassing; the coaching response addresses deal risk rather than the conduct.",
+      "evidence": [
+        "So I ended up coming here to this office. I'm kind of just trespassing, but working on that problem-solving muscle, you know?",
+        "I would, I would probably just to be safe, try and see if you're allowed to be there as soon as you can. All right. Good luck. If you blow a sale because of this, not good."
+      ],
+      "timestamp": "00:01:01"
+    }
+  ]
+}

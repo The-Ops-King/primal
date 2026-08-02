@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-17_fabien-collec_richard-claessen",
+  "source": {
+    "drive_file_id": "1TDLVQl7MQcmQYNXnVcMsWk-BfrU2wNio",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/17/2026 - Fabien COLLEC x Richard Claessen",
+    "display_title": "07/17/2026 - Fabien COLLEC x Richard Claessen — Closed",
+    "file_size_bytes": 14950
+  },
+  "call": {
+    "date": "2026-07-17",
+    "stage": "onboarding",
+    "sequence_position": 2,
+    "sequence_note": "Post-sale setup call. The decision and the payment structure were agreed on an earlier call not present in this batch — 'we talked about doing it in two or three times, right?' — and an onboarding link had already been sent before this call. The selling conversation itself is not in this file.",
+    "duration_min_est": 24,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter referenced on the call."
+  },
+  "prospect": {
+    "name": "Fabien Collec",
+    "aka": null,
+    "name_source": "title",
+    "location": "France (one hour behind Bulgaria; speaks French natively)",
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.25,
+    "signals": [
+      "Proposed label: unclassifiable_from_onboarding_call. Twenty-four minutes of pure setup — agreement signing, Skool account creation and calendar booking. No goals, pains, body, occupation, training history or medical content appears anywhere, so any avatar assignment would be invented rather than evidenced.",
+      "The only behavioural signals are buying-adjacent: he asked how the paid tier differs from Primal University after already committing, and he asked for the payment in three parts"
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three instalments, agreed on this call from a two-or-three option set on the prior call. No total, no instalment amount and no payment dates were stated. The rep offered informal acceleration: 'you'd pay right now, and then next month you feel like, oh, well, I can actually just do the other, like, 66%, then we just do it all at that time.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The call opens on the assumption the deal is done: 'And now we're on. We're going to get you started.' — 'Are you ready to get started?' — 'Yes, I am.'",
+      "The agreement was delivered, read and signed live on the call: 'Then in there, you have an agreement, very easy, just go over that one. And because then when you've signed that one, then you also get another email' — followed by a three-minute silence while he read it, and the next email arriving",
+      "Onboarding call with Trevor booked for Monday 19:15 local and the invite emailed",
+      "Skool account created live and membership submitted for approval",
+      "Counter-evidence: no payment is confirmed as taken on this recording. The instalment structure is agreed but no amount, date or completed transaction is stated anywhere, and the rep's phrasing 'you'd pay right now' is hypothetical rather than confirmed."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": "Agreed as three instalments, but the contract total and the instalment amounts are never stated on this call, so no figure can be recorded without inventing one.",
+    "next_step": "Prospect to complete the onboarding form before Monday; Trevor onboarding call Monday 19:15 local; rep to chase the team to approve the pending Skool membership; rep to check in on WhatsApp in a few weeks."
+  },
+  "notable": {
+    "note": "Two things. First, this is the cleanest onboarding execution in the batch — the agreement was actually signed on the call, Skool was joined live, the Trevor call was booked and the form was chased. Second, the rep described the lower-cost Primal University tier to this buyer as 'just there for people who... don't really want to take it that serious', while on another call the same day he sold that identical tier to a prospect as a serious fit that would deliver 'massive results'. The same product is being characterised in opposite terms depending on which way the money is moving."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion — the rep's own lines appear under the prospect's label at 00:01:29, 00:02:45, 00:03:26, 00:04:43 and 00:17:31, and the prospect's replies appear under the rep at 00:18:22. Roles resolved from content. The recording also contains long silent stretches where the prospect is reading or filling in forms: 00:11:03 to 00:14:02, 00:14:02 to 00:17:29 and 00:06:45 to 00:07:22, so the wall-clock duration overstates the conversational content."
+  }
+}

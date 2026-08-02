@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-05-13_marc-moubarak_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented in detail: first month purely form-focused with video review, tailored programming from Trevor, movement-based mobility work built from how he moves. The prospect asked a long run of mechanics questions rather than reacting emotionally — 'So it's through videos, I imagine, right?', 'will I get an access to the video library of movements with instructions?', 'And the exercise plan, is it like documents, or is it like another app where I have to click things?', 'How much can you adjust for injuries?'. He engaged closely and accepted the answers, but never tied it to his own outcome."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "Substantive pushback on two fronts. First on necessity — 'I don't know why the nutrition is such an important part of it, right?' and 'I'm just doing work with somebody here on that. So I don't want to add another philosophy or another nutrition tracking into this.' Then on philosophy — 'I'm a lot more on the Mediterranean diet... very vegetable-focused, so it's always a bit annoying when I onboard a nutritionist that's like very primal, based on red meat and eggs.' He finished by asking for it to be removed from the package entirely at 00:26:50, which the rep refused. Partially soothed by the vegan/vegetarian tailoring answer, but never accepted as something he wants."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Presented as 24/7 access to Trevor plus a weekly check-in. Initial resistance was to the check-in mechanic — 'I really don't want to do new plans. I don't want to check in right on nutrition. I don't want to check in on weight' — which the rep reframed as progression tracking rather than weight tracking: 'you're supposed to progress every week in any area, not just more weight but more intensity, could be more reps, could be it just felt easier, could be your form.' The prospect asked how the check-in was delivered ('the check-in is like online form based, right?') and closed it out with 'okay that makes sense i get it'."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_practitioner_spend",
+      "raw": "Honestly, less so, because I'm just doing work with somebody here on that.",
+      "direction": "supports_price",
+      "competitor": "Local nutrition practitioner in Zurich, plus a local physio he intends to engage",
+      "note": "He already pays for professional health support and treats it as normal, which is a buying-habit signal — and the rep used it correctly: 'if you have three different people, it typically is more money than just doing it all in one place.' The complication is that these are complements he wants to keep, not substitutes he would drop, so the rep's stack-consolidation argument cut against retaining the physio."
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "this in francs is, uh, 150 francs a month and it's more self-guided stuff. So, it's got full, uh, form tutorials. I'll just show it to you.",
+      "direction": "undercuts_price",
+      "competitor": "Primal's own self-guided product",
+      "note": "The rep introduced a CHF 150/month alternative unprompted, immediately after quoting the six-month coaching price and while arguing the prospect should not buy the coaching. The prospect rejected it outright — 'I don't think I want to do self things' — so it did not stick here, but the pattern of the rep creating his own downward anchor recurs across this rep's calls."
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "If you do one month, it's 1,200. We call it, we call it love it or leave it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The strongest anchor on the call, created entirely by the rep. He introduced the $1,200 one-month term as the answer to a clinical concern, then closed the call by recommending it again — 'I think the one month is the best one for you, though, personally' — after the prospect had shown zero price resistance to $6,000. A prospect willing to buy six months was steered to one-fifth of the contract value on injury doubt, not on money."
+    },
+    {
+      "type": "reduced_scope_expectation",
+      "raw": "So mobility for sure, I think that's probably a priority. And then the exercise itself, you know, focusing on, what is it, like conditioning, right?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived expecting to buy two of the three pillars and priced the offer mentally against that scope, which is why the full-bundle price had to be defended twice. Nothing in the marketing appears to have set the expectation that the three pillars are inseparable."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Buy the kettlebell training and mobility coaching without the nutrition component, at a scope-adjusted price, because he already has a nutrition practitioner and a conflicting dietary philosophy",
+      "why_unmet": "The offer is sold as an indivisible three-pillar system and the rep refused to unbundle: 'it won't be worth it for you unless you brought all of those three things into one because the coaching is a system of all three things.' There is no partial-scope product.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A pre-purchase clinical suitability assessment — he asked to send a written list of his back and hip issues so the coach could confirm he is even a viable client before he pays",
+      "why_unmet": "Nothing in the sales process provides this. There is no screening step, no clearance requirement and no clinical gate anywhere in the playbook, so the rep had to improvise an ad-hoc WhatsApp-to-Trevor handoff after the call. The prospect is asking the business to do the exact screening the process omits.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "In-person, hands-on support alongside the online coaching — a local physio or someone who can look closely at how he moves",
+      "why_unmet": "The programme is online-only and the rep positioned in-person support as unnecessary and as a reason the coaching would not be worth buying: 'if we couldn't master the form online, we wouldn't have any good results.' The prospect never withdrew the request; he was told to drop it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confidence that a low-fat, vegetable-heavy Mediterranean diet can be accommodated rather than replaced",
+      "why_unmet": "The programme almost certainly can accommodate it — the rep cited vegan and Indian vegetarian clients — but the answer stayed at the level of reassurance and never became a concrete example of what his week would look like. He accepted it verbally without being convinced.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

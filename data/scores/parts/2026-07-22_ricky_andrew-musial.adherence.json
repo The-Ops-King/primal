@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-22_ricky_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation call. The relationship, the offer and the price were all established previously, and the call opens mid-thread with the prospect driving and asking a direct question. There is no opening or framing to score."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "No baseline on a follow-up call, per spec. Nothing about age, body, work, health, injuries, training, diet, sleep or energy is discussed anywhere in these 23 minutes."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals were established on the prior call and are not revisited. The call is entirely contract terms, payment structure and scheduling."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable on a contract negotiation call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reachable. Worth noting for the coach that the prospect twice stalled on his own busyness — 'I've been so busy. I've been slammed' and 'I'm in a really busy time of my life right now' — which is the natural re-entry point for a consequence frame, and none was attempted."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "The commitment check belongs before presenting, which happened on the prior call. The prospect volunteered his own version of it here anyway — 'I'm like 95% confident that we're going to continue' and 'I'm willing to do it' — so there was a clear yes on the table throughout."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "partial", "P11d": "miss" },
+      "evidence": "This is the only scorable phase and it did not complete. Payment was not collected and the link was never sent, despite the prospect asking for it in his first substantive sentence — 'What I need to know is because my next appointment is already here... can you, what you can say, how do I pay?' — and the rep acknowledging it was outstanding forty seconds later. The Trevor onboarding call was not booked: the rep proposed the 28th, the prospect countered 'let's do the 27th, because I'm available the last of day on the 27th', and the rep replied 'we'll get into that' and never came back to it. The agreement was walked through clause by clause on the call, which is more engagement with the document than anywhere else in this batch, so P11c is partial — but it ends unsigned and pending a manual bespoke redraft requiring manager approval. Community access was discussed only as a contract term to be explained, not as an onboarding step, and no welcome email or onboarding questionnaire was reached."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP, and the defining one on this call — a prospect who negotiates the contract itself. He rejected the auto-continuation default and demanded automatic termination at 30 days ('let's say I never meet with you. It discontinues'), rejected the conditional exit provision at 3G that requires completing all weekly check-in forms, challenged the six-month duration clause as inconsistent with a one-month term, and asked for a Word document to redline. The playbook has no move for any of this because it assumes objections are emotional or financial, not legal. The rep handled it reasonably — conceded the principle, escalated to a manager, did not improvise contract language on the call — but was clearly working without support, including admitting he did not know the terminology ('I don't know what's the proper law expression, like a provision in the agreement'). This belongs to legal and to the principal, not to sales coaching."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A genuine trust-and-doubt trigger opened the call: 'Is Trevor an AI-generated person on the internet?' followed by 'I don't want to be had either.' No OE move ran — no certainty question, no bridge, no plane, no burned-before. The rep answered it flatly and honestly ('No, he's not AI-generated. You will talk to him') and offered live Zoom contact as proof, which resolved it immediately. Scored as a miss on process because no play was used, but the handling was correct and the honest answer was the right one. Flagged separately as a signal: the rep said 'You're the first one, actually, to ask,' which will not stay true."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "SCRIPT GAP — resistance to the testimonial requested as consideration for the payment structure. 'I will consider it both. I won't promise that I can... Testimonials, I'm always a little... I like to kind of keep private.' The rep improvised a sensible de-risking concession — no interview required, face can be covered, before-and-after pictures and a written story only, and not until month six — which moved the prospect to 'if I'm happy and I've done well, then I will definitely most likely do it.' No scripted support exists for asking for or defending non-monetary consideration, which is a gap worth closing given the rep is now attaching referral and testimonial commitments to bespoke payment terms."
+    }
+  ],
+  "notes": "Only P11 is scorable and it stalled on the rep's side, not the buyer's: a prospect who asked how to pay in his opening minute, said 'I'm willing to pay, like, tomorrow, the next day, whatever', and was 95% confident, still left without a link, a signed agreement or a Trevor slot. The rep also let the prospect's own proposed Trevor date pass unanswered. The contract objections were handled correctly and are not a coaching failure — they are a signal that the agreement needs legal review before the next lawyer reads it. Take the $1,200 while the redraft is pending; the payment and the amendment do not have to move together."
+}

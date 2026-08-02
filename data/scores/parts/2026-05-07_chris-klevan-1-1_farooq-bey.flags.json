@@ -1,0 +1,65 @@
+{
+  "call_id": "2026-05-07_chris-klevan-1-1_farooq-bey",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "critical",
+      "summary": "The rep habitually stops the recording at the moment of close, and this call proves the resulting bias: a deal that ends on the recording with an unambiguous verbal yes did not convert once the notetaker was off.",
+      "evidence": [
+        "I mean, the Fathom, I took the Fathom out, we're about to pay, and that's when he was like, oh, paying now? I'm like, yeah, you just said you want to pay now. What's happening? What's going on?",
+        "He was the only one who was technically closeable because he had the funds.",
+        "There was probably something on that call that would have allowed him to close.",
+        "[cross-call, 2026-05-06_roy-norman_farooq-bey at 00:52:35] Sounds reasonable. Yeah. Let's do it, man. Happy? Yeah. Let's do it, brother.",
+        "[cross-call, 2026-05-06_roy-norman_farooq-bey at 00:52:39] So what I'll do, Roy, I'll remove my Fathom Notetaker."
+      ],
+      "timestamp": "00:03:25"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The manager rules that the $1,200 'love it or leave it' must not be sold to a prospect with no path to keep paying; the rep had sold exactly that the previous day to a prospect in active Chapter 7 bankruptcy proceedings.",
+      "evidence": [
+        "Did he have the money to be able to afford it consistently after each month? That's the thing. He had the money for the first payment, but disposable income wasn't enough. And he has no credit cards. Then no, he wasn't closeable.",
+        "Well, he could have done love it or leave it.",
+        "Yeah, that's just one month. That's one month. I don't want to put somebody on a love it or leave it for $1,200 if I just know they're going to default the month after. If there's no path for them to actually pay the payments after that, then it's more in... I mean, they get, what, a month out of it? They get started and then nothing. It's not worth it.",
+        "[cross-call, 2026-05-06_brandon-johnson_farooq-bey at 00:56:37] Um, I could actually do that, the love it or leave it. Let's do it. Okay. Happy? Yeah, man."
+      ],
+      "timestamp": "00:02:24"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep presents the $1,200 trial to prospects as a rule-breaking exception made specially for them, while his manager treats it as an ordinary tool available on any call.",
+      "evidence": [
+        "Well, he could have done love it or leave it. Yeah, that's just one month. That's one month.",
+        "[cross-call, 2026-05-06_roy-norman_farooq-bey at 00:51:45] So I'm not meant to really recommend this, but we have something called Love It or Leave It.",
+        "[cross-call, 2026-05-06_brandon-johnson_farooq-bey at 00:55:44] Typically I'm not meant to really offer this, but I believe they are serious enough that you want to commit to this",
+        "[cross-call, 2026-05-07_engin-oytac_farooq-bey at 01:20:39] So there's four levels of the program, okay?... We have a love it or leave it option, which is one month. For 1,200 bucks."
+      ],
+      "timestamp": "00:02:33"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Management states a 13% close rate and simultaneously acknowledges that a substantial share of the booked prospects were not financially qualified, meaning the metric is measuring lead quality as much as closing skill.",
+      "evidence": [
+        "Dude, 13% close rate. Right now, I'm very aware of why it's at that point. So don't get in your head about it.",
+        "I was looking at your stats. I was looking over some calls. I was QC-ing a bit. And, dude, honestly, you've had quite a few prospects that weren't. Really financially qualified.",
+        "I was looking at all the calls, and I was like, okay, this is the one that was technically closeable.",
+        "I had a bit of an annoying call. I hate saying this, but it shouldn't have been on the calendar, to be honest, man. Was it a set? Yeah."
+      ],
+      "timestamp": "00:03:54"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep described himself to a prospect as managing two other closers, while in this call he is the one being QC'd, coached and managed.",
+      "evidence": [
+        "[cross-call, 2026-05-07_soneel-raj_farooq-bey at 00:41:48] Yeah, I manage a team, there's two other guys under me. One is actually based in the States, in Pennsylvania, the other guy's based in Birmingham right now, but he's moving out to Brazil soon.",
+        "I have you on this team because I believe that you are going to be a part of it and that you will serve towards the vision and in doing so will achieve your goals.",
+        "I was looking at your stats. I was looking over some calls. I was QC-ing a bit."
+      ],
+      "timestamp": "00:04:58"
+    }
+  ]
+}

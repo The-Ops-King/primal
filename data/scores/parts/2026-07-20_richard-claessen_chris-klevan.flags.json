@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-07-20_richard-claessen_chris-klevan",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The closer states the Fathom recorder intermittently fails, so an unknown number of calls never enter the corpus.",
+      "evidence": [
+        "Yeah, the first one, I don't know, my Fathom sometimes really isn't working, but it doesn't matter, this guy didn't have any goals, no why, just curious, and didn't really have investment funds."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The sales coach identifies that the rep dropped straight to a trial on a $6,000 offer when a payment question arose, confirming improvised discounting as a pattern rather than a one-off.",
+      "evidence": [
+        "And you immediately dropped to a trial with this guy.",
+        "I think that it was this. 6K USD, the thing that we just talked about."
+      ],
+      "timestamp": "00:24:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The coach instructs the rep to deflect a direct question about payment options with a counter-question rather than disclose that payment plans exist.",
+      "evidence": [
+        "And is it more of a, we just need to find a way because it's not possible at the moment? Or how does it look like for you?",
+        "You just need to say, no, most guys paid all up front. And then shut up. And then he's going to say, and you don't have any other solutions. Then you'd say, why do you ask?"
+      ],
+      "timestamp": "00:19:46"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The coach teaches a scripted results claim — 1,200 people helped, 'proven it 1,200 times' — as the standard answer to a trust objection.",
+      "evidence": [
+        "Trevor's been doing this. He's got 1.4 million followers on Instagram. He's been doing this for a while. He's helped over 1,200 people. So this isn't like the first time it's ever happening. We've proven it 1,200 times, right?"
+      ],
+      "timestamp": "00:24:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Coaching on detachment used job-loss framing, tying the rep's emotional state on calls to the possibility of being fired.",
+      "evidence": [
+        "You need to make it okay for you to not get a close. You need to make it okay to miss projections. You need to make it okay to be fired. You need to make it okay to go back and live with your family."
+      ],
+      "timestamp": "00:20:32"
+    }
+  ]
+}

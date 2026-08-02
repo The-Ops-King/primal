@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-11_thomas-joseph_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Rep led with mobility as the foundation because of the standing desk; prospect connected it to his own 5x5 experience without prompting - 'That's what I noticed when I was doing the only the bar, but the five by five, you know, like I wouldn't have very much flexibility, I could lift more, but I wasn't.' Then: 'the biggest thing I was lacking all this time was accountability... I'm excited.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Asked for the mechanics of the protein target - 'in terms of like how much protein does he, cause he give you like how many grams of protein you need or anything?' - and was told counting is not required. Accepted the answer: 'Oh, okay.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Named it as his own gap before the pillar was even delivered and reacted positively to the delivery - 'the biggest thing I was lacking all this time was accountability. So, I mean, I'm willing to try anything, you know, at this point... yeah, I'm excited.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "published_price_expectation",
+      "raw": "I'd read somewhere like on Reddit or something that was, it was like 200 a month and that's not the case.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (the company's own $200/mo self-serve tier)",
+      "note": "The company's own lower tier is circulating on Reddit as the price of the offer. The prospect arrived expecting roughly $1,200 for six months and heard $6,000 - a 5x gap set by the company's own product ladder, not by a competitor."
+    },
+    {
+      "type": "scam_wariness",
+      "raw": "you always hear like, Oh, these are all scams, and you don't need to, you know, you can do this on your own and everything. But I've tried all the things on my own, you know, so like that hasn't worked.",
+      "direction": "undercuts_price",
+      "competitor": "self-directed / YouTube",
+      "note": "General distrust of online coaching, largely self-neutralised by his own failure history. He resolved it himself; the rep answered it with 'I swear on my mother' rather than with evidence."
+    },
+    {
+      "type": "owned_equipment",
+      "raw": "I have adjustable kettlebells, you know, that go from 12 to 32 kilograms already. have two of them, you know, but again, you know, without any direction, it's hard to kind of, you know, find your way through.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has already bought the equipment and it did not solve anything, which is the cleanest possible argument that what he is short of is programming and accountability, not gear."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A live weekly meeting with the coach to go over progress",
+      "why_unmet": "He read 'one of seven weekly coaching' in the agreement and asked 'So I meet with him every week to go over progress?' The answer corrected his expectation downward: 'the weekly check-ins are done through a form and through the app... you don't need to like talk with him and schedule like a specific time.' He accepted it, but he had bought expecting synchronous contact.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Second instalment at three months rather than thirty days",
+      "why_unmet": "The split is fixed at 30 days. The rep could not authorise a change - 'I will ask. I cannot promise' - after the first payment had already been taken.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-07-15_joanna-rattan_michael-brideau",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "One continuous sales call is split across two Drive files with two different dates and two different file ids, so it will be counted as two separate calls in any rollup and neither half tells the whole story.",
+      "evidence": [
+        "it wasn't me it was you it wasn't you it was me oh somebody somebody I don't know any who um okay what were we talking about training moment we're talking about onboarding that there are three levels",
+        "okay so training mobility three pillars um as far as Trevor's coaching so training mobility is number one",
+        "I talked about, you know, the whole concept of teaching fish or teaching to fish",
+        "there was one other thing I was going to tell you as well, but I can't remember what it [was]"
+      ],
+      "timestamp": "00:00:02"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep answered a direct question about whether fasting is physiologically safe for women with an improvised protocol based on his own observation of other clients, with no evidence base and no clinical input.",
+      "evidence": [
+        "Is it good? Is it bad? Is it women shouldn't fast? Should they? Is it healthy for women? It's good for men, but is it good for women?",
+        "they say a lot of things that like, especially for women, that it's not the healthiest option to fast. So now, which one is it?",
+        "at least from what I've seen, like I, from what I've seen with the women he works with, it's typically a little bit lighter. So maybe instead of eight hours, it's like 12 hours",
+        "with men, he's usually pushing them, like, hey, consolidate your eating window for like 10 hours"
+      ],
+      "timestamp": "00:04:49"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep twice told the prospect that other pricing routes and options existed and never quoted a single one, leaving her to decline believing an affordable structure might exist that she was never shown.",
+      "evidence": [
+        "If there is a way, like, and I might have a couple ideas for you.",
+        "I'm going to walk you through the investment. I imagine it's probably going to feel like a lot. We can have a conversation because there might be a couple options for you.",
+        "We may have... There's other routes we could go as well that could be potentially useful for you as far now. Again, there's a number of different things that we can kind of play around with. So we don't really have any like, hey, this thing or this thing or this thing.",
+        "So, I'll be honest. Not at this time, but I'll work for it."
+      ],
+      "timestamp": "00:21:54"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep framed a female prospect's goal in sexualised terms and closed the call on a teasing exchange about the coach's attractiveness, on a thread that ran across both halves of the conversation.",
+      "evidence": [
+        "we're doing something that's really going to have you be like the sexiest 50-year-old possible in a way that's also sustainable",
+        "In the meantime, I'll just stick with his videos. Sounds good. Am I candy?",
+        "Not only that, I mean, I do work out. I'm teasing.",
+        "and then you're definitely getting some eye candy"
+      ],
+      "timestamp": "00:00:02"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Rep repeatedly lost his thread during the presentation and remarked on his own memory difficulties, so parts of the offer were delivered incompletely by his own account.",
+      "evidence": [
+        "33 and already have trouble with memory I guess so golly gee",
+        "there was one other thing I was going to tell you as well, but I can't remember what it [was]. If it comes back, I'll jump in on that",
+        "Now I can't even remember what I was saying now. This is perfect.",
+        "I'm writing it down, because memory has actually been interesting for me the last little bit. No, I'm serious.",
+        "One thing I did forget to mention here that I'm happy I went through this list"
+      ],
+      "timestamp": "00:02:27"
+    }
+  ]
+}

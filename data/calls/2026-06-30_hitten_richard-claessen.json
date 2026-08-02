@@ -1,0 +1,147 @@
+{
+  "call_id": "2026-06-30_hitten_richard-claessen",
+  "source": {
+    "drive_file_id": "1ZaMS6HHEQws0adaC44vvwcGczY57i61k",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/30/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 60051
+  },
+  "call": {
+    "date": "2026-06-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Rep references an attempted contact the previous day that did not result in a full call — 'sorry for yesterday' and 'you have my contact, of course, because I had to call you yesterday'. No prior substantive sales conversation took place.",
+    "duration_min_est": 55,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Hitten",
+    "aka": "Appears in the transcript under the device label 'Zoom user'; the name is given phonetically when the rep asks how to say it, and may be spelled Hiten",
+    "name_source": "transcript",
+    "location": "United Kingdom — prices discussed in pounds and he asked for a UK-based client reference",
+    "age": 52,
+    "occupation": "Dentist in active practice; took the call from his clinic between patients",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": 187,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained hard through his twenties and thirties, describing himself as 'training like a nutcase' at 25 and getting progressively stronger until 38 or 39, peaking at a 115 kg deadlift. Injuries began at that point and the whole of his forties was spent unsuccessfully trying to match that peak. Has not deadlifted for years and stopped weighted squats years ago; air squats are fine. Now does about an hour of yoga and two 20-minute swims a week, with occasional gym sessions aimed at function and posture rather than muscle. Has had only two or three trial sessions with a personal trainer, never ongoing coaching. Tried kettlebells at his gym specifically in preparation for this call, managing halos at 8-10 kg.",
+    "kettlebell_experience": "none",
+    "medical": "Diabetic, managed with a continuous glucose sensor and daily morning fasting; keeping blood sugar within normal limits is one of his explicit goals and he tracks how exercise affects it. Reports weak energy levels. Five active injury sites, all activation-dependent rather than constant: both forearms with the left worse, left rear deltoid and shoulder, right lower back, and a left quad insertion near the groin attributed to past lunging. Pain on the clean and press and on the rack position. Back pain triggered by arching in breaststroke. Waist 41-42 inches, wants it under 40, and cites visceral fat as a risk factor. No clinician, GP, physiotherapist or diabetes team was mentioned at any point and no clearance was sought."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Explicitly not seeking gains — 'my wish is not to improve on my personal bests on anything' and 'I'm not interested in gaining muscle for the sake of gaining muscle from a cosmetic perspective'",
+      "Goal is holding on to function against decline: 'if I'm 1% stronger than I was the previous month, and I'm getting 1% less pain than I did last month, then that's going to build'",
+      "Older, health-literate and already medically managed — a dentist with a glucose sensor who fasts, tracks how swimming and yoga move his blood sugar, and reasons about visceral fat as a risk factor",
+      "Framed the whole decision as trajectory rather than transformation: 'I'm on a trajectory, and if I don't make some changes now, I'm not comfortable with the direction things are moving'",
+      "High nominal income as a practising dentist but explicit cost-consciousness, comparing the price to a decade of gym membership"
+    ]
+  },
+  "goals": [
+    { "text": "Move without pain — named as the single thing that needs to change quickest", "category": "injury_confidence" },
+    { "text": "Keep blood sugar within normal limits, having observed that regular exercise dramatically improves it", "category": "longevity_function" },
+    { "text": "Lose belly and torso fat and get his waist from 41-42 inches to under 40, citing visceral fat risk", "category": "fat_loss" },
+    { "text": "Return to playing golf, which he has effectively stopped", "category": "hobby_performance" },
+    { "text": "Ride a motorcycle without forearm pain from gripping and gear changes", "category": "hobby_performance" },
+    { "text": "Improve posture through posterior chain strength", "category": "other" },
+    { "text": "Test himself with weight again without aggravating injuries — 'even if I could do 60 kgs deadlifting, that would be pretty good'", "category": "strength" },
+    { "text": "Stop the age-related decline he has watched accelerate since his late thirties", "category": "longevity_function" },
+    { "text": "Get guidance and accountability from someone who does not share his own resistance and excuses", "category": "accountability_gap" },
+    { "text": "Get more protein as a vegetarian, having struggled to reach 160-170 g", "category": "other" },
+    { "text": "Improve mental sluggishness and the emotional flatness that comes with not training", "category": "energy_performance" }
+  ],
+  "pains": [
+    { "text": "Five active injury sites — both forearms, left rear delt and shoulder, right lower back, left quad insertion — felt on activation and severe enough that he has abandoned the movements that trigger them", "category": "injury", "severity": "high" },
+    { "text": "Diabetes requiring constant blood sugar management via sensor and fasting", "category": "medical", "severity": "high" },
+    { "text": "Pain performing the clean and the rack position when he trialled kettlebells, which nearly ended the call before it started", "category": "injury", "severity": "high" },
+    { "text": "Has stopped deadlifting and weighted squatting entirely for years because of the lower back injury", "category": "training_barrier", "severity": "high" },
+    { "text": "Has stopped playing golf, partly from injury and partly from lost interest", "category": "hobby_performance", "severity": "medium" },
+    { "text": "Getting injured far more often with traditional weights as he ages — 'I don't really want to be lifting heavy weights'", "category": "aging", "severity": "high" },
+    { "text": "Names his own laziness and excuse-making as the blocker, and sees the two feeding each other: 'the laziness loves the injuries'", "category": "motivation", "severity": "high" },
+    { "text": "Spent his entire forties failing to recapture the strength he had at 38, which he describes as humbling", "category": "emotional", "severity": "medium" },
+    { "text": "Weak energy levels and mental sluggishness after a week or two without training", "category": "other", "severity": "medium" },
+    { "text": "Struggles to hit protein targets as a vegetarian at 85 kg", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Has had the intention to address this for months or years and done very little about it", "category": "consistency", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "when I'm holding the kettle, Ben, and it kind of flicks over almost and makes contact with the forearm, it does it in such a way that it's uncomfortable. And I think, you know what, if this is how it is, I ain't going to do it. I'm just not going to do it. I'm just going to make things worse.",
+      "timestamp": "00:07:10",
+      "rep_response": "Reframed it entirely as a form and mobility issue that resolves with time and practice, using his own experience as proof — 'I had it in the beginning as well when I started. Nowadays, I don't have that anymore.' No suggestion of assessment, modification or clinical input. The prospect was not convinced: he later said his willingness to commit depended on 'a few days of doing it, not getting the forearm injuries'.",
+      "response_tactic": "reframe_as_form_issue_plus_personal_anecdote",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "Do you have anyone in the UK that I can speak to who's currently on the program?",
+      "timestamp": "00:44:37",
+      "rep_response": "Said he had no idea and could not produce anyone — 'I've got no idea, to be honest. No idea.' Offered online testimonials and then his own experience as a former client turned staff member. The prospect restated precisely what he wanted and did not get it: 'It was more for someone and someone who is independent and who has their own experience.'",
+      "response_tactic": "substitute_own_client_experience",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "Pricey. And for that, I'm comparing it to how many PT sessions or someone local that I might get for the same money, essentially. Even if they charge, I don't know, £50 an hour, £70 an hour, whatever, that's still 10, 7, 8, 9, 10 hours a week, a month, excuse me.",
+      "timestamp": "00:51:01",
+      "rep_response": "Isolated well, establishing it was a belief problem rather than an affordability one — 'Is it more of a, should I do this, or is it more of a, how should I do this for you?' answered 'It's should I do this.' Having correctly diagnosed a value objection, the rep asked what came up and then accepted the no rather than returning to the consequence frame.",
+      "response_tactic": "isolate_then_should_versus_how",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I'm mindful of cost, of course, but I'm not sure, I don't think I'm ready to make that investment at this stage for that amount.",
+      "timestamp": "00:53:39",
+      "rep_response": "Welcomed the honesty and offered a final fork between money and belief. When the prospect said it was belief — 'I think it's more of the latter' — the rep closed the call cordially without a further attempt.",
+      "response_tactic": "accept_and_leave_door_open",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Described as ad hoc and undefined. Rep said 'Most guys, put it on a credit card overall' and 'usually most people do that because it helps with their own accountability', then 'here and there, we do sometimes have monthly payments that we split it up over a few months. That's just nothing that we have set in place.' No instalment count, amount or schedule was offered.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal given directly: 'Let me, I'll certainly give you some thought. I think for the moment, if you need an answer, it's no.'",
+      "Confirmed and made specific: 'I do see myself using kettlebells, absolutely. But I think $4,500, $6,000, $4,500, I think I don't see myself going forward with that.'",
+      "Diagnosed by the rep himself as a belief rather than affordability problem — asked whether it was a 'should I' or a 'how' question, the prospect answered 'It's should I do this', and later confirmed the blocker was seeing himself doing it rather than the money: 'I think it's more of the latter.'",
+      "No payment, no link, no follow-up call and no next step were agreed; the rep left it open with 'if you come back and you feel like I do actually want to get started with this'.",
+      "Counter-evidence: he confirmed the outcomes themselves were worth the money — 'I think the outcomes would be worth it, yes' — and said 'I've made a note of all of these things here', so the door is not fully shut. He also had an unresolved safety concern that could have been decisive on its own.",
+      "Marked lost rather than follow_up because a direct no was given on request and no future contact was scheduled."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled. Prospect retains the rep's contact details and was invited to come back if he changes his mind."
+  },
+  "notable": {
+    "note": "The clearest clinical-risk case in the batch and the one the business itself reviewed. A 52-year-old diabetic with five active injury sites, who has abandoned deadlifting and weighted squatting for years and felt pain on the clean during a trial, was walked through progressively loaded kettlebell training with the pain reframed as a form issue that resolves with practice. No clinician was mentioned at any point by either party. The rep also raised a 24-hour community fast with a diabetic prospect who had just said his energy was weak. Asked for a UK client reference, the rep had none to give. Notably, this same call was reviewed by a manager three hours later in a coaching one-to-one; every note given concerned sales technique, and neither the injuries, the diabetes, the fasting nor the missing reference was raised."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and near-continuous speaker inversion — this is among the worst in the batch. Large blocks alternate speakers within a single label, with the prospect's long injury and history narratives repeatedly attributed to Richard Claessen and the rep's questions attributed to 'Zoom user'. Particularly bad from 00:04:14 to 00:12:30 and again from 00:19:21 to 00:33:00. All roles resolved from content. The prospect appears only under the device label 'Zoom user' and his name is recovered from a single spoken exchange at 00:00:46. Height was never established. The rep's currency conversion at 00:49:30 is garbled and internally contradictory — 'a little bit less than five pounds' and '5.2 euros' — and the prospect supplied the correct figure himself. Transcription noise includes 'kettle, Ben' for kettlebell and repeated 'Jack'/'Check' confusion."
+  }
+}

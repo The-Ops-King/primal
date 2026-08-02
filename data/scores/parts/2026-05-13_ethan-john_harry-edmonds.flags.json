@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-05-13_ethan-john_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Recording is a truncated failed connection — it ends mid-sentence at 00:04:43 with no outcome on tape, so the call has no scoreable disposition.",
+      "evidence": [
+        "Oh, you broke up, by the way. Still can't hear you.",
+        "You've gone again, brother.",
+        "Here's what I'm going to do."
+      ],
+      "timestamp": "00:04:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A booked Game Plan Session that never ran risks being counted as a worked opportunity; if these are logged as calls rather than as connection failures, close rate is understated.",
+      "evidence": [
+        "I can't hear you, still can't hear you, can you hear me now?",
+        "I'm good, thank you, I'm good, I can't see you, I can hear you, I can't see you, I'll shoot your notification over."
+      ],
+      "timestamp": "00:00:09"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep proceeded with a game plan session against a prospect who was walking on a treadmill with his camera off, after himself stating that a face-to-face conversation was required.",
+      "evidence": [
+        "i'm kind of walking on the treadmill right now so i prefer not to be in the video if that's okay",
+        "is there a better time you want to reschedule for because we're kind of building out a game plan we like to make sure it's a face-to-face conversation especially if we're going to be coaching you long term",
+        "Okay. Not a problem. a problem. Well, Kim told me that you're quite straightforward."
+      ],
+      "timestamp": "00:02:01"
+    }
+  ]
+}

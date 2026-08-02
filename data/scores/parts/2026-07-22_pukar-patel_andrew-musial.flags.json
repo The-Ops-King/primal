@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-07-22_pukar-patel_andrew-musial",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep asked for a $100 refundable deposit as the price of the prospect taking time to decide, an instrument that appears nowhere in the offer and functions as a commitment device rather than a payment.",
+      "evidence": [
+        "I just wanted to kind of do some research before I commit to this, you know, 6K and all that stuff. That's all.",
+        "But we do take like $100 deposit just to make sure that you're genuinely considering this and you're serious. And if you come back and you're like, I'm not going to do it. We send it right back to you.",
+        "Look, let's, because I'm going to be honest, our schedules are pretty busy.",
+        "I see. I mean, I need to really look into it before I commit, really, to the 6K."
+      ],
+      "timestamp": "00:45:27"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep quoted a six-payment plan carrying roughly $1,200 of additional cost, a $7,200 total against the $6,000 list price, with the uplift described only as interest.",
+      "evidence": [
+        "We can structure it, the best way to not to get interest on that, additional interest, is to structure it into three payments.",
+        "We can divide it into six, but that's additional like 1,200 in overall.",
+        "No, 2-2-2 is fine, as long as I don't have to pay interest."
+      ],
+      "timestamp": "00:38:12"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed high cholesterol and an open deep hand laceration that currently prevents him gripping anything, and was moved toward onboarding six days later with no clinician clearance sought for either.",
+      "evidence": [
+        "when I did my blood work, I do have high cholesterol and all this stuff",
+        "I got deep cut when I was gardening... the knife was there and then I tried to pull something so it's deep cuts I can't it's some really a day old so I can't pick up things right now because it starts bleeding",
+        "I mean, as soon as I get, like, I'm able to pick up things.",
+        "But I do want to start as soon as possible."
+      ],
+      "timestamp": "00:08:52"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep declined a direct request to send the agreement and payment link by email, citing process, keeping the transaction confined to the live call.",
+      "evidence": [
+        "Would you able to send me all the payment link and the agreement and all this stuff through email?",
+        "So, like, usually what we do is we just take it, cover it over the meeting, because I need to onboard you, and that's the procedure."
+      ],
+      "timestamp": "00:44:42"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker attribution is inverted across long stretches of this transcript, including the entire injury-screening exchange and the price reveal, both of which carry the prospect's label while containing the rep's words.",
+      "evidence": [
+        "00:20:20 - ppatel — The full investment for that, in order to get you to your goals, is 6K.",
+        "00:09:00 - ppatel — I would just but anything that many some um aches or pains because when you're sitting a lot a lot of people are complaining about like no lower back hips stiff",
+        "00:03:18 - Andrew Musial (Primal Instinct) — Regular exercise will help me."
+      ],
+      "timestamp": "00:20:20"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-05-09_brian-muthami_harry-edmonds",
+  "source": {
+    "drive_file_id": "1-ewXFutxiVfcXmuWsDRQ58s2jVJ-rIu7",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/09/2026 - Chibuzor Gideon x Harry Edmonds ",
+    "display_title": "05/09/2026 - Chibuzor Gideon x Harry Edmonds  — Closed",
+    "file_size_bytes": 11802
+  },
+  "call": {
+    "date": "2026-05-09",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Continuation and payment call. Both parties refer to terms agreed on an earlier call — 'we were going to do the payment as far as it was like 1,200 the first time' — and the rep opens with 'How have you been?' and 'were you ready to get started today, right?'. The earlier discovery call is not in this batch, so all baseline, goal and medical fields below are null rather than absent.",
+    "duration_min_est": 9,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "UK (references free medical care 'in the UK' as his own system)", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Brian Muthami",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States, Central time zone; phone area code 314 (St. Louis, Missouri)",
+    "age": null,
+    "occupation": "Employed on a 7am to 4pm schedule; US military veteran about to start a master's in information technology using remaining GI Bill benefit",
+    "family_status": "Has a girlfriend who is on the same fitness journey and bought kettlebells the day of the call",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Currently doing movement work and stair walks after work as cardio. Bought a 45lb kettlebell in 2024 and has been learning the basics from Trevor's Instagram videos in order not to start a paid programme from zero. Describes his gap as knowledge rather than effort: 'the only thing I lacked is the knowledge and stuff.'",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.35,
+    "signals": [
+      "Proposed label: the_self_directed_budget_buyer — capable and already self-starting, blocked by knowledge rather than motivation, and consistently cost-conscious across every topic he raises",
+      "Self-directed evidence: bought his own kettlebell in 2024, learned fundamentals from free Instagram content, runs his own stair-cardio routine, and deliberately prepared before paying so as not to start at zero",
+      "Cost-consciousness runs through the whole call — graduate tuition, gas, medical costs, and kettlebell prices rising from $50 to $80 — and he required the purchase split into instalments",
+      "Confidence is deliberately low: this is a nine-minute payment call with no discovery, no goals, no pains and no medical content. The discovery call that would support an avatar assignment is not in this batch, so any firmer assignment would be invented rather than observed."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": true,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Carried over from the previous call and confirmed here: $1,200 down, then $1,800. The prospect's recollection was 'maybe after two, three weeks'; the rep tightened it to 30 days and tied it to price preservation — 'as long as you take care of the other 1,800 within 30 days, we can keep it at the 6K.' The two stated amounts total $3,000, not $6,000, and no reconciliation to the full price was made by either party. The prospect responded 'Oh, that's even better. That'll help me out greatly right there.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment collection began live — the call ends on 'Let me take the recording out so I don't record your card information'",
+      "Prospect confirmed readiness to proceed and immediately restated the agreed payment structure himself",
+      "Onboarding call with Trevor booked for Wednesday 6:15pm Central, with the rep confirming a new link would be sent",
+      "Contact details verified on the call — email read back as Muthami, Brian at Yahoo, phone confirmed digit by digit",
+      "Counter-evidence: the recording stops before any payment confirmation, so nothing in this corpus evidences that the $1,200 was actually captured",
+      "Counter-evidence: the prospect's answer to 'you were ready to get started today, right?' opened with 'I think.' before the yes, and the hesitation was not probed",
+      "Counter-evidence: the total contract value was left unreconciled, so what has actually been agreed is not established on the transcript"
+    ],
+    "cash_collected_usd": 1200,
+    "cash_collection_basis": "first_instalment; $1,800 balance stated as due within 30 days. Total contract value is ambiguous — the two named amounts sum to $3,000 against a stated $6,000. See flags.",
+    "next_step": "Onboarding call with Trevor, Wednesday 6:15pm Central; new Zoom link to be sent. $1,800 due within 30 days."
+  },
+  "notable": {
+    "note": "The Drive title names Chibuzor Gideon; the person on the call is Brian Muthami, confirmed by speaker label, spoken email and spoken phone number. Any analysis joining on title will mis-attribute this call. Separately, the payment arithmetic does not reconcile — $1,200 plus $1,800 was described as keeping the price 'at the 6K' — and neither party noticed. Roughly six and a half of the nine minutes went on unrelated rapport, including an extended passage in which the rep showed the prospect photographs of his girlfriend's physique."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns invert repeatedly throughout — at 00:02:29 the rep's 'Smart, means you don't have any bad habits' sits under the prospect's label, and the same happens at 00:03:07, 00:05:35 and 00:08:51 where the rep's and prospect's lines are exchanged. Role was read from content. Note also that the speaker label ('Brian Muthami') conflicts with the file title ('Chibuzor Gideon'); the label is corroborated by the spoken email and phone number and the title is not corroborated by anything."
+  }
+}

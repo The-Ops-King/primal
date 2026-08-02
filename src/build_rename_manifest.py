@@ -15,6 +15,7 @@ can be undone.
 import csv
 import json
 import pathlib
+import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CALLS = ROOT / "data" / "calls"
@@ -28,6 +29,14 @@ SUFFIX = {
     "undetermined": "Undetermined",
 }
 SEP = " — "          # em dash, matches the display_title convention
+
+
+def _title_name(t):
+    """Best guess at the prospect name a title claims, for mismatch detection."""
+    t = re.sub(r"^\d{2}/\d{2}/\d{4}\s*-\s*", "", t or "")
+    t = re.split(r"\s+[x&]\s+|\s+and\s+", t, flags=re.I)[0]
+    t = re.sub(r"[^A-Za-zÀ-ÿ\s'-]", "", t).strip().lower()
+    return "" if ("impromptu" in t or "zoom" in t) else t
 
 
 def build():
@@ -47,11 +56,27 @@ def build():
         # outcome alone leaves them nearly as unusable as before, so inject the
         # prospect name we recovered from the transcript — parenthetically, so
         # the original title survives intact and the addition is obvious.
+        #
+        # Separately: ~5% of titles name the WRONG person. Renaming those to
+        # "<wrong name> — Closed" would launder a data error into something
+        # that looks authoritative, so they get the corrected name too and are
+        # reported for review rather than silently fixed.
         stem = title.rstrip()
         prospect = rec.get("prospect", {}).get("name")
         named = rec.get("call", {}).get("prospect_named_in_title", True)
-        if prospect and not named and prospect.lower() not in stem.lower():
-            stem = f"{stem} ({prospect})"
+        mismatch = False
+        if prospect:
+            tn = _title_name(title)
+            pn = prospect.lower()
+            if not named:
+                if prospect.lower() not in stem.lower():
+                    stem = f"{stem} ({prospect})"
+            elif tn:
+                tf = tn.split()[0] if tn.split() else ""
+                pf = pn.split()[0] if pn.split() else ""
+                if tf and pf and tf != pf and tf not in pn and pf not in tn:
+                    mismatch = True
+                    stem = f"{stem} [actually: {prospect}]"
 
         rows.append({
             "file_id": fid,
@@ -61,6 +86,7 @@ def build():
             "confidence": out.get("confidence"),
             "rep": rec.get("rep", {}).get("name"),
             "call_date": rec.get("call", {}).get("date"),
+            "name_mismatch": mismatch,
         })
     return rows
 
@@ -138,7 +164,8 @@ def main():
 
     with CSV_OUT.open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["file_id", "current_title", "proposed_title",
-                                           "outcome", "confidence", "rep", "call_date"])
+                                           "outcome", "confidence", "rep", "call_date",
+                                           "name_mismatch"])
         w.writeheader()
         w.writerows(rows)
 
@@ -159,6 +186,13 @@ def main():
         print(f"\n{len(low)} rename(s) rest on a low-confidence outcome (<0.70) — review these first:")
         for r in low[:10]:
             print(f"  {r['confidence']}  {r['proposed_title'][:78]}")
+
+    bad = [r for r in rows if r["name_mismatch"]]
+    if bad:
+        print(f"\n{len(bad)} title(s) name the WRONG PERSON — corrected name appended in brackets.")
+        print("Review these before running the script; the underlying Drive titles are wrong at source:")
+        for r in bad[:10]:
+            print(f"  {r['proposed_title'][:100]}")
 
 
 if __name__ == "__main__":

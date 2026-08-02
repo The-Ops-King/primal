@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-07-16_chris-wiley_andrew-musial",
+  "source": {
+    "drive_file_id": "1SKFwRYwnTpHdAsfIweNhgqLWBBbzG_6P",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/16/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 120605
+  },
+  "call": {
+    "date": "2026-07-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 68,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Chris Wiley",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Dallas, Texas, USA (relocated from Missouri)",
+    "age": 64,
+    "occupation": "Owner of a business that buys, trades and services Rolex watches; also manages a walnut tree farm and rental property",
+    "family_status": "Widowed 2004, later married three years and divorced; currently has a 42-year-old girlfriend; two adult children work in his business; mother is 89",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains most evenings in an office gym: 30 min elliptical with hard intervals, then abs / upper body / lower body split. Squats 3x20 with light weight, leg extensions. History as a lineman and framing carpenter; long history of hill sprinting and swimming. Very active outdoors (chainsawing, tree farm).",
+    "kettlebell_experience": "some",
+    "medical": "Total cholesterol 328 on a recent Quest panel (historically 240-260); reports triglycerides and HDL as very good and 15 years of clear carotid/leg ultrasounds. Testosterone raised naturally from ~300 to ~550. Lifelong lower back problem, reports it resolved after chiropractic 'towel adjustment' 5-6 years ago. Old abdominal/oblique strain from a machine ~15 years ago that hurt for a year. Reports no current movement limitations."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "64, business owner with a $20,000 biweekly payroll; price was not a barrier and he pre-guessed the $6,000 figure himself",
+      "Already in strong condition and highly health-literate: tracks bloodwork, raised testosterone naturally, eats clean, refuses TRT and GLP-1 shortcuts",
+      "Goal is cosmetic refinement (belly fat, definition) on top of an already good base — explicitly good-to-great",
+      "Some skeptical_bargain_hunter overlay: he negotiated on principle rather than affordability ('I just want to make sure to bargain')"
+    ]
+  },
+  "goals": [
+    { "text": "Lose belly fat so he looks good in a t-shirt without it bulging", "category": "appearance" },
+    { "text": "Learn to perform kettlebell movements correctly so he does not injure himself", "category": "injury_prevention" },
+    { "text": "Keep raising testosterone naturally and stay off TRT", "category": "energy_performance" },
+    { "text": "Lead by example so his girlfriend gets serious about her own training", "category": "relationship" },
+    { "text": "Stay strong and active into his late sixties and beyond while running his businesses", "category": "longevity_function" },
+    { "text": "Build bigger biceps / arm definition", "category": "muscle_gain" }
+  ],
+  "pains": [
+    { "text": "Persistent belly fat he has gone back and forth on for years despite being in good shape otherwise", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Eating his main meal at 7-8pm because he gets home late from the office, which he believes drives the belly fat", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Lost conditioning since relocating to Dallas — no longer swims daily as he did living on the lake in Missouri", "category": "consistency", "severity": "medium" },
+    { "text": "Does not know how to perform kettlebell movements correctly and has been injured before by doing an exercise wrong", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Girlfriend is out of shape and he finds it a turn-off; wants her to get serious", "category": "relationship", "severity": "low" },
+    { "text": "Afraid to load heavy on legs in case he blows out a knee", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "Well, I don't want to pay out the six grand and then he dies or something.",
+      "timestamp": "00:46:27",
+      "rep_response": "Acknowledged it, then immediately moved to payment structuring rather than to risk or guarantee: quoted $1,200/month over six months (stated as more expensive), then a three-way split at $2,000/month, then suggested third-party financing (Klarna, Affirm, Pava), which the prospect rejected.",
+      "response_tactic": "offer_payment_flexibility",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "No, I just, in life, I just want to, I want to make sure to bargain. That's all.",
+      "timestamp": "00:49:59",
+      "rep_response": "Offered an improvised counter-proposal not in the offer sheet: sign up for one month at $1,200, then decide after 30 days whether to top up the remaining $4,800 for the other five months.",
+      "response_tactic": "improvised_one_month_trial_at_reduced_scope",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200, "note": "improvised six-pay at $1,200/month, stated as more expensive than paid-in-full" },
+      { "months": 3, "price_usd": 6000, "note": "improvised three-pay at $2,000/month" },
+      { "months": 1, "price_usd": 1200, "note": "improvised one-month entry with an optional $4,800 top-up for the remaining five months — this is what was actually sold" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Rep improvised three structures live on the call and closed on the last: $1,200 for one month, with $4,800 payable later if the prospect chooses to continue for the remaining five months.",
+    "guarantee_mentioned": "Rep described the agreement clause as a six-month guarantee: 'Client shall add at least eight kilograms to their working weight ... on at least three of the following five kettlebell lifts' and 'that's the six months guarantee, yeah? If for some reason you would follow everything to the T and you wouldn't add those eight kilos, Trevor will be with you for free until you do.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Not elicited by the rep. Prospect volunteered that he has cash ('I got the cash'), refuses consumer financing on principle, carries little debt, and runs a $20,000 biweekly payroll."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment confirmed live: rep said 'Okay, give me a sec' then 'so I see it went through'",
+      "Onboarding call with Trevor booked for Monday July 20 at 3:15pm Central and confirmed by the prospect from his email: 'Onboarding session scheduled July 20th at 315'",
+      "Agreement email arrived and was opened on the call: 'We're invited to review, sign this document' — the prospect began reading the terms aloud",
+      "COUNTER-EVIDENCE: only $1,200 was collected, not the $6,000 six-month price. The sale is a one-month commitment with the remaining $4,800 explicitly left as a later decision — 'After one month, you will decide whether this is for you'",
+      "COUNTER-EVIDENCE: the transcript does not confirm the agreement was actually signed before the call ended; the rep said 'take your time on the agreement' and then muted for another call",
+      "COUNTER-EVIDENCE: rep scheduled a follow-up sales conversation for Aug 14/15 to convert the remaining five months, so revenue beyond $1,200 is unsecured"
+    ],
+    "cash_collected_usd": 1200,
+    "cash_collection_basis": "one_month_improvised_tier_first_and_only_payment",
+    "next_step": "Onboarding call with Trevor Mon Jul 20 3:15pm Central; sign agreement; join Skool community; complete onboarding form. Rep booked a one-month review call for Fri Aug 15 to close the remaining $4,800."
+  },
+  "notable": {
+    "note": "The rep dismantled the $6,000/6-month offer live and sold a $1,200 one-month trial that does not exist in the price book, after an objection that was about vendor risk and a desire to haggle rather than about affordability. He also read the prospect the six-month performance guarantee ('add eight kilograms ... Trevor will be with you for free until you do') while selling a one-month term, which the guarantee cannot apply to. Separately the rep endorsed the prospect's view that cholesterol guidance is a scam, and told a 64-year-old with a total cholesterol of 328 that Trevor would design him a 24/36/48/72-hour fasting protocol. Discovery was very thin: phases 4, 5 and 6 of the playbook were never run at all."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Rep is labelled 'Andrew Jin (Primal Instinct)' throughout but is Andrew Musial — self-identifies as Polish and as turning 43 this year, matching the Andrew Musial folder and corpus. Prospect is a single speaker labelled 'Speaker 2'. Short backchannel turns are frequently attributed to the wrong side (e.g. the rep's label carries 'Triceps, biceps, biceps' and 'It's a truck', which are the prospect's). Roles were read from content. This Drive file contains two consecutive and unrelated sales calls; this record covers only the first, from 00:00:01 to approximately 01:09:32."
+  }
+}

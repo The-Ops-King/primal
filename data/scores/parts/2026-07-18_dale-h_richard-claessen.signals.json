@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-18_dale-h_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions after the full mechanism explanation — 'Do you feel like when it comes to training and mobility, that's what I'm looking for and I see myself doing that?' — 'Yes. Yeah.' He had already validated the approach himself from one week of free videos: 'I already feel better. I'm not as stiff.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Accepted the whole-foods, no-counting protocol and specifically the ice cream constraint — 'do you feel like I can stick to that when I have that accountability from Trevor... with not eating ice cream every single day?' — 'Yes, for sure.' He had volunteered the problem unprompted: 'I just have a snacking problem though at night... Last night I ate a whole pint.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Accepted and had pre-identified it as his own need: asked what he would specifically need, he said 'holding me accountable to doing less and doing it the right way.' Confirmed the communication commitment — 'are you going to message Trevor if you have any questions?' — 'Yes.' Notably the accountability he wants is inverted from the usual: he needs restraining, not pushing."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_version_already_working",
+      "raw": "I've been doing two of Trevor's videos four times a day. Four times a week, sorry... I already feel better. I'm not as stiff. Yeah, things don't hurt as much.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free YouTube content",
+      "note": "The single most important anchor in this batch. One week of the provider's own free content produced measurable relief for exactly the problem being sold against. The rep leaned into it as proof of concept — 'if you already feel it in a week, imagine what happens if you keep doing that for six months' — which is a double-edged argument, because it also argues he can keep doing it for free."
+    },
+    {
+      "type": "monthly_surplus",
+      "raw": "Well, $400, $500 at the end of the month, like a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Disclosed disposable income after all expenses. The financing payment subsequently proposed was 'around five somewhat a month' — essentially the entire surplus, with no margin."
+    },
+    {
+      "type": "savings_balance",
+      "raw": "In my savings account, probably around $6,000.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He holds almost exactly the price of the programme in cash, so capacity technically exists. He ring-fenced it himself — 'I also got to make sure I have money to take care of my family' — and the rep to his credit did not push it: 'I'm not saying that we should use it.' The anchor supports affordability while the obligation overrides it."
+    },
+    {
+      "type": "family_obligation",
+      "raw": "I really want to do it, but I also got to make sure I have money to take care of my family",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Single father of two on a tight budget. The competing claim is not a purchase he can defer, which is why every commercial structure offered on this call failed."
+    },
+    {
+      "type": "never_paid_for_coaching",
+      "raw": "have you ever had like a personal trainer or someone who helps you with things in all those years of, no? Never had.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Decades of training with zero coaching spend. No reference price exists, so $6,000 arrives against a lifetime baseline of nothing."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Guidance that accounts for worsening joint pain, sciatica and numbness in the left hand",
+      "why_unmet": "The programme has no clinical screening or referral pathway. His symptoms were catalogued in detail and then answered with 'we want to make sure those things go away, and we do that by really making sure your form is going to be on point' — a training answer to a presentation nobody has diagnosed.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "One-to-one coaching at a price a single father with a $450 monthly surplus can carry",
+      "why_unmet": "The core offer is $6,000. The rep's answer was consumer credit, then a $3,000 tier that does not exist — 'I know that Trevor is working on something that would be more so around 3,000 instead of six'.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An onboarding call that fits Hawaii working hours",
+      "why_unmet": "The coach's available slots were 7:15am and 10:45am Hawaii time, both while the prospect is at work. Nothing could be booked and the rep had to fall back on 'I will ask him for different times'. A thirteen-hour gap between rep and prospect and a further gap to the coach is a structural scheduling problem, not a one-off.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Reassurance that he can stop overtraining without losing the psychological benefit he depends on",
+      "why_unmet": "He described training as a mental necessity — 'mentally I need it, and then I end up over-training' — and the answer was that Trevor would hold him back. Whether the programme can substitute for a daily compulsion was never addressed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

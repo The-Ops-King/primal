@@ -1,0 +1,155 @@
+{
+  "call_id": "2026-07-03_sales-team-meeting_michael-brideau",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager states that average upfront cash collected is about $4,000 against a $6,000 price, meaning instalments and deposits are routine, while the same rep on the same day told one prospect that most people pay upfront and another that the company has no established payment plans.",
+      "evidence": [
+        "On average, our upfront cash collected on a unit is about 4K.",
+        "So we could say for 8K.",
+        "if you did an open wallet, and you did all of his finances, and you did everything that you could, and you came up with the plan of, like, let's do a two-pay",
+        "We do have different options that we could talk about.",
+        "Cause some, like most people do pay for it upfront.",
+        "We don't really have any set in stone payment plans or whatever, but I can at least give you a couple ideas."
+      ],
+      "timestamp": "00:11:25"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The manager scripts a justification for taking a deposit that is factually untrue — that the company does no follow-ups and does not re-book people because the calendar is too full — and the same meeting establishes that follow-ups are routine and calendars have open slots.",
+      "evidence": [
+        "Because this is the process. We do a deposit with people because we don't do any follow-ups. We don't put people back on the calendar because we get so busy with people. We have so many people booking in that it takes away from other people being able to book.",
+        "And this is the process we put in place because we've had people who said they're going to come back and they don't. And we have to protect our time and we have to protect the time of the clients.",
+        "Yeah, but I've got it as a task. So I'm just gonna show up anyway.",
+        "You got plenty of slots, so do two.",
+        "Let me know how the conversation goes with your husband, or with Radu, and we can reconnect from there after the holiday on Monday.",
+        "and then I'm just going to do my follow-up tomorrow"
+      ],
+      "timestamp": "00:31:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Two prospects in evident financial distress were advanced toward payment and discussed approvingly by the team — one with a negative bank balance who paid a deposit and is scheduled to pay $1,200, and one with roughly $600 in the bank recovering from a hospital episode who was pushed for a deposit.",
+      "evidence": [
+        "Do you remember that guy that had minus 67 bucks on his bank account? He did actually pay a deposit, so.",
+        "he gets paid bi-weekly and he said, like, yeah, he said, like, I, um, I get. I at that time, but I can do the full $1,200 at that time. said, okay, so let's just do a deposit next week, so we already have something in.",
+        "Nice. Let's go. Good stuff, bro. Good stuff.",
+        "Like right now in the bank, right now I have like $600.",
+        "surprisingly with my hospital situation I've been able to stay afloat paying everything off no one's giving me money",
+        "I don't want to put myself in any kind of holes right because I feel like that brings on a whole other type of stress to someone",
+        "he just worked himself out of all this debt. You know, he's just got himself back on his feet."
+      ],
+      "timestamp": "00:02:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospects were repeatedly identified and mocked by sexual orientation on a recorded team call, including a sexualised joke about a named prospect; the manager corrected it once and then made a version of the same joke himself two minutes later.",
+      "evidence": [
+        "Hattrick. Well, where is it? gay guys in a row.",
+        "Should I send any message to Mr. Gay Guy?",
+        "The last gay that hung up.",
+        "Well, if you think he'd be into you, I mean, up to you.",
+        "You just have to go on a date with him, dude. Just call him and be like, hey, baby, do you want to go out with me if you buy the program? I'll come as a bonus. It's a one-time, but you have to act now. This is just a time-sensitive bonus.",
+        "Tom is just a guy. It doesn't matter who he's attracted to or how is whatever. None of that matters. We don't need to call and reference people.",
+        "And then you call them and you're like, hey, so do you need a new husband or are we good to go?"
+      ],
+      "timestamp": "00:19:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer recommends, and the manager and another closer endorse, phoning a prospect who has stopped answering from a number they will not recognise in order to get them to pick up.",
+      "evidence": [
+        "And if he doesn't respond, just give him a call on a random number on Monday.",
+        "Surprise.",
+        "No, it works. Seriously, I've done it. Like, if you call someone on a number that they know you from, they're not responding, but if you then call them with a random number, they pick up. It's like, hey, it's Andrew. Oh, oh, okay. Now you just ask a question. You can actually sell clothes from them because you just catch them.",
+        "he got scared, I think, because I was pinning down the deposit, and then eventually he, yeah, I think he hung up or something was wrong with the phone. I was trying to call him up, but it's, he's not picking up."
+      ],
+      "timestamp": "00:56:14"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A closer asked to log a lost deal as financially disqualified specifically to protect his closing rate, and the manager, while directing accurate entry, confirmed he actively argues for FDQ reclassification — meaning close-rate denominators built from this CRM are subject to outcome-sensitive coding.",
+      "evidence": [
+        "so I think it's a DQ, FDQ, but I was asking if you're okay with me putting it as an FDQ to make sure that my closing rate doesn't get destroyed",
+        "So don't worry so much about the close rate specifically, but what's true, I know, I understand, but I'm also here looking at it, looking at the calls, and if I know somebody's an FDQ, I'm looking at it, and I'm going to make a case for it.",
+        "So don't worry about that so much, put it in accurately how it's supposed to be put in, it is financial logistics, right?",
+        "Should I put it as a FDQ or should I just put it as a follow-up? Yeah, you could. Or do you plan on following up with them?",
+        "Just put in whatever is the most accurate to your situation and what you're planning to do with it.",
+        "but he did show up to the call, you did offer him. So that did happen."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Multiple figures other than $6,000 for six months or $9,000 for twelve are treated as ordinary — a $1,200 total for one prospect, refundable deposits of $100 or $500, two-payment structures, and a closer speculating he could have charged $20,000.",
+      "evidence": [
+        "I can do the full $1,200 at that time",
+        "Because there's really no risk. It's $500 or it's $100. There's no risk. They can get it right back.",
+        "I just posed the refundable deposit and it's refundable, you know, like worst case scenario, you have the conversation, you chat with him.",
+        "you came up with the plan of, like, let's do a two-pay",
+        "he asked me, like, is it, is it like a few thousands? Like 20,000? So I know probably if I would have said 20, maybe he would have been okay with it.",
+        "It's a hundred dollar deposit. We send it right back to you."
+      ],
+      "timestamp": "00:02:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Automated messaging is contacting prospects without disclosure, prospects are identifying it and objecting, and the recommended remedy is for the closer to phone and make a joke of it rather than to disclose or stop it.",
+      "evidence": [
+        "he didn't like the fact that SalesCake kept sending things, even though they didn't get an answer on their question",
+        "Now I remember I had a call a while ago, yeah, and a guy pointed out, like, I don't know who's that, but that's probably automated. It's so annoying.",
+        "we were trying to do that AI bot thing and it was decent... It was one that Luke made. Luke, like, vibe-coded a bot.",
+        "Yeah, we were aware of it. We've sent it to SalesCake. Unfortunately, SalesCake is on holiday, so they don't have anybody who could really answer us right now, so we're kind of just dealing with it until there's an answer.",
+        "I would just call him and smooth it over and just be like, hey, Sophia's a bit slow. No, I'm kidding.",
+        "Make it a joke, indeed."
+      ],
+      "timestamp": "00:16:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The booking automation is sending prospects incorrect meeting times and spamming them after they reschedule, producing cancellations and no-shows that are recorded against the prospect rather than against the system.",
+      "evidence": [
+        "Some Dutch guy also had a meeting with, I just completely forgot his name, it's so Andrew, and he said like, ah, yeah, we had a meeting at this hour and not that hour, like, I'm not going to show up anymore, even though that's absolutely not true, but the bot kept running, just not responding to it.",
+        "he's like, hey, you can reschedule right here, but then it still pushes your meeting starts in 15 minutes",
+        "Somebody cancelled very last minute. What's his name? I've actually lost it because he's not on my calendar anymore. I've had a few no-shows today, though. It could be that.",
+        "And I saw it with this Dutch guy that you had in your calendar today, Andrew. He wasn't really happy and he thought the meeting was an hour earlier."
+      ],
+      "timestamp": "00:17:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Immediately after the closer identified that he had pushed a prospect until he left the call, the manager endorsed pushing hard as a method, undercutting the empathy coaching he had just delivered.",
+      "evidence": [
+        "Yeah, I think, I think I pushed him too hard.",
+        "Maybe. But sometimes you got to push the car as fast as you can to see how fast it can go.",
+        "I think I was, yeah. I was... In the mindset, I need to close him, but not from a genuine care place.",
+        "Yeah, only get paid a few clothes, bro, so quit dicking around. That's the energy.",
+        "Yeah, why do you keep dicking around, bro?"
+      ],
+      "timestamp": "00:38:42"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep whose four sales calls dated 2026-07-03 appear in this batch was attending his first team meeting and was only a few calls into the offer, which is material context for interpreting his adherence scores against tenured reps.",
+      "evidence": [
+        "Nice. We haven't done an intro for Michael yet, huh? This is the first day he's been on the call.",
+        "Yeah, I'm excited to be on the team, though. It's, like, I've had my first couple calls. Went really well, like, just familiarizing. I know by the time I'm five calls in, like, it'll be riding, like, riding a bike.",
+        "All right. Let's go ahead and jump into projections. Michael, we got to set you some projections. We got to figure that out.",
+        "I did five years door-to-door. Had my own coaching offer... So, I've been probably in high ticket for four-ish years in total.",
+        "Kind of book a meeting with Michael as well to get some mock calls in."
+      ],
+      "timestamp": "00:05:05"
+    }
+  ]
+}

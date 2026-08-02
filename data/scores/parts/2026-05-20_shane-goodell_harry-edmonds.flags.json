@@ -1,0 +1,38 @@
+{
+  "call_id": "2026-05-20_shane-goodell_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed an active shoulder injury, diagnosed skeletal misalignment and knee symptoms under load, plus a prior self-inflicted injury from progressing implements too fast, and the rep never asked whether any clinician had cleared loaded kettlebell work before offering to help him train.",
+      "evidence": [
+        "I fell into some pretty intense shoulder pain, and I had to step away from my career temporarily",
+        "I tried to go too fast into the clubs, the macebells, I have all the equipment",
+        "when I did the kettlebell workout yesterday and like the squats and stuff, like my knees, you know, they felt, I wouldn't say like, it wasn't like a sharp pain, but like clicky and like tight and I'm like, is this just how it starts?",
+        "Yeah, dude, I'll help you out for free in the meantime."
+      ],
+      "timestamp": "00:14:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep offered unpaid, unstructured coaching outside the programme and moved the relationship onto his personal WhatsApp with a prospect he had not qualified.",
+      "evidence": [
+        "Yeah, dude, I'll help you out for free in the meantime.",
+        "Let me text you on WhatsApp and we can stay in touch.",
+        "Hell yeah. Thank you. Thank so much, man."
+      ],
+      "timestamp": "00:21:31"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts speakers repeatedly in this file, including on the financial-objection exchange, so line-level attribution here is unreliable for any downstream analysis.",
+      "evidence": [
+        "00:15:57 - Harry Edmonds (Primal Instinct) There's also financial components.",
+        "00:08:04 - Harry Edmonds (Primal Instinct) Thank you, brother."
+      ],
+      "timestamp": "00:15:57"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "call_id": "2026-07-31_rohan-bhatnagar_richard-claessen",
+  "source": {
+    "drive_file_id": "19hyAj4TlAGYJn59ElHMZXjOSDY8kedAp",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/31/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/31/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 72751
+  },
+  "call": {
+    "date": "2026-07-31",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 61,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria (calling from Germany while travelling)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter referenced. Rep: 'I also saw, of course, your application.' Prospect: 'This is the first time I'm reaching out to anybody for any sort of program.'"
+  },
+  "prospect": {
+    "name": "Rohan Bhatnagar",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "San Jose, California, USA",
+    "age": 46,
+    "occupation": "Not asked. Works from a home desk with meetings; Silicon Valley based and evidently knowledgeable about the local market.",
+    "family_status": "Two children aged 8 and 4",
+    "height_in": 72,
+    "weight_lb": 182,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Owns a full home gym bought this year — cable cross rack, Smith bar, pull-up bar, adjustable kettlebells — plus a separate kettlebell. Has owned a kettlebell for years and used it on and off; currently swings it two to three times a week for 15-20 minutes in front of the television with no structure. Plays tennis and golf actively, swims, occasionally runs and cycles. Dislikes gyms and gym memberships.",
+    "kettlebell_experience": "some",
+    "medical": "Had pneumonia this year and shingles this year, with visible scarring. Elevated total cholesterol and triglycerides; physicians have recommended statins for several years and he has declined. Describes a South Asian genetic predisposition to central adiposity and metabolic disease. History of Achilles tendonitis with recurrent swelling on uphill walking or running, developed after 40, which he characterises as 'weak Achilles'. States he has no chronic condition."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Already active and health-literate — 'I preach other people about health, but I haven't been applying it on myself' — and framing the purchase as optimisation: 'I always thought I had the potential to be in a really good shape with my frame and structure'",
+      "Self-assessment is good-to-great, not rescue: 'I'm still pretty healthy. I'm just trying to look far out in the future and just being cautious'",
+      "Rebuilder overlap: pneumonia and shingles this year were the proximate trigger — 'I got sick this year... so I'm like, okay, let's just take care of myself a little bit better'",
+      "Bargain-hunter behaviour without the bargain-hunter anchor: he systematically extracted the entire price ladder ('are there different tiers of cost?', 'is there anything else apart from these two?', 'does this website list all the programs?') and then bought the cheapest tier — but the cheap alternative he is anchored to is his own untutored effort, which has not worked"
+    ]
+  },
+  "goals": [
+    { "text": "Put on more muscle", "category": "muscle_gain" },
+    { "text": "Get rid of visceral fat — 'the dangerous fat' around the organs", "category": "fat_loss" },
+    { "text": "Lower his lipid panel — triglycerides and cholesterol", "category": "other" },
+    { "text": "Get structure and an optimised exercise sequence instead of random swinging", "category": "consistency" },
+    { "text": "Make it a permanent lifestyle change rather than an on-and-off cycle", "category": "sustainability" },
+    { "text": "Be fit enough to play tennis and golf with his children as they grow up", "category": "family_role_model" },
+    { "text": "Raise his metabolism so he can enjoy food and travel without it setting him back", "category": "other" },
+    { "text": "See his children grow up — 'otherwise I won't get to see my kids grow up'", "category": "longevity_family" },
+    { "text": "Avoid ending up on lifelong medication like his father", "category": "longevity_function" },
+    { "text": "Faster visible results to sustain his own motivation", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Pneumonia and shingles in the same year, which triggered the decision to act", "category": "medical", "severity": "high" },
+    { "text": "Elevated cholesterol and triglycerides with physicians pressing statins he refuses to take", "category": "medical", "severity": "high" },
+    { "text": "Visceral fat pushing the belly out — 'skinny fat' despite a lean frame", "category": "other", "severity": "medium" },
+    { "text": "No structure or sequence to his kettlebell work — 'I forget the sequences and then I have to check which one to do what'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Repeated on-and-off cycles with no lasting result — 'whatever I did, I didn't see the results. I'm like, ah, F it... and that's the downward spiral'", "category": "consistency", "severity": "high" },
+    { "text": "Actively dislikes exercising for its own sake and hates gyms", "category": "training_barrier", "severity": "medium" },
+    { "text": "Recurrent Achilles tendonitis with swelling after uphill walking or running", "category": "injury", "severity": "medium" },
+    { "text": "Sweet tooth and carb cravings driven by inadequate protein", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Believes his metabolism has declined — 'it used to be good, but it's not good anymore'", "category": "aging", "severity": "medium" },
+    { "text": "Knows a great deal about health and has not applied any of it to himself", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "And are there different types of programs that he does? ... No, like different tiers of cost.",
+      "timestamp": "00:46:17",
+      "rep_response": "Asked whether this meant $6,000 was too much, then disclosed a second tier at $3,000 and, on further questioning, a third at $1,000",
+      "response_tactic": "disclose_price_ladder_on_request",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "So why would someone pick, and is there anything else apart from these two?",
+      "timestamp": "00:48:38",
+      "rep_response": "Disclosed the $1,000 self-serve 'University' tier while recommending against it — 'I would say one of the first two is the best for you' — then sold it anyway",
+      "response_tactic": "recommend_against_then_concede",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "So let me, let me then think about between Caden and [the] University. Is there a link that you can send me where I can go and sign up for this?",
+      "timestamp": "00:58:01",
+      "rep_response": "Asked whether the hesitation was purely financial, then offered to credit the $1,000 toward an upgrade within a month — a concession he had explicitly refused two minutes earlier",
+      "response_tactic": "reverse_prior_refusal_to_close",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "It's a little bit financial and then, yeah, I like to get immersed in first before taking the whole plunge.",
+      "timestamp": "00:58:22",
+      "rep_response": "Accepted it and closed on the entry tier with an upgrade path",
+      "response_tactic": "accept_and_close_entry_tier",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 3000 },
+      { "months": 6, "price_usd": 1000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.78,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Verbal agreement to the $1,000 'University' tier: 'So I was saying maybe I'll try from the university first, and then we can move on to Caden' — rep: 'Let's get you started with the university' — prospect: 'Yeah, university.'",
+      "Sign-up link sent during the call and receipt confirmed by the prospect: 'I just sent it to you on messages, can you check if you got that on my text message' — 'yes I just, yeah, just came through'",
+      "Completion window agreed: 'do you feel like you can do that by the end of today?' — 'over the weekend I'll do it'",
+      "Counter-evidence: no payment was taken on the call and the prospect was pushing to end it ('I only allocated one hour for us, and I got to now jump off')",
+      "Counter-evidence: this is a $1,000 close on the entry tier, not a $6,000 close, and the prospect was still openly weighing the $3,000 Caden tier ninety seconds earlier",
+      "Counter-evidence: the upgrade-credit terms he agreed on were contradicted twice within the same four minutes, so what he believes he bought may not match what was sold"
+    ],
+    "cash_collected_usd": 1000,
+    "cash_collection_basis": "Contract value of the 'University' tier under the verbal-agreement-plus-link-sent rule. No payment was completed on the call — the prospect committed to completing it over the weekend — so this figure must be reconciled against the payment processor before it enters any revenue total.",
+    "next_step": "Prospect completes the sign-up link over the weekend and messages the rep, who will then run him through the remaining onboarding systems"
+  },
+  "notable": {
+    "note": "The most commercially revealing call in the batch. Under direct questioning the rep disclosed a three-tier ladder that appears nowhere in the documented offer: 'Kettlebell Buddy' at $6,000/6mo (one-to-one with Trevor), 'Kettlebell Buddy Light' at $3,000/6mo (Trevor programmes, Caden delivers check-ins and form feedback), and 'University' at $1,000/6mo (self-serve). The rep confirmed none of it is published — 'does this website list all the programs? No... we don't just offer it to everyone.' He also stated the upgrade-credit policy three incompatible ways in four minutes. Separately, the prospect said his doctors have pressed statins on him for years and that it is 'just an industry over here', and the rep agreed with him: 'you're in charge of your health... You can make the decisions yourself.' Useful corpus intelligence: the rep named the only two closers as himself and Andrew in Poland."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe swapping throughout — the opening line is attributed to the rep but is the prospect's, and the entire pricing sequence from 00:46 to 00:59 has questions and answers repeatedly inverted, including the tier prices appearing under the prospect's label. Roles resolved from content. A Wi-Fi dropout of roughly two minutes at 00:55:20-00:57:19 falls in the middle of the upgrade-credit discussion, so part of that exchange is not captured. A long unpunctuated ASR run at 00:42:41-00:44:14 and again at 00:59:58-01:01:01 merges many turns."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "call_id": "2026-07-17_ali_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a $1,200 one-month trial with an explicit walk-away, converting a $6,000 six-month commitment into a cancellable monthly test that is not in the offer.",
+      "evidence": [
+        "So yeah, when it comes to that, what we can do is that we do it in 1,200.",
+        "That would be for one month. You test everything out. And if you feel like, yeah, this is what I see myself doing.",
+        "And then at the end, if feel like, I don't really love it, then we'll leave it there."
+      ],
+      "timestamp": "00:38:34"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised interest-bearing instalment terms live, stating that six payments carry interest and three do not, without naming a rate.",
+      "evidence": [
+        "We can either do the 4800 at the end of the month then it doesn't add any interest.",
+        "If you do want to pay it in six times, then it would add to one of the interest per month.",
+        "But if we would do it in three times, it wouldn't add any interest."
+      ],
+      "timestamp": "00:39:06"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect was quoted a payment structure the rep could not state accurately, and left with an undefined interest rate and no written terms.",
+      "evidence": [
+        "Then I don't know the exact amount. think that's just around... 1,200.",
+        "So then we do divided by 6. That's 1.2K. We can do that.",
+        "then we either do the whole thing if you do feel like doing it at that point, or we split it up in another way"
+      ],
+      "timestamp": "00:38:34"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep asserted there was no alternative to upfront payment, then produced three alternatives within ninety seconds of the prospect pushing.",
+      "evidence": [
+        "And how do you pay for it? Is it an upfront fee or? — Yeah, most guys, pay it all upfront.",
+        "And you don't have any other solutions? No, so that's why I say most guys.",
+        "But if we need to work around that, we can."
+      ],
+      "timestamp": "00:36:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "After the prospect explained his deliberate decision-making style, the rep implied that business people who decide immediately are the ones who get results.",
+      "evidence": [
+        "Because the reason I'm saying this, I've spoken to so many business people are like... Well, if this gets me to the next level, which it actually does, then my energy is going to be better, I do better in work, my business goes better, let's just do it. Those are also people I speak to, and that's why they get to the high results.",
+        "Me, I always, you know, try to sleep on things, think about it, and then take my decisions. That's my way of taking decisions."
+      ],
+      "timestamp": "00:45:52"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect's stated core need was macro guidance and the rep both sold to it and disclosed that the coach does not do it, without reconciling the two.",
+      "evidence": [
+        "I never reached to someone, you know, to tell me exactly, you know, in terms of macros, to tell him first what are my objectives and then to ask for the macros",
+        "and if it comes down to counting, maybe in the beginning, we'll look into that, but overall Trevor isn't that big into counting"
+      ],
+      "timestamp": "00:29:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Results claim made without any substantiation when the prospect explicitly asked to compare success rates.",
+      "evidence": [
+        "We've got massive amounts of results from people who have gotten to that peak for themselves.",
+        "you need to compare them and then decide based on the different options and also based on the success rate of each option"
+      ],
+      "timestamp": "00:44:18"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization on this file inverts speakers on many turns including the price presentation, so line-level attribution from it is unreliable.",
+      "evidence": [
+        "00:13:42 - Ali: Why do you want to go to that next level?",
+        "00:39:06 - Ali: If you do want to pay it in six times, then it would add to one of the interest per month."
+      ],
+      "timestamp": "00:39:06"
+    }
+  ]
+}

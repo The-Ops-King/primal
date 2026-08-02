@@ -1,0 +1,56 @@
+{
+  "call_id": "2026-06-10_david-elder_ben-byrne",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a 3-month tier at $4,000 (~$430/month) that is not part of the stated $6,000/6mo or $9,000/12mo offer, improvised live in response to the affordability objection.",
+      "evidence": [
+        "The other option is that we could start you off on three months, which is a lower total, and you can still do the financing, whatever you want to call it, and that one is, like the total is 4k for that, but let me just double check what the monthly would be, that one is like 4.30 per month that it breaks down to.",
+        "So 3,000, 3 months is 4,000, 6 months is 6,000, a year is 9,000."
+      ],
+      "timestamp": "00:53:35"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A 12-month financing figure of roughly $650/month was quoted, giving a total of about $7,800 that reconciles with neither the $6,000 six-month tier nor the $9,000 twelve-month tier.",
+      "evidence": [
+        "we do have like a like a financing option where people could split the payments over six months or sorry 12 months which does bring it down to that like six six fifty",
+        "So the year is 9,000, and then six months is six."
+      ],
+      "timestamp": "00:53:35"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A separate lower-priced product, Primal University, was introduced at $199/month or $1,999/year as a downsell after the main offer was declined.",
+      "evidence": [
+        "So the other option that we do have is, it's called Primal University, which is, it's not one-on-one with Trevor, but it's like a, as all is, all is like IP in that platform.",
+        "so it's $1.99 per month ... The yearly is $19.99. So you save $3.50 off of like, rather than just paying it."
+      ],
+      "timestamp": "00:55:19"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a self-directed intake of about 1,200-1,280 kcal/day and a history of 7-10 day water fasts; the rep proposed layering the programme's fasting protocol on top without asking whether any clinician was overseeing it.",
+      "evidence": [
+        "so I'm dieting, I'm at, like, 1,200 calories a day, give or take",
+        "I haven't fasted since September of last year. And that was like a seven day fast, I think. I don't like know like what, like how long you're supposed to do it for. just like, it was like, you know, seven to 10 days.",
+        "a big part of the nutrition with Trevor's, we also incorporate fasting into it and intermittent fasting"
+      ],
+      "timestamp": "00:35:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep announced he was messaging his next caller mid-conversation immediately after the prospect raised affordability, using the extension of time as leverage at the moment the money objection landed.",
+      "evidence": [
+        "I hear you. Well, let me just message my next caller here and tell him... yeah.",
+        "Because, you We do have other, you know, we might find a way to figure out how to make it work for you."
+      ],
+      "timestamp": "00:50:44"
+    }
+  ]
+}

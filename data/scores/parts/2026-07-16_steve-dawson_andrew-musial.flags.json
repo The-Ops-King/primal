@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-07-16_steve-dawson_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed an undiagnosed neurological event that hospitalised and paralysed him for three days, ongoing left-side weakness and prior shoulder surgery, and was sold six months of loaded kettlebell training with a 16kg starting bell without anyone asking whether a clinician had cleared him to train.",
+      "evidence": [
+        "There was just a sudden, complete fatigue of my shoulder to the point where it was pretty instant, which they still don't really know why it happened.",
+        "when this arm stopped functioning properly, what really ended up happening is my whole body shut down, and I was paralyzed for three days in the hospital",
+        "I would say there still is an imbalance. I protect my left side, for sure.",
+        "when I was young, I had shoulder surgery on my right shoulder, and so I've always, it's kind of, I've always been really weak in my shoulders, and so, like, push-ups are super difficult, pull, any pull push, is, it is hard.",
+        "So definitely what we need to do is get you stronger around those parts.",
+        "Probably you're going to be starting with 16 kilos kettlebell. Usually that's the baseline for most men."
+      ],
+      "timestamp": "01:17:19"
+    },
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "Rep advised the prospect to discontinue a prescribed GLP-1 medication, and the prospect agreed to stop on that advice.",
+      "evidence": [
+        "for the last four months, I've been doing, I've been microdosing GLP-1s, and I found I've gotten zero results",
+        "My weight hasn't changed. So you think I should stop using it?",
+        "That could be also a thing of the low testosterone, like adding another layer to that, so I would stop that",
+        "Okay, so I'll stop that because it's not working. working anyway."
+      ],
+      "timestamp": "01:38:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep instructed a prospect with a documented testosterone of 272 not to pursue TRT and told him every testosterone supplement is worthless, in direct response to the prospect asking whether he should look into it.",
+      "evidence": [
+        "And like, so there was even thought, uh, 272.",
+        "Yeah, that's low, man.",
+        "Should I look into that?",
+        "No, no, don't do that. Don't do that, because when you start doing that, that's the... One-way ticket. You have to do it till the end of your life.",
+        "Everything that they advertise, any supplement on raising testosterone is BS apart from the TRT",
+        "But the good news is you can a hundred percent dial it in with proper training, nutrition, and of course recovery."
+      ],
+      "timestamp": "01:32:05"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Prospect stated the second $3,000 payment was due in three months and the rep did not correct him, having garbled his own statement of the interval, which appears to have been 30 days.",
+      "evidence": [
+        "So how do you feel about splitting it in half? Yeah, in 30 months, 30 months in 30 days, 30 days, in 30 days.",
+        "So $3,000 now and $3,000 in three months. Yeah, that's fine. That's doable.",
+        "Is that cool?",
+        "All right. Okay. So let's do it."
+      ],
+      "timestamp": "02:04:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep quoted a six-month instalment plan at $1,200/month, a total of $7,200 against a $6,000 list price, attributing the $1,200 uplift to interest that is not in the published offer.",
+      "evidence": [
+        "because we can split it into six, that's fine. But when we used to do that, there's some interest. Yeah. So that would be, that would be 1,200 a month.",
+        "And so, so you're saving $1,000 paying off front."
+      ],
+      "timestamp": "02:03:24"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep told the prospect there is no fixed payment structure and that terms are set to whatever the buyer can manage, which contradicts the two published tiers and the same rep's interest-bearing instalment claim minutes later.",
+      "evidence": [
+        "Okay, so in terms of the payments, let's do it like this, because we don't have anything structured in a way that it's set in stone. We always work with clients, whatever they can do in the moment, we can work around it, yeah?",
+        "when we used to do that, there's some interest"
+      ],
+      "timestamp": "02:01:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A single Drive file contains two consecutive and unrelated sales calls with different prospects, and this call's transcript degrades into one undifferentiated speaker block for its final twenty minutes.",
+      "evidence": [
+        "Bye-bye. All right. I'm back.",
+        "Hey, I'm jumping in right now.",
+        "all right i've sent you uh i've sent you another one okay let me know because i think that was proper one I got it. Okay. And your phone is six, six, four, six, three, eight, two, one, zero, seven, four."
+      ],
+      "timestamp": "01:13:21"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep read the prospect's full mobile number and email address aloud on a recorded call retained in shared Drive storage.",
+      "evidence": [
+        "And your phone is six, six, four, six, three, eight, two, one, zero, seven, four.",
+        "And the email Steve Dawson three, three, six Gmail."
+      ],
+      "timestamp": "02:07:04"
+    }
+  ]
+}

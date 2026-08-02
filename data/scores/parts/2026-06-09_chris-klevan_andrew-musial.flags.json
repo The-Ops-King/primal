@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-06-09_chris-klevan_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Two prices outside the published structure are discussed as routine: an unlisted three-month downsell tier, and third-party financing that brings the $6,000 programme to $7,200.",
+      "evidence": [
+        "we're exploring the the 6k options in every possible way, like the payment plans and so on, and they don't want to do that. And we present the financing options, but that scares them too, because it's $7,200. So that's too much. So is that the moment that we present the downsell of the...",
+        "For the three months? Or three months? No, no, no, for the three months.",
+        "When is the moment that we should present the three-month option? If you find out they only have enough money to do the three-month option."
+      ],
+      "timestamp": "00:09:27"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Double-booking every closer slot is confirmed as deliberate policy; a prospect withdrew that week after being over-messaged with confirmations and then called ten minutes late, and the manager instructed the rep to keep the practice.",
+      "evidence": [
+        "the reason the double booking is There is because historically the show rates weren't that great, so we couldn't reliably say that if we just had one person in the slot that they would for sure show.",
+        "he sent me a message that he got so many messages reconfirming and so on and so on. And then we called them call him 10 past the hour of the meeting and rescheduling in. So he didn't feel good about it. And he doesn't want to move forward with us.",
+        "if it's a double booking, but if he doesn't confirm on the day of the call, like, I don't know, four hours before the call, or something like that, I can move him from the calendar. I wouldn't do that."
+      ],
+      "timestamp": "00:18:31"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Stated CRM disposition rule confines 'lost' to explicit refusals, so every unresolved call lands in follow-up - which systematically inflates the pipeline and deflates any close-rate denominator built from these records.",
+      "evidence": [
+        "lost is only for if somebody is like, dude, I'm not working with your company. Or they've already bought another program, or they straight up tell you no, basically.",
+        "if it's still like, I want to do it, but it's like X, Y, Z thing, and I need to wait X amount of time to do it, then it's follow-up."
+      ],
+      "timestamp": "00:18:09"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "2026-07-03_chris-klevan-1-1_michael-brideau",
+  "type": "internal",
+  "subtype": "one_to_one",
+  "date": "2026-07-03",
+  "participants": [
+    "Chris Klevan (sales manager)",
+    "Michael Brideau (closer, new to the offer)"
+  ],
+  "referenced_not_present": [
+    "Trevor (founder and delivering coach)",
+    "Sam (a live prospect Michael had just pitched)",
+    "John (a prospective consulting client Chris declined)",
+    "Kim Forbes-Sobers (setter — referred to as 'he')",
+    "Richard Claessen and Andrew Musial (closers, compared on show rate)",
+    "Luke (business partner), Angelo, Ryan, Vince, Isaiah"
+  ],
+  "source": {
+    "drive_file_id": "1s8vMkpyU4ioYYtcCzzA4oMm3Ctii0CPi",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/03/2026 - Impromptu Zoom Meeting",
+    "file_size_bytes": 37992
+  },
+  "duration_min_est": 30,
+  "summary": "A one-to-one between the sales manager and a newly onboarded closer, held immediately before the team meeting on the same day. Michael opens enthusiastic about the offer relative to his previous stem-cell assignment, and Chris gives positive feedback on his early calls. The substance is a debrief of a live call with a prospect named Sam who wanted to do it himself and expected around $250 a month, and it exposes the full commercial ladder: $6,000 for six months, $4,000 for three months, a $1,200 'love it or leave it' entry, and Primal University at roughly $2,000 annually as the downsell. Two pricing errors surface — Michael quoted Sam $3,000 for three months when the real price is $4,000, and he invented a $1,250 seven-day money-back offer before establishing that no refund option exists. Chris corrects both and instructs him never to pitch a one-week option again. The rest is objection-handling coaching: how to answer the do-it-yourself objection, how to work a spouse objection down to the underlying financial one, and how to run the open wallet before deciding between a straight close and a deposit. Chris also coaches Michael to deflect rather than answer prospect questions about the delivery app and about the rep's own background. Operational detail covers set-confirmation practice and show rates, and the call ends with commission structure on the Primal University downsell.",
+  "notable": [
+    "The complete price ladder, stated by the manager: $6,000 for six months; $4,000 for three months; $1,200 for the 'love it or leave it' entry; Primal University at $2,000 annually. Only the $6,000 figure matches the documented offer structure.",
+    "The $1,200 'love it or leave it' is sanctioned management-directed policy, not rep improvisation — 'if you're gonna do something with somebody, I would get them into the love-it-or-leave-it' and 'I would go, yeah, love it or leave it, 1,200'. This directly informs how the same rep's $1,200 offer to Jerry Harding later the same day should be read.",
+    "A live pricing error: 'I saw that you pitched him 3K for three months and truthfully it's 4K for three months. So... don't do that again.' A prospect received a quote $1,000 below the real price.",
+    "There is no refund or trial policy. Michael asked directly — 'Can we do, like, a come in seven days if you don't like it, refund it? Or is that just a no-go with this offer?' — and was told 'There's really no benefit to it on a fitness offer', after he had already offered exactly that to a prospect at $1,250.",
+    "The manager's candid assessment of the community, which every sales call presents as a pillar: 'The only thing they're going to see is the community with people talking about wins. That's it. And it's really not that active, to be honest with you.'",
+    "A clear management statement of the real ICP, closely matching the stated ICP in icp.json: buyers 'have a flushed amount of money and they understand the value of hiring a mentor and working with Trevor... 6K is not a big deal for them because they just genuinely want to move from good to great'. Prospects who are already athletic, consistent and budget-constrained 'are usually the guys we send to Primal U'.",
+    "Good practice worth propagating: the manager coaches honesty on the do-it-yourself objection — 'dude, honestly, you probably are capable of doing it on your own. You probably can do this. You probably don't need Trevor, but that's not the reason why people invest in Trevor' — and explicitly permits the prospect to choose a cheaper route: 'if that's not you, that's totally okay. It's totally valid to go another route if it more fits your budget.'",
+    "The closer could not answer a prospect's question about the delivery app — 'He asked me what the app was on. I'm like, I don't know' — and at no point in this thirty-minute session was he told what it is. The coaching was to avoid the question instead.",
+    "Setter identity for the corpus: Kim Forbes-Sobers, the KFS in call titles, is referred to throughout as 'he'.",
+    "Show-rate mechanics: 'Richard still confirms. And he has a higher show rate than Andrew does.' Richard reaches out on WhatsApp for European prospects and via Close for US prospects. Kim was confirming his own sets and was told he no longer needs to because of SalesKick, and the manager does not know whether he stopped — 'I'm not actually sure if he's still doing that or not.'",
+    "Commission on the downsell: $50 one-time, or 10% on the $2,000 annual Primal University plan.",
+    "Michael Brideau's framing of the offer relative to his previous one: 'it's much more of, like, let's close on the first call, like, right now kind of thing.'"
+  ],
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Two speakers, continuously swapped. Several of the manager's longest coaching passages appear under Michael Brideau's label and vice versa — the whole do-it-yourself objection script at around 00:08:36, the app-concealment advice at 00:17:28, and the $3K versus $4K correction at 00:27:44 all sit under the wrong labels or run across both. Roles resolved by content: Chris is whoever states policy, corrects pricing and gives coaching; Michael is whoever asks what the process is and takes notes. Quotes in the flags file are attributed by content."
+  }
+}

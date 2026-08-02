@@ -1,0 +1,94 @@
+{
+  "call_id": "2026-07-09_richard-claessen_michael-brideau",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Two closers discovered mid-drill that neither of them knew the company's payment plan interest terms, offering three mutually inconsistent figures before settling it between themselves.",
+      "evidence": [
+        "You're gonna have to bring up that there is interest.",
+        "you're gonna have to find a way to bring up the interest, because it is an extra like 300 bucks or something for payment, I think, if I remember correct.",
+        "No, I think through a financer, it's a little less, I mean, but through ourselves, it's like 200 a month extra, 200, yeah.",
+        "Two and three payments doesn't have interest, by the way. Two and three doesn't have interest.",
+        "I'm pretty sure three does, dude. Does it? Yeah, I'm sure.",
+        "Three payments of 2,000. Just kidding and take it back. No, it's good that you wanted to check.",
+        "Yeah, okay, cool. didn't know that. thought it was, yeah, didn't know the three payments were."
+      ],
+      "timestamp": "00:48:47"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Standard instalment tiers with a defined interest threshold were confirmed between reps, three days after the sales manager scripted them to tell prospects that no set payment plans exist.",
+      "evidence": [
+        "So yeah, it's like, ideally you go for two, if really needed, then you can push them to. Free, but after that, it's interest, yeah.",
+        "Two and three payments doesn't have interest, by the way.",
+        "So look, everything we do is custom. We don't have any sort of set payment plans at all. It just really depends on what we can make work with the person.",
+        "I would just say that's just split up into two, then also no interest gets added, because if we go and do it through a third-party finance, it takes a lot of interest"
+      ],
+      "timestamp": "00:49:55"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer described spending ninety minutes running seven objection word tracks on a visibly frightened prospect who had a hospital history and no money, and offered it as a lesson in when to stop rather than as a concern.",
+      "evidence": [
+        "I have been on MooseMath and I've done like a one and a half hour objection handling. I've done like seven of those stupid word tracks or however you call it.",
+        "Every single time I was like, yeah, I know I need to do it, but man, it's, it's, just scared. And I'm like, okay, so what do you want to do? Yeah, man, maybe I should think about it.",
+        "He just came back into his, into his patterns because he was really just too face to make it, make a decision.",
+        "Was he had been in a hospital years ago, then. Never got any progress in 10 years time. So scary, especially if you don't really have the money. It's even worse."
+      ],
+      "timestamp": "00:39:58"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The fear track was rehearsed as an escalating shame and take-away sequence, framing a decision not to buy as crumbling into mediocrity and as what most people do.",
+      "evidence": [
+        "Or we crumble and we retreat and we go right back to where we're at today and settle for mediocrity with all due respect.",
+        "Are you sure? Because it kind of doesn't seem like it, dude, even just with how you're saying it. Like, even when you're saying that, seems like there's a little bit of uncertainty, and it's okay if you don't want to do it. Like, it really is. Like, that's what most people do. Most people don't.",
+        "Do you want to be the guy that faces fear head on, faces fear and adversity and overcomes? Or do you want to be the version of Richard that crumbles every time there's a challenge and there's a little bit of fear?",
+        "What do you want? Do you actually want the result and the outcome? Of course. Well, why though? Because it doesn't seem like you're super enthused about it.",
+        "Because again, you don't have to do it."
+      ],
+      "timestamp": "00:29:31"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The play for talking a prospect out of consulting their spouse was rehearsed again, this time using the spouse's own professional competence as the argument for excluding her.",
+      "evidence": [
+        "so if something happens in hospital, like a patient shows up in the ER, I'm assuming she doesn't, and again, with all due respect, and does what she needs to do.",
+        "I'm assuming she doesn't call you and ask you, you know, run to you to ask how to do her job. She just kind of takes care of the situation at work, right?",
+        "So again, with all due respect to your wife, man, why do you feel like it's fair for you to run to her and ask her to make a decision on something that ultimately she doesn't fully know about and that you're responsible for the results, like you already mentioned?",
+        "dude is probably not going as his wife, how does he actually make that decision?",
+        "Yeah, but usually sort of a decision we make together or at least. I don't want to just go behind her back, spend $6,000, and then, yeah, you know?"
+      ],
+      "timestamp": "00:19:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Instalment structures of two payments of $3,000 and three of $2,000 were rehearsed as the standard interest-free options, prices outside the $6,000/6mo and $9,000/12mo list.",
+      "evidence": [
+        "Man, from what I'm hearing, I would just say that's just split up into two, then also no interest gets added",
+        "I mean, could you guys split it up into like three? Let me just check. Yeah, we actually do, we actually do.",
+        "Three payments of 2,000.",
+        "ideally you go for two, if really needed, then you can push them to. Free, but after that, it's interest"
+      ],
+      "timestamp": "00:48:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording captured roughly two minutes of an unrelated third-party conversation while one participant's connection dropped, and the call froze repeatedly.",
+      "evidence": [
+        "So I got the delivery, and I have the remote control, so we can come pick it up. But when you do come, bring the drone with you, so we can turn it on, and I will unbind it from my remote control",
+        "And since you work until midnight, I mean, you're going even come after midnight tonight.",
+        "Hey, good day. How's your internet man?",
+        "I don't know what happened. Like, it says my internet's working fine, and I did a speed test, and it was super high."
+      ],
+      "timestamp": "00:44:02"
+    }
+  ]
+}

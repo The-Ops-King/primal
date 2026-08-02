@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-03_omar-maldonado_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He checked the commitment before accepting it — 'So you talked about 30 minutes, what, three to five times a week?' — was corrected to three to four and committed: 'Absolutely.' He then asked for the underlying distinction: 'In your mind, or I guess for you all, what is the difference between training and mobility?' and accepted the answer. Later he confirmed the frequency was the easy part: 'I could lean into the right direction, 30 minutes, three to four times a week, like that's easy, like, are you kidding me?'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The most-questioned pillar in this batch, and the one he ultimately rated highest. He interrogated the tooling — 'What's the app?', 'Does School combine with or use MyFitnessPal at all?', 'Why TrueCoach?', 'How does it relate to nutrition... what do those have to do with nutrition as opposed to some other apps that will focus in on specifically what you're eating and why?' — and then the delivery format: 'Is it a, hey, this is the meal that I'm creating for you, eat this? Or is it a, in a grand scheme of things, these are the macros and micros that I would like for you to ingest throughout your week.' The answer was what sold him on it: 'Being told, knowing exactly what I'm going to eat within a week, like for me, that's the pillar.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He pushed back on the substance of the delivery model rather than asking about it. On the personal-phone-number promise: 'So that's 60 people that have Trevor's number and are reaching out to him at any point in the day. That's a lot of people... Is Trevor able to, has he taken too much on?' and 'even if half of that were to reach out to him on a daily basis, that's quite a bit.' He restated the objection unresolved after the recording gap — 'I like the accountability factor, although I have my doubts on 60 people. That's wild' — and dismissed the headline benefit outright: 'I couldn't care less about accessing Trevor.' The pillar the rep called 'the most important' is the one the prospect valued least."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "third_party_price_criticism",
+      "raw": "So on Reddit, just posted a new online training platform. It's very expensive.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect opened a browser mid-call, searched the company, and read a Reddit thread describing the programme as very expensive back to the rep in real time. A live external price anchor found during the close is materially different from a remembered one, and the rep's only response was 'I don't have any words to be. All cool.' Worth knowing at a company level that this thread exists and is findable by anyone who searches during a call."
+    },
+    {
+      "type": "own_lower_tier_product",
+      "raw": "So I'm seeing a lot of, like, $1.99 a month, $200 a month. Can you tell me a little bit about that?",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "Unlike the Bryant Fields call where the rep introduced this himself, here the prospect found the $200/mo tier on the company's own site during the close and asked about it directly. A $6,000 offer and a $200/mo offer became visible side by side at the worst possible moment. The rep handled it honestly and even recommended it as the responsible option if the finances were not there."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "it's the difference between, yeah, just going on YouTube and putting in like Mark Wahlberg's kettlebell stuff versus like actually having someone with you, right?",
+      "direction": "undercuts_price",
+      "competitor": "YouTube",
+      "note": "He framed the comparison himself and, to his credit, framed it favourably to the programme. Recorded because free content is the baseline he is pricing against and because he later found and watched Trevor's YouTube back catalogue on the call — 'Six years ago. This video sucks.'"
+    },
+    {
+      "type": "stated_monthly_ceiling",
+      "raw": "I'm comfortable in telling you that I'm able to do, like, what, five to, five to seven hundred a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A hard number, given freely and immediately, and later tightened to 'Six is about my cap of what I'm willing to pay.' Every figure the rep subsequently quoted — $975, then $650 — sat at or above the top of it. The one option that would have fitted, $433/mo over twelve months on the three-month tier, was only reached at 01:28 and by then carried a $1,200 premium over the $4,000 sticker."
+    },
+    {
+      "type": "credit_aversion",
+      "raw": "I'm not the type of person to put stuff on credit card. That's just not who I am as a, as a person.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a price anchor as such but the constraint that made every financing route unavailable, and it was stated before any plan was structured. It removed the script's default answer to a money objection and nothing replaced it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A written summary of the tiers and payment options he could review off-call, at his own pace, before committing",
+      "why_unmet": "The process assumes the decision happens live. He asked for this in substance more than five times, gave the reason without being asked — 'if I lay all my options out, and think through each option clearly, not on a call, not on video, that, to me, seems more like who I am' — and offered it as explicit feedback: 'because so many options were laid out, now I have to kind of go through each option.' Nothing was sent except two payment links. This is almost certainly served by a one-page summary and is purely a matter of nobody producing one.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Evidence that a single coach carrying roughly sixty one-to-one clients can deliver the responsiveness the accountability pillar promises",
+      "why_unmet": "The claim is a personal cell number and over-communication; the disclosed ratio is one to sixty, and the rep conceded the model will need rethinking at scale. No client-facing response-time commitment, no data, no second coach. Whether the promise holds is genuinely unknown from this transcript.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A payment structure at or under roughly $600 per month that does not involve credit",
+      "why_unmet": "The in-house plan cannot reach his ceiling on the six-month tier without stretching to twelve months and adding $1,800, and every route offered — Paver, Klarna — is a credit facility, which he had ruled out on principle. The only genuinely compliant option is the three-month tier over twelve months at $433, which was surfaced late and buried in a screen-share.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Nutrition tracking integrated with an app he already uses",
+      "why_unmet": "He asked directly whether the platform works with MyFitnessPal and was told no — 'we've designed this in a way where you don't have to weigh your foods, track macros or micronutrients.' That is a deliberate product choice rather than an oversight, and it happens to align with what he said he wanted, but the integration itself does not exist.",
+      "verdict": "product_gap"
+    }
+  ]
+}

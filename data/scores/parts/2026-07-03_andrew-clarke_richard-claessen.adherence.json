@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-03_andrew-clarke_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Fast, clean open. The frame ran but only three ways — 'go over where you're currently at, see where you want to go, see if we can actually help you out there if we're a good fit. If we are, I'll take you a little bit through how I feel like we could fit in there. If not, perfectly fine, I'll still point you in the right direction' — no 'what's in the way' and no 'what you need'. Agreement taken with 'Okay?' → 'Okay. Great.' Open question asked verbatim: 'what can we potentially help you out with'. The application was referenced but not read back — 'I already saw a few things in your application, but take me through it.'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "hit", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Two of nine. Injuries were run properly and were the reason the call ended where it did — 'you mentioned you had a knee surgery, right, some time ago?... How is that going at the moment? do you still feel your knee a lot?' Training week was run and usefully pressure-tested rather than accepted — 'so it's not like a big scheduled workout, just getting some activity in and that's sort of it from what I'm hearing.' Nothing on age, height, weight, whether the company work is desk-bound, other or hereditary health conditions, results, diet, sleep or energy. The prospect volunteered the six-month-old and the busy company unprompted."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "partial", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "Stayed entirely at the surface. The prospect's stated goal — 'I just want to get stronger and fitter and more agile' — was probed once ('Do you feel like you're not fit enough?') and never laddered. No bridge to what is driving it, no impact question, nothing on the six-month-old daughter who had just been mentioned, no reflect-back. The two good questions the rep did ask were about modality preference rather than motive: 'is it something specific that actually attracted you to, wanted to go do something with kettlebells?' and 'What's getting you to want to stay away from the gym?'"
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Never run. The closest question was 'what got you to book the meeting with me at the moment?', which is a trigger question, not a past-attempts question, and it returned nothing usable — 'I just clicked on the link in one of the emails.' The prospect volunteered the structural gap himself — 'having someone keep you consistent and probably pushing the limits' — and the rep did not pick it up."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "The rep made a deliberate decision at three minutes to defer the whole conversation on medical grounds, before any consequence work. Running a cost-of-inaction frame on a man five weeks post knee surgery would have been the wrong move, and the phase was never reachable on this call."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "No commitment was sought because nothing was being presented. The call was converted to a rebook at 00:03:33."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted and no price was named, so the phase does not apply."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clinical-fit block with no scripted play — the same gap the playbook already records from the Tyron Giuliani call. The prospect is five weeks post knee surgery, is under physio, cannot squat or lunge, and volunteered that he could 'probably do a kettlebell swing now'. There is no scripted path for assessing what the programme can safely deliver inside a medical restriction, or for asking the prospect to get written clearance. The rep improvised the safest available answer — defer and rebook — which protects the prospect but converts a live call into a five-week gamble with nothing holding it."
+    }
+  ],
+  "notes": "Right instinct, no process. The rep spotted the clinical block early and refused to sell into it, which is exactly what the audit wants to see, but he then abandoned the whole discovery instead of finishing it — so on 7 August he restarts from zero with no baseline, no why and no root cause on file. The fix is that a medical deferral should end with the discovery complete and a clearance question asked ('what would your physio need to see before you can load a swing?'), not with a calendar invite and a text."
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-07_mike-chenard_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered a positive reaction and tied it to his own history before the pillar was even finished — 'when I saw the videos, I was like, wow, I miss that stuff. That looks like it would be fun, it's going be challenging, and that's what I need.' Also 'That sounds great' to the 30-40 minutes, three to four times a week structure, which directly answers his stated time complaint."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with the what/when/how-much framing with no questions and no pushback — 'No, sounds good.' He already weighs and measures his food and said he likes the structure, so the simplification was a soft sell; he did not ask how it would interact with his current tracking."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Agreed without questions — 'No, sounds cool' — after the app, direct cell number and weekly check-ins were described. He had already named one-on-one coaching as the missing piece, so this was the pillar most aligned to his stated gap, yet it drew the flattest response of the three."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "it was like 20 bucks a month, and they gave all the, all the programming.",
+      "direction": "undercuts_price",
+      "competitor": "Street Parking",
+      "note": "The dominant anchor. He ran this for about two years and it worked well enough to carry him through COVID and beyond. $6,000 for six months is roughly 250x his current monthly programming spend, and the rep never addressed the ratio."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "was like 150 or so, maybe a month, I was paying at the time, 170, or no, maybe it's like more like 175 or something.",
+      "direction": "undercuts_price",
+      "competitor": "Local CrossFit affiliate",
+      "note": "His reference price for in-person coaching with gym access is about $175/month, and he left the second affiliate because at that price he 'didn't feel like I was getting my money's worth'. $1,000/month is a large step up from a man who already churned on value at $175."
+    },
+    {
+      "type": "other",
+      "raw": "my, my Canadian dollars are not as much as the U S dollar.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Currency anchor. The USD list price converts to about CAD 8,300, which the prospect worked out on the call. For non-US prospects the effective ask is materially higher than the number the script is built around, and there is no play for it."
+    },
+    {
+      "type": "other",
+      "raw": "I was basically paying for an open gym membership, which gave me access to the gym whenever I want, but then I was working with one of the trainers. So he was giving me, you know, custom programs based on my goals and objectives.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has bought one-on-one coaching before, valued it, and names its absence as the thing that has been missing. He also paid for six months of sports psychology last year. The habit of paying for expert help is established — the constraint is liquidity, not willingness."
+    },
+    {
+      "type": "other",
+      "raw": "It's over $20,000 for sure. And my line of credit is like $30,000 maybe or something, so those are definitely options.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "About $50,000 of available credit against $1,400 of cash. This is what converted a stated 'I don't have the money' into a live financing conversation, and it is the anchor the rep actually used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "The community and social side of training — training alongside people, the shared competition and fun that made CrossFit stick for over a decade.",
+      "why_unmet": "The programme is solo home training with a remote one-on-one coach, an app and text access. There is no group, no cohort and no in-person element. He named this as the single reason CrossFit worked and the reason its loss hit him hard — 'it wasn't about how I looked. It was about the people that were around and the fun that I had with the people and socializing and like the competition' — and the rep did not respond to it at all, then presented a solution that is structurally solitary.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To pay monthly at the list price rather than pay a premium for instalments.",
+      "why_unmet": "The only monthly structure offered carried a $1,200 surcharge — six payments of $1,200 for $7,200 against a $6,000 list — so the option that matched his cash flow was the one that cost him most. He was pushed to third-party financing instead, which moves the cost off the company and onto his credit.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Evidence that the intensity and athletic challenge of CrossFit is genuinely replicated, not just asserted.",
+      "why_unmet": "The rep asserted the equivalence — 'that's exactly what kettlebells actually are... you're getting the pump of the body building, so to say, and the cardio buzz in the same session' — using his own hiking story as the proof. For a prospect with 17 years of training and a specific, well-formed idea of what conditioning feels like, no demonstration, sample session or client example was offered.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

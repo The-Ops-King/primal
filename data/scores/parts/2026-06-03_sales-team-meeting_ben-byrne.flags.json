@@ -1,0 +1,71 @@
+{
+  "call_id": "2026-06-03_sales-team-meeting_ben-byrne",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager instructs a closer to stop using the Consequence Frame, which is Phase 5 of the company playbook and carries a 20% adherence weight.",
+      "evidence": [
+        "I don't really, I don't really love that stuff. And it doesn't usually work on like prideful guys. It just doesn't.",
+        "that's why I don't really do... a consequence with pride very much. I don't.",
+        "and then like poking them with a stick, being like, why do you suck? What happens if you don't do anything? Like, it's just not how I sell.",
+        "Yeah, I mean, I'll just try it that way, more empowering."
+      ],
+      "timestamp": "00:39:09"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager teaches a call sequence that differs from the documented playbook, including a 'pre-pitch' phase the playbook does not contain.",
+      "evidence": [
+        "Why do current situation, past attempts, then future?",
+        "Yeah, timing, commitment, and then pre-pitch, and then pitch.",
+        "I'll send you over my pre-pitch training because I did a whole pre-pitch training of, like, how I like to do this",
+        "So the pre-pitch is less about, you know, how Cole explains it, which is generally like more about the process or the program"
+      ],
+      "timestamp": "00:45:42"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The pre-pitch is taught as identity flattery that applies to any prospect, delivered as if it were a genuine individual assessment of their fit.",
+      "evidence": [
+        "So it's almost like I'm qualifying that they're the right fit. Like they're the type of person that we get the best results for no matter who they are.",
+        "use that for anybody.",
+        "But that's why it works so well is because so many people feel that way about themselves.",
+        "Well, I have some honest thoughts for you if you're open to it.",
+        "And then you're getting them to buy into it because if they buy into it, what does it do? It puts them into an empowered state of resourcefulness and openness"
+      ],
+      "timestamp": "00:28:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An automated bot messages booked prospects on a repeating pre-call schedule, with no mention in the meeting of disclosing that the messages are automated.",
+      "evidence": [
+        "with the changes we've made in the application, and just considering just what I'm seeing with the bot and how we've optimized that too, we added another question in that I think is kind of helping nurture people a little bit before, because every like three hours before a call now, it starts to send them another message",
+        "So I think it's just really helping to get people to remember and then show up."
+      ],
+      "timestamp": "00:10:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A live deal is being worked against a prospect in active divorce proceedings whose funds are under a lawyer's control.",
+      "evidence": [
+        "I do have a guy that. His objection was that he's going through a divorce, and he has to talk to his lawyer to figure out the money situation, but that's going to happen next week, and he said he wants to do the one-on-one coaching."
+      ],
+      "timestamp": "00:08:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The closer describes the taught method as potentially requiring manipulation, and the manager does not correct the framing.",
+      "evidence": [
+        "it's less empowering, I guess, for you to, like, get them to the point mentally, whether you have to manipulate them in to do that or whatever, where it's like, okay, this is something you need to do.",
+        "It's almost like the wrong essence or state of mindset going into something versus, like, no, this is something I absolutely want to do."
+      ],
+      "timestamp": "00:49:42"
+    }
+  ]
+}

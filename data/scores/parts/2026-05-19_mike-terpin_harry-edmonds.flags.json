@@ -1,0 +1,25 @@
+{
+  "call_id": "2026-05-19_mike-terpin_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Recording terminates at 00:04:14 on a connection failure the rep had already reported at the start of the call, leaving a four-minute fragment with no recoverable outcome and no continuation file in the batch.",
+      "evidence": [
+        "Pretty good, thanks, apart from the fact that my Wi-Fi has been messing up all day",
+        "Oh, you cut out now too? You there?"
+      ],
+      "timestamp": "00:04:14"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Prospect is identified in the transcript only by a phone device model, so the record depends entirely on the file title for the prospect's identity.",
+      "evidence": [
+        "00:00:03 - Samsung SM-F766U / Got it. How are you doing?",
+        "00:00:16 - Samsung SM-F766U / Good, I was going to say, we don't take calls if you're driving, ever since then."
+      ],
+      "timestamp": "00:00:03"
+    }
+  ]
+}

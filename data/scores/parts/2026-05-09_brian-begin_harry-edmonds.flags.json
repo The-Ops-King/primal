@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-05-09_brian-begin_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect with active autoimmune disease, SIBO, painful bladder syndrome and crash episodes lasting up to a week named clinician clearance as his biggest concern, and the rep restructured the onboarding so payment and setup could complete before that clearance was obtained.",
+      "evidence": [
+        "I grew up with a lot of autoimmune disorders... My body would get very tired and fatigued very easily, would crash... I would work out really hard for two or three weeks and then I'd have to sleep for two weeks to recover because I have a cytokine problem.",
+        "And that's my biggest concern is this, I don't want to start something and then have my body crashing completely on me. And so I was to talk to Mark about what he thinks about my body's ability to be able to handle this and what he thinks and all that kind of stuff.",
+        "We'd onboard you. You obviously do whatever you need to do, Mark, whether it's a week, whether it's a month, whether it's two months, it's all fine. We still onboard you.",
+        "But either way, if Mark says, do it in a week, do it in a month, you're still prepared and set up for everything to the point where it's a click of a finger you start",
+        "We want to, like, at least give you some mobility stuff because the mobility stuff, it doesn't tax a CNS."
+      ],
+      "timestamp": "00:55:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "The rep again offered to help mischaracterise the coaching fee as a deductible business expense, and went further than on prior calls by offering to issue an invoice worded to whatever description the prospect's accountant required.",
+      "evidence": [
+        "We just do it on a credit card. We can help you write it off as well.",
+        "For example, I signed up a guy yesterday who owns three The fast food restaurants... we framed it as safety and injury prevention program, and he could write that off.",
+        "You can speak to your accountant. If there's a specific way that it has to be, you need it framed to be able to write it off, just let us know, and we can send an invoice with that.",
+        "If we frame it as some form of embodiment program, that's... Yep. There you go."
+      ],
+      "timestamp": "00:46:36"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep disclosed another client's identifying details — business type, number of outlets, brand and state — to an unrelated prospect on a recorded call.",
+      "evidence": [
+        "For example, I signed up a guy yesterday who owns three The fast food restaurants. Convenient. I think they were called Culver's? Culver's?",
+        "Oh yeah, Yeah, was Culver's in Minnesota, dude."
+      ],
+      "timestamp": "00:46:54"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep offered unqualified causal explanations for the prospect's undiagnosed abdominal distension and structural presentations, and left a ChatGPT-derived clinical reassurance unchallenged.",
+      "evidence": [
+        "according to ChatGPT, analyzing it, you know, the chat is what it is. It tells you you need to go to doctors immediately, right? No, it actually says the opposite. It says you're fine. It says with some really good training, you should be able to work that out.",
+        "I think a lot of it will be genetic, and that can come from unlearned behavior as well. Like, perhaps there's a lot of, like, trauma just around that area of the body.",
+        "Well, know science says now that we can hold fat where in the, because the body's trying to hold toxins in the tissues in that area.",
+        "I think partially it's going to be your genetic, um, fat deposits. Partially it's going to be the bladder."
+      ],
+      "timestamp": "00:18:48"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep stated that payment plans split beyond two instalments carry an additional charge but never disclosed the amount, repeating a pattern of unquantified surcharges on extended terms.",
+      "evidence": [
+        "So yeah, you can break it up as well. Um, what I always suggest to people, cause like, I'd either suggest doing it upfront or you can do it in two payments, just like a 50, 50. Um, anything like broken up more than that, like there's extra on top."
+      ],
+      "timestamp": "00:53:08"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-07-22_pukar-patel_andrew-musial",
+  "source": {
+    "drive_file_id": "1lqQeDcl5cqnURWYL0C3xwBZTDgiDWnNM",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/22/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 49769
+  },
+  "call": {
+    "date": "2026-07-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter is named anywhere in the transcript. The rep opens from an inbound application — 'I've seen your application' — and the pre-call testimonials and texts are attributed to himself and to 'we', never to a named setter. Title carries no KFS/KL/DH suffix."
+  },
+  "prospect": {
+    "name": "Pukar Patel",
+    "aka": "ppatel",
+    "name_source": "transcript",
+    "location": "Los Angeles, California, USA",
+    "age": 42,
+    "occupation": "Office-based professional; drives 15-20 minutes to an office. The rep asked directly but the answer was lost to a diarization collapse and was never re-asked, so the actual role is unknown.",
+    "family_status": "Married with two young children, aged five and almost three",
+    "height_in": 72,
+    "weight_lb": 162,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained in a gym with a personal trainer years ago, before the children, including basic kettlebell work — goblet squats and lunges. Road cyclist: rode consistently for five to six months pre-children and felt a marked stamina benefit. Plays cricket two to three times a month at weekends, eight-hour ODI format early season and three-hour short format otherwise. No current structured training. Walks at work and plays outdoors with the children. Wears an Oura Ring. Has just taken delivery of a kettlebell set and mat for the garage.",
+    "kettlebell_experience": "some",
+    "medical": "High cholesterol on recent blood work, which he intends to re-test in six months and wants to bring down through diet and exercise. Vitamin D deficiency, supplementing. All other bloods including testosterone reported in normal range. Acute: a deep laceration to the hand sustained gardening the previous day — cannot pick things up because it restarts bleeding. No chronic pain, no back or hip stiffness, describes himself as fairly mobile."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.55,
+    "signals": [
+      "Price is not the blocker — 'I don't mind paying that. I mean, if it's going to get me to that point at six months, I'm actually fine paying with that'",
+      "Wants refinement rather than rescue: 162 lb at 6'0\", goal is 'more defined. Like, more athletic... not more, like, bodybuilder or anything'",
+      "Health-literate and self-quantifying: full blood panel, Oura Ring, already bought the equipment before the sales call",
+      "TENSION IN THIS ASSIGNMENT: he is not actually 'already fit' — he has no current training routine, is gym-averse ('one part I hate is what I don't like is actually going to the gym'), and says 'I've never been in a shape that I would like to be', which is neither an optimizer's good-to-great nor a rebuilder's former self",
+      "Also carries skeptical_bargain_hunter behaviour — asked for a new-customer discount and anchored to the company's own $200/month Primal University app — but has no cheap alternative that actually worked for him, so that avatar does not fit either. Proposed label for central clustering: 'the_structure_seeker' — capable, solvent, never had a plan, buying the schedule rather than the coaching"
+    ]
+  },
+  "goals": [
+    { "text": "Bring his cholesterol number down at the six-month re-test through diet and exercise", "category": "longevity_function" },
+    { "text": "Do regular full-body work with a cardio component to protect his heart health", "category": "endurance" },
+    { "text": "Recomposition — lose belly fat and replace it with muscle rather than lose weight", "category": "muscle_gain" },
+    { "text": "Look more defined and athletic, having never been in the shape he wants", "category": "appearance" },
+    { "text": "Have a fixed weekly schedule he can execute without thinking about it and get on with his day", "category": "convenience" },
+    { "text": "Learn correct kettlebell technique so the work actually counts and he does not get injured", "category": "injury_prevention" },
+    { "text": "Train in his own garage rather than driving to a gym", "category": "convenience" },
+    { "text": "Be healthy for his children as they grow up and model working out for them", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Hates going to a gym — the driving, the public space, the not knowing what to do", "category": "training_barrier", "severity": "high" },
+    { "text": "Has never had anyone give him a routine, so he goes in and does random work with no idea what it will achieve", "category": "accountability_gap", "severity": "high" },
+    { "text": "Doubts his own technique and knows bad form both wastes the effort and risks injury", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Two young children ended a consistent training habit and now keep him busy", "category": "time_scarcity", "severity": "medium" },
+    { "text": "High cholesterol on recent blood work", "category": "medical", "severity": "medium" },
+    { "text": "Vegetarian diet heavy on rice, lentils and yogurt with Chipotle at work — describes it as 'not a great plan' and cannot always avoid junk", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Deep hand laceration from gardening that currently prevents him gripping or lifting anything", "category": "injury", "severity": "medium" },
+    { "text": "Gets tired playing cricket in California heat when his conditioning slips", "category": "hobby_performance", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I just, I want to make sure if you can, able to accept your money-wise so I can put it, not all upfront.",
+      "timestamp": "00:37:32",
+      "rep_response": "Offered a three-payment structure at $2,000 each with no interest, and noted a six-payment option would add roughly $1,200 overall. Prospect took the three-pay.",
+      "response_tactic": "offer_interest_free_three_pay",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "There's no promotion for a new person, or any of that, or I don't know. Like don't you guys have any?",
+      "timestamp": "00:30:42",
+      "rep_response": "Held the price cleanly — 'So there is no, like, discount on the price itself. But we can structure the payment.' Also confirmed $6,000 covers everything and no equipment purchase is required beyond one kettlebell.",
+      "response_tactic": "hold_price_offer_structure_only",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I just wanted to kind of do some research before I commit to this, you know, 6K and all that stuff. That's all.",
+      "timestamp": "00:45:11",
+      "rep_response": "Asked whether anything was red-flagging him, asked what exactly was unclear ('Because I don't think I get it, to be honest'), asked him to read the room and whether he believed it could get him to his goals, and offered the try-it-to-know-it line. Then requested a $100 refundable deposit to hold the slot. Prospect declined and the rep conceded.",
+      "response_tactic": "probe_for_hidden_objection_then_request_holding_deposit",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "But I still like to understand what other people are saying about this six-month program, other than what you guys said.",
+      "timestamp": "00:48:11",
+      "rep_response": "Pointed back to the testimonials already sent and shared a 54-year-old client's three-month before-and-after photos in the Zoom chat, then argued reviews cannot settle it: 'you can read all the reviews that you want, but eventually how actually you will know if you never actually tried it for yourself on your body.' No independent third-party proof was available.",
+      "response_tactic": "restate_first_party_proof_then_reframe_to_personal_trial",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "But I would, it's not that you, I have to pay on the first call. Usually first calls are introductions, explaining what it is and all that stuff.",
+      "timestamp": "00:47:43",
+      "rep_response": "Took it as a personal delivery failure — 'So it looks I haven't done my job properly if you don't have clarity until now' — and asked what was missing rather than addressing the expectation itself. Never acknowledged that the prospect had not been told this was a decision call.",
+      "response_tactic": "absorb_as_own_failure_and_re_probe",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 6000, "note": "three payments of $2,000, explicitly interest-free — the structure the prospect selected" },
+      { "months": 6, "price_usd": 7200, "note": "six-payment option described as 'additional like 1,200 in overall'" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "3 x $2,000 with no interest. A $100 refundable holding deposit was also proposed as a condition of taking time to decide, and declined.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent; the rep began the close ('let's get through the agreement and the payment') and the prospect diverted to asking for programme detail",
+      "The onboarding slot with Trevor for Tuesday the 28th at 3:15pm was booked and then explicitly unwound — 'you don't have to book anything for next week'",
+      "The $100 holding deposit was offered and not taken",
+      "Prospect ended on his own terms: 'once I'm good with this, I'll just text you and they're like, okay, I'm okay with moving forward. What's the next step?' Rep agreed: 'we'll schedule another call and meet and get you on board'",
+      "POSITIVE SIGNALS: strong stated intent throughout — 'I don't mind paying that', 'once I'm in, I'm in', 'I'm actually fine paying with that', and he had already bought a kettlebell set before the call",
+      "COUNTER-EVIDENCE against optimism: the reason for delay is unresolved third-party validation, which the company cannot supply, and he leaves controlling the next contact"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect will do independent research on the programme and text the rep when ready; a new call would then be booked to onboard. Rep left the ball entirely in the prospect's court with no scheduled follow-up date."
+  },
+  "notable": {
+    "note": "A well-qualified, solvent, ready-to-buy prospect who had already purchased kettlebells and said outright he does not mind paying $6,000 — lost to the calendar, not to the price. Two structural problems caused it. First, an expectation mismatch: he believed a first call was an introduction, not a decision point, and said so explicitly. Second, the only proof available is first-party — he asked for independent reviews and there were none to give. The rep then attempted to convert the hesitation into a $100 refundable holding deposit, an instrument that appears nowhere in the offer, which reads as a commitment device rather than a payment. Also worth noting: the prospect had independently found the company's own $200/month Primal University app and had to be told it was a different product, the second time in this batch that the low-tier product has confused a $6,000 buyer."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution is badly and frequently inverted in both directions. Long passages carry the wrong label outright: the entire injury-screening exchange from roughly 00:08:52 to 00:10:00 is collapsed under the prospect's 'ppatel' label but contains the rep's questions; the price reveal at 00:20:20 ('The full investment for that, in order to get you to your goals, is 6K') is labelled 'ppatel' but is unmistakably the rep; and the prospect's questions about discounts and tiers repeatedly appear under the rep's label. Roles were read from content throughout. Because of this the record contains no talk-ratio or first-speaker claims, only role-level facts."
+  }
+}

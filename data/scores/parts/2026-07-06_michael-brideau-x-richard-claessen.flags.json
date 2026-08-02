@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-07-06_michael-brideau-x-richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Closers adopted and rewrote an external script whose explicit purpose is to argue a prospect out of consulting his spouse before committing $6,000 of household money.",
+      "evidence": [
+        "there's a responsibility frame, which I think I... I [have] it here, which I'm not, I haven't actually memorized and I really do... Partner tie down.",
+        "So with all due respect to your wife, man, like, you know, I have a partner myself, why do you think it's fair for you to actually go to her? Ask her to make a decision on something that she's never really been involved with.",
+        "she doesn't fully know like you and I do, and she's never been responsible for the results that's always been on you",
+        "whose responsibility is this? So if that's the case and you know this is on you and no one else, what's the decision that the man who's already fit and energized and has lost 20 pounds and showing up for the family the way he wants, what's the decision that he makes right here and right now? And it's probably not go and ask his wife.",
+        "This is all from, this is all Bill Walsh's scripting."
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording terminates mid-word at the exact moment the rep raises an objection to the recordings being routed automatically into the sales channels.",
+      "evidence": [
+        "It's annoying that these recordings go directly back into the, into the sales channels. Hold up, hold up, hold up, hold up, hold"
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The whole transcript is emitted as one speaker turn under a single timestamp, so no line-level attribution or timing exists for this file.",
+      "evidence": [
+        "00:00:01 - Richard Claessen"
+      ],
+      "timestamp": "00:00:01"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "call_id": "2026-07-12_dustin-arnheim_richard-claessen",
+  "source": {
+    "drive_file_id": "1U6e2CoXIZxr30m-3U6I5ii-qrkJhBRpr",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/12/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/12/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 24274
+  },
+  "call": {
+    "date": "2026-07-12",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Not a second call, but the meeting had been rescheduled at least once — 'thank you that you were able to reschedule as well' — and the prospect had already received an automated five-video email sequence before it.",
+    "duration_min_est": 20,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No human setter is named. An application exists and the rep used it three times ('I already saw a little bit in your application', 'I saw in your application that your mobility or like your, you have like lower back pain, right?', 'you mentioned that you were doing four times a week training'). Pre-call nurture was automated: 'I don't know if you've already seen the video that Sophia, the bot, sent to you.'"
+  },
+  "prospect": {
+    "name": "Dustin Arnheim",
+    "aka": "Zoom display name reads 'Dustin Arnheim, Choose Chicago', indicating his employer",
+    "name_source": "transcript",
+    "location": "Chicago, Illinois, USA",
+    "age": null,
+    "occupation": "Not asked. His Zoom display name identifies him with Choose Chicago; he refers to having 'changed for my career' during the pandemic and to work stress over the last four years.",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains four times a week at home in a small dedicated space using kettlebells, bodyweight and free weights, and says he knows enough to run a decent rotation himself. Worked with a virtual trainer until roughly five years ago and rates it a success — put on about 30 lb of mostly muscle — then stopped during the pandemic for cost reasons combined with a plateau and a career move, and lost the gains over the following years. Describes a very fast metabolism and says he loses muscle quickly when not training.",
+    "medical": "Chronic lower back problem, disclosed in the application and confirmed as material on the call — 'I have to get up every morning and stretch to really get my body moving. I have a back lock up on me... it's a real issue.' Under ongoing professional care: sees a muscle activation therapist once to twice a month. Strict dietary exclusions: dairy-free, gluten-free and peanut-free, which he says makes weight training challenging. Eats very little sugar and few carbohydrates, with no eating window, and is currently trying to eat frequently to add weight. No health conditions question was asked and no clinician clearance was sought."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.72,
+    "signals": [
+      "Opened by demanding the price before any discovery and framed it as efficiency: 'before we spend too much time on this call, just out of respect to each other's time'",
+      "Self-directed and capable — trains four times a week unsupervised and says 'I know enough to have a pretty decent rotation of workouts'",
+      "Anchored to a specific low number set before any value was presented: 'I would have liked to spend closer to $200 or $300 a month'",
+      "Burned by the category's central claim and says so with precision: 'I feel like that it's sold as it's detailed and tailored, and the reality, it's not the quality or the tailored approach that I would want or need'",
+      "Counter-signal: unlike the classic bargain hunter, his cheap alternative did not work — he lost everything he had gained — so the anchor is a budget rather than a functioning substitute"
+    ]
+  },
+  "goals": [
+    { "text": "Put muscle back on after losing roughly 30 lb of muscle over four years", "category": "muscle_gain" },
+    { "text": "Resolve the chronic lower back problem that locks up overnight and requires stretching every morning", "category": "mobility" },
+    { "text": "Find what is realistic for long-term mobility and strength as he ages — 'as I get older, I know that it's harder to maintain that muscle'", "category": "longevity_function" },
+    { "text": "Better health, which he defines as feeling good plus mental clarity — 'when I work out, I feel good, right? Mental health, clarity, all that good stuff'", "category": "energy_performance" },
+    { "text": "A systematic plan designed for his body type and progress rather than one he has to programme himself", "category": "other" },
+    { "text": "External accountability and motivation", "category": "accountability" },
+    { "text": "Keep it going this time rather than losing it again", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Chronic lower back that locks up, requiring a stretching routine every morning and monthly or twice-monthly muscle activation therapy", "category": "injury", "severity": "high" },
+    { "text": "Lost roughly 30 lb of muscle over four years to work and stress after his trainer ended", "category": "consistency", "severity": "high" },
+    { "text": "Strict dairy-free, gluten-free and peanut-free requirements that he says make weight training difficult", "category": "medical", "severity": "high" },
+    { "text": "Distrusts the personalisation claim in online coaching after being sold templated meal plans — 'those aren't of particular value to me'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Very fast metabolism; loses weight and muscle quickly whenever he stops training", "category": "training_barrier", "severity": "medium" },
+    { "text": "Previous coaching ended in a plateau where his body stopped responding", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Had to cut the previous trainer as an expense during the pandemic", "category": "other", "severity": "medium" },
+    { "text": "Programming for himself and wanting someone else to own the design", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Before we go too deep, because I have done a virtual trainer, I found it successful, it's been a few years, probably, I ended probably about five years ago, but I want to know what the payment structure, and I know that may range or not, but before we spend too much time on this call, just out of respect to each other's time.",
+      "timestamp": "00:00:57",
+      "rep_response": "Attempted to reverse it — 'Is that because you have like a small budget for yourself? ... what is sort of your budget looking like?' — and when the prospect refused to anchor, disclosed a range: a community tier at a couple of hundred a month, and one-to-one 'at least into the four figures, usually ranging between two and six'. The prospect then named $200-300 a month and the rep conceded the main offer was out of reach within four minutes of the call starting.",
+      "response_tactic": "attempt_budget_extraction_then_disclose_range_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I've done the meal plans, those aren't of particular value to me. I feel like, with all due respect, I feel like that it's sold as it's detailed and tailored, and the reality, it's not the quality or the tailored approach that I would want or need.",
+      "timestamp": "00:02:25",
+      "rep_response": "Not addressed. The rep moved straight to describing the community tier and never returned to the personalisation claim, never offered evidence of tailoring, and never presented a nutrition pillar at any point on the call.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I do know that, like, when I did this in the past, there were times where I needed to have a conversation. Because text message is not the most efficient or effective way to communicate always. So I am a little hesitant about it 99% being text message, but I mean, I don't, I'm not a hundred percent against it, but that is a question mark in my head right now. I'm like, is that the right fit?",
+      "timestamp": "00:17:26",
+      "rep_response": "Defended the format on results grounds, then effectively invited the prospect to disqualify himself: 'it comes down eventually to yourself, right? Like if you've got a no[gging feeling] and I would suggest don't do it then. But if you feel like, oh, maybe it is something I see myself doing, then it's definitely worth checking out.'",
+      "response_tactic": "defend_format_then_invite_self_disqualification",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Yeah, no real questions just yet. I think I need to just see more and can go from there.",
+      "timestamp": "00:16:47",
+      "rep_response": "Offered to send a Skool community invite and 'a few more things', asked nothing further, and did not attempt a close of any kind.",
+      "response_tactic": "offer_to_send_materials",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": 200 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no link and no close attempt of any kind. The rep's final position was 'if you feel like, yeah, this is what I want to do, then come back to me and we'll get you started.'",
+      "Prospect deferred on information grounds: 'I think I need to just see more and can go from there' and 'will you send me something that highlights the payment?'",
+      "Rep to send a Skool community invite plus unspecified additional materials.",
+      "Counter-evidence toward a future close: 'I'm good with it conceptually', he liked the video form-feedback mechanism specifically, he has bought virtual coaching before and rated it, and he pays a muscle activation therapist monthly.",
+      "Counter-evidence against: he anchored himself at $200-300 a month before hearing anything, the rep conceded four minutes in that four figures was 'quite out of what you would want to spend', and an unresolved objection to text-only coaching was left standing at the end of the call."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a Skool community link and further materials including something that sets out pricing; prospect to review and come back if interested. Nothing booked."
+  },
+  "notable": {
+    "note": "Two things a principal should take from a twenty-minute call. First, this is the fullest price disclosure anywhere in the batch and it does not match the stated offer: three months $4,000, six months $6,000, twelve months $9,000, community $200 a month or $2,000 a year — plus, earlier in the same call, a spoken range of 'between $2,000 and $6,000 to $8,000'. The three-month $4,000 tier and the $8,000 top end appear nowhere in the stated offer. Second, the rep revealed in passing that the pre-call nurture sequence is sent by an automated persona: 'I don't know if you've already seen the video that Sophia, the bot, sent to you.' The prospect had watched or skipped five of those videos already and had not been told they were automated. Clinically, the prospect has a chronic lower back that locks up nightly and is under the care of a muscle activation therapist twice a month; no one asked whether that clinician had cleared loaded kettlebell training, and the rep suggested the programme would remove his need to stretch in the morning. The rep also mentioned working until 3am as routine."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Inverted from the very first line — 'Can you hear and see me okay?' is the rep's but appears under Dustin's label at 00:00:00, and the pattern persists. Clear examples: at 00:00:20 'What time is it there?' is Dustin's under the rep's label; at 00:02:22 'Do you feel like that's something doable for you?' is the rep's, inside a block containing Dustin's 'What's your [amount]?'; at 00:06:50 to 00:07:07 the 1-to-10 question and the answer about the back locking up are split across the wrong labels; at 00:13:59 the AI question and the answer 'Nothing AI' are inverted; at 00:16:57 to 00:17:09 three consecutive turns are misattributed. Roles read from content throughout. Recurring transcription artefact: 'Fathom' for 'amount' at 00:02:21, 'houses' for thousands at 00:02:10, 'six grants' for six grand at 00:18:56, and 'the school' for Skool."
+  }
+}

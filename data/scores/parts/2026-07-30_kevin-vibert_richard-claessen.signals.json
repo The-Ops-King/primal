@@ -1,0 +1,58 @@
+{
+  "call_id": "2026-07-30_kevin-vibert_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Delivered only in the context of the self-serve tier. He came back for detail after price: 'what does the plan look like for the first one?' and 'The workout routines and stuff like that.' The rep described the two-month foundation, the monthly rotating programme and the daily mobility work, and he closed it out with 'Okay. Perfect.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "He asked whether it was included at all rather than reacting to the substance: 'And then there's also a diet plan with it?' — answered as 'a place with full nutrition guidelines'. Earlier he had asked the rep directly what the nutrition approach was ('I don't know. What do you got? I mean, I'm open') and never received a specific answer."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He pre-empted the pillar and pushed back on needing it in its one-to-one form: 'I don't necessarily need to work one-on-one. I could deal with just a plan and maybe some form of commitment, some form of being able to prove that I did the plan and whatnot.' Note the internal contradiction — he rejected the coach while asking for a completion-proof mechanism, and the rep did not test it. When the accountability pillar was later described as part of the $6,000 tier ('If you don't work out for whatever reason, he's also going to be like, Hey, what are you doing?'), he had already selected out of it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_program",
+      "raw": "I've been looking at a girl by the, she has something called the movements, and she's into squatting... Her podcast is called Making Moves.",
+      "direction": "undercuts_price",
+      "competitor": "'Making Moves' — a mobility and movement creator the prospect follows",
+      "note": "He was actively shopping between free YouTube movement creators, Trevor among them, and pulled out his phone mid-call to look her up. The rep's response was to differentiate on scope ('They're very focused just on mobility and movement, and that's it') rather than on outcome. The alternative in his head costs nothing."
+    },
+    {
+      "type": "diy_substitute",
+      "raw": "I've got a set routine that I do in the morning, and it takes me about half an hour. And that's basically it, where I'm at now.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He already has a functioning free routine and thirteen years of self-directed results behind it — down from 228 lb to 179 lb without help. The offer had to beat something that has demonstrably worked for him, which is the same structural problem the playbook flags as an unaddressed gap."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A way to prove he completed the plan — 'some form of commitment, some form of being able to prove that I did the plan'",
+      "why_unmet": "He selected the self-serve tier, which has no coach check-ins, no logging enforcement and no one chasing him. The completion-proof mechanism he asked for exists only inside the $6,000 product, and the rep never connected his request to that fact.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A keto-style nutrition plan with a lower fat proportion than standard keto",
+      "why_unmet": "The programme's nutrition approach is whole foods plus an eating window, not ketogenic. He asked directly what the approach was — 'I don't know. What do you got? I mean, I'm open' — and the rep never answered before moving to price.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A website he could go to and sign himself up",
+      "why_unmet": "There is no self-serve checkout. The rep has to send a link manually and made it conditional on the prospect messaging him first — 'just send me a message and I will send you a link' — which puts the next action on a 71-year-old who has already deferred once.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that will stop him injuring his back water skiing every year",
+      "why_unmet": "This was his most concrete functional goal and the offer's response to it is a generic mobility routine. Nobody established what the recurring injury actually is, and the tier he was steered to has no individual assessment at all.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-28_carlos-lopez_harry-edmonds",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep walked the prospect into a live third-party consumer credit application during the sales call, framed as getting clarity on numbers rather than as applying for credit, and asserted it would not affect his credit file.",
+      "evidence": [
+        "I just put a link in the chat. You know, this will only take us like two minutes. If you pull that up, just put your name and email in, it will take you to like a checkout page. There'll be an option called Klarna. If you click on it and click pay now, obviously you're not going to pay yet.",
+        "it will give you the exact numbers, so at least you have clarity on exactly what it would be instead of, like, guess-working",
+        "It's a soft pull as well. So by the way, it won't affect anything, but that's strange.",
+        "It's better than the 30% that you pay with a credit card, you know?"
+      ],
+      "timestamp": "00:29:40"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Financed alternatives were quoted at $7,200 (six payments of $1,200) and $7,800 (twelve payments of $650) against the stated $6,000 six-month price, and the rep stated that no standard payment plans exist.",
+      "evidence": [
+        "we do have another one but it has more interest on it, um, with that one it would be you can do it in six payments of 1200",
+        "the six months, if you did it monthly, would be $1,200 a month, and if you wanted to spread it out over 12 months, it would be $650 a month",
+        "We do, like, if let's say you were to say to us, I can't do it upfront, it's impossible, but I really want to do this. Like, we'll figure something out with you, but everything's all tailored. We don't have, like, set payment plans, if that makes sense."
+      ],
+      "timestamp": "00:34:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a hamstring injured three days before the call, a recurring shoulder that hurts on every chest session, and a pattern of injuring himself through unsupervised training; the rep asked no follow-up, sought no clearance, and described a programme built on snatches.",
+      "evidence": [
+        "on today is Thursday, I think it was Monday, I tweaked my hamstring squatting. And honestly, that's what led me to like, you know what, it's time.",
+        "I have tried to do more chest, but then it starts hurting my shoulders. And I'm like, there has to be a better balance here.",
+        "have dealt with a few injuries because I'm not doing it right",
+        "you will be swinging around a 20-pound heavier kettlebell in all of the movements, the main movements, obviously not like bicep curls, but snatches, all that sort of stuff"
+      ],
+      "timestamp": "00:08:32"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Prospect's detailed personal financial data — named bureau credit scores, debt profile and a recent mortgage refinance — was elicited and captured on a recorded call stored in shared cloud storage, with no consent or data-handling discussion at any point.",
+      "evidence": [
+        "do you know what your credit score is? Yes. Is it good or? It's very good, yeah. I'm a bottom of 800.",
+        "right now my on my credit karma my transunion is an 816 and my equifax is an 822",
+        "The only debt I have is my mortgage.",
+        "no i just finished refinancing my mortgage like two months ago so everything is in good standings"
+      ],
+      "timestamp": "00:28:21"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts the rep and prospect across the pricing and financing sections, including attributing the rep's money-aside isolate to the prospect, so speaker-attributed analysis of the decisive part of this call will be wrong.",
+      "evidence": [
+        "00:25:48 - Carlos Lopez / Yeah, yeah, 100%. Money aside, like the most important part, do you feel like we can actually like get you where you want to go?",
+        "00:28:01 - Harry Edmonds (Primal Instinct) / Can we do the other three on a monthly and something like that?",
+        "00:28:40 - Carlos Lopez / With the financing partners, you can break it up over six months or over 12 months."
+      ],
+      "timestamp": "00:25:48"
+    }
+  ]
+}

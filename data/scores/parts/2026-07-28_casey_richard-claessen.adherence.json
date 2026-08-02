@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-28_casey_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "partial", "P1d": "partial" },
+      "evidence": "The setter notes were genuinely used rather than just referenced - 'I already saw that you had a conversation with Derek' and then a specific recall attempt, 'you're currently at like a plateau or something, right?', which the prospect corrected. Good practice on time-checking too: he asked up front whether the prospect still had 45 minutes and adjusted when told twenty. The frame itself was garbled and incomplete, no explicit frame agreement was taken, and instead of the scripted open question he asked a narrower one - 'are you more so looking to work one-on-one with him?' The prospect had already taken control by asking to get down to brass tacks."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Baseline barely happened. Age, height and weight were never asked. Neither were health conditions, injuries, pain or movement limitations - not one health question was put at any point on a call that ended in a completed payment. Training frequency came from the setter's notes rather than the rep ('I think you train six times a week now right'). Only nutrition was properly worked, covering calorie counting, the paleo pattern and the eating window. The prospect had asked to expedite and only had twenty minutes, which explains the compression but does not make the phase unreachable - the alternative was to rebook."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "partial", "P3h": "partial" },
+      "evidence": "'What's that next level specifically for you?' is the only goals question asked, and it produced the commercially important answer - that he wants to move out of tattooing and sell fitness coaching online - but nothing was done with it. No bridge past the physical, no future-state question, no impact-on-others, no reflect-back of a deeper why. The family motive was volunteered. The rep summarised accurately at 00:03:53 but only at the surface: 'you mainly just want to get more knowledge, that you learn more, get a bigger variety of things that you can do, and eventually also pass it on.'"
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "No question about what he has tried before or what happened with it, and both would have been cheap. The root-cause checks genuinely do not apply: this prospect trains six to seven times a week, is still progressing and has no failure to explain. His gap is knowledge depth, not structure or adherence."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The phase never ran. There was no consequence question of any kind, and no line in the sand. It was reachable - the call continued for another twenty-five minutes after the presentation - and it was skipped, which is part of why the deal closed at a sixth of the flagship price with a one-month walk-away."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "partial" },
+      "evidence": "The nearest thing to a belief question was 'Do you feel like, yeah, that is sort of what you're looking for?' answered with 'Yeah, I think so' - a soft yes that was accepted rather than firmed up. A stronger confirmation came later ('Yeah, yeah, that's what I'm looking for right there') but only after the price framework had already been described. The go-all-in question was never asked, which on this call would have surfaced the eight-weeks question before rather than after the number."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "miss", "P11c": "partial", "P11d": "partial" },
+      "evidence": "Payment was collected in full for the tier sold and confirmed live, after roughly fifteen patient minutes of failed card attempts - credit to the rep for staying on the line. Everything else was left open. No Trevor onboarding call was booked because Trevor had just woken up. The agreement email was sent but the signature step was knowingly skipped, in the rep's own words: 'usually we'll do that on the call, but yeah, you probably know how it all works... if you can get that agreement signed somewhere today after you've probably showered.' The community link is gated behind that unsigned agreement, so only the onboarding form actually went out."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'So is that all upfront or is that like in payments?' drew an immediate concession - 'Most people pay it all upfront. If it's needed, we can always look into potentially doing payments' - with no isolate, no HOW-not-SHOULD-I reframe, no permission question and no financial picture at all. Within ninety seconds the rep had built three cheaper options and recommended the cheapest."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap: there is no play for a prospect who accepts the value but disputes the term. 'What if I don't need like six months? What if I only need like eight weeks?' is a confidence claim, not a price objection - 'I feel like I catch on really quick, so what might take someone six months I can get done in a month.' The scripted answer would be to defend why the programme is six months. Instead the rep agreed with the premise and manufactured a one-month product, converting a $6,000 sale into a $1,200 one."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "No clinical screening step exists and none was improvised. Not a single question about health, injuries, pain, medication or limitations was asked at any point, on a call that ended with money taken and an unsigned agreement whose first page - per another call in this batch - is a medical disclaimer. Low actual risk given the prospect trains six to seven times a week, but the screening rate here is zero."
+    }
+  ],
+  "notes": "A twenty-minute window, a warm and well-qualified prospect, and a close that landed at one sixth of the price. The chain is clear: no consequence frame, no go-all-in check, and then a term objection answered by inventing a shorter product rather than defending the six months. The rep's instinct to accommodate is the same one that shows up as patience through fifteen minutes of card failures - it is a strength on onboarding and a liability at the close. Two hard rules to add: never offer to take card details yourself, and never take payment before the agreement is signed."
+}

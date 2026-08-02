@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-08_nadav-roth_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Long delivery covering structure, 3-4x weekly 30-40 minute sessions, stamina build, weight progression after a month and a daily 5-15 minute mobility protocol targeted at his hamstrings, hips and lower back. Prospect: \"Yeah. Perfect.\" and to the check \"do you feel like if you have that in place it's already going to help you get rid of those mobility things\" — \"Yeah, of course.\" Understood and agreed, no questions."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The rep proposed dropping breakfast entirely, an eating window, 99% whole foods and a weekend protocol that offsets family dinners. Prospect agreed with a mild condition attached: \"If it's actually something that's sustainable. Yeah. Yeah. Yeah. Good. I can do it.\" No pushback on removing the ice cream and chocolate he had described as his weekend habit."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he asked about. During delivery: \"I'm filming myself.\" Afterwards: \"I was really wondering how do I contact Trevor, but I think you answered that.\" And on the downsell tier he interrogated the mechanics specifically — \"It's like a kind of a group training?\" and \"do you still, like, someone still builds like a program for you?\" — which is what led him to decline it. Accountability is the thing he is actually buying, and it is the thing the cheap tier does not give him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_trainer",
+      "raw": "I used to train with this guy for the last, I think, three years, but on and off... we used to meet, like, in person, but because it got too expensive, like, two years ago, so we decided to go on the digital program when I used to film myself, and then I send it to him, and he's fixing my movement, so it was kind of expensive to me",
+      "direction": "undercuts_price",
+      "competitor": "Prospect's former personal trainer (now in Thailand)",
+      "note": "The closest comparable in his head is a remote video-review coach he already found too expensive at a much lower price point, and which he downgraded twice on cost before it lapsed. He never named the figure and the rep never got it — he asked (\"what was sort of the amount that he was...\") and the prospect deflected with \"How much is this program?\", and the rep let it go. That number would have been the single most useful piece of information on the call."
+    },
+    {
+      "type": "cost_of_living",
+      "raw": "it's like, ah, it's half of my rent, you know, so it's a lot of money that I cannot afford",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted the offer into months of rent instantly. The rep had handed him a second anchor by converting to local currency unprompted — \"It's 18,000 Israeli\" — which made the number larger and more concrete in his own frame of reference at the exact moment he was reacting to it."
+    },
+    {
+      "type": "macroeconomic",
+      "raw": "Israel is really expensive at the moment. And we are not in a good situation, you know, the war and everything. So the prices are really, really high right now, and it's really tough to make a living.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a competitor anchor but a hard constraint on the whole territory. Combined with 'I don't really save... it's living from a month to a month', this is a genuine disqualification on the ICP income criterion rather than a resistance to be handled."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "I'm only watching Trevor's videos and other guys in different directions, but without any strict program",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free social content",
+      "note": "Same pattern as the Nic call — the free content is already delivering enough value to keep him training, which caps what the paid version feels worth. The rep's counter was duration and teaching (\"we're not personal trainers... six months and then that's it\") rather than anything about the free content specifically."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A one-to-one programme built for him, at a price between $200/month and $6,000",
+      "why_unmet": "There is nothing between the two tiers. He explicitly rejected the $200 tier for the one reason it cannot cover — \"do you still, like, someone still builds like a program for you?\" / \"it's not what I'm looking at right now at the moment\" — while wanting the $6,000 product he cannot fund. The 30x gap between tiers is the whole loss.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training programmed around a diagnosed chronic ankle condition where running is impossible and an old L5 injury",
+      "why_unmet": "The rep asserted the community tier is \"very focused on people who have injuries\" and that in the one-to-one he would not be able to hurt himself, but no clinical assessment, no clearance question and no description of how a named bone condition would actually be accommodated was offered. Whether the programme genuinely serves this is unverified either way.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "An instalment option so a month-to-month earner could carry the $6,000",
+      "why_unmet": "Payment plans were never mentioned on this call at all, despite internal evidence the same week that deposits and six-instalment plans are in active use. The prospect's month-end surplus and lack of savings were established and then nothing was built on them.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

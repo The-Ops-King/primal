@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-04_usman-khan_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Presented as phase one — mastering the kettlebell, movement quality, injury avoidance, sessions of 20-40 minutes three to five times a week. Response was flat agreement: 'Yeah, no, that sounds good.' The prospect had already signalled fit for the modality earlier and unprompted — 'I definitely like the idea of combining high intensity training with strength training and kind of the two-in-one benefit' — and later confirmed it was his priority: 'very much phase one is what I'm most interested in'. He never volunteered a reaction during the presentation itself."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as the primal eating protocol with no macro tracking, aimed at getting him from 78 kg toward 70 or 66. Response was minimal: 'No. Cool.' He raised no questions and no objection, but explicitly deprioritised it moments later: 'obviously two and three are really important, and with time, I'll be more interested.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented as daily app access to Trevor, check-ins multiple times a week, form video review and a community of roughly 120 clients with live sessions. Response: 'No, that all makes sense.' Notable that this pillar maps directly onto the prospect's own stated need — 'someone's there to be like, that's enough, you need to move up now' — yet he did not react to it as the answer to his problem, and the rep never connected the two out loud."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "even if I was in town, I can no longer afford him. He's too expensive. Like back then he was... Starting off, I was amongst his first [clients]... a very good price",
+      "direction": "undercuts_price",
+      "competitor": "Independent calisthenics / kettlebell personal trainer, northern England",
+      "note": "His only reference price for coaching is a founder-rate discount he received as one of the trainer's first clients, and he has already concluded that trainer's current market rate is beyond him. He is therefore anchored to a number he knows was artificially low, and had pre-classified in-person coaching as unaffordable before the call started. The rep surfaced this at 00:23:49 and did nothing with it."
+    },
+    {
+      "type": "rep_created_price_ladder",
+      "raw": "for the year, it's $9,000 US... Six months is $6,000, and then the three months is $4,000.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The strongest downward anchor on this call was created by the rep. He presented a descending three-tier ladder unprompted, and the prospect selected the bottom rung within two minutes: 'It's probably three months.' A prospect who had given no commitment and no budget was handed the cheapest option as a legitimate choice."
+    },
+    {
+      "type": "self_serve_alternative",
+      "raw": "on the other side of the spectrum just access to like our, we call like our edge... which has all the workouts, but it's kind of like more of a DIY thing",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep also volunteered the existence of a low-cost self-serve product before any value had been established, giving a price-constrained prospect a second exit below the main offer."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A staged entry — start with the training and mobility phase now and add nutrition and accountability later. 'I'm just a piecemeal out of time. So very much phase one is what I'm most interested in, and obviously two and three are really important, and with time, I'll be more interested.'",
+      "why_unmet": "The programme is in fact delivered as a sequence with mobility and movement first, so this is very likely already what he would get. The rep had described exactly that sequence minutes earlier but never connected it to the prospect's request, and the sequencing ask went unanswered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Clarity on the total cost of getting started. The prospect owns no equipment: 'I don't own a kettlebell or a mace, which is why I did invest in a pull-up bar.'",
+      "why_unmet": "Equipment was never mentioned in the offer, the pricing or the next steps. A prospect whose only stated blocker is money was quoted $4,000 to $9,000 without being told there is a hardware purchase on top.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Reassurance and load progression delivered without requiring any decision-making from him — 'someone to be like, yeah, no, that sounds good. Nothing to worry about. Carry on' and 'someone's there to be like, that's enough, you need to move up now, move up a level.'",
+      "why_unmet": "The rep described the support as daily app access plus check-ins several times a week, which is availability rather than proactive progression triggers. Whether Trevor pushes progression unprompted or waits to be asked was never established, and for this prospect that distinction is the entire product.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

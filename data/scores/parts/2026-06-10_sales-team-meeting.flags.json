@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-10_sales-team-meeting",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Sales manager instructs reps to take a card on file from prospects who have said they cannot pay yet, and states the company can then run the charge - 'once the card's on file, we can technically just run it.'",
+      "evidence": [
+        "Even if it's like a credit card commitment, even if they're like, I cannot run money, be like, cool, then we'll just take down the card on file and I won't run it until this day.",
+        "That's the worst case scenario, though. Like, get a commitment. Get something. Because once the card's on file, we can technically just run it. So."
+      ],
+      "timestamp": "00:10:36"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Sales manager instructs reps to deliberately withhold the amount of a deposit before asking a prospect to agree to it, in order to test their reaction, and to challenge them if they object to an amount they were never told.",
+      "evidence": [
+        "So we'll just do a refundable deposit and get you walked and loaded from there. Sound good?",
+        "I actually like to not tell them what the deposit is going to be and then see if they react terribly to it. And then I say, dude, like I could have told you it was $1. Like what's going on?",
+        "Yeah. That's my favorite. They always look at me like, damn, you're right. You got me."
+      ],
+      "timestamp": "00:09:29"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager and closer profile prospects by country of origin for likely ability to pay, and the manager prescribes harder financial qualification for prospects from named countries.",
+      "evidence": [
+        "taking, like, a firefighter in UAE, that's... he's not gonna be earning a lot",
+        "yesterday, I had a guy from Egypt. Definitely, he didn't have the money, yeah?",
+        "if they come from certain, like, UAE is one of those countries where I probably wouldn't hard financially qualify too much, if somebody's coming from Egypt, yeah, I probably would",
+        "if you have somebody from countries that it might be harder for them to afford things, just like, let them know, you know, just kind of give them a little bit of a harder, for FQ."
+      ],
+      "timestamp": "00:22:09"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "A prospect's credit availability and income were obtained from a third-party data source before the sales call and used to plan the approach, with no indication of consent or disclosure.",
+      "evidence": [
+        "He's got strong driver, strong intent, and I looked up his financial data. He's got 10K credit. He's got 106K income. He's a total beginner. So he's in a good spot."
+      ],
+      "timestamp": "00:06:10"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A prospect reported in writing that the rep pressured him and used his father's alcoholism against him emotionally; the rep acknowledged it as burning the prospect and the response coached was reputational rather than corrective.",
+      "evidence": [
+        "he basically said that he didn't like, at the end, that he felt pushed and used the emotions about his father and so on. Yeah, so I technically burned him, but...",
+        "Now we know. You got the feedback. He gave you the feedback, too.",
+        "just take responsibility for it. Just say, thank you for the feedback. I hear you. I'll pass it on to the team."
+      ],
+      "timestamp": "00:14:39"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospects are messaged by an AI chatbot in the sales funnel and their replies are read by reps; nothing in the corpus indicates the bot identifies itself as automated.",
+      "evidence": [
+        "And then I checked the sales kick, he messaged our AI bot that, I already know everything from the first call, I only need to know the price.",
+        "Manny yesterday didn't show up, but, well, he actually texted also the, our AI chat bot, and I didn't see that."
+      ],
+      "timestamp": "00:03:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Manager coaches reps to justify the price on the basis that the company guarantees results, which overstates a written guarantee limited to adding 8 kg to core kettlebell lifts on full protocol compliance.",
+      "evidence": [
+        "when it comes to working with the best, when it comes to guaranteeing the results like we do, Trevor's the best, and that's why the investment is what it is",
+        "Yeah, I would. I would bring it up. We're literally guaranteeing it. We're all about getting the results.",
+        "the fact that it's $6,000 is actually the reason you should pay it"
+      ],
+      "timestamp": "00:47:00"
+    }
+  ]
+}

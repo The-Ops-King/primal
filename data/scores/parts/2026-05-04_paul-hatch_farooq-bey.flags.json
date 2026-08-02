@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-05-04_paul-hatch_farooq-bey",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Told that an osteopath he knows well had advised him that training does not suit him, the rep dismissed the clinician's opinion outright as rubbish, and the prospect adopted that position within the same exchange.",
+      "evidence": [
+        "I saw another physio who I know quite well, and he actually did say to me, and these aren't the exact words, but he did say to me, I don't think training really suits you.",
+        "I'm just going to be direct with you, that's rubbish.",
+        "Well, no, exactly. I was quite taken aback by it, because I know him pretty well, and he is, you know, he's an osteopath by trade... I was like, well, no, I'm sorry, that doesn't sit with me.",
+        "And if anything, it's actually made me just a bit more determined"
+      ],
+      "timestamp": "00:22:32"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 53-year-old with ultrasound-confirmed bursal pathology who cannot hang or confidently lift overhead, plus slipped discs, epidurals and an adverse steroid reaction, was moved toward a loaded overhead kettlebell programme with no clinician clearance sought, despite an active physiotherapist being available.",
+      "evidence": [
+        "I ended up having a scan ultrasound, and it showed that my right bursa was almost twice the size of my left bursa. And I think there's just not a lot of space... that was being pinched.",
+        "if I wanted to do any pull-ups, it's a bit of a no-no. If I wanted to do just any hanging, just hanging there, that's a no-no. Can't really lift much above my shoulder confidently.",
+        "had a pretty bad back accident at work, slipped a couple of discs, had epidurals",
+        "I've got a friend who's a really good physio, but predominantly she does runners and stuff, and she knows her stuff. So I started doing rehab stuff.",
+        "Just to note on the injury piece, we don't rush things here, right? very, especially for someone with the injury track record, like yourself, to make sure we're avoiding injuries. You're not going to be given a hard weight to start off with."
+      ],
+      "timestamp": "00:04:32"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The rep pushed fasting protocols on a prospect who said repeatedly they have never suited him, who already goes 16 to 19 hours without food on physically demanding workdays, and who has a documented history of burnout with unintended weight loss while already lean.",
+      "evidence": [
+        "one thing I've never, never really got on with is fasting... I've tried fasting before. I, my, I've really struggled with that... it's not suited me at all at any point in me trying it.",
+        "especially as we, if we're over 40, fasting, introducing fasting protocols to what you're doing, it directly contributes to having longevity for yourself",
+        "And again, yeah, Trevor's here to kind of correct that for yourself. We should, we should, we have the capacity to fast.",
+        "I just got a bit burnt out. I lost quite a lot of body fat quite quickly, lost a bit of weight with it.",
+        "I didn't eat anything until three o'clock. So I ate last night at probably about eight o'clock... In fact, I've eaten very little today."
+      ],
+      "timestamp": "00:42:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled for a person who does not appear anywhere in it — the entire 67-minute call is with Paul Hatch, while the title names Jaideep Mistry, so prospect identity, deduplication and any title-based matching are all corrupted for this record.",
+      "evidence": [
+        "05/04/2026 - Jaideep  Mistry x Farooq Bey",
+        "So, Paul, once again, thanks for waiting. Let's dive into it",
+        "Okay, p.hatch47 at gmail.com.",
+        "I'm in West Sussex, about an hour from London."
+      ],
+      "timestamp": "00:00:37"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "An unqualified full refund on injury was promised verbally to a prospect whose shoulder already fails under load, and it does not match the exit terms this rep described on another call in the same week.",
+      "evidence": [
+        "What happens if you do get injured or something happens where you... Full refund.",
+        "Okay. Yeah, that's the only case where we need to stop things, of course. life happens, you know, you break your leg or whatever.",
+        "we don't, we don't hold you, you know, we don't even hold you for the one-on-one coaching. Right. We provide you with, you know, graceful exits on both. [same rep, 2026-05-01 Bryant Fields call]"
+      ],
+      "timestamp": "00:58:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Two tiers outside the sanctioned price list were again presented as standard — $4,000 for three months and a $1,200 one-month 'love it or leave it' trial — and the trial was the tier the rep actively recommended.",
+      "evidence": [
+        "Three levels of the program are three months, six, and 12. We charge in USD. Okay. So for three months, it is 4,000 US, for six, it's six, and for 12, it's nine. Okay. We have a trial option, which is you trying out for a month. Okay. And that investment is 1200 bucks.",
+        "if you come in for the trial, We don't charge you the same amount to go to the three or the six or the 12. It's just going to be the difference... if you're coming for the three months and you want to do six months, you don't pay another four grand, you pay two grand",
+        "To be honest, I think for you, if I was just telling you what to do, right, you obviously can decide yourself, just do the one month. Don't do the three."
+      ],
+      "timestamp": "00:55:33"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The prospect characterised a prescribed medication as poison and the rep let it stand without comment, in a conversation where the same prospect's declining of further clinical treatment was being framed as reasonable.",
+      "evidence": [
+        "They then wanted me to have an ultrasound-guided injection, which I declined because, I mean, effectively, steroids is poison. Obviously, my body didn't like it very much, so I wasn't really prepared to put myself back through that."
+      ],
+      "timestamp": "00:05:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts for long continuous runs, placing entire rep monologues under the prospect's label and the prospect's medical history under the rep's, making line-level attribution unusable across the whole file.",
+      "evidence": [
+        "00:05:07 - Farooq Bey (Primal Instinct) — I've kind of just, I had a steroid injection in my shoulder at the local doctors, and I had a really bad reaction to it.",
+        "00:44:28 - Paul Hatch — Yeah. That's the fundamental difference, Paul, between us and everyone else.",
+        "00:45:02 - Paul Hatch — Does that all make sense, Paul?",
+        "00:26:23 - Paul Hatch — Would you say that part of the reason why the 18 months have been the way they are is due to comfort?"
+      ],
+      "timestamp": "00:44:28"
+    }
+  ]
+}

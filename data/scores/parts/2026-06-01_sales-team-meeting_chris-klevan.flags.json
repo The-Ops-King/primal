@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-01_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager reported that an AI analysis of every May call found the highest-converting prospects are injured, heavily overweight or fallen off, and that good-to-great prospects convert worst - the direct inverse of the ICP reps state verbatim to prospects on live calls.",
+      "evidence": [
+        "I genuinely went through literally every single sales call that we took in May. Okay. ran it all through AI, asked a bunch of questions, analyzed all of it to figure out, like, who is it that is actually closing the most and who isn't actually closing?",
+        "the types of people that we found are closing the most often are guys who have the biggest gap. Go figure. They were guys that literally had an injury. They have, like, tons of weight to lose. They've fallen off. Or they had a recent life event where, like, they're about to get married. They're about to have a baby.",
+        "It wasn't, like, the traditional good to great. You know? It wasn't guys. We going from like an eight to a 10. It was guys that have their rest of their life figured out. Like they're really successful in business... but they have probably 20 to 25 pounds that they still need to lose. Like their health is not in check.",
+        "the guys that just don't really close that often. Like maybe it's very low rate are the guys who are like, I'm an eight out of 10 or seven out of 10. And I want to get to a 10 out of 10. They don't see a big enough value.",
+        "we are going to try and optimize towards getting more of like the other two tiers. On the calendar versus the guys that are just already shredded"
+      ],
+      "timestamp": "00:33:44"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Management identified prospects with injuries as the best-converting segment and stated an intent to route more of them onto the calendar, with no clinical screening or clearance step anywhere in the sales process.",
+      "evidence": [
+        "They were guys that literally had an injury. They have, like, tons of weight to lose. They've fallen off.",
+        "asking the, what made this a priority question so early on, goes right into that, because they give you it immediately. They tell you, I have an injury, or I had this, or I had that",
+        "we are going to try and optimize towards getting more of like the other two tiers. On the calendar",
+        "So first and foremost, height and weight. What are you at? Height, weight. Okay, cool. And then let's talk about your exercise schedule first."
+      ],
+      "timestamp": "00:34:05"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $100 deposit was taken from a prospect and is now being reimbursed, a figure and mechanism that appears nowhere in the stated $6,000/$9,000 offer.",
+      "evidence": [
+        "one of the follow-ups messaged me that the budget is out of his option, but we can discuss this further during our call later today, as well as the reimbursement of the $100 deposit.",
+        "So it's not all lost, but I'll try to get him over the fence, but we'll see.",
+        "Actually, it's been a good end of the week. It's got two deposits."
+      ],
+      "timestamp": "00:06:12"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "June revenue was forecast on an assumption of roughly 60% upfront cash collection, implying instalment plans are routine, while reps describe paying in full as what most clients do and improvise plan terms ad hoc on calls.",
+      "evidence": [
+        "And then if we assume about, I'm going to lowball the cash collected a little bit, but, and I'm going to just base it off of like 60% upfront cash collected.",
+        "Are you going to piff or are we going to go into installment?",
+        "We can figure out if this is going to be a split or if this is going to be an I take care of it, you take care of a situation."
+      ],
+      "timestamp": "00:11:43"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A closer stated he was double-booked for prospect calls in the same slot, with the contingency being to text the manager if both prospects showed up.",
+      "evidence": [
+        "I'm double-booked here, so if both guys show up, I'll shoot you texts.",
+        "Yeah, sounds good."
+      ],
+      "timestamp": "00:58:02"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The file contains extended verbatim playback of two sales calls that are separately in this corpus, so prospect speech from those calls appears attributed to staff speaker labels and could be double-counted or misread as a sales call.",
+      "evidence": [
+        "Let's get a listen. Hey, Sean. Hey. How you doing? I'm doing good.",
+        "So, I got the notes from Kyla, I'm clear on that, but I'm curious, in your opinion, what would you say is the biggest challenge that you're having with your fitness right now?",
+        "Yeah, dude. This other guy. Vibor. Vibor.",
+        "Is it pronounced Vibber or Vibor? Vibor, yeah, he said it right. Awesome, man, nice to meet you, I'm Ben, one of Trevor's head coaches here."
+      ],
+      "timestamp": "00:18:44"
+    }
+  ]
+}

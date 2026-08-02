@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-07-30_jeff-honigstock_richard-claessen",
+  "source": {
+    "drive_file_id": "1u2K4wD-NNYe2ByQHlFosjeEN9p3VuBvT",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/30/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 64356
+  },
+  "call": {
+    "date": "2026-07-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 55,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Sophia (automated AI setter, not a person)",
+    "confidence": "high",
+    "evidence": "Rep: 'I saw, of course, also that you messaged Sophia about joining from the gym.' Prospect: 'how big are you guys?' Rep: 'Sophia isn't a person, to be honest.' Prospect: 'Really?' Rep: 'Yeah, it's AI.'"
+  },
+  "prospect": {
+    "name": "Jeff Honigstock",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New Jersey, USA",
+    "age": 56,
+    "occupation": "Not established — commutes to work; formerly a social worker in his twenties. Uses a concierge doctor and holds three gym memberships alongside a home gym and a Tonal.",
+    "family_status": "Married 22 years; 15-year-old son turning 15 the day after the call",
+    "height_in": null,
+    "weight_lb": 210,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Previously trained twice a week with an advanced kettlebell instructor at over $100 a session and got strong results, but stopped on cost. Built a gym in his basement and has never used it — his son does. Owns a Tonal, kettlebells and a jump rope. Enjoys yoga and golf, plays basketball with his son. Has not trained meaningfully for roughly three months.",
+    "kettlebell_experience": "some",
+    "medical": "Diagnosed high blood pressure and borderline type 2 diabetes, both on medication, under the care of a concierge doctor who has instructed him to walk two miles a day. Coming off surgery for a distal biceps tear at the elbow — a 'popeye arm' — followed by six months of rehabilitation. Reports ADHD. Reports poor sleep. Cannot run a 13-minute mile and is exhausted after walking a mile. Stated hope of eliminating his medications."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Lost ground to a specific injury and season — bicep surgery plus six months of rehab, then three months of nothing",
+      "Wants a former self back, stated with visible regret: 'I used to be able to do 50 pushups easily. I'm like, wow, I've really lost. And then I realized I'm not, I haven't lost. I'm losing.'",
+      "Had a method that demonstrably worked for him and fell off it — 'when I did do the kettlebells, the results were there'",
+      "Identity pressure through his son: 'How can I ask him to go work out and be an athlete if I'm a fat slob?'",
+      "Not the_medically_constrained despite substantial disclosures — no clinician has restricted him, because nobody on this call asked one"
+    ]
+  },
+  "goals": [
+    { "text": "Get from 210 lb to 185 lb and break the 205-215 cycle for good", "category": "fat_loss" },
+    { "text": "Build stamina and raise his VO2 max — 'my VO2 max is like VO2 min'", "category": "endurance" },
+    { "text": "Build his core and legs; improve posture so he stands up straight", "category": "strength" },
+    { "text": "Mobility above appearance — 'I don't care as much as what I look like, as much as what I feel like'", "category": "mobility" },
+    { "text": "Play one-on-one basketball with his 15-year-old son and run an eight-minute mile", "category": "hobby_performance" },
+    { "text": "Be a proper role model for his son and have him join the training", "category": "family_role_model" },
+    { "text": "Set himself up for the next 30 years — 'either going to start aging twice as fast or I'm going to start getting younger'", "category": "longevity_function" },
+    { "text": "Reduce or come off his blood pressure and diabetes medications", "category": "other" },
+    { "text": "Consistency through external accountability and a fixed 7am slot in his own basement", "category": "consistency" },
+    { "text": "A better golf game", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "High blood pressure and borderline diabetes, both medicated, with a doctor's instruction to walk two miles a day that he is not following", "category": "medical", "severity": "critical" },
+    { "text": "Coming off biceps tear surgery at the elbow with six months of rehab behind him and three months of inactivity since", "category": "injury", "severity": "high" },
+    { "text": "Exhausted after walking a mile; huffing and puffing on the basketball court after two minutes", "category": "energy_performance", "severity": "high" },
+    { "text": "Built a gym in his basement and has never once used it", "category": "consistency", "severity": "high" },
+    { "text": "ADHD, which he describes as a gift generally but not for repetitive training", "category": "mental_health", "severity": "medium" },
+    { "text": "Cannot restart after falling off — 'once I got off the track, I've been having difficulty getting back on'", "category": "consistency", "severity": "high" },
+    { "text": "Stopped the trainer who was working because she was prohibitively expensive and required packing a bag and travelling", "category": "training_barrier", "severity": "medium" },
+    { "text": "Sleeps poorly", "category": "sleep", "severity": "medium" },
+    { "text": "Late-night eating and no lunch; eats out often", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Sore for four days after doing 50 pushups with his son", "category": "aging", "severity": "medium" },
+    { "text": "People close to him openly predict he will quit within a week", "category": "emotional", "severity": "medium" },
+    { "text": "Can only rebound when his son wants to play one-on-one", "category": "emotional", "severity": "high" },
+    { "text": "Sits for most of the working day", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That's a lot. That's a lot more than I thought it was going to be. That's about as much money as my personal trainer.",
+      "timestamp": "00:48:17",
+      "rep_response": "Asked whether one payment was possible and what he could make work, then held the price firm — 'No, he's not flexible on the six. Like, he has set that worth to himself' — and reframed onto results rather than duration",
+      "response_tactic": "probe_capacity_then_hold_price_firm",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "If I went back to my old trainer, said, hey, listen, this is what I'm trying to achieve... I know that I could achieve it, that's as much money as it would cost, that's the maximum amount of money it would cost me to do... I also think that with my motivation right now that I could achieve it in a different way for a lot less.",
+      "timestamp": "00:51:28",
+      "rep_response": "Asked whether he was willing to invest in himself rather than guess; the prospect then answered his own objection by noting his three gym memberships cost roughly the same, and the rep agreed those should be cancelled",
+      "response_tactic": "invest_vs_guess_reframe",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm 50-50 right now. So let me, let me think about it.",
+      "timestamp": "00:54:12",
+      "rep_response": "Ran the worth question, asked specifically what he would be thinking about, framed the decision as already made if the value was not there, and pinned a callback for 7:30 the next morning with a commitment to a yes or no",
+      "response_tactic": "worth_check_plus_committed_callback",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "let me think about it tonight. I want to just talk to my wife and add some numbers together",
+      "timestamp": "00:52:51",
+      "rep_response": "Not addressed at all — the rep moved straight to scheduling the callback",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "I just thought that because it's not in person, I thought that it would be about half that, but it's like, that's a premium.",
+      "timestamp": "00:49:11",
+      "rep_response": "No direct response; the rep had already reframed the price as being for results rather than for time. Proposed label: 'remote_should_cost_less'.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No structure agreed. The rep asked what would be possible and the prospect said 'I would rather not do it in one go' and 'I would want to do something monthly', but the call ended before any plan was defined. The rep referenced a cheaper alternative product but did not describe it: 'If it's a no, because of the money only, let me know, because there is other things, but you are on a time constraint, so I can't run you through it right now.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.94,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicitly undecided: 'I'm 50-50 right now'",
+      "Not a no: 'But I'm not saying no. I'm actually... I just want to think about it for a night'",
+      "Value accepted, price contested: asked whether it was worth $6,000 he answered 'hundred percent. I do'",
+      "Hard callback committed — 7:30am the next morning, with the prospect agreeing 'I'm gonna come back to you with a yes or no'",
+      "Counter-evidence: the call was truncated by the prospect's 11am commitment, so the money conversation never actually finished — 'there is other things, but you are on a time constraint, so I can't run you through it right now'",
+      "Counter-evidence: he named a concrete cheaper substitute he has used successfully before, at roughly half the price"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep calls at approximately 7:30am the following morning; prospect to give a yes or no after discussing the numbers with his wife"
+  },
+  "notable": {
+    "note": "The most medically loaded call in the batch and the one where the clinical omission is starkest. The prospect disclosed diagnosed hypertension, borderline diabetes, active medication, a concierge doctor who has given him a specific exercise instruction he is not following, and recent surgery for a torn biceps tendon at the elbow. The rep's response to the entire disclosure was 'I get it. I have it' and a comment about winter gyms. The prospect also said he expects to eliminate his medications and was not corrected. Separately: the setter 'Sophia', whom the prospect had been messaging and believed to be a person, is an AI — disclosed only because the prospect asked how large the company was."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and systematic — the prospect's label 'JeffHonigstock' carries most of the rep's opening turns and much of the pitch, including the $6,000 price reveal at 00:47:25, while the rep's label carries several of the prospect's answers. Roles resolved entirely from content. The prospect ended the call abruptly for an 11am commitment, so the pricing conversation is cut off mid-sequence."
+  }
+}

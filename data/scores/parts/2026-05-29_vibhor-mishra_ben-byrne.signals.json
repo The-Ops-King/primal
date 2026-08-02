@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-29_vibhor-mishra_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Understood the functional-movement framing and agreed ('Got it. Yeah, that makes sense'), then immediately asked mechanics twice: 'Is this plan, like, includes how many workout days in a week and how long are those workouts?' and later 'How long does like each phase, like... is there a specific timeframe assigned for each phase in the six months?' No pushback on substance, but he kept probing for the operational shape of the plan rather than reacting to the idea."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Responded 'Yeah, got it. Okay' and 'No, that sounds good' to the primal eating protocol, then asked about the tracking burden: 'Do you expect, like, clients to log everything they're eating, like, all meals and everything, every day, and that Trevor monitor and kind of, like, follow us through client on that?' He had already flagged the vegetarian protein problem as a real constraint and the rep addressed it directly ('we have plenty of vegetarian clients'), which he accepted without enthusiasm."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Summarised the pillar back accurately and unprompted: 'third phase kind of sounds like... It's really like the accountability. The support, making sure that you're actually staying consistent and not like fall off this. So it's like pretty much the same what we did in phase one and phase two and just like more follow-up and making sure.' Understood and agreed, but the summary reads as slightly deflationary - he framed phase three as a repeat of phases one and two rather than as distinct value, and the rep did not correct that read."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "It's like, I mean, if it's worth the fixed case, like, for six months, like, thousand per month, like, I'm just evaluating, like, if I do, like, a trainer in the gym next to me, like, with a personal trainer, like, just want to evaluate, like, how much does that in person, if it's costing around the same, maybe, like, if I should give.",
+      "direction": "undercuts_price",
+      "competitor": "Unnamed local in-person personal trainer at the gym next to him",
+      "note": "He converted $6,000 into '$1,000 per month' himself and then set that against a local in-person trainer he could hire for a comparable monthly figure. This is the most dangerous anchor on the call because in-person coaching is the one thing remote delivery cannot match on perceived intimacy, and the rep never rebuilt the value gap - he conceded that cheaper options exist and stepped back."
+    },
+    {
+      "type": "other",
+      "raw": "I did the kettlebell workouts for three weeks, like just did for three days a week, like those three weeks, and that kind of like felt good. So, okay, just the results that I got from that workout, the three workouts, I really felt like that was more than what I've been working on for a couple of months before that.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Instagram and YouTube kettlebell content",
+      "note": "Proposed label: free_content_that_already_worked. The free material outperformed months of his own training in three weeks, which is simultaneously the reason he booked the call and the reason he can rationalise not paying. He restated it near the close - 'Trevor is on Instagram, so he does post reels and videos and stuff, so that gives me an idea of different exercises' - and the rep never separated free programming from personalised progression."
+    },
+    {
+      "type": "other",
+      "raw": "I mean, I had like my friends around sometimes who kind of like guided me to the workout who were in good shape back then. But, so I mean, I kind of felt like this information is available a lot online on YouTube",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: never_paid_for_coaching. He confirmed he has never worked with a private coach or trainer of any kind - 'No, never worked with, like at a private coach or private instructor' - so there is no existing habit of paying for coaching to support a $6,000 decision. This is a structural affordability-of-belief problem, not a cash problem."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A sample or 'dummy' plan - a representative week of workouts and vegetarian nutrition - to look at before paying, so he can see what he is buying.",
+      "why_unmet": "The programme only produces a plan after purchase, via an intake form. The rep offered another client's plan then withdrew it as 'kind of generic' and deflected with a tax-planner analogy: 'generally, you join and then they give you the plan.'",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Credible vegetarian protein strategy - he is stuck at 60-70 g/day and wants to know whether that is even sufficient.",
+      "why_unmet": "The rep asserted that vegetarian clients exist but gave no specifics, no target and no example, so the prospect's actual question - 'I'm not sure, like, if this is good enough' - went unanswered on the call.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "The ability to pause for a month of international travel without losing continuity of the six-month block.",
+      "why_unmet": "The rep offered to extend by a month, but the prospect wants six unbroken months of programming, which a pause-and-extend does not give him: 'I personally would want like continuous six months if I'm following a plan just to get the most out of it without any breaks in between.'",
+      "verdict": "unvalidated"
+    }
+  ]
+}

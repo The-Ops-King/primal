@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-22_sales-team-meeting",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Manager states a deposit-based payment structure of a $500 deposit plus a $1,200 minimum before onboarding, neither of which appears in the $6,000/6mo or $9,000/12mo offer.",
+      "evidence": [
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call, but they have to pay at least the $1,200 before the onboarding call happens, and if they don't, cancel it and be on top of it ASAP."
+      ],
+      "timestamp": "00:45:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Manager instructs closers to stop sending payment links and to refuse to let a prospect end the call to pay later, and role-plays overriding a prospect who explicitly asked to pay off the call.",
+      "evidence": [
+        "The little bit that I did see is stop sending payment links.",
+        "I don't, I don't let them get off the phone.",
+        "if somebody gives me pushback to it, to be honest with you, then they're probably not going to do it, they, they need to give me some good reason as to why they're not doing it, well, can I just wait two hours, because I've got this meeting in 10 minutes, it's like, that doesn't make any sense",
+        "how much harder is it when somebody's there with you actually holding the mirror to you?"
+      ],
+      "timestamp": "00:35:22"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Publicly discoverable pricing for the coaching is $200/month and $400-$700/month for one-to-one, against a $6,000 call price, and the manager's position is that the discrepancy does not matter.",
+      "evidence": [
+        "if somebody types in Trevor Instinct coaching cost, immediately it says $200 a month. Or if you want one-on-one coaching, it's like somewhere between $400 and $700 a month, which is totally wrong.",
+        "honestly, it doesn't really matter if somebody comes in thinking it's a certain price. It's more about just making sure that you show them the value."
+      ],
+      "timestamp": "00:34:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Automated no-show follow-up texts are sent from an unassigned company number after two texts from the setter's number, leaving prospects unable to identify who is messaging them.",
+      "evidence": [
+        "that's actually gone through to like Primal Instinct phone number, which isn't assigned to any of us",
+        "that text message will be sent out, and people just respond, saying, like, who is this? Because it gets sent from another phone number."
+      ],
+      "timestamp": "00:25:24"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Recording coverage of internal meetings is partial — the manager removes a second Fathom recorder mid-meeting once one participant leaves.",
+      "evidence": [
+        "Okay. Get Kim's Fathom out of there."
+      ],
+      "timestamp": "00:28:03"
+    }
+  ]
+}

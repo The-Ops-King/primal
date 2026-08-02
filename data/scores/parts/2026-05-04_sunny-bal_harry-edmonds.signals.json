@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-05-04_sunny-bal_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The trifecta was never delivered — the recording ends before the methodology section. Worth noting that the prospect had effectively self-served this pillar: he ran Trevor's free workout that morning and reported back positively, 'Even today, it felt good... It's really nice knowing tomorrow I'll do 10 goblet squats with three to five pushups, back to back. You know, feels good.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never reached before the file terminates at 00:07:36. Nutrition was not raised by either party."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never formally presented, though the prospect pre-stated it as a reason for buying: 'I believe this would be an asset in getting to the body that I want, the sort of physique that I want, and having a coach and being accountable.' The pillar most likely to close him was the one the recording never got to."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "free_product_already_working",
+      "raw": "only today I started to try his, you know, based on his guide that sort of to work out break out the week into two different things type thing, so I did workout one today and I like it",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free published guide",
+      "note": "He is already getting satisfaction from the free version, on the day of the call, and volunteering how good it feels. That is the single hardest anchor to sell against — not a competitor, but the company's own free content delivering the experience the prospect came for. The rep did not test what the free guide was failing to give him."
+    },
+    {
+      "type": "subsidised_care",
+      "raw": "I had great health insurance at work. So it was a physio once a week with a sort of fascia massage once a week. So it was pretty sick. Like I was quite, quite blessed in that sense... I think like 40 sessions, man, is nuts.",
+      "direction": "undercuts_price",
+      "competitor": "employer private health insurance",
+      "note": "His reference price for expert hands-on attention has been roughly zero for eighteen months. He also lost that benefit a week ago when he left the job, which cuts both ways — the subsidy is gone, but so is the income that came with it, and neither was explored."
+    },
+    {
+      "type": "buyer_sophistication",
+      "raw": "I was like dude you need to check out Trevor, because his sales funnel is pretty damn good and like I'm teaching this guy to do that for his physio",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect sells funnels for a living and had already identified this one as a funnel, admiringly, before the call started. Framing moves will read as technique to him; he is likely to respond to specifics and price transparency rather than to the standard presentation sequence. Recorded as undercutting because it blunts the persuasion architecture, not because it lowers his willingness to pay."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Continuity of progressive strengthening after discharge from ACL physiotherapy — 'I think the exercise we've been doing, it will get me stronger than I was before'",
+      "why_unmet": "He came off eighteen months of clinician-supervised rehabilitation one week earlier and is looking for what comes next. The offer has no rehabilitation pathway and no route to coordinate with the physiotherapist who has been managing the knee. Whether it can safely carry a recently discharged ACL case is untested and, in the surviving recording, unasked.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

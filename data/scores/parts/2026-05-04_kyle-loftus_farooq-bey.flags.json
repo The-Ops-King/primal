@@ -1,0 +1,73 @@
+{
+  "call_id": "2026-05-04_kyle-loftus_farooq-bey",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "To overcome a request for case studies and programme documentation, the rep told the prospect he would be legally protected by the FTC to request a chargeback after 30 days, presenting a non-existent regulatory entitlement as a satisfaction guarantee on a $4,000 to $9,000 purchase.",
+      "evidence": [
+        "that's why we have, I mean, not many programs have this, man, is if it's not for you after 30 days, you're legally protected by the FTC to actually request a chargeback",
+        "but at least that way, you know whether something's for you or not",
+        "I guess if there's just anything else you can send me just to look at... does he have a landing page or anything like that that includes like some more information?",
+        "Naturally, you're not going to put any bad results on our website, right?"
+      ],
+      "timestamp": "00:35:50"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The rep promised proactive coach contact at least every one to two days, a quantified service level that contradicts both the touchpoint-decay explanation he gave another prospect the previous day and a one-to-one roster stated elsewhere as 30 to 60 clients.",
+      "evidence": [
+        "how we facilitate that is giving you Trevor's personal cell phone number. He's going to be, you know, reaching out to you and communicating with you very, very consistently, at least once a day, once every other day, and we expect the same kind of input from yourself.",
+        "So you meet up with Trevor once per week to determine what the outcome for the following week is going to be.",
+        "for the people that are kind of just joining month two, three, expect the touchpoints to be really high. As you progress to months four, five, six, naturally, it just kind of drops off [same rep, 2026-05-03 Omar Maldonado call]",
+        "In the coaching program itself, there's 30 people, the one-on-one coaching with Trevor."
+      ],
+      "timestamp": "00:27:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Two tiers outside the sanctioned price list were presented again — $4,000 for three months and a $1,200 one-month trial that the rep himself described as something he is not supposed to offer.",
+      "evidence": [
+        "The investment for the three months is 4K. The 6 is 6, and the 12 is 9.",
+        "What I propose for you, I'm typically not meant to do this. We have a love-it-or-leave-it option, which is basically like a trial. Are you coming for $1,200? It's a month.",
+        "if you say if you're coming for the three months and you want to do another three months, it's not about paying 4K, we just charge you the difference"
+      ],
+      "timestamp": "00:37:02"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The client-facing platform was named as 'Stormfront' here and as TrueCoach on another call by the same rep the previous day, so prospects are being told different things about the tooling they will receive.",
+      "evidence": [
+        "We use a combination of school and an app that we use for our clients, okay? It's called Stormfront.",
+        "So we use School. School and TrueCoach, okay? It's a combination of the two. [same rep, 2026-05-03 Omar Maldonado call]"
+      ],
+      "timestamp": "00:27:10"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A full 48-minute sales call with a named prospect is filed under the generic title 'Impromptu Zoom Meeting' — the second file with this exact title in this batch, both on 05/04 and both genuine sales calls with different prospects.",
+      "evidence": [
+        "05/04/2026 - Impromptu Zoom Meeting",
+        "What are you calling from, Kyle? I'm in Orlando.",
+        "05/04/2026 - Impromptu Zoom Meeting [drive_file_id 1_v5ThZPCgbo3UjepyKLYWymiCSLrLxUi, transcript is entirely with Hamdi Hmimy]"
+      ],
+      "timestamp": "00:01:39"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts throughout and one 84-second block merges both speakers under a single label with no timestamps, including the entire want-versus-need exchange, so line-level attribution is unusable.",
+      "evidence": [
+        "00:14:38 - Farooq Bey (Primal Instinct) — ...would you say that this is a want or a need for yourself... uh sheesh it's hard to answer that one i guess i mean i would argue it's more of a there's no right answer by the way yeah i mean i would just i would argue it's a want more than a need",
+        "00:04:50 - Farooq Bey (Primal Instinct) — Superman?",
+        "00:04:58 - Kyle Loftus — Okay, tell me more.",
+        "00:47:54 - Farooq Bey (Primal Instinct) — Can you confirm, Karthi, you can see the classroom"
+      ],
+      "timestamp": "00:14:38"
+    }
+  ]
+}

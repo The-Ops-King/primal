@@ -1,0 +1,144 @@
+{
+  "call_id": "2026-06-06_jay-bremner_ben-byrne",
+  "source": {
+    "drive_file_id": "1QpOkkOkpCkJcZSFh8qW9DE9kpOUO7G4a",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/06/2026 - Jay Bremner x Ben Byrne ",
+    "display_title": "06/06/2026 - Jay Bremner x Ben Byrne  — Lost",
+    "file_size_bytes": 46481
+  },
+  "call": {
+    "date": "2026-06-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 50,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "No setter suffix in the title and no setter referenced on the call; the prospect self-booked after finding Trevor the same morning — 'Six hours. ... I came across him this morning'."
+  },
+  "prospect": {
+    "name": "Jay Bremner",
+    "aka": "Jaybre Photo",
+    "name_source": "title",
+    "location": "Vancouver, British Columbia, Canada",
+    "age": 38,
+    "occupation": "General foreman for an HVAC company specialising in hospitals; photographer / content creator as a side hustle",
+    "family_status": "No children yet; referenced wanting to pick up and play with future kids",
+    "height_in": 64,
+    "weight_lb": 160,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Self-described fit and active — calisthenics, pull-up bar, running, trails and mountains; CrossFit and sports in the past; group workouts in Vancouver; has done Spartan-type races and plans a December HYROX; seasonal pattern of dropping off in winter",
+    "kettlebell_experience": "some",
+    "medical": "Recurring lower back issues and SI joint flare-ups that come and go; back can spasm when pushing heavy weight — 'I'll start getting spasms and stuff like that'; self-describes it as discomfort rather than an injury. Generally inflexible. No diagnosis, clinician or treatment disclosed."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.72,
+    "signals": [
+      "Self-directed and capable — 'I'm a pretty fit and active individual', already runs calisthenics, running and group workouts without help",
+      "Explicitly shopping and price-benchmarking — 'obviously, I'm in, I'm shopping around and seeing what's the best fit for me'",
+      "Named a substitute he believes is cheaper and adequate — 'I'm pretty sure I could find somebody for cheaper in-person that would meet with me a few times a week that specializes in kettlebells'",
+      "Set his own value ceiling rather than accepting the anchor — 'I think that the value for me would be like $6.50 a month, maybe $6.00'",
+      "Not the_optimizer: price was a hard barrier, not a quality signal"
+    ]
+  },
+  "goals": [
+    { "text": "Improve mobility, which he says has never been his strong suit and matters more as he ages", "category": "mobility" },
+    { "text": "Get leaner and see his abs again", "category": "appearance" },
+    { "text": "Put on more muscle", "category": "muscle_gain" },
+    { "text": "Be as fit as possible by 40 so he can 'tick off my 40s as best I can'", "category": "longevity_function" },
+    { "text": "Get genuinely good at kettlebells rather than dabbling — 'I want to be better at kettlebells and I see the benefit of kettlebells specifically'", "category": "other" },
+    { "text": "Have structure and routine so training does not drop off when work gets busy", "category": "consistency" },
+    { "text": "Be able to pick up and play with future kids in all positions, not just linear movement", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "No structure or routine — 'I lack structure and accountability for sure. I get after it, but I don't have any structure'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Training is the first thing dropped when work gets busy — 'the first thing to go is the thing that I don't have accountability for or structure with'", "category": "consistency", "severity": "medium" },
+    { "text": "Annual winter fall-off where he becomes sedentary and gains fat — 'I usually have like a month or two where I'm just like relaxed and putting some fat on'", "category": "consistency", "severity": "medium" },
+    { "text": "Recurring back and SI joint flare-ups that spasm when he pushes heavy weight", "category": "injury", "severity": "medium" },
+    { "text": "Poor flexibility and stiffening with age — 'I definitely don't want my body to get stiff'", "category": "aging", "severity": "low" },
+    { "text": "Eating out more than he wants since returning from six weeks in Peru", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Kettlebell technique gaps — 'my still kills my wrist' and 'I haven't mastered the timing yet'", "category": "competence_anxiety", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "So $8,400 for six months. That's like $1,400 per month. That's significant.",
+      "timestamp": "00:38:02",
+      "rep_response": "Acknowledged it as an investment and reframed the programme as knowledge transfer rather than a subscription, then asked how he felt about it. Did not isolate the objection or explore finances.",
+      "response_tactic": "acknowledge_and_reframe_value",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "So, like, I'm pretty sure I could find somebody for cheaper in-person that would meet with me a few times a week that specializes in kettlebells. I can think of a few off my head already, actually.",
+      "timestamp": "00:40:12",
+      "rep_response": "Conceded the point ('there's always cheaper people out there for sure'), then offered to 'find a way to meet in the middle' with less financially committing options rather than defending the differentiated value.",
+      "response_tactic": "concede_and_offer_lower_commitment",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I'd probably be prepared to, let's see. Yeah. I don't know. I think like from the information at hand, I think that the value. For me, would be like $6.50 a month, maybe $6.00 is probably what I would be thinking.",
+      "timestamp": "00:41:14",
+      "rep_response": "Split the offer — described Primal University as the lower-priced tier without accountability, then said 'the price is not negotiable, but we could go from six months down to three', quoting $4,000 for three months.",
+      "response_tactic": "tier_split_and_shorten_term",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Unfortunately, that's not something that I think that is a value for that price, I think. It's a bit too much. That's kind of how I feel about the full coaching program. But I like what you guys are doing here, and I definitely see the value of what you're offering. Unfortunately, the asking price is just a bit too much for me, for sure.",
+      "timestamp": "00:44:44",
+      "rep_response": "Accepted the no ('Gosh, man. Well... Fair enough') and pivoted to the $199/month Primal University, dropping a Skool link in the Zoom chat.",
+      "response_tactic": "downsell_to_self_serve_tier",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 1, "price_usd": 199 },
+      { "months": 12, "price_usd": 1999 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "None stated for the coaching programme. For Primal University the rep said 'If you go monthly, it's like pay-as-you-go. So you can cancel at any point. Like, if you join in the first 30 days, not really getting anything out of it, you can just cancel through the app.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal of the coaching programme: 'Unfortunately, the asking price is just a bit too much for me, for sure.'",
+      "Rejected the improvised three-month tier too: 'Unfortunately, that's not something that I think that is a value for that price.'",
+      "No payment taken, no payment link sent, no onboarding scheduled.",
+      "Counter-evidence: he did not close the door entirely — he asked for the Primal University landing page ('Share that link with me, so I can just look a little bit deeper into that. I can make an assessment on that'), so a $199/month self-serve sale remains live.",
+      "Call ended cordially with no follow-up appointment booked."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to review the Primal University Skool link the rep dropped in the Zoom chat and decide on his own; no follow-up call scheduled."
+  },
+  "notable": {
+    "note": "The rep improvised a three-month / $4,000 tier live on price pressure — a price that appears nowhere in the stated $6,000/6mo, $9,000/12mo structure — and did so immediately after telling the prospect 'the price is not negotiable'. He also invited negotiation earlier ('we'll see if we can find a way to meet in the middle'). Separately, the prospect disclosed recurring back spasms and SI joint dysfunction that flare when he lifts heavy, and the rep pitched a loaded kettlebell programme without ever asking whether a clinician had looked at it. The prospect had discovered Trevor six hours before the call and was fully unwarmed — no setter, no prior nurture — which is worth noting against the close rate."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent swaps. Long passages are inverted — e.g. the whole programme pitch from 00:03:00 ('Fathom right in with the with the strength and conditioning') is labelled to the prospect but is clearly the prospect's own continued turn, and the block at 00:24:00-00:25:00 comparing HYROX linearity is split across both labels mid-sentence. Roles were resolved from content throughout. Prospect's speaker label is 'Jaybre Photo', not his name. Numbers are mangled by the transcription: weight rendered '1160, bet, or just under' (read as ~160 lb), Primal University pricing rendered '$1.99 per month' and '$19.99 for the year' (read as $199/mo and $1,999/yr, consistent with the stated ~$350 saving), and his value ceiling rendered '$6.50 a month, maybe $6.00' (read as $650/$600 per month)."
+  }
+}

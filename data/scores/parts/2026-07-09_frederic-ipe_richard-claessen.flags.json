@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-07-09_frederic-ipe_richard-claessen",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The rep stated that the agreement is only generated and sent after payment and that he has no ability to release it beforehand, and declined the prospect's repeated requests to read the terms before paying $6,000.",
+      "evidence": [
+        "Yeah, I don't have a site into the contract, it gets sent when we've done the payment, basically.",
+        "Yeah, but before the payment, no? Yeah, so I don't have insight to it. Like, I can't just open a new one, like, it's all automatic, basically.",
+        "What I like to do is that I like to do the other way around. So I like, you send me the contract, I read, if it's, if there is one. I really can't just send one up front. This is always our [process]",
+        "But because you cannot pay an after-signed contract. It doesn't work like this.",
+        "Yeah, and in Europe, it's a little bit different. To be honest, as well, like in America, it is like the standard way overall, from what I've also heard."
+      ],
+      "timestamp": "00:44:27"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The only written description of the offer the rep could produce was an outdated internal document that omits the one-to-one coaching, which the rep conceded is the largest part of what is being sold, and he sent it to the prospect anyway.",
+      "evidence": [
+        "Then this, yeah. Like this is a little bit older, but this is what we have written, if I can send it. This is what we have written down like in like an internal document. But we don't have any. Anything that we send to people.",
+        "Okay. I do see that it misses the one-on-one aspect a little bit. So you are going to get his number, but it's not in here.",
+        "That's like the biggest part.",
+        "Yeah, I requested the request. I don't know whether, but yeah. Yeah, this is not the one-to-one thing.",
+        "It's because it's an older one. This is how we did it before. And that's what I'm saying. Like, this is old."
+      ],
+      "timestamp": "00:50:46"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep gave three different informal refund positions across the call, none of them a stated policy, while simultaneously saying the prospect could not see the contract that would define them.",
+      "evidence": [
+        "let's say in worst case scenario in one week like i'm like totally disappointed... how does it work can i get a refund",
+        "even though i don't want that but yeah if you really hate it then we can go into conversation about that but from what i'm hearing you're ready to commit we know of course we can get the results so it shouldn't be needed",
+        "Of course, like, if I've lied to you, then we would definitely give you a refund, of course.",
+        "And if you're like, guys, I hate this, then we just send it back. But I know that's not going to be the case.",
+        "when it comes to this, I know that there's almost nothing in the contract. Like, it's just very simple."
+      ],
+      "timestamp": "00:41:59"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The same rep on the same day described the payment plan as an undefined ad hoc arrangement here, having quoted a specific structured internal plan of $1,200 per month for six months on another call in this batch.",
+      "evidence": [
+        "In terms of payment, what's the plan like? So what's the plan like? So is it, what's the options, I mean?",
+        "Most guys, put it up front, also for their own commitments... If needed, we can split it up, but we don't have anything set usually for that, because it's usually always just upfront.",
+        "Cross-reference, call 2026-07-09_anthony_richard-claessen, same rep, same date: 'when it comes to doing it in six times, that would become $1,200 a month. That is if we do it internally.'"
+      ],
+      "timestamp": "00:55:21"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Asked for evidence of what he was buying, the rep argued that the absence of public complaints against a 1.3 million follower account was itself proof of quality; the prospect explicitly rejected the substitution.",
+      "evidence": [
+        "When it comes to being suspicious, right? Like, do you think if we would actually do wrong things, we wouldn't coach people like how we should be coaching them. Don't you think it would be all over the internet when he has 1.3 million followers on Instagram?",
+        "We've coached over 1,200 people. Like, how is it not out there?",
+        "No, no. It's not about the fact that it's real or fake or whatever. I know it's real... It's just that the fact that between what you say looks very clean, and at the same time, there's disparity from the fact that there's nothing written, you signed a contract afterwards, and the one-to-one isn't much on there.",
+        "So do you feel like when we would have something that isn't good, we don't, but if that would be the case, do you feel like we would put that on paper?"
+      ],
+      "timestamp": "00:59:56"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The $6,000 price was converted live to a euro figure for a euro-zone-resident prospect without stating which currency would actually be charged or that the rate would move.",
+      "evidence": [
+        "We have an investment of 6k USD, which is 5.2 euros.",
+        "And, okay. 616K, USD. Okay.",
+        "Is it for you worth 6,000 or 5.2 in order to get fitter and feel better?"
+      ],
+      "timestamp": "00:39:45"
+    }
+  ]
+}

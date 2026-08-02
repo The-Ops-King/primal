@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-07-09_manish_richard-claessen",
+  "source": {
+    "drive_file_id": "1GEAw0NE9MYRfw6anDDHSGBFghhj557u4",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/09/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/09/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 78250
+  },
+  "call": {
+    "date": "2026-07-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Treated as a first call, but the prospect reports a prior contact attempt roughly a year earlier that was never followed up: \"I think I already called up and spoken to one of you guys, but it just didn't work out for some reason... someone even called me, and I just couldn't make the appointment, because I think I was driving, and then I told him to call me back next week the same time, and he didn't call back.\"",
+    "duration_min_est": 64,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe (call taken at 22:00 local time)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named and no setter notes referenced. The prospect refers to notes existing at the end — \"I guess you've got all my notes, all my details and stuff\" — but no source is identified on the call."
+  },
+  "prospect": {
+    "name": "Manish",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "New Zealand",
+    "age": 30,
+    "occupation": "Dentist (day job, roughly 24-30 hours a week) and working stand-up comedian touring a show nationally",
+    "family_status": "Married; wife recently finished studying and is also trying to transform her body; they have dogs. Family situation stabilised the week before the call — settled in one city for five years.",
+    "height_in": null,
+    "weight_lb": 240,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has never trained — \"In my whole life, I've never trained, I've just been playing sports, but without actually training.\" Played four to five hours of basketball a day ten years ago. Went to the gym briefly after university and it never appealed to him. Roughly \"a couple of hundred attempts\" at losing weight, none of which lasted. Has gained weight steadily over ten years.",
+    "kettlebell_experience": "none",
+    "medical": "Jumper's knee (patellar tendinopathy) in the right knee for seven to eight months — currently under physiotherapy care and working on strengthening around the knee. It stopped him playing basketball for five weeks and flares badly after long drives: \"if I sit down for a long car drive... for like five hours... and then if I get up, it gets really painful.\" Self-reports weak joints attributed to 10 years of weight gain without training, reduced lateral speed and lost explosive power. Rates his overall mobility 6-7 out of 10 on a scale where 10 is worst, up from 3-4 at his peak. Chronic tightness in shoulders, traps and the back of the neck attributed to dentistry posture. Describes not being the happiest he has been in life."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Ten years of steady decline he can chart himself — \"I can see the progression that's been happening, like mentally and physically, it's been twindling down over the past 10 years\"",
+      "Wants capability back rather than something new: \"10 years ago, I could play four or five hours on a Friday evening, go home, recover, come play again\" and \"now I'm basically looking to reverse the clock before it's too late\"",
+      "Carries explicit shame — \"I feel ashamed that I have not been in shape\" and \"I don't want to go on stage thinking to myself, oh, can they see that I'm fat?\"",
+      "Counter-signal: he says there is no former peak to return to — \"I've never gotten into the best shape my whole life\" — which pulls toward a first-timer rather than a rebuilder. Confidence capped at 0.6 for that reason."
+    ]
+  },
+  "goals": [
+    { "text": "Be mentally sharp and energetic through the whole day so he can work — the physical is explicitly the by-product", "category": "energy_performance" },
+    { "text": "Lose about 15 kg by the end of the year", "category": "fat_loss" },
+    { "text": "Be strong and injury-free with a routine he can keep for the rest of his life", "category": "sustainability" },
+    { "text": "Fix the jumper's knee and get back to playing basketball whenever he wants", "category": "injury_confidence" },
+    { "text": "Stop feeling insecure about his body on stage as his comedy career scales up", "category": "confidence" },
+    { "text": "Get his mobility from a 6-7 back toward a 3-4 and regain lateral speed and explosive power", "category": "mobility" },
+    { "text": "Learn the right protocols — warm-ups, warm-downs, how to manage his body around sport", "category": "other" },
+    { "text": "Avoid becoming \"one of those 40 year old guys who have given up on life and just complain about everything\"", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Jumper's knee for seven to eight months; stopped basketball for five weeks and flares after long drives to shows", "category": "injury", "severity": "high" },
+    { "text": "108-109 kg after ten years of weight gain with no training; joints not coping with the extra load", "category": "other", "severity": "high" },
+    { "text": "Tired constantly — comes home from dentistry with nothing left for the comedy career", "category": "other", "severity": "high" },
+    { "text": "Has felt bad about his body every day for over a decade — \"I feel it every 24-7. And every second of my life\"", "category": "emotional", "severity": "high" },
+    { "text": "Hundreds of failed weight-loss attempts because he never had a why", "category": "motivation", "severity": "high" },
+    { "text": "Has never had a routine — \"my whole life, I've struggled to have a routine\"", "category": "consistency", "severity": "high" },
+    { "text": "Five months of eating out for almost every meal while he and his wife both over-prioritised work", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Cannot stop eating once he sits down to a meal", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Not the happiest he has been despite having built the life he wanted — \"why am I still so sad?\"", "category": "mental_health", "severity": "medium" },
+    { "text": "Chronic tightness in neck, traps and shoulders from dentistry posture", "category": "work_stress", "severity": "medium" },
+    { "text": "Turbulent few years financially; no savings and just starting a financial journey", "category": "other", "severity": "high" },
+    { "text": "Confusing and contradictory nutrition information online", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Because I definitely don't have like, I definitely don't have 10k to spend, man. Like, it's not even there. So I thought that, I saw somewhere online that it was like 200 USD a month.",
+      "timestamp": "00:48:00",
+      "rep_response": "Isolated it cleanly (\"outside of the finances, would you be like, yes, I want to do this?\"), ran the worth check, then reframed it as a how-question — \"it sounds like it's more of a, how would I even make this possible, rather than, should I even do this?\" Asked what he had set aside and how quickly he could raise it, then laid out four payment structures.",
+      "response_tactic": "isolate_then_how_reframe_then_payment_structures",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "What is that $200 a month thing?",
+      "timestamp": "00:57:22",
+      "rep_response": "Described Primal University briefly and then talked the prospect out of it himself — \"but I know that the one-on-one aspect is what you need, from what I'm hearing as well\" — which the prospect confirmed.",
+      "response_tactic": "steer_away_from_downsell",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I think the best way would just be to save up, man, because yeah, I just don't think that I'd be able to like fork out 500 bucks a week.",
+      "timestamp": "00:55:26",
+      "rep_response": "Initially pushed back (\"I wouldn't advise you to save up because it can take another six months without actually taking the action that you want to take\"), then accepted a two to two-and-a-half month timeline and offered to call monthly.",
+      "response_tactic": "resist_then_concede_and_nurture",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I also need to have a chat with my wife about this as well, because like, because it is a lot of... it's like when you're married, you can't just make these kinds of decisions.",
+      "timestamp": "01:00:15",
+      "rep_response": "Agreed and encouraged it — \"definitely have that conversation with your partner about it... just make that decision together.\" No OB moves run, even though the prospect had already said she would have no issue with it.",
+      "response_tactic": "endorse_the_delay",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Let me just think about this man... I probably have to sit down and budget and before I say anything about joining something else.",
+      "timestamp": "00:56:12",
+      "rep_response": "\"I don't want to force you into doing anything right now\", then moved to scheduling check-in calls.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Stated verbatim: \"You can pay it upfront, you can pay it in two times, and you can pay it in three times. All three of them come down to $6,000. You can do it in six times, that comes down to $7,200. That's because that's $200 per installment extra.\" Recommended three payments of $2,000 USD to avoid the surcharge. Quoted alongside \"6K USD, which is 10K New Zealand\" and, four minutes earlier, \"we don't have any specific payment plans\".",
+      "guarantee_mentioned": null,
+      "prospect_financials": {
+        "available_now_usd": 0,
+        "monthly_surplus_usd": null,
+        "has_savings": false,
+        "credit_score": null
+      }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no commitment, no link. Blocked on cash: \"there literally is not 10k to spend in the bank\" and \"what do you have set aside at the moment?\" / \"honestly, I would say it's nothing.\"",
+      "Very high intent on the product itself: \"Outside of the finances, would you be like, yes, I want to do this?\" / \"Oh, there's no doubt about that\", and \"Excited to get started, man. I do see it happening. We just got to sort out the finances.\"",
+      "Even the three-payment structure at $2,000 USD each was declined for now: \"Is that something that would even be possible at the moment? Just in all honesty\" / \"To be honest, man, to be honest, no.\"",
+      "Counter-evidence for optimism: he says his income is elastic (\"if I need more money, I'll just work a bit more\") and has committed to a two to two-and-a-half month timeline. Counter-evidence against: he also needs to speak to his wife, has hundreds of failed attempts behind him, and a prior contact with the company already lapsed once through a missed callback."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a video immediately and to call in a month and again the month after; target start in roughly two to two-and-a-half months when the prospect can fund the first of three $2,000 payments. Prospect to budget and speak to his wife."
+  },
+  "notable": {
+    "note": "The most consequential call in the batch for policy. The rep said \"we don't have any specific payment plans\" at 00:51:28 and then at 00:57:41 recited four defined structures with a defined surcharge — upfront, two payments and three payments all at $6,000, six payments at $7,200 because \"that's $200 per installment extra\". That is the payment-plan policy stated plainly on a recording, and it contradicts what the same rep told a different prospect three days earlier. Separately, USD and NZD were used interchangeably through the entire pricing conversation, ending with \"it would be 2,000 USD, like 3,300 USD\" for the same payment. And a prospect in active physiotherapy for a seven-month patellar tendinopathy asked directly whether the programme would make his knee worse and was told \"it just comes down to building it up.\""
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion — long passages of the rep's presentation run under the prospect's label and vice versa, including the entire stretch from 00:12:39 to 00:14:20 and much of 00:41:00 to 00:45:30. Several of the rep's own questions appear under Manish (\"Why do you think that you're not comfortable with that?\", \"What is the best shape of Manish life?\"). Role read from content throughout. Connection dropped at least twice and there are unrecoverable machine artefacts, including one in the middle of the instalment arithmetic (\"it would come down to like 19,000 2,000 per payment\") which makes one quoted figure ambiguous."
+  }
+}

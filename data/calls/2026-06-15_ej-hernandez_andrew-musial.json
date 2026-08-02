@@ -1,0 +1,145 @@
+{
+  "call_id": "2026-06-15_ej-hernandez_andrew-musial",
+  "source": {
+    "drive_file_id": "1gmgyKhf7_hT9b9jjaZoIZcayQBgEHV8u",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/15/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 54749
+  },
+  "call": {
+    "date": "2026-06-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 72,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "EJ Hernandez",
+    "aka": "addressed variously as Efrem and Andy by the rep",
+    "name_source": "transcript",
+    "location": "Toronto, Ontario, Canada",
+    "age": 48,
+    "occupation": "Works in the family-owned dental practice (his mother is the dentist); describes his work as selling health",
+    "family_status": "Married; three sons aged 20, 14 and 11, all still at home; one son has a severe peanut allergy",
+    "height_in": 65,
+    "weight_lb": 155,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training since 19-20; conventional bodybuilding split, then Insanity plyometrics, then CrossFit, where he met a Canadian kettlebell champion and learned snatches and cleans; still doing Insanity; gym member at the same gym 17-18 years, trains daily 04:30-07:00 in the 5am crowd; converted a detached garage into a home gym for the family; plays hard basketball once or twice a week; currently doing 12 kg single-hand and 20/32 kg double swings",
+    "medical": "Torn rotator cuff with ongoing functional limitation - 'I know there's certain limitations right now, especially with my shoulder. I can feel it.' Right knee swelling that began a couple of weeks before the call, managed with a sleeve and neoprene brace and treated by a chiropractor and an osteopath every couple of weeks. Fifteen years of addiction, now sober - alcohol stopped recently enough that he reports a new sugar craving."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Fifteen years lost to addiction while still training - 'I was an addict for more than, about 15 years'",
+      "Wants to see what the body can do now that he is clean - 'I want to see where my body can go now that I'm completely clean'",
+      "Visible regret carried openly - asked whether his sons look up to him he answered 'Right now, at the moment, no. Because of my addiction, it's hard for them.'",
+      "Nearly cried during discovery - 'Don't make me cry, Andrew'"
+    ]
+  },
+  "goals": [
+    { "text": "Move better and lean out after plateauing at 48", "category": "fat_loss" },
+    { "text": "Get stronger overall and stop being limited by the shoulder", "category": "strength" },
+    { "text": "Regain his sons' respect and be the role model they can look up to again after his addiction", "category": "family_role_model" },
+    { "text": "Prove to himself he can do it now that he is completely sober", "category": "confidence" },
+    { "text": "Keep competing physically with much larger men at basketball", "category": "hobby_performance" },
+    { "text": "Change his training methods for older age so he can keep building safely", "category": "longevity_function" },
+    { "text": "Inspire other people the way he wants to inspire his sons", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Plateaued - trains constantly across three modalities and has stayed the same", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Torn rotator cuff limiting what he can do; knee swelling under current kettlebell swings", "category": "injury", "severity": "high" },
+    { "text": "His sons do not currently look up to him because of his addiction", "category": "relationship", "severity": "critical" },
+    { "text": "Fifteen years of addiction he is now rebuilding from", "category": "mental_health", "severity": "high" },
+    { "text": "New sugar cravings since stopping alcohol", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Only training window is 04:30-07:00; basketball nights run past 01:00", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Acute financial pressure - poor credit score, a high-interest mortgage he is trying to refinance, two children in private school", "category": "work_stress", "severity": "high" },
+    { "text": "Being the smallest man in the room at 5'5\" against sons who are all taller than him", "category": "confidence", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I thought it was going to be three, but yeah, USD, that's steep, man.",
+      "timestamp": "00:50:01",
+      "rep_response": "Checked the exchange rate live (CAD 8,140), then reframed - 'this is bigger than just finances... don't let finances get in the way of what you're building here.'",
+      "response_tactic": "emotional_reframe_to_family_goal",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Even, like, even... If I break it down monthly, right now, that would be the only thing. I don't know if my finances can handle that. Two of my kids are still in school, and they're in private school. So maybe now is not the time.",
+      "timestamp": "00:50:57",
+      "rep_response": "Probed third-party financing, learned the credit score would not support it, then improvised an unlisted three-month programme at $4,000 with a split.",
+      "response_tactic": "improvised_reduced_scope_tier",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "There's a few things that I need to adjust at current, and it requires time, and that's beyond my control... Once I fix my finances, then I'll be able to afford it.",
+      "timestamp": "00:56:23",
+      "rep_response": "Established the refinance timeline (four to six weeks, dependent on the Canada Revenue Agency), praised his commitment, then proposed a $100 refundable deposit today.",
+      "response_tactic": "small_refundable_deposit",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "wait how do I know this is legit right",
+      "timestamp": "01:02:00",
+      "rep_response": "Answered with ridicule and a chargeback assurance - 'do you think really that I would take your 100 and escape to Mexico and go to a casino' and 'even if this was a scam, of course it's not, but if it would be like your credit card is secured, you get it charged back'.",
+      "response_tactic": "ridicule_plus_chargeback_assurance",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "For the improvised 3-month/$4,000 tier: preferred split in two with no interest, or 'if you would like to split it up to three months, that would be 1,500 a month' - which totals $4,500, $500 above the quoted price, and the difference was never mentioned. Rep also quoted CAD equivalents live: $8,140 for six months, $5,400 for three, $2,000/month Canadian. Third-party financing raised and ruled out on credit score. Closed on a $100 refundable deposit, which failed on insufficient funds.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 0,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": "self-described as not good - 'my credit score is not that great'"
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment collected. The $100 deposit failed - 'My credit card has insufficient funds. I gotta fund it.'",
+      "Verbal commitment to pay the deposit later - 'if you can resend it, resend it, and I will get that $100 deposit in. I promise you that' - but the deposit is for a hold, not the programme",
+      "Rep's own read in the team meeting the same afternoon: 'I was taking a deposit today. The guy says that he will pay the deposit, but I think he just got scared and won't do it.'",
+      "Prospect wants to revisit after a mortgage refinance he estimates at four to six weeks and outside his control",
+      "Counter-evidence to any positive read: he was attempting to fund a personal purchase on the family business card"
+    ],
+    "next_step": "Rep to resend the deposit link; revisit in roughly a month once the refinance completes.",
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null
+  },
+  "notable": {
+    "note": "The highest-risk call in the batch on both axes. Clinically: a torn rotator cuff and a currently swollen knee under chiropractic and osteopathic care, moved toward loaded ballistic kettlebell work with no clearance question - the swing technique was discussed, the injury was not. Commercially: after the prospect said 'maybe now is not the time' and disclosed poor credit, a high-interest mortgage and private-school fees, the rep invented a three-month tier at $4,000 that is not in the published structure, quoted a three-instalment version at $1,500/month that totals $4,500 without flagging the $500 uplift, pressed for an immediate deposit, answered a direct legitimacy question with ridicule plus a chargeback assurance that contradicts the client agreement's 'no refunds, no chargebacks' clause, and kept probing ('are you still hesitant... just be frank') after the card declined. The prospect was trying to pay on the company card."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion; most of the rep's pitch from 00:33 to 00:48 is attributed to 'EJ Hernandez' and much of the prospect's disclosure to the rep, and long unpunctuated blended runs appear at 00:51-00:53 and 01:02-01:03. Roles read from content throughout. The rep addresses the prospect as both 'Efrem' and 'Andy' within minutes, so the recorded name comes from the speaker label. Rep's Fathom label reads 'Andrew Jin (Primal Instinct)'; folder and batch name him Andrew Musial. Call content corroborated by the 2026-06-15 team meeting held the same afternoon."
+  }
+}

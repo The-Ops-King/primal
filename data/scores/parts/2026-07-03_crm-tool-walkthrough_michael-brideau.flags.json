@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-07-03_crm-tool-walkthrough_michael-brideau",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Automated confirmation messages are sent to prospects in the first person under the name of a person who does not exist on the team, with no indication that the sender is a system.",
+      "evidence": [
+        "Yeah, basically, just going to say, hey, Michael, this is Sophia from Primal Instinct Coaching. You know, you booked a call with Michael. You know, he has some ideas on how he can help you with X, Y, and Z, which is based on their application. And then it's asking for the confirmation, and then it sends them the thank you page.",
+        "What do you think right here, because it says his first and last name, do you think it'd be worth just cutting that down and putting it Sam? I don't know why it's replying to people with that.",
+        "We have to tell Sales Kick that it shouldn't be replying.",
+        "Sure, because that seems kind of weird."
+      ],
+      "timestamp": "00:05:11"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Prospects are assigned a financial and credit assessment held in the sales system before any conversation takes place, and it is read aloud when routing them to a closer.",
+      "evidence": [
+        "That's a decent financial grade, decent credit.",
+        "This is his app, decent app. Says he's retired, but he worked for 32 years at UPS, yadda, yadda, yadda, yadda.",
+        "Go to booking and then just hit reassign, reassign it to Michael, and that's it.",
+        "Yeah, and then I asked him for his credit score. Yeah, I was like seven on them before and now it's like five-something."
+      ],
+      "timestamp": "00:08:25"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "How to disposition a call that took place but did not reach a pitch is undefined and left to individual rep discretion, which means the denominator for any close-rate calculation varies by rep.",
+      "evidence": [
+        "I would put that under reschedule. Where's reschedule? Is that sales call not completed? Not completed. Yeah, not completed. Sorry.",
+        "If you didn't pitch them, then yeah, I would just leave them in a book sales call. Oh, so not even update this then? Or not even do one of these things?",
+        "Yeah, mean, either way. It's kind of like a really gray area. It's only going to happen. It's not going to happen that often.",
+        "So, or you could just put a note, like I would, if anything, just put a note in close, and just say like, hey, booked a second call, didn't pitch on the first call, ran out of time, and then just book sales call."
+      ],
+      "timestamp": "00:03:52"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A prospect was reassigned between closers because of a scheduling clash and was then given a different explanation on the call, so the outcome will be attributed to a rep who neither set nor originally owned the lead.",
+      "evidence": [
+        "So, Andrew has a double booking at 3 p.m. Eastern Time. And I noticed, I know that you have the clarity call. So, if it's... If Clarity calls priority, then definitely go there.",
+        "Oh, no, I can hop on. I'll hop on the call with Andrew's double booking.",
+        "I'm going to reassign you this guy's name's Tommy... Says he's retired, but he worked for 32 years at UPS",
+        "By the way, I'm taking over for Andrew, so my name's Michael, just as a heads up. Oh, okay. Yeah, he had to step out."
+      ],
+      "timestamp": "00:07:40"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Direct bookings receive no human confirmation from anyone and it is unclear who is responsible, which means show rates are not comparable between set and unset leads.",
+      "evidence": [
+        "So is Kim calling those leads at all, like when they get booked on, you know, I can ask Chris too, but. Ask Chris, I don't think so.",
+        "Any direct booking is, I don't think they're, that he's reaching out to confirm, but double check with Chris.",
+        "And if anything, like, yeah, I would just recommend you to, if you wanted to do that, I would call. I would just call your own leads.",
+        "But anybody that doesn't have initials next to it is not a set.",
+        "I would ask Chris because I'm not a thousand percent sure."
+      ],
+      "timestamp": "00:09:32"
+    }
+  ]
+}

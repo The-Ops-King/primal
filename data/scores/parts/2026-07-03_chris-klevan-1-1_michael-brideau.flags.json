@@ -1,0 +1,96 @@
+{
+  "call_id": "2026-07-03_chris-klevan-1-1_michael-brideau",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A live prospect was quoted $3,000 for the three-month tier when the actual price is $4,000, an error discovered only when the manager reviewed the call afterwards.",
+      "evidence": [
+        "Well, because I saw that you pitched him 3K for three months and truthfully it's 4K for three months.",
+        "Oh, is it? Should I even know? Yeah, yeah, yeah.",
+        "So don't do that again.",
+        "But I was really trying to push him for even just the three months, and then I did like the love it or leave it thing"
+      ],
+      "timestamp": "00:27:44"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The closer invented a $1,250 seven-day money-back offer and put it to a live prospect before asking whether any refund option existed; the manager then confirmed there is none and instructed him never to pitch a one-week option again.",
+      "evidence": [
+        "then I pitched him like, well, dude, just why don't we do this then, come in for a week, pay $1,250 if you don't like it in seven days, refund it, but that at least what you can kind of see the inside",
+        "Can we do, like, a come in seven days if you don't like it, refund it? Or is that just a no-go with this offer?",
+        "There's really no benefit to them doing it on a fitness offer because there's not really a course. There's nothing for them to really, like, digest.",
+        "So really, at this point, I should just not ever pitch a one-week thing. Like, that just doesn't make sense.",
+        "It really doesn't make sense in most cases because there's no course, there's no information for them to really see."
+      ],
+      "timestamp": "00:07:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The $1,200 'love it or leave it' entry is an active, management-directed price tier that appears nowhere in the documented $6,000 and $9,000 offer structure, and the same rep described it to a prospect the same day as something the company does not openly discuss.",
+      "evidence": [
+        "Like, seven days is not enough. Like, if you're gonna do something with somebody, I would get them into the love-it-or-leave-it.",
+        "I would go, yeah, love it or leave it, 1,200.",
+        "he's like, dude, I just still can't see like $1,200, like that's still a lot, I can't commit to that right now, like I was expecting $250 at most",
+        "I'm just going to pitch them on the lover to leave it thing. Okay, cool. And then if not, I'll just bump down to Primal U.",
+        "We have, like, it's not something we actively, you know, talk about too much, but we do have like a love it or leave it program."
+      ],
+      "timestamp": "00:05:01"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The manager privately describes the community as barely active, while it is presented on every sales call as one of the substantive things the buyer receives for $6,000.",
+      "evidence": [
+        "The only thing they're going to see is the community with people talking about wins. That's it. And it's really not that active, to be honest with you.",
+        "And then on top of that, you're going to be in a community of guys. We have going to go- Guys all the way from, you know, in their 20s, all the way up to guys in their 80s.",
+        "There's regular group workout classes if you want to join those on occasion, different things like that",
+        "you're also going to be joining a community of guys where we're all going through the same thing, and again, it's a pretty high level of, like, caliber of guy that's in here, so there's a networking aspect to it",
+        "the type of people that we tend to attract are guys who take their health seriously. They've had successful careers. You know, they're not just bums sitting on the, on the couch kind of thing."
+      ],
+      "timestamp": "00:28:51"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The manager coaches deflecting rather than answering prospect questions about the delivery app and about the rep's own background, explicitly to stop prospects working out whether they could get the same thing themselves.",
+      "evidence": [
+        "That's why I honestly barely mentioned the app. Like I breeze by it. like, it's our custom app, put everything in there. That's it. That's that. And if they ask, I always will ask them, like, what are you, what are you? What Why do you ask?",
+        "You gotta be careful with those people. That's why I honestly barely mentioned the app.",
+        "he was probably trying to see if he could get it on his own",
+        "And then, and then you won't hear from them because they'll like, try to, they'll try to find an app or they'll try to do the thing on there. Like, it's just ridiculous.",
+        "You could probably say a very similar thing. Okay, I'll just make something up then.",
+        "Yeah, mean, don't lie, but usually you just have to recognize that, like, you have to see if the question's coming from curiosity, or if it's coming from an actual concern of trust on, like, who you are.",
+        "Because ultimately, they're working with Trevor, not you, so what does it matter?"
+      ],
+      "timestamp": "00:16:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Objection handling is taught as systematically removing every stated obstacle until the prospect has nothing left to hold onto and feels exposed, with the resulting resistance treated as evidence the method is working.",
+      "evidence": [
+        "And just constantly being like, if we can move that obstacle out of the way, you ready to go right now? If we can move that obstacle out of the way, you ready to go right now?",
+        "once you remove all of the logical or whatever obstacles they're saying, eventually it's either going to come down to them doing it, if you can solve all those problems, or them admitting to you that it's genuinely just fear, and then it'll be so illogical because you've destroyed all of the other obstacles that could be there, so there's nothing left for them to grasp onto",
+        "and they're going to feel exposed, you know, because they know it's like, oh , he's, like, got Got me all the way to the root, which is why people get so resistance to this",
+        "that's why you've to keep them so open, so they're willing to keep staying with you until you can finally get them to the place of, they can admit to you it's fear"
+      ],
+      "timestamp": "00:25:29"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The setter's manual call-confirmation step was dropped in favour of an automation known elsewhere to send prospects wrong meeting times, management does not know whether it stopped, and show rates are nonetheless being compared between closers who confirm and closers who do not.",
+      "evidence": [
+        "So Kim, initially, he was confirming his own sets. I told him he doesn't have to do that anymore because of sales kick because I feel like it seemed like it would just be so much. So I'm not actually sure if he's still doing that or not. From what I've seen, it seems like he stopped.",
+        "Richard still confirms. And he has a higher show rate than Andrew does.",
+        "He just reaches out to them on WhatsApp, or through Close, and just introduces himself.",
+        "Yeah, and just make sure they have everything they need for the call.",
+        "So I know the sales kick confirmation process. What's Kim's confirmation process for the setter when he sets somebody?"
+      ],
+      "timestamp": "00:14:34"
+    }
+  ]
+}

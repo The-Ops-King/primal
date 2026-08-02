@@ -1,0 +1,122 @@
+{
+  "call_id": "2026-07-28_istvan_richard-claessen",
+  "source": {
+    "drive_file_id": "1MBv9rBier2bCxCJDCst30IbT8FbUNIh0",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 51216
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 52,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. The rep references an application only: 'I already, of course, saw your application.'"
+  },
+  "prospect": {
+    "name": "Istvan",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "A small town near Budapest, Hungary",
+    "age": 46,
+    "occupation": "Export sales manager at a large manufacturer of high-voltage grid transformers; desk-bound, sitting eight to nine hours a day plus commuting, which he estimates at ten hours of sitting daily",
+    "family_status": "Married with three small children; wife bought him his first kettlebells",
+    "height_in": null,
+    "weight_lb": 161,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Played sports throughout his life and started weight training around 14-15, but describes it as hobby level. Did almost nothing for roughly the last five to ten years because of children and work. Recently returned to calisthenics at home, then bought kettlebells about two months ago after seeing short-form videos, and now trains three to four times a week at 5:30am for about an hour using a 12 kg bell. Says the plastic-framed kettlebells his wife bought online have unusable handles and need replacing.",
+    "kettlebell_experience": "some",
+    "medical": "Sacroiliac and lowest lumbar joint pain for about a year, rated 6-7 out of 10 at its worst and worst on waking - 'the crossbones and all those joints there hurt like hell.' He has not seen a clinician about it: 'I have to go to the doctor probably.' He has self-researched the condition and believes it needs stretches and medical training rather than kettlebells. Also reports increasing general stiffness after previously being flexible, and lactose intolerance diagnosed roughly twenty years ago."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Explicitly good-to-great: 'I'm not overweighted, I don't want to lose weight actually... I'm okay-shaped, I don't have to lose. But gaining muscle, yeah, exactly.'",
+      "Price met no resistance of any kind - the only issue was that his money sits in savings and it was the end of the month",
+      "Already executing at a high standard before buying: three to four sessions a week at 5:30am for two months, and seeing results",
+      "Buying refinement rather than rescue - form correction, progression, measurable feedback: 'after a limit or a level, it's hard to have a progress alone, because there's no checkup, no feedback'",
+      "Cuts against the classification: a year of untreated 6-7/10 spinal pain, which is closer to the_medically_constrained than the taxonomy allows for someone with no price resistance"
+    ]
+  },
+  "goals": [
+    { "text": "Gain a few kilos of muscle, especially in the legs and core rather than only the upper body", "category": "muscle_gain" },
+    { "text": "Not look weak, thin or old - a lifelong self-image issue since being a skinny teenager", "category": "confidence" },
+    { "text": "Move more freely and agilely, without stiffness, and run up stairs without issues", "category": "mobility" },
+    { "text": "Reduce or manage the lower back and sacroiliac pain, though he doubts kettlebells alone will do it", "category": "other" },
+    { "text": "Extend healthy lifespan by holding on to muscle mass as he ages", "category": "longevity_function" },
+    { "text": "Have kettlebells as a genuine hobby, which he says he otherwise lacks", "category": "other" },
+    { "text": "Be someone his three children see training and are a little proud of", "category": "family_role_model" },
+    { "text": "Learn correct technique and get objective feedback so progress does not stall", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Sacroiliac and low lumbar joint pain for about a year at 6-7 out of 10, worst on waking, never assessed by a clinician", "category": "injury", "severity": "high" },
+    { "text": "Sits roughly ten hours a day between desk work and commuting, and is losing flexibility he used to have", "category": "training_barrier", "severity": "high" },
+    { "text": "Did almost no training for about five years because three small children, work and household left no time for himself", "category": "time_scarcity", "severity": "high" },
+    { "text": "Lifelong self-image as a skinny, weak-looking man - 'I don't want to look, you know, weak and old and thin'", "category": "confidence", "severity": "high" },
+    { "text": "Progress plateaus training alone with no form check, no feedback and no way to verify technique", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Protein intake almost certainly too low for muscle gain and not tracked at all", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Lactose intolerance rules out dairy protein sources", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Losing muscle and gaining fat with age and needs to reverse it", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "regarding the funds, I mean, I have to still check with the bank because I don't have that money in the... Checking... It's getting the end of the month, so it's like close to nothing, but I have to, you know, check with the bank and then move some funds from the savings.",
+      "timestamp": "00:43:04",
+      "rep_response": "Asked what was in the checking account, then whether $1,200 was available, then settled on a $100 down payment taken live with the remaining $5,900 to be paid by link the following morning once funds moved from savings.",
+      "response_tactic": "step_down_to_deposit_and_pin_next_day_payment",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Not a plan - a $100 down payment taken on the call with the remaining $5,900 due by link the next morning. Price also quoted in local currency as approximately EUR 5,200.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 100,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Verbal agreement to proceed on the price: 'Perfect. What do you say, let's get started?' 'Yeah, yeah, let's check that, yeah.'",
+      "Payment link sent and used - a $100 down payment was completed live and confirmed by both sides: 'at my side, it says yes' / 'I see it come true as well'",
+      "Framed as a down payment against the purchase rather than a refundable hold: 'we just do like a down payment already... The only thing that we would have to do then tomorrow is do the rest of the payment'",
+      "Onboarding call with Trevor booked for the next day at 7:15pm and the calendar invite confirmed received - the only Trevor booking made in this batch",
+      "Onboarding questionnaire sent on WhatsApp and confirmed",
+      "Counter-evidence: $5,900 of the $6,000 was still outstanding at the end of the recording, contingent on the prospect moving funds from savings the next morning, and the agreement had not been sent or signed"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "contract_value - $100 down payment collected live on the call, remaining $5,900 to be paid by link the following morning",
+    "next_step": "Prospect to move funds from savings and pay the remaining $5,900 by link before noon the next day, then receive and sign the agreement and get the community invite; Trevor onboarding call booked for 7:15pm the following evening"
+  },
+  "notable": {
+    "note": "The most serious clinical finding in the batch. The prospect disclosed a year of 6-7/10 sacroiliac and low lumbar joint pain and said in plain terms that he has not seen a doctor about it. He then correctly reasoned that kettlebells would not fix it and that he needs stretching and medical treatment - and the rep talked him out of that position using Trevor's own injury story and a specific claim about a named client called Lou whose back hernia pain supposedly dropped from six or seven to three or four, before promising 'eventually the pain does get less.' The sale followed. Separately, the rep twice stated on the record that he is not permitted to book an onboarding meeting inside twelve hours and booked one anyway: 'Usually I'm not allowed to book that, but I don't care.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion, worse than most of the batch. Long stretches of the rep's presentation from 00:29:18 to 00:34:09 are broken across both labels mid-sentence, and the entire passage from 00:11:00 to 00:12:00 in which the prospect describes what feeling good means to him is filed under the rep. The Lou testimonial at 00:22:19 to 00:24:00 appears under the prospect's label but is clearly the rep speaking. The price reveal is correctly attributed. Roles assigned from content throughout. Prospect gives only a first name."
+  }
+}

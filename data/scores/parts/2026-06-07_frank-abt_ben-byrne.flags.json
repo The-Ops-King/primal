@@ -1,0 +1,83 @@
+{
+  "call_id": "2026-06-07_frank-abt_ben-byrne",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect with two MRI-confirmed bulging lumbar discs and ongoing morning flexion restriction was sold a $6,000 loaded ballistic kettlebell programme, paid on the call, with no clinician clearance sought or suggested at any point.",
+      "evidence": [
+        "The is is I have two bulging discs in my lower back so that's like part of the reason why I lost some of the gym time was for recovery",
+        "Like 2017, 2018 it happened, and then I re-aggravated it again in like 2020. And then that's when I went and got like a MRI. They saw those two bulging discs. I went to physical therapy.",
+        "no matter what, when I wake up in the mornings, I'm like stiff. I can like touch the middle of my shins and not like my feet",
+        "we're not going to go crazy on the, can you super like, you know, all right, here's like a 60 pound kettlebell, like start doing snatches, but we want to get your body moving",
+        "Okay, I just put the payment through."
+      ],
+      "timestamp": "00:08:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep presented the programme as remediating diagnosed spinal disc pathology, using the prospect's own bulging discs as a reason to buy.",
+      "evidence": [
+        "We got a lot of guys that come to I wouldn't say crazy, but definitely bulging discs, herniated discs, just back pain in general. And once we get them moving right again, it makes a huge impact.",
+        "mobility, we also want to strengthen your range of motion, not just kind of increase it",
+        "you want to start getting the blood flow to the right muscles, start getting your body back into alignment"
+      ],
+      "timestamp": "00:16:19"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Direct question about monthly payments was deflected to a credit card with no mention of the instalment plans and third-party financing the same rep disclosed and walked other prospects through in the same week.",
+      "evidence": [
+        "Is that all paid at one time or is it, can it be like a monthly payment or anything like that?",
+        "Yeah. mean, It just depends. A lot of our clients just throw it on a credit card and then figure out the payments of the back-end",
+        "Well, I mean, do you have that much on one credit card? Or would you have to split up between one or two?"
+      ],
+      "timestamp": "00:38:36"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep told a prospect who wants to teach that Trevor can certify kettlebell instructors, then immediately downgraded it to a future intention, before payment was taken.",
+      "evidence": [
+        "I mean, dude, like there's, you could do that. I mean, you could probably be a kettlebell instructor if you really wanted to. Like, all you have to do is just know how to make programs for people. And, you know, Trevor could basically certify people in that now.",
+        "Really? Yeah. It's on the radar for him in the future.",
+        "If I can start teaching that, if I absorb all his info, which I think I will, I'll do that pretty quickly"
+      ],
+      "timestamp": "00:44:26"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Call with a prospect in Florida, an all-party-consent recording jurisdiction, was recorded with no recording disclosure or consent request anywhere in the transcript.",
+      "evidence": [
+        "St. Petersburg, Florida.",
+        "Yeah. I know we've got a limited amount of time. You ready to jump right in?"
+      ],
+      "timestamp": "00:00:08"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "A material term — that app and community access terminate at the end of the six-month period — surfaced only because the prospect asked about it after his payment had been processed.",
+      "evidence": [
+        "So after the six months is done, I would lose access to school and, like, the other, like, I don't know if you have, like, video tutorials on how to do workouts or anything like that. Do you automatically get dropped off of the app after the six months?",
+        "So, I mean, generally, yes.",
+        "Okay, I just put the payment through."
+      ],
+      "timestamp": "00:52:22"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Onboarding completed unverified — the agreement was opened but never confirmed signed on the call, and Skool access was left pending, so two of the four P11 steps have no confirmation in the record.",
+      "evidence": [
+        "I'm viewing it now. It says I need a sign.",
+        "I just got, I tried to activate the school and says membership pending.",
+        "We're going to get you into the messenger team to make sure that you get approved into the school group."
+      ],
+      "timestamp": "00:51:10"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-06-02_pat-klaver_ben-byrne",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "The rep suggested the prospect buy before his divorce settlement completed so that his ex-wife would not receive half of the money, five days after the divorce and a week before the prospect's meeting with his lawyer.",
+      "evidence": [
+        "Last week, Thursday, I got a divorce.",
+        "I'd have to go back through my finances after this all washes out to understand what it winds up being... get half of everything, my friend.",
+        "Yeah. Well, I mean, if you pay this before, this is one last thing that she would get.",
+        "I thought of that, too. Well, ultimately, she would have to pay half of it.",
+        "No, gotta go talk to my lawyer to figure out what the bottom line is of after everything flushes out"
+      ],
+      "timestamp": "00:34:48"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was quoted alongside the two standard prices, a duration and figure that do not exist in the stated offer.",
+      "evidence": [
+        "So the investment for the year is $9,000. For six months, it's $6,000. So you save a bit if you kind of lock in the year versus doing $6,000 twice.",
+        "And then the other option is if you maybe wanted a shorter timeframe, then we could do three months for $4,000.",
+        "Okay. That I'm going to have to think of."
+      ],
+      "timestamp": "00:33:30"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A 24-month financing option was offered against a six-month programme with a monthly figure whose implied total exceeds the $6,000 cash price, and no financing cost, rate or total was disclosed.",
+      "evidence": [
+        "With our programs, we do have like ways where we can split up, like a financing option where you can split up to two years, which brings it down to, you know, $2.88 a month if you do the six months or a bit more if you do the year.",
+        "no, I'd rather pay it right up front. I hate monthly things. It drives me crazy."
+      ],
+      "timestamp": "00:37:23"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed a service injury, eighteen months of rehabilitation, back surgery and a medical discharge, and the rep asked no follow-up at any point before describing six months of progressive overload.",
+      "evidence": [
+        "I did about 10 years until I got hurt over in Iraq, which pulled me out. So then I went through about a year and a half of rehab and back surgery and stuff like that. Got medically separated",
+        "Pain in the hips from either sitting all day or lack of. Okay. Pain in the hips and waist.",
+        "our whole training is designed to get you moving right, then start building muscle, then building strength, and then progressively overloading and continually increasing the difficulty over the next six months.",
+        "I tried Ben's, uh, what did he call it? Brad Pitt's physique workout this morning, and I couldn't walk up the stairs when I got"
+      ],
+      "timestamp": "00:05:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University annual pricing was quoted as $2,000 saving about $350 against $199 a month, figures that do not reconcile with each other or with the same rep's quotes for the same product on two other calls in this batch.",
+      "evidence": [
+        "That one, it's $199 a month. You can cancel at any time. You could do $2,000 for the year, basically, which saves you about $350, something like that."
+      ],
+      "timestamp": "00:35:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep offered a spousal-consultation option to a prospect who had told him twenty minutes earlier that he had been divorced the previous Thursday.",
+      "evidence": [
+        "So then I guess what's the plan from here? You're going to go and... You have to check the bill, check the books, or talk to the wife, or...?",
+        "No, gotta go talk to my lawyer to figure out what the bottom line is",
+        "Last week, Thursday, I got a divorce."
+      ],
+      "timestamp": "00:36:25"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure or consent to record appears anywhere in the transcript, which begins with the recording already running during a camera troubleshooting exchange.",
+      "evidence": [
+        "Looks like you're muted.",
+        "There we go. How's that?"
+      ],
+      "timestamp": "00:00:32"
+    }
+  ]
+}

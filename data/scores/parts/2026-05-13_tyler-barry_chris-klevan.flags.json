@@ -1,0 +1,25 @@
+{
+  "call_id": "2026-05-13_tyler-barry_chris-klevan",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Transcript is filed in the Andrew Musial rep folder but neither participant is Andrew Musial, so rep-folder attribution cannot be trusted as a rep assignment.",
+      "evidence": [
+        "00:00:00 - Chris Klevan",
+        "00:00:05 - Tyler Barry (Primal Instinct)"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker labels are inverted through the call — the '(Primal Instinct)' suffix is attached to the external candidate rather than the employee, which would misassign roles for any label-driven parse.",
+      "evidence": [
+        "00:02:11 - Tyler Barry (Primal Instinct)  I can't make you an offer consistent with that.",
+        "00:01:11 - Chris Klevan  I understand. I appreciate you showing up and explaining everything to me"
+      ],
+      "timestamp": "00:02:11"
+    }
+  ]
+}

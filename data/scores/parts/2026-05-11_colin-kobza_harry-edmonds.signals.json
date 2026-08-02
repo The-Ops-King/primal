@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-05-11_colin-kobza_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Delivered as a six-minute screen tour of the Skool library rather than as a philosophy — full exercise tutorials, two three-month programmes, Trevor's monthly workout, and the mobility routines, which the rep tied to the prospect's soreness: 'This would be great for making sure you're not sore, right? Making sure your joints are all good.' The prospect responded 'Awesome' and later 'there's a lot of resources in this program for sure. Like, I totally understand the whole, like, the workouts, the, all the mobility, like I get it.' Understood and agreed, with no questions and no visible lift."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "The nutrition philosophy was never delivered. It appeared only as an item in the app tour — 'you've got our nutrition stuff, so this is pretty much everything Trevor would eat, wouldn't eat, the fasting protocols' — and the prospect gave no reaction to it at all. Nothing was asked about his current diet at any point, so there was nothing to connect it to."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented only as the thing he would be forgoing: 'the difference with the coaching is it's tailored to you, Trevor creates it for you and he's there for support 24-7. That's the only real difference.' He had already conceded the value and declined it in advance — 'would it benefit me? Of course. Any time you have a professional coach would benefit you, just for the mindset and stuff and to keep accountability, but I'm just looking for a program' — and nobody tested that against his thirty years of coming and going."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "cheap_program_apps",
+      "raw": "I've, I've bought a couple of little things on like, you know, say $20 a month apps. And to follow programs",
+      "direction": "undercuts_price",
+      "competitor": "subscription training apps",
+      "note": "His established price point for exactly the thing he says he wants — a laid-out programme — is roughly $20 a month. The community was then quoted at CAD 270 a month, over ten times that, and the coaching at CAD 8,200. The anchor was stated out loud in his first substantive answer and was never surfaced, reframed or priced against."
+    },
+    {
+      "type": "competing_programs",
+      "raw": "Let me ponder it, you know, because there is some pretty good programs out there. Like, you know, there's really good programs",
+      "direction": "undercuts_price",
+      "competitor": "unnamed competing kettlebell programmes",
+      "note": "Raised at the decision point as the explicit reason for deferring. No competitor was named and the rep did not ask which ones, what they cost, or what they lack — so the comparison the prospect will actually make is entirely unknown to the business."
+    },
+    {
+      "type": "insider_knowledge_of_product_economics",
+      "raw": "you know, we've like, we built online programs. I get the re like, there's a lot of resources in this program for sure.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He and his wife build and sell online programmes for a living, and he was evaluating this one as a producer — appraising the volume of content rather than the outcome. That makes a content-tour presentation the weakest possible pitch for him, because he can price the content himself. The thing he cannot self-supply is the coaching, and that was the part conceded in the first two minutes."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A structured kettlebell programme without coaching, at something near the price he already pays for programme apps",
+      "why_unmet": "The company does sell exactly the product he described, but at CAD 270 a month against his established reference of about $20 a month for the same job. He saw the value — 'I do see the value in the program, for sure' — and still deferred on price. The gap is not capability but where the community tier is priced: it is positioned as coaching-adjacent while competing in the programme-app market, and nobody built the case for the difference.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training that accounts for accumulated damage from a professional contact-sport career — 'I beat the living piss out of my body for years' — and stops him being permanently sore at 45",
+      "why_unmet": "This was his most specific and most personal stated problem and it drew no question. The rep's only response was to point at the mobility section of the app in passing. Whether a self-guided programme with no assessment and no coach reviewing form addresses thirty years of hockey wear is not established, and he was pointed at the tier with no oversight at all.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

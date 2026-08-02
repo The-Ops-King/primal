@@ -1,0 +1,35 @@
+{
+  "call_id": "2026-07-30_angelo-dimaggio_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Internal confirmation of a 3K sale under a 'Kettlebell Body Lite' tier, a price and product not in the documented $6,000/6mo or $9,000/12mo offer.",
+      "evidence": [
+        "So 3K. So he received that.",
+        "Just make sure you book his onboarding call with the Kettlebell Body Lite specific onboarding link."
+      ],
+      "timestamp": "00:00:48"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Ops states that a Klarna instalment purchase is recorded as a 'piff' (paid in full), so third-party financed deals are counted as upfront cash.",
+      "evidence": [
+        "Because I sent you a screenshot, you did definitely pay. Does Klarna count as a piff?",
+        "Yep."
+      ],
+      "timestamp": "00:00:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Payment automation did not fire for the Klarna transaction, so the agreement email and onboarding sequence had to be triggered manually.",
+      "evidence": [
+        "All right. Let me see. Yeah. Good stuff, bro. I went through. I don't think that it fired.",
+        "Can you fire the automation that he gets the email for the contract, etc?"
+      ],
+      "timestamp": "00:00:58"
+    }
+  ]
+}

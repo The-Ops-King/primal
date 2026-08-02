@@ -1,0 +1,28 @@
+{
+  "call_id": "2026-07-03_andrew-clarke_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A prospect five weeks post knee surgery, still swollen and not cleared by his physio for squats or lunges, was offered exercises to look at in the meantime, and the start date was set from his own recovery guess rather than from any clinician's clearance.",
+      "evidence": [
+        "Yeah, about five weeks ago.",
+        "Yeah, it's swollen. I can walk, but I can't do squats or anything yet.",
+        "I could probably do a kettlebell swing now, but I couldn't do like a lunge or a squat. It's not, I just went to physio yesterday. Bye. And that's not allowed yet, so.",
+        "How about this? Like, I can give you some exercise or give you a few things that you can take a look at, make sure this is actually something I see myself doing this.",
+        "how long does that recovery take for your knee, do you think? It's probably another month before we could get started, at least."
+      ],
+      "timestamp": "00:02:21"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording starts mid-answer, so the opening of the call is missing from the transcript.",
+      "evidence": [
+        "today? Revelstoke, BC.",
+        "So it's an early morning for you, right?"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

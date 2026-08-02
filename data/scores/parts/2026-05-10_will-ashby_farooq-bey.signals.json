@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-10_will-ashby_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "The only pillar he engaged with on his own terms. He self-assessed unprompted — 'I can do most things with kettlebells, my mobility, I'll be honest, I'm not the most flexible as I should be' — and after the rep drew the mobility-versus-flexibility distinction he tied it to himself: 'Yeah, I would like that. I need to be more mobile.' He had already pre-sold himself on the modality from the ad: 'kettlebells, like, I have used AI to create my own workout... afterwards, it felt like my whole body was thanking me.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Agreed without engagement — 'Yeah. So same philosophy as pillar one.' Striking, because nutrition is the pillar he had named as his single weakness ('I'm not consistent with my macros and I've never really counted my macros'). The rep's 'without you needing to weigh your food or count your calories or put anything into an app, we take care of that all for you' answered his stated problem directly and drew no reaction at all."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Completed the rep's setup — asked what happens to motivation when life is stressful he answered 'It drops.' Then flat agreement on the whole block: 'That makes sense. Yeah.' and 'nothing on that. That all makes perfectly good sense.' He had earlier volunteered that accountability was precisely what AI could not give him — 'there's just something to be said about having a human in the loop hold you accountable that I think that AI can't do' — and the rep did not connect the pillar back to that sentence."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competing_financial_obligation",
+      "raw": "childcare, the United States childcare is what's really killing me",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The programme was being priced against childcare for a five-year-old and a two-year-old on a single income during a relocation. This is a household-cashflow anchor, not a value anchor, and it is exactly the case OC's financial-picture questions exist to map — none were asked."
+    },
+    {
+      "type": "planned_capital_need",
+      "raw": "I plan on changing careers soon, so, uh, I had to save up a lot of money",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Disclosed nine minutes before the offer. He is deliberately accumulating a cash buffer for a career transition, so any discretionary $4,000 competes with his runway, not with his entertainment budget."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "there's times when I'm like, oh, I could just use artificial intelligence to make it an efficient workout, but there's just something. To be said about having a human in the loop hold you accountable that I think that AI can't do... ChatTP has also led me astray a couple times on other issues, so it's not perfect either.",
+      "direction": "supports_price",
+      "competitor": "ChatGPT / AI-generated programming",
+      "note": "He had already considered and rejected the free option and articulated the reason himself. Strong pre-built value case for a paid human coach that the rep asked for but never reused when price landed."
+    },
+    {
+      "type": "no_price_expectation",
+      "raw": "I didn't have any number in my head. just, yeah, I didn't know what you guys provided outside of the ads that I saw, so I didn't really come in with any number in my head.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Diagnostically important: the setter sent through a prospect with zero price framing, so $4,000 landed cold on a man mid-relocation. Recorded as undercutting because an unanchored prospect defaults to consumer-fitness pricing — his 'Oof' and 'that's a little steep' came within two seconds of the number."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To start the programme in roughly two to three months, once the family has relocated to California and the kids are in school — 'Once we get moved to California and everything settled, get the kids in school, then I'll be able to determine that financially'",
+      "why_unmet": "The offer has no deferred-start, deposit-and-hold or future-enrolment mechanism, and no scheduled follow-up was set. A prospect with high intent and a stated future window walked away with nothing booked.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A price point that fits a relocating single-income military family",
+      "why_unmet": "Partially served — Primal University at $200/mo was presented and screen-shared. But it was framed as a placeholder rather than as the thing that solves his actual problem, and he deferred on it too.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

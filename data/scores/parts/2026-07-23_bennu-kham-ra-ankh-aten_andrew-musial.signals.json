@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-23_bennu-kham-ra-ankh-aten_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Follow-up call; the pillars were delivered on the prior day's call. Training only surfaces here as reassurance against the wife's injury concern — 'the way that it's structured is that it's designed to your capacity, not only time-wise, but also what are you capable of physically right now.' The rep did later screen-share the self-paced platform's movement library, but as a downsell demonstration rather than a pillar."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not discussed. It appears only as a line item in the downsell walkthrough — 'another thing is the nutrition. Like a general guide, like an overview of his principles when it comes to nutrition, with an example meal plan.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not presented as a pillar. It is invoked in the downsell as a substitute mechanism — 'there's a kind of accountability built in this because when you're posting this, you're making like a promise, not only to yourself, but also to the guys that are in the program' — which is a materially weaker claim than the one-to-one version and was offered as a replacement for it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "She's saying that for that price, I can get a person trying to work with me, you know, in person.",
+      "direction": "undercuts_price",
+      "competitor": "Local in-person personal trainer",
+      "note": "The spouse's anchor, not the prospect's, and it is the substance of the refusal. It is also the one anchor in this batch that no rep ever engages with directly: at $3,000 for six months the in-person comparison is genuinely competitive in most US markets, and the differentiators — remote video form correction, mobility programming, a coach available by text — were never priced against it. No rebuttal was attempted on this call."
+    },
+    {
+      "type": "budget_ceiling",
+      "raw": "Well, I was thinking more like it's going to be like about maybe like 200 a month, something like that, but that's not nowhere realistic to what you guys do.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "An honest ceiling, volunteered with the self-awareness that it does not meet the offer. Identical to the $200/month anchor recorded for Badrane Hriouch in icp.json, where the assessment notes the rep 'recognised this live and disqualified rather than discounted'. Here the same anchor produced the opposite response: instalments, then external credit, then a $1,000 product. The divergence between the two reps facing the same anchor is the most useful comparison this call offers."
+    },
+    {
+      "type": "own_product_downsell",
+      "raw": "And this is for six months. It's Yeah. $1,000. So yeah, we can, we can even spread that over six months of six times $200.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own self-paced product)",
+      "note": "Fourth appearance of the low-tier product in this batch and the first time it is offered as a priced alternative rather than a bundled extra. Note the number lands exactly on the prospect's stated $200/month ceiling. Once a buyer knows a $1,000 six-month version of the content exists, the $3,000 and $6,000 figures have to be justified purely on coaching, and nothing on this call attempts that."
+    },
+    {
+      "type": "credit_rejection",
+      "raw": "It says, we're sorry we're unable to offer you a payment plan at this time.",
+      "direction": "undercuts_price",
+      "competitor": "Payva / Klarna / Affirm",
+      "note": "A hard external signal on affordability. The rep had leaned on third-party financing as the solution across several calls in this batch, and this is the case that shows the mechanism failing — and failing on a prospect with no current income, which is exactly the population it was reached for. The rep speculated the threshold is a 700 credit score."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one coaching with a real coach and accountability, at a price a single-income household with a $200/month ceiling can carry",
+      "why_unmet": "Nothing exists between the $1,000 self-paced platform and coaching at $3,000-plus. The prospect was explicit that the self-paced version is not what he came for — 'I like the other one, but I wish I could do the other one' and 'I really wanted to do the other one. That's the one I was envisioning.' A genuine middle tier, some coaching contact at a lower cadence, would have taken this deal. Note the $3,000 quoted here is itself an unofficial middle tier that only exists because a rep improvised it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Assurance for a sceptical spouse that money is not lost if he starts and cannot finish, or re-injures his leg",
+      "why_unmet": "The rep gave a verbal injury-pause commitment that is not written anywhere and appears in no other call in this batch, and there is no spouse-facing material of any kind — no summary, no terms, nothing the prospect could take back to the person actually making the decision. He was sent to negotiate with his household armed only with a number.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A rebuttal to the in-person trainer comparison his wife raised",
+      "why_unmet": "Never attempted. The offer's real advantages over a local trainer — remote form correction on video, mobility programming, text access, portability — are all things the rep articulates fluently on other calls and did not say once here. The comparison was allowed to stand unanswered, which left the household decision-maker's reasoning intact.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

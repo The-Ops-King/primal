@@ -1,0 +1,126 @@
+{
+  "call_id": "2026-07-15_sal_richard-claessen",
+  "source": {
+    "drive_file_id": "1Nf-HOgPqh7MZZFPPulqMtq2sm4Br-fQQ",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/15/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 77807
+  },
+  "call": {
+    "date": "2026-07-15",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 72,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe; Dutch mobile number (+31)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "I already saw your application as well, but I just want to have an actual conversation with you"
+  },
+  "prospect": {
+    "name": "Sal",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Yorba Linda, Orange County, California, USA (Pacific time)",
+    "age": 33,
+    "occupation": "Respiratory therapist in a hospital; 12-hour shifts, recently moved from night shifts to days and cut from five days to three; graduated about a year ago and is in an entry-level post while building experience for a better-paid role",
+    "family_status": "Married; no children; has nieces and a nephew, a dog and a mother-in-law nearby",
+    "height_in": 66,
+    "weight_lb": 144,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Competitive soccer to semi-pro level in his twenties — sub five-minute miles, lifting twice bodyweight, very low body fat. Gave up a gym membership after moving because of a 45-60 minute drive. Has done a few of Trevor's free mobility movements. Owns no kettlebells.",
+    "kettlebell_experience": "none",
+    "medical": "Self-described kyphosis from 12-hour days hunched at a computer: 'I have a bit of kyphosis, because of, I work in the hospital, but we deal with a lot of technology, we're always in the computer, so I'm always kind of crunched.' Left shoulder pain developed from weightlifting with poor form. Intermittent back pain from prolonged standing. Fatigue from the night-to-day shift transition."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Explicit regret about lost ground: 'I used to be really, really athletic and I would work out quite a bit, actually, when I was in my 20s. And so ever since then, I feel like I've, I guess, dropped the ball.'",
+      "Names his current state as the worst it has been: 'Honestly, I feel like it's the worst it's probably ever been. I feel like I've engulfed myself in just dealing with adult duty.'",
+      "The hard season is specific and identifiable — schooling for a career change, then 12-hour night shifts five days a week leaving 'technically two 24-hour days to be able to do everything I needed to'.",
+      "Wants a former self back and can describe it precisely: semi-pro soccer, sub-five-minute miles, twice bodyweight lifts.",
+      "Not the_medically_constrained: the kyphosis and shoulder motivate the purchase rather than blocking it."
+    ]
+  },
+  "goals": [
+    { "text": "Reverse the postural hunch before it becomes what he sees in a colleague", "category": "longevity_function" },
+    { "text": "Get his endurance back so he can sprint and not fatigue easily", "category": "endurance" },
+    { "text": "Be strong functionally, not just look strong", "category": "strength" },
+    { "text": "Clear the left shoulder pain", "category": "injury_confidence" },
+    { "text": "Build a habit now so it survives kids and a busier life later", "category": "sustainability" },
+    { "text": "Be strong into his forties, fifties and sixties without a drastic decline", "category": "longevity_function" },
+    { "text": "Get a nutrition plan he can follow without having to think about it or research food", "category": "convenience" },
+    { "text": "Get a six-pack, framed explicitly as a byproduct rather than the aim", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Postural kyphosis worsening from 12-hour hunched shifts; now noticeable outside work at the supermarket, walking the dog and playing with his nieces and nephew", "category": "injury", "severity": "high" },
+    { "text": "Left shoulder pain caused by lifting heavy with poor form", "category": "injury", "severity": "medium" },
+    { "text": "Physical fitness pushed to the back end by work and family duty and not focused on at all", "category": "consistency", "severity": "high" },
+    { "text": "Fatigues very easily and cannot sprint any more", "category": "aging", "severity": "medium" },
+    { "text": "Fatigue from switching from night shifts to days; wants only to rest on days off", "category": "sleep", "severity": "medium" },
+    { "text": "Eats fast food and packaged food because he will not cook or meal prep when tired", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Loses an hour researching what to eat, ends up watching a film and not eating at all", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Gave up his gym membership because of a 45-60 minute drive after moving", "category": "training_barrier", "severity": "medium" },
+    { "text": "Found traditional weightlifting was injuring him rather than strengthening him", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "just obviously, I think this is something I can do, but just to make it easier, is there like a way of making payments? Like, let's just say, what if I made $250 a week versus $1,000 a month?",
+      "timestamp": "00:48:09",
+      "rep_response": "Advised against a long instalment plan because of interest, isolated the investment, then asked what would be possible.",
+      "response_tactic": "isolate_then_ask_capacity",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I do want to get started, but I don't know if can do like $6,000 right off the bat.",
+      "timestamp": "00:48:37",
+      "rep_response": "Offered three payments of $2,000 with no interest as the recommended structure, after quoting a six-payment plan at $1,200 each.",
+      "response_tactic": "structure_three_payment_plan",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three payments of $2,000 per month, first taken on the call, stated as interest-free. A six-payment alternative was quoted at $1,200 per month, which the rep confirmed totals $7,200 including interest. Rep offered to make it custom if the following month proved tight.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment was processed live through the Payfunnel link: 'I'm processing the payment right now' followed by a receipt number, and the rep confirmed 'Ah, yeah, actually, I see it coming through now.'",
+      "Onboarding call with Trevor booked for Wednesday at 10.15am, the calendar invite was accepted live and confirmed: 'It says scheduled. I got another email.'",
+      "Skool account created live; the community shows as membership pending with the team to approve.",
+      "Onboarding form sent and confirmed received on WhatsApp: 'Yeah, I got it right here. It's a Google Doc link.'",
+      "Counter-evidence: the agreement email arrived and the prospect said 'let's get it done right now', but the rep never confirmed it had actually been signed before moving on.",
+      "Counter-evidence: only $2,000 of $6,000 has been collected; two further payments are scheduled."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Sign the agreement, complete the Skool profile once membership is approved, fill in the onboarding form before Wednesday, order kettlebells after Trevor advises weight on the onboarding call."
+  },
+  "notable": {
+    "note": "The instalment quote was confusing enough that the prospect had to do the arithmetic himself twice and spotted the discrepancy before the rep explained it — a six-payment plan at $1,200 each totals $7,200, $1,200 above the stated price. Separately, he disclosed kyphosis and left shoulder pain and the rep answered 'with your shoulder, that's a very easy fix when you actually start doing the full body movements because everything just get lubricated up over time', with no clinical clearance question, despite the prospect being a hospital clinician himself."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion. The height and age exchange at 00:10:58-00:11:08 is fully inverted (the rep asks, the prospect answers, and the labels are reversed). Long stretches of the pillar presentation from 00:33:19 onward carry the prospect's label. Role determined from content. Also note a bystander interruption at 00:39:26 in which the prospect speaks to a family member on the recording."
+  }
+}

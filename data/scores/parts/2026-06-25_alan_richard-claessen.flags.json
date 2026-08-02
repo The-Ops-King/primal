@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-25_alan_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect with ten years of back pain he believes is a degenerated disc, who opened by asking how to protect his back, was sold three to four loaded kettlebell sessions a week with no clinician clearance sought and his stated harm risk dismissed.",
+      "evidence": [
+        "the only thing is the issue that I have right now is like, how can I protect my back from, you know, not injuring myself?",
+        "Like 10 years. I think it's a degenerated disc. I got an MRI done a long time ago.",
+        "if I do one wrong kettlebell, the consequence of that is like back pain for three weeks, and then try to recover from that",
+        "Of course, if your back starts exploding. Yeah. We'll send it back, but that's not gonna happen.",
+        "Sometimes I take pills like Advil in the middle of the night, and I wake up without pain"
+      ],
+      "timestamp": "01:00:57"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep made therapeutic claims about a decade-old spinal condition, including a family recovery anecdote, alongside a disclaimer that they are not doctors.",
+      "evidence": [
+        "my dad, he started doing cattle belts. He has had a hernia, et cetera, himself. Now he doesn't feel it anymore",
+        "What I am 100% sure of is that we can really get rid of the stiffness",
+        "We know that we can help if that is more. So I'm not gonna guarantee because we're not a doctor, right? But we know that we can help with it, at least lighten it up.",
+        "it's also going to be able to help with the back. Just can't promise it's going to completely take it away"
+      ],
+      "timestamp": "00:32:01"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A refund and a pause were both offered verbally with no terms, conditions or duration, either of which the prospect could reasonably rely on.",
+      "evidence": [
+        "Of course, if your back starts exploding. Yeah. We'll send it back, but that's not gonna happen.",
+        "someone, like, stopped working with us a couple of months ago, because he got an injury, and he just stopped working with us again, so we just put it on pause, so it's something we can do. And, of course, if it's, like, after a week, or, like, after a few days, it's absolutely terrible. If not for me, then we'll figure it out."
+      ],
+      "timestamp": "01:13:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "After the prospect declined to decide, the rep told him twice that he was lying to himself and repeatedly characterised his reasons as excuses.",
+      "evidence": [
+        "That's all okay. But you're lying to yourself. That's all it's to be. You're lying to yourself.",
+        "you're saying you want to go for it, you've been on and off the whole time, then now it's vacation mode",
+        "I'm not going to get into this. So you're making excuses.",
+        "Why are you making an excuse for it?"
+      ],
+      "timestamp": "01:04:46"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A monthly product at roughly two hundred a month was surfaced as an alternative to the $6,000 tier, and splitting the $6,000 was offered without any structure.",
+      "evidence": [
+        "We also have that, but it's not going to fit for you. It's not going to help you get to your goal. So you can pay us two in a box a month.",
+        "It doesn't need to be upfront. We can split it up if that's what you absolutely want."
+      ],
+      "timestamp": "01:17:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The first six minutes of the recording contain only setup audio while the rep offered to move to a phone call, so any conversation in that window is not captured.",
+      "evidence": [
+        "Just so you know, I can't hear nor see you. Take it down. Is it working to join on the phone?",
+        "otherwise I'll give you a quick phone call. I'll give you a call, give me two seconds, just stay in this, I'll just go off camera and microphone"
+      ],
+      "timestamp": "00:00:07"
+    }
+  ]
+}

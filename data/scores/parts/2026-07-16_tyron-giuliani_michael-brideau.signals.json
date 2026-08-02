@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-07-16_tyron-giuliani_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Delivered in full from 00:43 — onboarding call with Trevor, onboarding form, customised programming around injuries, constant modification, plus five to ten minutes of prescribed mobility work in the morning. Prospect agreed without questions or enthusiasm: 'No, that's, yeah, that sounds, you know, methodical, methodical. So, yeah, all good.' When probed again he offered only 'you've done a good job of explaining.' Notably he did not revisit his own earlier question about whether kettlebells were safe for his shoulder, and the rep did not either."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered from 00:48:25 — intermittent fasting, a protein/calorie minimum, whole foods, flexibility for treats. Prospect tied it back to his own frame rather than questioning it: 'that's the goal, is to have something that, um, consistently can just, it just becomes a part of your life and is a part of the routine.' Agreement rather than engagement; he asked no questions about how it would interact with the Mounjaro he is about to start."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "The rep announced three pillars — 'Trevor's coaching is really broken down in three main pillars' — and delivered only training/mobility and nutrition before the call ended at 00:55 for a dentist appointment. Accountability was the pillar this prospect most needed, since he named it himself as his gap ('usually accountability is a part of it') and the rep had already argued that external accountability was the thing that fails him. It was never delivered on this call."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_provider_spend",
+      "raw": "literally in front of my house, I have a personal trainer, like, you know, there's a fitness center in front of my house",
+      "direction": "supports_price",
+      "competitor": "Local personal trainer, Tokyo",
+      "note": "He is already paying for two 1.5-hour PT sessions a week, a chiropractor roughly weekly and a psychiatrist roughly weekly. An established habit of buying professional help, and no unit price was ever disclosed or asked for — the rep never quantified the existing spend, which would have been the natural bridge to a $6,000 figure."
+    },
+    {
+      "type": "stated_liquidity",
+      "raw": "the good thing is, you know, I have money, I have a good life, I've got a wife, I've got kids, the one thing I don't have is that, you know, consistent health",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Volunteered financial comfort, reinforced by having founded and sold a business to a public company. Price resistance is very unlikely to be the blocker with this prospect; clinical fit is."
+    },
+    {
+      "type": "substitute_intervention",
+      "raw": "I'm going to start on that Monjaro, Monjaro, whatever, you know, like Ozempec. I was on Ozempec for a couple of months, but it it didn't work",
+      "direction": "undercuts_price",
+      "competitor": "Mounjaro / tirzepatide (GLP-1)",
+      "note": "A pharmaceutical route to the primary stated goal — fat loss — is already in his head and about to start. He frames the programme as a complement rather than a replacement ('what can I combine the Manjaro with'), so it did not surface as price resistance here, but it is a live alternative attribution path: if he loses weight in the first months it will be genuinely unclear to him whether the coaching or the drug did it. The rep never acknowledged the GLP-1 at any point."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Confirmation that loaded kettlebell work is actually safe for him — three failed surgeries for bilateral compartment syndrome and popliteal entrapment, plus a 20-year rotator cuff injury",
+      "why_unmet": "He asked directly whether kettlebells were 'okay' for him. Nobody on the call established whether they are. The rep answered with a capability claim about programme flexibility rather than with any clinical screening, and no clearance from his treating clinicians was sought or offered.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A conditioning or cardio modality he can genuinely tolerate — running and sustained cardio are unavailable and even 10,000 flat steps cost him a day of pain",
+      "why_unmet": "The programme's answer is three to four kettlebell sessions of 30-40 minutes, which is lower-limb and ballistic at its core. Whether that is tolerable for legs with all four compartments operated on three times was asserted rather than assessed.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Support that holds up through two-week depressive episodes when he does not train or track at all",
+      "why_unmet": "The rep argued explicitly that external accountability is the failure mode ('as soon as that accountability goes away, well, that means all your results go away') but the accountability pillar was never delivered, so no mechanism was offered against the specific failure the prospect named. The programme may well address this; on this call nobody said how.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

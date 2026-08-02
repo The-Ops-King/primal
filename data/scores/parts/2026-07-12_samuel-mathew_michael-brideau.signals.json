@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-07-12_samuel-mathew_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The most interrogated pillar in the batch. He asked how he would learn the movements at all — 'he asked me to do certain exercise in the beginning, but how do I know how to do them? Like, show them to me, demonstrate, how does it work?' — then how often the form exchange happens, then whether the programme is genuinely individualised, then 'what would the first, say, four weeks look like?', and finally whether his 30 lb bell and new adjustable bell were adequate. The four-week question returned nothing concrete: 'Completely customized. I wouldn't know. Trevor would have to actually sit... What those workouts look like, couldn't tell you. That'd be on Trevor.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented briefly and framed as needing only refinement, since the rep had already judged his diet dialled in: 'you actually have the nutrition dialed in from the sounds of it pretty well. All Trevor is going to do is he's going to look over what you're doing currently.' The prospect responded 'Okay. Okay' and asked nothing. He raised no objection to the intermittent-fasting recommendation, which is notable given he is three weeks into a GLP-1 that already suppresses his intake and had described being clinically told to prioritise protein."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Delivered as weekly check-ins, Trevor's personal cell, outreach on missed workouts and a community with group calls and workouts. Prospect said 'Okay, sounds good' and asked no questions. He did afterwards name it as the missing piece when asked for his overall thoughts: 'I kind of like the fact that there will be somebody to guide me along... This is the first time if I go ahead to have a coach. So hopefully this is what I was the missing factor in all these years.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "no_market_reference",
+      "raw": "honestly, this is the, you're the first person I spoke with. And so I have no, I have zero idea. So even talking about, you know, the numbers.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The defining anchor on this call is the absence of one. He had never priced a coaching programme, so $6,000 landed against nothing except his own monthly budget, and his immediate conclusion was to go and find a reference point elsewhere. An unanchored number defaults to comparison with household spending, which is why he reduced it to '$1,000 a month' within seconds."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I did not imagine, I did not expect it to be, you know, this kind of a figure. So, I mean, I had no expectations, but I definitely did not expect it to be $1,000 a month... the sticker price, it was a little shock to me.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted the total to a monthly figure unprompted and then treated the monthly figure as the decision. Nobody reframed it back to a one-off transformation cost or against the six-month horizon."
+    },
+    {
+      "type": "existing_health_spend",
+      "raw": "the last three weeks, I've been on a GLP drug... I've been on tersipatide... I also was monitoring my blood sugar levels with an over-the-counter glucose monitor... I went and saw a cardiologist, and I'm on medication for that... today I just ordered an adjustable kettlebell.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He is already paying for a GLP-1 agonist, a cardiologist, prescription medication, a continuous glucose monitor, a home gym and new equipment. That is a substantial standing health budget and a demonstrated willingness to spend on interventions he believes in. None of it was ever surfaced as precedent when he said the price was steep."
+    },
+    {
+      "type": "personal_trainer_comparison",
+      "raw": "you can go get a personal trainer for X amount of dollars a month, but with this, it really is an educational process",
+      "direction": "supports_price",
+      "competitor": "Generic personal trainers",
+      "note": "Raised by the rep rather than the prospect, and left unquantified. Introducing a comparison without a number gave the prospect a category to go and research rather than a reason to buy now, and he said so within a minute."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Coaching that works alongside an active GLP-1 protocol — preserving and building muscle during drug-driven fat loss",
+      "why_unmet": "This was his organising frame — 'while the iron is hot, you know, with the GLP, let's hit the iron' — and after the opening minutes the drug was never mentioned again. No GLP-1 training or nutrition protocol was described, and the eating-window recommendation actively conflicts with the protein prioritisation his prescriber requires. Whether the programme can serve this is genuinely unknown from the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To see what the first four weeks actually contain before committing $6,000",
+      "why_unmet": "He asked directly and the answer was that nobody could tell him: 'Completely customized. I wouldn't know. Trevor would have to actually sit.' Full customisation is a genuine feature, but it left him with no concrete artefact to weigh against the price. A sample week or an anonymised example programme would almost certainly exist.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Proof that it works — testimonials, before-and-afters, or a case of someone like him",
+      "why_unmet": "The rep raised testimonials and discovered the prospect had seen none — 'No, I haven't watched any of those' — and then never sent or showed any. The prospect asked the proof question outright a few minutes later: 'have you seen, like, it not work with anybody?' He was given a verbal guarantee and an anecdote instead of evidence.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way to spread or reduce the $6,000 commitment",
+      "why_unmet": "Payment plans exist in the playbook and on every other call in this batch, and here the option was never mentioned. The prospect's stated blocker was the size of the single figure, which is precisely what instalments address.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Assurance that ballistic kettlebell work is appropriate for a braced knee with crepitus and an elbow under orthopaedic instruction to load eccentrically",
+      "why_unmet": "He asked the safety question as his single hesitation and received absolute assurances rather than screening. No clinician clearance was suggested and the orthopaedic doctor's specific eccentric-loading instruction was never reconciled with ballistic kettlebell movement.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

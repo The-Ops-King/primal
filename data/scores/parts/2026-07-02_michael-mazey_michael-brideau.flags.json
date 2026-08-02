@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-07-02_michael-mazey_michael-brideau",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed medicated hypothyroidism and pending blood work; the rep logged it, moved on within ninety seconds, and never asked whether a clinician had cleared him for loaded ballistic kettlebell training.",
+      "evidence": [
+        "So, I guess physically, I have, like, been diagnosed with hypothyroidism.",
+        "It's like a metabolic condition... that was diagnosed, like, 10 years ago",
+        "I haven't gotten my blood work or It's all it's back",
+        "Yeah, I will say, I mean, it's probably a combination of both, right? The healthier thoughts you have, the irony of that is that you want to start living healthier as well"
+      ],
+      "timestamp": "00:09:15"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Prospect speculated on air about lowering or coming off his prescribed thyroid medication and 'healing naturally'; the rep responded by endorsing the mind-body improvement framing instead of referring the question to his physician.",
+      "evidence": [
+        "I feel like I just think given enough time, like, I wonder if I could lower my thyroid medication, or like heal naturally, I don't know if that's possible. But like, I'm at least wanting to investigate.",
+        "Yeah, I will say, I mean, it's probably a combination of both, right?... You start eating better, you start working out more, which is naturally going to have a benefit to that as well. So it's kind of an upward spiral",
+        "something that I'm even exploring right now is to see if, like, what I've been told about it is accurate"
+      ],
+      "timestamp": "00:10:44"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording is titled as an Andrew Musial call but was run start to finish by Michael Brideau, so rep-level rollups built from titles will attribute this call and its outcome to the wrong closer.",
+      "evidence": [
+        "00:00:00 - Michael Brideau (Primal Instinct)",
+        "Oh yeah sorry I was like a minute or two late I was on like the Andrew call I think because um like I never actually got an email link to the zoom for this call I just was taking it from my phone",
+        "07/02/2026 - Michael Mazey x Andrew Musial KFS"
+      ],
+      "timestamp": "00:00:03"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "call_id": "2026-07-06_brian_richard-claessen",
+  "source": {
+    "drive_file_id": "1Ph9ddDSQN7Ur7B8VRye2kMFCUBzZXHIB",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/06/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/06/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 36070
+  },
+  "call": {
+    "date": "2026-07-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Originally booked for Friday 07/03 and rescheduled by the rep, who had a double booking. The prospect took the rebooked slot from his car en route to a flight.",
+    "duration_min_est": 30,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "Not a human setter — the pre-call text thread that set the price expectation is attributed by the rep to the automated system: 'I guess that's where Sophia took that from.' The prospect's reference is 'I got it in the text message thread.'"
+  },
+  "prospect": {
+    "name": "Brian",
+    "aka": "Brian: True North Trusts",
+    "name_source": "transcript",
+    "location": "United States, three hours ahead of Sacramento, California",
+    "age": null,
+    "occupation": "Associated with True North Trusts from his display name; describes an extremely demanding schedule — 'I'm running Mach 5 with my hair on fire all the time with work'",
+    "family_status": null,
+    "height_in": 70,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Familiar with kettlebells and calisthenics, mostly calisthenics-led. Has been assembling his own programmes from YouTube on and off for two years with limited success. Snowboards around 100 days a year. Sits in a deep squat daily and says he has more ankle and knee flexibility than most people his age. Can commit about an hour a day, ideally a 30-45 minute session.",
+    "kettlebell_experience": "some",
+    "medical": "Explicitly none. Asked directly about injuries, mobility issues and limitations he answered 'No, I don't have any injuries' and 'no limitations', and volunteered that he has not been hurt snowboarding in five years. Separately mentions running 'some cleansing protocols and some other things to free up my liver and get my bowel moving better'. Describes himself as a long-time student and practitioner of holistic health, psychology, energy medicine and clearing work."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.8,
+    "signals": [
+      "Already fit and functioning — 100 snowboard days a year, daily deep squats, eats single-ingredient whole foods",
+      "Wants good to great rather than rescue — 'I want my physical body to match the levels that I've attained on the other side of the fence'",
+      "Price is a quality signal, not a barrier — 'it's pretty much par for the course. Everybody's in that $4,000 $6,000 range', with no affordability objection at any point",
+      "Buys like a professional: four to five provider calls booked, a written list of criteria, a decision date"
+    ]
+  },
+  "goals": [
+    { "text": "Get from 190 lb to 170-175 lb, where his body feels more agile and easier to move", "category": "fat_loss" },
+    { "text": "Be more agile, move more easily and stay flexible rather than build a bodybuilder physique", "category": "mobility" },
+    { "text": "Be stronger and have more stamina", "category": "strength" },
+    { "text": "Still be able to move well into his eighties", "category": "longevity_function" },
+    { "text": "Have his physical body match the level he has already reached mentally and spiritually — 'I want to feel better in my body'", "category": "other" },
+    { "text": "Efficient sessions — 30 to 45 minutes of actual work, up to an hour with warm-up and cool-down", "category": "convenience" },
+    { "text": "Prescriptive programming he can simply follow, with adjustments made for him as he progresses", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Overwhelmed by the number of exercise variations and cannot build a coherent programme — 'I get overwhelmed with the amount of different variations on exercises'", "category": "program_fit", "severity": "high" },
+    { "text": "Two years on and off of self-assembled YouTube programmes — 'either I don't stick to it, or it doesn't feel like I'm making progress and I get discouraged'", "category": "consistency", "severity": "high" },
+    { "text": "No progress to show for the effort, which is what drives him to quit", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Severe time scarcity from work; training time is the one thing he protects", "category": "time_scarcity", "severity": "high" },
+    { "text": "Cannot get the weight down despite eating clean", "category": "other", "severity": "medium" },
+    { "text": "Burned by a competitor's sales approach on a call the week before — 'they were very condescending with me... they took a very elitist kind of approach and it didn't resonate at all'", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Why was I told that it was between two and four? ... I got it in the text message thread.",
+      "timestamp": "00:24:32",
+      "rep_response": "Improvised a disclosure of the full tier ladder rather than defending the $6,000 — 'we also have on the lower end. So we have a do it yourself way that is 2k per year and a three months that is 4k. But if you want to make sure you have the full transformation, we always go for the six months overall' — then added 'there's also higher options available' and attributed the discrepancy to the automated texting system.",
+      "response_tactic": "disclose_full_tier_ladder_and_attribute_to_automation",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "So I've got two more calls. Well, I've got one on Tuesday and I've got another one on Thursday. So by Thursday, Thursday or Friday, I should be making a decision on which one I want to go, which program I feel most comfortable with.",
+      "timestamp": "00:27:03",
+      "rep_response": "Proposed label: competitive_bakeoff. The rep did the right first move — split the decision into criteria and feel, and got a clean confirmation on criteria: 'do you feel like this does cross all of the points on your list?' → 'It does. Yes.' He then asked about the feel and got 'this conversation has been super awkward', agreed with it, and conceded the timeline rather than closing on the criteria answer he had just won.",
+      "response_tactic": "split_list_from_feeling_then_concede",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect confirmed the offer meets every criterion on his list — 'It does. Yes.' — and stated no reservations: 'I don't have any reservations about potentially moving forward with you guys. I need to hear what the others have to say.'",
+      "He is buying soon and wants to accelerate — 'I actually want to get started sooner, so I'm going to try to move that Thursday conversation up.'",
+      "Counter-evidence: he is running a live bake-off against four to five providers, had already completed one, and rated this offer as undifferentiated — 'it's pretty much par for the course. Everybody's in that $4,000 $6,000 range.'",
+      "Further counter-evidence: he told the rep to his face that the call itself was a problem — 'I got to be honest with you, this conversation has been super awkward' — and the rep agreed with him.",
+      "No payment, no deposit, no link, no next meeting booked; the follow-up is a text from the prospect when he decides."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to complete his remaining provider calls and text a decision by Thursday or Friday; the rep said he would otherwise reach out on Friday. No meeting was put in the calendar."
+  },
+  "notable": {
+    "note": "The most on-ICP prospect in this batch — fit, affluent, decisive, no price resistance, no medical constraints, and explicitly wanting good-to-great — and the call produced no commitment. Two things did the damage. First, an automated pre-call text thread had told him the price was 'between two and four'; he raised the discrepancy live and the rep resolved it by disclosing a tier ladder nobody in this corpus has mentioned before — $2,000 a year do-it-yourself, $4,000 for three months, $6,000 for six, plus unspecified 'higher options'. His reply was 'So there were other options available. You just went right at the six. I get it.' Second, the prospect twice gave direct process feedback — 'you're kind of rambling around. Like you can be really direct with me' and 'this conversation has been super awkward' — and the rep agreed rather than resetting. The rep also stated that the company does not take calls with people in cars for safety reasons, then ran the full thirty-minute discovery and pitch with the prospect in his car on the way to an airport."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and continuous inversion. 'How tall are you?' appears under the prospect's label at 00:03:33, 'What's the investment in the program?' under the rep's label at 00:24:10, and the whole 'What's the reason you need me on camera?' exchange is inverted at 00:00:56. Long merged blocks attribute both sides to one speaker throughout. The prospect is audio-only for the entire call, which the transcript reflects. Role read from content: Richard Claessen is the rep, Brian the prospect. Surname never said; the display label is 'Brian: True North Trusts'."
+  }
+}

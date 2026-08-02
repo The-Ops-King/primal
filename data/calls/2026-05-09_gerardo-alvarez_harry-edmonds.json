@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-05-09_gerardo-alvarez_harry-edmonds",
+  "source": {
+    "drive_file_id": "1NFu4o5G7Seb91eeXop_wFQugdCp93j7d",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/09/2026 - Gerardo Alvarez & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/09/2026 - Gerardo Alvarez & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Lost",
+    "file_size_bytes": 40356
+  },
+  "call": {
+    "date": "2026-05-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 33,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "How was your call with Kim? Um, it was cool... We just went over the general information."
+  },
+  "prospect": {
+    "name": "Gerardo Alvarez Peterson",
+    "aka": null,
+    "name_source": "title",
+    "location": "Sacramento, California, USA; previously the San Francisco Bay Area",
+    "age": 30,
+    "occupation": "Office worker, works from home at a desk",
+    "family_status": "Moved back in with his parents in Sacramento",
+    "height_in": 69,
+    "weight_lb": 170,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Gym-goer for several years but never consistent — describes cycles of a couple of consistent months followed by tapering off, blamed partly on a 20-minute commute each way. Trains in loose splits of chest, arms, back and legs, rarely core, and describes his approach as eyeballing it with no structure. Holds an annual gym membership kept on that basis because it is cheaper. Owns kettlebells at home — a 20lb used for halos and swings, and a 50-60lb used for carries. Takes dancing lessons in his free time. Recently started doing Trevor's mobility stretches from Instagram.",
+    "kettlebell_experience": "some",
+    "medical": "Lower back pain attributed to desk work and lack of stretching, volunteered mid-call. Self-reports it largely resolved within a couple of weeks of starting Trevor's free Instagram stretches. Reports occasional poor sleep from late nights on his phone. No screening question was asked at any point, so nothing else is known."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Self-directed and already equipped — owns kettlebells, holds a gym membership, runs his own loose programme",
+      "Anchored to a cheap alternative that genuinely worked: free Instagram stretches resolved his lower back pain in a couple of weeks, which he volunteered as proof of concept",
+      "Arrived expecting a roughly $200/month group product and had already priced the category in his head before the call",
+      "Counter-signal on the label rather than the structure: he is not sceptical in demeanour at all — he is warm, deferential and explicitly rejects the DIY route in principle ('I don't want to go the cheapy method'). The fit is on price-anchoring and self-direction, not on distrust."
+    ]
+  },
+  "goals": [
+    { "text": "Become really fit and look fit — 'if someone were to look at me, they would say, oh, that guy for sure works out'", "category": "appearance" },
+    { "text": "A recomposition — hold 170lb while losing the 10 to 15lb of fat around his lower belly and adding muscle", "category": "fat_loss" },
+    { "text": "Look lean rather than jacked; explicitly not bodybuilding", "category": "appearance" },
+    { "text": "Become disciplined and finally follow through after a decade of on-and-off attempts", "category": "consistency" },
+    { "text": "Build a solid foundation he can train from at home or at the gym", "category": "sustainability" },
+    { "text": "Keep the lower back pain from returning", "category": "injury_prevention" },
+    { "text": "Have real structure instead of eyeballing it", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Never consistent — trains for a couple of months then tapers off when something comes up", "category": "consistency", "severity": "high" },
+    { "text": "No structure at all — 'for the most part of my working out life, I've just been eyeballing it, free-balling it'", "category": "other", "severity": "high" },
+    { "text": "No external accountability; wants someone to hold him to a standard", "category": "accountability_gap", "severity": "high" },
+    { "text": "A 20-minute commute each way to the gym that erodes his willingness to go", "category": "training_barrier", "severity": "medium" },
+    { "text": "Household chores and life admin displacing training since moving back in with his parents", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Lower back pain from sitting at a desk all day", "category": "injury", "severity": "medium" },
+    { "text": "Turned 30 having been on and off this train for years and never reached it", "category": "emotional", "severity": "medium" },
+    { "text": "Cannot fund the programme — 'I don't got 6,000 bucks laying around'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I wasn't expecting $1,000 a month. I did talk to Kim, and I did ask about the price, but, you know, didn't really get any answer on that, but a thousand bucks per month is pretty steep.",
+      "timestamp": "00:22:36",
+      "rep_response": "Answered with a one-line value assertion — 'It's not supposed to be cheap, brother' — then immediately volunteered payment splits without isolating the objection or asking a single question about his finances.",
+      "response_tactic": "value_assertion_then_immediate_payment_split",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I mean, yeah, I guess. I guess from a financial standpoint, that will be an issue, but I guess I'm just going to have to eventually just come back to you guys, but as of right now, it doesn't seem like an option.",
+      "timestamp": "00:23:55",
+      "rep_response": "Accepted it immediately and closed the topic: 'Yeah, it's all good, dude. It's not a problem.' No isolation, no financial picture, no attempt to hold the sale. Then downsold to the $199/month community.",
+      "response_tactic": "concede_and_downsell",
+      "resolved": false
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "to be honest, I was thinking that this, that this, um, program was going to be something kind of like a school thing, you know, where it's going to be more of a group. Uh, I wasn't thinking of, um, one on [one]",
+      "timestamp": "00:25:32",
+      "rep_response": "Acknowledged the mismatch and pivoted to the product the prospect had expected all along: 'If you're looking for the school thing, we've got one.'",
+      "response_tactic": "route_to_the_expected_product",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "terms": "paid upfront" },
+      { "months": 6, "price_usd": 6000, "terms": "$3,000 down and $3,000 within the next three months" },
+      { "months": 6, "price_usd": 7200, "terms": "$1,200 per month" },
+      { "months": null, "price_usd": 199, "terms": "per month, Skool self-guided community, no commitment, cancel any time; also quoted in the same conversation as '200 bucks a month'" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered unprompted the moment price resistance appeared: 'you don't have to do it all up front. Most people do, but we can break it up.' When asked how, the rep listed monthly, two payments or three payments, priced the monthly route at $1,200 a month, and recommended either upfront or $3,000 plus $3,000 within three months. The three-payment option was mentioned but never priced.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal of the coaching: 'as of right now, it doesn't seem like an option' and 'from a financial standpoint, that will be an issue'",
+      "Prospect apologised for the call — 'I'm sorry for wasting your time then' — which the rep accepted and closed out",
+      "No payment taken, no follow-up call booked, no onboarding scheduled, no date agreed for any return",
+      "Counter-evidence: he stated strong intent toward the $199/month community instead — 'This is something that I'm for sure going to check out and, you know, sign up for it' — but no payment was taken for that either and the sign-up link was left for him to action alone",
+      "Counter-evidence: he described a future return to the coaching as possible, 'I'm just going to have to eventually just come back to you guys', with no timeframe and nothing scheduled",
+      "The coaching was lost on price alone; he was positive about the method, the philosophy and the coach throughout"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Skool community link sent in the Zoom chat for the prospect to sign up on his own. Nothing scheduled."
+  },
+  "notable": {
+    "note": "The prospect asked the setter directly what it cost and was not told — 'I did talk to Kim, and I did ask about the price, but you know, didn't really get any answer on that' — and arrived on a $6,000 one-to-one call expecting a roughly $200/month group product. Thirty-three minutes of good discovery were spent on a prospect who could never have bought, and the product he actually wanted already exists at the price he expected. This is the third call in three days involving the Skool tier, and the only one where offering it as a downsell after a genuine price loss was the appropriate use. Separately, the rep told a prospect with active lower back pain that the programme would identify the cause and 'the pain won't happen anymore'."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe in the unbroken stretches. The first 59 seconds are a single block containing both speakers with no turn separation. Long inversions follow: the whole passage from 00:04:21 to 00:06:13 attributes the rep's nutrition philosophy to the prospect; 00:07:00 to 00:08:00 attributes the prospect's recomp goal to the rep; the same happens at 00:13:14 to 00:15:41 and 00:30:48 to 00:32:13. Role was read from content throughout. Note also that the speaker label gives a fuller name, Gerardo Alvarez Peterson, than the file title's Gerardo Alvarez; the call_id follows the title form."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-05-28_rafal-sowa_harry-edmonds",
+  "source": {
+    "drive_file_id": "1qUv157qaDbv1ITfEgWMunneSHrBXkWud",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/28/2026 - Rafal Sowa x Harry Edmonds KL",
+    "display_title": "05/28/2026 - Rafal Sowa x Harry Edmonds KL — Follow Up",
+    "file_size_bytes": 27908
+  },
+  "call": {
+    "date": "2026-05-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 34,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "Leicester, UK" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Rep: 'Let's jump into it, man. I know you spoke with Kyla.' Prospect: 'She gave me like an overview.'"
+  },
+  "prospect": {
+    "name": "Rafal Sowa",
+    "aka": "iPhone",
+    "name_source": "title",
+    "location": "London, UK",
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Self-described as 'nearly 50'. Long-term consistent trainer with an established routine he is happy with — weights, cycling and swimming, plus Pilates which he finds helps his back. Stretches daily as part of a morning routine and uses electrostimulation for the back. Had a personal trainer for years, stopped roughly 10 years ago when he moved to the UK, and has self-directed since. Stopped running entirely because of the hip. Has done 'some stuff' with kettlebells and enjoyed it. Happy with his current muscle mass and diet.",
+    "kettlebell_experience": "some",
+    "medical": "Hip joint damage — femoroacetabular impingement confirmed by MRI more than a couple of years ago, attributed to years of running and squatting. Underwent hip arthroscopy two years ago which 'didn't really help'; has been in pain since. His surgeon has declined a hip replacement on the grounds that the joint is not damaged enough yet and he is too young, given a prosthesis would need replacing within about 15 years, so he has been told to wait and live with it. Hip pain is constant and dull, in the groin and buttock, sometimes radiating down the lateral (not posterior) leg — he explicitly ruled out sciatica. Secondary chronic lower back pain, muscular in character, recent onset, which he attributes to compensating for the hip. Also disclosed he is burnt out and beginning a six-month sabbatical from 1 June for his mental and physical health."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Nearly 50 and explicitly framing the goal as holding ground, not gaining: 'I just want to sort of maintain my level of fitness... and just stay as active as I am for as long as I can'",
+      "Health-literate and already medically managed — MRI, arthroscopy, a surgeon actively making the replacement-timing decision, a daily stretching and electrostimulation routine",
+      "Accepts decline as the frame and wants to slow it: 'I understand it's part of aging process. But I also believe that you can actually delay the inevitable.'",
+      "Discretionary liquidity about to collapse despite no stated affordability complaint about the number itself — a six-month unpaid sabbatical starting three days after the call",
+      "No rescue narrative and no regret — he is not trying to get a former self back, he is trying not to lose the current one"
+    ]
+  },
+  "goals": [
+    { "text": "Improve flexibility and mobility, which he names as the clear priority over everything else", "category": "mobility" },
+    { "text": "Move more easily without pain and without feeling the limitations of his body", "category": "longevity_function" },
+    { "text": "Maintain his current level of fitness and keep building muscle as he approaches 50", "category": "sustainability" },
+    { "text": "Strengthen the hip area, legs and back specifically so he can live with the damaged joint", "category": "injury_prevention" },
+    { "text": "Stay as active as he is for as long as he can — 'delay the inevitable'", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Constant dull hip pain in the groin and buttock radiating down the side of the leg, from MRI-confirmed impingement; arthroscopy two years ago did not help", "category": "injury", "severity": "high" },
+    { "text": "Surgeon has refused a hip replacement as he is too young and the joint is not damaged enough, so there is no route out of the pain — 'I just need to wait until it's really damaged'", "category": "medical", "severity": "high" },
+    { "text": "Recent chronic lower back pain, muscular, which he believes is compensation for the altered hip mechanics", "category": "injury", "severity": "medium" },
+    { "text": "Losing flexibility with age and having to prioritise it daily where he previously did not", "category": "aging", "severity": "medium" },
+    { "text": "Has had to give up running entirely and restrict what he does in the gym to avoid worsening the hip", "category": "training_barrier", "severity": "medium" },
+    { "text": "Burnt out at work to the point of taking a six-month sabbatical from 1 June for his mental and physical health", "category": "work_stress", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "So, what we'll do, I will sleep on it, and I will get back to you tomorrow.",
+      "timestamp": "00:29:00",
+      "rep_response": "Accepted it immediately and moved to scheduling, then asked one isolating question — 'Is it a case of, like, I want to do it, how do I make it work? Or is it like a should I do it kind of thing?' — which surfaced the real objection. No further play was run.",
+      "response_tactic": "accept_and_book_follow_up_with_single_isolation_question",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "The thing is, I am starting a sabbatical from the 1st of June... So I just have to be wise with money from, you know, for the next few months.",
+      "timestamp": "00:29:28",
+      "rep_response": "Did not treat it as an objection at all. Validated the sabbatical warmly — 'That's beautiful. I'm happy for you' — and philosophised about money versus health: 'it's very easy for us to put money on a pedestal... But the health is always more important.' No financial picture was taken and no attempt was made to resolve or reframe the timing.",
+      "response_tactic": "validate_and_philosophise_no_isolation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Do I pay the whole upfront or how do you normally do it?",
+      "timestamp": "00:27:36",
+      "rep_response": "Anchored to upfront ('most people just take care of it upfront'), then when pressed again offered to split into two payments, computing the figure aloud with visible difficulty and landing on 'about two payments of 2250'.",
+      "response_tactic": "anchor_upfront_then_improvise_two_payment_split",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": null },
+      { "months": 12, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two payments of approximately £2,250, improvised live. Reached after audible false starts — 'I think that would be about 2500 uh no it'd be yeah 2500 yes it'd be no no no 2022 yeah okay about two payments of 2250'. The pair of payments totals £4,500, which exceeds the quoted six-month total of £4,466 by roughly £34; no surcharge or difference was disclosed or acknowledged.",
+    "guarantee_mentioned": "'We guarantee the results. So we guarantee the in six months time... you will be swinging around an eight kilo heavier kettlebell in all the movements than what you started with. So let's say you start with a 16 kilo, the guarantee is you'd be doing 24 kilo by the end of it... So we guarantee that and we'll work with you for free until you get to that point.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "'I, yeah, let me just do some finances and we, yeah, and then I will get back to you'",
+      "'So, what we'll do, I will sleep on it, and I will get back to you tomorrow.'",
+      "A specific follow-up was booked for the next day and the invite was sent live on the call: 'I just sent you a new invite over' — agreed for 13:30 on 29 May.",
+      "Buying signals present: 'it's not about if I should, because I, you know, I know I should. I want to.' and 'Do you feel like we can help you... I think so, yes.'",
+      "Counter-evidence: no payment, no link, no verbal agreement to proceed — only agreement to reconvene. He also opened the call saying 'I'm not sure if I actually need help as such. I'm just interested.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up Zoom booked for 13:30 the next day, 29 May 2026; calendar invite sent during the call and the rep offered to text his number in the meantime."
+  },
+  "notable": {
+    "note": "The prospect has MRI-confirmed hip joint damage, a failed arthroscopy, constant pain and a surgeon actively managing the timing of a replacement — and was walked through a progressive-load kettlebell programme carrying an explicit guarantee that he would be swinging a kettlebell 8 kg heavier in every movement, with no one asking whether his surgeon or a physiotherapist had cleared loaded ballistic training. The price was quoted in three different figures inside ninety seconds (£4,470, £4,466, 'about 4,500'), none of them the sanctioned $6,000, and the two-payment split totals more than the quoted lump sum. Discovery never left the surface: no deep why, no consequence frame, no past-attempts work at all, and the prospect's burnout and sabbatical — the single largest fact about his life — only emerged at 00:29 because he raised it. The rep himself assessed this call as a failure in the same-day 1-1 with Chris Klevan (drive_file_id 1jXZsz6XL7qm8D_lSi863cp2vuS5XFQQS): 'I should have open walleted him, but I didn't. I found it very hard to go deep with him.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect appears throughout under the device label 'iPhone' rather than his name — the known rejoined-from-phone pattern. Attribution is inverted for long stretches: at 00:00:04 the rep's questions about location are under 'iPhone', at 00:06:05-00:08:00 an entire block of the prospect's answers about his back and routine sits inside the rep's label, and at 00:14:47 and 00:20:41 the prospect's questions are merged into the rep's turn. Roles were read from content throughout. There is also a genuine ~80-second connection dropout between 00:16:04 and 00:17:37 in which the prospect's answer about what he needs from coaching was lost — he re-answered afterwards."
+  }
+}

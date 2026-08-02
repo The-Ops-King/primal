@@ -1,0 +1,138 @@
+{
+  "call_id": "2026-06-02_akaki-kvitsiani_ben-byrne",
+  "source": {
+    "drive_file_id": "1Ni2Xu1XLWwMo2lB1kp1AMQO2PIlcwD03",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/02/2026 - Akaki Kvitsiani x Ben Byrne KL",
+    "display_title": "06/02/2026 - Akaki Kvitsiani x Ben Byrne KL — Follow Up",
+    "file_size_bytes": 26244
+  },
+  "call": {
+    "date": "2026-06-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 30,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Canada" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla Louie",
+    "confidence": "high",
+    "evidence": "Prospect at 00:25:10: 'I have Whatsapp of the girl, your admin, I think.' Rep: 'Kyla?' Prospect: 'Kyla, yeah.' Note that the prospect understood the setter to be an administrator rather than a salesperson."
+  },
+  "prospect": {
+    "name": "Akaki Kvitsiani",
+    "aka": null,
+    "name_source": "title",
+    "location": "Republic of Georgia - lives above the city where the air is good, and has a backyard",
+    "age": 36,
+    "occupation": "Self-employed in the hospitality and restaurant business; not desk-based",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Two years of regular gym training, three to four times a week, sessions of one to one and a half hours including cardio and sometimes a sauna. Has used in-person personal trainers at the gym but never an online coach. Plateaued for the last six months. Tried a kettlebell workout at home from Trevor's videos a day or two before the call and could only complete four of five prescribed rounds before feeling close to passing out.",
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.6,
+    "signals": [
+      "Borderline assignment. Proposed label if a new one is wanted: the_bored_plateauer - already fit, no pain, no deadline, no stated why, and the purchase blocked on price despite the profile otherwise matching the optimizer.",
+      "Self-assessed as average and improvable rather than broken: 'I would say that I'm on average level right now, but I can feel that I can do better'",
+      "The presenting problem is boredom, not dysfunction: 'I'm going to the gym like regularly for maybe two years... It's like I'm bored with it'",
+      "Health is well tended - trains three to four times a week, has effectively stopped drinking, takes protein, creatine, vitamin D and omega",
+      "Diverges from the archetype on the defining clause: price was a hard barrier, not a quality signal. 'It's quite expensive. I didn't thought that it was that expensive, to be honest.'",
+      "Actively resisted three separate attempts to find a deeper motivation, answering 'No, just to be a healthy guy. That's it' and 'just want to be fit, you know, and that's it'"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the remaining belly fat that has not shifted despite eating well and training", "category": "fat_loss" },
+    { "text": "Build endurance - he believes gym machines build form but not conditioning", "category": "endurance" },
+    { "text": "Break a six-month physique plateau and change his body composition", "category": "appearance" },
+    { "text": "Train at home in his backyard instead of going to the gym, and get his workout down to 45 minutes so he can get on with his day", "category": "convenience" },
+    { "text": "Hit every muscle in a single 30 to 40 minute session rather than splitting across days", "category": "strength" },
+    { "text": "Stay able to move well into older age - 'in my age and going to the bigger ages, the main thing is endurance'", "category": "longevity_function" },
+    { "text": "Train outdoors in clean air rather than in a crowded, enclosed gym", "category": "other" },
+    { "text": "Simply be a healthy, fit guy - his own stated ceiling on motivation", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Bored with the gym after two years of the same routine and the same faces every day", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Physique plateaued for six months with no significant change", "category": "program_fit", "severity": "medium" },
+    { "text": "Belly fat that will not shift despite a self-managed calorie deficit and clean eating", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "No endurance - nearly passed out on a home kettlebell session despite considering himself gym-fit", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Dislikes the gym environment - crowded, enclosed, poor air, people sitting and talking for two hours", "category": "training_barrier", "severity": "low" },
+    { "text": "Does not know what is wrong or what to change - 'I don't know what it is, to be honest'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Deliberately staying hungry and skipping breakfast on the basis of something he read or was told, believing hunger burns fat", "category": "nutrition_habit", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Makes sense here. It's quite expensive. I thought that it would be kind of, minimum is like three months?",
+      "timestamp": "00:24:36",
+      "rep_response": "Confirmed the three-month figure and did not defend value. When the prospect restated it - 'like $4,000 for three months, it's expensive' - the rep asked two reasonable diagnostic questions ('is it the price is just more than you want to spend?' and 'how much were you expecting?') and then, without an answer to either, moved to a payment split, then Primal University, then a $1,500 entry with a 30-day cancellation.",
+      "response_tactic": "diagnose_then_descend_price_ladder",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay. I have to think about it. I can't give you an answer right now. So, um... So, um... Think about it. And how would you contact with Whatsapp or...?",
+      "timestamp": "00:24:53",
+      "rep_response": "Did not run the play. Took his phone number, asked one isolating question about price, and then spent the remainder of the call reducing the price rather than testing the deferral. No 'do you feel this can get you there', no 'what's actually preventing you from getting started', no decision frame.",
+      "response_tactic": "exchange_contact_then_discount",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "One question. Do most people contact you because of fat loss or just guys like me just want to have a good video?",
+      "timestamp": "00:12:43",
+      "rep_response": "Answered honestly that it is a mix and described the good-to-great segment. The prospect then self-categorised into it. Proposed label: am_i_the_right_type_of_customer. This was an opening to build a gap and it was used to reassure instead.",
+      "response_tactic": "reassure_with_segment_description",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 1, "price_usd": 199 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Improvised after the price objection: 'for the 4k, I mean, we'd usually start, if we can put down 1500, that would get you into the program and we could do a 30-day, love it or leave it, we're essentially at the end of the 30 days of the program. If you're like, yeah, this is good, but, you know, like, we can always escape. Cancel the rest after that, or if you like it, then we could just keep going. Or if you really wanted to, you know, what's the word, like ascend, I guess, to the six months and pay the difference.' No instalment count, schedule or total was stated.",
+    "guarantee_mentioned": "A 30-day 'love it or leave it' with the ability to cancel the remainder, offered only after the price objection and attached to the improvised $1,500 entry. No guarantee was mentioned to any other prospect in this batch.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit deferral with a date: 'I'll think about it and let you know tomorrow' and 'It won't be long'",
+      "No payment taken and no link confirmed as sent - the rep said 'I can just send you the link to join it' but nothing was confirmed",
+      "Phone numbers were exchanged and the prospect said he would text",
+      "Price is the stated blocker and it was not resolved: 'like $4,000 for three months, it's expensive'",
+      "Counter-evidence pointing warmer: he responded positively to the whole presentation - 'No, no, I really like what I'm just hearing, so I follow it' - and had already tried a home kettlebell session before the call",
+      "Counter-evidence pointing colder: he never articulated any reason to change beyond boredom, and declined three invitations to give one, which is the profile management identified internally the same week as the lowest-converting segment"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to text Ben on WhatsApp the following day with a decision. No callback was scheduled by the rep and the follow-up is entirely prospect-initiated."
+  },
+  "notable": {
+    "note": "The price ladder on this call ran $6,000, then $9,000, then $4,000, then $199 a month, then a $1,500 entry with a 30-day cancellation - moving from $6,000 to $1,500 in roughly four minutes on hesitation alone, with no financial picture ever taken. The 30-day 'love it or leave it' guarantee surfaced here for the first and only time in the batch, and was not offered to the prospect the previous day who declined specifically because he feared the programme would be no different from free videos. Separately, this is the call Ben described to his manager an hour later as 'he's in Georgia, which is like, not to put limiting beliefs out there, but, you know, they don't make like a ton of money there' - the prospect had said clearly in the first twenty seconds that he was calling from the Republic of Georgia."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion throughout, with rep questions routinely appended to the prospect's turns. Clear cases: at 00:00:34 'You have to visit Georgia as well' is labelled to the rep but is the prospect; at 00:04:04 'Do you like track your macros or things like that or no?' is labelled to the prospect but is the rep; at 00:05:27 the prospect's question about the programme is merged into his own turn correctly but the preceding rep line is not; at 00:16:42 the age exchange is fully crossed, with 'Yeah, dude. So like by the time you're 36' attributed to the prospect; at 00:21:33 'Make sense?' and 'Yeah, yeah, totally' are swapped. The prospect is a non-native English speaker and several turns are garbled, notably around the phone number at 00:25:29 which appears to be scrambled rather than transcribed. Role assignment was read from content throughout."
+  }
+}

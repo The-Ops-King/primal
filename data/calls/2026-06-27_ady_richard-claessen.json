@@ -1,0 +1,131 @@
+{
+  "call_id": "2026-06-27_ady_richard-claessen",
+  "source": {
+    "drive_file_id": "1JOtnl-SvVG0bVAiiJXmYxC-WXWO__BlX",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/27/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/27/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 45876
+  },
+  "call": {
+    "date": "2026-06-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 40,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Like I saw that Kim made a note of like something of skinny fat, you take me a little bit through that?"
+  },
+  "prospect": {
+    "name": "Ady",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Northeast USA",
+    "age": 40,
+    "occupation": "Works in FinTech — confirmed rather than asked, from the setter's notes. Office-based with a commute of over an hour and a 7am start.",
+    "family_status": null,
+    "height_in": 72,
+    "weight_lb": 168,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Did CrossFit daily for a period, 5am to 6am, and describes that as the best condition of his life; had not exercised at all before that. Stopped three years ago after tearing both MCLs and has not trained consistently since. Now walks, plays the occasional sport and picks up dumbbells irregularly. Has used kettlebells before and is familiar with the movements. Has built his own training plans using AI but cannot execute them.",
+    "kettlebell_experience": "some",
+    "medical": "Tore the MCL in his left leg playing soccer and then in his right leg playing basketball, three years ago. No surgery; recovery was long and painful. Physically recovered — he can deep squat and has used barbells — but carries a significant psychological block about loading his legs: 'it just is a thought process of, like, I might get injured, which is halting me to go heavier.' Both he and the rep slip between calling it an ACL and an MCL tear at points; MCL is what he states first and twice. No current clinician, treatment or restriction mentioned."
+  },
+  "avatar": {
+    "assigned": "the_medically_constrained",
+    "confidence": 0.65,
+    "signals": [
+      "High intent and no price resistance at all — he explicitly set price aside as irrelevant to his decision: 'I'm not going to go about pricing or anything of that sort, I'm just talking about the pure structure in general'",
+      "The blocker is an injury the delivery model may not be able to work around: 'If it's a video recording that I'm doing and sending the information out, it is an afterthought... I may record it, and my phone may be super bad, and I injure myself right away, that is where my problem is.'",
+      "He names the fear as the whole problem: 'that only part which I'm missing on right now, Richard, is that I'm scared, and I just need to get that scare out of me.'",
+      "Departure from the archetype: no clinician has ruled anything out and he is physically capable — the constraint is psychological rather than clinical, and he says so.",
+      "Alternate reading is skeptical_bargain_hunter — he builds his own plans with AI, benchmarks against Nike and Ladder apps, and floats hiring a local trainer for a single month. What separates him is that none of those substitutes has worked either, and he knows why: 'the scared part of the legs has basically got me not able to follow it.'"
+    ]
+  },
+  "goals": [
+    { "text": "Build muscle back — 'I want to build up my muscles again, number one, and just be active man'", "category": "muscle_gain" },
+    { "text": "Get the fear of re-injury out of his system so he can load his legs again with confidence", "category": "injury_confidence" },
+    { "text": "A structure and routine he can hold — 'I really want to make sure that every day I'm at least exercising for 30 to 40 minutes, and I will make that time'", "category": "consistency" },
+    { "text": "Train at home in a way that fits his schedule, with no commute to a gym or class time", "category": "convenience" },
+    { "text": "Lose the bloated midsection and fit into his clothes properly — explicitly for himself, not for anyone else's view of him", "category": "appearance" },
+    { "text": "Get back the mental sharpness he had while training — 'your attention to detail alike increases significantly, which is very important for my field of work'", "category": "energy_performance" },
+    { "text": "Learn the foundation properly and then continue alone — 'I require some kind of a hand-holding initially, then I'll be of my own'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Fear of re-injuring his knees, which stops him loading legs at all — the dominant blocker on the call", "category": "competence_anxiety", "severity": "high" },
+    { "text": "No structure — 'I'll start something, I'll move to the next exercise, I'll move to the next exercise, and then I'm out of it. And then after the workout, it's like, okay, what did I really achieve?'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Has not trained consistently for three years since the injuries", "category": "consistency", "severity": "high" },
+    { "text": "Fixed class times and an hour-plus commute make gym-based training impossible — 'I need to be in the office by 7, could not do'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Cannot get himself out of the house to train — 'I've not been able to be disciplined in order to get out of my house, or get to a place to do something and then come back again'", "category": "training_barrier", "severity": "high" },
+    { "text": "Lost the mental sharpness he associates with training, which matters for his work", "category": "other", "severity": "medium" },
+    { "text": "Skinny fat — lean limbs with a bloated midsection, though he rates his physique 7-8/10", "category": "confidence", "severity": "low" },
+    { "text": "Every personal trainer he has approached offers only fixed early or late slots that do not fit his day", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "If I'm doing things, and I'm recording it, and I'm sending it across, versus someone just looking at me, that what exactly I'm doing, there are two different things, right, I may record it, and my phone may be super bad, and I injure myself right away, that is where my problem is.",
+      "timestamp": "00:30:54",
+      "rep_response": "Addressed it substantively rather than with a scripted move: start with very light weights especially on legs, form explained in full before the first repetition, a video of Trevor performing each movement to copy, confidence built before load is added, and other members with the same injury history in the community. Then closed with an absolute assurance: 'the chance of, sorry for my French, screwing it up very badly is almost impossible or basically impossible.'",
+      "response_tactic": "light_load_form_first_plus_absolute_safety_assurance",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "the last part of hesitancy is still there for me right now on saying, okay, yep, how is this different for me than just paying up an app with Nike or Ladder or something, you know, to just do it, right? And that is where my mind is still not there on what exactly it means... is it really giving me anything differentiated that is worth it, is where I am.",
+      "timestamp": "00:34:07",
+      "rep_response": "Reflected his own history back — that he had already tried self-built AI plans and that the reason they failed was the mental block, and that a local trainer fails on timing — then asked 'Is this not exactly what you were describing to me earlier?' The prospect did not concede.",
+      "response_tactic": "replay_his_own_failed_alternatives",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I think I have all the information Richard right now, if you don't mind give me a day or two to think about it and then I'll circle back man",
+      "timestamp": "00:37:40",
+      "rep_response": "Isolated what the thinking was actually about — 'it only comes down to the aspect of someone in physical versus someone not' — confirmed it, granted the time without pressure, exchanged numbers and set a Sunday or Monday return.",
+      "response_tactic": "isolate_the_thinking_then_grant_and_set_timeline",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No price was ever named. The three pillars were presented in full but the call ended before any investment figure was stated, and the prospect had explicitly parked price as not being his issue",
+      "The rep did not force a pitch into an unresolved 6-or-7 out of 10, which is the script's own instruction",
+      "Prospect committed to a definite answer either way: 'Either way, I'll come back to you, whether we are going forward or not going forward, just to make sure that we close the loop down' with a Sunday or Monday timeline",
+      "Numbers were exchanged and the rep asked him to reply to the text so the incoming call would be recognised",
+      "Counter-evidence: the unresolved objection is structural rather than emotional — he doubts that asynchronous video review can keep him safe, and his stated alternative is a month with an in-person trainer, which the offer cannot provide"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to decide over the weekend between this and hiring someone in person, and to call the rep on Sunday or Monday either way."
+  },
+  "notable": {
+    "note": "The only call in this batch where no price was ever quoted, and it was the right decision — the prospect sat at six or seven out of ten on the programme itself and said so, and the rep kept working the objection rather than pitching into it. Two things stand out for review. The rep verbally recommended a three-month engagement instead of the standard six ('from what I'm hearing, it's not that you're looking to be handheld for the entire six months') and never attached a price to it, which is the second improvised three-month variant in this batch. And the answer to a prospect who is explicitly frightened of re-injuring both knees was an absolute safety assurance — 'the chance of screwing it up very badly is almost impossible or basically impossible' — with no question at any point about whether a clinician had assessed him. The setter handover was the best in the batch: three separate notes from Kim were used in the first four minutes."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous inversion of short turns and several long fused blocks. 'So it sounds like when you do start to work on that again, you want to make sure your form is absolutely perfect' at 00:03:00 is the rep's line inside the prospect's block; 'Okay, I'm curious, why is that not enough for you?' at 00:05:08 sits under the prospect; the entire summary at 00:09:12 opens under the prospect's label. The passage from 00:36:33 to 00:38:03 runs as one unbroken block containing both voices. The prospect's surname is never spoken. Both parties refer to the same injury as an MCL tear and then as an ACL tear within a minute of each other, so the record follows his first and repeated statement, MCL. Kim Forbes-Sobers is referred to as 'he' by the rep throughout. Role was read from content."
+  }
+}

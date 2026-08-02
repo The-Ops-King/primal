@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-23_joseph_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Tied it to his own reasoning unprompted and closed his own case: 'no it sounds great and I think the reason I've been so interested in this is because the only thing I really haven't done is a regimented strength and mobility program right, all the therapies I've tried have been like passive in a way, and which leads me to the conclusion that there has to be something about the loss of musculature and mobility that is driving the pain, right? So I'm on board.' He also volunteered the functional hook — 'that's one of the things that attracts me to it is the functionality, the mobility, combining' — and completed the rep's sentence on range of motion: 'You mentioned the serve. It's a big range of motion. Same with kettlebells, like swings, like clean and snatches.' The single most enthusiastic pillar reaction anywhere in this batch."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Understood, agreed, no questions and no pushback — 'Okay. Yeah. Great.' The pillar had little to do here: his diet is already largely clean, his wife cooks nightly, and he had pre-identified sugar as his own weak point. The rep's 90-10 sustainability framing landed without friction ('Go for it, what you want'). Nutrition was not a factor in this purchase."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Agreed throughout and confirmed at the end — 'Okay. Yeah, that's great.' He engaged most with the promise-keeping frame rather than the mechanics, and pushed back gently on the rep's theory by improving it: 'And there might be more reasons why, too. I mean, maybe there's also a sense of accomplishing something, right?' He then applied it to himself: 'I know that process well.' The one thing he actually asked about after this pillar was who he would be dealing with going forward, not how the accountability worked."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_health_spend",
+      "raw": "I've done everything, like PT, acupuncture, massage, yoga, nerve blockers, muscle relaxers, like everything you could possibly think of, and it just stopped not working.",
+      "direction": "supports_price",
+      "competitor": "Physical therapy, acupuncture, massage, yoga",
+      "note": "Years of sustained out-of-pocket spend on modalities that all failed, plus an ongoing therapist. The strongest possible value setup — every alternative in the category has already been tried and priced — and the rep converted it well by framing all of it as passive treatment against an active programme. This anchor did the selling."
+    },
+    {
+      "type": "self_started_adoption",
+      "raw": "in the past two weeks, I've started doing kettlebells, and I immediately fell in love with it. I was kind of seeing things on Instagram and saving workouts and then building my own workouts, and I've really enjoyed that.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Already using the modality voluntarily and enjoying it before any sales contact, and already finding the workouts hard ('they whip my'). Product-market fit was established before the call started; the only thing being bought is structure and supervision."
+    },
+    {
+      "type": "discretionary_income",
+      "raw": "I'm a partner in a private equity firm that is, we're five years old, so we're building the firm, and we own nine companies",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The clearest income signal in the batch and the only call where $6,000 drew an immediate 'let's do it' with no plan requested. Recorded because it is a useful counterpoint to the rep's default behaviour elsewhere — on four other calls in this batch he volunteered instalment structures unprompted."
+    },
+    {
+      "type": "time_scarcity",
+      "raw": "in the past seven days I've probably worked over a hundred hours because I've just been, we've been dealing with this one issue, I had to fire a CEO and there's like this legal battle thing going on",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a price anchor but a delivery-risk anchor, and the only real threat to this deal's outcome. A 100-hour week with an active legal dispute is the environment the four-times-weekly commitment has to survive. The rep identified it correctly and the prospect insisted 'I can do it. There's no question I can do it. I can find the time to do that' — worth revisiting at the first weekly check-in."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Resolution of four to five years of chronic upper and mid back pain — the stated reason for the entire purchase and the thing he says would make him happier than anything",
+      "why_unmet": "The offer contains no clinical layer and no clinician is involved at any point. The prospect has imaging showing disc desiccation and a history of a herniated disc, and has already exhausted the modalities that exist for this. Loaded ballistic training may genuinely help him, or may aggravate it, and nothing in the sale establishes which — nobody asked whether a physician had assessed him for this kind of loading. He is buying a clinical outcome from a fitness product on the strength of a theory the rep endorsed on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To serve a tennis ball again and possibly play a tournament, raised and encouraged by the rep",
+      "why_unmet": "The rep introduced the ambition — 'Would it be a crazy idea if you could actually do that and play a tournament?' — after the prospect had explained that serving is what herniated his disc and described the movement as 'extending and twisting and jumping at the same time, like very aggressively, very violently'. Nothing in the programme is scoped to return-to-sport for a spinal injury, and no timeline, criteria or caveat was attached to the suggestion.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that the programme is actually working, given that his defining pattern is quitting because he cannot tell whether anything is helping",
+      "why_unmet": "He named the failure mode precisely — 'I can do it for two weeks, and I feel the same or worse. And I'm just like, can I really commit to doing this five days a week, when I don't know if it's helping?' — and no measurement, baseline or pain-tracking mechanism was offered in response. The weekly check-in form was described, but no starting measurement of any kind was taken on this call: no weight, no height, no pain score, no mobility benchmark. The single highest churn risk in this deal, and it went unaddressed.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

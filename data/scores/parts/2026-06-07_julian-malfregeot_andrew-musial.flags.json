@@ -1,0 +1,113 @@
+{
+  "call_id": "2026-06-07_julian-malfregeot_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was invented live in response to the price objection, a duration and price that exist in neither the $6,000/6mo nor the $9,000/12mo offer.",
+      "evidence": [
+        "Would you be interested in lower tiers, just to explore options?",
+        "So for you, three months, it would be 4K, and you can even split it into installments or put it on a credit.",
+        "So usually we don't offer three months for the regular people, because it's not enough time in three months to get them in shape."
+      ],
+      "timestamp": "00:29:43"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The rep asked the prospect to pay a $100 deposit merely to schedule a follow-up call, a charge that appears nowhere in the offer and is unrelated to the purchase.",
+      "evidence": [
+        "Would you like to schedule another call in a few days just to have a final decision about it?",
+        "So in order to do that, we just take a $100 deposit. That's it.",
+        "But we haven't done anything yet. If you come in in two days when you're going to schedule, and you're going to be like, look, Andrew, I don't want to do it. My wife told me I'm insane. Fine. We'll just refund it.",
+        "I'm not going to do a $100 deposit for a follow-up call."
+      ],
+      "timestamp": "00:32:53"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The rep stated that six months is required for the transformation and then, three minutes later, that the three-month version delivers exactly the same thing, leaving the prospect unable to know what he would actually be buying.",
+      "evidence": [
+        "Because like six months is needed for the full transformation.",
+        "So usually we don't offer three months for the regular people, because it's not enough time in three months to get them in shape.",
+        "So everything that I covered in six months is the same in three months.",
+        "You got the full programming and everything, it's just shorter."
+      ],
+      "timestamp": "00:31:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The deposit request was justified by a claim of heavy demand on the rep's calendar, made by a closer who had not yet closed a deal and whose manager was still asking whether a first deal would land.",
+      "evidence": [
+        "We have a load of demand. So when I'm scheduling a call with you, I'm taking out of place from my schedule for someone else. Yeah? Makes sense?",
+        "to be honest, like I would say 60% of the time I say no, then I say yes",
+        "Are we going to see our first deal hit the line today? You're to change somebody's life?"
+      ],
+      "timestamp": "00:32:53"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep mocked the prospect's stated need to consult his wife on a four-figure household spend rather than handling it.",
+      "evidence": [
+        "Definitely, definitely not have to discuss with my wife either way.",
+        "Come on, man, don't give me the wife objection.",
+        "I definitely got to go to my wife and be like, Hey, listen, I might spend four grand on a three month program here."
+      ],
+      "timestamp": "00:31:14"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep continued selling after three separate declines, including after the prospect had refused the deposit and said he was fine for the time being.",
+      "evidence": [
+        "I'm sorry, brother. I'm not going to do a $100 deposit for a follow-up call.",
+        "but like, literally, you want me to give up on you that easily.",
+        "no, I think for right now, you know, I'm okay for, at the time, for the, for the time being.",
+        "Hmm. Okay. Um, just thinking, I don't know if I can do that actually. My question is, is it purely about the money or is there something that that's missing?"
+      ],
+      "timestamp": "00:34:26"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep disclosed identifying details about another named-cohort prospect's age, athletic background and personal relationship to a third party on a recorded sales call.",
+      "evidence": [
+        "But we have former athletes, like just two days ago, I spoke with a 57-year-old former D1 soccer player, and he just got engaged with a 38-year-old girl, so he needs to keep up, yeah?"
+      ],
+      "timestamp": "00:28:08"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep repeated specific endocrine claims as established fact to steer the prospect off his stated body-composition goal, the same unqualified assertion he made to a different prospect the same day.",
+      "evidence": [
+        "Because like, just for the pure aesthetics, you're going to get tired of it because like, it's very hard for a male to sustain that.",
+        "And additionally, I don't know if you want to have more kids or not, but like when you get 10% and lower, like your libido drops too, and your testosterone.",
+        "When you're cutting down to 10 or 8, your libido is going down, your testosterone levels are going down, and you feel like ."
+      ],
+      "timestamp": "00:06:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep suggested funding the purchase on credit unprompted, without any discussion of terms, in the same breath as quoting the invented tier.",
+      "evidence": [
+        "and you can even split it into installments or put it on a credit. If you like to use your credit score, that's totally fine."
+      ],
+      "timestamp": "00:29:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The rep speaks under the label 'Andrew Jin (Primal Instinct)' throughout, so a label-driven parse would attribute this call to a different closer.",
+      "evidence": [
+        "06/07/2026 - Julian Malfregeot x Andrew Musial KFS",
+        "Because I do a lot of long-distance hiking, so actually a little bit of Fath is like, I need that, yeah?"
+      ],
+      "timestamp": "00:13:52"
+    }
+  ]
+}

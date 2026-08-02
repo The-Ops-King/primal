@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-05-06_joe-biagini_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered agreement repeatedly and tied it to his own recovery: 'Yes, I think that's exactly what I need.' He also asked whether a physique could be built from kettlebells alone, was shown the rep's own photo, and concluded 'if it's possible to build a body like that from just kettlebells, then that sounds like a good plan to me' and 'I think that would be better for me building functional strength.' Notably he asked whether the programme includes dumbbells — the equipment he currently trains with safely — and accepted that it largely does not."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "He had already diagnosed it himself before the pillar was delivered — 'I think a lot of that also is my diet as well, I don't have the best diet... most of the time I only eat one meal a day' — and when it landed he confirmed 'Yeah, I think that's been my biggest problem, is my nutrition.' No questions and no resistance. Worth noting that one meal a day in a 24-year-old rebuilding from multi-site fracture repair is a clinical nutrition question, and it was handled as a coaching one."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest reaction on the call, because it answers a problem he had already named. He interrupted the presentation to ask 'how would you guys make sure my form and everything is correct? Would these be video...' and when the same-day video review was explained he responded: 'that's another problem I have. I don't know if I'm doing this the right way, and I try and watch the video, and then I try and go, then I'm watching the video again, and I'm like, I don't know.' For a prospect with memory impairment training unsupervised, the daily contact is the part of the offer with genuine value."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "clinical_service_price",
+      "raw": "I was paying more than that to go do physical therapy. And I feel like the insurance would cover most of it. I know the sessions were 950 each... I would have to do two sessions each day that I was there, so four sessions a week, two separate days.",
+      "direction": "supports_price",
+      "competitor": "hospital physical therapy",
+      "note": "The most powerful supportive anchor in the batch and the most troubling. The prospect volunteered it himself to justify the $6,000 — measuring a fitness coaching programme against the reimbursement price of clinician-delivered rehabilitation. That comparison is exactly why this sale is a substitution for medical care rather than an addition to it: he stopped the $950 sessions for cost reasons and is buying this instead."
+    },
+    {
+      "type": "medical_debt",
+      "raw": "I have probably about $30,000 in ambulance bills that they're asking me to pay that I just don't have the money to pay... this whole thing has put me in a lot of debt",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Against a $1.5m hospital episode, roughly $30,000 in outstanding ambulance bills he cannot service, and a year without income. The rep heard all of it, said 'Dude, I love the fact how you're even on this call given the situation', and proceeded to the offer twenty minutes later."
+    },
+    {
+      "type": "liquidatable_asset",
+      "raw": "I would just have to go in, sell some of our crypto, transfer it to the bank account, and then I would be able to make the payment",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The only liquid asset he has, and it became the funding mechanism. When the rep asked what cash was actually on hand the answer was $500; the booking minimum was then set at $1,200, above what he had, with the balance dependent on the crypto sale."
+    },
+    {
+      "type": "free_content_substitute",
+      "raw": "I see a lot of people doing kettlebell stuff on Instagram, but I felt like I would probably get a more structured program from him, whereas the other people I'm just watching videos, stealing a couple things from this video and trying to put a workout together myself",
+      "direction": "undercuts_price",
+      "competitor": "free social fitness content",
+      "note": "He had already rejected the free alternative on structure grounds before the call started, which is the favourable version of this anchor. It also states his buying criterion precisely — structure and correctness — which the offer does deliver."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Continuation of the rehabilitation he had to abandon — he stopped physical therapy for cost reasons while still needing it: 'I probably could have still been doing rehab'",
+      "why_unmet": "The offer is a fitness coaching programme with no clinical oversight, no involvement from his surgical or rehabilitation team, and no clinician in the delivery chain. He is buying it in place of care that was medically indicated and unfinished, and it cannot perform that function.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Resolution of tremors, shaking and memory impairment from the brain injuries — the specific symptoms preventing him from returning to work",
+      "why_unmet": "Entirely outside the kettlebells, nutrition and mobility trifecta. These are unresolved neurological sequelae still under investigation, and no part of the offer addresses them. The rep did not claim they would be, but did link getting back in shape to returning to tattooing.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Rebuilding grip and wrist strength in a surgically reconstructed right hand so he can tattoo again",
+      "why_unmet": "This is occupational hand rehabilitation after a total reconstruction. It was raised — 'I don't have my full grip strength and wrist strength back' — and the programme's answer is general kettlebell work, which loads the wrist heavily. Whether that helps, does nothing, or causes harm is unknown and untested.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that loaded training will not re-fracture healing bone — he stated the fear explicitly: 'I can't take the risk of re-breaking my ankle and shins'",
+      "why_unmet": "No screening step, no clearance question and no clinician contact exists in the offer, so the reassurance he needed could not be given. What he received instead was a promise: 'making sure that your knees don't hurt anymore. Your ankles don't hurt anymore. Your back doesn't hurt anymore.'",
+      "verdict": "product_gap"
+    }
+  ]
+}

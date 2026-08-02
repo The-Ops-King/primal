@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-08_tony-moore_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Rep promoted fasting protocols to a prospect who had disclosed type 2 diabetes twenty minutes earlier and who already undertakes 15 to 30 day fasts, without asking about glucose-lowering medication or medical supervision.",
+      "evidence": [
+        "High cholesterol, everything, I'm pretty, I'm fairly healthy, high cholesterol, and then, you know, the type 2 diabetes, which is, you know, pretty much reversible if your diet, exercise, and lifestyle changes",
+        "Because I've fasted, you know, once a year. So once a year, I either go 15 or 30 days, you know?",
+        "So expect Trevor at this stage to provide advice as to food groups that should be added to your diet, as well as be removed. Likewise with supplementation and even fasting protocols.",
+        "mentioned you do a good fast like once a year, you said? We're big on fasting too, especially as you enter our 50s, man. It's really important for longevity and health.",
+        "All right. Payment successful. We emailed you a receipt"
+      ],
+      "timestamp": "00:34:34"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed type 2 diabetes and high cholesterol known for three years, roughly 30 pounds above target weight after 10 to 15 years sedentary, and was moved toward loaded ballistic kettlebell training with no question about medication, treating physician or clearance.",
+      "evidence": [
+        "So, yeah, there's high cholesterol and high sugar.",
+        "How long have we been aware of this? About three years.",
+        "Yeah. I haven't done anything consistently within the past 15 years.",
+        "when I stand up, sometimes my hips, sometimes my, you know, nothing serious, but just little dings",
+        "Okay. High cholesterol. Is there anything else I need to be aware of? Any limitations in your body? That's that's it.",
+        "there's not going to be anything that we ask you to do, which isn't outside of the realm of possibility for yourself. And we scale you up slowly."
+      ],
+      "timestamp": "00:14:16"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated the company does not run a subscription model and then, fourteen minutes later on the same call, sold a $199 per month subscription — the third time in three days he has made and broken this statement within a single call.",
+      "evidence": [
+        "We're teaching you how to fish as opposed to giving you the fish. We don't want you to rely on us, Tony. We don't run a subscription model here. Once the program is done, you're done. You're okay. You're independent forever.",
+        "We have something called Primal University. It's just 200 bucks, okay? You can cancel it at any time. It says 200 bucks a month, but it can be canceled at any time.",
+        "[cross-call, same rep, 2026-05-08_christian-nazario_farooq-bey at 00:18:01] It's not a subscription model that we run here. As soon as you're done, you're done.",
+        "[cross-call, same rep, 2026-05-07_atul-sharma_farooq-bey at 00:25:01] Once this program is done, we don't run a subscription model here."
+      ],
+      "timestamp": "00:49:06"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A recurring monthly card charge was set up live with no written agreement, no terms and no cancellation process beyond a verbal assurance, and the prospect noted he was never asked for an email address.",
+      "evidence": [
+        "It says 200 bucks a month, but it can be canceled at any time.",
+        "So I just uploaded a photo, put my name as the bio, that already just, now I'm a school member? That's it. No email? No, no, you just have a school account now, okay?",
+        "Primal University, 199-month membership, cancel anytime, card, joint standard.",
+        "Hold on one second, I think I used one of the cards that I had locked. Got to unlock it."
+      ],
+      "timestamp": "00:56:11"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Rep presented an unlisted $4,000 three-month tier, and quoted Primal University as $200 per month when the checkout showed $199, alongside an unmentioned $2,000 annual option carrying access to live classes the monthly does not include.",
+      "evidence": [
+        "So for the three months, the investment is 4,000 US. For six, it's six. And for 12, it's nine.",
+        "We have something called Primal University. It's just 200 bucks, okay?",
+        "if you see here, you can either pay on a monthly basis or it's just two grand for the year.",
+        "so the year is, so I pay for a year, get access to live, but what, the $199 a month, you don't, you don't have access to live. That's right."
+      ],
+      "timestamp": "00:51:49"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts attribution throughout and two long passages lose punctuation and merge multiple speaker turns entirely.",
+      "evidence": [
+        "00:23:19 - Tony Moore  Most definitely. Well, whose responsibility is it to change? It's mine. 100%. My own.",
+        "00:42:03 - Tony Moore  that's a little that's a little that's a little pricey that i thought the program would be i'm not saying you know that's okay yeah so three months four thousand",
+        "00:58:58 - Farooq Bey (Primal Instinct)  Now, if you go... to back to school and you see the top right corner of the of the screen you'll see maybe your biopic that you put before yes yeah click that okay i see it"
+      ],
+      "timestamp": "00:42:03"
+    }
+  ]
+}

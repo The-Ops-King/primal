@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-05-04_paul-bionaz_farooq-bey",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled for a person who does not appear in it — the title names Donald Peteranna while the entire call is with Paul Bionaz — the second such mismatch in this batch, both dated 05/04.",
+      "evidence": [
+        "05/04/2026 - Donald Peteranna x Farooq Bey ",
+        "00:00:03 - Paul Bionaz — Not bad. How are you?",
+        "That's an interesting second name you have, man. Bionaz. Where is it from?",
+        "Oh, it's from Italy... Small village in the north of Italy.",
+        "05/04/2026 - Jaideep  Mistry x Farooq Bey [same rep, same day, transcript is entirely with Paul Hatch]"
+      ],
+      "timestamp": "00:00:03"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The one-to-one coaching was quoted as a vague band rather than fixed tiers, and the band's floor is the unsanctioned $4,000 three-month price.",
+      "evidence": [
+        "So you have the one-on-one coaching that's roughly from $4,000 to $9,000.",
+        "It's 200 bucks per month, but you can cancel at any point."
+      ],
+      "timestamp": "00:04:58"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "The prospect disclosed acute post-Ranger-School depletion two weeks prior — sustained multi-thousand-calorie daily deficits, sleep restriction and substantial muscle loss — and was pointed at a self-paced programme to run alongside high endurance volume, with no question asked about whether his unit strength and nutrition coaches were aware.",
+      "evidence": [
+        "I just got out of ranger school, so pretty weak following that because you don't get a lot of sleep. You don't get to eat a lot.",
+        "you only eat two meals a day. One at like 4 a.m., one at like 7 a.m., and it's an MRE. So, I mean, you're burning like thousands and thousands of calories while only taking in just, you know, 2,000 a day. So I lost a lot of muscle. I literally just got out like two weeks ago.",
+        "I'll be running alongside the program. So I've got to do like a lot of endurance stuff, basically.",
+        "What I feel like is going to best serve you is just having that structure and that roadmap when it comes to kettlebells."
+      ],
+      "timestamp": "00:09:41"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts on quick turns throughout a short call, and audio dropouts forced a mid-call device switch, so line-level attribution is unusable.",
+      "evidence": [
+        "00:09:20 - Paul Bionaz — But you already have discipline.",
+        "00:11:05 - Paul Bionaz — I said, we're always going to be here.",
+        "00:00:16 - Paul Bionaz — Yeah, of course. Where are calling from, man? I'm in Washington.",
+        "Yeah, we got bad, we got bad Wi-Fi."
+      ],
+      "timestamp": "00:09:20"
+    }
+  ]
+}

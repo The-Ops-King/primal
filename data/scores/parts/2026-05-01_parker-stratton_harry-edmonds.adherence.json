@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-05-01_parker-stratton_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "miss", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Frame was two-part not four: 'I just want to get a good idea of where you're at, really build out what it is that you want to accomplish, and then if there's alignment, great' — no 'what's in the way' or 'what you need'. Agreement sought only as 'All righty?'. Open question run verbatim: 'What was it that you were hoping we could potentially help you with, man?'. Setter notes never read back; the application was only referenced at 00:45 ('I feel like it said that in your application') and he had it wrong."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "partial", "P2d": "hit", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age asked ('How old are you, if you don't mind me asking?'); height and weight never asked — the 256/232 numbers were volunteered. Occupation asked only at 00:45 and desk-bound status was volunteered, not elicited. Injury history run properly: 'Talk to me about the military injuries... what's actually happened?' followed by 'How does it show up for you?'. Training week elicited. Diet elicited. Sleep and daytime energy never asked at all — notable given a prospect whose stated goal is how he feels day to day."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "partial", "P3d": "partial", "P3e": "miss", "P3f": "miss", "P3g": "hit", "P3h": "hit" },
+      "evidence": "Strong on the tangible outcome — 'if it were to be more tangible... what would you say?' produced shoulder/hip/T-spine mobility. Reflect-back ran well: 'It sounds like it's more than just, hey, I want to work out with some kettlebells... the biggest motivator or driver or why is the kids'. But the deep ladder was skipped: never asked 'when you're moving better, what does that actually do for you?' or 'who else does that impact?' — the kids and the declining father were volunteered by the prospect, which the spec scores as a miss."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "partial", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "'And what have you tried so far for it? I know you've been working out. Have you been the chiro, the physio, the everything?' and the follow-through on what happened (VA covered 12 chiro sessions then stopped; yoga lapsed; Built by Science app abandoned) were clean. But the rep never asked why it didn't stick or what the one thing in the way is — he answered it himself: 'it wasn't the right vehicle per se'. Handing the prospect the diagnosis instead of making him name it is the specific miss here."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame at all. The rep ran the inverse: 'you've already done the hard part... so now it's just optimization at this point' and 'you've got time'. With a 41-year-old carrying spinal degeneration and a father in visible decline, the two-year cost-of-inaction question was sitting there and was never asked. This is the single largest gap on the call and plausibly why the close stalled."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "partial", "P6c": "partial" },
+      "evidence": "A 1-10 confidence question stood in for the belief check — 'where would you kind of put yourself on that scale?' → '9.5' — and 'Is there anything that you feel like is missing?' stood in for the all-in check. Both are weaker variants and both were asked AFTER the full programme walkthrough. The true all-in question only came after price ('money out of it, you do feel confident this is what you want to do, right?'), which is the wrong side of the presentation."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "partial", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "No programme payment collected. A $100 deposit link was being pulled up when the rep stopped the recording: 'Usually, let me just remove the recording and pull this up.' Onboarding call with Trevor was described ('probably on Monday or Tuesday') but never actually booked. No agreement email, no signature on the call, no Skool link, no onboarding questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Ran the isolate ('money out of it, you do feel confident this is what you want to do, right?'), the obstacle-preview ('what do you think she'll say?' → 'skeptical... sticker shock') and the deposit-with-refund fallback. Did NOT run 'is there any reason she would NOT want you stronger and less in pain?', 'is this genuinely needing her input or asking permission to bet on yourself?', or the 'this isn't a joint decision like buying a house' ownership move — the three moves that actually dislodge this objection. Instead he told an anecdote about stopping asking his own partner for spending approval, hedged twice with 'I'm not telling you to do this'."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Sticker shock was named explicitly. The rep isolated first, correctly, but then jumped straight to the solution — an unprompted 2 x $3,000 split — without ever asking permission for an open financial conversation and without a single financial-picture question: no cash on hand, no monthly surplus, no cards, no available credit, no investments. The whole FINANCIAL PICTURE block of OC was skipped, so the rep discounted the friction rather than diagnosing it."
+    },
+    {
+      "play": "OA",
+      "trigger_present": false,
+      "ran": "not_applicable",
+      "detail": "The weekend delay was framed entirely as needing the spouse conversation, not as a standalone 'let me think about it'."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, not a rep failure: the prospect named an in-house lower-cost substitute as his fallback — 'my fallback would be Primal University' — plus 'just random YouTube videos'. There is no scripted play for a prospect anchoring on the company's own cheaper product. The rep's answer ('I find it hard to upsell people at a Primal University') half-conceded the substitute before differentiating on the medical condition."
+    }
+  ],
+  "notes": "Excellent rapport and a genuinely strong discovery of the injury history — then he skipped Phase 5 entirely and told a man with a 90-year-old back that he had 'time' and was merely 'optimizing'. Coach the sequence: run the consequence frame and the commitment check BEFORE the programme walkthrough, and when money surfaces, run the financial picture instead of reflexively cutting the payment in half."
+}

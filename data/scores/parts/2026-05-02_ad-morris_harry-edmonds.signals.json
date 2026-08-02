@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-02_ad-morris_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Delivered as a screen-share tour of the Primal University library rather than as a philosophy, and the prospect responded with mechanics questions throughout: 'is it all mainly based on kettlebell and is maces kind of optional?', 'if you're going to do your workout and you've kind of got this EMOM to work through, do you tend to have this app open on your phone so you can follow it?', 'is that kind of Trevor sets them in each month?'. Understood and interested, but interrogating the delivery rather than reacting to the value."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Rep gave the philosophy briefly — 'We're not strictly carnivorous. We eat mainly for health... carbs definitely on the lower end... stay away from the rice and the bread and the pasta'. Prospect had pre-empted it and simply agreed: 'I'm open to whatever the kind of program dictates and I'm the kind of person that'll stick to it.' No questions, no resistance."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Only ever described as the delta between the two products — 'the difference is just the tailoring and the support, 24-7 support from Trevor'. The prospect accepted the substance and rejected the price in the same breath: 'does sound really good, but yeah, it's just a lot more than I was kind of expecting'. He then asked how many people are on the group Q&A call, which is him pricing the substitute version of the same pillar."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "in_house_cheaper_product",
+      "raw": "we've got Primal University, which is very much self-guided... I think it's about 150 quid a month... I'll tell you exactly. Yeah. 147 pound a month. And then we have the coaching, which for six months is 4,400 pounds. So there's a big difference in the numbers.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own self-guided product)",
+      "note": "The rep put both numbers on the table in the same sentence and named the gap himself. A £147/month alternative presented simultaneously with a £4,400 commitment does not compete on value, it competes on arithmetic — and the coaching lost. This is the second call in two days where Primal University is the live alternative to the high-ticket close."
+    },
+    {
+      "type": "self_directed_substitute",
+      "raw": "I've read some like Pavel's books. I've tried like dry fighting weight by Jeff Newport a while ago... I've kind of done my own programming. I've been doing 5-3-1 but just the main lifts.",
+      "direction": "undercuts_price",
+      "competitor": "Pavel Tsatsouline / Geoff Neupert 'Dry Fighting Weight' / self-written 5-3-1",
+      "note": "Book-priced substitutes that demonstrably worked — a 200 kg deadlift and an 80 kg overhead press are the receipts. His complaint is progression and novelty, not results, so the offer has to be sold on programming intelligence rather than on outcome. Nobody made that argument."
+    },
+    {
+      "type": "spouse_as_budget_gate",
+      "raw": "I think my missus would shoot me, if they, to commit to £700 a month for something",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Note the reframe direction: the rep converted £4,400 into a monthly figure and the prospect immediately re-anchored on the monthly figure as a recurring household commitment, which is a harder sell than a one-off. Volunteering the per-month maths made this objection worse, not better."
+    },
+    {
+      "type": "existing_equipment_sunk_cost",
+      "raw": "I've got two 24s, two 16s and one 32.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The one supportive anchor on the call and it went unused. He already owns the kit and knows the movements, so there is zero start-up friction — the classic 'you're one system away' argument was available and never made."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Tailored, progressive programming without a six-month lump commitment — he explicitly valued the monthly-rolling structure: 'I like the fact as well that it's... even if we just try it out for a few months'",
+      "why_unmet": "The offer is binary: £4,400 for six months of tailoring, or £147/month for a library with no tailoring. There is nothing between them, so a prospect who wants coached programming on a rolling basis has to buy the untailored product.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Evidence that the self-guided product works — 'have you got any kind of testimonials on Primal University? Has it got its own website and stuff?'",
+      "why_unmet": "The rep searched live, could not produce any, and conceded the reason: 'It's not the main thing we do, so we probably don't have many. Most of the testimonials are from the coaching, of course.' He promised to hunt some down and send them.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that a 240 lb frame can return to running and climbing without knee pain",
+      "why_unmet": "He named it as the functional outcome he wants — 'go for a run or go climbing and feel like I can actually hold on to the wall' — and it was never picked up. The programme plausibly serves it via fat loss and mobility, but nobody connected the two.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

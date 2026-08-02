@@ -1,0 +1,117 @@
+{
+  "call_id": "2026-05-13_moath-abdullah-alobeid_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a clicking shoulder and self-described rotator cuff problem, plus an arm he had already injured attempting a kettlebell movement, and was sold toward overhead loaded ballistic work with the concern answered as a form issue and no clinician clearance sought.",
+      "evidence": [
+        "when I move my hands, and there's always a click in my shoulder, I have a rotated cup, so I try to fix it with, like, stretching and all that",
+        "i hurt my arm here when i tried it",
+        "I'm gonna snap something, you know, like, when I hold it up and I feel like something's gonna snap all of a sudden.",
+        "Interesting. Okay. That could be form.",
+        "Okay. Could be form. It likely is going to be form."
+      ],
+      "timestamp": "00:11:37"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Rep recounted another prospect seriously injuring his shoulder switching to kettlebells, then continued selling to a prospect with an existing shoulder problem without introducing any screening or clearance step.",
+      "evidence": [
+        "I've been wanting to switch to kettlebells, and I've been doing it for the last four months, and I tried to a 70-pound kettlebell, so like a 30-kilo kettlebell, and he said, I've really, really hurt my shoulder. I'm like, I'm not surprised.",
+        "that's the thing that snatches and cleans everybody bangs their wrist at the start but it's fine",
+        "we'll go a little bit lighter and just completely focus on mastering the form"
+      ],
+      "timestamp": "00:12:59"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep made an unconditional performance guarantee — eight kilos added to every kettlebell movement in six months, and a body that will reflect it — with no conditions, remedy or refund terms stated.",
+      "evidence": [
+        "Because in six months, you're going to have results anyway, right? Like we guarantee you results.",
+        "We guarantee you that in six months or in 12 months time, that you'll put on eight kilos, in six months, you'll put on eight kilos of weight on every kettlebell movement.",
+        "And if you put on eight kilos of weight in every kettlebell movement, your body will reflect that, you know?"
+      ],
+      "timestamp": "00:31:05"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price walked from $6,000 to $4,000 to $1,200 in roughly eight minutes on hesitation alone, introducing three-month and one-month terms that are not in the sanctioned offer.",
+      "evidence": [
+        "the six months is 6k US, and the 12 months is 9k US",
+        "He only does 600, he doesn't do 3 months, right? We do have a 3-month option. It's 4K US.",
+        "We have one, you can do one month. It's 1,200. 1,200. US.",
+        "we call that love we call it love it or leave it"
+      ],
+      "timestamp": "00:41:20"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Monthly instalment option was quoted at $1,200 per month for the six-month term, a total of $7,200 against a $6,000 list price, with the uplift described only as 'a little bit on'.",
+      "evidence": [
+        "Um, or you can pay it monthly, but it works out to be a bit more. Cause if you do monthly, it's 1200 us a month",
+        "Cause if you do monthly, we add a little bit on, so it would be 4,500 real a month. If you did it monthly, um, it adds on like a little bit more.",
+        "So, when you do it monthly, basically, it's almost like you have to pay for an extra month, if that makes sense."
+      ],
+      "timestamp": "00:39:26"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep again stated an open-ended upgrade-credit policy under which extending from a shorter term costs only the balance — the third call in three days on which this unsanctioned policy was asserted.",
+      "evidence": [
+        "and by the way, at the end of the three months, if you want to carry on, you just pay the difference. Which is a 2,000 in this case for six",
+        "It's not like we would charge you another 4k to do another three months.",
+        "and then if you do want to do six months after you just pay the difference"
+      ],
+      "timestamp": "00:42:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Recording was never disclosed at the start; the prospect discovered it himself at 47 minutes after noticing a live indicator and had to ask what it was.",
+      "evidence": [
+        "Just before I saw that this was live stream, live stream to who?",
+        "It's not, it's just recorded.",
+        "It's not on Facebook, don't worry."
+      ],
+      "timestamp": "00:47:27"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep declined to take payment when the prospect asked for the link, requiring a further call instead, and the deal ended undated.",
+      "evidence": [
+        "Okay. All right. Thank you, Harry. If you can send me the links, or do we have to do it now?",
+        "Well, we have to be on a call for me to onboard you because I need to send you all this stuff over.",
+        "And can we do that later? Yeah. What time? I don't, I'll email you."
+      ],
+      "timestamp": "00:44:06"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Prospect confirmed the phone number on his application was fabricated, which undermines lead contact data and any matching between application records and calls.",
+      "evidence": [
+        "You have a U.S. phone number?",
+        "No, I don't. I was uncomfortable sharing mine, so I put a random one."
+      ],
+      "timestamp": "00:46:28"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts the entire pricing exchange, attributing the rep's quoted figures to the prospect, so automated price extraction from this file would be wrong.",
+      "evidence": [
+        "00:34:06 - Moath Abdullah ALOBEID: the six months is 6k US, and the 12 months is 9k US",
+        "00:42:45 - Moath Abdullah ALOBEID: It's 1,200. 1,200. US.",
+        "00:11:43 - Moath Abdullah ALOBEID: Yeah. What weight do you use?"
+      ],
+      "timestamp": "00:34:06"
+    }
+  ]
+}

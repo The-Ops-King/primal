@@ -1,0 +1,32 @@
+{
+  "call_id": "2026-07-08_richard-claessen_michael-brideau",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer stated as fact that prospects with certain ethnic names no-show more often, applied it to a specific named prospect booked minutes later, and the other closer did not challenge it.",
+      "evidence": [
+        "All right, well. Abdul is going to show up.",
+        "I don't know. I do have to say it is just facts. No show rates with different names definitely do change. That is the facts.",
+        "I don't know if it's on this offer. don't know if it's with Americans, but if I had calls on my other offer, I don't have any more now. But they're, like, yeah, just people that are, like, called Abdul or something.",
+        "I don't have anything against anyone. Like, I like anyone, right? But, like, always a no-sure rate with those names. We're always higher. I don't know why.",
+        "Yeah, just sent him a message. I'll give him a call here in two minutes as well."
+      ],
+      "timestamp": "00:04:35"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A closer went into a live sales call on a connection that could not load a web page, falling back to a metered phone hotspot, which bears on call and recording quality across this rep's calls in this period.",
+      "evidence": [
+        "Yeah, I was trying the Wi-Fi a bunch and it just wasn't working",
+        "here and there you do sometimes sort of stay stuck for like a quick second",
+        "Dude, I can't even load another website. It's crazy.",
+        "Let me try hotspotting and see if it helps.",
+        "Yeah, but that's also like, I don't have unlimited data on my phone. So I'm gonna have to figure something out.",
+        "Well, dude, I think on the listing it said the internet was good, but maybe I didn't go in as in-depth as I should have. I was also kind of just scrambling to book something last minute."
+      ],
+      "timestamp": "00:06:15"
+    }
+  ]
+}

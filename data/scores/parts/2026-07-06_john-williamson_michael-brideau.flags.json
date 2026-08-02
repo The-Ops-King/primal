@@ -1,0 +1,102 @@
+{
+  "call_id": "2026-07-06_john-williamson_michael-brideau",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed he is on ongoing testosterone replacement therapy, and was sold a six-month loaded kettlebell programme and a nutrition protocol without anyone asking who prescribes or monitors the TRT or whether a clinician had any view on the training or diet change.",
+      "evidence": [
+        "I did start doing a TRT a few months back and that's kind of coincided with the energy levels.",
+        "What were your T levels before? It's 320.",
+        "And now they're at like 700, 720. Cool. Okay. And sleep, what's sleep looking like?",
+        "I don't actually think it's bad that you're just eating one meal a day. Um, to be honest, the, the one concern that I have is that we're, my guess is that I don't think we'd actually be hitting our nutritional needs in terms of protein and calories.",
+        "So total investment to teach you everything that you need to know to have, be healthy, have the longevity, fix all the mobility is going to be $6,000."
+      ],
+      "timestamp": "00:15:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Asked directly about health conditions the prospect answered 'no' while on active hormone therapy, and the rep did not revisit the screening question after the TRT surfaced eight minutes later.",
+      "evidence": [
+        "um any health conditions at all no okay what about uh injuries chronic pain um things like that",
+        "my shoulder every now and again i had a broken collarbone and a rib and rib punctured my lung back from a motorcycle accident like 12 years ago",
+        "okay so nothing major inhibiting working out or anything no no",
+        "I did start doing a TRT a few months back"
+      ],
+      "timestamp": "00:08:25"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect asked outright whether the $6,000 was a single payment or monthly and was answered with social proof rather than the terms; instalment options were never named, and he committed to liquidating precious metals to pay in full.",
+      "evidence": [
+        "Sweet deal. Is that all one time? Is that monthly?",
+        "Most people just put out a credit card, do it at once.",
+        "That's good. That work for you? Yeah, it won't be a credit card. It'll be debit, but yeah.",
+        "Birdie, Arizona, 8-6-3-2-2, and I'm going to have to go and transfer some funds and do whatnot.",
+        "A separate thing entirely. I invest a lot in precious metals and whatnot."
+      ],
+      "timestamp": "00:32:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $100 deposit was invented live when the prospect could not pay immediately — a figure outside the $6,000/6mo and $9,000/12mo price list, improvised to get something on the card before funds existed.",
+      "evidence": [
+        "No worries, man. Why don't we...here's what I think we'll do. Let's just do a super small deposit, even just $100 so we have something in.",
+        "I can get you the documentation all done up, and that way we can have that call booked in for Trevor. Does it work to do like $100 or something right now just so we have something in?",
+        "Should be able to. Yeah."
+      ],
+      "timestamp": "00:35:12"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep told the prospect he was working around an internal rule, booking the onboarding call before payment by taking a token deposit to satisfy it.",
+      "evidence": [
+        "Because technically I'm not supposed to book the onboarding call with Trevor until we have something in.",
+        "Let's just do a super small deposit, even just $100 so we have something in.",
+        "Well, dude, I'm excited. I'll book you in for your onboarding call right now."
+      ],
+      "timestamp": "00:35:37"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Outcome claims that read as clinical assurances were made to a prospect on hormone therapy — that mobility work resolved the rep's own joint problems in four weeks, and that nutrition changes would produce a significant further energy increase on top of his TRT.",
+      "evidence": [
+        "even for me, when I first started doing the mobility stuff that Trevor gave me, I had a bunch of shoulder issues. My ankle was kind of messed up within like, four weeks, like pretty much gone.",
+        "I know the TRT obviously helped a lot with energy, but I think like once we really start getting the nutrition side of things dialed in as well, you'll notice like a very significant increase in your energy.",
+        "He's going to have you film every single movement and you guys are going to go back and forth until the movement's dialed into a T. So we want to make sure, again, this is something that moves well into the future. We have the longevity. We're not injuring ourselves."
+      ],
+      "timestamp": "00:26:10"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This call reads as a completed close from its own transcript and collected nothing; the outcome is only recoverable from the 07/09 team meeting, where the rep reports the prospect ignored one follow-up call and hung up on the next.",
+      "evidence": [
+        "Because technically I'm not supposed to book the onboarding call with Trevor until we have something in. So...oh.",
+        "Sweet deal. Is that all one time? Is that monthly?",
+        "I pushed for a deposit, and I think he just freaked out and ran away.",
+        "Well, we'll see. I called him today, and he hung up.",
+        "Called him, didn't answer, called him today, hung up.",
+        "Michael, I've to be honest with you, man. Not seeing a thing that would have caused him to be like that."
+      ],
+      "timestamp": "00:35:37"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts across long stretches of this transcript, attributing unmistakable rep questions to the prospect label, which makes line-level attribution in this file unusable.",
+      "evidence": [
+        "00:08:25 - john Williamson — any health conditions at all no okay what about uh injuries chronic pain um things like that",
+        "00:08:25 - john Williamson — what's it current i know we talked about it briefly but just walk me through a current training week",
+        "00:11:04 - Michael Brideau (Primal Instinct) — I know you mentioned that before. Yeah.",
+        "00:26:28 - john Williamson — Um, what questions do have on the training and mobility side of things? Um, when do we start?"
+      ],
+      "timestamp": "00:08:25"
+    }
+  ]
+}

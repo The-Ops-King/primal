@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-29_sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager teaches a reframe for dismantling a prospect's stated principled refusal to take on debt, using the prospect's own family history with credit as the lever.",
+      "evidence": [
+        "Well, like my dad did, he always up. So I want to be a better father figure for my kids in that sense, show them what to actually do with finances... And if I'm going to take that loan, then I'm just going against my own boundaries basically.",
+        "Have you ever been to a big city? Well, all those buildings and all that you see? Do you think that the people that own those buildings paid for them in cash?",
+        "No, they're not paying for them in cash. And the reason I'm saying that is because yes, like maybe your father made some decisions that didn't work out with credit, but that doesn't necessarily mean that, that credit and loans are bad because ultimately it also allowed you to get a house.",
+        "Just like, what's the, what's the fear?"
+      ],
+      "timestamp": "00:39:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The taught financial-picture sequence enumerates a prospect's home equity, and the manager cites prior clients taking a loan against their house to pay for the programme.",
+      "evidence": [
+        "The only thing I have is my house, but that, of course, costs money. It's not an asset or something",
+        "You're renting the house? No, I'm buying, like... It's like a mortgage, right? No, you don't have any equity in it? A little bit.",
+        "it's very rare that people... I've had people do it where they'll take, they just decide they want to take equity out on their house, like a little loan or something. You just have to go to the bank",
+        "But I wouldn't, yeah, I probably wouldn't recommend doing that overall."
+      ],
+      "timestamp": "00:37:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A rep reports running a full open wallet on a prospect with a negative bank balance and a 400-500 credit score, and intends to collect a deposit and then $1,200 from him.",
+      "evidence": [
+        "one of them had minus 67 bucks on their accounts, so yeah, he didn't have the money",
+        "he said, like, yeah, I've got 67 in minus at the moment, and his credit score was, like, 400 or 500. Like, what do you even do with that?",
+        "I'm gonna follow up with him on Thursday, because that's when he gets some money transfers for the deposit, and then the $1,200 would only be collected the week after",
+        "if he has negative $67 in his bank account, and he's still planning to move forward and purchase things for $1,000-plus a month, he might be a little impulsive",
+        "Yeah, he has not made great financial decisions."
+      ],
+      "timestamp": "00:12:47"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Deposits are declared not to count toward the cash target in the same meeting where two outstanding deposits are counted into the week's projections and a second metric that does count them is described.",
+      "evidence": [
+        "And by the way, it can't be deposited, so they need to at least give you $1,200. Deposits don't count.",
+        "I got one guy and I'm going to message him right after this team meeting because he had to call his bank to increase his credit limit. So I did take a deposit from him on Saturday.",
+        "Well, I know that Richard has that deposit. Yep, and that could come in too.",
+        "there's also a stat called call to commitment which in which takes into account the deposits"
+      ],
+      "timestamp": "00:09:44"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A rep states that he runs every prospect call through a personal AI tool after the call, with no disclosure or handling controls mentioned.",
+      "evidence": [
+        "after every call, I also run the call through my custom cloud, and like an example from the call that I just had with that guy, he was in Euros, so I was like, oh, it's 6k US dollars"
+      ],
+      "timestamp": "00:48:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "A euro-denominated price of 5.2k was used for a European prospect rather than the published $6,000 figure.",
+      "evidence": [
+        "he was in Euros, so I was like, oh, it's 6k US dollars, it's that Euros, I shouldn't even done it, I should have just been like, it's, 5.2k Euros, that's it, instead of just trying to make it more difficult on what it actually is"
+      ],
+      "timestamp": "00:48:20"
+    }
+  ]
+}

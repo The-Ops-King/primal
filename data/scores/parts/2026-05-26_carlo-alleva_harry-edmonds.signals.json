@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-05-26_carlo-alleva_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep went straight from the commitment check to the number — 'Well, I'll kind of walk you through it then. In terms of numbers, hold on.' — and the walk-through never happened. Notable because mobility was the prospect's headline want ('I would love to fix at least the pancake ... and touch my toes')."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep asked 'What's your diet like?' and heard about the drinking ('once or weeks I'm drinking really a lot ... that's one of the main points that I should get away'), but no nutrition component of the offer was ever described."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered, despite the prospect naming it as his exact requirement twice: 'I'm never really accountable' and 'I want someone that can really help me day by day. It's not just sending me the stuff, I'm doing it, and then maybe once in a while we're speaking. That's what I'm looking for.' The rep did not respond to this at all before quoting."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_training_commitment",
+      "raw": "I want to keep going at the gym, because there is a good group, and so, and I would like to see if I can squeeze like three session training with you, and like two at the gym",
+      "direction": "undercuts_price",
+      "competitor": "his current functional-training gym",
+      "note": "He intends to keep paying for and attending his existing gym, so the programme is priced as an addition to a cost he is already carrying rather than a replacement for it. The rep never surfaced or repositioned this."
+    },
+    {
+      "type": "no_price_expectation",
+      "raw": "I think those two things are really... It's for me because I'm not rich. don't know how much it can cost generally.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He told the rep before the number was given that he had no price frame and self-identified as not wealthy. That was the cue to build value and pre-frame; instead the number arrived two turns later with nothing under it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To run the programme alongside his existing gym training — roughly three coached sessions plus two gym sessions a week — and to know whether that is compatible",
+      "why_unmet": "He asked this directly in his opening answer and it was never answered anywhere on the call. Nothing in the transcript establishes whether the programme accommodates concurrent outside training.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Daily, hands-on coaching contact rather than a programme sent to him — 'I want someone that can really help me day by day. It's not just sending me the stuff'",
+      "why_unmet": "The accountability pillar, which is presumably the answer to this, was never presented. The prospect's central purchase criterion went unaddressed.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A way to measure and progress flexibility, including loaded/active work rather than passive stretching — 'I don't have a real progression because I don't know how to measure it'",
+      "why_unmet": "The rep acknowledged the problem ('I know what you mean') but never described how the programme progresses or measures mobility.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

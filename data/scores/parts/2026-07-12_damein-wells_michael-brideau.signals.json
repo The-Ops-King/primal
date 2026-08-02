@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-12_damein-wells_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "The pitch leaned hard on functional movement and injury-proofing, and the prospect agreed by echoing his own prior view: 'that was kind of the same thoughts I had, you know, about kettlebells. It's functional movements. It's not putting all this weight on your joints.' He asked no questions. Worth recording that the acceptance was of a claim that included 'your shoulder blows out... This doesn't happen with kettlebells. It's impossible' — the prospect accepted an unqualified safety claim while carrying an untreated meniscus tear."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he questioned. He asked how the eating window works — 'With the intermittent fasting, I guess you want to try to fit meals within like six to eight hours' — and volunteered his own history to test fit: seven or eight years pescatarian after his mother died, now eating anything, and a stated weakness for pizza. The rep answered on customisation and the prospect concluded 'I definitely need food to have a good diet. I always just eat whatever I want.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The clearest positive reaction on the call, volunteered and tied straight to his own failure pattern: 'I'm definitely going to be able to [be held] accountable, because I already know it's easy to fall off, especially when you're sore and you don't want to do it... It's easy to disappoint yourself, but it's hard to disappoint the people that's pushing you and that's there every day for you.' He returned to it unprompted later: 'I just need to get on the plan and be focused and have somebody to push me and keep me focused.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "cost_of_living_comparison",
+      "raw": "The wage gap between Louisiana and West Coast is, it's a lot. Minimal wage in Louisiana is $7.25 an hour... So, I look at that number, you know, that's my rent for seven months.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The strongest anchor on the call and a structural one, not a personal one. A nationally uniform $6,000 price is being quoted into a local wage economy where it equals more than half a year of housing. This will recur for every prospect outside high-wage metros."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I definitely knew it was going to cost something, but I wasn't thinking it would been that. You know, I was thinking, I was thinking, you know, it was like, oh yeah, it should be probably about, about three. I wasn't seeing six, but I get, you know, I get the number.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A quantified expectation gap — he arrived anchored at $3,000, exactly half. He did accept the number's legitimacy afterwards, so the gap was about capacity rather than perceived value."
+    },
+    {
+      "type": "existing_cheap_substitute",
+      "raw": "I still have my Beachbody On Demand account, so I'm definitely going to get back and start doing that, try to figure out how to do kettlebells and try to work that into my everyday life.",
+      "direction": "undercuts_price",
+      "competitor": "Beachbody On Demand",
+      "note": "A substitute he has already succeeded with — his 100 lb loss was achieved on it. He named it twice as the fallback and stated the plan does not change if he declines. He also identified its one weakness himself: 'there is no accountability.'"
+    },
+    {
+      "type": "competing_discretionary_spend",
+      "raw": "Probably, probably had to cut out my vacation. I'm planning... I was supposed to be going to the Caribbean with some friends in October... it's really a needed trip.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A $1,500-2,000 trip a friend spent fifteen years persuading him to take, in the same month he separated after 25 years and having taken no day off since February. The rep priced it out and probed it as a source of funds."
+    },
+    {
+      "type": "weekly_cost_reframe",
+      "raw": "I just wrote the number down and I'm listening. I mean, it's definitely worth it, $2.50 a week.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect did the per-week arithmetic himself the moment the price landed and concluded it was worth it. That reframe was available and self-generated, and the rep did not pick it up or build on it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Daily accountability — 'somebody to push me and keep me focused... that's there every day for you'",
+      "why_unmet": "The offer is a weekly asynchronous check-in form plus text access and outreach after a missed workout. That is not daily presence, and the gap was never named. He bought the idea of daily accountability because nobody corrected the picture.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To come off blood pressure medication",
+      "why_unmet": "Stated as a goal in his only disclosure of a health condition. The programme has no clinical component, no prescriber relationship and cannot own that outcome, and the rep neither engaged with it nor suggested his doctor should be involved.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A price point around $3,000, or an entry that does not require his entire liquid position",
+      "why_unmet": "There are two tiers, $6,000 for six months and $9,000 for twelve. The only flex available was lengthening payments, which raised the total to $7,200 rather than lowering the commitment.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confidence that ballistic kettlebell work is safe on an untreated meniscus tear",
+      "why_unmet": "He raised the knee unprompted and said surgery was recommended and refused. The programme may well be able to regress around it, but what he was given was an absolute claim that injury is impossible with kettlebells and an anecdote about knee problems disappearing in three months. No screening, no clearance, no qualification.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

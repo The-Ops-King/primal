@@ -1,0 +1,114 @@
+{
+  "call_id": "2026-07-18_dale-h_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed worsening multi-site joint pain, sciatica and numbness and tingling in his left hand, with no clinician involved anywhere in his care, and was taken through a full close for loaded kettlebell training without a single question about medical assessment or clearance.",
+      "evidence": [
+        "within maybe the last couple of months, my body feels like it's falling apart. Really bad hip pain, really bad lower back pain, shoulder pain. I even have numbness and tingly-ness in my left hand.",
+        "Yes, I have bad sciatic pain, probably because of having a lot of weight on my shoulders from squatting. I have injured my left shoulder before, it's probably part of why the weakness and the tingly feeling.",
+        "I really don't want to be in a wheelchair when I'm in my 50s or have to get a hip replacement or something",
+        "the investment is 6k USD"
+      ],
+      "timestamp": "00:01:01"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The rep told a prospect with undiagnosed neurological symptoms that the programme would make his pain go away, presenting training as the remedy for a presentation nobody has assessed.",
+      "evidence": [
+        "Of course you're mentioning, you have your lower back, your hip, your shoulder, your knees, etc. all come up. We want to make sure that those things go away, and we do that by really making sure your form is going to be on point.",
+        "And then over time, that pain is also going to go away.",
+        "your mobility is going to be way better. You're not hurting your shoulders. You're not feeling your back."
+      ],
+      "timestamp": "00:19:13"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "critical",
+      "summary": "Rep described third-party consumer financing as not being a loan while proposing the prospect use his credit to fund the purchase.",
+      "evidence": [
+        "I don't know if you've ever heard of a third-party financing. No, I haven't. Basically, that's where you use your credit.",
+        "It's not like you take out a loan or anything, but then you do it through a third party.",
+        "And I'm not saying we should use it, but what's your, what's your credit score like? Right now it's about 740, 750."
+      ],
+      "timestamp": "00:33:45"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Financing was proposed at roughly the prospect's entire disclosed monthly disposable income, minutes after he said his budget was tight and he had to provide for his family.",
+      "evidence": [
+        "after expenses, paid for everything, rent is paid for everything, what do you then usually have left over at the end of the month? — Well, $400, $500 at the end of the month",
+        "since you can split it up over 12 months, that would be around five somewhat a month. Do you feel like that would work?",
+        "With life expenses and all of that, my budget is really tight.",
+        "I really want to do it, but I also got to make sure I have money to take care of my family."
+      ],
+      "timestamp": "00:33:54"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep promised an unannounced $3,000 six-month one-to-one tier described as basically identical to the $6,000 offer, and used it as the basis for a follow-up commitment.",
+      "evidence": [
+        "I know that Trevor is working on something that would be more so around 3,000 instead of six, still for the six months",
+        "and it's basically going to be the exact same, just a little bit different, but still going to give that full one-on-one guidance",
+        "So I would say let's stay in contact around that, and then at that time, let's have a conversation, potentially get you started with that."
+      ],
+      "timestamp": "00:38:58"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The $6,000 six-month programme was restructured live into a twelve-month financed payment schedule, a term and structure outside both approved offers.",
+      "evidence": [
+        "I was thinking maybe it'd be more of a monthly thing, but... — That's possible, if that's needed.",
+        "since you can split it up over 12 months, that would be around five somewhat a month"
+      ],
+      "timestamp": "00:32:07"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University was again used as an unpriced fallback product after the core offer was refused, with no figure given to the prospect at all.",
+      "evidence": [
+        "The honestly thing that we should do is, I don't know if you've heard Trevor talk about Primal University so far.",
+        "Do you feel like that is also something you see yourself doing and you're actually still going to get results with that? Of course, it's not full one-on-one with Trevor. It's better than not actually taking a serious action step, right?"
+      ],
+      "timestamp": "00:37:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This call satisfies both literal conditions of the close rule — verbal agreement plus a payment link sent and received — and then the agreement is retracted three minutes later in the same recording, so any mechanical application of the rule would record a false close.",
+      "evidence": [
+        "What do you say? Let's get started? — Yeah, yeah, for sure.",
+        "Can you check if that link works? — Yeah, I just got the link.",
+        "Yeah, so as much as I would like to do this, I don't even have the $6,000 to pay.",
+        "I'm just not willing to invest that kind of money into it right now."
+      ],
+      "timestamp": "00:28:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The prospect received outreach from at least three different numbers and could not tell who was contacting him.",
+      "evidence": [
+        "Did you get my messages, by the way? Otherwise, I don't know if you got them. — I'm not too sure. I got messages from Kim. From a few numbers, yeah.",
+        "Yeah, I know. It's quite a bit. probably got one from Sofia, from me, and from Kim, I guess."
+      ],
+      "timestamp": "00:28:34"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts speakers from the first line of the file onward, including across the verbal agreement and the injury disclosures.",
+      "evidence": [
+        "00:00:00 - Dale H.: Yes, I can. Amazing, love it, love it, love it.",
+        "00:03:02 - Dale H.: So when you're standing, that's when you feel it?"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-07-27_arturo_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect who stated his physician had instructed him not to lift heavy weights was quoted $6,000 for a six-month loaded kettlebell programme without the rep asking whether his doctor would clear it, suggesting he ask, or making the sale contingent on clearance.",
+      "evidence": [
+        "just the esophagus condition. That's the only thing that the doctor told me not to lift heavy weights.",
+        "He told me, just you got to go easy, just do a little cardio.",
+        "recently I got diagnosed with something in the esophagus, so unfortunately I cannot lift heavy, because I used to lift a little heavy weight",
+        "So Trevor's approach for the program itself, it's about three simple steps, which is training and mobility, nutrition, and the accountability.",
+        "To get you there, to be an example for your son, the full investment is 6K."
+      ],
+      "timestamp": "00:07:44"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The same prospect disclosed a knee with damaged cartilage whose surgery was deferred in favour of steroid injections, and was then advised on training frequency and sold a kettlebell programme with no orthopaedic clearance discussed.",
+      "evidence": [
+        "I had an issue with my knee and had to do with the, I think I stepped in the wrong way. I spread my knee. So it's been my cartilage",
+        "So now I was supposed to go to surgery, but then they gave me steroids. said, well, let's see how you doing with the steroids.",
+        "I've been with some steroids because of my knee. So I've been in a little bit of medicine things for the past, I would say two years, two, three years.",
+        "Apart, apart from the knee that you mentioned, do you have any other injuries or anything that limits your movements?"
+      ],
+      "timestamp": "00:05:30"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A broader active medical picture — daily Omeprazole, steroid treatment for an eye condition, antibiotics for a colon issue, a colonoscopy scheduled the following week and five years of unintended weight loss — was elicited in full by the rep and then never referenced again in the fit assessment or the offer.",
+      "evidence": [
+        "I'm drinking, getting Omeprazole from my esophagus condition. I was in some sterile for my eye ... and then some antibiotics for some kind of an issue on the colon.",
+        "I do have a colonoscopy this next week, which is just a routine colonoscopy",
+        "for the past five years, I've been really struggling a lot and losing weight a lot",
+        "I did get a little bit of a... Inflammation in my stomach, it was something that got to do with the condition that I have.",
+        "still I have to go through Omeprazole pretty much every day. And right now, that's the only thing I do right now."
+      ],
+      "timestamp": "00:05:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A compressed eight-hour eating window with morning fasting was prescribed on the call to a prospect on daily acid-suppression medication for an esophageal condition, with no discussion of whether fasting interacts with his treatment or his diagnosis.",
+      "evidence": [
+        "Second of all is when you eat. So we need to compress our eating window into eight hours during the day.",
+        "So the best solution is to fast in the morning, start with lunch and then finish around, you know, seven, 8 PM",
+        "still I have to go through Omeprazole pretty much every day"
+      ],
+      "timestamp": "00:27:14"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The rep quoted an interest-bearing third-party financing structure of $650 per month over 12 months — a $7,800 total, 30% above the $6,000 six-month price and not one of the two approved tiers.",
+      "evidence": [
+        "there's a way that if you're okay with adding a little interest, we use also third-party financing option",
+        "So you have a decent credit score. I don't know. Do you know by any chance what's your credit score?",
+        "And that you can even plan out the payments throughout 12 months. Yeah. So that would be 650 per month.",
+        "So that's way more digestible for your finances monthly. And that said, if you have some surplus of cash, you can always pay it off."
+      ],
+      "timestamp": "00:37:03"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The playbook's money play instructs reps to offer an in-house instalment option; this rep instead framed upfront payment as the norm, never offered the in-house plan, and routed the prospect to external interest-bearing credit.",
+      "evidence": [
+        "Well, to be fair, like most of the guys just put it on a credit card up front. But why'd you ask? Like you need a structured payment plan or something?",
+        "Yeah, like most of the guys just put it at once, because there's also, how to say, like an extra layer of accountability to themselves, because when you invest that amount, like you need to actually make it happen",
+        "So it's a thousand, so it's a thousand monthly. So this is something that will be pay monthly or is something that is have 6K has to be paid",
+        "if you're okay with adding a little interest, we use also third-party financing option"
+      ],
+      "timestamp": "00:34:38"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "When the prospect asked about payment structure, the rep's framing invited him to withdraw the question rather than surface his constraint, and the prospect immediately retracted it.",
+      "evidence": [
+        "But why'd you ask? Like you need a structured payment plan or something?",
+        "No, no, no. I just, I just needed to know how is it that works.",
+        "Well, to be fair, like most of the guys just put it on a credit card up front."
+      ],
+      "timestamp": "00:34:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep collected the prospect's credit score and monthly disposable income and used them to recommend a specific consumer credit product and quote a monthly repayment figure, without any affordability assessment, disclosure of the finance provider, or statement of the interest rate or total repayable.",
+      "evidence": [
+        "Do you know by any chance what's your credit score? Yeah, it's 800.",
+        "how do you feel like when you cover all the monthly expenses, yeah, when like all the bills that you covered, like how much on average is usually left at the end of each month?",
+        "if you're okay with adding a little interest, we use also third-party financing option",
+        "So 100% you're going to be, you can apply for that."
+      ],
+      "timestamp": "00:37:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep opened by addressing the prospect with the wrong first name immediately after stating he had reviewed the application.",
+      "evidence": [
+        "Uh, Caesar, correct?",
+        "Arturo. Arturo.",
+        "look, uh, I saw your application, uh, but look, I'm a kind of old school guy, so I, I want to hear it from you"
+      ],
+      "timestamp": "00:00:19"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's surname is never spoken, he is diarized throughout as the device label 'iPhone (73)', and the rep's opening used a different first name, so this record cannot be reliably linked to a CRM entry.",
+      "evidence": [
+        "00:00:04 - iPhone (73)",
+        "Uh, Caesar, correct? / Arturo. Arturo.",
+        "So I will send you via email the invite."
+      ],
+      "timestamp": "00:00:04"
+    }
+  ]
+}

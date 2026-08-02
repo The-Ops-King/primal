@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-13_brandon-blair_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Setter notes were used well and repeatedly ('I heard a lot of things already from Derek'; later 'he also already mentioned to me, like you want to develop your legs'). The frame was a fit frame, not the four-part frame: 'if it's a good fit, let's just get your rock on rolling. If not, perfectly fine, I'll still point you in the best direction, okay?' Agreement obtained. Open question asked verbatim: 'So take me through it, what can we potentially help you out with, Brandon?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "miss", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Only nutrition and injuries were asked. 'Only thing I actually forgot to ask, how is your mobility at the moment? Like, do you have any injuries or inflexibilities, stiffnesses that we should know about?' surfaced the wrist but never asked how long. Age, height, weight, health conditions, training frequency, results, sleep and energy were never asked. Occupation (Costco) was volunteered."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "miss", "P3d": "partial", "P3e": "hit", "P3f": "hit", "P3g": "partial", "P3h": "hit" },
+      "evidence": "Good surface-to-deep movement. 'What's the thing that you feel like this is what I do want to change then?' then 'how would that be when that is the case?' then 'How would that be for you when you can actually make that impact on other people as well?' The reflect-back was strong: 'your goals are to get a better physique... and then actually deeper than that, comes down to you want to pass it along to your wife... is that correct?' But the explicit bridge question was never asked, and the fatherhood driver was asserted by the rep ('we also, of course, want to be a good role model, right? Good dad') rather than driven out of the prospect."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "The entire phase was skipped. Past attempts (high-school gym with his father, six weeks of calisthenics with a colleague) were volunteered unprompted and never followed up. No root cause was ever named, and the rep positioned knowledge as the product rather than testing why knowledge had not been enough."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "partial", "P5c": "miss", "P5d": "miss" },
+      "evidence": "P5a was asked well: 'let's say five years down the line, you're 36, and it's all quite the same... how would that be when you don't make that progress that you actually want to make?' The prospect deflected it entirely — 'I don't really see that happening, to be completely honest' — and the rep praised the deflection rather than pressing ('it's good that you have that mentality for yourself'). No consequence was ever made real, and no line in the sand was drawn."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "hit", "P6c": "hit" },
+      "evidence": "'do you feel like, yes, this is the thing I'm looking for, or do you feel like there would still be something missing?' got a clean 'No, I don't think there would be anything missing' before the price was named. But the commitment check never touched capacity to pay, which is the only thing that ended up mattering."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted ('What do you say? Let's get started?' and 'Should I send the link to your phone or to your laptop?') but no payment was collected. Trevor onboarding, agreement signature and welcome-email steps were never reachable because the deal did not proceed."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran cleanly: 'outside of the money aspects, just to see if it actually makes sense. You feel like, yeah, I want to get started.' Three of the six financial-picture moves ran — cash on hand ($50), monthly leftover ($150-200) and credit score (asked, refused). Never ran: number of credit cards, available credit per card, used versus available, crypto/stocks/investments. The 'you're not in a SHOULD I place, you're in a HOW place' reframe was never used. The 'most clients pay upfront, but for some we break it up' line was used, but no plan was ever structured."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Trigger landed clearly: 'maybe I'll have to do it later on. When I'm more financially stable... I might just have to wait, you know, a little bit longer.' No scripted move ran. The rep agreed with the delay and endorsed it."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Cheaper-alternative objection with no scripted play: 'I'm sure I can find something different, you know, for maybe a little bit cheaper or something.' This is the documented gap in the script (Objection C assumes capacity to pay, not perceived value against a substitute). The rep did not defend value at all and pivoted straight to financing."
+    }
+  ],
+  "notes": "Discovery was warm and the goals work was genuinely good, but Phase 4 was skipped entirely and Phase 5 was abandoned the moment the prospect deflected — so when the price landed there was no accumulated cost of inaction to weigh it against. The decisive failure is sequencing: capacity to pay was never tested before a 40-minute presentation, and this prospect's ceiling ($50 now, $150/month) was discoverable in Phase 2."
+}

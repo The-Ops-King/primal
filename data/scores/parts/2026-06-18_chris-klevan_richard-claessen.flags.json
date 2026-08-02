@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-06-18_chris-klevan_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales coach instructs the rep to run the full sales process on prospects already identified as unable to afford it, for the rep's own practice, and to 'emotionally close' them before discovering they cannot pay.",
+      "evidence": [
+        "Right now, what's important for you, regardless of how the prospect shows up is actually just getting the rep of running.",
+        "it's best to just run the call because the benefit for you is to just learn and get confident doing the process and emotionally close the person. Like right now, I'm looking for you to emotionally close people. I want you to get people to be like, I'm a 10 out of 10. I freaking want to do this.",
+        "And then you open wallet them, you find out they actually don't have the money. And then you're like, cool, like, let me just give you something to be better off than when I found you.",
+        "Yeah, I should have done that with him. I did sort of book a follow up with him."
+      ],
+      "timestamp": "00:12:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Third-party financing on an undisclosed-lender loan is coached as the default resolution for a hesitant buyer, including scripted handling of the prospect's stated discomfort with taking on debt.",
+      "evidence": [
+        "so really what I think makes the most sense is let's just go ahead and do financing.",
+        "Because the payments are probably going to be somewhere between like probably $500 to $600 a month to get you approved.",
+        "Well, am I accepting a loan if I do this? / If you want to finance it, yeah. But you already bought the house, right? ... Then it's not going to be a problem.",
+        "I've always just lived by the rule of, like, if I cannot buy something directly, I don't really do it, usually. / Then why did you buy a house?",
+        "Well, you don't have to do anything. I know it's scary... so it's just like a bit of nerves."
+      ],
+      "timestamp": "00:28:09"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Coach states there are no set payment plans and that everything is improvised per prospect, which is the stated company position the batch's live calls then improvise against in four different ways.",
+      "evidence": [
+        "we don't really have any, like... Set payment plans. Everything we do is custom. just depends on what we can make work for the person.",
+        "Most people will just take care of it on a credit card. Just throw it all up front, do it in that way. Why do you ask? Do you feel like you need a payment plan?"
+      ],
+      "timestamp": "00:21:53"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep is coached to suppress his own reservation that $6,000 is a significant sum and to minimise it verbally with 'it's just $6,000'.",
+      "evidence": [
+        "Should I then maybe do $6,000? Because I don't like saying it's just because for some people, like $6,000 is quite a bit for some people.",
+        "Get that out of your head.",
+        "Let that go.",
+        "To get to goal XYZ, it's just $6,000."
+      ],
+      "timestamp": "00:18:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Rep discloses abandoning a live prospect call partway through to go to the gym, after which the prospect appears in the pipeline as a booked follow-up rather than an incomplete call.",
+      "evidence": [
+        "I had an Indian call earlier. I don't know if you've checked that one, but I did a wallet with him and he had 600 bucks in a month from that. So I was like, I can continue the call or I can actually go to the gym because otherwise I wasn't able to go. So I just went to the gym.",
+        "I did sort of book a follow up with him. And like, I'm going to stay in contact with him."
+      ],
+      "timestamp": "00:12:10"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The 1-1 contains a full-length role-played sales call — price presentation, objection handling and a financing close — spoken in prospect voice, which any content-based classifier will misread as a genuine sales call and count in a close-rate denominator.",
+      "evidence": [
+        "So to get to goal XYZ, the investment is $6,000.",
+        "Yeah, it's like, it's worth it, $6,000, get to my goals, 100%, like, I'm fed at the moment.",
+        "Okay, and how many credit cards do you have? One.",
+        "Well, I was interested to see how you would do that."
+      ],
+      "timestamp": "00:18:17"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep is coached to have prospects check and disclose their live credit score during the call, alongside cash, credit limits, utilisation and investment holdings, with no stated basis for collecting or handling that data.",
+      "evidence": [
+        "Okay, that's good to know. What about credit score? What's your credit score?",
+        "Do you have Credit Karma or anything where you can check your credit score real quick?",
+        "Yeah, why don't you do that real quick, just so we can make sure, because I have a couple different options",
+        "Yeah, okay, fair enough. Yeah, let me just, yeah, it's 725."
+      ],
+      "timestamp": "00:24:09"
+    }
+  ]
+}

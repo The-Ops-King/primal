@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-18_ryan-mitchell_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The only pillar delivered, and only inside the description of the cheaper tier. He engaged on practicalities rather than concept: 'I have a 35-pound kettlebell. Is that too heavy starting out?' and confirmed his own approach — 'I actually tend to do lighter weights anyway, just because I don't want to injure myself.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Named once as a feature of Primal University — 'on top of that, it also has the nutrition in there' — and never presented, explained or reacted to. No nutrition question was asked at any point in the call."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never presented. Community form feedback was listed as a product feature — 'you can always film yourself, post it in that community' — but accountability as a mechanism was not delivered, which is notable given the prospect's own stated failure mode was drifting without someone on him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_trainer_price",
+      "raw": "my last trainer I was paying, um, I guess my max is 200 a month",
+      "direction": "undercuts_price",
+      "competitor": "Previous online trainer (Instagram)",
+      "note": "The decisive anchor of the call. A $200/month online trainer that he stuck with and got results from is his entire reference class, and the rep priced the fallback tier at exactly that number. The core offer is thirty times his monthly ceiling."
+    },
+    {
+      "type": "cannot_afford_baseline",
+      "raw": "I'm in a new city. I don't really have the money to pay for a gym membership month to month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His stated floor is below a commercial gym membership, disclosed voluntarily at minute five. This is a capacity constraint, not a value objection, and no payment plan resolves a gap of this size."
+    },
+    {
+      "type": "bargain_equipment_purchase",
+      "raw": "I was able to find the $35 for, like, $60, which is cheap",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He treats a $60 second-hand kettlebell as a notable purchase. Useful calibration on what a large spend means to this prospect."
+    },
+    {
+      "type": "free_content_relationship",
+      "raw": "I had followed Trevor for probably a couple of years now, and I just really liked him... I liked his morning routines, do these five dynamic movements before your day starts",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Two years of free content has produced genuine trust and pre-sold the method — the rare supportive anchor here. It buys belief but no budget, and the call converted that belief into a $200/month product."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one coaching from Trevor at something near $200/month",
+      "why_unmet": "The one-to-one is four-figure for six months. The rep confirmed a cheaper one-to-one is being built but does not exist: 'we are currently working also on a more doable one-on-one for people like you, of course, who are serious. We don't have that yet.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training that works around an unresolved shoulder problem",
+      "why_unmet": "The tier he was steered to has no coach observing him and no clinical screening; form feedback comes from other members in a community. Nobody established whether he should be loading that shoulder at all.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To pay six months or a year in advance rather than monthly",
+      "why_unmet": "He stated a clear preference — 'I paid six months in advance, and that's what I prefer to do if I am able to' — and was offered a monthly subscription instead. The one product that matches his billing preference is the one he cannot afford.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "call_id": "2026-05-13_marc-moubarak_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed that kettlebell swings are currently causing him lower back pain, plus a mid-back issue driving lower back and hip issues, and was moved toward loaded kettlebell coaching without anyone asking whether a clinician had assessed or cleared him.",
+      "evidence": [
+        "already right my kettlebell swing form is not the best so it is causing me right some lower back pain so i had to stop that uh deadlift is an issue it has lower back pain",
+        "There's a middle back issue as well, which is, by the way, causing the lower back issue, which is also causing some hip issues.",
+        "Well, what I would say to you then, so like, here's the thing, I've got scoliosis, I work out with kettlebells.",
+        "we've worked with loads of people with loads of issues. If that's your biggest worry, start out with just doing one month."
+      ],
+      "timestamp": "00:24:59"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Rep told a prospect with active spinal and hip pain that the coaching would not be worth buying if he kept his physio, steering him away from clinical support to protect the bundle.",
+      "evidence": [
+        "you know, I might still need some local support if that makes sense",
+        "Well, local physio, local physio or something like that. You know, maybe somebody that can look a bit more closely in terms of my form",
+        "it won't be worth it for you unless you brought all of those three things into one because it's like the coaching is a system of all three things",
+        "So like if you were to do our coaching, it wouldn't be worth it if you still had a nutritionist and still had the physio. Does that make sense?"
+      ],
+      "timestamp": "00:09:51"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep asserted that online video review is sufficient to master form for a prospect whose current movement is producing back pain, dismissing the value of in-person assessment.",
+      "evidence": [
+        "I don't know if it even works online, right, to check. The form, or things like that, so I don't know.",
+        "Yeah, well, what I would say, to be very blunt about that, is if we couldn't master the form online, we wouldn't have any good results.",
+        "Because a lot of stiffness and pain comes from imbalances.",
+        "when you're doing a swing, well, it looks like your lower back is doing way more of the work than your hips are. That's not supposed to be happening. Why is that happening? Let's strengthen all that."
+      ],
+      "timestamp": "00:08:03"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted two terms outside the sanctioned offer — three months at $4,000 and one month at $1,200 branded 'love it or leave it' — alongside the correct $6,000/6mo and $9,000/12mo.",
+      "evidence": [
+        "Sorry, three months is 4K.",
+        "Six months is 6K, a year is 9K.",
+        "If you do one month, it's 1,200. 1,200. We call it, we call it love it or leave it.",
+        "It's like almost like a little bit of a trial."
+      ],
+      "timestamp": "00:22:45"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep improvised foreign-currency pricing live and inconsistently, quoting the six-month term as 4.6K then 4.7K Swiss francs and 5,100 euros against a $6,000 USD list price.",
+      "evidence": [
+        "for example, six months of the coaching is 4.6 K francs. I think.",
+        "Six months is 4.7 K francs, but that's including all of the three things",
+        "Wait, let me make sure it's the right thing. Yeah. Swiss franc, 4,700.",
+        "And how much is it in euros? 5,100, I think.",
+        "this in francs is, uh, 150 francs a month and it's more self-guided stuff"
+      ],
+      "timestamp": "00:11:19"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated an open-ended upgrade-credit policy in which a client extending from a shorter term pays only the balance, with no limit or expiry stated — the same unsanctioned policy he stated on the Bryan Langsdale call the previous day.",
+      "evidence": [
+        "And then, uh, if you decide to continue, it's not like you have to pay, like, it's, you just take it off the balance.",
+        "You commit to one and then after the first month, we have a meeting and it's like..."
+      ],
+      "timestamp": "00:30:49"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep twice argued against his own offer and closed by recommending the smallest unsanctioned term to a prospect who had shown no price resistance to the six-month price.",
+      "evidence": [
+        "So I don't think the coaching is going to be the best thing for you because they're like, they're three things as a system.",
+        "Um, although I'm just thinking we do have something that I think you, it sounds more like what you're looking for.",
+        "It's all right. I think the one month is the best one for you, though, personally."
+      ],
+      "timestamp": "00:30:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts whole blocks including the price quotes, so any automated extraction of who stated which figure will be wrong.",
+      "evidence": [
+        "00:06:00 - Marc Moubarak: have you i know you did crossfit um have you started doing kettlebells yet like at home or no",
+        "00:11:46 - Marc Moubarak: And how much is it in euros? 5,100, I think.",
+        "00:20:28 - Marc Moubarak: It's called True Coach."
+      ],
+      "timestamp": "00:06:00"
+    }
+  ]
+}

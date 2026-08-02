@@ -1,0 +1,145 @@
+{
+  "call_id": "2026-05-04_kyle-loftus_farooq-bey",
+  "source": {
+    "drive_file_id": "1l8-Mh6g737JLZwmKklRn4vKcyaBYkrMq",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/04/2026 - Impromptu Zoom Meeting",
+    "display_title": "05/04/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 47858
+  },
+  "call": {
+    "date": "2026-05-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 48,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellin, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Kyle Loftus",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Orlando, Florida, USA",
+    "age": 32,
+    "occupation": "Owner of a video production business — mainly commercial work, currently DP on a feature-length documentary about the Mets, with narrative work as the goal. Also runs his own coaching programme helping filmmakers scale video production businesses.",
+    "family_status": "No partner and no children. Youngest of two, one older sister. Strong stated sense of duty to parents, elders and bloodline; man of faith.",
+    "height_in": 74,
+    "weight_lb": 192,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifting since age 12 or 13. Brazilian jiu-jitsu for just over five years, competing for two to three; also Muay Thai and kickboxing. Trains nine to ten sessions a week — Monday lift plus kickboxing/Muay Thai, Tuesday jiu-jitsu twice, Wednesday lift, Thursday jiu-jitsu twice, Friday lift plus jiu-jitsu, Saturday run or long walk, Sunday rest. Kettlebell experience limited to swings, suitcase carries and shoulder presses. Has bought several modular workout programmes and fitness apps over the past two years.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.8,
+    "signals": [
+      "Already fit and successful, and says so plainly: 'I'm already in good shape, you know, I think I run a solid business, I have good things going on, but personally I want more right now'",
+      "The good-to-great framing is his own, not the rep's: 'what a shame to live a life and to never know your full capacity, your full strength', 'If you're not growing, you're dying'",
+      "Price read as a quality signal rather than a barrier — 'transparently, I wasn't expecting it to be this high, but absolutely respect him and his price' — and money never became the blocker",
+      "Diagnosed a plateau rather than a problem: eighteen months to two years of the same body and the same lifts",
+      "The blocker was scope and information, not cost: he wanted a training programme and found he was being sold a coaching relationship"
+    ]
+  },
+  "goals": [
+    { "text": "Lower body fat percentage and general sculpting — get leaner and finally hold the physique rather than reaching it and losing it", "category": "fat_loss" },
+    { "text": "Build functional strength, especially core, to support jiu-jitsu, Muay Thai and kickboxing", "category": "strength" },
+    { "text": "Gain mobility and functional movement from a new modality rather than traditional weightlifting", "category": "mobility" },
+    { "text": "Break an eighteen-month to two-year plateau in body composition and lifting numbers", "category": "other" },
+    { "text": "Compete and win gold in jiu-jitsu", "category": "hobby_performance" },
+    { "text": "Be prepared — able to defend himself and protect his family", "category": "other" },
+    { "text": "Handle the physical demands of set work more comfortably — lifting heavy objects on production days", "category": "energy_performance" },
+    { "text": "Be a symbol and an inspiration to his family, live up to and elevate the family name, and eventually raise children who are better than he is", "category": "family_role_model" },
+    { "text": "Something new and different to hold his attention — self-identifies as an ADHD person who needs novelty", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Plateaued for eighteen months to two years — same body, same lifts, no measurable progress", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Bought multiple modular programmes and apps over two years and found they all repeated movements he was already doing", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Cannot build his own kettlebell programming — no contextual base to direct AI usefully: 'if you don't have the contextual information, it's hard to actually get the right answers out of the AI'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Bored of traditional lifting after nineteen years and needs novelty to stay engaged", "category": "motivation", "severity": "medium" },
+    { "text": "Carries a felt burden to be the one who inspires, protects and provides for his family, and to keep the family name alive", "category": "emotional", "severity": "medium" },
+    { "text": "Gets to a physique and does not maintain it — 'getting very close to there, or getting there, but not really maintaining it'", "category": "consistency", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "transparently, you know, I wasn't expecting it to be this high, but, um, absolutely respect, uh, respect him and his price.",
+      "timestamp": "00:31:32",
+      "rep_response": "Explained the differential upgrade mechanic and recommended starting at three months",
+      "response_tactic": "differential_mechanic_and_lowest_tier_recommendation",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "I guess if there's just anything else you can send me just to look at... does he have a landing page or anything like that that includes like some more information? And then again, just assuming there's case studies or something on there... love to hear from many of his previous students.",
+      "timestamp": "00:32:36",
+      "rep_response": "Probed why he needed it, invoked having had the conversation 'almost 2000 times', argued that reading about it cannot substitute for doing it, noted that no company publishes bad results, and stated that after 30 days he would be 'legally protected by the FTC to actually request a chargeback'",
+      "response_tactic": "reframe_plus_claimed_regulatory_protection",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "transparently, I thought I was getting a program, like a workout program and a nutrition plan. I didn't know I was, like, signing up for a coaching program and working the one-on-one and altering my mindset and all these other things.",
+      "timestamp": "00:37:28",
+      "rep_response": "Accepted the reduced scope, and after one further exchange concluded the one-to-one coaching was not the right fit and routed him to Primal University",
+      "response_tactic": "accepted_and_disqualified",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I would just want to sit and think which program... I just also now need to sit and think if I want to really jump into a program like this and make this kind of investment as well.",
+      "timestamp": "00:31:32",
+      "rep_response": "Offered the $1,200 one-month trial as a risk-reducer — 'I'm typically not meant to do this' — then disqualified rather than pressing",
+      "response_tactic": "trial_offer_then_disqualify",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 1, "price_usd": 1200 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 3,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Referenced only — 'most people pop it on the credit card, but we have in-house payment plan options, if necessary.' Nothing structured.",
+    "guarantee_mentioned": "Two separate claims. First, an assertion of regulatory protection: 'if it's not for you after 30 days, you're legally protected by the FTC to actually request a chargeback.' Second, on the trial: 'We have a love-it-or-leave-it option, which is basically like a trial. It's $1,200. It's a month. If you love it, you continue. If not, we shake hands part ways as friends.' On Primal University: 'says 200 bucks a month, but you can cancel it anytime.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified him from the core offer explicitly: 'that gives me more confidence to say to you that probably the one-on-one coaching isn't for you, at least for this time, right? So what I think is going to be a better fit, my friend, is actually doing Primal University.'",
+      "The prospect accepted and confirmed the fit: 'This is exactly what I'm looking for.'",
+      "The reason was scope, not price — he wanted a training and nutrition programme and discovered he was buying a coaching relationship",
+      "IMPORTANT QUALIFIER: a lower-tier sale did occur and was completed live. The rep put the Skool link in the chat, walked him through enrolment, waited while he signed up, and verified access: 'Yep, I've seen you join. Can you confirm you can see the classroom, can see the community' — 'Community, classroom, calendar, members, map. Yeah, I think so.' — 'All right, brother. You're in.' Primal University is $200/mo.",
+      "COUNTER-EVIDENCE: no payment for the $200/mo subscription is observable on the recording; only account enrolment and access confirmation were witnessed.",
+      "COUNTER-EVIDENCE: the door was left explicitly open on the coaching product — 'if you decide, okay, I need an extra push, you and I can hop on the next call' — with no date attached."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect enrolled in Primal University at $200/mo and confirmed access on the call. Rep to send the landing page and additional programme information. Coaching revisit is open-ended with no date set."
+  },
+  "notable": {
+    "note": "Two things stand out. First, the rep made a false statement about consumer law to overcome a due-diligence objection: told the prospect wanted to see a landing page and case studies before deciding, he answered that 'if it's not for you after 30 days, you're legally protected by the FTC to actually request a chargeback.' There is no such FTC entitlement, and it was offered as a de facto satisfaction guarantee on a $4,000 to $9,000 purchase. Second, and separately, he made the strongest service-level claim in the batch — that Trevor 'is going to be reaching out to you and communicating with you very, very consistently, at least once a day, once every other day' — which sits badly against the touchpoint-decay explanation he gave a prospect the previous day and against a stated roster of 30 to 60 one-to-one clients. Against that, this is also the call where the rep behaved best commercially: he disqualified a willing, well-funded, ICP-shaped buyer from the expensive product on the honest grounds that it did not match what the man wanted, and then onboarded him properly into the cheap one. This is also the third call in the batch where the prospect who best matches the stated ICP profile is the one who gets routed to a $200 subscription."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion plus two structural defects. At 00:14:38 to 00:16:02 a long run of both speakers' turns is merged under a single Farooq Bey label with no intervening timestamps, including the entire want-versus-need exchange and the prospect's answer. Clear individual swaps: 'Who are you trying to be, man? Superman? Trying to enter the UFC or something?' at 00:04:50 is split across both labels and belongs entirely to the rep; 'Okay, tell me more' at 00:04:58 is labelled Kyle and is the rep; 'Is that your own business?' at 00:09:51 is labelled Farooq Bey correctly but the surrounding answers are not. The rep addresses the prospect as 'Karthi' at 00:47:54, a stray name that matches nobody in this call. Roles resolved from content throughout."
+  }
+}

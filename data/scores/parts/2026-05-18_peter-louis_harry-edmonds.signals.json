@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-05-18_peter-louis_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Bought the modality but interrogated the mechanics continuously: recommended starting weights ('Obviously, you're looking for a 24-kilo and a 32-kilo to start kind of thing'), whether to use the branded arm bells, hollow versus solid core, whether Trevor is genuinely kettlebell-only or supplements with gym work and yoga, and how much yoga he does a week. He had already decided the modality suited him — 'I've always liked working with kettlebells' and 'I'm tired of doing stuff that's super hard on my body' — so none of this was resistance. It was a buyer doing product diligence."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "The only pillar he pushed back on in substance, and he pushed back on whether he needs it at all: 'what if you don't need all the components like nutrition and all that kind of stuff because you've got it semi-dialed in?' He had already described a working solution — Nutrition Solutions meal delivery, chosen after research, with shred and beast modes he can toggle. The rep declined to unbundle and answered with a vegetarian-client anecdote rather than with a reason. The objection was never resolved."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Probed harder here than anywhere else, and specifically on whether one-to-one means what it says: 'So how does he do the one-on-one?', 'You're not getting on video call and working out with them or anything like that', 'how many clients does Trevor have on one-on-one? Active.' The answer — around 120 active clients with a cap near 150 — prompted him to do the unit economics out loud: 'He's obviously decent, low overhead for having 120 clients on rotation every single month.' He also asked what happens to access at the end of the term. Understood, but visibly testing whether the accountability is as personal as the price implies."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "own_product_lower_tier",
+      "raw": "We do have a self-guided option as well, but it's not coaching... What does that one cost? 200 a month.",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct self-guided tier",
+      "note": "The most damaging anchor in the batch and entirely self-inflicted. The rep volunteered a $200/month tier to a prospect he was asking $6,000 from, then screen-shared its contents — full movement tutorials, nutrition overview, two three-month routines, a new plan every month mirroring Trevor's own training, mobility routines. Having seen it, the prospect immediately restructured his mental price list out loud: 'so you have basically one-on-one, which is on... So 1K a month, and then you have a 3-month for 4K, and a 6-month for 6K. And then the other one is just programming?' A 30x gap was opened and never defended."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "You saw that guy out of the UK. You should know him, Shredfast... he has a program, I don't even know what that costs, but I mean, it's the same kind of thing, you're getting kettlebell instruction. It's a similar number. It's less, but you're also not being coached by him.",
+      "direction": "undercuts_price",
+      "competitor": "Shredfast",
+      "note": "A researched, named competitor in the same modality at a lower price. The prospect had already identified the differentiator himself — you are not coached by the principal — which handed the rep the rebuttal. He took it and then weakened it by alleging the competitor uses steroids. Worth tracking: this is the first named direct competitor in the corpus, raised by a core-ICP buyer, which suggests the ICP segment shops comparatively."
+    },
+    {
+      "type": "trial_offer",
+      "raw": "What I would say to you is if you're uncertain, you can do a month trial... And what's the month commitment? 1,200.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Introduced by the rep, unprompted, as the answer to an uncertainty he had just named. It reframes a $6,000 decision as a $1,200 decision and gives the prospect a rational reason to defer the larger one indefinitely. He described it as established practice — 'every person who's done a trial that I've signed up on a trial has continued' — so the conversion logic may be sound, but the effect on this call was to remove any reason to decide today."
+    },
+    {
+      "type": "existing_paid_solution",
+      "raw": "I'm currently buying food from Nutrition Solutions, which is actually not bad. I've done a lot of research. And they have, you know, better food than most",
+      "direction": "undercuts_price",
+      "competitor": "Nutrition Solutions",
+      "note": "A working, researched, already-paid-for solution covering one of the three pillars. It is the direct cause of his unbundling objection and reduces the perceived value of the package by roughly a third in his eyes. The rep never asked what he pays for it, which would have been the obvious way to reframe."
+    },
+    {
+      "type": "prior_success_with_cheaper_methods",
+      "raw": "I've had success in numerous other modes of fitness to get lean and cut and have my abs come out, but I am tired of kind of that style of gymming",
+      "direction": "undercuts_price",
+      "competitor": "P90X and self-directed gym training",
+      "note": "He has repeatedly achieved the outcome being sold, for very little money, by himself. The saving grace for the offer is the second half of the sentence — he wants a different method, not a different result — and the rep never picked it up. This is the same structural anchor recorded against the Badrane Hriouch call and it remains unanswered by the script."
+    },
+    {
+      "type": "affordability_confirmed",
+      "raw": "I mean, 6K is not a small number. You know, it's not. I can afford it, but it's not about that.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Explicit removal of the price barrier by the buyer. The only prospect in the batch to say this outright, and the one the rep responded to with the most discounting. Worth flagging to coaching as the clearest instance in the corpus of a rep solving the wrong problem."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Proof — client testimonials, before-and-after photographs and outcome metrics from people who completed three or six months",
+      "why_unmet": "Asked twice and never delivered on the call. The rep said 'Yeah, I've got loads of stuff' and 'I can send you loads' but produced none of it, and the prospect noted the gap on the company's own site: 'if you have testimonials or before and afters, I didn't really see any of that on the website.' This was the explicit reason for the deferral. The material apparently exists, so this is a positioning and readiness failure rather than a product one — but it cost the only core-ICP deal in the batch.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To buy only the components he needs, excluding nutrition, which he already has handled",
+      "why_unmet": "The programme is sold as an integrated system and is not unbundled. The rep held that line explicitly: 'it's still all included because... we have a system.' Genuine product design decision, genuine mismatch with this buyer.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Live synchronous coaching contact — working out with the coach on video",
+      "why_unmet": "Told no, with the same reasoning given on other calls, that stacking questions for a weekly call wastes time against 24/7 asynchronous access. Notably the rep did mention something not described anywhere else in this batch — 'There's a weekly workout, which is more group, which is a live session with other clients' — which directly contradicts what he told Luis Ortiz two days earlier, that the programme includes no calls at all. Whichever is accurate, prospects are receiving inconsistent descriptions of what they are buying.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that a single coach carrying roughly 120 active clients can deliver genuinely individual one-to-one attention at $1,000 a month",
+      "why_unmet": "Raised implicitly and sharply by a buyer who runs a business and immediately calculated the supplier's margin. The rep confirmed the client count and the 150 cap without addressing the delivery-capacity question underneath it. Nothing on the call establishes what one-to-one means in practice at that ratio.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

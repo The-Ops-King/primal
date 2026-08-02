@@ -1,0 +1,120 @@
+{
+  "call_id": "2026-05-16_kurt-wollenhaupt_harry-edmonds",
+  "source": {
+    "drive_file_id": "12zOPetLsa_ICa7QkDVMkPsrbw-hLak5y",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/16/2026 - Kurt Wollenhaupt x Harry Edmonds ",
+    "display_title": "05/16/2026 - Kurt Wollenhaupt x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 29908
+  },
+  "call": {
+    "date": "2026-05-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 29,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK (self-described nomadic, moving country roughly every three months)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Kurt Wollenhaupt",
+    "aka": null,
+    "name_source": "title",
+    "location": "Hawaii, USA (staying at his mother's farm at the time of the call, returning home on the 15th of the following month)",
+    "age": 65,
+    "occupation": "Owns a two-acre flower farm in Hawaii",
+    "family_status": "Mother living; staying at her house. No partner or children mentioned.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained kettlebells in gym classes until they stopped after COVID and never restarted; was 'doing great back in last October'. Gym member at home. Could do pull-ups before the illness. Has not trained since November — tried a few times and lasted five minutes. Currently on body-weight exercise only, cleared to begin light loads.",
+    "kettlebell_experience": "some",
+    "medical": "Contracted traveller's diarrhoea hiking in Bhutan/Thailand; antibiotics wiped out gut flora and Clostridioides difficile took over. A second course of antibiotics failed, requiring a faecal matter transplant, which appears to have worked. In active rehabilitation with three doctors, with three to six months of recovery remaining before the gut is 'locked in'. Prescribed a staged loading protocol using stool consistency as the tolerance marker. Reports central adiposity gained during the illness."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.6,
+    "signals": [
+      "In the middle of a serious active health event rather than recovering from a bad season — three to six months of gut rehabilitation still ahead, post-faecal-transplant",
+      "Explicitly frames training as part of the treatment: 'the healing process is much better for the people who do weight-bearing exercise'",
+      "Names the clinical stake himself: 'sarcopenia is a big problem with people who start aging, muscle-wasting, if they don't push it'",
+      "Alternative read is the_preserver — 65, exceptionally health-literate, already medically managed by three physicians, land-owning, no price resistance shown. The deciding factor for prehab_fighter is that the health event is active and ongoing, not past."
+    ]
+  },
+  "goals": [
+    { "text": "Rebuild strength back to roughly where he was before the illness", "category": "strength" },
+    { "text": "Get rid of the abdominal fat that settled during the illness", "category": "fat_loss" },
+    { "text": "Prevent sarcopenia and age-related muscle wasting by progressively loading again", "category": "longevity_function" },
+    { "text": "Learn correct technique on the technical lifts, especially snatches and swings, having seen people do them badly in class", "category": "injury_prevention" },
+    { "text": "Be able to train at home on his own land rather than at a gym full of people on their phones", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Post-C.-difficile recovery following a faecal matter transplant, with three to six months still to run before the gut stabilises", "category": "medical", "severity": "critical" },
+    { "text": "Has not trained since November; attempts ended after five minutes because he was worn out", "category": "training_barrier", "severity": "high" },
+    { "text": "Weight did not drop as expected during the illness and has redistributed to the stomach", "category": "aging", "severity": "medium" },
+    { "text": "Kettlebell classes at his gym stopped after COVID and never restarted, removing his structure and his coaching", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Currently at his mother's farm with no gym access for another month", "category": "training_barrier", "severity": "medium" },
+    { "text": "Concerned about form on technical lifts: 'we've had kettlebell classes and people are going and all over... Especially when there's things like snatches'", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_medical",
+      "raw_quote": "So yeah, I'm not sure that this program right now, but I just wanted to kind of see if, you know, after a great program.",
+      "timestamp": "00:05:00",
+      "rep_response": "Agreed with the objection rather than working it, and reinforced it: 'I also don't want you to pay for something that you can't use right now.' Proposed reconnecting a week after the prospect returns home and tests himself in the gym.",
+      "response_tactic": "agree_and_defer_on_clinical_grounds",
+      "resolved": false
+    },
+    {
+      "type": "timing_medical",
+      "raw_quote": "but it will be more useful once i get finished with this healing and then once i get back to the gym for a couple weeks so that you know okay i'm back to pretty much where i was",
+      "timestamp": "00:16:00",
+      "rep_response": "Accepted it. Repeated the plan to reconnect in about five weeks and stay in touch in the meantime.",
+      "response_tactic": "agree_and_defer_on_clinical_grounds",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep, not the prospect, closed the door on buying today: 'let's schedule something in for a week after you get back. You go to the gym and see if you're all good. If you're all good, let's talk about it... But I also don't want you to pay for something that you can't use right now.'",
+      "Concrete re-engagement plan agreed: 'we can catch up in five weeks or so' / 'Okay. Sounds great.'",
+      "Buying signals present and unaddressed: 'So you take credit card, I presume you just take a credit card' and 'Well, I think you can help me, I don't know, I think.'",
+      "Counter-evidence: no date was actually booked, no calendar invite, no payment link. The follow-up rests on the rep remembering to reach out ('I'm going to make a note of you on my [CRM]')."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect returns home on the 15th of the following month, tests himself in his gym for about a week, then reconnects with the rep in roughly five weeks. Rep to stay in touch in the interim. No date booked."
+  },
+  "notable": {
+    "note": "The rep voluntarily declined to take money from a willing, solvent prospect on clinical-timing grounds — 'I also don't want you to pay for something that you can't use right now' — after the prospect had effectively pre-offered his credit card. That is the correct call and the opposite of the pattern this audit is looking for; it should be recorded as a positive exemplar. Two offsetting problems: the rep still gave specific kettlebell purchase weights (2x15 lb and 2x24 lb) for immediate home use during active post-transplant recovery, and asserted '100%. 100%.' that the training would remove the prospect's abdominal fat. Separately, roughly a third of the call — from about 00:17 to 00:28 — was the rep's own travel plans, house purchase in Japan, tattoos and girlfriend, during which no discovery was done at all."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion. Blocks labelled Kurt contain clear rep lines ('Well, I think we can, but I want to make'; 'Whereabouts are you in the States?') and blocks labelled Harry contain clear prospect lines ('I'm 65'; 'I go back on the 15th of next month'; 'Hawaii'). The 00:15:58 block runs both sides together including the entire price quote. Roles were read from content throughout."
+  }
+}

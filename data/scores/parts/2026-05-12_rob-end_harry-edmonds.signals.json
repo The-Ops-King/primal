@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-12_rob-end_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "confused",
+      "evidence": "Presented as kettlebells plus a separate mobility pillar. The prospect did not follow the mobility distinction: \"I mean, with the ligaments, like what you said, it's not like stretching. I didn't get this.\" The rep re-explained twice (\"you want to be moving with it and getting strong in those stretch positions... Does that make sense? Or is that confusing?\") and only landed when the prospect mapped it onto his own martial-arts experience of \"stretching under tension\" and the lizard crawls he had seen."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Rep pitched micronutrients over macros and the avoidance of rice, bread and pasta \"because the starch is so heavy, and it's not good for your energy... we want to eat for vitality.\" Prospect agreed without questions: \"Yeah, that's good point.\" He later asked for recovery and supplement guidance, but did not push back on the nutrition philosophy itself."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The one pillar he tied directly to his own failure mode. Before it was presented he asked for it: \"it's nice to have somebody who's there and some accountability maybe a group maybe also like some feedback.\" After the walk-through of 24/7 Trevor support and weekly check-ins: \"the support was the question, because I know I will have questions, and I know I will stop if I don't have somebody supporting me on those. So that's a big thing... this weekly check-ins, I also do it like this, and I find it very effective. So I like that a lot.\""
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I received an email that it's, there was an offer. There was almost got a book, but it was reduced from 1,999 to 1,000 euros per year.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own low-ticket product)",
+      "note": "The strongest anchor in the call and it came from Primal's own marketing list. The prospect had a €1,000/year number in his head when he heard €5,100 for six months — a 10x delta on an annualised basis. The rep separated them on support and feedback (\"there's zero personal feedback... it's not coaching at all\") and the prospect accepted the distinction, but the company is seeding its own closers' price objections."
+    },
+    {
+      "type": "own_coaching_price",
+      "raw": "I also take the same money from my clients. It's the same... So I cannot really say it's too expensive because I take the same, you know, and I know what you're doing.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect sells six-month mentoring at roughly the same ticket, so he priced the offer as a peer rather than a consumer and explicitly disqualified himself from a price objection. This is the reason price never became the real blocker — not anything the rep did."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "there's a lot of videos on youtube and a lot of pdf guides and all these things and it's probably not a rocket science to do kettlebells",
+      "direction": "undercuts_price",
+      "competitor": "YouTube / free PDF guides",
+      "note": "Raised in the first ten minutes and self-resolved in the same breath (\"on the other hand it's nice to have somebody who's there and some accountability\"). Worth logging because the prospect handed the rep the exact 'the information isn't the problem' setup from P4f and it was never used."
+    },
+    {
+      "type": "local_provider",
+      "raw": "I live in Berlin, there's four and a half million people here. And I seen one kettlebell coach, but when I saw these videos, I thought, no, it's not the guy that I will match with.",
+      "direction": "supports_price",
+      "competitor": "Local Berlin kettlebell coach / premium local gym",
+      "note": "He had already priced and rejected the local options — a premium Berlin studio visited that same day left him feeling \"left alone\". Remote coaching was not competing with a cheaper in-person substitute here; it was the only acceptable option."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A structured recovery and nervous-system protocol — down-regulation after training and basketball, sleep quality, stretching, magnesium and other supplementation",
+      "why_unmet": "He raised it twice and named it a \"turning point\". The rep's answer was that it would resolve on its own with consistency (\"that will change just from when you are more consistent with the training... it's because it's new\") plus a general nutrition pillar. No recovery or sleep protocol was named as part of the offer, and the supplement question was left unanswered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "An invoice framed as business coaching so the purchase is deductible under German tax rules",
+      "why_unmet": "Not unmet in outcome — the rep agreed immediately and offered to describe the coaching however was most useful. Logged here because the demand is real and recurring (\"maybe 70% of our clients are all business owners, we do it all the time\") and is currently being served by ad-hoc relabelling rather than by a defensible product description. See the flags file.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

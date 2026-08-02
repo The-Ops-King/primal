@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-05-15_david-fouche_harry-edmonds",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect disclosed post-COVID anxiety, a torn bicep he had not psychologically recovered from, and chronic body aches; the rep acknowledged none of them and reframed all of it as a question of commitment and priority before releasing him.",
+      "evidence": [
+        "then anxiety and things started kicking in, things that never really affected me before",
+        "And then I got injured, tore my bicep, things, and just like never really mentally got over it fully.",
+        "I've got bad body aches and pains.",
+        "coaching aside, commitment level is the most important thing, right, whenever you want anything in life",
+        "If you really want to get back in and that's something that's a high priority, we can help you out. But if it's not, we can't."
+      ],
+      "timestamp": "00:03:29"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The $200/month self-guided product was withheld from the one prospect who explicitly described wanting it, having been volunteered unprompted to three more affluent prospects earlier the same week.",
+      "evidence": [
+        "I was just kind of just more thinking maybe I can just learn and mimic some of his movements with the kettlebell",
+        "I have no problem doing this stuff kind of on my own",
+        "I wish you the very best. And if you feel like you're there, you can always reach back out.",
+        "The coaching for three months would be 4K US, and the self-guided is just 200 bucks a month."
+      ],
+      "timestamp": "00:01:08"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Setter handover was ineffective — the rep claimed a head start from Kim while the prospect did not know what the call was for, which distorts any measure of setter-qualified call quality.",
+      "evidence": [
+        "You spoke with Kim. He kind of gave me, like, an overview. I feel like I've got a head start.",
+        "Well, actually, I wasn't sure what exactly this was when I first clicked on it.",
+        "I'm not sure exactly what my commitment level will be able to be."
+      ],
+      "timestamp": "00:00:46"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts several turns including the prospect's injury disclosure, and one word is corrupted beyond recovery in a load-bearing sentence.",
+      "evidence": [
+        "00:03:29 - Harry Edmonds (Primal Instinct): And then I got injured, tore my bicep, things, and just like never really mentally got over it fully.",
+        "00:03:54 - Harry Edmonds (Primal Instinct): Well, I'll tell you this. If you really want to get back in If and that's something that's a high priority, we can help you out.",
+        "00:03:41 - David Fouche: So, I mean, I just don't know how much Fath I'd be able to put into this."
+      ],
+      "timestamp": "00:03:29"
+    }
+  ]
+}

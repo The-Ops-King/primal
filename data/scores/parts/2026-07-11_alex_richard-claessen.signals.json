@@ -1,0 +1,84 @@
+{
+  "call_id": "2026-07-11_alex_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Never presented as a pillar; it emerged only as answers to the prospect's own questions. He asked how progressive overload works with kettlebells — 'it seems like you guys just do more reps, or more reps, or faster, or maybe time under tension' — and got a substantive answer about form first, then weight ('we can start with 24 pounds... when you actually have the form after you have the foundation set up, that's when you actually build up with weights'). He also asked how many days a week and got three to four. His central technical question, raised twice, went unanswered: 'it seems like you have to integrate in pulling movements with pull-ups or something like that to get your back worked a little bit better... I wasn't sure how you guys would address all the body groups, and then we integrate calisthenics as well.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "The only substantive pushback in the batch on a pillar's method. He stated his requirement up front — 'I've done the calorie counting and everything, so I think I'll be successful with that, if that's the way you guys normally do things' — and wants macros hit and meals loaded into a plan. The rep described the opposite: 'We don't do specific calorie counting. We don't do only chicken and rice... it comes down to eating whole foods.' The prospect checked it twice, plainly — 'Okay, so you guys don't do calorie counting, it's just whole foods?' — and accepted the answer without agreeing with it ('Gotcha. Okay, that makes sense'). The rep conceded a carve-out that undercut the pillar: 'if you really want to track the small things, then Trevor is also doing that with a few people, but a lot of people don't find that sustainable.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Interrogated in detail rather than presented. He asked which app by name and compared it against ones he has used ('Do you mind if you share with me like, which app, because I've tried multiple of them, personally'), asked whether there is a weekly check-in, whether check-ins are live or asynchronous, and how form is reviewed. He got answers to all of them. The one that landed badly was the check-in format: 'Trevor sometimes has jobs with meetings on people. But because we really are with people who are very busy and alive, we basically have done everything through chat nowadays' — text-only coaching, offered to a prospect whose named requirement is 'someone tell me to do something'."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "monthly_rate_conversion",
+      "raw": "And it's over 6 [months]? So that would be like $1,000 a month, is that what you're saying? ... That would be more than what I'd want to spend.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Third time in this batch a prospect converted the total into a monthly rate himself and only then rejected it. Here it is sharper because no total was ever given — he was working from a range, took the midpoint, divided by six, and priced the objection off his own arithmetic. Nothing the rep said anchored anything."
+    },
+    {
+      "type": "competitor_set",
+      "raw": "I've seen multiple different kettlebell teams trying to do this... if the price isn't right, then I'm just not going to be wanting to go with you guys, and I'd rather set up meetings and talk to you guys over the next couple of weeks and find the person that works for me than just start a month from now, and then I'm a month behind on finding someone I want to work with",
+      "direction": "undercuts_price",
+      "competitor": "other online kettlebell coaching providers",
+      "note": "He declared the process outright: this is one of several evaluation calls, price is the deciding variable, and he is using the six weeks before his fitness test to shop. The differentiator he named himself was the integration of pull-ups and dips with kettlebell work, which is the one thing the rep never spoke to."
+    },
+    {
+      "type": "prior_paid_coaching",
+      "raw": "About three years ago, I had finished doing some training with a coach and went from about 185 down to like 155, probably like 16 weeks or so.",
+      "direction": "supports_price",
+      "competitor": "a previous personal coach",
+      "note": "He has bought coaching before and it worked spectacularly, which removes the usual does-coaching-work objection entirely. It also sets a comparison standard nobody explored: what that coach cost, what he got, and why he stopped. Left completely unused."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I was seeing some guys online doing, like, just 20 minutes, you know, and they were doing push-ups, sit-ups, and pull-ups for a year, and the guy was looking fantastic, and I was like, holy cow, this guy just did 20 minutes of work, so I was like, if I can do that, that's fine",
+      "direction": "undercuts_price",
+      "competitor": "free online content and bodyweight training",
+      "note": "He has a live, free, credible alternative in mind and has just described it admiringly. He is also already executing a version of it for his fitness test. The gap the price has to justify is narrower than usual and was never quantified."
+    },
+    {
+      "type": "existing_tooling",
+      "raw": "Usually I have my own apps that help me track and everything",
+      "direction": "undercuts_price",
+      "competitor": "self-managed tracking apps",
+      "note": "He owns and can operate the tracking layer already, and asked pointedly which app Primal uses because he has tried several. What he is buying is the decision-making, not the software — and the software is what got described in most detail."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Meals loaded into a plan for him — 'if my wife and I have a meal we want to do, if we could send you guys the meal, and then you guys load it into like a meal plan' and 'six other meals that are like that that I can just interchange and we all like'.",
+      "why_unmet": "This is a meal-planning service and the offer is a protocol. The rep described whole foods and an eating window and explicitly said 'we don't do specific calorie counting'. Nothing in the offer builds a rotating set of macro-matched family recipes around a partner's cooking. He stated this requirement three separate times and it was never addressed.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Macro and calorie tracking, which he is experienced with and expects — 'I've done the calorie counting and everything, so I think I'll be successful with that, if that's the way you guys normally do things.'",
+      "why_unmet": "The programme's method is the opposite by design. The rep offered a partial carve-out — 'if you really want to track the small things, then Trevor is also doing that with a few people' — while simultaneously framing it as unsustainable, which leaves the prospect uncertain whether the thing that worked for him last time is supported or discouraged.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confirmation that kettlebell training covers the back and posterior chain, and how pulling movements and calisthenics are integrated.",
+      "why_unmet": "Almost certainly served — the prospect himself observed Trevor doing pull-ups and dips, and said that is why he took the call — but nobody said so. The question was asked twice and answered neither time. This is a positioning gap with a direct commercial cost: it is the stated differentiator against the competitors he is also evaluating.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A programme that would work alongside six weeks of Air Force fitness test preparation rather than after it.",
+      "why_unmet": "Never explored. The rep accepted the six-week deferral without asking whether Trevor could build around push-ups, sit-ups and running, which is exactly the kind of accommodation described elsewhere in the pitch as standard ('he's going to create a whole schedule for you... it comes down to what fits'). The offer probably does this; nobody offered it.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A clear price.",
+      "why_unmet": "Asked three times and never given. Answers escalated from 'at least in the four figures' to 'between like 2,000 and 8,000' to 'usually around like the middle, so around like 5,000, 6,000'. For a buyer who told the rep at minute six that price would decide the outcome, this is the demand that mattered most and the one least served.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

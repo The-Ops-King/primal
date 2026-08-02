@@ -1,0 +1,105 @@
+{
+  "call_id": "2026-06-07_mike-chenard_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A six-month instalment plan totalling $7,200 was improvised live at $1,200 per month, a price that exists in neither the $6,000/6mo nor the $9,000/12mo offer.",
+      "evidence": [
+        "We could split it up in, into six, six months even, but that's going to be like a little bit more pricey. So in total, excuse me, it will be, um, 7,200.",
+        "Yeah. So 1200 a month, but it's up to you.",
+        "The best way that I would advise for you to break it up is just do it in half. That's it. Half now, half in 30 days."
+      ],
+      "timestamp": "00:34:16"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep offered a six-month instalment structure twelve days after sales operations told him on a recorded training call that the only split available is payment one today and payment two in 30 days.",
+      "evidence": [
+        "We could split it up in, into six, six months even",
+        "No, that's not generally an option that we offer.",
+        "Exactly. Yeah, a toupee is payment 1 today, payment 2 in 30 days."
+      ],
+      "timestamp": "00:34:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep claimed to reject 70% of prospects and described hand-picking clients over six years, during his third week in the role with no closed deals, to manufacture scarcity against a prospect who had just disclosed he could not afford the programme.",
+      "evidence": [
+        "i would say 70 percent people that i talk to i say no because they're not ready",
+        "This is the secret also of Trevor's, that over six years, over thousands of people that he helped, we hand-picked the people, because Trevor values his time also.",
+        "Are we going to see our first deal hit the line today? You're to change somebody's life?"
+      ],
+      "timestamp": "00:45:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "After the prospect said he had no money and named upcoming family expenses, the rep moved him within four minutes onto a $20,000 credit card and a $30,000 line of credit and sent a third-party financing link, without any discussion of interest, term or repayment burden.",
+      "evidence": [
+        "I mean, it's just, I don't, I don't have that money right now to do that.",
+        "And my daughter's starting her senior year in high school next year. And so we know there's going to be a lot of expenses coming that way.",
+        "Okay, so do you know what's the available credit total on each card?",
+        "Would you be open to see into the financing options with a financing processor called Piva?",
+        "So let me send you a link so you can check with Paiva how much that would be."
+      ],
+      "timestamp": "00:41:07"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "No health condition, injury, chronic pain or movement limitation question was asked at any point in a 49-minute call that recommended loaded ballistic kettlebell training to a prospect with roughly 17 years of training volume including a decade of CrossFit.",
+      "evidence": [
+        "You're starting with, let's say, you'll probably start with 20 pounds, no, 40 pounds, maybe, kettlebell, because you're probably a strong guy, and we're getting progressively to bigger ones",
+        "Due to some injuries, I had to stop it, but then I got more into kettlebells",
+        "So it's a six-month program. Everything is tailored to your needs, your lifestyle."
+      ],
+      "timestamp": "00:26:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "The prospect disclosed six months of treatment with a sports psychologist for body image and was then sold a body-composition programme, with no question about whether his clinician supported it.",
+      "evidence": [
+        "This is a question that like last year, I worked with a sports psychologist on body image for six months or so.",
+        "Because I beat myself up.",
+        "the story that I tell myself is that I'll be happy or I'll feel confident when I look a certain way, which I know is not true because I've looked that way and not felt any different than I feel right now.",
+        "I just want my six pack to like, you know, be shredded like all the time."
+      ],
+      "timestamp": "00:11:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep stated specific physiological and endocrine claims as established fact to steer the prospect off a body-composition goal, and asserted that weight loss requires no caloric deficit.",
+      "evidence": [
+        "When you're cutting down to 10 or 8, your libido is going down, your testosterone levels are going down, and you feel like .",
+        "for an adult male, anywhere between 12 and 15, it's actually healthy for you",
+        "so you don't need cutting or be in a deficit to actually lose weight, yeah? For most of the people, it sounds counterintuitive that they actually can eat more and get leaner"
+      ],
+      "timestamp": "00:13:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The rep speaks under the label 'Andrew Jin (Primal Instinct)' throughout, so a label-driven parse would attribute this call and its outcome to a different closer.",
+      "evidence": [
+        "00:01:11 - Andrew Jin (Primal Instinct)  Yeah, yeah, now I can. Cannot see you yet.",
+        "06/07/2026 - Mike Chenard x Andrew Musial KFS"
+      ],
+      "timestamp": "00:01:11"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording begins at 00:01:10 with the prospect already asking whether he can be heard, so the opening of the call including any recording disclosure is not captured.",
+      "evidence": [
+        "00:01:10 - Mike  Can you hear me?",
+        "00:01:11 - Andrew Jin (Primal Instinct)  Yeah, yeah, now I can. Cannot see you yet."
+      ],
+      "timestamp": "00:01:10"
+    }
+  ]
+}

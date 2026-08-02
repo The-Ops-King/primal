@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-28_istvan_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a year of 6-7 out of 10 sacroiliac and low lumbar joint pain and stated he has never been assessed by a clinician; he was sold a loaded kettlebell programme on the same call with an explicit promise that the pain would reduce, and no clearance was sought or suggested.",
+      "evidence": [
+        "there is the you know end of the like on end of the spine the crossbones and all those joints there hurt like hell I mean it's like really hurting for for almost a year now I have to go to the doctor probably",
+        "Okay, well, maybe a 6, 7, sometimes.",
+        "especially it comes when I, for example, get up from bed in the morning",
+        "eventually the pain does get less. I'm not going to say that we're going to wave a magic wand and it's absolutely gone within six months because that will take time, but eventually it will get lesser and lesser",
+        "Perfect. What do you say, let's get started?"
+      ],
+      "timestamp": "00:09:27"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep used a specific, unverifiable outcome claim about a named other client's spinal condition to talk the prospect out of his own correct assessment that his back pain needs medical treatment rather than kettlebells.",
+      "evidence": [
+        "I do not expect the pain to go away because this is, this pain, I guess it's complicated, and it's very complex, and I have to do other things than kettlebell also, some stretches and some medical, let's say, trainings",
+        "this guy called Lou, he started with us a couple of months ago, started doing kettlebells himself as well, and he actually had a hurt, he had a very big hernia on his back, never really was able to get rid of it, also with help from whatever, like medical people, it's still there, like he still feels it, but instead of like a six or seven pain for him, it's now like a three or a four, so it's already going down",
+        "I don't know if you've seen Trevor's personal story, but he had a lot of pain himself in his shoulders and his back, and with kettlebells, he actually got rid of that.",
+        "It is possible"
+      ],
+      "timestamp": "00:22:19"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep stated twice on the record that he is not permitted to book an onboarding meeting less than twelve hours out, and booked it anyway.",
+      "evidence": [
+        "the reason I asked is usually I'm actually not allowed to already book in a meeting for tomorrow until at least 12 hours. I will just book it in anyway. That's fine.",
+        "Usually I'm not allowed to book that, but I don't care. It's fine."
+      ],
+      "timestamp": "00:47:42"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The same $100 deposit instrument is described here as a non-refundable down payment against the purchase, and on two other calls in the same batch as a fully refundable hold to secure a follow-up meeting.",
+      "evidence": [
+        "what I would say is we just do a deposit right now, and the reason for that is that I can already send over the onboarding documents. The only thing that we would have to do then tomorrow is do the rest of the payment",
+        "Do you have 100 available, you think, USD?",
+        "we always just book in the next meeting with a small deposit, and if then it comes down to, well, you know, it's too much, we can't make it work... if it's needed, then we just send the deposit back",
+        "Of course, if it comes down to, well, it's actually not financial available at the moment, we just send the deposit back."
+      ],
+      "timestamp": "00:44:35"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "File is titled 'Impromptu Zoom Meeting' with no prospect name and the transcript yields only a first name, so this closed six-thousand-dollar deal cannot be matched to a CRM record without manual review.",
+      "evidence": [
+        "07/28/2026 - Impromptu Zoom Meeting",
+        "00:00:00 - Istvan: We're people change our lives."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-05-07_kevin-young_harry-edmonds",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Rep introduced the business tax write-off before naming the price, supplied a menu of false invoice descriptions to give the prospect's accountant, and cited the exact wording used for a client signed up the previous day; the prospect then made deductibility his decision criterion.",
+      "evidence": [
+        "You said you have a business, right? I do. Yes. Got good news for you, buddy. We, I would say probably 70% of our clients are business owners. So we're always helping you frame it so you can write it off as well.",
+        "for a guy i signed up yesterday we framed it as uh i'll tell you exactly what it is we framed it as safety and injury prevention program for example okay so we can help you write it off as taxes so it's almost free",
+        "Just speak to your account and see what is the best way to frame it as, because it's all-encompassing, right? It can be framed as health, it can be framed as injury prevention, it can be framed as injury rehabilitation, it can be framed as loads of different things, which is good.",
+        "if I can swing it with, um, you know, through the business as a, as a write-off, that's obviously more do definitely doable to do. Um, so I'd have to look into, to that with, I guess my CPA"
+      ],
+      "timestamp": "00:23:42"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep disclosed a named client's identifying details to an unrelated prospect for the second time in two days — the same restaurant brand, the same three locations and the invoice description used on his account.",
+      "evidence": [
+        "the guy who we did that for yesterday owns a, he owns three, what are they called? Oh, it's like a, it's like a fancy fast food restaurant, begins with a C, I can't remember what it's called. Oh, what's it called? Like Culver's or something like that, I think?",
+        "Culver's is one, so I don't know, maybe.",
+        "for a guy i signed up yesterday we framed it as... safety and injury prevention program"
+      ],
+      "timestamp": "00:27:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording was stopped at the moment the deposit was being taken — the seventh such cut in this batch — leaving the transaction unobservable.",
+      "evidence": [
+        "we just take a super small. Deposit, which is refundable. It's just a hundred bucks... Are you good with that?",
+        "Okay. Sure. Okay. That's all good, dude. Uh, let me just remove the recorder out of the meeting."
+      ],
+      "timestamp": "00:30:23"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A rolling monthly route priced at $1,200 per month — $7,200 over six months against the $6,000 offer — was presented alongside a $100 refundable deposit outside the stated pricing, the third use of that deposit instrument in this batch.",
+      "evidence": [
+        "worst case scenario, you can do it monthly, but there's some extra added on. So it's 1200 a month.",
+        "you can split it into two payments, like 3k down and then 3k in two months time",
+        "What we do is we just take a super small Deposit, which is refundable. It's just a hundred bucks.",
+        "it's 6k for the six months us"
+      ],
+      "timestamp": "00:29:00"
+    }
+  ]
+}

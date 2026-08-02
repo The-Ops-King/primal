@@ -1,0 +1,151 @@
+{
+  "call_id": "2026-06-25_peter-nelson_richard-claessen",
+  "source": {
+    "drive_file_id": "1_zoaB_ZKmtkZrv-W47SQu1iGRVY9vpZ9",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/25/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/25/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 68594
+  },
+  "call": {
+    "date": "2026-06-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 58,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Netherlands (normally Bulgaria)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Peter Nelson",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States — specific location not stated; times quoted put him seven hours behind the rep",
+    "age": 56,
+    "occupation": "Runs his own company; retired eight years ago after 22 years in the military. Describes himself as retired and strapped for cash and says he does not make $150,000.",
+    "family_status": "Divorced, children grown — 'my kids are grown, I'm not married anymore'",
+    "height_in": 76,
+    "weight_lb": 240,
+    "bodyfat_pct_self_reported": 27,
+    "training_background": "Twenty-two years military, strong calisthenics base. Currently in the gym six to seven times a week on a one-body-part-per-day split, an hour lifting plus an hour walking, and 10,000 steps a day. Has counted carbs, protein and calories for 18 months and gone from 306 lb to 240 lb entirely unaided. Some CrossFit in the past. Has been doing Trevor's free kettlebell content for about three weeks.",
+    "kettlebell_experience": "some",
+    "medical": "Tennis elbow in the right arm, currently preventing heavy curling — 'I was going heavy for a long time and then now I can't'. Extensive fracture history: ribs broken five times in one incident, three in another and twice in another, plus wrists, hand, foot, multiple toes and an arm. Reports that healing now takes far longer than in his thirties and forties. Occasional back and knee stiffness attributed to age, flexibility self-rated 7/10. Drinks alcohol, mostly tequila."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.9,
+    "signals": [
+      "The cheap alternative did not merely work, it produced the result he is sitting in: 'I've lost 68 pounds purely on my own. With no coaching, and I've done that from studying macros, and studying calorie intake... I'm sitting here as a product of that.'",
+      "Anchored to free and near-free substitutes and named them explicitly: 'the internet gives you a lot of knowledge and a lot of form. I can probably have a ChatGPT evaluate me too' and a personal friend who is a kettlebell personal trainer",
+      "Priced the decision himself before hearing the number and held it: 'The two grand is what I was hoping for. So, you know, you're roughly 300 bucks a month'",
+      "Explicitly rejects the accountability half of the offer, which is what the flagship price is mostly buying: 'I'm not the guy you need to motivate. I'm motivated. I just need to make sure I'm doing it right.'",
+      "Frames the purchase as an education transaction with a payback calculation: 'that's five hours of research for a hundred dollars. So your quick math, I got two months of studying to bring back that.'"
+    ]
+  },
+  "goals": [
+    { "text": "Get from 27% body fat to 10-12% — 'I want to be shredded. I don't want to be bulky'", "category": "fat_loss" },
+    { "text": "A Fight Club physique with visible abs — 'the biggest thing is the abs part'", "category": "appearance" },
+    { "text": "Learn correct kettlebell form and technique, which he names as the actual reason for the call", "category": "other" },
+    { "text": "Cut the two hours a day he currently spends lifting and walking down to three or four 30-40 minute sessions", "category": "convenience" },
+    { "text": "Avoid injuring himself, because at 56 recovery takes far longer than it used to", "category": "injury_prevention" },
+    { "text": "Break the 240 lb plateau and take it to the next level", "category": "other" },
+    { "text": "Personal pride — 'just personal pride. Just, you know, just like I...'", "category": "confidence" },
+    { "text": "Acquire the knowledge as an asset he keeps — 'that's knowledge that I have, that I've obtained... that's up here for me to have'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Plateaued at 240 lb for two months despite doing everything right — 'I just can't seem to get past 240'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Doesn't know whether his kettlebell technique is correct — 'I just felt like I was doing those wrong'; describes himself as a perfectionist about it", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Spends two hours a day training while running a company", "category": "time_scarcity", "severity": "high" },
+    { "text": "Cannot afford the offer — retired, strapped for cash, and will not take on debt", "category": "other", "severity": "high" },
+    { "text": "Active tennis elbow in the right arm stopping him from loading heavy", "category": "injury", "severity": "medium" },
+    { "text": "Healing from injury takes far longer at 56 — 'you break something now and just like, just healing just takes forever'", "category": "aging", "severity": "medium" },
+    { "text": "Vacations where he stopped counting calories are what he blames for the plateau", "category": "consistency", "severity": "medium" },
+    { "text": "Alcohol is his self-identified weak point — 'I do like to drink alcohol, so that's kind of maybe my downfall'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Training every body part only once a week and suspecting that is the structural problem", "category": "program_fit", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I just don't know if I can afford six grand to be transparent to you.",
+      "timestamp": "00:28:14",
+      "rep_response": "Isolated correctly first — 'outside of the investments, would you be like, yeah, Richard, I just want to get this started?' — then opened the money conversation ('we can have a conversation about it, see if we can make something work') and asked what would be possible. When the answer was two thousand, he offered third-party financing, which was refused on principle, and then discounted twice.",
+      "response_tactic": "isolate_then_open_conversation_then_financing_then_discount",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if I have to, so if I can go meet somebody here, right, and instead of going to the gym every morning, if go to a location, or I could even be at the gym, and have one-on-one training right there versus, you know, do it on a video and then wait for somebody to get back to me, like, that's time... If my courses, if it's $1,000 a month to have a personal training, then I'm like, well, then you guys are a no-brainer, right? But if it's $200 a month, and I get someone to watch my form and do it in person, then...",
+      "timestamp": "00:44:24",
+      "rep_response": "Countered on the knowledge-transfer angle — 'Do you think that a personal trainer is going to teach you exactly how to do everything? So you can just keep doing your own thing in six months from now?' — and on injury cost: 'How much money do you think it's gonna cost if you injure yourself again?'. The prospect had an answer to each and the objection stood.",
+      "response_tactic": "trainer_wont_teach_you_plus_cost_of_injury",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "So also, I said, the internet gives you a lot of knowledge and a lot of form. I can probably have a ChatGPT evaluate me too. Nowadays, it's just crazy what technology has been able to do.",
+      "timestamp": "00:46:00",
+      "rep_response": "'Who's going to check your form? That's the main reason we're here, right? Like, you've not gone on to YouTube for one reason, and that's probably mainly that reason that you're a perfectionist and you don't want to screw it up.' The prospect answered that free information had already produced a 68 lb loss and that 'YouTube brought me here, so we can't discount that'.",
+      "response_tactic": "who_checks_your_form",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I always give myself 24 hours to think about stuff.",
+      "timestamp": "00:54:20",
+      "rep_response": "Probed it three ways — 'are you going to do some research in the 24 hours or is it just going to take a nap?', 'Is there anything specific that you would want to think about?', 'what is it that you would then want to sleep about?' — but granted it immediately each time ('you're free to do that. You're free to do that') and closed by booking a Saturday call.",
+      "response_tactic": "probe_the_thinking_then_grant_and_book_callback",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Third-party financing was proposed rather than an in-house plan — 'you're in America, right? Maybe you've heard of it, but have you ever heard of third-party financing?' — and refused outright: 'I just don't do stuff. If I can't afford it, don't pay for it.' A $4,000 three-month engagement with a $2,000 extension to reach six months was offered instead.",
+    "guarantee_mentioned": "'if you do everything right, like you show up, you don't slack off, and if you're not at your goal yet, which from how you're talking, I don't feel like that's going to ever be the case, I would still continue coaching you. That is something we do want to say.' No terms, duration or conditions were attached and it was immediately undercut with 'that's not going to be needed because you're going to crush it'.",
+    "prospect_financials": {
+      "available_now_usd": 2000,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null,
+      "note": "No figures were formally gathered; these come from his own volunteered statements — 'The two grand is what I was hoping for', 'I'm retired. I'm strapped for cash. I don't have six grand laying around', 'I'm never going to get the six grand in six months', 'four grand for me is like, you know, that's two house payments' and 'I'm not going to go into debt to do it'."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement and no onboarding booking",
+      "He accepted the $2,000/year Primal University tier in principle but not in fact: 'that definitely sounds in the wheelhouse that I was looking for' and 'That sounds awesome... I'm interested. I always give myself 24 hours to think about stuff.'",
+      "A specific callback was agreed and he asked about payment method: 'if you call me Saturday, 9 o'clock... I'll have a decision for you. You guys take credit cards?'",
+      "Counter-evidence: he also committed to shopping the market in that window — 'I'm going to just do some research around and see what prices are on that... if I find something that's better, cheaper, faster, then I'll go with them' — including three or four other kettlebell coaches and a friend who is a kettlebell personal trainer",
+      "The flagship tier is effectively dead: 'it's just not possible. Like, when it comes down, it's just not possible. The two grand would be possible, but four or six is just too much'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to phone him Saturday at 9am his time for a decision, expected on the $2,000/year Primal University tier rather than the $6,000 programme."
+  },
+  "notable": {
+    "note": "The clearest demonstration in this batch of the two documented gaps in the script working together. The prospect lost 68 lb in 18 months using free information and no coach, so the cheaper-substitute objection is not a bluff and Objection C has no answer for it. And because the consequence frame was never run at all — Phase 5 does not appear anywhere in this call — there was nothing built up to hold against the price. The rep asked the why question once, got 'just personal pride', accepted it, and then said aloud in his own summary that 'there's no big why for you behind it'. Twenty minutes later the price went $6,000, then an invented $4,000 for three months, then $2,000 a year. Separately, the prospect explicitly devalues the accountability pillar — the thing the flagship price mostly buys — before it is even presented."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, mostly on short turns and on question-answer pairs fused into one block. 'Any goal that you want to go towards? Uh, 10 to 12' sits entirely under the prospect at 00:06:42; the whole stiffness scale question at 00:04:19 is attributed to the prospect; 'So Hume says it's 27%' appears under the rep. The rep's summary block at 00:13:41 opens with the prospect's words. The word 'check' is transcribed as 'Jack' or 'Jackson' several times. Role was read from content throughout; the prospect is unambiguous because he is the one describing his own history."
+  }
+}

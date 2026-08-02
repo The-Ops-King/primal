@@ -1,0 +1,26 @@
+{
+  "call_id": "2026-06-23_chris-x-richard-1-1_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A rep reports having closed a prospect on a $200 per month payment, a price outside the $6,000/6mo and $9,000/12mo offer, and the manager does not question it.",
+      "evidence": [
+        "with the other guy, I eventually closed him like a $200 per month payment",
+        "I have one that was the last one. And it was just so terrible.",
+        "he was like, yeah, I want it, but not really the urgency there"
+      ],
+      "timestamp": "00:09:21"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An automated bot replies to inbound prospect messages in the same thread the rep subsequently writes in, with no disclosure that part of the conversation is automated.",
+      "evidence": [
+        "he said, um, like, is the paper credit available right after the meeting? Then the bot replied, send me, uh, send me, my email address, et cetera. Then I actually sent him a message on the, through that same chat.",
+        "And then he actually asked me to send like some stuff and then connected to a different number."
+      ],
+      "timestamp": "00:02:29"
+    }
+  ]
+}

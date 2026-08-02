@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-09_chinedu-chukelu_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He asked for the case to be made before he would accept the modality: 'this is probably where I need to be more convincing on kettlebells and why that's more of a better path than getting a trainer in the gym'. After the all-encompassing explanation he half-accepted but immediately tested it against his actual goal: 'So for me, it's more, I do want to build the muscle and the strengths.' The mobility half landed better than the training half — the desk-work and compensation explanation ('We don't use our core. We don't use our glutes... your body compensates') drew 'Yeah. Simplest way to explain it all.' He never fully committed to the category: the rep's own closing line was 'the thing you need to think about first is whether you want to commit to kettlebells or not.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The lightest of the three and the least contested. The rep pre-conceded it — 'it sounds like with the nutrition, you're pretty good. If you're eating mainly meat, great. You will still be missing a couple of different things' — and framed it as micronutrients and sustainability rather than restriction ('We're not going to put you on this super restrictive diet where you just eat leaves'). The prospect had already described a deliberate high-protein, low-carb approach and accepted without questions."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The clearest substantive pushback in the call, and it went unresolved. Asked what he wanted from a coach he said the value was 'someone that's coaching me through this and teaching me the right techniques', and when the rep described the asynchronous video model he restated it plainly: 'I was looking for someone to be there with me in the moment. I think at least at the initial stages that's going to be helpful.' The rep's answer was operational rather than persuasive — coaching calls were dropped because 'it became less efficient' — and the prospect closed it out with 'Yeah, I see what you mean, yeah. I understand', which is comprehension, not agreement. He then named availability and 'the constant push' as his top criterion for a coach, which is precisely what the in-person alternative offers and this model does not."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I'll say trainer probably be cheaper too if you wanted to do a trainer I'd imagine I don't know how much they are these days maybe in cambridge you'll be a little bit more than less though probably 50 quid for a session",
+      "direction": "undercuts_price",
+      "competitor": "In-person personal trainer, Cambridge",
+      "note": "The most consequential anchor in the call and the rep supplied it himself, unprompted. £50 a session against £4,500 for six months invites an arithmetic comparison the prospect had not yet made, and it is favourable to the competitor at anything under roughly three sessions a week. He had already conceded 'Might be a little bit cheaper' earlier at 00:27:33."
+    },
+    {
+      "type": "in_person_alternative",
+      "raw": "I'm trying to figure out if I could get a personal trainer... especially at the gym, for example. The gym is like 16 minutes walk from here.",
+      "direction": "undercuts_price",
+      "competitor": "University gym personal trainer",
+      "note": "An active, named, geographically convenient alternative he was already researching — 'I'm still doing some inquiries'. He joined this gym two months before the call, so the membership is already sunk cost."
+    },
+    {
+      "type": "equipment_already_owned",
+      "raw": "I do have some kettlebells, actually. mean, They're just behind me, but they just sit down there because I don't know the techniques.",
+      "direction": "undercuts_price",
+      "competitor": "His own kettlebells plus free online instruction",
+      "note": "He already owns the hardware and is one YouTube tutorial away from a zero-cost version of the modality. The rep never addressed it, which leaves technique instruction — the thing the prospect says he lacks — looking separable from the £4,500."
+    },
+    {
+      "type": "peer_group_framing",
+      "raw": "most people who we coach are professionals, business owners, people who don't have the luxury of doing nothing all day and they can just train all day",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Deployed twice, the second time more specifically — 'They're typically business owners, lawyers, dentists, people who, like you, don't have a lot of time.' Naming his own profession in the client base is the strongest price-supporting move in the call and drew no resistance."
+    },
+    {
+      "type": "no_coaching_spend_history",
+      "raw": "I've never had a trainer before. I pretty much do the stand-up thing in the gym, go on the treadmill, lift weights, and that's it.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "No prior reference price for personal coaching of any kind, so £4,500 is being compared to zero rather than to a market rate — the same structural weakness as the Ken Baracaldo call, though here without any affordability constraint behind it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live, in-the-moment coaching presence during the early weeks while technique and routine are being established",
+      "why_unmet": "The model is asynchronous by design and coaching calls were deliberately discontinued — 'we used to do like coaching calls, but it became less efficient'. He asked for it twice and named availability and 'the constant push' as his primary criterion for a coach.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Sight of the actual programme structure before committing £4,500",
+      "why_unmet": "He raised it with the setter and again on this call, and the answer was a refusal in principle: 'I can't really tell you what you'll be doing because it's completely tailored at every single step.' Tailoring is a real feature but it is being used to decline the question rather than to answer it — a sample week or a worked example would cost nothing.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A basis for comparing this against an in-person trainer on effectiveness, not just on convenience",
+      "why_unmet": "He asked explicitly for 'on a net-net basis, what's the value vis-a-vis getting a trainer in the gym... Which is going to be more effective' and received an even-handed pros-and-cons plus an analogy about coach calibre. No outcome evidence, no client results, no reason why the two things are not comparable was offered.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that loaded ballistic kettlebell work is appropriate for him specifically",
+      "why_unmet": "Nobody established it. He is 102 kg, did not train at all for a year, reported back pain after a day of light activity and described himself as near burnout, and no health, injury or medication question was asked at any point. The rep's own pitch flags the risk in the abstract — 'People can bench 150 kilos, but if they swing over a 30-kilo and they've never done it before, it won't end well' — without ever applying it to the man in front of him.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "2026-06-18_sankalp-shetty_richard-claessen",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "The rep explicitly declined to present: 'there is no use case in going into all of that right now, if we need to wait another month anyway.'" },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Never raised at any point on the call." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Never raised at any point on the call." }
+  ],
+  "anchors": [
+    {
+      "type": "stated_budget",
+      "raw": "if I keep aside like maybe 10,000, that would be around 60,000 Indian rupees. So maybe let us calculate if I put around 60,000... So it will be around 600 USDs... No, 600 overall, across six months.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A self-calculated six-month budget of roughly $600 against a $6,000 programme — a tenfold gap, and the prospect arrived at it himself with no price in the room. He also framed it as conditional on getting a job first. The rep let the anchor stand uncorrected and never named the actual price, so the prospect left the call still believing $600 was the order of magnitude."
+    },
+    {
+      "type": "medical_spend",
+      "raw": "I've been off job since almost three and a half months. So most of my expenses, whatever savings I had, it's like down the drain, all the treatment, basically.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His discretionary capital has already been consumed by treatment for the exact conditions that brought him to the call. Relevant to the ICP observation that income screening and clinical severity are correlated in this corpus rather than independent."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A straight answer on whether loaded kettlebell training is safe and appropriate for an unrepaired supraspinatus tear, multi-level disc degeneration, a new L4-L5 protrusion and active psoriatic arthritis",
+      "why_unmet": "It was the prospect's opening and closing question and it was never answered in either direction. No clinical screening exists in the process, the rep is not qualified to answer it, and no referral back to his treating clinician was offered. A kettlebell workout video was sent instead.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A programme entry point at a price achievable in an Indian market on a doctor's salary",
+      "why_unmet": "The $200/month Primal University downsell that was offered to three other prospects in this same batch was never mentioned to him, even though his stated budget of ~$100/month is the closest of any prospect in the batch to that product's price.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

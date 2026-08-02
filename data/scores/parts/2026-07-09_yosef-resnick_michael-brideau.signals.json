@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-09_yosef-resnick_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The kettlebell training system was never described. The prospect had raised it himself — 'I like the kettlebell idea... I have my own kettlebell. I'm looking at it right now' — and it was never picked up. The nearest the rep came was the programme shape in the abstract: 'Trevor works with you one-on-one for six months, and by the end of the six months, you have a complete 180 transformation.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered only inside the Primal University downsell, and as a guarantee rather than a mechanic: 'it can even just give you easy ways to eat... if you just follow this nutrition protocol, there's, like, three, four rules you follow, like, you'll lose weight, it's impossible not to.' The prospect did not question it. Notably he was already under a nutritionist whose plan he could not execute, so this was the pillar most likely to land and it was never presented on its own terms."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "This was the rep's whole argument and it was made well: 'as soon as we stop paying the personal trainer, we just fall back into old habits, right? We lose that external accountability.' The prospect agreed with the substance — 'Yeah, absolutely' to 'sometimes that's hard to do by yourself' — and summed it up as 'I think it's compelling and interesting', then declined on price alone."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_income_gate",
+      "raw": "this other program came up in my feed, and in their advertising, they say, if you don't make $150,000 a year, this program is not for you, which I thought was kind of shocking and, like, really unbelievable. Now, for all I know, you're... you may have the same exact criteria.",
+      "direction": "supports_price",
+      "competitor": "Unnamed online fitness coaching programme advertising a $150,000 minimum income",
+      "note": "The most interesting anchor in the batch. A competitor has trained this prospect to expect that premium coaching is gated by income, which pre-frames a four-figure price as normal — but it also had him arrive expecting to be told he does not qualify. He asked the question directly and the rep never answered it. Primal's own stated ICP has an income criterion it does not publish; a competitor is publishing theirs."
+    },
+    {
+      "type": "gym_membership",
+      "raw": "It was like $30 every two weeks, something like that.",
+      "direction": "undercuts_price",
+      "competitor": "Local gym, roughly $60/month, cancelled a few months ago",
+      "note": "He cancelled a $60/month gym for being too expensive and then declined a $10/month gym across the street rather than sign another annual contract. His price ceiling for fitness is roughly one per cent of the offer, and his objection to the cheaper gym was contract lock-in — 'it's so hard to get out of a gym membership' — which is a direct read-across to a six-month commitment."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "if your program costs $150 a month, or I don't know, whatever it is, then I just, I mean, I don't know what it costs, but if, maybe it costs more than that, I don't know.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived with a monthly-subscription mental model and no idea a lump sum was coming. When he tried to bracket it he offered '$2,000 or $10,000' and confirmed 'not if it's 10,000'. $6,000 landed outside the range he could even consider."
+    },
+    {
+      "type": "free_alternative_that_worked",
+      "raw": "when I was a teenager, when I got, shortly before I got diabetes, and I needed to lose weight, I started walking every day for, like, I don't know, a 25-minute fast walk. Okay. And I did lose weight. I lost weight. So, I know there's other ways to lose weight other than, you know, belonging to a gym",
+      "direction": "undercuts_price",
+      "competitor": "Walking; Taekwondo",
+      "note": "He has personally succeeded twice at zero or near-zero cost — teenage daily walking, and Taekwondo two summers ago which also produced weight loss. This is the second call in the corpus where the anchor is a cheap substitute that genuinely worked, the gap the playbook already records from the Badrane Hriouch call. He also already owns the equipment."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A version of the coaching he could afford on a couple of hundred dollars a month of discretionary income — asked for implicitly throughout and explicitly at the end, where he twice requested the exact monthly figure for the lower-priced option.",
+      "why_unmet": "The only products described were $6,000 for six months and an unpriced group product at 'a couple hundred bucks a month' with no one-on-one coaching. He was never given the exact figure he asked for; he was sent a link and told 'it's a couple hundred'.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "A nutrition plan that survives a 3am start, four part-time jobs and eating in the car — 'what I wanted... is just like pick a couple of meals and repeat them. So it's not like a whole week of different meals.'",
+      "why_unmet": "The programme almost certainly does exactly this — the rep said so in one line about the Primal University protocol — but it was never presented as the answer to the problem the prospect had just spent three minutes describing, and it was never connected to his existing nutritionist's failure.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

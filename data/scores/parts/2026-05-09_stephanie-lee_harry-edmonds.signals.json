@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-05-09_stephanie-lee_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "She extended the pitch into her own athletic ambition without prompting: 'I watched Boston and they were really hybrid athletes where you can see that you can have muscle and still run fast. And I kind of want to challenge the fact that some of my runner friends are like, oh, you can't build muscle and still run fast.' She also responded strongly to the warrior framing and to the runner's-high comparison — 'I love that! That's part of why I like running, not gonna lie.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The most engaged nutrition response in the batch. She volunteered her own substitutions — 'Have you heard of Goodles? It's like a mac and cheese but they use chickpeas or lentil beans' — accepted a recipe offer with delight, and reflected on her own fasting experience unprompted: 'there'll be days when I'm only able to have coffee and I'm not able to eat until lunchtime. And I'm like, wow, I actually feel really alert and energetic.' She had opened by describing her diet as not the best, so this was a live gap she wanted filled."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented in full — 24/7 access to Trevor, video form review in the first month, the weekly check-in and progression logic. She agreed warmly and mapped it onto a model she already knows: 'that's something that with my PT as well, she's like, yeah, I can train you for as long as you want, but my goal is to rehab you so you can feel like you can do these exercises on your own.' Accepted rather than interrogated; she asked no mechanics questions about it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_paid_clinical_provider",
+      "raw": "looking back at it I realized how great PT has been in terms of like stabilizing and like kind of like overall wellness and like strength... my PT ends at 3:00",
+      "direction": "supports_price",
+      "competitor": "her physical therapist",
+      "note": "She already pays a clinician weekly for supervised strength and rehabilitation work, credits it with her marathon personal record, and quotes her PT's coaching philosophy approvingly. That establishes both willingness to pay for expert physical guidance and a reference point for what good looks like. It cuts the other way too: her PT is a partial substitute already delivering supervised strength work, and the rep never positioned against it or asked how the two would coexist."
+    },
+    {
+      "type": "professional_income_and_tax_treatment",
+      "raw": "I do, but it's like, I'm an independent contractor, so I do, I'm like a dentist, but I could probably come up with that, I just have to check.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A dental specialist contracting independently, with the rep immediately reframing the fee as a deductible expense and claiming around 70% of clients are business owners or contractors. Price was never contested on value — only on card timing."
+    },
+    {
+      "type": "credit_utilisation_constraint",
+      "raw": "I do have enough credit card, but I just like, don't love like blasting my card... I just want to space out my credit card charges",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The only downward pressure on the call, and it is about liquidity timing rather than value. It arrived immediately after she mentioned a recent Boston and New York holiday. It shaped the structure into two payments but never threatened the price."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A strength programme that integrates with marathon training rather than competing with it — 'I hope to have a strength sort of training program that kind of complements my running outside, so it's not replacing it necessarily'",
+      "why_unmet": "The prescribed dose is four kettlebell sessions a week at 30 to 45 minutes plus mobility, on top of the training volume of someone who runs Boston. Nothing was said about how the two are periodised, what happens in a marathon block, or whether her weekly mileage feeds into Trevor's programming. The rep's only connection between the two was that kettlebell work is 'more sprinting cardio' and would give her the runner's high. This is the same shape as the unaddressed cycling integration on the Clive Abrahams call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training that works alongside an active physical therapy protocol for a labral and ATFL tear five months post-injury",
+      "why_unmet": "She is under ongoing clinical care and scheduled the onboarding call around it. Nothing in the offer describes whether Trevor coordinates with a treating physical therapist, works around a rehabilitation protocol, or defers to clinical restrictions. The only statement made was a guarantee that the injury would not recur. Whether the programme can safely and coherently sit alongside active rehabilitation is not established and needs a human to decide.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-06-08_berish-lampert_ben-byrne",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed an unexplained hospital admission for presyncope with visual blackout in his opening answer, and was taken through the full loaded kettlebell pitch and priced without a single health-conditions question or any mention of clinician clearance.",
+      "evidence": [
+        "about seven, eight months ago I went to the hospital. I had some, I felt like I was going to pass out, vision kind of clouding and blacking. Yeah, it was, it was really scary.",
+        "all tests came back normal and, you know, they're like, yeah, everything's fine. You know, like everything's not fine. Like, no, it's not, you know, like they go by averages",
+        "Yeah, dude, that sounds scary and frustrating with the, Yeah. The vision. I'm not just telling you it's normal, but okay, so you've been losing, you lost 47 pounds",
+        "we're not going to throw you into an advanced kettlebell routine right away, or you're doing 60-pound snatches or something crazy",
+        "I'll be fine on four or five hours of sleep"
+      ],
+      "timestamp": "00:00:58"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep told this prospect that app access continues after the six-month term and only the community ends, having told a prospect the previous day that app access generally ends at six months — and that prospect had already paid.",
+      "evidence": [
+        "Do I have access to the app after the six months, or is there data there that I'm going to want to, like, hang on to?",
+        "The app? Yes. We have a school team. Which is, access to that ends at six months, but you can still use the app.",
+        "Cross-reference, 2026-06-07_frank-abt_ben-byrne at 00:52:44 — 'Do you automatically get dropped off of the app after the six months?' answered 'So, I mean, generally, yes.'"
+      ],
+      "timestamp": "00:48:47"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Outcome targets were stated as things the programme does rather than as goals, including a specific body-fat figure and strength gain, to a prospect with no training history and an unexplained cardiovascular episode.",
+      "evidence": [
+        "the whole goal is that by going through this, you're dropping at least 10% body fat for the next six months, building up, adding at least 20 pounds to your kettlebell workouts, getting stronger, building more muscle and getting more energy",
+        "About 91% of our clients say that by the end of it, they're moving better, feeling better, and they have just way more energy",
+        "we have thousands of clients I would, Trevor has personally coached over the years"
+      ],
+      "timestamp": "00:41:04"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Direct question about paying over time was answered with an undefined offer to 'figure out something' and no mention of the financing partners the same rep walked other prospects through the same week.",
+      "evidence": [
+        "9K for a year, 6K for six months... And then, is that paid out over time, or are you going to want that all up front?",
+        "Well, most of our clients just throw it on a credit card and then pay it off. But it just depends if it's something that you want to do. If you're not able to do that, we can probably figure out something.",
+        "I mean, it's a commitment. That's a lot."
+      ],
+      "timestamp": "00:47:50"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Call with a prospect in Florida, an all-party-consent recording jurisdiction, was recorded with no recording disclosure or consent request anywhere in the transcript.",
+      "evidence": [
+        "Fort Lauderdale, Florida.",
+        "Well, nice to meet you. I'm Ben. I help out with the enrollments here on Trevor's team. You ready to jump right in?"
+      ],
+      "timestamp": "00:00:18"
+    }
+  ]
+}

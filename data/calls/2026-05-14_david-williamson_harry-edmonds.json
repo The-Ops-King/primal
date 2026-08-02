@@ -1,0 +1,145 @@
+{
+  "call_id": "2026-05-14_david-williamson_harry-edmonds",
+  "source": {
+    "drive_file_id": "1ofBdakjFIUh6wtyR7p2tV6-U3AMZgp5b",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/14/2026 - David Williamson x Harry Edmonds ",
+    "display_title": "05/14/2026 - David Williamson x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 35226
+  },
+  "call": {
+    "date": "2026-05-14",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 32,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter code in the title and no setter is named on the call. An application form does exist — the prospect refers to it: 'I think I even put it in the little question or everything' — but the rep never referenced or read back anything from it."
+  },
+  "prospect": {
+    "name": "David Williamson",
+    "aka": null,
+    "name_source": "title",
+    "location": "Beaumont, Texas, USA",
+    "age": null,
+    "occupation": "Not stated directly. Works in a role that includes training and supervising others — 'part of my job is making sure people are trained up in what they're supposed to do' — has his own office at work and wears a uniform with Texas and US flag patches. Was in ROTC at college but did not commission. Reports annual raises.",
+    "family_status": "Married to Rachel; a five-year-old, a three-year-old and a third child on the way. Household rule that any spend over three figures is discussed jointly.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Was an athlete years ago, then lost it to work and family. Accumulated multiple unused gym memberships. Historically restarted by running a mile or two daily until his knees stopped tolerating it. Over the past couple of years has been on a self-directed health recovery: started bodyweight calisthenics because he can do them anywhere, beginning with ten push-ups, ten sit-ups and ten squats once a day and building to three times a day. Currently up at 4am for calisthenics and personal time before work, bed around 9-10pm. Has never trained with kettlebells; a 35 lb bell has been ordered twice and failed to arrive both times. Also follows Trevor's free five-minute morning mobility videos. Peak weight was 280 lb against a remembered 180 lb; now self-estimates 20-30 lb of excess fat remaining.",
+    "medical": "Diagnosed, though the diagnosis itself is contested: 'there was a diagnosis, but it was like, they don't really know. It was, I said something about ankylosing spondylitis or whatever, but we're like, is that really what it is? And they're like, well, it's kind of like a weird class.' History of chronic joint pain across multiple joints, knees in particular, which ended his running. Ongoing intermittent flare-ups: 'I got my occasions to flare up with a knee or something here and there.' At his worst could not stand at the sink washing dishes for five minutes without sitting down to rest his back. Went gluten-free for a period, which he says helped, and has since stopped. Also did keto. Went to a doctor and had lab work done at the start of his health journey. Completed roughly a year of counselling."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Textbook loss of ground to illness and a hard season: 'I used to be a bit of an athlete, like, years ago, but I got working, had kids and whatnot'",
+      "Wants a former self back and measures against it: 'I've been in fantastic shape in my life, I know what being in great shape and being able to do stuff feels like, and I'm not there'",
+      "Visible regret attached to a specific memory: 'I remember just looking in the mirror... jumping on the scale, like, oh, wow, that says 280, my goodness. I remember when I was 180.'",
+      "Recovering rather than optimising — rates himself 4 out of 10 and the rep noted it: 'a four out of 10 is 40%, I thought, quite kind of low'",
+      "The rep's own framing captures it: 'Sounds like you're out of the boiling water. Now you're kind of on the way up and you just kind of want to lift on the way up'",
+      "Not the prehab fighter — the acute phase is behind him and he is not training as part of fighting an active event"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the 20-30 lb of excess fat he estimates he is still carrying", "category": "fat_loss" },
+    { "text": "Get down on the ground, crawl around and jump with his three-year-old — 'whatever movements have to do with three-year-olds'", "category": "family_role_model" },
+    { "text": "Keep being able to throw his kids in the air and do the rocket ship as they get heavier, and throw them further", "category": "family_role_model" },
+    { "text": "Move however he wants without hurting, rather than becoming a big strong buff guy", "category": "longevity_function" },
+    { "text": "Keep building on the health recovery he started a couple of years ago and not slide back", "category": "sustainability" },
+    { "text": "Learn properly rather than copy — 'I definitely want to learn. I don't just want to monkey see, monkey do'", "category": "other" },
+    { "text": "Be in visibly better shape by the time the third baby arrives", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Chronic joint pain, possibly ankylosing spondylitis, with ongoing knee flare-ups; running is no longer available to him as a way back into shape", "category": "medical", "severity": "high" },
+    { "text": "At his worst could not stand washing dishes for five minutes without sitting down to rest his back", "category": "injury", "severity": "high" },
+    { "text": "Carrying 20-30 lb of excess fat after peaking at 280 lb", "category": "aging", "severity": "medium" },
+    { "text": "A history of gym memberships bought with good intentions and never used because he could not find the time", "category": "training_barrier", "severity": "high" },
+    { "text": "No idea whether he is performing the mobility movements correctly — named a specific one he cannot get: 'I don't really know what it's supposed to be... I don't really feel much out of this'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "No accountability — wants someone to ask 'hey, did you go do it?'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Restrictive diets fracture family meals: separate food for him while his wife eats what the kids eat", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Household cashflow leaking despite annual raises — 'the money's just going out the door, no matter how much I make, it's all gone' — and he has recently been the one telling his wife to cut back", "category": "other", "severity": "high" },
+    { "text": "Eats whatever is around, from rice and shrimp to a pizza popped in the oven", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Historically had no energy at all — 'I couldn't hardly force myself to get up out of the chair'", "category": "emotional", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Right, that is significant enough. I would definitely have to discuss it with my wife before I say yes to that.",
+      "timestamp": "00:24:45",
+      "rep_response": "Ran a genuine partial play. Confirmed he was not blocking it ('I'm not going to say you can't do that, David'), asked whether she is supportive of the journey, asked what she has already been told, then ran a two-reactions framing and asked which he expected. Followed with the two key hypotheticals: 'if she says no, what will you do at that point?' and 'if she said yes, would you do it? Is it something that you want to do?', getting a clear personal yes. Did not run the remaining moves — no 'is there any reason she would NOT want you stronger and less in pain', no ownership challenge, and no deposit-with-refund fallback.",
+      "response_tactic": "spouse_reaction_test_plus_personal_commitment_isolation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It is something I want to do. Again, just the pure cost of it is a little, ooh!",
+      "timestamp": "00:28:12",
+      "rep_response": "One reframe move only: 'I think a lot of people see it like, oh no, six grand. I think of it as a 6,000 reasons why you will stick to it', which the prospect completed himself ('You've got skin in the game'). The rep then introduced the results guarantee as further risk reduction. No isolation question, no exploration of the cashflow problem the prospect had just described, and no payment plan mentioned at any point.",
+      "response_tactic": "skin_in_the_game_reframe_plus_guarantee",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "given we've had a lot of money discussions over the last several months, and I'm like, hey, we're spending too much, got to tail back, because I've been getting raises like every year, and I've been doing great financially, but it's like the money's just going out the door, no matter how much I make, it's all gone. So, if I'm like, oh, hey, by the way, I would like to spend all this 1,000, I'd be like, oh, really? She's going to be like, well, you've been telling me to stop buying things, and now you want to buy things.",
+      "timestamp": "00:26:36",
+      "rep_response": "Acknowledged with 'Yeah' and moved on. The most concrete financial disclosure in the batch was not followed up with a single question, and no instalment option was offered.",
+      "response_tactic": "acknowledged_without_exploring",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'The results are guaranteed. So, we guarantee that over the six months, you will put on 20 pounds on your kettlebell. Not of weight, but in terms of the kettlebell you're using, you will go from a 35 to a 55 with every movement.' Remedy stated as free continued coaching: 'if you do everything we say and you don't get there, we work with you for free until you get to that point where you get the result. So everything's guaranteed. So you know that when you spend your six grand, if you do it, you're going to get there for six grand.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Volunteered, not asked. Reports annual raises and 'doing great financially' on gross income, but no discretionary surplus: 'the money's just going out the door, no matter how much I make, it's all gone.' Household is mid-austerity after several months of money discussions, with the prospect himself having pushed for cutbacks. Joint-decision rule on any spend above three figures. The rep asked none of the financial-picture questions."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent",
+      "Decision explicitly gated on his wife: 'I would definitely have to discuss it with my wife before I say yes to that'",
+      "He named the timeframe himself: 'At least need the weekend'",
+      "Personal intent confirmed under isolation: 'It is something I want to do' — but immediately qualified, 'the pure cost of it is a little, ooh!'",
+      "Counter-evidence toward a loss: he predicted his wife's reaction would be the negative one — asked which of the two reactions he expected, he answered 'I feel probably the first one', the throw-you-in-the-river response — and stated he will not proceed against her: 'if she says no, I'm not going against her'",
+      "Further counter-evidence: household is actively cutting spending and he has been the one asking his wife to cut back",
+      "Leaning six months rather than twelve, on the rep's recommendation: 'Yeah, I'd probably do six if I were you'",
+      "No follow-up call was booked — left as 'I'll text you and you just let me know'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to discuss with his wife Rachel over the weekend; rep to text him and wait for him to name a time to reconnect, probably sometime the following week. Onboarding call with Trevor cannot be booked until payment is made, which the rep stated correctly."
+  },
+  "notable": {
+    "note": "A prospect with a contested ankylosing spondylitis diagnosis and ongoing knee flare-ups was guaranteed a progression from a 35 lb to a 55 lb kettlebell on every movement within six months, and nobody asked whether a clinician had cleared him for loaded ballistic work. When he expressed uncertainty about his own diagnosis the rep answered 'The doctors are interesting. They tell you everything.' Commercially this is the rep's best process call in the batch — genuine baseline, genuine goals depth including a strong drive-through to fatherhood, and a real attempt at the spouse play — and it still stalled, because the all-in question was never asked before the price and the prospect's disclosed cashflow squeeze was never explored. No payment plan was offered to a man who had just explained he has income but no liquidity. He also sits outside the stated ICP: peak weight 280 lb, self-rated 4 out of 10, currently training only bodyweight calisthenics."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. Roughly half the rep's turns are attributed to 'David Williamson' and vice versa. Examples: 'What was going on with the joints? Just so I'm clear, was there any like diagnosis' is correctly labelled, but 'You'll definitely get a Texan accent just about anywhere' at 00:01:16 is the prospect under the rep's label; the whole 00:08:21-00:08:42 goals question is split across both labels; 'Where are you from, Harry?' at 00:21:32 is labelled as the rep asking himself. A nutrition question between 00:05:55 and 00:06:56 has been lost entirely — the prospect answers about food with no question visible in the transcript. Transcription also mangles the word 'fat' to 'Fathom' repeatedly around 00:10:32-00:12:05. Roles resolved from content."
+  }
+}

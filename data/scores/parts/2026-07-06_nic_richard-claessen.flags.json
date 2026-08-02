@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-06_nic_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After the $6,000/6mo price met a budget objection the rep introduced a different product live at $200/month and $2,000/year, and the prospect was moved onto that tier within four minutes of naming his budget.",
+      "evidence": [
+        "So what the investment is to actually get the best version of yourself... is an investment of 6K USD.",
+        "I was thinking like 200 bucks a month was something that I was willing to sacrifice.",
+        "You have monthly, you also have yearly. Yearly is $2,000 a year. So to get people more committed, right, that actually stick to it. If you feel like when I start with the first month, I get everything in place, then I would say, let's just do it monthly, and that would be 200 a month.",
+        "let's just get started with this, because this is more fitting around that 200 a month aspect that you were saying"
+      ],
+      "timestamp": "00:48:39"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "The two Primal Instinct University prices quoted are internally inconsistent — the annual rate ($2,000) is pitched as the commitment option but is only a 17% saving on twelve monthly payments ($2,400), and the rep steered the prospect to monthly anyway.",
+      "evidence": [
+        "Yearly is $2,000 a year. So to get people more committed, right, that actually stick to it.",
+        "then I would say, let's just do it monthly, and that would be 200 a month"
+      ],
+      "timestamp": "00:48:39"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Asked directly about instalments, the rep stated there is no defined payment-plan policy and that terms are decided ad hoc per prospect.",
+      "evidence": [
+        "Is there a payment, an incremental payment system, like a monthly way of going about it, or does it need to be a lump sum?",
+        "Well, overall, most guys, they just put it all up front. We don't have anything, like, set in stone. It's like, this is exactly what we can also do. If we do have to go off of doing it in just some one go, we would just have a conversation about it and see what would work."
+      ],
+      "timestamp": "00:39:21"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "An open-ended completion guarantee was stated as company policy without any conditions, scope or time limit being defined.",
+      "evidence": [
+        "if you had done everything that you needed to do in those six months, but we just haven't touched a goal specifically yet, he would stay with you until you have"
+      ],
+      "timestamp": "00:38:12"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The three-pillar value presentation the prospect agreed to described one-to-one coaching with Trevor, but the tier he was actually moved onto is the self-directed community product; the rep never restated which of those promises do not carry over.",
+      "evidence": [
+        "It's all going to be completely one-on-one with Trevor.",
+        "you film yourself doing the workouts, you send the recordings... You're going to have his personal [chat] as well",
+        "it's not 100% one-on-one guided with Trevor, but they keep each other accountable",
+        "No, you've covered it pretty well, yeah, I'm on board with what you guys have to offer"
+      ],
+      "timestamp": "00:46:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Recording quality is poor — repeated connection dropouts and heavy diarization inversion, including machine-garbled passages, which limits line-level attribution on this transcript.",
+      "evidence": [
+        "Oh, sorry, you cut out for a second.",
+        "you just started crackling up a little bit, but all good",
+        "IThe.,000 Right? And of course, I know that you want to make that happen."
+      ],
+      "timestamp": "00:23:40"
+    }
+  ]
+}

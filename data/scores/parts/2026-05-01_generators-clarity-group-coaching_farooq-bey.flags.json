@@ -1,0 +1,35 @@
+{
+  "call_id": "2026-05-01_generators-clarity-group-coaching_farooq-bey",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Unverified biological-aging reversal claims were made about coaching clients in the opening minutes and went unchallenged, including a specific 80% figure and a two-year age reduction attributed to wearable readings.",
+      "evidence": [
+        "he, I guess they track, like, biological rate of aging, and his decrease by, like, 80% over the span of six weeks",
+        "since he started coaching with you, that not only has he been able to just be more resilient and deal with life, but his, I think it was either his aura ring or his whoop band, also was saying, like, his age decreased two years",
+        "Why are people spending thousands of dollars on hyperbaric oxen chambers when we could all just be meditating our, our age downward?"
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The facilitator gave unqualified medical-sounding advice about treating illness with supplements and binders to remove toxins, to a group that includes practising coaches who advise clients.",
+      "evidence": [
+        "Like, when we get sick, the best thing we can do is take negative We charged supplements and binders to grab on to all the toxins in our body and get them out."
+      ],
+      "timestamp": "00:10:30"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A non-sales external coaching session is filed inside a rep's call folder with a standard date-prefixed title, so any count that treats folder contents as calls will overstate this rep's volume and depress apparent close rate.",
+      "evidence": [
+        "05/01/2026 - ⚙️ Generators - Clarity Group Coaching ⚙️",
+        "I'm not really thinking much. Um... Something I've kind of let go recently of is coffee."
+      ],
+      "timestamp": "00:28:41"
+    }
+  ]
+}

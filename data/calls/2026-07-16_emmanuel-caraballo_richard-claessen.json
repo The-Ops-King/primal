@@ -1,0 +1,146 @@
+{
+  "call_id": "2026-07-16_emmanuel-caraballo_richard-claessen",
+  "source": {
+    "drive_file_id": "1ir0n61mm73Glldn3dCXfnU6AMR9cfV6-",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/16/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 56946
+  },
+  "call": {
+    "date": "2026-07-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "because I saw in your application, you work like 10, 12 hours a day sometimes"
+  },
+  "prospect": {
+    "name": "Emmanuel Caraballo",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Philadelphia, Pennsylvania, USA (Eastern time)",
+    "age": 39,
+    "occupation": "Corrections officer in a prison; 12 to 16 hour shifts, works 7pm to 7am",
+    "family_status": "Married; two children aged two and seven; his daughter is in therapy",
+    "height_in": 66,
+    "weight_lb": 185,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Started at the end of April and has lost 20 lb, from 205 to 185. Follows Trevor's free YouTube workouts and has been using kettlebells for a few months, progressing from a 25 lb bell to 40 lb and 53 lb on swings. Walks 10,000-15,000 steps a day. Does intermittent fasting including 24-hour and one 45-hour fast. Over 100 push-ups a day. Has never worked with a trainer, online or in person.",
+    "kettlebell_experience": "some",
+    "medical": "Torn shoulder ligament sustained when younger, leaving persistent stiffness — 'I tore a ligament when I was younger on my shoulder, so that's always given me a little issue'. Reports it has improved with halo and pull-over exercises but stiffness remains. Wrist pain a few months ago that prevented push-ups and has since resolved. Feels stiff in windmills and off-balance in overhead lunges."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: self_started_finisher — already 20 lb into a self-directed transformation and looking for professional guidance to finish it rather than to start it.",
+      "Motivated by young children and job capability rather than by a former self: 'thinking of it as far as like my two kids, I want to be able to just run around with them and not be tired' and 'my line of work also, I can't be losing myself.'",
+      "Not the_rebuilder: he has lost no ground and is currently succeeding, which is precisely why the value case was thin.",
+      "Not the_optimizer: a corrections officer at 185 lb and 5'6 still carrying belly fat, not affluent, and price was the whole conversation.",
+      "The block is household approval rather than capacity — he reports at least a couple of grand left over most months but a wife who must agree and a daughter in therapy."
+    ]
+  },
+  "goals": [
+    { "text": "Lose the last of the belly fat and get his abs out", "category": "fat_loss" },
+    { "text": "Stop being skinny fat — lose weight but actually be defined", "category": "appearance" },
+    { "text": "Run around with his two kids without getting tired and enjoy them", "category": "family_role_model" },
+    { "text": "Stay capable at work as a corrections officer", "category": "energy_performance" },
+    { "text": "Improve mobility in his shoulder and wrist and get rid of the stiffness in windmills and overhead lunges", "category": "mobility" },
+    { "text": "Have a set plan so he stops over-training and risking injury", "category": "injury_prevention" },
+    { "text": "Preventative maintenance for later life", "category": "longevity_family" }
+  ],
+  "pains": [
+    { "text": "Training blind with no plan and jumping between everything he sees online", "category": "accountability_gap", "severity": "high" },
+    { "text": "Suspects he is over-training and has moved to every other day to avoid injury", "category": "injury_prevention", "severity": "medium" },
+    { "text": "Torn shoulder ligament from years ago with persistent stiffness", "category": "injury", "severity": "medium" },
+    { "text": "Stiff and off-balance on windmills and overhead lunges", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Skinny fat — lost 20 lb but still has no definition", "category": "confidence", "severity": "medium" },
+    { "text": "A lot of expenses right now, with a daughter in therapy", "category": "other", "severity": "high" },
+    { "text": "Cannot take on another bill", "category": "other", "severity": "high" },
+    { "text": "Works 12 to 16 hour night shifts", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Well, I would have to have a talk with my wife about that investment.",
+      "timestamp": "00:30:57",
+      "rep_response": "Ran the objection play substantially — isolated money, asked whether she knew about the call, asked what her response would be, asked whether it was a joint-decision rule, offered to speak to her live, and finally proposed a refundable deposit to hold a slot.",
+      "response_tactic": "ob_play_through_to_deposit",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I'm just going over things in my head and maybe right now is not the best time for me to put out all that money.",
+      "timestamp": "00:37:46",
+      "rep_response": "Asked what was coming up, then reframed the deposit as refundable and reasserted that options could be figured out.",
+      "response_tactic": "reframe_deposit_as_risk_free",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "as far as like all the expenses like can't really take on another bill right now",
+      "timestamp": "00:41:00",
+      "rep_response": "Asked what was usually left over at the end of the month (at least a couple of grand), then offered third-party financing over 12 payments or three interest-free payments in-house.",
+      "response_tactic": "monthly_surplus_then_financing",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Oh, yeah. I mean, it is a big amount.",
+      "timestamp": "00:42:18",
+      "rep_response": "Asked whether it was worth it, then declined to push further and steered back to the wife conversation.",
+      "response_tactic": "worth_test_then_step_back",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No plan agreed. The rep offered third-party financing over 12 payments subject to a credit score in the sevens, or up to three in-house payments without interest. Separately took a $100 refundable deposit to hold a follow-up slot.",
+    "guarantee_mentioned": "Only the deposit refund: 'we have like a small refundable deposit for it... If she's like, no, we're not going to be able to do that. Then we also just refund that.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 2000,
+      "has_savings": null,
+      "credit_score": 700
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "No verbal agreement to purchase. He was clear the decision is not his alone: 'if she don't feel like to spend that amount of money, I can't go back on, you know?'",
+      "He withdrew mid-call: 'You know what? I don't know. I don't know if I'm going to be able to do this right now.'",
+      "A $100 refundable holding deposit was taken and confirmed by the rep: 'And I saw that 100 came true as well.'",
+      "A follow-up call was booked for 9am the next day and the calendar invite was confirmed received, with the wife invited to join.",
+      "The onboarding form was sent before any purchase and he was asked to complete it in advance.",
+      "Counter-evidence: no payment link for the $6,000 was sent and no verbal agreement was given, so the close rule does not apply.",
+      "Counter-evidence: he stated at least a couple of grand left over most months, so capacity may be present even though he declined."
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_holding_deposit_not_programme_payment",
+    "next_step": "Talk to his wife when she returns in a couple of hours. Follow-up call with Richard the next day at 9am, with the wife able to join. Deposit to be refunded if they decline. Onboarding form to be completed in advance."
+  },
+  "notable": {
+    "note": "The $100 deposit is the thing a principal should look at. It was taken minutes after the prospect had withdrawn, cited a daughter in therapy and a lot of expenses, and said 'I don't see her accepting that' — and it was justified with a claim about calendar scarcity. The move itself is scripted: playbook objection play OB ends with 'If stuck: put down a deposit, go talk to her, full refund if she says no.' So this is a company practice rather than rep improvisation, which makes it more worth reviewing rather than less. Note also that this is the only prospect in the batch whose stated blocker was cost and who was never shown the $200 a month community tier."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion, and several long stretches lose turn boundaries entirely and run as unpunctuated continuous text — most damagingly the deposit sequence from 00:34:07 to 00:36:03 and the financing exchange from 00:40:10 to 00:41:33, where both speakers' lines are merged under one label. Role determined from content. The rep also misidentifies the prospect's time zone as New York rather than Philadelphia, though both are Eastern."
+  }
+}

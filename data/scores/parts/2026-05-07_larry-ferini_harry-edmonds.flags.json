@@ -1,0 +1,102 @@
+{
+  "call_id": "2026-05-07_larry-ferini_harry-edmonds",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Rep described a routine practice of issuing invoices that describe the coaching as something else so clients can claim it against tax, quoted the exact false description used for a client signed up the previous day, and offered to reissue this prospect's invoice the same way.",
+      "evidence": [
+        "I'd say probably 70% of our clients are business owners. Uh, don't worry. We'll help you write it off.",
+        "I signed up a guy yesterday and we've framed the invoice as, let me tell you exactly what it was framed as, safety and injury prevention program. So we frame it in loads of different ways. You can write it off.",
+        "It's always good when it's majority of it's free.",
+        "We framed it even as just consulting, can frame it in loads of different ways.",
+        "loads of ways you can frame it speak to your accountant like if that if it comes to it and just be like what how can we frame this and we just basically just resend you the invoice with that as the thing so you can write it off which is pretty sweet"
+      ],
+      "timestamp": "00:41:56"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Prospect stated plainly that he could not decide that day; the rep reframed the refusal as limiting language, told a personal story about spending his life savings, and reduced the entry price to $1,200 until the prospect agreed to put it on a credit card he had just said carries more debt than his bank balance, while mid-divorce and needing housing deposits.",
+      "evidence": [
+        "I can't make a decision today, Harry. I'm sorry.",
+        "It's fine. You can, you're just not willing to. I don't like, I can't language, Chris. It's limiting yourself.",
+        "It's hard because I'm trying to navigate this, and I'm going to need deposits for apartment or condo, and I've got to, there's just a lot on my plate in this moment because my wife wants to separate",
+        "if you saw my bank account, you'd be like, six grand right now? This guy's . He can't be doing that. I have more on my credit card than I do on my bank account",
+        "I mean, 1,200 right now, like I could throw it on my credit. I have plenty of room on my credit card. It's just scary.",
+        "I had saved up £5,000... it's my life savings, right? ... Long story short, I paid it in full, quit my job the next day. had a thousand pounds in my bank account",
+        "where do we grow man inside or outside the comfort zone you know"
+      ],
+      "timestamp": "00:58:20"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep disclosed identifying details of another client to an unrelated prospect — the client's restaurant brand, that he owns three locations, his phone area code and the state he is in.",
+      "evidence": [
+        "I signed up a guy yesterday and we've framed the invoice as... safety and injury prevention program",
+        "because that guy, he owned a, he said to me, I can't remember exactly what it's called, he said it's like a fancy fast food. He owns three of them. I think it was like, it began with a C, Culver's, maybe?",
+        "so that's gone on the Culver's, um, tax rate off",
+        "It's 970 is the number, like on the phone number. Oh, that's Fort Collins, Northern Colorado, 970. Yeah, Colorado, yeah, that's where he's from, yeah."
+      ],
+      "timestamp": "00:45:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Prospect said he wants to resolve psoriasis through the programme specifically to avoid dermatologist-prescribed injections; the rep agreed to run dietary elimination trials, never suggested he see the dermatologist, and separately dismissed blood work as unnecessary.",
+      "evidence": [
+        "so I do deal with psoriasis I have it on my scalp my elbow my knee and I'm trying to figure it out",
+        "how do I like, if this is also one of my goals, instead of going to the dermatologist and getting on injections for the rest of my life",
+        "We'll work it out with you. We can test with no dairy. If the psoriasis goes down, great. If we know this hasn't gone down, like we can just, we can test things out.",
+        "I don't think Trevor's like an expert on psoriasis.",
+        "blood work, I don't know, there's a bunch of stuff like that, that's higher level than this, is that? It's like, if again, like if you want to do it, do it... It can be beneficial, but it's not necessary. I've never had my blood work checked either. You know, it's not something that's super necessary."
+      ],
+      "timestamp": "00:46:20"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $1,200 one-month entry outside the standard offer was improvised to close the sale, alongside a $1,200 rolling monthly rate and a half-and-half split with a movable balance date; the rep also stated that finer breakdowns increase the total.",
+      "evidence": [
+        "It's just 6K for the six months.",
+        "what most people do in this kind of scenario is they just do half and half. so it's like a 3k down... and then the other three at three months mark, I've got the other by the two and a half month mark it's paid off",
+        "you can break it down more but it goes up in numbers so i just recommend either doing it up front or in 50 50",
+        "if you do it monthly it works out to 1200 a month but i can put like a little uh i can do something for you where you can get started for 1200",
+        "you get to start with 1200 you don't have to pull out 6k or 3k you start for 1200 it pays for your first month next month if you hadn't got all that stuff sorted just be another 1200 and at the end of the three months if you're all kind of good with it you just pay the rest off and it would still be 6k"
+      ],
+      "timestamp": "00:51:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording was stopped as the payment and onboarding sequence began — the sixth such cut in this batch — leaving the transaction, the amount actually taken and the onboarding booking unobservable.",
+      "evidence": [
+        "how it normally work you send a like a pay app to my email or something or how did i give you a credit card over this phone yeah i remove the recording i share the screen with you so see everything and all that sort of stuff",
+        "Let's do it. Let's do the onboarding call, let's set you up for the onboarding first, and then we can kind of do the, the payment, I just remove."
+      ],
+      "timestamp": "01:05:41"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The file title names the prospect as Larry Ferini but the participant is addressed as Chris throughout and the Zoom label reads Chris, so the record cannot be reliably attributed to a named individual.",
+      "evidence": [
+        "It's fine. You can, you're just not willing to. I don't like, I can't language, Chris. It's limiting yourself.",
+        "let's do it, Chris, that's the attitude, bro",
+        "I'm in, right now, I'm in Glenview, Illinois, but I live in Lincolnshire about 20 minutes from here."
+      ],
+      "timestamp": "00:00:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The call opens with a reference to an AI-generated text message thread used in the pre-call outreach to this prospect.",
+      "evidence": [
+        "And my laptop, so I've never heard back from the AI-generated text message thread, but yeah, yeah, it's all good. I hope that's all right.",
+        "I think I can kind of get a, I've been watching Trevor online for two years, probably, so I'm familiar with. You're all fine."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

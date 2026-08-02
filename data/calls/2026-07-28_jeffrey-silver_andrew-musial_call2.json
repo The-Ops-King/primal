@@ -1,0 +1,122 @@
+{
+  "call_id": "2026-07-28_jeffrey-silver_andrew-musial_call2",
+  "source": {
+    "drive_file_id": "1Y-cQ7PUvJIybrdLiKe5odeVdrkVts__V",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 7360
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Immediate same-day continuation of drive_file_id 1SrNxZbxEjymvilw2Oc2df7t-xOWo-i2M, recorded as call_id 2026-07-28_jeffrey-silver_andrew-musial_call1, which ran roughly thirty minutes earlier and contained the full discovery, pillar presentation and $6,000 offer. On that call the prospect verbally agreed but was parked at the roadside and asked for a payment link; the rep declined and required a reconnect once he reached his office. He used the interval to review his finances and opens this call asking to postpone by a month. His account of what he was offered on call 1 is accurate — the rep had said 'Use a credit card. Or you can use a third-party financing option too' and had not mentioned the in-house interest-free plan.",
+    "duration_min_est": 11,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Jeffrey Silver",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "USA, Eastern time zone",
+    "age": 68,
+    "occupation": "Works full-time in a hospital (established on call 1; role never specified by either party)",
+    "family_status": "Married; adult daughter who is a physical therapist",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Established on call 1: half marathons, sports, prior personal trainers, five to six years of martial arts, latterly home yoga and calisthenics after roughly five years of decline. Confirms here that he will train at home rather than at a gym and needs to buy his first kettlebell.",
+    "kettlebell_experience": "some",
+    "medical": "Nothing disclosed on this call. Recorded on call 1 and carried forward for continuity: right ankle reconstruction limiting dorsiflexion, bilateral knee problems preventing full squatting, cervical fusion of the neck, and progressive loss of glute and leg muscle mass over two to five years. No clinical clearance was sought on either call, and no health question was asked on this one before payment was taken."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Carried forward from call 1, where the full discovery sits — 68, health-literate, already medically managed across three surgical histories, goal framed as arresting muscle loss rather than achieving something new.",
+      "This call adds the defining financial signature of the archetype: high nominal spending capacity paired with low discretionary liquidity. He has just spent $12,000 on air conditioning and committed $17,000 to solar panels, yet describes himself as unable to find cash flow for $6,000.",
+      "Consistent with the archetype's predicted behaviour, there was no resistance to the value at any point — the belief question was answered 'Yes' within fifteen seconds — and the entire obstacle dissolved once the payment was moved in time rather than reduced in size."
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I've been thinking about this, and I'm not sure that I can do $6,000 right now. So if possible, can I reschedule this for a month or so down the road?",
+      "timestamp": "00:00:00",
+      "rep_response": "Isolated it immediately and correctly before offering anything — 'Just to make sure, apart from the finances, do you genuinely feel that this is something for you and this can get you to your goals?' then 'So it's purely a financial obstacle right now?' Only after confirming both did he ask 'Even if you would split it up into installments?' and structure a three-payment plan. Total elapsed time from objection to resolution was about ninety seconds.",
+      "response_tactic": "isolate_then_offer_interest_free_installments",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I just paid $12,000 for a new air conditioner, I have to do another $17,000 with the solar panels that I have put up and I just don't have the cash flow at this point in time.",
+      "timestamp": "00:00:28",
+      "rep_response": "Did not probe the financial picture further — no cash on hand, monthly surplus, credit or investment questions — because the prospect had already named the specific cause. Went straight to restructuring the payment to fit the constraint. Notably he also did not connect it to the retirement funding shortfall the prospect had disclosed on call 1.",
+      "response_tactic": "restructure_rather_than_interrogate",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "proposed_label": "interest_cost_aversion",
+      "raw_quote": "tell me about, you didn't mention installments, you just said put it on a credit card and pay the credit card off, which, God, I didn't, it was reluctant. I think to do that, just to end up paying more interest on it.",
+      "timestamp": "00:00:50",
+      "rep_response": "Disclosed for the first time that an interest-free in-house plan exists — 'So what we can do is also like in-house payment plan, yeah? So to do it like with no interest at all, we could split it up, up to three payments of $2,000.' The prospect accepted within seconds. This objection is the actual reason the deal had stalled, and it was created directly by what the rep told him thirty minutes earlier on call 1.",
+      "response_tactic": "disclose_in_house_interest_free_plan",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": true,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "In-house instalment plan structured live and explicitly interest-free: three payments of $2,000 — $2,000 taken on the call, $2,000 in one month, $2,000 in two months. Total $6,000, matching the standard six-month price with no premium and no discount. Rep's words: 'So to do it like with no interest at all, we could split it up, up to three payments of $2,000. So today, it would be only 2K, then next 2K in the month, and next 2K in two months.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit verbal agreement to the restructured terms: 'I can do that. Okay. Let's do it.'",
+      "Payment link sent in the Zoom chat and the prospect entered his card himself during the call — 'I just got my card. I'm putting the info in now'",
+      "Downstream systems fired, which corroborates that the charge succeeded: the onboarding confirmation email and the agreement email both arrived and the prospect confirmed receipt of each",
+      "Onboarding call with Trevor booked live for the following evening, Wednesday 29 July at 18:15",
+      "Prospect actively planning implementation — asked what kettlebell to buy and confirmed he will train at home",
+      "COUNTER-EVIDENCE: the rep never verbally confirms on the recording that the $2,000 authorisation cleared; he says 'Let me know when it goes through on your end, because I need to check it also over here' and the acknowledgement that follows is ambiguous in the transcript",
+      "COUNTER-EVIDENCE: the agreement was NOT signed on the call — the rep explicitly deferred it ('you don't have to do it like right now'), so $2,000 was collected before any executed contract existed",
+      "COUNTER-EVIDENCE: only $2,000 of the $6,000 is actually collected; the remaining two instalments are unsecured future payments with no stated terms for default",
+      "DEDUPLICATION NOTE: this is one deal across two recordings. Call 1 is scored follow_up specifically so this sale is counted once. Both files must map to a single opportunity in any close-rate calculation."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Prospect to sign the agreement and complete the onboarding form by end of day, buy a single kettlebell only after Trevor advises on weight, and attend the onboarding call with Trevor on Wednesday 29 July at 18:15. Two further $2,000 instalments due at one and two months. Rep added the prospect to his personal WhatsApp as the escalation channel."
+  },
+  "notable": {
+    "note": "The most instructive eleven minutes in the batch because the paired call is also in evidence. An interest-free in-house instalment plan exists. It was not offered thirty minutes earlier when the price was given; the prospect was told to use a credit card or interest-bearing third-party financing, and he had decided to postpone rather than take on interest. The moment the plan was named he agreed in seconds and paid. The deal was nearly lost to a cost the company could have eliminated at no charge to itself. Set this against the same rep's two calls the day before: Arturo was offered only third-party financing at $650 a month over twelve months, a $7,800 total, and smanian was offered third-party financing plus an invented half-price $3,000 tier. Four prospects, one week, one rep, four different commercial answers to the same objection, and the cheapest one for the company — the interest-free in-house split — was disclosed only once and only after a prospect tried to walk. Worth noting as good practice by contrast: the prospect entered his own card into a payment link here, whereas on the Rick Tuha call the previous day the rep took full card details verbally over Zoom."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy swapping despite the short length. The rep's lines are frequently attached to the prospect's label — 'So I send you the link for the payment in the Zoom chat' at 00:01:43 and 'Or if you're going to the gym, you don't need to buy one' at 00:03:48 are both the rep but labelled jeffrey silver, while 'Yes, sir' and 'No, I'm going to do it at home' are the prospect under Andrew's label. The closing exchange from 00:10:55 to 00:11:12 is fully inverted — 'I'm going to be in touch with you because I really love to see how are you progressing' is the rep's habitual sign-off, seen on other calls in this batch, but appears under the prospect's label. Roles assigned from content throughout."
+  }
+}

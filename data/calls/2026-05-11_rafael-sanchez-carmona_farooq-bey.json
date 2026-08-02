@@ -1,0 +1,115 @@
+{
+  "call_id": "2026-05-11_rafael-sanchez-carmona_farooq-bey",
+  "source": {
+    "drive_file_id": "12uBOXIPMPB4cyBAXn1dgKd5VxWLN3SLS",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/11/2026 - Rafeal Sanchez x Farooq Bey ",
+    "display_title": "05/11/2026 - Rafeal Sanchez x Farooq Bey  — Closed",
+    "file_size_bytes": 39844
+  },
+  "call": {
+    "date": "2026-05-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Rafael Sánchez Carmona",
+    "aka": "Titled 'Rafeal Sanchez' in the Fathom filename",
+    "name_source": "title",
+    "location": "Spanish national working in Jordan; studied at the University of Málaga",
+    "age": 48,
+    "occupation": "Project manager, describes the work as very stressful and says he likes working a lot",
+    "family_status": "Single, lives alone; has family elsewhere",
+    "height_in": null,
+    "weight_lb": 276,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Essentially untrained. Used a phone app with bodyweight exercises about a year ago, made progress, then stopped; experienced pain doing it and suspected bad form. Went to a gym several years ago with trainers and disliked it. Repeated cycles of losing weight, holding it one to two years, then regaining. No kettlebell experience. Says he has never had a consistent period of feeling healthy — 'I need to go very back in time.'",
+    "medical": "Gallbladder removed by surgery on 26 April 2026, two to three weeks before this call; self-describes as 'still recovering'. Hypertension, which peaked at 200 three weeks ago and for which he has just started medication. Obesity at 125 kg. Newly diagnosed fatty liver. Reports fatigue, poor sleep and stomach problems. Currently following a clinician-directed strict low-fat post-operative diet limited to vegetables, fish, white meat and gelatin, with foods still to be reintroduced."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.95,
+    "signals": [
+      "In the middle of the health event rather than recovering from a past one — surgery three weeks ago, hypertension newly medicated, fatty liver newly diagnosed, and he calls it 'a warning'",
+      "Training framed as non-negotiable fighting rather than aspiration — 'now it's an obligation. It's not just a motivation' and 'it's not an option, I don't have an option, right, I need to take action'",
+      "Extremely high motivation converting to an immediate top-tier close with no price objection at all — the pattern the avatar definition predicts",
+      "Textbook case for the clinical screening the definition calls for, and none was performed"
+    ]
+  },
+  "goals": [
+    { "text": "Lose weight and get into shape to avoid future health problems after the surgery and the hypertension warning", "category": "fat_loss" },
+    { "text": "A well-functioning body and organs entering his 50s — 'an ideal weight and optimal amount of muscle and strength in my body and my organs'", "category": "longevity_function" },
+    { "text": "Build strength and muscle he has never had", "category": "strength" },
+    { "text": "Learn correct form so he stops hurting himself — 'always in the past when I tried to go to the gym, I have the concern that maybe I'm not doing it well'", "category": "injury_prevention" },
+    { "text": "More personal confidence, including at the pool and the beach, though he repeatedly minimised this", "category": "confidence" },
+    { "text": "Start investing in himself after decades of prioritising work and other people — 'I have been worried too much about others, about work, about other people's ambitions. I think now I need to worry more about me'", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Gallbladder removed three weeks ago, hypertension peaking at 200 and newly medicated, newly diagnosed fatty liver, obesity at 125 kg, and still in recovery", "category": "medical", "severity": "critical" },
+    { "text": "Decades of losing and regaining weight — 'I tried hard to lose weight, and then I kept fit maybe for one or two years, and then I started gaining weight slowly'", "category": "consistency", "severity": "high" },
+    { "text": "Health was never a priority against work and hobbies — 'my main interest was my work or my hobbies... it was not a priority for me until now'", "category": "motivation", "severity": "high" },
+    { "text": "Fatigue and poor sleep that started in the last one to two years — 'I felt I was getting tired, and I couldn't sleep very well, and these things didn't happen to me before'", "category": "sleep", "severity": "medium" },
+    { "text": "Fear of performing exercises incorrectly and causing pain — 'sometimes I have pains, I had pain and because maybe I was not doing it properly'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Very stressful work that has consistently crowded out motivation and discipline", "category": "work_stress", "severity": "medium" },
+    { "text": "Never understood what he was doing or working toward with the app — 'sometimes you don't really understand what you are doing and what is the long-term objective'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Some self-consciousness about his shape in public, which he acknowledged then repeatedly played down", "category": "confidence", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "I have some limitations, maybe, because I am not very fit now, so maybe I have some issues at the beginning in terms of, you know, what type of exercises I have to do and, you know.",
+      "timestamp": "00:33:25",
+      "rep_response": "Did not address the substance. Answered motivationally — 'You guys, you make for our best case studies, you know, because you're not, as you said, you're not in a fit place right now, but we want to make you into Superman, okay?' — and moved directly into the price presentation. No question about surgical restrictions, clearance, or what he is currently permitted to do.",
+      "response_tactic": "reframe_as_ideal_case_study",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 12,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": "verbal_agreement_plus_payment_collection_initiated_off_recording",
+    "evidence": [
+      "Chose the tier unprompted: 'I think the 12-months is more convenient' and called it 'a fair investment'",
+      "Explicit verbal agreement: 'How do you feel, man?' / 'Happy?' / 'Yes.' / 'Let's do it.'",
+      "Rep moved straight to collection — 'we process the investment, then I'll book you into a one-on-one call with Trevor, either tomorrow or the day after'",
+      "Counter-evidence, and the reason confidence is 0.85 rather than higher: no payment is witnessed on the recording. The transcript ends at 'So first things first, Rafael, I'll remove my Fathom Notetaker. Okay. We're going to take sensitive information.' The card details, the actual amount taken, and any terms agreed all fall outside the record.",
+      "No payment link is evidenced either — the rep appears to have taken details directly, so the sanctioned verbal-agreement-plus-link-sent rule does not map cleanly; the verbal agreement is unambiguous and collection was initiated on camera"
+    ],
+    "cash_collected_usd": 9000,
+    "cash_collection_basis": "contract_value_12mo_payment_not_witnessed_on_recording",
+    "next_step": "Process payment, then a one-on-one call with Trevor tomorrow or the day after to design the programme."
+  },
+  "notable": {
+    "note": "The most serious clinical case in this batch, and the only one that closed. A 48-year-old at 125 kg, two to three weeks post cholecystectomy and self-describing as still recovering, with hypertension that peaked at 200 and is newly medicated, plus a new fatty liver diagnosis, bought a twelve-month loaded kettlebell programme at $9,000 with no objection of any kind. The rep never asked a single health question — every detail above was volunteered — and never asked whether a surgeon or physician had cleared him for exercise. He did register the surgery once as a programming input ('taking into account your recent surgery too, that's very important to note') but not as a gating question. He also prescribed creatine as 'a must for every human' and pushed fasting protocols before learning, minutes later, that the prospect is on a clinician-directed strict low-fat post-operative diet. Pricing itself was clean: only the sanctioned $6,000/6mo and $9,000/12mo were presented. The recording was then deliberately stopped at the payment step, which appears to be routine practice and means no close in this corpus is verifiable from the transcript alone."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion. The rep's own opening frame ('Some people, they don't know how these calls go, right?') and his question 'The floor to you, Rafael, how can we potentially help you?' both sit under the prospect's label, while prospect answers such as 'It has always been my concern' and 'Three times a week, 30 minutes per session. Ah, okay' sit under the rep's. Roles resolved from content. Several short passages are garbled by connection drops and one line is corrupted into unrelated text. The recording is deliberately terminated at the payment step, so the close itself is unrecorded."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "call_id": "2026-06-19_jon-boroughs_richard-claessen",
+  "source": {
+    "drive_file_id": "1Lcc3m63TcPkxfcEOPckaA8kdiWZMwE-E",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/19/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/19/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 71174
+  },
+  "call": {
+    "date": "2026-06-19",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 64,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Jon Boroughs",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Indiana, USA",
+    "age": 53,
+    "occupation": "Desk job with a leadership position; former professional cook. Paid fortnightly.",
+    "family_status": "No wife or children. Eldest sibling; has siblings and nieces. Brother has expressed worry about his health.",
+    "height_in": 75,
+    "weight_lb": 325,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has never worked with a coach. Last trained in his mid-30s, over twenty years ago, and only sustained it for about a month and a half. Currently walking 15-20 minutes daily for 3,000-6,000 steps. Has bought a kettlebell set (5/10/15/20 lb singles), Indian clubs and a pull-up bar and intends to train at home.",
+    "kettlebell_experience": "none",
+    "medical": "Presented to a doctor three to four weeks before the call with pain he thought was an organ problem; diagnosed as musculoskeletal, which he describes as a pulled muscle, sustained without any strenuous activity. Self-treated with alternating heat and cold and reports it resolved. Lower back and hip stiffness before he started walking. Weighed 338 lb at that appointment, now 325 lb at 6'3\". Cites diabetes and heart failure as risks his family associates with his weight."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.7,
+    "signals": [
+      "Proposed label: lifelong_deconditioned_first_timer. He has never been fit and is not recovering a former self, which rules out the_rebuilder: 'I haven't been truly skinny since I was like 12' and 'when I was in high school, I weighed over 300 pounds'",
+      "No clinician block and no serious active diagnosis, which rules out the_medically_constrained and the_prehab_fighter",
+      "Not health-literate or medically managed, which rules out the_preserver; no price anchor to a cheap alternative, which rules out skeptical_bargain_hunter",
+      "Trigger was a single medical scare: 'Going to the doctor's office and learning that it was a pulled muscle... I hadn't done anything strenuous. I don't want to get hurt bending over, picking something up off the floor'",
+      "Carries decades of accumulated shame rather than regret over a lost peak: 'kids used to make fun of me all the time. You know, they used to call me the incredible bulk'"
+    ]
+  },
+  "goals": [
+    { "text": "Lose weight and get to roughly 260-280 lb, with the loss coming off as fat so muscle becomes visible", "category": "fat_loss" },
+    { "text": "Become healthy enough that simple movements like bending down to pick something up do not injure him", "category": "injury_prevention" },
+    { "text": "Be more flexible and stronger", "category": "mobility" },
+    { "text": "Stay around as long as possible for siblings and nieces, and for a future wife and children", "category": "longevity_family" },
+    { "text": "Walk into a room and have people look at him", "category": "confidence" },
+    { "text": "Stop his brother worrying about his health", "category": "relationship" },
+    { "text": "Build a habit that finally sticks rather than lapsing after six weeks", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Sustained a musculoskeletal injury doing nothing strenuous, which frightened him into acting", "category": "injury", "severity": "high" },
+    { "text": "Has carried excess weight since age 12 and was bullied for it through school", "category": "emotional", "severity": "high" },
+    { "text": "Last training attempt lasted a month and a half and stopped because the scale did not move", "category": "motivation", "severity": "high" },
+    { "text": "Sedentary desk job with lower back and hip stiffness", "category": "training_barrier", "severity": "medium" },
+    { "text": "Has never been taught kettlebell form and is afraid of hurting himself", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Historically unable to hold a schedule; 'whatever came at the moment came at the moment'", "category": "consistency", "severity": "high" },
+    { "text": "No savings — emptied for a house repair — no credit cards, and roughly $400-500 left per month after expenses", "category": "other", "severity": "critical" },
+    { "text": "Brother is openly worried about his health", "category": "relationship", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Yeah, I don't have that on hand, man.",
+      "timestamp": "00:46:29",
+      "rep_response": "Isolated it properly — tested whether it was capacity or value with the 'if $6,000 fell out of the sky' question, confirmed value, then opened the financial conversation.",
+      "response_tactic": "isolate_capacity_vs_value",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I expected money. I didn't expect $6,000.",
+      "timestamp": "00:47:46",
+      "rep_response": "Accepted it and moved to the open-wallet sequence rather than defending the price.",
+      "response_tactic": "acknowledge_and_open_wallet",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Yeah, I want to get started, but man, Richard, I'm really going to have to think on it, man.",
+      "timestamp": "00:52:40",
+      "rep_response": "Isolated it to the financing question, then pivoted to a cheaper product rather than running the think-about-it play.",
+      "response_tactic": "isolate_then_downsell",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 2000, "note": "Primal University quoted by the rep as 'either $2,000 for a year or it's $2,000 a month'. The monthly figure contradicts the $200/month price stated by the setter on the internal team meeting the same day." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Third-party financing over 12 months. The prospect calculated $500 a month himself; the rep confirmed it depended on credit score and said 'if you pay it off before the 12 months, the interest is basically nothing'. No lender was named and no APR was given.",
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": 0, "monthly_surplus_usd": 450, "has_savings": false, "credit_score": null, "has_credit_cards": false }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "$6,000 was refused on capacity, repeatedly and unambiguously: 'I don't have that kind of money on hand, bro' and 'Not anything on hand at the moment.'",
+      "The Primal University downsell was verbally accepted — 'That sounds good' and 'that sounds more doable' — and a Skool link was sent in the chat.",
+      "But no payment was possible and none was taken: 'I can go ahead and do that here after a bit. I don't have any cash right now. So I'm between paydays.'",
+      "Rep probed for a credit card as a workaround and was refused: 'I don't do credit cards, no. I have a debit card.'",
+      "A concrete next step was set: a 15-minute call on Friday the 3rd at 5:30pm Eastern, two weeks out, timed to his next payday, with the invite sent and accepted on the call.",
+      "Counter-evidence on intent being real: he had already bought kettlebells, Indian clubs and a pull-up bar before the call, so he is spending on this in his own way."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "15-minute call Friday 3 July at 5:30pm ET, timed to his payday, to get him started on Primal University. Rep sent a kettlebell video and told him to raise his step count to 9-10k in the meantime."
+  },
+  "notable": {
+    "note": "Two things a principal should see. First, the Primal University price was quoted as 'either $2,000 for a year or it's $2,000 a month' — the second figure is ten times the actual $200/month price confirmed elsewhere in this batch, and the prospect agreed it sounded 'more doable' without either party catching it. Second, this is a 53-year-old at 325 lb with no savings, no credit cards and roughly $450 a month spare, three to four weeks after an unexplained musculoskeletal injury that took him to a doctor, who was walked through 12-month third-party financing at $500 a month — more than his entire monthly surplus — and then sent a kettlebell workout video with the instruction 'make sure you don't injure yourself'. No one asked whether his doctor had cleared him to train."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained inversion. Large blocks of rep speech are labelled 'Jon Boroughs' — the entire pillar presentation from 00:33:00, and the offer summary at 00:56:07 — and several of the prospect's own answers are labelled as the rep, including 'I'm three 25' and 'I'm six foot three' at 00:01:40. Every attribution here was resolved from content, not labels."
+  }
+}

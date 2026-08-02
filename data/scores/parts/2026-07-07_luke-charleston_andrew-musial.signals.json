@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-07_luke-charleston_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered the positive reaction before the pillar was even presented and tied it directly to his own problem: 'when I came across the ad on Instagram for the kettlebells... that really resonated with me, you know, the sort of efficient... and really effective in the sense that you're building muscle plus also cardiovascular.' Then 'it's really intriguing, and I actually think it's probably perfect for me at this point in my life.' He had already trialled the movements that morning off the founder's videos — 'I was doing some of those this morning. Like, wow, this actually feels like loosening me up, and it felt good' — and volunteered that his shoulder mobility 'can be rectified though, actually, to this program.' Method fit was never in doubt on this call."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Understood, agreed, no questions. Asked 'Any questions on that?' he answered 'Nope.' The once-a-week allowance landed against his own disclosure about summer IPAs and the occasional pizza slice, and the no-macro-tracking framing matched what he had already said — 'I've done the macro tracking before. That's not realistic for me.' No enthusiasm and no pushback."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'No, it sounds good.' He engaged just enough to volunteer that he is 'a big vacation exerciser' and a proponent of training early so the rest of the day is guilt-free, but asked nothing about the mechanics — not about the weekly check-in, not about video review, not about the direct line to Trevor. Notably flat given this is the pillar the $6,000 actually buys and the $200 tier does not."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "subscription_price_expectation",
+      "raw": "I was thinking like being the couple hundred bucks a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The number already in his head when $6,000 landed, and it was two hundred a month. This is the anchor that decided the call. The rep did not challenge or reframe it — he confirmed it, telling the prospect 'you're almost on point' and then selling to it at $200/month. A prospect anchor became company pricing inside four minutes."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "They take all of their programming from the Mayhem Athlete. I'm not sure if you're familiar with that app. But that, I also pay for that app on my own, and they also have like a bodybuilding track that I kind of do as a default.",
+      "direction": "undercuts_price",
+      "competitor": "Mayhem Athlete",
+      "note": "A paid app subscription supplying his programming today, at app pricing. Alongside THENX, another subscription he has run. These are functioning low-cost substitutes and the rep never priced them, never contrasted them, and never used the fact that none of them stuck — which is the whole reason the prospect filled in the application."
+    },
+    {
+      "type": "existing_coaching_spend",
+      "raw": "I went to some physical therapy where I have a guy that kind of just like beats me up, you know, like kind of stretches me out, so hits my back.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He already pays a CrossFit membership, an app subscription and a physical therapist — a standing habit of paying humans for his body. Combined spend was never surfaced or totalled, which is the obvious bridge from 'a couple hundred a month' toward the real number and it was left on the table."
+    },
+    {
+      "type": "misapprehended_unit_price",
+      "raw": "But I'm not going to pay $6,000 a month for this, so thank you very much, and I will pursue a different path.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He had computed it correctly moments earlier ('So $1,000 a month, effectively') and then walked while describing it as $6,000 a month — a figure twelve times the actual outlay. The rep did not restate the total. Whatever the diarization noise in this passage, the refusal on record is against a price that was never offered."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A structured, self-paced kettlebell programme with progression, at subscription pricing, without one-to-one coaching — 'I don't need details in kind of like, you know, what exactly you guys do besides the programming' and later, of the three-month progression, 'that's really what I'm looking for.'",
+      "why_unmet": "The programme does serve this — Primal University exists at $200/month with a three-month progression and a weekly live session — but it is not part of the offer the sales process presents. It surfaced only after the prospect had refused the $6,000 and twice tried to end the call, at which point it read as a salvage rather than a product. A capable self-directed buyer who wants programming without coaching has no route in until he says no.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that loaded kettlebell work will not aggravate an unrepaired SLAP tear and a 14-year herniated disc, given that CrossFit now hurts him — 'my body's just sort of beaten up too much'.",
+      "why_unmet": "The rep asserted kettlebells are 'not so damaging on your body' and let the prospect self-answer that the programme would fix his shoulder mobility. Nobody established what the programme actually does with an unrepaired labral tear, whether Trevor screens for it, or whether the treating physical therapist would sanction it. He then took the self-paced tier, which has no form review at all, so the question is now permanently unanswered for him.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

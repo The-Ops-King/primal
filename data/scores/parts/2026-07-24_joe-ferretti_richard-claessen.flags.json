@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-07-24_joe-ferretti_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted a price range of $1,000 to $7,000 within two minutes of the call; $7,000 does not appear anywhere in the price structure and the $1,000 floor is a sixth of the real entry price.",
+      "evidence": [
+        "It's between 1,000 and 7,000 USD.",
+        "So I can give you a range. If you're okay with a range, then I can give you one, but a specific number I can't say until we've actually gone through an actual conversation.",
+        "How much is it? Because it's all about the money."
+      ],
+      "timestamp": "00:03:26"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated that payment terms have no fixed amounts and are handled custom case by case, the second explicit statement to that effect in this batch and consistent with four different structures constructed across four days.",
+      "evidence": [
+        "Exactly, if you can split it up in multiple payments. Yeah, that would be possible.",
+        "There's no specific amounts, like overall we do quite custom, but if that would be needed, then we can always look into that, yes."
+      ],
+      "timestamp": "00:04:10"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The file is titled as a two-person 'Gameplan', the naming pattern used for internal staff calls in this corpus, but it is a live sales conversation with a referred prospect; any routing or classification based on titles will misfile it.",
+      "evidence": [
+        "07/24/2026 - Joe Ferretti and Richard Claessen - Gameplan ",
+        "Can you explain to me, you know, because I'm very confused. This is for the kettlebell, right?",
+        "I got a friend of mine that is in your system, and I've seen the difference."
+      ],
+      "timestamp": "00:01:08"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Prospect first contacted Primal roughly three months earlier and had meetings booked that did not take place; none of those touches appear in this batch, so the true cycle length and no-show history for this deal are invisible in the corpus.",
+      "evidence": [
+        "But I think you've been in contact with us like three months ago, right?",
+        "Yes.",
+        "I'm just curious, right? Like, of course, you had a few meetings booked in with us earlier.",
+        "And the only thing I'm cutting everything short is because I'm in Miami."
+      ],
+      "timestamp": "00:03:07"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A prospect who has done no training at all for two and a half years was moved toward purchase and a Monday start with no baseline question of any kind - no age, weight, injuries, conditions or medications were asked.",
+      "evidence": [
+        "I have worked out all my life, okay, my entire life. The only thing is that ever since the pandemic, ever since COVID, I stopped. And it's been two and a half years since I've done anything.",
+        "Two and a half years.",
+        "I'll fill whatever up, give you my credit card, and we can start on Monday.",
+        "then we'll get you started for Monday, okay?"
+      ],
+      "timestamp": "00:07:15"
+    }
+  ]
+}

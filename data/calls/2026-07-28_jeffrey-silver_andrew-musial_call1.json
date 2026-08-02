@@ -1,0 +1,137 @@
+{
+  "call_id": "2026-07-28_jeffrey-silver_andrew-musial_call1",
+  "source": {
+    "drive_file_id": "1SrNxZbxEjymvilw2Oc2df7t-xOWo-i2M",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 24550
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "First of two calls with this prospect on the same day, roughly thirty minutes apart. This is the full discovery, pillar presentation and offer. It ends without payment because the prospect was parked at the roadside on his way to work; the rep declined to send a payment link and instead required a reconnect — 'we need to go over the call because I need to onboard you properly'. The continuation is drive_file_id 1Y-cQ7PUvJIybrdLiKe5odeVdrkVts__V, recorded as call_id 2026-07-28_jeffrey-silver_andrew-musial_call2, where the prospect opens by asking to postpone by a month and is then saved with an interest-free instalment plan.",
+    "duration_min_est": 26,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Jeffrey Silver",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "USA, Eastern time zone",
+    "age": 68,
+    "occupation": "Works full-time in a hospital; the specific role is never asked and never stated. Sedentary desk work with stair-climbing between floors. One-hour commute each way, in the office 09:00-17:00.",
+    "family_status": "Married; eats out or orders in with his wife three to four nights a week. Has an adult daughter who is a physical therapist and who has already assessed his movement. Owns a dog.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Extensive but lapsed. Has run half marathons, played sports, worked with personal trainers, and trained martial arts for five to six years. For the past two to three years only home yoga, calisthenics, push-ups, sit-ups, dips, squats and side lunges from Instagram and Facebook programmes, plus a daily two-mile dog walk. Describes the real decline as roughly five years: 'I really have not been, I haven't trained or anything in about five years now.' Currently 8,500-11,000 steps a day and 15-30 minutes of home work most mornings.",
+    "kettlebell_experience": "some",
+    "medical": "SUBSTANTIAL SURGICAL HISTORY, ALL DISCLOSED IN RESPONSE TO A DIRECT QUESTION. (1) Right ankle reconstruction, which limits dorsiflexion at that joint. (2) Bilateral knee problems — 'squatting, I can't squat all that much', and the knees 'ache and they pop'. (3) Cervical fusion of the neck, which he says causes him no current issues. (4) Progressive loss of muscle mass over two to five years, concentrated in the glutes and legs, with associated belly fat — presenting as sarcopenia at 68. (5) Mild lower-back stiffness, no pain. (6) Sleeps around seven hours, 22:00 to 05:00, waking once a night to urinate and sometimes then sleeping fitfully; variable sleep score. (7) Increased fatigue over the past year. His daughter, a physical therapist, has already identified a movement pattern issue: 'my mobility, my lack of mobility, I don't trigger my glutes. I trigger my quads when I do stuff more than my glutes.' Nutrition is Herbalife-based: two meal-replacement shakes daily, two protein snacks, one dinner, no alcohol, no sweetened drinks. NOTE: no health-condition, medication, blood-pressure or cardiac question was asked, and no clinician clearance was sought or suggested at any point."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "Older and explicitly framing the goal as arresting decline rather than achieving something new — 'I've been losing muscle mass. It's mostly my glutes and my legs' and 'I would like to be in better shape at 68'",
+      "Health-literate: works in a hospital, tracks steps and a sleep score, states 'I know what a healthy meal is', and has a physical therapist daughter who has already assessed his movement pattern",
+      "Already medically managed — ankle reconstruction, cervical fusion, bilateral knee problems, all known and named precisely",
+      "Low discretionary liquidity despite still working full-time: 'making sure I have financial wherewithal to be able to retire comfortably. And I do not have that right now, so I can't retire'",
+      "Goal is function and independence rather than performance — mobility, flexibility, and reversing the loss of glute and leg mass",
+      "ALTERNATIVE CONSIDERED: the_rebuilder also fits, since he has lost ground over five years and has a former athletic self to reference. Assigned the_preserver because every specific marker of that archetype is present — age, health literacy, existing medical management, and the high-nominal-income-low-liquidity pattern — and because his stated aim is to stop the slide, not to recover a former peak."
+    ]
+  },
+  "goals": [
+    { "text": "Reverse the loss of muscle mass in glutes and legs — 'I have a saggy butt... and I've never had that before'", "category": "muscle_gain" },
+    { "text": "Improve mobility and flexibility, which he names as his primary reason for reaching out", "category": "mobility" },
+    { "text": "Be in better shape at 68", "category": "longevity_function" },
+    { "text": "Lose the belly fat he has accumulated", "category": "fat_loss" },
+    { "text": "Learn to engage his glutes rather than compensating with his quads, as his physical therapist daughter identified", "category": "injury_prevention" },
+    { "text": "Get his form checked by someone qualified — 'nobody looks at my form. I don't know if I'm doing it right'", "category": "confidence" },
+    { "text": "Become consistent again after five years of doing very little", "category": "consistency" },
+    { "text": "Build strength back alongside mobility", "category": "strength" }
+  ],
+  "pains": [
+    { "text": "Progressive loss of muscle mass in glutes and legs over two to five years", "category": "aging", "severity": "high" },
+    { "text": "Bilateral knee problems that ache and pop and restrict squatting", "category": "injury", "severity": "high" },
+    { "text": "Right ankle reconstruction limiting dorsiflexion", "category": "injury", "severity": "medium" },
+    { "text": "Cervical fusion in the neck", "category": "medical", "severity": "medium" },
+    { "text": "Roughly five years of near-total training inconsistency after a lifetime of activity", "category": "consistency", "severity": "high" },
+    { "text": "Twelve-hour working day including a two-hour round commute leaving no time — 'I just have been very busy and I kind of let that slide'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Cannot afford to retire and thinks about it constantly — 'I do not have that right now, so I can't retire'", "category": "work_stress", "severity": "high" },
+    { "text": "Broken sleep, waking once to urinate and sometimes unable to return to sleep because of stress", "category": "sleep", "severity": "medium" },
+    { "text": "Increasing tiredness — 'I've felt more tired lately. My work has been more pressured lately'", "category": "other", "severity": "medium" },
+    { "text": "Eats out or orders in three to four nights a week because neither he nor his wife want to cook after work", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "No way to know whether his self-directed Instagram workouts are being performed correctly", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I understand. I'm going to have to look at that, but okay. I understood. How do you take payments?",
+      "timestamp": "00:23:52",
+      "rep_response": "Did not isolate the objection and did not test whether anything else was outstanding. Went straight to payment mechanics: 'Use a credit card. Or you can use a third-party financing option too. So you can split it up into even 12 months. If you have a decent credit score, I think that's the reasonable solution because you don't have to put it all up front.' The interest-free in-house instalment plan — which he would disclose thirty minutes later on the follow-up call and which closed the deal instantly — was not mentioned.",
+      "response_tactic": "answer_payment_mechanics_only",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "proposed_label": "cannot_transact_from_current_location",
+      "raw_quote": "Yeah. I mean, I can't pay you right now. Again, I have to go. I'm in the car and everything, but I will go to my office and I'll sit down and I will work out payments if you send me the link.",
+      "timestamp": "00:24:41",
+      "rep_response": "Declined to send the link and required a live reconnect instead — 'Oh, we need to go over the call because I need to onboard you properly, get you on a call with Trevor and so on'. Agreed to reconvene on the same Zoom link in about ten minutes. The prospect used that interval to review his finances and opened the follow-up call asking to postpone the whole thing by a month.",
+      "response_tactic": "refuse_async_payment_require_reconnect",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Two routes offered and neither structured: pay by credit card, or use third-party financing spread over up to 12 months subject to credit score. No figures, rate, provider or total repayable were given. PayPal was confirmed as accepted when the prospect asked. The interest-free in-house three-by-$2,000 plan was NOT offered on this call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Verbal agreement was given — rep 'Ready to rock and roll?' / prospect 'Yeah' — and the prospect volunteered 'I will go to my office and I'll sit down and I will work out payments'",
+      "BUT no payment link was sent, so the verbal-agreement-plus-link-sent rule does not apply. The rep explicitly declined to send it: 'we need to go over the call because I need to onboard you properly'",
+      "No payment taken, no agreement raised, no onboarding booked",
+      "Strong stated fit throughout — 'I think it's one thing that sets this program above anything that I've looked at so far' and a clean commitment answer, 'Yes, sir. I am, Andrew.'",
+      "COUNTER-EVIDENCE and decisive: the price landed on soft resistance that was never worked — 'I'm going to have to look at that'",
+      "COUNTER-EVIDENCE: he had disclosed fourteen minutes earlier that he cannot afford to retire and that retirement funding is his main source of stress, and the rep did not factor this into the offer",
+      "COUNTER-EVIDENCE: the immediate reconnect thirty minutes later opened with 'I'm not sure that I can do $6,000 right now. So if possible, can I reschedule this for a month or so down the road?', so the ten-minute gap moved him backwards",
+      "OUTCOME NOTE FOR ROLLUPS: the deal did close on the paired continuation call. This record is scored follow_up so the same deal is not counted twice; see 2026-07-28_jeffrey-silver_andrew-musial_call2 for the close."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconnect on the same Zoom link in approximately ten minutes once the prospect reaches his office, to take payment and complete onboarding."
+  },
+  "notable": {
+    "note": "The most serious clinical omission in the batch, and it is not a screening failure — it is a follow-through failure. The rep asked the injury question properly and thoroughly, and a 68-year-old told him he has had an ankle reconstruction limiting dorsiflexion, bilateral knee problems that prevent squatting, and a cervical fusion of the neck. The rep's response to the summary of that picture was 'That's great. That's great.' He then sold six months of loaded ballistic kettlebell training without asking whether a clinician would clear it, without asking what the restrictions mean in practice, and without suggesting the prospect's own daughter — a physical therapist who has already assessed his movement — be consulted. Cervical fusion and overhead kettlebell work is the specific combination that should have stopped this call. Two other things: the rep heard 'I do not have that right now, so I can't retire' and never connected it to the $6,000 ask fourteen minutes later; and he declined to send a payment link to a prospect who had verbally agreed and asked for one, which cost him the momentum and produced a postponement request within thirty minutes."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous swapping. Nearly every rep question in the opening ten minutes sits under the prospect's label — 'So could you walk me through like what's been going on? Like what's the main thing you're looking to fix right now?' at 00:00:39 is the rep, labelled jeffrey silver. The 'saggy butt' exchange at 00:07:06 is inverted, as is the Trevor/Andrew name correction at 00:07:52, which reads as though the rep is correcting himself when in fact the prospect misnamed the coach and the rep supplied 'Trevor' and then 'I'm Andrew'. The entire final ninety seconds from 00:24:51 runs as one merged block with both speakers combined and no timestamps. Roles assigned from content throughout."
+  }
+}

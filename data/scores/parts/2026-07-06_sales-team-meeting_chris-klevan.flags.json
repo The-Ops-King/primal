@@ -1,0 +1,124 @@
+{
+  "call_id": "2026-07-06_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Prospects are routinely identified by sexual orientation and ethnicity by both reps and the sales manager throughout the meeting, with no one objecting.",
+      "evidence": [
+        "Who? Tom, yeah, the gay one. Yeah, I'm going to call him up today.",
+        "Why did you not close the ones you should have closed? ... Because I pressured the gay guy.",
+        "Because you did have a hat trick, so did you pressure all three of the gay guys? Is that what you're saying?",
+        "he told me like, no, you won't make a deal today with Eddie, the Asian guy.",
+        "Oh, I forgot to tell you, Tom, the gay guy, he actually didn't hang up.",
+        "All right, let's... Call up some gay guys."
+      ],
+      "timestamp": "00:11:22"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager instructs reps to advise prospects to put the $6,000 on a credit card and repay it over two to three years, and reframes a rep's stated ethical objection as a personal limitation.",
+      "evidence": [
+        "And then when you find out they have the cash, you're like, okay, dude, like, can I tell you what I would do if I were you? Yeah, I would pay all from I would do the whole thing. I'd put it on that credit card.",
+        "if you're investing $6,000 now on a credit card that will give you the flexibility to pay it off over the next two or three years, but you are able to put yourself in the next six months in a much better spot mentally, for your health, for your future family, you're not going to be thinking about it in three or four years.",
+        "he might have a credit card with like $20,000 available on And he might have just opened it up recently... they were telling me about 0% interest for the next 15 months on any purchase, yeah, why don't we just put it on the credit card? Easy. Done.",
+        "That's I do need to learn. Like, understand the whole doing the open wallet, but then advising someone and putting it on a credit card. And maybe it's because I haven't grown up with credit cards. Like, I've always been taught, like, you need to be able to pay it off, like, without a credit card. But that's something that's something I need to work on myself, too."
+      ],
+      "timestamp": "00:57:59"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A close praised by the manager and the team was funded on credit by a prospect who had just emptied his cash into a house purchase and taken a second job.",
+      "evidence": [
+        "it turned out, like, he bought a house in California, cash. So he got flushed out of cash, but he said he's taking another job, and we went through the open wallet, and then I figured out, okay, like, he could do six times 1,200, but I figured out, hey, like, he told me his credit score was 700-something. I was like, dude, put it on a credit card, and I figured out, yeah, PayVide is going to be the best solution, and went through.",
+        "So I spent literally $300,000 on my own cash for a dollar payment. So anyways, I don't have any cash, but I just picked up a second job, so I definitely have an extra, you know, that side job is giving me roughly around, about $2,400 extra, which half of it I need to use towards my mortgage, but I definitely can set aside $1,000 every month.",
+        "It was a really phenomenal call. I watched it before the meeting.",
+        "That's it. That's it, baby."
+      ],
+      "timestamp": "00:18:11"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A deposit was taken from a prospect whose bank account was overdrawn at the time of the call, and the rep reported it to the team as having handled the lead well.",
+      "evidence": [
+        "I had, uh, one person just didn't have any money. Dick had two deposits, even one from a guy that had minus six. 67 bucks in his account when I had to call with him, so I feel like I did okay with that lead, but I also did okay with the other guy I had right after him",
+        "Okay, 2 deposits, so you had 2 deposits, 1 unit, so that's technically 3 people that committed. Are any of those deposits going to come through? ... Both."
+      ],
+      "timestamp": "00:24:45"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "An automated agent presented under the human name 'Sophia' contacts prospects to confirm calls, and is discussed as a person whose malfunctions upset prospects.",
+      "evidence": [
+        "SalesKick was a bit wonky. Sophia was going rogue, doing some really weird stuff. Wouldn't be surprised if a lot of people were a little bit upset about that.",
+        "And if Sophia is acting a fool, then just make it, just take accountability and be like, look, I know that the bot is kind of on the fritz a little bit and I'm really sorry about that.",
+        "just ignore her and confirm with me and I'll look forward to speaking with you tomorrow.",
+        "In the meantime, I would also confirm your own calls, closers. Just do your best. Introduce yourself."
+      ],
+      "timestamp": "00:30:55"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Unconverted deposits are counted as closed units when the team calculates close rate, inflating the reported figure.",
+      "evidence": [
+        "All right, 9 live calls last week, yep, and you had 1 unit that came through. ... Yep, 2 deposits.",
+        "Okay, 2 deposits, so you had 2 deposits, 1 unit, so that's technically 3 people that committed... Both of them are going to come through, so that's technically 3 units, right?",
+        "So then you close 3 out of 9, so that's 33%, essentially.",
+        "That's not that bad, bro. ... No, they're not in yet."
+      ],
+      "timestamp": "00:25:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A deposit the rep knew to be a courtesy payment from a prospect who had privately said he would not buy was left standing in the week's reported numbers.",
+      "evidence": [
+        "the deposit that I took today... He was acting, like he paid the deposit, but I don't know if you saw that. I was conducting a call, like video via Zoom, and I had to call him because for some reason he didn't hear me. So we were on the phone all the time talking, and when I finished the call, he paid the deposit, I closed my Zoom, but I forgot about the phone. And I heard him talking with his wife, so, oh yeah, I had to pay this guy, but I don't think he will buy. He just made me a courtesy.",
+        "So he gave you the deposit just because? ... Yeah, just to get rid of me, I think.",
+        "Yeah, sometimes people will do that."
+      ],
+      "timestamp": "00:22:53"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "A publicly advertised $200 per month price brings prospects onto $6,000 sales calls under a false expectation, and management has deprioritised correcting it.",
+      "evidence": [
+        "The 200 a month. I had someone today and he read that online, so that's exactly what he expected.",
+        "He said like, yeah, I wouldn't have booked a meeting if it was six grand because I just can't do that right now. And he was just showing up with the 200 a month.",
+        "Yeah, I've talked to the team about it. It's a lower priority because all of our focus is on marketing right now.",
+        "it's not ideal when somebody. Everybody comes in with a price anchor like that, but ultimately there is such a difference in value that people are getting with one-on-one support and coaching from Trevor"
+      ],
+      "timestamp": "00:47:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A rep twice described having pressured prospects and the manager responded by objecting to the word rather than examining the behaviour.",
+      "evidence": [
+        "Yeah, I didn't close the ones that I should have closed. That's what happened. ... Because I pressured the gay guy.",
+        "So, I don't know, I could have pressured him a little bit more, maybe.",
+        "I don't like that word, pressure.",
+        "he didn't feel, after that conversation, like, pressured, like, my people."
+      ],
+      "timestamp": "00:16:11"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording or consent disclosure appears on a retained meeting in which named prospects, their finances and a credit score are discussed, and in which prospect call recordings are circulated as training material.",
+      "evidence": [
+        "he told me his credit score was 700-something",
+        "I watched Michael's Call with the surfer guy. And I really liked the... I wrote down the objection handling about the finances, like word to word.",
+        "Everybody take notes on what Andrew is doing throughout.",
+        "even one from a guy that had minus six. 67 bucks in his account"
+      ],
+      "timestamp": "00:18:11"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-24_nik-howe_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep unilaterally disqualified a five-of-five ICP prospect from the $6,000 one-to-one programme and presented only the $1,000 self-paced product, so the flagship price was never spoken and the buyer could not weigh the choice.",
+      "evidence": [
+        "So look, I want to be honest with you, because my goal is to direct you in a way that is going to be best tailored to your needs. And from what I'm hearing, you don't need one-on-one with Trevor.",
+        "I think pitching you, working with Trevor, which is like a premium solution, it's not the right fit.",
+        "So what we have is called Primal University. It's like a six-month subscription to a platform.",
+        "this is way more affordable because this is for six months it's $1,000, and you can even split it up into monthly payments, so six times of $200",
+        "financially it's not a hardship",
+        "I'm looking forward to working with you guys. So in whatever capacity."
+      ],
+      "timestamp": "00:19:29"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep gave a verbal commitment to credit the full Primal University fee toward one-to-one coaching later, a term recorded nowhere else in the corpus and inconsistent with the $500 renewal credit that appears in the written agreement.",
+      "evidence": [
+        "If down the line, you feel like I'm doing well on my own, but I want to take it to the next level with one-on-one, whether it's going to be Trevor's trainer or Trevor himself. We'll credit everything that you've already put toward Primal University into the one-on-one coaching program.",
+        "after six months, when you finish the two Primal Mastery structured workouts... you can decide whether it's enough for you, and you can design your own workout, or you want to move forward and we can always get back talk about working one-on-one."
+      ],
+      "timestamp": "00:24:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This call sells a different product at a sixth of the usual price, so counting it in the same close-rate population as the one-to-one calls will distort both conversion rate and average deal value unless it is marked.",
+      "evidence": [
+        "So what we have is called Primal University. It's like a six-month subscription to a platform.",
+        "Well, this isn't like one-on-one support.",
+        "this is way more affordable because this is for six months it's $1,000",
+        "I think pitching you, working with Trevor, which is like a premium solution, it's not the right fit."
+      ],
+      "timestamp": "00:22:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's name is never spoken aloud by either party and is derived solely from the Zoom display handle, so identity in this record is probable rather than confirmed.",
+      "evidence": [
+        "00:00:00 - nikhowe — Good, how are you? Fantastic, living the dream man.",
+        "I don't have the skills, you know, quite frankly, Andrew, you know, like, it's just not my forte",
+        "Yeah, that's great, Andrew."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker attribution is inverted through most of this transcript, including the rep's own discovery questions and the price reveal, which carry the prospect's label.",
+      "evidence": [
+        "00:02:45 - nikhowe — Yeah, mean, it's sort of both. Why is that?",
+        "00:16:00 - nikhowe — I'm a pizza guy, for example, a lot of good pizza from time to time, nothing bad will happen.",
+        "00:29:12 - nikhowe — Yeah? Yeah, yeah, sounds good."
+      ],
+      "timestamp": "00:02:45"
+    }
+  ]
+}

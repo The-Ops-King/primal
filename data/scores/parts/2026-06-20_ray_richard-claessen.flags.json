@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-06-20_ray_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "After $6,000/6mo was declined, the rep offered Primal University at $200 per month or roughly $2,000 per year as an alternative tier, neither of which is a listed price.",
+      "evidence": [
+        "it does have the meal plan set, training plan set not specifically to you but it's 10 times better than not having the plans for yourself. and that is for 200 a month",
+        "And then it gives like a monthly and a yearly option, you mentioned you want to sort of do like a trial period, so just go for the monthly. If you feel like saving 400 bucks in a year, then you can also go for the yearly, that's up to you."
+      ],
+      "timestamp": "00:57:36"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect stated he pays $200 for a full year with a competitor and was quoted $200 per month ninety seconds later, with no acknowledgement of the comparison he had just drawn.",
+      "evidence": [
+        "Because I'll tell you, I paid $200 for one year for Jeremy, you know, and it's through an app. It's AI-operated and stuff like that. So, you know, I know it's not one-on-one.",
+        "Have you... No, go ahead. Have you ever heard Trevor mention anything around, like, the Primal University?",
+        "and that is for 200 a month"
+      ],
+      "timestamp": "00:57:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep pressed for immediate signup three times after the prospect said he was out of time with a customer waiting, until the prospect declined on the grounds that he was mentally spent.",
+      "evidence": [
+        "I can't do it today, unfortunately. I'm at my hour.",
+        "So, it's, it's, it's like 15 minutes, 15 minutes. Like I can run you through it and we can get started. 15 minutes and then we don't wait.",
+        "Yeah, but I, my brain is starting to, like, I thought it was, I didn't think it was gonna be an hour, to be honest with you, you know?",
+        "I'm have to get back to you on this. I am going to sign up at least for one month, at least one month, but this is not the time that I could do it, like, right this second."
+      ],
+      "timestamp": "01:00:37"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed an abnormal blood panel including low testosterone; the rep redirected to nutrition and never returned to it, and no suggestion was made to follow it up clinically.",
+      "evidence": [
+        "I'm trying to get a blood panel because my last blood panel, my ketone levels were low.",
+        "And my testosterone was also low.",
+        "Okay. Can it maybe come from nutrition? Can you take me through your nutrition?"
+      ],
+      "timestamp": "00:11:23"
+    }
+  ]
+}

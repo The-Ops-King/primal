@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-06-09_chinedu-chukelu_harry-edmonds",
+  "source": {
+    "drive_file_id": "1UuWmD7I6YguJ4R17Rg6VcGAzyPrhZAFU",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "06/09/2026 - Chinedu Chukelu x Harry Edmonds KL",
+    "display_title": "06/09/2026 - Chinedu Chukelu x Harry Edmonds KL — Follow Up",
+    "file_size_bytes": 39936
+  },
+  "call": {
+    "date": "2026-06-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "Leicester, UK" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Rep: 'Cool, man. I know you spoke with Kyla.' Prospect: 'She kind of gave me an overview.' Later: 'I spoke to Kyla about what the program structure... She says, you're going to be able to give me some more background on that.'"
+  },
+  "prospect": {
+    "name": "Chinedu Chukelu",
+    "aka": null,
+    "name_source": "title",
+    "location": "Cambridge, UK (relocated from London last year)",
+    "age": null,
+    "occupation": "Lawyer at a hyper-growth tech startup; works fully remote and is currently hiring into his team",
+    "family_status": "Married. Wife has been living abroad for over a year and returns the week after this call. They intend to start trying for a baby soon, hoping for a child next year. Has a nephew aged two going on three.",
+    "height_in": null,
+    "weight_lb": 225,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Self-described as 'in my late 30s' and approaching 40. Played basketball once a week when he lived in London, plays centre and defence. Did not train at all last year — 'zero gym for me. Like I didn't go to the gym for one day last year.' Joined the university gym in Cambridge about two months before the call and is restarting: treadmill, stair master, bench press, 'very traditional'. Has never had a trainer. Already owns kettlebells which sit unused because he does not know the techniques. When asked height he answered '63', which the transcript does not disambiguate between 6'3\" and 5'3\"; recorded as null rather than guessed. Weight given as 102 kg.",
+    "kettlebell_experience": "none",
+    "medical": "No condition, injury or medication was disclosed, and none was asked about — the rep ran no health or injury screening at any point. The prospect did volunteer two health-adjacent facts unprompted: that he is 'almost at that burnout stage' from working 05:00 to 23:00 or midnight and spends weekends sleeping from exhaustion, and that a day running around a pumpkin patch with his nephew left him with back pain."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.75,
+    "signals": [
+      "Lost a full year to a hard season — wife abroad, relocation from London, a hyper-growth startup job running 05:00 to midnight: 'Last year was like zero gym for me.'",
+      "Explicitly wants a former self back: 'still maintain the drive of athleticism that I used to have, which I clearly don't have now'",
+      "Visible regret at the loss of capacity, measured against a personal benchmark: 'I have the skills to play basketball where I can't just move because I can't play past two minutes'",
+      "Strength loss is what actually bothers him, more than weight: 'each time I lift the weights, I feel like I can't even lift it. I've been to the gym trying to lift my usual weight. I can't even lift it anymore.'",
+      "Distinguishing note against the_optimizer: he is not already fit and is not going good-to-great; distinguishing note against the_prehab_fighter: there is no active health event, the deadline is a planned first child."
+    ]
+  },
+  "goals": [
+    { "text": "Build strength back to where it used to be — the loss of lifting capacity is what bothers him most", "category": "strength" },
+    { "text": "Improve agility and flexibility", "category": "mobility" },
+    { "text": "Drop about 10 kg while improving body composition, prioritising composition over the scale", "category": "fat_loss" },
+    { "text": "Pick up basketball again and stop gassing out after two minutes on court", "category": "hobby_performance" },
+    { "text": "Build sustainable fitness habits now, before a first child arrives and makes it impossible", "category": "consistency" },
+    { "text": "Be able to play basketball with his future kid for a very long time", "category": "longevity_family" },
+    { "text": "Set a great example for his children through visible strength and consistency", "category": "family_role_model" },
+    { "text": "Learn correct kettlebell technique so he can train at home in about 40 minutes without leaving the house", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Work at a hyper-growth tech startup runs 05:00 to 23:00 or midnight; expectations are 'enormous' and fitness is always the thing that gets pushed aside", "category": "time_scarcity", "severity": "high" },
+    { "text": "Self-describes as 'almost at that burnout stage' and spends weekends sleeping because he is extremely exhausted", "category": "work_stress", "severity": "high" },
+    { "text": "Did not train at all for a full year and has visibly lost strength and conditioning", "category": "consistency", "severity": "high" },
+    { "text": "Since moving to Cambridge the gym is closed by the time he finishes work, and he no longer has the in-building gym he had in London", "category": "training_barrier", "severity": "medium" },
+    { "text": "Owns kettlebells but does not know the technique, so they sit unused", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Gasses out within two minutes on the basketball court despite retaining the skills", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Back pain after a day of running around with his young nephew", "category": "injury", "severity": "low" },
+    { "text": "Fears that once a child arrives he will lose fitness entirely and never get it back — 'if I get to that point, might just lose it and never come back'", "category": "aging", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "that's kind of like where my head's at. That would be the comparison is on a net-net basis, what's the value vis-a-vis getting a trainer in the gym, right? Which is going to be more effective.",
+      "timestamp": "00:27:02",
+      "rep_response": "Gave a deliberately even-handed pros-and-cons comparison and repeatedly conceded the trainer would be cheaper, including volunteering a price for it — 'I'll say trainer probably be cheaper too... probably 50 quid for a session'. The one differentiating move was the analogy that Trevor is Steph Curry to a gym trainer's LeBron James's son. He then told the prospect the real question was whether he wanted to commit to kettlebells at all.",
+      "response_tactic": "unbiased_comparison_plus_authority_analogy",
+      "resolved": false
+    },
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "this is probably where I need to be more convincing on kettlebells and why that's more of a better path than getting a trainer in the gym",
+      "timestamp": "00:04:09",
+      "rep_response": "Explained kettlebells as all-encompassing — cardio, muscle, strength, functional, joint-friendly — and explicitly refused to oversell: 'if I put the bias on it, I'll say it's the best in the world, but I don't want to put a bias on it.' Also handled the frequency and time objection well: three to four days a week, 30-45 minutes, at home.",
+      "response_tactic": "category_positioning_with_explicit_bias_disclaimer",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I think that's all for now. Obviously, I have a lot to think about on this.",
+      "timestamp": "00:31:51",
+      "rep_response": "Asked how long he needed and accepted 'about a week' without running any play. Then actively reinforced the deliberation — 'I'm not going to tell you not to do it', 'the most important thing is just committing to something... whether it's this or whether it's personal trainer' — and ended by putting the onus entirely on the prospect to make contact.",
+      "response_tactic": "accept_timeline_and_hand_back_control",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two payments of £2,250 splitting the £4,500 total down the middle. The rep stated a surcharge policy for anything beyond two instalments: 'If you break it up more than that, the price goes up. So I always recommend people to just split it in two if they can't do it in one.' Note the transcript renders £2,250 as '£22.50' throughout — an ASR artefact, not a quoted price.",
+    "guarantee_mentioned": "'We have a guarantee as well. The guarantee is that you will put eight kilos on all of the kettlebell movements by the end of the six months. Eight kilo doesn't sound like a lot when you're used to bench pressing, but with the kettlebell, it's quite a lot, especially in six months.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "'I have a lot to think about on this... I'll say about a week. At the very least, about a week.'",
+      "'to be fully transparent, I'm also considering other alternatives as well... I'm trying to figure out if I could get a personal trainer.'",
+      "Positive signals: 'The unique thing about Trevor's program, I think that stands out for me, is it does fit well into my schedule. And the fact that once I get the technique, there isn't that dependency on the program long-term' and 'I'm kind of like what I'm hearing.'",
+      "Counter-evidence: no follow-up call was booked and the rep handed control to the prospect — 'I'll reach out to you so you have my number and then if you want to do it you can reach back out to me.' The rep also closed by telling him to first decide whether he wants kettlebells at all, which leaves the deal genuinely open.",
+      "No money objection was ever raised; the prospect asked the fee structure neutrally and did not react to £4,500."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "No call booked. The rep said he would text so the prospect has his number, and left it to the prospect to reach back out. The prospect asked for roughly a week and expects his wife home by then."
+  },
+  "notable": {
+    "note": "Commercially the best-qualified prospect in this batch — a lawyer at a hyper-growth startup, no price resistance of any kind, and a hard deadline in the form of a first child — and the rep effectively talked him into keeping shopping. He volunteered that a personal trainer would probably be cheaper and even supplied a price for one ('probably 50 quid for a session'), told the prospect 'I'm not going to tell you not to do it', and closed with 'the thing you need to think about first is whether you want to commit to kettlebells or not' rather than asking for the business. No health or injury screening was conducted at any point despite a 102 kg prospect who had not trained for a year, reported exertional back pain and described himself as near burnout. Price was quoted as £4,500 for six months — a third GBP figure across three calls, after £4,470 and £4,466 on 28 May — and a payment-plan surcharge policy was stated here that was not disclosed on either of the other two calls in this batch."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion of short turns and several long merged passages. At 00:04:09 the prospect's question about kettlebells versus a gym trainer and the rep's entire answer sit under a single rep label; at 00:06:11-00:06:43 the rep's and prospect's lines alternate under the wrong labels; the final four minutes from roughly 00:34:00 collapse into unpunctuated blocks with both speakers merged. Roles were read from content throughout. Also contains ASR corruption: '£22.50' for £2,250, 'Drava' for Trevor, 'carla' for Kyla, and a garbled run at 00:24:00 ('study. chuquette power power power')."
+  }
+}

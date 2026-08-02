@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-05_ruben-acosta_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented as phase one — nine functional movement patterns against the four a standard split uses, imbalances from sitting all day, and sessions of 30-40 minutes three to five times a week against his current two hours. The prospect's response was a question about structure rather than agreement or enthusiasm: 'Well, phase one, it's the six months?', prompted by the rep describing phases and the six-month term in the same breath. The rep corrected it ('all the three phases are happening over six months... probably a better way to say is like parts') and the prospect accepted with 'Okay.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as the primal eating protocol, explicitly positioned against tracking macros and calories — which is precisely what the prospect had started doing a month earlier. He did not push back on the contradiction: 'Yeah. Cool.' Later, asked how he felt about the whole process, he volunteered that this pillar was the part that fit: 'in the part of the nutrition, I'm kind of, you know, making my own research, and, you know, having that compliment, it's good for me.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Presented as True Coach for programming and form video review, plus the Skool community, coaches and weekly classes. This was the pillar he interrogated: 'How is the communication? I would say if I need to start to keep updating, like I did my workout and sent some notes or how is the interaction?' and then 'it's an app or it's in a website?'. Given that eighteen months of self-directed video training with no feedback is his actual problem, this was the pillar carrying the value, and the rep's answer partly undercut it: 'our whole thing is like, we're there if you need us... we're not trying to create like a babysitting program... it's something like as needed.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "it's another guy that it's called Build Simple and it's kind of calisthenics as well. And yeah, but from, from $80 to $100 a month. So I would say that, that will be kind of my range.",
+      "direction": "undercuts_price",
+      "competitor": "Build Simple",
+      "note": "A named, priced substitute at roughly one twelfth of the monthly cost, offered by the prospect as his actual budget. He acknowledged the difference himself — 'of course is not a personal coach, it's kind of more like an app' — which was the opening to argue value, and the rep instead called it 'more of the same'. This is the second recorded instance of the known script gap for a functioning cheap alternative."
+    },
+    {
+      "type": "incumbent_programme_that_works",
+      "raw": "It's not that I'm not seeing the results, it's more like, you know, for me it's more like the time, because I am, you know, I know that I'm seeing the results",
+      "direction": "undercuts_price",
+      "competitor": "Fitness FAQs calisthenics programme",
+      "note": "The most important anchor on the call. Eighteen months of measurable progress on a low-cost video programme — pull-ups from near zero to 10-12, plus dips and push-ups — means the offer is not being compared against failure, it is being compared against success. His complaint is session length, which is a scheduling problem, and $6,000 is a very large price for a scheduling problem."
+    },
+    {
+      "type": "prior_coaching_spend",
+      "raw": "that's a little bit higher of what I was, you know, considering, considering what I, you know, I've spent or invest in my previous",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived anchored to what he has historically paid for programmes, which on his own numbers is in the $80-100 a month range. The rep never established that figure before quoting, so the reaction was predictable."
+    },
+    {
+      "type": "personalisation_valued",
+      "raw": "I actually was very impressed when I received the first call, because I was just kind of looking for the information... but when they called me, I was like, oh, this is good, because it's personalized, real people, yeah, and I was impressed, and I was like, ah, maybe that's a good thing to try.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The one supportive anchor, and the rep elicited it himself in Phase 4. The prospect volunteered that human contact was what differentiated this from everything else he had looked at, and that it was the reason he took the call at all. It was never referenced again once the price landed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Real coaching and personalisation at a price between $80 and $200 a month — he wants the feedback he has never had, and named that range as his ceiling.",
+      "why_unmet": "The product line has a $6,000 coaching tier and a $199 self-serve tier with explicitly no personalisation, no feedback and no accountability. There is nothing in between, so the thing he actually wants — someone to review his form and adjust his programme — does not exist at any price he can reach.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Core and abdominal work, the one goal he named as unresolved after eighteen months: 'I don't really train anything for the core. So maybe that's because of that.'",
+      "why_unmet": "He diagnosed his own gap accurately and the rep never returned to it. Nothing in the pitch addressed core training, and the abdominal fat that opened the call was not connected to any part of the three-phase process.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Reassurance that the eight-year collapse after his first child will not repeat — his own framing of what he is buying is durability: 'trying to do something like I can maintain'.",
+      "why_unmet": "The rep heard the pattern and confirmed it back, then let it go. The long-term-success pillar is the natural answer and was presented generically rather than tied to the specific risk he had just described.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

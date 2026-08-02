@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-06-04_chris-klevan-1-1_ben-byrne",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager issues a standing instruction that sending a payment link is a failed close, contradicting the verbal-agreement-plus-link-sent rule the corpus uses to define a close.",
+      "evidence": [
+        "Well, I called you to say no more sending people payment links and no more letting them get off the call. Just take the sale when it's there.",
+        "I saw that you were like, yeah, I'll send you the payment link over and, you know, you can just go through that on your own time and get back to me whenever you feel like doing this. And I was like, wait, what the heck is going on right now?",
+        "That was not good, man. Not good.",
+        "No more missing deals because you're not asking for the clothes."
+      ],
+      "timestamp": "00:05:50"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "An internal manager 1-1 is titled with only the manager's name, in the same format as the prospect-named sales calls in the same folder.",
+      "evidence": [
+        "06/04/2026 - Chris Klevan",
+        "Well, I called you to say no more sending people payment links",
+        "Alright, and stay on top of this Thomas guy."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A disability slur is used three times and a booked prospect is referred to as 'this chick' on a recorded company call.",
+      "evidence": [
+        "Yeah, I know. I'm a dumbass.",
+        "It's like my brain freaking shut off for a second. I'm retarded.",
+        "I don't think you're retarded. I think you had a moment of a lot of overthinking.",
+        "Alright, let me, uh, let me call this chick and see where she at."
+      ],
+      "timestamp": "00:01:41"
+    }
+  ]
+}

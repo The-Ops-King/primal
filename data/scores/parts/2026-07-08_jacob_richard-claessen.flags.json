@@ -1,0 +1,26 @@
+{
+  "call_id": "2026-07-08_jacob_richard-claessen",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The call was abandoned at twenty minutes for connection quality and continues in a separate recording three days later, so this file is half a conversation and must not be counted as an independent opportunity.",
+      "evidence": [
+        "I'm thinking it's best for us to reschedule and it's not because I don't want to have a conversation with you because I feel it will definitely help you, but it's very hard for me to actually completely understand everything.",
+        "So Saturday, would you be available at like 1 p.m.?",
+        "And I've already got a good idea for my information. So we'll just go over like the small details on Saturday. And then if everything is a fit, we can also get you started."
+      ],
+      "timestamp": "00:18:19"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A substantive discovery answer was lost to a dropout and never re-asked, so the reason the prospect stopped training is absent from the record.",
+      "evidence": [
+        "Why did you stop going to the gym when your partner got pregnant? Because we stopped with her.",
+        "Sorry, you got out completely so I did not hear anything that you were saying just now."
+      ],
+      "timestamp": "00:17:36"
+    }
+  ]
+}

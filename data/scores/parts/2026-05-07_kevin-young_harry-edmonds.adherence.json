@@ -1,0 +1,66 @@
+{
+  "call_id": "2026-05-07_kevin-young_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Setter contact acknowledged rather than read back — 'you spoke with Kim I think right... he gave me like a background of you so I'm already ahead' — though the frame did at least name the purpose of going further than the setter: 'I just want to get a good idea of where you're at, go a little bit deeper than Kim, really build out what it is that you want to accomplish, and then if there's alignment we can talk about the coaching.' Still two parts of four, agreement token only, open question run verbatim."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "hit", "P2i": "hit" },
+      "evidence": "The only call in the batch where sleep and energy both ran, and they ran as a deliberate checklist item: 'I guess the last things I would check would be, um, sleep. What's your sleep like and like your energy levels?' That produced seven hours, sub-optimal energy and a caffeine dependence he wants to break — all three genuinely useful. Age asked directly. Diet asked properly. But height and weight were volunteered inside the goal discussion, work was only confirmed at minute 23 as a lead-in to the tax pitch, and there was no health-conditions question and no injuries question at all — the hip, knee and ankle stiffness surfaced under mobility goals rather than under screening."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "hit", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Strong on the surface layer and it stopped exactly one question short. The six-month question ran, mobility was probed separately and properly — 'Talk to me about the mobility, what are you looking for in that side of things?' — and the what-does-that-do-for-you question ran almost verbatim: 'when you get to that point, what kind of changes for you? What actually changes for you day to day?' The answer was thin (more energy, more consistency) and was not pushed. Then the ladder stopped. This is a 29-year-old with three children and a wife who drove his whole shift in perspective — he said so out loud, 'having kids is another, my wife has always been kind of more holistic about things' — and the rep replied 'Nice dude' and moved to the presentation. 'Who else does that impact' was never asked."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "miss", "P4b": "partial", "P4c": "hit", "P4d": "partial", "P4e": "partial", "P4f": "miss" },
+      "evidence": "The why-didn't-it-stick question ran well and was followed up twice: 'you said you've been a little bit inconsistent over the last couple of years. What kind of caused that for you?' produced time and priority, and rather than accept it the rep pushed — 'I'm curious, I guess, why?' and 'what caused you to be like, I'm going to put health on a way higher priority now than it was?' — which surfaced the real driver. What never ran is the inventory of past attempts and what happened to each, and the root-cause line. The prospect did name his own gap later, unprompted: 'the biggest thing for me is just, is the accountability.'"
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Absent, as on every call in this batch. The setup was there and unusually clean — a man who has been inconsistent for three years, has just decided health is now a priority, and has three young children — and the two-year question, the settle-for-it question and the line in the sand were all skipped. When price landed the only counterweight available was a tax deduction."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "partial", "P6c": "partial" },
+      "evidence": "Both checks appeared as softer variants and, to the rep's credit, before the price: 'in terms of the process, I know you like the accountability. How do you feel about it all? Is it in alignment with really what you're looking for? Is there anything you feel like is missing?' → 'it all is alignment.' After the price he ran a genuine isolate — 'just so I'm clear as well, is this something that you want to do? If your accountant says yeah, we can frame it as X, Y and Z, is this something you want to go ahead with?' — which is the right question in the right place. Neither of the scripted commitment questions was asked in its own words, and 'it all is alignment' was treated as the clear YES."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "No programme payment; only a $100 refundable deposit, agreed as the recording stopped. The onboarding call was described as available Monday or Tuesday and was never booked, despite the rep saying twice that booking it is 'the first thing'. The agreement was described — 'we do have an agreement for you, it's just formalities, it's like a two page thing' — but not sent and not signed. No welcome email, no Skool link, no questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Diagnosed cleanly — 'Is it like a more of a financial concern for you?' — and isolated cleanly. The break-it-up options were laid out with the trade-offs stated, including that monthly carries a premium. Not run: the permission question for an open financial conversation and all six FINANCIAL PICTURE items — no cash on hand, no monthly surplus, no cards, no available credit, no investments. The substitute lever was the tax write-off, which the rep had already introduced before the price, so the money conversation became an accounting conversation rather than a capacity conversation."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'Hopefully the next 24 hours' is the delay. The rep asked the right scoping question — 'How long do you feel like you really need to actually make the decision on it?' — and closed the loop with a $100 refundable deposit to hold the slot, which is a real commitment device. None of the seven scripted OA moves ran; the deposit did the work instead."
+    },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "No partner gate. His wife appears as the influence behind his shift toward holistic health, not as an approver." },
+    { "play": "OD", "trigger_present": false, "ran": "not_applicable", "detail": "No timing conflict; he wanted to start next week." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt about outcomes — his stated confidence was in himself once a cycle starts: 'whenever I'm in like a training cycle, I'm very honed in'." },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A script gap the rep created himself. By raising the business write-off ninety seconds before the price, he converted the decision into one that a third party — an accountant — now has to approve, and there is no play for that gate. The nearest scripted equivalent is OB, but the moves do not transfer: you cannot ask whether the CPA has any reason not to want him stronger. He improvised sensibly (isolate the desire, ask what happens if the answer is no, take a deposit), and the lesson for the script is that the lever created the objection."
+    }
+  ],
+  "notes": "One of the better-run calls in the batch — the only one where sleep and energy were both asked, the mobility goal was probed separately, and the money isolate was clean and well placed. Two coaching points. First, Phase 5 again: three kids, a stated shift in priorities and three years of inconsistency, and no cost-of-inaction question. Second, and more consequential, raising the tax write-off before the number handed the decision to an accountant; sell the outcome first and let the accounting be an afterthought, not the gate."
+}

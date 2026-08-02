@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-28_vimal_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The setter told the prospect the day before that the price was 'between 1 and 6', anchoring him to a possible $1,000 entry point that does not exist in the stated offer and framing the actual $6,000 as the top of a range.",
+      "evidence": [
+        "The guy who I spoke to yesterday... So the idea that I asked him how much is going to be, he goes, it's between 1 and 6, but he goes, the next call will tell you more. So it's come out at 6.",
+        "No, I will digest because I didn't know what the price was going to be. Okay. I had a range.",
+        "prior to this call i didn't know how how much it was and how long it was for so what you've shared the new information that you've given me on this call ... is six thousand covers a six month period"
+      ],
+      "timestamp": "00:43:59"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep disparaged physiotherapy advice unprompted to a prospect presenting with hip restriction, weak glutes, weak lower back and knee pain who has never been clinically assessed for any of it.",
+      "evidence": [
+        "a lot of people, especially, uh, when they go to a PT, they say, Oh, you need to stretch. You need to do that's okay. That's fine. But when your muscles are going to be weak, your stretching doesn't help you like at all.",
+        "so I think my hip mobility is something which I need to fix",
+        "Symptoms are weak lower back, weak glutes, maybe a bit of knee pain.",
+        "I'm not very good with the stretches, otherwise we probably wouldn't be having this conversation."
+      ],
+      "timestamp": "00:05:22"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect disclosed restricted hip mobility, weak lower back, weak glutes, knee pain, an inability to squat deep and a history of back strains; no injury or health-condition question was asked, no clearance was sought, and the rep recommended replacing his entire strength programme with kettlebell work.",
+      "evidence": [
+        "Symptoms are weak lower back, weak glutes, maybe a bit of knee pain.",
+        "I'm trying to use a free weight squat bar at the moment. know there's only so deep I can go and I'll keep it really light",
+        "if I pull something in my back or something happens. I'm not, it's less the back I'm worried about. The bigger frustration for me is, damn, I can't train now for four days.",
+        "So you asked me, should you keep the workouts are you doing right now or replace it entirely? I would say that Trevor is going to be saying that, yeah, replace it entirely",
+        "In my opinion, it would replace the current strength and bodybuilding."
+      ],
+      "timestamp": "00:04:20"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep asserted a specific and substantially incorrect calorie figure for a biscuit and used it as the explanatory mechanism for the prospect's weight gain.",
+      "evidence": [
+        "when we dig deeper that there's a biscuit or two, every single day. Like, this single biscuit is probably around 500 calories that you just eat, like, in one minute, and it's gone.",
+        "One or two, yeah, depending if I have two coffees, that's two biscuits if I'm in the office.",
+        "You know what? It sounds like you're not eating a lot."
+      ],
+      "timestamp": "00:33:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "The rep quoted a sterling equivalent for the contract price off the cuff and with an explicit admission of uncertainty, without stating the contract currency, the conversion basis or the date.",
+      "evidence": [
+        "So for that period to work with Trevor, the full investment is 6K USD.",
+        "Which is in pounds, I don't know, 4,800.-ish, yeah."
+      ],
+      "timestamp": "00:43:22"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Roughly four minutes of the call are missing from the recording because the rep's laptop restarted mid-conversation, losing the opening of the nutrition discovery.",
+      "evidence": [
+        "So nutrition, could you just briefly walk me through, like, what exactly are you eating on a daily basis? I forgot you're back, Andrew.",
+        "My laptop did a reset. I was supposed to press, oh, restart later.",
+        "And I think while I was talking to you, I pressed restart now so that everything just shut down.",
+        "So we were talking about the nutrition, yeah?"
+      ],
+      "timestamp": "00:09:13"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The decision and any resulting sale move to WhatsApp with the rep travelling on vacation, so the outcome of this deal will not be captured in the recorded call corpus, and the prospect's surname is never spoken.",
+      "evidence": [
+        "because I'm going to be traveling tomorrow, we can exchange WhatsApp numbers",
+        "So just let me know via WhatsApp.",
+        "So I can make a decision on this by tomorrow. Yeah, give me 24 hours.",
+        "and then I can message to someone within our team to get you onboarded"
+      ],
+      "timestamp": "00:48:21"
+    }
+  ]
+}

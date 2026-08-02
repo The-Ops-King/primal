@@ -1,0 +1,148 @@
+{
+  "call_id": "2026-06-01_sascha_ben-byrne",
+  "source": {
+    "drive_file_id": "1t25mH_qixdesGc_NfFEpZvhm_smSDiLO",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/01/2026 - Cole Crossland x Ben Byrne ",
+    "display_title": "06/01/2026 - Cole Crossland x Ben Byrne  — Lost",
+    "file_size_bytes": 54240
+  },
+  "call": {
+    "date": "2026-06-01",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 58,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Canada" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Sascha",
+    "aka": "Alexander - the same name in Russian usage; the call was booked under a different name again and the file is titled 'Cole Crossland'",
+    "name_source": "transcript",
+    "location": "Berlin, Germany - originally from Russia",
+    "age": 21,
+    "occupation": "Second-year medical student at a private university in Berlin; also launched a web design business, CodaStudio.de, one to two weeks before the call",
+    "family_status": "Single - ended a three-year relationship the week before the call. Lives with his parents, who pay roughly 1,500 euros a month for his private medical school.",
+    "height_in": null,
+    "weight_lb": 193,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training two to three years, primarily gym-based on a push/pull/legs split with separate shoulder and forearm days. Boxed previously but stopped roughly a year ago because of his shoulder. Played soccer for six to eight years until around 2020. Currently trains four times a week - two gym sessions and two at home doing dips and pull-ups on Amazon-bought equipment, timing how many dips he can do in ten minutes. Weight went from 85 kg to 90 kg during exams and is now back to roughly 87.5 kg. Has never worked with any coach or trainer; this was his first time reaching out to anyone.",
+    "kettlebell_experience": "none",
+    "medical": "Extensive and partly active. Currently wearing a brace or support on his leg for a small fracture of the shin and a fracture of the femur, sustained from jumping rope after returning to training too aggressively following a March exam break: 'I wear this thing from my leg because I have like a small fracture on my shin and on my femur.' History of a shoulder problem that required an operation, with a suspected biceps tear following the operation: 'I fixed this issue, the operation, I think I even tore my biceps after the operation.' Tore a muscle last year and nearly broke his knee the year before. Chronic lower back pain which he rates six to seven out of ten at night and which prevents him sleeping until he cracks his back: 'if I lay down in bed, I can't sleep without cracking my back before, because I feel so pain in my lower back.' Attributes it to sitting all day and a weak core. No clinician was mentioned as being involved in any current care, and none was asked about."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.55,
+    "signals": [
+      "Borderline assignment - flagged for central review. The strongest single fact about him is that he had roughly $900 to his name, which no avatar in the vocabulary describes. Proposed label if a new one is wanted: the_constrained_striver - very high intent, high self-direction, materially unable to pay, and carrying an injury load that should have stopped the sale on clinical grounds rather than financial ones.",
+      "Rebuilder signals are real: he has lost ground to a sequence of injuries (shoulder operation, torn muscle, near-broken knee, current shin and femur fractures) and to a hard season (a punishing March exam block and a relationship that ended a week before the call)",
+      "'I'm searching for something new, you know, I'm going to start a new chapter'",
+      "Diverges from the rebuilder on one point: he is not chasing a former self. He has never had the body he wants - 'I didn't do the cut yet, where I say okay, that's my goal now, want to have my first real six-pack'",
+      "Overlaps materially with the_medically_constrained on injury load, but is not assigned there because no clinician blocked him and the barrier that actually stopped the sale was price, not clinical fit",
+      "Not skeptical_bargain_hunter: his free alternative demonstrably failed him - 'I spend time on YouTube or something, I will find a way... But then I tried it a long time'"
+    ]
+  },
+  "goals": [
+    { "text": "Build functional, high-quality muscle rather than muscle that is only for show", "category": "strength" },
+    { "text": "Regain mobility and flexibility - he feels stiff and inflexible from gym training", "category": "mobility" },
+    { "text": "Get rid of the lower back pain that stops him sleeping", "category": "injury_confidence" },
+    { "text": "Return to boxing, which he had to stop for a year because of his shoulder", "category": "hobby_performance" },
+    { "text": "Achieve his first real six pack through a proper cut", "category": "fat_loss" },
+    { "text": "Train in 30-40 minutes without travelling to a gym, so it fits around med school and his business", "category": "convenience" },
+    { "text": "Be able to travel and run anywhere without needing to find a gym", "category": "convenience" },
+    { "text": "Treat his health as a responsibility of faith - 'my body is the temple of the Holy Spirit'", "category": "other" },
+    { "text": "Stop injuring himself and train in a way that is sustainable at 21 and beyond", "category": "injury_prevention" },
+    { "text": "Motivate other people outside the gym by example", "category": "other" },
+    { "text": "Rebuild himself and his priorities after the relationship ended, and become the best version of himself", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Active small fracture of the shin and a fracture of the femur, currently in a brace, from returning to training too hard after an exam break", "category": "injury", "severity": "critical" },
+    { "text": "Shoulder problem that required an operation, with a suspected biceps tear afterwards; stopped him boxing for a year", "category": "injury", "severity": "high" },
+    { "text": "Chronic lower back pain rated six to seven out of ten at night, requiring him to crack his back before he can sleep", "category": "injury", "severity": "high" },
+    { "text": "History of a torn muscle last year and nearly breaking his knee the year before", "category": "injury", "severity": "high" },
+    { "text": "The gym no longer feels fulfilling - the looks improve but he feels he is injuring himself", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Feels stiff and inflexible, and believes his core is not stable", "category": "training_barrier", "severity": "medium" },
+    { "text": "Severely time-constrained - med school with a major exam in two months, plus a new business, so gym trips cost two and a half hours each", "category": "time_scarcity", "severity": "high" },
+    { "text": "Years of piecing training together from YouTube without it working, and no longer wants to spend time researching", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Wants expert eyes on his form and has never had them", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Discovered a week before the call that his first girlfriend of three years had been cheating on him for a year, and ended the relationship", "category": "emotional", "severity": "high" },
+    { "text": "Gained five kilos during a two-month exam block from stress eating sugar while studying 8am to 8pm", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "But right now I have, okay, let's say $900 left. All right. I had like nearly $2k and then I spend a bit. Because of my business, et cetera, and on my Instagram, which was not a good idea. Too many. So let's say 900, 200 of them are like an investment. I have 700 and maybe I'm ready right now. I hope you have these prices to spend right now on my health, 300, 400, let's say 300.",
+      "timestamp": "00:38:25",
+      "rep_response": "This was volunteered before any price was quoted, in response to the rep asking what he had available to invest. The rep then quoted $6,000, drew 'Damn. Okay. Yeah. And far from it', and moved to the $199/month tier. No payment plan on the flagship was offered or mentioned at any point. The only route to the flagship the rep raised was a credit card: 'Unless you had a credit card with like 10 grand that you want to just throw six of it onto this.'",
+      "response_tactic": "elicit_budget_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "Not like in particular of you, but in general, I think nowadays social media, a lot of people are not genuine about what they do, what they're doing. You know, they're not, for example, I think... For example, like this, or for example, if people are generally like only doing it for the money.",
+      "timestamp": "00:27:25",
+      "rep_response": "Did not address credibility, proof or results. Responded with a personal philosophy tangent about the author David Hawkins and a practice that grew by focusing on helping people. The prospect had already answered his own objection, so it dissolved without being handled.",
+      "response_tactic": "philosophical_rapport_tangent",
+      "resolved": true
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "maybe I don't have someone who's always watching how my forum is, but I have a plan. You know, I have a community, I have a plan, and I know what I need to do. I don't need to waste time on searching and doing a lot of Research and such stuff.",
+      "timestamp": "00:43:45",
+      "rep_response": "Affirmed the reduced scope rather than testing it: 'if you're self-motivated and you don't need somebody babysitting you to, you know, hey, did you work out today? Oh, did you do it right? Yeah, it's a really good starting point.' This accepted a self-supervised path for a prospect with active fractures and a post-operative shoulder.",
+      "response_tactic": "affirm_self_direction",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 199 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 900,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "The audited offer was explicitly out of reach: rep quoted 'It's 6k. It starts at 6k' and the prospect replied 'Damn. Okay. Yeah. And far from it.'",
+      "The twelve-month tier was never quoted on this call at all - only 'there's six months, there's a year' with a single 6k figure",
+      "He verbally committed to the $199/month Primal University instead - 'I'm pretty certain that I will' and 'So I'm ready. Let's do it' - and the rep dropped the join link into the Zoom chat",
+      "No payment was taken on the call; the link was self-serve",
+      "Counter-evidence: under a literal reading of the verbal-agreement-plus-link-sent rule this would score as closed. It is recorded as lost because the commitment was to a different, lower-priced product and the flagship was declined on affordability. Scoring a $199/month subscription into the same close rate as $6,000 deals would corrupt the metric.",
+      "Counter-evidence: intent for the flagship was genuinely high and time-bound to money, not desire - 'as soon as I can afford it, I know I will do it' - so this is a live future opportunity, not a dead one, and no follow-up was scheduled to capture it"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep put two links in the Zoom chat - a Primal University join link and a link to his own personal YouTube video on manifesting. Prospect said he would join Primal University and would watch and comment on the YouTube video. No follow-up date was set and no path back to the flagship was established despite the prospect stating he would buy it once he could afford it."
+  },
+  "notable": {
+    "note": "The most serious call in the batch on clinical grounds. A 21-year-old disclosed in the first two minutes that he is wearing a brace for a current shin and femur fracture, has had a shoulder operation with a suspected subsequent biceps tear, tore a muscle last year, nearly broke his knee the year before, and has nightly lower back pain at six to seven out of ten. He was then sold into an unsupervised, self-directed kettlebell library - the tier the rep himself described as having 'no personalization or accountability' and no form correction. Nobody asked whether a doctor or physiotherapist had cleared him to train, on a call where the prospect is himself a medical student. Separately: the file is titled with a completely different prospect's name, the rep floated putting $6,000 on a credit card at a student with $900 to his name, and the rep used the call to promote his own YouTube channel and asked the prospect to like and subscribe."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, especially on short turns and at turn boundaries. Clear cases: at 00:01:52 'Okay. And you see, I had a lot of problems, for example, with my shoulder' is labelled Ben but is the prospect; at 00:11:07 'Two times I go to the gym and two times I do it at home' is labelled Ben but is the prospect; at 00:12:00 'However, you've been enjoying the gym and working out less and less because of your-' is labelled Sascha but is the rep; at 00:23:44 and 00:24:46 the weight and six-pack exchanges are swapped; at 00:47:33 'Damn, you look younger' and the age answer are crossed. The prospect's speaker label is 'Sascha' with no surname, and no surname is ever spoken on the call. All role assignment was made from content."
+  }
+}

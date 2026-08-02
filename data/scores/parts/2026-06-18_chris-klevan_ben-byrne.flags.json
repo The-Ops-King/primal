@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-06-18_chris-klevan_ben-byrne",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Manager taught an escalating mortality frame as a closing lever, role-playing an imagined one-year death sentence to drive an immediate payment decision.",
+      "evidence": [
+        "If you knew death was coming, what would you do? Would you try or would you just accept? Where you're at?",
+        "Let's say it was coming in a year. Do you want to leave at your best? Or do you want to just be like, ah, it. I give up.",
+        "Well, it's just not who I want to be remembered as by my kids and wife and friends, family.",
+        "So what do we do? Because it starts now, not tomorrow. You have 365 days."
+      ],
+      "timestamp": "00:25:39"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Manager confirmed the rep is repeatedly closing calls without taking deposits, eight days after deposits were mandated for every follow-up and onboarding booking.",
+      "evidence": [
+        "Well, something's going on because you're still leaving people without deposits.",
+        "you're getting to a point where maybe you solve it and maybe you get to the end, but you're not going for getting them to actually commit.",
+        "So something is happening there where you're lacking the ability to get them to commit.",
+        "typically, that is a lack of conviction on your part."
+      ],
+      "timestamp": "00:24:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Manager coached taking the prospect's card number directly over the phone in preference to sending a payment link.",
+      "evidence": [
+        "Send the payment link.",
+        "Yeah, no, actually, I'll take it on my side. What's the card number?"
+      ],
+      "timestamp": "00:27:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Lead flow collapsed during this period to roughly two to three live calls per week for this rep, which materially distorts any close-rate denominator computed over the batch window.",
+      "evidence": [
+        "So, I saw you had a call today. Just one call. Leadflow is just super down. I know. I'm super aware of it. I've been talking. I have a sync later with Luke to figure out what are we going to do about the leadflow.",
+        "Yeah, the lead flow on this one, it's just tough. This week, I think I had how many live calls? Maybe two?",
+        "I didn't have anything Tuesday, obviously yesterday. Monday, well, I actually had two live calls, so I guess three."
+      ],
+      "timestamp": "00:01:10"
+    }
+  ]
+}

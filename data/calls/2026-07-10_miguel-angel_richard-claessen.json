@@ -1,0 +1,154 @@
+{
+  "call_id": "2026-07-10_miguel-angel_richard-claessen",
+  "source": {
+    "drive_file_id": "1JtoUADAWLx4roBrSGeusIc7B1MC7FJS1",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/10/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/10/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 77644
+  },
+  "call": {
+    "date": "2026-07-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 79,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Miguel Ángel",
+    "aka": "Mike",
+    "name_source": "transcript",
+    "location": "Mexico",
+    "age": 47,
+    "occupation": "Pet product wholesaler / distributor",
+    "family_status": "Married, at least two daughters; eldest of college age",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 17,
+    "training_background": "Returned to gym training ~4 years ago; natural amateur bodybuilding on a 2-2-2 full-body method, two full-body sessions plus ab sessions weekly, trains Monday to Saturday; did calisthenics before the pandemic; owns one adjustable Bowflex kettlebell used for swings",
+    "kettlebell_experience": "some",
+    "medical": "Mild shoulder injury, previously treated with physical therapy, does not hurt during exercise; bilateral epicondylitis (tennis elbow) developed during calisthenics, described as mild. No other stiffness or limitation reported."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.55,
+    "signals": [
+      "Already training six days a week at self-reported 15-20% body fat, targeting 12% — explicitly good-to-great rather than rescue",
+      "Health-literate: talks about biological age, healthspan, functional longevity, whole foods, restricted eating windows",
+      "Deviates from the archetype on price — $6,000 was a genuine barrier, he needed instalments and ultimately deferred, which is why confidence is low"
+    ]
+  },
+  "goals": [
+    { "text": "Drop from roughly 15-20% body fat to about 12%", "category": "fat_loss" },
+    { "text": "Add muscle and look toned rather than very muscular, 'jacked' like Trevor", "category": "muscle_gain" },
+    { "text": "Protect and improve joint health so the joints stay healthy while training", "category": "injury_prevention" },
+    { "text": "Be in the best shape of the second half of his life and lower his biological age", "category": "longevity_function" },
+    { "text": "Stay agile and freely moving at 57 so he can be well for his wife and daughters and lead by example", "category": "longevity_family" },
+    { "text": "Build functional capacity the gym does not give him — movements useful for real life", "category": "mobility" }
+  ],
+  "pains": [
+    { "text": "Mild bilateral tennis elbow and a mild shoulder injury picked up from repetitive movements without proper joint work", "category": "injury", "severity": "low" },
+    { "text": "Believes he must train according to his age and joints, but the information he finds online is generic and aimed at people in their 20s and 30s", "category": "program_fit", "severity": "medium" },
+    { "text": "Has learned only from magazines, books and YouTube videos, never from an expert, and there is little good kettlebell information available", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Concerned that continuing his current gym training will not improve mobility or longevity", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Money is already allocated to family expenses, school books and savings for his eldest daughter's car; has previously got into financial trouble by spending more than he earned", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I have to, well, to join to get together that amount.",
+      "timestamp": "00:40:23",
+      "rep_response": "Isolated the money ('outside of the money aspect, do you feel like, Richard, I do want to get started with this'), then opened a financial-picture conversation asking what was available in his checking account and what was left over monthly after bills.",
+      "response_tactic": "isolate_then_open_wallet",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Well, I have to do a budget, so I can plan for from here to six months to get all the amount together.",
+      "timestamp": "00:43:23",
+      "rep_response": "Offered to split the fee three ways at $2,000/month with no interest, then dropped to $1,200/month over six months, framing the first month as a cancellable trial.",
+      "response_tactic": "construct_payment_plan_live",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "See I have to think about it.",
+      "timestamp": "00:49:00",
+      "rep_response": "Asked what the main thing coming up was, then repeatedly re-presented the $1,200 trial month as 'zero risk' and pressed for a start today.",
+      "response_tactic": "surface_the_real_blocker_then_re_close",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "But it's the kind of decision I have to take with now.",
+      "timestamp": "01:05:56",
+      "rep_response": "Asked whose responsibility it was to do the work, used a work-decisions analogy, then told him he was 'putting the responsibility a little bit on them of giving you the permission of doing it' and predicted his family would talk him out of it.",
+      "response_tactic": "reframe_permission_vs_responsibility",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "It's very always taking action, but I've got myself into financial problems with all decisions. I'm well right now, but I don't want to make the mistakes I did in the past.",
+      "timestamp": "01:02:27",
+      "rep_response": "Asked whether those past decisions were in a similar realm, then asserted 'this is zero risk' and that he had the $2,000 available so the decision was doable.",
+      "response_tactic": "risk_reversal_assertion",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I think I should let it go for another few months.",
+      "timestamp": "01:17:57",
+      "rep_response": "Accepted the decision — 'Yeah, that's what your plan is, and I would say do that' — asked for his plan and offered to send a free workout video on WhatsApp.",
+      "response_tactic": "concede_and_nurture",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three payments of $2,000/month with no interest, total $6,000; alternatively six payments of $1,200/month which the rep said adds interest for a total the rep stated as '$72,000' (transcription of $7,200). First month framed as a cancellable trial that could be paused.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 2000,
+      "monthly_surplus_usd": 1000,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect: 'I think I should let it go for another few months.'",
+      "Rep accepted: 'Yeah, that's what your plan is, and I would say do that.'",
+      "No payment taken, no link sent, no onboarding call booked",
+      "Counter-evidence: the prospect did not say a hard no to the programme itself — 'I agree with all the program' — and set an intention to save and re-contact by the end of the year, so this could equally be logged as a long-dated follow_up",
+      "Counter-evidence: the rep committed to sending a free workout video by WhatsApp, which keeps the relationship open"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to save toward the fee and get back in contact by the end of the year; rep to send a workout video on WhatsApp in the meantime."
+  },
+  "notable": {
+    "note": "A 79-minute call in which roughly 40 minutes were spent on the money objection after the prospect had twice said he needed to budget and consult his family. The rep improvised two payment structures not in the offer sheet, including a six-month $1,200/month plan he described as totalling '$72,000' (i.e. $7,200 with interest), and repeatedly framed the first month as a cancellable, 'zero risk' trial. He also used the prospect's savings for his daughter's car as leverage. The prospect had disclosed a history of getting into financial trouble by overspending."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts constantly. Whole discovery questions are attributed to the prospect ('So are you okay with me calling you Mike?' at 00:00:07 is labelled Miguel Ángel) and prospect answers are attributed to the rep. Roles were read from content throughout. Several passages, e.g. 00:59:05 and 01:13:19-01:13:50, have the labels fully swapped for multiple consecutive turns."
+  }
+}

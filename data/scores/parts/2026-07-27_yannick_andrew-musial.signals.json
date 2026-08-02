@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-27_yannick_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Accepted the structure — 'Yeah, I like it' to whether the approach would work — and asked the one practical question that mattered to him: 'maybe about the weight of the kettlebell, because I have one at home, but I think it's a light one, it's 10 or 12 kilograms. And I don't know how many kettlebells will I need.' The rep answered 16kg as the usual male baseline, sometimes 12, and one bell to start. He also agreed candidly with the rep's warning that the first sessions would be hard — 'Yeah, you assume right' — which is consistent with his description of currently hating every session."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The shortest and least contested pillar in the batch, because he had already solved it. 'No, it sounds good, and it's almost what I'm already doing, so I think it's okay.' Baseline had established four or five eggs with fermented-grain bread, Greek yogurt with honey, salmon or chicken or beef for lunch, a last meal by 6 or 7pm, salted water for electrolytes, and previous successful experience with intermittent fasting. The rep's only addition was protein intake, deferred to Trevor. A shared European reference point helped — the rep recognised the sourdough immediately: 'I'm from Poland, so I know this.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest reaction of the call and the most self-aware in the batch. He welcomed being pushed and explained precisely why and for how long: 'Especially being a little bit pushy. Because, yeah, for sure, at the beginning, when the things are very difficult, it's at that moment, yeah, we need that extra push.' Then he described his own expected arc — 'once it becomes an habit and the body accepts it and things start to improve and to find some ease, I will start to have pleasure to do that. I think at that part, it will become more a challenge than a pain' — and closed with 'it's really nice to have someone pushing so that we can continue and we don't quit. So yeah, I kind of like the process.' Quitting is his named fear and this pillar is the direct answer to it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "no_price_expectation",
+      "raw": "Okay. Whoa. All good? You're sitting? Okay. wasn't expecting that, but yeah. So it's a 1K per month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The purest example in this batch of a price landing with no anchor set at all. He had formed no expectation, and his immediate move was to convert $6,000 into $1,000 a month to make it comprehensible — the same reflex Ansur Ahmed and Steve Dawson showed. The rep read the reaction honestly rather than talking past it, which was the right call, but the shock itself is a P1 failure: nothing in the first minutes signalled a purchase decision was coming."
+    },
+    {
+      "type": "competing_household_liability",
+      "raw": "the taxes period is coming in two months and I have a good amount of tax to pay... with the taxis in September, they will take me at least 2k per month",
+      "direction": "undercuts_price",
+      "competitor": "French tax liability",
+      "note": "A dated, quantified and non-negotiable competing claim of roughly the same magnitude as the instalment being proposed, landing in the same window. Combined with three young children and a stated policy of holding contingency margin, this is a structural affordability constraint rather than a hesitation, and it is why the three-pay was declined outright."
+    },
+    {
+      "type": "local_financing_alternative",
+      "raw": "with Klarna, in France at least, I can split it until four times without fees and without going into a process or an approval process, but for 12 months, I think I have to...",
+      "direction": "undercuts_price",
+      "competitor": "Klarna France",
+      "note": "The buyer knows his local consumer credit market better than the rep does and immediately benchmarked Payva against a fee-free four-instalment option he already has access to. The rep could not compare, could not reliably spell the provider name, and could not confirm Payva serves France. A buyer who already holds a better financing instrument than the one being sold to him is a positioning problem, not a price problem."
+    },
+    {
+      "type": "existing_equipment",
+      "raw": "I have kind of a home gym, so I have a bench to work the chest, I have something to do some pull-ups... I have one at home, but I think it's a light one, it's 10 or 12 kilograms.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Already owns a bench, a pull-up station and a kettlebell close to the recommended starting weight, and is already training three days a week unaided. Zero start-up friction and demonstrated intent. Delivery risk on this prospect is low; only the payment is in the way."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Resolution of daily lower back pain and knee pain he attributes to a specific gait compensation — walking on his toes so the glute never engages",
+      "why_unmet": "No clinical layer and no gait assessment exists in the offer. He supplied a mechanical self-diagnosis that is plausible and entirely unverified, and the rep engaged with it conversationally rather than either confirming it can be addressed or suggesting anyone look at it. Two of his stated goals depend on this being right.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A payment method actually available to a customer in France",
+      "why_unmet": "The primary route offered was Payva, a US provider whose availability to him was never established — the rep said outright 'I don't know Klarna, but we don't have Klarna, we have Paiva. Maybe that works a different way' and handed the question back to the prospect to research. Meanwhile the buyer already has fee-free four-instalment credit locally. The company appears to have no international payment answer.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A structure that leaves contingency margin for three children — he declined $2,000 a month specifically to preserve it",
+      "why_unmet": "The gap between the in-house three-pay at $2,000 a month and the 12-month financed option at roughly $650 is wide, and the middle he proposed himself — $2,000 down with $4,000 spread — was never priced or agreed. A six-pay at $1,200 exists and was quoted on four other calls in this batch but was never mentioned to him at all.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that he will not quit again, which he named as his governing fear",
+      "why_unmet": "Partly served by the accountability pillar, which he responded to more strongly than anything else on the call. But the offer has no on-ramp for someone who currently finds every session painful and is deliberately capping himself at three days to avoid being overwhelmed, and the standard prescription is three to four sessions plus daily mobility work. Whether the first month is scaled to a deconditioned starting point was asserted but never demonstrated.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

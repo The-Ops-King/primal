@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-13_saagar-patel-francis_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Sustained, specific questioning about how delivery actually works: 'How does the coaching work? Is it like a solo workout that you do based on what's prescribed in the plan... Or is it like a Zoom workout?', then 'that's three to four a week of those personalized ones?', then 'Where does everything get logged?' — answer, True Coach — then 'with the results of the DEXA scan... that's what would be dictating what changes are made?', then how many kettlebells he needs beyond his 45 lb pair, and finally how to handle a week at Burning Man. Every answer satisfied him; he concluded 'I feel like that's definitely sustainable.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "He interrogated the central claim rather than accepting it: told it becomes almost impossible to overeat, he asked 'That's interesting. Because of the activity level, like what you're burning?' and then tested the mechanism — 'so you're saying like the benchmarks are scaled such that it's achievable in the eight-hour eating period?' He also asked how load-bearing the protocol is — 'Is that intermittent fasting thing a key to how this program works?' — and separately whether clients have to track macros even though Trevor does not. What sold him was the flexibility framing around drinking: 'what I hear from that is like, there's flexibility. It's like, you don't have to compromise all the fun and just be the sparkling water bitters guy.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Named it unprompted as the single thing that stood out, and described arriving at the realisation live: 'I think it's the accountability thing. So it's like, I feel like I am just thinking about this out loud right now and I'll say it for the first time... the accountability thing will be the thing that catapults it into the next level. And so that's kind of like the glass ceiling for me, at least.' He had already supplied the supporting evidence himself — a missed week caused by house guests with nobody to answer to."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "incumbent_paid_provider",
+      "raw": "with the DEXA scan app and the service that I use, it's Kalos, K-A-L-O-S... it's just one of the many that offer nutritional coaching and workout coaching alongside the DEXA scan.",
+      "direction": "supports_price",
+      "competitor": "Kalos",
+      "note": "He is already a paying subscriber to a bundled coaching and body-composition service and intends to switch the coaching portion, which establishes willingness to pay. The risk is that its price was never elicited, so an unpriced incumbent sat on the table for the whole call and could still undercut the $6,000 once he compares them. The rep also told him the DEXA data would not drive programme changes, which weakens the case for switching."
+    },
+    {
+      "type": "existing_personal_coach",
+      "raw": "we both used to see Andrew. Andrew coaches from the Philippines, he is a friend, and I branched away from Andrew... For him, he might struggle a little bit with the relationship. They're quite good friends.",
+      "direction": "undercuts_price",
+      "competitor": "Andrew, a Philippines-based online coach",
+      "note": "A live, presumably far cheaper alternative that his husband still uses and is loyal to. It matters commercially in both directions — it is the comparison Ryan will make when asked to approve $6,000, and the rep never surfaced or priced it."
+    },
+    {
+      "type": "per_day_cost_reframe",
+      "raw": "especially when I break the number down over like a month and the investment per day. It's like how I look at most personal investments. I'm like, oh, okay. If you look at it this way, it's like a latte and a croissant in San Francisco.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The prospect built the price justification himself and offered it as the argument he would use with his husband. Nothing else on the call did as much work for the price, and it cost the rep nothing."
+    },
+    {
+      "type": "concurrent_self_care_spend",
+      "raw": "the last couple of days, we've been talking a lot about overhaul. We [are] following like every major pillar of self-care and health care for the two of us... right down to like hair and skin, it's like a full blow-up moment, no stone left unturned and this is one of the stones.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The couple are mid-way through a deliberate whole-life health spend, which is why timing was never an objection. It also means the $6,000 is competing against several other simultaneous purchases for the same approval conversation."
+    },
+    {
+      "type": "surrogacy_deadline",
+      "raw": "the surrogate gets implanted with the embryos. And then nine months later... if we say a year, I think that's a good like cutting off point. And enough time of like a runway to like build the habits, have the workouts locked in.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A hard external deadline the prospect set himself, roughly twelve months out. It is the strongest urgency lever on the call and the rep used it lightly and only in the recap, never as a close."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An invoice with a secure payment link that he can document through his business accounting",
+      "why_unmet": "There is no such process. The rep takes card numbers verbally and enters them into his own processor. The prospect asked three times, explained his reasoning as a business owner, and left the call still asking the rep to go and find out whether it is possible. This is the direct cause of the non-close on an otherwise agreed deal.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "DEXA body-composition data integrated into the coaching as the measure of progress",
+      "why_unmet": "He scans every six weeks, has done for a long time, and explicitly wanted to bring the scan results in-house so nutrition and training could be adjusted against them. He was told progress is measured on load and reps instead: 'it's not going to be the DEXA scan that's going to dictate the changes.' The programme measures a different thing from the one he trusts.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A clear answer on how underperformance gets handled mid-programme",
+      "why_unmet": "He asked a well-formed question — what happens if a client is not getting results because the accountability or nutrition side is shaky, is that flagged and corrected? — and it was turned back into a commitment question rather than answered. He never learned what the intervention actually is when a client drifts, which is the exact scenario he described as his own failure mode.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Training continuity through a week off-grid at Burning Man and other travel",
+      "why_unmet": "Adequately answered on the call — bring a kettlebell, use a gym, or have Trevor write a bodyweight block. Recorded because he raised it unprompted as a real constraint and it is likely to recur across this buyer segment.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

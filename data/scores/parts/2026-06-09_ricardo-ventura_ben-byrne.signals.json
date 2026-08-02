@@ -1,0 +1,84 @@
+{
+  "call_id": "2026-06-09_ricardo-ventura_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Agreed and tied it to his own constraint without needing persuasion: 'I mean, I like the idea of being able to cut time and achieve, you know, similar results. That only emphasizes efficiency.' He had already arrived at the functional-movement thesis independently before the pitch — 'with age, no one's really getting any younger. Functional movement only becomes more important' and 'muscle is not going to help you if you're trying to play with your kids.' No questions and no resistance; the pillar was preaching to the converted."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Tested the substance of the no-tracking claim before accepting it: 'I assume he's still going to provide some kind of guidance as to, you know, just in general dietary guidance? If this is how you achieve the best results, follow this, kind of stick to this, even if it doesn't require putting it on a scale.' Satisfied with the answer. Unaddressed practical problem: his wife cooks every meal for the household and he eats the leftovers for lunch, so the person who would have to implement the protocol was never on the call and never discussed."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The only pillar he pushed back on, and it carried the whole price objection. He accepted it conditionally at first — 'As long as we stay active, tight in communication, to where it really feels like you're being coached by somebody' — and then rejected the delivery model on value: 'you could expect something like this from a coach that's physically there watching you... it sounds a little steep by the fact that it's only a person kind of talking to you over the phone.' His reasoning was specific: 'if it's over the phone, then say a couple hours later, Trevor or whoever sees the video, then it's not the same for them to tell me you could do this better compared to somebody perhaps being there with me.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_delivery_model",
+      "raw": "The people that I know, in this case, my two friends that I mentioned, they also do coaching. That would be the difference that I see there.",
+      "direction": "undercuts_price",
+      "competitor": "two friends who coach in person, and in-person coaching generally",
+      "note": "The comparison is not on headline price but on price-per-unit-of-contact: he judges remote video review to be worth materially less than a coach standing next to him, and prices it accordingly. Distinct from the cheaper-competitor anchor seen elsewhere in this corpus — here the substitute is arguably more expensive and he still thinks $6,000 is steep, because the delivery model discounts it in his mind."
+    },
+    {
+      "type": "self_directed_success",
+      "raw": "I was weighing about 210, 215 pounds... so I went down to 180 pounds and kind of just stayed there... everything else after that has been empirical, self-taught, just trying to do research on my own.",
+      "direction": "undercuts_price",
+      "competitor": "himself",
+      "note": "The most important anchor on the call and it was never addressed. He has already achieved a 35 lb transformation with no paid help, which makes $6,000 a purchase of convenience rather than capability. Until someone establishes why the self-taught route will not work again, the value gap cannot be closed."
+    },
+    {
+      "type": "free_peer_coaching",
+      "raw": "I have about two or three friends that they take their bodybuilding seriously. And so they've held me out.",
+      "direction": "undercuts_price",
+      "competitor": "friends who train seriously",
+      "note": "An existing no-cost advisory network he already uses. Surfaced by the rep's own question and never explored — nobody asked what those friends cannot give him."
+    },
+    {
+      "type": "sunk_cost_as_commitment",
+      "raw": "I can assure you that if I pay $6,000, I will be committed.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He volunteered the price-as-accountability framing himself, twice. The same pattern appeared on the Frank Abt close. For this segment the size of the number is part of what makes it credible, which is an argument for holding price rather than discounting."
+    },
+    {
+      "type": "household_joint_decision",
+      "raw": "we're of the mindset that, you know, what's mine is ours. You know, what's yours is ours. It's not really just my money.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Shared bank account and a stated norm of flagging even Amazon purchases to each other. Not a stall — a genuine household governance rule. The scripted 'this isn't a joint decision like buying a house' rebuttal would misfire badly here, since they had just finished building a house together."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Real-time coaching correction rather than delayed asynchronous video feedback",
+      "why_unmet": "Structural to a remote model. The rep argued the compensating advantages honestly — frame-by-frame review, daily access — but the thing the prospect actually wants, someone correcting him mid-rep, is not something the programme does.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A written results guarantee he could take to his wife",
+      "why_unmet": "He got two figures spoken aloud with no terms, remedy, timeframe or conditions. Whether a guarantee formally exists is genuinely unclear — the same numbers appear as 'average results' and 'the whole goal' on other calls in the same week — so this needs a human to establish what the company's actual guarantee is.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To not pay the whole amount up front",
+      "why_unmet": "He asked directly and was steered to a credit card. Instalment plans and third-party financing demonstrably exist and were not mentioned.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Help improving a partly genetic high-cholesterol problem, which he named as a concrete desired outcome",
+      "why_unmet": "Disclosed and never engaged with once. The nutrition pillar plausibly addresses it and nobody said so, and no one asked whether a clinician is involved.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Household nutrition change when his wife cooks every meal",
+      "why_unmet": "The protocol is pitched to the individual; the person who actually controls the food was never discussed. Probably solvable, never raised.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

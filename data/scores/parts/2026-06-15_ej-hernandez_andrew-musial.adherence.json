@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-06-15_ej-hernandez_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "No setter notes referenced and no setter identified, so P1a does not apply. Frame covered situation, destination, past attempts and how the call would end - 'what I want to do is to understand your current situation. What are you trying to achieve? What have you tried? And how we can potentially help you' - but not 'what you need'. Agreement taken ('Cool? Cool.') and a clean open question: 'So brief me in. What's going on? What's the main thing that brought you here?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Injuries asked properly and followed up - 'Apart from the rotator and the knee, do you have any other injuries?', 'how about like any stiffness... limited range of motion?', and the knee-swelling timeline. Diet worked in real detail including the sugar craving. But age, height and weight were all volunteered and never asked; occupation was not asked until 01:08, after the deposit attempt; sleep and energy never came up; and fifteen years of addiction were disclosed and never followed up as a health condition."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "partial", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "hit" },
+      "evidence": "The best-run goals phase in the batch. 'What would be your main goal, apart from losing fat?' then 'Do they look up to you as a role model?' which produced 'Right now, at the moment, no. Because of my addiction.' Then the reflect-back landed the whole call: 'Would I be totally off saying that it's not only about losing fat... isn't it more for your family, for your sons to show them that you can do it and they respect you again?' - 'Oh, 1000%. Don't make me cry, Andrew.' Then held silence and asked 'What would you feel?' Marked down only because the bridge was asserted rather than asked."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Training history surfaced in the prospect's opening monologue and was never interrogated. No 'what happened with that', no 'why do you feel it didn't stick', no 'what's the one thing getting in the way', and the gap was never named by the prospect. On a man who has trained continuously for 28 years and plateaued, the root cause was the single most important thing to establish and it was skipped."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "None of it ran. Given how much emotional material P3 produced, the absence of any cost-of-inaction frame is the clearest structural miss on the call - and it is the reason the money conversation had nothing to push against."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "partial" },
+      "evidence": "'If you had this right training, the simple nutrition, and accountability from Trevor, and all built around your life, do you agree that you would get to that podium that you mentioned?' - 'Yes, I know.' But this came after the full pitch, the second commitment question was replaced with an assertion ('From what I'm hearing, you're positive about it'), and the prospect had already flagged the price question twice before the rep would engage with it."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted but nothing was collected - the $100 deposit link failed on insufficient funds and the rep resent it by email for later. No onboarding call, no agreement and no community access, none of which could be reached."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Started and then abandoned. The rep raised the affordability frame ('this is bigger than just finances') and probed third-party financing, which the prospect ruled out on credit score. But the structured financial picture never ran - no cash on hand, no monthly surplus, no number of cards, no available credit, no investments. Instead of completing the play the rep improvised a reduced-scope tier at a price that is not in the offer."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'So maybe now is not the time' and 'Once I fix my finances, then I'll be able to afford it' both landed. The rep countered with two generic lines - 'don't let finances get in the way of what you're building here' and 'if there's a will, there's a way' - and none of the scripted OD moves: no 'things never slow down', no compounding cost of delay, no 'what if all you had to do was show up'."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A direct trust objection - 'how do I know this is legit right' - and not one OE move ran. No certainty question, no bridge, no plane, no burned-before frame. The rep answered with ridicule and a chargeback assurance, then repeated 'are you still hesitant about is it legit or not? Be frank' and 'You still worry?' twice more after the card declined."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap worth escalating. This prospect has neither cash nor credit - poor credit score, financing ruled out, and the card would not carry $100. There is no scripted path for a genuinely illiquid prospect, and the improvisation that filled the vacuum produced an unlisted $4,000 tier, a mis-totalled instalment plan and a pressured deposit. The playbook needs a clean stop rule here."
+    }
+  ],
+  "notes": "Outstanding emotional discovery followed by the worst commercial handling in the batch. The rule to coach is unambiguous: when open wallet establishes that a prospect has neither cash nor credit, the call ends with a nurture plan - it does not end with a new price invented on the call and a deposit pressed onto a card that declines."
+}

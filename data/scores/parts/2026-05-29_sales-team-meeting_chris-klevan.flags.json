@@ -1,0 +1,106 @@
+{
+  "call_id": "2026-05-29_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "The sales team reviewed a prospect with Ehlers-Danlos Syndrome, a prior elbow surgery, a subluxing kneecap and ongoing chiropractic and physical therapy care, and coached each other on how to close him without one person raising medical clearance for loaded kettlebell training.",
+      "evidence": [
+        "You mentioned the EDS, the surgery of the elbow and so on. Roughly, where are at in terms of your weight and your height?",
+        "Just the EDS. um and that's about it okay okay cool um so how does the the working out looking right now for you",
+        "my kneecap does this like popping feeling it's it's it's like dislocating a joint it's just something you don't want in your brain",
+        "But, uh, did you went to the doctor or like, he's a therapist? Chiropractor. Yeah. Chiropractor. And physical therapist.",
+        "He's a great prospect, too. mean, he's definitely in a lot of pain and there's definitely does sound like this is probably some things we can help him with for sure, right?",
+        "there's like two big legs to the table of why he would buy. Number one, he's technically obese. could dig on that. Number two is pain. Really, actually, sorry, number three is the fact that he already has a plan, but he's not consistent with it. Like, I think just with that information, digging on it is like enough to close this guy."
+      ],
+      "timestamp": "00:00:22"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager coached the team to reframe a prospect's emergency credit card as available funds for the purchase, in a review of a prospect who had disclosed that money was tight enough to affect what he eats.",
+      "evidence": [
+        "maybe they think they don't have a lot of money, but they have a $20,000 credit card sitting there that they're like, only for emergencies. And it's like, well, you think this is an emergency?",
+        "I've had people tell me they have no money, and then find out they have a big credit card, or whatever, and they still piff. So, you've got to help them find it.",
+        "At the moment, money's a little tight, so there is more carbs than I should be, because it's cheaper.",
+        "until I know it's a big enough problem, if it's a big enough problem, they'll find the money, usually."
+      ],
+      "timestamp": "00:18:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The manager taught reps to accumulate emotional anchors through discovery for the explicit purpose of suppressing price resistance when the 6K figure is delivered.",
+      "evidence": [
+        "it's just anchoring it helps it's like and that's why I'm saying like ouch like because that's exactly what I'd say on a sales call",
+        "they'll keep reestablishing that anchor inside of them, so it's all going to come up at the end of the close once they hear the price drop. They're going to have so many anchors of emotional moments that you've shared with them, that you've given them the space to say to you, that they're not going to scoff at 6K. It's generally just going to be like, damn, I don't have the money.",
+        "You got to train the prospect to give you the best answers."
+      ],
+      "timestamp": "00:15:00"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager described a menu of fallback commercial paths - payment plans, financing, and placing a prospect in 'primal university' - that sit outside the stated two-tier $6,000/$9,000 offer.",
+      "evidence": [
+        "Even if it's not a right now thing, then they'll find a way, or we'll work on a plan, or I'll get them in the primal university for a bit, or something. I'll find a way to make it work. Or maybe we finance them",
+        "I don't really care about their finances unless they tell me straight up I genuinely can't afford anything."
+      ],
+      "timestamp": "00:18:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A rep used a disability slur to characterise a questioning technique during a recorded team training session.",
+      "evidence": [
+        "Like, kind of, uh, being a little bit like a retard and asking, like, why?",
+        "I don't know if retard is...",
+        "No, it's more like childlike curiosity. That's, I would say that's the, that's the way I would, I would put it."
+      ],
+      "timestamp": "00:29:22"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The manager dismissed a rep's clinical explanation for a prospect's demeanour and characterised the prospect's self-description as denial to be leveraged.",
+      "evidence": [
+        "I'm not buying it. He also said technically obese.",
+        "I think he even mentions like that in some part of the call that he has ADD and some issues with processing thoughts so that's why like it sounds that it's heavy for him.",
+        "Yeah, Ben has a point there. There's definitely something in there. He said technically obese. there's something he's either agreeing with or not agreeing with.",
+        "Most likely not agreeing. In other words, denying his current, some level of denial."
+      ],
+      "timestamp": "00:01:28"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Reps were coached to conduct discovery in the manner of a clinician taking a diagnosis, on an offer with no clinical screening step.",
+      "evidence": [
+        "I treat it like a doctor.",
+        "Like a diagnosis, like, got it, next thing, next thing. Like, you're diagnosing, you know what I mean? Like, you want to hold off until you know all the facts of the situation.",
+        "Be careful using any language in a discovery call that's like, oh, that's good, okay, yeah, you're doing well."
+      ],
+      "timestamp": "00:03:18"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The file interleaves played-back audio of a separate prospect call with live commentary, so long stretches of prospect speech are attributed to Ben Byrne and Andrew Musial and could be mistaken for a sales call by automated extraction.",
+      "evidence": [
+        "Parks and Rec. I manage seven baseball fields and a handful of properties for, like, landscape stuff.",
+        "But, uh, did you went to the doctor or like, he's a therapist? Chiropractor. Yeah. Chiropractor. And physical therapist. Okay. Did they assign you like with some workout regimen or something like that? Yeah. At home, uh, type of stuff. Did you follow that? For the most part, not continuously though.",
+        "Tennis, not so much, but I'd really like to feel comfortable in my own body. I had to wear a 2XL just to wear a T-shirt when I'd probably for my frame be in a large."
+      ],
+      "timestamp": "00:02:20"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording terminates mid-sentence during a question about rescheduling another rep's lead without contacting them, so the stated policy on that practice is not captured anywhere in the file.",
+      "evidence": [
+        "One last question, actually. I had a lead that, it was Harry's after reschedule. He, are you okay with me just rescheduling them without speaking to them? Because the guy just texted me and gave me, I'm free."
+      ],
+      "timestamp": "00:36:38"
+    }
+  ]
+}

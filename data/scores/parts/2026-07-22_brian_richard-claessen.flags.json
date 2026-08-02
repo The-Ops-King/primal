@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-07-22_brian_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A second product, 'Primal University', was presented and priced at under $200 a month or $1,000 for six months - a price point that does not exist in the audited $6,000/6mo and $9,000/12mo structure.",
+      "evidence": [
+        "that is a little bit less than 200 a month if we get started for six months that would be a thousand for six months that that would be that we could do",
+        "I don't know if you have heard Trevor talk about our primary university?",
+        "What I will do is I will send you a link for Primal University. You can just take a look at it. If you feel like, well, I've actually seen myself doing this. You now know what the investment is as well."
+      ],
+      "timestamp": "00:08:08"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 70-year-old with a torn Achilles from roughly five months earlier, running through pain on acupuncture alone, was offered and sent a kettlebell training programme with no question asked about whether any clinician had assessed or cleared the injury.",
+      "evidence": [
+        "probably back in February, March, I tore my Achilles, and I haven't been able to run, so I'm not getting a lot of cardio in, and I've been going to acupuncture now",
+        "this morning, I ran a mile, and it's, at the beginning it hurts, but then it works itself out",
+        "I'm 70. I just turned 70.",
+        "when it comes to, right now, mobility, of course, I got the Achilles. Anything else that you want to focus on?"
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Rep asserted the programme's mobility work would help a torn Achilles, a therapeutic claim about a specific unassessed injury.",
+      "evidence": [
+        "that will help with your mobility building that up also with your Achilles heel",
+        "So, it's also going to help overall with your mobility and also longevity",
+        "Make sure, of course, you take the time if you're Achilles."
+      ],
+      "timestamp": "00:09:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep dials from a US 949 area-code number while based in Bulgaria, and the prospect explicitly assumed he was a local caller before the rep volunteered his real location.",
+      "evidence": [
+        "I thought, but the number comes up as 949.",
+        "Because that comes from, like, Mission Viejo area, just south of me. So that's why I thought you are.",
+        "All I know is that it's a U.S. number. So I basically have a phone number in the U.S. as well."
+      ],
+      "timestamp": "00:00:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "File is titled 'Impromptu Zoom Meeting' with no prospect name and the transcript yields only a first name, so the call cannot be matched to a CRM record without manual review; it is the second such file on this date in this folder.",
+      "evidence": [
+        "00:00:06 - Brian: Love it. Whereabouts are you calling from?",
+        "Great to meet you, Brian."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

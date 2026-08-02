@@ -1,0 +1,31 @@
+{
+  "call_id": "2026-05-19_mike-terpin_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "Recording ends at 00:04:14, during early discovery. No pillar was delivered." },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Recording ends at 00:04:14, during early discovery. No pillar was delivered." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Recording ends at 00:04:14, during early discovery. No pillar was delivered." }
+  ],
+  "anchors": [
+    {
+      "type": "free_alternative",
+      "raw": "I've done some of the online free kettlebell workouts off Instagram and stuff, and I've liked a lot of that, but then it's kind of like, all right, well, how would I string these together to, like, actually accomplish something",
+      "direction": "undercuts_price",
+      "competitor": "Free Instagram kettlebell workouts",
+      "note": "A free substitute he uses, likes, and has already got value from — and the same channel the company markets through. The limitation he named is programming, not content, which is exactly the wedge a rep would need. The call dropped before it could be used."
+    },
+    {
+      "type": "competitor_product",
+      "raw": "There's like different programs out there. I don't know. I feel like a lot of it's just like, I feel it's just a lot of like work but not necessarily productivity that I end up doing.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He has already sampled paid or free kettlebell programmes generically and found them unproductive. Logged as a live anchor because it sets his expectation of what a programme is worth before price was ever discussed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Kettlebell programming built as flows toward a defined outcome rather than straight-set bodybuilding schemes he finds boring",
+      "why_unmet": "Cannot be judged — the recording ends before the offer was described, so there is no evidence either way on whether the programme delivers flow-based programming. Flagged for a human rather than guessed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

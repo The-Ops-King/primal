@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-17_everett-rattray_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Payment was taken outside the standard mechanism — two instalments through a 'custom link' — with a $1,200 monthly figure that matches neither approved price, and no total contract value stated anywhere on the call.",
+      "evidence": [
+        "Because of course we did the payment now in two times through like a custom link.",
+        "You're going to want to do 1,200 a month, right? — Yeah.",
+        "For that, usually we just do it through the payment link. But of course, because we did a little bit different now, what cards can we put that on?"
+      ],
+      "timestamp": "00:05:28"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep negotiated instalment terms he had no authority to approve, told the client he expected approval, and only then said he would check with the team.",
+      "evidence": [
+        "What I can do is I will ask the team if they're okay with it, but you would be able to do $1,200 a month, right?",
+        "I will ask my team, because I'm not the systems guy, so I will ask if that's good, and I will come back to you about it. I feel like that we're going to be okay with it, especially because we're committed, right?"
+      ],
+      "timestamp": "00:07:04"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The client left the call without a defined payment schedule, a defined instalment amount, or a stated balance owing.",
+      "evidence": [
+        "And honestly, if you feel like, well, I can actually do more, that's also fine. But if you can do $1,200 a month, then that's also fine.",
+        "Like, oh, if I can pay this this month, then use the payment to pay the other, like, well, not monthly, but you know, or bi-weekly, I should say.",
+        "I will come back to you on WhatsApp probably today or tomorrow around, if that's all possible, like splitting it up like bi-weekly, I think it is."
+      ],
+      "timestamp": "00:06:29"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "No agreement was confirmed or signed on the call, contrary to the onboarding step requiring the agreement email be confirmed and signed live.",
+      "evidence": [
+        "And then you've already filled out that form, so that's great. There's nothing that you are going to need to do before then.",
+        "Can you check your email? See if you're getting something in like a minute from now."
+      ],
+      "timestamp": "00:04:49"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A paid client was routed into buying kettlebells and starting programming with no health, injury or clearance question asked at any point in the call.",
+      "evidence": [
+        "I'm assuming by then, or by Tuesday, he will tell me what kind of kettlebells to get, or no? Exactly.",
+        "And then a day or two days after that, programs are going to be ready. It's going to be in the app... And you're ready to get rock and rolling."
+      ],
+      "timestamp": "00:07:40"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "This file captures only the post-sale logistics call; the selling call for this client is not present in the batch, so the close has no discoverable process record.",
+      "evidence": [
+        "So you already completed the onboarding form, right? — Yep.",
+        "I think that is what we talked about. You're going to want to do 1,200 a month, right?"
+      ],
+      "timestamp": "00:00:42"
+    }
+  ]
+}

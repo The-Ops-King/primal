@@ -1,0 +1,73 @@
+{
+  "call_id": "2026-05-27_cosmin-boldeanu_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed that MRIs of his right shoulder and right elbow were taken the previous week with results still outstanding, plus prior left shoulder surgery and hereditary arthritis; the rep sold a six-month loaded kettlebell programme on the promise of fixing the shoulder, without suggesting he wait for the imaging results or obtain clearance.",
+      "evidence": [
+        "I got imaging. I actually got some MRIs. last week on my right shoulder, right elbow. But I don't think they're gonna see anything.",
+        "it's, they're likely gonna say PT.",
+        "I have poor genetics, my pops has pretty severe arthritis, and I was fortunate enough to be passed down some of his genes. So, I get just calcine. See them build up",
+        "I would recommend six months, because we want to make sure that we fix the shoulder, but fix it properly, you know what mean, like we don't want it to feel better for two months, and then it's not fully gone",
+        "the guarantee is that by the end of six months you'll be swinging around a 20lb heavier kettlebell, from there when you started with, so if you're doing 26, you're going to double your weight"
+      ],
+      "timestamp": "00:06:55"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep reinforced the prospect's stated contempt for his own physical therapists and positioned the coaching programme as the replacement for the clinical pathway he is about to be referred into.",
+      "evidence": [
+        "Every PT I've gone to is a joke. I end up usually working around my issues, and they kind of naturally go away.",
+        "You sit with the physical therapist, they stretch you out for five or ten minutes, then you get some college kid that has no idea what they're doing",
+        "It's not like a physio thing where you see us once a week, hey. Bye. Let me stretch you for five minutes. You know what mean?",
+        "Kettlebells are the way, right? If you're trying to reduce impact, joint stuff. I mean, is, isn't this kind of what, where you end up if you're kind of in my cycle? / I've got scoliosis and it's where I ended up, so."
+      ],
+      "timestamp": "00:06:55"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Faced with a price objection, the rep offered to characterise a personal coaching fee as a deductible business expense and said the invoice could be framed however the prospect needed in order to claim it.",
+      "evidence": [
+        "Do you have a business? / Yeah. We can help you write it off as well.",
+        "probably 70% of our clients are business owners. We can frame it in whichever way you need to frame it to help you write it off.",
+        "we framed it as safety and injury prevention program, and he wrote it on his tax",
+        "Yeah, it's always better when it's almost free. / Well, you're talking some serious now."
+      ],
+      "timestamp": "00:21:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep identified another client by his business and described that client's tax treatment of the fee to an unrelated prospect.",
+      "evidence": [
+        "I found up a guy the other day who owns Culver's, I think it's called, you know, like the fast-food place.",
+        "He owns a couple of those, and we framed it as safety and injury prevention program, and he wrote it on his tax."
+      ],
+      "timestamp": "00:22:04"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep stated unprompted that the programme is a one-time payment, the second call in two days where instalments were ruled out, while the same rep described third-party payment plans as available to another prospect the day before.",
+      "evidence": [
+        "And then, and is it, how are the fees structured? Are they monthly, weekly? What is it there?",
+        "Yeah, it's a one-time payment and it's 6K for the six months.",
+        "there might be a balance effect. So my, the 6K might cost me 12"
+      ],
+      "timestamp": "00:19:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The file title names Cosmin Boldeanu but the person on the call is addressed and labelled as Casey/KC throughout, and the title name is never spoken.",
+      "evidence": [
+        "00:00:16 - Harry Edmonds (Primal Instinct) KC? Hello, hello?",
+        "00:00:32 - casey Yeah, hold on, there, there is my, it's unable to access my camera"
+      ],
+      "timestamp": "00:00:16"
+    }
+  ]
+}

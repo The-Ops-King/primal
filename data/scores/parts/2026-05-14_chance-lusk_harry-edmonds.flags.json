@@ -1,0 +1,87 @@
+{
+  "call_id": "2026-05-14_chance-lusk_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed multi-year recurrent lower back episodes under active chiropractic care, with acute flare-ups triggered by lifting, and was sold toward loaded ballistic kettlebell work and guaranteed an eight-kilogram load increase on every movement, with no clinician clearance sought.",
+      "evidence": [
+        "I've had some back pain and some back troubles here, you know, the last few years",
+        "usually just like lower back, um, stuff that can usually be treated just by, you know, going to the chiropractor and getting adjusted and, you know, taking it easy for a few days",
+        "the next day, I'll go pick up a hanger, and it's like, oh, there goes my back",
+        "a lot of that's just like, don't do anything to mess it up, but it's not really, hey, go back in and make it stronger",
+        "The guarantee is that over six months, you will put on eight kilos on a kettlebell. So from the starting kettlebell weight to the end, you put on eight kilos on every lift."
+      ],
+      "timestamp": "00:02:48"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The entire clinical question was deferred to after purchase — the prospect was asked to bring his chiropractor's findings to the post-payment onboarding call, after the load-increase guarantee had already been made.",
+      "evidence": [
+        "If you can give us a lot of, like, data or things that the chiropractor said about X, Y, and Z, this is the issue, this is what they've said is the issue, when I tweak it, when I bend over, and something, whatever, that information's super key.",
+        "I've got scoliosis, so I can relate, but a lot of pain, it comes from imbalances and compensations.",
+        "So like with a swing, we can see that your lower back's compensating for your hips. Okay, cool. Let's fix that."
+      ],
+      "timestamp": "00:19:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep offered unqualified tax advice and volunteered to help structure a personal fitness coaching purchase so it could be written off as a business expense.",
+      "evidence": [
+        "70% roughly of our clients are business owners.",
+        "So we're very, very used to framing it in a way that you can write it off as well. So if you need help with that, we'll help you write it off.",
+        "It's always good when it's almost free. It's not free, but in a way.",
+        "Put it on a credit card, put it through the business, whatever makes the most sense for them."
+      ],
+      "timestamp": "00:23:41"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep guaranteed an eight-kilogram increase on every kettlebell lift within six months to a prospect with recurrent back injuries, and introduced the guarantee explicitly as ammunition for the prospect's conversation with his wife.",
+      "evidence": [
+        "I got something I literally forgot to tell you about as well, which will help you with that conversation. We have a guarantee, so everything's guaranteed.",
+        "I don't know even why it slipped my mind, just so you can mention it to her as well.",
+        "if you do everything we say, and that isn't met, then we work with you for free until you're at that level anyway. So the results are guaranteed.",
+        "So that might help you out with that."
+      ],
+      "timestamp": "00:27:49"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording is filed under an entirely different and apparently fabricated prospect name — 'Vladtest Koc' — while the actual prospect is Chance Lusk, so any matching of calls to leads by title will be wrong for this record.",
+      "evidence": [
+        "05/14/2026 - Vladtest Koc x Harry Edmonds",
+        "00:00:00 - Chance Lusk: How's it going buddy?",
+        "I am in Amarillo, Texas, so up in the Texas Panhandle.",
+        "What's your wife's name? I don't want to call her your wife. Lauren."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The refundable deposit — which is a legitimate scripted move — was justified to the prospect with a capacity-scarcity claim about the rep's calendar rather than as a commitment device.",
+      "evidence": [
+        "What we usually do is just take a small deposit. It's a hundred bucks. It's refundable.",
+        "Whenever we do follow-ups, we do that because we've got so many calls coming in, like I'm double booked every hour.",
+        "it's just to say, you know what, this is something I'm pursuing, it is something I'm interested in, just got to work out some logistics beforehand. Are you good with that?"
+      ],
+      "timestamp": "00:29:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization is inverted across most of the call, including the entire offer walkthrough and the price quote, so speaker labels in this file cannot be trusted for any automated extraction.",
+      "evidence": [
+        "00:01:01 - Chance Lusk: The call is pretty basic, by the way.",
+        "00:23:34 - Chance Lusk: You own the business? Yes.",
+        "00:18:29 - Chance Lusk: Does that align with kind of what you're looking for?"
+      ],
+      "timestamp": "00:01:01"
+    }
+  ]
+}

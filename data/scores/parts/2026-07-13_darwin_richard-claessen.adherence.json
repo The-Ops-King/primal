@@ -1,0 +1,27 @@
+{
+  "call_id": "2026-07-13_darwin_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "not_applicable" },
+      "evidence": "Setter information was read back and used to make the prospect feel seen: 'Already got some information right, you're 42, you want to get your mobility in better shape like you used to before. Already going to the gym like four days a week.' The frame covered two of four parts — 'we go sort of go over where you're at at the moment, where you want to go' — with no 'what's in the way' or 'what you need'. Frame agreement was obtained on the reschedule proposal ('How about that? Okay.'). The open question was never reached because the rep correctly ended the call for driver safety."
+    },
+    "P2": { "score": "not_applicable", "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" }, "evidence": "Call ended at roughly two minutes; baseline was never reachable." },
+    "P3": { "score": "not_applicable", "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" }, "evidence": "Not reachable." },
+    "P4": { "score": "not_applicable", "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" }, "evidence": "Not reachable." },
+    "P5": { "score": "not_applicable", "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" }, "evidence": "Not reachable." },
+    "P6": { "score": "not_applicable", "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" }, "evidence": "Not reachable." },
+    "P11": { "score": "not_applicable", "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" }, "evidence": "No close was attempted; the call was ended for safety before discovery." }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The prospect asked for the price as a gating question before agreeing to continue — 'is the price, like, I want to know whether or not this fits in my budget'. There is no scripted play for a price-first gating request, and the recording terminates mid-sentence before any response, so nothing can be scored."
+    }
+  ],
+  "notes": "Only Phase 1 is scoreable and it was handled well: the rep used the setter information, spotted the prospect was driving and ended the call rather than sell into it. Everything past two minutes is missing from the file, so this call should be excluded from adherence averages rather than counted as a low score."
+}

@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-06-19_donny_ben-byrne",
+  "source": {
+    "drive_file_id": "1IoPa9uRMkzqBpCLdIVnBNN_CiiD8pmNH",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/19/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/19/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 17177
+  },
+  "call": {
+    "date": "2026-06-19",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 18,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada — working from a co-working space" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter named and no title suffix. The rep worked from a written application — 'I took a look at your application. I've got a bit of information' — with no reference to any prior conversation."
+  },
+  "prospect": {
+    "name": "Donny",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Banff, Alberta, Canada (calling in while there)",
+    "age": null,
+    "occupation": "Not established — never asked. Has gym access at his workplace.",
+    "family_status": "Married",
+    "height_in": null,
+    "weight_lb": 240,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains jiu-jitsu, previously competing locally though not at a high level. Two years of no training at all following an ACL reconstruction, restarted about two weeks before the call with low-intensity cardio, jump rope and kettlebell and dumbbell circuits. Has regular gym access and could train five days a week. Two brief periods of personal training previously, and did a round of 75 Hard during which he got results from the volume and strict diet rather than the plan.",
+    "kettlebell_experience": "some",
+    "medical": "Torn ACL with surgical reconstruction roughly two years ago; reports it is fully resolved with no current issues. A bad shoulder that is asymptomatic in daily life but painful under load — specifically names bench press as the trigger and says he will never go heavy on it. Carries what he calls a beer gut and mentions wanting to stop drinking beer. No conditions asked about beyond the follow-up on the ACL."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Lost ground to a specific injury and never came back — 'I tore an ACL and had a reconstruction probably about two years ago, and fitness has fallen off since that, since the recovery, and then just never really got back to it either'",
+      "Wants a former self back explicitly, in his own words: 'just back into competitive shape' and the rep's summary 'getting back to a high level version of yourself physically' drew 'Yeah, exactly'",
+      "Two years of nothing, restarted two weeks ago — the classic rebuilder starting position",
+      "Unlike most rebuilders he shows no regret or emotional charge at all; asked twice what had brought him back now, he answered 'Nope. Just want to get back into it', which is why the call had nothing to close on"
+    ]
+  },
+  "goals": [
+    { "text": "Get back into competitive shape for jiu-jitsu", "category": "hobby_performance" },
+    { "text": "Lose about 20 lb from 240 and get rid of the beer gut", "category": "fat_loss" },
+    { "text": "Build cardio and muscular strength together rather than bodybuilding", "category": "endurance" },
+    { "text": "Follow an actual programme instead of turning up at the gym without a plan", "category": "consistency" },
+    { "text": "Train around a shoulder that will not tolerate heavy pressing", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Two years of no training after ACL reconstruction and never restarted properly", "category": "injury", "severity": "high" },
+    { "text": "No programme — 'as opposed to just going in without a plan or whatever'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Shoulder pain under load that rules out heavy pressing", "category": "injury", "severity": "medium" },
+    { "text": "Carrying a beer gut and drinking beer", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Previous personal training gave him what he believed was a generic plan handed to everyone", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No nutrition plan at all — 'No, nothing'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Working down existing debt", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I think not, not right now. Not, not. Like six, that's a little, that's, that's too much right now. I'm trying to work down some debt as well. So adding, adding six to it, isn't going to help. So I think maybe the timing's not right then.",
+      "timestamp": "00:11:57",
+      "rep_response": "Accepted it immediately. No isolation, no certainty check, no financial-picture questions and no attempt at the timing play. He asked what budget the prospect had in mind and moved straight to presenting Primal University at $199/month, which the prospect took.",
+      "response_tactic": "accept_and_downsell_immediately",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "that's kind of what I'm looking for, something I can, you know, try out, try it out for a bit, and then the 6K is just, my wife would kill me.",
+      "timestamp": "00:17:18",
+      "rep_response": "Answered with a joke — 'Yeah, well, we don't want that' — and then reinforced the downsell by framing the coaching programme as being for people with a really big goal. The spouse objection was never worked.",
+      "response_tactic": "not_addressed",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 1999 },
+      { "months": 1, "price_usd": 199 }
+    ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Mentioned in passing only — 'we can make it work for you and figure out payment plans or whatever if we need to' — and never returned to after the objection landed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit no to the coaching programme on price and timing: 'that's too much right now ... So I think maybe the timing's not right then'",
+      "The rep did not attempt to recover it and moved to the low-tier product within thirty seconds",
+      "Counter-evidence, and the reason confidence is not higher: the prospect verbally agreed to Primal University at $199/month — 'that's kind of exactly what I need', 'No, that's good enough for me' — and the rep sent him the signup link by text during the call, which he confirmed receiving",
+      "That is a verbal agreement plus a link sent, but for a $199/month subscription and not for the $6,000/$9,000 Kettlebell Body offer this audit scores. Recorded as lost on the coaching offer so the close-rate denominator stays clean; the Primal University conversion is flagged separately for the rollup to route",
+      "No payment was taken on the call for anything and the prospect had not signed up before it ended"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to sign up to Primal University himself via the texted link, using the Skool app he already has. He travels in Europe for the whole of August without kettlebells."
+  },
+  "notable": {
+    "note": "The most significant clinical exposure in the batch, and it comes from the downsell rather than the sale. The prospect opened the call by disclosing a surgically reconstructed ACL and a shoulder that hurts under load. The rep asked one closing question about the knee, accepted 'it's fine', never asked about the shoulder's limits beyond bench press, never asked about clearance, and then routed him to a self-directed product with no coach reviewing his form at all — the one safeguard he had been describing thirty seconds earlier. Separately, this is the fastest capitulation in the batch: three objection triggers landed, none of the five plays ran, and the call was over eight minutes after the price was named. Worth noting the rep did open with a good frame and asked the deeper why twice; the prospect simply had no answer, which is the same pattern as the Chandra call the previous day."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Regular short-turn inversion — at 00:03:23, 00:05:52, 00:06:52, 00:08:30 and 00:16:44 questions and answers are attributed to the wrong speaker, and the rep's screen-share narration around 00:14:01 is partly attributed to the prospect. Content is intelligible throughout and roles were resolved from content. Short file at 17,177 bytes but well above the junk threshold and a complete call from greeting to sign-off."
+  }
+}

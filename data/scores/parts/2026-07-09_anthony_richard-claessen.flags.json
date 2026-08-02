@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-09_anthony_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Internal payment plan quoted live at $1,200/month for six months, a $7,200 total against the $6,000 six-month list price, with the uplift described only as 'interest' and never stated as a total.",
+      "evidence": [
+        "is it possible to split it in, like, if it's always six months, to do 6k in six months?",
+        "It would be a little bit more because there's interest with that",
+        "when it comes to doing it in six times, that would become $1,200 a month. That is if we do it internally."
+      ],
+      "timestamp": "00:21:19"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect asked specifically to split $6,000 across six months and was answered with a $1,200/month figure without the $7,200 total or the interest rate ever being said aloud, so he left believing he had been quoted an instalment version of the same price.",
+      "evidence": [
+        "do you guys, like, if I don't want to spend, like, the 6k at once, is it possible to split it in, like, if it's always six months, to do 6k in six months?",
+        "when it comes to doing it in six times, that would become $1,200 a month",
+        "Just a summary of the things we, of the value that you bring, and I know you mentioned the two options for payment plans, and that's it, you know?"
+      ],
+      "timestamp": "00:22:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep offered a third-party consumer financing route he could not describe, could not confirm the prospect would qualify for, and could not name a rate or provider for, after taking the prospect's credit score.",
+      "evidence": [
+        "What's your credit score, just to check?",
+        "I don't know if you've ever heard of the third-party financing options.",
+        "Then the interest is probably going to be a little bit less.",
+        "we have to check because the, yeah, the interest is always different. I don't know if you would actually get get I mean, is it like, is it based in the U.S.?"
+      ],
+      "timestamp": "00:22:19"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's connection dropped during the deepest question of the call, so his answer to the motivation probe is partially lost from the recording.",
+      "evidence": [
+        "No, I'd just be satisfied, you know, and it's not the goal that I reached. Sorry, you just got out.",
+        "Could you please repeat the whole answer, please?",
+        "Okay, sorry. I don't know what's going on with my wife. Is it better now?"
+      ],
+      "timestamp": "00:11:43"
+    }
+  ]
+}

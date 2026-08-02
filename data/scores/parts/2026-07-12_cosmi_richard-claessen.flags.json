@@ -1,0 +1,93 @@
+{
+  "call_id": "2026-07-12_cosmi_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The rep invented a $1,200 one-month starter tier live on the call, a price that exists in neither the $6,000/6-month nor the $9,000/12-month offer, in direct response to hesitation.",
+      "evidence": [
+        "But the only other thing that I would see that would actually help you make a better decision for yourself is if we get started with one month. Usually it's always up front, but then we do one month for 1,200",
+        "and then I'm sure you're going to be like, whoa, I actually love this, I want to continue. But even if that wouldn't be the case, then you can just stop after a month.",
+        "Yeah, I'm gonna need some time to think about it."
+      ],
+      "timestamp": "00:46:07"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The rep stated the standard payment policy and departed from it in the same sentence, on hesitation alone, without escalation or approval.",
+      "evidence": [
+        "Usually it's always up front, but then we do one month for 1,200",
+        "we have an investment of 6k USD, which is around 5.2 euros."
+      ],
+      "timestamp": "00:46:07"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The improvised one-month option was offered with no terms — no price for months two to six, no total contract value, and no statement of whether the $6,000 six-month price would still stand on continuation — leaving the prospect weighing a decision against an incomplete offer.",
+      "evidence": [
+        "if we get started with one month. Usually it's always up front, but then we do one month for 1,200",
+        "But even if that wouldn't be the case, then you can just stop after a month.",
+        "Yeah, it's another way of looking at it with a smaller amount to be paid, but let me think about it and maybe we can see each other, I don't know, next week or something like that."
+      ],
+      "timestamp": "00:46:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep continued pressing for roughly fourteen minutes after the prospect had asked for time to think on six separate occasions, including telling him his own reasoning would deteriorate if he waited.",
+      "evidence": [
+        "Yes, I do want to take that step, but I am going to need some time to think it over.",
+        "Yeah. I'm gonna have to think about it for some time.",
+        "And do you think that you're going to sooner think about spending the six hours or not spending it? Like, which one do you think you're going to make more reasons for? I can tell you from having done so many of these meetings, it's going to be the second one",
+        "And now you're this close to basically jumping, and I'm not saying that you have to jump, but you're this close to jumping for yourself, and then you land, and you're not on a meeting anymore. And then it's just super easy to fall back into it.",
+        "So I'm not trying to be hard or anything, but you're not a special snowflake in that sense, right?"
+      ],
+      "timestamp": "00:41:10"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "When the prospect raised funding his son's university studies as a competing use of the money, the rep did not engage with it and instead used it as evidence the prospect's judgement was drifting.",
+      "evidence": [
+        "Maybe I can ensure my son's studies at the university, for example. don't know. There are many other points of view from which you can look at the situation, you know?",
+        "And then if you would eventually decide like oh well maybe I should put it towards towards your son university then aren't you then putting it back",
+        "but if you're thinking like that already then like how do you think that you're going to think in 12 hours from now? Probably even more right?"
+      ],
+      "timestamp": "00:45:03"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Outcome credibility was established with unverified scale claims and an argument from absence of public complaint rather than with any client evidence, in direct answer to a prospect asking for proof the programme works.",
+      "evidence": [
+        "He's helped over a thousand people. Have you seen those guys?",
+        "Trevor has like 1.3 million followers on Instagram, coached over a thousand people. Do you think if we actually wouldn't get the results for people, if it wouldn't work, that he would still just be online happily posting everything? Or do you think that that would just be all over the internet if he is just coaching people, but nobody gets the results?",
+        "to invest $6,000 in something that you're not quite sure that is going to work, it's a little bit risky"
+      ],
+      "timestamp": "00:34:22"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization on this recording is badly unreliable, including an inverted location attribution in the opening minute and a six-minute block of mixed speakers assigned entirely to the rep.",
+      "evidence": [
+        "00:00:35 - Richard Claessen (Primal Instinct) — 'I'm calling from Romania.' (the rep is in Bulgaria; the prospect is in Romania)",
+        "00:01:45 - Richard Claessen (Primal Instinct) — 'I'm quite an active person.'",
+        "00:09:11 - Richard Claessen (Primal Instinct) — 'According to my BMI, my ideal weight should be below 82.'"
+      ],
+      "timestamp": "00:00:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording or consent disclosure appears anywhere in the transcript despite the call being recorded and transcribed end to end.",
+      "evidence": [
+        "00:00:00 - cosmi — 'Yes, I can. I don't know if you can see me or hear me. I can hear you.'",
+        "00:01:13 - Richard Claessen (Primal Instinct) — 'But well, amazing. I would say let's just dive into it.'"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

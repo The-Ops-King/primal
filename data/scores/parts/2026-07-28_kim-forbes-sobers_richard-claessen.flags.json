@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-07-28_kim-forbes-sobers_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A prospect with an acutely 'blown out' back was qualified by the setter against a 3-4 session per week training commitment with no question about fitness to train, and a second sales call was booked; no clinician clearance was raised by either staff member.",
+      "evidence": [
+        "his back is blown out at the moment, so he definitely needs to rest first",
+        "I don't actually think I asked many questions about whether he's actually good to start training now. So that's funny on me.",
+        "I said to him, like, this is, you know, three to four weekly sessions, and they're 30 to 45 minutes each, like, is that something that you could realistically commit to right now? And he said, like, that really aligns with him",
+        "Yeah, the injured part is a little bit of a red flag, of course.",
+        "So I just booked a second call in two weeks from now. April, actually, I mean next week. So I'm speaking to him again on Thursday."
+      ],
+      "timestamp": "00:00:29"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The closer is taking $100 deposits in place of the $6,000/6mo or $9,000/12mo price, describing two taken that day and treating it as his normal pattern.",
+      "evidence": [
+        "the Andrew is closing 6K pistol and I'm just getting down payments and whatever. annoying.",
+        "like those two that I did at down payment earlier today, I'm so surprised if one of them even doesn't get through",
+        "Why would a sales guy do a deposit of 100 just to get rid of me? Like that would just be the most stupid stuff ever."
+      ],
+      "timestamp": "00:08:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Prospect income — the ICP's affordability criterion — is being estimated by asking ChatGPT for a salary by job title and writing the number into CRM notes as qualification.",
+      "evidence": [
+        "so he does it for US Navy ships, and so, yeah, when I put that into ChatGPT, it said he was probably making around, 75k, around there.",
+        "I once again chat GPT'd, like, estimated salary for, like, a five-year-old firefighter, and it said that would be around 60k",
+        "There's notes on them, though. Yeah, you haven't added notes."
+      ],
+      "timestamp": "00:05:57"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The closer states an intent to sell an injured prospect something regardless of fit, tied explicitly to his own monthly cash target.",
+      "evidence": [
+        "So I will do my best to sell him on something. It's just, it's annoying because I need to get the cash.",
+        "I want to get to the 50K, and that means I have to do another 24K, my projection is 22, and I'm only at 12 so far",
+        "that's also the only reason I open my Friday, just need to get the cash in for myself, but also for the team"
+      ],
+      "timestamp": "00:12:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The setter booked a lead onto a closing call he had already judged low intent, expecting the closer to disqualify him instead.",
+      "evidence": [
+        "This guy, this is one of those guys who I knew had the money, but I financially qualified. I had him regardless, just like, because I almost wanted him to DQ himself, he was that low-intent, so."
+      ],
+      "timestamp": "00:09:32"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-03_eddie_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Delivered in full, including a personalised mobility protocol claim tied to his hip stiffness. He agreed without engagement — 'Any questions on training and mobility or that's clear?' / 'That's pretty clear.' The only substantive reaction came later and was about equipment rather than method: he asked whether the kettlebell and steel mace were included, was told he must buy his own, and expressed real interest in the mace specifically — 'most gyms I have seen they do not have that, that's why I was very interested in that as well too.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Any questions on nutrition?' / 'No.' He accepted the eight-hour intermittent fasting window without comment, which is notable given he already runs five-day liquid fasts every other month — the two protocols were never reconciled and he did not raise it. The sustainability point landed flat because he has no favourite indulgence to name: 'I like food in general, so I can't say I have a favorite recipe.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "The lowest-engagement pillar of the three. 'Any thoughts on that? Questions? Remarks?' / 'No, not particularly.' Worth flagging for the rollup that accountability is the pillar this prospect least needs — he has trained four to five times a week for three years unsupervised and self-manages deload days — and the rep pitched it hardest, opening with 'I think you will like that a lot because you're a busy guy'. When the prospect later articulated what he actually values in a coach, he named accountability as the thing personal trainers already provide, not as a gap."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "That's how much personal trainers usually cost. From what I know, it's usually anywhere from 10 to 12 sessions is $1,000.",
+      "direction": "supports_price",
+      "competitor": "Personal trainers generally; he has friends who are trainers and has bought training before",
+      "note": "The rare anchor in this corpus that works in the seller's favour, and the prospect did the arithmetic himself: at roughly $85-100 a session, six months of supervised training costs far more than $6,000. He said so explicitly — '$6,000 is not a lot of money... which I understand'. The rep did not build on it or make the comparison explicit, but it is why the price objection here was a valuation question rather than an affordability one."
+    },
+    {
+      "type": "value_uncertainty",
+      "raw": "in my head, is it like, you know, that's the only thing that's kind of like, you know, putting me on the fence is like, is it really worth $6,000 worth $10,000, you know?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He is not comparing to a cheaper option, he is unable to price the outcome. His own framing is that $6,000 might be worth $10,000 of value or might not — a pure ROI question from a business buyer that a consequence frame or a cost-of-plateau calculation would have answered. Neither existed on this call."
+    },
+    {
+      "type": "free_content_origin",
+      "raw": "I signed up for this based on what I saw from, I believe, Trevor's Instagram for buying kettlebell",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's own free Instagram content",
+      "note": "Same pattern as the Felipe Dublanc call two days earlier: the lead arrives from free content, already sampling the product at zero cost, and the paid version is never explicitly differentiated from the free version. He says later 'I'm not, like, completely oblivious about kettlebells, so there are certain ones that, you know, I'll try'."
+    },
+    {
+      "type": "too_good_to_be_true",
+      "raw": "my main thing is, like, okay, like, 50 minutes a day, that seems too good to be true, right? Almost.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The headline claim that attracted him is also the claim that made him doubt the value. Coming from a man who currently spends two to two and a half hours per session, the promise reads as either a breakthrough or a marketing exaggeration, and until it resolves he cannot price the offer. Treated as an asset by the rep rather than as the doubt it was."
+    },
+    {
+      "type": "equipment_cost_not_included",
+      "raw": "when something I read online is like with one-on-one coaching, you, do I receive the, like the kettlebell and like the mace? No, the kettlebell, like you need to purchase.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He had read online that equipment might be included and it is not. The rep mitigated it well — only one kettlebell needed at first, and his gym almost certainly has unused ones — but this is an expectation set somewhere upstream that the closer had to unwind at the point of sale."
+    },
+    {
+      "type": "expected_principal_access",
+      "raw": "When I signed up, I kind of was expecting to see Trevor as well, but I got a text message from a girl saying that I have a meeting with you",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He bought on Trevor's personal brand and was routed to a closer by an unnamed setter over text. Handled honestly on the call, but it is a value leak at the top of the funnel: the person whose credibility drives the purchase is not the person in the room, and the prospect said it threw him off."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To know what the one-month trial costs before committing to it",
+      "why_unmet": "No price was ever attached. The rep proposed the structure — 'don't marry Trevor yet. Go with him on a date. For one month' — asked 'Wanna shake hands on this?', and the prospect said he was down to do it, all without a figure being spoken. This is not a gap in the product, it is a gap in what was said, and it is the reason nothing on this call can be recorded as an agreed value.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Steel mace training, which visibly attracted him",
+      "why_unmet": "Deferred rather than delivered — 'that's a, I would say next level definitely, he can teach you that, but first of all kettlebells are more versatile'. He would also have to buy a mace himself and noted most gyms do not have them. The programme does include maces (they appear in the pillar description and in the prospect's own reading of Trevor's content), so this is almost certainly a sequencing message rather than an exclusion, but he was left thinking it is out of scope for now.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Reassurance that a five-day liquid fast every other month coexists safely with a daily eight-hour eating window, given an undisclosed chronic illness",
+      "why_unmet": "He volunteered the extended fasting protocol during Baseline and the rep prescribed intermittent fasting on top of it without acknowledging the existing practice, reconciling the two, or asking whether anyone clinical is supervising it. Whether the programme's nutrition approach is compatible with his current regimen is genuinely unknown and nobody on the call was positioned to answer it.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Direct access to Trevor, whose content is what he actually bought into",
+      "why_unmet": "The programme does provide it — onboarding session, weekly check-ins, personal cell number — and the rep said so, which resolved the objection. Recording it because the expectation gap originated upstream: he signed up believing he was engaging with Trevor and the first contact was an unnamed setter's text message.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "call_id": "2026-05-06_roy-norman_farooq-bey",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep closed the deal on an unlisted $1,200 'Love It or Leave It' trial that he stated on the recording he was not supposed to recommend, replacing a $6,000 or $9,000 sale to a prospect who had already said the outcome was worth the investment.",
+      "evidence": [
+        "So I'm not meant to really recommend this, but we have something called Love It or Leave It. So one-week trial, it's only 1,200 bucks, right?",
+        "for sure, it's worth it.",
+        "I think I will, I mean, I will maybe try for the next three months.",
+        "Sounds reasonable. Yeah. Let's do it, man."
+      ],
+      "timestamp": "00:51:45"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The trial's duration was stated as one week and as one month in consecutive sentences, and the prospect agreed to buy it without the contradiction ever being resolved.",
+      "evidence": [
+        "So one-week trial, it's only 1,200 bucks, right? At the end of the one month, you've seen this is for you, you've tested Trevor, you've actually experienced it.",
+        "If you're in a position where you want to extend, you have the license to do so. Okay. If you don't, if it's not for you, we shake hands, no problem, it's part ways as friends.",
+        "Sounds reasonable. Yeah."
+      ],
+      "timestamp": "00:51:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "critical",
+      "summary": "Rep switched off the recording at the exact moment of close, and the deal then collapsed off-record — the transcript alone scores this a close when in fact no payment was ever made.",
+      "evidence": [
+        "So what I'll do, Roy, I'll remove my Fathom Notetaker. You can see that. Uh-huh. Two seconds.",
+        "Sounds reasonable. Yeah. Let's do it, man. Happy? Yeah. Let's do it, brother.",
+        "[cross-call, same rep, 2026-05-07_chris-klevan-1-1_farooq-bey at 00:03:25] I mean, the Fathom, I took the Fathom out, we're about to pay, and that's when he was like, oh, paying now? I'm like, yeah, you just said you want to pay now. What's happening? What's going on?",
+        "[cross-call, manager, 2026-05-07_chris-klevan-1-1_farooq-bey at 00:03:43] He was the only one who was technically closeable because he had the funds."
+      ],
+      "timestamp": "00:52:39"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep presented an unlisted three-month tier at $4,000 alongside the published tiers, the second occurrence of this figure in the batch.",
+      "evidence": [
+        "In terms of next steps, it's really simple, Roy. We have a three months, six and 12, okay?",
+        "And what about the three months, for curious about the... Yeah, 4,000 US. 4,000."
+      ],
+      "timestamp": "00:45:26"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Prospect raised a medically grounded concern about fasting and pancreatic function based on his father's death from mistreated diabetes; the rep answered with his own 72-hour fasting practice rather than deferring to a clinician.",
+      "evidence": [
+        "My dad passed away 15 years ago, but he was in a mistreatment about diabetes. So I have this, I don't know how to call that, but I have this pain in my mind that it's not a fear, but it's kind of a thing that I'm kind of want to move away from, the fasting thing, because that affects into the insulin and the pancreas and that stuff.",
+        "My dad also suffers from diabetes as well, but I do pretty extensive fasting protocols at least a couple of times a month.",
+        "How many hours did do that? The longest I've done is 72.",
+        "the mental clarity that you experience, without sounding too woo-woo, it feels like something divine is happening.",
+        "We are huge on fasting, dude. You know, if you, if you implement, fasting protocols consistently in the correct weight. It directly contributes to your own vitality."
+      ],
+      "timestamp": "00:35:11"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep framed a downsell as coaching judgement made in the prospect's interest, telling a man who was leaning toward a paid three-month tier that a longer commitment would cost him opportunity.",
+      "evidence": [
+        "whilst I do feel like we can help you, I just don't, just as a coach, taking 5, 6, 12 months, the opportunity cost for yourself could be higher than what it needs to be.",
+        "So in simple terms, just from our conversation today, I just don't feel like taking that additional time is just going to best serve you.",
+        "We're not afraid to turn away people, man. That's why we have these conversations. If you're not a good fit, we're not a good fit, right?"
+      ],
+      "timestamp": "00:51:15"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts attribution throughout and the prospect's speaker label is redacted, making line-level attribution unusable across the whole transcript.",
+      "evidence": [
+        "00:00:40 - R*  Okay. So I'll leave the floor over to you, Rui.",
+        "00:32:34 - R*  This isn't a static program, man.",
+        "00:38:35 - R*  Thank you. And the most powerful thing is, is this something you can pass on to your kids one day?"
+      ],
+      "timestamp": "00:00:40"
+    }
+  ]
+}

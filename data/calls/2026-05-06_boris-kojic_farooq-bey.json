@@ -1,0 +1,146 @@
+{
+  "call_id": "2026-05-06_boris-kojic_farooq-bey",
+  "source": {
+    "drive_file_id": "11ErgGTk1qkvZ_Aj7qrR5mZjgxNVkyF6N",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/06/2026 - Boris Kojic x Farooq Bey",
+    "display_title": "05/06/2026 - Boris Kojic x Farooq Bey — Lost",
+    "file_size_bytes": 24308
+  },
+  "call": {
+    "date": "2026-05-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 28,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Boris Kojic",
+    "aka": "Kojic Boris (transcript speaker label reverses the name order)",
+    "name_source": "title",
+    "location": "Adelaide, Australia",
+    "age": 33,
+    "occupation": "Qualified civil-structural engineer, currently working manual factory work (moving packages up to 50 kg) after leaving a role at John Holland paying close to AUD 200k",
+    "family_status": "Married; wife is a psychologist and counsellor, originally Nepali; baby born approximately one month before the call",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training since age 16, roughly 15 years. Normally gym five times a week, one hour a day, with a personal trainer; has not trained for a month since the birth of his child. Peak conditioning was 85 kg lean, about a year ago. Conventional weightlifting background, no kettlebell experience. Has previously used ChatGPT and YouTube to build routines and did not follow through.",
+    "medical": "Multiple sclerosis. Fifteen years ago he was completely quadriplegic — unable to move or speak — and regained function against medical prognosis. Ongoing relapses ('having an attack or something like that'), rapid muscle and strength loss after as little as one week without training, and significant short-term memory impairment that he says prevents him from retaining movement patterns. Also reports past injuries from weightlifting, and describes feeling depressed when he loses strength."
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.65,
+    "signals": [
+      "Living with an active, relapsing neurological condition and training explicitly as part of fighting it: 'I don't want to stay dormant my entire life. I don't want to be in bed, not moving.'",
+      "Motivation is extremely high and framed as combat: 'I've always been a fighter. I always fight to achieve the best.'",
+      "Not recovering from a bad season but managing one that recurs — he loses the gains within a week of stopping",
+      "Overlaps with the_rebuilder in that he wants an 85 kg lean former self back, but the driver is holding off decline rather than reclaiming a lapse",
+      "Unusually for this avatar he did NOT close — the blocker was price plus a credible free substitute, not conviction"
+    ]
+  },
+  "goals": [
+    { "text": "Build his body back to his previous 85 kg lean condition and finally get visible abs", "category": "muscle_gain" },
+    { "text": "Lose the last of the belly fat he has never been able to get past", "category": "fat_loss" },
+    { "text": "Have complete movement and control over his body", "category": "mobility" },
+    { "text": "Keep moving and never return to being immobile or bed-bound as he was when quadriplegic", "category": "longevity_function" },
+    { "text": "Learn kettlebell technique properly so he can train without causing further injury", "category": "injury_prevention" },
+    { "text": "Get correct movement patterns into long-term memory so he can eventually be self-sufficient", "category": "confidence" },
+    { "text": "Fit training into a shorter 30-40 minute window instead of an hour at a gym", "category": "convenience" },
+    { "text": "Feel he is living up to his potential again, financially and physically", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Multiple sclerosis causes rapid strength and muscle loss after roughly a week without training, undoing his progress repeatedly", "category": "medical", "severity": "critical" },
+    { "text": "Short-term memory impairment means he forgets movements almost immediately after being taught them, and the fear of forgetting is what scares him most", "category": "medical", "severity": "high" },
+    { "text": "MS relapses interrupt training and break his consistency", "category": "consistency", "severity": "high" },
+    { "text": "Feels depressed and sad about the strength cycle and about not being further along in life", "category": "mental_health", "severity": "high" },
+    { "text": "Carries the burden alone — deliberately does not bring it to his wife despite her being a psychologist: 'Like the weight of the world on my shoulders, man. This sucks.'", "category": "emotional", "severity": "high" },
+    { "text": "Left a ~200k engineering role for lower-paid factory work and now regrets the financial step down", "category": "work_stress", "severity": "high" },
+    { "text": "Has not trained at all for a month since his baby was born", "category": "training_barrier", "severity": "medium" },
+    { "text": "Past injuries from conventional weightlifting; does not want to keep lifting and cause more", "category": "injury", "severity": "medium" },
+    { "text": "No confidence he is performing movements correctly without someone checking: 'I don't feel confident that I'm doing it properly.'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Early 6.30am starts make gym attendance hard to sustain", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I would, but how much would it cost me to get like little videos or snippets? I think I could even do this myself now thinking about it.",
+      "timestamp": "00:22:00",
+      "rep_response": "Quoted a range — 'the investment is anywhere from 1,200 bucks to 9 grand US dollars' — and cited having worked with people with medical conditions, then asked whether investing in his health was worth it.",
+      "response_tactic": "price_range_plus_worth_it_question",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "thinking about it, I think is that maybe you're right as well. Just look at YouTube, look at those things that people are doing and actually save those videos and then record myself and then re-watch it and see if I'm doing it properly.",
+      "timestamp": "00:23:51",
+      "rep_response": "Conceded 'You could do that at the same time. It's hard as well', then asked whether his best self deserved the best kind of help.",
+      "response_tactic": "conceded_then_deserving_reframe",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "There's also my wife who is, like I said, a psychologist. has a great memory, unbelievable memory. So she always helps me out as well. She always puts me back on the track, makes me keep focused. So I think I should... Just, yeah, I think I'll just stay with her.",
+      "timestamp": "00:26:38",
+      "rep_response": "Did not contest the substitution of his wife for paid accountability. Immediately downsold to a $200 product, Primal University, and explicitly endorsed the wife as the accountability mechanism: 'you can use your wife to keep you accountable'.",
+      "response_tactic": "immediate_downsell",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Yeah, I'll think about it all. Okay, I'll think more in-depthly about this all, okay?",
+      "timestamp": "00:27:34",
+      "rep_response": "Accepted it without any of the scripted moves: 'Okay Boris, okay, we're always going to be here, alright?'",
+      "response_tactic": "accepted_deferral",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": null, "price_usd": 1200 },
+      { "months": null, "price_usd": 9000 },
+      { "months": null, "price_usd": 200 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect withdrew from coaching mid-call: 'I think I could even do this myself now thinking about it'",
+      "Explicitly chose a free substitute over the offer: 'I think I'll just stay with her. I just let that be.'",
+      "No payment, no payment link, no onboarding call, no follow-up date and no next call booked",
+      "Rep ended passively — 'we're always going to be here'",
+      "Counter-evidence: the final words were 'I'll think about it all', not an outright no, and the $200 Primal University downsell was left technically open",
+      "Counter-evidence: the prospect answered 'Yeah' when asked whether investing in his health was worth it, so the loss was on mechanism and price rather than desire"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. Prospect said he would think about it; no date, no link, no follow-up scheduled."
+  },
+  "notable": {
+    "note": "The three pillars were never presented and the standard $6,000/$9,000 structure was never given — the rep instead quoted an open range of '1,200 bucks to 9 grand', then downsold to a $200 cancel-anytime product called Primal University on the Skool platform. Separately and more seriously: the prospect disclosed multiple sclerosis with ongoing relapses and a history of full quadriplegia, and the rep's only response was to say the company had worked with 'maybe one person' with MS and others with scoliosis, and that they had helped them. No question was asked about his neurologist, his current treatment, relapse triggers, or whether loaded ballistic kettlebell work is appropriate for him. The rep also endorsed the prospect's rejection of his doctors' prognosis. The prospect's month-old baby was congratulated at 00:01:25 and never mentioned again, despite being the most obvious deep-goal lever on the call."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversion, particularly on short turns and at every phase transition — e.g. the rep's questions 'Do you feel like, where you are right now, you're living up to your 100% potential?' and 'Do you feel like your best self deserves the best kind of help' are both attributed to the prospect. Roles resolved from content: Farooq Bey is the rep. Also note the prospect's age is stated ambiguously as 'I'm now 33, not 36' with no confirmation from the rep, and it does not reconcile cleanly with 'working out ever since I was 16' plus 'close to 15 years'; recorded as 33 but treat as low confidence. The speaker label reverses his name to 'Kojic Boris' throughout."
+  }
+}

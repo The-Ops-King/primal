@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-06-11_thomas-joseph_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "hit", "P1d": "partial" },
+      "evidence": "No setter was referenced and no application read-back, so P1a does not apply. Frame covered three of four parts - 'I want to understand, like, where you at currently with your fitness, health, all that things, what have you tried, and where are you trying to get to' plus a disqualification caveat - but never 'what you need'. Agreement taken ('Yeah? Yeah.') and the floor handed over with 'so let's take it from here' rather than the scripted open question."
+    },
+    "P2": {
+      "score": "hit",
+      "checks": { "P2a": "hit", "P2b": "hit", "P2c": "hit", "P2d": "hit", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "partial", "P2i": "hit" },
+      "evidence": "Best baseline in the batch. 'So you're 39. And how tall are you? And how much you weigh?' Desk-bound work and step count both probed. Conditions asked twice - 'Any injuries, any conditions that we need to know of?' and 'Any, any other, other chronic conditions?' Diet asked with 'And be honest.' Energy chased properly - 'So how do you push through the day?' Sleep asked for quality only, not quantity; training days per week never pinned down."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "miss", "P3e": "hit", "P3f": "partial", "P3g": "hit", "P3h": "miss" },
+      "evidence": "Goal named and quantified, then driven forward six months - 'when you think about yourself for like six months from now... how are you going to operate differently than comparing to now?' That produced the son, the example-setting and the modern-man-syndrome identity material. But the rep supplied the family angle ('showing up for your wife and kids') rather than asking who it impacts, skipped the explicit bridge, and never reflected the goal back as 'this isn't really about the weight'."
+    },
+    "P4": {
+      "score": "hit",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+      "evidence": "Ran end to end. 'What's the main reason for you to fall off? Why is that?' then the reframe 'would it be fair to say that it's not about time, but prioritizing?' which the prospect accepted. The gap came out in his own words - 'the biggest thing I was lacking all this time was accountability.' The motivation-is-a-feeling reframe stood in for P4f."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Not attempted. The prospect delivered the consequence himself - 'it's easy to kind of kick the can down the road for another 5 10 years. then at that point, you're almost 50' - and the rep affirmed it rather than asking for it. Per spec that is a miss, not a hit. No two-year question, no settle question, no line in the sand."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "hit", "P6c": "partial" },
+      "evidence": "Both commitment questions ran - 'if you had this right kind of training, the right kind of nutrition, and real accountability from Trevor, do you agree that you would get to your goals?' and 'if we can figure out all the details, are you fully committed to showing up and doing the work?' But they ran after the full pitch, and the first answer was hesitation - 'Yeah. I hope so.' The script says return to Phase 5 on hesitation; the rep instead introduced the guarantee and pushed on until he got 'Then I'm in.'"
+    },
+    "P11": {
+      "score": "hit",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "hit", "P11d": "hit" },
+      "evidence": "Only complete P11 in the batch. Payment processed and confirmed live, onboarding booked for Monday 6:15 ET, agreement email confirmed, read aloud and signed on the call ('So it's signed now'), and the welcome email, Skool join and onboarding form all walked through before hanging up."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'It's not like you can't do like 1,000 per month?' The rep answered with a price - $1,200/month - and then conceded a 50/50 split. He never isolated ('finances aside, nothing else keeping you from 100%?'), never asked cash on hand, monthly surplus, cards, available credit or investments, and never asked whether a payment plan was actually needed. The manager made the same criticism in the 2026-06-12 review: 'When somebody says something like that, ask them, do you need a payment plan?'"
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Real doubt surfaced twice - 'Yeah. I hope so' at the commitment check and then 'I'm always skeptical... you're saying if you follow everything, there's no chances this can fail.' None of the OE moves ran: no certainty question, no toward-pleasure/away-from-pain frame, no bridge, no plane, no burned-before. The rep substituted an absolute promise - 'No way' and 'Like I swear on my mother' - which closed the objection by overclaiming rather than by reframing."
+    }
+  ],
+  "notes": "Strongest discovery and the only fully executed payment-and-onboarding sequence in the batch, and it still leaks in two places a coach can fix this week: the consequence frame was never run (the prospect supplied it himself), and doubt was answered with an unbounded guarantee instead of the OE play. Run 'do you need a payment plan?' before quoting any monthly figure."
+}

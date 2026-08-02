@@ -1,0 +1,111 @@
+{
+  "call_id": "2026-07-10_joshua-falkner_michael-brideau",
+  "source": {
+    "drive_file_id": "11y1WMoaAa0ZgWd6wQUK1hVOBzqh-glfP",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/10/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/10/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 49745
+  },
+  "call": {
+    "date": "2026-07-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Joshua Falkner",
+    "aka": "Josh",
+    "name_source": "transcript",
+    "location": "Pensacola, Florida, USA",
+    "age": 48,
+    "occupation": "Owner of a small marine restoration and repair business; also newly hired as rescue safety diver for the American Magic sailing team",
+    "family_status": "Girlfriend (Ronnie), long-term; two dogs",
+    "height_in": 69,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Years of CrossFit including competition, self-programmed workouts, quit roughly 3-4 years ago after repeated injuries; currently not training, job is physically demanding; active in spearfishing, diving, kite/wing foiling",
+    "kettlebell_experience": "some",
+    "medical": "On mild blood pressure medication for about six months for elevated blood pressure. Major historical trauma: run over by heavy equipment as a younger man — right foot nearly severed, both pelvic bones crushed, urethra/bladder torn, multiple debridement surgeries, two years relearning to walk. Says the old injuries are 'starting to hurt more' now that he has stopped yoga and mobility work."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "'like five years ago, was in the best shape of my life' and wants that back",
+      "'I have felt that I have let myself go a little bit, for sure, and it's been weighing on me heavily'",
+      "Business growth crowded out training; describes a downward trajectory rather than an optimisation project"
+    ]
+  },
+  "goals": [
+    { "text": "Slim down from 190 lb to around 180 lb", "category": "fat_loss" },
+    { "text": "Get flexibility back — feels stiff and sore since stopping yoga", "category": "mobility" },
+    { "text": "Rebuild cardio and endurance for all-day water activities", "category": "endurance" },
+    { "text": "Be able to keep spearfishing, diving, kite and wing foiling long term without being limited by strength or pain", "category": "hobby_performance" },
+    { "text": "Eat better and feel physically, mentally and emotionally good again", "category": "energy_performance" },
+    { "text": "Best chance at the healthiest possible life as he ages", "category": "longevity_function" },
+    { "text": "Train at home rather than driving to a gym", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Old crush-injury damage to foot and pelvis is hurting more now that he has stopped yoga and mobility work", "category": "injury", "severity": "high" },
+    { "text": "Elevated blood pressure now managed with medication for six months", "category": "medical", "severity": "medium" },
+    { "text": "Works 5:30am to 6:30-7pm; training has lost to work, dogs and a side invention project", "category": "time_scarcity", "severity": "high" },
+    { "text": "Convenience eating — Chick-fil-A on his street, eats well a couple of days then falls off", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Gym sessions with friends turned into social 'therapy sessions' and bored him; stopped enjoying it", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Quit CrossFit because he kept hurting himself chasing the leaderboard", "category": "injury", "severity": "medium" },
+    { "text": "Genetics let him look fine while detrained, so he 'got away with it' for years", "category": "motivation", "severity": "medium" },
+    { "text": "Finds reasons not to make training a priority even with an active partner", "category": "consistency", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Well, dude, yeah, it's all good. And I guess, well, dude, one, I appreciate you being up front with me. And I do want to check in, like, just quadruple check and, like, finances aside, though...",
+      "timestamp": "00:36:43",
+      "rep_response": "Isolated with a 'finances aside' check, reframed the size of the decision, asked whether it was literally not having the $6,000 or uncertainty, offered to explore payment plans/financing, asked his credit score, then parked the conversation without structuring anything.",
+      "response_tactic": "isolate_then_offer_financing_then_park",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "Trevor actually puts a guarantee on his program that we want to see at least eight kilograms increase in some of your main lifts, and if we don't, he'll continue working with you for free until you do.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep closes with 'maybe let's just keep it here for now... if anything changes, just feel free to hit us up, dude' — no payment, no next call, no link",
+      "Rep's framing 'is it literally a matter of like, we don't actually have the 6,000' and 'if he did have the money, like, you'd be like, Michael, here's my credit card' indicates the prospect said he does not have the money",
+      "Counter-evidence: no explicit prospect 'no' is on the record because his audio is absent from the transcript after 00:36:43; the door was left open rather than shut, so a follow_up reading is possible"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled — rep told him to reach out if his financial situation changes"
+  },
+  "notable": {
+    "note": "Prospect disclosed a catastrophic historical crush injury (foot near-amputation, crushed pelvis, urethral tear, two years relearning to walk) that is symptomatic again, plus six months on blood pressure medication. The rep never asked a single injury or clearance question, never returned to the injury, and presented a loaded ballistic kettlebell programme as a 'perfect fit'. Separately, the prospect's side of the call is missing from the transcript for the entire offer and objection sequence."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Several short turns are attributed to the wrong speaker (e.g. 00:12:46 'my girlfriend runs every day' is labelled Michael but is Joshua; 00:18:38 'Yeah, it was gnarly' is labelled Michael mid-Joshua's injury story; 00:17:33 the 'What do you think has been holding you back' question is split across labels). More seriously, from 00:36:43 the transcript records only the rep — the prospect moved to a phone line and his turns are absent for the entire pillar presentation, price reveal and money objection, so all prospect reactions after that point are inferred from the rep's replies."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "call_id": "2026-05-16_cy-cox_harry-edmonds",
+  "source": {
+    "drive_file_id": "1rYqjWn__JPgt9_roeLu50EMXZWh_zDmN",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/16/2026 - Cy Cox x Harry Edmonds ",
+    "display_title": "05/16/2026 - Cy Cox x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 26951
+  },
+  "call": {
+    "date": "2026-05-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 23,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Cy Cox",
+    "aka": null,
+    "name_source": "title",
+    "location": "Australia",
+    "age": null,
+    "occupation": "Upper management in mining; trade-qualified engineer, FIFO roster",
+    "family_status": "Partner named Steph, originally from the UK; building a house together",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former boxer until 23, competitive jiu-jitsu, rugby, surfing; extensive kettlebell training in the past, owns doubles from 12kg to 28kg plus a 32kg and 36kg; has followed Keith Weber video routines and Instagram sets. Out of routine for roughly two years.",
+    "kettlebell_experience": "experienced",
+    "medical": "C5/C6 problem originating in a surfing injury that has propagated into spinal stenosis; nerve compression can shoot pain down his arm. Manages it with bands. Says it is 'all good now'."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Two years out of a training routine after a long athletic history; wants the former self back",
+      "'When I didn't use to train in the past, I felt strange... And now I don't have a routine anymore. It feels normal.'",
+      "Self-diagnoses the gap as discipline rather than knowledge: 'I've got it up here but it's not translated'"
+    ]
+  },
+  "goals": [
+    { "text": "Re-establish a sustainable training routine after two years off", "category": "consistency" },
+    { "text": "Get down to a better body weight", "category": "fat_loss" },
+    { "text": "Feel and move better the way he did when training kettlebells and calisthenics", "category": "mobility" },
+    { "text": "Wants a build-up phase so he does not blow himself out restarting at his old intensity", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Has struggled to establish a routine for the last two years; drops off after two or three weeks", "category": "consistency", "severity": "high" },
+    { "text": "12, 14, 15-hour days on a FIFO mining roster; works even on his days at home", "category": "time_scarcity", "severity": "high" },
+    { "text": "C5/C6 injury propagated into spinal stenosis with nerve compression down the arm", "category": "injury", "severity": "high" },
+    { "text": "Knows what to do nutritionally but cannot stick to it; 'I've just got to have to think, just lacking the discipline'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Owns programmes and videos already but following them on his own has not worked", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Look, the only thing was the cost that was higher than I was expecting",
+      "timestamp": "00:16:17",
+      "rep_response": "Reframed the number as motivation rather than isolating or exploring the finances: 'it gives you 8,388 reasons why you're going to stick to it this time'. No isolation question, no financial-picture questions.",
+      "response_tactic": "reframe_price_as_commitment_device",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I'll just, um, due to, due to the cost, I'll have to. a discussion with my partner, obviously, because it's an amount of money that we would need to discuss first as a family",
+      "timestamp": "00:18:55",
+      "rep_response": "Asked her name, joked about the two ways partners react, asked 'What do you think she'll say? Do you think she'll be on board or do you think she'll be not on board?', then volunteered a split-payment option and agreed to a WhatsApp follow-up. Did not run the ownership/permission frame or the deposit fallback.",
+      "response_tactic": "soft_probe_then_payment_flexibility",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "we're building a house at the moment, and it's looking, it's just looking at that forecast and that's all it is... we've got a lot going out the door in the next six months",
+      "timestamp": "00:20:14",
+      "rep_response": "Empathised, noted the mining income, then offered to break the payment up. Did not challenge the timing frame.",
+      "response_tactic": "empathy_then_payment_flexibility",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": null },
+      { "months": 12, "price_usd": null }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Half down, remaining half any time within three months. Offered unprompted after the partner objection: 'you can do half of it down, and then you can do the other half as long as it's within three months. It doesn't really matter. We're pretty flexible.'",
+    "guarantee_mentioned": "'The guarantee is that whatever your starting weight is with the kettlebells, by the end of the six months, you will be, with every movement, using an eight kilo heavier kettlebell.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null,
+      "note": "Volunteered that he spent AUD 150,000-170,000 on building materials the previous week and has 'a lot going out the door in the next six months' on a house build. Said the price 'wouldn't be crippling financially'. Rep asked no financial-picture questions."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect deferred to his partner: 'I'll have to have a discussion with my partner... because it's an amount of money that we would need to discuss first as a family'",
+      "No payment taken and no payment link sent; rep agreed to a WhatsApp message and a callback roughly ten hours later",
+      "Counter-evidence for a warmer read: 'I want to get started now though, I'll be honest... I'd rather get going', and he asked how the payment/onboarding sequence works",
+      "Counter-evidence against: the deferral is tied to a live house-build cash forecast, not just a formality"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to discuss with partner Steph and message the rep on WhatsApp; rep to call back ~10 hours later (his late afternoon, prospect's evening)."
+  },
+  "notable": {
+    "note": "Price was quoted in Australian dollars as a live mental conversion ('8.4k to round up. It's like 8,380-something, if I was to convert it roughly off the top of my head') and then repeated as a precise 8,388 figure. Separately, the prospect disclosed cervical spinal stenosis with radicular symptoms and the rep moved straight to programming loaded kettlebell work around it without asking whether any clinician had cleared him. The rep also presented price and the full offer without ever running a commitment check."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Whole passages are inverted. The opening block is attributed to Cy but contains both sides. Several rep lines ('Because I'm in London', 'What do you struggle with in terms of putting it back into a routine?', 'We give you quantities, you can eat, you can't eat') are labelled Cy, and several prospect lines are labelled Harry. Roles were read from content throughout."
+  }
+}

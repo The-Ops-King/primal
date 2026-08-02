@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-07_robbie-slim_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "miss", "P1d": "hit" },
+      "evidence": "Setter referenced but not read back — 'I know you spoke with Kim. He kind of gave me a little bit of a head start.' Frame was two-part plus an alignment clause ('I just want to get a good idea of where you're at, really build out what it is that you want to accomplish... and if there's alignment there, we can obviously talk about the coaching'), missing 'what's in the way' and 'what you need'. No frame-agreement question asked. Open question ran verbatim: 'what was it that you were hoping we could potentially help you out with, man?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "partial", "P2c": "miss", "P2d": "partial", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Height and weight asked directly; age never asked — the prospect volunteered it ('The thing is, so I'm 55'). Occupation asked only after the close was agreed, as 'Do you have a business, by the way?', and desk-bound vs on-feet never established. No health-conditions or hereditary question at all; the joint complaints surfaced only because the rep asked about mobility. Duration of the pain never asked. Training week and diet both covered properly. Sleep and energy never mentioned on the call."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Surface goals were worked hard and well — 'what does that mean to you?', a six-month fast-forward, and a clean separation of fat loss, arm size and mobility. The entire deep half of the phase never ran: no 'outside of the physical, what's actually driving this right now', no 'what does that do for you', no 'who else does that impact', nothing on kids, partner, identity or longevity. A girlfriend and grown children were mentioned in passing and never explored. The reflect-back stayed at surface level: 'Lose the fat, midsection, love handles, bigger arms, leaner, flexible... feel good and look good' — never 'this isn't really about the weight'."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "The blocker question ran well — 'What do you feel like it's holding you back?' — and the prospect named the gap himself: 'I've never had a trainer... I never had anybody there watching me telling me, okay, this is right, this is wrong' plus 'there are times when I'm inconsistent'. But past attempts were only reached incidentally via the training-history question, no 'why do you feel it didn't stick', and the root-cause line 'the information isn't the problem, why can't you stick to it on your own?' was never used — which is notable given the prospect had already framed his problem as a knowledge problem and was left believing that."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The consequence frame never ran in any form. No two-year projection, no 'is that something you're willing to settle for', no line in the sand. The call went straight from goals and root cause into the philosophy presentation."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "partial", "P6c": "hit" },
+      "evidence": "Belief was tested only about the process, not about the prospect's own ability: 'how do you feel about it, like the process?' — 'I feel great, I think it's a winning process, let's go.' The all-in isolation question did run but only after the price and the cashflow objection had landed: 'money out of the equation, logistics out of the equation, this is something that you want to do?' — 'Yes.' The phase intent is a genuine yes BEFORE presenting anything, and the sequencing here inverted that."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Payment collection started on the call — card type taken and 'Let me just remove the recorder out of the meeting' before card details. Onboarding call with Trevor booked for Tuesday 4:15pm Pacific and contact details verified. No agreement email mentioned and nothing signed on the call; no welcome email, no Skool community link, no onboarding questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran ('money out of the equation, logistics out of the equation, this is something that you want to do?') and got a clean yes. Everything after that was skipped: no 'you're not in a SHOULD I place, you're in a HOW place', no 'are you comfortable having an open, honest conversation about exactly where you're at financially', and none of the six financial-picture questions — cash on hand, monthly surplus, credit cards, available credit, used vs available, investments. Instead the rep improvised two brand-new price structures within about two minutes of the objection landing."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The timing objection was real in substance — 'I have to wait till that happens', a house sale the prospect put at one to two months. None of the OD moves ran: no 'things never slow down', no 'the longer you wait the harder this gets', no 'the only thing you can control is right now'. The rep resolved a timing objection by lowering the entry price instead of collapsing the timeline."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Fear of injury was stated outright as the reason he had never started kettlebells: 'I thought that looks like I'm going to screw something up on me and I don't want to get hurt.' No OE moves were used — no certainty question, no bridge, no plane. It was addressed obliquely and much later inside the philosophy pitch, via the first-month form-mastery framing. Effective in the room, but off-script, and it meant the fear was never separated from the four chronic joint complaints sitting underneath it."
+    }
+  ],
+  "notes": "Strong, warm discovery on the surface layer and a genuinely good philosophy presentation, undone by skipping both leverage phases — P5 never ran at all and P3's WHY half never ran — so when the money objection arrived the rep had no emotional leverage to hold price with and discounted the entry point instead. Coach the sequence: commitment check before the offer, consequence frame before the commitment check, and run the financial picture before inventing a payment structure."
+}

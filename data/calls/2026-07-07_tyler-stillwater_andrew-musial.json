@@ -1,0 +1,186 @@
+{
+  "call_id": "2026-07-07_tyler-stillwater_andrew-musial",
+  "source": {
+    "drive_file_id": "1uv-1GWy_YrozzwSwoznTvVV9CgEayhLe",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/07/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/07/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 47226
+  },
+  "call": {
+    "date": "2026-07-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Tyler Stillwater",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Salt Lake City, Utah, USA",
+    "age": 40,
+    "occupation": "Software programmer; founded his own companies. Formerly working 100+ hour weeks, now ~6-7 hours a day at a desk",
+    "family_status": "Married; wife trains with him and may be interested in the programme herself",
+    "height_in": 72,
+    "weight_lb": 215,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former dancer, in good shape roughly ages 16-25, then lost fitness to desk work. Two years ago did a self-directed six-month home-gym block with his wife and got into decent shape. Currently trains Mon/Wed/Fri with sauna and cold plunge five times a week. Home gym with kettlebells, maces, treadmill, stair climber.",
+    "kettlebell_experience": "some",
+    "medical": "Moderately hypermobile with generalised connective-tissue laxity, described as causing joint degradation and chronic muscle pain. Three cervical discs replaced surgically for a degenerative (family-hereditary) neck condition. Left shoulder procedure with stem cells, PRP and fat injected to repair torn ligaments/tendons. Prior knee surgeries. Currently in physical therapy for left shoulder and right knee; PT has said he is past the healing stage and should begin strengthening. Chronic lower-back stiffness and pain a couple of times a week; cannot touch his toes. Averages 3,000-5,000 steps a day."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Explicitly frames the goal as getting back what he had: dancer through his mid-twenties, 'used to be in much better shape between the ages of about 16 and 25', lost it to desk work",
+      "Carries visible regret about capability lost — sat out a second day of hiking in Iceland because his knees were wrecked",
+      "Post-surgical and in active PT rather than facing a live health crisis, which separates him from the_prehab_fighter"
+    ]
+  },
+  "goals": [
+    {
+      "text": "Strengthen and stabilise all muscles and joints to compensate for hypermobility",
+      "category": "injury_prevention"
+    },
+    {
+      "text": "Build overall functional strength and fitness so he can hike, backpack and camp more",
+      "category": "hobby_performance"
+    },
+    {
+      "text": "Work up to a multi-state thru-hike such as the Appalachian or Pacific Crest Trail",
+      "category": "hobby_performance"
+    },
+    {
+      "text": "Be able to hike at 70 the way a 70-year-old friend currently out-hikes him at 40",
+      "category": "longevity_function"
+    },
+    {
+      "text": "Lose roughly 20-25 lb of fat — described as a welcome by-product rather than the goal",
+      "category": "fat_loss"
+    },
+    {
+      "text": "Have the stamina to travel and hike hard without being wrecked the next day",
+      "category": "endurance"
+    }
+  ],
+  "pains": [
+    {
+      "text": "Lifetime of pain from hypermobility, degraded joints, chronic muscle tension; three cervical discs replaced, shoulder and knee procedures",
+      "category": "injury",
+      "severity": "critical"
+    },
+    {
+      "text": "Hereditary degenerative disc condition — mother had it, brother has had multiple surgeries",
+      "category": "medical",
+      "severity": "high"
+    },
+    {
+      "text": "Lower back stiff and tight most of the time, painful a couple of times a week; can no longer touch his toes",
+      "category": "injury",
+      "severity": "high"
+    },
+    {
+      "text": "Lost essentially all fitness sitting at a desk 10-16 hours a day building companies",
+      "category": "training_barrier",
+      "severity": "medium"
+    },
+    {
+      "text": "Could not keep up on holiday — skipped a second day of hiking in Iceland after a 12-mile day left his knees protesting",
+      "category": "emotional",
+      "severity": "medium"
+    },
+    {
+      "text": "Previous training was self-directed guesswork in his home gym; says he needs guidance",
+      "category": "accountability_gap",
+      "severity": "medium"
+    },
+    {
+      "text": "Dislikes most conventional isolation-style exercise that has been recommended to him",
+      "category": "training_dissatisfaction",
+      "severity": "medium"
+    },
+    {
+      "text": "Struggles to eat enough protein — gets full quickly, estimates he should be eating ~200g a day",
+      "category": "nutrition_habit",
+      "severity": "low"
+    },
+    {
+      "text": "Imposter syndrome and self-doubt about whether he can commit and stick to it",
+      "category": "confidence",
+      "severity": "medium"
+    },
+    {
+      "text": "Private person, uncomfortable sending training videos to a coach",
+      "category": "emotional",
+      "severity": "low"
+    }
+  ],
+  "objections": [
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I mean, I probably have, you know, the same general doubts that a lot of guys have, where it's just like, can I actually do this? And I think I can, you know, I'm a little nervous about like making that commitment and sticking to it. And I don't want to feel like I'm failing or anything like that.",
+      "timestamp": "00:35:01",
+      "rep_response": "Reframed rather than isolated: told him Trevor would chase him when he missed a workout, asked whether he was willing to commit, pushed back on his hedged 'I think so' with 'You think so?', then reframed imposter syndrome as a marker of high achievers and closed with an Andy Frisella line about nothing great coming from comfort.",
+      "response_tactic": "reframe_selfdoubt_as_highachiever_trait",
+      "resolved": true
+    },
+    {
+      "type": "other",
+      "raw_quote": "I am a very private person, and it's going to be a little weird for me to send videos to somebody. But I'll just have to get over that.",
+      "timestamp": "00:34:21",
+      "rep_response": "Told him coaching is not possible without it, then softened by pointing out he has a home gym so he need not film in public.",
+      "response_tactic": "necessity_plus_privacy_reassurance",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "\"there's also a guarantee on that for those six months, that you will gain at least eight kilos, which is around 17 pounds of additional weight to your baseline kettlebell moves... If for some reason, you wouldn't hit those additional eight kilos, he will work for you until you do, yeah, for free.\"",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep sent the payment link in the Zoom chat and the prospect confirmed it processed: 'Went through just fine.'",
+      "Coaching agreement signed on the call: 'Coaching agreement signed.'",
+      "Onboarding call with Trevor booked for the next day at 12:45 and the calendar invite confirmed received.",
+      "Counter-evidence: no dollar figure was restated at the point of payment, so the amount charged is inferred from the single stated price of 6K."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Onboarding call with Trevor Wednesday 12:45pm Mountain; join the Skool community; rep took his WhatsApp number for ongoing contact."
+  },
+  "notable": {
+    "note": "The prospect's wife is discussed on this call as a possible second client ('My wife might be interested, so I'm going to kind of trial run it'). A Robyn Stillwater closed with the same rep on 2026-07-23 and is recorded in data/icp.json as a purchase running through 'her partner, an existing client' — this call is almost certainly that partner, so the two records are linked and should not be treated as independent acquisitions. Separately, the medical picture here is the most severe in the batch and was never routed to a clinician: hypermobility, three replaced cervical discs and an active PT course for shoulder and knee, closed into a loaded kettlebell programme carrying a guarantee of an 8kg load increase."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent line-level swapping throughout. Clearest example is at 00:49:14-00:49:22 where the rep's label carries 'I'm in Salt Lake City, Utah' although the rep is in Poland and the prospect is on Mountain time; also 00:06:33-00:06:48 where the desk-hours answer and the follow-up step-count question are attributed to the wrong speakers, and 00:02:04 where the rep's label carries the prospect's account of kettlebells feeling natural. Roles were read from content throughout. Rep name comes from the transcript itself (he spells 'M-U-S-I-A-L' at 00:48:22) rather than the diarization label 'Andrew Jin'."
+  }
+}

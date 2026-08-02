@@ -1,0 +1,115 @@
+{
+  "call_id": "2026-07-02_charlie_richard-claessen",
+  "source": {
+    "drive_file_id": "1w9p0jia5BzLO-XtKaA4OKQJRmXkvRPFI",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/02/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/02/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 53848
+  },
+  "call": {
+    "date": "2026-07-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "Prospect had earlier contact with the setter Kim and deferred at that point because he was still on IV antibiotics — 'That's why I told Kim that I wasn't ready yet.' No prior closing call took place.",
+    "duration_min_est": 59,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Named twice by both parties despite no setter suffix in the title. Rep: 'We've already got quite a bit of context from Kim, but I would love to hear it from you' and 'I think Kim mentioned something like not being as tight as you used to.' Prospect: 'That's why I told Kim that I wasn't ready yet.'"
+  },
+  "prospect": {
+    "name": "Charlie",
+    "aka": "Appears in the transcript under the label 'Charlie's'",
+    "name_source": "transcript",
+    "location": "California, USA (Pacific time)",
+    "age": 38,
+    "occupation": "Military veteran, enlisted at 21. Says he works in the fitness industry. Has been off work for the past couple of months due to illness. Exact current role never established — the rep did not ask.",
+    "family_status": "Married; wife is breastfeeding. Two young children, aged roughly 10-11 months and 2 years.",
+    "height_in": 68,
+    "weight_lb": 170,
+    "bodyfat_pct_self_reported": 18.5,
+    "training_background": "Competitive bodybuilder for about five years, weighed his food and tracked macros, competed to national qualifier level and stopped when COVID hit and children arrived; declined to turn pro because it would have meant using steroids. Gym five to six days a week in his twenties and thirties, plus military conditioning — sprinting, running, circuit training and rucking. Estimates 15-20 years of training overall. Has declined over the past five or six years since COVID and children. Was unable to train at all for the past couple of months due to illness and returned to training two days before this call, doing back and pull-ups then barbell squats in his backyard. Owns a rack, barbell and weights; owns no kettlebells.",
+    "kettlebell_experience": "none",
+    "medical": "Recovering from a serious infection requiring a PICC line and intravenous antibiotics for the past couple of months, during which he could not train at all. The PICC line was removed the week before this call. He remains on oral antibiotics twice daily, named as 'Lime Zolli' — almost certainly linezolid — with approximately three weeks of the course remaining, and describes them as 'heavy meds'. The underlying infection was never named and the rep did not ask. Separately, chronic lower back pain rated 7 out of 10 on a normal day and up to 10 on bad days, severe enough that he must brace on the sink to hold himself up and cannot lean forward; he attributes it to weak hips and glutes. Shoulder and chest stiffness without pain. Self-reports elevated cortisol from prolonged sleep deprivation. No clinician, physician or clearance was mentioned at any point."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Textbook rebuilder language with visible regret: 'I see myself in the mirror every day and I'm just like, man, where did I get myself into? And it's crazy how I came from this to this.'",
+      "Wants a specific former self back and can quantify it — walked around at 12% body fat, now 18-19%, and named the target himself",
+      "Lost ground to a defined hard season: two children in two years, COVID, and a serious infection that stopped all training for months",
+      "Substantial overlap with the_prehab_fighter, which matters for screening rather than classification: he is not merely recovering from a bad season, he is still inside an active course of heavy antibiotics with three weeks to run. The spec notes prehab_fighters are the easiest to close and the most important to screen clinically, and both halves of that proved true here — he closed at full price with zero objections and no clinical clearance was sought."
+    ]
+  },
+  "goals": [
+    { "text": "Rebuild endurance and stamina, which he describes as 'garbage' — gassed after 25 squats or a 30-minute walk", "category": "endurance" },
+    { "text": "Drop from 18-19% body fat back to 12%, and ideally 10%", "category": "fat_loss" },
+    { "text": "Keep up with his two young children as they grow", "category": "family_role_model" },
+    { "text": "Regain the high energy he used to have and stop needing naps during the day", "category": "energy_performance" },
+    { "text": "Move to functional, full-range training and away from bodybuilding, which he says makes him feel stiff", "category": "other" },
+    { "text": "Resolve lower back pain that reaches 10 out of 10 on bad days", "category": "injury_confidence" },
+    { "text": "Loosen stiffness through shoulders and chest", "category": "mobility" },
+    { "text": "Feel younger again", "category": "longevity_function" },
+    { "text": "Train at home in the backyard rather than losing two hours a day to the gym", "category": "convenience" },
+    { "text": "Show up better as a husband and father — less angry, less exhausted, happier for his wife and kids", "category": "family_role_model" },
+    { "text": "Learn kettlebells properly rather than wasting years working it out alone", "category": "sustainability" },
+    { "text": "Avoid the injury risk he associates with CrossFit-style overhead lifting", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Recovering from a serious infection that required a PICC line and IV antibiotics; still three weeks from finishing a heavy oral antibiotic course", "category": "medical", "severity": "critical" },
+    { "text": "Lower back pain at 7 out of 10 daily and 10 out of 10 at worst — has to hold the sink to stay upright and cannot lean forward", "category": "injury", "severity": "critical" },
+    { "text": "Could not train at all for several months during treatment", "category": "training_barrier", "severity": "high" },
+    { "text": "Severe sleep deprivation from two children waking multiple times a night, often getting back to sleep only around 6am", "category": "sleep", "severity": "high" },
+    { "text": "Low energy and lethargy; takes naps, tired after a 30-minute walk", "category": "other", "severity": "high" },
+    { "text": "Steady physical decline over five to six years since COVID and children — 'things aren't as tight as they used to be, definitely a lot flabbier'", "category": "aging", "severity": "high" },
+    { "text": "Unhappy with his reflection and describes himself as angry and stuck at home", "category": "emotional", "severity": "high" },
+    { "text": "Cannot spare the two hours a gym trip costs without leaving his wife alone with both children", "category": "time_scarcity", "severity": "high" },
+    { "text": "Training intensity has collapsed — heart rate no longer elevates the way it used to", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Stuck with no visible results for months at a time", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Daily Coke Zero and occasional vitamin water are his stated dietary weaknesses", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "Immediate verbal agreement on hearing the price, with no objection of any kind: 'What do you say? Get started or?' — 'Yeah, let's get started.'",
+      "Payment link sent during the call and the prospect fetched a physical credit card to complete it: 'Sorry, gotta get my credit card.'",
+      "Payment confirmed by the rep twice — 'I just got confirmation from my assistant that it came true' and 'I just got a message that I came through on our site.'",
+      "Onboarding call with Trevor booked live for Monday 6 July at 12:15 Pacific; the prospect confirmed receiving both calendar invites during the call.",
+      "Counter-evidence on payment certainty: the first attempt failed when the prospect closed the tab, no confirmation email had reached him by the end of the call, and the rep acknowledged uncertainty about a possible double charge — 'I'm not like 100% sure it's not going to go through twice.' Confirmation rests on the rep's assistant rather than on a receipt the prospect saw.",
+      "The agreement was not signed on the call — the email had not arrived and the rep asked him to sign it when it did.",
+      "Recorded as a full-price cash close rather than under the verbal-agreement rule, since payment was processed and independently confirmed during the call."
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Onboarding call with Trevor on Monday 6 July at 12:15 Pacific. Prospect to complete the pre-onboarding questionnaire, join the Skool community via the emailed link, and sign the agreement when the confirmation email arrives. Rep to check in via WhatsApp every few weeks."
+  },
+  "notable": {
+    "note": "The only close in the batch, at full price with zero objections raised — and the most serious clinical exposure in it. The prospect had a PICC line removed the week before, remains on three more weeks of twice-daily heavy antibiotics for an infection neither party named, and reports back pain reaching 10 out of 10 where he cannot lean forward and must brace on the sink. To the rep's credit he did ask once whether training was advisable, but he accepted the prospect's own lay reassurance ('it's not like I have heart problems or anything') and never asked whether a doctor had cleared him. He then converted the active treatment into a selling point — 'while you're on medications at the moment, the first three to four weeks are always focused on making sure that the movements, the form is correct... so that's perfect timing with that as well' — and separately promoted intermittent and full-day fasting. Process-wise this is by some distance the best-executed call of the twelve: setter notes read back, sleep and energy actually covered, the who-else-does-this-impact question run properly, and four of four payment and onboarding steps attempted."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive inversion despite the call being easy to follow in substance. Whole passages of the prospect's narrative sit under the rep's label, most severely from 00:17:15 to 00:19:04 where his account of sleep deprivation runs continuously under Richard Claessen, and again from 00:36:45 to 00:37:12 and 00:50:02 to 00:50:54 where the payment and kettlebell-purchase exchange alternates within single labelled blocks. The very first line, 'Hey, what's going on, Richard?', is attributed to the rep. All roles resolved from content. Several load-bearing phrases are corrupted by transcription: the price is rendered 'six game for the whole part' and the prospect's confirmation question as 'this is a total of Mountain Dew one time correct?', both clearly referring to the $6,000 single payment. The antibiotic is rendered 'Lime Zolli' and 'Antalyalex'; recorded as stated, with linezolid the probable referent. Connection quality was poor and the rep noted the prospect's internet was dropping."
+  }
+}

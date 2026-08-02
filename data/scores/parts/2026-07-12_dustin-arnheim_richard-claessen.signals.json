@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-12_dustin-arnheim_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Delivered as three to four sessions a week of 30-45 minutes plus a mobility plan built around the lower back. He asked no questions about the training content itself and every question about the delivery mechanism: 'is all of this that you're describing currently, other than me recording, is it all live? Like, is it a live meeting?', then 'how much of it is AI versus [human]?', then 'so it's basically text', then 'is there any check-ins with you or like who?'. Four consecutive process questions and none about programming, which for a prospect whose stated need is a plan designed to his body type is a telling reaction."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep introduced the one-to-one as 'three things' and then described training and mobility and the coach relationship, and the nutrition pillar was skipped entirely. This is the notable omission of the call: the prospect had already flagged dairy-free, gluten-free and peanut-free requirements that he says make training difficult, had said he is deliberately eating frequently to add weight, and had specifically attacked the category's meal-planning claim. All three were live and none was answered."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "He pushed back on the substance of the mechanism rather than seeking clarification. Told coaching is conducted almost entirely by text and voice message because the coach's clients are hard to schedule with, he objected from direct experience: 'I do know that, like, when I did this in the past, there were times where I needed to have a conversation. Because text message is not the most efficient or effective way to communicate always. So I am a little hesitant about it 99% being text message... is that the right fit?' He did credit the one element he wanted — 'I do like being able to record the videos of my form, send it in, and get feedback' — but the objection was never resolved and was still standing when the call ended."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "self_set_budget",
+      "raw": "So I would have liked to spend closer to $200 or $300 a month, but again, it depends what I get from the $200 or $300.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The decisive anchor and it was set in the first three minutes, before any value had been described, because the prospect demanded the price first and the rep answered. At $200-300 a month the one-to-one is out of range by an order of magnitude, and the rep conceded exactly that a minute later. Note the caveat the prospect attached — 'it depends what I get' — which was an explicit invitation to argue value that nobody took."
+    },
+    {
+      "type": "prior_paid_coaching",
+      "raw": "I have done a virtual trainer, I found it successful... I put on like 30 pounds of primarily muscle",
+      "direction": "supports_price",
+      "competitor": "a previous virtual trainer",
+      "note": "He has bought this exact category before, it worked, and he says so in the first sixty seconds. The strongest supportive anchor available and it was never used — nobody asked what it cost, what it included, or why it was worth it at the time."
+    },
+    {
+      "type": "burned_on_personalisation",
+      "raw": "I've done the meal plans, those aren't of particular value to me. I feel like, with all due respect, I feel like that it's sold as it's detailed and tailored, and the reality, it's not the quality or the tailored approach that I would want or need.",
+      "direction": "undercuts_price",
+      "competitor": "templated meal plans from online coaching generally",
+      "note": "Not a price anchor but a credibility anchor, and a sharper one. He is discounting the central promise of the offer because he has bought it before and found it generic. Any price he hears is being weighed against an expectation that the tailoring will not materialise, and no evidence was offered to shift it."
+    },
+    {
+      "type": "existing_professional_spend",
+      "raw": "And I do a muscle activation therapist once to twice a month.",
+      "direction": "supports_price",
+      "competitor": "muscle activation therapist",
+      "note": "He already pays a clinician monthly for the same body part the programme proposes to fix. Direct evidence of willingness to spend on professional physical care, mentioned once and never picked up — neither as a supportive anchor nor as the clearance question it should have prompted."
+    },
+    {
+      "type": "cancellation_precedent",
+      "raw": "I think honestly was expense, I think I had to cut expense, it was during the pandemic.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The last time he bought coaching he cut it as an expense when conditions tightened, and then lost everything he had gained. Relevant to both price sensitivity and to retention risk, and it went unexplored."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live conversation with the coach when text is not adequate — 'there were times where I needed to have a conversation. Because text message is not the most efficient or effective way to communicate always.'",
+      "why_unmet": "Deliberately not offered. Beyond the single onboarding call, coaching is text and voice message by design: 'before actually Trevor did do all meeting, but he just saw that with the people that he mainly works with, it's mainly people who are very busy... It just works best to do it all through text', and 'you shouldn't think that that's actually going to happen'. Second prospect in this batch to raise the same gap.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Nutrition that works within dairy-free, gluten-free and peanut-free constraints while adding weight — the constraint he named first and called challenging.",
+      "why_unmet": "Never addressed. The nutrition pillar was not presented at all, so the prospect left with no information about whether the programme can accommodate three exclusions, and with his prior complaint about templated meal plans still standing.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Evidence that the programming is genuinely tailored rather than templated, from someone who has bought that claim before and found it false.",
+      "why_unmet": "Asserted and never evidenced. The rep described a bespoke plan built after an onboarding call but offered no example, no case, and no differentiation from what the prospect bought previously. The one concrete element that did land was video form review, which he singled out approvingly.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training coordinated with a chronic lower back problem already under a muscle activation therapist's care.",
+      "why_unmet": "A mobility plan for the lower back was promised in general terms and framed as eventually removing his need to stretch each morning. No mechanism was described, the existing clinician was never mentioned again, and no question was asked about whether that therapist would sanction loaded kettlebell work.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "call_id": "2026-07-22_pete-vazquez_richard-claessen",
+  "source": {
+    "drive_file_id": "1Iw53-aYQtKzgWs29KUBDb50EL66zniea",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/22/2026 - Pete Vazquez x Richard",
+    "display_title": "07/22/2026 - Pete Vazquez x Richard — Closed",
+    "file_size_bytes": 38553
+  },
+  "call": {
+    "date": "2026-07-22",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "Direct continuation of a call on Monday 2026-07-20 where discovery ran, the offer was presented and a first $500 was taken. The prospect opens by delivering his decision - 'I think I'm comfortable going for the 1K for six months' - and references 'when I hung up with you the other night on Monday'. That prior call is not in this batch.",
+    "duration_min_est": 33,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named on the call. The prospect states his only contact with the company has been the rep: 'my only contact with you guys has been you.'"
+  },
+  "prospect": {
+    "name": "Pete Vazquez",
+    "aka": "Pedro B. Vazquez - his given name, which is what appears on his credit cards; everybody calls him Pete",
+    "name_source": "title",
+    "location": "United States, state not stated",
+    "age": 68,
+    "occupation": "Retired pharmaceutical sales representative in oncology, selling cancer drugs to physicians; still goes out on occasional field calls, including one that day with his daughter-in-law who sells diagnostic testing",
+    "family_status": "Married; has a daughter-in-law working in diagnostic testing. Born in Cuba, bilingual in Spanish.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Effectively a beginner. Describes himself as brand new and had never heard of a mobility routine - 'No, I don't even know what that is.' Before buying he found Trevor's recommended beginner workout on a free video and did it on the Monday, completing seven rounds in twenty-seven minutes, and keeps his own spreadsheet logging exercises, weights, rounds and time.",
+    "kettlebell_experience": "none",
+    "medical": "Self-describes as carrying multiple long-standing injuries: 'I'm an older guy. So I have a lot of injuries that, you know, are lingering that were there.' Doing the recommended beginner workout on the Monday left his knees hurting 'like crazy' and he tweaked his back; he was hobbling around on the Tuesday and self-treated with ice and heat overnight. On the day of this call he reported feeling 'a little better'. Says his body is 68 and 'has been beat up quite a bit'. No clinician was mentioned, and none was asked about."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.75,
+    "signals": [
+      "68, unusually health-literate by profession - spent a career selling oncology drugs to physicians - and describes a body that has been 'beat up quite a bit'",
+      "Chose the cheapest tier explicitly for liquidity reasons rather than doubt: 'that will give me an opportunity to do the program. And save, you know, save some considerable amount of money, which I need for other things that are popping up'",
+      "Goal is holding on to function rather than gaining anything: 'Hopefully. I'll be alive without pain'",
+      "Self-aware about the mismatch between drive and body: 'I am a very motivated person when I want to do something, and I do have a lot of energy... but my body is 68 years old... sometimes I get in trouble because I have a lot of energy, and I think I'm 30 years old, and I'm not'"
+    ]
+  },
+  "goals": [
+    { "text": "Train without ending up in pain - 'Hopefully. I'll be alive without pain'", "category": "injury_confidence" },
+    { "text": "Learn the kettlebell foundations properly as a complete beginner, in the right order", "category": "other" },
+    { "text": "Build mobility to reverse years of small things accumulating while he was working and not focusing on physical health", "category": "mobility" },
+    { "text": "Get the programme without spending money he needs for other things coming up", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Multiple lingering long-standing injuries from a body he describes as beaten up", "category": "injury", "severity": "high" },
+    { "text": "Knees hurt badly and back was tweaked doing the recommended beginner workout; hobbling the following day, self-treating with ice and heat", "category": "injury", "severity": "high" },
+    { "text": "Pushes too hard because his energy outruns his body - completed seven rounds in twenty-seven minutes on his first ever session", "category": "other", "severity": "high" },
+    { "text": "No knowledge of mobility work at all - had never heard the term", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Money is needed for other things that are coming up", "category": "other", "severity": "medium" },
+    { "text": "Struggles significantly with computers and online sign-up flows - roughly fifteen minutes of the call was lost to it", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "Yeah, let me ask you something. Is this like a contract? In other words, does it have a start date and an end date? Because I'm thinking I would like to start beginning Monday of next week, even though I can pay you today.",
+      "timestamp": "00:06:22",
+      "rep_response": "Confirmed it runs six months with a one-week onboarding buffer built in, and offered informally to extend his community access by an extra week to cover the delayed start. Proposed label: contract_terms_clarification.",
+      "response_tactic": "confirm_term_and_offer_informal_extension",
+      "resolved": true
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "Well, the only... Another one, my only contact with you guys has been you. So now moving forward, I no longer will be talking to you?",
+      "timestamp": "00:07:59",
+      "rep_response": "Disclosed honestly that he is only on the sales side, then committed personally to checking in every two to three weeks and gave the prospect his personal WhatsApp number in addition to his American work number.",
+      "response_tactic": "honest_role_disclosure_plus_personal_commitment",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [ { "months": 6, "price_usd": 1000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Split into two $500 payments - one taken on the prior Monday call and one taken live on this call. Rep described the invoice as 'it's 1,000, but it's discounted with 500', meaning the balance after the first payment.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment taken live and confirmed on the call: 'Pay now $500. Click on that. Processing pay' followed by 'Invoice paid.'",
+      "Agreement reviewed and signed on the call - the prospect read 'page one, medical disclaimer' aloud, corrected his signature and clicked to finish signing",
+      "Welcome email received and Skool community sign-up attempted live, though it ended on 'Membership pending'",
+      "Prospect opened the call having already decided: 'I think I'm comfortable going for the 1K for six months'",
+      "Counter-evidence on what was actually sold: this is the $1,000 Primal University product, not the $6,000 one-to-one coaching offer, so it should not be counted as a flagship close"
+    ],
+    "cash_collected_usd": 1000,
+    "cash_collection_basis": "split_payment_total - $500 taken on the prior Monday call, $500 taken live on this call",
+    "next_step": "Skool membership to be approved within a few hours by the US team; prospect to work through Foundations then Mastery 1; rep to text on WhatsApp in two to three weeks to check progress"
+  },
+  "notable": {
+    "note": "A 68-year-old who injured his knees and back two days earlier doing the programme's own recommended beginner workout, who was hobbling the day before this call, was enrolled and paid without a single question about whether a clinician had looked at him - and was advised to resume training the next day. Separately: this is the third appearance of the $1,000 Primal University product in one batch and the first one that closed, so the rep is running a second, undocumented price ladder. Two process details worth escalating: the rep told the client not to bother correcting an incorrect pre-filled signature on an agreement whose first page is a medical disclaimer, and the client was sent an invite to the private one-to-one client hub in error and told he could join it anyway."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts constantly, including at commercially important moments - the decision statement at 00:01:51 and the price line 'it's 1,000, but it's discounted with 500' are both misattributed, and the payment walkthrough from 00:09:00 to 00:15:00 alternates almost at random. Roles assigned from content. Note also that this is the second half of a two-call sequence and the first call is not present in this batch, so the discovery, the offer presentation and the first $500 are all unaudited."
+  }
+}

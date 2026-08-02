@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-06-15_ej-hernandez_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a torn rotator cuff with current functional limitation and a knee that had been swelling for weeks under chiropractic and osteopathic care, and was taken through a full pitch and two price offers for loaded ballistic kettlebell training with no question about clinician clearance.",
+      "evidence": [
+        "I tore a rotator I tore a rotator and now I'm like I'm experiencing some some issues with my knee also",
+        "I know there's certain limitations right now, especially with my shoulder. I can feel it.",
+        "I don't think I have any serious injuries on my knees, but I just noticed at times it gets swollen... it started about maybe, um, a couple of weeks ago",
+        "I have a chiropractor that I see every couple of weeks. And then also an osteopath that kind of helps me maybe release some pressure on, on that right knee",
+        "But I was doing kettlebell swings... 16 kilos, sorry, 12 kilos, single-hand, doing the 20 and 32 double"
+      ],
+      "timestamp": "00:08:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a three-month tier at $4,000 live on the call, minutes after the prospect said the six-month price was unaffordable; the tier is not in the $6,000/6mo, $9,000/12mo structure and was framed as an improvisation.",
+      "evidence": [
+        "I have one last thing. I have one idea. Actually, it occurred to me right now.",
+        "So what we could do is put you on, like, a three-month plan... That's the option only for the fittest, yeah?",
+        "So the three-month program, it's 4K, and we could also split it up so it would be more digestible to you.",
+        "In Canadian, it's going to be 5,400."
+      ],
+      "timestamp": "00:53:14"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The three-month instalment option was quoted at $1,500 a month over three months, totalling $4,500 against a stated price of $4,000, and the $500 difference was never disclosed or explained.",
+      "evidence": [
+        "So the three-month program, it's 4K",
+        "So the best solution would be split it in two, to be honest, because that's no interest on that.",
+        "If you would like to split it up to three months, that would be 1,500 a month. So that's in Canadian, 2,000."
+      ],
+      "timestamp": "00:55:09"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep reassured the prospect he could charge the payment back if the company turned out to be a scam, while the company's own client agreement - read aloud by another prospect four days earlier - states no refunds and no chargebacks.",
+      "evidence": [
+        "And the thing is, even if this was a scam, of course it's not, but if it would be like your credit card is secured, you get it charged back, yeah.",
+        "Let's put down a small refundable deposit today... We'll just send you the deposit back, and you're going to be good."
+      ],
+      "timestamp": "01:03:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "After the prospect said now was not the time and disclosed a poor credit score, a high-interest mortgage under refinance and private-school fees, the rep pressed for an immediate deposit and, when the card declined, repeatedly probed whether he was afraid rather than accepting the answer.",
+      "evidence": [
+        "So maybe now is not the time.",
+        "my credit score is not that great... right now, even the three months, it's very, very, very difficult",
+        "oh you want me to do it now yeah why not yeah let's let's have it because I know then life happens you forget and I have to chase you",
+        "are you still hesitant about is it legit or not? Be frank.",
+        "It's, it's, you're still afraid of doing that. Just be frank.",
+        "My credit card has insufficient funds. I gotta fund it."
+      ],
+      "timestamp": "00:51:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect attempted to fund a personal purchase on the family business card and the rep did not pause or flag it.",
+      "evidence": [
+        "Andrew, I have, I gotta fund the card. I'm using the company card, I gotta fund it. But, but I will get this. I promise you, I'll pay for it.",
+        "Look, you're not doing this for me. You're doing this for yourself."
+      ],
+      "timestamp": "01:10:25"
+    }
+  ]
+}

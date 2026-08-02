@@ -1,0 +1,140 @@
+{
+  "call_id": "2026-06-30_xaime_richard-claessen",
+  "source": {
+    "drive_file_id": "15Tn2swBNcC9mvblX51sw4zTJiRZHRqmC",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/30/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 60484
+  },
+  "call": {
+    "date": "2026-06-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 61,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Netherlands" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Xaime",
+    "aka": "Jaime — the pronunciation he gave when the rep asked how to say his name",
+    "name_source": "transcript",
+    "location": "Spain, coastal city (walks to the beach); same time zone as the Netherlands",
+    "age": 36,
+    "occupation": "Not established — the rep never asked what he does. Works rotating shifts: usually 7am-3pm, sometimes 3pm-11pm, and occasionally 11pm-7am covering for colleagues.",
+    "family_status": null,
+    "height_in": 69,
+    "weight_lb": 163,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Three years of consistent self-directed gym training, currently three days a week having cut back from four or five because he stopped seeing progress. Highly consistent by his own account — 'I never skip, like I decided three days and it's always three days.' Went from zero pull-ups to 12, and can bench roughly 72-74 kg for reps. Plateaued on both for months. No kettlebell experience. Previously worked with a personal trainer for a year at 200 euros a month.",
+    "kettlebell_experience": "none",
+    "medical": "Chronic lower back pain, self-rated between 4 and 6 out of 10 and present on some level every day, built up over years. Never diagnosed and no clinician consulted — he is explicitly resistant to doing so: 'if you have a huge back pain, you need to go to the doctor or take some medication, which I don't want to do.' Also disclosed SIBO, which he described as bloating triggered by gluten or lactose. Posture self-described as poor."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Self-directed and demonstrably capable — three years of unbroken consistency, zero to 12 pull-ups, benching around bodyweight, and no accountability problem on training at all",
+      "Anchored to an alternative that genuinely worked: a personal trainer at 200 euros a month for a year, which produced his gains — 'it was like 200 euros per month, which I mean, it's okay'",
+      "Refused on value rather than capacity, and said so plainly once probed: 'I have that money saved' — the blocker was never affordability",
+      "Variant worth noting: his preferred alternative is not cheaper but equal-priced and in-person — a local clinic with doctors, physiotherapists and trainers at roughly 6K over a year. He is bargain-hunting on trust and modality rather than on price, which the archetype does not quite capture"
+    ]
+  },
+  "goals": [
+    { "text": "Eliminate chronic back pain, explicitly his top priority — 'the back pain is a little bit more important than the physique'", "category": "injury_prevention" },
+    { "text": "Fix his posture, which he says would improve how he looks even without physique changes", "category": "other" },
+    { "text": "Lose the belly fat he has accumulated", "category": "fat_loss" },
+    { "text": "Break through his strength plateau — more than 12 pull-ups, more on the bench press", "category": "strength" },
+    { "text": "Gain muscle and build a better physique", "category": "muscle_gain" },
+    { "text": "Fix the back now so it does not worsen with age", "category": "longevity_function" },
+    { "text": "Find something more challenging and less boring than the gym", "category": "other" },
+    { "text": "Start Brazilian Jiu-Jitsu, which he has deferred until the back pain is resolved", "category": "hobby_performance" },
+    { "text": "Take up indoor climbing and bouldering", "category": "hobby_performance" },
+    { "text": "Feel more confident and capable — ties strength directly to a sense of power", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Daily back pain rated 4 to 6 out of 10, varying by day, built up over years and undiagnosed", "category": "injury", "severity": "high" },
+    { "text": "SIBO — bloating and fullness triggered by gluten and lactose", "category": "medical", "severity": "medium" },
+    { "text": "Strength plateau on both pull-ups and bench press lasting months despite consistent training", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Poor posture which he believes undermines his appearance", "category": "other", "severity": "medium" },
+    { "text": "Bored of the gym, which is underground with no sunlight, and has cut sessions from five to three a week as a result", "category": "motivation", "severity": "medium" },
+    { "text": "No structure or measurement around food — 'I basically eat what I want' and never counts anything", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Has deferred starting Brazilian Jiu-Jitsu because of the back pain", "category": "training_barrier", "severity": "medium" },
+    { "text": "Rotating shift pattern including occasional overnight shifts, complicating meal timing", "category": "time_scarcity", "severity": "low" },
+    { "text": "Cannot picture a deeper motivation — answered the why question with 'I haven't thought about it. Not really.'", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "So, yeah, I mean, even though I think it's a very good program, so right now I don't think I can, yeah, I don't think I can do it.",
+      "timestamp": "00:45:37",
+      "rep_response": "Immediately labelled it as affordability — 'Sounds like that's more like a money thing, right?' — and ran a hypothetical: 'let's say 5.2k would just fall on your lap right now.' The diagnosis was wrong; the prospect later said he had the money saved.",
+      "response_tactic": "assume_money_objection_then_hypothetical",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I'm not sure if that would really be the best fit for me, like, is it worth spending it if you don't really know how it's, how the outcome is going to be?",
+      "timestamp": "00:47:20",
+      "rep_response": "Did not address the certainty question. No guarantee, refund policy or risk reversal was mentioned at any point in the call. The rep instead redirected to whether the prospect still saw himself doing the programme.",
+      "response_tactic": "redirect_to_belief_check",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "if I had to spend, like, that kind of money, I would go to these doctors and these physiotherapists and these personalized trainers, because here... if I had to spend 6K, I wouldn't spend it on an online course.",
+      "timestamp": "00:48:10",
+      "rep_response": "Reframed toward self-sufficiency and longevity — asking whether the clinic would leave him dependent forever — then told a personal story about his father spending over 15,000 twice on treatment that did not last, and stated such clinics 'want you to keep coming back because that's where they make their money from.' The prospect held his position and declined.",
+      "response_tactic": "sustainability_reframe_plus_disparage_alternative",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Only gestured at, never structured: 'when it comes to the money aspect, we can always figure something out to actually make it work. But if you're like, it's just too much to pay all in one go, and that's understandable. We can always make something work there.' No instalment count, amount or schedule was offered, and the prospect declined before any structure was proposed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and unambiguous refusal: 'Yeah. I don't think I'm going to make the investment, the 5k or the 6k.'",
+      "Confirmed the refusal extended beyond the call when the rep checked: asked whether 'right now' meant this call or the near future, he answered 'Yeah, in this call, and maybe in the small, in the, in the near future as well.'",
+      "Stated a clear preference for spending the same money elsewhere: 'if I had to spend 6K, I wouldn't spend it on an online course.'",
+      "Not an affordability loss — he confirmed he had the funds: 'I could spend it, I have to save. I have that money saved.'",
+      "Counter-evidence: he rated the programme itself 10 out of 10 for fit before price was mentioned and repeatedly said the programme sounded good, so the loss is on value and modality rather than on the offer being misunderstood.",
+      "Call ended cordially with no follow-up scheduled and no next step agreed."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. Rep closed with 'if anything comes up, let me know' and no follow-up was booked."
+  },
+  "notable": {
+    "note": "Lost to a local in-person clinic at roughly the same price, not to a cheaper substitute — the prospect had the cash saved and rated the programme 10 out of 10 before hearing the number. Two things stand out for a principal. First, the rep used the prospect's potential need to see a doctor about his back as the negative outcome in the consequence frame, then told a story characterising clinics and physiotherapists as financially motivated to keep patients returning, in order to displace a competing medical option for an undiagnosed multi-year back complaint. Second, he told the prospect the pain would reach zero. No guarantee or risk reversal was ever mentioned, despite the prospect asking directly about outcome certainty."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent speaker inversion, with several long unbroken blocks where rep and prospect turns are merged under a single label — most severely between 00:15:00 and 00:18:00, 00:26:30 and 00:30:00, and 00:39:00 and 00:44:00, where whole question-and-answer exchanges appear under one speaker. Roles resolved from content throughout. The speaker label is 'Xaime' but the prospect gave his name aloud as 'Jaime' when asked; both forms refer to the same person and the label spelling is used as the record name. Ambient transcription noise is high, including nonsense insertions such as 'Good luck.' and 'bajillion' mid-sentence."
+  }
+}

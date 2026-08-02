@@ -1,0 +1,109 @@
+{
+  "call_id": "2026-05-05_jason-stentz_harry-edmonds",
+  "source": {
+    "drive_file_id": "1Y-4rSNOMCek4z8UZ2MjLY9ddJFZ0ZhPp",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/05/2026 - Jason  Stentz x Harry Edmonds",
+    "display_title": "05/05/2026 - Jason  Stentz x Harry Edmonds — Closed",
+    "file_size_bytes": 32706
+  },
+  "call": {
+    "date": "2026-05-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 32,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter suffix in the title and no setter named on the call. The rep held application data — he read back a phone number ending 2695 and a yahoo email address for confirmation — so an intake form existed, but no setter call is referenced."
+  },
+  "prospect": {
+    "name": "Jason Stentz",
+    "aka": null,
+    "name_source": "title",
+    "location": "Colorado, just north of Denver, USA (Mountain time)",
+    "age": 48,
+    "occupation": "Owner of multiple businesses, now run day to day by partners — 'my businesses are kind of running themselves. Well, at least I've got partners in place to run them for me.'",
+    "family_status": "Married; three children including a 10-year-old son, a daughter who is vegetarian but will not eat vegetables, and a youngest who eats only chicken nuggets. Wife is pursuing similar health and wellness goals.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 20,
+    "training_background": "Spends a good amount of time lifting weights and has done for years, in a home gym — dislikes gyms, group formats and CrossFit, and prefers to train alone. Not a fan of cardio. Has been stuck around 20% body fat for a long time. Recently became interested in kettlebells after seeing Trevor's content, bought an adjustable set ranging 10 to 50 lb at $260 per bell and has used them a little, quickly concluding he had technique to learn. Procrastinates leg work. Has done extended fasting including a 72-hour fast and enjoyed it.",
+    "medical": "Lower back irritation with sciatic symptoms provoked by loaded compound lifting — 'I tried to do more leg work, deadlifts and squats, and my back didn't really enjoy it. That's why I started feeling sciatic. So, just some lower back struggles.' Describes himself as otherwise 'pretty healthy overall'. Takes supplements, and referenced 'any kind of supplements or treatments that I'm on' without specifying the treatments. No clinician involvement mentioned and none asked about."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Successful multi-business owner whose companies now run without him, framing this as the next thing to work on: 'just getting to the next level of my health journey'",
+      "Price registered no resistance whatsoever — the reply to $6,000 was 'Okay. Okay.' followed immediately by a question about the tax treatment",
+      "Buys fast and without deliberation, by his own description: 'I'm not very patient when it comes to things like that. I pull the trigger and I see something I like pretty quickly' — he had already spent $260 per bell on an adjustable set before the call",
+      "Goal is a peak, not a rescue: 20% body fat toward 10%, and 'this vision of being at a peak point in my physical ability and place when I turn 50'",
+      "Slight preserver colouring in the ageing frame — 'I'm not getting any younger', 'the clock's ticking' — but he is optimising from a good base, not defending a declining one"
+    ]
+  },
+  "goals": [
+    { "text": "Look in the mirror and be proud of what he sees — more defined abs and muscles", "category": "appearance" },
+    { "text": "Get from around 20% body fat down closer to 10%", "category": "fat_loss" },
+    { "text": "Be at a peak point of physical ability by the time he turns 50", "category": "other" },
+    { "text": "Get structure and a tailored plan rather than improvising", "category": "consistency" },
+    { "text": "Gain the mobility and joint benefits he sees in the modality rather than isolated movements", "category": "mobility" },
+    { "text": "Train efficiently in one all-in-one session instead of splitting time across muscle groups, without doing cardio he dislikes", "category": "convenience" },
+    { "text": "Get a sustainable family-compatible diet plan he and his wife can build on for years", "category": "sustainability" },
+    { "text": "Resolve the lower back irritation and sciatic symptoms", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Lower back irritation and sciatic symptoms provoked by deadlifts and squats", "category": "injury", "severity": "high" },
+    { "text": "Stuck around 20% body fat for years despite consistent lifting", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Diet consistency comes and goes — 'I get into it and then I kind of slack off a little bit or life happens'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "No structure or plan; identifies structure as the single biggest barrier", "category": "accountability_gap", "severity": "high" },
+    { "text": "Work consumed him until recently and he prioritised business and family over his own health", "category": "work_stress", "severity": "medium" },
+    { "text": "Every day has a different schedule, so a fixed training time does not work", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Family meals are hard to cook for — three children with incompatible diets", "category": "nutrition_habit", "severity": "low" },
+    { "text": "Starting to feel his age at 48", "category": "aging", "severity": "low" },
+    { "text": "Doesn't know correct kettlebell technique and learned quickly that he had a lot to learn", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.92,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Price stated and accepted with no resistance: 'It's just 6k for the six months us.' / 'Okay. Okay.' — followed by a question about writing it off, not about affording it",
+      "Explicit go-ahead: 'Ready to rock and roll?' / 'Ready.' / 'Let's do it.'",
+      "Onboarding call with Trevor booked to a specific slot — Monday at 2pm Mountain — after working through the calendar together",
+      "Contact details verified and corrected on the call, including the prospect volunteering his preferred email over the spam address on his application",
+      "Payment method selected and the link opened: 'In terms of the payment, did you want to do it on like Visa, MasterCard, Amex?' / 'Visa would be probably preferred' / 'I'll pull this up for you'",
+      "Counter-evidence: the recording is cut at that exact moment — 'Let me just shoot the recorder out of here' — so completed payment is not in evidence and the close rests on the verbal-agreement-plus-link rule",
+      "Counter-evidence on quality of the close: no objection was ever raised, so nothing was tested — this was an inbound buyer who had decided before the call"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Payment processed on the call by Visa; onboarding call with Trevor booked for Monday 2pm Mountain; Trevor to deliver full nutrition, kettlebell and mobility protocols within 24-48 hours of that call. Delivery via the True Coach app."
+  },
+  "notable": {
+    "note": "A clean, fast close on a pre-sold buyer — and the two things worth escalating both sit next to it. The prospect disclosed sciatic symptoms provoked by deadlifts and squats, and the rep's response at the moment of quoting was to promise the outcome: 'for you, it's making sure diet's locked, backs fixed, progressing'. No question about a clinician, and the programme he was sold leads with loaded hinging and, per the rep's own description elsewhere in the batch, snatches. Separately this is the fourth call in the batch carrying the business tax pitch and the second in two days offering to shape the invoice itself: 'We can frame it like the invoice in whatever ways necessary to write off for tax.' Fourth recording in the batch stopped at the payment step."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion at turn boundaries. The rep's open question at 00:01:15 sits under the prospect's label; 'Let's do it, Jason' at 00:28:18 is the rep's line under the prospect's name; 'Here's what I'll do' at 00:28:20 is likewise inverted. The time-zone exchange at 00:28:39 is internally contradictory — 'What's your time zone? Eastern. You said, so I'm mountain time' — but the prospect lives north of Denver and all subsequently agreed slots are stated in Mountain time, so Mountain has been recorded. The final line of the file is the rep stopping the recorder."
+  }
+}

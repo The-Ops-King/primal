@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-05-14_kandarp_harry-edmonds",
+  "source": {
+    "drive_file_id": "13crBdMc9dTctB_1btbGlnRwAGQXozWxI",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/14/2026 - Zayn Malik x Harry Edmonds",
+    "display_title": "05/14/2026 - Zayn Malik x Harry Edmonds — Lost",
+    "file_size_bytes": 14646
+  },
+  "call": {
+    "date": "2026-05-14",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 13,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter code in the title and no setter named on the call. The rep opened cold with no reference to any prior notes or application."
+  },
+  "prospect": {
+    "name": "Kandarp",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Georgia, United States — Atlanta area",
+    "age": null,
+    "occupation": "Medical resident. Rotation-dependent schedule: 'last month, I was working in an ICU, 12-hour shifts, from 6 a.m. to 6 p.m. There is no time. This month, very lax. Next month, it's going to be 12-hour shifts again.' Expects consistency to arrive in about a year.",
+    "family_status": "Married — refers to 'my wife and I'. No children mentioned.",
+    "height_in": null,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained with kettlebells about a year ago while in medical school, self-taught from friends, and reports real results in strength and mobility. Stuck to basics — swings, farmer's carries, bicep curls, tricep extensions, push-ups with bells — and never learned the full movement library. Cannot perform a Turkish get-up. Not currently training consistently. Was 175-180 lb during that period and is now at his heaviest, 195 lb. Started working with a nutritionist about a month before the call and has cut portion sizes substantially without yet seeing weight come off. Primarily vegetarian with his wife; protein from eggs, beans and dairy. Sleeps around seven hours.",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Explicitly self-directed and says so twice: 'I don't really need live input or anything like that. I'm pretty self-driven' and 'I'm pretty much no-nonsense. I'm self-driven. I don't really need hand-holding, per se.'",
+      "Anchored to a cheap alternative that genuinely worked — self-taught kettlebell training picked up from friends: 'They led to a lot of success, I think, in helping develop strength, mobility'",
+      "Wants structure and information rather than a relationship: 'guidance more so like just structure, just like hey, do X, Y, and Z, and you're good'",
+      "Hard affordability ceiling, stated plainly: 'the cost would have been an issue with one-on-one coaching. I'm not there yet. In a year, I would be.'",
+      "Overlaps with the_rebuilder — he is at his heaviest and wants a recent baseline back — but the defining feature is capability plus a working low-cost substitute, not lost ground",
+      "Not skeptical in tone; he was agreeable throughout. The archetype is assigned on behaviour, not attitude."
+    ]
+  },
+  "goals": [
+    { "text": "Get back to around 175 lb from 195 — he considers 175 a good weight and does not expect to return to the 160s", "category": "fat_loss" },
+    { "text": "Get stronger, benchmarked as strong enough to bench-press an equivalent of at least 150 lb", "category": "strength" },
+    { "text": "Stay in shape despite a residency schedule he cannot control, using bells he can keep in his office", "category": "consistency" },
+    { "text": "Improve mobility", "category": "mobility" },
+    { "text": "Learn the movements he never got — the Turkish get-up specifically", "category": "other" },
+    { "text": "Have a plan that flexes to the time available on a given day — 15 minutes today, 30 to 45 tomorrow", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "At his heaviest ever, up 15-20 lb since medical school, driven by residency stressors", "category": "work_stress", "severity": "medium" },
+    { "text": "Schedule is predictable only in that he knows when it will go haywire — no consistency available for at least a year", "category": "time_scarcity", "severity": "high" },
+    { "text": "No structure or programming — has to invent his own sessions and only knows the basics", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Cannot perform whole movements: 'what's that thing called? It's like a Turkish get-up. Can't do that to save my life'", "category": "competence_anxiety", "severity": "low" },
+    { "text": "A month of substantially reduced portions with no weight loss to show for it yet", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Gym membership plus a trainer is the wrong shape for his life — he wants something he can do in his office", "category": "training_barrier", "severity": "medium" },
+    { "text": "Cannot afford one-on-one coaching at this stage of his career", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Again, I do appreciate transparency. I will say the cost would have been an issue with one-on-one coaching. I'm not there yet. In a year, I would be.",
+      "timestamp": "00:11:45",
+      "rep_response": "Nothing — the objection arrived after the rep had already withdrawn the coaching offer and sent the $200 Primal University link, so there was nothing left to isolate. Notably the prospect also signalled the constraint would lift in twelve months and no future follow-up was set against that date.",
+      "response_tactic": "none_offer_already_withdrawn",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "Yeah, that's fair. I don't really need live input or anything like that. I'm pretty self-driven.",
+      "timestamp": "00:10:16",
+      "rep_response": "Agreed with it and used it to confirm the downsell, distinguishing the coaching as one-on-one work with Trevor versus Primal University as 'Trevor's brain in resources and programs and guides'. He then checked his own read: 'Am I accurate with that? I just want to make sure.'",
+      "response_tactic": "confirm_self_direction_and_route_to_self_guided",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial-picture questions were asked. The only disclosure was volunteered after the offer had been withdrawn: coaching was unaffordable now but would be affordable in about a year, consistent with a resident's salary and his stated timeline for schedule stability."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The rep disqualified the prospect from the coaching himself, before any objection was raised: 'I feel like the better thing for you would be, have you seen Primal University?' and 'I want to make sure that if we offer you the coaching, you're going to get the value you want out of it'",
+      "The coaching price was quoted only as part of the disqualification: 'It's about $1,000 a month. It's $6,000 for the six months. Primal University is like $200. And I feel like for what you want, it's probably a better fit anyway.'",
+      "Prospect accepted the redirect and confirmed the affordability ceiling independently: 'the cost would have been an issue with one-on-one coaching. I'm not there yet.'",
+      "A link to the $200 self-guided product was sent by text during the call and received — 'I just got the link. So I'll definitely utilize that and go from there' — but no purchase was confirmed on the recording",
+      "Counter-evidence that this need not have been a loss: the prospect is a physician, which the stated ICP names explicitly, his health is genuinely the neglected area, and he told the rep the constraint lifts in a year. No dated follow-up was set against that."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to review the Primal University link sent by text and buy it independently if he wants to. Rep offered to walk him through it by phone if he has questions. No follow-up call booked and no future date set despite the prospect signalling he would be able to afford coaching in about a year."
+  },
+  "notable": {
+    "note": "The rep disqualified rather than discounted, which is the right instinct and rare in this batch — he actively steered a prospect toward a $200 product and away from a $6,000 one, saying 'Save you some money, too', and the prospect thanked him for the transparency. Two things qualify that. First, the disqualification happened nine minutes into a thirteen-minute call, before any consequence frame or commitment check, so 'I just want structure' was the only need on the table and $200 obviously satisfies it — the deeper drivers were never tested. Second, this is a physician, the one occupation the stated ICP names by name, disqualified on affordability in the same week the same rep structured live instalment plans for other prospects. No payment plan was offered here and no follow-up was diarised against the prospect's own twelve-month horizon. Separately, the file is titled 'Zayn Malik', a pop star's name, while the prospect is a medical resident called Kandarp."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe throughout — the labels are inverted for most of the call. The opening question 'You are some sort of medical field' is labelled Harry and is correct, but 'Whereabouts are you in the world?' and the answer are merged under one label; the entire specificity push at 00:06:46-00:07:50 is attributed to 'Harry Edmonds' but contains the prospect's answer, and the price quote at 00:09:17 is under the rep while the assent is under the prospect at 00:10:16 where the rep's own explanation continues. The long unpunctuated block at 00:07:00 mixes both speakers with no boundary at all. Roles resolved from content."
+  }
+}

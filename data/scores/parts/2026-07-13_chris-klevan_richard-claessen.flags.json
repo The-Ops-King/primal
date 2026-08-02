@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-07-13_chris-klevan_richard-claessen",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "A sales manager coaches the closer to stop reading setter notes and applications before calls, which contradicts playbook check P1a requiring the rep to read back setter notes so the prospect feels seen.",
+      "evidence": [
+        "what I would say for a little bit, up to you if you decide to take this advice, but what served me really well is not reading the notes that the setter gave and not reading the applications",
+        "Yeah, I don't read them. I ignore it. I go into the call and I figure out what you're...",
+        "from on tomorrow I'm not gonna look at the applications anymore and the set of notes"
+      ],
+      "timestamp": "00:03:30"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The manager sets closing on the call as the overriding objective and frames letting a prospect leave to think as near-certain loss, coaching pressure to convert in-session regardless of prospect readiness.",
+      "evidence": [
+        "You got to get them to close on the call. Always do your best to try and make it happen... It needs to be the number one thing.",
+        "Because every time you let them off, doesn't matter how great it sounded. It doesn't matter how much rapport you had. It's so easy for someone to just not respond to you. Probably not even. It's probably more like 1 in 100.",
+        "I'm also just going to do my absolute best to get them over the line, even if that means that they don't like me anymore afterwards."
+      ],
+      "timestamp": "00:06:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Confirms that no-shows caused by a closer running over are logged as prospect-initiated reschedules, which understates rep-caused attrition in the booking data.",
+      "evidence": [
+        "Derek texted him like, hey rich is running over with someone at the moment... can you jump on like 10-15 minutes then he says actually no it does not work",
+        "then Derek texts him like hey got it so it sounds like you got a hard stop at the top of the hour, did you need to reschedule in that case? And then Joey responds, yes"
+      ],
+      "timestamp": "00:00:59"
+    }
+  ]
+}

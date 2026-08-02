@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-07-17_everett-rattray_richard-claessen",
+  "source": {
+    "drive_file_id": "1QxKk_DrN8OkAQAV1BsJyURvwlnz2jpXa",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/17/2026 - Everett Rattray x Richard Claessen KFS",
+    "display_title": "07/17/2026 - Everett Rattray x Richard Claessen KFS — Closed",
+    "file_size_bytes": 9579
+  },
+  "call": {
+    "date": "2026-07-17",
+    "stage": "onboarding",
+    "sequence_position": 2,
+    "sequence_note": "Post-sale logistics call. Payment was already taken before this call ('of course we did the payment now in two times through like a custom link'), the onboarding form was already completed, and the rep refers back to terms agreed earlier ('I think that is what we talked about'). The selling call itself is not in this file.",
+    "duration_min_est": 9,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "medium",
+    "evidence": "From the KFS suffix in the title only. The setter is never named or referenced anywhere in the transcript."
+  },
+  "prospect": {
+    "name": "Everett Rattray",
+    "aka": "DET - Everett Rattray",
+    "name_source": "title",
+    "location": "United States, Eastern time zone",
+    "age": null,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.3,
+    "signals": [
+      "Proposed label: unclassifiable_from_logistics_call. This is a nine-minute post-sale scheduling call with no discovery content — no goals, pains, history, occupation or medical information is discussed at any point, so there is no basis to assign an avatar without inventing one.",
+      "The only behavioural signal is cashflow-driven payment preference: 'I like the pay link because if I get paid, I was like, oh, I can probably pay half an hour'"
+    ]
+  },
+  "goals": [],
+  "pains": [],
+  "objections": [],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Payment already taken in two instalments via a custom link rather than the standard payment link. Ongoing instalments discussed as $1,200 per month; the prospect asked instead to keep paying through the ad-hoc link whenever he gets paid, and floated bi-weekly amounts. The rep said he would seek team approval for bi-weekly splitting of roughly $500-$700 and come back on WhatsApp. Total contract value was never stated on this call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment has already been taken: 'because of course we did the payment now in two times through like a custom link'",
+      "Onboarding call with Trevor booked live for Tuesday 21st at 7:15pm Eastern and the calendar invite sent to shadowheart24 at gmail.com",
+      "Onboarding form already completed: 'you already completed the onboarding form, right? — Yep.'",
+      "Client is being routed into delivery: 'a day or two days after that, programs are going to be ready. It's going to be in the app.'",
+      "Counter-evidence: the balance is unresolved. The billing method for future instalments was left open, no card was captured, and the rep had to escalate the prospect's requested schedule — 'I will ask my team, because I'm not the systems guy'. Cash actually collected to date is never stated."
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": "Two instalments were taken before this call via a custom link, but neither the amounts already paid nor the total contract value is stated anywhere in the transcript.",
+    "next_step": "Trevor onboarding call Tuesday 21st, 7:15pm Eastern; rep to confirm with the team whether bi-weekly instalments are permitted and reply on WhatsApp; Trevor to advise which kettlebells to buy on that call; rep to check in in a few weeks."
+  },
+  "notable": {
+    "note": "The entire commercial arrangement here sits outside the standard offer: payment taken through a 'custom link' in two parts, an ongoing $1,200/month figure, and the client asking to pay ad hoc when he gets paid. The rep is improvising terms he cannot authorise ('I'm not the systems guy, so I will ask if that's good') while simultaneously reassuring the client it will be fine, and he invites the client to overpay if he can — 'if you feel like, well, I can actually do more, that's also fine'. No total, no schedule and no signed agreement are confirmed on the call."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns are repeatedly attributed to the wrong party — the exchange at 00:00:15-00:00:41 has both the question and its answer under the rep's label, and the prospect's question about which kettlebells to buy at 00:07:40 is labelled as the rep. Roles resolved from content. There is a 45-second silent gap between 00:02:00 and 00:02:48 while the rep works his calendar."
+  }
+}

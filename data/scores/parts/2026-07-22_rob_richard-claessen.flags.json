@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-07-22_rob_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep confirmed on the record that 'Sophia', who had been messaging the prospect and who the prospect took to be a member of the team, is an automation rather than a person; the disclosure was incidental and only came after the prospect raised her by name.",
+      "evidence": [
+        "were saying there's somebody named Sophia that was messaging me",
+        "She's part of the team, Richard.",
+        "Yeah, and she isn't a she, so it's an automation.",
+        "Oh, ignore Sophia, please."
+      ],
+      "timestamp": "00:45:52"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised a price range of $1,000 to $6,000, then later restated it as $1,500 to about $6,500 for six months; none of $1,000, $1,500 or $6,500 exists in the published $6,000/6mo and $9,000/12mo structure.",
+      "evidence": [
+        "It would be in the four figures, somewhere between 1,000 and 6,000 or so. Depends on how much coaching would really have to go into and how it would be structured at what time.",
+        "No, like 1500 to around six and a half for total, for six months."
+      ],
+      "timestamp": "00:13:53"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect ends the call believing the programme may cost as little as $1,500, restates the figures back incorrectly without being corrected on the total, and takes that understanding into a joint financial decision with his wife.",
+      "evidence": [
+        "And of course the financial resources as well to commit, as you outline the programs, what you said, 1500 to 5k a year, something like that.",
+        "For six months, something like that. Yeah.",
+        "So I'll confer with the misses, try to carve the time out, commit to 1400 this Friday"
+      ],
+      "timestamp": "00:37:18"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 61-year-old with self-reported BMI over 30, twelve years of chronic sleep deprivation and a prescribed sleep medication that does not work was moved toward starting kettlebell training with no question asked about clinician clearance or medication review.",
+      "evidence": [
+        "I've suffered with chronic sleep deprivation. Now when I work day shift, which is six months out of the year for the last 12 years, Richard, this is, it's, it's too much.",
+        "My doctor prescribed some sleep meds, which I take no medication. I hate taking any medications. I'd rather address it, you know, homeopathically, but the sleep meds don't even work.",
+        "Well, my BMI is probably, what, over 30%. I'm just probably sub-obese level.",
+        "Yes, do that, do it today. Send me a message when you've done it."
+      ],
+      "timestamp": "00:30:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect volunteered that he rejects radiation and chemotherapy in favour of homeopathic cancer protocols while describing a multigenerational family cancer history; the rep neither engaged with it nor recorded it, and the topic passed without comment.",
+      "evidence": [
+        "I'm not. I'm proponent of radiation or chemo or anything like that, but, and there's some very strong natural homeopathic cancer fighting protocols out there",
+        "I lost my parents. My mother at 66 from kidney cancer, my father at 62 from lung cancer.",
+        "My family has succumbed to cancer, multi-generational, so it's very important to try to prevent that.",
+        "Good. And when it comes to taking a deep step, what are you going to need from Trevor in order to actually make sure you take that step"
+      ],
+      "timestamp": "00:22:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Recording disclosure was made only in passing while troubleshooting the prospect's camera, and no explicit consent was requested.",
+      "evidence": [
+        "Yeah, live because my recorder is in here, making sure that we're going over everything that can really listen to you instead of having to note everything down, basically.",
+        "Right. And I don't see an icon representing a camera here anywhere, mate."
+      ],
+      "timestamp": "00:01:01"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The file is titled 'Impromptu Zoom Meeting' with no prospect name, the prospect is diarized only as 'iPhone', and only his first name is recoverable from the transcript, so this call cannot be matched to a CRM record without manual review.",
+      "evidence": [
+        "00:00:00 - iPhone: Florida, sir.",
+        "There we are. Good to meet you, Rob."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

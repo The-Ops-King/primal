@@ -1,0 +1,121 @@
+{
+  "call_id": "2026-05-26_carlo-alleva_harry-edmonds",
+  "source": {
+    "drive_file_id": "19ptuTGDUl3jElcpdN6uWL8iw3zXQHkS2",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/26/2026 - Carlo Alleva x Harry Edmonds KFS ",
+    "display_title": "05/26/2026 - Carlo Alleva x Harry Edmonds KFS  — Lost",
+    "file_size_bytes": 13334
+  },
+  "call": {
+    "date": "2026-05-26",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 12,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I know you spoke with Kim. He kind of gave me an overview, so I've got a head start on you"
+  },
+  "prospect": {
+    "name": "Carlo Alleva",
+    "aka": "Carlo",
+    "name_source": "title",
+    "location": "Normally Valencia, Spain; on the call visiting his parents (references being in Italy)",
+    "age": 35,
+    "occupation": "Visual effects / film industry; building his own design and AI/VFX studio as a freelancer",
+    "family_status": "Girlfriend is from Argentina; no children mentioned",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Parkour and skateboarding for around ten years; stopped training completely for roughly five years while working on films; last three years doing functional training at a gym plus some kettlebell work; did a year of daily morning stretching and lost the gains after stopping",
+    "kettlebell_experience": "some",
+    "medical": "Reports a protrusion in a lumbar vertebra (transcribed as 'a production in LN ... one of the vertebrae') attributed to his parkour/skateboarding past; a knee problem; and an operation the month before the call — 'I had an operation last month, so I'm not moving ... I'm not training these months, like on the 6th I will be back.' The nature of the operation was never asked about or established. Self-describes as very stiff."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.65,
+    "signals": [
+      "Athletic for a decade (parkour, skateboarding) then stopped completely for about five years of film work",
+      "'I want to get back with what was before, like even better'",
+      "Regret about repeating the same cycle — 'I'm tired of repeating the same cycle over and over again'",
+      "Counter-signal: currently mid-recovery from an operation, which pulls somewhat toward the medically constrained profile"
+    ]
+  },
+  "goals": [
+    { "text": "Achieve a pancake and a forward fold — sit on the floor and feel comfortable", "category": "mobility" },
+    { "text": "Lose weight, specifically long-standing belly fat", "category": "fat_loss" },
+    { "text": "Build muscle — 'I'm training, I'm always the same, I'm that type of guy'", "category": "muscle_gain" },
+    { "text": "Feel genuinely healthy with more energy so he can handle the day and enjoy it", "category": "energy_performance" },
+    { "text": "Take training seriously now for the long term, to stay well in the years to come", "category": "longevity_function" },
+    { "text": "Build confidence and discipline that carries into his work and business", "category": "confidence" },
+    { "text": "Integrate the programme with his existing gym sessions — roughly three coached sessions plus two at the gym", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Chronic stiffness he attributes partly to genetics and partly to years without practice; regained the stiffness within months of stopping his stretching routine", "category": "training_barrier", "severity": "medium" },
+    { "text": "Never accountable — has tried online methods that were not progressive and did not stick", "category": "accountability_gap", "severity": "high" },
+    { "text": "No measurable progression in training or flexibility — 'I don't know how to measure it really'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Lumbar vertebral protrusion and a knee problem that make him feel unhealthy and wary of loading", "category": "injury", "severity": "high" },
+    { "text": "Recovering from an operation the previous month and not training at all during that period", "category": "medical", "severity": "high" },
+    { "text": "Heavy episodic drinking — 'once or weeks I'm drinking really a lot' — which he names as the main thing he should remove", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Desk-bound / standing-desk visual effects work leaving him sedentary most of the day", "category": "training_barrier", "severity": "medium" },
+    { "text": "Cash constrained while starting a business — 'I'm not rich', 'too many things at the same time'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "at the moment i probably know yeah because i'm uh yeah yeah it's yeah that's probably the perspective at the end of the because i have lots of things",
+      "timestamp": "00:12:01",
+      "rep_response": "Offered one soft reframe — 'I would say it depends, it depends on how important it is' — then immediately conceded, sympathised with the business launch, and ended the call. No isolation question, no financial picture, no payment plan explored.",
+      "response_tactic": "soft_value_reframe_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "so it's a big investment at the moment so i understand that ... too many things at the same time and uh yeah probably yeah too much at the moment",
+      "timestamp": "00:12:01",
+      "rep_response": "Accepted it — 'that's all good man don't worry about it ... I'll stay in touch with you and if things get better let us know'. No 'when does it actually become the right time' framing.",
+      "response_tactic": "accept_and_defer",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": null } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.8,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect on price: 'too much at the moment'",
+      "Rep ended it rather than working the objection: 'if that's the case i don't want to waste more of your time'",
+      "Counter-evidence — the door was left open on both sides: 'maybe we can speak later in another moment' and 'I'll stay in touch with you and if things get better let us know', so this could be argued as follow_up; no follow-up was scheduled and no next step was set, which is why it is scored lost",
+      "No payment link, no agreement, no onboarding step of any kind"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None scheduled. Rep said he would stay in touch and that the prospect should reach out if his finances improve."
+  },
+  "notable": {
+    "note": "The prospect disclosed a lumbar vertebral protrusion, a knee problem and an operation one month prior, and the rep asked nothing about any of it — not what the operation was, not whether he is cleared to train, not when he can load again — then moved to quoting a price. Separately the price quoted was 5,100 EUR for six months rather than the standard 6,000 USD, with no rationale given on the call. The rep also skipped the entire presentation: none of the three pillars was delivered, and he went from a soft commitment check straight to numbers, then dropped the deal at the first sign of price resistance without running the money play."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The final stretch of the call (from 00:12:01) collapses into a single un-punctuated block attributed to 'Carlo' that plainly contains both speakers — the price quote, the affordability objection, the rep's reframe and the close-out are all inside one turn. Timestamps stop entirely after 00:12:01, so duration is understated. Earlier, several short rep lines are attached to the prospect's turns and vice versa (e.g. 'You're still a baby' and 'I know what you mean'). Roles were read from content throughout."
+  }
+}

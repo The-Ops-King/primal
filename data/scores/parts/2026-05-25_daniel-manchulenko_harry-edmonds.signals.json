@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-25_daniel-manchulenko_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Arrived already convinced and articulated the value proposition better than the pitch did. On kettlebells: \"The kettlebells, I've done some research. I'm excited for the routine\" and \"I like that they're full body, they're moving. My heart rate doesn't really go up if I'm sitting there doing a bench press.\" On mobility he made the longevity argument himself: \"functional movement is something that is missing in the fitness community... I don't want to be one of those people that's, you know, you can tell how old I am based on how I walk.\" When the rep offered the 60-year-old-with-back-pain-on-the-golf-course frame he upgraded it: \"I want to be the guy who's 60 on the golf course driving 300 yards.\""
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Received as a small adjustment rather than a change, which is how the rep framed it — \"it sounds like you're 89% of the way there. A little 5% more will make a big difference.\" The prospect agreed with his own number: \"The nutrition, when I'm on, I feel like I'm probably 85-90% of the way there. I've got to make sure that I'm on and that I stay on.\" No questions and no resistance. Worth noting that a prospect running a weekly 36-hour water fast and a recent 77-hour fast raised no queries about how that interacts with a strength programme, and neither did the rep."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Accepted the principle instantly and firmly — rep: \"we're going to hold you the hell accountable. If I have to be on your case every day, I will\" — prospect: \"That won't be a problem.\" His questions were all about the machinery: \"What is the communication mechanism? Is there an app? Is there a portal?\" and then follow-ups on automatic step tracking and Apple Watch integration. He was buying the system, not the encouragement, which is consistent with a man who likes half-marathon training plans."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "coaching_spend_precedent",
+      "raw": "I paid a sleep coach 10 grand for three months of sleep coaching just purely because I needed it. I was like, 10 grand for three months. But I was like, dude, I need this.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The most powerful supports_price anchor in the batch, and it came from the rep about himself, twenty-five minutes before the price. It sets a reference of $10,000 for three months of single-domain coaching against $6,000 for six months across three domains. It was deployed as rapport rather than as positioning, and never referred back to when the number landed — but it almost certainly did work, because the prospect asked how the payment structure worked rather than whether the price was justified."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I came across one of Trevor's videos. It was one of the, like, do this seven minutes every morning, kind of things... and that was kind of the first one I came across and that one appealed to me",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free YouTube and reels content",
+      "note": "The whole acquisition path is free content, and he had already been doing the seven-minute routine and self-assessing against it (\"that seven-minute video that Trevor puts together where he spreads out his feet... I'm basically perpendicular\"). The free product was working well enough to demonstrate the gap, which is the ideal shape for this funnel, but it also means the buyer has a live zero-cost alternative."
+    },
+    {
+      "type": "prior_program",
+      "raw": "he wrote a book called Body for Life, and I followed it to a T in, like, 12 weeks. I lost, like, 40 pounds... but I was 20, 25, maybe... Like when I did that diet, like I lost a ton of muscle mass. It was not a sustainable thing, right?",
+      "direction": "undercuts_price",
+      "competitor": "Body for Life (Bill Phillips)",
+      "note": "A book that produced a dramatic result for him for the price of a book. He disqualified it himself on sustainability and muscle loss, which is the exact argument for the offer — and the rep did not use it. Logged because prior-programme buyers in this corpus consistently argue timing and structure rather than value."
+    },
+    {
+      "type": "equipment_cost",
+      "raw": "let's say Trevor tells you to get 35 pounds, 2 50 pounds, 2 55 pounds, it might cost you 200 bucks. Adjustable ones I feel like they're like 200 bucks each",
+      "direction": "undercuts_price",
+      "competitor": "Kettlebell purchase, and his existing gym which \"has kettlebells up the wazoo\"",
+      "note": "A real add-on cost surfaced honestly by the rep, plus the observation that the prospect's gym already has the equipment. Minor against $6,000, but it is the second call in the batch where equipment spend is discussed at length and the guarantee itself implies buying progressively heavier bells."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Better sleep — named as one of his six-month success criteria after two and a half years of poor sleep",
+      "why_unmet": "None of the three pillars covers sleep and the rep did not claim it would. He addressed it personally and off-book instead: \"I used to have really bad insomnia. I'll help you out with that for free. I'll send you some stuff over.\" The programme may well improve sleep as a by-product of training and nutrition, but nothing in the offer as sold speaks to it, and a stated goal is now dependent on an informal favour from the salesperson.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Integration with his running — he intends to keep racing, is shifting from half marathons to 5k and 10k, and wants to run 15 miles at an 8:30 pace at a lower bodyweight",
+      "why_unmet": "The programme is four days of kettlebells plus mobility on rest days. Nothing was said about how endurance work fits alongside it, whether the running would be programmed, or whether it competes with the kettlebell progression the guarantee is measured on. He also flagged that a six-month end date lands in November, right before the season he historically falls off in, and the rep deferred it: \"We can figure that part out later.\"",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A programme structure that survives the post-event drop-off — his named failure mode",
+      "why_unmet": "He described the mechanism precisely: he is excellent for the three months of a training block, then takes a week or two off after the event which becomes three or four while still eating for training. He raised it as his reason to consider twelve months rather than six. The rep answered on price rather than on structure, so the risk he identified was resolved commercially and never programmatically.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

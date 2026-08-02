@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-05-02_leonid-machitski_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A largely detrained 43-year-old disclosed 27 years of smoking and ongoing nicotine dependence and was closed at $6,000 onto a loaded kettlebell programme; no health, injury or medical-clearance question was asked at any point on the call.",
+      "evidence": [
+        "I well I haven't quit vaping but I've quit smoking i'm i'm a smoker i've been i was a smoker for the best part of uh probably jesus uh it's got to be at least 27 years so for a long time",
+        "i'm trying to cut this stuff off as well but it's you know i need the nicotine",
+        "yeah i hear you brother don't worry about it i hear you um but yeah you'll be doing a lot of calisthenics anyway",
+        "I am training, but we can call it, I'm, I am, I was gonna say tickling or just, just barely doing anything."
+      ],
+      "timestamp": "00:14:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording was stopped at the moment the payment link was opened, so the transaction and any terms stated during it are absent — the third such cut in this batch.",
+      "evidence": [
+        "You would, we would just take care of it on the call.",
+        "Just kind of process it on here. Like, I'll pull up the link for you.",
+        "you ready to rock and roll, and I can kind of start on this? Yeah. Alright, cool. Let me just remove the note taker here. Oh, almost reported it."
+      ],
+      "timestamp": "00:24:29"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep asked the prospect to choose the currency before quoting, and the sterling figure he used on another call the same day is not the conversion of $6,000.",
+      "evidence": [
+        "In terms of the six months, what's your best currency, pounds or dollars?",
+        "Dollars.",
+        "It's 6k for the six months."
+      ],
+      "timestamp": "00:23:12"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep gave specific alcohol and drug guidance, including which categories of alcohol are preferable and a weekly allowance, in a sales context and without any clinical qualification.",
+      "evidence": [
+        "You can drink alcohol, it depends, right?... You can drink once a week on your off day. Try to keep it to more spirits, though.",
+        "we typically would reduce it to one day a week, but like if it's, I'll say this, like you can still make progress with two days a week, but the more you lower it, the faster your results will be",
+        "Drugs?",
+        "Try to stay away from the drugs."
+      ],
+      "timestamp": "00:21:56"
+    }
+  ]
+}

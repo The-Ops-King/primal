@@ -1,0 +1,141 @@
+{
+  "call_id": "2026-07-15_joanna-rattan_michael-brideau",
+  "source": {
+    "drive_file_id": "1TY5F12DugGLjvAAOgFZUJzLxxMzLDuQ9",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/15/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/15/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 25521
+  },
+  "call": {
+    "date": "2026-07-15",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "SAME CONVERSATION, SECOND RECORDING. This is the direct continuation of the call captured in drive_file_id 18wH1x6FKtaOB7wziGzRi4dDry4gMS9f2 (call_id 2026-07-14_joanna-rattan_michael-brideau), which cut off mid-sentence during the first pillar after the rep's connection froze. The two recordings were created 36 minutes apart and this one opens with the rep re-orienting himself — 'what were we talking about... we're talking about onboarding... training mobility three pillars' — and resumes at exactly the point the previous file stopped. Discovery, baseline, goals and past attempts all live in the first recording; only the presentation, the price and the outcome are here. These are one call across two files with two different dates and must not be counted twice.",
+    "duration_min_est": 24,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Joanna Rattan",
+    "aka": "Zoom display name 'Joanna Rattan www.HealingTheAbyss.com'",
+    "name_source": "transcript",
+    "location": "Dallas, Texas, USA; originally from Poland",
+    "age": 50,
+    "occupation": "Bioenergy therapist and dowser running her own practice; planning residential wellness retreats",
+    "family_status": "Single mother of two sons, now old enough not to need her constant attention, which she gives as the reason the timing is finally right",
+    "height_in": 61,
+    "weight_lb": 172,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "See the first recording for the full picture. Former athlete; walks the dog 45 minutes at 5am in a 16 lb weighted vest then does kettlebell work; will not train in a gym; cannot run because of her knees; has lost 32 lb unaided without medication or GLP-1 drugs.",
+    "kettlebell_experience": "some",
+    "medical": "From the first recording: a disc problem in her neck, chronic knee damage from years of sport, and a father disabled by eighteen spinal cord operations. Refuses surgery on principle. On this recording she added a considered question about whether fasting is physiologically appropriate for women, and described a cousin who water-fasted for 40 days and had to be refed on juices."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Consistent with the read on the first recording — ex-athlete rebuilding after pregnancies and time, already 32 lb into it unaided",
+      "This half adds a clear statement of why now: 'I waited so long because I had to wait till my kids are older... they don't need me as much... so I think this is the right time'",
+      "Counter-read stands — the_preserver has a claim on her, driven by avoiding her father's spinal outcome, but fails on 'already medically managed' since she rejects conventional medicine outright"
+    ]
+  },
+  "goals": [
+    { "text": "Be the strongest, healthiest version of herself at 50", "category": "longevity_function" },
+    { "text": "Get results sooner rather than later — 'I'll get there sooner or later. It's just that I prefer to get there sooner than later'", "category": "other" },
+    { "text": "Have a nutrition approach that is safe and appropriate for a woman rather than a scaled-down male protocol", "category": "other" },
+    { "text": "Keep enough flexibility that an occasional treat does not undo the week", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Cannot afford $6,000 at present — 'Right now, I'm in a place that I cannot do this'", "category": "other", "severity": "high" },
+    { "text": "Single mother of two putting the family first financially", "category": "other", "severity": "high" },
+    { "text": "Burned by a previous paid coach in Europe — a kickboxing specialist and nutritionist who set her diet and training in person and produced no result", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Uncertainty about whether intermittent fasting is safe or appropriate for women", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Worry about committing to six months and having to stop partway on budget grounds", "category": "other", "severity": "high" },
+    { "text": "Tired during the call and losing focus — 'I'm kind of phasing out, tired'", "category": "sleep", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I did one still in Europe when I was there. You know, I had a guy who did kickboxing, right? That was his specialty. And he was also a nutritionist. So he set up the diet, exercise and all that... But I didn't really see any results, so, you know, I'm not saying this will happen here, because everybody's different. I get it. It's just that, you know, sometimes when you get burned, it kind of sticks with you.",
+      "timestamp": "00:11:28",
+      "rep_response": "Responded with a single fragment — 'They have to try it. See?' — and immediately moved to a 1-10 rating question. The burned-before play was never run despite being written into the playbook almost verbatim for exactly this.",
+      "response_tactic": "acknowledge_then_pivot_to_rating",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "there's always a little bit like, will it work? Will I have time for it? Will I be, you know, I know I can be accountable for myself, but will it be enough what I will be doing, you know?",
+      "timestamp": "00:13:25",
+      "rep_response": "Handled well — he wrote the concerns down, decomposed them into time, efficacy and sufficiency, and worked each in turn until the prospect concluded 'Maybe I'm not really worried about anything, honestly'",
+      "response_tactic": "decompose_and_resolve_each_concern",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "the main hesitation is around, you know, the price and the finances, right? Because usually one-on-one coaching is pretty pricey... as being a single mom with two boys, I do have to put it in [perspective]",
+      "timestamp": "00:16:42",
+      "rep_response": "Isolated it properly — 'let's say hypothetically you had all the money in the world and that wasn't a concern, do you feel like this is really the right thing at the right time?' — then asked what was accessible, and accepted the answer without pressure",
+      "response_tactic": "isolate_then_probe_capacity",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "So, I'll be honest. Not at this time, but I'll work for it.",
+      "timestamp": "00:21:35",
+      "rep_response": "Mentioned twice that other routes and options existed but never quoted a single one — no payment plan, no financing, no figure — then closed the call warmly",
+      "response_tactic": "allude_to_options_without_quoting",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "None quoted. The rep twice signalled that alternatives existed — 'I might have a couple ideas for you' and 'There's other routes we could go as well' — and never named one.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Single mother of two who states plainly she cannot fund this at present: 'Right now, I'm in a place that I cannot do this.' Her stated worry was specifically about starting six months of coaching and having to stop two or three months in on budget grounds. No figures were given and none were pressed for."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit present-tense no on affordability: 'I'll be honest. Not at this time' and 'Right now, I'm in a place that I cannot do this.'",
+      "No payment, no payment link, no plan quoted, no follow-up date and no next step agreed",
+      "Rep accepted it without pressure and closed the call warmly: 'We're always here. So if you need anything, just shoot us a message and yeah, whenever you're ready.'",
+      "Counter-evidence: she rated the coaching a solid 10 out of 10, confirmed it was the right thing at the right time, and committed to returning — 'I will work towards this goal. So we'll have this conversation again. You'll see me. It's not the last time you see me.'",
+      "Counter-evidence: her fallback is to keep following the free content — 'In the meantime, I'll just stick with his videos'",
+      "Scored 0.85 rather than higher because the intent to return was specific and volunteered; this is a genuine future re-open rather than a polite exit."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. Prospect to make contact when she can fund it; rep left an open door with no date and no plan."
+  },
+  "notable": {
+    "note": "The prospect asked one of the best questions in the batch — whether intermittent fasting is physiologically appropriate for women, having read that it may not be — and received an answer built entirely on what the rep had observed among Trevor's female clients, with no reference to evidence or clinical input. She also raised a trust objection with a concrete history behind it, a paid in-person coach and nutritionist in Europe who produced no results, and the playbook contains a scripted move for precisely that situation which was not used; the rep replied 'They have to try it' and moved on. Commercially the call was handled decently and honestly: the hesitation was detected, named, decomposed and resolved, the money objection was isolated cleanly, and when the answer was a genuine no the rep took it without pressure. But he twice implied that other options existed and never quoted a single one, so the prospect left without knowing whether any structure could have worked. Worth noting alongside the internal calls from the same week: the rep repeatedly loses his thread here and remarks on it — 'I'm 33 and already have trouble with memory' and 'memory has actually been interesting for me the last little bit. No, I'm serious.'"
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Better than the first recording but still unreliable at turn boundaries — 'I have a question about fasting' at 00:03:47 is correctly placed but the rep's reply is merged, and the closing exchange from 00:23:39 onward alternates incorrectly, with 'It's not, it's not you. It's me' and 'Am I candy?' both landing under the wrong labels. The opening 90 seconds are a single rep monologue in which he is audibly re-establishing where the previous recording stopped. Role read from content throughout."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-07-17_maria-papasavvad_richard-claessen",
+  "source": {
+    "drive_file_id": "1ZUP78ALXd4kgrVtvwxtejmRZToodJeiX",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/17/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/17/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 22530
+  },
+  "call": {
+    "date": "2026-07-17",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 19,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title. Prospect came in via Trevor directly: 'I sent Travis a photo of me when I was training two years ago' and 'this is the thing I was saying to Travis'. Rep said 'I already got some information from Trevor'."
+  },
+  "prospect": {
+    "name": "Maria Papasavvad",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Melbourne, Australia",
+    "age": 56,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained 3x/week with a personal trainer for a sustained period until roughly two years ago; describes herself as having been visibly muscular then. Recently joined a local gym but has attended only twice.",
+    "kettlebell_experience": "none",
+    "medical": "Had unspecified 'operations' approximately two years ago after which she was not permitted to lift anything; has done no training since. Nature of the surgery, current restrictions and any clearance were never asked about."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.9,
+    "signals": [
+      "Lost ground after surgery: 'I had I operations done where I wasn't allowed to lift anything, so two years have gone by, haven't done nothing'",
+      "Wants a former self back: 'you were able to see my triceps, everything, you know, but nothing now'",
+      "Visible regret and urgency about age: 'I'm turning 57, so it is going to get harder for me'"
+    ]
+  },
+  "goals": [
+    { "text": "Get back the muscle definition and body composition she had two years ago before her operations", "category": "appearance" },
+    { "text": "Rebuild strength and muscle before age makes it harder", "category": "muscle_gain" },
+    { "text": "Have someone guiding and watching her progression so she actually shows up", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Two years of no training after operations barred her from lifting; body composition changed fast — 'the muscle is under there, but I've got the saggy skin, I can't even see any definition anymore'", "category": "injury", "severity": "high" },
+    { "text": "Paid for a gym membership but cannot make herself go — 'I've paid and I haven't been, I've only been like twice'", "category": "motivation", "severity": "high" },
+    { "text": "No guidance in the gym leaves her frozen — 'where do I start, what do I do, am I doing it correctly, and no, and then I just leave'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Only trained consistently when a trainer was waiting for her — 'I was there and he was guiding me'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Says she is in a bad financial position and cannot fund coaching now — 'I haven't got the money, but I'm so keen'", "category": "other", "severity": "high" },
+    { "text": "Ageing is compressing her window — 'coming into the age of, I'm turning 57, so it is going to get harder for me'", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "because I can't afford, this is the thing I was saying to Travis, you know, it all depends, again, on how much this is going to cost me, because I don't want to waste your time either, because if it's expensive, I can't afford it right now, I would have to save some money to do it",
+      "timestamp": "00:02:34",
+      "rep_response": "Did not isolate the objection. Asked what her budget was, then introduced a $1,000 self-guided six-month tier that is not in the offer sheet.",
+      "response_tactic": "budget_question_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Yeah, see, I knew that it was going to be something like that. Because I guess with his expertise, it's a lot. It's hard for me.",
+      "timestamp": "00:07:02",
+      "rep_response": "Acknowledged the expertise framing and asked what budget she could put toward it without putting herself in a bad financial position.",
+      "response_tactic": "budget_question",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "you know what, Richard, the thing is, is I'm getting, you get that anyway, like with the nutrition and with that, all that stuff that you're saying, and this is without the coaching of Travis... For me, it's the coaching, the one-on-one, that's what I actually need",
+      "timestamp": "00:11:26",
+      "rep_response": "Conceded the point, did not defend the reduced-scope tier, and moved to collect her WhatsApp number and stay in touch.",
+      "response_tactic": "concede_and_defer",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "is there any chance that I've got this information from you, like see how I am financially with what I can do, and then maybe call out, reach out to you down the track or no?",
+      "timestamp": "00:10:17",
+      "rep_response": "Agreed immediately ('Yeah, of course you can'), asked once when she might be in a better position, accepted 'I can't answer that at the moment', and closed to a WhatsApp follow-up plus a video.",
+      "response_tactic": "accept_and_schedule_followup",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 1000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep said only 'yeah, like if needed we can always look into that' when asked about payment plans; no terms discussed.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect stated flatly she cannot fund it: 'I haven't got the money, but I'm so keen'",
+      "She rejected the reduced-scope $1,000 tier on substance: 'For me, it's the coaching, the one-on-one, that's what I actually need'",
+      "She could not name any future point at which she would be able to buy: 'No, at the moment, I can't answer that. I can't answer that at the moment.'",
+      "Counter-evidence: the rep explicitly kept it open rather than disqualifying — 'we just stay in contact' — took her WhatsApp number, sent a video, and promised to return with pricing on an unbuilt lower-cost tier, so a manager could reasonably log this as follow_up rather than lost.",
+      "No payment link was sent and no verbal agreement to any tier was given."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a free video via WhatsApp and to come back to her when pricing exists for a planned lower-cost one-to-one tier fronted by 'Caden'; she will review her finances."
+  },
+  "notable": {
+    "note": "Two things a manager should see. First, pricing improvisation: the rep floated '$1,000 could also be around six thousand', then invented a '1,000 for six months' self-guided tier that is not in the offer sheet, then muddled whether $1,000 buys three or six months, then told her at 00:17:10 that $1,000-$1,500 was 'with the full coaching, exactly'. Second, he pre-sold an unreleased product — a one-to-one tier delivered by 'Trevor's second guy, that's Caden' — with no price and no launch date, and made a follow-up commitment on it. Separately, she disclosed post-surgical lifting restrictions and was never asked what the operations were."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. Whole passages are inverted — the block at 00:02:34 labelled 'Maria papasavvad' contains the rep's reply ('let's just have a conversation about that'), and the block at 00:04:00 labelled 'Richard Claessen' contains the prospect's answer. Long turns are merged across speakers throughout 00:04:56-00:06:00 and 00:09:26. Roles were resolved from content only. Prospect surname is transcribed as 'papasavvad' and may be misspelled."
+  }
+}

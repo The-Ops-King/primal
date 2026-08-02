@@ -1,0 +1,78 @@
+{
+  "call_id": "2026-07-11_fabien-collec_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $100 deposit that appears nowhere in the stated offer was introduced live, invoiced during the call and collected, from a prospect who had just declined to make a $2,000 first instalment.",
+      "evidence": [
+        "We usually have like a deposit of $100, I think that's like 80 euros, and the reason for that is also then we can actually book that slot in",
+        "So we just do a deposit of like $100, which is like 80 euros. And if for any reason it's like, no, it doesn't work, we also just send it back. But it's more so that you have that commitment for yourself.",
+        "I cannot, like, go, hey, I give you 2K right now, because once I give you the 2,000, sorry, I need to make sure that I can go through with it",
+        "Yeah, I just, I've done the invoice.",
+        "So you should get an email as well from that, with the invoice number."
+      ],
+      "timestamp": "00:45:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The deposit was extracted using a calendar-scarcity claim and a commitment frame, immediately after the prospect said he needed to verify he would not put himself in financial difficulty.",
+      "evidence": [
+        "I need to check that and everything. I think, I still think it works for me and everything, but I need to make sure that I'm not putting myself in, like, problems, like, financially, for this.",
+        "because our calendar is so full, instead of having to take someone else to have a meeting with",
+        "But because we're so busy, we get so many meetings booked in, we don't just want to reserve a spot without someone who's 100% committed already, right?",
+        "of course, to make sure for yourself that you, yeah, take it serious, you actually go and reach out for all of that",
+        "I don't want to... put myself financially, not at risk, but in a difficult spot"
+      ],
+      "timestamp": "00:45:13"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "This prospect was offered three interest-free payments totalling the $6,000 list price, while on the same day the same rep told a prospect living on disability income that the company can only split into six payments with added interest.",
+      "evidence": [
+        "we do have somewhat of a flexibility there from what i'm hearing we could get just started and then we just split up into three points and then every month for three months we just do two two thousands",
+        "Cross-reference, call 2026-07-11_craig_richard-claessen, same rep, same date: 'in-house, to be completely open with you, we can only split up into six payments, and I would also come with extra interest, so that would be like $1,200 a month.'",
+        "Cross-reference, call 2026-07-09_frederic-ipe_richard-claessen: 'If needed, we can split it up, but we don't have anything set usually for that.'"
+      ],
+      "timestamp": "00:43:00"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed an unnamed chronic intestinal condition and said explicitly that he cannot push himself hard, and was then sold three to four high-intensity sessions a week plus a time-restricted eating protocol without the condition ever being identified or a clinician mentioned.",
+      "evidence": [
+        "I have like a disease also, which like I need to take caution with everything that I do. I don't want to push myself too hard. I want to respect my body and still I can do exercise and everything, but I cannot go like too hard.",
+        "when I eat food, my intestine, I don't know if it's like this, in English, that's the word, which is a disease which affects this",
+        "Trevor is going to create a schedule for around three to four workouts a week of like 30 to 40 minutes at a time... because those workouts are going to be hard",
+        "when it comes down to when we eat, we don't want to eat from when we wake up to when we go to bed. So we want to have somewhat of a timeframe there. For some people that comes down to 14 hours, for others that come down to 12 hours",
+        "That's good to know because we need to know those things before we even start working out."
+      ],
+      "timestamp": "00:02:53"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Money was collected against a refund promise made only verbally, with no written terms, no timeframe and no documentation of what the deposit entitles the prospect to.",
+      "evidence": [
+        "Of course, if for some reason your bank is like, no, you can't, we just send it back as well.",
+        "And if for any reason it's like, no, it doesn't work, we also just send it back.",
+        "if you do speak to them on Wednesday, and you can already jump on Thursday, let's just do that",
+        "if, like, if everything is good, I would tell you, if I cannot go, how's the process? I send you a message via WhatsApp telling you, okay, I have a no-go, I cannot do it or anything. Yeah, just send a message."
+      ],
+      "timestamp": "00:48:12"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The prospect asked directly how hard to push and how to avoid injury given his condition, and was told to stop when his body says so, with no protocol, threshold or clinical reference offered.",
+      "evidence": [
+        "I don't know when to stop. What I mean by that is, okay, I'm at 20 minutes, do I push to 25 and risk burning, or when do I know when to stop? ... do I force myself to, or maybe risking an injury, or I don't know, that's the thing.",
+        "when it comes to having that, how often should I actually do it, like when is it done, comes down to when your body just says, like, you need to stop now, and that comes down to being like, I'm just exhausted, take some rest",
+        "I tried like 30 to 40 minutes. It's impossible right now."
+      ],
+      "timestamp": "00:29:06"
+    }
+  ]
+}

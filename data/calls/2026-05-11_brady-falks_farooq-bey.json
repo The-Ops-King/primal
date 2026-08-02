@@ -1,0 +1,148 @@
+{
+  "call_id": "2026-05-11_brady-falks_farooq-bey",
+  "source": {
+    "drive_file_id": "1LCCpSvQur6kSICOPWHp5f6pC1p8Mcptl",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/11/2026 - Brady Falks x Farooq Bey ",
+    "display_title": "05/11/2026 - Brady Falks x Farooq Bey  — Closed",
+    "file_size_bytes": 78952
+  },
+  "call": {
+    "date": "2026-05-11",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 83,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Brady Falks",
+    "aka": null,
+    "name_source": "title",
+    "location": "Yukon / Oklahoma City metro, Oklahoma, USA",
+    "age": 36,
+    "occupation": "Owner of a six-figure construction, renovation and custom home building business, operating five years; projecting multi-million growth in the OKC metro market",
+    "family_status": "Married 13 years to Gabrielle, married at 23; no children yet and hoping to. Gabrielle works with individuals on biophysiology and joined the call live to approve the purchase.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 8,
+    "training_background": "Former semi-pro ball athlete, describes himself as always very fit and never overweight — 'I have a six pack, even without working out for like two years.' Has not trained properly for two years because of the elbow. Owns a 12 lb and a 20 lb kettlebell, foam rollers, bands, barbells and a full garage rig. Uses lacrosse balls and foam rollers for myofascial release. Reports tight hips. He and his wife have done CrossFit and weightlifting previously and have deliberately moved away from heavy loaded training.",
+    "medical": "Osteoid osteoma in the elbow, undiagnosed and mistreated as tennis elbow for roughly two years, causing shooting pain, debilitating limitation, forward shoulder posture and visible atrophy in the arm. Treated six weeks before this call by CT-guided ablation. Range of motion has improved substantially; strength still limited. He is under the care of a physical therapist who reports he is excelling. Critically, he states he is NOT yet medically cleared for significant lifting and expects clearance in a further two to three weeks."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Lost two years to a specific injury and speaks about it as theft — 'it's been taken from me, honestly, man' and 'my posture suffered from it'",
+      "Wife independently confirmed the lost-self picture on the call — 'the last couple years, he, you know, that spark hasn't been there for him, and that's hard'",
+      "Counter-signal toward the_optimizer, which is why confidence is 0.7: he is objectively fit at around 8% body fat with a six-pack after two years off, he owns a growing business, and when asked directly he chose the optimizer framing — 'are you looking to get back into shape or are looking to be your best?' / 'To be my best.'",
+      "Counter-signal against the_optimizer: price was a genuine and detailed barrier, not a quality signal — he needed 12-month third-party financing and named $250/month as his real ceiling"
+    ]
+  },
+  "goals": [
+    { "text": "Be his best physically rather than merely get back into shape, after two years lost to the elbow", "category": "strength" },
+    { "text": "Regain mobility and athleticism — 'I want to be able to sprint and jump'", "category": "mobility" },
+    { "text": "Be a leader in his community and say yes to opportunities from a place of confidence", "category": "confidence" },
+    { "text": "Be the best fit person he can be for his wife after two years of her watching him diminished", "category": "relationship" },
+    { "text": "Still be capable and running around with kids and grandkids at 46 and 56", "category": "longevity_family" },
+    { "text": "Preventative health — hormones, testosterone, longevity — 'everything that I've ever done, I've always done it from an aspect of wanting to be preventative'", "category": "longevity_function" },
+    { "text": "Learn the methods well enough to pass them to his wife and future children", "category": "family_role_model" },
+    { "text": "Build a business that creates time freedom so he can be of service and give charitably of time and knowledge", "category": "other" },
+    { "text": "Never return to the injured state — 'I'm not going back there. I'm not going to revert back'", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Six weeks post CT-guided ablation for an elbow osteoid osteoma, with arm atrophy, limited strength and no medical clearance to lift for a further two to three weeks", "category": "injury", "severity": "critical" },
+    { "text": "Two years misdiagnosed as tennis elbow, with shooting pain that stopped him running and pitched his shoulder forward; spent a lot of money failing to identify it", "category": "medical", "severity": "high" },
+    { "text": "Consumed by business productivity at the expense of his own growth — 'I'm not giving me enough time for growth, mentally, nor physically'", "category": "work_stress", "severity": "high" },
+    { "text": "Skipping food until 2pm and running on stress rather than fuel", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Consistency is his named weakness because fitness came easily — 'a struggle of mine has been consistency because it kind of comes easy for me'", "category": "consistency", "severity": "high" },
+    { "text": "Needs a team or community to perform and does not have one — 'the times that I plug into a community, I excel and I become one of the best'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Financial strain from stacked obligations — roughly $700/month across truck and elbow surgery debt, a $7,800 monthly break-even, and credit card debt only just cleared", "category": "other", "severity": "high" },
+    { "text": "Confidence and stature diminished relative to who he was, affecting how he shows up as a leader", "category": "confidence", "severity": "medium" },
+    { "text": "Tight hips and general mobility restriction", "category": "training_barrier", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Yeah, I would like to look at the payment options, because I'm not comfortable with doing a credit card. I literally just wiped out a lot of credit card debt, and I don't want to pay 20 some odd percent interest fees.",
+      "timestamp": "00:29:18",
+      "rep_response": "Offered Klarna and Paver third-party financing, described as spreading over 12 months with 'just a little bit of interest on top. Yeah, it's nothing crazy there' — the six-month plan in fact totals $7,800 on a $6,000 programme",
+      "response_tactic": "third_party_financing_with_understated_interest",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "My wife was like, Brady, I would like for you to involve me in how much this is going to be. And I was like, well, I really don't know. I'm just going to talk to them. So, you know, I kind of feel like before I purchase, we need to have that discussion.",
+      "timestamp": "00:33:09",
+      "rep_response": "Ran the partner play — isolated first ('putting the investment aside for a moment, do you want to do this?' → '100% I do'), got her name, confirmed she knew about the call, asked what could prevent them, then asked whether it was a permission thing or an FYI. Ultimately the prospect brought Gabrielle onto the call live and she approved.",
+      "response_tactic": "isolate_then_bring_partner_onto_call",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "So just being 100% honest with you, like, I want to do this right now, but actually, it's not all that great of a time frame. Even with me knowing I've already closed the contract, we're already doing the work, I just feel like it's something in that regard that I should probably wait.",
+      "timestamp": "00:50:00",
+      "rep_response": "Bridged on secured future income rather than running the scripted timing play — 'if we know that we're getting that significant chunk of change in one go, pretty much in what, six weeks... Why not get started in this moment, knowing that you're going to make that money next month?' Then de-risked it with a verbal promise to pause the programme if the money did not arrive.",
+      "response_tactic": "secured_future_income_bridge_plus_pause_promise",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Yeah, it wouldn't be a good choice for me to do that, man, just because, like, currently, right now, I need my bottom line that I need to make every month before I have any extra funds is, like, $7,800. So adding that $650 would make it to where we're closer to $8,500 minimum, you know?",
+      "timestamp": "00:43:33",
+      "rep_response": "Asked the surplus question directly — 'how much per month? What do you say would not implicate things too much for you guys?' — got $250, and then closed at $650/month anyway via the future-contract bridge rather than finding a structure at the stated ceiling",
+      "response_tactic": "elicit_ceiling_then_close_above_it",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 12,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Third-party financing. Klarna attempted first and declined despite a 758 credit score. Paver approved: $650/month over 12 months for the six-month programme, a financed total of $7,800 against a $6,000 list price. The 12-month tier was quoted at about $975/month. Rep stated early repayment is permitted and the plan was placed under the business entity, Falks Family Renovation, for tax write-off purposes at the wife's direction.",
+    "guarantee_mentioned": "Verbal only, and not in writing: 'if you can't, if someone is physically incapable or financially incapable, we can pause the program for you.' Also, on upgrading mid-programme: 'if that's the case for you guys, we won't charge you another six grand, it'll just be the difference.'",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 250,
+      "has_savings": false,
+      "credit_score": 758
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.98,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment approved and confirmed live on the call — 'Congrats, your approval' then 'It gave me like this confetti, you're all set' and the rep confirming 'I've just seen it, man. You're in.'",
+      "Wife joined the call, asked her own questions and gave explicit approval: 'Okay. Let's do this.'",
+      "Six-month tier selected by the prospect over the rep's twelve-month recommendation",
+      "Onboarding executed properly: Trevor kickoff call booked for Wednesday 4:15pm Central, agreement email arrived during the call and was e-signed, Skool community access walked through",
+      "Counter-evidence on quality rather than fact of the close: the prospect e-signed the agreement without reading it — 'Okay, here's all the terms, blah, blah, blah. Nobody ever reads these things' — and the financed total is $7,800 rather than the $6,000 discussed"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Trevor kickoff call Wednesday 13 May at 4:15pm Central, with kettlebell to hand and possible live movement patterns on camera. App and Skool access to follow by email."
+  },
+  "notable": {
+    "note": "The sharpest clinical exposure in this batch. In his very first answer the prospect said 'I'm not really, I'm not cleared to do like a lot of lifting, so to say' with 'about probably two to three more weeks' to go, and he was nonetheless closed on a six-month kettlebell programme and booked into a Trevor kickoff two days later at which the rep said 'he may ask you to do a few initial movement patterns live in front of the camera' — before the clearance date. When his wife, who works in biophysiology, asked directly whether anyone on staff has rehabilitation expertise, the answer did not include a clear yes or no and the method was described as try-it-and-see. Commercially, the tiers themselves were clean at $6,000 and $9,000, but the prospect explicitly refused a credit card to avoid roughly 20% interest and was routed into financing totalling $7,800 on a $6,000 programme, characterised as 'just a little bit of interest on top... nothing crazy'. He also named $250/month as his real ceiling and closed at $650/month. Offsetting all of this: this is the best-executed call in the batch on process — the only complete Phase 11, a genuine financial-picture conversation, and a spouse brought onto the call and satisfied rather than worked around. He also noted an earlier missed follow-up: 'you guys didn't contact or reach back out to me' after agreeing to touch base in a month."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive inversion throughout, and it gets worse once Gabrielle joins at 00:54:39 — she has no label of her own and all of her turns are attributed to 'Brady Falks', including the long passage about CrossFit and functional movement and the approval 'Okay. Let's do this.' Rep turns such as 'Where are you going from, man?' and 'So that's, that's pillar one' also appear under the prospect's label. Roles resolved from content only. Three speakers share two labels for the final third of the call."
+  }
+}

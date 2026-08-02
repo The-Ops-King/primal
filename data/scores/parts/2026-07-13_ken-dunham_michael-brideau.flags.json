@@ -1,0 +1,25 @@
+{
+  "call_id": "2026-07-13_ken-dunham_michael-brideau",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Booked call was abandoned at 00:07:53 because of the rep's connectivity and re-booked for later the same day, so this recording is a partial call whose real outcome lives in a separate file.",
+      "evidence": [
+        "Give me a quick sec, man. Internet's being a little buggy.",
+        "Yeah, my internet just cut out entirely.",
+        "Any chance we could reschedule a little bit later today and I'll make sure I'm somewhere where I can actually have proper service so I can actually have a normal conversation?"
+      ],
+      "timestamp": "00:06:38"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep relocated to Brazil one week before this call and reports repeated on-and-off connectivity, which drops audio across multiple recordings in this batch and degrades both diarization and call completion rates for the period.",
+      "evidence": [
+        "I just moved to Brazil a week ago, and I've kind of been having issues on and off, so I just want to make sure I am somewhere where I can actually talk to you properly."
+      ],
+      "timestamp": "00:07:26"
+    }
+  ]
+}

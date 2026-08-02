@@ -1,0 +1,86 @@
+{
+  "call_id": "2026-05-16_mustafa-jibawi_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted an instalment route of $650 a month for 12 months — a total of $7,800 against the $6,000 six-month price — which is not one of the two standard tiers.",
+      "evidence": [
+        "I would say the easiest option you have in terms of the way to make it the lowest number would be 650 a month for 12 months.",
+        "So it would add on a little bit extra, but if you decide to pay it off earlier, you'll remove a lot of the interest on it.",
+        "Typically everything is tailored in terms of that. If you pay it in smaller chunks, there's more money added on."
+      ],
+      "timestamp": "01:05:22"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The $7,800 total of the 12-month instalment route was never stated, the $1,800 uplift was described only as 'a little bit extra', and the prospect selected that option without the total ever being spoken aloud.",
+      "evidence": [
+        "So it would add on a little bit extra, but if you decide to pay it off earlier, you'll remove a lot of the interest on it.",
+        "So that would be 650 a month for 12 months.",
+        "what would you lean towards out of that anyway, just from like a high level? I think if anything, it would probably be the, um, the $6.50 a month.",
+        "Because what you'll probably figure out is that, you'll probably figure out, I can do $6.50 a month. It might be tight, but I can do it"
+      ],
+      "timestamp": "01:06:40"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "After the prospect said paying $6,000 would force him back into the second job he had quit the previous day, the rep reframed the concern as a scarcity mindset and then presented a payment route costing $1,800 more, without ever asking for an income, surplus or cash-on-hand figure.",
+      "evidence": [
+        "with a pay increase, I can finally go back to just one job, and spending 6k makes me feel like I have to go back to a second job again, and I just can't do that",
+        "The only thing that is true is that you're getting a pay increase working one job, and this is 6k. That's the only thing that's true. Everything else is what we put, and what we, every meaning we give it isn't true, right?",
+        "it's a little bit of nerves around finances in a way that is, I've always had to work two jobs to get by, and this is a lot of money, and maybe that's just, you know, just a little bit of a program, I don't know, it's just like, it's always been a scarce thing for you",
+        "The pay raise literally just kicked in two weeks ago, which is when I put in my two-week notice for my other job. So I don't know what those finances will even look like."
+      ],
+      "timestamp": "00:52:32"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep asked whether the prospect believed in God and then constructed the closing hypothetical around God personally guaranteeing the purchase, using the prospect's faith as a decision lever.",
+      "evidence": [
+        "If you knew that if you did, like, do you believe in God? Yes.",
+        "God joined, this is very arbitrary, very strange, but if God joined the Zoom call, obviously had his camera off, right? And, like, typed in the Zoom chat, Mustafa, if you do this, you won't fail, would you do it? Because if you wouldn't, don't do it."
+      ],
+      "timestamp": "00:58:06"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep ran a live Klarna credit application via a Stripe link roughly four minutes after the prospect said he needed to step back and avoid repeating a rash purchase, and ran it a second time after it declined.",
+      "evidence": [
+        "the better part of me now is saying don't make the decision right here right now just like you did with the nutritional program",
+        "Let me send you the link for it and just see if you do get approved because it will give you exact numbers.",
+        "then you'll just have to put a couple of, it's a soft check, don't worry, it's not going to affect anything",
+        "let me send it you again let's see if that's okay if you pull the link back up and just go back through it",
+        "We do have another option. You will get approved. Everyone gets approved for it."
+      ],
+      "timestamp": "01:02:06"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed a hip injury he is currently in assigned physical therapy for and cannot name the diagnosis of; the programme was positioned as the thing that would fix it, with no question about whether his clinicians had cleared loaded kettlebell work or how it would interact with the ongoing physical therapy.",
+      "evidence": [
+        "I do have a hip injury that kind of keeps me from pushing too much, Or from working out as much as I'd like",
+        "I'm forgetting the name of it, but I have the paperwork for it. Essentially, I'll have to look at what my doctor said it was, but I haven't been able to dive into what it is exactly and how to actually fix it.",
+        "They've been assigning me physical therapy, which is another good sign.",
+        "So let us know about the posture. Let us know about the hips, right? We need to see how you move so we can fix that. So we'll create a program for that. Cause we don't want you feeling that way anymore."
+      ],
+      "timestamp": "00:07:52"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Prospect's full personal mobile number was read aloud and captured in the stored transcript, alongside a live payment-link session, with no data-handling caveat.",
+      "evidence": [
+        "Do you have WhatsApp? I do.",
+        "Would it be the same number? Yes, 773-724-[redacted in this record].",
+        "I just I put a stripe link in the chat for you."
+      ],
+      "timestamp": "01:13:54"
+    }
+  ]
+}

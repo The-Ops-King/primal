@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-07-13_justin-rascoe_michael-brideau",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep told a prospect who had just described knee wear and tear and post-running stiffness that kettlebell training strengthens joints and makes injury progressively harder, and cited his own injuries disappearing in six weeks.",
+      "evidence": [
+        "I get stiff knees sometimes after like, you know, running or something like that",
+        "I had an ankle issue and a shoulder issue, and within a month and a half of doing that routine, it completely disappeared",
+        "with the knees, like, we'll do a couple things to strengthen the knees",
+        "not only are we getting in amazing shape, but we're also strengthening the joints, we're operating in a very functional way, so it becomes harder and harder and harder to get injured over time"
+      ],
+      "timestamp": "00:21:47"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep asserted as literal fact that overeating becomes impossible on the prescribed eating window and food list.",
+      "evidence": [
+        "if we can consolidate the eating window and then between that and if we focus on whole foods, so meat, eggs, dairy, fruits, vegetables, nuts... and make sure we're hitting a baseline in terms of protein, like it becomes literally impossible to overeat. Like actually [impossible].",
+        "For many people, that's like a pound of meat, six eggs. Like if you hit that, you get enough protein and you can kind of be flexible with whatever else you're eating."
+      ],
+      "timestamp": "00:25:17"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The rep's connection dropped mid-presentation and he took or dismissed two incoming phone calls during discovery, so an unknown amount of the call is missing from the recording on top of pervasive speaker misattribution.",
+      "evidence": [
+        "My intranet's been super funny, dude. just been cut right now. So what did you hear last?",
+        "sorry, I [had] somebody to call me. Just hang that up.",
+        "oh, hold up. I mean, somebody's calling me again. Let me just hang that up. Popular today, I guess.",
+        "one second, let's call me again here"
+      ],
+      "timestamp": "00:25:03"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "call_id": "2026-05-15_robert-castillo_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "When the prospect could not pay $6,000 same-day, the rep improvised a $1,200 down payment to trigger onboarding, with no schedule, no restated total and nothing documented on the call.",
+      "evidence": [
+        "we can just take a smaller down payment to still get everything going and then you can do the... the you need to do, and then just do the rest, like once you've done it tomorrow or Monday or whenever it is, we just need 1,200 and then we can process everything on board you",
+        "Okay. Yeah, let's say it's like Monday when it's all done, we can just reach back out and do the rest.",
+        "I mean, honestly, I wasn't expecting quite that big of a chunk, but I would have to make some arrangements like banking wise in order to process that payment"
+      ],
+      "timestamp": "00:31:52"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep told the prospect that continuing past six months would cost only the difference between the six- and twelve-month prices rather than a further $6,000, creating an unstated $3,000 six-month extension tier.",
+      "evidence": [
+        "If you want to do the six, that's fine. Uh, and then if, when you come to the end of the six, if you want to carry on, it's just the difference anyway, it's not like another six K. another six months.",
+        "Okay. That's good to know. Be the same number."
+      ],
+      "timestamp": "00:29:51"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed reversed type 2 diabetes plus recurrent shoulder and joint inflammation and was sold six months of loaded ballistic kettlebell work with no medical-history question asked and no clinician clearance sought.",
+      "evidence": [
+        "i was a diabetic and reversed my condition uh using a program called verta health",
+        "my joints, my shoulders, things like that, they get sore, inflamed sometimes, and I'm very conscious of my form",
+        "I think the weights in my age, in conjunction with my age, you know, are taking a toll on my joints and things",
+        "making sure we're reversing the mobility things that came, getting rid of the pain"
+      ],
+      "timestamp": "00:06:00"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep offered his own scoliosis remission as evidence that kettlebell training resolves spinal problems and promised to get rid of the prospect's undiagnosed joint pain, both of which read as clinical claims.",
+      "evidence": [
+        "I've got scoliosis. I used to have a lot of issues with it. I don't have any issues with it anymore. Not because I did anything special. It's just because my core is so strong now from kettlebells.",
+        "You're getting a little bit of shoulder pain. Okay, why? Let's look at it. Okay well we can see that this one's compensating for that one",
+        "making sure we're reversing the mobility things that came, getting rid of the pain"
+      ],
+      "timestamp": "00:17:24"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep proactively probed for a business the purchase could be run through for tax purposes, the same pattern as the Rob End call three days earlier; here the prospect had no business and the thread was dropped.",
+      "evidence": [
+        "By the way, this is a random question. Do you have a business?",
+        "I was going to say, because we can, I don't know why, I feel like maybe I'm thinking about a different application. It's fine. We can do some tech stuff, but that's fine."
+      ],
+      "timestamp": "00:39:07"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts speakers across long passages including the entire offer and guarantee walk-through, so speaker-attributed analysis of this file will be wrong.",
+      "evidence": [
+        "00:17:44 - Harry Edmonds (Primal Instinct) / All right, man.",
+        "00:20:29 - robert / Does that like, as a philosophy align with you? Yeah, that sounds like what I need.",
+        "00:25:00 - robert / you're going to look different and feel different and be different so we guarantee that for you as well"
+      ],
+      "timestamp": "00:20:29"
+    }
+  ]
+}

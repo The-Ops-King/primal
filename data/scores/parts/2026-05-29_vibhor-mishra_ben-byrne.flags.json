@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-05-29_vibhor-mishra_ben-byrne",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The prospect asked directly whether the 'Sophia' who had been iMessaging him was a real person or a chatbot, and the rep never answered the question.",
+      "evidence": [
+        "Also, like, is this a real person or a chatbot, like, who I've been iMessaging with? Do you know?",
+        "Did you say it was Sophia? Sophia.",
+        "Yes, Sophia. Oh, got it. It was in a different category.",
+        "Yeah, I'm forgetting the name. Sophia? I think she, or it's a bot, I'm not sure. I received a video link of the site."
+      ],
+      "timestamp": "00:49:29"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "On first hesitation the rep improvised a part-payment of 'half or 2,000 or something' to start, with the remainder on an unspecified plan over six months - a figure and structure outside the stated $6,000/6mo and $9,000/12mo offer.",
+      "evidence": [
+        "one thing that we could do to maybe, like, meet in the middle is, you know, instead of you just paying a 6K or 9K if you want to do for a year, like, we could put down, like, say, half or 2,000 or something.",
+        "And that's just to get you started. And then, you know, that way, we're able to work with you and actually make you a plan versus giving you a generic one here and getting results. Obviously, we can just figure out a payment plan over the next six months for the rest."
+      ],
+      "timestamp": "00:47:13"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The improvised deposit was described as 'half or 2,000' when half of $6,000 is $3,000, leaving the prospect with two incompatible starting figures and no stated total, instalment count or schedule.",
+      "evidence": [
+        "we could put down, like, say, half or 2,000 or something",
+        "Obviously, we can just figure out a payment plan over the next six months for the rest.",
+        "Yeah. That sounds a reasonable option. Yep. Okay. Cool."
+      ],
+      "timestamp": "00:47:13"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep twice described payment terms as open-ended and negotiable rather than stating a defined policy, deferring the structure to the prospect.",
+      "evidence": [
+        "Yeah, so, I mean, generally, yeah, like, we're flexible, first of all. Like, assuming it's something that you want to do, and, you know, like, a lot of clients do painful, but, like, yeah, like, what, what were you thinking?",
+        "Yeah, I mean, yeah, like, like I said, we're flexible. So, yeah, assuming that we can, like, figure out the payments and all that is, how do you feel?"
+      ],
+      "timestamp": "00:41:31"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep represented that Trevor personally works one-on-one with every client, builds each plan and is messageable 24/7, while also stating the client base exceeds a thousand and that other coaches exist.",
+      "evidence": [
+        "Trevor works with all of his clients one-on-one, so he's the one building your plan, he's adjusting it as the weeks go on, he's, you know, he's there checking in with you",
+        "Trevor's monitoring your progress, checking in with you. If you have any questions, you can message him 24-7.",
+        "I mean, at this point, he's worked with over 1,000 clients. He's been doing this for 10 years.",
+        "we also have a few other coaches as well who are, you know, also there for you if you need anything"
+      ],
+      "timestamp": "00:24:14"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure or consent to record appears anywhere in the transcript, which opens at the greeting with the recording already running.",
+      "evidence": [
+        "Is it pronounced Vibor? Vibor, yeah. Awesome, man. Nice to meet you. I'm Ben, one of Trevor's head coaches here. Where are you at?"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

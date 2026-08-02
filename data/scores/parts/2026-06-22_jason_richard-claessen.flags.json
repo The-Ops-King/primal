@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-06-22_jason_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An instalment structure totalling $7,200 was improvised live — six terms at $1,200, i.e. a $200 per-term surcharge over the $6,000 list price — with no total ever stated aloud.",
+      "evidence": [
+        "the thing is, it's 6K, right? Up front, it's 6,000. We could do it in six terms, but it does then does add 200 per term, so that makes it 1,200 more.",
+        "Maybe if we just start with the 1,200 rights, then we do it again next month if that's needed, and then after that we can just do the rest, and then the 200 goes away, basically.",
+        "Yeah, that seems much more intelligent to me, especially just the timing."
+      ],
+      "timestamp": "00:57:39"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect verbally agreed to a payment structure whose total was never stated and whose surcharge conditions were left undefined, immediately after saying he needed to process how it would work.",
+      "evidence": [
+        "I would want to, because it's a different amount of money than I was expecting, I would have to debate how and when I start, or what are the payment structures",
+        "then we do it again next month if that's needed, and then after that we can just do the rest, and then the 200 goes away, basically.",
+        "We can actually do that if I didn't pay it, yeah.",
+        "Yeah, that seems much more intelligent to me, especially just the timing. Yeah, what do you say?"
+      ],
+      "timestamp": "00:58:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Prospect stated a maximum initial outlay of about $1,000 and the first payment proposed was $1,200, twenty per cent above the ceiling he had just given.",
+      "evidence": [
+        "What is the dollar amount that I'm comfortable with? Well, I don't know that I'd want to be out of pocket more than about $1,000 to start.",
+        "Personal finances, I never like to go below certain amounts of dollars, and so I just want to do it.",
+        "Maybe if we just start with the 1,200 rights",
+        "1,000 doesn't bother me, yeah."
+      ],
+      "timestamp": "00:56:30"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 51-year-old doing no structured training, who described joint degeneration, knee pain kneeling and rising, and thirty years of chronic lower back soreness, was moved to purchase with no question about whether any of it had been medically assessed.",
+      "evidence": [
+        "I know that I've, I've lived a My young life was very busy, or young adult life, I should say. And so I know I have just some degenerative life in there",
+        "my knees tell me like, hey, this is stiff or it's not as strong as it should be",
+        "I get, I lower back gets tight and gets sore, but that's from, that's just. That's nature of what I do.",
+        "So zero. I say zero, but every now and again I'll be like, man, I'm feeling too fat, so I'll just knock out some push-ups or some burpees"
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Call terminated by a family emergency at the moment of close and continues in a same-day 2:30pm recording that is not present in this batch, so the true disposition of this opportunity is not in the corpus.",
+      "evidence": [
+        "Here, hold on one second, please.",
+        "Oh. Bye. I'm so sorry, man. No, fine, it's fine. We're having a little meltdown.",
+        "Let's say we jump on again at 2.30. Would that work for you? / 2.30 is fine, yeah.",
+        "what we would do now is we just go through everything, get you started. And then we also directly booked a meeting with Trevor"
+      ],
+      "timestamp": "00:58:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep cited an imminent meeting of his own while pushing to complete the transaction, seconds before the prospect's family emergency interrupted.",
+      "evidence": [
+        "I will just text someone real quick, because I do have a meeting in a few minutes, but I do want to get started.",
+        "I have two meetings after this, after I'm basically done."
+      ],
+      "timestamp": "00:58:37"
+    }
+  ]
+}

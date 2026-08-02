@@ -1,0 +1,28 @@
+{
+  "call_id": "2026-07-15_jonesie_michael-brideau",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Prospect waited roughly nine minutes in the waiting room while a double-booked call ran, then received a 70-second reschedule with no new time agreed and a handoff back to a setter; both calls in this recording were lost to scheduling.",
+      "evidence": [
+        "I said good afternoon. I'm sorry. It was showing a video, then the video went away.",
+        "Thanks for your patience there, man. I was wrapping up another call, so I appreciate it.",
+        "I do have an appointment in about 25 minutes, medical appointment.",
+        "I'm going to have Derek reach out to you tomorrow and coordinate, just because my schedule's up in the air the next couple days here",
+        "Somebody just jumped in my waiting room. I want to make sure they're taken care of real quick."
+      ],
+      "timestamp": "00:09:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Only a Zoom display name was captured for this prospect, with no legal name, location or contact detail, so the record cannot be reconciled against a CRM entry from the transcript alone.",
+      "evidence": [
+        "00:09:16 - Jonesie  I said good afternoon.",
+        "Okay, keep an eye out for Derek's call tomorrow, and we'll go from there, okay?"
+      ],
+      "timestamp": "00:09:16"
+    }
+  ]
+}

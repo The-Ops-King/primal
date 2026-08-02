@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-06-10_david-elder_ben-byrne",
+  "source": {
+    "drive_file_id": "1uzbrtulmvzNq0zrgkAVTjADUrNtg-Yu2",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/10/2026 - David Elder x Ben Byrne KL",
+    "display_title": "06/10/2026 - David Elder x Ben Byrne KL — Follow Up",
+    "file_size_bytes": 55849
+  },
+  "call": {
+    "date": "2026-06-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 60,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "East Coast Canada" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "Rep: 'I know you had a conversation with Kyla. looks like you guys had to cover a lot of stuff. I was taking a look at those notes'; prospect later refers to 'a few different numbers, like Sophia, Kyla'"
+  },
+  "prospect": {
+    "name": "David Elder",
+    "aka": null,
+    "name_source": "title",
+    "location": "Los Angeles, California, USA",
+    "age": null,
+    "occupation": "Owner of his own design and fabrication company (design/research, carpentry, welding, 3D printing); previously a DJ",
+    "family_status": "Long-term relationship ended; bought an apartment alone, currently renting it out and living with his parents",
+    "height_in": null,
+    "weight_lb": 181,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Highly athletic upbringing — gymnastics, ballet, figure skating, ice hockey, rock climbing, motocross; bodybuilding-style training in early high school; dancing/club culture through his 20s; stopped structured training around 19; deconditioned after COVID, peak weight 210 lb, historically ~150 lb; restarted deliberately ~Sept 2025",
+    "kettlebell_experience": "some",
+    "medical": "No chronic conditions, no surgeries, no chronic back or shoulder pain. Reports very tight groin/inner-thigh area, knee cartilage discomfort that makes running difficult (switched to jump rope), and a history of many broken bones with no muscle or joint sequelae. Self-directed 1,200-1,280 kcal/day intake and a history of 7-10 day water fasts."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.92,
+    "signals": [
+      "Gained 60 lb after COVID and describes watching his body atrophy: 'to be alive and witnessing yourself partially decompose'",
+      "Explicitly wants a former self back: 'I stopped working out maybe when I was like 19' and wants to get back to how he looked and felt",
+      "Carries visible regret and describes body dysmorphia, dissociation and an 'existential identity crisis'",
+      "Not an optimizer — he is recovering ground, not going good to great"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the remaining weight — down from 210 to 181, historically around 150", "category": "fat_loss" },
+    { "text": "Build physical and mental strength, agility and mobility without becoming a bodybuilder", "category": "mobility" },
+    { "text": "Master kettlebell and mace movements and stop feeling awkward with them", "category": "hobby_performance" },
+    { "text": "Build a routine he can carry for the next 40-50 years, until he is old", "category": "sustainability" },
+    { "text": "Be able to ski, snowboard and dance without being wrecked after two days", "category": "hobby_performance" },
+    { "text": "Fit back into his old clothes and recognise himself again", "category": "appearance" },
+    { "text": "Create discipline — know which days are on, which are off, and not skip", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Gained 60 lb after COVID and felt his body atrophy in a way he described as scary and grotesque", "category": "aging", "severity": "high" },
+    { "text": "Body dysmorphia that led to social isolation and dissociation from himself", "category": "mental_health", "severity": "high" },
+    { "text": "Timid about scaling up load — has done two-hand kettlebell swings for two weeks but has not attempted the overhead press because he is scared to push himself", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Piecing a programme together from Trevor's free content — 'trying to follow along with the digital breadcrumb trail, which can be very difficult'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Does not know whether he is doing things the right way — 'there's like a lot of components ... I'm doing the best I can on my own'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Skiing and snowboarding became brutally painful; feels schlumped and uncoordinated when dancing", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Dislikes gyms and gym culture and has neither the finances nor the physical space for machine-based training", "category": "training_barrier", "severity": "medium" },
+    { "text": "Business is new and cash-poor — not paying himself, renting out his apartment, living with parents", "category": "work_stress", "severity": "high" },
+    { "text": "Prior five-month project of 14-hour days wiped out his training effort entirely", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "it doesn't seem unreasonable. It just seems like, personally, it's a lot for me. Because I'm just like starting out on my business and it's been tricky getting clients and having like consistent work where I can take on that much money.",
+      "timestamp": "00:48:18",
+      "rep_response": "Isolated the objection ('is it literally just the amount'), confirmed belief in the programme, then asked to open the financial picture — monthly surplus and savings. On learning there was neither, he did not run the rest of the open-wallet sequence (credit cards, available credit, investments) and instead introduced two lower price points not in the published offer: a 3-month tier at $4,000 (~$430/mo) and 12-month financing at '$650', then a $199/mo Primal University membership.",
+      "response_tactic": "isolate_then_downsell_to_lower_tiers",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm not in this stage in my life where I can just throw 10, 6, 10, 6 at something",
+      "timestamp": "00:50:07",
+      "rep_response": "Paused the call to message his next caller, then asked whether the prospect was open to an honest conversation about his finances.",
+      "response_tactic": "open_wallet_permission_ask",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I think that like the best thing I could do now would just be, like I have to like crunch numbers on my end, it's not something I can do in real time.",
+      "timestamp": "00:54:46",
+      "rep_response": "Accepted it, offered a further downsell (Primal University), exchanged phone numbers and closed the call with 'anything, any other questions for me before we hop off?'",
+      "response_tactic": "accepted_and_ended",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 12, "price_usd": 1999 },
+      { "months": 1, "price_usd": 199 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Rep: 'we do have like a like a financing option where people could split the payments over six months or sorry 12 months which does bring it down to that like six six fifty' — i.e. roughly $650/month over 12 months, a total that reconciles with neither the $6,000 nor the $9,000 tier. Separately quoted the invented 3-month tier as 'the total is 4k for that ... that one is like 4.30 per month that it breaks down to'.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 0,
+      "monthly_surplus_usd": 0,
+      "has_savings": false,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect: 'I'm thinking that I'm going to do some numbers on my end and get back to you.'",
+      "Prospect: 'I think that most likely I would, I'm going to try to make it work. I'm going to try, but ... it seems a little unrealistic at this point.'",
+      "Counter-evidence toward lost: he disclosed zero monthly surplus, zero savings, is not paying himself and cannot cover his own mortgage — 'I don't make any money whatsoever'",
+      "Counter-evidence toward lost: he named the low-tier Primal University as his likely starting point, not the 1:1 programme",
+      "No payment taken, no payment link sent, no next call booked — only phone numbers exchanged"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to run his own numbers and text or email the rep; rep sent a text so the prospect has his number. Nothing scheduled."
+  },
+  "notable": {
+    "note": "A prospect with genuinely zero discretionary cash was taken all the way through a full presentation and then offered four price points below the published offer in the space of about six minutes — $6,000/6mo down to $4,000/3mo, down to $650/mo financing, down to $199/mo. The screening that would have caught this (income, surplus, savings) happened after the price drop rather than before the presentation. Separately, the prospect is eating 1,200-1,280 kcal/day unsupervised and the rep proposed layering intermittent fasting on top without any question about medical oversight."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Repeated short-turn inversions. At 00:03:16 a line about the prospect's own work schedule is attributed to the rep; at 00:10:38 the rep's question 'Have you been dropping that?' is attributed to the prospect; at 00:47:48 the prospect's question 'it's like a thousand a month for six months?' is attributed to the rep; at 00:56:43 the price recital and the prospect's reply are inverted. Content-level facts are reliable, line-level attribution is not."
+  }
+}

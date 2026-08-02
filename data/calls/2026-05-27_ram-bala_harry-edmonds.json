@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-05-27_ram-bala_harry-edmonds",
+  "source": {
+    "drive_file_id": "1PaWnBzTpmXrI__yjVIgxnzJXSx3yS6Va",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/27/2026 - Ram Bala x Harry Edmonds KL",
+    "display_title": "05/27/2026 - Ram Bala x Harry Edmonds KL — Follow Up",
+    "file_size_bytes": 50605
+  },
+  "call": {
+    "date": "2026-05-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 51,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK", "additional_reps": [] },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "'i know you spoke with kyla um yes gave me she gave me like a head start' and the prospect: 'same thing as what I told Kayla'"
+  },
+  "prospect": {
+    "name": "Ram Bala",
+    "aka": "RamB",
+    "name_source": "title",
+    "location": "United States (state not stated)",
+    "age": 45,
+    "occupation": "IT consultant — 'I have always been a IT consultant all my life'; works from a home office",
+    "family_status": "Two sons, 19 and 14; family visiting during his June travel",
+    "height_in": null,
+    "weight_lb": 202,
+    "bodyfat_pct_self_reported": 22,
+    "training_background": "Used to do HIIT classes including kickboxing/kicks; stopped training in December/January and has not trained for five months. Gym-experienced with barbells and dumbbells but trains only seated lower-body machines (leg extensions, knee lifts) and will not squat with weight on his back. Has never used kettlebells. Vegetarian; currently eating ~1,500 kcal/day, down from 2,400-2,500.",
+    "kettlebell_experience": "none",
+    "medical": "Chronic stiff lower back; disc bulge diagnosed around 2010, treated with traction and massage. Stiffens badly after standing two hours or more and he goes to a chiropractor for adjustments. Explicitly fearful of loading the spine: 'does it concern me when I'm lifting weights? Yes, 100%'. Down from 230 lb to ~202 lb (103 kg to 92 kg) over five months by diet alone; body fat measured at 22% at a chiropractic wellness check, which surprised him."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Systematically comparison-shopping: 'third person I'm speaking to... this is the third quote as well' and another provider booked for the following week",
+      "Hard price anchor from a like-for-like competitor: 'the most expensive quote I've received is $2,000 for one year'",
+      "Analytical, consultant-style evaluation of the purchase — frames it as scope, budget and time variables",
+      "Counter-signal: not self-directed on the training itself — he explicitly will not train his lower body alone and wants supervision, which is closer to the_medically_constrained on motive even though the buying behaviour is bargain-hunter"
+    ]
+  },
+  "goals": [
+    { "text": "Lose about 10% body fat from 22% and get visible abs and definition", "category": "appearance" },
+    { "text": "Pack on muscle after losing weight and muscle together over five months off", "category": "muscle_gain" },
+    { "text": "Fix the lower-back mobility so it stops being the thing that blocks everything else", "category": "mobility" },
+    { "text": "Train his lower body safely — the thing he will not do alone at the gym", "category": "injury_confidence" },
+    { "text": "Keep up with his two sons, 19 and 14 — 'It's a matter of time. I got to keep up. I'm 45 now.'", "category": "family_role_model" },
+    { "text": "Make a visible and mental difference before the end of 2026", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Disc bulge and chronic lower-back stiffness since 2010 requiring chiropractic adjustments", "category": "injury", "severity": "high" },
+    { "text": "Afraid to load his back — will not squat with weight and avoids all standing lower-body work", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Has not trained at all for five months despite intending to the whole time — 'I'm sitting wanting to do things and it's five months past'", "category": "consistency", "severity": "high" },
+    { "text": "Falls out of traditional and HIIT programmes because results take too long", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Will not train alone without a trainer or spotter, and depending on friends makes it inconsistent", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Lost muscle along with the fat during the layoff — 22% body fat despite dropping 25 lb", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Sits in a home office all day, which he links to not using his core, glutes or hamstrings", "category": "training_barrier", "severity": "medium" },
+    { "text": "Busy with work and expects to stay busy", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "That's the most expensive I've ever heard",
+      "timestamp": "00:37:04",
+      "rep_response": "Acknowledged it happens, then clarified the meaning — 'When you say steep, do you mean like, you don't think it's worth it, or you just weren't expecting it?' — and justified the price on Trevor being top of category",
+      "response_tactic": "clarify_objection_then_authority_justification",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "the most expensive quote I've received is $2,000 for one year",
+      "timestamp": "00:41:26",
+      "rep_response": "Asked the strongest available question — 'why didn't you do the one that was 2K for a year?' — accepted the answer that he was still evaluating, then framed it as money-versus-certainty and explicitly declined to decide for him",
+      "response_tactic": "probe_why_not_bought_then_value_vs_money_frame",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "it's just comes down to the cost aspect of it, which I need to kind of figure that out and digest",
+      "timestamp": "00:45:08",
+      "rep_response": "Time-boxed it — 'How long do you feel like you need to wrap your head around things?' — and pre-solved the travel logistics by offering to onboard him before he leaves",
+      "response_tactic": "time_box_and_remove_logistical_friction",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Explicitly refused when asked. Prospect: 'are we gonna do this month on month or three months and three months or one, six months, one shot?' Rep: 'It's six months, one shot.'",
+    "guarantee_mentioned": "'We guarantee the results... by the end of the six months, you will be doing an extra 20 pounds from your starting weight on all of the main lifts with the same intensity, same volume, same reps... And the guarantee is that if you're not there in six months, we work with you for free until you are there.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision, no payment, no link sent. 'let me work that out' and 'I need to kind of figure that out and digest'",
+      "Real intent and a deadline he set himself: 'I want to finalize before I leave' (he travels 4-26 June) and 'one way or the other, I'll let you know... I'm not going to keep you hanging'",
+      "Contact method agreed — he will reach out on the number the rep texts from",
+      "Counter-evidence: he has a $2,000/year alternative quote in hand and a fourth provider call booked for the following week, and he twice called the price steep",
+      "Counter-evidence: no follow-up call was booked and no date was agreed; the next move is entirely his"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to decide before he travels on 4 June and contact the rep by text; rep offered to complete onboarding and the Trevor call before departure"
+  },
+  "notable": {
+    "note": "Two things a principal should see. First, the rep told this prospect flatly that payment is 'six months, one shot' when directly asked about instalments — the day after telling another prospect that payments can be broken up through third parties. Second, the prospect asked about the group programme that the setter Kyla had raised with him, and was steered off it on clinical grounds without ever being told what it costs. He also has a disc bulge, sees a chiropractor, and asked whether blood work was needed before starting; he was told it was not necessary."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The opening two minutes and several long stretches (00:06:43-00:08:30, 00:20:54-00:27:27, 00:36:08 onward) are merged blocks where both speakers' words sit under one label — the entire philosophy pitch is attributed to the rep but contains the prospect's replies, and the price reveal at 00:36:46-00:37:04 flips between labels mid-exchange. Roles resolved from content."
+  }
+}

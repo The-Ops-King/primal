@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-07-31_rohan-bhatnagar_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospect stated his doctors have recommended statins for years, that it is 'not even needed' and that US medicine is 'just an industry'; the rep affirmed the position and told him he is in charge of his own health.",
+      "evidence": [
+        "here doctors are happy to just prescribe you statins, immediately start on statins. They've been asking me to take statins for many years. It's not even needed. It's just an industry over here. It's not like Europe. It's a little different here.",
+        "Yeah, I've heard. I speak to a lot of Americans, and you're seeing it yourself right here. You're in charge of your health, you know.",
+        "You can make the decisions yourself.",
+        "these old tests don't really mean anything unless you really know some other biomarkers"
+      ],
+      "timestamp": "00:12:50"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed pneumonia and shingles within the current year, elevated cholesterol and triglycerides, and recurrent Achilles tendonitis, and was sold progressive loaded kettlebell training into the unsupervised self-serve tier with no question asked about clinical clearance.",
+      "evidence": [
+        "I got sick this year. I got pneumonia this year. So, and then I got, I don't know, noticed these scars are shingles this year.",
+        "even though my cholesterol numbers were high... If you eat a lot of saturated fats, you are going to have a higher total cholesterol, which I do",
+        "what I do have is I have weak Achilles... I used to get that a lot, you know, Achilles tendonitis... even when I would walk uphill or run sometimes, my Achilles tendon would swell up",
+        "any injuries pains that we should know about? no injuries no no any pains no aches anything no nothing chronic",
+        "in the beginning, we're not going to begin with way too heavy weights. We first get you in a rhythm and then we actually constantly implement"
+      ],
+      "timestamp": "00:26:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "critical",
+      "summary": "Three distinct six-month price points were quoted on this call — $6,000, $3,000 and $1,000 — none of which except the first matches the sanctioned $6,000/6mo or $9,000/12mo structure, and the rep confirmed the ladder is deliberately unpublished.",
+      "evidence": [
+        "we have an investment of 6k USD for the six months",
+        "we also have a different approach that is not full one-on-one with Trevor... Caden, that's Trevor's right-hand man... is then the one that's going to keep you accountable, do the check-ins with you, give you the forum feedbacks. The rest is the exact same... And the one that I just told you, that's [th]ree K",
+        "So university is what is the price factor for that? That's a thousand for six months.",
+        "Okay, so six, three, and 1,000.",
+        "Yeah, Kettlebell Buddy. The other one is Kettlebell Buddy Light.",
+        "And does this website list all the programs? — No. No, no, right? No, so we don't just offer it to everyone."
+      ],
+      "timestamp": "00:46:34"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The upgrade-credit policy was stated three incompatible ways inside four minutes — first that the $1,000 would be credited toward an upgrade, then that it applies only to Trevor and not to the Caden tier, then that the rep could make it work for Caden after all if done within a month.",
+      "evidence": [
+        "So whatever the thousand I give you, then you'll say, okay, give me two more, and now you've got access to Caden. — Well, with Caden, no, it's only with Trevor now that I think about it. That's only with Trevor.",
+        "And then you said you'll apply that, like, after a month if I say, okay, let's just move to Caden, then you'll apply that. — Caden, we don't actually. That's only with Trevor.",
+        "How about this? I think I can make that work. Yeah, I'll be able to make that work... if we get you started with Caden within the month, then I'll be able to definitely still like get you with Caden instead of like not using the finances for that... As in that we do use the 1,000 towards that",
+        "I can make that work with them."
+      ],
+      "timestamp": "00:55:15"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The $6,000 figure was presented as the investment with no alternatives mentioned; two cheaper tiers existed and were disclosed only after the prospect asked directly whether different tiers of cost existed.",
+      "evidence": [
+        "we have an investment of 6k USD for the six months",
+        "And are there different types of programs that he does? ... No, like different tiers of cost.",
+        "Is that like a question of like 6k is just a lot or how does it sort of look for you?",
+        "I mean, knowing all the things upfront allows you to have a better perspective.",
+        "So why would someone pick, and is there anything else apart from these two? — No, it's only, oh yeah, we also have a different option, but that's just completely self-based."
+      ],
+      "timestamp": "00:42:15"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Prospect named lipid markers as his own measure of success at the outset and was sold a tier with no biomarker tracking, no clinician involvement and no standard nutrition personalisation, without the mismatch ever being named.",
+      "evidence": [
+        "First of all, I'm going to measure this with my lipid markers. I want to see my lipid markers come down, meaning the cholesterol levels and triglyceride levels come down",
+        "the university is literally standard workouts",
+        "And in the university, do you have any sort of meal? Do have a standard one, but it's not completely to you.",
+        "no, like specification to you, no constant check-ins, no actually pushing you in from everything we've talked about"
+      ],
+      "timestamp": "00:22:53"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A roughly two-minute connection dropout occurred in the middle of the upgrade-credit discussion, so part of the exchange on the terms the prospect agreed to is missing from the recording.",
+      "evidence": [
+        "Are you still there? Yes, there we are again. My Wi-Fi had some problems, so I thought it was on your end.",
+        "yeah the wi-fi was a little spotty so i telephone so i'm on 5g now"
+      ],
+      "timestamp": "00:55:20"
+    }
+  ]
+}

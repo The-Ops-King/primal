@@ -1,0 +1,91 @@
+{
+  "call_id": "2026-07-13_ken-dunham_michael-brideau",
+  "source": {
+    "drive_file_id": "1qd4kJODUZRbuCQ18BpoxRHMNMXsON_3X",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/13/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/13/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 5024
+  },
+  "call": {
+    "date": "2026-07-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 8,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Ken Dunham",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Dallas, Texas, USA",
+    "age": 63,
+    "occupation": null,
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains 5-6 days a week in a home gym with cables and dumbbells; upper body and some squats. Started kettlebells roughly two weeks before the call and reports early core changes.",
+    "kettlebell_experience": "some",
+    "medical": "Torn meniscus in the left knee limiting running and knee-loaded movement"
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.5,
+    "signals": [
+      "Already training 5-6 days a week with a home gym; frames the goal as trimming remaining visceral fat and gaining muscle rather than rescue",
+      "Call ended at 7:53 before goals, offer or price were reached, so the avatar read is based on a single opening answer"
+    ]
+  },
+  "goals": [
+    { "text": "Trim the visceral fat that has crept on over the last 10-20 years", "category": "fat_loss" },
+    { "text": "Gain muscle — has already added size in arms, chest and shoulders in the last year", "category": "muscle_gain" },
+    { "text": "Make real progress in six months with kettlebells", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Visceral fat has slowly crept up over the last 10-20 years despite eating right and training 5-6 days a week", "category": "aging", "severity": "medium" },
+    { "text": "Torn meniscus in the left knee makes running and a lot of knee movement hard", "category": "injury", "severity": "medium" }
+  ],
+  "objections": [],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep's internet failed repeatedly and the call was abandoned at 00:07:53: 'Any chance we could reschedule a little bit later today and I'll make sure I'm somewhere where I can actually have proper service'",
+      "Prospect agreed to a re-booked slot at 6pm Central and the rep said he would send an updated calendar invite",
+      "No discovery beyond the opening question, no offer, no price"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Reconvene the same day at 6pm Central on an updated calendar invite"
+  },
+  "notable": {
+    "note": "Aborted call. The rep had moved to Brazil a week earlier and lost connectivity twice inside eight minutes, costing the discovery. Prospect is 63 with a torn meniscus and is already self-prescribing kettlebell work; a full medical screen is owed on the re-run."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "Short turns are inverted around the connectivity breaks — 'Ken, can you hear me all right? I can.' is labelled to the rep but contains both sides. Role was read from content throughout."
+  }
+}

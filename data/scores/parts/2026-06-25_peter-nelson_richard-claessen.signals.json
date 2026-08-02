@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-06-25_peter-nelson_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yep.' to 'Does that make sense?' at 00:20:06. The only substantive engagement was the rep volunteering that the tennis elbow could be worked on — 'We can potentially also try to work on your tennis elbow, right? Make sure that completely goes away will take time' — which the prospect did not respond to. He was already sold on the modality before the call and had been doing Trevor's free workouts for three weeks."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Yeah' and a single interjection about alcohol — 'I want you to stand with the drinks' — met with 'Totally fine. We also eat pizza sometimes.' This was the weakest-value pillar for him because he has been counting macros for 18 months at a 10:1 protein-to-calorie ratio and the rep had already conceded 'diet-wise, it's already going quite well from what I'm hearing'."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'No, it sounds good.' at 00:25:15. But he had pre-emptively removed the value from it twenty minutes earlier — 'I'm not the guy you need to motivate. I'm motivated. I just need to make sure I'm doing it right' — and confirmed it again when the downsell came: asked whether he needed the hard accountability, he answered 'No, I don't.' The pillar that most justifies the $6,000 price is the one he explicitly does not want, which is why the $2,000 community tier landed as a better fit rather than as a consolation."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "self_directed_success",
+      "raw": "I've lost 68 pounds purely on my own. With no coaching, and I've done that from studying macros, and studying calorie intake, and I'm successful, I'm sitting here right now successful, from doing my due diligence, and studying, and finding stuff on internet, and doing it, so I'm sitting here as a product of that.",
+      "direction": "undercuts_price",
+      "competitor": "Himself",
+      "note": "The strongest anchor in the batch and the hardest to argue with, because it is not a claim about a cheaper product but a demonstrated result. Everything the offer promises, he has already delivered for himself at zero cost, minus the form correction."
+    },
+    {
+      "type": "free_information",
+      "raw": "the internet gives you a lot of knowledge and a lot of form. I can probably have a ChatGPT evaluate me too. Nowadays, it's just crazy what technology has been able to do.",
+      "direction": "undercuts_price",
+      "competitor": "YouTube and ChatGPT",
+      "note": "He is explicitly pricing the one thing the offer uniquely provides — form review — against a free substitute he believes is now good enough. He also closed the rep's counter neatly: 'YouTube brought me here, so we can't discount that.'"
+    },
+    {
+      "type": "competitor_price",
+      "raw": "If my courses, if it's $1,000 a month to have a personal training, then I'm like, well, then you guys are a no-brainer, right? But if it's $200 a month, and I get someone to watch my form and do it in person, then...",
+      "direction": "undercuts_price",
+      "competitor": "Local in-person personal trainer, including a personal friend who coaches kettlebells",
+      "note": "He states the exact threshold at which the offer wins and the one at which it loses, and he has a warm introduction to the cheaper option already sitting in his Facebook messages."
+    },
+    {
+      "type": "self_stated_budget",
+      "raw": "Well, I was hoping, like, two grand would be the, like, where it would be",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Named before the price was given and never moved from across twenty-five minutes of pressure. It is also precisely the price of the tier he ended up accepting in principle."
+    },
+    {
+      "type": "opportunity_cost",
+      "raw": "four grand for me is like, you know, that's two house payments",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converts the price into two other purchases during the call — two house payments and a European trip — which is a live comparison the offer never gets weighed against because no cost of inaction was ever established."
+    },
+    {
+      "type": "competitor_offer",
+      "raw": "if you make over $150,000, I'll get you in, you know, in shape... he's like, you got to make over $150,000 to join our program. I'm like, I don't make $150,000. So I'm like, I'll just do it myself.",
+      "direction": "undercuts_price",
+      "competitor": "John Madsen",
+      "note": "An income-gated competitor that excluded him and, by his own account, is what pushed him into doing it alone in the first place. It is the origin story of the anchor, and it primes him to read any premium fitness offer as something for other people."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "In-person, same-session form correction rather than film-and-wait — 'have one-on-one training right there versus, you know, do it on a video and then wait for somebody to get back to me, like, that's time'",
+      "why_unmet": "The offer is remote by design; the review loop is stated as up to 24 hours. For a prospect whose only stated need is form and who values his time explicitly, the delivery mechanism is the product.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A short knowledge-transfer engagement — learn the form correctly, then leave — 'I just want to make sure I'm doing it correctly and then, then get out and go do it'",
+      "why_unmet": "The standard commitment is six months, and the rep had to invent a three-month variant on the call to get anywhere near it. Nothing in the offer is priced or packaged as a technique course.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A workout-of-the-day format — 'Do you guys have like a wad to use a CrossFit terminology, workout of the day kind of thing?'",
+      "why_unmet": "Answered directly and correctly: 'We don't do workout of the day. Like you will have a program that you should follow, because if you do different things the whole time, your body's going to be less used to it.' A deliberate design choice rather than an oversight.",
+      "verdict": "product_gap"
+    }
+  ]
+}

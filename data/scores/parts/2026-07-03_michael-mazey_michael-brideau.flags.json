@@ -1,0 +1,68 @@
+{
+  "call_id": "2026-07-03_michael-mazey_michael-brideau",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "The prospect read his full card number, expiry date and security code aloud and the rep keyed them manually into the payment processor, so complete card credentials are now stored verbatim in a recorded, transcribed and Drive-hosted file; the rep's own description makes clear this is his standard method rather than a one-off.",
+      "evidence": [
+        "Oh, yeah, I'll just grab the number and punch it in here in our payment processor.",
+        "Here, while I'm filling this out, do you mind grabbing that card for me? I'm going to grab that for me in a second here.",
+        "Okay. Ready for whenever you got it there.",
+        "You may get a text message from your bank just confirming it's you, just give me a quick sec, though, I'll let you know, and zip code on that, just to clarify, was 4-5-2-4-6, right?",
+        "Yeah, no, it went through perfect, man."
+      ],
+      "timestamp": "00:31:35"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The prospect asked twice whether a payment plan was available and disclosed a short-term spending constraint; the rep never answered either way and instead advised paying the full $6,000 immediately, which the prospect then did on a credit card while checking he was under its limit.",
+      "evidence": [
+        "now it's a matter of like, is it possible to have like a payment plan? Because, I mean, I think I could probably do it all at once, but like, it does make it easier to have like space out a bit, if it's possible.",
+        "I've like spent so much in the last like two, three months that it's like, I honestly probably need to start holding back a little bit. Like, I need to start actually being a bit more conscious with stuff",
+        "I mean, I could probably put down the fixed grand right now, unless there's an option to space it out a bit.",
+        "Can I shoot it straight with you? … Dude, I think if you can do it all right now, I think you should. And I'll tell you why. Because Trevor's worked with thousands and thousands of students, and what we've seen is that the students that really go all in from the get-go, and they're like, no, I'm drawing the line in the sand, I'm going all in, they always get the best results.",
+        "Yeah. Sorry. I'm thinking about which credit card do you use to stay under the limit? Let me quickly double check. I mean, I think I'm good, but you should probably at least verify."
+      ],
+      "timestamp": "00:26:21"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The terms of the agreement, including the performance guarantee and the 90%-of-workouts condition attached to it, were disclosed only after the card had been charged, and the signature was taken on a document the prospect said he would only skim.",
+      "evidence": [
+        "Yeah, can you pop that open and just do a quick autograph on it for me?",
+        "Yeah. That's all right, I'll just skim in real quick, but yeah.",
+        "What was the performance reward credit?",
+        "we guarantee that you'll actually increase your, your weight on your key list by eight kilograms, and if you don't, now, you do have to hit the, there's specific metrics, like, you have to hit, like, 90% of the workouts and different things like that, you'll read that in a second",
+        "Yeah, no, it went through perfect, man. So we're all good to rock on that."
+      ],
+      "timestamp": "00:37:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The guarantee was described to this paying prospect as a flat eight-kilogram increase on key lifts, whereas the same rep read the actual contract aloud on another call the same day as eight kilograms across at least three of five named lifts logged in TrueCoach, and the $500 credit as applying to renewal rather than to 'future coaching, or there's a few other things'.",
+      "evidence": [
+        "we guarantee that you'll actually increase your, your weight on your key list by eight kilograms, and if you don't, now, you do have to hit the, there's specific metrics, like, you have to hit, like, 90% of the workouts and different things like that, you'll read that in a second, but if you don't, Trevor will actually continue working with you for free until you do.",
+        "And provided you complete the program in six months, you get $500 credit towards either future coaching, or there's a few other things as well, which is really cool.",
+        "Yeah. That's all right, I'll just skim in real quick, but yeah.",
+        "Yeah, no, it went through perfect, man. So we're all good to rock on that."
+      ],
+      "timestamp": "00:37:23"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep made an unqualified claim that long-standing injuries resolve on the programme, and then encouraged the prospect to consider coaching his own injured 60-something table tennis coach through kettlebell work.",
+      "evidence": [
+        "we have guys who come in to this program and they're, you know, they've been running with the same injury for the last five, 10 years. And, you know, they start doing the mobility, they start doing kettlebells and within, you they strengthen it, they get the more mobility. within a couple months, like, it's just completely not even an issue anymore.",
+        "my coach was, like, he's on the early 60s, and he was complaining that, like, his joints don't allow him to do stuff like the ping pong anymore. And I was like, I mean, I can maybe, once I get started with my kettlebell, I can see if he could do, like, the lighter weights.",
+        "Well, yeah, dude, you could teach him.",
+        "this will be a massive thing that's going to make sure that we're not dealing with injuries long-term, right?"
+      ],
+      "timestamp": "00:12:00"
+    }
+  ]
+}

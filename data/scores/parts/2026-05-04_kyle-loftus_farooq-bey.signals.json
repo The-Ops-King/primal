@@ -1,0 +1,85 @@
+{
+  "call_id": "2026-05-04_kyle-loftus_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "One targeted question about the mechanism that mattered to him: 'assuming it's constantly updated and you're getting new workouts every week, or what's the frequency of that, I guess.' He was told the programme is dynamic and adjusts on the previous week's performance, and accepted it — 'Cool. Yeah.' This is the pillar he actually wanted, and he had framed the need before it was presented: 'having a system, a structure and a roadmap that I can hold myself accountable to and to follow... going quite literally by the numbers, by the metrics.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "No engagement with the content at all — not the food groups, not the supplementation, not the fasting protocols. His only question was about tooling: 'What's the app you guys use?' He was told 'a combination of school and an app that we use for our clients... it's called Stormfront', which does not match the TrueCoach answer this rep gave a prospect the previous day. Notable that he had listed 'having a better quality meal routine that is helping me properly rest, recover, and optimize my body' as a benefit he wanted, and the pillar never connected to it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The pillar that lost the sale. He pushed back on its substance and its value to him specifically: 'This seems to be way more than what I was anticipating... I thought I was getting a program, like a workout program and a nutrition plan. I didn't know I was signing up for a coaching program and working the one-on-one and altering my mindset and all these other things.' And then the pricing of it: 'on the mental, the discipline side, like the coaching dynamic, wasn't necessarily expecting or looking for that per se. So I think that's the area where I really would have to sit and think if I'm looking to make this additional investment.' He also asked for the limits — 'What is the actual engagement look like with him? How much are you actually able to interact? What are the limitations to that?' — and received a daily-contact claim rather than a defined service level."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_program_purchases",
+      "raw": "I've used various apps, I've tried a couple other fitness programs over the course of the past two years. More specifically, just buying a modular course, not a course, but just a program, if you will, with the workout routines.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His reference class for this purchase is a series of low-cost programme buys, which is precisely the price band he ended up in at $200/mo. He also supplied the reason they failed — 'it's all been what I've already been doing' — which was the opening to differentiate a genuinely novel movement library at a premium, and it was not taken until the moment of disqualification."
+    },
+    {
+      "type": "runs_his_own_coaching_business",
+      "raw": "I run a coaching program myself. I'm familiar with all of this. I do the same thing with helping filmmakers and running their video production business and scaling that. So I get it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Cuts unusually. He believes in coaching as a category and sells it himself, which normally supports a premium price. Here it worked against the sale, because he could see exactly what he was being sold and price the parts he did not want. A buyer who runs a coaching business needs the scope conversation up front, not the ripple-effects framing."
+    },
+    {
+      "type": "price_as_quality_signal",
+      "raw": "transparently, you know, I wasn't expecting it to be this high, but, um, absolutely respect, uh, respect him and his price.",
+      "timestamp": "00:31:32",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A textbook optimizer response — surprise at the number followed immediately by respect for it, with no attempt to negotiate and no affordability signal anywhere in 48 minutes. Money was never the obstacle on this call, which makes the absence of a Consequence Frame more costly, not less."
+    },
+    {
+      "type": "free_information",
+      "raw": "Create your own structure, ChatGPT, YouTube, Claude, this information is so abundant in 2026.",
+      "direction": "undercuts_price",
+      "competitor": "ChatGPT / YouTube",
+      "note": "Rep-introduced again, and the only time in this batch it did not backfire. The prospect gave the best available rebuttal himself: 'of course, ChatGPT and other AI can really help you, but if you don't have the contextual information, it's hard to actually get the right answers out of the AI.' That sentence is the value proposition for paid programming and it came from the buyer."
+    },
+    {
+      "type": "own_lower_tier_product",
+      "raw": "says 200 bucks a month, but you can cancel it anytime",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (own product)",
+      "note": "Introduced by the rep at the point of disqualification rather than as a competing option, which is the cleanest way it appears anywhere in this batch. The prospect's reaction — 'This is exactly what I'm looking for' — is the clearest evidence in the corpus that the gap between $200 and $4,000 has a real product missing from it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A kettlebell training programme and nutrition plan, without the one-to-one coaching and mindset layer",
+      "why_unmet": "The $4,000 tier is an indivisible bundle and the only unbundled option is the $200/mo self-paced product, which he described as exactly what he wanted. There is nothing between them. He named the missing product precisely: 'A really good workout program. And this seems like it's, as you mentioned here on the call, a lot more than that.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A programme outline, case studies and testimonials from previous clients before committing",
+      "why_unmet": "Never provided. Almost certainly exists and the request was reframed as avoidance rather than answered — 'naturally, you're not going to put any bad results on our website' — with a claimed FTC chargeback right offered in its place. He had already told the rep this was exactly what stood between a six-or-seven and a nine-or-ten.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A defined service level for coach interaction — what the engagement actually is and what its limits are",
+      "why_unmet": "Asked directly and answered with an escalating promise rather than a specification: 'he's going to be reaching out to you and communicating with you very, very consistently, at least once a day, once every other day.' No response-time commitment, no caps, and a stated roster that has been described as both 30 and about 60 clients on different calls. What he would actually receive is not established anywhere in this transcript.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To swap his existing lifting sessions for kettlebell sessions inside an already nine-to-ten-session training week",
+      "why_unmet": "He asked this in his second answer — 'is it the case of you wanting to replace your lifting sessions with kettlebell sessions?' — and the concurrent-training question was never answered. Adding three to four kettlebell sessions to five jiu-jitsu and two striking sessions is a real programming problem, and how the programme would sequence around competition prep and daily grappling was not discussed.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Novelty — a movement library he has not already done",
+      "why_unmet": "This one the programme genuinely serves and it was the strongest card available: 'kettlebells, the extent of my experience is kettlebell swings, or presses. I don't know anything in this world... it feels kind of primal in context there.' The novelty of the mace, club and kettlebell system was never positioned against the two years of repeated modular programmes until it was used as the reason to sell him the cheaper product.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

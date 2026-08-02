@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-14_david-williamson_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a diagnosis of ankylosing spondylitis plus ongoing knee flare-ups and a history of back failure under trivial load, and was sold toward loaded ballistic kettlebell training with no clinician clearance sought and the medical question deferred until after payment.",
+      "evidence": [
+        "I mean, there was a diagnosis, but it was like, they don't really know. It was, I said something about ankylosing spondylitis or whatever",
+        "I got my occasions to flare up with a knee or something here and there",
+        "after standing there for like five minutes, I'm like, oh, I gotta go sit down, give my back a break",
+        "when it comes to mobility let us know all of the past with it in terms of the joint pain in terms of the chronic all of that let us know be detailed about it when you're on with trevor",
+        "The first month is all about perfecting the form of the kettlebell."
+      ],
+      "timestamp": "00:04:08"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "When the prospect expressed uncertainty about his own diagnosis, the rep answered by disparaging doctors and closed the topic rather than probing it.",
+      "evidence": [
+        "and they're like, well, it's kind of like a weird class. Maybe you just got something going. So I don't know if it was that or whether I just had weak muscles around the joints or what",
+        "All right. Yeah. Okay. That makes sense. The doctors are interesting. They tell you everything. Yeah.",
+        "Yeah. All right. Okay. That makes sense. Are you doing anything with kettlebells now?"
+      ],
+      "timestamp": "00:05:20"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep guaranteed a specific loaded-performance outcome — 35 lb to 55 lb on every kettlebell movement within six months — to a prospect with a spinal inflammatory diagnosis and recurring knee flare-ups who has never used a kettlebell.",
+      "evidence": [
+        "The results are guaranteed. So, we guarantee that over the six months, you will put on 20 pounds on your kettlebell.",
+        "you will go from a 35 to a 55 with every movement",
+        "if you do everything we say and you don't get there, we work with you for free until you get to that point",
+        "So you know that when you spend your six grand, if you do it, you're going to get there for six grand."
+      ],
+      "timestamp": "00:28:36"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The results guarantee has now been stated with three different remedies across three consecutive days — no remedy, continued coaching, and continued coaching explicitly 'for free' — so buyers are being told materially different terms.",
+      "evidence": [
+        "if you do everything we say and you don't get there, we work with you for free until you get to that point",
+        "if for any reason you're not there, we will... Trevor will work with you until you are at that point",
+        "Like we guarantee you results. We guarantee you that in six months or in 12 months time, that you'll put on eight kilos"
+      ],
+      "timestamp": "00:29:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization is inverted across roughly half the call and one discovery question is missing from the transcript entirely, so the file cannot be parsed by speaker label.",
+      "evidence": [
+        "00:21:32 - Harry Edmonds (Primal Instinct): Super important. Where are you from, Harry?",
+        "00:08:21 - David Williamson: I guess if we were to fast-forward, like, six months, I know for you it's about more so feeling good than anything else.",
+        "00:06:56 - Harry Edmonds (Primal Instinct): Whatever. Whatever's lying around."
+      ],
+      "timestamp": "00:21:32"
+    }
+  ]
+}

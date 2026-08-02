@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-12_nick_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Structure, 3-4 sessions of 30-40 minutes, and short hip/back mobility protocols were tied to his sitting and his ankle. Response: 'Yeah, does make sense. It definitely sounds like something that would work for me.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "What/when/how-much frame delivered with the once-a-week pizza allowance. Response: 'I generally am, like I said, pretty, I try to avoid the middle of the grocery store most of the time because that's where all the processed stuff lives anyway. So yeah, that feels very aligned with how I'm kind of thinking about things.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Probed the delivery capacity before accepting it - 'because it's so direct with him, how many clients does he have at once? Like, how does he kind of guarantee that level of, I guess, one-on-one?' Satisfied by the answer: 'one of the things that had appealed to me about the program was sort of the ability to have those questions and follow up... I'm glad to hear that that sounds very baked into the program itself.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_product",
+      "raw": "I did try a different kettlebell course. Like, it was, like, a guided course... I don't know if you know Gabe West, but that's the program I was looking at.",
+      "direction": "undercuts_price",
+      "competitor": "Gabe West kettlebell course",
+      "note": "A cheap guided kettlebell course he already bought and abandoned. It undercuts on price but the rep turned it partly supportive by establishing it was generic - 'it wasn't like designed to your needs right?' - which is the strongest differentiation moment in the call."
+    },
+    {
+      "type": "subscription_expectation",
+      "raw": "it's not kind of a monthly subscription that that you that you pay like a couple hundreds of bucks yeah",
+      "direction": "undercuts_price",
+      "competitor": "Primal University / general fitness subscription pricing",
+      "note": "The rep introduced and pre-empted the couple-hundred-a-month anchor himself before dropping $6,000. Useful pre-frame, but it also confirms the company knows its own $200/mo tier sets buyer expectations."
+    },
+    {
+      "type": "in_person_trainer_cost",
+      "raw": "I haven't reached out to a personal trainer mostly because I feel like, one, I want to be able to do this from home. And, like, I think having a personal trainer come to my house sounds very expensive for every session.",
+      "direction": "supports_price",
+      "competitor": "in-home personal trainer",
+      "note": "He already assumes in-person coaching is expensive and impractical, which supports the price. Unlike other calls in the batch, this anchor was never used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Start now and pay in a month or two once he has saved for it",
+      "why_unmet": "The offer has no deferred-start or hold-my-place path. The rep's only lever was third-party financing at an unknown rate, which the prospect had already refused on principle. The playbook's own OB move - a refundable deposit to hold the decision - was never offered, and the manager had told the team two days earlier to take deposits in exactly this situation.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A clear total cost for the financed route before deciding",
+      "why_unmet": "The rep could not state it - 'I cannot say what's going to be the interest rate, because it differs from client to client' - so the prospect was asked to apply in order to discover the price.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

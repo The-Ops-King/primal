@@ -1,0 +1,107 @@
+{
+  "call_id": "2026-07-03_andrew-clarke_richard-claessen",
+  "source": {
+    "drive_file_id": "1KJSgpMzPYH5k1SwrtMV1DTeyqH7QmaZe",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/03/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/03/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 8762
+  },
+  "call": {
+    "date": "2026-07-03",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 7,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": "Self-booked from an email link, not set by a setter — 'I just clicked on the link in one of the emails.'"
+  },
+  "prospect": {
+    "name": "Andrew Clarke",
+    "aka": "andrewclarke",
+    "name_source": "transcript",
+    "location": "Revelstoke, British Columbia, Canada",
+    "age": null,
+    "occupation": "Runs his own company; describes it as busy",
+    "family_status": "Six-month-old daughter",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains most mornings before work, aims for four or five times a week, mostly calisthenics fitted around childcare — 'this morning I did a hundred push-ups and that's going to be my workout for the day'. Owns one adjustable kettlebell. Actively avoids gyms.",
+    "kettlebell_experience": "some",
+    "medical": "Knee surgery five weeks before the call. Knee still swollen; can walk but cannot squat or lunge. Under active physiotherapy and seen by the physio the previous day, who has not cleared loaded lower-body movement. Self-estimates another month before starting."
+  },
+  "avatar": {
+    "assigned": "the_medically_constrained",
+    "confidence": 0.7,
+    "signals": [
+      "The whole call turns on a clinical block, not on price or belief — 'I just went to physio yesterday. And that's not allowed yet'",
+      "Wants in and says so — 'I want to do it. I'm just not quite ready yet'",
+      "No price resistance surfaced because no price was ever discussed",
+      "Carries optimizer traits too — already trains most mornings, self-assesses as 'pretty decent', wants stronger, fitter, more agile rather than rescue"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger and fitter", "category": "strength" },
+    { "text": "Be more agile", "category": "mobility" },
+    { "text": "Have someone push him past the limits he sets for himself and keep him consistent", "category": "consistency" },
+    { "text": "Keep training simple — one kettlebell at home, no extra equipment, no gym", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Cannot squat or lunge five weeks after knee surgery; knee still swollen and not cleared by physio", "category": "injury", "severity": "high" },
+    { "text": "No time for a structured session — a six-month-old and a busy company mean training is whatever fits, 'I'm hanging out with my daughter doing push-ups, that's just what I can do'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Trains alone and eases off without external pressure — 'it's easier when you have somebody sort of telling you to go harder and faster and longer rather than just your own, yourself'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Actively dislikes gyms — 'I don't like the vibe. I'm just not into it'", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_medical",
+      "raw_quote": "I can't start now. Like I could probably do a kettlebell swing now, but I couldn't do like a lunge or a squat. It's not, I just went to physio yesterday. Bye. And that's not allowed yet, so.",
+      "timestamp": "00:02:48",
+      "rep_response": "Did not attempt to work around it. Named the risk himself — 'I don't want to put you in a position where you're going to hurt yourself as well' — asked the prospect how long recovery would take, accepted his estimate, offered to send some things in the meantime and booked a meeting for 7 August.",
+      "response_tactic": "acknowledge_risk_and_defer_to_recovery_timeline",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep ended discovery at three minutes and deferred on medical grounds — 'What I think is best, like, how long does that recovery take for your knee, do you think?'",
+      "Prospect agreed to reconvene and stated intent — 'Yeah, for sure. Let's do that, then... Yeah, like, I want to do it. I'm just not quite ready yet.'",
+      "Meeting booked and invite confirmed received on the call — 'Yeah, yeah, I got it.'",
+      "Counter-evidence on intent quality: the prospect gave no reason for booking beyond 'I just clicked on the link in one of the emails', and he is on holiday for part of the interval.",
+      "No price named, no offer presented, no money discussed at any point."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send materials and a text; follow-up call booked for 7 August, by which point the prospect expects to be past his knee recovery."
+  },
+  "notable": {
+    "note": "The rep voluntarily walked away from a call rather than sell to a man five weeks post knee surgery whose physio has not cleared squats or lunges — the correct outcome, and the opposite of the pattern the pilot flagged on the Tyron Giuliani call. The residual issue is that he offered to send exercises anyway, and he took the recovery timeline from the prospect rather than asking whether the surgeon or physio would clear loaded kettlebell work at all. Note also that the prospect volunteered he could 'probably do a kettlebell swing now' and the rep did not correct him."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavily inverted. The rep's opening question 'tell me, what can we potentially help you out with' sits under the prospect's label at 00:00:33, and several of the prospect's answers sit under the rep's label. The recording also starts mid-answer ('today? Revelstoke, BC.'), so the first seconds are missing. The prospect's name is taken from the speaker label 'andrewclarke'; the rep's audible addresses in the transcript ('Android', 'Jack', 'Daniel') are mistranscriptions — 'Jack' recurs where the rep's verbal tic 'check' belongs."
+  }
+}

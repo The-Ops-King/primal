@@ -1,0 +1,149 @@
+{
+  "call_id": "2026-07-09_frederic-ipe_richard-claessen",
+  "source": {
+    "drive_file_id": "1fewL708N9CuBXELUZodaz4VYU0FMKtky",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/09/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/09/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 73348
+  },
+  "call": {
+    "date": "2026-07-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 63,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Dutch; states he is currently based abroad — place name garbled in transcript as 'Bokaria'" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. An application exists — the rep says 'That's also something you put in your application, right?' (00:15:48) — so the lead was pre-qualified in writing, but by whom is not stated."
+  },
+  "prospect": {
+    "name": "Frédéric IPE",
+    "aka": "Fred",
+    "name_source": "transcript",
+    "location": "French national; resident in Dubai, currently in Luxembourg (left Dubai because of the war), moving to France then Mauritius in October",
+    "age": 39,
+    "occupation": "Owner of a digital products business selling online courses for real estate in France; employs closers",
+    "family_status": "Married, a three-year-old child and a newborn roughly one week old",
+    "height_in": 70,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 18,
+    "training_background": "Self-designed 20-25 minute home circuits three months running (jump rope, push-ups, dumbbells, squat jumps), roughly two sessions a week. Previously one year of Body Pump, then six months of boxing twice a week with an in-person coach who came to his home, plus tennis. Has never had an online coach. Refuses gyms — dislikes the commute and calls gym work 'fake moves... robotic moves'.",
+    "kettlebell_experience": "none",
+    "medical": "No conditions or injuries disclosed; the rep never asked. Self-reports poor flexibility and 'very bad' hips from sitting at a computer all day, and a significant ongoing sleep deficit which he raised himself — 'I don't sleep enough. And I know that's a big problem' — driven by a newborn, a three-year-old waking at 3am and working until 11pm or midnight."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.88,
+    "signals": [
+      "Explicit good-to-great framing: 'I'm not fat. I'm not, but I'd like to have like more muscles that we can see stuff like this. Defines.'",
+      "Successful business owner who has deferred health for the company: 'I was focused on my company. I was like, okay, later, later, later.'",
+      "Price is not the barrier — 'I'm not even debating the price' and 'It's worth it'; he sells higher-ticket products himself ('our products is more expensive than you guys')",
+      "Counter-signal against a clean optimizer read: he is a professional high-ticket seller and ran a due-diligence process on the offer rather than buying on conviction — 'I know sometimes in closing, we can oversell'"
+    ]
+  },
+  "goals": [
+    { "text": "Get more visible muscle and definition, particularly chest and abs, and lose the slight belly", "category": "appearance" },
+    { "text": "Get body fat down from a self-estimated 16-20%", "category": "fat_loss" },
+    { "text": "Feel stronger — 'I'd like to feel a bit more with more force'", "category": "strength" },
+    { "text": "Build an athletic body that can move fast, explicitly not a bodybuilder physique — 'I'm always thinking if something happens to my family, I need to be able to move fast'", "category": "hobby_performance" },
+    { "text": "Fix poor flexibility and 'very bad' hips from sitting at a computer all day", "category": "mobility" },
+    { "text": "Be a role model his three-year-old sees training — 'I want my kid to see me doing sports. So he's proud of his dad'", "category": "family_role_model" },
+    { "text": "Feel better overall and be more proud of himself; a secondary confidence and image benefit for his business", "category": "confidence" },
+    { "text": "A system that travels with him given constant relocation between Dubai, Luxembourg, France and Mauritius", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "No real plan and no confidence the self-designed programme works — 'I created my own plan. But yeah, I'm not even sure it's great'", "category": "program_fit", "severity": "high" },
+    { "text": "Cannot stay consistent without external pressure — 'I'm not 100% committed, because I don't have someone else, like watching if I'm doing or not doing it'; managed no sessions at all in the week of the call", "category": "accountability_gap", "severity": "high" },
+    { "text": "Sees no physical result from the effort he does put in — 'I don't think it makes results'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Significant sleep deficit from a newborn, a three-year-old waking at 3am and working to midnight", "category": "sleep", "severity": "high" },
+    { "text": "Constant international relocation and travel breaks any routine", "category": "training_barrier", "severity": "medium" },
+    { "text": "No nutrition plan and no idea whether he is eating too much or too little — disciplined weekdays, 'in between' weekends where he and his wife are 'all in'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Uses weekend food as a reward for weekday effort — 'in my brain, that like anything else, I need to be rewarded'", "category": "emotional", "severity": "medium" },
+    { "text": "Business stress drives disordered eating in heavy work weeks", "category": "work_stress", "severity": "medium" },
+    { "text": "Sedentary all day at a computer; walks only 20-30 minutes", "category": "training_barrier", "severity": "medium" },
+    { "text": "Has been trying to find a coach for a long time and could not — 'I've been looking for a coach for a long time, but... For some reasons, very hard to book a call'", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I'm just thinking is there anything else i should know... I want a confirmation to something written. Yeah, where I see, okay, it's properly well-made, blah, blah, blah, and that's it... because I know how things can be, and I don't want to jump in, and then in one day, or when I receive the content, like, ah, okay, well, that's not really what we said",
+      "timestamp": "00:45:22",
+      "rep_response": "Reframed it as online-market skepticism, ran a car-buying analogy ('do you feel like we would put that on paper?'), then the certainty question ('So is it that you just want to have certainty?'), then argued from Trevor's 1.3 million followers and 1,200 clients that wrongdoing would be public. Eventually searched live and sent an outdated internal document that omits the one-to-one coaching.",
+      "response_tactic": "reframe_as_skepticism_then_social_proof_then_improvised_collateral",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "What I like to do is that I like to do the other way around. So I like, you send me the contract, I read, if it's, if there is one.",
+      "timestamp": "00:56:45",
+      "rep_response": "Refused — 'I really can't just send one up front. This is always our [process]'. Explained the agreement is generated only after payment and that he has no access to it; argued it is the American standard, minimised the contents ('I know that there's almost nothing in the contract'), and offered an informal unwind ('if you're like, guys, I hate this, then we just send it back'). Ended by agreeing to ask his team and send it on WhatsApp.",
+      "response_tactic": "hold_process_then_minimise_then_escalate_internally",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "Because I just did the calculations, but in six months, it's a bit actually pricey. What I think is like, it's almost 900. I did in the US, it's almost 900 per month. And I think it's a bit pricey.",
+      "timestamp": "00:58:23",
+      "rep_response": "Went straight to the worth question — 'Is it for you worth 6,000 or 5.2 in order to get fitter and feel better?' — and got 'Yeah, of course. It's worth it.' Then reframed on the graduation promise ('we don't want you to stay with us after those six months'). No isolation, no financial picture, no payment plan offered until the prospect asked.",
+      "response_tactic": "worth_question_then_graduation_reframe",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "This is that there's nothing reasoned, guys. I found it suspicious... I find it suspicious. There's nothing big. If you guys are sure of yourself, I mean, I think so. I'm not accusing you guys are not good, right?",
+      "timestamp": "00:59:36",
+      "rep_response": "Answered with reach as proof: 'do you think if we would actually do wrong things... Don't you think it would be all over the internet when he has 1.3 million followers on Instagram? We've coached over 1,200 people. Like, how is it not out there?' The prospect explicitly rejected the frame — 'It's not about the fact that it's real or fake... It's just that... there's disparity from the fact that there's nothing written'.",
+      "response_tactic": "social_proof_as_absence_of_complaint",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "I always wonder what's going to be my buddy like in six months. We cannot tell. I mean, can you tell? I mean, I don't know what's the...",
+      "timestamp": "00:40:06",
+      "rep_response": "'I cannot tell you. You've probably seen it, right? We've coached a lot of people, 1,200 or so, Trevor, and it all comes down to how much commitment you're going to have to yourself.' No case study, transformation example or expected range was offered.",
+      "response_tactic": "decline_to_forecast_shift_burden_to_commitment",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No terms given. When asked about payment options the rep said 'Most guys, put it up front, also for their own commitments... If needed, we can split it up, but we don't have anything set usually for that, because it's usually always just upfront.' No instalment figure, count or uplift was stated.",
+    "guarantee_mentioned": "No formal guarantee. Three separate informal, discretionary representations were made: 'if you really hate it then we can go into conversation about that'; 'if I've lied to you, then we would definitely give you a refund, of course'; and 'if you're like, guys, I hate this, then we just send it back.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent.",
+      "The prospect gave a conditional yes tied to seeing the contract: 'if I can get it seriously I don't know if I can but if I can you will I'm 100% sure then want to be like okay let's just get started' and 'if I see that the contract I need to look at it of course if it's okay'.",
+      "Clear next step owned by the rep: 'Send it to me on WhatsApp' / 'I've got a team meeting in two hours. So I will come back to you whenever I get it, okay?'",
+      "Counter-evidence on intent: strong buying language throughout — 'I'm not even debating the price', 'It's worth it', 'that's why I'm willing to pay', 'I think I'm gonna do it of course'.",
+      "Counter-evidence against: the call ended on an unresolved trust objection ('I find it suspicious'), the prospect had to leave for another call, and the deliverable that would unlock it is something the rep said does not exist in a sendable form."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to ask Trevor or the head of sales whether the agreement can be released pre-payment and send it, plus any written programme summary, to the prospect on WhatsApp, ideally the same day."
+  },
+  "notable": {
+    "note": "A textbook-ICP, price-insensitive, high-intent buyer who was not closed because the company has no written description of what it sells. The rep said outright 'we don't have anything that we send to people' and 'this is the only thing that we've written down', then sent an outdated internal document that he himself noticed 'misses the one-on-one aspect a little bit' — the primary deliverable. The prospect, himself a high-ticket digital-products seller, articulated the problem precisely: 'there's disparity from the fact that there's nothing written, you signed a contract afterwards, and the one-to-one isn't much on there.' Separately, the rep stated payment plans are ad hoc ('we don't have anything set usually for that') on the same day another call in this batch was quoted a defined $1,200/month internal plan."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion of short turns throughout. Clear examples: at 00:01:25 'I don't have a real plan' is attributed to Richard but is Frédéric's; at 00:02:19 an entire rep question and the prospect's answer sit inside one 'Frédéric IPE' block; at 00:33:01 the rep's nutrition confirmation question is attributed to Frédéric. Two long stretches — roughly 00:23:47 to 00:25:00 and 00:41:59 to 00:44:00 — are unpunctuated single blocks containing both speakers. Roles read from content throughout. The 00:14:09 answer to 'How much do you weigh' is garbled and the weight figure is lost."
+  }
+}

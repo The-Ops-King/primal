@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-11_rafael-sanchez-carmona_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "confused",
+      "evidence": "Did not follow the central framing and said so plainly: 'Eh, I mean, I, what you, what you just say that we, we were trained to be in that way to do more. No, not really. I don't understand.' The rep re-explained the designed-to-be-fluid idea in simpler terms and it landed the second time. He then engaged genuinely with the form-feedback loop, tying it to his own history: 'that was also one of my concerns when I was doing it on the app. Sometimes I have pains, I had pain and because maybe I was not doing it properly.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "Pushed back on the substance of the supplement recommendation: 'supplements, I never took supplements, so basically, normally I'm not very much in favor of supplements. I prefer to take natural foods.' The rep half-conceded — 'if you don't want to, I mean, we can work around that' — while still asserting 'The only supplement that we'd recommend you to take is creatine' and having already stated creatine is 'a must for every human to take'. He then volunteered, unprompted, that he is on a strict post-operative low-fat diet, which had not been asked about before the fasting and supplement content was delivered."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Agreed readily and mapped it onto his own life — asked what happens to motivation and discipline under stress he answered 'I know, yes. That has been in life, all the time' and then 'I understand. Yeah, I know, because I have experienced that in, I might have a very stressful work.' Agreement rather than enthusiasm; he asked no questions about how the accountability actually works."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "medical_event",
+      "raw": "Yes, now it's an obligation. It's not just a motivation, it's an obligation. Like, I need to get, you know, I need to lose weight, I need to have a good body, if I want to avoid future health problems.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The dominant anchor on the call and the reason it closed at the top tier without resistance. The surgery reclassified the spend from discretionary to obligatory before the rep said anything. He reinforced it later — 'it's not an option, I don't have an option, right, I need to take action' — which is also precisely why this prospect needed clinical screening rather than closing."
+    },
+    {
+      "type": "value_judgement",
+      "raw": "Also, I mean, realistically speaking, like, I think this is a fair investment.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Volunteered within seconds of hearing $6,000 and $9,000, with no probing. He also spotted and priced the volume discount himself: 'I see also there is a reduction for 12-months.'"
+    },
+    {
+      "type": "alternative_provider",
+      "raw": "either, you know, or I go to a gym. And I have a personal trainer or, you know, if I do it on my own, it's not the same. I think it's better to have professional people guiding you",
+      "direction": "undercuts_price",
+      "competitor": "Local gym personal trainer",
+      "note": "A gym trainer in Jordan or Spain would sit far below $9,000, but he never named a figure and the rep never asked. Recorded because it is the live substitute in his head, and it went unpriced and unaddressed — the deal closed before the comparison could form."
+    },
+    {
+      "type": "failed_cheap_substitute",
+      "raw": "Now, I have an app on my phone. I think one year ago, I tried this app, doing exercises from the app, and I thought that it was good, without equipment at home. And then I stopped.",
+      "direction": "supports_price",
+      "competitor": "Phone fitness app",
+      "note": "He had already tried the low-cost self-serve option, made progress, hurt himself through bad form and quit. Strong pre-built case for paid coaching with form feedback, and the rep did use it well when presenting pillar one."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Exercises appropriate to a body three weeks out of abdominal surgery — 'I have some limitations, maybe, because I am not very fit now, so maybe I have some issues at the beginning in terms of what type of exercises I have to do'",
+      "why_unmet": "The programme may well be able to scale to him, but nobody established what he is currently permitted to do. No question about post-operative lifting restrictions, no question about whether his surgeon or physician has cleared exercise, and no question about the new antihypertensive medication. The concern was answered with encouragement rather than information.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Nutrition that works alongside a clinician-directed post-operative diet — 'As long as it is aligned with, you know, what I have here and my likes'",
+      "why_unmet": "He is on a restricted low-fat regime of vegetables, fish, white meat and gelatin, with foods still to be reintroduced under medical direction. The nutrition pillar as delivered pushed fasting protocols and creatine, neither of which was reconciled with that, and the rep only learned about the medical diet after delivering the pillar.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A supplement-free approach — 'normally I'm not very much in favor of supplements. I prefer to take natural foods'",
+      "why_unmet": "The rep both asserted creatine is 'a must for every human to take' and conceded 'we can work around that' in the same exchange, leaving it genuinely unclear whether the programme accommodates a no-supplement preference. Almost certainly it does; nobody said so cleanly.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

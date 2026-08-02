@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-07-18_ryan-mitchell_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed a symptomatic, undiagnosed suspected pinched nerve in his shoulder that is still under investigation, and the rep asked no follow-up question, sought no clearance, and continued moving him toward kettlebell training.",
+      "evidence": [
+        "So right now, I'm pretty sure it's a pinched nerve in my shoulder.",
+        "So it's more like if I'm bending down and reaching forward, it's hurting.",
+        "I'm trying to get it looked at. I've been to a few chiropractors, probably going to start going to like a physical therapist. So if it doesn't get better.",
+        "Do you feel like, yeah, let's check out that university and get you started with that?"
+      ],
+      "timestamp": "00:10:41"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Seconds after the shoulder disclosure the rep gave specific loading advice for overhead ballistic work, recommending a kettlebell weight for snatches on the arm the prospect had just described as hurting.",
+      "evidence": [
+        "I'm just searching it up real quick because of course I use kilos, like a 26, if you can get like a 26, I would recommend you getting one of those, that would be better for snatches.",
+        "For the rest, like a 35 is totally okay for swings, et cetera, halos, but just single arm snatches, I would say go a little bit less"
+      ],
+      "timestamp": "00:11:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The rep steered a prospect with an active shoulder complaint and an acknowledged mobility limitation into the self-guided tier, where no coach observes his form, and substituted a self-promise for clinical screening.",
+      "evidence": [
+        "because of course, with your mobility, you're struggling a little bit as well",
+        "the only thing you just need to promise yourself that you're not going to increase the weight too quickly, because your body does have to get used to doing the movement",
+        "do you feel like you would be able to promise something like that to yourself, that you can actually take it slow with those things",
+        "it's just without one-on-one completely from Trevor"
+      ],
+      "timestamp": "00:08:49"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep offered a $200/month Primal University subscription, a third price point outside the two approved offers.",
+      "evidence": [
+        "but that would come down to 200 a month, because that would be a lot more doable in your range",
+        "So the university you said is 200 a month? Mm-hmm, exactly."
+      ],
+      "timestamp": "00:11:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The core offer was quoted inconsistently and never as $6,000 for six months — first as 'at least four figures', then as a monthly figure the rep corrected mid-sentence.",
+      "evidence": [
+        "for the coaching of Trevor, it's going to be at least in the four-figures",
+        "For a month? No, so for six months in total. Oh, what's it monthly? It would boil down to around eight. No, well, it would boil down to between six and 1,200 monthly."
+      ],
+      "timestamp": "00:08:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep again pre-sold an unbuilt cheaper one-to-one tier with no price and no date, and attached a follow-up commitment to it.",
+      "evidence": [
+        "like we are currently working also on a more doable one-on-one for people like you, of course, who are serious. We don't have that yet.",
+        "I think we will have that somewhere in the next few months. And then that's why I'm saying like we would stay in contact"
+      ],
+      "timestamp": "00:12:38"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep gave exercise-loading guidance about an actively symptomatic, undiagnosed nerve complaint, which a prospect could reasonably read as clinical advice from someone with no stated qualification.",
+      "evidence": [
+        "Like, is your shoulder strength quite high?",
+        "Not per se. For some movements, it might be. For some, it might be. So I would say if you can get a lighter one",
+        "then I'm 100% sure that would also be very beneficial, especially because you're a visual learner"
+      ],
+      "timestamp": "00:10:19"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts the speakers across the shoulder-injury disclosure itself, so the single most consequential passage in this file is misattributed in the raw transcript.",
+      "evidence": [
+        "00:10:41 - Ryan Mitchell: I would, I think so. So right now, I'm pretty sure it's a pinched nerve in my shoulder.",
+        "00:10:48 - Richard Claessen (Primal Instinct): So it's more like if I'm bending down and reaching forward, it's hurting."
+      ],
+      "timestamp": "00:10:41"
+    }
+  ]
+}

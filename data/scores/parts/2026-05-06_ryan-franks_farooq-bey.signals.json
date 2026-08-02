@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-05-06_ryan-franks_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Asked how the programming worked — 'so it's built off of like an incremental, like, hey, okay, do this and regain control of your body and build it back stronger' — and later 'what does starting the program look like...the routines get kind of custom tailored to your lifestyle or your physique and your goals.' Understood it and probed mechanics; also volunteered his own shoulder weakness as something the program would need to account for."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Rep tied it back to the prospect's own 'one week on, three weeks off' admission and explained the no-macro-tracking approach. Prospect responded 'Yes, it does' to the comprehension check and offered a side comment about Philadelphia food. No questions, no pushback."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered a positive reaction to the no-subscription framing — 'That's a beautiful business model. Yeah. I like it' — and immediately tied it to his own goal: 'something I'm trying to build something that is just non-negotiable...do it every day.' This was the pillar that landed hardest and it maps directly onto the gap he named."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "that could definitely be a one-year membership at a nice country club. Like, well, I mean, then I could walk a course every day and maybe get, you know, the same level of movement for that same price",
+      "direction": "undercuts_price",
+      "competitor": "Country club membership",
+      "note": "The prospect priced $6,000 against a full year of golf club access and judged the movement benefit comparable. Golf is his stated hobby goal, so this is not an idle comparison — it is a competing use of the same budget that also serves the same goal. The rep never contested it."
+    },
+    {
+      "type": "expected_price_point",
+      "raw": "I was looking at, like, maybe... Higher quality, maybe gym membership pricing, but $1,000 a month is pretty steep.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Anchored at premium-gym monthly pricing, roughly an order of magnitude below the offer. Set before the call by whatever the setter or the marketing implied; nothing in the call reset it before the number was said."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I'm going to continue, I guess, learning off YouTube and saving the videos on Instagram and try it my way",
+      "direction": "undercuts_price",
+      "competitor": "YouTube / Instagram (he named 'Maximilian' movement content)",
+      "note": "A zero-cost substitute he already uses and has already failed with for ten years by his own account. Strong anchor precisely because it feels free; the rep had the prospect's own admission that this exact behaviour is the failure pattern and never used it."
+    },
+    {
+      "type": "prior_coaching_price",
+      "raw": "I did do a kettlebell class...And then I looked at the price tag of what it would be every week, I was like, ooh, okay, I'll try to figure that out on my own.",
+      "direction": "undercuts_price",
+      "competitor": "Local kettlebell class",
+      "note": "Established a personal precedent of walking away from coaching on price. A per-week class rate is the reference frame he brought to a $6,000 lump sum."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Coaching at roughly premium-gym-membership pricing — he named around $1,000/month as already steep and had $1,500 in savings against ~$3-5k cash",
+      "why_unmet": "The lowest published tier is $6,000 for six months. The rep improvised a $4,000 / 3-month option at ~$400 per month, still roughly double what the prospect described as feasible, and there is no entry-level or lower-touch product beneath it.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Training that works around and does not aggravate a 20-year ankle injury with a suspected bone cyst, MRI pending and possible surgery in the near term",
+      "why_unmet": "The rep asserted the mobility programme would be 'alleviating any limitations' and made it a selling point, but nobody established whether loaded ballistic kettlebell work is safe or appropriate pre- or post-ankle surgery, and no clinician input was sought or referenced.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

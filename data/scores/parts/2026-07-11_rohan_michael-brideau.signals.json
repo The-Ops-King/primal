@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-11_rohan_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Fully delivered — one-to-one onboarding, custom programme, weekly updates with the reasoning explained, video form correction on every new movement, custom mobility protocol built around the ankle and desk posture. Asked twice for questions and got 'No, no questions so far' and 'No, none so far, pretty clear.' Flat acceptance rather than engagement, because the prospect arrived already convinced on the modality."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as principles not tracking — intermittent fasting to an eight-hour window, whole foods, baseline protein. The prospect pre-empted the pitch with his own requirement — 'I want to make this sustainable with my life too, right?' — and the rep took the opening. Asked for questions: 'Pretty straightforward. Yep.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Framed around his self-discipline rather than around nagging: 'it's not like you're going to need Trevor to call you up every single day.' Included Trevor's personal cell, weekly check-ins, outreach on missed workouts, weekly group calls and live Zoom workouts. Response was 'Yep. Okay.' and no questions. Worth noting he named boredom and lost motivation as his own failure mode and the accountability pillar was never connected to it."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "That is way higher than I expected.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The only anchor stated as a reaction to the number itself. It was never sized — the rep never asked what he had expected, so the gap between expectation and $6,000 is unknown."
+    },
+    {
+      "type": "employer_wellness_reimbursement",
+      "raw": "I think my company would cover maybe $800 to $1,000 in six months... At $6,000, the difference is way too wide.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He came into the call expecting the price to sit near what his employer reimburses, and said so unprompted. This is a live anchor across any prospect employed at a firm with a wellness benefit, and it also had a commercial answer nobody reached for."
+    },
+    {
+      "type": "premium_as_quality_signal",
+      "raw": "I would be surprised if you would have told me that he's going to take, what, $300 a month for the next six months. I'd be like, sure, sign me up right now. But then immediately, I would know that maybe this program is more of a cookie cutter program.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Explicitly rejects cheap as a signal of low quality, and says 'I'm not the kind of guy who likes to go and undercut people or ask for discounts.' He also volunteered the $1,000-a-month framing himself and called it fair. The price was never the problem on this call; the liquidity was."
+    },
+    {
+      "type": "competing_discretionary_spend",
+      "raw": "just the flight cost from Salt Lake City to Cincinnati, Ohio, it runs us somewhere around $800 to $1,000 per flight... that surplus I have is going towards maintaining my marriage.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The real competitor for the $6,000 is weekend flights to see his wife, and the rep articulated that trade-off out loud in the prospect's favour rather than reframing it. A four-to-six month horizon on the competing spend was disclosed and never used to structure a dated deal."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To commit now and start in four to six months, when his wife relocates and the second household closes down",
+      "why_unmet": "There is no deferred-start, price-hold or deposit option in the offer. The rep answered a timing problem with financing structures the prospect had already rejected, then defaulted to a monthly text check-in.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A structure that captures his employer's fitness reimbursement of $800-1,000 per six-month period",
+      "why_unmet": "Nothing in the offer or the script addresses employer reimbursement — no invoicing arrangement, no first-instalment sized to the benefit, no documentation the prospect could submit. He raised it himself and the rep did not engage with it at all.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Coaching that respects a documented orthopaedic limitation — retained ankle hardware and a lower back that flares on swings",
+      "why_unmet": "The programme almost certainly can adapt around this, but nothing was said about screening, regression or medical clearance. The rep went the other way and promised the limitation would be gone.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

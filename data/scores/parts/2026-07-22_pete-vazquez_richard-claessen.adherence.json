@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-22_pete-vazquez_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Second call in a sequence. The prospect arrived having already decided and opened with his answer, so there was no call to frame: 'Take me through your thoughts.' 'I think I'm comfortable going for the 1K for six months.'"
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline belongs to the Monday call, which is not in this batch. One caveat for the coach: new and material medical information arrived on this call - knees hurting badly and a tweaked back from the first workout, plus 'a lot of injuries that are lingering' - and none of it was explored."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals work belongs to the prior call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Belongs to the prior call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Belongs to the prior call; the decision was already made before this one started."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Belongs to the prior call. The rep did put a light version of the commitment ask - 'What do you say? Let's get started?' - which was answered with a question about the contract term rather than a yes, but the buying decision had already been delivered in the first minute."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "not_applicable", "P11c": "hit", "P11d": "partial" },
+      "evidence": "Payment collected live and confirmed - 'Pay now $500. Click on that. Processing pay.' 'Invoice paid.' Agreement email confirmed as arrived and signed on the call, with the rep staying on the line through it. The community step did not complete: the client was first sent the invite to the wrong Skool group ('I think it's actually the wrong one because that one is just for people we score'), then the correct link failed repeatedly on 'The email is already in use', and the call ended on 'Membership pending' with the rep asking him to text if he was not approved by nightfall. No onboarding questionnaire was mentioned. The Trevor onboarding call does not apply to this product."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Known script gap one, and the most consequential instance in the batch. The prospect opened by reporting that the programme's own recommended beginner workout had left his knees hurting badly and his back tweaked, that he had been hobbling the previous day, and that he carries multiple lingering injuries at 68. There is no scripted step for an injury sustained on the product, so the rep improvised coaching advice - push less hard, take more rest, do a mobility routine today and train again tomorrow - and then took payment. No question about whether anyone medically qualified had assessed him, and no pause on the sale."
+    }
+  ],
+  "notes": "As a payment-and-onboarding call the mechanics were mostly good - he stayed on the line through the whole flow, collected the money, got the agreement signed live and was patient through fifteen minutes of platform failures. Two things a coach must address. The onboarding step did not actually complete: the wrong community invite went out and the client left on 'membership pending'. Far more seriously, an injury report from a 68-year-old was handled as a training-intensity tip on the way to the payment link. That needs a hard stop rule, not a coaching note."
+}

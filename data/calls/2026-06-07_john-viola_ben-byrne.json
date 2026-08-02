@@ -1,0 +1,182 @@
+{
+  "call_id": "2026-06-07_john-viola_ben-byrne",
+  "source": {
+    "drive_file_id": "1120XZxFN6dYV83-n-okv_p36RhHTlaUC",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/07/2026 - John Viola x Ben Byrne ",
+    "display_title": "06/07/2026 - John Viola x Ben Byrne  — Follow Up",
+    "file_size_bytes": 96834
+  },
+  "call": {
+    "date": "2026-06-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 102,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter suffix in the title and no setter named on the call. The booking ran through an automated or semi-automated text flow the prospect could not identify: 'I don't know if AI is the one responding to me, or if it's actual people' and 'every 10 minutes or so, they're like, your call is coming up with Ben.'"
+  },
+  "prospect": {
+    "name": "John Viola",
+    "aka": null,
+    "name_source": "title",
+    "location": "Massachusetts, USA",
+    "age": 58,
+    "occupation": "Outside sales representative for a commercial linen and uniform rental company, flat commission with no base salary, driving a territory all day; actively job-hunting for a role with a base",
+    "family_status": "Married, lives with his wife in a condo with a mortgage; two cats; no children mentioned",
+    "height_in": 68,
+    "weight_lb": 219,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Martial arts since 1978 and still practises Qigong, Tai Chi, breathing, stretching and kicking, but no longer spars. US Marine Corps, meritoriously promoted. Was 180 lb and in shape most of his life; framed houses and worked a lumberyard. Did three rounds of P90X roughly 15 years ago, getting from ~250 to ~190 before re-tearing both shoulders doing pull-ups. Currently doing no strength training at all — 'Right now, I haven't been doing anything' — only walking after dinner and morning stretching. Owns three kettlebells bought about three years ago and has never used them.",
+    "medical": "Extensive and active. Congenitally malformed acromion bones in both shoulders (horseshoe rather than crescent shaped) which abraded the tendons from childhood. All three rotator cuff tendons torn off both shoulders; four surgeries in total, including open procedures where the deltoid was cut and the tendons drilled and reattached to bone. A recent MRI shows new tears plus 'muscle atrophy fatty'. Full range of motion and no pain, but pressing and pulling movements fail under load. Has been told he may need a shoulder replacement or a reverse shoulder replacement. Has not returned to the surgeon since the latest MRI — 'I haven't been back to see the surgeon because I kind of know what they're going to tell me.' Surgeons have advised him to stop martial arts and he rejects that advice. Separately: severe fatty liver with a small amount of scarring diagnosed last year, sleep apnoea, low testosterone, blood pressure problems, foot problems, and 14 months of IBS managed on Imodium. Currently self-administering retatrutide, a research peptide that is not FDA approved, sourced through a personal trainer rather than a physician, after declining the Wegovy his doctor prescribed. Down from 276 lb to 219 lb, which he says was 'too quickly' and cost him muscle. He is 45-50 lb above his own target of 170-175."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Two decades of ground lost to injury — 'for the last 10, 15 years, probably I've been very out of shape. I've had a desk job, stopped working out because a lot of my injuries'",
+      "Explicitly wants a former self back — 'I know my body should be around 175, I just want to get back to where I should be'",
+      "Visible regret and social withdrawal — 'you don't want to leave the house, because you're like, man, I haven't seen those people in 20 years, then they're going to see me and be like, that's John, you're the guy that was in shape all the time, like, what happened to you? Then you don't want to go anywhere, you know, you get depressed'",
+      "Secondary read is the_medically_constrained — high intent, blocked by an injury the programme may not be able to work around, and his own surgeons have already ruled out some of it. Rejected as primary only because he does have real price resistance, which that avatar excludes.",
+      "Not the_prehab_fighter: the fatty liver and cardiac risk are serious but he is not in active treatment for an acute event"
+    ]
+  },
+  "goals": [
+    { "text": "Lose another 40-50 lb of fat and get back to 170-175 lb", "category": "fat_loss" },
+    { "text": "Rebuild the muscle he believes he lost during rapid peptide-driven weight loss", "category": "muscle_gain" },
+    { "text": "Find movements he can actually do around irreparable shoulder damage — 'if there's some type of modification... maybe he might be able to help me with'", "category": "injury_confidence" },
+    { "text": "Train functionally rather than for size — 'I don't want to get big. I want to get smaller. I don't care about big muscle. I care about functional things'", "category": "longevity_function" },
+    { "text": "Avoid the heart attack he believes is coming — 'if you don't do something, you're going to have a heart attack and you're going to die'", "category": "longevity_function" },
+    { "text": "Reverse the health problems he attributes to being overweight — sleep apnoea, low testosterone, blood pressure, fatty liver", "category": "other" },
+    { "text": "Look better and not carry visible fat — 'I just would like to look better, and not have all this fat on me'", "category": "appearance" },
+    { "text": "Learn a genuinely different training method after years of trainers offering the same thing", "category": "other" },
+    { "text": "Come off the peptide once near goal weight and hold the result through habit rather than medication", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Irreparable bilateral rotator cuff damage that blocks pressing and pulling — 'if I tried to do a pull-up or if I tried to do a press, it just kind of gives out'", "category": "injury", "severity": "critical" },
+    { "text": "Years of searching for a trainer who could answer the shoulder question and finding none — 'I have spent years looking for a trainer. And everybody that I find, they don't have answers'", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Severe fatty liver with scarring and a cluster of obesity-linked conditions", "category": "medical", "severity": "critical" },
+    { "text": "Certainty that inaction ends in a cardiac event — 'you better get off your and start making a plan, or you're going to die'", "category": "medical", "severity": "critical" },
+    { "text": "Depression and social withdrawal from the weight gain — 'then you don't want to go anywhere, you know, you get depressed'", "category": "mental_health", "severity": "high" },
+    { "text": "Completely detrained — no strength work at all, sedentary job driving between accounts, 'I come home, I make dinner. My wife and I eat dinner, and we watch TV, and that's what I do'", "category": "training_barrier", "severity": "high" },
+    { "text": "Income volatility on flat commission with no base — went February and March with no sale", "category": "work_stress", "severity": "high" },
+    { "text": "Cannot afford $650/month against a mortgage and a car payment — 'It's more than a car payment'", "category": "other", "severity": "high" },
+    { "text": "Lost muscle from two months of severe under-eating on the peptide — 'I ate like 10 egg whites a day... with a can of sardines and blueberries for like two months'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Cannot resolve conflicting internet advice on calories and macros — 'there's 9,000 things on the internet that says, this is your calorie intake'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Had to give up sparring and accept age-related limits — 'you can't spar with 25-year-old kids anymore because you're 58'", "category": "aging", "severity": "medium" },
+    { "text": "Felt strung along and possibly bait-and-switched by the booking process — 'I was thinking, oh, man, they're going to, like, bait and switch me'", "category": "emotional", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "I don't know if AI is the one responding to me, or if it's actual people, but it would be good if they were to just say, Trevor doesn't do the initial zoom, you'll talk to Ben, but he'll be, you know, because I asked it like three or four times, and they're like, oh, let us get back to you to find out when Trevor's available.",
+      "timestamp": "00:03:46",
+      "rep_response": "Explained the division of labour — Trevor does delivery and coaching, enrolment goes through the sales team — and said he would pass the feedback on. Never answered whether the texts were automated.",
+      "response_tactic": "explain_role_split_and_defer_feedback",
+      "resolved": true
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "So, when I was waiting to talk to you, correct me if I'm wrong, is he only working with people 30 to 45, and if you're older than 45, he won't work with you? ... Because that's in like the introduction video that he has.",
+      "timestamp": "00:05:29",
+      "rep_response": "Flatly corrected it — 'No. No, we have clients in their 60s.'",
+      "response_tactic": "direct_correction",
+      "resolved": true
+    },
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "So I thought, I don't know if he can help me. ... anytime he does something that maybe I can't do, I thought, is there, what's it called? Is there, you know, an alternative or something that would still allow me to do his program and maybe go, you just can't do this movement here, so you could modify it and do something else.",
+      "timestamp": "00:08:45",
+      "rep_response": "Reassured without assessing. Said a lot of clients come in with shoulder and back injuries and 'a lot of them are able to rehab those, just through what we teach them', that Trevor is 'very much like a no excuses. We'll find a way around whatever the issue is', and that everything is 100% custom. Offered an unconditional refund if Trevor judged it a bad fit. Never asked whether a clinician had cleared loaded training and never suggested one should.",
+      "response_tactic": "reassure_and_promise_refund",
+      "resolved": true
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I'm going to do this or not with him or without him. If he says he wants to work with me, that'd be great. I'm going to do it. If he says no, I'm going to just mimic the videos and do every single thing I can. And until there's something I can't do. And I'll, I guarantee that if I do 90% of everything that he has by watching videos, videos. It's probably going to do what I want to do anyway, but I'd prefer it a lot with him.",
+      "timestamp": "00:43:01",
+      "rep_response": "Conceded the substitute — 'Yeah, it's definitely better than sitting on the couch' — then pivoted to customisation and success statistics rather than dismantling the claim that free videos deliver 90% of the result.",
+      "response_tactic": "concede_then_differentiate_on_customisation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "You know, 1,000 a month, that's a little tight for me. I'm in sales, but, you know, I do okay, but that's kind of a, it's a good chunk, is my point. Maybe he's used to dealing with people that make more money than me. I don't make six figures, you know, I make about 65, 70 right now.",
+      "timestamp": "00:104:57",
+      "rep_response": "Went straight to financing — walked him through the Payvo checkout link and the PayPal Pay Later link live on the call, established $650/month as the floor on the six-month tier, then offered a three-month tier at $4,000 to bring the monthly to $433.",
+      "response_tactic": "finance_and_shorten_term",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I think what I might do is I might put money aside for, you know, a couple of months and then have like half of it already saved up and then do the 650 and finance it like that. And that's probably what I would do.",
+      "timestamp": "01:16:48",
+      "rep_response": "Probed once ('logistically, you don't have the 650 to kind of invest right now?'), suggested a credit card, then conceded: 'Obviously, money's money. If you don't have that much to invest, it is what it is. I also don't think it's the best for you to go another few months without getting something going.' No OD play, no deposit, no scheduled follow-up.",
+      "response_tactic": "probe_then_concede_with_soft_urgency",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "If it was 18 months or, you know, a longer time, at a lower amount, like I could, I could do like $350. $350. Maybe four maybe, but when you start getting above four, then it gets a little steep for me based on, you know, my car payment, my mortgage.",
+      "timestamp": "01:18:41",
+      "rep_response": "Did not counter with a longer term. Offered the three-month programme at $4,000 which financed to $433/month, above the stated ceiling, and later downsold to Primal University at $199/month.",
+      "response_tactic": "shorten_term_then_downsell",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 1, "price_usd": 199 },
+      { "months": 12, "price_usd": 1999 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Payvo checkout link shared live in Zoom chat showing three-, six- and twelve-month programme options. Six-month programme financed over 12 months = $650/month (total ~$7,800). Three-month programme at $4,000 financed over 12 months via Payvo = $433/month (total ~$5,196); rep confirmed 'They do charge interest, yeah' only when asked directly. PayPal Pay Later link also shared, which the prospect read back as '$4,000 starting at $215 a month or as low as 0%'. Rep stated financing can stretch 'up to a year, you could split the payment. When it's up to two years' and that the third party pays Trevor in full up front minus their fee.",
+    "guarantee_mentioned": "Unconditional refund promised verbally with no stated terms: 'if you join and you talk to trevor on your onboarding call and he's actually with you like dude there's just there's just no way we would just we would just give you back your money obviously we're not gonna take your money'.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 350,
+      "has_savings": null,
+      "credit_score": "self-reported good — 'I have good credit. I can tell you that.' No figure given.",
+      "annual_income_usd": 67500,
+      "income_note": "Stated as 'about 65, 70' on flat commission with no base salary; went February and March with no sale. Mortgage on a condo plus a car payment. Comfortable at $350/month, 'maybe four', steep above that."
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment and no verbal agreement to proceed now: 'I just got to kind of wait and I don't want to, but I know it's a smart thing to do.'",
+      "Explicit intent, deferred on cashflow: 'I knew I wanted to do this before I even talked to you today. I've been wanting to do this for like two months' and 'it's just about the money for me. That's it.'",
+      "Concrete self-directed plan rather than a decision: save roughly $3,000 over a few months, then finance the remainder.",
+      "Counter-evidence for a stronger read: payment and financing links were sent and opened live, and the prospect volunteered 'You're going to hear from me again. You know, I could promise you that.' Under the close rule this still fails — a link was sent but there was no verbal agreement to move forward.",
+      "Counter-evidence for a weaker read: no follow-up call was booked, the prospect controls all next contact, and he stated he would do the programme from free videos regardless — 'I'm going to do this or not with him or without him.'",
+      "Rep's own summary of how these end: 'it's usually people like, Oh, I got to think about it... Oh, yeah. Just disappear off the face of the earth.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email the Primal University breakdown, the Payvo and PayPal financing links and his contact details. Prospect to save toward the cost over the next few months and re-initiate. No follow-up call scheduled."
+  },
+  "notable": {
+    "note": "The most serious clinical exposure in this batch by a wide margin. A 58-year-old with all three rotator cuff tendons torn off both shoulders, four prior surgeries, a fresh MRI showing new tears with fatty atrophy, a standing recommendation that he may need a shoulder replacement, surgeons who have told him to stop martial arts, and an admission that he is avoiding his surgeon because he knows what he will be told — was walked through a loaded ballistic kettlebell programme, told 'Trevor's very much like a no excuses. We'll find a way around whatever the issue is', and sent live payment links. Clinician clearance was never mentioned by anyone at any point in 102 minutes. He is also self-administering retatrutide, a non-FDA-approved research peptide obtained through a personal trainer, on top of a severe fatty liver with scarring. Separately, the booking flow told him three or four times it would get him Trevor's schedule while auto-texting that his call was with Ben; he asked outright whether he was talking to AI and never got an answer. He is also the clearest ICP miss in the batch — $65-70k on flat commission — and the rep still spent an hour financing him."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. Whole passages are inverted: the entire acromion explanation from 00:48:45 alternates labels mid-sentence with the prospect's anatomy lecture attributed to the rep; the block at 00:54:59-00:56:17 puts the rep's refund promise under the prospect's label; and the Primal University pitch at 01:42:54 is labelled to John Viola but is unmistakably the rep. Roles resolved from content throughout. Two further defects: the exchange from roughly 01:39:00 to 01:41:11 about kettlebell brands is duplicated verbatim with the speaker labels swapped between the two copies, and the connection failed continuously all call — 'you keep freezing', 'it's every 20 seconds for like three seconds' — so material was almost certainly lost. One timestamp in the source is malformed ('00:104:57'). Weight, height and age are all self-reported and volunteered rather than asked."
+  }
+}

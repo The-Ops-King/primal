@@ -1,0 +1,143 @@
+{
+  "call_id": "2026-07-13_justin-rascoe_michael-brideau",
+  "source": {
+    "drive_file_id": "1mhFg2HyMEeTt1MmxuO6PSotzwyVMYdmX",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/13/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/13/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 44465
+  },
+  "call": {
+    "date": "2026-07-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 37,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Justin Rascoe",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Newburgh, Hudson Valley, New York, USA",
+    "age": 30,
+    "occupation": "Case manager working with a caseload of homeless clients to get them housed; psychology degree; drives a lot for work",
+    "family_status": "Ended an 18-month cohabiting relationship on 4 July, roughly ten days before the call, and is still living with his ex-partner while looking for a new place; currently shares a kitchen with housemates",
+    "height_in": 70,
+    "weight_lb": 182,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains roughly three times a week on a push-pull-legs style split with supersets to failure — incline press, shoulder press, dips, pull-ups, Bulgarian split squats, stiff-leg deadlifts, pendulum squats, leg press. Occasionally does hybrid circuits with tyres, ropes and plate pushes. Plays flag football. Was in his best shape in 2024 boxing and lifting four times a week on a paid eight-week programme. Discovered Trevor on TikTok one or two weeks before the call.",
+    "kettlebell_experience": "none",
+    "medical": "Reports being generally healthy. Some wear and tear in the knees from flag football and occasional knee stiffness after running. No diagnosis, no treatment and no clinical care disclosed."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.75,
+    "signals": [
+      "Lost a specific former condition and wants it back: 'I was in really good shape in 2024. I was boxing and also lifting'",
+      "Points to a hard season as the turning point — 'I was in bad shape around the time of the pandemic' — and is currently ten days out of a breakup",
+      "Carries mild but real regret: 'I just wasn't ever in the shape that I set my standard to'",
+      "Counter-signal: at 30, 182 lb and 5'10\" and training three times a week, the ground lost is modest, so this sits at the light end of the rebuilder profile and borders on the optimizer — it fails optimizer only because price was an absolute barrier"
+    ]
+  },
+  "goals": [
+    { "text": "Get to about 165 lb, very lean, with visible abs", "category": "fat_loss" },
+    { "text": "Be in the best shape of his life", "category": "appearance" },
+    { "text": "Build a lean physique rather than bodybuilder size", "category": "appearance" },
+    { "text": "Increase stamina and general conditioning", "category": "endurance" },
+    { "text": "Train functionally and be in far better shape for flag football next summer", "category": "hobby_performance" },
+    { "text": "Get results in short workouts rather than long gym sessions", "category": "convenience" },
+    { "text": "Improve posture", "category": "mobility" },
+    { "text": "Confidence and health", "category": "confidence" },
+    { "text": "Have a structured programme he can measure progress against", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Plateaus without external structure — 'I plateau without it'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Cannot programme for himself — 'I can't build an eight-week program of workouts for myself. I'll just keep doing the same things'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Lack of visible change lowers motivation, which then breaks consistency", "category": "motivation", "severity": "high" },
+    { "text": "Fell off a paid programme that was working, at six weeks of eight", "category": "consistency", "severity": "high" },
+    { "text": "Diet is unstructured, worse at weekends, and he shares a kitchen with housemates", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Cooking everything from scratch is high effort and several nights a week he eats whatever is going", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Breakup ten days before the call, still living with his ex, looking for somewhere to move — 'I ate terrible last week'", "category": "emotional", "severity": "high" },
+    { "text": "Financially stretched — moving costs plus existing bills he describes as already unaffordable", "category": "other", "severity": "high" },
+    { "text": "Knee stiffness after running and general wear and tear from football", "category": "injury", "severity": "low" },
+    { "text": "Feels conventional lifting is not getting him there and that long gym sessions are wasted time", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "$6,000? Oh, wow. I had no idea it was that much. I paid for Anatoly's program and it was like a couple hundred.",
+      "timestamp": "00:32:42",
+      "rep_response": "Differentiated a video course from one-to-one coaching, then went back and worked the failure of that programme — 'you fell off after six weeks, so you didn't even finish the eight weeks. What happened there?' — and landed 'Sounds like it might have been missing the accountability part'",
+      "response_tactic": "differentiate_course_from_coaching_then_root_cause",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "That's not, I mean, it's definitely not something I could afford, even like on monthly, because that's like $1,000 a month. Yeah, I'll have to probably look elsewhere.",
+      "timestamp": "00:34:04",
+      "rep_response": "Isolated the objection three separate times to confirm the value was accepted, checked the situation directly, then offered to explore instalments or financing",
+      "response_tactic": "repeated_isolation_then_explore_structure",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I have to come back to it. I just got too much going on right now with moving, and I got a lot of bills I can't even afford to think about adding another bill, you know, so I'll have to revisit it maybe one day.",
+      "timestamp": "00:37:02",
+      "rep_response": "Accepted it and closed the call without pressure: 'Cool, man. Well, that sounds good... feel free to hit us up if anything changes'",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered only in principle and never quoted: 'in some cases, like we do break it up, there's a couple different options, even with things like financing.' The prospect declined to explore before any figure was named.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial-picture questions were asked. Self-reported: cannot afford $6,000 or $1,000 a month, describes the price as 'way out of my league', is mid-move after a breakup and says he has bills he cannot afford to add to."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit and repeated no on affordability: 'it's definitely not something I could afford, even like on monthly' and 'I don't have that much to spend on this'",
+      "Stated he would look elsewhere and then self-serve: 'I'll probably just explore it on my own, like, try to find out a way to build out kettlebell workouts'",
+      "Declined the offer to explore instalments or financing before any figure was quoted: 'I have to come back to it. I just got too much going on right now with moving'",
+      "Rep accepted it and closed the call without further pressure",
+      "Counter-evidence: value was confirmed three times — 'finances aside... 100%' and 'Giving me a structured workout and holding me accountable to it. I think those are the two main things' — so this is a pure affordability loss, not a belief loss",
+      "No follow-up date, no deposit, no next step other than an open invitation to make contact"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None set. Prospect to revisit 'maybe one day' after moving; rep left an open door."
+  },
+  "notable": {
+    "note": "The cleanest disqualification in the batch and worth reading directly against the Damein Wells call from the previous day. Here the same rep offered instalments once, heard a clear no, and ended the call respectfully. On 12 July, facing a prospect with a materially worse financial picture, he built a bespoke $7,200 six-payment plan and added an off-policy assurance that it could be paused indefinitely. The difference is not the prospects' finances — it is that Justin refused before the plan was quoted. The other thing this call exposes is sequencing: a 30-year-old public-sector case manager was taken through 32 minutes of full discovery and presentation before anyone found out he had previously paid a couple of hundred dollars for a programme and had no budget."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts constantly at turn boundaries and inside blocks. 'Where are from?' at 00:00:13 and 'What are you doing for work right now?' at 00:09:19 both sit under the wrong label; the entire stretch from 00:29:00 to 00:30:00 has the rep's next-steps script under the prospect's label; 'How did that go for you?' at 00:33:15 is attributed to the rep while the answer that follows is too. The rep's connection also dropped mid-presentation — 'My intranet's been super funny, dude. Just been cut right now. So what did you hear last?' — and he was interrupted by two incoming phone calls, so some content is missing. Role read from content throughout."
+  }
+}

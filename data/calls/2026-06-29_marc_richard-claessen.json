@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-06-29_marc_richard-claessen",
+  "source": {
+    "drive_file_id": "1XZqVutTFZLpowM-7PFviWTfYsaiGr8fA",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/29/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/29/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 49578
+  },
+  "call": {
+    "date": "2026-06-29",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 56,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Marc",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "South of France (on holiday); resident in Hong Kong for four years, originally French",
+    "age": 32,
+    "occupation": "Head chef at Michelin-level restaurant in Hong Kong; manages ~25 people; moving toward an entrepreneurial/ownership role",
+    "family_status": "No partner mentioned; states he wants to start a family in the future",
+    "height_in": 66,
+    "weight_lb": 150,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Kettlebells on and off for six to seven years, largely self-directed. Followed an app-based program from a coach called Maverick about two years ago until the app shut down. Peaked at 78-79 kg last year, then stopped training entirely for a period and started smoking. Resumed roughly 15 days of consistent 30-35 minute sessions immediately before this call.",
+    "kettlebell_experience": "some",
+    "medical": "No injuries, pain, restrictions or conditions disclosed; rep screened and prospect reported none. Prospect referenced taking unspecified medication mid-call ('I'm just taking my pills') and disclosed having started smoking during a recent inactive period; neither was explored."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.6,
+    "signals": [
+      "Explicitly frames the call as reclaiming lost ground: 'I had a big period in my life where I stopped working out and I start smoking and whatever that's bad for health. And yeah, now I'm back. I want to put this after me.'",
+      "Was fitter a year ago (78-79 kg) than now (68 kg) and wants that condition back",
+      "Substantial overlap with the_optimizer: career is successful and ascending, and he frames training as a leadership and confidence investment rather than a rescue — the rebuilder read rests on the explicit lost-season language"
+    ]
+  },
+  "goals": [
+    { "text": "Train with consistency rather than starting and stopping", "category": "consistency" },
+    { "text": "Gain strength and power, particularly for a physically demanding kitchen job", "category": "strength" },
+    { "text": "Put weight back on — from 68 kg toward his previous 75-79 kg — without bodybuilder bulk", "category": "muscle_gain" },
+    { "text": "Improve overall mobility and correct posture degraded by hunching over a kitchen bench", "category": "mobility" },
+    { "text": "Improve cardio and stamina for long shifts on his feet", "category": "endurance" },
+    { "text": "Stay in shape long term as he ages, for health in the general sense", "category": "longevity_function" },
+    { "text": "Have more energy and feel less tired through 8am-to-midnight shifts", "category": "energy_performance" },
+    { "text": "Build confidence and presence to lead his team and step up as an entrepreneur", "category": "confidence" },
+    { "text": "Get in shape ahead of starting a family and be a role model he can pass it on to", "category": "family_role_model" },
+    { "text": "Learn correct kettlebell technique so he does not injure himself, particularly his back on swings", "category": "injury_prevention" },
+    { "text": "Learn to build his own programming so he can sustain it without a coach in future", "category": "sustainability" },
+    { "text": "Look better overall — 'a nice body for all the reasons that people want a nice body', explicitly secondary", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Six to seven years of starting and stopping with kettlebells; never sustained consistency", "category": "consistency", "severity": "high" },
+    { "text": "Works 8am to midnight roughly six days a week, which has repeatedly crowded out training", "category": "time_scarcity", "severity": "high" },
+    { "text": "Barely eats during the day beyond tasting two to five dishes, then eats a kebab on the way home", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Trained alone and believes his technique and posture are wrong; fears a bad swing could injure his back", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Previous coaching solution disappeared when the coach shut down his app, ending the structure", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Feels he is reaching an age where inconsistency starts to cost him", "category": "aging", "severity": "medium" },
+    { "text": "Posture has degraded from leaning over a kitchen bench — 'I'm a bit on the front, and a bit like this'", "category": "other", "severity": "medium" },
+    { "text": "Lost a period of his life to stopping exercise entirely and taking up smoking; wants to put it behind him", "category": "other", "severity": "medium" },
+    { "text": "Wants genuine one-to-one follow-up rather than a program to follow alone", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "No, but, like, to be totally honest with you, I was expecting, like, kind of a monthly rating, right?",
+      "timestamp": "00:44:08",
+      "rep_response": "Did not isolate the objection. Repeatedly probed what was available today ('What will be possible for you today, just so I have an idea?', 'So is it like just nothing available at the moment?'), floated 'we can do half-half', then improvised a $100-$200 holding deposit to reserve a calendar slot, framed as reversible, with the balance deferred to 10 July after the prospect's 7 July payday.",
+      "response_tactic": "deposit_to_hold_slot",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "No structured plan agreed. Rep said 'Yeah, we can do half-half' without terms, then substituted a $100-$200 deposit taken on the call to hold a calendar slot, described as reversible, with the remaining balance to be 'squared away' on 10 July. No schedule, instalment count or dates were set for the outstanding $5,800.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 200,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect gave a clear commitment to the programme before price: 'I'm definitely ready to commit to it.'",
+      "A payment link was sent and the prospect transacted on it, but only for the $200 holding deposit, not the $6,000 offer.",
+      "The price itself was left explicitly open by the prospect after presentation: 'to be honest, I didn't plan any amount or anything about this, like, so that also was going to be something we need to discuss.'",
+      "The rep framed the deposit as reversible rather than as a purchase: 'if you feel like it's just not doable at that time, we can just revert it back.'",
+      "Counter-evidence for a closed reading: prospect accepted a calendar invite, gave his WhatsApp, was sent an onboarding document, and verbally agreed to an onboarding slot with Trevor. A follow-up call with the rep was booked for 10 July to finalise.",
+      "The close rule was not applied because the verbal agreement preceded the price and the prospect afterwards said the amount still needed discussing, so there was no verbal agreement at the offered price."
+    ],
+    "cash_collected_usd": 200,
+    "cash_collection_basis": "holding_deposit_only",
+    "next_step": "Reconvene with the rep on 10 July at 4pm Hong Kong time to settle the balance and finalise; onboarding with Trevor discussed for Wednesday 8 July at 07:15 but not confirmed as booked."
+  },
+  "notable": {
+    "note": "Consequence Frame was skipped entirely and Past Attempts was almost entirely prospect-led, yet the rep still moved to price. When the prospect could not pay, the rep improvised a $100-$200 reversible holding deposit rather than running the scripted money play or structuring a real instalment plan. The price was stated once and immediately garbled into an incorrect currency conversion, and the prospect later indicated the amount was still open for discussion."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and frequent speaker inversion throughout. Numerous clearly-rep lines are attributed to Marc and vice versa — e.g. 'I'm in holidays' and 'For, for many reasons, because I start and I stop' are labelled Richard Claessen, and 'How does that sound?' is labelled Marc. Roles were resolved from content. One factual exchange is garbled: after establishing age 32 the rep appears to ask height but the transcript renders it as 'how old are you?', answered '168'; recorded as 168 cm (66 in) with that caveat. The rep's euro conversion of the price is transcribed as '$6,000, which I think is like $2,000, $5,000. 0.1k euros' and is not recoverable."
+  }
+}

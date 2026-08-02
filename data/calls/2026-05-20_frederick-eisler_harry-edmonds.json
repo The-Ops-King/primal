@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-05-20_frederick-eisler_harry-edmonds",
+  "source": {
+    "drive_file_id": "1ubTs-wpFPabNGWlRFZR3Syz_AWca5jRn",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/20/2026 - Mitchel Po x Harry Edmonds ",
+    "display_title": "05/20/2026 - Mitchel Po x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 53580
+  },
+  "call": {
+    "date": "2026-05-20",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 55,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "I know you spoke with Kim. Right."
+  },
+  "prospect": {
+    "name": "Frederick Eisler",
+    "aka": "Fred",
+    "name_source": "transcript",
+    "location": "Northeastern North Carolina, USA",
+    "age": 66,
+    "occupation": "Retired — US Navy, then US Customs and Border Protection; former certified executive chef and cruise-ship food and beverage manager",
+    "family_status": "Never married; lives alone",
+    "height_in": null,
+    "weight_lb": 247,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Former bodybuilder — competed-level condition at 280 lb in his 20s-40s; Taekwondo and Aikido; semi-pro hockey and motocross; taught at the Federal Law Enforcement Training Center; eight months of CrossFit ending in a plateau at 255 lb; P90X in 2012-2014; currently power-walking and light dumbbell work at home",
+    "kettlebell_experience": "some",
+    "medical": "Two lumbar surgeries — decompression and discectomy at L3-L4, L4-L5, L5-S1 in 2016, repeated in January 2021 with a fusion at L5-S1. Chronic bilateral shoulder problems from hockey and motocross, managed with twice-daily oral diclofenac sodium (NSAID); says his shoulders start aching if he stops for two weeks and he does not know the long-term organ effects. Turning 67 in a week. His physician has told him he is obese. He reports 'my doc told me I can do anything I want' following the fusion."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.92,
+    "signals": [
+      "Former bodybuilder explicitly chasing a former self: 'I want my six pack back or eight pack and I want my shoulders back, I want my chest back and I want my lats back'",
+      "Visible regret tied to a specific humiliation — could not fasten his Navy dress blues at a friend's funeral and had to buy size 40 trousers",
+      "Lost ground to back surgery, COVID-era weight gain and a CrossFit plateau rather than to a lack of knowledge or effort"
+    ]
+  },
+  "goals": [
+    { "text": "Get from ~247 lb down to 225 lb, the weight he fought at", "category": "fat_loss" },
+    { "text": "Get his six-pack, shoulders, chest, lats and leg definition back", "category": "appearance" },
+    { "text": "Restart his metabolism and get the burn going after a plateau at 255 lb", "category": "fat_loss" },
+    { "text": "Get cardio alongside strength work, which sets and reps alone were not giving him", "category": "endurance" },
+    { "text": "Keep moving and not end up 'sitting on the sofa like a lot of people do'", "category": "longevity_function" },
+    { "text": "Stop having to buy larger trousers and stop disliking what he sees in the mirror", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Gained weight steadily for ~3 years with no explanation, from a lifelong 36 waist to a size 40", "category": "aging", "severity": "high" },
+    { "text": "Could not fasten his Navy dress blues at a mentor's funeral and had to buy new trousers", "category": "emotional", "severity": "high" },
+    { "text": "Physician told him he is obese, which he took as an insult before accepting it", "category": "medical", "severity": "high" },
+    { "text": "Plateaued at 255 lb after eight months of CrossFit with clean eating and daily walking, then stopped", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Feels dragged down training alongside 20- and 30-year-olds in the gym and does not feel good in there", "category": "confidence", "severity": "medium" },
+    { "text": "Two rounds of lumbar spine surgery with a fusion at L5-S1; shoulder pain that only stays down on daily NSAIDs", "category": "injury", "severity": "high" },
+    { "text": "Losing weight without gaining muscle mass", "category": "program_fit", "severity": "medium" },
+    { "text": "Tried intermittent fasting and other approaches and 'nothing's working'", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "How does the financing work and where does it go? You know I'm going to have that question, being a retired Fed and there's a lot of scammers out there.",
+      "timestamp": "00:33:08",
+      "rep_response": "Had the coaching agreement emailed from Trevor mid-call, confirmed it arrived, told him to read it before paying and to research the company as much as he liked",
+      "response_tactic": "send_agreement_and_invite_diligence",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm going to have to figure out because I've got several different credit cards I could use, but whether I just want to throw six grand on one of those cards at one shot, I don't know, I might want to take some cash out of, I don't know, one of my retirement funds and do something that way.",
+      "timestamp": "00:33:08",
+      "rep_response": "Offered to split it 3K down / 3K after onboarding, then later reduced the entry point to a $1,200 down payment with the balance settled at an unspecified later date. Never isolated the objection and never took a financial picture.",
+      "response_tactic": "improvised_down_payment_reduction",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Hopefully by the end of the week, I can reach out to, uh, My financial company that takes care of my investments and so forth, and get a recommendation about what my best way forward would be for this, and then get back to you maybe first of the week.",
+      "timestamp": "00:41:45",
+      "rep_response": "Accepted it and reframed it as logistics — 'Sounds like you're all in, it's just figuring out the logistics of it' — then asked one hesitation question and let the call drift into ~12 minutes of unrelated personal stories",
+      "response_tactic": "reframe_as_logistics_then_concede",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "First offered as $3,000 down with the remaining $3,000 once onboarded. Later reduced live to '1200 would be the lowest as a down payment', with the balance 'we can take care of the rest' after the Trevor call and a couple of weeks of training. No instalment schedule, due dates or total-due confirmation was stated.",
+    "guarantee_mentioned": "So the guarantee is that from day one until the end of six months, you will be using a 20-pound heavier kettlebell for every movement, which you all know with kettlebells is quite a lot.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.82,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent — only a coaching agreement document was emailed from Trevor",
+      "Prospect said 'Sounds good. Alrighty. Sounds like a plan. Let's do that.' in response to the reduced down-payment route, which reads as agreement in principle",
+      "Counter-evidence: he closed the call still deferring — 'I'm going to do my research and then I'm going to find out the best thing for me to do' and 'get back to you maybe first of the week'",
+      "Counter-evidence: the rep explicitly left it open — 'go do what you need to do... let me know once you've spoke to the financial guy'",
+      "No onboarding call was scheduled and the agreement was not signed on the call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to consult his financial advisor about whether to use a credit card or draw from a retirement fund, do due-diligence research on the company, and contact the rep early the following week; rep gave him a personal mobile number"
+  },
+  "notable": {
+    "note": "Title/content mismatch — the file is titled 'Mitchel Po x Harry Edmonds' but the call is with Frederick Eisler throughout. The rep also noted his own notes had the wrong state ('don't know why it says California on my notes'), so setter data on this prospect appears unreliable. Substantively: a 66-year-old with two multi-level lumbar surgeries and an L5-S1 fusion, on daily NSAIDs for shoulder pain, was recommended 25-35 lb kettlebell swings and sold a guarantee of +20 lb load on every movement in six months; the rep repeated the surgical levels back to confirm he had heard them and asked no clearance question. The entry price was improvised down to $1,200 with no stated schedule for the remaining $4,800. Roughly the last twelve minutes are off-topic personal anecdotes, including an exchange disparaging women's appearance."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavily inverted throughout. The rep's opening question at 00:00:31 and the entire offer/price exchange around 00:31:35-00:33:01 are attributed to the prospect's block; the acceptance line 'Sounds like a plan. Let's do that.' at 00:44:44 sits inside a block labelled with the rep. Role assigned from content everywhere. This unreliability is part of why the disposition confidence is 0.82."
+  }
+}

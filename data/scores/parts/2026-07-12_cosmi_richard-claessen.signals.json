@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-12_cosmi_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "The rep tied the pillar to the prospect's running — 'that also means that you're going to be having your blood pumping more, which will directly also help you with your running' — and closed with 'when it comes to the training and the mobility do you feel like yeah this is what I'm looking for'. The prospect agreed without questions or elaboration. He had already accepted the mechanism before the call: 'I saw something on Facebook regarding kettlebells. This is something I think I can work with, because it's not the classic heavy lifting.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Accepted with a self-aware caveat rather than a challenge: asked whether he could stick to it, he answered 'yeah it will be a little bit difficult with the sweets the sugary treats but I think it's manageable'. He had already diagnosed the sweets himself as the reason the weight will not move, so the pillar landed on ground he had prepared."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "When asked which element would have the most impact, he volunteered accountability mechanics unprompted and tied them to his own behaviour: 'I think that the nutrition supervision will be very effective. And also, if I film myself and send the videos, that will ensure that I do that.' This matched what he had asked for earlier — 'I need someone to guide me for as long as I can turn this into a habit' — and it is the one part of the offer he actively wanted."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "if you try a system that's 100 bucks a month or something like that, and it doesn't work, it's fine. It's not a problem. It's 100, whatever.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A generic ~$100/month online fitness subscription as the reference class for what this category costs. He does not claim it works — he claims the downside is survivable. The anchor is doing regret-cost work rather than value work, which is why a discount does not neutralise it: cutting the entry price to $1,200 still leaves a number twelve times his tolerable loss."
+    },
+    {
+      "type": "other",
+      "raw": "It's not like I'm buying an iPhone or something, because when you buy an iPhone, you know what you get.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A certainty anchor rather than a price anchor. He is comparing the offer to a purchase with a known, inspectable outcome. This is the through-line of the whole objection sequence and the reason a guarantee or a documented case study would have mattered more than a price cut. The rep engaged the analogy on its own terms ('a phone isn't an investment') rather than supplying the missing evidence."
+    },
+    {
+      "type": "other",
+      "raw": "Maybe I can ensure my son's studies at the university, for example.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A competing claim on the same capital, and a morally weighted one. Not an affordability constraint — he had already said money was not the problem — but an opportunity-cost anchor that grew stronger the longer the call ran. It appeared at 00:43:41, after roughly ten minutes of pressure to decide, which suggests the extended push generated it."
+    },
+    {
+      "type": "other",
+      "raw": "And I saw Trevor, right? Yeah. He looks amazing.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Pre-existing warm regard for the coach, arrived from Facebook, plus his 18-year-old son's standing advice that lifting matters. Both are supportive anchors present before the price was named, and neither was converted into proof when the certainty objection landed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Evidence that the programme works before paying — he asked for the equivalent of a known outcome: 'to invest $6,000 in something that you're not quite sure that is going to work, it's a little bit risky.'",
+      "why_unmet": "The rep referenced client videos rhetorically — 'Have you already seen the videos of the people that Trevor has helped?' — but sent nothing, showed nothing and named no comparable client. The proof offered was follower count and an argument from absence of public complaint, which is not evidence of outcome.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Some form of risk reversal — a guarantee, a refund window, or any downside protection on $6,000.",
+      "why_unmet": "The rep stated plainly that none exists: 'there is no guarantee in the sense like it's 100,000% going to work because it comes down to how much effort you put in.' The offer carries no risk reversal at all, which is a structural gap against a buyer whose sole objection is uncertainty.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A small, low-commitment way to test the programme before committing to six months.",
+      "why_unmet": "No sanctioned trial or entry tier exists, which is why the rep had to invent one live at $1,200 for one month while acknowledging it departs from standard practice ('Usually it's always up front'). The demand is real and recurring; the response was improvised rather than productised.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Coaching credibility specifically for a 49-year-old endurance runner adding strength — he asked for 'a program that a professional would recommend' amid contradictory online advice.",
+      "why_unmet": "The programme very likely serves this, and the rep did connect kettlebell work to running performance, but no runner-specific proof, protocol or client example was offered against a buyer who explicitly said he cannot distinguish credible sources from noise.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

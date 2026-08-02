@@ -1,0 +1,164 @@
+{
+  "call_id": "2026-07-28_smanian_andrew-musial",
+  "source": {
+    "drive_file_id": "1AvGi1HRmVL1saO1zlco0r0axHHUenxtm",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 51218
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 55,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "smanian",
+    "aka": "Zoom display handle only — his actual name is never spoken by either party on the call. 'smanian' is most likely an abbreviated surname (e.g. S. Manian / Subramanian) but this is inference, not evidence.",
+    "name_source": "transcript",
+    "location": null,
+    "age": null,
+    "occupation": "Software engineer — codes and builds products, and also does financial work and trading",
+    "family_status": "Married with children; a 13-year-old son who is keen on basketball and getting in shape. The children attend a fee-paying school which he says takes up most of the household budget.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long self-directed history. Ran Pavel's Simple and Sinister for years in bursts, progressed to the 32 kg bell doing swings, one-arm swings and get-ups. Before kettlebells did P90X, dumbbells and plyometrics. Has a squat rack at home bought for his son and has recently added pull-ups and squats. Has done slow-carb dieting with good results. Never hired a coach of any kind in his life.",
+    "kettlebell_experience": "experienced",
+    "medical": "No conditions disclosed and none asked about. He did volunteer a shoulder problem that interrupted training — 'I hurt like my shoulder wasn't feeling like it. So I stopped like two weeks' — and referred to 'the aches and pains that I have sometimes'. The rep did not follow up on either, and no injury, health-condition or movement-limitation question was asked at any point on the call. Vegetarian (will eat fish)."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Self-directed and demonstrably capable — 'I've always done everything kind of on my own. I've never really hired a coach or anything, ever'",
+      "Anchored to a cheap alternative that genuinely worked: Simple and Sinister taken to the 32 kg bell, which he describes as 'good bang for buck'",
+      "Interrogated the value rather than the goal — 'that's still quite a bit... because it's all virtual, right? That's the difference, versus in person'",
+      "Probed the credibility of the substitute coach immediately on being offered the cheaper tier — 'Does his head coach have a channel or a YouTube channel or anything like that?'",
+      "Engineer by trade and self-describes the mindset: 'as an engineer, you're kind of trained to find faults... oh, what's not right?'",
+      "QUALIFIER on the 0.7 confidence: he is not hunting a bargain in the usual sense — he did not ask for a discount and volunteered 'I have that amount'. His stated blocker is a self-spend threshold he has never crossed rather than price-shopping. The structural profile (capable, solo, anchored to a working cheap substitute) matches this avatar better than any other, but the motivation differs from the archetype."
+    ]
+  },
+  "goals": [
+    { "text": "Lose fat and gain muscle — 'I definitely have a little, I have a belly'", "category": "fat_loss" },
+    { "text": "Be strong and free of the aches and pains he gets sometimes", "category": "strength" },
+    { "text": "Have more energy and feel strong", "category": "energy_performance" },
+    { "text": "Play basketball and stay active with his kids", "category": "family_role_model" },
+    { "text": "Be a good example to his 13-year-old son and exhibit good habits rather than reinforcing bad ones", "category": "family_role_model" },
+    { "text": "Finally break the on-off cycle and be consistent over years, not months", "category": "consistency" },
+    { "text": "Escape the all-or-nothing perfectionist mindset and be able to do something rather than nothing", "category": "sustainability" },
+    { "text": "Keep performing at long-distance hiking, which he describes as his thing", "category": "hobby_performance" },
+    { "text": "Get external feedback on his technique — 'I'm looking for someone who can basically know what I'm doing'", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Lifelong cycle of intense bursts followed by total collapse — 'Most of my life... I'll go in spurts, and then I'll kind of stop, and I'll revert'", "category": "consistency", "severity": "high" },
+    { "text": "All-or-nothing perfectionism: missing a single day destroys momentum — 'if I miss a day, I get really down on myself... then I find it super hard to convince myself to get started again'", "category": "mental_health", "severity": "high" },
+    { "text": "Boredom with his self-directed programme once it stopped progressing", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Never asked for help with anything and now recognises it as a cause — 'I always try to do everything on my own, and I think that's probably one of my problems'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Compulsive snacking while doing knowledge work — chips, cookies, nuts", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Carbohydrate-heavy diet with poor protein ratio, complicated by being vegetarian", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Cannot eat clean around family and friends without feeling like the party pooper", "category": "relationship", "severity": "medium" },
+    { "text": "Any disruption — illness, travel, holiday — resets him to zero and he does not restart", "category": "training_barrier", "severity": "high" },
+    { "text": "Household finances described as shaky, with private school fees consuming most of the budget", "category": "other", "severity": "medium" },
+    { "text": "Has never spent money on himself in this area and finds the threshold itself a barrier", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I was expecting it, I guess, around that maybe, but that's still quite a bit. I got to think about that, to be honest, because it's all virtual, right? That's the difference, you know, versus, you know, in person, right?",
+      "timestamp": "00:42:50",
+      "rep_response": "Reframed virtual as superior on value rather than addressing the comparison: 'Let's say it's even better because you cannot hire a coach for every single day. That would be probably astronomical.' No evidence offered, and the prospect immediately noted he had no reference point at all — 'I never hired a coach. I don't even know what the price is.'",
+      "response_tactic": "reframe_virtual_as_better_value",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "It's going from not spending anything in this area to spending $6,000. Our situation, to be honest, is a little shaky in some ways. So that's why that's going to be tough.",
+      "timestamp": "00:47:01",
+      "rep_response": "Correctly isolated first ('Is it really finances or is there something else like you're not sure of?'), stated he did not want to cause financial distress, then offered a custom instalment structure, then third-party interest-bearing financing, and finally — without any further probing of the financial picture — invented and offered a half-price $3,000 tier coached by Trevor's head coach instead of Trevor.",
+      "response_tactic": "isolate_then_discount_via_invented_tier",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "proposed_label": "self_spend_threshold",
+      "raw_quote": "I have that amount, but I don't, I don't think I'm, I don't think I've never spent that much ever on a coach ever. So I think that's the hurdle for me",
+      "timestamp": "00:46:32",
+      "rep_response": "Named it accurately — 'so it's like a mindset kind of blockade that, oh, I'm gonna be spending 6k on myself' — and the prospect confirmed it. The rep then abandoned the mindset thread entirely and moved to restructuring and discounting, solving a money problem the prospect had just said was not the money.",
+      "response_tactic": "named_then_abandoned",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I need to see, like, I guess I need to see it kind of, like, see what the structure, see what the program is.",
+      "timestamp": "00:44:01",
+      "rep_response": "Ran the scripted OE close reasonably well: 'How are you going to see it if you won't try it? Because that's the thing, like, you can read the testimonials, you know, watch the videos, like, you can do all of that for days and days. But you won't actually know until you try it, especially with fitness, because it's your body.' The prospect did not push back further on this specific point.",
+      "response_tactic": "how_will_you_know_if_you_never_try",
+      "resolved": true
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Let me, I need to talk to my wife and everything and my, you know, let me figure that out. But if you're saying it's half price, six months, I think that's, that seems more reasonable, but let me, let me, let me talk it over.",
+      "timestamp": "00:52:12",
+      "rep_response": "Ran a partial OB. Role-played the wife's likely objection unprompted, then delivered the scripted 'is there any reason she would NOT want you to live a healthier life?' move. Did not run the two decisive moves — whether this genuinely needs her input or is asking permission to bet on himself, and whose responsibility the decision is — and did not offer the scripted deposit-with-full-refund fallback despite having a custom payment structure already on the table.",
+      "response_tactic": "spouse_roleplay_plus_partial_ob",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 3000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three structures floated in sequence and none finalised: (1) pay $6,000 upfront or 'you can split it up'; (2) 'fully custom' — a cash-on-hand down payment with the remainder in instalments, sized to whatever the customer can do; (3) third-party financing with interest over 12 months, described only as 'a few hundred dollars' monthly and 'in overall, it's going to be like a bigger sum' — no rate, no provider and no total repayable stated. The prospect declined the financing on principle: 'I probably wouldn't do that just because I don't want to be paying the interest.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement raised",
+      "Explicit deferral to spouse: 'let me talk it over with her, then I can get back to you'",
+      "Warm intent throughout — gave a clear commitment before price ('I for sure am... I think I can commit') and answered the belief question positively",
+      "Reacted positively to the discounted tier: 'if you're saying it's half price, six months, I think that's, that seems more reasonable'",
+      "COUNTER-EVIDENCE: he pre-judged the spouse conversation negatively and declined the rep's offer to join it — 'I don't think she'd be, honest, she wouldn't be interested in that'",
+      "COUNTER-EVIDENCE: household finances described as shaky with school fees consuming most of the budget, so the constraint is real rather than a stall",
+      "COUNTER-EVIDENCE: NO follow-up call was booked. The rep left it entirely open — 'take your time. I'm going on vacation tomorrow. I'll be back in the second week of August, and we can pick it up there' — with no date, no time and no calendar invite, in contrast to the same rep booking live on the Arturo call the previous day",
+      "COUNTER-EVIDENCE: the call was cut short by the prospect having another meeting — 'I have a meeting coming up... I gotta bounce'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to discuss the $3,000 half-price option with his wife and come back to the rep. No date, time or invite agreed; rep unavailable on vacation until the second week of August. Ownership of the next contact is ambiguous."
+  },
+  "notable": {
+    "note": "The clearest pricing finding in the batch. On hesitation alone — no completed financial picture, no cash-on-hand figure, no monthly surplus, no credit information — the rep invented a 'light version' of the programme at $3,000, half the approved price, delivered by Trevor's head coach Caden rather than by Trevor, and described it as 'everything is almost the same'. The prospect's entire stated reason for being on the call was Trevor personally: he was inspired by Trevor's videos, his philosophy and his physique. His first response to the cheaper tier was to probe the substitute coach's credibility. Elapsed time from '$6,000' to '$3,000' is roughly nine minutes. Separately, this call contains the strongest P4 root-cause work in the batch and the only properly delivered P6a belief question, so the failure is specifically at the money stage, not in the discovery."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent swapping throughout, worsened by the prospect being labelled only by the handle 'smanian'. Whole rep passages sit under the prospect's label — the nutrition question 'Let's go into what nobody likes, which is nutrition' and the golf anecdote 'a lot of guys we have here that play golf' are both the rep but labelled as the prospect. The wife role-play from 00:52:57 to 00:53:45 is scrambled such that the two speakers' lines alternate incorrectly; reconstructed from content, the rep is playing the wife and the prospect is playing himself. The exchange about Caden at 00:51:48 is also inverted — 'I was training with Caden, actually. He was the one training me' is the rep describing his own experience, not the prospect's."
+  }
+}

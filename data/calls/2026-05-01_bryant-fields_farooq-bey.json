@@ -1,0 +1,149 @@
+{
+  "call_id": "2026-05-01_bryant-fields_farooq-bey",
+  "source": {
+    "drive_file_id": "1LEsGa3eNjCCyVo6aHB2-aTehtex8N5LO",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/01/2026 - Bryant Fields & Farooq Bey KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/01/2026 - Bryant Fields & Farooq Bey KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 36244
+  },
+  "call": {
+    "date": "2026-05-01",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 40,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": null },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Bryant Fields",
+    "aka": "BPF",
+    "name_source": "title",
+    "location": "New York, USA",
+    "age": null,
+    "occupation": "Commercialisation of clinical trial analytics products and services",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Endurance athlete — marathons (3 planned this year), returning to triathlon, running 25-30 miles/week across 3-4 sessions; has a run coach; previously had an in-person personal trainer for traditional weightlifting; used a remote coach during the pandemic; currently in physical therapy 3 days/week",
+    "kettlebell_experience": "some",
+    "medical": "Meniscus tear and surgery 2021/2022; quad tendonitis; quad tear; rotator cuff / shoulder injury sustained during a resistance band movement last year; currently in active physical therapy and doing prescribed PT routines"
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.8,
+    "signals": [
+      "Repeated injury sequence over 3-4 years that cost him athletic capacity: 'it's just been one thing after another'",
+      "Wants a former self back: 'I want to be athletic again', 'I'm just trying to turn the clock back'",
+      "Regret marker — expensive suits upstairs with tags still on that no longer fit",
+      "Not price-insensitive, which rules out the_optimizer: 'that's out of my range'"
+    ]
+  },
+  "goals": [
+    { "text": "Build lean muscle mass and improve body composition / lose body fat", "category": "muscle_gain" },
+    { "text": "Fit back into the expensive suits still hanging upstairs with tags on", "category": "appearance" },
+    { "text": "Improve marathon performance — from just finishing toward a 4:30, then 4:15, eventually sub-4", "category": "hobby_performance" },
+    { "text": "Improve mobility and functional movement rather than static weightlifting", "category": "mobility" },
+    { "text": "Shift from a rehab state to a prehab state so injuries stop recurring", "category": "injury_prevention" },
+    { "text": "Long-term independence and quality of life — lift his own suitcase into the overhead bin, walk to the gate on his own", "category": "longevity_function" },
+    { "text": "Regain confidence in his body's ability to perform", "category": "confidence" }
+  ],
+  "pains": [
+    { "text": "Chain of injuries over the last three to four years — meniscus tear and surgery, quad tendonitis, quad tear, rotator cuff — that repeatedly reset his progress", "category": "injury", "severity": "high" },
+    { "text": "Lost his in-person trainer when the trainer left for the state trooper academy and has not trained consistently since; December to February on his own", "category": "accountability_gap", "severity": "high" },
+    { "text": "Knows he is taking too many days off and is operating below his own standard: 'I'm not' operating at 100%", "category": "consistency", "severity": "medium" },
+    { "text": "Conflicting kettlebell technique advice online — 'you look at one post, you look at one person, oh you got to do it this way, you got to do it that way'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Existing run coach only programmes running; nothing addresses lean mass, which he has been attempting alone", "category": "program_fit", "severity": "medium" },
+    { "text": "Lack of confidence in his body to hit performance targets — 'I don't have the confidence in my body that I can do those things'", "category": "confidence", "severity": "medium" },
+    { "text": "Prior remote coaching during the pandemic felt materially worse than in-person", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, that's way out of my expectation.",
+      "timestamp": "00:29:06",
+      "rep_response": "Did not isolate the objection or run any part of the money play; said 'Sure. All good, man. All good' and asked whether he had any questions",
+      "response_tactic": "accepted_without_probing",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Yeah, that's out of my range.",
+      "timestamp": "00:38:16",
+      "rep_response": "Did not explore financials; moved the conversation onto the $200/mo Primal University product",
+      "response_tactic": "downsell_to_cheaper_product",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I do think there is a different dynamic when it's in-person versus remote.",
+      "timestamp": "00:27:14",
+      "rep_response": "Asked why he was considering the virtual route at all given that experience; accepted the answer and did not reframe how the video feedback loop closes the in-person gap",
+      "response_tactic": "reverse_question_no_reframe",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I'm going to, I guess, think about it.",
+      "timestamp": "00:32:39",
+      "rep_response": "Later asked 'what do you need to go over before making that decision?' — one probe only, no further play",
+      "response_tactic": "single_clarifying_probe",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I'm three weeks out from my next marathon. So if I were to commit now, I don't know how this would fit in... three weeks out from a marathon, I'm not doing anything different.",
+      "timestamp": "00:38:34",
+      "rep_response": "Accepted the timing constraint without challenge and offered to message him at the three-week mark",
+      "response_tactic": "accepted_and_deferred",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 1, "price_usd": 1200 },
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "On the $1,200 one-month tier: 'If you love it, you just pay the differential to the three or the six or the 12. If not, we just part ways and shake hands as friends.' Separately: 'we don't even hold you for the one-on-one coaching... We provide you with graceful exits on both.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep proposed and prospect agreed to a re-contact after his marathon: 'would it make sense to potentially revisit this and have myself message you around that three-week mark' — 'yeah yeah yeah let's do that'",
+      "Prospect said he would think about the $200/mo Primal University option and revisit at the end of the month",
+      "COUNTER-EVIDENCE: the core one-on-one offer was explicitly rejected twice on price — 'that's way out of my expectation' and 'that's out of my range' — so on the coaching programme itself this is effectively lost",
+      "COUNTER-EVIDENCE: prospect stated he will not change anything three weeks out from a marathon, so no decision was available on this call"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to message the prospect in approximately three weeks, after his Cape Town marathon; prospect to consider Primal University at $200/mo"
+  },
+  "notable": {
+    "note": "Prospect disclosed an active physical therapy course and a four-injury history (meniscus surgery, quad tendonitis, quad tear, rotator cuff) and the rep never asked whether a clinician had cleared kettlebell work — he instead recommended the unsupervised self-paced product as possibly 'a better fit'. Separately the rep quoted two tiers that are not in the sanctioned price list ($1,200 for one month, $4,000 for three months) and made an unqualified cancellation representation on the 6- and 12-month coaching. On process, the entire Consequence Frame phase was skipped and the money objection was met with an immediate downsell rather than the scripted open-wallet play."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive and sustained label inversion. Rep lines are frequently attributed to 'BPF' — e.g. 'So, Brian, we have a limited amount of time. Should we hop into it?' and 'Brian, you have a pen, paper, laptop, iPad?' are both labelled BPF but are unmistakably the rep. Prospect answers are likewise attributed to Farooq Bey. Roles were resolved from content throughout; no line-level attribution should be trusted in this file."
+  }
+}

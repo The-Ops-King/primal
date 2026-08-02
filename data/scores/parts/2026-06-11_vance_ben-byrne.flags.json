@@ -1,0 +1,59 @@
+{
+  "call_id": "2026-06-11_vance_ben-byrne",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep told a 5'10\", 135 lb prospect at a self-reported 12-15% body fat that a drop of 'at least 10%' body fat was '100% doable' and 'might put you at five', a target that is neither achievable nor healthy and contradicts the prospect's own goal of gaining weight.",
+      "evidence": [
+        "after you work with us for at least six months, you know, we're aiming to get a drop in 10, generally, it's losing 10%, that might put you at five, so, yeah, at least, at least 10%, that's 100% doable, adding 20 pounds to your lifts",
+        "I'm about 5'10\", 135 pounds",
+        "I'd say something around 15% body fat, like 10, 12 to 15%",
+        "Honestly, I like being skinny. would just like to like really tone up, maybe put on a little bit of weight, maybe like 10, maybe 15 pounds."
+      ],
+      "timestamp": "00:18:55"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The unpublished 3-month tier at $4,000 was offered again, the second consecutive day this rep produced it in response to price resistance.",
+      "evidence": [
+        "So that price is like, like firm as well. Like there's no way to like work around that price or, you know?",
+        "Um, well, we have like a, a three month option. ... If that one's 4k."
+      ],
+      "timestamp": "00:30:47"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Financing was described as adding 'a bit of interest' when twelve payments of $650 total $7,800 on a $6,000 programme — $1,800 of interest — with neither the total repayable nor the rate ever stated.",
+      "evidence": [
+        "we have, like, what do call it? Like financing where you can split it up to 12 months, which brings it down to $650 a month",
+        "Yeah, it splits the $6K up to a year.",
+        "Adds a bit of interest, but you can pay it off early. That way you don't have pay the interest."
+      ],
+      "timestamp": "00:34:01"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "A follow-up was agreed with no deposit and no scheduled call, one day after the sales manager mandated that no follow-up or onboarding call goes on the calendar without a deposit.",
+      "evidence": [
+        "Yeah, I think we definitely, you know, maybe get back on a call in a little bit. Definitely just gotta think about it a little more.",
+        "Yeah, man."
+      ],
+      "timestamp": "00:34:38"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "No injury, chronic pain or movement-limitation question was asked before moving a bouldering athlete toward loaded ballistic kettlebell work; the rep asserted a mobility and joint evaluation would happen later without checking whether anything needed clearing first.",
+      "evidence": [
+        "Is there any like, things going on with your health right now, which has got you wanting to prioritize it?",
+        "I want to make sure that your mobility is good, your joints are flexible. Yeah, you. Bye. You're doing the lifts properly, and then progressively starting to increase the weight",
+        "mostly I do like to rock climb, like bouldering"
+      ],
+      "timestamp": "00:06:39"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-14_tony_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The prospect disclosed a still-painful shoulder injury from an obstacle race plus recurring lower back pain, and was sold an unsupervised self-guided kettlebell programme with no clinical clearance sought and with the rep implying supervision is only needed for massive injuries.",
+      "evidence": [
+        "in fact I uh injured my my shoulder a little bit and i'm still i still have a little bit of pain in there but it's getting back",
+        "Yeah, sometimes I get lower back pain. I'm already doing something about it, some exercises that I found, like planks and like bridges. But yeah, lower back is where I had, you know, feeling my age, I guess.",
+        "Or if you have like massive injuries already, but if you know for yourself, like you're going to take it slow, you're going to set up the foundation. That's really what you need.",
+        "Trevor is also going to make those specifically around your lower back, your hamstrings, the injured shoulder that you had some time ago."
+      ],
+      "timestamp": "00:11:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A $200 per month Primal University community tier, also quoted as $2,000 a year, was presented and sold live; it sits outside the stated $6,000 per six months and $9,000 per twelve months offer.",
+      "evidence": [
+        "And that would be 200 a month. Does that sound more doable to you?",
+        "when you get started, you can just cancel whenever, and you can push if needed a $200 a month for $2,000 a year, but that's up to you",
+        "So I see that you just paid."
+      ],
+      "timestamp": "00:39:08"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "The rep described the recurring subscription as cancellable whenever, while the checkout terms the prospect read aloud state auto-renewal with no refunds including on renewals.",
+      "evidence": [
+        "So if you just begin with one month, it is automatically debited, right? But if you feel like, okay, no, I just want to do one month, you just canceled after doing the first payment and that's it.",
+        "recurrent membership, auto-renews until you cancel, no refunds, including renewals, if you don't cancel before you renew, we can refund it, manage your subscription, it's on you",
+        "when you get started, you can just cancel whenever"
+      ],
+      "timestamp": "00:39:28"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The core $6,000 offer was refused and a $200 per month subscription was purchased on the same call, so the call reads as a paid outcome in payment data while being a loss on the coaching programme.",
+      "evidence": [
+        "No, the $6,000 is definitely out of my budget, yeah.",
+        "even if you do 50%, I wouldn't do it, even if you, yeah, it's just way, way, way over what I was thinking",
+        "So I see that you just paid."
+      ],
+      "timestamp": "00:38:00"
+    }
+  ]
+}

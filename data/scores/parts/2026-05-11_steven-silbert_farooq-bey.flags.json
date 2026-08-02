@@ -1,0 +1,84 @@
+{
+  "call_id": "2026-05-11_steven-silbert_farooq-bey",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The $1,200 entry was described in two contradictory ways in the same exchange — a cancellable one-month trial and the minimum payment to enter the programme — and the prospect said outright he did not understand it, then agreed to relay it to his fiancée on that basis.",
+      "evidence": [
+        "When you say onboarded for 1,200 and speak to him, what does that entail? Sorry, I didn't understand.",
+        "So $1,200 is the minimum payment to get actually into the program, okay? Yeah. Yeah. an option, which is a trial for a month called Love It or Leave It, which is $1200.",
+        "And then if she says, all right, like, I'm not a fan of this, we can just cancel the program after that first month.",
+        "Okay. So talk with Trevor, with Hannah. This is probably going to be a little bit more palatable for her when we get to her, to have like a trial period."
+      ],
+      "timestamp": "00:35:46"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $1,200 one-month entry branded 'Love It or Leave It' was offered as an alternative to the sanctioned $6,000/6mo and $9,000/12mo tiers, introduced only after the partner objection with the framing that it is not normally done.",
+      "evidence": [
+        "So what I propose, dude, and it's probably like a middle ground solution. Typically, we don't do this. We can get you onboarded for, say, 1,200 bucks.",
+        "an option, which is a trial for a month called Love It or Leave It, which is $1200",
+        "So, for six months, man, it's 6,000 US, and for 12, it's nine, okay?"
+      ],
+      "timestamp": "00:35:16"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The rep invited the prospect to set his own deposit amount across a six-fold range and stated he was indifferent to the figure; the buyer selected the lowest option, $100.",
+      "evidence": [
+        "We'll take a deposit, I don't care whether it's 600 bucks or 100 bucks, to save your spot in my calendar",
+        "So yeah, you choose the amount, 500 bucks, 100 bucks, I literally don't care.",
+        "100's fine."
+      ],
+      "timestamp": "00:37:36"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled for Shawn Panjwani but contains only a two-minute reschedule with him and no discovery, followed by a complete 39-minute sales call with a different prospect, Steven Silbert.",
+      "evidence": [
+        "Hey, Farooq, A2, my bad, man, something came up in work too. I got like 15 minutes, so I don't know if you want to do like a part one, part two",
+        "What's best, Shawn? Let's just reschedule, brother. For this, it's probably, like, best to do. It's typically an hour we need for the calls.",
+        "There we go. Hello. Hey, Steven. How's it going?",
+        "05/11/2026 - Shawn Panjwani x Farooq Bey "
+      ],
+      "timestamp": "00:01:05"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A prospect with a service-acquired herniated lumbar disc that laid him up for over eighteen months was recommended the twelve-month tier explicitly because of that injury history, with no question about clinician clearance and an assertion that the programme would alleviate injuries and limitations.",
+      "evidence": [
+        "while I was in the army, got a herniated disc in my lower back, and I went on a journey to heal up my back",
+        "My herniated disc put me on my for over a year and a half.",
+        "It's going to help you to alleviate any injuries or limitations in your body and make you more durable, man. Because that herniated back that you mentioned, I mean, yeah, it sounded like it was a lot. We don't want that to happen again.",
+        "because of your injury history and just kind of how long it's been since you were, you know, feeling your best, I actually recommend the 12 for you"
+      ],
+      "timestamp": "00:23:41"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep offered to email the prospect a prepared game plan for the conversation with his fiancée about a joint purchase, and framed partner consultation as something that defaults to a no unless managed.",
+      "evidence": [
+        "if you need any advice on what to say to Tana, feel free to just send me an email. Okay, I'm more than happy to kind of give you a game plan, because I've done this so many times.",
+        "typically when people have conversations with their partners and their partner isn't, they just don't understand the full context of what we discussed today. They don't understand the value of this level of coaching. It's just always going to be a no, you know?",
+        "Because we're like just kind of recently starting to like kind of combine everything together. And she does not like to move fast"
+      ],
+      "timestamp": "00:36:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "This call is the first of a pair — the follow-up was booked live for the next day and appears as a separate file, so the two must be linked or the sequence and any close will be double-counted.",
+      "evidence": [
+        "I have 5 p.m. Central, if that works. Yeah, that works.",
+        "So in that case, man, what we do, obviously we'll book into another call, I'll give you time to speak to Hannah. It'll just be like 15 minutes of us catching up."
+      ],
+      "timestamp": "00:40:19"
+    }
+  ]
+}

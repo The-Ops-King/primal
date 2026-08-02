@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-27_arturo_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented fully and tailored to his stated mobility complaint — three-in-one kettlebell sessions of 30-40 minutes plus five-to-ten-minute mobility protocols slotted into coffee breaks. He answered the immediate check with 'No, no, no', but came back later with a genuine mechanics question about the term and the results curve: 'the time that I'm going to see change will be about six, it's a six-month program, or it will be towards monthly, how is it that I can...' The rep separated the two ('the full transformation takes six months... but yeah, the results you will see much faster'), and the prospect then re-asked in effect a second time to confirm it was a lifestyle change rather than a six-month fix. Notably, the prospect never asked and the rep never addressed whether kettlebell work is compatible with his doctor's no-heavy-lifting instruction, despite this being the pillar where it mattered."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The what/when/how-much framing plus the eight-hour eating window, and the rep tied it directly back to the prospect's own disclosure that his eating falls apart after the 21:30 restaurant shift: 'there won't be nine, 10 PM dinner because you're going to bed like in an hour and a half.' The prospect agreed without pushback — 'That's right. Yeah. Okay.' and 'No, no, no' to questions. Worth flagging that a compressed fasting window with morning fasting was recommended to a man on daily Omeprazole for an esophageal condition, with no discussion of whether that interacts with his treatment."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "App, video form feedback, weekly check-in and Trevor's cell number all presented, with the flexibility angle emphasised for his shift pattern — 'if you have three days, we'll have to stick it into three days.' The prospect's response was flat agreement: 'No, so far, good, good.' No enthusiasm volunteered and no questions asked. This is the pillar that should have landed hardest given he has one free day a week, and it did not visibly move him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "monthly_payment_expectation",
+      "raw": "So 6K, okay. So it's a thousand, so it's a thousand monthly. So this is something that will be pay monthly or is something that is have 6K has to be paid and then for the program to be in?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect converted the headline price into a monthly figure himself, within seconds of hearing it, and never engaged with $6,000 as a lump sum again. He had already built a $1,000/month model before the rep offered anything. The rep neither used it nor countered it, and instead introduced a different monthly number ($650 over 12 months) that made the total larger. Worth noting for pricing strategy: a self-generated $1,000 x 6 anchor was on the table and was left there."
+    },
+    {
+      "type": "competing_capital_allocation",
+      "raw": "because everything is like invested, but I can at least just get the 6k ... it is because I'm in the program of the, I'm in the investment programs, that's why I want to make sure with him",
+      "direction": "undercuts_price",
+      "competitor": "his own investment programme / financial advisor",
+      "note": "The blocker is not capacity, it is that his capital is committed and a third party controls the release. This is a different shape from the affordability objection the OC play is built for, and it went unaddressed. He also pre-judged the financing option on the advisor's behalf: 'I don't think he's gonna let me do the 12 months.'"
+    },
+    {
+      "type": "disclosed_financial_capacity",
+      "raw": "because of the two jobs, I mean, I usually ended up living with, like a monthly, I will say probably $4,000",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "$4,000 monthly surplus after bills and an 800 credit score, both volunteered readily. On the numbers this prospect can afford the programme comfortably; the constraint is allocation and permission, not means. The rep collected both figures and then did not use either to close."
+    },
+    {
+      "type": "warm_referral",
+      "raw": "a friend of mine told me about the kettlebell workout. Yeah. So I did start to see the, uh, Andrew and the, and the apps.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Arrived partly pre-sold on the modality via a friend and had already started light kettlebell work two weeks before the call. Modality risk was effectively zero, which is why no OE trigger appears."
+    },
+    {
+      "type": "clinician_recommendation",
+      "raw": "He told me, just you got to go easy, just do a little cardio.",
+      "direction": "undercuts_price",
+      "competitor": "his physician's own prescription — light cardio",
+      "note": "The most consequential anchor on the call and the one nobody treated as an anchor. A licensed clinician has already given this prospect a free, specific and contradictory training prescription. Any purchase requires him to act against it or to get it revised, and neither path was discussed."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Training that visibly respects an explicit medical instruction not to lift heavy weights, with an esophageal condition, a knee awaiting a surgical decision, and a colonoscopy the following week",
+      "why_unmet": "Nobody established whether the programme can be delivered inside that restriction. The offer is loaded kettlebell work; the rep did not scope the restriction, did not ask whether the prospect's physician would clear it, and did not route the question to Trevor or to any clinician. The prospect was left to assume compatibility.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "An instalment option without added interest — specifically the $1,000/month over six months he proposed himself",
+      "why_unmet": "The only structured option offered was interest-bearing third-party financing at $650/month over 12 months, totalling $7,800. The playbook's own money script references an in-house alternative ('Most clients pay upfront, but for some we break it up'), and it was never put on the table. The programme plausibly does offer what he asked for; he was simply never told.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A programme that fits a two-job, fifteen-hour-day schedule with one free day, without giving up paid work",
+      "why_unmet": "The only solution reached was for the prospect to cut restaurant shifts to create training and recovery windows — trading income for time. The offer has no lower-frequency or shorter-session tier for genuinely time-poor buyers, and the rep's own honest assessment was 'right now, I don't see much wiggle room'.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To reduce or come off his current medications",
+      "why_unmet": "Stated plainly as a motivator — 'that's something that I want to get away from there' — and never acknowledged or addressed by the rep. The programme cannot and should not promise this, but the aspiration was left hanging without either engagement or an honest boundary, which risks the prospect supplying his own expectation.",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

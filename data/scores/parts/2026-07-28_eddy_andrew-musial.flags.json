@@ -1,0 +1,101 @@
+{
+  "call_id": "2026-07-28_eddy_andrew-musial",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "A performance guarantee was introduced live mid-objection and its scope widened within about thirty seconds from a strength metric to a weight-loss outcome, with free continued coaching until achieved as the stated remedy and no written terms referenced.",
+      "evidence": [
+        "well, I have I that, when I think about it, there's also a guarantee. And not a lot of guys, I think, actually in this space can give you a guarantee on that, that you will reach your goals within six months",
+        "and there's like a science behind that, that you will add at least eight kilos, which is around 17 pounds, to your baseline kettlebell weight movements",
+        "If that wouldn't happen, Trevor is going to work with you until you do for free. Now, is that a good deal or is that a good deal?",
+        "So you're saying that I would reach my goals or Trevor continues to work with me past six months for free?",
+        "Yeah, if you wouldn't reach your goal. And you wouldn't lose the 15, 20 pounds in that six months."
+      ],
+      "timestamp": "00:35:58"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "A guarantee of this scope appears on no other call in this batch — three other prospects heard the same offer at the same price with no guarantee mentioned at all — so either it is being withheld from most buyers or it was invented on this call.",
+      "evidence": [
+        "there's also a guarantee. And not a lot of guys, I think, actually in this space can give you a guarantee on that",
+        "well, I have I that, when I think about it",
+        "Interesting. I think I still need time. ... I like the guarantee. think that helps."
+      ],
+      "timestamp": "00:35:58"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect disclosed bilateral torn ACLs, painful knees, ankles and hips, and an explicit fear of needing knee replacements in his fifties; no injury or health-condition question was ever asked, the disclosure was never followed up, and no clinician clearance was sought before selling loaded ballistic kettlebell work.",
+      "evidence": [
+        "Well, I don't know. I just have, I tore both my ACLs. So that doesn't help me out.",
+        "I just don't think it's worth the pounding that my knees and ankles and hips take for that",
+        "hopefully not make it so that I have to get me used, my knees replaced and other stuff in when I'm in my fifties or whatever",
+        "Kettlebells are not some magical solution. You can get injured with them also.",
+        "every single workout that you're going to be doing, you're going to be hearing three things, which is strength, conditioning, and mobility. 30 to 40 minutes, each session, three to four times a week"
+      ],
+      "timestamp": "00:02:30"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep offered his own medical history as proof, stating he was scheduled for hip replacement surgery for congenital hip dysplasia and implying kettlebell training averted it, to a prospect who had just disclosed joint injuries and a fear of joint replacement.",
+      "evidence": [
+        "I'm exaggerating that kettlebells saved my life in terms of... I was born with hip dysplasia, and I was supposed to have surgery with hip replacements.",
+        "I'm 43 right now, and two months ago I did a 100-mile hike in four days, which was brutal, but I'm still able to do it.",
+        "hopefully not make it so that I have to get me used, my knees replaced and other stuff in when I'm in my fifties",
+        "That's where I'm so convicted in this, what Trevor does."
+      ],
+      "timestamp": "00:43:40"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep pre-emptively dismissed the spouse objection before hearing it and continued closing for roughly seven minutes after the prospect had stated four separate times that he would not decide on the call.",
+      "evidence": [
+        "So don't give me the, the, the wife objections.",
+        "I understand there's a wife objection, but there really is. And I understand it.",
+        "You want me to give up on you that easily?",
+        "You cannot or you don't want to commit?",
+        "I think I still need time. I know you want to close. 100% understand, but I don't think you're going give me a close.",
+        "I don't think you can get me over the line on this call, but I won't completely ghost you."
+      ],
+      "timestamp": "00:30:34"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep stated an unsubstantiated scientific basis for the guaranteed strength increase, offering a specific figure with no source, on a claim tied to a contractual remedy.",
+      "evidence": [
+        "and there's like a science behind that, that you will add at least eight kilos, which is around 17 pounds, to your baseline kettlebell weight movements",
+        "And that's combined with the proper nutrition that you're going to follow and showing up for the workouts, you're going to reach your goals."
+      ],
+      "timestamp": "00:35:58"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep misstated his own age to mirror the prospect, saying he was 40 while building rapport and then giving his actual age as 43 later in the same call.",
+      "evidence": [
+        "And we're not getting any younger. I'm also 40.",
+        "I'm 43 right now, and two months ago I did a 100-mile hike in four days",
+        "I turned 40 in a month and I have two kids"
+      ],
+      "timestamp": "00:20:33"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's surname is never spoken, so this record cannot be reliably matched to a CRM entry or deduplicated against the follow-up contact that was moved to WhatsApp and therefore leaves the recorded corpus entirely.",
+      "evidence": [
+        "00:00:00 - Eddy",
+        "You use WhatsApp? Yeah. ... I think I have my WhatsApp downloaded.",
+        "All right, I'll send you a text right now. Let me know when it goes through.",
+        "Can I reach out to you like around 4 p.m.? Something like that?"
+      ],
+      "timestamp": "00:45:31"
+    }
+  ]
+}

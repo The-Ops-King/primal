@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-05-07_robbie-slim_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved from $6,000 upfront to an improvised $1,200/month plan within about two minutes of a cashflow objection, with no total contract value ever stated.",
+      "evidence": [
+        "It's just 6k US for the six months.",
+        "you can split... The payment, so we could do, it would be half down, and then you could do half when your house is sold. That's one option, it'd be 3k, 3k.",
+        "The other option I'm thinking is, you can start for 1,200, for like a one, that's like, you start with the one month for 1,200, and then it would be 1,200 a month",
+        "The 1,200 would be, because sometimes people can do it monthly, but it's 1,200 a month, so it goes, obviously goes up from"
+      ],
+      "timestamp": "00:25:28"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect agreed to a monthly plan whose total he was never told; the rep disclosed that monthly costs more than $6,000 but the explanation of the premium was garbled and no final figure was given.",
+      "evidence": [
+        "If you do $1,200 down and you do your first month, we can have another call at the end of the 30 days. If your house is sold by then, you can just do the $4,800.",
+        "So it would be, if it took three months and you paid it $1,200 a month, you would pay the $36,000, but then the last three months, you wouldn't pay the extra $200,000 on, you'd just take care of the $3,000.",
+        "I see. Yeah, I see what you're saying.",
+        "Do you want to do that, the $1,200? Probably easiest."
+      ],
+      "timestamp": "00:27:21"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 55-year-old disclosing four chronic joint complaints and an explicit fear of injury was sold into loaded ballistic kettlebell work without any question about clinician involvement or clearance.",
+      "evidence": [
+        "The thing is, so I'm 55. My left knee has been problematic.",
+        "My left hip slash back area is always kind of tight. And my neck up here is always kind of tight. And, you know, I don't feel like I could turn, you know, as great as I used to.",
+        "Shoulders, I think one of them gets goofy sometimes, but not all the time.",
+        "I thought that looks like I'm going to screw something up on me and I don't want to get hurt.",
+        "So it sounds like with that side of things, it's more of like, uh, a collection of little things rather than my back is, I've got a herniated disc, for example."
+      ],
+      "timestamp": "00:04:35"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep offered a mechanistic explanation of the prospect's undiagnosed chronic pain and attributed his own scoliosis improvement to kettlebells, which reads as clinical reasoning from a salesperson.",
+      "evidence": [
+        "I've got scoliosis, so I did a lot of research in the past and like kettlebells help me with mine.",
+        "Pain is a signal from your nervous system that something's wrong, pretty much, right? And it goes into like hedgehog mode is the best way I can explain it.",
+        "when you're doing a swing your hips aren't like extending enough and your lower back's doing a lot of the work why is that that shouldn't be happening"
+      ],
+      "timestamp": "00:16:28"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording is cut at the point of payment collection, so no call in this corpus can evidence whether payment was actually captured.",
+      "evidence": [
+        "In terms of the payment, did you want to do like a Visa, MasterCard, Amex?",
+        "It would be Visa. I have to move funds over.",
+        "That's all good. Let me just remove the recorder out of the meeting."
+      ],
+      "timestamp": "00:31:22"
+    }
+  ]
+}

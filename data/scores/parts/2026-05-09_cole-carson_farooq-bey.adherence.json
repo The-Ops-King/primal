@@ -1,0 +1,44 @@
+{
+  "call_id": "2026-05-09_cole-carson_farooq-bey",
+  "rep": "Farooq Bey",
+  "disposition": "undetermined",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "miss", "P1b": "miss", "P1c": "miss", "P1d": "hit" },
+      "evidence": "The open question ran cleanly — 'I'll leave the floor to yourself, Cole. How can we potentially help you?' Everything else was skipped. No four-part frame and no frame agreement; the rep instead compressed the open into 'Cool. Well, Cole, we have a limited amount of time. Let's dive into it.' The prospect had clearly completed an application ('When I did the thing, it was the only time that worked') but none of it was read back to him."
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "partial", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Baseline was essentially never run. Age and height were never asked; weight is only in the record because the prospect volunteered it ('I've been at like 195'). Health conditions, injuries and energy were never asked at all — the hip tightness that drives his mobility goal surfaced only because he offered it. Diet and sleep likewise volunteered ('I do intermittent fasting almost every day'; 'I'm prioritizing sleep right now with a little girl') and never asked. Partial credit on work, where the rep confirmed rather than asked ('you said you're a minister, correct?') without establishing desk-bound versus on-feet, and on training week, where the rep probed the schedule ('what's really the reason for the schedule being kind of packed?') but never established actual days trained."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "hit", "P3e": "hit", "P3f": "partial", "P3g": "partial", "P3h": "hit" },
+      "evidence": "The strongest phase and the only one the rep genuinely worked. The bridge ran twice — 'what has shifted recently that's made this more of a priority for you?' and 'is that primarily for you a want or a need?'. The ripple question ran — 'when we get you to that potential, tell me more, how does that lead into the different arenas of your life?'. A reflect-back landed and was confirmed: 'would you say you're feeling like you're already, what you worked hard for is kind of slipping away, in a sense?' / 'Yeah, like slowly slipping away.' The surface questions (one thing you'd change; mobility-strength-energy; something physical you can't do) were never asked — the prospect supplied all of it unprompted. The rep was steering into the deep drive at the moment the recording ended ('increasing the capacity as a father') but never asked who else this impacts and never landed it, so P3f and P3g are partial."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "partial", "P4e": "hit", "P4f": "hit" },
+      "evidence": "The why-not-do-it-yourself move ran almost verbatim to script: 'what's the rationale for yourself in terms of getting that help with someone like Trevor, because there's ChatGPT, there's YouTube, there's Google. I mean, I could use any of those mediums to put together the structure for yourself.' The prospect was also made to own the gap — he named accountability himself and the rep pushed him on it: 'why do you feel like accountability could help you out given your situation then?' But the past-attempts sequence was never run: the Ladder app came out unprompted ('I actually did that the ladder program. I had the app for a year... I was like off and on') and the rep never asked what he had tried, what happened with it, or why it did not stick — the single richest vein in the call was left unmined."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Unobservable, not missed. The recording terminates mid-sentence at 00:15:50 while the rep is still inside Phase 3, and there is no indication the call itself ended. The nearest adjacent move on record is the rep echoing the prospect's own word — 'You kind of been settling in these different arenas. Tell me more' — which is not the consequence frame. Scoring these as misses would penalise the rep for a recording failure, so they drop out of the denominator; see the data_integrity flag."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Unobservable — the recording ends at 00:15:50, well before any commitment check could be expected in this process."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted in the recorded portion — nothing about price, tiers, payment, onboarding or Trevor's onboarding call was said. The phase's applies_when condition (close_attempted) is not met on the available record."
+    }
+  },
+  "objection_plays": [],
+  "notes": "Roughly 16 minutes are on record and the phases that are observable split hard: Phase 3 and the root-cause half of Phase 4 were run with real skill, and Phases 1 and 2 were barely run at all. The specific coaching point is Baseline — the rep collected almost no facts and got lucky that an unusually forthcoming prospect volunteered weight, diet, sleep and a mobility restriction; on a less talkative prospect this call would have reached the offer with no picture at all. Second point: the prospect handed over a year on a competing app and the rep did not ask a single past-attempts question about it. Note that P5, P6 and P11 are N/A because the recording truncates mid-sentence, not because the rep skipped them — this call should not be read as a scored close."
+}

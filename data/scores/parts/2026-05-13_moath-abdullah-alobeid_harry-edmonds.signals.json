@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-13_moath-abdullah-alobeid_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "The prospect was pre-sold and tied it to his own life repeatedly and unprompted: 'I cannot tell you how much, I'm glad, actually got to know this machine, this small thing', 'if I cut a bill, I can do it when a baby sleeps', and 'it feels awesome'. He quoted Trevor's own material back — 'don't eat until you deserve it, so you have to work out to eat... hunter-gatherer style' — and volunteered that he had been watching how Roman warriors trained: 'They went back to basic. We need to go back to basic.' On the mobility half he confirmed from his own experience that stretching had helped his posture and made the bell easier."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Presented as eating for health rather than muscle, micronutrient-led, red meat, dairy, eggs, vegetables, fermented foods, avoiding bread, rice and pasta, with one cheat meal a week. He mapped it onto himself immediately: 'Yeah, okay, that's exactly... I'm big of red meat, like, I love a lot of steaks... and I try to skip, like, all the carbs. So I am kind of in the right path in what you're saying, so, but again, I needed to get help.' He had already independently rejected calorie counting: 'I don't think we're supposed to count calories. This is not natural.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest reaction of the three, and he articulated the mechanism himself: 'I've never done coaching, but I think coaching actually gets me to commit more, since there is someone following up. You don't want to disappoint Trevor.' He then named the failure mode it solves: 'when you are on your own, sometimes like, you know what, nobody knows.' He also confirmed the support pillar against his own experience of getting confused and quitting: 'it just gets confusing. And then I stop and don't do it.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "I mean, I thought six months would cost like maybe, I don't know, just maybe 8,000 real, which is like 2,000 or something. That's my thinking.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The single most important number on the call. He arrived expecting roughly one third of list price, so the $6,000 quote was a 3x shock rather than a negotiation. Nothing earlier in the call had set a price frame, and because no consequence frame or commitment check ran, there was no accumulated value to absorb the gap. Worth checking whether the setter is pre-framing price at all in this market."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "because I'm sure there's somebody who would do it for 2k, but it's like, whether you want Trevor or not, whether you want the best or not",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep introduced a $2,000 competitor price himself, unprompted, and it happened to match the prospect's own expectation almost exactly. Intended as a quality frame, it functioned as confirmation that a cheaper option exists."
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "yeah for one month it's 4500 real you do one month and then in 30 days we can talk if you want to carry on we can carry on if not that's fine too but we call that love we call it love it or leave it",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Third downward step in eight minutes. The prospect drove the descent by asking about three months and then one month, and the rep priced each without resistance, so the final live option was one fifth of the recommended contract. He left leaning at $1,200: 'yeah i actually might do them one month'."
+    },
+    {
+      "type": "competing_financial_commitment",
+      "raw": "I have this monthly thing that I pay off. And if I can see if I can withdraw from that for this month or not.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The real constraint was liquidity rather than willingness — he had already conceded the price was fair for the expertise. The rep never explored it, so a deal that might have been solved with a deposit or a start-date structure was left to the prospect to resolve alone."
+    },
+    {
+      "type": "gym_membership_baseline",
+      "raw": "Oh, it's been always with the gym, but it has a membership. have to drive up there and, you know, get to know where, how the, what machines they have and so on.",
+      "direction": "undercuts_price",
+      "competitor": "Local gym membership",
+      "note": "His lifetime reference price for fitness spend is a gym membership, which frames the offer against a monthly subscription rather than against coaching. The rep addressed the convenience contrast but never the cost contrast."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A short, form-only engagement — one month to get the technique right, because form is the specific obstacle he named",
+      "why_unmet": "The sanctioned offer is six or twelve months. The prospect asked directly, 'What if any, I do a month just to get the form and all that?' and the rep answered by improvising an unsanctioned $1,200 one-month term. The demand is real and recurring across this rep's calls, and the product line does not contain it.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To start now and pay from funds locked in an existing monthly financial product, or to defer the start until those funds are accessible without redoing the process",
+      "why_unmet": "He asked explicitly whether he could just email later to begin — 'if, for example, I wouldn't be able to start now, will I be able just to email you and say, can I start, and I don't need to go through, like Kim and yourself' — and was told 'I have to onboard you'. No deposit mechanism, no hold, no deferred start was offered, so the entire deal now rests on him resolving a liquidity question unaided.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Reassurance that the shoulder click and the arm he already hurt will be safe under loaded overhead work",
+      "why_unmet": "He raised the fear three separate times. Each time it was answered as a technique matter — 'That could be form. It likely is going to be form' — and the programme's answer to the underlying question, whether a shoulder like his should be doing snatches at all, does not exist. Nobody offered a screening step or asked whether it had been looked at clinically.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Pricing that reads sensibly in Saudi riyal for a Saudi buyer",
+      "why_unmet": "The rep converted live throughout and the prospect did the arithmetic himself twice. There is no local price list and no guidance on non-USD markets, so a large fraction of a 48-minute call was spent on currency conversion rather than value.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "call_id": "2026-07-10_adam_richard-claessen",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "A closer stated that one of eight booked calls showed that day; because only shows produce recordings, every close rate derived from this corpus is measured against a denominator that excludes the no-shows.",
+      "evidence": [
+        "oh man, today is such a day. Like, I began with, I don't know, eight calls on my calendar. Only one showed so far and that was the brand [Brent].",
+        "So, we'll see how it goes.",
+        "So the guy that I have right now, like in 30 minutes, is not gonna show you. He didn't reply to me, so he wanted to move till next Friday."
+      ],
+      "timestamp": "00:07:40"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A second product tier called 'Primal University' is being used as a live downsell for prospects who will not buy the $6,000 one-to-one, and it appears nowhere in the stated offer, with no price named on the call.",
+      "evidence": [
+        "Next time with someone like that, I would push them towards doing primary [Primal] university first.",
+        "So with him I did down sell him like I gave him an idea from what Primal University looks like. He just wanted to take a look over there.",
+        "if someone is like, hey, I just want to sort of try it out right and sort of do it on the side, I would push them a little bit more towards it",
+        "if he hasn't joined Primal University, you probably have the Primal University closed channel, right?",
+        "I don't care if they come through me into Primal University, into Primal University or through you."
+      ],
+      "timestamp": "00:00:28"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Routing to the downsell tier has no stated policy: the setter did not know it was available or how to access it, and the closer's guidance was to ask a manager and to copy what another setter does.",
+      "evidence": [
+        "So I just don't have the link for the primary university thing.",
+        "I didn't know that I could send people there as well that didn't want it. I was just booking the calendar.",
+        "you have a team meeting in like one and half hours, two and half hours from now. I would say also ask Chris about that, what like he would think.",
+        "I think Kim does the same thing with someone that is like... I just want to test it out. I think Kim always lets them just first do the primal university.",
+        "Well, depends. Of course, if you want... you can also follow up with them. Like, I don't care if they come through me into Primal University, into Primal University or through you."
+      ],
+      "timestamp": "00:01:20"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer asked his setter to keep booking prospects he already considers unqualified so that he can use the live calls as practice.",
+      "evidence": [
+        "I want to take as many shots as possible. I just wanted to tell you that.",
+        "I can't continue with him but because he was very quite firm on that I do want to continue doing what I'm doing. It's like trying to push more like that into one-on-one is not good but I want to take as many life calls as possible so if you send someone like that to me I'd rather just take it as a role play call.",
+        "And like I said, just shoot him my way."
+      ],
+      "timestamp": "00:04:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Both staff treated a prospect's disclosed back injury and another prospect's family emergency as fabrications, the injury being dismissed before a semantic distinction was drawn between hurting and breaking a back.",
+      "evidence": [
+        "Yeah, I don't know what the [f---] you mean by he broke his back. I think that's just [cap].",
+        "It's definitely that broke his back. That's Cap. But he probably just heard it because he told me like, no, I'm sorry, I hurt my back. That's not broke. That's the difference.",
+        "Typically, when the [prospects cancel] it, either they're just running serious, and I don't know why people do, I have family issues, like they just put their family inside of the garbage can",
+        "Yeah, some people may just make excuses for everything and I hate it. Like, just tell me, I don't want to take the call."
+      ],
+      "timestamp": "00:03:48"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The setter described the lead source as cold and low-intent with prospects who never asked for help, and said the problem was being fixed upstream — meaning calls in this period are not comparable with calls from a corrected lead source.",
+      "evidence": [
+        "The thing is, is that there's a lot of volume for sure, but there's literally low intent.",
+        "So like these leads are kind of like cold. Like they didn't directly ask for the help. So they're kind of fixing that right now from the upstream part, from the ads and everything. So I'm just kind of working with that at the moment until they fix the intent of the lead.",
+        "It's just the quality of the leads are just weird. I'm trying to dig into pain to get to build some sort of like reason I should get on the call."
+      ],
+      "timestamp": "00:02:01"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A prospect's ability to pay was inferred from his nationality rather than from anything disclosed.",
+      "evidence": [
+        "If the Orlando guy showed, he would have been an instant close. Just based on his data.",
+        "Yeah, it's an American guy. I feel like he would have the money, to be honest.",
+        "Only one way to find out, of course, and that's just to have the conversation with them."
+      ],
+      "timestamp": "00:07:40"
+    }
+  ]
+}

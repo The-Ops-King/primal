@@ -1,0 +1,114 @@
+{
+  "call_id": "2026-06-10_carlos-baston_andrew-musial",
+  "source": {
+    "drive_file_id": "1NAwq7a3euqOVLiZBVBqzZiNWPp39f1JV",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/10/2026 - Carlos Baston x Andrew Musial KFS ",
+    "display_title": "06/10/2026 - Carlos Baston x Andrew Musial KFS  — Lost",
+    "file_size_bytes": 23226
+  },
+  "call": {
+    "date": "2026-06-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 26,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Okay, I spoke with Kim. You spoke with him a few days ago, yeah?"
+  },
+  "prospect": {
+    "name": "Carlos Baston",
+    "aka": "cbaston82",
+    "name_source": "title",
+    "location": "On the road; taking the call from Orlando, Florida, USA",
+    "age": null,
+    "occupation": "Long-haul truck driver (approx. 18 months in, targeting 2 years); previously a software engineer",
+    "family_status": null,
+    "height_in": null,
+    "weight_lb": 180,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained his whole life, played one year of school football; keeps dumbbells and resistance bands in the truck; started kettlebells about one week before the call, 20-30 minutes each morning at truck stops plus short sets every 2-3 hours; deep biohacking routine (red light, TENS, yoga nidra, tapping, salt/ACV/creatine water, 80% fat carnivore-style diet, cooks in the cab)",
+    "kettlebell_experience": "some",
+    "medical": "Became diabetic at 240 lb when younger and lost weight because of it (now 180 lb); shoulder mobility problem for the last six months after over-training in the gym - 'this arm here is being weaker... sometimes it kind of just bothers me'"
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Explicitly self-sufficient - 'I can get the results myself', 'I'm very resourceful'",
+      "Already learning technique from free video; wants a shortcut, not supervision",
+      "Balked at a $200/mo product and asked for a first-month discount - price-anchored well below the offer",
+      "Proposed label if a better one is wanted: 'the_self_coached_practitioner' - as fit and disciplined as an optimizer but with none of the discretionary income"
+    ]
+  },
+  "goals": [
+    { "text": "Gain about 10 pounds of muscle in six months, focused on legs and glutes", "category": "muscle_gain" },
+    { "text": "Fix kettlebell form and get a structured routine rather than random workouts", "category": "other" },
+    { "text": "Move toward longevity and flexibility rather than the bulk-and-shred cycling that made him diabetic", "category": "longevity_function" },
+    { "text": "Deeper abdominal definition", "category": "appearance" }
+  ],
+  "pains": [
+    { "text": "Lost most of his muscle since starting truck driving; legs and glutes are the weak point", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "No technique knowledge - was snatching the bell and letting it drop onto his forearm", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Shoulder mobility restricted for six months after over-loading in the gym", "category": "injury", "severity": "medium" },
+    { "text": "Training environment is a truck cab and truck stops; sits all day", "category": "training_barrier", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Going to box a month seems kind of expensive for just workout programs, I guess on video, but I don't know. I've never done anything like this, so...",
+      "timestamp": "00:19:25",
+      "rep_response": "Shared his screen and walked the Skool classroom, movement library, nutrition module and monthly workout blocks instead of answering the value question.",
+      "response_tactic": "feature_demonstration",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "I got a question, is there a, can I give you a discount on the Primal University to try it out for the first month, or is that not possible?",
+      "timestamp": "00:25:41",
+      "rep_response": "Declined flatly - 'No, there's no discounts, unfortunately.'",
+      "response_tactic": "hold_price",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 1, "price_usd": 200 }, { "months": 12, "price_usd": 2000 } ],
+    "recommended_tier_months": 1,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Rep disqualified him from the $6,000 coaching programme before presenting it - 'from what you've told me, you don't really... You that profile... I'd actually be doing you a disservice, putting you on this kind of program'",
+      "Prospect asked to buy the coaching anyway - 'what if I had the money and still wanted to do it, you know, to get coaching' - and the rep still steered him to the self-serve product",
+      "Ended with 'I'll send you over the email, all the info about the Primal University' and 'I'll take a look at it' - no commitment on either product",
+      "Confirmed lost in the 2026-06-10 team meeting: 'it turned out like $200 is a lot for him. So I saved myself 30 minutes.'"
+    ],
+    "next_step": "Rep to email Primal University details; no follow-up call booked.",
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null
+  },
+  "notable": {
+    "note": "The clean disqualification is genuinely good conduct and the rep held price when asked for a discount. Two things sit against it. First, the prospect explicitly asked to buy the $6,000 coaching for form feedback and a leg-focused programme and was talked out of it - demand existed and was declined on the rep's read of the prospect's wallet, not his fit. Second, a type 2 diabetes history and a six-month shoulder impairment were disclosed and then steered into an unsupervised self-paced kettlebell and steel-mace product with no clinician question at all."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Large blocks invert - the rep's injury question at 00:02:00 and his entire Primal University pitch at 00:23:00-00:24:30 are labelled to the prospect, and the prospect's answers appear under the rep. Roles read from content. Rep's Fathom label reads 'Andrew Jin (Primal Instinct)' against a title and folder naming Andrew Musial. Call also interrupted by a dispatch phone call at 00:03:56."
+  }
+}

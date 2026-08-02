@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-13_unnamed-art-dealer_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Asked repeatedly to understand the mechanics rather than reacting to the value: 'So basically, it's a back and forth of videos, so to say.' and 'Oh, so he's telling me that I just sent the workouts to him, because obviously he's in America and I'm like in the thing.' Also probed control: 'if he gives me too much exercise... the weight, it's me who determines it in the end, right?'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Delivered in a single sentence and accepted without comment: 'And on nutrition, it's already going quite well. He's still going to look into it with you to see if he can make the small tweaks.' The prospect did not respond to it at all — the thinnest pillar delivery on the call."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Engaged on mechanics — 'Could I be texting Trevor directly then?' — but pushed back on the one fixed commitment: 'the problem is that that's the time I'm going to be completely smashed. Exactly. The chances that I would do a workout then are very slim.' He also pre-emptively excused missed sessions: 'because you could be sick as well, you know.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I pay him like 75 pounds an hour and that, I don't know, what is that a month? That's like, you know, so an hour, two hours for it, eight times 75, yeah, say nine times 75. So yeah, I pay around 750 pounds",
+      "direction": "supports_price",
+      "competitor": "His existing in-person personal trainer, London",
+      "note": "Roughly 900 USD a month against Trevor's 1,000 a month equivalent. The rep spotted this and reframed it — 'It's about the same' — which is correct arithmetic but did not land, because the prospect values physical presence and would have to pay both."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I once did online training with a trainer based in LA and, and he, I don't know, he charged me, I think for a whole summer, I think for three months, he charged me like, like $500 or something like that. But then, then that was also like two, three times a week.",
+      "direction": "undercuts_price",
+      "competitor": "Prior online coach, Los Angeles",
+      "note": "A proven online coaching experience at roughly $167 a month against $1,000 a month. This is the anchor that actually mattered and the rep did not address it."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I would say he'd probably charge me, I don't know, maybe $40 an hour or something, and then that week, that would be like $80 a week for that, and then plus all the administration, maybe he would then charge $120 a week",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His mental price for the service was roughly $400-480 a month, against a $1,000 a month offer. He had built this expectation from free content and stated the cause plainly."
+    },
+    {
+      "type": "no_price_preframe",
+      "raw": "I wasn't aware. I mean, because he mentions nowhere how much it's actually going to cost. So, obviously, that's why.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect came in with no price expectation set anywhere in the funnel and said so twice, including 'It comes as a little bit as a surprise. That's all.' A pre-framing gap upstream of the closer, not a rep failure."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A trainer physically present who can see and correct him on the spot",
+      "why_unmet": "The programme is asynchronous — filmed workouts reviewed within 24 hours. He stated the objection directly: 'I like a physical presence of a trainer... he's next to you and he shows you technically how, what to do as opposed to, you know, Trevor can send me a video and I can still do it. I can still do something wrong.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Kettlebells twice a week as a supplement alongside his existing trainer, swimming and hiking, rather than as his primary training",
+      "why_unmet": "The rep initially said the plan would be built around his trainer and swimming, then conceded the programme is not worth it as a supplement: 'if you're just looking to have like an extra, then indeed, I wouldn't even per se recommend it a lot.' The programme probably can serve this; nobody positioned it that way.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Written terms and conditions before proceeding",
+      "why_unmet": "He asked explicitly — 'Can you send that in writing, the whole conditions and all that, before I go anywhere further?' — the rep said 'Yeah, sure' and the subject was never returned to on the call.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

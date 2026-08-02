@@ -1,0 +1,84 @@
+{
+  "call_id": "2026-06-10_joel-ortiz_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Interrogated the delivery mechanics for roughly fifteen minutes and then summarised them back to check his understanding: 'I'm just going to reflect back just so I can get it, make sure I understood. So it's very heavy on app-based... The client will be recording themselves based off of the workout.' Follow-ups included whether he records every movement or one at a time, how fast feedback comes, whether Trevor sets the weekly frequency, and how many kettlebells he needs to buy. He is sold on the modality — he chose it deliberately for the low equipment and no-commute requirement — and was verifying execution, not being persuaded."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Opened his own question list with it: 'my biggest thing, right, Ben, that I've learned throughout my time working out is not only the workouts that we do, but nutrition is very important. And so, as far as nutrition support, does Trevor and the program actually provide, like, meal plans throughout the session?' The answer was no — guidelines rather than meal plans — and he accepted it without pushing. The rep did ask about dietary restrictions arising from the gastritis, which was the right question, but the reply then described an intermittent-fasting eating window and raw or unpasteurised dairy to a man with a stomach he calls very sensitive, and nobody reconciled the two."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The pillar he probed hardest, because his last self-directed restart ended in an injury. 'How often do I get to communicate with the coach, which I'm assuming is going to be Trevor, and do I get direct access to him? And how quickly should, as a client, should I expect a response?' Then 'are the workouts generic or are they altered to fit the client?' and later a series of questions about what weekly check-ins actually contain. His stated reason for wanting coaching at all is form supervision: 'what he explains in his video is kind of get hurt and not know how to actually perform the kettlebell workouts... since I've gotten hurt before, I don't want to do that.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_paid_remote_coaching",
+      "raw": "I'm doing a one-on-one coaching online with a nutritionist from New Zealand. Yeah, he, for six months, I did a six-month program, nutritionist program, and that's what he had me on. And so that helped me heal, kind of detox and relieve inflammation in my stomach.",
+      "direction": "supports_price",
+      "competitor": "an online nutritionist in New Zealand",
+      "note": "The single most useful fact on the call and it was never used. He has already bought six months of remote one-to-one coaching, from the other side of the world, and it worked well enough that he credits it with helping him heal. That answers in advance every doubt about the remote model — the objection that sank the Ricardo Ventura call the day before — and nobody asked what it cost or why it worked."
+    },
+    {
+      "type": "prior_equipment_spend",
+      "raw": "I built a whole gym in my garage.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Already invested materially in home training and cannot use it productively — he restarted on it, went too heavy and injured his shoulder. Equipment plus no instruction equals injury, which is precisely the case for coaching. Unused."
+    },
+    {
+      "type": "anti_gym_membership",
+      "raw": "I know people that has 20, 50 memberships in different gyms, and they never reach the gym. And so I explored the kettlebell... because there's just limited resources, limited equipment, but you can get the same results as someone bench-pressing.",
+      "direction": "supports_price",
+      "competitor": "gym memberships and in-person trainers",
+      "note": "He has already rejected the cheap substitute on his own reasoning and reports no local kettlebell-specialist trainers he is aware of. There is no competing offer in his head."
+    },
+    {
+      "type": "imminent_household_expense",
+      "raw": "we're about to have a child. So I want to make sure, hey, can I put this on a credit card? Or are we going to work out payment plans and maybe cut it between $3,000, $3,000?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A first baby due 25 December is the live financial pressure, and he had no idea of the price before the call — 'I didn't know the prices coming into it.' The pressure is on cash timing rather than capacity; he stated he believes he has the money."
+    },
+    {
+      "type": "no_equipment_owned",
+      "raw": "how many kettle balls, right? ... Do you have any right now? I don't. No, no, no. And the reason I don't is because, again, I didn't know what weight I should start off.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "An unquantified additional purchase sitting on top of $6,000, and he cannot buy it until Trevor's assessment tells him what weights to get — which is after payment. Minor in money, real in friction."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A professional assessment of his body, goals and realistic timeline in order to choose between the six-month and twelve-month tiers before paying",
+      "why_unmet": "The assessment is the first step after payment, so the information he says he needs to decide is only available once he has decided. He raised this four separate times and finally framed it himself as a mechanic diagnosing a car before quoting the work.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Meal plans as part of nutrition support",
+      "why_unmet": "The Primal Eating Protocol is deliberately guidelines rather than plans. He asked for meal plans by name in his first question and was given the guidelines answer; he accepted it, but the thing he asked for does not exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Nutrition that safely accommodates relapsing gastritis with a highly sensitive stomach",
+      "why_unmet": "The protocol as described — an intermittent-fasting eating window, heavy on meat, with raw or unpasteurised dairy suggested — was presented without reference to the condition, even though the rep had correctly asked about dietary restrictions moments earlier. Whether Trevor can build around it is genuinely unknown and needs a human, and arguably a clinician, to establish.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Prorated or credited pricing when extending or upgrading part-way through a term",
+      "why_unmet": "He was told no prorated rate exists, then that a mid-term upgrade could probably be figured out but needed confirming, then offered an entirely different 30-day arrangement. There is no stated policy and the rep improvised three answers.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A definite payment structure he could take to his wife",
+      "why_unmet": "Three possibilities were listed and none fixed, with an interest figure quoted loosely as 'an extra 200 bucks a month'. No link, no total, no term.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

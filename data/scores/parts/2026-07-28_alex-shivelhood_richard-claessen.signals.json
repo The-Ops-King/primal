@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-28_alex-shivelhood_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yeah, yeah. That to me is an easy part to me. As long as I have the plan in front of me. So like I said, I'm good at following directions.' Understood and agreed with no questions - consistent with his self-description that his gap is direction rather than willingness."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered a positive reaction and tied it directly to his own experience, unprompted: 'the more knowledge and the more sustainable we can make this' followed by the Disney World story - 'I went to Disney World for eight or nine days. And I could tell from that previous, if I hadn't lost that weight, I wouldn't have been able to get around as much, but you learn how to adapt and eat.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "'I love that, that's, music's my ears in that sense, you know, why, to me, why delay what you can get to. And make it sustainable and repeatable, but also have access to the resources and understand what he's learned and pass it on.' The teach-and-release framing lands especially hard here because his previous coach revealed a further $7,000 at month six."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_coaching_spend",
+      "raw": "I realized what he did at the six month mark so six grand and then another seven grand after back you know six months",
+      "direction": "supports_price",
+      "competitor": "his previous personal trainer",
+      "note": "The single most useful anchor in the batch. He has already paid $6,000 for six months of personal coaching, which is why the price landed softly - 'I'm not going to hone in on that it's too much.' The same anchor cuts the other way on trust: the $7,000 renewal was sprung on him at month six and destroyed his confidence, which is exactly the objection Primal's teach-and-release positioning answers."
+    },
+    {
+      "type": "financial_distress",
+      "raw": "we haven't even recovered from credit card debt from the move... I know my credit cards are almost max",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "620 credit score, near-maxed cards, roughly $200 a month left after bills, and about $2,000 he could put down himself. The willingness is unambiguous and the capacity is not there. This is the clearest case in the batch of a prospect where the income criterion and the payment plan are doing opposite jobs."
+    },
+    {
+      "type": "competing_financial_commitment",
+      "raw": "this is about a house and we've got about, you know, five projects, two of them are immediate have-tos... it's a money pit when you buy a new home",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A newly bought house with two urgent renovation projects is the number already in the household budget when $6,000 arrives, and it is jointly held with the partner whose approval he needs."
+    },
+    {
+      "type": "founder_credibility",
+      "raw": "it's less BS out of his mouth, is what I feel like",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He explicitly compared Trevor against the many programmes and salespeople he has already evaluated and picked him for straightforwardness. After being burned on undisclosed renewal pricing, low-BS is the attribute he is actually buying."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To know what is realistically achievable for a 52-year-old who has never had a body he was happy with - 'I don't know what's achievable for a 52-year-old never having nothing but a flabby belly'",
+      "why_unmet": "He asked the question in substance and nobody answered it. No expectation was set, no comparable case was shown, no target beyond his own guess of 185 lb was discussed. He is being asked to spend $6,000 he does not have on an outcome nobody has described to him.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Financing that works for someone with a 620 credit score, near-maxed credit cards and about $200 a month of surplus",
+      "why_unmet": "The only structure available is three payments of $2,000 over three months, which he cannot obviously fund - he said so directly: 'I don't even know if I have enough on credit to even do half and half.' There is no longer-term financing, no third-party lender and no lower tier offered to him on this call, despite a $1,000 product existing and having been offered to other prospects in the same week.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Improvement in the denervated abdominal wall muscle, which a surgeon told him weight loss and abdominal work might partly mask",
+      "why_unmet": "Never addressed. The rep did not respond to the disclosure at all beyond establishing the timeline, so whether kettlebell training helps, hinders or is irrelevant to a permanently denervated abdominal wall is unknown to both parties.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

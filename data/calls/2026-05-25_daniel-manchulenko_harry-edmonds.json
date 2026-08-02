@@ -1,0 +1,126 @@
+{
+  "call_id": "2026-05-25_daniel-manchulenko_harry-edmonds",
+  "source": {
+    "drive_file_id": "1HH1tGl_B-UwVptkZCz-dR9Fxquzj0cT6",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/25/2026 - Daniel Manchulenko x Harry Edmonds KFS",
+    "display_title": "05/25/2026 - Daniel Manchulenko x Harry Edmonds KFS — Closed",
+    "file_size_bytes": 64032
+  },
+  "call": {
+    "date": "2026-05-25",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 61,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "\"I know you spoke, ooh, I believe you spoke with Kim, right?\" — \"Yeah, yeah, it was Kim. I don't know if he's younger, but he was another Brit.\" The prospect also describes a preceding SMS thread with \"Sophia\", which the rep confirms is an AI scheduling agent supporting Kim."
+  },
+  "prospect": {
+    "name": "Daniel Manchulenko",
+    "aka": "dmanchulenko (Zoom account label)",
+    "name_source": "title",
+    "location": "Orlando, Florida, USA; originally from Winnipeg, Canada",
+    "age": 46,
+    "occupation": "Accounting and finance for Margaritaville, a hospitality and leisure company — desk-based",
+    "family_status": "Married; wife is from Wisconsin and is health-focused. Three children aged 4, 6 and 8. He and his wife alternate morning workout slots, four days for him and three for her, and do not allow swaps.",
+    "height_in": 70,
+    "weight_lb": 200,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Consistent for years. Lifts four mornings a week, sometimes adds yoga on his wife's mornings. Runs two half marathons a year (\"I don't particularly enjoy running, I just do it because I enjoy living\"), completed the Disney Dopey Challenge in January 2020 running about 30 miles a week. Golfs regularly. Weighs in every Monday; weight has ranged from 250 at its peak to a 195-200 baseline; target 180. Followed Bill Phillips' Body for Life in his mid-twenties and got below 150 lb but lost significant muscle and calls it unsustainable. Self-reports being \"a few pounds north of 200\" at the time of the call.",
+    "kettlebell_experience": "none",
+    "medical": "No conditions or injuries disclosed and none asked about. Reports chronic poor sleep — \"I haven't really been sleeping well in the last two and a half years\" — attributed to young children and being a light sleeper. Practises extended fasting: an 11am-6pm eating window, a weekly full water fast from Tuesday dinner to Thursday 11am, and a 77-hour water fast around the new year. Chronically tight hamstrings and calves from running and desk work."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.75,
+    "signals": [
+      "Already disciplined and already training — four mornings a week, two half marathons a year, clean diet, regular extended fasts — and explicit that he is not broken: \"I'm pretty disciplined when it comes to being on a program. I just need to get on the program\"",
+      "Price treated as a non-event; he asked how the payment structure worked, never whether it was worth it, and volunteered that he had recently paid $10,000-scale sums for coaching-adjacent services in the same breath as the rep",
+      "Buying the last 20 lb and the qualitative layer on top of a functioning life: \"a noticeable difference in how I look in the mirror... increased flexibility, better sleep\""
+    ]
+  },
+  "goals": [
+    { "text": "Get down to 180 lb without losing muscle mass", "category": "fat_loss" },
+    { "text": "A noticeable difference in the mirror — be able to take his shirt off between nines on the golf course and look like someone who trains", "category": "appearance" },
+    { "text": "Stay agile and functional — \"I don't want to be one of those people that you can tell how old I am based on how I walk\"", "category": "longevity_function" },
+    { "text": "Improve flexibility, particularly hamstrings and calves", "category": "mobility" },
+    { "text": "Sleep better", "category": "other" },
+    { "text": "Keep up with three young children — pick them up and throw them around without being gassed after a couple", "category": "longevity_family" },
+    { "text": "Have a structured training plan with a defined goal, like his half-marathon plans", "category": "consistency" },
+    { "text": "Be the guy who is still driving 300 yards on the golf course at 60", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Roughly 20 lb above where he wants to be — \"there's a marshmallow-y coating over me\"", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Gassed after a couple of rounds of lifting his kids — \"I do a couple of those, and I'm gassed\"", "category": "aging", "severity": "high" },
+    { "text": "Chronic poor sleep for two and a half years, which he identifies as the thing that starts the downward spiral", "category": "sleep", "severity": "high" },
+    { "text": "Falls off the wagon after an event — a week or two off becomes three or four while still eating the marathon diet", "category": "consistency", "severity": "high" },
+    { "text": "Does not enjoy running but does it as his only structured cardio, and half marathons are too long for him now", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Tight hamstrings and calves from running plus a full day seated", "category": "training_barrier", "severity": "medium" },
+    { "text": "Weight swings — has been as high as 250 and cannot hold below 195-200", "category": "consistency", "severity": "medium" },
+    { "text": "Needs external pressure — \"if I was diligent, I probably wouldn't be on this call right now. So, you know, sometimes you just need a kick in the ass\"", "category": "accountability_gap", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "timing_other",
+      "raw_quote": "so now I'm going on vacation, the 7th to the 20th. I'll be at one place for a week, another place for the other week, I have no idea what my kettlebell access will be like on my vacation.",
+      "timestamp": "00:48:50",
+      "rep_response": "Gave two options — train through if kettlebells are available, or pause and get the time back with a bodyweight maintenance plan meanwhile. The prospect then talked himself out of delaying: \"I don't really like delaying starting though when I'm motivated to do something. Like I'm fired up to do stuff now.\"",
+      "response_tactic": "pause_or_bodyweight_bridge",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "I don't know. So I gotta kind of sit and do the math. I'm neurotically analytical and the selling feature on 12 is that like when I train for half marathon, like I am great. Once I start, like I usually do about three months and I'm great. And then once I run the event, then I'm like, I just kind of take a week or two off, but that week or two turns into like three or four.",
+      "timestamp": "00:54:52",
+      "rep_response": "Removed the need to decide by telling him a six-month extension would cost only $3,000 — \"let's say you do six months at 6K. And then you're like, oh, I want to do another six months. It's another 3K. It's not another 6K. So it works out the same financial-wise anyway.\" The prospect confirmed the claim back and immediately chose six months.",
+      "response_tactic": "unverified_renewal_price_promise",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "\"$6,000 up front, or you can do it in two payments of $3,000. So it'd be $3,000 down and then $3,000 as long as it's done within 90 days.\" A monthly option was quoted and steered away from: \"if you did want to do a monthly payment, it's $1,250 a month. So it works out to be $1,500 more.\" The rep also confirmed the same 90-day split applies to the 12-month tier at $4,500 and $4,500. The structure Daniel finally chose is not stated on the recording, which stops as the card is taken.",
+    "guarantee_mentioned": "\"we have a guarantee. The guarantee is that by... Let's say your starting weight is 35 pounds. Guarantee is that by the end of the six months, you'll be swinging around a 20 pound heavier kettlebell for all the movements.\" Clarified on questioning that the 20 lb applies per kettlebell.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Chose the six-month tier explicitly: \"Then I would, yeah, then I'd just do the six.\"",
+      "Confirmed ready to transact — rep: \"Was there anything you wanted to go over or were you kind of ready to rock?\" — prospect: \"I think I'm good to go.\"",
+      "Payment was sequenced ahead of onboarding and accepted: \"We process the investment and stuff and get you all set up now and then book that call in\" — \"Oh, so I pay and then talk to Trevor? Yeah, yeah.\" — \"Got it.\"",
+      "Payment instrument confirmed: \"I want to do it on my Visa.\"",
+      "Trevor onboarding booked live for 3:15pm the following day, Eastern time",
+      "Counter-evidence: the recording is stopped by the rep at the point of taking card details — \"Okay, I'll kick the recorder out for you\" — so payment is evidenced as commenced, not completed, and the final choice between paying in full and the 90-day split is not on the record"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Card taken on the call; onboarding call with Trevor at 3:15pm Eastern the following day; Trevor to specify kettlebell weights (likely one 35 lb, two 45s, two 55s) to buy before starting; vacation 7th-20th to be covered by a bodyweight plan or a pause with the time credited back"
+  },
+  "notable": {
+    "note": "The single most consequential disclosure in this batch is not about the prospect. The prospect challenged the identity of \"Sophia\", the persona texting him to confirm appointments, and the rep confirmed she is an AI — adding that she is \"typically pretty good at, you know, not causing any suspicion.\" The prospect was relaxed about it, but the design intent stated out loud is that recipients should not realise they are talking to software. Second: the rep resolved the six-versus-twelve deliberation by promising that a further six months would cost $3,000 rather than $6,000, the prospect repeated it back to confirm, and that promise decided the tier. The same claim appears on the Robert Castillo call ten days earlier, so it is a habit rather than a slip. Third: the rep offered to send the prospect his own material for two and a half years of poor sleep, mentioning that he had paid a sleep coach $10,000 — well-meant, but it is a salesperson handling a chronic sleep problem rather than pointing at a clinician."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Constant inversion in both directions and several very long undifferentiated blocks where both speakers run together with no turn breaks (00:03:28-00:07:40, 00:37:00-00:38:16, 00:46:58-00:49:00, 00:51:12-00:54:05). The rep's philosophy pitch at 00:27:26 and the entire guarantee explanation at 00:39:19 sit under the prospect's label. Roles read from content throughout. Recording is deliberately stopped by the rep before payment details are taken."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "2026-07-06_jess_richard-claessen",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "not_presented", "evidence": "Call terminated at five minutes; nothing about the programme was delivered." },
+    { "pillar": "nutrition", "reaction": "not_presented", "evidence": "Never raised." },
+    { "pillar": "accountability", "reaction": "not_presented", "evidence": "Never raised, though the rep gestured at the logic — 'we can give you a routine, but if you can[not] stick to it, then you're still going to get injured.'" }
+  ],
+  "anchors": [
+    {
+      "type": "product_expectation",
+      "raw": "I just want to get, like, a workout routine. And I just like what I saw. I need, like, a more functional workout routine.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He came to buy a routine, which in this market is a $30-$200 digital product, not a six-month $6,000 coaching relationship. Paired with 'I just figured it would be an online thing and pricing and that', he arrived expecting a checkout page and got a 45-minute qualification call. That mismatch, not the price, is what he balked at — and nothing in the call ever reframed what was actually for sale."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A functional workout routine he can buy off a page, with the price shown up front",
+      "why_unmet": "The offer is a six-month coached programme sold through a discovery call, with price disclosed only after a fit conversation — the exact structure he objected to. The rep confirmed the constraint rather than bridging it: 'I can give you the price, but eventually it's not going to be a good fit if we don't know if we can help you.'",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "To stop getting injured every one to two months of training",
+      "why_unmet": "Never explored. The injury cycle is the thing the programme's mobility and form-correction pillar exists to address, and it was surfaced and abandoned inside sixty seconds without anyone establishing what the injuries even are.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

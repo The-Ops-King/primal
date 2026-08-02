@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-16_chris-wiley_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "miss", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Rep referenced the application but deliberately declined to read it back: 'I saw your application that you filled out, but I'm kind of an old school guy, to be honest, and I would love to hear it directly from you.' The four-part frame was never set — instead he framed only a binary outcome, 'if we can help, I will gladly show you how Trevor works... If not, no worries, we'll just shake hands and part his friends. Cool.' Frame agreement was sought and given ('Yeah, that's good.'), and the open question ran: 'walk me through what's been going on with your fitness, health, how can we help?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "miss", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Only injuries and diet were actually asked. Injuries: 'do you have any, maybe past injuries or anything that limits your movements right now?' Diet: 'How does it look like for you right now? Be honest, like it's only two of us,' plus a weekend probe. Age (64), the entire cardiovascular and testosterone picture, the training week and the training results were all volunteered unprompted while the rep listened — never asked, so they score miss. Height, weight, sleep and daytime energy were never covered at all, which is why no height_in or weight_lb exists in the record for a fat-loss client."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "miss", "P3c": "miss", "P3d": "partial", "P3e": "miss", "P3f": "partial", "P3g": "partial", "P3h": "partial" },
+      "evidence": "The one-thing-to-change surfaced from the prospect ('I hate belly fat'), and the rep did probe once with 'Why is that? Like, maybe it's just a dumb question,' which opened the appearance and relationship layer. He got to the second-person impact with 'You want to lead by example?' but never drove past the girlfriend to kids, legacy, identity or longevity. The reflect-back was attempted and rejected: rep offered 'being at 64, still embarrass young bucks at a pool' and the prospect corrected him — 'No, I, let's say I go to, I just want to look good.' Rep did not re-frame after the correction. No question about a physical thing he wants to do but can't."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Phase never run. The rep never asked what the prospect had tried before, what happened with it, why it did not stick, or what is actually in the way. This mattered here: the prospect has been 'going back and forth on belly fat' for years and no root cause was ever named, so the offer was presented against an undiagnosed problem."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame of any kind. The two-year question, the willing-to-settle question, the 'why not' and the line-in-the-sand were all absent. The rep spent this part of the call agreeing with the prospect about how well he is doing — 'you're not a typical 64-year-old American' — which is the opposite move."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check before presenting. The nearest thing was a program-fit question after the pillars — 'checks all the boxes or do you feel that something is missing?' — answered flatly with 'No, I feel like everything you said is what I expected.' Neither the belief question nor the all-in question was asked, so the rep went to price with no verbal yes and a distinctly lukewarm signal on the table ('We'll see.')."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "partial", "P11d": "hit" },
+      "evidence": "Payment collected and confirmed live ('so I see it went through'), though for $1,200 rather than the program price. Onboarding booked: 'On Monday, the 20th, to meet with Trevor' at 3:15pm Central, read back by the prospect from his confirmation email. Agreement email confirmed as arrived and opened, and the prospect read clauses aloud, but the rep then said 'take your time on the agreement' and muted himself to take another call — signature on the call is never confirmed, so P11c is partial. Skool community and onboarding form were both named."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger was clear — 'is it a payment plan or you got to dish out the whole six grand?' followed by 'I would be interested in monthly.' The rep skipped the isolation move entirely and went straight to restructuring, which is the reverse of the script order. He never used the 'not a SHOULD I place, a HOW place' frame and never opened the financial picture: no cash on hand, no monthly surplus, no cards, no available credit, no investments. He did attempt a late and partial isolation after three price structures had already been floated — 'is it the structuring of the money or there's something else, like you're not sure about the program' — but by then the discounting was done. The 'most clients pay upfront, but for some we break it up' line was inverted into an unprompted offer of consumer financing (Klarna, Affirm, Pava), which the prospect rejected on principle."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The prospect voiced a provider-risk fear — 'I don't want to pay out the six grand and then he dies or something.' That is a certainty-seeking objection and OE is the play for it. None of the moves ran: no 'would it be fair to say you're looking for certainty', no bridge, no plane, no burned-before. The rep treated a risk objection as a cashflow objection and answered it with payment terms, which is why it resurfaced and ultimately cost five months of the contract."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP. The prospect's real position was a negotiating reflex, not affordability or doubt: 'in life, I just want to, I want to make sure to bargain. That's all.' He had already volunteered that $6,000 was exactly what he expected to pay and that he has the cash. There is no play for a buyer who accepts the price but wants to feel he extracted something, and the rep improvised a $1,200 one-month tier — turning a full-price close into a trial. This is the mirror image of the known 'cheaper alternative' gap and should be added to the playbook."
+    }
+  ],
+  "notes": "Half the process never ran: past attempts, consequence frame and commitment check were all skipped outright, and baseline collected neither weight nor height on a fat-loss sale. The call worked as rapport and pillar delivery, then collapsed at price because there was no commitment check to fall back on — with no verbal yes banked, the rep had nothing to hold the line with and invented terms three times in four minutes. Coach the isolation move before any restructuring, and give him a play for the buyer who just wants to haggle."
+}

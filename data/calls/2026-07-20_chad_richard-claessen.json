@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-07-20_chad_richard-claessen",
+  "source": {
+    "drive_file_id": "1zV7TMHQhmrwhzz3vVgAGDIcxZMgJTOo9",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/20/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/20/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 29250
+  },
+  "call": {
+    "date": "2026-07-20",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 25,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "medium",
+    "evidence": "No suffix in the title, but a setter is named twice on the call. Rep: 'already got some information from Derek'. Prospect: 'as I was talking with Derek, you said?' Worth escalating centrally — the extraction spec lists the DH setter code as unknown, and a setter called Derek is direct evidence for what DH may stand for. The code field is left null here because it is defined as coming from the title suffix and this title has none."
+  },
+  "prospect": {
+    "name": "Chad",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Houston, Texas, USA",
+    "age": 45,
+    "occupation": "Not asked. Was in a work meeting immediately before the call and took a break to attend.",
+    "family_status": "Married; a child appears briefly on the call ('Daddy, this is for you')",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": 25,
+    "training_background": "Trained at home until roughly a month ago, then joined a commercial gym at his wife's suggestion and started learning to swim. Does general full-body gym work plus swimming. Completed four or five sessions with an in-person personal trainer that finished a few weeks ago, taken specifically because of his injuries. Owns a kettlebell and does basic swings and lifts but wants structure. Lost four to five pounds in a month, then regained most of it after returning to daily desserts.",
+    "kettlebell_experience": "some",
+    "medical": "Right elbow pain with some swelling when doing biceps work or heavy or high-repetition loads. Left knee pain when climbing stairs, which he attributes to bad form on landmine squats — 'I think my knee was much further than my toes and a lot of weight'. Both present for three to four months. No doctor, physio or clinician is mentioned anywhere in the call and none was asked about."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.55,
+    "signals": [
+      "Proposed label: the_credential_checker. He is running a vendor evaluation, not a transformation conversation — 'I don't know anybody else right now. So I'm trying to see, evaluate who is good' — and asked directly, 'does he have any certifications or anything?'",
+      "He resisted the emotional discovery sequence outright and asked three times for the programme mechanics and price instead: 'we have discussed enough about me, so I want to know more about the plans', 'how does this work, like, is it like a live session?', 'how does the program start?'",
+      "Not the optimizer — at 25% body fat with belly fat as the presenting complaint, and not the rebuilder either; he has no former self he is chasing and gave 'I don't know' when asked what longevity would mean to him.",
+      "Closest existing label would be skeptical_bargain_hunter for the due diligence, but no price anchor or cheap substitute was ever established, so that label would be wrong on its defining criterion."
+    ]
+  },
+  "goals": [
+    { "text": "Lose belly fat — the stated main focus, from about 25% body fat to around 15%", "category": "fat_loss" },
+    { "text": "Bulk up and build muscle faster than he is managing alone", "category": "muscle_gain" },
+    { "text": "Spend less time training — 30 to 40 minutes at home rather than a gym round trip", "category": "convenience" },
+    { "text": "Learn correct form so he stops injuring himself", "category": "injury_prevention" },
+    { "text": "Reduce visceral fat for organ health and longevity — 'having fat is not good for the organs... it affects all the organs, functioning of the body'", "category": "longevity_function" },
+    { "text": "Train in a structured way rather than improvising swings and lifts", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Right elbow pain and swelling under load, present three to four months", "category": "injury", "severity": "medium" },
+    { "text": "Left knee pain climbing stairs, self-attributed to bad form on landmine squats, present three to four months", "category": "injury", "severity": "medium" },
+    { "text": "Loses the weight then puts it back on — 'I started again eating dessert just a couple of weeks ago. So I think pretty much I gained it back'", "category": "consistency", "severity": "high" },
+    { "text": "Daily ice cream and Indian sweets — 'now I've been eating ice cream daily'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Estimates nutrition by feel and by asking an AI rather than measuring — 'kind of eyeballing... it adds up in my mind'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Unmotivated training at home — 'I was maybe not that motivated, like looking at the phone and then reading news'", "category": "motivation", "severity": "medium" },
+    { "text": "Gym round trip costs him thirty minutes he does not want to spend", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Cannot judge which coach is credible — 'I don't know anybody else right now. So I'm trying to evaluate who is good'", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "trust_provider",
+      "raw_quote": "So what are his qualifications?... But he has any certifications or anything?",
+      "timestamp": "00:19:16",
+      "rep_response": "Said he did not know — 'Not 100% sure, actually' — and offered client volume plus the absence of online complaints instead: 'All I know that he's worked with 1,200 people, and I guess if it wasn't good, then probably you would see it all over the internet. Would you agree with that?'",
+      "response_tactic": "volume_claim_and_absence_of_complaints",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "But I... I think, yeah, so we have discussed enough about me, so I want to know more about the plans, what kind of plans you have, so I can make some decisions on when I need to start, if I need to start, and all that.",
+      "timestamp": "00:22:59",
+      "rep_response": "Declined and defended the sequence: 'honestly speaking, I'm not sure yet if it's 100% of a good fit... it really comes down to seeing if it's a good fit, and we're almost there, so if you can let me a few more.' Then, when asked again, 'I can tell you it's this price, this is how it works, but then we're also not going to work together.'",
+      "response_tactic": "hold_the_discovery_frame_and_refuse_disclosure",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "Is he going to be there with me for the whole 40 minutes, one-on-one, or?",
+      "timestamp": "00:24:00",
+      "rep_response": "Answered honestly that Trevor supports over text rather than live, then immediately returned to discovery questions.",
+      "response_tactic": "answer_then_redirect_to_discovery",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.72,
+    "close_rule_applied": null,
+    "evidence": [
+      "The prospect terminated the call: 'Yeah, I think I have enough talk, yeah, but I'll contact you later.'",
+      "It ended on an impasse over process — he asked three times for the programme structure and price and was refused each time, the last refusal being 'I can tell you it's this price, this is how it works, but then we're also not going to work together.'",
+      "No price was ever presented, no link sent, no next call booked, and the rep made no attempt to recover — he closed with 'Yeah, thank you. Have a good day. Ciao, ciao.'",
+      "Counter-evidence: he said he would make contact himself, so this is not an explicit refusal of the offer — he never heard one. A case could be made for undetermined, but with no next step, no price and a prospect who ended the call, lost is the honest read.",
+      "An unresolved credibility objection is also live: he asked about certifications and was told the rep did not know."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. The prospect said he would make contact himself."
+  },
+  "notable": {
+    "note": "Two things. The prospect asked a direct question about the coach's professional qualifications and the rep did not know the answer — 'Not 100% sure, actually' — and substituted client volume and the absence of online complaints. That is an enablement failure with compliance implications, given the programme is sold to people with injuries. Second, the call was lost on process: the prospect asked three separate times what the programme actually is and what it costs, and the rep withheld both to protect the discovery sequence, which is a defensible frame taken past the point where it served anyone. Also worth escalating: the setter on this call is named as Derek, which bears on the unidentified DH setter code."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe. Large blocks are merged and inverted — the passage from 00:06:02 to 00:08:03 attributes a long run of the rep's questions and the prospect's answers all to 'chad', and the rep's label carries the prospect's replies at 00:08:10, 00:17:00 and 00:17:46. The exchange about certifications at 00:19:16 is split across labels with the question and answer reversed. Roles resolved from content throughout. The prospect's name is lower-cased in the diarization and is transcribed variously as 'chad', 'chat' and 'Jack'; 'Chad' is taken as correct from the rep's direct address."
+  }
+}

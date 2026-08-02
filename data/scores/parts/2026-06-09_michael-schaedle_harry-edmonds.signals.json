@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-09_michael-schaedle_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He arrived already sold on the modality through his tennis pro and engaged with the form-first framing by tying it straight to his own history: 'It does 110%, right? Like, I've been an athlete all my life, and when I look at the movements on Trevor's feet, or when I see Mark do a workout, I know that if I do them wrong, I'm not just not going to perform, I'm potentially going to damage myself.' He then volunteered the 225 lb bench press story as corroboration. The mobility half of the trifecta drew no separate reaction; it was folded into the connective-tissue and joints list and passed without comment."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Accepted with an explicit boundary drawn in advance: 'I know that part of what Trevor does is organize a diet. It may be more extreme than I want to organize my diet around, but I certainly will learn from it, so feel free to suggest stuff about nutrition.' He had already described a disciplined low-carb regimen and named evening snacking as his weakness. The rep replied only 'Yeah, that's fine, that's fine' and never engaged with the substance — that this prospect's appetite and eating are currently governed by a GLP-1 prescribed for type 2 diabetes, which makes his nutrition the one pillar the programme cannot straightforwardly own."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Accepted the mechanics readily and was actively pleased by the finite-term framing — when the rep said 'we don't really want to coach you forever' he cut in with 'Well, I don't want you to coach me forever. Exactly. I'm willing to pay for a program.' He also accepted the app-based delivery once it was explained: 'it sounds to me like the app will be a perfectly good way to do it.' Note the direction of travel though: he wants less contact rather than more — 'I don't need to have phone call... I'm hopeful that there won't be a need to do that' — so the 24/7 support that is sold as the core of the pillar is the part he values least."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "peer_already_purchased",
+      "raw": "Mark, who, by the way, has also sent you a $6,000 client, one of his former players from St. Joe's, nice German kid in the area",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The strongest price-supporting anchor available anywhere in this batch — the prospect knew the exact figure, knew someone in his own social circle had paid it, and stated it himself without prompting. He reinforced it moments later: 'I know that his friend just signed up a very expensive program with you guys. He loves it, too.' The price was fully pre-framed before the call began, which is why no money objection ever surfaced."
+    },
+    {
+      "type": "free_substitute_that_worked",
+      "raw": "My tennis pro, Mark P. Bernat, has designed his own sort of beast workout following Trevor's Instagram feed. And, um, he swears by it.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's free Instagram content, self-programmed",
+      "note": "The referrer got the results without paying — 'he's built himself into an absolute beast. And he's twice the size he was when he started working on this' — entirely from free content. The living proof of the offer's value is simultaneously the living proof that the content alone may be sufficient. The rep never separated the free feed from the paid coaching, and the prospect's own framing of what he is buying is technique instruction plus calibration, not the programme."
+    },
+    {
+      "type": "self_stated_budget",
+      "raw": "if you guys are able to do that through email, text, and phone interactions with me, you know, I'm certainly willing to pay something modest to do it",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Said at 00:06:00, well before the price. 'Something modest' and $6,000 are not obviously the same number, and the gap was never tested. He did later say the tailoring 'justifies the cost', but that was reasoning about value rather than a statement about budget, and the earlier anchor remains unreconciled going into the Friday follow-up."
+    },
+    {
+      "type": "alternative_provider_available",
+      "raw": "obviously I can go to trainers and the like",
+      "direction": "undercuts_price",
+      "competitor": "In-person personal trainers",
+      "note": "Raised in passing and dismissed by the prospect himself in the same breath, so it is a weak anchor. Notable mainly because it is the second consecutive call where an in-person trainer sits in the consideration set and the rep does not build a case against it."
+    },
+    {
+      "type": "existing_equipment_and_access",
+      "raw": "I have a couple kettlebells in my basement... I do have access to a gym with a kettlebell set to start with at my club.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Equipment and facility access are already solved, which removes any setup-cost justification from the price and narrows what he is actually paying for to instruction and programming. He is explicit that he does not want to be sold hardware: 'I don't need a range of, you know, 50 kettlebells or maces and all that kind of crap.'"
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A written proposal with a module-by-module outline of the programme progression, before committing $6,000",
+      "why_unmet": "Asked twice and effectively declined both times on the grounds that the programme is tailored rather than fixed — 'It's not structured in a manner which is, well, in week eight you do this'. No sales collateral appears to exist. This is the explicit precondition he set for buying: 'send me whatever you want me to look at and then we can talk on Friday and I'll either sign up or I won't by then.'",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A small starter programme he could grow into rather than the full six-month engagement — 'a baby program from you guys that would be manageable for me'",
+      "why_unmet": "Only one product exists. The request was never acknowledged as a scope question and was answered with the standard six-month trifecta pitch.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training and nutrition programming that accounts for muscle preservation during escalating GLP-1 therapy in a type 2 diabetic",
+      "why_unmet": "This is the prospect's central and explicitly stated reason for the call, and it was reflected back accurately but never answered. Nobody established whether the coach has competence in resistance programming alongside pharmacological weight loss, whether the nutrition pillar can operate around a GLP-1 prescribed for diabetes, or whether his physician would be consulted. The offer's answer to a clinical question was 'we customize all of that for you.'",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that the programme will not aggravate a shoulder unresolved for three months in a man who states he heals slowly",
+      "why_unmet": "The form-first month was offered as the general answer, but the specific injury was never asked about, never assessed and never mentioned again after he raised it, and the guarantee promises a 20 lb load increase across all main movements within six months.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

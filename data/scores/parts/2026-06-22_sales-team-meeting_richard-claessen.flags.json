@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-22_sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The sales manager coaches reps to refuse a prospect's stated request to pay after the call and to take card details live instead, modelling the override verbatim.",
+      "evidence": [
+        "stop sending payment links",
+        "I don't let them get off the phone.",
+        "Yeah, I'll take care of it later, okay? Just like in an hour or two.",
+        "Well, I can't actually do anything until the payment comes through. I can't just put you in the course, so we have to wait for the payment, and then I can get everything squared away. So, I mean, it's up to you. I mean, is this something that you actually, like, want to do?",
+        "So what card did you want to put that on? Did you want to do MasterCard, Amex, Visa?"
+      ],
+      "timestamp": "00:31:12"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A deposit-and-onboarding rule is stated using figures outside the $6,000/6mo and $9,000/12mo offer: a $500 deposit books onboarding and $1,200 must be paid before it runs.",
+      "evidence": [
+        "If you do get a deposit from somebody or something, like, if you get a $500 deposit, okay, you can book the onboarding call. But they have to pay at least the $1,200 before the onboarding call happens, and if they don't, cancel it and be on top of it ASAP."
+      ],
+      "timestamp": "00:41:08"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A separate $200/month Primal University price is publicly visible and a $2,000 alternative structure is under discussion, both outside the two-tier offer.",
+      "evidence": [
+        "were you able to ask the team about like that 2k payments on school instead of the 200 a month?",
+        "right now, if somebody types in Trevor Instinct coaching cost, immediately it says $200 a month. Or if you want one-on-one coaching, it's like somewhere between $400 and $700 a month, which is totally wrong.",
+        "I'll get them in the primal university for a bit"
+      ],
+      "timestamp": "00:29:47"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The manager's stated position is that a prospect arriving anchored on the publicly listed $200/month price need not be corrected before the pitch.",
+      "evidence": [
+        "But honestly, it doesn't really matter if somebody comes in thinking it's a certain price. It's more about just... Making sure that you show them the value, that's what's important. It's not a big deal, ultimately. People are still closing every single day."
+      ],
+      "timestamp": "00:30:45"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The automated no-show SMS sequence sends its final message from an unassigned number, so prospects cannot tell who is contacting them.",
+      "evidence": [
+        "that's actually gone through to like Primal Instinct phone number, which isn't assigned to any of us",
+        "a lot of the time, that text message will be sent out and people will just respond saying, like, who is this? Because it gets sent from another phone number",
+        "there might be something going on with the no-show triage workflow where the first two texts get sent from one number and then the third one gets sent from a random number"
+      ],
+      "timestamp": "00:21:10"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The marker 'Recording has stopped.' appears inline mid-sentence while the transcript continues, indicating the recording state changed during capture.",
+      "evidence": [
+        "Recording has stopped. And then suddenly he's like shell-shocked"
+      ],
+      "timestamp": "00:43:40"
+    }
+  ]
+}

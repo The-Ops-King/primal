@@ -1,0 +1,62 @@
+{
+  "call_id": "2026-07-11_colt-campbell_michael-brideau",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep invented a $1,200 one-month trial tier on the spot, conditional on the prospect buying immediately, when the $6,000 close stalled.",
+      "evidence": [
+        "Can I make you a deal, dude?",
+        "If I can get you in for a month to try it out before you make a full decision on the six grand, are you willing to pull the trigger on it right now and you just pay for the month?",
+        "So it'll be $1,200 for one month, and then we'll call it lover to leave it. If you like it, you commit to the full thing. If you don't like it, then screw it.",
+        "If I can do that for you, are you willing to pull the trigger right now?"
+      ],
+      "timestamp": "01:08:09"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a hospitalising, near-fatal asthma episode and a resulting fear of exertion, and was then moved toward intense loaded kettlebell training with no question about clinician clearance.",
+      "evidence": [
+        "I was born with asthma. Right now, asthma is pretty much under control. Like I don't, I'm not even with medication",
+        "then I had a really bad, like, asthma accident, where I, like, almost kind of died. I had to be rushed to the hospital. I was in the hospital for, like, a week",
+        "it's just, like, I was scared to, like, go to the gym because I was afraid I was going to have an asthma attack. I was afraid to run. I was afraid, like, if I started coughing",
+        "they only train for 40 or 45 minutes, but that's a... Intense 40 minutes"
+      ],
+      "timestamp": "00:16:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep attached a specific earnings return to the price of a fitness programme, and restated the trial price as $1,000 after quoting it at $1,200.",
+      "evidence": [
+        "Spend $1,000 and we'll make you an extra $6,000.",
+        "we'll help you fast-track all the results that you're looking for, you'll save yourself a bunch of time, you'll make a bunch of extra money in that time",
+        "So it'll be $1,200 for one month"
+      ],
+      "timestamp": "01:09:58"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep used the prospect's own profession as a closing lever and disparaged his home community as gravitational drag to build pressure to buy.",
+      "evidence": [
+        "if you're just sitting in buttfucked Michigan, where do you think gravity's pulling you?",
+        "Have you heard the saying, the objections you give the world, or the objections that you get?",
+        "let me, okay, so as a hypothetical, if there's somebody on the line you're talking to as a closer, and you just demonstrated a clear way you can make them more money and save them time, and they said, I need to think about it, what would you say to them?"
+      ],
+      "timestamp": "00:50:50"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization is unreliable across this transcript, with rep questions repeatedly attached to the end of prospect blocks, so any line-level attribution drawn from this file will be wrong.",
+      "evidence": [
+        "00:19:08 - Colt Campbell ... Why is that important, though, to have that confidence and that capability?",
+        "00:32:39 - Colt Campbell ... All right, Colt, I got some thoughts for you, man.",
+        "00:10:57 - Michael Brideau (Primal Instinct) So it's like, I like to constantly advance myself."
+      ],
+      "timestamp": "00:19:08"
+    }
+  ]
+}

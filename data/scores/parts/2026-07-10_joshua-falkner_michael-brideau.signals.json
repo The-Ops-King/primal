@@ -1,0 +1,37 @@
+{
+  "call_id": "2026-07-10_joshua-falkner_michael-brideau",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Fully presented — one-on-one with Trevor, custom plan, video form review, plus a bespoke mobility routine ('he's going to actually give you a specific mobility routine, like to your body, your aches, your pains specifically, five, 10 minutes in the morning'). The prospect's own turns are missing from the transcript for this whole section; the only trace of his reaction is the rep's backchannel ('Nice, man. Hell yeah. Perfect.'), so 'accepted' is inferred, not observed."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as sustainable principles rather than macro tracking — intermittent fasting window narrowing to eight hours plus whole foods, explicitly framed against the prospect's own paleo-challenge story and the Chick-fil-A habit. Prospect audio absent; rep responded 'Nice. Nice. Yeah. Sweet.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Presented as weekly check-in forms, Trevor texting on missed workouts, direct cell number, Skool community and group Zoom workouts. Prospect audio absent; rep responded 'Sweet, sweet, perfect.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "diy_substitute",
+      "raw": "And I've been watching some of those videos and I actually was trying to get some kettlebells. And I just thought, thought I would give it a shot. You know, nothing, nothing really more than that.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived intending to buy a couple of kettlebells and self-coach off free content — an effectively zero-cost substitute already in his head. The rep never surfaced or dismantled this before quoting $6,000."
+    },
+    {
+      "type": "prior_gym_spend",
+      "raw": "you kind of need to keep going to the gym and keep paying the gym if you want to keep up with the progress and the program and whatever",
+      "direction": "undercuts_price",
+      "competitor": "CrossFit",
+      "note": "The prospect's reference price for coached training is a CrossFit box membership, where programming, coaching and community were included for a monthly fee. The rep raised the comparison himself to argue for education-over-dependency, but in doing so re-anchored on a cheap monthly model."
+    }
+  ],
+  "unmet_demand": []
+}

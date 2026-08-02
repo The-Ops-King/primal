@@ -1,0 +1,96 @@
+{
+  "call_id": "2026-07-08_sales-team-meeting_chris-klevan",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Setters send voice messages to prospects speaking as Trevor, the coach and brand principal, and the sales manager confirmed the practice on the call without objection.",
+      "evidence": [
+        "And you're Trevor, right? Like, you're Trevor. Just to check.",
+        "I'm Trevor?",
+        "What do you mean? Yeah, as in, like, you talk as Trevor in the VMs.",
+        "Oh, yeah. I talk as Trevor. Okay. It's good to know. Perfect.",
+        "Sweet. Awesome. Good stuff."
+      ],
+      "timestamp": "00:25:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Asked about cocaine use to improve closing performance, the sales manager declined to prohibit it and conditioned reps' drug use only on hitting KPI and team standards.",
+      "evidence": [
+        "I had a friend that he told me that when he was closing, the best performance he had on a little line of cocaine and a beer. If he was closing like crazy. I don't know. I haven't tried that, but everything is possible.",
+        "I, you guys are all 100% in control of your own decisions of how you want to go about things. I am not an advocate for anything that would put anybody in actual harm. But as long as you abide by the KPI, you abide by the standard of the team. I you are free to do what you feel is necessary.",
+        "Yeah, only cocaine. If you guys are gonna use drugs, you might as well go for the non- ones. Just kidding.",
+        "Nothing. I do have mushrooms. I haven't taken them yet, though."
+      ],
+      "timestamp": "00:11:21"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The sales manager instructed a closer to skip the Consequence Frame entirely for high-performer prospects, a phase the scored sales process treats as mandatory and weights at 20.",
+      "evidence": [
+        "I would play out the future of what it would like for them to be operating at their peak. I would not consequence them.",
+        "Yeah, consequence doesn't really work on people in Pride.",
+        "It's not that it doesn't work. It's, like, it's just, somebody in Pride has already looked at the, like, they understand the consequence of not doing anything.",
+        "So with someone like that I could still play out the future a little bit more but just skip the past and then go to the pit"
+      ],
+      "timestamp": "00:45:13"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A closer described extending a payment plan to six instalments on his own initiative because the agreed two-payment structure had failed, treating the number of splits as unconstrained.",
+      "evidence": [
+        "And I thought I was going to lose a deposit. There's a big chance I can still get him in on Friday, because he cannot pay in two times. It doesn't say he cannot pay in six times.",
+        "And otherwise I'm going to make a plan with him that he starts next month or something, but he is still going to join someday."
+      ],
+      "timestamp": "00:02:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Setter initials in call titles are added manually by setters editing calendar events after booking, which makes the attribution in this corpus self-reported and unverified.",
+      "evidence": [
+        "Did Angelo walk you through how we upped Did things on the calendar to add the initials when you get a set?",
+        "Okay, so as long as you know how to do it, you edit it, you put your initials on there, you hit don't send, pretty much all you need to know.",
+        "Yeah, if you need like a reference, you can look for one of Kim's sets that are on the calendar, so you can just see how he does it.",
+        "Just makes it so the closers know it's a set, and when there's double booking, it makes it very easy on a quick glance to just know which call they're going to try and prioritize."
+      ],
+      "timestamp": "00:22:03"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A setter booked a call into a closer's calendar using his own name and phone number, so at least one entry in this period is not a real prospect.",
+      "evidence": [
+        "The first one that I did it, I put my name and my phone number, and then I just booked it myself.",
+        "I was like, wait, what the happened? No, yeah, you don't want to put your own stuff in there."
+      ],
+      "timestamp": "00:24:08"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A closer characterised a firefighter's disclosure that his fitness was putting other people at risk as making him an easy close.",
+      "evidence": [
+        "I had this call yesterday with a firefighter. Like, he was like, yeah, I'm just, I'm really not showing up well. I'm not helping the people. Like, I'm putting other people at risk. It's so easy to then close them.",
+        "As in, like, he isn't fit. So he is putting other people's lives in danger... And then it's like, then it's an easy close."
+      ],
+      "timestamp": "00:27:06"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Working conditions were joked about as slavery on a recorded company call, with the manager joining in rather than redirecting.",
+      "evidence": [
+        "Make it seem like we don't let you pick your schedule.",
+        "We're torturing you.",
+        "Welcome to slavery.",
+        "HR is going to hear about this."
+      ],
+      "timestamp": "00:00:48"
+    }
+  ]
+}

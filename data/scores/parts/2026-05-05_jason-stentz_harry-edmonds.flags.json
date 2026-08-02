@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-05-05_jason-stentz_harry-edmonds",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed sciatic symptoms provoked by deadlifts and squats and was closed at $6,000 onto a ballistic hinging programme, with the rep promising the back would be fixed and citing his own spinal condition as evidence; no clinician was ever mentioned.",
+      "evidence": [
+        "I tried to do, you know, more leg work, know, dead, well, that's not legs, but deadlifts and squats, and it, my back didn't, didn't really, enjoy it. that's why I started feeling sciatic. So, just some lower back struggles",
+        "Sounds like the, obviously, you want that to be addressed as well, but it sounds like the main focus is just being the best you can be.",
+        "in terms of, uh, numbers, so everything I went through the whole six months, really for you, it's making sure diet's locked, backs fixed, progressing, getting you in the best shape you can possibly be in. It's just 6k for the six months us.",
+        "I've got scoliosis. My back used to be screwed, but because of kettlebells, everything's your core, so you build a really strong, foundational core that just sets you up for the rest of your life, like I don't have any back issues anymore"
+      ],
+      "timestamp": "00:08:56"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "Rep offered to shape the invoice itself so a personal coaching purchase could be claimed against business tax, naming a specific false description — the fourth occurrence of this pitch in the batch and the second explicit invoice offer in two days.",
+      "evidence": [
+        "most of our clients are business owners. We can frame it like the invoice in whatever ways necessary to write off for tax as well.",
+        "I know once, for example, we even, uh, framed it as workplace injury prevention or workplace injury. Like, we've done loads of stuff, so you'd be able to chunk some out for tax as well.",
+        "Good. Good. like that. Yep."
+      ],
+      "timestamp": "00:27:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording was stopped at the moment the payment link was opened, so the transaction and any terms stated during it are absent — the fourth such cut in this batch.",
+      "evidence": [
+        "In terms of the payment, did you want to do it on like Visa, MasterCard, Amex?",
+        "Um, well, I guess Visa would be, would be probably preferred.",
+        "Yeah. right. Cool. I'll pull this up for you. Let me just shoot the recorder out of here. There you go."
+      ],
+      "timestamp": "00:31:21"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep gave unqualified assurances that the plan would cover the prospect's wife's goals and would be built around unspecified treatments he is currently on, neither of which is within the scope of a one-to-one programme and neither of which was explored.",
+      "evidence": [
+        "she is trying to do, you know, trying to accomplish similar goals, you know, not through kettlebells, but just overall health and wellness",
+        "It will definitely help her",
+        "we'll go through like all the supplements I currently take, he'll take note of any kind of supplements or treatments that I'm on and build that into everything",
+        "Absolutely. Everything. Yeah. It's literally all encompassed with everything."
+      ],
+      "timestamp": "00:27:03"
+    }
+  ]
+}

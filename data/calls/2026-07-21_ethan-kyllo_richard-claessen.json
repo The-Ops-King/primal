@@ -1,0 +1,122 @@
+{
+  "call_id": "2026-07-21_ethan-kyllo_richard-claessen",
+  "source": {
+    "drive_file_id": "1qK4s6Xi2c5zbu6AU_LNVvXc3mc_RULcV",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/21/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/21/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 14970
+  },
+  "call": {
+    "date": "2026-07-21",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 11,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter suffix in the title and no setter named. The rep referenced pre-call information from Trevor directly: 'I already got some information from Trevor.' The prospect found the programme on Instagram himself."
+  },
+  "prospect": {
+    "name": "Ethan Kyllo",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Colorado, USA (Mountain Time)",
+    "age": 20,
+    "occupation": "Bar back, about to move up to bartender; still in education, referencing 'before the school year starts'",
+    "family_status": null,
+    "height_in": 70,
+    "weight_lb": 150,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has been doing kettlebell work for about two months after finding Trevor on Instagram, plus Trevor's morning stretch routine. Picks whichever session he feels like each day rather than following a plan. Reports strong results already — improved mobility and athleticism. Visible abs, low body fat.",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: the_priced_out_beginner. A 20-year-old bar back with essentially no budget — 'Pretty much free, almost' — who is already getting good results from the provider's free content and wants structure rather than rescue.",
+      "None of the existing labels fit. He is not the_optimizer: no income, no success to build on, and price was an absolute barrier rather than a quality signal. He is not skeptical_bargain_hunter: he is not sceptical and has no cheap competitor anchor, he simply has no money. He is not the_rebuilder or the_preserver: at 20 with visible abs and no injuries there is nothing to rebuild or preserve.",
+      "His actual problem is nutritional, not motivational — 'I want to eat more, and I try to eat more, but my appetite just isn't there'"
+    ]
+  },
+  "goals": [
+    { "text": "Gain weight and put on muscle — 'I just want to get bigger'", "category": "muscle_gain" },
+    { "text": "Eat more consistently and enough to grow, despite a low appetite", "category": "other" },
+    { "text": "Follow a structured training schedule instead of picking sessions by feel", "category": "consistency" },
+    { "text": "Stay as lean as he currently is while adding size", "category": "appearance" },
+    { "text": "Use the summer before the school year to make visible progress", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Eats under 2,000 calories a day at 150 lb and 5'10\" while trying to gain, and cannot make himself eat more — 'my appetite just isn't there'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Long-standing picky eating that narrows what he will eat", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "No training structure — 'I just interchange them throughout the week, and just whatever I'm feeling that day'", "category": "consistency", "severity": "medium" },
+    { "text": "Essentially no budget for coaching — 'Pretty much free, almost'", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I mean, both. Depends on how much the actual course is because a lot of money you can't afford that.",
+      "timestamp": "00:08:27",
+      "rep_response": "Disclosed immediately that one-to-one with Trevor is 'at least in the four figures', read the prospect's reaction on camera, and asked what budget he had in mind.",
+      "response_tactic": "early_price_disclosure_then_budget_question",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Not a lot. But it can be 10 bucks... Pretty much free, almost.",
+      "timestamp": "00:08:51",
+      "rep_response": "Named the cheapest available option at $200 a month, checked the reaction directly — 'do you feel like, whoa, that's just way too much for me?' — accepted the yes, and redirected him to Trevor's free YouTube content with an offer to stay in touch.",
+      "response_tactic": "disqualify_honestly_and_redirect_to_free_resource",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 1, "price_usd": 200 }
+    ],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "The prospect ruled himself out on the one-to-one before a price was even given: 'I'm out on that one.'",
+      "He confirmed that the cheapest tier was also out of reach — asked 'do you feel like, whoa, that's just way too much for me?' he answered 'Yeah.'",
+      "The rep disqualified rather than discounted, and redirected him to free content: 'I really advise you if you're not looking to really invest that much into it at the moment yet, which I understand.'",
+      "No payment, no link, no next call. The only follow-up is a YouTube link and an open door: 'you always have my number as well, so you can always just hit me up.'",
+      "Counter-evidence: the relationship was left warm and the rep offered to stay in contact, so a future conversation is plausible — but nothing was agreed and no timeline exists."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send Trevor's YouTube channel; prospect to continue self-directed and contact the rep if his position changes."
+  },
+  "notable": {
+    "note": "The cleanest call in the batch on conduct. Faced with a 20-year-old bar back with no budget, the rep disclosed the price band early, asked the budget question directly, accepted the answer, declined to discount, and sent him to free content — the opposite of the pattern on the other calls in this folder, where an unaffordable price was answered by inventing a cheaper tier. Two things still stand out: the $200/month Primal University price is quoted again as though it were a standard rung on the ladder, and the prospect's actual problem — under-eating at 150 lb with an absent appetite and long-standing picky eating — was identified and then left entirely unexplored."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion across the middle of the call. The entire height, weight and body-fat exchange from 00:03:33 to 00:03:55 is reversed, with the prospect's answers ('150', '5, 10') under the rep's label and the rep's questions under the prospect's. The same happens across the budget exchange at 00:08:42 to 00:08:57, where 'I'm out on that one' and 'Pretty much free, almost' are correctly the prospect's but the questions between them are misattributed. Roles resolved from content throughout."
+  }
+}

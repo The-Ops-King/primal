@@ -1,0 +1,120 @@
+{
+  "call_id": "2026-07-06_daniel_andrew-musial",
+  "source": {
+    "drive_file_id": "1ZVwCF8TAkrDlzr3W89_LJ3TcLKb82Ypj",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/06/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/06/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 32729
+  },
+  "call": {
+    "date": "2026-07-06",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "A follow-up and payment call. All discovery, goal work and the three-pillar presentation happened on an earlier call that is not in this batch. The rep opens straight into 'before we get into the logistic part, which is money, basically', and the prospect refers back to prior content he has since shown his sister. In the 07/06 sales team meeting the rep described this as 'the follow-up sale today... the guy was from Friday and he was so sold on Friday, but got cold feet during the weekend', which dates the first call to 2026-07-03 and places the change of heart off-tape over the weekend.",
+    "duration_min_est": 32,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named or referenced on this call, and no suffix in the title. Any setter attribution would come from the first call, which is not in this batch."
+  },
+  "prospect": {
+    "name": "Daniel",
+    "aka": "Daniel's iPhone",
+    "name_source": "transcript",
+    "location": "Leavenworth, Kansas, USA — Central time zone",
+    "age": 52,
+    "occupation": "United States Army. A linguist by trade, specifically an interrogator, and a Russian speaker who entered the army already fluent. Describes himself as at company level, 'bottom of the rung echelon wise'. Departing 11 July for a three-week Russian language immersion in Tallinn, Estonia, returning 1 August, staying with a host family.",
+    "family_status": "Divorced; ex-wife is Russian. A son who has just graduated high school, ending a child support obligation of around $900 a month. Has a sister who works in physical therapy. Former missionary in Russia.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": null,
+    "kettlebell_experience": null,
+    "medical": "No condition disclosed on this call. He describes carrying excess weight and volunteers a self-researched theory about it — 'I think the extra weight that I've got on me is throwing my hormones off. I've read up on that a lot, where the more belly fat that men have, the more likely their body will turn testosterone into estrogen, which makes things worse.' He raises respiratory and joint problems only as future risks, not current conditions. He also mentions that new environments tend to affect his sinuses and that he normally minimises exposure to pets when travelling. Note that any injury or health screening would have occurred on the first call, which is not in this batch, so nothing can be concluded here about whether it took place."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.7,
+    "signals": [
+      "52, and the entire buying logic is holding on to function rather than gaining anything: 'it's $6,000, but it's an investment into the rest of my future. And, you know, everybody knows that if you don't take care of your health, it doesn't become cheaper later.'",
+      "Health-literate and self-educating — reads up on body composition and endocrine effects, and reasons in terms of downstream medical cost",
+      "Prices the decision against future healthcare: his mother's knee reconstruction last autumn, and his son's three days in neonatal intensive care at $28,000",
+      "Stable institutional income with low discretionary liquidity — around $1,500 to $2,000 left monthly, some savings, roughly $3,000 across several credit cards, and unable to assemble $6,000 in cash",
+      "Not the_rebuilder: there is no former self in the narrative and no regret, only a forward calculation about decline"
+    ]
+  },
+  "goals": [
+    { "text": "Lose the excess weight he is carrying, which he believes is disrupting his hormones", "category": "fat_loss" },
+    { "text": "Avoid the future cost and burden of poor health — medicines, surgeries, joint and respiratory problems", "category": "longevity_function" },
+    { "text": "Work one-to-one with Trevor specifically, having decided he is the person he wants to train with", "category": "other" },
+    { "text": "Whole-body movement training rather than isolated muscle work", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Carrying excess weight he believes is converting testosterone to estrogen and leaving him tired and unable to build muscle", "category": "aging", "severity": "medium" },
+    { "text": "Cannot produce $6,000 in cash — 'I got about this much in my checking account, and got this much on one credit card, and I got this much on another. I'm like, it's still not. So I don't quite get to the $6,000'", "category": "other", "severity": "high" },
+    { "text": "Carrying balances across four or five credit cards and two years into a deliberate debt-reduction effort", "category": "other", "severity": "medium" },
+    { "text": "Anticipates family disapproval of the spend — deliberately withheld the price from his sister because 'she would have been like, absolutely not. Don't do it'", "category": "relationship", "severity": "low" },
+    { "text": "About to be abroad for three weeks in a host family's home with meals provided and no equipment, in what would be the first weeks of the programme", "category": "training_barrier", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I was looking at my budget, I'm like, well, I got about this much in my checking account, and got this much on one credit card, and I got this much on another. I'm like, it's still not. So I don't quite get to the $6,000.",
+      "timestamp": "00:13:00",
+      "rep_response": "Confirmed value first — 'do you still feel the same way about the whole program, your goals, and everything?' — then reassured on not being put in a tough spot, then ran a genuine financial picture: monthly surplus after bills, savings, credit cards, credit score. Presented two routes and let the prospect pick.",
+      "response_tactic": "reconfirm_value_then_financial_picture_then_two_options",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": true,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Two options given: 'You could put it like on a six-month plan, paid monthly. That will be $1,200 per month' — which totals $7,200, $1,200 above the stated price, and was not identified as costing more. The prospect had said moments earlier that he understood the cost as 'like $1,000 a month'. Second option: 'you could use your credit score and use the third-party financing option, which is like Klarna or we use Payva... it takes like three minutes and you can split it even up to 12 months.' The prospect applied live, was approved, chose the 12-month term and made the first payment on the call. No total, no APR, no interest position and no fees were stated for either route at any point.",
+      "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 1750,
+      "has_savings": true,
+      "credit_score": 700,
+      "note": "Unusually complete disclosure, most of it volunteered. Monthly surplus after bills: 'I'm probably somewhere around the $1,500 to $2,000 left over', recently improved by roughly $900 a month because child support ended when his son graduated. Savings: 'some, it's not crazy, but some... it's still not enough to cover the 6,000'. Credit cards: 'I think I come out to somewhere around 3,000 if I look at all of them', spread across four or five cards. Credit score: 'My credit's really good. It's over 700. So I get offers all the time.' Expects a few thousand dollars of per diem from the Estonia trip. Currently paying above minimum on cards as part of a two-year debt-reduction effort, and had been considering a personal loan to consolidate them."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.97,
+    "close_rule_applied": null,
+    "evidence": [
+      "Third-party financing approved live on the call — 'Oh, I have been approved' — and the first payment taken and confirmed: 'it looks like it went through and my first payment was in there.'",
+      "Prospect selected the 12-month term himself: 'just to make things a little bit easier, for me, I'm going to do the 12-month thing. It's easier to do it that way. Because I can always pay these off early.'",
+      "Onboarding session with Trevor booked live for Tuesday at 5:15pm Central and email confirmation verified in his inbox during the call",
+      "Agreement email confirmed as received — 'Invited to review and sign a new document' — and the onboarding form referenced",
+      "Strong volunteered intent throughout: 'this is the guy I want to work with', 'I definitely see the benefit, I definitely want to do it'",
+      "Counter-evidence on process rather than on the fact of the close: the agreement was not signed on the call, the rep deferred it with 'You get that covered when you have free time', so payment was taken before anything was executed",
+      "Counter-evidence on what he understood he was buying: no total cost was ever stated for the financed route he selected"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Onboarding call with Trevor on Tuesday at 5:15pm Central. Prospect to sign the agreement and complete the onboarding form beforehand. Rep added him on WhatsApp for direct contact. Prospect flies to Tallinn on Saturday 11 July and returns 1 August."
+  },
+  "notable": {
+    "note": "A clean, warm close that is commercially irregular in three specific ways. First, the rep quoted $1,200 a month over six months — $7,200 — seconds after the prospect had stated his understanding as $1,000 a month, and did not mention that this exceeds the $6,000 price. Second, the prospect executed a twelve-month third-party consumer credit agreement live on the call without a single figure being spoken for the total, the interest or the term cost. Third, this is a man two years into a deliberate campaign to reduce debt across four or five credit cards, who said in terms 'I'm trying not to be careless about it' — and the rep's response was to point him at his credit score and open new credit. That sequence is not improvisation; it is the open-wallet method the sales manager taught on 06/30 and defended at length in the 07/06 team meeting. Separately, and unremarked by either party: this prospect flies to Estonia in five days for three weeks with a host family who have asked him to eat what they provide, which covers the entire first phase of the programme, and neither the training logistics nor the nutrition constraint was raised by anyone."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Systematic inversion across most of the call. The opening line at 00:00:00 is attributed to the rep but the reply pattern shows both speakers mixed from the outset, and long passages carry both voices under one label — the blocks at 00:03:53-00:04:36, 00:13:00-00:14:15 and 00:15:37-00:16:17 each contain the rep's questions inside the prospect's label, including the key financial-picture question 'After all the bills are paid, mortgage, whatever, groceries, how much is left in the tank?'. The prospect is identified only by device label. Roles assigned from content throughout. The call is also interrupted twice by an appliance repairman at the prospect's home and once by a brief dropout at 00:26:27, but no content appears lost. His surname is not stated; the sales team meeting the same day references a 'Dan Keogh' call, but that discussion describes a different prospect who bought a house in California for cash and had taken a second job, so the two should not be merged without a human check."
+  }
+}

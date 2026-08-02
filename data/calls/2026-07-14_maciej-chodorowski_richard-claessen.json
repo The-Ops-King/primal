@@ -1,0 +1,139 @@
+{
+  "call_id": "2026-07-14_maciej-chodorowski_richard-claessen",
+  "source": {
+    "drive_file_id": "1DzXLe5Sm5KHTKBYCu1EzxoMJompLPOph",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/14/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/14/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 82007
+  },
+  "call": {
+    "date": "2026-07-14",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 84,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bansko, Bulgaria (Dutch, resident since the start of the year)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "I saw that you had quite a big application, I read through it"
+  },
+  "prospect": {
+    "name": "Maciej Chodorowski",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Warsaw, Poland",
+    "age": 48,
+    "occupation": "Business owner — retails high-end home audio equipment",
+    "family_status": "Married; proposed after fourteen years together, daughter was twelve at the time; owns his home",
+    "height_in": null,
+    "weight_lb": 198,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Largely inactive for most of his life. Started a year ago with treadmill walking and jogging plus barbell and dumbbell work; added self-taught kettlebells (16 and 20 kg) after seeing them online. Lost roughly 30-35 kg in twelve months, from a doctor-set target down to 90 kg. Never trained by a coach.",
+    "kettlebell_experience": "some",
+    "medical": "Reports historical spine problems that resolved with weight loss: 'I had some problems with my spine. But you know, after losing weight, I do not have the spine aches anymore.' Currently reports general stiffness. Has consulted a doctor about his weight target."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.7,
+    "signals": [
+      "Highly self-directed and demonstrably capable: lost 30-35 kg in a year alone, self-taught kettlebells, tracks 2,000 calories and 180 g protein without help.",
+      "Anchored to a specific cheaper alternative and priced it precisely: 'The one month of try with an in-person trainer here in Warsaw is about 250 euro.'",
+      "Frames the whole decision as price-per-outcome rather than value: 'I would probably choose one which gives me the same feeling about the same positive feeling about possible outcome with least amount of money' and 'there is the question of rates of the return'.",
+      "Divergence from the archetype: the cheap alternative is prospective rather than proven — he has never used an in-person trainer. He is comparison-shopping on expected value, not defending something that already worked.",
+      "Not the_rebuilder: he never had a former fit self to reclaim — 'I've been not very active, let's say, sports-wise or anything for most of my life.'"
+    ]
+  },
+  "goals": [
+    { "text": "Be healthy, strong and mobile for the years to come without picking up injuries as he ages", "category": "longevity_function" },
+    { "text": "Gain muscle and look more athletic, but not bodybuilder-sized", "category": "muscle_gain" },
+    { "text": "Fix his form before increasing kettlebell weight so he does not hurt himself", "category": "injury_prevention" },
+    { "text": "Raise his baseline daily energy from a self-rated six or seven", "category": "energy_performance" },
+    { "text": "Improve general stiffness and get more fluid in his movement", "category": "mobility" },
+    { "text": "Keep the motivation going by seeing continuous long-term progress, so this does not become another up-and-down cycle", "category": "sustainability" },
+    { "text": "Dial in his nutrition, specifically getting good carbohydrates back in after months of cutting them", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Twenty years of losing weight on a diet and regaining it, sometimes more, within three or four years", "category": "consistency", "severity": "high" },
+    { "text": "Self-taught kettlebell form he believes is wrong: 'I do probably so many mistakes in form'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Afraid to progress past 20 kg without knowing his form is safe", "category": "injury_prevention", "severity": "medium" },
+    { "text": "Historical spine problems that resolved with weight loss but shape his caution", "category": "injury", "severity": "medium" },
+    { "text": "Base energy sits at six or seven out of ten and drops further the day after hard training", "category": "other", "severity": "medium" },
+    { "text": "Finds it difficult to reach his carbohydrate target after months of cutting them out", "category": "nutrition_habit", "severity": "low" },
+    { "text": "General stiffness; 'generally, I'm not too fluid, let's say'", "category": "aging", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Okay. Yeah, that's a lot. Yeah.",
+      "timestamp": "00:40:07",
+      "rep_response": "Acknowledged, isolated finances, then asked whether the future version was worth 5.2k. Prospect said it was worth more.",
+      "response_tactic": "isolate_then_future_value_test",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "The one month of try with an in-person trainer here in Warsaw is about 250 euro.",
+      "timestamp": "00:12:54",
+      "rep_response": "Ran a long comparison sequence — doctor analogy, driving-lesson analogy, 'what about the other three workouts', 'don't expect to find something for less' — then conceded 'I'm totally fine if you do it like that'.",
+      "response_tactic": "analogy_stack_then_concede",
+      "resolved": false
+    },
+    {
+      "type": "unfamiliar_modality",
+      "raw_quote": "I also have some questions or doubts about the online... Aspect about the, let's say, work being done online, not in person.",
+      "timestamp": "00:45:14",
+      "rep_response": "Ran the uncertainty play extensively — house purchase, car, marriage proposal, business risk, skydiving — arguing every important decision carries uncertainty.",
+      "response_tactic": "uncertainty_normalisation_analogies",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Well, I will think about it. I will sleep on that.",
+      "timestamp": "01:19:17",
+      "rep_response": "'Will you really?' then continued arguing for roughly four more minutes before accepting.",
+      "response_tactic": "challenge_then_continue",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three payments of $2,000 per month, stated as interest-free; more than three payments described as adding interest. The rep then improvised a 'love it or leave it' one-month entry at $1,200 with the remaining $4,800 payable if continued, and subsequently referred to that entry figure as 'around a thousand' and then '1,000 euros'.",
+    "guarantee_mentioned": "Only implicitly, via the improvised trial: 'you do it for a month. That's 1,200... And then if you feel like, I absolutely love this, we just continue and do the rest... If you're like, no, it's not for me, then you leave it there.' No refund guarantee was stated.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect chose the competing option explicitly: 'for the moment, it's, yeah, I mean, probably the way to go for me is to try the in-person option and see how it goes.'",
+      "Confirmed again when pressed: 'Well, yeah, for now I think it is like this, yes. Because the difference of the price is too big.'",
+      "He named the deciding arithmetic: 250 euro for a month of in-person against roughly 1,000 for a month of Trevor.",
+      "He has already shortlisted replacements: 'I did some research locally and have two or three names, so I will probably call them and talk to them and try to choose one.'",
+      "Counter-evidence: value was fully accepted — 'obviously it's worth the six, or if you would tell me 10,000 euro, would also say, okay, it's obviously it's worth' — so this was lost on risk framing and price-per-trial, not on belief in the product.",
+      "Counter-evidence: the rep kept the door open with a two-week check-in and a further Trevor video, so re-engagement is possible."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send another Trevor video and check in in a couple of weeks to see how the in-person trainer is going."
+  },
+  "notable": {
+    "note": "Two things. First, the rep invented a $1,200 one-month 'love it or leave it' entry that does not exist in the offer, then restated the same trial as 'around a thousand' and '1,000 euros' within ten minutes without correcting himself. Second, the call ran 84 minutes with roughly 45 minutes of rebuttal after the prospect first said the price was too much, including 'Will you really?' in response to a stated intention to sleep on it. Note also that the rep read the application in full here, one day after a manager coached him to stop doing exactly that."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion throughout, heaviest in the second half. Clear examples: the rep's 'that's understandable' lines land on the prospect's label at 00:10:41 and 00:13:19, and the prospect's answers about risk and budget are repeatedly attributed to Richard from 01:00:00 onward. Role was determined from content. Long silences and overlapping speech in the 00:52:00-00:56:00 range produce garbled segments."
+  }
+}

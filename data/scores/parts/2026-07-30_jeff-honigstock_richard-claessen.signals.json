@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-30_jeff-honigstock_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He validated it against his own prior experience unprompted: 'Everything my trainer did is what you're talking about, because the first four weeks was all mobility, and then she worked in the kettlebells, and then we worked it in, and it was getting better, and it really did work.' He also volunteered that mobility matters more to him than appearance — 'The mobility aspect of this is probably the most important aspect for me because that makes me feel better.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "He got ahead of the pitch — 'It's like a 16 and eight' — and then escalated it himself into extended fasting and autophagy: 'I'm reading a lot about real intermittent fasting, real fasting, like for like 72 hours... it heals your cells, like I'm curious about these things.' He named the missing ingredient as context rather than information: 'I'm going to intermittent fast because I'm doing this other program and they're going to work together is really the connectivity that I need.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar he came for. 'I need somebody to, I need something else external to say, okay, how'd you do it today?' and 'I know that if there's accountability for someone like Trevor, who it looks like from the videos is pretty firm... I know Trevor's going to be like, hey, did you do it today?' He distinguished it carefully from what he did not want: 'I see this as more of a coaching relationship' rather than a drill instructor or a group class."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "She was charging over $100 a session... I was doing two sessions a week... That's about as much money as my personal trainer.",
+      "direction": "undercuts_price",
+      "competitor": "His former advanced kettlebell instructor (New Jersey)",
+      "note": "The most dangerous anchor in the corpus because the substitute is not hypothetical and not inferior — she taught the same methodology, in person, and it worked. He quantified the threat himself: 'that's as much money as it would cost, that's the maximum amount of money it would cost me' and 'for probably half that number'. He also stated the fallback explicitly: 'if this doesn't work out, I would probably go back to her.'"
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I just thought that because it's not in person, I thought that it would be about half that, but it's like, that's a premium.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His internal price was roughly $3,000 and it was built on a specific belief — that remote delivery should be cheaper than in-person. Nothing in the offer or the script addresses that belief, and it is likely to be common across the whole book given the delivery model."
+    },
+    {
+      "type": "existing_spend",
+      "raw": "I also think that I might be paying that right now in my other gym memberships that I want to just cancel.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The single best supportive anchor anyone offered in this batch, and the prospect produced it himself while talking through his own objection. He holds three gym memberships he intends to cancel or freeze. The rep picked it up — 'I was going to say, let's just cancel that then' — but did not do the arithmetic out loud or convert it into a monthly comparison against the offer."
+    },
+    {
+      "type": "prior_coaching_spend",
+      "raw": "I realized that, look, this is an investment in my health.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has already accepted the category of paying meaningfully for coaching and frames it as health investment rather than discretionary spend, which is why the value objection resolved instantly ('Do you feel like it is worth $6,000 to you?' — 'hundred percent') and only the affordability and comparison objections survived."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Live one-to-one sessions, or any synchronous contact with the coach — asked twice",
+      "why_unmet": "There are none. The rep said Zoom sessions were tried and abandoned as unsustainable: 'he did that before... but they're too busy. Trevor is also busy. And then trying to jump on meetings is not going to be structured.' Only asynchronous messaging and group live workouts exist.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Hands-on form correction of the kind his previous instructor gave him in person",
+      "why_unmet": "Form feedback is video-only and asynchronous. He identified the gap himself and left it unresolved: 'she was helpful in my form, in some of that stuff. I don't know how I would be able to get that with him, but… I'll work through that.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Guidance on extended fasting — 24 to 72 hours — as part of the protocol",
+      "why_unmet": "The rep said the coach personally fasts and that some clients do full-day fasts, but also that nothing would be forced. Whether extended fasting is supported, monitored, or appropriate for a medicated borderline diabetic was never established by anyone.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Training that accounts for a medicated hypertensive, borderline-diabetic 56-year-old recovering from biceps tendon surgery",
+      "why_unmet": "No clinical assessment exists in the offer and none was sought. The programme's answer to his medical history is a general mobility routine and progressive loading, and the prospect's stated expectation of coming off his medications was left standing.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

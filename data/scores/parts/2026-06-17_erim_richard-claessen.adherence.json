@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-06-17_erim_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Three-part frame — 'go into what the goals are with fitness, see if we can actually help with it. If we can, I'll take a little bit more on how we could do it, and I feel like we can't really assist you with it. I will try to point you in the right direction, okay?' — missing the 'what you need' element. Agreement taken ('Sure. good.'). Open question run: 'what are you specifically looking to achieve with working on your fitness and mobility?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "hit", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age, weight (85 kg) and height (181 cm) collected. Injuries asked directly — 'Have you had any injuries, anything come up, sorenesses'. Training week and diet covered in real detail. But desk-bound status only emerged because the prospect volunteered 'I sit and work in front of the computer all day'; health conditions, sleep and energy were never asked at all."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "miss", "P3d": "hit", "P3e": "miss", "P3f": "partial", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Good surface work — pushed for specifics on strength, leanness and the six-pack, and asked the bridge question 'outside of physical goals, is there something below that that's more of, like, a personal level'. Prospect closed that door ('I don't need a great physique to be confident') and the rep accepted it rather than reframing. The kids were raised ('is there also a specific way you would actually like to show up for your kids') but the answer was hedged and never driven through to identity or legacy. No 'so this isn't really about the weight' reflection."
+    },
+    "P4": {
+      "score": "hit",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "partial" },
+      "evidence": "The strongest phase of the call. Traced the gym history back to 2011-2012, asked why the dumbbells never stuck, and pressed until the prospect named the real gap himself: 'How do you start something that you don't know how to do?... I don't want to injure myself doing that... I need guidance. That's why I haven't done it.' The rep correctly summarised it: 'it isn't necessarily around putting in action, more so around actually knowing how to do it and making sure you do it right.'"
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "partial", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The consequence question was attempted — 'how do you think that your life would look like if everything would stay the exact same' — and the prospect blocked it twice ('I'm not sure I understand the question', then 'I think I'm going to train with kettlebells. I'm just trying to decide if Trevor is the right fit for me'). The rep abandoned it instead of reframing. No 'willing to settle', no 'why not', no line in the sand. This is where the $6,000 was lost: without a cost of inaction there was nothing to weigh the price against."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "miss", "P6b": "partial", "P6c": "partial" },
+      "evidence": "Ran a 1-10 scale instead of the commitment questions and got a '10 out of 10', then treated that as the yes. But the prospect had already flagged the condition — 'Yeah, absolutely. But my questions are still unanswered' — and one of those questions was Trevor's credentials. The rep moved to price with an unresolved condition on the table, which is exactly what P6c exists to prevent."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "The $6,000 programme was refused, so there was no payment, onboarding call, agreement or welcome sequence to run. A link to a separate $200/month product was sent instead."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'I have to think about it' landed at 00:51:04. The rep isolated it correctly and immediately — 'What is that mainly about? Is that mainly around the investment amount?' — which is the right first move and surfaced the real objection. None of the rest of OA ran: no 'do you feel what we've gone through CAN get you to your goal', no 'thinking isn't the problem, deciding is', no 'that man you want to be — how does HE decide right now'."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Money was raised and the rep did run the isolation question in substance ('is it mainly that you just don't want to spend the $6,000 upfront or is it mainly that you don't feel like $6,000 is worth it'). The prospect answered clearly that it was value, not capacity — which correctly rules OC out. But the rep then offered a payment plan anyway ('We could split it up if that makes it better'), which is the OC path for a capacity problem, and no financial picture was ever taken. The play was half-started against the wrong diagnosis and abandoned."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Two objections with no scripted play. First, the cheaper-substitute objection — 'I could very well spend $6,000 on a power rack... I don't need Trevor for that transformation' — the known script gap. Second, and more damaging, a credentials objection: 'what are Trevor's credentials? What has he done in the past academically?... what has he done in the past to request $1,000 a month from a potential client?' The rep had no answer and gave none. There is no proof asset in the playbook — no certifications, no named clients, no track record — for a prospect who is buying expertise rather than motivation."
+    }
+  ],
+  "notes": "Root cause is P5: no consequence frame was ever established, so a $6,000 price landed against nothing. Then a direct request for credentials went unanswered twice — that is a missing asset, not a rep failure. The coachable error is dropping to a $200/month product four minutes after the objection instead of building value; the prospect had already said he could afford it."
+}

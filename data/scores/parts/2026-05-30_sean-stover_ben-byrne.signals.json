@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-30_sean-stover_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "He arrived already sold on the mechanism and tied it to his own goal repeatedly and unprompted: 'The more I started to look into kettlebells, I was like, oh, I think this would be an awesome fit. I think I would get a lot out of this. This looks really good. And I like the fact that there's a movement aspect to it and that it supports good movement rather than just going to the gym and just going to a machine.' He also connected it directly to the gap in his own training - 'what interested me with the kettlebells is that it was more like full body' - and to longevity: 'I want to have, like, good movement. I want to be able to still do a sprint, you know, in 20 years.' On delivery of the pillar itself he simply agreed: 'No, that, that makes, that makes good sense.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no questions and no objection: 'Yeah, that makes sense. Yeah, awesome.' Worth noting that nutrition was presented entirely blind - the rep never asked what he currently eats, so the pillar was delivered with no knowledge of the prospect's diet and could not be connected to anything specific in his situation."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Asked a practical logistics question about the community sessions - 'do you have like these, where everybody gathers together, is that usually like in the evening?' - and reacted positively to the answer: 'that sounds pretty good, man. Like having, having some, you know, some group meetup type things, everybody's working out. Like, I mean, it sounds. Sounds kind of cool.' The group element was the part of the offer he responded to most warmly, and it is also the part Primal University does not fully replace."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "Yeah. So that one's 200 bucks a month. It's kind of like, uh, it's pay as you go.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University - the company's own lower tier",
+      "note": "Proposed label: internal_downsell_tier. The most consequential anchor on the call and the rep set it himself. Primal University was named at 00:26:18, about ten minutes before the $6,000 figure was quoted, so the prospect heard the cheap in-house option first and evaluated the flagship against it rather than against his problem. He converted it into an annual comparison unprompted - 'That still turns out to be, what, 2400 at the end of the year?' - and bought it."
+    },
+    {
+      "type": "other",
+      "raw": "another thing I was gonna maybe do is, was get like a weighted vest and continue doing what I'm doing, and just continue doing, you know, put an extra 25 pounds on and just keep doing what I'm doing",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: cheap_equipment_substitute. A one-off purchase of perhaps a hundred dollars set against $6,000, and the rep conceded it directly: 'I can guarantee you a weighted vest is cheaper.' The concession was made without first establishing what a weighted vest cannot do, which is programming, progression and expert eyes on form."
+    },
+    {
+      "type": "other",
+      "raw": "just, you know, just checked out things on YouTube... I've gotten results with it. I mean, I, I think I've, I I already have the six pack.",
+      "direction": "undercuts_price",
+      "competitor": "Free YouTube fitness content",
+      "note": "Proposed label: free_method_with_five_year_track_record. This is the strongest version of this anchor seen in the batch. Unlike a prospect who tried free content and failed, he tried it and succeeded for five years, reaching roughly 10-12% body fat and a visible six pack with zero spend. Every dollar of the $6,000 has to be justified against a method that demonstrably works for him already, and nobody attempted that justification."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I looked at maybe even doing like, there's like a, almost like a CrossFit type gym here that opened up. Yeah. Like Iron Tribe or something like that. But I decided not to do that because I was, I was getting a lot of results and it wasn't, it wasn't costing me any money.",
+      "direction": "undercuts_price",
+      "competitor": "Iron Tribe or a similar CrossFit-style gym in Nashville",
+      "note": "A documented prior instance of this prospect evaluating paid fitness and declining it on exactly the same reasoning he used at the end of this call. It was volunteered in the first three minutes and was a direct preview of the outcome; the rep did not pick it up or ask what would have made that decision go the other way."
+    },
+    {
+      "type": "other",
+      "raw": "I'm paying back some student loans and I need to focus on writing that out to the end of that... I would remove my buffer that I have that I've created for myself. And I don't want, I don't want to do that while I'm like so close to being done.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: competing_debt_obligation. Not a competitor but a fixed claim on the same money, with an emotional weight attached to being nearly debt-free. This is precisely the situation the OC financial picture questions are built to open up, and none of them were asked, so the actual size of the constraint is unknown."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A middle option between $200/month self-serve and $6,000 for six months - something more structured than PDFs and videos but less than full one-to-one coaching.",
+      "why_unmet": "No such tier exists. He asked for it directly - 'that's my main thing, is it's in the middle of it all, like the cookie-cutter thing I might I able to do it' - and the rep answered by describing the two poles rather than the middle.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A payment plan or instalment structure on the flagship that would let him start without touching his financial buffer while he finishes his student loans.",
+      "why_unmet": "Never offered. The rep improvised a deposit-plus-instalments structure for a different prospect four days earlier but did not raise the possibility here, despite an explicit and temporary cashflow constraint and a stated intent to buy later.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Guidance on which kettlebell weights to buy to progress past the single 25 lb bell he owns.",
+      "why_unmet": "He asked directly and got general shopping advice - adjustable bells, 'I'd probably find them on Amazon' - plus a reference to a strength evaluation that only happens after purchase. A concrete answer here costs nothing and is a live reason for him to stay engaged.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Reassurance that a paid programme adds something his self-directed method has not already delivered.",
+      "why_unmet": "Never attempted. The rep's framing was that clients come because they 'specifically really resonate with Trevor', which is an affinity argument rather than an outcome argument, and he then agreed the cheaper route made more sense.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

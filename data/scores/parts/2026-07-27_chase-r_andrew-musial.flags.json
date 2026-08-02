@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-27_chase-r_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect volunteered a family history of premature cardiac death and the rep did not acknowledge it at all, continuing to a six-month high-intensity conditioning sale with no health-conditions question asked anywhere on the call.",
+      "evidence": [
+        "there may or may not be some kind of hereditary heart issues in our family. I've had an uncle that passed from a heart attack and his father as well.",
+        "I just need this for any aspect. I would promote working out to anybody. I can sell that to anybody. I just need to do it myself.",
+        "You miss the old days of wrestling and power?",
+        "the full investment for that is 6K"
+      ],
+      "timestamp": "00:07:19"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep offered a causal explanation and a corrective for the prospect's undiagnosed recurring knee problem, and dismissed ankle-support footwear as worthless, despite the prospect saying he does not know what is wrong.",
+      "evidence": [
+        "I had a consistent spot in my knee that would tighten up and I would not be able to run... I don't think it's a tendon thing. don't know what's going on",
+        "Usually like 95% of the times it's just strengthening that, that areas.",
+        "there's this myth that when you're hiking, you should have over-the-ankle boots to support your ankle. That is total BS. That won't save you when you're going to be falling and spraining your ankle.",
+        "The same with the knees, because a lot of people are complaining, oh, going up is not an issue, like going down is an down. That's strengthening the muscles."
+      ],
+      "timestamp": "00:14:44"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep again recounted being advised to have a hip replacement, declining it, and crediting kettlebells with the outcome — the third occurrence of this anecdote in this batch, here delivered to a prospect who had just disclosed a knee problem.",
+      "evidence": [
+        "he told me, your hips look like you're 75, 85, something in this range. Like, I cannot understand how is it possible that you're walking and you have so much mobility",
+        "I was like, okay, I don't want to have a surgery of hip replacement.",
+        "that literally, I'm not exaggerating, that saved my life, especially like in fitness terms.",
+        "I'm 43 right now. I don't have a hip replacement. I can do long hikes, like just two months ago, I did like a 100 mile hike in four days",
+        "So, you know, maybe kettlebells fix that because I just slowly build the, I don't think it's a tendon thing."
+      ],
+      "timestamp": "00:11:54"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "Prospect disclosed newly flaring sciatic symptoms from prolonged sitting and driving, which were absorbed into the mobility pitch with no clearance suggested and no follow-up questions.",
+      "evidence": [
+        "I do drive a lot as well, so... A sciatic started flaring because of the sitting. really going to And for so long driving from, you know, place to place.",
+        "Exactly. So whenever you have like five minutes, coffee break, whatever, you can do those movements, what that's going to give you that after a whole day, you don't feel like a truck hit you",
+        "you need to learn properly all the kettlebell movements, because they're not like a magical solution to everything, you can get injured with them too"
+      ],
+      "timestamp": "00:23:53"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker attribution is inverted through most of this transcript, including the entire nutrition and accountability pillar deliveries, which carry the prospect's label.",
+      "evidence": [
+        "00:28:08 - Chase R — And you don't need calorie counting.",
+        "00:33:16 - Chase R — It has to work for you, not the other way around, because it won't stick for long.",
+        "00:06:04 - Andrew Musial (Primal Instinct) — How do you think how she's going to react to that? She'll love it."
+      ],
+      "timestamp": "00:28:08"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "A setter named Derek appears for the second time in this batch, reinforcing him as a candidate resolution for the DH setter code recorded as unknown in the extraction spec.",
+      "evidence": [
+        "I had a chat with Derek.",
+        "So you've been a wrestler and a power lifter throughout your high school years. That's correct? That's right."
+      ],
+      "timestamp": "00:00:51"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "call_id": "2026-06-19_jon-boroughs_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Primal University was quoted as 'either $2,000 for a year or it's $2,000 a month' — the monthly figure is ten times the $200/month price confirmed by the setter on the internal team meeting the same day and by the rep himself on two later calls in this batch.",
+      "evidence": [
+        "That Primal University is... Either you can just for yourself, it's either $2,000 for a year or it's $2,000 a month. That sounds more doable, right?",
+        "Yeah. Yeah.",
+        "Yeah, I can go ahead and do that here after a bit. I don't have any cash right now. So I'm between paydays, but yeah, I mean, that sounds more doable."
+      ],
+      "timestamp": "00:54:57"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect verbally accepted the downsell as 'more doable' on the basis of a price that was stated incorrectly and never corrected, and a signup link was sent against it.",
+      "evidence": [
+        "it's either $2,000 for a year or it's $2,000 a month. That sounds more doable, right? / Yeah. Yeah.",
+        "Yes, I'll send you a link in the chat here.",
+        "So we can get that started if you want to."
+      ],
+      "timestamp": "00:55:09"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A 53-year-old with no savings, no credit cards and roughly $450 a month of surplus was walked toward 12-month third-party financing at approximately $500 a month — more than his entire disposable income — with no lender named and no interest rate disclosed.",
+      "evidence": [
+        "I took out a savings. Uh, for a big house improvement repair. So that's kind of gone.",
+        "The only other thing I can then think about is, I don't know if you've ever worked with that, but, um, with like a finance aspect, could potentially look into where we can split up over two, 12 months.",
+        "it was a 12 month thing, it'd be $500 a month.",
+        "with the financing aspect, there will be some interest potentially depending on the credit score, but if you pay it off before the 12 months, the interest is basically nothing",
+        "I'd have to think on it, man."
+      ],
+      "timestamp": "00:50:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "After the prospect stated he had no cash and no savings, the rep continued probing for credit capacity twice more before accepting the answer.",
+      "evidence": [
+        "Anything that you currently already have on hands for yourself? / No, not at the moment.",
+        "I don't want to come over as invasive, by the way, but any sort of savings, anything that you have for yourself? / Not at the moment, no.",
+        "Do you also have nothing, like, I'm just trying to make sure we can actually get you started, right? Like, do you have also nothing, because it will be true at credit cards. Do you not have anything, like, open on your credit card? / I don't do credit cards, no.",
+        "So you don't see any possible way to, like, you don't have anything on hand at the moment?"
+      ],
+      "timestamp": "00:56:21"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "A 53-year-old at 325 lb who had seen a doctor three to four weeks earlier for a musculoskeletal injury sustained without exertion was sold toward kettlebell training and sent a workout video, with no question asked about whether his doctor had cleared him to train.",
+      "evidence": [
+        "I had an incident recently where, um, I thought I had some sort of organ issue going on. And, um, I went to the doctor and they told me it was musculoskeletal. So basically I pulled something or something like that. I haven't done anything, man. I haven't done anything to pull anything.",
+        "when I went to the doctor to get that checked out, they weighed me in at 338",
+        "because heavy people have, they can get diabetes, you can have heart failure",
+        "What I will do is I will send you a video at the moment because, of course, you have a few dumbbells already, right? So just make sure you don't injure yourself during that period, please.",
+        "I would try to kick up your steps to like 9 to 10k if you can do that."
+      ],
+      "timestamp": "00:01:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep made an unqualified medical-outcome promise about the prospect's back and stiffness while presenting the training pillar.",
+      "evidence": [
+        "And then also that back is completely going to be okay and that stiffness is just completely gone.",
+        "that is something we want to make sure never happens again",
+        "you're going to fix it so it will never get worse into the future"
+      ],
+      "timestamp": "00:31:57"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-05-09_kamal-mohammed_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $7,200 six-month price was quoted explicitly as the monthly-payment variant, $1,200 above the approved $6,000/6mo figure.",
+      "evidence": [
+        "If I wanted to do it monthly, is that possible? It's possible, but it works out to be more. How much more? $1,200 a month.",
+        "So you basically pay, it's $7,200 if you do it monthly. If you do it all upfront, it's $6,000. Or you can do it in two payments of $3,000.",
+        "Because if you do it in six, you're paying an extra grand for no reason."
+      ],
+      "timestamp": "00:01:21"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The deadline for the second instalment of the split-payment plan was stated three different ways within twenty minutes.",
+      "evidence": [
+        "So it'd be $3,000 down and then $3,000 in anywhere from 30 to 60 days.",
+        "you can do the split pay where it's, you do 3k down and then 3k within 90 days. So you'd pay 3k and then by the time you're halfway in, you've got to pay the other 3k for the other half.",
+        "you've got until the end of the month to do the other 1800, to keep it at the 6"
+      ],
+      "timestamp": "00:07:58"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A fourth payment structure was improvised mid-call — $1,200 down with $1,800 by month end — layered on top of the three already quoted.",
+      "evidence": [
+        "Well, why don't you just do this, why don't you just do 1200 down, we get you all started, we get you all onboarded, and then if you wanted to do 3, then you can just pay the other 1800, it's not a problem.",
+        "if you're like, actually I want to do 3 and 3, then you can, you've got until the end of the month to do the other 1800, to keep it at the 6, do you know what mean?",
+        "If it's a thing for you where it's like, oh man, I want to make sure that I'm not doing it all upfront because that's going to put me in a bad spot. Just do 3K, 3K."
+      ],
+      "timestamp": "00:12:29"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep argued that the price itself would produce the result, and used the prospect's decade of self-reported failure as the lever, while the prospect was expressing genuine doubt that transformation was possible for him.",
+      "evidence": [
+        "I think that the reason why it's $1,000 a month is even more reason why you should do it. Yeah. You know why? Because you've been saying for like 10 years that you're going to get shredded.",
+        "That's the thing. And then you are going to get shredded because you put the money in.",
+        "I believe it, and I don't. I don't believe it, I feel like, I don't know... is it even possible?"
+      ],
+      "timestamp": "00:03:57"
+    }
+  ]
+}

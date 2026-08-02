@@ -1,0 +1,83 @@
+{
+  "call_id": "2026-06-02_akaki-kvitsiani_ben-byrne",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Price moved from $6,000 to a $1,500 entry point in roughly four minutes on hesitation alone, through four intermediate figures, with no financial information ever gathered from the prospect.",
+      "evidence": [
+        "So the six months is 6K, 6,000 US. The year is 9. And then, yeah, like if there's one other option, which is three months, which is 4K as well.",
+        "Makes sense here. It's quite expensive.",
+        "if even 4K is too much, even if we split it up, you don't want to do that.",
+        "It's $1.99 per month, but you can cancel it whenever you want.",
+        "Yeah, so like for the 4k, I mean, we'd usually start, if we can put down 1500, that would get you into the program"
+      ],
+      "timestamp": "00:24:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A three-month tier at $4,000 was presented up front as one of three standard options, a duration and figure absent from the stated $6,000/$9,000 offer, and the prospect immediately adopted it as his reference price.",
+      "evidence": [
+        "So, we have three, like, we have three main options with their, with the kettlebell body.",
+        "And then, yeah, like if there's one other option, which is three months, which is 4K as well. Does that make sense?",
+        "Makes sense here. It's quite expensive. I thought that it would be kind of, minimum is like three months?",
+        "like $4,000 for three months, it's expensive, you know"
+      ],
+      "timestamp": "00:24:02"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "A 30-day 'love it or leave it' cancellation guarantee was offered here for the only time in the batch, and was not offered to the prospect the previous day who declined specifically because he feared the programme would be no different from free videos.",
+      "evidence": [
+        "we could do a 30-day, love it or leave it, we're essentially at the end of the 30 days of the program. If you're like, yeah, this is good, but, you know, like, we can always escape. Cancel the rest after that",
+        "or if you like it, then we could just keep going. Or if you really wanted to, you know, what's the word, like ascend, I guess, to the six months and pay the difference."
+      ],
+      "timestamp": "00:28:37"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The improvised $1,500 entry, the 30-day cancellation and the upgrade path were described in a single unclear passage with no stated instalment count, schedule, total, or definition of what cancelling forfeits.",
+      "evidence": [
+        "for the 4k, I mean, we'd usually start, if we can put down 1500, that would get you into the program and we could do a 30-day, love it or leave it",
+        "we can always escape. Cancel the rest after that, or if you like it, then we could just keep going.",
+        "Well, it doesn't have to be 4K, up front, you know, like, we could split it over, we could split it apart.",
+        "Understood, understood. Okay, I'll think about it and text you"
+      ],
+      "timestamp": "00:28:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep reported this prospect to his manager an hour later as being from the US state of Georgia and unlikely to have money, when the prospect had stated in the opening seconds that he was calling from the Republic of Georgia.",
+      "evidence": [
+        "Where are you calling in from? I'm calling from Georgia, the Republic of Georgia.",
+        "You have to visit Georgia as well. Here is more delicious.",
+        "And he's in Georgia, which is like, not to put limiting beliefs out there, but, you know, they don't make like a ton of money there, but whatever.",
+        "Yeah, I mean, it's not a limiting belief if it's, like, rooted in reality"
+      ],
+      "timestamp": "00:00:12"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University was quoted as '$1.99 per month' with an unspecified annual discount, the fourth different set of figures given for the same product by the same rep in this batch.",
+      "evidence": [
+        "It's $1.99 per month, but you can cancel it whenever you want. You could sign up for the whole year and get like a discount, but that's another option."
+      ],
+      "timestamp": "00:28:09"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure or consent to record appears anywhere in the transcript, which opens with the recording already running.",
+      "evidence": [
+        "How's it going? Can you hear me good? Yes, yes.",
+        "How's it going? How are you?"
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

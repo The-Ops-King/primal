@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-07-29_marcus-mahar_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Accepted the substance ('that sounds great... Sounds doable') then probed the mechanics: 'you said that, like, the main training — is it always four days a week or is it, can I say I want to do more or how?' He was checking whether the schedule was a constraint or a floor."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "'That sounds good. Does he — is the, um, cause you know, like I've tried like MyFitnessPal, where you kind of track the food. Is there something that he requires for that?' The rep said tracking is not required, and the prospect accepted."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Asked which of the three things was the needle mover, he volunteered it: 'I like that I could send videos and get feedback on what I'm doing... I like that I'm being taught it, I'm not being like dependent on continuing training the whole time. I'm being able to do it by myself. So that's, I like that as well.' He tied it directly to his own stated goal of not being dependent on a trainer again after losing his last one."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "if I could find a trainer to come to my house type of thing and do something like that. I've not looked into it. I don't know what that would cost. I don't know if it's a crazy amount, but just trying to take into account, like, okay, if I spent 6k on that, what would that look like? How many sessions would that be?",
+      "direction": "undercuts_price",
+      "competitor": "Local in-home personal trainer (Los Angeles), unpriced",
+      "note": "The most articulate anchor in the batch and an unusual one — he had not actually priced the alternative, he was anchoring on a per-session unit-economics model. $6,000 divided into in-home sessions is a comparison the offer has no prepared answer for. Note he also wanted the option to buy a single session then a pack of five, i.e. an incremental commitment model."
+    },
+    {
+      "type": "prior_coaching_spend",
+      "raw": "I started going to the gym about two years ago. And then I was introduced to a trainer who kind of introduced me to mobility a bit more... that trainer's gone, he left the country",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has an established habit of paying for one-to-one coaching and valued it — the loss of that trainer is a large part of why he is on the call. This is the anchor that carried the sale."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An incremental commitment structure — try it, then buy more if it works",
+      "why_unmet": "The offer is a single six-month term. There is no trial, no month-to-month and no session pack, so the rep constructed a one-month 'love it or leave it' arrangement live to close the objection.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A defined feedback turnaround commitment for video form reviews",
+      "why_unmet": "No service-level commitment exists. The rep gave three different informal estimates across the call — 'within a couple of hours', 'he will come back to you within a day', and 'he can respond within a minute' — and hedged that it depends on the day.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Assurance before purchase that the programme is genuinely personalised rather than a template",
+      "why_unmet": "Nothing verifiable is available pre-purchase — no sample protocol, no client references, no trial content. The rep's answer was that the alternative is equally unverifiable, which neutralised the objection without meeting the demand.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

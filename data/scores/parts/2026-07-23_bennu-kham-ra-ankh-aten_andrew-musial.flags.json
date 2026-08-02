@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-07-23_bennu-kham-ra-ankh-aten_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "critical",
+      "summary": "The one-to-one six-month programme is being sold to this prospect at $3,000, half the $6,000 list price, and both parties treat the figure as long settled from the previous call.",
+      "evidence": [
+        "So look, 3K is a real number for any household.",
+        "She's like, no, not right now. That 3000, no, not right now.",
+        "So when you would break the 3,000 down, if you would break it down, so just so I know, when September comes around, and you break it down monthly, how much would that be monthly?",
+        "So we could structure it in a couple of ways, whether it's like three times of 1,000, yeah? Mm-hmm, yeah. And that's, there's no interest on this, or if you would like to spread it even more, we can do it like six, over six months, but that would be 600 a month"
+      ],
+      "timestamp": "00:01:31"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep submitted a third-party consumer credit application for a prospect who had disclosed he is not currently working and whose spouse had already refused the purchase twice; the application was declined.",
+      "evidence": [
+        "Like I said, Andrew, it's not going to work right now. She wants to do some things with the house, with the apartment, and she's like, no.",
+        "there is a way that we could structure that around 300-ish with the third party financing option like PAYVA. I don't know, or Klarna, but you probably heard about Klarna or a firm, right?",
+        "with the program, you can even spread it out over like 12 months installments, so that would be around 300-something.",
+        "It says, we're sorry we're unable to offer you a payment plan at this time.",
+        "Everything's based on her. She I'm not working because I'm not working now. That's what the whole situation is.",
+        "Okay, now that makes more sense. Now it makes more sense. Okay, so she's she has the power right now."
+      ],
+      "timestamp": "00:05:35"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep offered the self-paced Primal University product at $1,000 for six months, or six payments of $200, as a live downsell alternative to coaching after the credit application was declined.",
+      "evidence": [
+        "So, the last thing that I can offer you, but it's not going to be the... Like a one-on-one coaching with accountability and so on is what Trevor runs is also called like a primal university that you can do it on your own. It's also, it's for six months.",
+        "And this is for six months. It's Yeah. $1,000. So yeah, we can, we can even spread that over six months of six times $200.",
+        "But like, if the finances are tight, this is at least something that gets you going.",
+        "Well, I was thinking more like it's going to be like about maybe like 200 a month"
+      ],
+      "timestamp": "00:15:12"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep gave a verbal commitment that the subscription is always paused for as long as an injured client needs to recover, a term that appears in no other call in this batch and was absent from the written agreement read aloud on the Ricky call.",
+      "evidence": [
+        "if you would get injured for any reason, yeah, because sometimes those things happen, we cannot predict that, we always pause the subscription for the time that you need to get well, yeah?",
+        "So, when you get well, you come back and you just follow for the rest of the time.",
+        "what if I, you know, I re-injured my leg, because she's really worried about me re-injuring my leg as well."
+      ],
+      "timestamp": "00:03:36"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A prior leg injury and an explicit re-injury concern were raised by the prospect and were answered with programme design and a refund-style assurance, with no suggestion that a clinician assess him before starting.",
+      "evidence": [
+        "what if something happened, what if I, you know, I re-injured my leg, because she's really worried about me re-injuring my leg as well.",
+        "the way that it's structured is that it's designed to your capacity, not only time-wise, but also what are you capable of physically right now? Of course, it's pushing you a little bit, but the last thing that we want is to get you injured.",
+        "if you would get injured for any reason... we always pause the subscription for the time that you need to get well"
+      ],
+      "timestamp": "00:02:03"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep continued to work the close through three separate refusals from the prospect before accepting the deferral.",
+      "evidence": [
+        "Like I said, it wouldn't be a good foot right now, not with her, the way she was acting.",
+        "So let's solve this piece together right now, and then it's just about you making the call for yourself.",
+        "Like I said, Andrew, it's not going to work right now.",
+        "So what number would actually feel comfortable to commit to monthly? No pressure. Just, you know, just, just tell me the real one.",
+        "She's like, no, not right now. That 3000, no, not right now."
+      ],
+      "timestamp": "00:04:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This file records only the second call of a live engagement; the prior-day call that set the $3,000 price, captured the financial picture and took the deposit is referenced repeatedly but is not present in this batch.",
+      "evidence": [
+        "So let me know how the conversation with your wife go last night.",
+        "because you told me yesterday that you got about 1600 left over most months. Yeah? And a card with some room on it.",
+        "because you told me yesterday, nothing else is standing between you and doing this except the financial piece, right?",
+        "In the meantime, I'm sending you back the deposit."
+      ],
+      "timestamp": "00:00:35"
+    }
+  ]
+}

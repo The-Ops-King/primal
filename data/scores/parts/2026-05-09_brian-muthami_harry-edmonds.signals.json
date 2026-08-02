@@ -1,0 +1,43 @@
+{
+  "call_id": "2026-05-09_brian-muthami_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. It is a nine-minute continuation call for payment and scheduling; the pillars belong to the prior discovery call, which is not in this batch."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. Nutrition was not mentioned at any point."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. The only forward-looking content was logistics — the Trevor onboarding slot and its likely length."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "education_cost_comparison",
+      "raw": "currently gonna be taking three classes and everything in total was like $6,000? $6,000? For how long? For three classes? Yup, 16-week courses. Yeah, school is expensive. It sucks here.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect named $6,000 — the exact price of the programme he was about to pay for — as an example of something outrageously overpriced, four minutes before the payment discussion. He extended it to 'it feels like you're getting scammed over here' and the rep agreed, adding a story about a friend with a hundred thousand dollars of student debt and no degree. Both parties spent several minutes establishing $6,000 as a lot of money for sixteen weeks of instruction, immediately before collecting $1,200 toward $6,000 for twenty-six weeks of instruction. Neither connected the two."
+    },
+    {
+      "type": "equipment_and_free_content",
+      "raw": "I got a kettle belt, but the only thing I lacked is the knowledge and stuff. I watched a couple of videos from his Instagram. I usually kind of use those to kind of, you know, get started with the basics and learn a little bit about it.",
+      "direction": "undercuts_price",
+      "competitor": "Trevor's Instagram content",
+      "note": "He already owns a 45lb kettlebell bought for about $50 in 2024 and has taught himself the fundamentals from the free content, deliberately, so as not to start a paid programme from zero. He is also acutely aware of equipment price movement, noting the same kettlebell now costs $80. Everything he is buying is instruction and accountability."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "His girlfriend training alongside him — 'I'll probably get my girl into that, too, because she's on the same journey' and 'she actually went on today and bought some kettlebells'",
+      "why_unmet": "The rep encouraged it socially — 'You should get your chick on it for sure' — but nothing was said about whether a partner is served under one seat, whether she would get any programming, or what it would cost. The prospect is proceeding on an unstated assumption. This is the second call in this batch where a household member's participation was encouraged without scope or price being addressed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-06-07_emerson-mendez_andrew-musial",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Volunteered his own reasons for wanting it before the pillar was delivered and tied it to his constraints — 'what I like about the program is basically it's simple... with a smaller area, it's sustainable for me', 'training with kettlebells is essentially a full-body workout', and he had independently researched steel maces: 'I was looking into working with some weighted maces, and because I've seen how that also helps with mobility and shoulder strength and core strength.' The mobility half was pitched directly at his sciatica and he did not push back."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Accepted without questions. The rep largely conceded the pillar rather than selling it — 'you've already done a lot of the hard work... So what Trevor will do, we'll just refine what you've already been doing' — which was accurate given the naturopath, the gluten and dairy elimination and the 15lb loss, but meant a third of the offer carried little value for him. He engaged only on the sweet-tooth exception."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed with no questions — 'No. That's pretty straightforward, yeah' when asked directly, then 'Good, good' on how he felt about it. Flat. Notably he had already told the rep that what he wanted was 'structure and guidance and showing me where I can improve, where I'm going wrong', so the pillar aimed at his stated need drew the least reaction of the three."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "For that type of money, I can get my brother-in-law to train. He's been working out all his life, but that's not the issue.",
+      "direction": "undercuts_price",
+      "competitor": "Brother-in-law",
+      "note": "The decisive anchor, produced at the moment the $4,000 tier was refused. A free, trusted, experienced alternative inside the family. It went entirely unaddressed and the rep moved to a downsell within seconds."
+    },
+    {
+      "type": "competitor_price",
+      "raw": "I have a friend here that's also a coach, a fitness coach... he can provide me a service where he can take one-on-one time, provide me nutritional advice or a nutritional plan that I can follow. Where I would also give him weekly updates on my progress",
+      "direction": "undercuts_price",
+      "competitor": "Local fitness coach (friend of his brother-in-law)",
+      "note": "A near-identical service description to the offer's own accountability pillar — one-to-one time, nutrition plan, weekly progress updates — which he declined on distance and price. He raised it in direct response to the commitment question, signalling the comparison was already live in his head."
+    },
+    {
+      "type": "other",
+      "raw": "maybe I'll be willing to spend, uh, I'll be, you know, a couple thousand for, I'm not sure, actually, for, for, for, for, uh, in-depth program.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Self-declared budget ceiling, elicited by the rep asking for it. Roughly a third of list. Once stated it became the number the offer was priced against, producing the $4,000 tier and then the $200/month subscription."
+    },
+    {
+      "type": "other",
+      "raw": "I was going to visit him pretty much every month, once a month for the last couple of years.",
+      "direction": "supports_price",
+      "competitor": "Acupuncturist (massage, acupuncture, cupping)",
+      "note": "Years of monthly out-of-pocket spend on manual therapy, plus ongoing naturopath fees. Establishes a real willingness to pay for physical maintenance — but at a monthly cadence and a modest per-visit ticket, which is exactly the shape of the $200/month product he responded well to and not the shape of a $6,000 lump."
+    },
+    {
+      "type": "other",
+      "raw": "I'm starting a new business. And it's, spending that much money right now. I can't do that, that much.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Competing capital call rather than absence of income. A trade income exists; the discretionary surplus is committed to launching the venture. The financial picture was never run, so whether credit or a longer plan could have bridged it is unknown."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A written breakdown of what each option costs and what is included, to review in his own time.",
+      "why_unmet": "He asked for it explicitly — 'If you can break me, if you can provide me a breakdown of how much something like, you know, for me to get started would cost' and 'I'd like to see a breakdown of how much that would look like and what I would get for that service.' No breakdown was produced on the call and none was promised for the coaching tiers; the only follow-up committed to was an email about a different, low-ticket product. There is no collateral in the process for a prospect who needs to consider in writing.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Price visibility before investing an hour in a sales call.",
+      "why_unmet": "Nothing in the application funnel or the setter call disclosed a figure, by design — 'he was a bit vague... He did mention that it's a premium service' and 'I never had that outlet within his page that would show me.' The result was a 50-minute call with a prospect whose ceiling was a third of the price. This is demand the go-to-market deliberately refuses to serve, and the cost is showing up as closer time.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Assurance that loaded kettlebell training is safe for recurrent sciatica, ideally coordinated with the practitioners already treating him.",
+      "why_unmet": "He described a condition that periodically stops him standing straight, and active care from an acupuncturist and a naturopath. The rep asserted the mobility protocol would prevent recurrence but no clearance was sought, no clinician contact was proposed, and no evidence was offered. Whether the programme can safely serve chronic sciatica in someone carrying a 40lb harness ten hours a day is genuinely unresolved and needs a clinical answer rather than a sales one.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To learn enough to manage his own training long term rather than stay dependent on a coach.",
+      "why_unmet": "Stated twice, and it is what he liked most about the concept — 'I want to be capable to do a lot of this work for myself, to understand where I went wrong, where I need to improve' and 'I like the whole idea of, in the sense of empowerment, of learning and having that knowledge to benefit myself.' The rep asserted the teach-to-fish philosophy as a contrast with personal trainers but offered no curriculum, mechanism or evidence, the same unevidenced claim made to Julian Malfregeot the same day.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

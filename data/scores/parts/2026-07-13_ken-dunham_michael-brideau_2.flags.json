@@ -1,0 +1,117 @@
+{
+  "call_id": "2026-07-13_ken-dunham_michael-brideau_2",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "critical",
+      "summary": "The prospect's full payment card number, CVC, expiry date, billing address, phone number and email were read aloud during the call and are stored verbatim in this Drive transcript.",
+      "evidence": [
+        "I'll do a Visa... the Visa, 438, 4388, one sec, one sec, one sec, 4388, 5400, 5400, [remaining digits present in the transcript at 00:57:56]",
+        "601. That's the CVC or whatever it is, the three digits.",
+        "601, you said? Okay, 601, and then expiration? Is 10 or 27.",
+        "101-36-Maple Ridge Drive in Dallas, 75238.",
+        "phone number is the 214-402-7299? Yep."
+      ],
+      "timestamp": "00:57:46"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A 63-year-old with two shoulder replacements, a diagnosed meniscus tear and a prescription hormonal and peptide regimen was sold and paid for loaded ballistic kettlebell training, with no clinician clearance sought at any point.",
+      "evidence": [
+        "I've had two shoulder replacements.",
+        "I've got a small veniscus tear in my left knee, and I've been putting it off for a year to get anything done with it",
+        "because of the left knee, I'm concerned that the right knee is coming",
+        "I'm just starting out and I don't want to, I don't want to blow a shoulder out. So I'm just, I just want to take it slow",
+        "I take clomiphene, and clomiphene keeps me about seven, eight hundred",
+        "I'm on a regimen of peptides",
+        "Yeah, Trevor will work around it. So that's part of it."
+      ],
+      "timestamp": "00:18:39"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep reinforced the prospect's year-long deferral of a recommended knee surgery by suggesting the programme could make the operation unnecessary.",
+      "evidence": [
+        "I've been putting it off for a year to get anything done with it, and I'm a little concerned about going under the knife. I've heard sometimes those surgeries don't.",
+        "there'll be a lot of stuff that he's going to do. One, to work around it, but two, also to strengthen it, to add some mobility so that potentially we get to a point where you don't even have to worry about the surgery anymore. Like that's a possibility.",
+        "We've seen guys where, you know, they're dealing with knee issues, they can strengthen things around it, do some of the mobility work. And all of a sudden it's like, dude, doesn't even bother me anymore.",
+        "Not saying that's going to happen, but it's definitely possible, and we've seen it for sure."
+      ],
+      "timestamp": "00:19:16"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep refused a discount and then five minutes later invented a $1,200 one-month 'love it or leave it' entry tier with an exit right, conditional on committing immediately — the second time in three days he has improvised this exact tier.",
+      "evidence": [
+        "Does it come with a discount, Michael? — I can't discount it, but...",
+        "You commit to doing something right now with me. I'll let you in the program for 1,200 bucks. We'll do a love it or leave it type situation.",
+        "$1,200 for the first month. If we're loving it, it's going to be the $4,800 to do the rest of the six months. If you don't like it, great. You've had a month of coaching with Trevor. You can take all his knowledge and information that you got in that month, and we'll part ways",
+        "But if you're willing to do it right now, I'll put you in a love-it-or-leave-it type situation.",
+        "total investment for everything, six months to work with Trevor, have the transformation is going to be $6,000"
+      ],
+      "timestamp": "00:55:32"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This single Drive file contains two entirely separate sales calls with different prospects recorded back to back, so any per-file count of calls will undercount and any per-file analysis will conflate two prospects.",
+      "evidence": [
+        "Cool. I'm going to boot you out just because I got my next guy in the waiting room here, so we'll talk soon.",
+        "we'll talk to you later. Bye. Hello, hello. Hey, how's it going?",
+        "01:05:55 - Saagar Patel-Francis  Good."
+      ],
+      "timestamp": "01:05:36"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep asserted that kettlebell training progressively makes injury harder and that participants' existing injuries stop troubling them, to a prospect with two prosthetic shoulders and a torn meniscus.",
+      "evidence": [
+        "the ability to get injured kind of increases over time, and because of the functionality... it becomes harder and harder to get injured over time",
+        "we'll have guys who come in with all sorts of different injuries, and three months in, they're like, dude, it doesn't even bother me anymore",
+        "we've seen a ton of people come in with injuries, they get really strong around those certain injuries, they work on the mobility stuff, all of a sudden, the injuries don't hurt them anymore, and we're kind of injury-proofing yourself well into the future",
+        "Trevor's like the top kettlebell guy in the world. He can work with every single body, injury, whatever."
+      ],
+      "timestamp": "00:17:47"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep projected a specific body-composition outcome for a 63-year-old, moving him from a self-estimated 25% body fat to 10-12%, with no data behind it.",
+      "evidence": [
+        "10% body fat loss is super common inside the program within the six months. I think you said you're maybe 20, 20, you know, 20 something or whatever. Like I think getting you down around the, you know, closer to the 10 side of things, you know, 10, 12, like maybe a little bit more, super doable.",
+        "after two, three months, man, you're going to be like, holy crap, I'm looking at a different human being right now",
+        "I'm not going to promise you the V shape, seeing your abs, you know, defined chest stuff, but it's pretty likely"
+      ],
+      "timestamp": "00:35:54"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Paying client left the call with no signed agreement and no confirmed onboarding materials, because the rep had a back-to-back call and deferred both to a later text.",
+      "evidence": [
+        "Not through yet.",
+        "Yeah, don't see anything.",
+        "No. Nothing? Interesting. All I see is the scheduled meeting, when, where, joined by.",
+        "Okay. Let me figure that out. I'll get it sent to you right away.",
+        "So I got to hop on one more call here. I'll get that figured out here shortly, and I'll shoot you a text in a little bit"
+      ],
+      "timestamp": "01:01:49"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "low",
+      "summary": "Rep stated a specific performance guarantee — eight kilograms added to primary lifts within six months or free continued coaching — which appears nowhere in the playbook; this is the second call in three days on which he has stated it in near-identical terms, so the issue is an undocumented company policy rather than an improvisation.",
+      "evidence": [
+        "One thing Trevor actually does, he puts a full guarantee on the program.",
+        "providing you're putting in the work, doing the check-ins, doing the workout and stuff like that, is that we can at least add eight kilograms onto your lifts",
+        "if for some reason, [we] don't add at least eight kilograms, and ideally, it's going to be more, he's going to continue working with you for free until we actually get to those eight kilograms on some of the primary lifts",
+        "it's difficult in terms of, like, guaranteeing body fat percentage and stuff like that"
+      ],
+      "timestamp": "00:31:31"
+    }
+  ]
+}

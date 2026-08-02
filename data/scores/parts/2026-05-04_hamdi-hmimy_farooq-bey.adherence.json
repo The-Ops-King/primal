@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-04_hamdi-hmimy_farooq-bey",
+  "rep": "Farooq Bey",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "No setter code, no application referenced and a generic meeting title, so the read-back check does not apply. Three of four frame elements were set — 'It's just an opportunity for me to understand you, brother. You know, where are you today? Where do you want to be? If you can help, I can show some options, okay?' — omitting 'what's in the way'. Agreement was a trailing 'okay?' answered with 'Mm-hmm' rather than an explicit check. The open question ran cleanly: 'how can we potentially help you?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "miss", "P2e": "miss", "P2f": "partial", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Baseline was skipped almost in full on a thirty-minute call. Age was volunteered — 'I just turned 30' — and never asked; height and weight were never obtained. Work was asked but only at 00:17:35, after two of the three pillars had already been delivered, and the desk-bound question was answered only because the prospect said 'I sit all day' unprompted. The most serious omission is P2d: 'I have really bad shoulders' was volunteered at 00:03:33 and drew no follow-up of any kind — not what is wrong with them, not how long, not whether anyone has looked at them. Diet was never asked despite the prospect volunteering a carnivore history and 1,700-1,800 calorie cuts. Sleep, energy and the actual training week were never raised. The only partial credit on results comes from 'what's kind of shifted for yourself recently?', which surfaced the eight-pound gain."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "hit", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "hit", "P3h": "hit" },
+      "evidence": "Fast and genuinely well run — the strongest Phase 3 in the batch relative to time spent. The bridge past the physical was explicit: 'aside from the tangible benefits, like being 7-8% body fat, aside from that, once you're able to do it in a holistic and functional way, how do you want to operate and show up in your body?' The who-else move was asked by name — 'How does that bleed into work, your relationship with your wife now? I don't know if you guys want kids' — and produced the deepest answer on the call: 'being able to still play sports, being able to play with my kids, being able to go do nature, athletic things with my wife... not feeling like I'm losing my youth or my functional self.' The reflect-back was excellent and confirmed: 'So it seems like we're not going back to how you used to be. It seems like you want to go to the 12 out of 10 version of yourself, right?' Only P3a is short — the one-thing-you'd-change question was replaced by a broader describe-it prompt."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "Almost everything known about his past attempts was volunteered, not elicited. He offered the bodybuilding history, the eighteen months with a trainer, the calisthenics he 'didn't really stick with', the carnivore period and the basketball coaching, none of it in response to a question about what he had tried. Nothing was asked about why any of it stopped working, and no blocker was ever named. The decisive miss is P4f. He handed the rep the exact opening — 'I could probably do it myself, it'll just take longer' — and it went unchallenged. That sentence is the whole sale on this call, and 'The information isn't the problem. Why can't you stick to it on your own?' was never asked."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "partial", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "The consequence question was asked with the consequence pre-removed: 'if you weren't able to somehow get there again... obviously the house isn't going to burn down. God isn't going to come down and strike thunder for you. But I'm curious, what does that look like for yourself if you aren't able to push it to the next level?' The prospect answered exactly as weakly as the question invited — 'I don't know. I mean, like, obviously, we're men, like, we want to always achieve more.' No settle-for question, no why-not, no line in the sand. The rep then said out loud that he was skipping the rest: 'Typically, I ask a few more questions, but you're aligned, you get it, you understand what it takes to go to the next level. Do you want me to show you how we can help?' That decision, taken at the twelve-minute mark, is why price landed against nothing eight minutes later."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "miss" },
+      "evidence": "The trust gauge ran after the pillars and returned the lowest score in this batch — 'so I'm like a five or six' — attached to an explicit self-sufficiency caveat: 'there's always a part of me that's like I could do this myself, it'll just take longer.' The script is unambiguous that hesitation at this point routes back to Phase 5. Instead the rep moved straight into the price list on the very next turn. The all-in question was never asked. A five or six is not a clear yes and the offer should not have been presented against it."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "The rep disqualified the prospect from the coaching programme, so no payment, Trevor booking, agreement or onboarding sequence was reachable. He did attempt the equivalent for the lower-tier product — sending the Skool link and offering to complete signup live, 'it's best to do in this moment so I can just check that you'll get onboarded correctly' — but Primal University has no P11 sequence to score against."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Price was rejected three times with a specific counter-anchor and exactly one move of the play ran — the break-it-up offer: 'Whichever option you see there, you have the flexibility to divide over 12 months, even if it's 3 or 6, we have finance partners.' Nothing else. No isolation, no HOW-not-SHOULD frame, no permission question and none of the six financial-picture questions, so the rep never learned whether $4,000 was unaffordable or merely unattractive to a technology salesman who had just closed a good quarter. On the third push he abandoned the play and disqualified. Given that the prospect named a number — $2,000-2,500 — the distance to close was knowable and was never measured."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP, ALREADY KNOWN AND RECURRING — 'a cheaper alternative already worked for me'. This is the gap logged in playbook.json against the Badrane Hriouch call, appearing again here in its purest form. The prospect's own free method genuinely produced the outcome: he reached 7-8% body fat with bodybuilding splits and calorie counting, and said so — 'I can get there pretty quickly if I just do the bodybuilding stuff', 'I know how to get shredded.' Objection C assumes the blocker is capacity to pay. Here the blocker was a functioning substitute the prospect had personally validated, and there is nothing in the playbook that addresses it. Second confirmed instance; this should be treated as a priority script build rather than a rep coaching point."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP — the buyer who wants one pillar out of three. He stated the reduced scope precisely: 'the biggest thing I care about is form. But like the nutrition, like I know how to get shredded. I just don't know how to safely throw a kettlebell around.' There is no scripted path for defending a bundle to someone who has credibly self-served two thirds of it, and no unbundled tier to sell him. The rep's only available response was to concede the whole offer and route him to a $200/mo product. Note that this is a commercially material gap: this prospect is the closest in the batch to the stated ICP profile and the company's answer to him was a subscription."
+    }
+  ],
+  "notes": "Phase 3 in twelve minutes is the best time-to-depth in this folder and the disqualification at the end was honest — the rep told a willing buyer he did not need the product, which is worth protecting. The failure sits between them. He announced he was skipping the remaining discovery, ran no Consequence Frame, presented price against a self-scored five or six, and never once challenged 'I could do this myself'. Two specific coaching points: never present against a commitment score below eight without returning to Phase 5, and when a prospect discloses a body part in the first five minutes, ask about it before designing anything around it."
+}

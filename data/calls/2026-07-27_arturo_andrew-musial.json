@@ -1,0 +1,153 @@
+{
+  "call_id": "2026-07-27_arturo_andrew-musial",
+  "source": {
+    "drive_file_id": "1B4haVua5t3DpFVWIvSztrjLjwIRNppzw",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/27/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/27/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 38716
+  },
+  "call": {
+    "date": "2026-07-27",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 42,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Arturo",
+    "aka": "Joined as 'iPhone (73)'; the rep opened by addressing him as 'Caesar', which he corrected to 'Arturo'. Surname never established on the call.",
+    "name_source": "transcript",
+    "location": "USA, Eastern time zone (city not stated)",
+    "age": 45,
+    "occupation": "Two jobs — environmental field worker for the county (06:30-15:00, outdoor, some heavy lifting) and server in a busy restaurant (16:30-21:30/22:00, Tue-Fri plus Saturday night)",
+    "family_status": "Lives alone; divorced with shared custody of a 15-year-old son who plays baseball; sees him at weekends",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Long-term gym-goer who lifted heavy until roughly six months ago — 'I love the gym myself, it's a part of my life'. Stopped entirely for ~6 months while an esophageal condition healed. Restarted light kettlebell work and stretching about two weeks before this call, weekends only. Heard about kettlebells from a friend.",
+    "kettlebell_experience": "some",
+    "medical": "SUBSTANTIAL AND ACTIVE. (1) Esophageal condition diagnosed ~6 months ago; his physician explicitly instructed him not to lift heavy weights and to do only light cardio. Took 2-3 months to heal. On daily Omeprazole, described as the one medication he still takes every day. (2) Associated stomach inflammation. (3) Knee cartilage damage from a misstep — was scheduled for surgery, which was deferred in favour of steroid injections. (4) Steroid treatment plus drops for an eye condition. (5) Antibiotics for a colon issue. (6) Routine colonoscopy scheduled for the following week. (7) Five years of significant unintended weight loss, which he links to the conditions and to stress. (8) Sleeping ~6 hours or less per night on a two-job schedule. He speculates about low testosterone. He describes wanting to come off medication: 'that's something that I want to get away from there. I just want to just be me again.'"
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.6,
+    "signals": [
+      "Still inside the health event rather than past it: daily Omeprazole, a colonoscopy scheduled for the following week, and a knee surgery deferred rather than cancelled — 'I was supposed to go to surgery, but then they gave me steroids'",
+      "Training explicitly framed as part of getting out of the medical picture: 'that's something that I want to get away from there. I just want to just be me again'",
+      "Very high stated intent and no doubt about the modality — 'Oh, believe me, it has to be my lifestyle, for sure'",
+      "Exactly the profile the vocabulary marks as easiest to close and most important to screen clinically, which is what makes the absence of any clearance question on this call the headline finding",
+      "ALTERNATIVE CONSIDERED: the_rebuilder is a close second — 'I just want to just be me again' is textbook rebuilder language and he did lose ground to illness. Assigned prehab_fighter rather than rebuilder because the conditions are ongoing and under active management, not resolved; confidence held at 0.6 to reflect that genuine ambiguity."
+    ]
+  },
+  "goals": [
+    { "text": "Regain mobility and elasticity, which he rates as really bad and declining since he turned 40", "category": "mobility" },
+    { "text": "Get back in shape and improve his physique without lifting heavy weights", "category": "appearance" },
+    { "text": "Be a healthy example for his 15-year-old son and be present for him through his teenage years", "category": "family_role_model" },
+    { "text": "Get off the medications and 'just be me again'", "category": "longevity_function" },
+    { "text": "Stop being exhausted every night and recover proper energy through the day", "category": "energy_performance" },
+    { "text": "Build a schedule that includes time for himself — 'I'm doing pretty much everything except I'm forgetting about me'", "category": "sustainability" },
+    { "text": "Live a regular, normal, healthy life without constant stress", "category": "other" },
+    { "text": "Return to outdoor activities he enjoys", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Physician has barred heavy lifting because of an esophageal condition, removing the training he built his identity around", "category": "medical", "severity": "critical" },
+    { "text": "Knee cartilage damage managed with steroid injections after surgery was deferred", "category": "injury", "severity": "high" },
+    { "text": "Two jobs leaving one genuinely free day a week and no window to decompress or recover", "category": "time_scarcity", "severity": "critical" },
+    { "text": "Six hours or less of sleep a night, which he only recognised as a problem during this call", "category": "sleep", "severity": "high" },
+    { "text": "Mobility and elasticity deteriorating steadily over five years; morning stretches getting harder", "category": "aging", "severity": "high" },
+    { "text": "Stress-driven overeating, especially late at night after the second shift — 'there was a moment where I literally wanted to eat the whole world'", "category": "nutrition_habit", "severity": "high" },
+    { "text": "Chronic exhaustion he had attributed to ageing and to work, and now suspects is sleep and recovery", "category": "other", "severity": "high" },
+    { "text": "Two to three years of continuous medication across four separate conditions, which he wants to escape", "category": "medical", "severity": "high" },
+    { "text": "Self-neglect while carrying everything else — work, custody, his son's baseball", "category": "consistency", "severity": "medium" },
+    { "text": "Self-describes as a workaholic and knows it is the root of the pattern", "category": "work_stress", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "just the esophagus condition. That's the only thing that the doctor told me not to lift heavy weights. ... He told me, just you got to go easy, just do a little cardio.",
+      "timestamp": "00:07:44",
+      "rep_response": "Did not address it as a fit question at all. The rep neither asked what the restriction covers, nor whether kettlebell work would fall inside it, nor whether the prospect's physician would clear the programme. He acknowledged it in passing and redirected to recovery and schedule volume, then presented a six-month loaded kettlebell programme regardless.",
+      "response_tactic": "acknowledged_and_moved_on",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Well, I have to check it out, I have to check it out, that part, and see if I can have like, give the 6k, because everything is like invested, but I can at least just get the 6k, and then I want to know how it goes.",
+      "timestamp": "00:35:38",
+      "rep_response": "Asked for monthly surplus after bills ($4,000) and credit score (800), then offered a third-party interest-bearing financing option at $650/month over 12 months. Did not isolate the objection first and did not offer an in-house payment plan.",
+      "response_tactic": "third_party_financing_offer",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "proposed_label": "financial_advisor_consult",
+      "raw_quote": "I have to talk with my financial advisor, then go from there, but I wanted to know if there was a monthly cost, so that I can see... If I can do like a thousand monthly or something like that",
+      "timestamp": "00:35:38",
+      "rep_response": "Accepted the deferral without challenge and moved straight to scheduling. None of the scripted third-party-consult moves were adapted from the spouse play — no 'money aside, do you personally feel this can get you there', no test of whether this genuinely required the advisor's input.",
+      "response_tactic": "accept_and_rebook",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I will say in a week, I just, I'm not going to fix this. ... I just need a week just to make sure to get set up the schedules ... I just need probably one or two weeks just to set up the schedule",
+      "timestamp": "00:22:39",
+      "rep_response": "Agreed and effectively endorsed the delay, then compounded it by being away on vacation until 9 August, pushing the next contact to 10 August — a two-week gap.",
+      "response_tactic": "accommodated_delay",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 7800 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Third-party financing with interest, quoted live at $650 per month over 12 months — a $7,800 total against the $6,000 headline price. Rep stated early repayment carries no penalty. No in-house instalment plan was offered. The prospect had independently proposed $1,000/month over six months, which the rep did not take up.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 4000,
+      "has_savings": true,
+      "credit_score": 800
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken and no payment link sent",
+      "Explicit deferral to a third party: 'I have to talk with my financial advisor, then go from there'",
+      "Follow-up call booked and confirmed live for Monday 10 August at 15:00 Eastern, with the rep having the prospect check his inbox and confirm receipt of the invite",
+      "Positive intent throughout — a clear verbal commitment was given before price ('are you fully committed to actually showing up and doing this work?' / 'Oh, yes.') and he reacted to $6,000 without shock",
+      "COUNTER-EVIDENCE against optimism: he leans toward paying in full only if his advisor releases capital, and says of the 12-month option 'I don't think he's gonna let me do the 12 months'",
+      "COUNTER-EVIDENCE: he also needs to renegotiate his restaurant shifts before he can train, a second unresolved dependency",
+      "Two-week gap before the next contact because the rep is on vacation until 9 August"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to speak to his financial advisor about releasing capital and to renegotiate his restaurant shifts to free Saturday/Sunday/Monday/Tuesday evenings. Reconvene with the rep Monday 10 August, 15:00 Eastern."
+  },
+  "notable": {
+    "note": "The most clinically serious call in this batch. Arturo disclosed an explicit physician instruction not to lift heavy weights, an unresolved knee requiring deferred surgery, daily acid-suppression medication, steroid treatment for a separate eye condition, antibiotics for a colon issue, a colonoscopy scheduled for the following week, and five years of unintended weight loss. At no point did the rep ask whether his doctor would clear kettlebell training, suggest he ask, or make the sale contingent on clearance. Separately, the rep quoted a financing structure ($650 x 12 = $7,800) that is not one of the two approved tiers, and steered to interest-bearing third-party credit rather than the in-house instalment option the playbook's own money script references. On process, this was actually Andrew's strongest baseline of the batch — the sleep diagnosis ('So we have around six hours of sleep. That's not a lot.') was genuinely good coaching — which makes the clinical omission harder to attribute to a rushed call."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Continuous swapping, worsened by the prospect being labelled by device name 'iPhone (73)' throughout. Long rep passages are attributed to the prospect and vice versa — the medication history at ~00:05:00 and the whole schedule discussion at ~00:16:31 to 00:18:00 invert repeatedly, and the rep's questions 'could you walk me through how does your nutrition look like' and 'you tell me how it's actually affecting your day-to-day life' both land under the prospect's label. Roles were assigned from content only. The prospect's surname is never spoken, and the rep's opening 'Caesar, correct?' means even the first name in the CRM may not match."
+  }
+}

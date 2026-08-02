@@ -1,0 +1,27 @@
+{
+  "call_id": "2026-06-16_chris-klevan_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect call confirmations are sent by an AI bot presented as ordinary human texting, with no disclosure discussed on the call.",
+      "evidence": [
+        "We have an AI bot that literally confirms all the calls.",
+        "Looks like this is a bot that does this, this is not a human.",
+        "Whoa, that's crazy. I thought that I was doing this, but that's nice, that's very good."
+      ],
+      "timestamp": "00:06:27"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Sets do not reliably propagate from the setter into the CRM or the Slack alert channel, so booked calls can exist on a calendar with no CRM record.",
+      "evidence": [
+        "It should automatically get sent to you. Odd.",
+        "Oh, it did, so it didn't switch on its own. So there's something going on with this app, it looks like.",
+        "Because it didn't pop through the Slack channel either."
+      ],
+      "timestamp": "00:03:42"
+    }
+  ]
+}

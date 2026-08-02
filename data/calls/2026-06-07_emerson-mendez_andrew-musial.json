@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-06-07_emerson-mendez_andrew-musial",
+  "source": {
+    "drive_file_id": "1kFOPzcOQlz5FBUm27gQrd6b16meH8u7g",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/07/2026 - Emerson Mendez x Andrew Musial KFS ",
+    "display_title": "06/07/2026 - Emerson Mendez x Andrew Musial KFS  — Lost",
+    "file_size_bytes": 37487
+  },
+  "call": {
+    "date": "2026-06-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 50,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland", "additional_reps": [] },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Emerson, I talked with Kim, who you spoke to a few days ago. So I went everything that Kim covered."
+  },
+  "prospect": {
+    "name": "Emerson Mendez",
+    "aka": null,
+    "name_source": "title",
+    "location": "Erin, Ontario, Canada — north of Toronto, near Forks of the Credit",
+    "age": null,
+    "occupation": "Construction — wears a 30-40lb tool harness for 8-10 hours a day, sometimes supervising instead. Starting a new, less physical business venture with his brother.",
+    "family_status": "Has a brother he is going into business with and a brother-in-law who trains. No spouse or children mentioned; family was never asked about.",
+    "height_in": 69,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Stopped going to the gym four or five months ago because of the distance after moving. Previously ran a body-part split covering core, lower back, chest, upper back and legs, and sustained an early-morning gym habit for about six months before a 45-minute commute made it unworkable. Currently squats, stretches and hip-opening work at home, self-described as 'nothing very strenuous or dedicated'. Already owns some kettlebell equipment. Played basketball and football in the past but stopped for fear of injury.",
+    "kettlebell_experience": "none",
+    "medical": "Recurrent sciatica for a number of years, episodically debilitating — 'it was pretty debilitating... I can't do much, can't even stand straight' — with the last episode six to seven months ago costing him four to five days off work. Managed with rest, hot compresses, stretching and core strengthening, and previously with monthly acupuncture, massage and cupping for a couple of years until he moved too far from the practitioner. Also has psoriasis, which is why he avoids dairy and has cut gluten. Works with a naturopath on his diet. Has lost 15lb."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.6,
+    "signals": [
+      "Goal is explicitly holding on to function rather than gaining anything — 'what I would hope for myself is just keeping my mobility, keeping my strength' and 'mainly I want to keep my strength, prevent injuries, and keep strong'.",
+      "Health-literate and already medically managed across several providers: a naturopath for diet, an acupuncturist for years, and a clear self-understanding of what triggers and prevents his sciatica.",
+      "Low discretionary liquidity despite steady trade income, because capital is committed to a new business — 'I'm starting a new business. And it's, spending that much money right now. I can't do that.'",
+      "Age-framed motivation without a specific age given — 'as I'm getting older', 'we're not teenagers anymore', and 'We don't want to age in a way that somebody has to take care of you'.",
+      "Counter-signal for skeptical_bargain_hunter: he has free and cheap alternatives available and named them — a brother-in-law who could train him and a fitness-coach friend — and anchored his own budget at 'a couple thousand'."
+    ]
+  },
+  "goals": [
+    { "text": "Consistently strengthen his lower back and core so the sciatica stops recurring", "category": "injury_prevention" },
+    { "text": "Get back consistency and structure in training after four or five months of drift", "category": "consistency" },
+    { "text": "Lose weight from 195lb down to the high 170s or 180s", "category": "fat_loss" },
+    { "text": "Keep mobility and strength into his sixties and stay athletic, unlike peers his own age already struggling", "category": "longevity_function" },
+    { "text": "Get out hiking on the trails near his home and take up mountain biking", "category": "hobby_performance" },
+    { "text": "Learn enough to manage his own training — 'I want to be capable to do a lot of this work for myself, to understand where I went wrong, where I need to improve'", "category": "other" },
+    { "text": "Protect his ability to keep working, since a sciatica episode puts him off the job for days", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Recurrent sciatica over several years with debilitating episodes that stop him standing straight and cost days of work", "category": "injury", "severity": "critical" },
+    { "text": "Physically punishing job — 8-10 hours a day carrying a 30-40lb harness, leaving him too physically fatigued to train afterwards", "category": "training_barrier", "severity": "high" },
+    { "text": "Lost his gym habit entirely when he moved; the commute made a 4am start unsustainable and he burned out", "category": "consistency", "severity": "high" },
+    { "text": "Psoriasis, managed by eliminating dairy and gluten with a naturopath", "category": "medical", "severity": "medium" },
+    { "text": "Capital tied up starting a new business, leaving no room for a four-figure discretionary spend", "category": "other", "severity": "high" },
+    { "text": "Avoids sport he used to enjoy specifically because he fears injury", "category": "confidence", "severity": "medium" },
+    { "text": "Defaults to work then couch after a hard day rather than getting outside", "category": "motivation", "severity": "medium" },
+    { "text": "Sweet tooth he has not fully eliminated", "category": "nutrition_habit", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, I think that's a little bit out of my praise.",
+      "timestamp": "00:38:56",
+      "rep_response": "Isolated the objection well — 'If the money weren't a factor, like, does the program itself make sense for you?' — then asked for his budget range rather than building value or running the financial picture, and used the answer to size a discount.",
+      "response_tactic": "isolate_then_ask_budget_and_discount",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I'm starting a new business. And it's, spending that much money right now. I can't do that, that much.",
+      "timestamp": "00:39:30",
+      "rep_response": "Ran a cost-of-injury frame — 'Every day you're basically risking a serious back injury... So let me ask you this, how much that actually costs you?' — which the prospect conceded, then immediately dropped price rather than converting the frame.",
+      "response_tactic": "cost_of_inaction_then_downsell",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "For that type of money, I can get my brother-in-law to train. He's been working out all his life, but that's not the issue.",
+      "timestamp": "00:46:00",
+      "rep_response": "Did not address the comparison at all. Moved directly to offering a $200/month community product instead.",
+      "response_tactic": "none_moved_to_downsell",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "maybe this is not the time for, like, maybe once I get this venture up and running and making a little bit more money where I have that much more disposable income, where I can drop a few thousand dollars on a personal trainer like that.",
+      "timestamp": "00:46:00",
+      "rep_response": "No timing play was run. The rep said 'I don't want to give up on you that easily' and screen-shared a lower-priced community product.",
+      "response_tactic": "none_downsell_to_low_ticket",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "One thing I asked him, too, and he was a bit vague, is also the cost of the program. He did mention that it's a premium service. But again, you know, I want to be here in front. I need to know how much I'm going to be investing in this.",
+      "timestamp": "00:37:41",
+      "rep_response": "Deflected once — 'We can talk about numbers. I just want to make sure that you're positive on it' — then gave the price after a further confirmation question.",
+      "response_tactic": "defer_price_until_value_confirmed",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000, "note": "Unlisted three-month tier offered after the price objection — 'with the three-month option, it's $4,000' — with a half-now, half-in-30-days split. The same invented tier the rep used on the Julian Malfregeot call the same day." },
+      { "months": null, "price_usd": 200, "note": "'Primal University' community subscription at $200 per month, cancel anytime, screen-shared live as a downsell. Includes movement library, generic three-month workout plan, nutrition plans, progress tracker and a weekly live Q&A with Trevor. Explicitly positioned as not tailored and not one-on-one." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Against the $4,000 three-month tier: 'You can definitely split it up like in half, for example, so you can pay half now and half in 30 days.' No plan was quoted against the $6,000 tier beyond 'we have ways that we can structure that'.",
+    "guarantee_mentioned": "Cancel-anytime terms on the $200/month community only — 'that's only $200 a month and you can cancel whenever you feel like'. No guarantee was offered on the coaching programme.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "No financial picture was taken. The only figure disclosed was a self-stated budget: 'maybe I'll be willing to spend, uh, I'll be, you know, a couple thousand' for an in-depth programme. He also said capital is committed to launching a new business."
+    }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicitly refused both coaching tiers. On $6,000: 'that's a little bit out of my price range.' On $4,000: 'I'll be honest, that's still a little bit out of my price range' and then 'No, not a little bit... Yeah, that's definitely out of my price range.'",
+      "Deferred the category, not just the price: 'maybe this is not the time for, like, maybe once I get this venture up and running.'",
+      "Named a substitute he would use instead: 'For that type of money, I can get my brother-in-law to train.'",
+      "Counter-evidence that this is not fully dead: he reacted positively to the $200/month community — 'I like it, I think it's a more reasonable option for me' — and agreed to receive information by email that day.",
+      "Counter-evidence on process: the call ended on the prospect's hard stop ('I really have to go'), not on a considered decision, so the downsell was never actually closed either.",
+      "Recorded as lost rather than follow_up because the $6,000/$9,000 offer this corpus measures was explicitly declined at two price points. The live opportunity that remains is for a different, low-ticket product."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to email details of the Primal University community ($200/month) the same day. No follow-up call booked and no commitment taken."
+  },
+  "notable": {
+    "note": "Three separate price points below the standard offer appeared on one call: a $4,000 three-month tier, a half-now-half-in-30-days split on it, and a $200/month community subscription screen-shared as a final downsell. The $4,000 tier is the second appearance the same day, so it is functioning as a de facto tier rather than a one-off. Clinically this is the batch's second serious case: several years of recurrent sciatica severe enough to stop him standing straight and put him off work, and the rep promised the mobility protocol would take care of it 'so it doesn't appear again' without ever asking whether any clinician had cleared him for loaded kettlebell training. Also worth a principal's attention: the prospect said the setter was deliberately vague about price and that the application funnel never disclosed it — 'I followed the rabbit hole' — which is producing 50-minute calls with prospects whose budget is a fifth of the price."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion throughout, including several long passages. The rep's questions repeatedly appear under the prospect's label — 'Were you able to work at that time, no?' at 00:02:06, 'What's your weapon of choice?' at 00:09:36, 'Where exactly do you live?' at 00:12:49 — and the prospect's answers under the rep's, including the entire sleep passage from roughly 00:18:00 to 00:19:00 where 'I have to be in bed by 10, I gotta get at least six seven hours sleep' is plainly Emerson but is labelled as the rep. The pillar presentation from 00:31:00 to 00:36:00 runs as one long unpunctuated block under the rep's label with the prospect's short confirmations absorbed into it. The rep also speaks under the label 'Andrew Jin (Primal Instinct)' but is Andrew Musial per title and folder. Roles resolved from content throughout. The rep additionally misstates the prospect's weight loss as 50lb at 00:33:00 when the agreed figure was 15lb."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "call_id": "2026-05-26_david-anjomani_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A self-serve product was priced live on a coaching sales call at $200 per month with no commitment term, which does not reconcile with the promotional annual pricing another prospect in this same batch reported being emailed for what appears to be the same product.",
+      "evidence": [
+        "I can send you the link for this if you'd like. It's 200 bucks a month.",
+        "To get access to that? Yeah, it's 200 a month. Okay, gotcha. It's monthly, right? Okay, yeah. There's no, uh, time frame commitment on it.",
+        "So we have this, it's almost like the, it's like Trevor's brain put on a, in a portal, essentially."
+      ],
+      "timestamp": "00:08:37"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts the exchange immediately following the $6,000 price, attributing to the prospect a reaction that the surrounding turns show belongs to the rep reacting to a tremor in England — a passage that will read as a price objection to any speaker-attributed analysis.",
+      "evidence": [
+        "00:05:12 - Harry Edmonds (Primal Instinct) / Because it's six grand for six months. You know what I mean?",
+        "00:05:43 - David / happening right now. That's ridiculous.",
+        "00:05:46 - Harry Edmonds (Primal Instinct) / Sorry. say earthquake? Yeah.",
+        "00:05:51 - Harry Edmonds (Primal Instinct) / That was interesting. I didn't know, I didn't know England got earthquakes."
+      ],
+      "timestamp": "00:05:43"
+    }
+  ]
+}

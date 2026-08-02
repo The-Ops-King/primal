@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-20_frederick-eisler_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Presented as the efficiency and foundation argument — 'it's the most efficient way to train... you don't have to kill yourself in the gym six days a week' and 'take into account the back surgeries, take into account the shoulders'. The prospect asked a run of mechanics questions: 'So when it comes to kettlebell weights...', 'do I need to get like one or two of each side weight', and probed his own swing technique — 'I was using a 35-pound kettlebell for that... But I know there's a way that you engage your core. Maybe I wasn't doing it right'."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Rep framed it as eating for health rather than chicken-rice-broccoli; the prospect finished the thought himself — 'You lose the weight as a side effect kind of thing' — and raised no objection despite being a certified executive chef currently running macros and meal delivery. No questions asked about it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "24/7 Trevor access, daily data entry, weekly check-ins and weekly plan adaptation were presented and tied to his own plateau — 'I know you said that you plateaued recently, went to 255 from CrossFit... we adapt the plan every week'. Prospect's only response was 'No, that sounds good.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I still have a membership at Planet Fitness. I was doing CrossFit for about eight months, and I went from 270 down to like 255",
+      "direction": "undercuts_price",
+      "competitor": "Planet Fitness / CrossFit",
+      "note": "A gym membership plus a CrossFit box is roughly $150-250 a month in his head against $1,000 a month, and CrossFit did produce 15 lb before stalling. The rep never contrasted the two or priced the difference."
+    },
+    {
+      "type": "cheaper_substitute",
+      "raw": "I actually did the P90X with Tony Horton and that was a good workout. I mean, I saw a lot of results with that.",
+      "direction": "undercuts_price",
+      "competitor": "P90X",
+      "note": "A one-off DVD purchase that he says produced real results. He ruled it out on impact tolerance, not on price or efficacy, so the low-cost-that-worked anchor stays intact."
+    },
+    {
+      "type": "cost_of_capital",
+      "raw": "Credit cards where I used to have a six or 7% interest rate, some of them are like 24, one of them's 31%. And I don't want to pay that kind of interest.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The rep's default financing suggestion — 'Most people just stick it on a credit card' — collided directly with this. At 24-31% APR the effective price of the $6,000 is materially higher, and the prospect priced that himself. This is the anchor that actually stalled the deal."
+    },
+    {
+      "type": "existing_spend",
+      "raw": "I started doing these, I don't know if you've heard of them, the Factor meals... and there's a local company... it's called Clean Eats",
+      "direction": "supports_price",
+      "competitor": "Factor / HelloFresh / Clean Eatz",
+      "note": "Already paying a premium for done-for-you meal delivery, which establishes willingness to pay for convenience in the health category. The rep spent three minutes looking the brand up rather than using it."
+    },
+    {
+      "type": "assets",
+      "raw": "I have a nice retirement, you know, plus, yeah, I'm old now. So I get social security too.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Two federal pensions, Social Security and an investment portfolio with a managing financial company. Capacity to pay is almost certainly there; it was never quantified because no financial picture was taken."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Independent verification that the company is legitimate before sending money — he is a retired federal law-enforcement officer and said so plainly",
+      "why_unmet": "The only proof offered was a coaching agreement emailed by the party asking for the money, plus an invitation to research. No testimonials, client references, reviews, verifiable business details or third-party proof were provided, and the rep could not name the city his own founder lives in.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A programme that accounts for a fused lumbar spine and NSAID-dependent shoulders — 'I'm not going to try to break it'",
+      "why_unmet": "The mobility pillar was gestured at his surgeries but no screening, no modification framework and no clinician-liaison step exists in the offer; the guarantee actually commits to loading him 20 lb heavier on every movement in six months.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "To know what equipment to buy and what it will cost before committing",
+      "why_unmet": "Deferred entirely to the onboarding call — 'don't buy that until he tells you to' — leaving an unquantified equipment cost stacked on top of $6,000 at the moment of decision. He asked three times.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "To gain muscle mass, not just lose weight — 'that's, I'm not getting any muscle mass'",
+      "why_unmet": "Probably served by the programme, but the rep positioned entirely around fat loss, efficiency and the load guarantee and never addressed hypertrophy for a former bodybuilder who cares about it specifically.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-07-30_lance-mardian_richard-claessen",
+  "flags": [
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Prospect disclosed that he has stopped caring about himself, and the rep used that disclosure twice as a closing argument for the $6,000 purchase without acknowledging it or asking a single question about it.",
+      "evidence": [
+        "I just, pardon my lane, well, I'll say it like this, I just don't give a crap about myself or anything. It's not that I'm depressed. I'm not depressed. I just stopped caring about a lot of things",
+        "when it comes to not giving a crap about yourself or not having given a crap about yourself for a long time, what's the best way to break this? Is it about trying to figure it out yourself or is it about that? Actually taking action, just investing in yourself a big amount",
+        "You're saying it yourself, or like you haven't cared about yourself for quite some time, and that's the reason you've sort of been doing DoorDash, not been really working out",
+        "if I can get that care back again, then I'll start doing things again"
+      ],
+      "timestamp": "00:47:39"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed scoliosis with a resulting left-right strength imbalance plus recurring knee and elbow pain, and the rep responded by asserting the coach is experienced with scoliosis and moving to close, with no question about whether any clinician had assessed or cleared him for loaded ballistic training.",
+      "evidence": [
+        "I do have slight scoliosis, it's very minimal, never needed surgery, never needed a back brace, but there is a little something there, and because of that, I am dominantly stronger on my right side than my left side",
+        "every once in a while, it'll be like my right knee will just ache and it'll ache for two, three days... the biggest ache or pain in my body, to be honest with you, is my right elbow",
+        "with your scoliosis, that is something Trevor does look into, he's worked with a couple of people who've had like that sort of same aspect of scoliosis, so he's familiar with working with that as well",
+        "we're also going to work directly on your strength, but also mobility because you're actually moving like how you're designed to move"
+      ],
+      "timestamp": "00:36:02"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The $1,000 self-serve tier was never offered to a prospect who declined at $6,000 and explicitly asked for a smaller first step, while the same rep presented that identical tier to three other prospects in this batch on adjacent days.",
+      "evidence": [
+        "I would believe that 70-80% of it can be found online",
+        "I'm not willing to pay six grand right now on just something I want",
+        "I have to give this a shot for myself and I'm either going to succeed and, and never talk to you again, or guess what? I'm going to fail",
+        "We have an investment of 6k USD"
+      ],
+      "timestamp": "00:43:33"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep disclosed an existing client by first name along with his health complaints and enrolment timing; the same named client is described with a materially different history and enrolment date on another call in this batch.",
+      "evidence": [
+        "Pete he is a guy that started a couple of months ago with us he came with the idea of like oh my legs hurt my back hurts everything hurt it for him he wasn't personally out of shape but he just wasn't mobile at all and now he is in way better shape",
+        "he is already saying like he's feeling so much better"
+      ],
+      "timestamp": "00:17:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep predicted the prospect's failure as a closing lever after the prospect had declined.",
+      "evidence": [
+        "But then I know that there is a big chance we will see each other in three to six months, again, and that's not because I want to put you down, it's I've seen it over and over again",
+        "I hope that you succeed. I hope that I don't see you again. So make it happen."
+      ],
+      "timestamp": "00:55:45"
+    }
+  ]
+}

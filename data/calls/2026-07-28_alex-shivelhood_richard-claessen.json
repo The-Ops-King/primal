@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-07-28_alex-shivelhood_richard-claessen",
+  "source": {
+    "drive_file_id": "1oxNiRmIOwcosKiLMinQ95tAXnKyGxQJ9",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/28/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/28/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 64666
+  },
+  "call": {
+    "date": "2026-07-28",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 55,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": "DH",
+    "name": "Derek",
+    "confidence": "medium",
+    "evidence": "Rep opens with 'I already got some information from Derek, but I just like talking to people.' This file carries no suffix, but the same prospect's follow-up recording the next day is titled '07/29/2026 - Alex Shivelhood x Richard Claessen DH', which together with the Derek reference here and on the Daniel Borunda call resolves the previously unknown DH code to a setter named Derek. Recorded as an inference, not a stated fact."
+  },
+  "prospect": {
+    "name": "Alex Shivelhood",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Alabama, USA (Central time)",
+    "age": 52,
+    "occupation": "Licensed insurance agent selling Medicare health plans to seniors; describes it as a new career after a period of homelessness roughly seven years ago",
+    "family_status": "Lives with his male partner and family in a recently bought house, having gone from living alone to a household of four; his partner has an elderly mother he helps care for. Was previously married to a Dutch man who died; also lost his mother, father and brother within the same three-year period while acting as their caregiver.",
+    "height_in": 67,
+    "weight_lb": 230,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Has been in and out of gyms since age 13 and enjoys them, but says he never really knew what to do. Two and a half years ago hired a personal trainer and lost 70 lb through nutrition, walking and intermittent fasting with no resistance training and insufficient protein. Currently not training at all; walks about 7,000 steps a day and has hit a plateau. Tracking macros loosely with free apps at roughly 125-150 g protein, 70-80 g carbs and 1,700-2,000 calories a day.",
+    "kettlebell_experience": "none",
+    "medical": "Bicycle accident roughly eighteen months ago: eleven broken ribs on one side, a broken clavicle and a punctured lung, with about six months of recovery. A nerve block given for rib pain damaged the nerve supplying an abdominal wall muscle on his right side, which is now denervated and visibly protruding; a plastic surgeon told him it may never recover and that the nerve might regenerate over a couple of years. He states he has since been cleared by two doctors with no restrictions on exercise. Went into a significant depression after the accident and regained 50 of the 70 lb lost. History of drug use and homelessness roughly seven years ago, now resolved; describes emotional eating as a lifelong pattern and says he does not believe he needs therapy for it. At 230 lb and 5'7\" he describes visceral body fat as his central health concern and fears heart attack, stroke and cancer."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Lost ground to a specific, identifiable event: 'I had a bicycle accident, broke 11 ribs and clavicle and punctured my lung, went into bad depression afterwards. And I gained 50 back.'",
+      "Explicitly wants a former self back and has the number: from 230 lb to the 185 he reached two and a half years ago",
+      "Visible regret and exhaustion at starting over: 'when you get older, it's almost like you get exhausted having to start over again. So I was faced yet again. Okay, I got start over again.'",
+      "Frames it as recovery rather than optimisation: 'I have to save my life. Because that's what I'm doing here, saving my life.'"
+    ]
+  },
+  "goals": [
+    { "text": "Get rid of visceral body fat before it damages his organs and leads to cancer, heart attack or stroke", "category": "longevity_function" },
+    { "text": "Get back to 185 lb from 230 lb, and possibly lower depending on muscle composition", "category": "fat_loss" },
+    { "text": "Build actual muscle this time, which he skipped entirely during the previous 70 lb loss", "category": "muscle_gain" },
+    { "text": "Improve mobility and stiffness - 'cricking and popping' and not bending as well since 45", "category": "mobility" },
+    { "text": "Walk up the hill in his neighbourhood without huffing and puffing", "category": "energy_performance" },
+    { "text": "Be an 80-year-old still travelling to Europe and climbing a mountain, rather than the Medicare clients he sees on thirteen medications", "category": "longevity_function" },
+    { "text": "Make it sustainable and repeatable for the rest of his life rather than another yo-yo cycle", "category": "sustainability" },
+    { "text": "Put his own oxygen mask on first after a lifetime of caring for others, and then inspire others with the story", "category": "family_role_model" },
+    { "text": "Something simple and streamlined he can take travelling and use in any gym", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Yo-yoed with weight his entire life; lost 70 lb and regained 50 after the accident", "category": "consistency", "severity": "high" },
+    { "text": "Carrying visceral body fat at 230 lb and 5'7\" with a stated fear of heart attack, stroke and cancer", "category": "medical", "severity": "high" },
+    { "text": "Bicycle accident with eleven broken ribs, broken clavicle and punctured lung, plus a denervated abdominal wall muscle from a nerve block that may never recover", "category": "injury", "severity": "high" },
+    { "text": "Significant depression following the accident, on top of a history of caregiving loss, drug use and homelessness", "category": "mental_health", "severity": "high" },
+    { "text": "Does not know what to do in a gym despite going since age 13 - 'someone told me to fly an airplane, I don't know how to fly an airplane, you gotta teach me'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Lost trust in his previous coach, who revealed at month six that continuing would cost another $7,000", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Financially stretched - 620 credit score, near-maxed credit cards, roughly $200 a month surplus, unrecovered debt from a house move and five renovation projects with two urgent", "category": "other", "severity": "high" },
+    { "text": "Lifetime pattern of prioritising everyone else over himself, currently helping care for his partner's elderly mother", "category": "emotional", "severity": "high" },
+    { "text": "Stiffness and reduced flexibility since about 45", "category": "aging", "severity": "medium" },
+    { "text": "Busier than when he was single, having gone from living alone to a household of four in a new state", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Plateaued - nutrition alone has stopped producing results with no training in place", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Occasional sugar problem at night and emotional eating", "category": "nutrition_habit", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "Man, that's more expensive than I thought I going be. That sucks. Okay. But that's okay. I mean, it is what it is. I'm not going to hone in on that it's too much. But are you guys up for, I need a couple of days to think about it?",
+      "timestamp": "00:42:03",
+      "rep_response": "Conceded immediately: 'You can. We're not going to press you into doing anything, of course.' None of the scripted think-about-it moves were attempted.",
+      "response_tactic": "immediate_concession",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I have to go over that with my partner... I mean, I just can't spend the money without asking for it.",
+      "timestamp": "00:42:03",
+      "rep_response": "Acknowledged it warmly ('I've got a partner myself as well. I don't want to sleep on the couch either'), pivoted to the funding question, and ultimately used the deposit move to secure a follow-up rather than running the scripted partner sequence.",
+      "response_tactic": "acknowledge_then_pivot_to_funding_then_deposit",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "we haven't even recovered from credit card debt from the move... I just don't know if the money's there. I don't even know if I have enough on credit to even do half and half, so that's it.",
+      "timestamp": "00:43:14",
+      "rep_response": "Ran the fullest financial picture in the batch - credit score, monthly surplus after bills, credit card availability, cash set aside - then offered to split the $6,000 into three payments of $2,000.",
+      "response_tactic": "financial_picture_then_three_way_split",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Three payments of $2,000: 'if it's needed, we can split it up into three times, that it's two times three.' Separately a refundable $100 deposit was taken on the call to secure the follow-up.",
+    "guarantee_mentioned": "No programme guarantee. The only refund promise concerned the deposit: 'if it's needed, then we just send the deposit back.'",
+    "prospect_financials": {
+      "available_now_usd": 2000,
+      "monthly_surplus_usd": 200,
+      "has_savings": true,
+      "credit_score": 620
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicitly conditional yes rather than an agreement: 'I mean, honestly, it's a yes if I can fund it' and 'if I can fund that, the answer is absolutely yes... I just have to get the funding for it'",
+      "Asked for time and got it: 'are you guys up for, I need a couple of days to think about it?' 'You can. We're not going to press you into doing anything'",
+      "Needs his partner's agreement and cannot access the money without it",
+      "A $100 refundable deposit was paid on the call and confirmed - 'Invoice paid, download receipt' - but it is explicitly returnable and is not the programme purchase, so the verbal-agreement-plus-link rule does not apply",
+      "Follow-up booked for the next day at 4pm Central; onboarding form sent by WhatsApp in advance",
+      "Strong counter-evidence in favour of eventual close: extremely high stated intent, and he has previously paid $6,000 for six months of coaching from a personal trainer"
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_deposit_only",
+    "next_step": "Prospect to speak to his partner when he gets home around 6pm Central about funding; follow-up call with the rep the next day at 4pm Central; onboarding form to be completed beforehand"
+  },
+  "notable": {
+    "note": "The financial disclosure here is the most detailed in the batch and it is grim: 620 credit score, credit cards almost maxed, roughly $200 a month left after bills, unrecovered credit card debt from a house move, five renovation projects with two urgent, and about $2,000 he could put down himself. The rep did not qualify out; he offered a three-way split and took a $100 refundable deposit. Five days earlier the same rep told another prospect who proposed almost exactly this structure - $2,000 instalments - 'We don't do that.' Also of note: the prospect volunteered his own medical clearance for a denervated abdominal muscle and an eighteen-month-old crush injury; the rep accepted it without asking what activity had been cleared or by whom. Finally, this call plus the DH suffix on the same prospect's next-day recording identifies the previously unknown DH setter code as Derek."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Constant inversion, including whole rep questions filed under the prospect at 00:03:04, 00:05:11, 00:13:40 and 00:31:47, and the entire personal-trainer objection passage from 00:13:00 to 00:14:56 which runs as one block under the prospect but contains the rep's questions. The price reveal at 00:41:43 is correctly attributed but the reaction lines around it are not. Roles assigned from content throughout."
+  }
+}

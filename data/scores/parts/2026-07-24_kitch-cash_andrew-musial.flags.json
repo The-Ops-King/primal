@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-07-24_kitch-cash_andrew-musial",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This Drive file contains the opening of a second, unrelated sales call with a prospect named Kris which fails on Zoom and moves to an unrecorded phone line, so that entire call is absent from the corpus.",
+      "evidence": [
+        "Bye-bye. Hello, hello, Kris. Can you hear me? Can you see me? Hey, Kris. Cannot see or hear you in Zoom.",
+        "Oops, something went wrong. Please close all browsers and re-close all browsers.",
+        "I literally have exactly 15 minutes because they moved from yesterday to 12.",
+        "If we need to just do that over the phone, can. Okay, yeah, we can do it over the phone. Yeah, I'm gonna switch off the Zoom."
+      ],
+      "timestamp": "01:03:02"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "No injury, limitation or health-condition question was asked at any point, and the prospect's two volunteered mentions of low back problems went unexplored before a six-month loaded training programme was sold.",
+      "evidence": [
+        "I took a couple years off, because I was just like, God, my body freaking hurts, like, this, I don't feel good, my back is not working great",
+        "I would love if my low back wasn't the first thing to go and I would love if I was more flexible here in my hips",
+        "I'm literally having to hold something heavy for literally an hour and a half. Straight",
+        "It's a 6K investment."
+      ],
+      "timestamp": "00:02:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Two above-list structures were quoted again — six in-house payments of $1,200 totalling $7,200, and Payva financing at roughly $650 a month totalling about $7,800 — against a $6,000 price. Neither was taken.",
+      "evidence": [
+        "If you would like to structure it in a six month payment, there will be additional interest on that. And that will be six time, six payments of 1200.",
+        "But we also use third party, called Paver. And you can... Structure that even up to 12 months, which would be around $650, something like that.",
+        "I feel great about the three payments of two grand each."
+      ],
+      "timestamp": "00:54:18"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep set a three-month payment schedule immediately after the prospect disclosed he has had no income since May and does not resume earning until September, so two of the three instalments fall inside the stated no-income window.",
+      "evidence": [
+        "because I've been taking the summer off, and I haven't had income since May",
+        "I've not been on the road since May... But I'm going back out in September for the rest of the year.",
+        "with no interest, I can offer you like three payments of 2k each month, month by month",
+        "What's your credit score? Do you know?",
+        "The payment just went through."
+      ],
+      "timestamp": "00:54:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker attribution is inverted across most of this transcript, and the first sixty seconds merges both speakers into a single unlabelled block containing the rep's opening and the prospect's entire athletic history.",
+      "evidence": [
+        "00:00:00 - Andrew Musial (Primal Instinct) — living the dream perfect perfect all right hold on a second let me just pull that one all right cool so I had a chat with Kim... yeah totally background of being an athlete yep yeah so I mean I grew up for my whole life playing sports mainly baseball",
+        "00:10:41 - Andrew Musial (Primal Instinct) — Like, I'm not, I don't, this isn't, we're not doing this for abs.",
+        "00:32:01 - Kitch Cash — Totally, totally. Okay, so let's get into the details of the, of the program."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

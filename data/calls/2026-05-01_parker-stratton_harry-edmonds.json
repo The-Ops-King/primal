@@ -1,0 +1,119 @@
+{
+  "call_id": "2026-05-01_parker-stratton_harry-edmonds",
+  "source": {
+    "drive_file_id": "1iCsiaF-48qqmUjpUlaDGTDjHIRWaiwmg",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/01/2026 - Parker Stratton x Harry Edmonds",
+    "display_title": "05/01/2026 - Parker Stratton x Harry Edmonds — Follow Up",
+    "file_size_bytes": 48373
+  },
+  "call": {
+    "date": "2026-05-01",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 47,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Parker Stratton",
+    "aka": null,
+    "name_source": "title",
+    "location": "Northern Virginia, USA",
+    "age": 41,
+    "occupation": "Co-founder of a startup; 14 years prior military service",
+    "family_status": "Married to Lauren, has children; primary parent mornings and evenings",
+    "height_in": null,
+    "weight_lb": 232,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "14 years military; exposed to kettlebells (swings, Turkish get-ups, cleans), tire flips, sledgehammer work. Currently 3-4x/week cardio (running, swimming, Peloton). Used the Built by Science app for calorie tracking and strength programming; peaked at 256 lb late last year, now 232 lb. Dislikes static lifts (squat, bench).",
+    "kettlebell_experience": "some",
+    "medical": "MRI-documented spinal degeneration — doctor told him he has 'the back of a 90-year-old'; cervical compression limiting neck mobility; bilateral shoulder impingement; anterior pelvic tilt with very tight hips and thoracic spine; stiffness bordering on pain after static periods. Attributes to body armour and heavy load-bearing hikes in service. VA-funded chiropractic (12 sessions) ended."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Peaked at 256 lb and describes it as rock bottom: 'couldn't look at myself in the mirror without being disgusted'",
+      "Wants a former physical self back after service injuries; explicit regret about not taking care of himself",
+      "Already made progress alone (256 -> 232) and is now seeking a coach for the part he could not sustain"
+    ]
+  },
+  "goals": [
+    { "text": "Increased shoulder, hip and thoracic spine mobility — put hands overhead without compensating", "category": "mobility" },
+    { "text": "Build strength and joint resilience around the mobility so he can pick up and throw his kids without injuring himself", "category": "strength" },
+    { "text": "Keep up with and play sports with his kids as they grow", "category": "longevity_family" },
+    { "text": "Not decline the way his father has — stay strong and not become frail when older", "category": "longevity_function" },
+    { "text": "Something applicable he can keep doing for the rest of his life rather than a quick fix", "category": "sustainability" },
+    { "text": "Losing weight and looking better as a welcome side effect", "category": "fat_loss" }
+  ],
+  "pains": [
+    { "text": "Cumulative service injuries — spinal compression, shoulder impingement, tight hips — leaving him stiff and limited", "category": "injury", "severity": "high" },
+    { "text": "Stiffness bordering on pain when getting down on the floor to play with his kids", "category": "injury", "severity": "medium" },
+    { "text": "Cannot stay engaged with a strength programme for more than a couple of weeks because it becomes repetitive", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Never learned to build his own programming — always had someone else write the plan in the military", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Mornings and evenings are consumed by childcare and the day by work, so training gets squeezed in wherever it fits", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Was not prioritising his own wellbeing over family and work, which showed up in how he felt and looked", "category": "consistency", "severity": "medium" },
+    { "text": "VA only covered 12 chiropractic appointments and then care stopped; yoga routine lapsed", "category": "fragmented_solutions", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "for that amount of money i will have to discuss this with the wife",
+      "timestamp": "00:37:40",
+      "rep_response": "Isolated the decision ('money out of it, you do feel confident this is what you want to do, right?'), asked what she would say and why, shared an anecdote about his own girlfriend that leaned toward not consulting a partner on such purchases, offered a 2 x $3,000 split to reduce sticker shock, then proposed a $100 refundable deposit to hold a follow-up call.",
+      "response_tactic": "isolate_then_deposit_hold",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "It's just the sticker shock of $6,000 for six months type of thing.",
+      "timestamp": "00:40:00",
+      "rep_response": "Immediately offered a payment split of $3,000 down and $3,000 two months later, then later raised the tax write-off angle. No financial-picture questions.",
+      "response_tactic": "payment_split_plus_tax_writeoff",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$3,000 down and $3,000 two months later. Separately a $100 refundable deposit to hold a follow-up call, credited against the total ('it'd be $5,900').",
+    "guarantee_mentioned": "Deposit only: 'it's refundable, so it'd just be a hundred bucks, it's completely refundable... we just shoot you the hundred bucks back'. No programme-level guarantee stated.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect rated fit 9.5/10 and said 'it would be hard to say no at this point'",
+      "Explicitly deferred: 'I got to make sure that that actually works from a financial perspective and she's on board with spending that much money'",
+      "Estimated only an '80 chance that she'll be on board'",
+      "Agreed in principle to a $100 refundable deposit to hold a weekend follow-up call — a deposit, not a purchase",
+      "Counter-evidence: the recording is cut at the moment of taking payment ('let me just remove the recording and pull this up'), so whether even the $100 was collected is unobservable"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to speak with his wife Lauren over the weekend; follow-up call to be booked, held by a $100 refundable deposit."
+  },
+  "notable": {
+    "note": "Two things a manager would want: (1) the rep coached the prospect on how to frame a personal coaching fee as a business tax write-off — 'workplace injury prevention' or 'consulting'; (2) the rep stopped the recording at the point of collecting payment, which is where every payment-integrity question lives. Also, with MRI-documented spinal degeneration and bilateral shoulder impingement, no medical clearance was ever raised while snatches were being discussed."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "From roughly 00:36:00 onward the transcript loses turn boundaries entirely — the price presentation, the wife objection and the deposit conversation run together in a single unpunctuated block attributed alternately to both speakers. Several short turns earlier (e.g. 00:33:43 'Any part of that you want more details on?') are attributed to the wrong speaker. Role was read from content throughout."
+  }
+}

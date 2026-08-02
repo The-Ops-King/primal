@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-05-05_andreas-xagoraris_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. The rep disqualified the prospect at 00:20:20, before the pillar block began, and the only product description given was of the lower tier: 'this is what we call Primal University... it's a complete kettlebell and mace system. All it is is just a structure and the foundation from A to Z.' The two-programme structure, the 3-4x30min frequency, the daily mobility block and the film-and-review feedback loop were never described."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Never delivered, and a conspicuous omission given what was on the table. The prospect volunteered that his diet has degraded badly since his daughter moved out — 'now it's cheeseburgers and pizzas and Chinese food. It's just easy... I don't want to cook for one' — alongside a statin, a reflux medication and an explicit awareness that he needs protein to maintain mass. Nutrition was mentioned only as a bullet on the Primal University screen: 'as well as nutrition advice for yourself.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never delivered. Trevor's personal number, the over-communication instruction and the community were not described at all. This is the pillar the prospect had effectively asked for in his own words — 'Maybe I just need some motivation. Maybe I just need somebody to say, you know, get off your arse' — and it was never put in front of him before he was disqualified."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "cheap_alternative_that_worked",
+      "raw": "during COVID, there's a company called Rogue, Rogue Fitness. 130 bucks, I got an incredible pull-up bar, 120 bucks, I got like a dip bar, you buy the metal and you buy the matador clip, and I just did pull-ups and dips, and I stayed in great shape.",
+      "direction": "undercuts_price",
+      "competitor": "Rogue Fitness",
+      "note": "The most concrete undercutting anchor in the corpus — a named vendor, two prices totalling roughly $250, and a stated successful outcome sustained over months. It sets his reference point for solving this problem at a one-off couple of hundred dollars, which is precisely the band he ended up being offered. The rep did not acknowledge it."
+    },
+    {
+      "type": "current_fitness_spend",
+      "raw": "And God knows I pay for a membership at the gym. It only cost me 300 bucks a month.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The best-quantified live competing spend in the batch, and it cuts both ways. As a monthly comparison it makes $1,000/mo for the six-month tier look steep. As evidence of willingness to pay it is unusually strong — $3,600 a year on fitness, plus fifteen years of maintaining a fully equipped basement gym, plus the word 'only' in front of $300. Neither side of it was used, because price never came up."
+    },
+    {
+      "type": "prior_capital_investment",
+      "raw": "I had my own gym because I knew demands of my family life and my work. The only way I was going to stay in shape is if I had a full-blown gym in my basement, and that's what I had, you know, elliptical, treadmill, squat rack, dumbbells, universal, mirrors, TV, fans, rubber mats. And I stayed in shape.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has already once solved this exact problem by spending significant capital, and he attributes fifteen years of consistency to it. That is a buyer who invests in his own adherence when he believes the solution fits his constraints, which is the strongest supportive signal available on this call and went entirely unused."
+    },
+    {
+      "type": "free_content_dissatisfaction",
+      "raw": "my IG and my Facebook's bombarded with guys doing kettlebells... How many times I'll email or send a video to myself, so I'll follow this. It's just boring. Do 20 of these, do five of these, and it's like... it's just not what I want.",
+      "direction": "undercuts_price",
+      "competitor": "Instagram / Facebook / saved videos",
+      "note": "Unusually, this is a free alternative he has tried and rejected, which makes it an opening rather than a threat. He is already dissatisfied with the zero-cost option and said so unprompted. The move available was to contrast a progressive programme against a folder of saved clips; instead the rep later recommended a self-paced video programme, which is structurally closer to the thing he had just called boring."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Programming that works around a vestibular disorder — no significant rotational or turning work, and specifically no Turkish get-ups",
+      "why_unmet": "He volunteered the limitation clearly and it was never acknowledged, let alone accommodated. He was then pointed at a self-paced kettlebell and mace system; mace work is almost entirely rotational. Whether the programme can be delivered at all within this constraint, or safely followed without supervision by a 60-year-old who gets dizzy when he turns, is not established anywhere in this transcript. FLAGGED FOR A HUMAN.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A home training solution that gives him the same psychological pull the gym does",
+      "why_unmet": "This is his actual blocker and he named it twice. Every product on offer is a home-based programme, and a video library in a spare bedroom is structurally the thing he says does not engage him. Neither the coaching tier's coach relationship nor the community was ever positioned as the substitute for the environment he lost.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Somebody to hold him to it — 'maybe I just need somebody to say get off your arse'",
+      "why_unmet": "He described the accountability pillar almost word for word before it would have been presented, and it never was. The product that does this exists and costs $6,000; he was routed to the one that does not do it at all. This is a positioning failure rather than a product gap, and it is the largest single miss on the call.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "A more regular pattern of energy through the day, and specifically to stop crashing by 2 p.m.",
+      "why_unmet": "He named this as his primary metric — 'I just want to feel fit... I just wouldn't feel as tired in the middle of the day' — and neither product was positioned against it. Nothing was said about how training load, nutrition timing or sleep would move it, on a call where his sleep and energy had both been carefully mapped.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Variety and novelty rather than repetitive prescribed sets",
+      "why_unmet": "'It's just boring. Do 20 of these, do five of these.' The dynamic, weekly-adjusted nature of the coaching programme is the direct answer and was never described, because the pillars were never presented. The Primal University progression was sketched as 'week one, week two, week three, week four is very progressive' with no detail.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

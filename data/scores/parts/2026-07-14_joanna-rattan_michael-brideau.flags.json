@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-07-14_joanna-rattan_michael-brideau",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a cervical disc problem, knees that prevent running and a father disabled by eighteen spinal cord operations, stated she refuses surgery on principle, and was told that participants' knee and shoulder problems simply go away two to three months into the programme — while already performing loaded overhead kettlebell movements unsupervised.",
+      "evidence": [
+        "I do have some spine, like I have a disc in my neck, because, you know, I do have some of his genetics, so to keep me from the knife, which I don't believe in, I will keep moving as long as I can",
+        "18 spinal cord operations later, he's fully stiff, he can't move his spine freely, can't move his head because he doesn't have his Atlas anymore. And he's in a lot of chronic pain due to it.",
+        "I can't run too much because of my knees, so I walk... a lot of years of sports",
+        "We have a lot of guys who come in, men and women, where they actually start out and they have some sort of like a shoulder issue or a knee issue or whatever, and because of all the work we're working on with stabilizer muscles... Two, three months into the program, they don't have an issue with their shoulder or their knee. It just goes away.",
+        "there were two that are very, the halos and around the, whatever world"
+      ],
+      "timestamp": "02:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The recording is truncated mid-sentence during the presentation and the conversation continues in a separate Drive file filed under the following day, so one call spans two files and two dates and will be double-counted unless linked.",
+      "evidence": [
+        "Did you freeze-frame? I think you freeze-framed. Yes. That was on me. Did eat food? Maybe you want to icing? No, he froze.",
+        "So, Joanna, here's, so as far as Trevor's coaching, it's broken down into basically three pillars.",
+        "Trevor does a one-on-one onboarding call with you, so he's going to get on, you're going to fill out like an onboarding form prior",
+        "Continuation located at drive_file_id 1TY5F12DugGLjvAAOgFZUJzLxxMzLDuQ9, which opens: 'okay what were we talking about training moment we're talking about onboarding... okay so training mobility three pillars'"
+      ],
+      "timestamp": "02:12:34"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This single Drive file contains two entirely separate sales calls with different prospects recorded back to back, so per-file counting undercounts calls and per-file analysis conflates two prospects.",
+      "evidence": [
+        "All right. Sounds good, BZ. Talk to you soon, man.",
+        "01:38:43 - Joanna Rattan www.HealingTheAbyss.com  Hi. Can you hear me?",
+        "Super appreciate your patience. Yeah, we were trying to onboard Sky and just kept running into issue after issue."
+      ],
+      "timestamp": "01:38:43"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Roughly ninety seconds of the opening exchange is duplicated verbatim in the transcript under alternating speaker labels, so any automated parsing of this file will double-count that content.",
+      "evidence": [
+        "Yeah, were at a bit of a loss, I appreciate your patience on that. Yeah, no worries. mean, you guys were patient with me. I started it. Yeah, fair enough, fair enough. Where are you calling in from? Where do you live, Joanna?",
+        "01:40:15 - Michael Brideau (Primal Instinct)  Sorry? Where do you live? Where are you calling in from?",
+        "01:40:19 - Joanna Rattan www.HealingTheAbyss.com  Dallas, Texas. Cool. How do you like it? I've never, I've flown through Dallas, I've never actually spent time."
+      ],
+      "timestamp": "01:39:56"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep asserted that existing shoulder and knee problems resolve within two to three months on the programme, to a prospect whose stated motivation is avoiding degenerative spinal surgery.",
+      "evidence": [
+        "Two, three months into the program, they don't have an issue with their shoulder or their knee. It just goes away.",
+        "if we can strengthen all the functional movement patterns to stabilize their muscles, so on and so forth, well, not only are we a 50-year-old now, but we're also a strong and healthy 50-year-old that's going to be doing things well into her 60s and 70s",
+        "he has a system that works and is adaptable to really any body, any age, wherever you're starting"
+      ],
+      "timestamp": "02:07:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep named another prospect and the fact that they were being onboarded, to an unrelated prospect at the start of her call.",
+      "evidence": [
+        "Super appreciate your patience. Yeah, we were trying to onboard Sky and just kept running into issue after issue."
+      ],
+      "timestamp": "01:38:51"
+    }
+  ]
+}

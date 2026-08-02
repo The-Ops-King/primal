@@ -1,0 +1,51 @@
+{
+  "call_id": "2026-07-17_everett-rattray_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Post-sale logistics call. The prospect was already sold and paid before this call opened — 'let's just dive into it. Let's book the meeting with Trevor in' — so there is no opening or framing to score."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline belongs to the earlier selling call, which is not in this file. Nothing about age, body, work, health, training, diet, sleep or energy is discussed here."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "No goals work is possible on a scheduling call after the sale."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Not reachable on this call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Not reachable on this call."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Commitment was obtained on the prior call; nothing to score here."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "partial", "P11b": "hit", "P11c": "miss", "P11d": "partial" },
+      "evidence": "This is the only phase the call can be scored against, and it is the whole point of the call. Payment: two instalments already taken through a custom link, but the rep failed to secure the remainder — he asked 'what cards can we put that on?', the client declined ('I can't keep using the pay link?'), and the call ended with billing unresolved and escalated to the team. Onboarding call: booked live, Tuesday the 21st, 7:15pm Eastern, invite sent to the confirmed address — a clean hit. Agreement email: never mentioned, nothing signed on the call; the only email chased was the calendar invite. Step 4: the rep confirmed the onboarding form was already complete and told him 'there's nothing that you are going to need to do before then', but there is no welcome email, no Skool link and no community join anywhere in the transcript."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A money-adjacent trigger surfaced in substance when the client explained he wants to pay opportunistically rather than on a schedule — 'I like the pay link because if I get paid, I was like, oh, I can probably pay half'. Nothing from OC ran, which is defensible at this stage of the relationship, but the rep also did not pin the schedule; he conceded flexibility ('if you can do $1,200 a month, then that's also fine'), invited a larger payment, and deferred the terms to the team."
+    }
+  ],
+  "notes": "Score this as a P11 call and nothing else. Two of four onboarding steps are incomplete: no signed agreement on the call and no community/welcome-email step, and the payment method for the outstanding balance was left open with the client rather than closed. Coach him to finish the four steps before hanging up, and to stop negotiating billing terms he has to escalate afterwards."
+}

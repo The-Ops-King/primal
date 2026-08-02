@@ -1,0 +1,123 @@
+{
+  "call_id": "2026-06-05_timur-malik_ben-byrne",
+  "source": {
+    "drive_file_id": "1ky_UPdB3dz9RKGkUdy-l9ALZtEGqvQgd",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/05/2026 - Timur Malik x Ben Byrne KL",
+    "display_title": "06/05/2026 - Timur Malik x Ben Byrne KL — Lost",
+    "file_size_bytes": 31144
+  },
+  "call": {
+    "date": "2026-06-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 40,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "medium",
+    "evidence": "Prospect: 'your administrator that I spoke to a few days ago, wasn't very forthcoming in terms of options. She sort of sketched over very little... She actually said that you'll be speaking to one of the colleagues.' Gender matches KL/Kyla; the setter was never named on the call."
+  },
+  "prospect": {
+    "name": "Timur Malik",
+    "aka": "iPhone 12 Promax",
+    "name_source": "title",
+    "location": "West London, UK, near the former Earl's Court Exhibition Centre",
+    "age": null,
+    "occupation": "Self-employed on two fronts: skincare and body treatments delivered from a treatment room at home, with a rolling base of existing clients; and background artist and part-time actor through an agency. Previously worked from a separate clinic premises which he gave up after his workload collapsed.",
+    "family_status": "Not in a relationship; no immediate family nearby and describes them as 'not the most supportive'; relies on friends",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Daily morning routine of planks and stretches after prayers, 20 to 40 minutes. Walks two to four miles most weekdays and between five and fifteen miles a day at weekends. Owns hand weights, a dumbbell and kettlebells but has not been using them. Says his arms, legs and back 'have always been good and relatively defined' and that 'for my age, I am actually in good form'. Last considered his midsection in good shape 'a decade or a couple of decades ago'.",
+    "kettlebell_experience": "none",
+    "medical": "Awaiting surgery on his right knee. Injured it about eighteen months before the call and is on a waiting list for a ligament or tendon replacement, delayed by NHS funding pressures: 'I'm due for an operation for a ligament or a tendon replacement... It's supposed to be an outpatient surgery, so it's not quite that invasive. Because the health system is so bad at the moment with just not being funded, there's delays.' Current functional restriction is stairs — 'the main restriction for me is really stairs. I just have to be cautious' — though he can bear weight and walk long distances. Also discloses persistently variable morale and a period of emotional as well as financial impact after losing his clinic premises. No clinician clearance for kettlebell training was sought at any point."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.5,
+    "signals": [
+      "PROPOSED LABEL: the_precarious — economically distressed and socially isolated, pursuing a physical change primarily as a route back to paid work, where intent is real but participation is blocked by income rather than by belief, price sensitivity or clinical fit. Reasoning: his stated purchase driver is employability ('if I was in better shape, the likelihood is I would probably get more jobs'), his blocker is hardship ('I am struggling, in all honesty'), and he has no partner, no nearby family and unsupportive relatives, so none of the social supports the other avatars assume are present.",
+      "Nearest listed fit is the_rebuilder — he lost his clinic premises and income, injured his knee, and wants a midsection he last had two decades ago — but rebuilders in this taxonomy carry the means to act and he does not",
+      "Not the_preserver: he is health-literate and older, but his goal is to gain definition rather than hold on to function, and there is no high nominal income behind the low liquidity",
+      "Not the_medically_constrained: the pending knee surgery is real but was never the reason the deal did not happen, and he showed no price resistance because he never heard a price"
+    ]
+  },
+  "goals": [
+    { "text": "Trim and define his midsection — 'it would be a six pack. I can feel the muscles underneath'", "category": "appearance" },
+    { "text": "Get in better shape to win more background and acting roles", "category": "other" },
+    { "text": "Lift his morale — 'by looking better, feeling better, it's a morale booster'", "category": "confidence" },
+    { "text": "Find an all-round workout that needs no machinery or gym", "category": "convenience" },
+    { "text": "Build a routine he can actually incorporate into his week", "category": "consistency" },
+    { "text": "Find a motivator he can sustain — 'finding the sustainable motivator aspect and elements in order to maintain that sense of continuity and consistency'", "category": "sustainability" },
+    { "text": "Stay fit while waiting for the delayed knee operation", "category": "injury_prevention" }
+  ],
+  "pains": [
+    { "text": "Awaiting a delayed ligament or tendon replacement on his right knee, injured eighteen months ago; stairs are restricted", "category": "injury", "severity": "high" },
+    { "text": "Financial hardship — 'it's actually just got a little bit sticky, where I am struggling, in all honesty'", "category": "other", "severity": "critical" },
+    { "text": "Lost his clinic premises when his skincare workload collapsed, which hit him 'emotionally, as well as physically, as well as financially'", "category": "work_stress", "severity": "high" },
+    { "text": "Acting work is irregular and rejection-heavy — 'there are more failures than achievements'", "category": "work_stress", "severity": "high" },
+    { "text": "Variable, often low morale — 'I can't say that it's consistently high'", "category": "mental_health", "severity": "high" },
+    { "text": "Isolation: no relationship, no family nearby, unsupportive relatives, reliant on friends", "category": "relationship", "severity": "high" },
+    { "text": "Reads to escape 'the boredom and the lack of work'", "category": "emotional", "severity": "medium" },
+    { "text": "Cannot self-motivate without an external trigger — 'it's kind of harder to self-motivate and it's always something that is a result of a stimuli'", "category": "motivation", "severity": "high" },
+    { "text": "Owns kettlebells and weights but has never got into using them routinely", "category": "consistency", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "Unfortunately, at the moment, it's actually just got a little bit sticky, where I am struggling, in all honesty.",
+      "timestamp": "00:23:26",
+      "rep_response": "Did not run the money play. Stated the price band honestly and then actively steered the prospect away from buying: 'if money is tight and you said you're struggling, this is an expensive program. It's in the thousands. It would probably make more sense for you just to either start off with workouts from YouTube. You can follow Trevor's Instagram, just do workouts without paying... I don't want to, like, take your last dollars to do this.'",
+      "response_tactic": "voluntary_disqualification_on_hardship",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "It's, at this stage, it's an inspirational... Set of goals, absolutely. Whether I'm actually there in my mindset and other aspects, I'm not sure. I suppose that's the only area that's kind of holding me back, I feel.",
+      "timestamp": "00:36:57",
+      "rep_response": "Had spent the preceding ten minutes on exactly this — external versus internal motivation, quality of fuel, identity — but did not return to it after the prospect named it as the blocker. He went straight to the affordability disqualification instead.",
+      "response_tactic": "prior_identity_framing_not_revisited",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect withdrew explicitly: 'let's kind of end on that point, because I'm not quite there where I can actually engage with the program, but the points you've raised are valid.'",
+      "The rep disqualified him first, on affordability: 'this is an expensive program. It's in the thousands. It would probably make more sense for you just to either start off with workouts from YouTube.'",
+      "No price was ever quoted, no payment taken, no link sent, no follow-up date and no second call",
+      "COUNTER-EVIDENCE — the process itself was accepted: 'It's modifying and refining the skill set and targeting it with short, medium, and long-term goals in some format. Yes, I appreciate it. I get that.'",
+      "COUNTER-EVIDENCE — the lower-tier product was raised but never priced, so a potentially affordable route was left untested."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. The rep invited him to reach back out if anything changes; nothing was scheduled and the secondary product was never priced."
+  },
+  "notable": {
+    "note": "The strongest ethical conduct in the batch and worth recording as a positive: told the prospect was struggling financially, the rep declined to sell, named the price band honestly, pointed him to free content and said 'I don't want to, like, take your last dollars to do this.' That instinct was correct and should be reinforced, not coached out. Two things still need attention. The prospect is on an NHS waiting list for a knee ligament or tendon replacement and no clinician clearance was sought before the programme was described and free unsupervised workouts were recommended; the rep also told him 'there's really no excuse not to do it'. And the setter handoff failed badly enough that the prospect opened by complaining about it: 'she sort of sketched over very little... She didn't really give very much details nor did she ask for any pertinent points.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "The prospect appears throughout as the device label 'iPhone 12 Promax' and his name is never spoken on the call; it is recoverable only from the title. Extensive label inversion: at 00:07:26 and 00:08:58 the rep's questions and the prospect's answers are swapped mid-exchange; at 00:09:05-00:09:07 'Can you weight on it, like your knee?' is attributed to the rep and the reply 'Yeah, yeah, I can walk' to the prospect but the surrounding turns are inverted; 00:12:39-00:12:59 inverts the 'when was the last time you were in good shape' exchange entirely; 00:33:35-00:34:00 splits a single rep monologue across both labels. Role read from content throughout."
+  }
+}

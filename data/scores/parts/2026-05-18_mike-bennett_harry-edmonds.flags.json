@@ -1,0 +1,28 @@
+{
+  "call_id": "2026-05-18_mike-bennett_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "An application the prospect deliberately abandoned partway through was captured as a partial submission and routed to a setter, who booked a closer call — so a booked call exists for a prospect who had decided not to apply.",
+      "evidence": [
+        "to be honest, And be honest, the truth is I didn't actually complete the application. I skipped a couple of questions and I got to the end and I'm like, I don't know if I want to do this",
+        "and I was going to go back and answer and I just was like, okay, I'm not going to do that right now. And it must have submitted a partial whatever and then Kyla reached out.",
+        "So that's like, I, I was sort of on the fence myself."
+      ],
+      "timestamp": "00:07:58"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep offered a written sleep protocol he keeps on file for prospects, plus specific behavioural instructions, to a prospect who had just disclosed insomnia following kratom cessation, without suggesting any clinical input.",
+      "evidence": [
+        "I used to have really bad insomnia. I spent like, eight grand on a sleep coach and it changed. changed my life.",
+        "I wrote this out for people who jump on and have sleep issues.",
+        "Before you go to sleep, about an hour before, sit in the shower with the lights off. Hot. A hot shower. Not too hot that it burns you, but hot. With the lights off for about... Set a 10-minute timer.",
+        "the kratom got me. And it contributed to another burnout... the kava, or the kratom really, really up my sleep. I just started sleeping full nights again, like, two weeks ago, since November"
+      ],
+      "timestamp": "00:09:53"
+    }
+  ]
+}

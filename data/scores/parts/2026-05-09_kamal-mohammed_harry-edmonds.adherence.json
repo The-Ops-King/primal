@@ -1,0 +1,75 @@
+{
+  "call_id": "2026-05-09_kamal-mohammed_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation call booked at the end of the prior day's session. It opens mid-thread on the prospect's own agenda — 'I've been doing my research yesterday. I've got a couple of questions for you' — and no frame is re-run, correctly."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "Baseline belongs to the 2026-05-08 call, where it scored poorly. Not re-scored here."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "Goals work belongs to the prior call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "Past attempts and root cause belong to the prior call."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Scored rather than marked not applicable, because the playbook explicitly directs the rep back to Phase 5 when hesitation surfaces at the commitment check — and hesitation surfaced repeatedly here. It was never run. The nearest thing was a single backward-looking line, 'you've been saying for like 10 years that you're going to get shredded', which is a reproach rather than a forward projection. No 'if nothing changes, what does life look like in two years', no 'is that something you're willing to settle for', no line in the sand. With two live objections and a prospect who could not name his own blocker, this was the phase the script called for."
+    },
+    "P6": {
+      "score": "hit",
+      "checks": { "P6a": "hit", "P6b": "hit", "P6c": "partial" },
+      "evidence": "The strongest commitment work in the batch. Belief was addressed head-on rather than assumed: the rep spotted it — 'It sounds like there's a little bit of certainty missing' — drew out the real doubt, 'I believe it, and I don't... is it even possible?', and answered it directly. The all-in question ran three separate times and in three different forms: 'What's holding you back from doing it now?', 'It doesn't sound like the money's the problem, brother. Sounds like there's something else holding you back. There's a hesitation somewhere', and 'there's got to be something else holding you back, because otherwise you'd just do it now if you were 100%.' Partial on the last check only because the script's instruction when hesitation surfaces is to return to Phase 5, and the rep instead kept working the close."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "partial", "P11b": "miss", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Payment was pursued persistently and not collected — the rep offered upfront, two payments, monthly, and finally a $1,200 bridge, and the prospect deferred to Monday. No onboarding call with Trevor was booked; Tuesday or Wednesday were described in the abstract and a further sales call was scheduled instead. No agreement, nothing signed, no welcome email, no Skool link, no questionnaire."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolation ran, and well — 'It doesn't sound like the money's the problem, brother.' The rep also did the harder thing correctly: asked to discount to $1,000 a month he refused outright, 'literally can't do anything on numbers', and re-presented existing structures rather than inventing a new one. Everything after isolation was skipped. Not one of the six financial-picture questions was asked — no cash on hand, no monthly surplus, no number of cards, no available credit, no used-versus-available, no investments — despite the prospect handing over the opening twice: 'I just need to put money in the bank, clear some credit cards' and a volunteered account of how central credit scores are to his situation in the US. The play exists precisely for that conversation and it was never started."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Trigger was a stall rather than a phrase — 'do us a meeting for Monday, and I'll process the payment on Monday'. The rep ran the core move three times, pressing for the real blocker, and improvised well around it: the do-the-dishes analogy, 'we always look for the perfect way. There is no perfect way. There's only one way and that's forward', and a $1,200 bridge to remove the decision entirely. He closed with the confirmation move, 'You're 100% in on Monday, yeah?' Missing: 'do you feel what we've gone through CAN get you to your goal', 'what makes you feel it can', and 'that man you want to be, how does HE decide right now' — the identity move, which is the one this prospect's own material was built for."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The most consequential miss on the call. 'I'm gonna wait till my wife comes tomorrow, I'm gonna see what she thinks too' arrived after the prospect had already reported her position — 'I told my wife yesterday, she's like, you're crazy. You're going to pay 6,000.' One move ran, 'What do you think she thinks?', drew a deflection, and the rep abandoned the subject and never returned to it. None of the remaining moves ran: no 'money aside, do you personally feel this CAN get you to your goal', no 'is there any reason she would NOT want you stronger and less in pain', no 'is this genuinely needing her input or asking permission to bet on yourself', no 'this isn't a joint decision like buying a house', and no deposit fallback. He spent the following five minutes hunting for a hidden blocker that had already been named out loud."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "A clean, explicit fear trigger: 'I believe it, and I don't... is it even possible?' The rep ran the opening move well by naming the certainty gap, then answered with assertion instead of the scripted reframes — 'Yeah, 100% it's possible' and 'it's normal. It's supposed to be a little bit scary.' None of the reframes ran: no pleasure-versus-pain question, no BRIDGE ('I'm not asking you to see the whole other side, just take the first step'), no PLANE analogy, no BURNED BEFORE, and no 'how will you know if you never actually try?' The doubt was still live at the end of the call."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap. The prospect asked for evidence the programme works — 'when I try to look up his results, he don't really have so much results. only got like three, four, five people' — and there is no play for a proof or social-evidence objection. The rep answered with a volume claim, 'We've coached over 1,200 people', and screen-shared client interviews, and the prospect rejected what he saw: 'Yeah, I've seen these, but I'm not about like... I've seen this page, there's only like a couple of people.' It went unresolved for the rest of the call. This is worth adding to the playbook, since the gap is between a claimed client base and the publicly discoverable evidence for it."
+    }
+  ],
+  "notes": "The best objection work in this batch and it still did not close, because the one objection the prospect stated plainly — his wife, who has already called the price crazy — got a single question and was then dropped, while the rep spent five minutes searching for a hidden blocker. Two coaching points: run OB properly the moment a spouse is named, and when hesitation survives the commitment check, go back to Phase 5 as the script instructs instead of continuing to press the close. Credit where due: he refused to discount when asked directly, and he declined to offer the $200/month community as a cheaper substitute."
+}

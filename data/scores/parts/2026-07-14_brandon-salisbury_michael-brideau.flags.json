@@ -1,0 +1,108 @@
+{
+  "call_id": "2026-07-14_brandon-salisbury_michael-brideau",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed Von Willebrand disease, a hereditary clotting disorder he refuses medication for and manages with large daily quantities of garlic, and the rep responded with a joke and never referred to it again while selling him loaded ballistic training.",
+      "evidence": [
+        "I have a plateless cell disorder, and it's called Von Wildebrand's disease, and I never wanted to take medication for it.",
+        "I took my blood work from a hematologist to him, and he was like, oh, no, don't take any pills for that... he goes, you need to flood your system with garlic.",
+        "Garlic is one of the, if not the most powerful thing you can eat for your blood, but it will regulate specifically for what I have.",
+        "Maybe why you don't have a girlfriend, bro.",
+        "It's great, Nice. That's fantastic. That's great.",
+        "your platelets are, you know, produced in your bone marrow, so it's good for me"
+      ],
+      "timestamp": "00:51:29"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect has an eighteen-month shoulder injury never imaged, never treated with physiotherapy, with surgery recommended by two physicians and refused, and was sold toward loaded ballistic kettlebell work with the projection that it would stop being an issue in two to three months.",
+      "evidence": [
+        "I injured my shoulder about a year and a half ago... immediately, the VA, all they want... their go-to is to give you pills... It was either that or do surgery",
+        "Did you ever end up doing an MRI? Did you ever do physical therapy? No, [I] couldn't do one.",
+        "I was literally doing push-ups all the time, I was doing pull-ups all the time, but I couldn't push or pull at all whatsoever without it feeling weird",
+        "he'll be able to prescribe you things that are going to kind of strengthen around the shoulder, so again, and ideally in like two, three months, it's not even a thing that we have to think about anymore",
+        "we've had a lot of people who've come in with different injuries, and by the time they're three months into the frickin' program, their injuries don't even bug them anymore",
+        "I don't know if that would be too much with a slight injury, if I should start a little bit lower than that"
+      ],
+      "timestamp": "00:09:35"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "Rep twice affirmed the prospect's stated distrust of his own physicians, including the belief that the VA prescribes painkillers so patients will kill themselves and that his doctor recommended surgery for the insurance money.",
+      "evidence": [
+        "the VA, all they want, their go-to is to give you pills, because they just want you to kill yourself, basically",
+        "I hear the cha-ching and you see the dollar signs and stuff and the whole insurance kickback and all that [shit]",
+        "That's crazy.",
+        "I just was like, all right, well, [screw] it. I don't trust anyone. So I'll just see what it can do on its own.",
+        "Yeah, that's crazy. So are you at a spot where you can actually start working out again with the thing?"
+      ],
+      "timestamp": "00:05:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised a $2,000-now plus $4,000-in-30-days split against a credit card with a $2,500 limit, with an automatic future charge agreed verbally and no written terms, after declining the prospect's offer to raise his limit and pay in full.",
+      "evidence": [
+        "the current limit is 25",
+        "Let's do this. Let's just do 2K right now and then we can just do the rest in like 30 days.",
+        "We'll bill you 2K, put it on a credit card, and then, yeah, we can just call you up. Either call you up or we can put in an automatic bill to bill the rest in like a month, a month's time.",
+        "Do you want us to call you or do you want us to put in like an automatic payment thing? — I mean, I think an automatic would be fine.",
+        "How much time do you have? I can literally call them. And it's like, doesn't take much time.",
+        "If it works for you, dude, let's just do the 2K right now. Cause I want to be on time for this call."
+      ],
+      "timestamp": "01:09:09"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The prospect conducted a live work security-incident call on the recorded Zoom, discussing building access control, alarm and door codes, a comm room and named colleagues at his employer, and the rep neither paused nor stopped the recording.",
+      "evidence": [
+        "I've not been given an alarm code though for the building. No, I don't have a key either for the front door.",
+        "between compliance and, you know, access control without you or Mario giving me y'all's code",
+        "if Bart okays it, I mean, give me your code, I can use your code, and then we can just log that",
+        "we just lost power to our building, which means all of the salespeople and the investment banker, wall street nerds can't do anything. So this is like a disaster recovery situation.",
+        "we're going to have to go through security tomorrow just to log this"
+      ],
+      "timestamp": "01:32:26"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "This single Drive file contains two entirely separate sales calls with different prospects recorded back to back, so per-file counting undercounts calls and per-file analysis conflates two prospects.",
+      "evidence": [
+        "I'm going to boot you out just cause I got somebody else in my waiting room. So we'll talk soon.",
+        "All right. Sounds good, BZ. Talk to you soon, man.",
+        "01:38:43 - Joanna Rattan www.HealingTheAbyss.com  Hi. Can you hear me?"
+      ],
+      "timestamp": "01:37:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Setter notes from the previous day's qualification call did not reach the closer, so the prospect had to re-explain his situation and the opening phase could not be run as scripted.",
+      "evidence": [
+        "I was curious, from the call that I had yesterday, did he kind of pass over some of what we went over?",
+        "So I was looking, I didn't actually see any notes. Let me look at it one more time, just to see if I missed it anywhere.",
+        "Yeah, I didn't see any notes anywhere, man. Normally I have them, so I don't know if it just got misplaced or something like that.",
+        "So unfortunately, I don't have as much context as I'd love to coming in on this call."
+      ],
+      "timestamp": "00:03:26"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep pressed for immediate partial payment on the grounds of his own schedule, and used limited-availability framing on onboarding slots, after the prospect had twice offered to resolve the payment properly within minutes.",
+      "evidence": [
+        "So normally I'd say, yeah, the only thing is I have another call here pretty shortly that I want to make sure to get to. So why don't we do this? If this works for you, let's just do the 2K right now.",
+        "Cause I want to be on time for this call.",
+        "Trevor only has a couple more spots open this week for onboarding calls.",
+        "We're going to have to look into Monday, then, because he's fully booked out the rest of the week."
+      ],
+      "timestamp": "01:10:06"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "2026-06-22_adene_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yeah, I could definitely do that, yeah.' Understood and agreed with no questions at the point of delivery. He had already reasoned toward the premise himself before the pitch: 'lifting at the gym conventionally, it focuses on, like, certain movement patterns... but the way, like, basketball's played is different movement patterns.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Yeah, yeah. I'm open for small tweaks.' The rep had already conceded his nutrition was good — he tracks macros and eats around 230g of protein — so the pillar was positioned as marginal and accepted as marginal."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Asked practical mechanics rather than engaging with the accountability premise: 'is it with the workouts, is that like on an app that we would see the workouts' and 'I've never done kettlebell things... Is the kettlebell full body? Am I working full body every day, or is it split amongst the three or four workouts?' His verbal response to the pillar itself was the weakest of the three — 'I hope so. I mean, I can only try and see if it works.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "prior_programme_price",
+      "raw": "the previous programs I've paid was like 50, tops like 100. I'm willing to go up to like 150, maybe a little more. The 6k is just, I just don't have 6k, honestly speaking right now.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His entire purchasing history in this category sits between $50 and $100, and he stretched to $150 as a maximum. Against an effective $1,000/month that is a sixfold gap, and it was disclosed the moment it was asked for. The $200/month product he then bought is above his own stated ceiling, which is worth watching for churn."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I know there's, like, knees over toes, those work on, like, your knee, like, knee, um, tendons, and works on your, also your back muscles, which has been working. And, um, I'll do, like, my own, my own work, like, lifting workouts that I've seen online that has worked.",
+      "direction": "undercuts_price",
+      "competitor": "Knees Over Toes and self-sourced online programmes",
+      "note": "He has two low-cost or free approaches already producing partial results on the exact complaint that brought him to the call. The rep acknowledged this — 'they have made it better, but just not good enough yet' — but never quantified the remaining gap, so there was no measure of what $6,000 was actually buying."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A middle-tier option between $6,000 one-to-one and $200/month group",
+      "why_unmet": "Asked for explicitly and twice. The rep declined to enumerate what exists — 'I think I can mention every single thing, right? But that we're talking for like the next 40 minutes' — and presented only the cheapest product. No shorter or reduced-scope one-to-one option was mentioned, though one was improvised for another prospect three days earlier.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Workout scheduling and completion tracking inside the product he bought",
+      "why_unmet": "Primal University has no logging. He asked directly — 'is that also where you could input like, I guess, the workout for the day, when you're scheduling?' — and the answer was to build his own Google Sheet.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An explanation of, or a fix for, four years of worsening post-basketball joint pain",
+      "why_unmet": "The programme was positioned as the solution — 'the soreness that you have slowly start to go away' — but nobody has established what is causing it, and a self-directed video library with no clinician involvement is not a route to finding out.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

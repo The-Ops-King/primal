@@ -1,0 +1,48 @@
+{
+  "call_id": "2026-05-27_ram-bala_harry-edmonds",
+  "pillar_reactions": [
+    { "pillar": "training_mobility", "reaction": "enthusiastic", "evidence": "Volunteered his own conviction and tied it directly to his back: 'that's exactly what it is' on the philosophy, and later 'at least in my mind, I'm convinced, uh, kettlebell addresses everything... my goal is just not to have some muscle and abs. So I want to. Mobility is a big thing too, right? To a point, I may not even get there without the mobility.'" },
+    { "pillar": "nutrition", "reaction": "clarifying", "evidence": "Worked through the mechanics before accepting it — 'now I'm a vegetarian', 'does your nutrition or our set of nutrition, does it include, uh, in your supplements?', 'do I have to, before we get started, we have to do blood work' — and endorsed the non-calorie approach: 'I'm not a big fan of just doing the calories.'" },
+    { "pillar": "accountability", "reaction": "clarifying", "evidence": "Pressed on how weekly progress actually works given a three-week absence — 'let's say technically I start in July, and we have a six months setup, now that's going to be 24 weeks, so how are we making progress? Are we looking at every week?' and 'every week, the numbers are what? The workouts? The hours, the food, the calories?' Landed on 'Something's moving every week.'" }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "the most expensive quote I've received is $2,000 for one year",
+      "direction": "undercuts_price",
+      "competitor": "An Indian gym owner who coaches kettlebells for back pain (unnamed); one of three providers he is evaluating",
+      "note": "The hardest anchor in the batch. It is like-for-like on scope — one-to-one, app-based, weekly check-ins, nutrition included, and kettlebell-led for back issues — at one third of the price for twice the duration, i.e. six times cheaper per month. The prospect did the arithmetic on the call: '26K, that's $1,000 a month? That's the most expensive I've ever heard.'"
+    },
+    {
+      "type": "other",
+      "raw": "You're the third person I'm talking to, and you're 100% kettlebell.",
+      "direction": "undercuts_price",
+      "competitor": "Two other coaching providers, with a fourth call booked for the following week",
+      "note": "Proposed label: active_competitive_process. He is running a structured evaluation with quotes, not making an emotional purchase, and told the rep a further provider call was scheduled after this one. That is a live deadline the rep did not use."
+    },
+    {
+      "type": "other",
+      "raw": "the last time when I went to a chiropractor, just as a wellness check, we did some body, body fat index, BMI, all of that",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Proposed label: existing_paid_practitioner. He already pays for chiropractic care and wellness checks, so he is habituated to paying professionals for his body. It was never used as a bridge to the price."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To pay in instalments — he asked directly whether it could be month-on-month, split three-and-three, or one payment",
+      "why_unmet": "He was told 'It's six months, one shot.' The company does have instalment routes — the same rep described third-party finance to another prospect the day before — so the demand is unmet by the answer given, not by the product.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "The lower-cost group programme the setter had already told him about",
+      "why_unmet": "The rep steered him off it on clinical grounds — 'it's self-paced and not tailored... it's not going to be tailored to fix the back' — and never gave its price, so a price-sensitive prospect left with a $6,000 number and no cheaper in-house option to weigh against a $2,000 competitor.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Confidence that loaded lower-body and hip-hinge work is safe for a diagnosed disc bulge, since fear of injury is the stated reason he wants a coach at all",
+      "why_unmet": "The programme's answer was that it will observe his form and 'rewire' alignment, with no clinical input, no clearance and no assessment beyond a photo review. Whether it can safely deliver what he is specifically buying is untested.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

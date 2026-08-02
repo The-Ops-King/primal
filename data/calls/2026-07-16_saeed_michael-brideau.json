@@ -1,0 +1,134 @@
+{
+  "call_id": "2026-07-16_saeed_michael-brideau",
+  "source": {
+    "drive_file_id": "1_tD3ZPXamdXOzlQ4EEB4DqTfnORdvX0V",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/16/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/16/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 65307
+  },
+  "call": {
+    "date": "2026-07-16",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 67,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Brazil (Canadian, living in Brazil)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Saeed",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "San Diego, California, USA",
+    "age": 34,
+    "occupation": "Scientist at a biotech company; mostly desk-bound, occasional travel",
+    "family_status": "Married, two young children — one around two years nine months, one around ten months",
+    "height_in": 70,
+    "weight_lb": 180,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Endurance-led and highly active. Swims four to five sessions a week, trains six months a year for an annual three-mile ocean swim race, runs once or twice a week and does the occasional half marathon. Two 45-minute strength sessions a week squeezed in after swims — heavy barbell lower body (front squats, single-leg lunges, Romanian deadlifts), bodyweight upper body plus heavy single-arm rows, with kettlebell work supersetted in between. Former boxer. Trains at a YMCA that provides childcare.",
+    "kettlebell_experience": "some",
+    "medical": "Very high cholesterol found on recent blood work — self-describes it as at the 'oh, this is really bad' level and says 'I probably should be medicated', but is avoiding a statin because he has heard it affects muscle and training. Extremely strong family cardiac history: his paternal grandfather died of a heart attack at around 50, his grandmother had bypass and open-heart surgery, and every one of his father's seven siblings including his father has had some form of cardiac intervention. Family history of diabetes. Daily cannabis use — recently switched from smoking to gummies, drives night-time munchies and is a stated cause of poor sleep; he and the rep both characterise it as an addiction. Current calf strain, running paused two weeks. Chronic overuse shoulder pain from boxing and swimming — stopped bench pressing, still feels it pressing out of a clean and press. Poor sleep attributed to the children and the cannabis. Self-reports body fat as probably under 20 percent, never tested."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.75,
+    "signals": [
+      "Already highly conditioned — swims four to five times a week, races a three-mile ocean swim annually, runs half marathons",
+      "Wants refinement rather than rescue: 'I'm looking for, I think, more, what do say, like, refined programs instead of just, you know, here and there doing what I know'",
+      "Explicit good-to-great framing: 'I think I'd like to do a little bit less than what I'm doing now and have better outcomes'",
+      "Body composition target is a fine-tuning move — under 20 percent to under 12 percent",
+      "Counter-signal: a serious untreated cardiovascular risk profile and daily cannabis dependence sit underneath the optimizer surface, and the rep spent the call there rather than on optimisation"
+    ]
+  },
+  "goals": [
+    { "text": "Drop body fat from an estimated under 20 percent to under 12 percent", "category": "fat_loss" },
+    { "text": "Reduce visceral fat specifically to head off the family history of heart disease and diabetes, and avoid being put on a statin", "category": "longevity_function" },
+    { "text": "Learn structured, refined kettlebell programming and specific skills such as the flows, rather than improvising from Instagram", "category": "other" },
+    { "text": "Get better outcomes from less total training time — he is time-poor with two toddlers and a full-time job", "category": "convenience" },
+    { "text": "Stay mobile and functional and keep his body as young as possible", "category": "mobility" },
+    { "text": "Set an example for his children of what someone who cares about their health looks like, and break the family's generational cardiac pattern", "category": "family_role_model" },
+    { "text": "Keep training for and completing the annual three-mile ocean swim", "category": "hobby_performance" }
+  ],
+  "pains": [
+    { "text": "Very high cholesterol on recent blood work against a family history in which every one of his father's seven siblings has had a cardiac intervention; he says he probably should be medicated", "category": "medical", "severity": "critical" },
+    { "text": "Daily cannabis use he and the rep both call an addiction; drives night-time munchies on trail mix, ice cream and cereal that undo the diet", "category": "other", "severity": "high" },
+    { "text": "Knows what he should do and has not made it a priority — 'it isn't that important to me, but I feel like it should be'", "category": "motivation", "severity": "high" },
+    { "text": "Persistently bad sleep from the two young children and the cannabis", "category": "sleep", "severity": "high" },
+    { "text": "Chronically strapped for time between a full-time job, work travel and two toddlers", "category": "time_scarcity", "severity": "high" },
+    { "text": "Strength training is his least favourite work and feels unstructured — he goes in knowing roughly what to do but has no programme", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Recurrent overuse injuries — a current calf strain that has stopped running, and shoulder pain that ended bench pressing and is still felt on overhead pressing", "category": "injury", "severity": "medium" },
+    { "text": "No clear vision for what he actually wants from kettlebells; uncertain whether to replace barbell work or supplement it", "category": "program_fit", "severity": "medium" },
+    { "text": "Nobody in his life tells him the truth directly — 'I've known but haven't been told by anyone else'", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "other",
+      "raw_quote": "So here's the thing. If I do commit to a change, I do make a change, commit to it, in three months, I probably won't even need you guys.",
+      "timestamp": "00:45:39",
+      "rep_response": "Rebutted from track record — 'historical evidence has shown us that you've not been able to make a change by yourself up to this point' — then described, from his own addiction experience, the pattern of relapsing once early progress makes life feel good again.",
+      "response_tactic": "past_performance_rebuttal_plus_relapse_pattern",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I think, is there a way I can move forward without throwing them away?",
+      "timestamp": "00:54:33",
+      "rep_response": "Told a story about an addict who always hid a single pill and always relapsed, then kept pressing across roughly ten minutes of call time until the prospect put the gummies down the garbage disposal.",
+      "response_tactic": "analogy_plus_sustained_pressure",
+      "resolved": true
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "How about we talk again in a week? That way I spend a full week to feel the feelings that I don't want to feel tonight.",
+      "timestamp": "01:01:25",
+      "rep_response": "Refused the week and reframed it as avoidance — 'No, because you're just avoiding the feelings more by doing that. It's an excuse to put distance between you and the discomfort that you're feeling right now.' The prospect deferred rather than agreed: 'I'll take your recommendation.' The rep then predicted aloud that he would cancel.",
+      "response_tactic": "reframe_delay_as_avoidance",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": null,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "No price, tiers, guarantee or payment discussion occurred at any point in 67 minutes",
+      "The rep deliberately withheld the offer as a qualification move: 'until we actually talk about and address this, I wouldn't even actually consider offering you to come and join Trevor's coaching'",
+      "He announced a presentation at 00:38 — 'I'm going to walk you through Trevor's coaching' — but never delivered any of the three pillars",
+      "A second call was booked for the following day at the same time, with two articles to read beforehand",
+      "Counter-evidence on momentum: the prospect asked for a week and only agreed to the next day by deference — 'I'll take your recommendation. If you think we should meet tomorrow again, then I'll do it.'",
+      "Counter-evidence: the rep himself predicted the prospect would cancel — 'I'm still waiting for you to text me tomorrow and be like, hey, bro, let's just reschedule and you go back to your old ways'",
+      "Six months of six-month coaching value was asserted — 'Trevor's had 1,000-plus transformations' — but no six-month term or price was ever attached to it"
+    ],
+    "cash_collected_usd": null,
+    "cash_collection_basis": null,
+    "next_step": "Read two articles the rep texted, then reconvene the following day at the same time. The rep also said he would have him read a book."
+  },
+  "notable": {
+    "note": "A 67-minute call with no offer, no price and no pillar presentation. The rep ran a textbook baseline, root-cause and consequence frame and then, instead of presenting, spent roughly 20 minutes doing addiction and emotional work — including directing the prospect to leave the call, retrieve cannabis gummies from his car and destroy them, continuing after the prospect asked whether he could move forward without doing so. The prospect said 'you bullied me into making a change' and asked 'Are you a therapist? I feel like this is a therapy session.' Separately he disclosed a severe untreated cardiac risk profile and said he probably should be medicated; the rep used going on a statin as the negative consequence to sell against rather than encouraging him to follow clinical advice. One objection has no vocabulary fit — the prospect's 'in three months, I probably won't even need you guys', for which the proposed label is self_sufficiency_no_coach_needed; it is a value objection against coaching itself rather than against price, and the script has no play for it. Also of note for lead data: the phone number on his application was fake, discovered live at 01:02:52."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution inverts repeatedly and for whole exchanges. Clear instances: at 00:01:00 the rep's 'That all sound good?' is labelled Saeed; at 00:03:00-00:03:19 the body fat exchange is fully inverted; at 00:09:20-00:09:54 the kids exchange swaps every turn; at 00:44:38-00:45:07 an entire block of the rep's qualification speech is attributed to Saeed; at 01:04:07 the rep's line appears inside the prospect's turn. Role was read from content throughout. A long unlabelled run at 00:23:25-00:25:00 contains both speakers with no timestamps. The transcript also drops profanity and garbles numbers, and there are two internet dropouts at 00:33:02 and 01:04:07 where content is lost."
+  }
+}

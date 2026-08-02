@@ -1,0 +1,71 @@
+{
+  "call_id": "2026-07-07_anthony-sosa_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A month-to-month structure was quoted live at $1,200 per month, which totals $7,200 over the six-month programme — neither of the two sanctioned prices.",
+      "evidence": [
+        "So we done the, if you would like to structure that in a way that you pay month to month, that will be $1,200 because we done that. Yeah? That will be a little more interest on that.",
+        "So it basically comes out to like 1K a month, right? So that's what it's about.",
+        "Okay, look, because if you would get like on a, this payment plan with 1200, like you would be left with Depending on the month"
+      ],
+      "timestamp": "00:36:10"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The deal closed as three interest-free payments of $2,000, which the rep reported to his manager ninety minutes later as an error because instalment plans are supposed to carry interest.",
+      "evidence": [
+        "All right, so let's do 2K today, and the rest we will, do you think you can do that, like 2K now, and then 2K next month, and 2K next month?",
+        "So that would be the plan, is just going 2K per month? Yeah, yeah, yeah. Yeah, let's do that. That's going to work.",
+        "Let's see, it just said invoice paid, $2,000."
+      ],
+      "timestamp": "00:46:58"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The client paid $2,000 against a $6,000 commitment with no written agreement in existence, and the two remaining instalments were left with no dates, no autopay and no written schedule.",
+      "evidence": [
+        "Ah, okay. You know, no worries. I forgot. I forgot. Because this is, totally custom-built. You don't have the agreement right now. I'll need to craft it myself, and I will send it. I just later on today.",
+        "So you should have two emails in your inbox right now. One with the confirmation of the onboarding session, and the second one with the agreement, invitation to the primal university school community, and the onboarding",
+        "Yeah, I don't have that one. I don't see that one yet.",
+        "So I will text you right now on my WhatsApp. Cool. And I will let you know when the agreement is ready via WhatsApp."
+      ],
+      "timestamp": "00:57:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "When the custom payment link arrived blank, the rep proposed taking the client's card details himself and entering them on his end.",
+      "evidence": [
+        "Oh, damn it. I know. Because it's a custom-made. I have it fill it out on my end, but when I send you the link, it's blank. Yeah? So I just need to get your card details. But I can put it in.",
+        "Like, I can change it to 2,000.",
+        "Yeah. Yeah, yeah, yeah, yeah. Absolutely. Would that still work?"
+      ],
+      "timestamp": "00:51:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A manager intervened by text during the live call to propose a different payment split, which was relayed to the prospect as a new option mid-negotiation.",
+      "evidence": [
+        "um there is another option that manager just texted me let me know if that would work like split it just in half do you think like you would have 3k today",
+        "Yeah, after looking at, like, my credit, I can only do the 2K for right now.",
+        "Yeah. Give me one sec. Okay. He's, I think. Okay. Let's give him some time."
+      ],
+      "timestamp": "00:39:57"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears anywhere in this sales call, in contrast to the manager's internal 1-1 the same day which opened with one.",
+      "evidence": [
+        "Hey, Anthony. Can you hear me and see me well?",
+        "Yes, I can. Okay. Perfect. Good morning to you."
+      ],
+      "timestamp": "00:00:03"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-17_maria-papasavvad_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Referenced but did not read back notes: 'I already got some information from Trevor, but I would just like to hear everything from you.' Frame was two-part, not four — 'See where you're at now, where you want to go. If we fit in there, perfect' — no 'what's in the way' or 'what you need'. Frame agreement asked and given: 'Sounds good? Okay, yeah.' Open question ran verbatim: 'take me through, like, what can we potentially help you out with, Maria?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "miss", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "No baseline was taken at all. Age arrived unprompted ('I am, like, turning 57') and so did the medical history ('I had some operations done two years ago... I wasn't allowed to lift anything') — volunteered, never asked, so both score miss. No height, weight, occupation, diet, sleep or energy question anywhere in the call."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "miss", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "No goals phase was run. The only goal content is what she offered herself ('you were able to see my triceps, everything... but nothing now'). The rep never asked what she would change, never bridged to what is driving it, never asked who else it impacts. The call went from her opening statement straight to price within three minutes."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "The rep did reflect a named gap back to her — 'you need the guidance, you need to push this accountability to actually show up... and you had that before with your previous personal trainer' — and she confirmed it. But she had volunteered the past attempt and the reason unprompted; no 'what have you tried', 'why didn't it stick', or 'the information isn't the problem' question was asked."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. She supplied the cost of inaction herself — 'the more I let it go, that it's going to be the harder to get it back' — and the rep only echoed it ('that's when it goes south, right'). No two-year question, no 'willing to settle for that', no line in the sand."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "No commitment check of any kind. Pricing was introduced at 00:06:00 with no prior verbal yes, which is the inversion the script exists to prevent."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close was attempted and no payment was sought, so payment and onboarding could not be reached."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Money was raised at 00:02:34 and again at 00:07:02. The rep never isolated ('finances aside, nothing else keeping you from 100%'), never used the should/how reframe, never asked permission for an open financial conversation, and took none of the financial-picture questions — no cash on hand, no monthly surplus, no cards, no available credit, no investments. He ran one fragment, 'what would your budget be that you can put towards something like this', then moved straight to a lower price instead of playing the objection. The script's play was replaced by a downsell."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "She asked to defer — 'see how I am financially with what I can do, and then maybe call out, reach out to you down the track' — and the rep answered 'Yeah, of course you can.' None of OD ran: no 'things never slow down', no 'the longer you wait the harder this gets' (which she had already handed him), no 'the only thing you can control is right now'. He then reinforced the delay himself: 'if it's now just not the right time, that's fine.'"
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap. Her real objection to the cheap tier was scope, not money: 'I'm getting that anyway... For me, it's the coaching, the one-on-one, that's what I actually need.' There is no scripted play for a prospect rejecting a reduced-scope alternative because the accountability she needs is the part that was stripped out. The rep conceded and moved to a follow-up."
+    }
+  ],
+  "notes": "The call collapsed into a price negotiation at minute three and never came back — no baseline, no goals, no consequence frame, no commitment check, then a price. Coach the sequence itself: discovery earns the right to quote, and quoting first is what forced him to improvise a $1,000 tier to keep the conversation alive."
+}

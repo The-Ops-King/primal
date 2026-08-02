@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-07-07_frank-somma_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed an L4/L5 disc herniation, an actively painful right shoulder under treatment by a PT and chiropractor, and a history of cancer, Lyme disease and autoimmune illness; the rep presented and priced a loaded kettlebell programme including overhead pressing without ever asking whether any clinician had cleared him for it.",
+      "evidence": [
+        "I've got like L4, L5 disc herniation. A lot of it's doing much, much better. I mean, I'm not like walking around in pain anymore, but like the potential for re-injury is, you know, like right now, if I do any kind of squats, it's like body weight or very, very lightweight with like a small kettlebell.",
+        "right now I'm just having an issue with my right shoulder, I had a physical therapist and my chiropractor both look at it and they don't think there's any like rotator cuff damage, like actual structural damage, but I think there may be some something with the connective tissue",
+        "I went through cancer for a few years, which is gone now, luckily, but I had heavy metal toxicity. I had toxic mold in my system, I had Lyme",
+        "But I know with pedal bells, there's a lot of pressing. There's a lot of overhead pressing. So I may need to, you know, go a little bit easy on that side, possibly, maybe just go super light.",
+        "Yeah, that's normal, especially in the beginning. We want to make sure your furs couldn't have to form correctly.",
+        "if I do try to do like a full body workout, which includes like shoulder presses and, you know, certain upper body exercises, like I'll, I'll be kind of messed up for a week"
+      ],
+      "timestamp": "00:07:31"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect stated that a full-body workout including shoulder pressing puts him out of action for a week and that he had stopped overhead work entirely to let the shoulder heal; the rep's mitigation was to say the programme would 'handle the shoulders more lightly' via asynchronous video form review, with no clearance step and no contact with the treating clinicians.",
+      "evidence": [
+        "I've just kind of like stopped doing that for the past couple of weeks just to kind of let it heal.",
+        "the shoulder has been over the last month has been in pain without working out",
+        "So first thing, Trevor is going to create a specific program on things that we need to focus on for you the most at the moment. So also making sure that the shoulders are going to be handled more lightly. So you're not going to be injuring yourself directly again.",
+        "you would film yourself doing the exercise. send that to him and he's going to give you a direct feedback on how to constantly improve"
+      ],
+      "timestamp": "00:35:43"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep made unqualified clinical claims - characterising the prospect's ongoing chiropractic care as mere relief that will not fix anything, and asserting physiological mechanisms for the programme - to a prospect with disc herniation and an active shoulder injury who is under care from a chiropractor and a physical therapist.",
+      "evidence": [
+        "I would like to say it, it's like chiropractor is sort of a relief thing. And then after that, if you don't actually fix it, then you will have to keep getting relieved for the next 10 years to come if you don't actually change it.",
+        "that is going to help you only with increasing your strength just because your body is more lubricated",
+        "when you're going to start with this, you don't want to do any more cardio because it is, because you're working your full body, you're sweating a lot more. That's already going to generate the cardio aspect."
+      ],
+      "timestamp": "00:11:22"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization in this transcript inverts speakers across whole passages rather than single turns, including the rep's scripted opener being attributed to the prospect, which would corrupt any automated speaker-level analysis of this file.",
+      "evidence": [
+        "00:00:59 - Frank Somma / Tell me, what can we potentially specifically help you with, Frank?",
+        "00:07:14 - Richard Claessen (Primal Instinct) / I've just kind of like stopped doing that for the past couple of weeks just to kind of let it heal."
+      ],
+      "timestamp": "00:00:59"
+    }
+  ]
+}

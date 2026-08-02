@@ -1,0 +1,129 @@
+{
+  "call_id": "2026-07-09_primal-instinct-sales-team-meeting_richard-claessen",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "critical",
+      "summary": "The sales manager instructed a closer to tell a trial customer that if he does not respond, his card will be charged automatically for a six-payment plan.",
+      "evidence": [
+        "So what I'd actually recommend doing is when you're on with them, schedule in a call that they have to attend to again, and it's like a decision call.",
+        "just let them know that, like, if they don't, if you don't hear from them, that it's going to be a recurring payment, it's going to automatically charge their card for the six pay if they want it. We don't hear from them.",
+        "Because otherwise, you don't want to chase these guys down. It's, like, not what you want to do.",
+        "Okay. Okay, cool."
+      ],
+      "timestamp": "00:30:24"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "The customer this auto-charge instruction applies to is 70 years old, living on a government pension of roughly $1,300 a month and supporting three daughters; a deposit was taken from him and the manager acknowledged only afterwards that it was probably too tight for him.",
+      "evidence": [
+        "Would you believe that he's 70?",
+        "I can't, I'm on Social Security and I'm taking care of my family still. I have three daughters, and we have a large property here, and I do make some income, but I have to be responsible with that too.",
+        "Social Security, it's like he's retired, so he's collecting retirement from the government, essentially. Okay, yeah, it's not much money at all. It's not much money, I think it's probably like $1,300 a month. Something like that. Yeah, it's not a lot.",
+        "this guy gave you a deposit? Yeah",
+        "honestly, this is probably pretty tight for them, and we just don't know, so the only thing I could really tell you here is, like, great job getting the deposit, but ultimately, open wallet, because it would have saved you a lot of time."
+      ],
+      "timestamp": "00:39:18"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A trial product called 'Love It or Leave It' was sold — roughly a month and a half up front with a later top-up toward the balance — against a prospect anchored at around $500, and it is treated on the call as an established option.",
+      "evidence": [
+        "Yeah, I got him on the Love It or Leave It.",
+        "I would like to see if we could say a month and a half and see how things work out and then see if I should continue or not.",
+        "I would have to be at something about half that amount for me to be able... I would be more, do something about the $500 area.",
+        "So Trevor, the nutrition protocol and everything, and you will get in for and to go for another five months, and you would need to just top up the...",
+        "if they want to pay in full and do it sooner and avoid any interest, then they can"
+      ],
+      "timestamp": "00:29:46"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "A closer improvised a $100 deposit on a live call to unlock the onboarding booking, and stated that booking the Trevor call before money is received is against policy.",
+      "evidence": [
+        "Here's what I think we'll do. Let's just do a super small deposit, even just $100 so we have something in, I can get you the documentation all done up, and that way we can have that call booked in for Trevor.",
+        "Would it work to do like $100 or something right now?",
+        "Because technically I'm not supposed to book the onboarding call with Trevor until we have something in.",
+        "Called him, didn't answer the call today, hung up."
+      ],
+      "timestamp": "00:25:02"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer recounted taking a larger-than-intended psilocybin dose and closing a prospect while intoxicated; the manager remembered the call and nobody treated it as a problem, on a meeting with two first-week hires present.",
+      "evidence": [
+        "Did I ever tell you I took what I thought was a microdose, and it wasn't, way more than a microdose? And I closed, I closed the guy.",
+        "I remember this ridiculous call.",
+        "I mean, it wasn't like a crazy trip, but I was for sure tripping. I was like, oh, this is not sober Michael right now.",
+        "I was anxious the whole time, because I'm like, bro, I'm definitely high right now.",
+        "Bro, all you gotta do is just show up with a hit of acid and you'll be fine, dude. You'll just see past the matrix and you'll be able to close them.",
+        "We'd love to see that."
+      ],
+      "timestamp": "00:33:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "An unbounded free-continuation guarantee tied to a specific numeric performance target was delivered on a live call and passed review without correction.",
+      "evidence": [
+        "we're going to add eight kilograms to some of your main kettlebell lifts, okay, in the course of the six months",
+        "If we don't get you there in six months, Trevor will continue working with you for free until we do get you there. Okay, so we're really dedicated.",
+        "So Richard, you see how, when Michael is pitching like this, do you see how he's like staring him in the eye? He's very animated."
+      ],
+      "timestamp": "00:19:20"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Two consumer-financing providers are being onboarded and a six-payment plan is in active use, while a closer told prospects on 6 and 9 July that there are no set payment plans.",
+      "evidence": [
+        "Have you guys heard of Splitit? ... We're getting Splitit. So basically, anybody who has a credit card that has $6,000 available limit on it, put them through Splitit because then they'll be able to do it for 0% interest.",
+        "It should be any day now, we're just waiting on them to finalize one thing, so we should know very soon. I would guess at the latest by Monday.",
+        "Well, with Klarna, you actually can, to be honest. Klarna does 24 months.",
+        "Chris, did you see the link that I sent you of the financing company? Yes. Yes, I did. I sent it over to the team.",
+        "it's going to automatically charge their card for the six pay"
+      ],
+      "timestamp": "00:45:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The meeting closed with sexualised banter and a request for a closer to remove his clothing on camera, explicitly framed as safe because of the absence of an HR function, with two first-week hires present.",
+      "evidence": [
+        "Suck my dick.",
+        "Hold on, take off the sweatshirt? ... Let's see what we're working with.",
+        "Yeah, sending dick pics soon.",
+        "Hey, Chris, luckily there's no HR department, right? There is, I'm the HR department."
+      ],
+      "timestamp": "00:47:47"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Prospects are being double-booked across closers' calendars in conflicting time zones and moved manually between reps, so the call record cannot be reliably attributed to a rep or a lead source.",
+      "evidence": [
+        "There's been a couple of mix-ups with the times on the calendar. The guy that I told you yesterday was 4 p.m. Mountain Time. I checked the calendar this morning, and it was like at 8 p.m. at like 9 a.m. Eastern Time.",
+        "Okay, well, he's on with Michael at 4 p.m. Mountain Time, and he's also on Andrew's calendar at 4 p.m. Mountain Time.",
+        "So who's he supposed to be on with? Supposed to be with Michael? Or is he supposed to be with Andrew?",
+        "How can Adam switch a lead from Andrew's calendar to mine because Andrew can't take him tomorrow?",
+        "I'll move it. I'll show you guys. I don't think you guys can do this, but I will get it done."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Recording tooling is failing for at least one rep and historic recordings are no longer retrievable, so the corpus has systematic gaps that are invisible from the file list.",
+      "evidence": [
+        "Does anybody has issues with Fathom today? Or is it only me?",
+        "I don't think we have it anymore, there's no way we have access to this recording, unless, Michael, you saved it on your computer.",
+        "That's gone into the ether, bro."
+      ],
+      "timestamp": "00:29:33"
+    }
+  ]
+}

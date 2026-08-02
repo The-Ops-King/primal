@@ -1,0 +1,144 @@
+{
+  "call_id": "2026-06-13_matt-smith_andrew-musial",
+  "source": {
+    "drive_file_id": "1eo9wTibbi6qy8Y-kaiRY4Nz2VM2cFmQ7",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/13/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/13/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 65015
+  },
+  "call": {
+    "date": "2026-06-13",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 62,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": "KL",
+    "name": "Kyla",
+    "confidence": "high",
+    "evidence": "From what I've heard, I was talking with Kyla that you spoke the other day. Yes. That you had some amazing goals."
+  },
+  "prospect": {
+    "name": "Matt Smith",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States; rural, owns 600 acres near his home; city not stated",
+    "age": 67,
+    "occupation": "General dentist, still practising full-time; wife Paige is also a general dentist",
+    "family_status": "Married to Paige; seven children (three biological aged 35, 33, 31; four adopted from China aged 23, 20 and twin 16-year-olds still at home); seven grandchildren, four born and three due this year",
+    "height_in": 72,
+    "weight_lb": 161,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained in spurts his whole life, mostly upper-body weightlifting; worked up to a 200 lb bench press last year; started kettlebells three weeks before the call after seeing Trevor's reels; golfs off a 6 handicap and had just played seven rounds in six days in Ireland; bowhunter; home gym with a Smith machine, free-weight bar and weight stack. Poor flexibility - cannot touch his toes, cannot rise from cross-legged without hands.",
+    "medical": "Type 2 diabetic for 12 years, A1C around 6, controlled on oral medication, not insulin. Back surgery about 30 years ago for a partially ruptured disc after a truck injury; still must avoid bending to lift heavy - 'I'll strain a muscle on my back badly if I do that'. Severe shoulder separation skiing ~40 years ago, never repaired, only scar tissue at the AC joint; orthopaedic surgeons have since said they would operate today; he strained that shoulder recently doing kettlebell farmer's walks. Knee pain after about a mile of running, orthopaedist found nothing structural. Testosterone replacement therapy: overdosed by a prescriber to >1000 ng/dL, then an allergic reaction to the carrier oil forced a full stop, followed by a crash and a PSA rise from 1-1.5 to 3.2; restarted on a low-dose gel about a month ago with bloodwork pending."
+  },
+  "avatar": {
+    "assigned": "the_preserver",
+    "confidence": 0.85,
+    "signals": [
+      "67, health-literate and already medically managed - tracks A1C, PSA and testosterone by number",
+      "Goal is holding function rather than gaining - 'be able to just keep going and be active and healthy and moving good', modelled on his 91-year-old father",
+      "High nominal income (two practising dentists) but explicit cash-flow constraint - funding two children's business start-ups, $1,000 household consult threshold",
+      "Wants to work aggressively 'without having pain with promoting health versus destroying my joints'"
+    ]
+  },
+  "goals": [
+    { "text": "Build core strength, which he now sees as the thing he is lacking", "category": "strength" },
+    { "text": "Put on about five pounds of muscle and trade a little belly fat for it", "category": "muscle_gain" },
+    { "text": "Improve flexibility - cannot touch his toes or rise from the floor without hands", "category": "mobility" },
+    { "text": "Get his golf handicap from 6 down to 4 or 5 via rotational speed", "category": "hobby_performance" },
+    { "text": "Be the active grandfather to seven grandchildren rather than the one on the couch", "category": "longevity_family" },
+    { "text": "Train hard without wrecking his joints - 'promoting health versus destroying my joints'", "category": "injury_prevention" },
+    { "text": "Follow his 91-year-old father's trajectory and keep going into his nineties", "category": "longevity_function" },
+    { "text": "Improve leg strength; knees hurt after a mile of running", "category": "strength" }
+  ],
+  "pains": [
+    { "text": "Trains in spurts - gets in shape for a year then slacks off; kids, golf, hunting and 600 acres crowd it out", "category": "consistency", "severity": "high" },
+    { "text": "Shoulder pain from bench pressing forced him off heavy upper-body work; strained the unrepaired shoulder doing kettlebell farmer's walks", "category": "injury", "severity": "high" },
+    { "text": "Type 2 diabetes for 12 years and the long-run discipline it demands - 'diabetes kind of wears you down'", "category": "medical", "severity": "high" },
+    { "text": "Testosterone crash after an allergic reaction to TRT carrier oil, with a PSA jump that alarmed him", "category": "medical", "severity": "high" },
+    { "text": "Very poor flexibility, especially hips; cannot touch toes or get up from the floor unaided", "category": "aging", "severity": "medium" },
+    { "text": "Strong in one isolated movement but not functionally - 'I'm bench pressing 200 pounds, but I can't move this'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Cobbles a routine together from Facebook reels with no rhyme or reason to it", "category": "fragmented_solutions", "severity": "high" },
+    { "text": "Knows he could eat better; leans on Atkins and protein bars, and cheats on bread and potatoes despite blood sugar", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Aware his years are numbered - 'when you hit 65, you realize, wow, your years are numbered'", "category": "aging", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "Well, I mean, that's something I'm going to have to talk over with my wife before I make the investment to do it. You know, but, you know, I'm very intrigued by the results, it looks like... It'd be a great birthday present to sign on, but I do need to talk with my wife about it and get back with you guys on it.",
+      "timestamp": "00:51:45",
+      "rep_response": "Ran most of the OB play: money-aside tie-down, why-do-you-believe-it, what-obstacles-might-come-up, confirmed she would not be opposed in principle, then proposed a joint call with Paige and asked whether she was available today.",
+      "response_tactic": "money_aside_tiedown_then_joint_call",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "we've kind of always said if we're going to buy something over $1,000, we consult with each other before we do that, just to make sure we're, you know, that we're in, you know, in sync with our goals and we're not, you know, breaking the bank.",
+      "timestamp": "00:53:21",
+      "rep_response": "Opened the finances conversation and asked cash on hand; learned it is a cash-flow question, not an availability question ($50,000 emergency fund). Then stopped - no monthly figure, no cards, no plan structured.",
+      "response_tactic": "partial_open_wallet",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I mean, I think if I decide to do it, I don't, it's not going to be, you know, we could make it happen. It's just a matter of, is this the right timing? And I want her to be, you know, supportive of it as well.",
+      "timestamp": "00:55:11",
+      "rep_response": "Did not address timing; redirected to the joint-call plan.",
+      "response_tactic": "redirect_to_next_step",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "So, that's still a lot of money to me. mean, even though I've, you know, that's a pretty significant investment.",
+      "timestamp": "00:58:13",
+      "rep_response": "Ran the teach-a-man-to-fish contrast against the personal-trainer business model. Prospect conceded value - 'I see the value in that' - but not the purchase.",
+      "response_tactic": "value_reframe_vs_personal_trainer",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 }, { "months": 12, "price_usd": 9000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Offered in principle only - 'how we can actually work around that so it would be digestible for your household' and 'this is how much it is, but we can do it like this, this, or this way'. No specific plan, split or figure was ever presented.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": 50000,
+      "monthly_surplus_usd": null,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment, no deposit, no card, no onboarding booked",
+      "Explicit deferral to spouse - 'I do need to talk with my wife about it and get back with you guys on it'",
+      "Next step agreed: 'you're going to meet up with her today. Ask her like, what's the schedule? And I'll call you if I can, if I may, tomorrow' - after lunch, since he is at church in the morning",
+      "Positive intent - 'It'd be a great birthday present to sign on' and 'I'm very intrigued by the results' - but he never said yes to the programme itself",
+      "Counter-evidence on likelihood: $50,000 emergency fund means the money exists; the blocker is a household rule that any purchase over $1,000 is joint"
+    ],
+    "next_step": "Rep to call the following afternoon to schedule a joint call with Matt and his wife Paige.",
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null
+  },
+  "notable": {
+    "note": "The heaviest clinical load in the batch by a wide margin - 67 years old, twelve years of medicated type 2 diabetes, a lumbar disc surgery with a standing restriction on lifting heavy from a bend, an unrepaired shoulder separation that he has already re-injured doing kettlebell farmer's walks, knee pain, and a testosterone protocol he is restarting after an adverse reaction that pushed his PSA from 1.5 to 3.2. Nobody asked whether a clinician had cleared any of it. The rep also told him strength training 'definitely will raise your testosterone level', blamed his prescriber for the overdose, and described the coach whose nutrition plan he would follow as qualified by 'years and years of being a guinea pig on himself'. Separately, this is the only call in the batch where the $9,000/12-month tier was quoted, and it was quoted correctly."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion; large stretches of the rep's pitch (00:29:36-00:33:24, 00:41:39-00:45:29) appear under 'Matt Smith' and the prospect's answers under the rep. Roles read from content. Prospect not named in the title; recovered from the transcript and confirmed by the rep addressing him as Matt. Setter identified from the transcript as Kyla despite no KL suffix on the title. Rep's Fathom label reads 'Andrew Jin (Primal Instinct)'; folder and batch name him Andrew Musial."
+  }
+}

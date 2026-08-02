@@ -1,0 +1,70 @@
+{
+  "call_id": "2026-05-06_ryan-franks_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a suspected ankle bone cyst with an MRI and possible surgery pending in two weeks, and the rep continued selling loaded kettlebell training for 45 further minutes without ever asking whether a clinician had cleared him.",
+      "evidence": [
+        "I'm trying for the injury repair and kind of muscle and tissue repair, specifically for that ankle injury I'm dealing with, but I think it's a bone cyst. I just got it looked at.",
+        "So I might be getting that taken care of, but definitely don't want to fall out of routine if there ends up being a surgery or whatever.",
+        "I have, what, a couple doctor's appointments in, what, tomorrow, and then I go to see my ankle doc in another two weeks, and then we figure out the MRI and the surgery.",
+        "So this way of holistically training is alleviating any limitations and then building you back and making you durable so you can become more functionally strong."
+      ],
+      "timestamp": "00:05:50"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised an off-menu three-month tier at $4,000 with a 12-month payment plan, describing it on the call as something not normally offered.",
+      "evidence": [
+        "So what I propose for you, Ryan, is actually get you in for three months, okay? We don't typically offer it, but it's an option if necessary. So the investment for that is $4,000.",
+        "And how I'd recommend us structuring it, you have the ability to pay over 12 months, so you're paying around $400 a month."
+      ],
+      "timestamp": "00:47:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The improvised plan's stated monthly figure does not reconcile with its stated total — $400 a month over 12 months is $4,800 against a quoted price of $4,000 — and the discrepancy was never explained.",
+      "evidence": [
+        "So the investment for that is $4,000. And how I'd recommend us structuring it, you have the ability to pay over 12 months, so you're paying around $400 a month.",
+        "So at six months, it's $6,000. At three months, it's $4,000. So you're going, I guess you're getting a deal the more time you invest?"
+      ],
+      "timestamp": "00:47:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The improvised three-month tier inverts the published per-month economics, and the prospect noticed and said so out loud without receiving a coherent answer.",
+      "evidence": [
+        "So at six months, it's $6,000. At three months, it's $4,000. So you're going, I guess you're getting a deal the more time you invest?",
+        "Yeah, you can figure out that way. I mean, the only thing that's different with the programs is the time. That's the only fundamental difference."
+      ],
+      "timestamp": "00:47:17"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep ran the full open-wallet financial interrogation — cash, credit cards, available credit, savings, credit score — against a prospect who had already stated the programme was unaffordable at his pay scale, and then proposed a plan drawing on those disclosed resources.",
+      "evidence": [
+        "So cash on hand, dude, ballpark, I don't need to know an exact figure, what do we have on the table?",
+        "And credit cards, do you have one, two, three?",
+        "Are we talking closer to like 20 grand, 30 grand, or like two grand? Just so I have an idea.",
+        "And do you know your credit score?",
+        "For my pay scale, not worth the investment right now."
+      ],
+      "timestamp": "00:44:48"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts speaker attribution repeatedly across this transcript, including the discovery opener and the entire pricing and close sequence.",
+      "evidence": [
+        "00:00:34 - Farooq Bey (Primal Instinct) Let's, let's dive straight into it. The floor is yours, Ryan.",
+        "00:00:37 - Ryan Franks How can we potentially help you?"
+      ],
+      "timestamp": "00:00:37"
+    }
+  ]
+}

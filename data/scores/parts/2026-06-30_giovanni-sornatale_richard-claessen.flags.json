@@ -1,0 +1,52 @@
+{
+  "call_id": "2026-06-30_giovanni-sornatale_richard-claessen",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Asked directly what the one-to-one programme costs, the rep described the $6,000 offer as 'a couple of thousands' and 'a little bit higher' than $2,000, and said the price depends on how customised it is — leaving the prospect with a figure roughly half the real price and a false impression that pricing is scope-variable.",
+      "evidence": [
+        "I do have to say for like specific one on one, completely refer to where everything is. It's completely specific to you. It is a lot higher than the range that you were mentioning before, usually in a couple of thousands.",
+        "So $2,000 for six months?",
+        "No, it goes a little bit higher.",
+        "It depends a little bit on how specific you would make it right to you, but it would be higher than that.",
+        "I'm a little bit fuzzy on like, what it actually entails, of course"
+      ],
+      "timestamp": "00:25:48"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep presented and attempted to close an entirely different product, 'Kettlebell University', at $2,000 per year or $200 per month — neither figure matching the $6,000/6mo or $9,000/12mo offer.",
+      "evidence": [
+        "the investment is either 2K for the year or 200 every month",
+        "I don't know if you've ever heard Trevor talk about the Kettlebell University.",
+        "We also have an option where it's more, less actually individualized, and that is usually by a month-to-month basis."
+      ],
+      "timestamp": "00:36:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep solicited the prospect's price expectation before presenting any offer, then presented only the product priced just above that anchor and never quoted the flagship price at all.",
+      "evidence": [
+        "And when you're talking, of course, about the price, but I will take you through how I feel like we could fit in there overall when it comes to what you're sort of expecting. What's sort of the thing that you're expecting for yourself?",
+        "So what's the range that you were expecting for yourself?",
+        "I wouldn't want to spend much more than, you know, 100, 150 bucks a month.",
+        "So when it comes to the, then I'll just run you through that. if you feel that is actually good for me, then we get your start on that. And otherwise we can go over the one-on-one aspect."
+      ],
+      "timestamp": "00:23:33"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Rep pressed the spouse objection past the point of welcome, including asking what would happen if the prospect's wife said no, and was rebuked.",
+      "evidence": [
+        "And does she know that we're even here at the moment?",
+        "And what if she says no?",
+        "I don't know. This isn't a marriage therapy class. I'm just looking to you to get a little bit of workout information."
+      ],
+      "timestamp": "00:40:10"
+    }
+  ]
+}

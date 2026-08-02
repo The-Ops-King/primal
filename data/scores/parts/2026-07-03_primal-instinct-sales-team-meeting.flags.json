@@ -1,0 +1,83 @@
+{
+  "call_id": "2026-07-03_primal-instinct-sales-team-meeting",
+  "flags": [
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "The sales manager teaches reps to justify the deposit to prospects by saying the company does no follow-ups and does not re-book people, while the same meeting has reps planning follow-up calls and the manager scripting a follow-up message.",
+      "evidence": [
+        "We do a deposit with people because we don't do any follow-ups. We don't put people back on the calendar because we get so busy with people.",
+        "And this is the process we put in place because we've had people who said they're going to come back and they don't.",
+        "Hit some follow-up. Yeah, I'm definitely going to.",
+        "How would you follow up with him? I would reach out and say, hey, I know things ended abruptly there."
+      ],
+      "timestamp": "00:31:53"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A live deal is described at a $1,200 total paid in instalments, against the stated offer of $6,000/6mo or $9,000/12mo, for a prospect previously described as having minus $67 in his bank account.",
+      "evidence": [
+        "Do you remember that guy had minus 67 bucks on his bank account?",
+        "He did actually pay a deposit.",
+        "he gets paid bi-weekly. And he said, like... Yeah, he said, like, I get paid at that time, but I can do the full $1,200 at that time."
+      ],
+      "timestamp": "00:02:44"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Refundable deposits of $100 or $500 are coached as a standard step, a price point outside the two stated offer tiers.",
+      "evidence": [
+        "Because there's really no risk. It's $500 or it's $100. There's no risk. They can get it right back.",
+        "This is the process. It's a $100 deposit. We send it right back to you."
+      ],
+      "timestamp": "00:33:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A closer asked the manager to let him log a lost deal as a financial DQ specifically so his close rate would not be affected; the manager instructed him to log it accurately instead.",
+      "evidence": [
+        "I was asking if you're okay with me putting it as an FDQ to make sure that my closing rate doesn't get destroyed",
+        "So don't worry about that so much. Put it in accurately how it's supposed to be put in."
+      ],
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer recommends calling non-responsive prospects from a number they will not recognise in order to get them to pick up and close them, and the manager does not correct it.",
+      "evidence": [
+        "And if he doesn't respond, just give him a call on a random number on Monday.",
+        "if you call someone on the number that they know you from, they're not responding. But if you don't call them with a random number, they pick up.",
+        "And then you just ask a question. You can actually still close them because you just catch them."
+      ],
+      "timestamp": "00:56:16"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A closer repeatedly refers to prospects by their sexual orientation and the team jokes about offering a prospect a date as a closing bonus; the manager pushes back only at the end.",
+      "evidence": [
+        "Hat-trick. Well, where is it? gay guys in a row.",
+        "Chris, quick question. Should I send any message to Mr. Gay Guy?",
+        "Just call and be like, hey, baby, do you want to go out with me if you buy the program? I'll come as a bonus.",
+        "Tom is just a guy. It doesn't matter who he's attracted to or how is whatever. None of that matters."
+      ],
+      "timestamp": "00:19:31"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "An automated messaging system contacts leads without disclosure and has been spamming them with reminders after they reschedule; at least one prospect identified the messages as automated and complained, and another refused to attend.",
+      "evidence": [
+        "he didn't like the fact that SalesKake kept sending things, even though they didn't get an answer on their question",
+        "he's like, hey, you can reschedule right here, but then it still pushes, your meeting starts in 15 minutes",
+        "a guy pointed it out, like, I don't know who's that, but that's probably automated. It's so annoying.",
+        "we were trying to do that AI bot thing, and it was decent... That was the name of the bot."
+      ],
+      "timestamp": "00:17:05"
+    }
+  ]
+}

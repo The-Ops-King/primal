@@ -1,87 +1,23 @@
 {
   "call_id": "2026-07-27_kim-forbes-sobers_richard-claessen",
+  "type": "internal",
+  "subtype": "setter_debrief",
+  "date": "2026-07-27",
+  "participants": ["Richard Claessen (Primal Instinct, closer)", "Kim Forbes-Sobers (setter, labelled 'Speaker 2')"],
   "source": {
     "drive_file_id": "1Qe_z9jnt7v1zY9-t_OiBfWOemZ2OANPY",
     "drive_folder": "Richard Claessen",
     "original_title": "07/27/2026 - Kim Forbes-Sobers",
-    "display_title": "07/27/2026 - Kim Forbes-Sobers — Undetermined",
     "file_size_bytes": 9414
   },
-  "call": {
-    "date": "2026-07-27",
-    "stage": "internal",
-    "sequence_position": 1,
-    "sequence_note": null,
-    "duration_min_est": 7,
-    "prospect_named_in_title": false,
-    "prospect_name_recovered_from_transcript": false
-  },
-  "rep": {
-    "name": "Richard Claessen",
-    "role": "closer",
-    "location": "Bulgaria",
-    "additional_reps": ["Kim Forbes-Sobers (setter, labelled 'Speaker 2')"]
-  },
-  "setter": {
-    "code": "KFS",
-    "name": "Kim Forbes-Sobers",
-    "confidence": "medium",
-    "evidence": "The other participant is the setter and is named in the file title, 'Kim Forbes-Sobers'. He books the calls under discussion, texts leads, and is compared on show rate against another setter. Confidence is medium rather than high because at 00:03:16 the rep says 'Just spoke to Kim and I'm speaking to him on Wednesday' while apparently talking about the prospect Sean, which conflicts with Kim being the person on this call. Most likely transcription noise."
-  },
-  "prospect": {
-    "name": null,
-    "aka": null,
-    "name_source": null,
-    "location": null,
-    "age": null,
-    "occupation": null,
-    "family_status": null,
-    "height_in": null,
-    "weight_lb": null,
-    "bodyfat_pct_self_reported": null,
-    "training_background": null,
-    "kettlebell_experience": null,
-    "medical": null
-  },
-  "avatar": {
-    "assigned": null,
-    "confidence": 0,
-    "signals": [
-      "Not applicable — internal call between a closer and a setter. No prospect is present, so no avatar can be assigned."
-    ]
-  },
-  "goals": [],
-  "pains": [],
-  "objections": [],
-  "offer": {
-    "presented": false,
-    "presented_on_prior_call": false,
-    "tiers": [],
-    "recommended_tier_months": null,
-    "payment_plan_offered": false,
-    "payment_plan_structured_live": false,
-    "payment_plan_terms": null,
-    "guarantee_mentioned": null,
-    "prospect_financials": null
-  },
-  "outcome": {
-    "disposition": "undetermined",
-    "confidence": 1.0,
-    "close_rule_applied": null,
-    "evidence": [
-      "Internal pipeline and handover call between the closer and his setter. No prospect on the line, so no sales disposition exists — 'undetermined' is recorded because the controlled vocabulary has no internal value.",
-      "Substance was lead triage: a new booking (Sean, 23, firefighter), a handover request (Bo Reid), and a post-mortem on two calls that did not convert"
-    ],
-    "cash_collected_usd": 0,
-    "cash_collection_basis": null,
-    "next_step": "Rep to phone or text Bo Reid to nurture him before a booked call; setter to text Bo saying his number has been passed on. Setter to check in with Jeffrey to find out why he did not proceed. Rep due on a follow-up with Edward immediately after this call."
-  },
-  "notable": {
-    "note": "Short internal call, unusually high value for the audit. Five things. (1) A qualification override is stated openly: the setter flags a 23-year-old as doubtful on financial qualification and lets him through anyway — 'the fact that he's 23 did make me question financial qualification a bit, but, as Chris was saying earlier, he was such a good fit, I thought I'd let it slide, and either way, I think we'll get him through on the primal year.' Direct evidence that ICP income screening is being waived at the setter stage with a cheaper tier as the fallback. (2) A scripted misrepresentation: a lead who asked to see plan options in writing was told 'we don't have a standard menu of plans. It's all custom', when this batch alone shows fixed tiers at $6,000/6mo, $4,000/3mo, $3,000 with Caden, $1,000/6mo self-study and $200/mo. (3) Closers are presented to leads as 'advisors'; the rep is relaxed about it — 'if they know I'm a closer, they can just tell I'm a closer, it doesn't matter'. (4) The rep describes a prospect from the previous day, Jeffrey, as 'a little of a weirdo' shortly after telling him on the call 'let's get you started tomorrow'. (5) The rep pre-empts his own loss reason unprompted: 'maybe he's like, well, Richard was too pushy. I would be surprised if that would be his reason' — worth reading against the Rudolph and Geoffrey calls, where he re-asked for payment repeatedly after being declined. Also: Kim Forbes-Sobers is referred to as 'he' both here and on the Edward Garcia call, which may matter for identity resolution. A team member named Chris is referenced and is not one of the three coded setters."
-  },
-  "quality": {
-    "diarization_reliability": "medium",
-    "speaker_label_swaps_detected": true,
-    "notes": "Only two speakers and the rep is labelled correctly, so attribution is better than in the sales calls. Swaps still occur: at 00:02:11-00:02:41 the setter's explanation of triaging the lead is split across both labels, and at 00:04:33-00:05:22 the rep's plan to call Bo runs into a setter-labelled block. The setter is labelled 'Speaker 2' throughout and is identified only from the file title."
-  }
+  "summary": "Seven-minute setter-to-closer sync. They open on a newly booked lead, Sean, a 23-year-old firefighter with severe immobility, which Richard says is a copy-paste of a 28-year-old he closed weeks earlier, and he rehearses the consequence frame he intends to run. The setter then hands over a second lead, Bo Reid, who refused to book because he believes the call is just a closer trying to get him to commit, and asked for plan options by email. They discuss how the setter answered that text, how closers are described to leads, show rates against another closer, a prior no-show, and opening more calendar slots.",
+  "notable": [
+    "Qualification override stated openly: 'the fact that he's 23 did make me question financial qualification a bit, but, you know, as Chris was saying earlier, he was such a good fit, I thought I'd let it slide, and either way, I think we'll get him through on the primal year.' ICP income screening waived at the setter stage with a cheaper tier as the fallback.",
+    "A lead who asked to see plan options in writing was told 'we don't have a standard menu of plans. It's all custom', while the company offer is fixed at $6,000/6mo and $9,000/12mo.",
+    "Closers are offered to leads as 'advisors'; the rep is relaxed about the label — 'if they know I'm a closer, can just tell I'm a closer, it doesn't matter' and 'you don't even need to say advisor anymore'.",
+    "The rep prefers a WhatsApp voice note over a text specifically because 'that builds so much more trust'.",
+    "No-show / loss handling: the setter is asked to call a prior no-show, Jeffrey, not to rebook but to learn the reason, and the rep pre-empts it himself — 'maybe he's like, well, Richard was too pushy. I would be surprised if that would be his reason'. The rep also calls that prospect 'a little of a weirdo'.",
+    "A team member named Chris is referenced who is not one of the three coded setters (KFS, KL, DH).",
+    "Counterpart identity rests on the file title: at 00:03:16 the rep says 'Just spoke to Kim and I'm speaking to him on Wednesday', which conflicts with Kim being the person on the call. Most likely transcription noise."
+  ]
 }

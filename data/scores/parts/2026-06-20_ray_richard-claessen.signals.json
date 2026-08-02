@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-20_ray_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "'Yeah, absolutely.' and 'Yeah, no, absolutely.' at both check points. He had already reasoned his own way to the full-body premise before the pitch — 'I do one exercise that I really, like, push myself and my endurance has skyrocketed... squat, come up, do a bicep curl, and then throw it into a shoulder press' — so the pillar confirmed a view he held rather than changing one."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "The most engaged he was on any pillar, and he interrogated it rather than accepting it: 'So let me ask you real quick. So for instance, my breakfast that I just told you I had... Shouldn't that all be kind of natural?' and then pushed back on the rep's own answer — 'Well, it is a whole food. It's 100% cacao' — which the rep conceded. He also volunteered that he was already trying to drop protein powders."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'No, I mean, I'm committed. So, once I say I'm committed, that kind of crosses all the T's, that's all the I's.' Understood and agreed, but framed it as expertise transfer rather than accountability: 'I don't hold all the cards... I feel like with you guys being professional, you guys know the other half that I don't see.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "Because I'll tell you, I paid $200 for one year for Jeremy, you know, and it's through an app. It's AI-operated and stuff like that. So, you know, I know it's not one-on-one.",
+      "direction": "undercuts_price",
+      "competitor": "Built with Science (Jeremy Ethier)",
+      "note": "The strongest undercutting anchor in the batch: $200 for a year against $6,000 for six months, from a programme he is actively using and reports partial results from (17.7% to 16.5% body fat). He raised it himself, unprompted, and it went unanswered. It is also the direct price reference against which the $200/month Primal University quote arriving ninety seconds later will be judged."
+    },
+    {
+      "type": "stated_budget",
+      "raw": "if it was personal, personal, like, I'm not gonna lie, anywhere between $75 and $100 a week... so I guess, like, $400, like, between $350 and $400 a month",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Self-nominated ceiling of roughly $375/month against an effective $1,000/month. He arrived at it by pricing expertise the way he prices his own trade — 'It's like me going to a customer. You know, all the equipment that I have, the knowledge that I have... I know knowledge is not, doesn't come for free.' That framing is a genuine opening the rep did not use."
+    },
+    {
+      "type": "personal_trainer_reference",
+      "raw": "I mean, it's a personal trainer. So I've never gotten a personal trainer. And I know you gotta pay for... personal trainer like two or three times a week.",
+      "direction": "supports_price",
+      "competitor": "Generic personal trainer",
+      "note": "He reached for a per-session trainer rate as the fair comparison and could not complete the thought. The only supporting anchor available on this call and it was left on the table."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "An articulated reason why one-to-one coaching is worth thirty times what an app-based programme costs him today",
+      "why_unmet": "He named the comparison explicitly and it was never answered. The rep changed the subject to the downsell. The playbook documents this as a known gap: Objection C assumes the blocker is capacity to pay, not perceived value against a functioning low-cost substitute.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Interpretation of an abnormal blood panel — low testosterone and low ketones — in relation to his training and body-composition plateau",
+      "why_unmet": "Disclosed unprompted and the rep responded 'Can it maybe come from nutrition?' then pivoted to his diet without returning to it. This is properly a clinical question and there is no route in the offer for one.",
+      "verdict": "out_of_icp"
+    },
+    {
+      "want": "Workout scheduling and tracking inside the product he was actually sold",
+      "why_unmet": "Primal University has no workout logging; the rep's answer was to use a Google Sheet — 'you just go into Google Sheets, you just mention, you just put in the name'. For a prospect who tracks body fat to a decimal place, that is a real gap.",
+      "verdict": "product_gap"
+    }
+  ]
+}

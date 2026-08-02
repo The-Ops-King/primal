@@ -1,0 +1,158 @@
+{
+  "call_id": "2026-07-05_itai_michael-brideau",
+  "source": {
+    "drive_file_id": "1yIP0xyK-m-f0Lnv4KYS0XSnvLzAsujDg",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/05/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/05/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 76259
+  },
+  "call": {
+    "date": "2026-07-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 67,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": "Colombia" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Itai",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Australia (born in Israel, raised partly in New Zealand)",
+    "age": 29,
+    "occupation": "Product / UX designer; previously a musician and guitar teacher",
+    "family_status": "Single; long-term relationship ended a couple of years ago. Parents in their early 70s, sedentary. Has a niece and nephew.",
+    "height_in": 73,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Yoga 3-4x/week for about 18 months, gym 2-3x/week on a push-pull-legs split with barbell compounds for roughly 18 months. Follows ATG / 'knees over toes guy'. Bench plateaued around 66 kg. Lost muscle mass earlier in the year after severe food poisoning in India and had to halve his working weights.",
+    "kettlebell_experience": "none",
+    "medical": "One functioning kidney. Therapist-identified supraspinatus (rotator cuff) tear he was unaware of, described to him as hard to rehabilitate. Long-standing bilateral ankle instability. Recurrent neck tweaks specifically from overhead lifts, so he is deliberately cautious with overhead work. Intermittent knee and groin aches, general slow recovery from minor injuries, worsening posture. Sees a physiotherapist regularly and is currently undergoing tests to rule out an underlying cause."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.55,
+    "signals": [
+      "Self-directed and capable — runs his own push-pull-legs programme, does yoga 3-4x/week, follows ATG content, has used a personal trainer before",
+      "Explicitly benchmarks against cheaper options: 'I'm also wondering if there's other, other methodologies that I could, that I could be following that would not cost me six grand'",
+      "Names the previous thing that genuinely worked — 'the thing that helped the most was years ago getting... a personal trainer who fixed my form'",
+      "Divergence from the archetype: his blocker is real cashflow (saving for an overseas move) as well as value benchmarking, so he sits between skeptical_bargain_hunter and the_optimizer"
+    ]
+  },
+  "goals": [
+    { "text": "Stop the daily aches and stiffness — 'just like no pain'", "category": "mobility" },
+    { "text": "Feel functional and mobile in his body rather than feeling older than 29", "category": "longevity_function" },
+    { "text": "Put on muscle and size, having always struggled to gain weight; would like a lean athletic 'Fight Club Brad Pitt' physique at some point", "category": "muscle_gain" },
+    { "text": "Break through strength plateaus, e.g. bench stuck around 66 kg", "category": "strength" },
+    { "text": "Not end up like his parents in their 70s, who never prioritised exercise; wants to still pick up and bend down for grandchildren at that age", "category": "longevity_family" },
+    { "text": "Shorter, more enjoyable workouts he actually wants to do, without giving up yoga", "category": "convenience" }
+  ],
+  "pains": [
+    { "text": "Shoulder pain from old guitar-related injuries plus a supraspinatus tear he was told is hard to rehabilitate", "category": "injury", "severity": "medium" },
+    { "text": "Long-standing ankle instability that strength work has not resolved; feels it when walking", "category": "injury", "severity": "medium" },
+    { "text": "Constant low-grade aches — 'three out of ten, so it's not like crazy, but it's consistent enough to be feeling it'; shoulders tighten every afternoon at his desk", "category": "injury", "severity": "medium" },
+    { "text": "Feels his body is far older than 29 despite training a lot: 'for the amount of exercise I do, I just shouldn't be feeling like this'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Posture noticeably deteriorating from desk work despite a standing desk", "category": "training_barrier", "severity": "medium" },
+    { "text": "Cannot stick to physiotherapy home exercises — 'I find it hard to stick to those because at this point I have quite a lot to do'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Consistency swings with family and social commitments and frequent moving around", "category": "consistency", "severity": "medium" },
+    { "text": "Has never made fitness a genuine priority — agreed it has 'taken a little bit of a backburner'", "category": "motivation", "severity": "medium" },
+    { "text": "Jadedness after years of unresolved aches and multiple failed approaches", "category": "emotional", "severity": "medium" },
+    { "text": "Cost of living rising and saving for an overseas move next year", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, look, it's more than I, it's not to say I don't think it's unreasonable. I'll put that out there. I think that's very reasonable for that amount of time. It is more than I was expecting.",
+      "timestamp": "00:45:39",
+      "rep_response": "Acknowledged it, then ran a 1-10 rating of the programme (got an 8), asked what stood out and what was keeping it from a 9-10, then isolated whether the blocker was logistics or uncertainty.",
+      "response_tactic": "value_rating_scale_then_isolate",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "cost of livings on the rise. things I'm also saving for as well. I'm looking to do a move overseas sometime next year, which is also a costly investment.",
+      "timestamp": "00:49:36",
+      "rep_response": "Asked for permission to have an honest conversation about his finances, but never collected the financial picture. Instead jumped straight to offering six payments of $1,200.",
+      "response_tactic": "open_wallet_permission_then_payment_plan_offer",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I'm also wondering if there's other, other methodologies that I could, that I could be following that would not cost me six grand.",
+      "timestamp": "00:50:15",
+      "rep_response": "Conceded other coaches exist, claimed 'there is nobody else that does what Trevor does', turned the question back on him, then reframed the offer as an education that means he never has to hire another trainer.",
+      "response_tactic": "differentiation_plus_teach_a_man_to_fish_reframe",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "I'm also cautious with, you know, just in general, I think, like a sort of like silver bullet sort of approach.",
+      "timestamp": "00:57:23",
+      "rep_response": "Normalised the fear, ran the 'one bad relationship doesn't mean you never date again' analogy and the plane/skydive analogy, then asked whether he actually wants to solve the problem.",
+      "response_tactic": "normalise_then_burned_before_and_plane_analogies",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "So just being completely honest, like not committing to anything right now, like I would like to have a think about it, and then decide as well.",
+      "timestamp": "00:55:44",
+      "rep_response": "Accepted it, went back to the fear angle, then offered the six-payment plan and finally agreed to text him early the following week.",
+      "response_tactic": "return_to_fear_then_payment_plan_then_defer",
+      "resolved": false
+    },
+    {
+      "type": "trust_provider",
+      "raw_quote": "the fact that there was no indication anywhere of prices beforehand, it is a little bit frustrating as a consumer, as a client",
+      "timestamp": "01:05:00",
+      "rep_response": "Did not address the complaint at all; asked whether the payment plan was possible right now or completely off the table.",
+      "response_tactic": "none_deflected_to_close_attempt",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 7200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Six payments of $1,200 (total $7,200), described by the rep as 'a little bit more expensive over time'. Rep said he wanted a commitment in return.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect explicitly declined to commit: 'that at the moment is something that I can commit to right the second financially, it's just not working out'",
+      "Prospect kept the door open: 'it's not a hard no, I can't do it, I just need to go back and have a bit of a think and play around and see'",
+      "Rep set the follow-up himself: 'I'll send you a text on Monday or Tuesday or something and just let me know'",
+      "Counter-evidence: prospect rated the programme an 8/10 and said he 'definitely' wants to solve the problem, and said he'd do it if money were not an issue",
+      "No payment taken and no payment link mentioned, so the verbal-agreement-plus-link rule does not apply"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to text Monday or Tuesday; prospect to review whether six monthly payments of $1,200 fit his budget alongside saving for an overseas move."
+  },
+  "notable": {
+    "note": "Prospect volunteered a solitary functioning kidney, a supraspinatus tear and a documented pattern of tweaking his neck specifically on overhead lifts; the rep recorded none of it as a constraint and instead predicted the aches would resolve 'within a month or two'. Rep also improvised a payment plan totalling $7,200 rather than the $6,000 list price. Prospect closed the call with a direct complaint that no pricing is published anywhere, which is the second reference in this rep's corpus to prospects arriving with a wrong price expectation. Prospect self-reported weight as a range, 74-78 kg, and said he had not weighed himself recently, so no single figure is recorded."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy and sustained speaker inversion from roughly 00:20:50 onwards; entire rep monologues (the pillar presentation, the plane analogy, the price reveal) are attributed to the prospect and vice versa. Role was resolved from content throughout. Several short turns are merged into the wrong speaker's block."
+  }
+}

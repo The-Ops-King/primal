@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-05-09_brian-muthami_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The Drive file title names Chibuzor Gideon but the call is with a different person, Brian Muthami, corroborated by speaker label, spoken email and spoken phone number.",
+      "evidence": [
+        "And then your email, I've got, is it Muthami? Is that what you're saying? Yes, sir.",
+        "Muthami, Brian, at Yahoo.com.",
+        "What was your phone number? 314. Yep. 583. Yep. 5369.",
+        "Master's. I'm trying to get my master's on information technology. Yeah, because I still got some benefit left from the military that I can still use"
+      ],
+      "timestamp": "00:08:09"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The two instalment amounts confirmed on the call total $3,000 but were described as keeping the price 'at the 6K', and neither party reconciled the difference before payment was taken.",
+      "evidence": [
+        "we were, we were going to do the, the, like the payment as far as it was like 1,200 the first time. The 1,200 the first time.",
+        "Then, uh, like maybe after two, three weeks, uh, do the other, uh, 1,800.",
+        "Yeah. That's all good. Cause we can do, we can do 1,200 down. And then as long as you take care of the other 1,800. Within 30 days, we can keep it at the 6K.",
+        "Oh, that's even better. That'll help me out greatly right there."
+      ],
+      "timestamp": "00:06:52"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "An improvised instalment structure was applied with a 30-day deadline tied to price preservation, implying an unstated higher price if the deadline is missed.",
+      "evidence": [
+        "we can do 1,200 down. And then as long as you take care of the other 1,800. Within 30 days, we can keep it at the 6K.",
+        "Then, uh, like maybe after two, three weeks, uh, do the other, uh, 1,800."
+      ],
+      "timestamp": "00:07:04"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "Roughly two minutes of a nine-minute payment call were spent with the rep showing the prospect photographs of his girlfriend's physique and discussing her body in detail.",
+      "evidence": [
+        "I've got my girl on kettlebells, and she's been doing kettlebells for three months. She's shredded. Let me show you.",
+        "let me show you this, dude. She's been training with kettlebells. She's got better abs than me at this point.",
+        "She was doing some push-ups in part of the circuit and she finished out a chest vein.",
+        "it's like, you see her little, you see her bicep veins? I'm like, what's wrong with you?"
+      ],
+      "timestamp": "00:03:07"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The recording is again terminated at the point of card capture, so no closed call in this batch carries evidence that payment was actually taken.",
+      "evidence": [
+        "Let me take the recording out so I don't record your card information."
+      ],
+      "timestamp": "00:09:07"
+    }
+  ]
+}

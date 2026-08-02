@@ -1,0 +1,27 @@
+{
+  "call_id": "2026-06-25_andrew-jin-x-ayla-lerner",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Second personal job-hunting call in two days recorded into the company Fathom account and filed in the closer's Drive folder as if it were a Primal Instinct call.",
+      "evidence": [
+        "for the past few months, I've been taking up a 1099, like an independent sales contracting job, and essentially acting as a closer",
+        "now I really want to get into tech, particularly with an AI, get involved in B2B enterprise sales, so I was able to connect with Sean",
+        "if you do want a referral, you're going to need to submit from a link that we provide"
+      ],
+      "timestamp": "00:00:39"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "An external third party was recorded with no recording disclosure anywhere in the call, discussing her employer's hiring backlog, promotion mechanics and named hiring managers, and the recording is stored in Primal's Drive.",
+      "evidence": [
+        "Yes, but like not for, like not at the very least until like August or later, like. We filled up a bunch of the seats in the near term",
+        "Grace and Jeff are the two BD managers who will in charge of hiring, essentially, for this.",
+        "at the very least right now we're not hiring for senior BDRs and I don't anticipate that we really ever will"
+      ],
+      "timestamp": "00:24:45"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "call_id": "2026-07-24_patrick-dominguez_andrew-musial",
+  "source": {
+    "drive_file_id": "1aixGcNV4QFmEyG3-5qT9QfeB0puII5p-",
+    "drive_folder": "Andrew Musial",
+    "original_title": "07/24/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/24/2026 - Impromptu Zoom Meeting — Closed",
+    "file_size_bytes": 61028
+  },
+  "call": {
+    "date": "2026-07-24",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 72,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": {
+    "name": "Andrew Musial",
+    "role": "closer",
+    "location": "Poland",
+    "additional_reps": []
+  },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named and no title suffix. The prospect arrived from pre-call video material — 'I started watching some of the videos... But I didn't get through all of them' — and the rep opened without any setter recap, which is why the P1a check is scored not_applicable rather than missed."
+  },
+  "prospect": {
+    "name": "Patrick Dominguez",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "San Francisco, California, USA",
+    "age": 56,
+    "occupation": "Finance — investment management, buy side, doing both trading and operations for funds invested in Asia. Works from home across both US and Asia market hours.",
+    "family_status": "Married with a son; attends cardio classes with his wife as shared time",
+    "height_in": 67,
+    "weight_lb": 190,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Desk-based for many years. Started training February 2025 at over 220 lb and has lost 30 lb since, describing the gym as now habitual. Currently a bodybuilding-style split five to six times a week — chest and thighs, back and triceps, shoulders and legs — done fasted in the early morning, plus turbo kick and cardio classes with his wife in the afternoon. Tried yoga but lacks the flexibility. Cannot tolerate treadmills or running and needs a class format for motivation. Added hyperextensions, cobra poses and figure-four stretches after his last flare-up.",
+    "kettlebell_experience": "none",
+    "medical": "Recurrent lumbar sciatica on a roughly four-to-five month cycle, each episode disabling him for about a month. Documented flares: July 2024 in Spain, where he needed a folding cane and could not walk ten to twenty feet without pain for the first three days of the trip; November 2025 in Hawaii, where he was confined to the hotel room; and May 2026. Recovered in early June 2026. Sciatic pain runs down the right leg with stabbing in the right hamstring. Separately a shoulder problem producing pain shooting down the left arm to the elbow, which at its worst prevented him lying down for more than five minutes for a month. Managed by a chiropractor, with roughly a month of recovery per episode. Also night-time leg cramping treated with magnesium glycinate and electrolytes, and heel or Achilles pain on standing after sitting that requires slow walking to warm up. Self-describes his core as really weak."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.7,
+    "signals": [
+      "Lost ground to a hard season — years of desk work and recurring sciatica — and is eighteen months into rebuilding, already down from 220 lb to 190 lb",
+      "Carries visible regret about ageing and capability: 'I really felt my age because I brought a cane that folds out' and the Hawaii trip where he told his wife and son to go on without him",
+      "Wants function back rather than gained: 'I like to travel. I want to be able to walk' and 'just trying to be more preventative and stronger as I get older'",
+      "Deep why is relational and identity-based rather than physical — confidence, being less bogged down by work, and 'maybe I could have a better relationship with my wife and my son'",
+      "PARTIAL the_preserver OVERLAY: 56, health-literate, already under chiropractic management, and framing the goal as prevention. Scored rebuilder because he is actively pursuing a 20 lb loss and a strength gain rather than merely holding on to function",
+      "ALSO PARTIAL the_optimizer: he uses plateau-and-next-level language — 'I feel like I'm on the right path, but now I feel like I hit that plateau and I'm ready to be on the next level'"
+    ]
+  },
+  "goals": [
+    { "text": "Get from 190 lb down to 170 or 160, having plateaued at 190 for six months", "category": "fat_loss" },
+    { "text": "Gain flexibility and mobility, which he feels weight training is not giving him", "category": "mobility" },
+    { "text": "Stop the sciatica flare-up cycle and be free of recurring health issues", "category": "injury_prevention" },
+    { "text": "Build genuine core strength rather than isolated abdominal work", "category": "strength" },
+    { "text": "Feel more confident in himself and less stuck in his own head about work", "category": "confidence" },
+    { "text": "Have a better handle on his life and clearer thinking outside work", "category": "other" },
+    { "text": "Build a better relationship with his wife and son and spend more time with family", "category": "relationship" },
+    { "text": "Be far more time-efficient — currently two hours in the gym plus separate cardio and yoga classes", "category": "convenience" },
+    { "text": "Travel and be able to walk all day without pain, including Patagonia one day", "category": "longevity_function" },
+    { "text": "Be preventative and stronger as he gets older", "category": "longevity_function" },
+    { "text": "Learn correct kettlebell form so he does not hurt himself", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Recurring lumbar sciatica every four to five months, each episode disabling him for about a month, with stabbing pain down the right leg and hamstring", "category": "injury", "severity": "critical" },
+    { "text": "Shoulder problem sending pain down the left arm to the elbow; at worst he could not lie down for more than five minutes for a month", "category": "injury", "severity": "high" },
+    { "text": "Flare-ups destroy his holidays — a cane in Barcelona, confined to a hotel room in Hawaii while his wife and son went out", "category": "emotional", "severity": "high" },
+    { "text": "Plateaued at 190 lb for six months despite training five to six times a week", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Weight training is isolated and gives him no flexibility or mobility; yoga is inaccessible because he lacks the flexibility to do it", "category": "program_fit", "severity": "high" },
+    { "text": "Two hours in the gym plus cardio classes is unsustainable and he feels guilty when he cannot add the prescribed treadmill work", "category": "time_scarcity", "severity": "high" },
+    { "text": "So bogged down by work that he is always thinking about it and feels stuck", "category": "work_stress", "severity": "high" },
+    { "text": "Afternoon cheat pattern three to four times a week — bread, cakes, chocolate chip cookies — despite clean mornings and dinners", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Afraid of hurting himself with kettlebells and unsure he can get the form right", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Has always taken the safe route and is only now trying to take more risk", "category": "confidence", "severity": "medium" },
+    { "text": "Night-time leg cramping and heel pain on standing after sitting", "category": "other", "severity": "medium" },
+    { "text": "Has tried to do it alone for years and failed — 'this journey has always, it's just really been on my own'", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Is that the cheapest?",
+      "timestamp": "00:57:06",
+      "rep_response": "Disclosed that a cheaper option exists — working with one of Trevor's coaches rather than Trevor — but did not quote a price for it and steered away on clinical grounds: 'I think with your condition, with this lower back, Sayadeka, that's something I think Trevor would need to have his look on. I don't want to put you on somebody who's, he's good, very good, but still, he's not Trevor.'",
+      "response_tactic": "disclose_cheaper_tier_then_steer_up_on_clinical_grounds",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "Is $6,000 the best price with Trevor?",
+      "timestamp": "01:00:03",
+      "rep_response": "Held cleanly — 'Well, we don't have, like, discounts' — then isolated with 'let's zoom out. Like, talk to me. What's up with the price?' and followed with a de-pressuring takeaway: 'I don't want to put you in a financial difficult situation... if it's not possible, or that would mean that you're going to have to stretch yourself extremely.' The prospect immediately committed.",
+      "response_tactic": "hold_price_isolate_then_takeaway",
+      "resolved": true
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I am interested in the program, but then I won't be able to just pull disclosure. I'm leaving for a vacation at the end of the week, and I won't be back till August 16th.",
+      "timestamp": "00:26:00",
+      "rep_response": "Offered starting while travelling since hotel gyms usually have kettlebells, and the prospect agreed to check. Later accepted the August 17 start without pushing further.",
+      "response_tactic": "offer_travel_start_then_accept_deferred_start_date",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "the kettlebell, I like it, but I'm just worried about, I'm worried about doing it correctly. just seems, you know, that I might hurt.",
+      "timestamp": "00:13:17",
+      "rep_response": "Acknowledged the risk generically — 'you can get hurt like with every kind of training, right? It has to be done properly' — and pointed to the first month of technique work and the video form-feedback loop. Did not suggest any clinical assessment despite the disclosed spinal condition.",
+      "response_tactic": "normalise_risk_then_point_to_form_coaching",
+      "resolved": true
+    },
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "when I was looking at the videos, I was just a little concerned about my age, or it seemed like it was targeting like the 30, 40-year-olds.",
+      "timestamp": "00:01:01",
+      "rep_response": "Reassured with client-base composition — 'I would say majority is around 40-ish plus. And recently, a lot of 60 plus guys are coming in' — and returned to it later with a 69-year-old client example and the reframe '56 years young'.",
+      "response_tactic": "cite_client_age_distribution_and_older_exemplar",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "note": "one-to-one with Trevor — the tier sold, paid in full" },
+      { "months": 6, "price_usd": null, "note": "UNDISCLOSED CHEAPER TIER — coaching with one of Trevor's coaches rather than Trevor. Its existence was revealed in response to a price question but no figure was ever given" },
+      { "months": 12, "price_usd": 7800, "note": "Payva third-party financing at roughly $650/month over 12 months — offered first, link sent, then declined by the prospect once he spotted the interest" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Rep's first proposal was 12-month external financing through Payva at about $650 a month. The prospect, a finance professional, read the total and switched to paying $6,000 in full by credit card.",
+    "guarantee_mentioned": "Referenced twice in passing and never explained: 'he also guarantees the results' and 'That's also a guarantee on that.' The 8kg working-weight definition given on other calls in this batch was not stated, and the prospect did not ask.",
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null,
+      "note": "Rep asked the diagnostic question — 'is it that you don't have the full amount right now, or is it more of the structure of the payment?' — and also 'What's your budget? What options do you have?', but no figures were established. Prospect paid $6,000 in full on a credit card."
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Payment confirmed live and in full: 'I'll just pay the entire lump sum. 6,000, right?' followed by the rep's 'okay yeah i see it went through'",
+      "Prospect actively upgraded himself off the financing route on his own analysis — 'I noticed that with these options, it's more than 6,000 at the end' — and asked for a full-payment link instead",
+      "Onboarding call with Trevor booked for August 17 at 12:15pm Pacific, chosen from five offered slots",
+      "Agreement email received and opened on the call — 'I have the coaching agreement open' — with a partial confirmation of signature",
+      "Email and phone confirmed, WhatsApp numbers exchanged and a confirming text sent",
+      "Prospect closed strongly on his own account: 'I'm excited. And I know it's a big commitment, but I feel like I won't have buyer's remorse' and 'I'm going to make it work'",
+      "COUNTER-EVIDENCE: the agreement signature confirmation is garbled in the transcript and cannot be treated as certain",
+      "COUNTER-EVIDENCE: no onboarding questionnaire was mentioned, and Primal University was explicitly deprioritised ('No hurry with that at all')"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": null,
+    "next_step": "Prospect travels to London, Paris, Brussels and Amsterdam, returning August 16. Onboarding call with Trevor August 17 at 12:15pm Pacific; programme starts that week after Trevor's roughly 24-hour programme build. Optional Primal University signup in his own time."
+  },
+  "notable": {
+    "note": "Process-wise the strongest call in the batch — the only one where the goals phase genuinely reached the deep why ('in six months, when you finally weigh 170, you look in the mirror, who do you see?' followed by a real question about what the confidence would give him), the only one with a proper all-in commitment check, and a clean full-price close by a buyer who talked himself out of the rep's own financing recommendation. Two serious findings sit alongside that. First, the rep revealed under price pressure that a cheaper tier exists — coaching with one of Trevor's coaches rather than Trevor — and never quoted it, using the prospect's spinal condition as the reason to steer up. Second and more serious, this is the most clinically exposed sale in the batch: a 56-year-old with a documented four-to-five-month recurring sciatica cycle, cervical symptoms radiating down the left arm, and a chiropractor as his only clinical contact, was sold six months of loaded ballistic training — including overhead halos, described explicitly — with no physician clearance sought, while the rep asserted that his heel pain and back flares are strength deficits and repeated the story of having declined a recommended hip replacement."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe inversion throughout, frequently mid-turn and often for minutes at a time. The prospect's entire opening self-narration at 00:00:52 to 00:05:00 sits under the rep's label; the rep's questions about nutrition, budget and time zone repeatedly appear under the prospect's; and the price reveal at 00:56:31, the guarantee statement, and the whole Payva exchange are variously transposed. The long passage at 01:04:00 collapses several minutes of both speakers into one block. Roles were read from content throughout and no attribution-dependent claims are recorded. The rep briefly left the call for family reasons around 00:28:00."
+  }
+}

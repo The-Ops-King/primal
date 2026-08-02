@@ -1,0 +1,34 @@
+{
+  "call_id": "2026-07-04_john-williamson_michael-brideau",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The setter told the prospect the appointment would be a ten to fifteen minute call to ask questions and get a basic plan set up, when it is a booked hour of discovery leading to a $6,000 six-month offer; the prospect consequently took it outdoors while supervising two young children.",
+      "evidence": [
+        "Yeah, earlier when I talked to the last guy, he had said that this was like a 10 or 15 minute conversation.",
+        "That was the impression that I had got on that, was that it was going to be a short conversation.",
+        "It have been a mistake on my part. I was pretty sure when we were talking about setting up this appointment, and he was saying that it was just a short call, ask questions, and get a basic plan set up.",
+        "Who did you chat with? Was it Kim, or who did you talk to? Kim, I believe, yeah.",
+        "we usually book off like a whole hour. And, you know, usually we ask that you're somewhere quiet, we can focus, take some notes, things like that.",
+        "I'll check in with them, dude.",
+        "I'm taking the kiddos to the creek."
+      ],
+      "timestamp": "00:06:52"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "A set call that took place but reached no pitch and was rescheduled, which is precisely the disposition case the operations walkthrough the previous day described as undefined and left to individual rep discretion; the file also carries no KFS suffix despite being confirmed as one of Kim's sets.",
+      "evidence": [
+        "Who did you chat with? Was it Kim, or who did you talk to? Kim, I believe, yeah.",
+        "If you didn't pitch them, then yeah, I would just leave them in a book sales call. Oh, so not even update this then? Or not even do one of these things?",
+        "Yeah, mean, either way. It's kind of like a really gray area. It's only going to happen. It's not going to happen that often.",
+        "Whenever it says KFS, it means it's one of his sets.",
+        "Okay, so I sent you an updated calendar invite. So we'll do Monday, 11 your time. I'll have Kim text you either Sunday or Monday morning just to confirm that time still works.",
+        "So Kim, initially, he was confirming his own sets. I told him he doesn't have to do that anymore because of sales kick... So I'm not actually sure if he's still doing that or not."
+      ],
+      "timestamp": "00:08:30"
+    }
+  ]
+}

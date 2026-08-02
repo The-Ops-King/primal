@@ -1,0 +1,82 @@
+{
+  "call_id": "2026-06-24_jean-philippe-rifaat_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep improvised a one-month 'love it or leave it' trial at $1,200 or $1,500 depending on which tier it credited toward; no monthly or trial pricing exists in the stated offer.",
+      "evidence": [
+        "Do you think if you could have an opportunity to... To train with him for a month, for a fraction of this price.",
+        "But we would need to decide which version you would like to, whether it's the six months afterwards you would like to do or the three months. So if you would like to go for the six months, this one month would be 1,200. If you would like to go for the three months, it would be 1,500.",
+        "But the thing is, after one month, there's no strings attached. It's your decision. Yeah. We call it love it or leave it."
+      ],
+      "timestamp": "01:13:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep offered a three-month tier at $4,000 with a $2,000 top-up to reach six months, a structure that is not in the stated $6,000/6mo or $9,000/12mo offer.",
+      "evidence": [
+        "So the 12 months, we can cut that out. It's, it's 9k. So you're saying about three and six months. So six months, it's 6K, USD, and three months, it's 4K.",
+        "If you commit to a three month, the, the, all the, like the 4K that you put down. And after those three months, you will decide, okay, I want to do six months, yeah? You just add the remaining price.",
+        "Go to six. 2K, yeah? Additionally."
+      ],
+      "timestamp": "00:51:43"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep stated he had no authority to reduce the price, then produced a lower price point eleven minutes later on the same call.",
+      "evidence": [
+        "Look, if I could do it, I would lower the price for you. But I cannot. It's not in my power.",
+        "So if you would like to go for the six months, this one month would be 1,200."
+      ],
+      "timestamp": "01:06:46"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep reframed the prospect's value objection as a statement that the prospect considers himself not worth the money.",
+      "evidence": [
+        "I don't think it's worth, for me, I'm only talking about me, for me, that I spend 1,000 euros or dollars, in this case, per month on this.",
+        "So you're basically saying that you're not worth the $6,000 right now.",
+        "Oh, I am, and I will spend it eventually, but maybe not in six months time."
+      ],
+      "timestamp": "01:16:35"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect identified the company's follow-up messaging as AI-generated and said it turned him off the brand; the rep confirmed it was AI and defended it rather than addressing the disclosure issue.",
+      "evidence": [
+        "I keep getting these messages, it actually turns me totally off, I already, again, I get these messages, and it's like, da-da-da, and I said, is this, again, another automated?",
+        "Thank you, it's AI, it's clearly AI, and I'm not a, you know, it's a bit of a turn off.",
+        "Like, let me just, like, share some light on this. You wouldn't believe how many people forget, miss the messages... And it's a waste of my precious time too."
+      ],
+      "timestamp": "00:49:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Prospect reports the setter no-showed a previously scheduled call and left him waiting fifteen minutes before asking to reschedule.",
+      "evidence": [
+        "Kim actually didn't show up to our call. That we scheduled. I waited for 15 minutes and then he said, oh, can you reschedule?",
+        "If you don't show up and you ask, you let me wait for 15 minutes and then you ask to reschedule? I said, no, that's not how my life works.",
+        "Okay, but he apologized."
+      ],
+      "timestamp": "00:50:52"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep continued to sell through an explicit and repeatedly restated refusal, producing a further price reduction after the prospect said the price was too high and the rep had already accepted it.",
+      "evidence": [
+        "I just think that this price for me is too high.",
+        "Okay. That's, that's fine too.",
+        "I'm thinking about one thing. Okay, let me ask you this. Would you like to train with Trevor?",
+        "Yeah, but something tells me no."
+      ],
+      "timestamp": "01:10:23"
+    }
+  ]
+}

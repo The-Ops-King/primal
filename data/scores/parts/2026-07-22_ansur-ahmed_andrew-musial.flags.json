@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-22_ansur-ahmed_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed laser eye surgery scheduled for the following day, with a doctor's restriction already in force, and was moved toward starting loaded kettlebell training the following week without anyone asking whether his surgeon had cleared him to train.",
+      "evidence": [
+        "yeah, I mean, if we can go ahead and get started, I'm getting laser eye surgery tomorrow, but I mean, even as early as next week, I'll be fine.",
+        "So tomorrow is a little tough because I actually have eye surgery tomorrow, and so then I'm not allowed to look at screens for two days, according to the doctor, because of the laser surgery.",
+        "So do you guys have anything on Monday?",
+        "And I do want to start getting pretty serious."
+      ],
+      "timestamp": "00:24:19"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep introduced the guarantee as covering the prospect's goals, then defined it solely as adding 8kg to kettlebell working weight, a metric unrelated to the muscle-gain, mobility and breathing outcomes the prospect had spent the call describing.",
+      "evidence": [
+        "there is a guarantee from from Trevor on this that in those six months you will reach your goals and that's that's written",
+        "you will get uh add 8 kilos which is around 17 pounds to your baseline uh core kettlebell movements yeah to the kettlebells that you're using okay if that if that wouldn't happen he will work with you for free until you do.",
+        "I would love two years from now to be at 175, 180, if that's possible.",
+        "That's cool. That means he believes in what he's doing."
+      ],
+      "timestamp": "00:37:19"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep quoted a six-payment plan of $1,200 per month, a $7,200 total against the $6,000 list price, with the uplift described as interest — the third occurrence of this same off-book instalment structure in this batch.",
+      "evidence": [
+        "we can split it into monthly installments. but that's going to be like with a little interest on that which is uh it's going to be six times of uh 1200 dollars",
+        "So pay all at once, $2,000 per month for three months in a row, or $1,200 a month for six months in a row. Those are the three choices."
+      ],
+      "timestamp": "00:36:48"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep twice declined a ready buyer's direct request to be sent a payment link, requiring a second scheduled call instead, and separately proposed an unquantified holding deposit.",
+      "evidence": [
+        "Oh, okay. mean, you can just send me the link and I'll probably pay by this weekend. And then if I have any questions, I'll let you know. Is that easier? Because I don't know if we need to have another call for that.",
+        "So the thing, yeah, there is a link. But the thing is, I need to be on a call with you, because we need to have, like, we have a procedure that I get you onboarded, get you in the community.",
+        "So look, what we usually do in those cases is just put down a small deposit that we meet again, and we schedule a date.",
+        "I'll probably do the $2,000 for three months option. And then I'm Excited to get started."
+      ],
+      "timestamp": "00:39:32"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "low",
+      "summary": "Prospect disclosed losing 30 lb in one month on a self-directed diet and the rep neither questioned the rate nor screened for consequences while selling a nutrition protocol including an eight-hour eating window.",
+      "evidence": [
+        "in last year, I went on a pretty insane diet, and I lost 30 pounds in one month, no peptides, no nothing, just straight up clean eating",
+        "I know that I will need to be eating a lot more protein.",
+        "I do not eat enough",
+        "Second thing is when you eat. So basically, intermittent fasting. Stick your... Eating into an eight-hour window during the day"
+      ],
+      "timestamp": "00:15:41"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker attribution is inverted across long stretches of this transcript, including the price reveal and several of the rep's discovery questions, which appear under the prospect's label.",
+      "evidence": [
+        "00:35:52 - Ansur Ahmed — So the full investment for that is 6K.",
+        "00:03:08 - Andrew Musial (Primal Instinct) — Sedentary job, yeah.",
+        "00:09:31 - Andrew Musial (Primal Instinct) — And then I like that mobility and, you know, cardio would kind of be handled with this."
+      ],
+      "timestamp": "00:35:52"
+    }
+  ]
+}

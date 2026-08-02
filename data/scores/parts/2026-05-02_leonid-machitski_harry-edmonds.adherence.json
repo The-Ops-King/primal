@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-05-02_leonid-machitski_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "Setter contact was acknowledged but not read back — 'I know you spoke with Kim. He gave me like an overview. So I've kind of got a head start anyway' tells the prospect the rep has notes without telling him what is in them, so it does not do the 'feel seen' work. Frame two-part again: 'I just want to get a good idea where you're at. We can really map out what it is you really want to accomplish. And then if everything aligns, we can map something out.' Agreement token only. Open question run: 'What was you hoping we could potentially help you with?'"
+    },
+    "P2": {
+      "score": "miss",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "miss", "P2e": "hit", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Eight of nine baseline items missed on a call that closed at $6,000. Age, height and weight were all volunteered ('I'm 43 years old', 'I'm six foot three', 'I'm 92, 93 kilos at the moment') and never asked. Occupation volunteered. Diet volunteered. No health-conditions question, no injuries question, no sleep, no energy. The only elicited item was the training week: 'Are you training now? Or is this like the get me back into training?'. The prospect's 27-year smoking history surfaced by accident, mid-sentence, while he was asking about calisthenics."
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "miss", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "The aesthetic goal was well mirrored — 'You want like a fighter physique, kind of... the athletic, lean, not too big' → 'Yeah, exactly. Like UFC guys' — and that is the whole of Phase 3. Not one deep question ran. This prospect said 'I have a load of kids' and 'I have a young girlfriend, she's 25' and gave his own longevity frame ('unless you keep your body active, it kind of goes into grandpa mode, your hormones change'), and the rep answered 'Yep. You're right. Yeah, I agree' and moved on. Three separate open doors to the why — kids, partner, ageing — and none was walked through."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "'What was it about Trevor that had you feeling Trevor could be the guy to help you with it?' is a vehicle question, not a past-attempts question, but it did surface the history — always had personal trainers, 'the problem I've had in the past is that everybody's quite niched and tailored'. The rep never asked why any of it failed, never asked what is actually in the way, and never had the prospect name the gap. The prospect named it himself anyway ('to the initial setup and startup of that, I just put it off until tomorrow'), which the spec scores as a miss, not luck."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. The prospect built one for himself — 'I don't start now, just think at 43, I still have time past that. Unless you keep your body active, it kind of goes into grandpa mode type of thing. Your hormones change, everything. Everything becomes just more difficult' — and the rep's entire response was agreement. He then ran the opposite move twice: 'You're in a good place to grow' and 'It's not like you're a hundred pounds overweight, like you're in a great place to actually grow from.'"
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "miss" },
+      "evidence": "Neither commitment question was asked. The rep went from 'Does that align with what you're looking for?' straight into the coaching walkthrough and then into price. The prospect had self-committed in the opening two minutes — 'if you're not prepared to commit, don't bother... there's no half measures' — which made the phase feel unnecessary, but it was never converted into a yes the rep could hold him to, and no hesitation check existed to catch one if it had appeared."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "partial", "P11b": "hit", "P11c": "miss", "P11d": "miss" },
+      "evidence": "Onboarding call booked properly and to a specific date against a real constraint: 'we would book your onboarding call in for Monday the 4th' ahead of a 5th departure for Japan. Payment was initiated on the call — 'I'll pull up the link for you... you ready to rock and roll?' — but the recording stops before completion. No agreement email mentioned, nothing signed on the call, no welcome email, no Skool link, no onboarding questionnaire. Three of the four steps the playbook says to complete before hanging up were never referenced."
+    }
+  },
+  "objection_plays": [
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "No delay or deliberation was raised. Price was accepted in two words." },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "No partner or third party was invoked as a decision gate." },
+    { "play": "OC", "trigger_present": false, "ran": "not_applicable", "detail": "The prospect pre-empted money entirely at 00:08 — 'finances are not an issue, so I'm prepared to spend whatever it takes to achieve what I want' — and confirmed with 'That's fine' on hearing $6,000." },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A genuine timing conflict was raised alongside cost — a 10-day Japan trip departing the 5th plus further travel. No OD move ran. The rep instead dissolved it operationally by booking onboarding for the 4th and using the holiday as build time, which was the better answer here and worked; recording it as a miss reflects that no scripted play was used, not that the handling was wrong."
+    },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt surfaced; the prospect's stated frame was the opposite." }
+  ],
+  "notes": "This closed because the prospect arrived pre-sold, pre-funded and self-committed, not because the process ran — Phases 2 through 6 are almost entirely absent and the rep never asked a single health or injury question before selling a ballistic training programme to a 43-year-old with a 27-year smoking history. Coach it as the highest-risk kind of call: an easy yes that skipped every screening step, where the only real work done was booking the onboarding call around a flight."
+}

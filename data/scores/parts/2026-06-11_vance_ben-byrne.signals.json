@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-11_vance_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Understood and agreed without questions, because he had pre-consumed the material: 'No, I feel like I definitely got the idea of that when I was watching a bunch of those videos and reading about it. So I think those are great things.' He had independently articulated the same thesis earlier — 'I just feel like the kettlebells build a lot more, you know, functional strength, you know, things you actually use in like a day-to-day life.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "He pushed back on the substance before it was presented, asking to remove it from the package: 'If there was a way, could just be just like the kettlebell exercises and not nutrition, if that would, you know, have any effect on the price, if it would change less.' His stated reason was that he already has it handled — 'I feel like my nutrition is pretty good. In terms of food, I'm pretty good on that.' The rep declined to unbundle and reframed; the prospect then conceded a gap of his own accord: 'I think that's maybe something I do struggle with too. Maybe just not eating enough, you know?'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "No questions and no resistance to the app, the direct line to Trevor, the progress tracking or the community. He had already named this as the thing he wanted: 'I think just a better, yeah, like more structure, like a real plan, you know? ... I think it would be better if I actually had like a plan and like some type of guidance.' He never asked how any of it worked mechanically, which is a weaker signal than it looks — accepted, not enthusiastic."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "other",
+      "raw": "Just going back to that thing we were talking about of the cost, I seen on the website it was saying something about $1.99 a month. What was that for exactly? Like what's the difference between that and what we're doing now, you know?",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own product)",
+      "note": "Proposed label: own_product_price_anchor. The prospect walked into the call already anchored at $199/month by Primal's own website, and raised that number himself before the rep had said anything about price. The gap he then had to absorb was $199/month to $1,000/month on the same brand. This is the most actionable anchor in the batch because it is entirely self-inflicted and appears again as the landing point of the downsell — the rep ends up recommending the very product that undercut him."
+    },
+    {
+      "type": "other",
+      "raw": "I've never reached out to no one for no guidance, so I was kind of just excited ... I've never bought a course or paid for a trainer or nothing, but I was just really thinking about it recently.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: no_prior_coaching_spend. He has no reference class for what coaching costs, so $6,000 has nothing to be measured against except the $199 he saw on the website. The rep never established a value frame before the number — no comparison to what he currently spends, no anchoring on gym or trainer costs, nothing."
+    },
+    {
+      "type": "other",
+      "raw": "a lot of things I was reading on his page was about like for older people who want to feel young again, you know, not necessarily. Yeah, not necessarily.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Proposed label: audience_mismatch_self_identified. The prospect volunteered that the marketing reads as aimed at older men wanting to feel young again and that this is not him. The rep answered with the age-range reassurance ('we have guys in their 20s all the way up to 60s') rather than treating it as a fit question. Relevant to the ICP question of who the marketing is actually pulling in."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A training-only package without the nutrition component, priced lower to reflect the reduced scope",
+      "why_unmet": "The programme is sold as one integrated three-step process and does not unbundle. Rep: 'we don't really subtract it and then lower the prices. It's just part of the process anyway.'",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A one-to-one coaching entry point payable monthly rather than as a lump sum — 'is it like a month-to-month, or is it like a one-time payment?'",
+      "why_unmet": "One-to-one is sold only as a fixed-term lump sum of $6,000, $9,000 or the improvised $4,000. The nearest monthly option, $650 financed, carries interest and still commits him to the full $6,000; the only genuinely cancellable monthly product is Primal University, which is not one-to-one.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Muscle gain and size — he wants to add 10-15 lb of bodyweight at 5'10\" and 135 lb",
+      "why_unmet": "Every outcome the rep quantified was a reduction: 'we're aiming to get a drop in 10, generally, it's losing 10%, that might put you at five' and 'adding 20 pounds to your lifts'. Nobody addressed how a kettlebell-and-whole-food protocol with intermittent fasting produces weight gain for an underweight prospect, which is his primary goal.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

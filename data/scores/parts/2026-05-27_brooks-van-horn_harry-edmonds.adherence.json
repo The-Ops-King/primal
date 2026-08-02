@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-27_brooks-van-horn_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "partial", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Setter named without specifics: 'I know you spoke with Kim. He gave me, like, a background, so I've got a bit of a head start.' Frame was three-part — 'get a good idea where you're at, get some real good clarity and context on that, build out what it is that you want, and if we can help, we can kind of map that out together' — 'what's in the way' omitted again. Agreement given, open question asked."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "hit", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "partial", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Best work-context questioning in the batch: 'what do you do for a living? Do you have a business?' (finance for a manufacturing company), 'when you go back to work, what's your schedule gonna be like?' (90-minute commute, five days in office) and the feasibility test 'if we were to make a plan that was you working out 30 to 45 minutes a day three to four times a week, how would you make the time for it?'. Mobility was probed at 00:18:37. But age (37) was volunteered, and height, weight, health conditions, diet, sleep and energy were never asked."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "partial", "P3b": "partial", "P3c": "miss", "P3d": "hit", "P3e": "hit", "P3f": "partial", "P3g": "partial", "P3h": "hit" },
+      "evidence": "The rep noticed the incongruity — a man with no goals asking for a plan — and asked directly: 'What is your why?' That produced the real answer about showing up for his kids, his wife and his work. He followed with 'when you're showing up better... what changes in terms of the other areas of your life?' and then reflected it back twice and had it confirmed: 'fitness to you is the fundamental foundation... Is that accurate, or have I got it off?' ('No, I think that's fair') and 'A big thing for you is you don't want to let things slip as you go back.' He never asked what he physically cannot do and never drove the family thread deeper than the prospect volunteered."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "miss", "P4c": "miss", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "The root-cause question was asked squarely: 'why do you feel like you need a coach to be consistent? Because it sounds like you're working out, you're doing it... it doesn't sound like you have these huge goals.' The prospect named the gap himself — 'I don't really know what I'm doing, you know, per se... I could just benefit from more of a kind of directed plan.' Past personal training came up but was never worked through, and 'why can't you stick to it on your own' never ran. Worth noting the challenge framing also handed him the self-reliance frame he used to decline."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame, on a call where the prospect described it himself unprompted: 'when I fall into that routine... I'll eat a little bit less healthy, I'll snack more, I'll drink more.' Nobody asked what two years of that looks like, whether he is willing to settle for it, or whether he is ready to draw a line. He then declined precisely by proposing to run the experiment of falling off again."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "partial" },
+      "evidence": "The belief question ran only after the price, as objection handling: 'do you believe we can actually get you where you want to go? Like, money out of the equation?' ('I think so. I think so.'). Before presenting, the only commitment test was the rep asserting 'It sounds like you're ready to do that' about waking at 5am. The 'any reason you wouldn't go all in' question never ran."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Close attempted — recommendation, guarantee and price ('for the six months, it comes out to 6k US', 'How do you feel about that?') — but payment was never asked for. The call resolved into sending a link for a different, cheaper product. No onboarding call, agreement or welcome sequence was reachable."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Price landed twice. Two scripted-adjacent moves ran well: the isolation ('money out of the equation... do you believe we can actually get you where you want to go?') and a genuinely useful probe, 'Out of curiosity, how much were you expecting it to be?', which surfaced the $400/month anchor. Then it stopped. No 'you're not in a SHOULD I place, you're in a HOW place', no offer to break the payment up — payment plans were never mentioned — and no financial picture. The play ended in a downsell rather than a close."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'I probably want to see how I can do on my own getting back into work' is a not-the-right-time objection wrapped in self-reliance. The rep made one good callback — 'I know the big thing for you was to get a coach so that you don't have to do that... the whole point' — and then abandoned it. None of the OD moves ran: no 'things never slow down, when does it actually become the right time', no 'the longer you wait the harder this gets', no 'what if all you had to do was show up'. The prospect's own stated risk was that work would break his consistency, and the objection was that he would test whether work breaks his consistency."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The prospect's expectation had been set by the company's own marketing — he had seen Trevor argue the personal-training model is too expensive to sustain and baselined at $400/month. There is no scripted play for 'your marketing told me this would be cheap'. The rep improvised a mentor-versus-trainer reframe and a claim that it works out to half the price of a trainer, then resolved it by offering the $200/month self-paced product. A downsell path is not in the playbook at all, and it is being used unevenly across calls."
+    }
+  ],
+  "notes": "The best discovery of the batch — the rep spotted that the prospect's stated goals did not justify a coach, asked 'What is your why?', and got a real answer he reflected back accurately twice. Everything after the why was thrown away: no consequence frame despite the prospect describing his own decline unprompted, no payment plan, no ask for the money, and a $200/month product offered as the exit. The coachable moment is that the objection ('let me see if I can stay consistent on my own') is word-for-word the problem the prospect had already asked to be solved."
+}

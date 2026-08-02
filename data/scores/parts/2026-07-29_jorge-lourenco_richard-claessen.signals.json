@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-29_jorge-lourenco_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "After the training plus daily 5-15 minute mobility routine pitch: 'What's your thoughts on that?' — 'Yeah, you can do that for sure. I wake up normally at 5, 5.30, and they just woke up at 7... I have those hour and a half, almost two hours.' He accepted and immediately volunteered where it would fit in his day."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "The pillar was built explicitly around cutting alcohol and intermittent fasting. 'Do you feel like nutrition? Yeah, that is what you're looking for.' — 'Yeah, for sure.' He had already self-identified alcohol as the main problem, so this landed on existing demand."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "He asked how the mechanism actually works: 'And how do I, there's like an app, where I say, I did this workout, or?' The rep named True Coach and explained the logging and check-in loop. 'Any questions on that? No, nothing.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "I'll be honest. I searched online, and then after, and I thought there was something like $200.",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct's own self-serve programme",
+      "note": "The anchor in his head was not a competitor — it was Primal Instinct's own cheaper product, which he found and priced himself before the call. He restated it as his budget when asked what he could put toward this: 'Technically, it's about $200 per month, $250, something like that.' Publicly visible pricing on the low tier is setting the ceiling on the high tier."
+    },
+    {
+      "type": "price_expectation",
+      "raw": "I wasn't thinking about that. I was thinking about it. I was like three hundred dollars. The euros per month or something like this.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Independent of the online research, his own mental price was roughly $300/month. He converted the offer to euros in real time ('that's around 5.2k euros') and rejected it on that basis — a currency friction worth noting for non-US prospects."
+    },
+    {
+      "type": "diy_substitute",
+      "raw": "I was already ready to buy some kettlebells and start doing it on my own.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived intending to self-serve and was researching who to follow for free exercises. The paid offer had to beat 'buy the bells and watch videos', not 'do nothing'."
+    },
+    {
+      "type": "gym_subscription",
+      "raw": "just yesterday I canceled my subscription at the gym, because it gets boring",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He had just removed a recurring fitness cost from his budget the day before, reinforcing a monthly-subscription mental model for what fitness should cost."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A written breakdown of what the programme actually includes, before paying — 'if you can just know what is included on this site, if it's like a specific program or just workouts'",
+      "why_unmet": "Nothing exists to send. The rep had to describe it verbally on the call and then promised to write an email himself afterwards, saying 'I'll send it to you... probably in like the next 10 minutes or maybe in a couple of hours.'",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Personalised coaching at roughly $200-250 per month",
+      "why_unmet": "The one-to-one product is $6,000/6mo. The only thing available at his price is the self-serve tier, which the rep himself described as 'just not specifically customized to you' and which does not include Trevor building a protocol for him.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Help with heavy alcohol use and disclosed drug use as a driver of his physical state",
+      "why_unmet": "The nutrition pillar addresses alcohol as a habit and the accountability pillar offers check-ins, but the drug disclosure was never acknowledged or explored, so it is unknown whether the programme is an appropriate vehicle for any of it.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

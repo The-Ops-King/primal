@@ -1,0 +1,26 @@
+{
+  "call_id": "2026-05-27_david-wingfield_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording is deliberately stopped at the moment card details are taken, so the only close in this batch — and by extension any close in this corpus — cannot be evidenced from the transcript.",
+      "evidence": [
+        "All right, we'll get all that scheduled in. Then in terms of the payment, did you want to do it on Visa, MasterCard, credit card?",
+        "Give me one second to find my wallet, I can't remember if it's a...",
+        "You're all good, let me just remove the recorder as well. Okay. Don't want to record your info."
+      ],
+      "timestamp": "00:37:02"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Speaker labels are inverted from the opening line and remain unreliable throughout, including a location statement that reverses the two participants.",
+      "evidence": [
+        "00:00:00 - Harry Edmonds (Primal Instinct) Hey, Harry, how are you doing?",
+        "00:27:14 - David Wingfield Trevor's in, uh, Trevor's in California, but I'm in London."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

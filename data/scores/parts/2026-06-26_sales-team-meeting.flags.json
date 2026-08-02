@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-06-26_sales-team-meeting",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Sales manager gave clinical direction on managing a diabetic prospect's insulin and carbohydrate intake and coached the closer to argue past the diabetes-specialist trainer that prospect had already booked.",
+      "evidence": [
+        "It's just the thing that he has diabetes and he already has a scheduled call or meeting actually with some trainer that specializes also in diabetes. So he was upfront with that. But apart from that, yeah, he really, he's keen on the program.",
+        "it's gonna be tough if the other guy specializes specifically in diabetes because he's gonna make it seem very much like it's like this is the only way and he's gonna really separate himself. Um, but the truth is that it's like, not true.",
+        "as long as their insulin is in check and they're going to the doctor for that, then they need to be moving more or they need to just watch the amount of insulin that they're like the carbs that they're putting in their body, the sugar. Which is exactly what the primal nutrition plan will do for them.",
+        "there's really like no secret to it too much. Um, yeah, he just needs to move more and eat less."
+      ],
+      "timestamp": "00:04:03"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The same diabetic prospect's stress-driven compulsive eating was identified on the call and treated as a matter of willpower, with no suggestion of clinical referral.",
+      "evidence": [
+        "the nutrition part is the biggest issue for him because I even discovered that the problem is that he's... because of stress. That's his way of dealing with difficulties in life, yeah?",
+        "Compulsive eating, yeah.",
+        "You just gotta feel the urge underneath it and not eat."
+      ],
+      "timestamp": "00:06:07"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "A prospect who paid a deposit has stopped responding and the agreed plan is continued follow-up, with no mention of a refund.",
+      "evidence": [
+        "I was really counting on the one guy, of course you already know who I mean with the deposit, that that's just a big bummer.",
+        "the guy that did the deposit, kind of continue following up with him. He is, like, barely responding to me, but I think that he just maybe got a little bit fearful, and that's the reason that he's now pulling back, but he's not really responding, so I'm going to continue to follow up with everyone that I can.",
+        "So I know that Richard had a deposit from me."
+      ],
+      "timestamp": "00:20:14"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Reps are coached to answer a direct question about payment terms with a normative statement plus a counter-question rather than the terms, and to avoid the word 'usually'.",
+      "evidence": [
+        "Okay, so it's one-time fee or a monthly payment or something? Usually it's just a one-time fee. I see. Don't say usually just a one-time fee.",
+        "Most people take care of it up front and throw it on a credit card. Why do you ask?",
+        "Because it puts it back on them."
+      ],
+      "timestamp": "00:29:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The company's internal definition of a lost deal requires an explicit refusal, so its reported close rates are not comparable with per-call disposition scoring.",
+      "evidence": [
+        "And it's not lost yet. It's not lost yet.",
+        "That's never lost until they tell you straight up no."
+      ],
+      "timestamp": "00:04:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Recording ends mid-sentence during a private follow-on between the manager and a closer, so part of the meeting is not captured.",
+      "evidence": [
+        "Yeah. Of course, you heard me say it earlier in the call. As I joined this team... Like, I don't know if you know what I was selling before, but it was, like, not really something I was behind, and this is generally only something I'm behind, and, um... Wait, do you want Andrew's, uh, Fathom hearing? Yeah, you can watch it if you want, so, like, I don't..."
+      ],
+      "timestamp": "01:01:55"
+    }
+  ]
+}

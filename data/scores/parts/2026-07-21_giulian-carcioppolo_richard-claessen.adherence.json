@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-07-21_giulian-carcioppolo_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Referenced the application ('I've already taken a look over the things you just sent over... in the application form'), then a three-part frame - 'where you're at, where you want to go, see if we fit in there. If we do, I'll take you through how' - which omits 'what's in the way' and 'what you need'. Frame agreement taken ('Sounds good?') and opened with 'Tell me, what can we potentially help you out with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "hit", "P2b": "miss", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age, height and weight all asked directly. Injury history probed well with a 1-10 pain scale and duration ('around eight' months). Nutrition worked thoroughly. But occupation and whether the work is desk-bound was never asked at all, general or hereditary health conditions were never asked - the brain injury was volunteered unprompted at 00:07:50 - and sleep and daily energy were never raised."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "hit", "P3b": "hit", "P3c": "partial", "P3d": "hit", "P3e": "hit", "P3f": "hit", "P3g": "partial", "P3h": "hit" },
+      "evidence": "Strong phase. 'What would that 10 out of 10, Giulian, not Trevor, but Giulian look like?' then the bridge 'what's sort of the reason for you that you feel like you really want to focus on this more at the moment?' and the impact question 'do you guys live together... what do you feel like she would say'. Closed with a clean reflect-back: 'It sounds like the most important thing is the physical health aspect, as in making sure you don't get injured in the long run.' The specific can't-do-it activity (the carnival ball game) was volunteered rather than asked for, and the drive-through stopped at girlfriend and longevity without reaching identity or legacy."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "The phase was never run. No question about what he had tried before, what happened with it, why it did not stick, or what is actually in the way. The prospect volunteered the root cause himself at 00:39:07 - 'I've always kind of did more, like, go to the gym every other week, and same thing, like the diet came, like, come and go' - and the rep did not pick it up or build on it."
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "hit", "P5c": "partial", "P5d": "miss" },
+      "evidence": "'What would happen in six months, a year from now, if it's going to stay the same way' and 'would you be willing to settle for the current state that you're in, having that in a year or two years from now'. The prospect supplied the 'why not' unprompted; the rep never asked it. No line-in-the-sand ask."
+    },
+    "P6": {
+      "score": "hit",
+      "checks": { "P6a": "hit", "P6b": "hit", "P6c": "hit" },
+      "evidence": "'Are you also willing to actually put in that extra effort, make it all work with Trevor, and then actually see those results?' followed by the all-in check after the three pillars: 'do you feel like there would be any reason for you not to get the success... Or do you feel like, yes, I'm going to be able to do that then?' A clear yes was obtained before price was named."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "partial", "P11b": "miss", "P11c": "miss", "P11d": "partial" },
+      "evidence": "A close was attempted but only a $100 refundable deposit was collected, not programme payment. No onboarding call with Trevor was booked - the calendar invite sent was for a second sales call with the rep on Friday. No agreement email, no signature on the call, no Skool link or community mention. Partial credit on step 4 only: 'I'll also already send you a document that you can fit in before we actually meet again... it just helps with the whole onboarding process.'"
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The isolate ran cleanly - 'outside of the investment, you feel like, yes, want to do this?' - and cash-on-hand was asked ('what do you have available for yourself at the moment?', answer $1,000). The rest of the financial picture was skipped entirely: no monthly leftover after bills, no credit cards, no available credit, no used-vs-available, no investments. The rep also broke the plan out before establishing the full picture, and quoted the plan as more expensive than the cash price rather than framing it as a HOW conversation."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "The rep had pre-framed the partner earlier in discovery ('what do you feel like she would say when you begin with something like this'), which was good work. But when the actual objection landed at 00:46:34 he skipped every scripted move - no 'money aside, do you personally feel this CAN get you to your goal', no 'what obstacles might come up', no 'is there any reason she would NOT want you stronger and less in pain', no 'is this genuinely needing her input or asking permission to bet on yourself' - and jumped straight to the last-resort deposit move."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Script gap, not a rep failure on the objection-handling axis but a serious one on safety. The prospect disclosed an undiagnosed eight-month painful shoulder and a five-month-old traumatic brain injury with ongoing aphasia therapy. There is no scripted step anywhere in the process for clinical screening or clearance, so the rep had nothing to run and instead reassured - 'like 50% of everyone that we work with has some type of injury' - and proceeded to prescribe overhead-loaded work."
+    }
+  ],
+  "notes": "Excellent discovery on goals and consequence, and the commitment check was properly taken before price - but Phase 4 was skipped entirely, which cost him the root-cause leverage he needed once money came up. When the affordability and partner objections landed together he abandoned both scripted plays and reached for a deposit within ninety seconds. Coach the OB play and the OC financial picture; and the process needs a clinical-clearance step before this rep prescribes overhead loading again."
+}

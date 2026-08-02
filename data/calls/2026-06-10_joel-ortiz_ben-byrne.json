@@ -1,0 +1,159 @@
+{
+  "call_id": "2026-06-10_joel-ortiz_ben-byrne",
+  "source": {
+    "drive_file_id": "1Ip6hpsVHms3VD5gg30J2_uEXd5xaNvEB",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/10/2026 - Joel Ortiz x Ben Byrne KFS",
+    "display_title": "06/10/2026 - Joel Ortiz x Ben Byrne KFS — Follow Up",
+    "file_size_bytes": 79524
+  },
+  "call": {
+    "date": "2026-06-10",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "A call was booked the previous week and rescheduled after a pregnancy emergency — 'I actually had one scheduled last week. And so my wife and I were pregnant. And so I had slight emergency and thankfully everything came out good. And so I had to reschedule.' No prior sales conversation took place.",
+    "duration_min_est": 84,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Code taken from the title suffix. The prospect never names the setter; the rep referenced an application only, and described it as thin — 'I took a look over your, some of the notes from your application that you, it was kind of, let's call it high level.'"
+  },
+  "prospect": {
+    "name": "Joel Ortiz",
+    "aka": null,
+    "name_source": "title",
+    "location": "New Jersey, USA",
+    "age": 32,
+    "occupation": "Police officer of 12 years — eight on patrol, then promoted to detective around three years ago into a technology and IT unit. Desk-based, Monday to Friday 09:00-17:00 with weekends off, sitting at work and commuting by car.",
+    "family_status": "Married; wife pregnant with their first child, due 25 December, after a scare the previous week. A nephew appeared on camera during the call.",
+    "height_in": null,
+    "weight_lb": 140,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete — played several sports and baseball to close to professional league level from childhood through college, with personal trainers during his baseball years. Trained consistently and describes his physique then as chiselled at 155-160 lb. Fell away through college, marriage and irregular police shifts. Has built a full gym in his garage. Restarted about two months ago, went too heavy immediately, injured his shoulder and stopped. Currently doing no training at all beyond walking. Has never done online coaching for fitness, though he did a six-month one-to-one online programme with a nutritionist in New Zealand. Owns no kettlebells.",
+    "kettlebell_experience": "none",
+    "medical": "Two significant and ongoing issues, both disclosed unprompted. First, gastritis beginning about two years ago: a year off work, unable to eat or keep anything down, 30 lb lost in one to two months, seen by multiple specialists, described as a health scare for his family. Never fully resolved — 'I still have episodes where I have a relapse sometimes that would last a week or two' — with a stomach he calls very sensitive and an ongoing struggle to identify safe foods. He healed partly via a whole-plant-based, no-animal-product protocol under a nutritionist and still uses it periodically to reduce inflammation. Second, a right shoulder injury sustained roughly two months ago from restarting too heavy: 'I started feeling shoulder pain, and it got to the point where I couldn't do pushups... I didn't want to make sure to tear anything like my rotator cuff.' He rested it, missed the SWAT tryout because of it, and no clinician assessment was mentioned. Does not drink alcohol or smoke."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.85,
+    "signals": [
+      "Ground lost specifically to illness, which is the avatar definition almost verbatim — a year out of work with gastritis, 30 lb and most of his muscle gone",
+      "Wants a documented former self back and knows the exact number — 'I know what I was able to accomplish before... where I was with the 155, 160, and I felt comfortable in that'",
+      "Visible regret and a self-comparison he finds painful — 'when you look in the mirror, you had a comparable, right, from where I was to losing all those pounds, I'm just like, man, it's tough to see'",
+      "States the gap in identity terms: 'I feel like I'm not myself, like what I used to be'",
+      "Not the_prehab_fighter: the acute crisis resolved roughly two years ago and he is recovering from it rather than fighting through it, though the relapses continue",
+      "Not the_optimizer: at 140 lb with zero current training and a shoulder that stops him doing push-ups, he is not starting from fit"
+    ]
+  },
+  "goals": [
+    { "text": "Rebuild muscle and get back to 155-160 lb — 'my main goals is really to build muscle again'", "category": "muscle_gain" },
+    { "text": "Recover energy levels, self-rated at 10-plus before the illness and 5 on a good day now", "category": "energy_performance" },
+    { "text": "Be healthy and able to chase his first child around — 'now I'm about to have my first baby, so I just want to be healthy, you know, all around'", "category": "family_role_model" },
+    { "text": "Regain the physical capability his job may demand again — 'I can always get deployed back out on the streets... I want to have that strength and the stature to be able to deal with suspects or to carry somebody out'", "category": "hobby_performance" },
+    { "text": "Learn correct kettlebell form specifically so he does not injure himself again — 'since I've gotten hurt before, I don't want to do that'", "category": "injury_prevention" },
+    { "text": "Restore mobility and stop feeling his bones crack in his thirties", "category": "mobility" },
+    { "text": "Get back the confidence he lost seeing himself in the mirror after the illness", "category": "confidence" },
+    { "text": "Find a training format that survives a full-time job, a wife and a newborn — 'if I can find an intermediate where I can stay home and from home I can work out'", "category": "convenience" },
+    { "text": "Settle on a stable diet that works around a sensitive stomach", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Doing no training at all and stuck in a rut — 'Nothing, yeah. This is me trying to get back into the rhythm'", "category": "consistency", "severity": "high" },
+    { "text": "Plateaued at 140 lb and unable to build on it — 'I can't find a way to build on that'", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Relapsing gastritis with episodes lasting one to two weeks and constant uncertainty about what he can eat", "category": "medical", "severity": "critical" },
+    { "text": "Unresolved right shoulder injury that stopped him doing push-ups two months ago", "category": "injury", "severity": "high" },
+    { "text": "Energy halved since the illness — falling asleep at his desk, 'I'm at work and I'm kind of not nodding off'", "category": "other", "severity": "high" },
+    { "text": "Went from a physically active patrol role to a sedentary desk job with a seated commute either side", "category": "training_barrier", "severity": "high" },
+    { "text": "Lost the SWAT tryout he had wanted since childhood because of the shoulder injury — 'I couldn't even try out... And then that kind of like, I lost motivation'", "category": "emotional", "severity": "high" },
+    { "text": "Time cost of travelling to a gym is the stated blocker — 'my biggest thing, Ben, is just the consumption of time'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Overwhelmed by conflicting diets — 'You got the keto, got the carnivore, you got the vegan, vegetarian... So I try it all'", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Restarted too aggressively out of ego and injured himself — 'I went from zero to 100, thinking that I can lift the same weight that I was able to lift before'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Financial pressure with a first child due at Christmas", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So for me, it's just, again, reflecting on, you know, the prices and also financially, what I'm going to decide to do. Discuss with my wife. That's a principle that I have. I'll speak things over with my wife, let her know.",
+      "timestamp": "01:20:06",
+      "rep_response": "Ran no part of the play. Did not check belief with money set aside, did not ask what obstacles she might raise, did not ask whether she would object to him being healthier before the baby arrives, and did not offer a deposit. Instead invented a 30-day entry arrangement on the spot as a way to defer the decision.",
+      "response_tactic": "invent_30_day_trial",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "we're about to have a child. So I want to make sure, hey, can I put this on a credit card? Or are we going to work out payment plans and maybe cut it between $3,000, $3,000? That's mainly what it is, Ben. You know, the financial aspect. I didn't know the prices coming into it.",
+      "timestamp": "01:20:29",
+      "rep_response": "Offered flexibility in the abstract — two payments of $3,000, three of $2,000, or monthly at roughly an extra $200 a month — then pivoted to the 30-day arrangement rather than structuring anything. No plan was fixed, no link was sent.",
+      "response_tactic": "list_options_without_structuring",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "So I'm going to think about where, again, I may be leaning towards the six months, but probably 12. I'm not sure if I should just wait for the one-on-one with Trevor, but yeah, I'm going to sit on this for tonight.",
+      "timestamp": "01:17:16",
+      "rep_response": "Accepted it and asked for his thinking ('where's your head at?'). None of the play ran — no 'what's actually coming up that's preventing you from getting started', no 'thinking isn't the problem, deciding is'.",
+      "response_tactic": "accept_and_ask_for_thinking",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "if this is a six-month program, are we promising results within six months? ... in your experience, you look, you're like, yeah, I think this is going to take about, let's do a six-month program.",
+      "timestamp": "00:39:02",
+      "rep_response": "Answered with a stated guarantee — 'we have basically a guarantee for someone who works with us for six months is that you're adding at least 20 pounds to your lifts, losing 10% body fat' — while acknowledging the fat-loss half does not apply to him. Was honest about the muscle ceiling: 'Will you go from 140 pounds to 160 pounds of like 20 pounds of extra muscle in six months? No, it's not really possible.' Never resolved what the guarantee actually means for a man trying to gain weight.",
+      "response_tactic": "state_guarantee_then_qualify",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "let's just say you want to extend it for, I don't know, three more months. Is there like a prorated rate, the fact that you were once upon a time a student, or is that just like three months you have to pay the $4,000 on top of the $6,000?",
+      "timestamp": "01:05:43",
+      "rep_response": "Gave three different answers in eleven minutes: 'We don't have a prorated rate. You want to do three more months, it's just the price'; then on a mid-term upgrade, 'I'm sure we'd figure something out where you wouldn't have to pay another $6,000... I just probably have to confirm that'; then the invented 30-day arrangement with an upgrade conversation at day 30.",
+      "response_tactic": "improvise_commercial_terms",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 3, "price_usd": 4000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Described but never fixed: 'split it two payments of 3K or three payments of 2K or usually if we do payment plans, they add like a little bit of interest to it. Like if you were to split it up monthly, it would be like an extra 200 bucks a month. So 1,200' — implying roughly $7,200 total on the $6,000 six-month tier. No rate, term, total or provider named. Separately, an unsanctioned 30-day entry arrangement was improvised: 'we get you in for six months on some type of plan that works for you, give you 30 days in the program. I'll tell the team, at the end of the 30 days, if you want to upgrade, then we can just talk about that point.'",
+    "guarantee_mentioned": "Stated twice as a guarantee: 'we have basically a guarantee for someone who works with us for six months is that you're adding at least 20 pounds to your lifts, losing 10% body fat, unless you're already at 10% now, which might not be realistic' and later 'we do have the guarantee about the fat loss, adding, you know, at least 20 pounds or lifts, like 91% of them report more energy.' No terms, remedy or conditions.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "No decision and no payment: 'I'm going to sit on this for tonight' and 'Discuss with my wife. That's a principle that I have.'",
+      "No payment link was sent — the rep texted only his phone number so the prospect could reach him.",
+      "No follow-up call booked; the prospect controls all next contact: 'if you can send me a text message so that I can follow up with you.'",
+      "Strong intent signals: 'I'm ready, definitely ready', 'I'm the gas to the pedal type of guy', and a stated intention to start with kettlebells regardless — 'I'm going to start either way'.",
+      "Counter-evidence: the tier decision is explicitly deferred to Trevor's assessment, which only happens after payment, so the sequence blocks his own stated decision process.",
+      "Counter-evidence: the commercial terms he was given were contradictory across the call, which is the material he is now taking to his wife.",
+      "Counter-evidence: a first child is due at Christmas and he had not known the prices before the call — 'I didn't know the prices coming into it.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep texted his number during the call. Prospect to discuss price and payment structure with his wife, decide between the six-month and twelve-month tiers, and text the rep. No follow-up call scheduled and no link sent."
+  },
+  "notable": {
+    "note": "The most heavily improvised commercial conversation in the batch. A three-month $4,000 tier presented as standard menu, a payment plan implying roughly $7,200 on a $6,000 programme, 'we don't have a prorated rate' followed four minutes later by 'I'm sure we'd figure something out', and finally a 30-day entry arrangement invented on the spot with a promise to instruct the team — none of it written, all of it now being repeated to his wife. Clinically this is a 32-year-old with relapsing gastritis serious enough to have cost him a year of work, who was pitched an intermittent-fasting eating window including raw and unpasteurised dairy, and an unresolved right shoulder injury from two months ago that stopped him doing push-ups and cost him a SWAT tryout, which received no follow-up question at all. The rep did ask about dietary restrictions arising from the gastritis, which is more screening than most calls in this batch received. The results guarantee was also quoted to a man at 140 lb whose goal is to gain weight, and the rep noticed the mismatch mid-sentence without resolving it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy swapping throughout, including on whole passages. The opening exchange about the pregnancy at 00:01:44-00:02:01 attributes the prospect's answers to the rep; 'I've always, again, I've always worked out, but I just, I put it on a back burner' at 00:04:54 is labelled to the rep and is the prospect; the question block at 00:36:55-00:38:23 puts the prospect's list of questions and the rep's acknowledgements under alternating wrong labels; and 'You can just fire as many questions as you want' at 00:36:55 sits inside a prospect turn. Roles resolved from content. Height was never asked or stated. Weight is self-reported at 140 with a prior baseline of 155-160 and a low of 130. Body fat never established, which matters because a fat-loss guarantee was quoted against it."
+  }
+}

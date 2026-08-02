@@ -1,0 +1,44 @@
+{
+  "call_id": "2026-07-27_rick-tuha_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "closed",
+  "phases": {
+    "P1": {
+      "score": "not_applicable",
+      "checks": { "P1a": "not_applicable", "P1b": "not_applicable", "P1c": "not_applicable", "P1d": "not_applicable" },
+      "evidence": "Continuation session. Opens with festival small-talk then goes straight to 'Okay, so Rick, did you manage to go through the agreement?' — no framing is required or expected on an onboarding execution call."
+    },
+    "P2": {
+      "score": "not_applicable",
+      "checks": { "P2a": "not_applicable", "P2b": "not_applicable", "P2c": "not_applicable", "P2d": "not_applicable", "P2e": "not_applicable", "P2f": "not_applicable", "P2g": "not_applicable", "P2h": "not_applicable", "P2i": "not_applicable" },
+      "evidence": "No baseline gathering on this call; it happened (or did not) on the prior unrecorded call."
+    },
+    "P3": {
+      "score": "not_applicable",
+      "checks": { "P3a": "not_applicable", "P3b": "not_applicable", "P3c": "not_applicable", "P3d": "not_applicable", "P3e": "not_applicable", "P3f": "not_applicable", "P3g": "not_applicable", "P3h": "not_applicable" },
+      "evidence": "No goals work on this call."
+    },
+    "P4": {
+      "score": "not_applicable",
+      "checks": { "P4a": "not_applicable", "P4b": "not_applicable", "P4c": "not_applicable", "P4d": "not_applicable", "P4e": "not_applicable", "P4f": "not_applicable" },
+      "evidence": "No past-attempts work on this call."
+    },
+    "P5": {
+      "score": "not_applicable",
+      "checks": { "P5a": "not_applicable", "P5b": "not_applicable", "P5c": "not_applicable", "P5d": "not_applicable" },
+      "evidence": "Consequence frame not reachable; the buying decision was already made."
+    },
+    "P6": {
+      "score": "not_applicable",
+      "checks": { "P6a": "not_applicable", "P6b": "not_applicable", "P6c": "not_applicable" },
+      "evidence": "Commitment already secured on the prior call."
+    },
+    "P11": {
+      "score": "partial",
+      "checks": { "P11a": "hit", "P11b": "hit", "P11c": "hit", "P11d": "partial" },
+      "evidence": "P11a hit — payment collected live: 'Okay, and now I would need the card details', full card, expiry and CVC captured and entered manually. P11b hit — 'let's check the availability of Trevor', booked Wednesday 29th 12:15 MT and the rep prompts 'you should get the confirmation for the onboarding session. Could you please check the email?'. P11c hit — agreement chased live via the manager, arrival confirmed and signed on the call: 'Yeah, got the agreement. Okay. ... Okay, signed.' P11d partial — the rep raises the onboarding form ('there's an onboarding form just to fill out') but the prospect cannot find it ('I cannot see'), the rep concedes 'because it is custom, I need to send that to you manually' and defers it to email. No Skool community link and no welcome email are mentioned at all, and the kettlebell purchasing info the prospect explicitly asks for is also deferred: 'I need to know where to buy, they said that you will tell us where to buy products.'"
+    }
+  },
+  "objection_plays": [],
+  "notes": "Clean execution on the three steps that could be completed in-session — payment, Trevor booking and a signature obtained live rather than promised. The gap is step 4: because this deal runs on a custom agreement, the automated welcome/questionnaire/Skool sequence does not fire, and the rep hangs up with three deliverables owed by email rather than completing every step before the call ends. Coaching point: when a custom agreement bypasses the standard flow, send the onboarding pack while still on the call."
+}

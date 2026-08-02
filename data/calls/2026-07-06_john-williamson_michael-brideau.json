@@ -1,0 +1,124 @@
+{
+  "call_id": "2026-07-06_john-williamson_michael-brideau",
+  "source": {
+    "drive_file_id": "17zm24ZiWfxh0aM0PqdcwjxDeY-Bc2Zmn",
+    "drive_folder": "Michael Brideau",
+    "original_title": "07/06/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/06/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 39896
+  },
+  "call": {
+    "date": "2026-07-06",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "The rep repeatedly cites facts from an earlier conversation with the same prospect — 'I know we talked about it briefly the other day', 'like was telling you last time', 'I know, you before, last call, you mentioned they're a lot more independent now' — so at least one prior call took place, apparently with Michael himself rather than a setter.",
+    "duration_min_est": 36,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Michael Brideau", "role": "closer", "location": null },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "high",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "John Williamson",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Camp Verde, Arizona, USA",
+    "age": 38,
+    "occupation": "Property management — onsite manager of a storage facility, plus a couple of Airbnbs in Sedona; work is mostly phone-based and largely sedentary",
+    "family_status": "Separated from the mother of his children roughly four to five years ago; has full custody of two sons aged 5 and 7; not currently dating",
+    "height_in": 72,
+    "weight_lb": 210,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Was biking and hiking regularly before the split, then largely inactive for three to four years and peaked at 227 lb. Returned to mountain biking last year (a couple of times a week) and has been doing self-directed kettlebell workouts for a couple of months, recently five days a week at 30-40 minutes, built from routines found online.",
+    "kettlebell_experience": "some",
+    "medical": "Started TRT a few months ago — testosterone went from 320 to roughly 700-720; credits it with resolving severe afternoon fatigue. Motorcycle accident around 12 years ago: broken collarbone, broken rib, punctured lung. Shoulder still flares intermittently with weather changes, described as becoming less frequent. Answered 'no' when asked directly about health conditions; the TRT surfaced later, unprompted, during the energy question. Sleep is chronically short — bed around midnight to 1am, up at 6am."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.92,
+    "signals": [
+      "'I'm sick and tired of letting myself go.'",
+      "Sold his bike and 'basically sat at home for you know, three or four years' after taking full custody of a six-week-old and a two-year-old.",
+      "Explicit comparison to a former self: 'back in my 20s, when I crashed, I was super flexible. I was, you know, able to, to move in those ways.'",
+      "Peaked at 227 lb and has already clawed back to 210 on his own before the call.",
+      "Regret framed through his children: 'five and seven-year-old, they're sitting there looking up to me like I'm Superman, and I'm feeling like I'm Kingpin instead.'"
+    ]
+  },
+  "goals": [
+    { "text": "Longevity and mobility — get flexibility back so a mountain bike crash does not cost him weeks of recovery", "category": "mobility" },
+    { "text": "Injury prevention — stop going over the handlebars and being wrecked by it at nearly 40", "category": "injury_prevention" },
+    { "text": "Be physically able to carry, throw and wrestle with his two young sons without being winded", "category": "family_role_model" },
+    { "text": "A progressive, structured kettlebell programme with correct form rather than repeating workouts found online", "category": "strength" },
+    { "text": "General health and looking and feeling better; a six pack would be nice but is explicitly secondary", "category": "appearance" },
+    { "text": "Improve endurance, which he says is still the weak area", "category": "endurance" }
+  ],
+  "pains": [
+    { "text": "Mobility has degraded badly — 'my mobility is shot to ' — and recovery from bike crashes now takes far longer than in his twenties", "category": "aging", "severity": "medium" },
+    { "text": "No progression in his self-built training: 'I get stuck doing the same workouts and I'm like, oh , I just did this one yesterday and what do I do now?'", "category": "program_fit", "severity": "high" },
+    { "text": "Contradictory online information — 'I can research stuff online all day, every day, and everybody says this, this guy says that' — and programmes pitched below his level", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Named accountability as the reason coaching would help; procrastinates workouts to 1pm rather than training early", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Three to four years of inactivity after taking full custody, having sold his bike and stopped everything he loved", "category": "consistency", "severity": "high" },
+    { "text": "Eats essentially one meal a day with no idea of calorie or protein intake; unsure whether the pattern is harmful", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Sleep schedule never recovered after years of night feeds — asleep around midnight to 1am, up at 6am", "category": "sleep", "severity": "medium" },
+    { "text": "Was winded carrying both boys to the top of the stairs, which he names as his wake-up call", "category": "emotional", "severity": "high" },
+    { "text": "Left burnt on relationships by a violent former partner; has not dated in five years", "category": "relationship", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "program_fit",
+      "raw_quote": "With the added caveat that, you know, all my days off, like, basically, what I've been trying to do recently is, I'd like to, I mean, what I had planned was doing five days of kettlebell workouts, and then the two days that I take off, do mountain biking.",
+      "timestamp": "00:31:07",
+      "rep_response": "Told him Trevor is flexible and will programme around the mountain biking rather than replace it.",
+      "response_tactic": "reassure_program_flexibility",
+      "resolved": true
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Birdie, Arizona, 8-6-3-2-2, and I'm going to have to go and transfer some funds and do whatnot.",
+      "timestamp": "00:34:00",
+      "rep_response": "Did not run the open-wallet financial picture. Probed the liquidation mechanics and timeframe, then improvised a token $100 deposit so the onboarding call could be booked before funds cleared.",
+      "response_tactic": "token_deposit_to_hold_the_close",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": "'our guarantee is that we're actually going to add on eight kilograms to some of your main kettlebell lifts. Okay, in the course of the six months... If we don't get you there in six months, Trevor will continue working with you for free until we do get you there.'",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.88,
+    "close_rule_applied": null,
+    "evidence": [
+      "RESOLVED FROM A LATER FILE, NOT FROM THIS ONE. This call was reviewed in the 07/09 sales team meeting (drive file 1GEss4WkGEx36JluBURV-mJoRbQr-W4w3), where the rep reported the outcome: 'I pushed for a deposit, and I think he just freaked out and ran away', 'I called him today, and he hung up', and 'Called him, didn't answer, called him today, hung up.' No money was ever collected — not the $6,000 and not the $100 deposit.",
+      "The rep's own read on why: 'My suspicion is it's more to do with him being a single dad and taking care of his kids.'",
+      "The manager reviewed the recording and found no error: 'Michael, I've to be honest with you, man. Not seeing a thing that would have caused him to be like that.'",
+      "COUNTER-EVIDENCE FROM THIS TRANSCRIPT ALONE, WHICH READS AS A CLOSE: zero price resistance — on hearing $6,000 he answered 'Gotcha. All right.' and 'Sweet deal.' He gave his legal name, confirmed his phone number, provided a billing address, and an onboarding call with Trevor was booked for 4:15pm the following day.",
+      "COUNTER-EVIDENCE: no payment was confirmed on the recording. He needed to liquidate precious metals first — 'I invest a lot in precious metals and whatnot' — and could only do it after a bike ride that afternoon. The rep fell back to a $100 holding deposit and even that was only conditionally agreed: 'Should be able to. Yeah.'",
+      "The transcript ends mid-sentence at 00:35:37, so on its own this file would have been scored as a close. It is recorded as lost solely because a second file resolves it."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None. The prospect did not answer the rep's first follow-up call and hung up on the second. Nothing was collected."
+  },
+  "notable": {
+    "note": "This call reads as a clean close from its own transcript and was not one — nothing was collected and the prospect hung up on the follow-up. That is only knowable from the 07/09 team meeting, and it is the sharpest available illustration of why a corpus scored file-by-file will overstate close rate. Beyond that, two things a manager should see. First, the prospect asked the payment-terms question directly — 'Is that all one time? Is that monthly?' — and the answer was 'Most people just put out a credit card, do it at once.' Instalment options were never named, and the prospect then committed to liquidating precious metals to fund it. Second, the rep asked a series of personal questions well outside the discovery script — the cause of the separation ('what had you guys split up out of curiosity, man? What happened there?') and current dating status ('so are we are we dating at all right now? Is that something you're putting any inadvertent energy into?'). The first elicited an unprompted disclosure of domestic violence, which the rep acknowledged with 'Jesus, man' and moved past. The same rep asked his colleague about his dating life in the internal call recorded two hours later the same day."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Attribution is unreliable throughout and collapses badly in the middle. From roughly 00:08:25 to 00:13:00 an unbroken block of alternating rep questions and prospect answers is attributed entirely to 'john Williamson', including obvious rep lines such as 'any health conditions at all' and 'walk me through a current training week'. The same inversion recurs at 00:11:04-00:11:13, 00:18:31-00:18:45, 00:26:28-00:26:37 and 00:32:39-00:33:06. All roles in this record were read from content. Transcript also truncates mid-sentence at 00:35:37."
+  }
+}

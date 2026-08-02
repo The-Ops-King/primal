@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-27_cosmin-boldeanu_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "miss" },
+      "evidence": "No setter on this call. Three-part frame — 'Just want to get a good idea where you're at, build out what it is that you want. If there's alignment, let's talk about it. If there's not alignment, it's fine. We can part as friends' — again without 'what's in the way'. The prospect started talking before agreement was given, and the open question was never asked at all; he volunteered his history unprompted."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "hit", "P2d": "hit", "P2e": "miss", "P2f": "miss", "P2g": "miss", "P2h": "miss", "P2i": "miss" },
+      "evidence": "The health and injury questions were the best in the batch: 'talk to me about the shoulder. What's been going on with it?' and 'with the shoulder, when was the first time it cropped up? Is it like a recent thing?' — which surfaced the years-long history, the hereditary arthritis and the father's severe arthritis. The MRIs came out too. Everything else was skipped: age (43) volunteered, work only asked about at 00:21:46 in service of a tax write-off, and no questions on training week, results, diet, sleep or energy — the rep simply asserted 'Sounds like your diet's good. You can be consistent.'"
+    },
+    "P3": {
+      "score": "miss",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "miss", "P3d": "miss", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "miss" },
+      "evidence": "Only the surface layer ran: 'in terms of strength, is there any goals that you have in terms of that?' The call went from the injury history straight into the philosophy pitch at 00:12:13, roughly eight minutes in. Nothing on what is driving it now, nothing on impact, nothing reflected back. Most striking, the prospect said he is a surfer, that shoulder health is why it matters, and that he has not surfed since 23 April — and was never once asked about it."
+    },
+    "P4": {
+      "score": "miss",
+      "checks": { "P4a": "partial", "P4b": "miss", "P4c": "miss", "P4d": "miss", "P4e": "partial", "P4f": "miss" },
+      "evidence": "The prospect named his own pattern unprompted — 'I've been stuck in this cycle of workout, feel amazing. Somehow I injured myself, rest, recover, repeat' — and the rep asked no past-attempts question. The physical therapy history came out on the prospect's initiative too. No root-cause work at all."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame. A 43-year-old with hereditary arthritis, six weeks off training, muscle loss and a surfing life he cannot currently access is the easiest two-year picture in the batch to draw, and none of it was asked."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "partial", "P6c": "miss" },
+      "evidence": "No commitment check before presenting — the rep moved from the injury discussion to the philosophy without asking anything. The only commitment question came after the price and after the spouse objection: 'Are you all in though, from your side?', answered with 'I have to run it over my head... but yeah, I'm very interested.' The belief question never ran."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Close attempted — six-month recommendation, guarantee and price — and the prospect asked the payment mechanics himself ('what's the payment source and whatnot?'), which was answered with Stripe and card. The rep never asked for the card. The remaining onboarding steps were unreachable once the spouse conversation was deferred."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'I'm going to have to talk to my wife because she'll see 6K just walk away.' The rep asked her name (Loretta), asked 'What do you think the wife's going to say?', asked 'Are you all in though, from your side?' and booked a specific follow-up for the next day. Not run: the money-aside belief question, 'is there any reason she would NOT want you stronger and less in pain', the permission-versus-input challenge, the 'this isn't a joint decision like buying a house' frame, and the deposit-with-refund fallback."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'That's a pretty big hit' and the household balance effect — 'the 6K might cost me 12' — are money in substance. The rep's move was a tax write-off framing, which is off-script and raises its own problems, and he stated 'it's a one-time payment' unprompted, closing off the instalment route the script explicitly contains ('most clients pay upfront, but for some we break it up'). No isolation, no financial picture, no cash-on-hand or credit questions."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Clinical fit is the whole call: MRIs pending on the right shoulder and elbow, prior left shoulder surgery, hereditary arthritis, and an explicit expectation of a physical therapy referral. There is no scripted play for this, and the improvisation went the wrong way — the rep matched the prospect's dismissal of physiotherapy, offered his own scoliosis as proof of concept, and promised to 'fix the shoulder'. The script gap is real, but the safe move here was obvious and unused: wait for the imaging."
+    }
+  ],
+  "notes": "Excellent injury questioning and then almost nothing else — the call reached the pitch eight minutes in, skipped goals, past attempts, consequence and commitment entirely, and never asked about surfing, which is the one thing that would have made this man buy. The urgent correction is not a sales one: a prospect with imaging outstanding on the joints you intend to load needs those results before a six-month loaded programme is recommended, and the reflexive dismissal of his physios needs to stop."
+}

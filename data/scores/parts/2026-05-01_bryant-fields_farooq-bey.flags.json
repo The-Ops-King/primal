@@ -1,0 +1,81 @@
+{
+  "call_id": "2026-05-01_bryant-fields_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed an active course of physical therapy and four separate injuries including a rotator cuff and post-surgical meniscus, and the rep presented loaded kettlebell training and recommended an unsupervised self-paced product without ever asking whether a clinician had cleared it.",
+      "evidence": [
+        "I'm in physical therapy as well and doing those routines. So three, three days of, like, functional movement, like, you know, exercises.",
+        "I had a meniscus tear and surgery back in 2021, 2022. And, you know, it's just been one thing after another, quad tendonitis, quad tear, rotator cuff, like it's just been one thing after another.",
+        "Oh, I was pretty consistent for a good part of last year, and then I hurt my shoulder. Not from kettlebells. It was just like a freak... resistance band movement I did. So then I just backed off of it from there.",
+        "On the kettlebell side, Brian, it's best done three to four times a week, 30 minutes per session, okay?",
+        "And this actually may even be a better fit for you, Bryant, to be honest... It's a complete kettlebell and mace system designed to take you from A to Z."
+      ],
+      "timestamp": "00:15:14"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "The rep asserted that precise form under the programme will prevent injury and that the prospect's recurring injuries are an inflammation problem to be solved by the nutrition protocol — causal medical claims made to a man under active physiotherapy care, with no clinician involved.",
+      "evidence": [
+        "They're done with precise form, which is obviously going to alleviate any injuries or limitations in your body, obviously, make yourself more bulletproof and durable",
+        "A lot of the reason people have injuries is not necessarily due to joint or ligament or tendon issues, it's due to inflammation issues in their body. So Trevor, his job here is just to optimize your nutrition protocol"
+      ],
+      "timestamp": "00:23:01"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Two tiers outside the sanctioned price list were quoted as standard: $4,000 for three months and a $1,200 one-month 'love it or leave it' trial, presented as one of 'four levels of the investment'.",
+      "evidence": [
+        "So there's four levels of the investment. Okay. I'll explain the fourth in a moment, but this is a three months, six and a 12. Okay. Three, six and 12. So for three months, we charge in USD. The investment is 4k for six is six. And for 12, it's nine.",
+        "For people who are not really sure kettlebells or really Trevor's for them, or even this medium of virtual coaching, there's a love it or leave it option, which is essentially a trial for a month. It's 1200 bucks. If you love it, you just pay the differential to the three or the six or the, or the 12. If not, we just part ways and shake hands as friends.",
+        "For a month, it's $1,200. For three months, it's $4K. For six, it's $6K. And for 12, it's $9K."
+      ],
+      "timestamp": "00:28:29"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "On price resistance the rep introduced a $200/mo product, Primal University, as a fifth price point and told the prospect it might suit him better, moving the anchor from $6,000 to $200 without any attempt at the money play.",
+      "evidence": [
+        "And this actually may even be a better fit for you, Bryant, to be honest.",
+        "And the investment for that is just 200 bucks. It says per month, but you're not entitled to pay on a monthly basis. You can cancel it at any time.",
+        "Yeah, it would only be the Primal University. I wouldn't do the, the one-on-one is, is too."
+      ],
+      "timestamp": "00:29:33"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep represented that the 6- and 12-month one-on-one coaching carries no commitment and a 'graceful exit', which conflicts with the offer being sold as a fixed-term $6,000 or $9,000 engagement.",
+      "evidence": [
+        "I guess the trial is just doing it for a month. If you like it, you stay, not, you can quit. We don't, we don't, we don't, we don't hold you, you know, we don't even hold you for the one-on-one coaching. Right. We provide you with, you know, graceful exits on both."
+      ],
+      "timestamp": "00:37:31"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "Asked to describe Primal University, the rep first described the one-on-one product's weekly Trevor check-in and dynamic programme adjustment, and only corrected himself after the prospect pushed back.",
+      "evidence": [
+        "Yeah. You're performing the workouts on your own. You have a weekly call and check-in with Trevor. We expect you to do a weekly check-in form. How are you feeling energetically? What's the weight looking like for the week?",
+        "Okay, no check-in, right.",
+        "With Primal U, it's still a progression from, as I said, A to Z or 1 to 10, but it's really pre-set."
+      ],
+      "timestamp": "00:36:49"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization in this file is inverted across long stretches, with unmistakable rep lines attributed to the prospect label and vice versa, making any line-level attribution in this transcript unusable.",
+      "evidence": [
+        "00:00:25 - BPF — Cool, man. So, Brian, we have a limited amount of time.",
+        "00:18:13 - BPF — Brian, you have a pen, paper, laptop, iPad?",
+        "00:06:00 - Farooq Bey (Primal Instinct) — No, no, because I know, I know, I know I'm not, no."
+      ],
+      "timestamp": "00:00:25"
+    }
+  ]
+}

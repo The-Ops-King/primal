@@ -1,0 +1,64 @@
+{
+  "call_id": "2026-06-27_jacob_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "'Absolutely. 100%.' followed by tying it to his own sport unprompted: 'The mobility is something that I was, you know, when I was running a lot, I saw that as like kind of the next step... that's obviously something that piques my interest as a climber. I mean, it's a mobile skill-based sport. The more mobile you are, the better you can improve your skills.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "'That's amazing. Sounds great.' He had already pre-committed before the pillar was delivered — asked whether he would switch back to whole foods he answered '100%' — and he had diagnosed his own drift in detail, naming carb timing, quantity and workplace lunches as the specific causes."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "'No, everything's clear. I mean, that's, again, what you just described is kind of what pulled me in after kind of doing some research about what the offering is, and it sounds like exactly what I'm looking for... Being held accountable, having tangible goals met through the week, check-ins, all that is perfect.' Notably this is the only call in the batch where the prospect names accountability as his primary need before the pillar is presented — 'That's another thing I'm really looking for is someone to hold me accountable, not only myself, but just to have a routine.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "value_expectation",
+      "raw": "my hesitation has nothing to do with the program itself. I mean, that was kind of, I wanted to go through the process and see, because I figured it would be something in that range, just based off of the value associated with what Trevor provides.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "The cleanest supports_price anchor in the batch. He had priced the offer at roughly $6,000 before hearing it, from Trevor's positioning alone, and treated the number as confirmation rather than as a shock."
+    },
+    {
+      "type": "self_directed_success",
+      "raw": "I've proven to myself that I can do it, you know, on my own, which I think was important. That was one thing that kind of held me back initially... So this seems like a natural next step.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Worth setting beside the Peter Nelson call two days earlier, where the identical fact — a large unaided weight loss — destroyed the price. The difference is entirely in how the prospect frames it: Peter treated his own track record as proof he does not need to pay, Jacob treats it as the prerequisite that earns him the right to. Nothing the rep did produced that difference; it arrived with the prospect."
+    },
+    {
+      "type": "comparable_spend",
+      "raw": "my wife or my partner is... We have midwives, you know, we've hired for this. And that was $6,000 for that, and that's over nine months. So, like, I've been able to afford that.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He introduces a $6,000 obligation he is already successfully carrying, as evidence the number is payable on the right terms. It is also the competing claim: $2,500 of it is still outstanding and the baby it is paying for arrives in August."
+    },
+    {
+      "type": "available_credit_constraint",
+      "raw": "What's the limit? 2k... it's mainly groceries and things like that. So yeah, there could be only 1,000 or 1,500 available.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Not a competing offer but the binding constraint on the whole call, and the actual reason both lenders declined. A $2,000 limit on a single card cannot carry a $6,000 purchase regardless of an 800-something credit score."
+    },
+    {
+      "type": "financing_cost",
+      "raw": "288 a month, that's 13, 14% APR, so it's about $1,000 in interest.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The 24-month route he said he liked best would have taken the effective price to roughly $7,000, a sixth more than the published figure, and the rep priced the interest aloud himself."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A payment structure spread over twelve to twenty-four months, which is the only shape this purchase could take for him — 'if it was more like 12 months, 6K, that's more attainable' and 'I really liked that 24-month option. Would have been perfect.'",
+      "why_unmet": "The in-house plan is capped at six instalments of $1,000, which he had already ruled out, and the two external lenders both declined against a $2,000 credit limit. There is nothing between paying $1,000 a month for six months and third-party credit he cannot access. A well-qualified, fully sold, enthusiastic prospect was left with no route to buy.",
+      "verdict": "product_gap"
+    }
+  ]
+}

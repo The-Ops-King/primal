@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-05_fred_farooq-bey",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled for a person who does not appear in it — the title names Eduardo Pérez and the entire call is with a man called Fred — and the rep slips once mid-call and addresses him as 'Eddie', indicating he was reading a different name from his own records.",
+      "evidence": [
+        "05/05/2026 - Eduardo Pérez x Farooq Bey",
+        "So, Fred, we have a limited amount of time. Let's dive straight into it.",
+        "because mobility for Eddie should be done the same way we brush our teeth, right?",
+        "I'm from London man... I'm Swedish, so I'm kind of... I like the big games, but I'm not massively bothered.",
+        "05/04/2026 - Jaideep  Mistry x Farooq Bey [transcript is entirely with Paul Hatch]",
+        "05/04/2026 - Donald Peteranna x Farooq Bey  [transcript is entirely with Paul Bionaz]"
+      ],
+      "timestamp": "00:33:56"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The one-to-one client roster was given as about 25, having been given as 30 the previous day and about 60 two days before that — three different figures to three prospects in three days, on the number that determines how much coach attention they are buying.",
+      "evidence": [
+        "Right now there's about 25, 25 clients and time spent per client. I don't know. Maybe once the program is up and running, it's just 20 minutes per day responding to messages",
+        "In the coaching program itself, there's 30 people, the one-on-one coaching with Trevor. [2026-05-04 Kyle Loftus call]",
+        "In the one-on-one coaching, there's about 60 of us. [2026-05-03 Omar Maldonado call]",
+        "How many clients does he have on? I mean, how much time does he spend per client?"
+      ],
+      "timestamp": "00:41:25"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep gave an unsolicited supplement recommendation with a specific endocrine claim attached, telling the prospect that vitamin D3 and K2 raise natural testosterone levels.",
+      "evidence": [
+        "Do you take D3 and K2? ... Vitamin D3, K2. No, I don't take any vitamins, to be honest.",
+        "there's some staple ones that you should really include, especially considering the fact you're living in the UK... having vitamin D3, K2, just takes your natural testosterone levels to a higher level. It helps with your profile.",
+        "It's not about giving you TRT or testosterone. We're not doing that."
+      ],
+      "timestamp": "00:39:24"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect disclosed eating 1,300-1,400 calories a day with no carbs while training six times a week including a 10k run, invited an expert view on it, and the rep responded 'Sure' and later recommended adding fasting protocols on top.",
+      "evidence": [
+        "I'm eating literally no carbs the last few weeks, about 1,300-1,400 calories and 170 grams of protein, and it seems to be working.",
+        "I'm not an expert, but from what I've been reading... It seems to make sense for a short time.",
+        "Sure.",
+        "Tuesdays and Thursdays, I do HIIT training with a group of friends... I do a 10k run every Wednesday. I swim on Saturdays, and then I throw in two kettlebell sessions",
+        "Same with supplementation, same with even fasting protocols. As we get over the age of 50, Fred, fasting protocols is super important for longevity."
+      ],
+      "timestamp": "00:14:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The $4,000 three-month tier was quoted again, the twelve-month tier was withheld on the rep's judgement, and the $1,200 trial he offers as standard on a price objection in four other calls this week was not offered here.",
+      "evidence": [
+        "There's three levels of the program. Three months, six, and 12. Okay? I don't think you need 12. I think three to six is plenty to start off with",
+        "So, the investment for three months is 4,000 US, and for six is six.",
+        "That's way out of, well, it's way out of what I would want to spend.",
+        "Well, if that's the case, I'm not going to try and convince you otherwise, right?"
+      ],
+      "timestamp": "00:44:23"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Prospect identity is unrecoverable from this file — he joined under the handle 'f_tal' and then under his wife's Zoom account so most turns are labelled with a woman's name, no surname is ever stated, and roughly the first five minutes are a single unbroken block containing both speakers with no timestamps.",
+      "evidence": [
+        "00:05:17 - Michelle Tallner — hello hello i think you're on mute no then there we go so this is fred it is i don't know that that's my wife's name displayed",
+        "00:00:02 - f\\_tal — hey fred i i can uh yeah i can hear you i can't see you yeah i don't know what's going on with that",
+        "00:07:50 - Michelle Tallner — Some people don't know how these combos go.",
+        "00:21:00 - Michelle Tallner — Pardon? How do you want to show up for her?"
+      ],
+      "timestamp": "00:05:17"
+    }
+  ]
+}

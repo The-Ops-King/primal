@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-29_michael-critzer_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "The call ended before any presentation. The rep never got past discovery - the price question arrived at 00:15:51 and the call was over by 00:19:27."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Covered only as discovery. Never delivered as a component of an offer."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Never presented, though the prospect had already articulated it as exactly what he needs: 'you have a coach, you have intention to stay with the program. If you're doing it yourself, I don't feel like today. I'll do it tomorrow.' The pillar was pre-sold and never delivered."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "zero_price_expectation",
+      "raw": "For one thing, he's not trying to charge your feet like everybody else. To me, what I got out of and watched the videos, he wants to teach you the correct way to where you're not injuring yourself.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most consequential anchor in the batch. The prospect was attracted to Trevor specifically because he understood him to be the one who does not charge. His anchor was not a competitor's price, it was zero, set by Primal's own free content, and it survived an entire setter call intact."
+    },
+    {
+      "type": "paid_program_as_bait_signal",
+      "raw": "You know, you see a lot of programs. Oh yeah. Here's a military program. You start looking at it. Then they ask for a credit card... they want to charge you to get the program from them. Well, you know, that, that's it, you know, if I got to pay somebody, that's not right",
+      "direction": "undercuts_price",
+      "competitor": "free or trial online fitness programmes he has previously abandoned at the paywall",
+      "note": "He treats being asked for payment as evidence of bad faith, because that is the pattern he has seen elsewhere. That makes any price disclosure late in the funnel read as confirmation of a scam rather than as a normal commercial step."
+    },
+    {
+      "type": "stated_acceptable_price",
+      "raw": "Yeah, sure. There's a fee, but not four figures, you know, not $1,000 to $8,000.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "His ceiling is three figures. Notably, a $1,000 six-month product exists and this rep offered it to three other prospects in the same nine days; it was not put on the table here, so the gap between his ceiling and the nearest real option was never actually tested."
+    },
+    {
+      "type": "rep_quoted_price_range",
+      "raw": "it's going to be somewhere between, that's reason I'm saying like four figures, can be between 1,000 and 8,000",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The fourth different improvised range from this rep in nine days, and the first to include $8,000. Delivered under pressure, with no presentation in front of it, to a prospect who had just been told 'at least four figures' with no explanation of what he would get."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To know the price before investing his time - he raised it as a matter of fairness rather than affordability: 'you should be up front'",
+      "why_unmet": "Nothing in the funnel discloses a price. He watched the videos, applied, took a setter call with Derek and reached a closer call still believing there was no charge. The company's own free content is generating the expectation that the coaching is free.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Technique instruction and accountability at a price in the hundreds rather than the thousands",
+      "why_unmet": "The flagship does not serve this, but Primal University at $1,000 for six months is much closer to it and was never mentioned. Whether he would have taken it is unknown, because the option was withheld. As presented, the demand looks like a product gap; in reality it is a positioning and consistency failure.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Something he can use to help his 96-year-old father start moving again",
+      "why_unmet": "A kettlebell programme for a 72-year-old is not a route to mobility work for a 96-year-old, and nothing in the offer addresses coaching a third party. Recorded because he raised it unprompted as part of his motivation.",
+      "verdict": "out_of_icp"
+    }
+  ]
+}

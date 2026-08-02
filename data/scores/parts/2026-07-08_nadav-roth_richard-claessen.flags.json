@@ -1,0 +1,73 @@
+{
+  "call_id": "2026-07-08_nadav-roth_richard-claessen",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed a named chronic bone disease in the ankle, an L5 spinal injury and four years of undiagnosed shoulder pain, and was moved toward loaded kettlebell training with no question about clinical clearance and an explicit reassurance that his conditions are not really injuries.",
+      "evidence": [
+        "I have this injury in the ankle that it's like, it's a chronic disease. In the left ankle, it's called the Muller-Weiss, and I can't run.",
+        "I had an injury on my lower back on L5 unit when I was 14, actually, from the basketball career that I had",
+        "I used to have a pain in my right shoulder for four years... nobody knew what it was",
+        "So these are more, like, overall, but they are very focused on people who have injuries. We have worked with so many people who have had injuries, and you don't even actually really have injuries at the moment, more so stiffnesses."
+      ],
+      "timestamp": "00:09:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The rep gave an absolute guarantee against injury to a prospect with a chronic bone condition and a history of spinal injury.",
+      "evidence": [
+        "before you even have your first workout, he's going to teach you how all the movement actually works. So you're not going to be able to hurt yourself and that you already have the form in place",
+        "The whole thing is when your lower back is perfect, that is directly going to fix your hips as well, because everything there is combined"
+      ],
+      "timestamp": "00:40:19"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After the $6,000 offer was declined on affordability, a $2,000/year and $200/month tier was introduced live — the second time in three days the same rep produced this fallback in response to a budget objection.",
+      "evidence": [
+        "It's an investment of 6k USD.",
+        "Wow. I think it's way too much for me.",
+        "Well, we do have, so you also have Primal University. Don't know if you've ever heard of that.",
+        "Yeah, so for digits, it's usually like $2,000 a year or $200 a month.",
+        "That sounds more reasonable for your current situation, right?"
+      ],
+      "timestamp": "00:50:07"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "A non-clinician made causal physiological claims about fixing a documented spinal injury and its downstream effects to a prospect with that injury.",
+      "evidence": [
+        "we're also going to do a five to 15 minutes mobility protocol that Trevor is going to design specifically to your needs as well. So to your hamstrings, to your hips, to your lower back",
+        "The whole thing is when your lower back is perfect, that is directly going to fix your hips as well",
+        "your joints are going to free up, which is going to help you get that stiffness down"
+      ],
+      "timestamp": "00:34:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Audio quality was poor throughout and the prospect, a non-native English speaker, repeatedly asked for questions to be repeated; several passages are machine-garbled and unrecoverable.",
+      "evidence": [
+        "Just so you know, I can't hear or see you just yet. Oh, I can hear you, but it's very, very, very, very silent.",
+        "Sorry, again?",
+        "Sorry, sorry, I didn't get the last sentence.",
+        "So I can feel it in any other stretches that I'm trying to do."
+      ],
+      "timestamp": "00:00:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect's disclosed month-end surplus is self-contradictory within a single turn, so the only quantitative affordability datum on the call is unusable.",
+      "evidence": [
+        "So when it comes to what you have left over at the end of the month, is it like $200, $400?",
+        "Yeah, something like that. Something like that, $1,500 or something."
+      ],
+      "timestamp": "00:47:45"
+    }
+  ]
+}

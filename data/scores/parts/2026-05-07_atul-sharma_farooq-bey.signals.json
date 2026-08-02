@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-07_atul-sharma_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he engaged with, and he probed the mechanics carefully: 'How do you do capability-based [base]lining? Is that you guys provide some exercise and record it and just see?', then 'you said there is a mobility program before bed every day. How long is that?'. Later, on the downsell product, he pushed much harder — 'does it provide like a full workout or does it just provide just that progression of one movement? Would it be like a 25-minute workout?' and 'Are you able to show like a workout from the Structured Foundation or what it looks like?'. He explicitly named this as the only thing he wanted: 'the biggest pillar that I'm interested in is the pillar one.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "Pushed back on relevance rather than content, and had pre-empted it in his opening minute: 'from a diet perspective, I'm not really looking for hand-holding either, I think my diet's fairly good, it's been working for the past three months, I've dropped about seven, eight pounds.' After the pillar was presented he confirmed it: 'I have a nutrition, I mean, when I was living in India, I had the whole nutrition pack... So I have the whole supplements. I have the whole nutrition things customized for me already from there.' He then described his exact daily intake unprompted, which supports the claim."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "Rejected both components explicitly: 'Accountability, I'm pretty headstrong, so I'm good on accountability and I'm not a very social person about communities and stuff. So I'm straight on.' He had also said at the outset 'I don't need a lot of handholding, right? I just need a program that I can do. I'm disciplined enough to kind of go through it.' The pillar the rep calls the most important was the one this prospect valued at zero, and his seven-times-a-week training schedule makes the claim credible."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "expected_price_point",
+      "raw": "I was looking at a couple of hundred bucks a month type thing, right? 150 was, was thinking... my sweet spot is 100 bucks a month. If that was 100 bucks a month, I would have signed up to try it out",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Stated twice and with precision — $150 before the price, $100 after. Against a $4,000 minimum that is a gap of roughly twenty-seven times, and against the $200 fallback it is still double. He also corrected the rep's attempt to reframe it as a value question: 'It's not about the worth. It's my budget. The money I have for allocation for the kettlebell stuff.' A budget ceiling, not a value objection, and therefore not addressable by any of the scripted plays."
+    },
+    {
+      "type": "existing_trainer",
+      "raw": "In fact, my one-on-one coaching and boxing is nowhere close to this, you know, which is with personal trainer at the [gym]",
+      "direction": "undercuts_price",
+      "competitor": "His boxing coach / personal trainer",
+      "note": "He already buys genuine one-to-one, in-person, hands-on coaching from a professional and it costs a fraction of this. This is the same anchor Soneel Raj brought the same day, and it is the hardest one in the corpus: the comparison is not a cheap substitute but a superior delivery model at a lower price. Neither call produced an answer to it."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I'll pick up a kettlebell and just go to YouTube and do a, you know, 20-minute workout that I can find",
+      "direction": "undercuts_price",
+      "competitor": "YouTube",
+      "note": "Already his weekend practice and already producing acceptable results alongside the rest of his training. The rep raised the free route himself at 00:18:09 in order to dismiss it, and the answer he got was the opposite: 'if it doesn't work out, that's what I'll probably end up doing, is going by itself.' The prospect confirmed the free option is his live fallback and the rep did not contest it."
+    },
+    {
+      "type": "monthly_conversion",
+      "raw": "Even at the most, 9,000 about 12 is $750 a month. Oh, yeah, which is way too expensive.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He converted every tier to a monthly rate on the spot, which is the frame in which the offer competes worst — against gym memberships, apps and personal trainers rather than against transformation programmes. Third prospect in this batch to do this arithmetic out loud unprompted."
+    },
+    {
+      "type": "existing_specialist_stack",
+      "raw": "when I was living in India, I had the whole nutrition pack. From what I was there, it was so cheap, right? So I have the whole supplements. I have the whole nutrition things customized for me already",
+      "direction": "undercuts_price",
+      "competitor": "Nutrition and supplement programme obtained in India",
+      "note": "Pillar two is not merely unwanted but already owned, and owned cheaply — which sets his reference price for customised nutrition guidance very low. Fourth prospect in this batch to arrive with part of the bundle already covered."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Programming only — a structured, progressive kettlebell workout-of-the-day he can follow five to six days a week, with no coaching, no nutrition and no community, at roughly $100-150 per month",
+      "why_unmet": "There is no training-only tier. Primal University at $200 per month is the nearest product and is still double his ceiling, and it bundles community and nutrition content he explicitly does not want. This is now the third prospect in two days asking to buy one pillar rather than three.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "To see the actual product before paying for it — he asked twice for a sample workout",
+      "why_unmet": "The rep could not show it: 'Yeah. I can't show anything. The best thing I can just, like, do is essentially have you listen to this video.' A two-minute marketing video was played instead, after which the prospect said 'I'm still kind of figuring out what exactly it provides or not.' A self-serve product being sold with no demonstrable artefact is a sales-enablement gap, not a pricing one.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Combat-sport-specific conditioning — shoulder endurance across ten rounds, explosiveness recovering between rounds, and carryover to hard sparring",
+      "why_unmet": "Named as the concrete success criterion and never addressed. The rep mentioned his own Muay Thai background and noted Trevor appears to have martial arts experience, but no capability, protocol or precedent was offered, and the prospect had already identified this as the reason Trevor's content appealed over other kettlebell accounts.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A promotional or seasonal discount that would bring the entry product to around $100",
+      "why_unmet": "None exists — 'We don't' — and the rep offered to notify him if one appears. Recorded because he stated an unambiguous willingness to buy at that price immediately: 'if there's any promotion that comes around 100 bucks, I'll frickin' jump on it at that same moment.'",
+      "verdict": "product_gap"
+    }
+  ]
+}

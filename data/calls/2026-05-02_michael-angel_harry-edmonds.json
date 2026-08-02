@@ -1,0 +1,145 @@
+{
+  "call_id": "2026-05-02_michael-angel_harry-edmonds",
+  "source": {
+    "drive_file_id": "1ZXJU5wMnOzdjYOjOLGARuaVmDTrQj4sY",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/02/2026 - Michael Angel & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/02/2026 - Michael Angel & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 52298
+  },
+  "call": {
+    "date": "2026-05-02",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 49,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I know you spoke with Kim, he gave me like a little bit of a background so I've got a little bit of a head start anyway.' Prospect independently: 'I brought this up with Kim, and he was like, as soon as he said, like, oh, I'm just the first person you talked to, I was like, okay, I'm in for a big one, I mentioned it, and he was smooth enough to, like, not even mention [the price].'"
+  },
+  "prospect": {
+    "name": "Michael Angel",
+    "aka": null,
+    "name_source": "title",
+    "location": "Canada, Eastern time zone",
+    "age": 57,
+    "occupation": "Physician; also holds a master's and a PhD in physiology. On call for work at times.",
+    "family_status": "Has children who are raised; family dinners are cooked by a long-standing family nanny",
+    "height_in": 71,
+    "weight_lb": 180,
+    "bodyfat_pct_self_reported": 27,
+    "training_background": "Former competitive athlete — basketball, tennis, football growing up — then endurance sport: eight marathons, half marathons and distance cycling. Never did strength training in adult life. Currently cycles and has trained kettlebells consistently for three weeks on a self-designed circuit (45 lb halos, 55 lb two-arm swings, goblet squat to press, reverse lunges, rows, push-ups, five rounds). Owns kettlebells at home, has read Pavel's technique material. VO2 max 52. Can do 35 push-ups in a first set. Has previously used an online cycling coach over winters.",
+    "medical": "Separated his shoulder in a 2004 cycling accident — a visible step deformity remains and the scapula sits off. Overhead press and external rotation produce pain; he avoids cleans-to-press for that reason and has previously done shoulder rehab. Surgery is planned for the autumn, most likely November or December 2026. Body fat self-measured at 27% on a Garmin scale; DEXA scan booked. Family pattern of visceral fat across father and brothers."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.68,
+    "signals": [
+      "Already fit and accomplished — VO2 max 52 at 57, eight marathons, physician with a PhD in physiology — and framing the purchase as recomposition rather than rescue: 'I'm not fat, my arms are muscular, my legs are muscular'",
+      "Price is a timing question, not a barrier: 'it's just the issue of cash flow, but it's not that it's not affordable'",
+      "Buys expertise as a matter of course — has retained an online cycling coach before",
+      "Material overlap with the_medically_constrained: a pre-surgical shoulder that already stops him overhead pressing and a scheduled operation that will interrupt the six months. He is not blocked by a clinician, he is the clinician, which is why this reads as optimizer with a clinical constraint rather than a constrained buyer"
+    ]
+  },
+  "goals": [
+    { "text": "Reduce body fat, particularly the visceral fat around the gut that runs in his father and brothers", "category": "fat_loss" },
+    { "text": "Rebuild upper body — shoulder, chest and core strength — after a lifetime of endurance training with no strength work", "category": "strength" },
+    { "text": "Improve mobility, specifically around the scapula", "category": "mobility" },
+    { "text": "Enjoy a workout that is sustainable and where he can feel himself moving in the right direction", "category": "sustainability" },
+    { "text": "Get the skills and direction to run it himself rather than depend on a trainer — 'I don't want a personal trainer... self-sustainable'", "category": "other" },
+    { "text": "Maintain an athletic lifestyle and functional strength into his late fifties and beyond; health is the stated number one", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Separated shoulder from 2004 with a displaced scapula; overhead press and external rotation cause pain and interrupt every attempt to get back in shape", "category": "injury", "severity": "high" },
+    { "text": "Repeated cycle of starting training, hitting shoulder pain and stopping — 'I got into this cycle of like, I want to get back into shape, I'm doing it, and then I get pain'", "category": "injury", "severity": "high" },
+    { "text": "Lost all upper-body strength through decades of endurance-only training", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Doesn't know whether what he is currently doing is correct — 'I'm doing it, but, like, is that the right thing to do?'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Historically protein-deficient and carb-loaded diet, never tracked macros until three weeks ago", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Limited time; trains first thing in the morning and wants to keep cycling alongside", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Needs external structure to sustain commitment — 'if I know that I've got a specific workout, that can be a motivator for me'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Cash flow squeezed by a large Canadian tax bill just paid", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Um, yeah, it's, it's, it's a lot. Uh, so that's almost $10,000 Canadian.",
+      "timestamp": "00:31:59",
+      "rep_response": "Checked the live exchange rate on the call and corrected the figure to 8,100 CAD, then immediately offered the alternative of two payments of $3,000 USD and framed flexibility as policy: 'the last thing we want is that money be the thing that holds them back from getting what they want.'",
+      "response_tactic": "correct_conversion_then_offer_split",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Okay, I'm, I'm gonna need a week to think about this. I'm definitely not saying no, but I have to consider it. It's probably doable.",
+      "timestamp": "00:33:41",
+      "rep_response": "Ran a genuine OA sequence — isolated belief in the result ('Money aside, do you actually feel confident that if you did do it, you would get the results?'), tested worth ('Would the results be worth the number?'), asked what specifically was coming up, separated logistics from doubt ('is it a case where this is something that I'm going to do, I just need to get the money? Or is there still a little bit of a concern in between?'), then challenged the comfort frame and took a $100 refundable deposit to hold a follow-up.",
+      "response_tactic": "isolate_diagnose_challenge_deposit",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Oh, it's just that right now in Canada it's tax season. So I just got nailed for a tax return... But I made too much, so I had to pay a lot.",
+      "timestamp": "00:35:13",
+      "rep_response": "Accepted the diagnosis and reframed it as affordability-not-in-question ('it's just the issue of cash flow, but it's not that it's not affordable, it's just the timing'), then asked which payment option he leaned toward — he said the split.",
+      "response_tactic": "reframe_as_timing_then_confirm_preference",
+      "resolved": false
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "So I've always been raised where when you make like a financial commitment, you've got to be sort of into it, it's got to feel comfortable... There's just a process of decision-making. So I never want to be hasty.",
+      "timestamp": "00:37:05",
+      "rep_response": "Named it correctly as a search for certainty, then ran a comfort-zone challenge: 'Where do humans grow? Inside their comfort zone or outside their comfort zone?', warned the whole programme would be uncomfortable, and later added 'The certainty you're looking for, you will never find' plus a personal story about spending his life savings on a mentor.",
+      "response_tactic": "certainty_reframe_plus_comfort_zone_challenge",
+      "resolved": false
+    },
+    {
+      "type": "medical_program_fit",
+      "raw_quote": "So I'm actually looking at surgery, maybe in the fall... even if I was to start something, I would put it on hold until this got better, and then I'd be rehabbing it. So that's a factor in my long-term plans.",
+      "timestamp": "00:10:09",
+      "rep_response": "Converted the constraint into a selling point without any clinical inquiry: recommended six months precisely because it terminates at the surgery date and offered to 'prehab that really well' and 'focus on correcting the imbalance of the scapula'. Never asked whether a surgeon or physiotherapist had cleared loaded kettlebell work.",
+      "response_tactic": "reframe_surgery_window_as_prehab_runway",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000, "note": "Converted live on the call to 8,100 CAD at the prospect's request." } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "All up front, or two payments of $3,000 USD. Prospect indicated he would lean toward the split. Separately a $100 USD refundable deposit was taken on the call to hold the follow-up slot.",
+    "guarantee_mentioned": "Deposit only: 'We take a really small deposit, which is refundable... if you don't want to go ahead, we just shoot you the refund back. It's just a hundred US.' No programme-level guarantee stated.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.95,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit deferral with an explicit non-no: 'I'm gonna need a week to think about this. I'm definitely not saying no, but I have to consider it. It's probably doable.'",
+      "Strong intent signals throughout: 'I'm really confident about this', 'I feel pretty confident I'm going to do it', and affordability confirmed as timing rather than capacity",
+      "A $100 refundable deposit WAS collected on the call — link sent via Zoom chat, payment completed, rep confirmed 'you'll have a receipt come through to your email'",
+      "Follow-up sales call scheduled for Wednesday the 6th at 2pm Eastern; calendar invite failed to arrive during the call and the rep undertook to send it manually",
+      "Counter-evidence for treating this as closed: no programme payment, no onboarding call with Trevor booked, and the outstanding blocker is a real cash-flow event (a large tax bill) rather than a resolved doubt",
+      "Counter-evidence on durability: his own stated plan is to pause training around a November shoulder operation, which the six-month term does not accommodate beyond its end date"
+    ],
+    "cash_collected_usd": 100,
+    "cash_collection_basis": "refundable_follow_up_deposit_not_programme_revenue",
+    "next_step": "Follow-up call Wednesday 6th at 2pm Eastern; rep to manually send the calendar invite and to text his number. Prospect to decide within the week, leaning toward the 2 x $3,000 split."
+  },
+  "notable": {
+    "note": "The single clearest clinical exposure in the batch. The prospect is a physician with a PhD in physiology who disclosed a 2004 shoulder separation with a displaced scapula, pain on overhead press and external rotation, and surgery booked for November or December. The rep — self-described as not a coach on another call — responded by selling six months of kettlebell training timed to end at the operation, promising to 'prehab that really well' and to 'correct the imbalance of the scapula', while describing a training circuit of 'swings into snatches, into thrusters'. No question was asked about surgical or physiotherapy clearance. Separately, the prospect gave a first-hand account of the setter deliberately not disclosing price, and the rep confirmed the rationale in his own words."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive. The opening 60 seconds is a single merged block containing both speakers. Whole rep passages sit under 'Michael' — the trifecta mobility explanation at 00:22:04, 'I'll walk you through the next steps and we can talk numbers' at 00:30:27, and the entire nanny/pasta guidance run. Critically, the line 'I've got scoliosis' at 00:11:51 is labelled Michael but is the rep's own disclosure — it is followed by his pull-up decompression anecdote, and he makes the identical disclosure on the Parker Stratton call. It has NOT been recorded as a prospect condition. Roughly 00:30:35 to 00:31:59 and 00:44:03 to 00:47:04 run as unpunctuated blocks; a short passage at 00:28:52 appears redacted ('... ... ...'); the prospect briefly dropped off the call around 00:46."
+  }
+}

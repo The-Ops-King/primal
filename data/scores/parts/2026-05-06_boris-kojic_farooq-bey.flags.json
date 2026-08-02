@@ -1,0 +1,90 @@
+{
+  "call_id": "2026-05-06_boris-kojic_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosed multiple sclerosis with ongoing relapses and a history of complete quadriplegia, and the rep sold coaching for loaded kettlebell training without asking a single question about his neurologist, his treatment, or whether he had been cleared for it.",
+      "evidence": [
+        "I have multiple sclerosis, so I just want to always work out, always keep fit, always have movement.",
+        "always trying to not be in my old, not be in the shoes I was like 15 years ago where I was a completely quadriplegic.",
+        "So I was unable to move, talk and everything, and I managed to get everything back, even though the doctor says I wasn't able to do that",
+        "I think different things coming up in life, pausing my ability to work out because of a sickness or something. don't know. I don't I Having an attack or something like that",
+        "if you want coaching, Trevor's the best in the industry. Unfortunately, Boris, it's not a free lunch. So the investment is anywhere from 1,200 bucks to 9 grand US dollars."
+      ],
+      "timestamp": "00:03:56"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "Rep answered a disclosure of multiple sclerosis with an unverified claim that the company has worked with and helped people with comparable medical conditions, using it as the reassurance that carried the offer.",
+      "evidence": [
+        "We've worked with people, not with MS, but actually maybe one person, but with scoliosis, people with different medical conditions. We've worked with people like that before and we've helped them.",
+        "So ultimately, do you feel like investing into your health and yourself, do you feel like that's worth the investment?"
+      ],
+      "timestamp": "00:23:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted an open price range of $1,200 to $9,000 instead of the published $6,000/6mo and $9,000/12mo tiers; the $1,200 figure corresponds to no known tier and became the anchor for the rest of the call.",
+      "evidence": [
+        "So the investment is anywhere from 1,200 bucks to 9 grand US dollars.",
+        "I would, but how much would it cost me to get like little videos or snippets? I think I could even do this myself now thinking about it."
+      ],
+      "timestamp": "00:23:00"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "On the prospect's hesitation the rep introduced a $200 cancel-anytime product, Primal University, delivered on Skool — a price point and a subscription model not in the published offer.",
+      "evidence": [
+        "we have something called Primal University, which is pretty much that, videos, structure, so you're not going around YouTube and ChatGPT, everything is centralized into an app called School, okay?",
+        "So that's just 200 bucks. You you can cancel at any point in time, but it provides you with that structure."
+      ],
+      "timestamp": "00:27:18"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep offered a cancel-any-time $200 product here, having told a different prospect earlier the same day that the company does not run a subscription model.",
+      "evidence": [
+        "So that's just 200 bucks. You you can cancel at any point in time, but it provides you with that structure.",
+        "[cross-call, same rep, 2026-05-06_ryan-franks_farooq-bey at 00:35:01] You don't need to go to another PT. We don't run a subscription model here."
+      ],
+      "timestamp": "00:27:34"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep endorsed the prospect's expressed contempt for his doctors' prognosis on a call where no clinical input was sought for a neurological condition.",
+      "evidence": [
+        "even though the doctor says I wasn't able to do that, but I proved them wrong. I just flipped them off.",
+        "Good for you, man. You know, that sounds like you dealt with a lot, you know?",
+        "Doctors said to me that I was unable to do that stuff, but I said to him, you, I can do it, so now I'm moving, breathing again"
+      ],
+      "timestamp": "00:04:33"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep invoked a side career in life coaching to tell a prospect who had disclosed depression and cognitive impairment that self-directed training would not serve him.",
+      "evidence": [
+        "And first and foremost, Boris, I'm a coach, you know, aside from having these conversations, I do a bit of life coaching on the side.",
+        "And just hearing what you said about feeling down, feeling depressed, you've known that you've kind of been in a position where your short-term memory doesn't allow you to be consistent. I don't feel like really you going down the path alone, although you're free to do it, is actually going to best serve you, given what you've said.",
+        "I feel depressed, but as I said in the back of my head, I think, this, I can do it."
+      ],
+      "timestamp": "00:26:05"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Diarization inverts speaker attribution repeatedly, including on the rep's own discovery questions and the price quote sequence.",
+      "evidence": [
+        "00:09:36 - Kojic Boris  Do you feel like, where you are right now, you're living up to your 100% potential? No, maybe 75%.",
+        "00:25:00 - Farooq Bey (Primal Instinct)  Deserves the best kind of help and coaching, or- See, I've always been a fighter."
+      ],
+      "timestamp": "00:09:36"
+    }
+  ]
+}

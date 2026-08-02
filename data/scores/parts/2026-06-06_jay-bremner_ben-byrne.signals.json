@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-06_jay-bremner_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Tied it straight to his own goal and argued the case back at the rep: 'a lot of my friends are in the high rocks right now, and I look at those movements and they're so linear... you're talking about activating all these other muscles and stuff like that and I think that just as especially as I get older like I need to pay attention to that the mobility is probably far more important than even the strength aspect.' Also 'I often call it like the vinyasa flow for weightlifters' and, after phase one was described, 'that's pretty straightforward and aligned with what I kind of want to do, for sure.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as the Primal Eating Protocol — simple guidelines rather than macro tracking. No pushback and no questions; he had already volunteered his own 80/20 meat-fruit-vegetables approach. Later cited it as a reason he needed less of the offer: 'a lot of the value that you're offering, I kind of already have structure in a little bit, like, you know, like diet and stuff like that.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Asked mechanics repeatedly rather than reacting to the value: 'app or is it something that you guys use third party?' (TrueCoach), 'Is it a pretty active community? How many people are in your community?' (answered: ~122), and later the decisive one, 'What about, like, the form review and stuff like that? Was that a part of the university?' — the answer, no, is what separated the two products for him."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "So, like, I'm pretty sure I could find somebody for cheaper in-person that would meet with me a few times a week that specializes in kettlebells. I can think of a few off my head already, actually.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Local in-person kettlebell PTs, unnamed and unpriced but assumed cheaper. He is in Vancouver with a live options set in his head, so the $6,000 was compared against a specific, available, face-to-face substitute rather than against nothing."
+    },
+    {
+      "type": "prospect_price_ceiling",
+      "raw": "I think that the value. For me, would be like $6.50 a month, maybe $6.00 is probably what I would be thinking.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Read as $600-650/month against an ask of ~$1,000/month USD ($1,400 CAD). He arrived at it by dividing the six-month price into a monthly rate and converting to CAD unprompted, which is worth knowing: non-US prospects re-anchor on their own currency and the number gets materially worse."
+    },
+    {
+      "type": "currency_conversion",
+      "raw": "So $8,400 for six months. That's like $1,400 per month. That's significant.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The USD price inflated ~40% in his head the moment he converted it. The rep confirmed 'It's American' and then let the CAD figure stand unaddressed for the rest of the call."
+    },
+    {
+      "type": "existing_free_alternative",
+      "raw": "I have accountability groups that I'm in online. I shoot a lot of like men's retreats. It's kind of what I'm like specialized in, I guess, at the moment. so I'm in a lot of those communities and stuff.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He already sits inside multiple accountability communities at no cost, which quietly devalues the pillar the offer charges most for. The rep heard it and never differentiated against it."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Kettlebell technique coaching with video form review, without the full coaching wrapper of nutrition guidance and general accountability he feels he already has",
+      "why_unmet": "Form review sits only in the $6,000 coaching programme; Primal University at $199/month explicitly excludes it — prospect asked directly, 'What about, like, the form review and stuff like that? Was that a part of the university?' and was told no.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A price point between $199/month self-serve and ~$1,000/month full coaching",
+      "why_unmet": "Nothing exists in the middle, which is why the rep improvised a three-month $4,000 tier live rather than offering something sanctioned. The gap between the two real products is roughly 5x.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An offer framed as ongoing lifelong practice rather than a fixed-term transformation with an end state",
+      "why_unmet": "The programme is sold as a six-to-twelve month transformation that graduates you out — 'you don't need us to keep you accountable' — while the prospect explicitly rejects endpoints: 'There's no end goal. It's about the journey for me.' The rep tried to reconcile the two but the six-month container stayed the unit of sale.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Pricing that holds up in Canadian dollars",
+      "why_unmet": "No CAD pricing or regional adjustment exists; the prospect converted it himself and the number became the objection. Unclear whether this is a real constraint on the Canadian segment or one prospect's arithmetic.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

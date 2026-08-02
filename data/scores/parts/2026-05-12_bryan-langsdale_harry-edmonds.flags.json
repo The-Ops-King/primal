@@ -1,0 +1,57 @@
+{
+  "call_id": "2026-05-12_bryan-langsdale_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted a four-point price ladder — $4,000/3mo, $6,000/6mo, $1,200/1mo and $200/mo self-guided — of which only the 6-month figure matches the sanctioned $6,000/6mo and $9,000/12mo offer.",
+      "evidence": [
+        "The coaching for three months would be 4K US, and the self-guided is just 200 bucks a month.",
+        "So that's the highest stuff, for the three months, it's 4K, for the six months, it's 6K.",
+        "But you can also do one month of it as well, which would be just 1,200."
+      ],
+      "timestamp": "00:18:43"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The rep proactively recommended a three-month term that is not in the sanctioned offer before the prospect raised any price concern.",
+      "evidence": [
+        "Alright, well, I'll probably recommend three months then, in terms of like a duration of coaching. Usually we do it over a six or a 12 month, but we do have a three month as well, people kind of in your spot",
+        "it's more like, I just need a push"
+      ],
+      "timestamp": "00:10:21"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated an open-ended upgrade-credit policy — that a client extending from a shorter term pays only the price difference, with no stated limit or expiry.",
+      "evidence": [
+        "And if after a month, if I wanted to go to four months, would I just be able to do the difference? Yeah, you just upgrade the difference.",
+        "We're not the kind of people to say, hey, if you do three months, it's 4K. If you then want to do another three months, it's another 4K. It's just the difference every time."
+      ],
+      "timestamp": "00:24:42"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep volunteered the cheapest product unprompted and downsold immediately on the first price objection, without isolating it or exploring finances.",
+      "evidence": [
+        "The coaching for three months would be 4K US, and the self-guided is just 200 bucks a month.",
+        "Because honestly, the 4K, I'm not going to go for that right now. I'm just going to tell you straight.",
+        "Yeah, I appreciate it. I can show it to you if you like."
+      ],
+      "timestamp": "00:19:12"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization on this transcript inverts whole blocks, attributing rep discovery questions and the entire product screen-share walkthrough to the prospect.",
+      "evidence": [
+        "00:01:35 - Bryan: Cool. What was it that you were hoping we could potentially help you out with, man?",
+        "00:20:08 - Harry Edmonds (Primal Instinct): So, you have... This is going to be probably one of the biggest things for you."
+      ],
+      "timestamp": "00:01:35"
+    }
+  ]
+}

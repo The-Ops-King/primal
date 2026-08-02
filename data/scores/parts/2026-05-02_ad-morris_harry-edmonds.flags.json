@@ -1,0 +1,61 @@
+{
+  "call_id": "2026-05-02_ad-morris_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Six-month one-on-one coaching was quoted as £4,400 rather than the standard $6,000, and then restated as a £730 monthly figure.",
+      "evidence": [
+        "And then we have the coaching, which for six months is 4,400 pounds.",
+        "No, no, no, 730. It's for six months, so it's £4,400 for six months, so it's £730 quid a month for the one-on-one",
+        "I'll figure it out in pounds for you. Hold on, I have to do it."
+      ],
+      "timestamp": "00:12:24"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "high",
+      "summary": "Rep withdrew the high-ticket offer unprompted and recommended the £147/month self-guided product instead, stating that he routinely fails to move Primal University members onto coaching.",
+      "evidence": [
+        "Do Primal University then, man, that's what I would do. Put it this way, I'm in sales and I find it very difficult to upsell people out of Primal University.",
+        "Everyone I try to upsell out of Primal University, like, do you want to talk about coaching? Like, nah, I'm doing great, I don't want coaching.",
+        "I can send you the link and if you want to do it do it if you don't that's fine"
+      ],
+      "timestamp": "00:21:33"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Primal University pricing was quoted in three different figures within thirty seconds, including an annual rate improvised and corrected live.",
+      "evidence": [
+        "That is, I think it's about 150 quid a month. Um, I'll tell you exactly. Yeah. 147 pound a month.",
+        "there is, you can do one year of it as well, it works out to be cheaper. Um, one year of it is, I think it'd be about £1,500 quid. Yeah, £1,400 for a year, or the same a month.",
+        "It's monthly, so there's no commitment period on it."
+      ],
+      "timestamp": "00:13:39"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Rep offered to send Primal University testimonials as the basis for the prospect's decision, then conceded on the call that they largely do not exist.",
+      "evidence": [
+        "Yeah, there's loads of them. I can show you. I can just pull it up and go in the community.",
+        "It's not the main thing we do, so we probably don't have many. I know there's a couple. Most of the testimonials are from the coaching, of course.",
+        "I'll find some, I can shoot them over to you.",
+        "So I'll sleep on it, I'll check those testimonials out, and then, yeah, we'll go from there."
+      ],
+      "timestamp": "00:22:11"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Roughly six minutes of the call are a screen-share of product content with connection problems, leaving what the prospect actually saw unrecoverable from the transcript.",
+      "evidence": [
+        "I'm just waiting for it to load. My Wi-Fi, it's raining, I don't know what's going on. It's on Ethernet as well, but it's taking a while.",
+        "I don't know why it's taking so long man I apologize",
+        "See my screen?"
+      ],
+      "timestamp": "00:17:11"
+    }
+  ]
+}

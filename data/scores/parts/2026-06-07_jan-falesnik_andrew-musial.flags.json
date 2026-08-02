@@ -1,0 +1,109 @@
+{
+  "call_id": "2026-06-07_jan-falesnik_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect who disclosed an MRI-confirmed displaced lumbar vertebra and two years of back pain was sold a kettlebell-swing-based programme, and at no point was he asked whether a clinician had cleared him for loaded ballistic training.",
+      "evidence": [
+        "I was also like in a doctor on the, like, rentgen, you know, on a, so they've been like, I've been in that tube or whatever, I don't know, magnetic resonance. And I know that my, I don't know how it's called, but it's number six from below.",
+        "It's dorsally forward. It's not crashed or anything, but you know, it's sliding.",
+        "But, but it's, it's, it's still not like that I should go for a surgery.",
+        "So the kettlebell swings, all the foundational movements, Trevor builds your program around it. Yeah. So they will force your glutes. So... And hips back to work",
+        "I bet that like for this, the kettlebells are way better than any gym."
+      ],
+      "timestamp": "00:17:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "critical",
+      "summary": "The rep dismissed both clinical routes the prospect had used or was considering — physiotherapy and chiropractic — and substituted his own diagnosis and treatment plan for a diagnosed spinal condition.",
+      "evidence": [
+        "of course, I was going to the physiotherapy as well, but then that really didn't click with me or that really didn't help.",
+        "I'm actually even thinking about going to the chiropractor",
+        "And like going to chiropractor, it's fine, but it doesn't solve the root cause of the back pain. Yeah. Because you need to actually just get stronger",
+        "So here's what's actually happening. When you sit that long, your hips disengage. So your glutes, your butt, stops firing, and your lower back picks up all the load.",
+        "So it's not a stretching problem. That's a movement pattern problem."
+      ],
+      "timestamp": "00:14:52"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The rep made a specific clinical prognosis about the prospect's diagnosed spinal condition and a specific therapeutic timeline, both presented as fact, to build urgency toward the purchase.",
+      "evidence": [
+        "So maybe if you just don't take care of the problem, so maybe in 10 years, your bag is going to be .",
+        "and they start feeling the difference within just first few weeks of incorporating the kettlebell workouts, yeah, so not because they stretch more, because they fix the root cause as we discussed",
+        "I would say that 85% of the time, people that I talk to, they have lower back issues, lower back pain, it's like smoking of 21st century"
+      ],
+      "timestamp": "00:17:50"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The prospect stated he needed to speak to his wife before committing and the rep never acknowledged it, closing and taking payment 23 minutes later without the objection ever being raised again.",
+      "evidence": [
+        "i don't want to really like say straightforward that i need to talk to my wife but i do",
+        "Okay, yeah, let's slow down for a second. Let me ask you something, like honestly. And let's put finances aside for a second.",
+        "From what I'm hearing, you already made the decision.",
+        "All right, processing."
+      ],
+      "timestamp": "00:44:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "The rep claimed to reject 60% of prospects to manufacture scarcity, having told a different prospect the same day that the figure was 70%, during a week in which he had closed no deals.",
+      "evidence": [
+        "to be honest, like I would say 60% of the time I say no, then I say yes, yeah, but I have a good feeling about you",
+        "that's why we're like dialing in on people that we bring in",
+        "i would say 70 percent people that i talk to i say no because they're not ready"
+      ],
+      "timestamp": "00:20:00"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Payment of $6,000 was pursued on a Sunday evening from a prospect who said he was unprepared for it, including waiting while he searched his online banking and fetched his card from his vehicle.",
+      "evidence": [
+        "Of course, I didn't expect you, you will be wanting $6,000 from me on Sunday evening.",
+        "So I was not ready for this at all.",
+        "yeah i'm not sure if i can pay today i mean is it is this mandatory for you guys",
+        "I really apologize. I will need to go for my cart to my vehicle."
+      ],
+      "timestamp": "00:51:53"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The prospect volunteered poor sleep quality and it was never explored, despite sleep being a scripted baseline item and relevant to a training-load prescription for someone with a spinal condition.",
+      "evidence": [
+        "because like for me, I had bad quality sleep. So some time ago, I started to investigate what could help me to sleep better.",
+        "So for me, like, this is a thing now that I don't usually eat after 6pm."
+      ],
+      "timestamp": "00:32:25"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The rep speaks under the label 'Andrew Jin (Primal Instinct)' throughout, so a label-driven parse would credit this close to a different closer.",
+      "evidence": [
+        "Well, right now I live in Kraków.",
+        "yeah, so not far away, but originally I'm from Poznan, so it's on the west side.",
+        "06/07/2026 - Jan Falesnik x Andrew Musial "
+      ],
+      "timestamp": "00:53:22"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The Drive title carries a trailing space and no setter suffix, unlike the rep's other calls that day, even though the transcript names Kim as the setter.",
+      "evidence": [
+        "06/07/2026 - Jan Falesnik x Andrew Musial ",
+        "So, Kim told me a little bit about you.",
+        "06/07/2026 - Mike Chenard x Andrew Musial KFS"
+      ],
+      "timestamp": "00:01:18"
+    }
+  ]
+}

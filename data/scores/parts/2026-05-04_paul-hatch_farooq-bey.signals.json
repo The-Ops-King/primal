@@ -1,0 +1,77 @@
+{
+  "call_id": "2026-05-04_paul-hatch_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "He interrogated the mechanics with the specificity of someone protecting an injury. On onboarding: 'how do you start? What, how do you get that information from me? It's an audit, right?' On safety: 'fundamentally with the kettlebells, it's for me, again, the fear factor slightly. I'm like, well, I don't want to pick them up and start chucking stuff around again. I need to make sure that these guys, because they're not physically here and they can't say, well, hang on a minute, you're doing this.' And on load, where he self-corrected before the rep could: 'I probably have, they're probably too heavy. What's the lightest that you have? 16.' He was told to get an 8kg. Every question about this pillar was a risk question."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "objected",
+      "evidence": "The only substantive pushback in the batch on a pillar's content. On fasting: 'one thing I've never, never really got on with is fasting... I've tried fasting before. I've really struggled with that. It's not suited me at all at any point in me trying it.' He then described what involuntary fasting actually does to him on a workday — 'I go through a stage of feeling hungry, and in some cases, quite angry about it' — and devalued the pillar outright: 'I will need to make sure I'm on point with my nutrition, although in a way, it's the least of the three pillars that I'm overly bothered about.' He holds a nutritional therapy degree, which the rep acknowledged: 'you come from a nutrition science background, so I'm not trying to replace too much here.'"
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "The independence framing landed hardest and he tied it straight to his own goal: 'you're able to carry this into your 60s and 70s and 80s independently, so you're sovereign' — 'Well, that's one of the main things that's drawn me to it because, you know, I want to look after myself.' He also volunteered that having a team behind Trevor was reassuring rather than diluting: 'there's probably a certain level of reassurance that actually he has other people working for him. Because if it was just him, I'd be thinking, well, how much time is he going to be able to give me if he's got 50 other clients?' — a direct comparison with how his previous online coach felt."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "failed_competitor_coaching",
+      "raw": "I dipped into kettlebells about two and a half, three years ago, started training with another American trainer called Colin, does Flow, you probably know him... it didn't quite work out for me.",
+      "direction": "undercuts_price",
+      "competitor": "Colin / Flow",
+      "note": "A named direct competitor in the same modality, same delivery format, already paid for and already failed. This is the sharpest competitor anchor in the batch because it is not a price comparison but a proof-of-failure: he has bought remote kettlebell coaching once and it produced burnout and an unfollowed programme. Everything the offer claims has to clear that memory, and the rep never asked what it cost or built an explicit contrast."
+    },
+    {
+      "type": "sunk_spend_on_the_problem",
+      "raw": "I've spent a fortune on physios, on, you know, balls, Theraguns, all sorts. I've got, you know, there's loads of it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "Cuts both ways and the rep used neither side. He is demonstrably willing to spend on this problem — physios, two personal trainers, gym memberships, recovery equipment — which supports a premium price. He is also visibly fatigued by having spent it without result, which is the fear underneath the affordability objection. No figure was ever obtained."
+    },
+    {
+      "type": "cash_committed_elsewhere",
+      "raw": "the money the business is paying us has been going back into the business for the new business. So we've been earning relatively just enough to cover our bills for the last kind of six months... we've been trying to fund the fit out for the new premises without borrowing too much money.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A structural rather than attitudinal constraint, disclosed unprompted and in detail, and the binding reason this call did not close above $1,200. Note that it is time-limited — the cafe opens in two to three weeks — which makes this a strong candidate for a scheduled revisit rather than a lost deal."
+    },
+    {
+      "type": "currency_friction",
+      "raw": "I don't know what the conversion rate is at the moment, but it's not far off, is it? It's going to be in terms of pounds to dollars?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Minor but real, and recurring for UK buyers: prices are quoted in USD to a prospect budgeting in GBP, so he could not evaluate the number in his own currency during the call. The rep offered to look it up and the thread was dropped."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Confidence that a remote coach can actually see and correct his form often enough to stop him re-injuring the shoulder",
+      "why_unmet": "The film-and-review loop is weekly; his stated risk is every session. He put it precisely — 'I can leave this call now and go in the next room and think I'm doing snatches right, and I'm not, and I'm just going to hurt myself again' — and this was never answered with a mechanism, only with a description of the loop and a promise not to rush. FLAGGED FOR A HUMAN.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A kettlebell programme that works around a shoulder that cannot go overhead and cannot hang",
+      "why_unmet": "The movement library is overhead-heavy — snatches, presses, around-the-worlds — and the concrete limitations he named were never mapped against it. The only accommodation offered was starting light and progressing slowly, which addresses load but not range of motion. Whether the programme can be delivered at all within his current shoulder constraints is not established anywhere in this transcript by anyone qualified to establish it. FLAGGED FOR A HUMAN.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A nutrition approach that does not require fasting, having tried it repeatedly without success",
+      "why_unmet": "The offer explicitly includes fasting protocols and the rep positioned them as important for over-40s and as something Trevor would 'correct' in him. This is the one place where the stated need and the stated product point in opposite directions, and no de-scoping option was offered. Relevant that this is a man with a nutritional therapy degree and a history of burnout with unintended weight loss.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Prices and payment in GBP, and a payment route that does not lean on a credit card he has already said is stretched",
+      "why_unmet": "All tiers were quoted in USD, the conversion question was left open, and the payment plan was referenced in a single clause with nothing structured. For a UK prospect whose objection is liquidity rather than value, this is the gap between a $1,200 trial and a $6,000 commitment.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Written confirmation of the injury refund term he was verbally promised",
+      "why_unmet": "He asked what happens if he gets injured and was told 'Full refund.' Given that he is buying a physical programme with a shoulder that already fails under load, this term is material to his decision and exists so far only as a spoken sentence on a call. Nothing was sent.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-06-23_tyler-kirkwood_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "Named it unprompted as the strongest part of the offer when asked what stood out: 'It being specific and custom, about starting off light... and then, too, when you start talking about the stretching and the mobility, and that kind of going through that de-aging process, in a sense'. He had already pre-sold himself on the modality — 'the way he looks doing the kettlebell exercises is exactly how I would like to look'."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "Asked whether dialling in nutrition would get him to the body fat target, he answered yes and then diagnosed himself unprompted: 'I can eat when I'm bored... being up all the time because of my second job, it causes it can cause me to eat a little bit more' and 'instead of having that kombucha or that one can of ginger ale, that those could be extra bottles of water'. He had already rated his own diet 4-5 out of 10."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "accepted",
+      "evidence": "'Okay. Quite a lot of information around that.' followed by 'No, so far so good.' when asked for questions. He engaged with the mechanics of the app, the form videos and the weekly check-in without pushing back or asking anything, and later folded 'recording the exercises so that if I am doing something wrong, I can be corrected' into what stood out."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "payment_model_expectation",
+      "raw": "Well, is this, is the program something you pay monthly or just?",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "He arrived expecting a monthly subscription, and reached for that reading again immediately after the number landed — 'You said 6k?... Okay, a month?' — before being told it was a single total. The gap between an assumed monthly fee and a $6,000 lump sum is what the rest of the call is spent bridging."
+    },
+    {
+      "type": "third_party_funding",
+      "raw": "since my birthday was the 29th, so I like, I just turned 35. And so my dad was asking me what I wanted for my birthday, and if he could help towards this, that would be great.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A willing external funder volunteered by the prospect within a minute of hearing the price. It is the only thing in the call pointing toward the full $6,000 being payable, and it was set aside rather than worked."
+    },
+    {
+      "type": "existing_facility_access",
+      "raw": "my second job where the facility that I work at, it has a gym that I can use. And that's where I felt that I could take advantage of this program.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He removed the two standard obstacles — equipment cost and time — himself, before price came up. Nothing was spent on convincing him the programme was practical."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Explosive training — box jumps and sprinting at full speed, which he named as the specific capability he has lost and wants back",
+      "why_unmet": "It was surfaced at 00:06:12 and never answered. The pillar presentation covered strength, stamina, conditioning and mobility with no mention of plyometric or explosive work, and no one established whether five-year-old knee problems make loaded ballistic movement appropriate at all. Whether the programme serves this want, or is contraindicated for him, is genuinely unknown from the transcript.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "A structure that works around a 10pm-6am overnight shift — training, eating window and sleep",
+      "why_unmet": "The rep gestured at it once ('because you work so much. We want to make sure it fits around your schedule') but never asked when he sleeps, and the eating-window guidance he gave assumes a conventional day. The programme very likely can accommodate this; nothing in the call established that it does.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

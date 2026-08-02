@@ -1,0 +1,141 @@
+{
+  "call_id": "2026-07-11_alex_richard-claessen",
+  "source": {
+    "drive_file_id": "1C4H4C0BUWozKuPTVT-k7Pmrb9QcJVfpt",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/11/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/11/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 30374
+  },
+  "call": {
+    "date": "2026-07-11",
+    "stage": "closer",
+    "sequence_position": 2,
+    "sequence_note": "References an earlier qualification conversation with a setter named Derek at least three times — 'I already got some information from Derek', 'I think I was talking to, was it Derek', and 'He was saying, you guys don't look for clients for life, you look for people to be with you guys for about six months'. The rep also cites Derek's notes back on the prospect's goals.",
+    "duration_min_est": 30,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": "Derek",
+    "confidence": "high",
+    "evidence": "'I already got some information from Derek, but I would just like to go through where you're at at the moment' (00:01:20); 'I heard from Derek and that's of course with the cutting down' (00:11:00); and the prospect's own recollection of that call at 00:09:59 — 'I think I was talking to, was it Derek, and he was saying, you guys don't look for clients for life.' Same setter as the Sam call two days earlier."
+  },
+  "prospect": {
+    "name": "Alex",
+    "aka": "Briefly appeared twice in the meeting — 'I think I joined in twice or something' — the duplicate participant left before the call proper began",
+    "name_source": "transcript",
+    "location": "United States; not further specified",
+    "age": null,
+    "occupation": "Physician — has just completed medical residency and is starting a new job. Serving in the US Air Force, with a semi-annual physical fitness test.",
+    "family_status": "Married; his wife cooks all their meals",
+    "height_in": null,
+    "weight_lb": 185,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Worked with a paid coach roughly three years ago and went from 185 lb to 155 lb in about sixteen weeks training almost daily, then ran a bulk to 170 lb followed by smaller cuts and bulks. Fell off entirely when residency began and has not trained in roughly a year. Experienced with calorie and macro tracking and uses his own tracking apps. Currently doing push-ups, sit-ups and running only, to prepare for an Air Force physical fitness test at the end of August. Self-rates mobility five out of ten and cannot touch his toes. Has never used kettlebells and is evaluating whether they can work the back and posterior chain adequately without pulling movements.",
+    "medical": "Volunteered a 'pretty long-standing sickness' during residency which he says resolved — 'I had gotten sick previously. That was pretty long-standing sickness. Ended up getting better, fortunately.' The rep asked nothing about it. Also volunteered fructose intolerance: 'I found out I can't eat fruit... I just have gassiness and I can't tolerate the fructose', which he manages by using honey for sweetness. Reports being tight and inflexible. Describes reaching a 'starvation state' at 155 lb during his previous coached cut. No injuries were asked about and none were disclosed. Note the prospect is himself a physician."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.75,
+    "signals": [
+      "Successful professional whose health lapsed during a demanding period and who is now systematically restarting: 'I just finished medical residency, so I was just super stressed, couldn't really work out'",
+      "Has already achieved the target physique once with paid coaching and knows exactly what he wants back — 185 lb down to 162 lb, then slow muscle gain",
+      "Buys analytically rather than emotionally: ran a structured vendor evaluation on this call, asked about progressive overload mechanics, the tracking app by name, check-in cadence and diet philosophy",
+      "Counter-signal keeping confidence moderate: he is price-led rather than quality-led — 'if the price isn't right, then I'm just not going to be wanting to go with you guys' — which is closer to skeptical_bargain_hunter, but he has no cheap incumbent that works, so the bargain-hunter label does not fit either"
+    ]
+  },
+  "goals": [
+    { "text": "Cut from 185 lb to around 162 lb and hold it, rather than repeating the cut-and-bulk cycle", "category": "fat_loss" },
+    { "text": "Gain muscle slowly over time on a progressive overload structure", "category": "muscle_gain" },
+    { "text": "Get structure and accountability — named as the primary ask, twice", "category": "accountability_gap" },
+    { "text": "A repeatable set of six or so family meals that hit his macros and that his wife also enjoys", "category": "other" },
+    { "text": "Improve flexibility now rather than after years of bodybuilding — 'all the bodybuilders that get to where they want to be with that are too tight... it takes them years to get to that point, and it's like, well, why wouldn't I just do that now?'", "category": "mobility" },
+    { "text": "Rebuild confidence through kept promises — 'when you keep promises to yourself, you feel like you're capable and you're doing hard things'", "category": "confidence" },
+    { "text": "Pass the Air Force physical fitness test at the end of August, which he says matters for his career", "category": "hobby_performance" },
+    { "text": "Build a nutrition system he can keep for life — 'I'd like to build a system that I can use for the rest of my life where we just have good recipes that are just family meals'", "category": "sustainability" }
+  ],
+  "pains": [
+    { "text": "Decision fatigue after long clinical days — 'every day I'm working pretty hard and just making tons of decisions. So like coming home and planning a workout is hard for me'", "category": "accountability_gap", "severity": "high" },
+    { "text": "All-or-nothing pattern that stops him starting — 'if I don't have a plan and I can't keep to the plan... then I feel like I shouldn't do it or I can't do it'", "category": "motivation", "severity": "high" },
+    { "text": "Has not trained in roughly a year and fell off entirely during residency", "category": "consistency", "severity": "high" },
+    { "text": "Loses dietary control when his wife cooks — 'as soon as my wife came into play, no offense to her at all, but I just fell off because she'd make better food'", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Previous coached cut ended in what he describes as a starvation state at 155 lb, followed by a prescribed bulk he disagreed with", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Fructose intolerance limiting how he satisfies a sweet tooth", "category": "medical", "severity": "low" },
+    { "text": "Tight and inflexible; self-rates five out of ten and cannot touch his toes", "category": "training_barrier", "severity": "medium" },
+    { "text": "Does not know how progressive overload works in practice — 'I know all the knowledge from the health standpoint, I don't know the physical training as much'", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Uncertain that kettlebells can train the back and posterior chain without pulling movements", "category": "program_fit", "severity": "medium" },
+    { "text": "Lost time during a long illness through residency", "category": "medical", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "timing_other",
+      "raw_quote": "I probably wouldn't want to start this plan until I finish that, which would be at the end of August. And that's just because I literally just want to do push-ups, sit-ups, and a run so I can pass this thing.",
+      "timestamp": "00:01:45",
+      "rep_response": "Tested it once, well — 'let's say you would see that with us, and you feel like, yeah, this actually is exactly what I'm looking for, this is what I want to do, I want to get started. Would you then still be like, no, we're gonna wait a month?' — got 'Probably, to be honest', and then accepted it and proposed reconvening after the test.",
+      "response_tactic": "test_premise_once_then_accept",
+      "resolved": false
+    },
+    {
+      "type": "program_longevity_proof",
+      "raw_quote": "I know I want some help, I just don't know if kettlebells are fully the choice I want to go with yet, because it seems like there's a little bit of a limit on how much it can do... it seems like you have to integrate in pulling movements with pull-ups or something like that to get your back worked a little bit better.",
+      "timestamp": "00:05:17",
+      "rep_response": "Never answered. The question about pulling movements and body-group coverage was raised twice and both times the rep responded about weight progression and form instead. The prospect had already noted himself that Trevor's content shows pull-ups and dips, which was the reason he took the call.",
+      "response_tactic": "none",
+      "resolved": false
+    },
+    {
+      "type": "value_at_reduced_scope",
+      "raw_quote": "is there only enough content that you guys are able to sell, kind of thing? You know, like, can you guys progress further from that, or are you guys just teaching the basics and the concept is easy enough for us to progress on our own?",
+      "timestamp": "00:09:59",
+      "rep_response": "Answered directly and reasonably: 'It's simple. It's not easy... it comes down to making sure that your form is going to be okay, and you don't learn the form in a month... you will eventually have a basis to which you can keep on building... we don't want to coach for life.'",
+      "response_tactic": "reframe_foundation_takes_months_and_confirm_graduation_model",
+      "resolved": true
+    },
+    {
+      "type": "price",
+      "raw_quote": "So that would be like $1,000 a month, is that what you're saying? ... That would be more than what I'd want to spend.",
+      "timestamp": "00:26:56",
+      "rep_response": "No money play was run at all. No isolation, no financial picture, no payment plan, no value reframe. The rep answered a different question about how Trevor selects clients, and later offered to reconvene after the fitness test.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": false,
+    "presented_on_prior_call": false,
+    "tiers": [],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Described only in principle: 'we don't really do per month overall. It's usually just an investment for yourself. We sometimes split it up over months, but it's usually just an upfront investment.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.75,
+    "close_rule_applied": null,
+    "evidence": [
+      "No price was ever stated. Asked three times, the rep gave 'at least in the four figures', then 'that range is usually between like 2,000 and 8,000', then 'usually it's around like the middle, so around like 5,000, 6,000'. The $6,000 figure used on every other call in this batch was never given as the price.",
+      "No close was attempted, no payment discussed and no offer formally presented.",
+      "The prospect declined to book anything: 'I'm not interested in setting up an appointment right now, just because I don't know what my schedule will be. I'm starting setting up a new job.'",
+      "Agreed re-contact only, owned by the rep: 'I'm just putting it in my calendar. So I have a reminder... I will just contact you at around that time.' A kettlebell video was offered.",
+      "Counter-evidence toward lost: the prospect stated a price ceiling below the range implied ('That would be more than what I'd want to spend') and told the rep openly that he is running a comparison process across providers — 'I'd rather set up meetings and talk to you guys over the next couple of weeks and find the person that works for me'.",
+      "Counter-evidence against lost: he gave no refusal, engaged in detailed product due diligence for twenty minutes, and named the specific thing that attracted him to Primal over competitors — the integration of pull-ups and dips with kettlebell work."
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send a kettlebell video and to contact the prospect around the end of August, after his Air Force physical fitness test. Nothing booked."
+  },
+  "notable": {
+    "note": "This is the closest match to the stated ICP in the entire batch — a physician who has just completed residency, serving in the Air Force, whose health lapsed under work stress and who wants to get back to a physique he has held before — and he is the one prospect who was never given a price. Asked directly three times, the rep answered 'at least in the four figures', then 'between like 2,000 and 8,000', then 'around like 5,000, 6,000', and prefaced it with 'it depends a little bit'. That is a materially different offer from the fixed $6,000 quoted flatly to every other prospect in this batch, and it implies discretionary pricing. The rep also attempted to have the prospect name his own budget first, which the prospect declined. No commitment check, no consequence frame and no money play were run at any point. Separately, the prospect volunteered a 'pretty long-standing sickness' during residency and a fructose intolerance, and neither was followed up — mitigated, but not excused, by the fact that he is himself a doctor."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Substantial inversion, including two long fully-swapped passages. From roughly 00:05:55 to 00:07:32 the rep's questions and the prospect's answers are entirely inside blocks labelled 'Alex'. The block at 00:11:00 to 00:12:00 attributed to the rep contains the prospect's confirmations. At 00:16:00 the rep's nutrition question sits under Alex's label, and at 00:22:00 and 00:27:05 the price statements and the prospect's reactions are inverted — the line 'That would be more than what I'd want to spend' is under the rep's label but is unambiguously the prospect's. Roles read from content throughout. Transcription mangles the app name: given as 'Guhanas', then spelled 'K-A-H-U-N-A-S' and echoed back variously as 'K-A-H-U-A-S' and 'K-A-U-N-A-S'; Kahunas is the evident intended name."
+  }
+}

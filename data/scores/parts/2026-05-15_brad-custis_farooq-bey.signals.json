@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-05-15_brad-custis_farooq-bey",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Took notes, confirmed the daily mobility cadence back ('Every day. Yeah.') and answered the check with 'No, makes sense.' No questions about mechanics and no pushback, despite this being the pillar most directly affected by his hamstring."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "'Makes sense.' Notably flat given that he had disclosed raised blood sugar and a diet-versus-medication decision fifteen minutes earlier — neither he nor the rep connected the nutrition pillar to it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Accepted the pillar then interrogated the delivery model: 'is Trevor the only coach within this process? mean, is he the only one that does everything?' and followed with 'What's your connection to Trevor?' and 'why have you stuck with him... Why Trevor over others?' Understanding-level questions rather than objections, and the rep's answers held."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "competitor_price",
+      "raw": "here comes the hammer for some stupid, ridiculous number. Just being real straight. I've had a couple of people and it's like... everything sounds great until we get to here.",
+      "direction": "undercuts_price",
+      "competitor": "Other kettlebell coaches he has already spoken with",
+      "note": "He arrived with a formed expectation that high-ticket coaching pitches end in a number he considers unreasonable, and said so before the price was given. No figure was named, so the anchor is a category judgement rather than a competing quote — which makes it harder to dislodge, not easier."
+    },
+    {
+      "type": "household_obligations",
+      "raw": "Like, I also have four kids. I also have things I've got to do, right? I have bills I have to pay. So it's not just successful and those type of things.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "A direct rejection of the ICP framing the rep had been using ('business owners, executives, CEOs'). He is telling the rep that the busy-and-successful label does not imply discretionary cash, and he is right — this is the same finding icp.json records about income screening."
+    },
+    {
+      "type": "sunk_equipment",
+      "raw": "I actually bought a couple kettlebells. I have some 12 kg kettlebells I bought, and I just never put to use because I'm like, I don't even know what I'm doing with these things.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Already owns the hardware and a squat rack. His gap is instruction, not equipment, which is exactly what makes a $200/month information product feel sufficient to him and $6,000 feel like a premium on top of gear he already paid for."
+    },
+    {
+      "type": "own_lower_tier_product",
+      "raw": "You'll notice that it's 200 bucks a month, but I see it as a 200 buck investment because you can cancel that any time.",
+      "direction": "undercuts_price",
+      "competitor": "Primal University (Primal Instinct's own product)",
+      "note": "Rep-introduced rather than prospect-held, and it immediately became the reference price — the prospect's closing line was that Primal University is 'more where I'm at'. Once a $200/month in-house option is on the table, the $6,000 has to justify a 30x multiple in the same conversation."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "One-to-one coaching, structure and form correction at a price a two-job father of four can carry — he wanted 'someone who understands not just goals, but also can help put a program together' and said plainly 'I can't spend $6,000'",
+      "why_unmet": "There is nothing between $6,000 for 1:1 and $200/month for self-serve. The in-house payment plan was mentioned in passing but never structured, and no mid-tier coached option exists to offer.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Help bringing raised blood sugar down through diet and exercise rather than starting medication — 'they're like, you either go the dietary route or you go the medicine route. And I'm like, I would rather do diet and exercise'",
+      "why_unmet": "The disclosure drew no response at all. Whether the nutrition pillar is positioned to support someone managing a metabolic marker, and whether it should be without clinical involvement, was never established on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confidence that he can load his body again eight months after a hamstring injury — 'I just don't trust myself right now'",
+      "why_unmet": "The programme plausibly addresses this through assessment and progressive form work, but nobody said so. The rep's answer was a generic 'start light' and a weight recommendation rather than the assessment-and-audit process he had described minutes earlier.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

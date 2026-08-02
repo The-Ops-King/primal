@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-14_maciej-chodorowski_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "The rep invented a one-month trial priced at $1,200 with the remaining $4,800 payable on continuation, splitting the $6,000 offer into a tier that does not exist.",
+      "evidence": [
+        "We can do love it or leave it. Sounds very cringe, I know. Basically, what that means is that you do it for a month. That's 1,200. It's a little bit more. And then if you feel like, I absolutely love this, we just continue and do the rest. And it's like, we just do the rest of the 4,800. If you're like, no, it's not for me, then you leave it there."
+      ],
+      "timestamp": "01:07:22"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "Having quoted the improvised trial at $1,200, the rep restated the same trial as 'around a thousand' and then as '1,000 euros' within ten minutes without correcting himself, leaving three different figures for one product on the table.",
+      "evidence": [
+        "you do it for a month. That's 1,200. It's a little bit more.",
+        "Yeah, okay. So this is like around a thousand. Okay, so there's a difference there, of course.",
+        "Yeah, and if this doesn't go, it's only a thousand.",
+        "So what's the risk of 1,000 euros?"
+      ],
+      "timestamp": "01:13:13"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "The rep continued rebutting for roughly forty minutes after the prospect first declined on price, and challenged a stated intention to sleep on the decision with 'Will you really?'.",
+      "evidence": [
+        "I mean, it's still too much.",
+        "Well, I will think about it. I will sleep on that. Will you really?",
+        "Well, yeah, for now I think it is like this, yes. Because the difference of the price is too big.",
+        "I wouldn't force you to do anything. It's just from what I've heard, I don't want to give up on you and just let you go in that direction because I know that this will work for you.",
+        "Of course, like a car out of like 1990, it'll still work even if it driven 500 kilometers, but probably not gonna drive as good as a car at 2006."
+      ],
+      "timestamp": "01:19:17"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "The prospect disclosed a history of spine problems and the rep asked no follow-up about diagnosis, treatment or clearance before presenting a plan to progress him past 20 kg kettlebells.",
+      "evidence": [
+        "when I had much more weight, I had obviously much more mobility problems, I have some problems, had some problems with my spine. Uh, but you know, after losing weight, I do not have the spine aches anywhere, anymore.",
+        "Okay. Where, where would you say you're the most stiff at? Is it like, where specifically in your body?",
+        "Only when that's the case, you're going to go from like the 16, 20 pound dumbbells to actually more, where you're also going to gain more strength over time."
+      ],
+      "timestamp": "00:11:13"
+    }
+  ]
+}

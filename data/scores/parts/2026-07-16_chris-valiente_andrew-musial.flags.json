@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-07-16_chris-valiente_andrew-musial",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "A prospect with an unresolved spine fracture, receiving nerve blockers as an interim measure until anticipated spinal surgery, was taken to the point of purchase on a six-month loaded kettlebell programme with no clinician clearance sought for the programme itself.",
+      "evidence": [
+        "he kind of briefed me in on your situation, like the spine fracture and the fact that you're still fighting with the med board on it. Is that correct?",
+        "I will drive myself down to Moncrief and go get where you told me to go get nerve blockers because that's dealing with it until we're ready for surgery.",
+        "these conditions that make me non-deployable with a unit that is deploying in six months",
+        "So when you're going to meet with Trevor, he will definitely get into details of your schedule, of your lifestyle, what can you do, what you cannot do, all of that, because the whole program is going to be designed around that.",
+        "I would just love to do more of it and have that coaching to make sure I'm doing it correctly so I don't get hurt."
+      ],
+      "timestamp": "00:01:17"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The rep encouraged the prospect to fund a fitness coaching programme through a Health Savings Account, a tax-advantaged medical expense account, without establishing whether the product is an eligible expense; the prospect emailed his employer's HR during the call to arrange self-reimbursement.",
+      "evidence": [
+        "I wonder if it'll let me use my HSA for this. I don't know what they let me put on that thing, but if they do, like, I put money on that every month, too.",
+        "Yeah, that's actually a cool thing. If that could work.",
+        "Okay, so it doesn't take the HSA card, which is fine. Then the next question will be for my HR to see if I can reimburse myself with the card. I'm going to email them now.",
+        "it also lowers your taxable income, which is like a whole thing that you have to care about here",
+        "I have emailed HR to see if they'll let me reimburse myself with HSA, which just lets me use that for payments because then I could do smaller payment plan or more frequent payment plans."
+      ],
+      "timestamp": "00:49:38"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The financing route approved on the call produced a total customer cost of $7,800 for the $6,000 six-month programme — $650 a month over twelve months — and no company-side instalment plan was offered as an alternative.",
+      "evidence": [
+        "So for the whole transformation process, the investment is 6K. That's it.",
+        "Yeah, it's $6.50 monthly. And for the 12 months.",
+        "It's 12 months of $650, and that's doable.",
+        "We actually are using Pava. It's the same thing. What's your credit score?",
+        "Ooh, 580, 586."
+      ],
+      "timestamp": "00:48:22"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "No recording disclosure appears anywhere in this sales call, in a conversation in which the prospect disclosed a spinal injury, an active medical board case, his credit score and his autism diagnosis.",
+      "evidence": [
+        "00:00:32 - Speaker 1 Hello.",
+        "00:00:34 - Andrew Jin (Primal Instinct) Hey, Chris. How you doing, man?",
+        "Ooh, 580, 586.",
+        "A weaponized autism. Yeah, they sure did."
+      ],
+      "timestamp": "00:00:32"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect is diarized as 'Speaker 1' for the entire call and is identifiable only from two incidental mentions by the rep, so any automated participant extraction will fail on this file.",
+      "evidence": [
+        "00:00:34 - Andrew Jin (Primal Instinct) Hey, Chris. How you doing, man?",
+        "00:56:53 - Andrew Jin (Primal Instinct) That's actually what I wanted to ask because your surname is Valiente, correct?",
+        "00:04:59 - Andrew Jin (Primal Instinct) Yeah, I just want to fill in the gaps that are still missing for me."
+      ],
+      "timestamp": "00:56:53"
+    }
+  ]
+}

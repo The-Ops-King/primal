@@ -1,0 +1,47 @@
+{
+  "call_id": "2026-05-22_parth-shukla_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Programme priced entirely in Canadian dollars at figures that moved during the call — quoted as 8,200 CAD for six months and 12,500 CAD for twelve, then charged at 8,280 CAD — with a monthly alternative quoted at roughly 10,000 CAD for the same six months.",
+      "evidence": [
+        "The six months comes in at 8,200 Canadian and the 12 months is 12,500 Canadian.",
+        "So it's either 8,280 Canadian, um, upfront, or if you do it in two payments, it's 4,140.",
+        "you can do it monthly, but it works out to be in 10,000 Canadian pretty much for the six months",
+        "So it's a little bit less on the 12 months."
+      ],
+      "timestamp": "00:26:15"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Prospect stated in his first answer that he understood the coaching to be for people aged thirty and above and that he will not turn thirty for a couple of months; the rep never confirmed, corrected or addressed it and closed the sale.",
+      "evidence": [
+        "And again, like, I just, I'll be touching 30 in a couple of months. I know the coaching is for 30 and above, essentially.",
+        "But what I seek is, like, I think by 35 or 40, or even, like, in my early 30s, I want to be the fittest in my group.",
+        "All right, dude. You ready to rock and roll? Oh, yeah."
+      ],
+      "timestamp": "00:00:16"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Rep stopped the recording at the point of taking card details, so the corpus contains a close whose payment step is evidenced only as commenced, not completed.",
+      "evidence": [
+        "Did you want to do it on like a Visa, MasterCard, credit card? Yeah, the credit card should be okay.",
+        "Okay, man. All good. I want to make sure I get all your information correct. Let me just remove the recording."
+      ],
+      "timestamp": "00:34:29"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Recording begins mid-sentence during the rep's opening frame, so an unknown portion of phase one including any setter read-back is absent from the file.",
+      "evidence": [
+        "00:00:00 - Harry Edmonds (Primal Instinct) / Build out what it is that you want to achieve, and then if everything makes sense, we can talk about the coaching."
+      ],
+      "timestamp": "00:00:00"
+    }
+  ]
+}

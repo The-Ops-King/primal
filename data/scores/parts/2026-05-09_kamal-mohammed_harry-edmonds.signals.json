@@ -1,0 +1,55 @@
+{
+  "call_id": "2026-05-09_kamal-mohammed_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call — the pillars were presented on 2026-05-08. The only training content here was a one-line answer to a logistics question: 'Is it just kettlebells though? ... It's kettlebells and, like, calisthenics stuff.'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call. Nutrition appeared only as a differentiator against the $200/month community — 'There's no like nutrition plan' in the self-guided product."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "not_presented",
+      "evidence": "Not delivered on this call as a pillar, though the rep invoked the principle when pressing for payment: 'I want to hold you accountable, right? Because if you say to Trevor, hey man, I'll do the workout on Monday instead of today, I want to hold you to the standard.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "internal_low_tier_product",
+      "raw": "I've been seeing his programs and stuff. It says $200 a month memberships. What's the difference between what you're saying and what I'm seeing?",
+      "direction": "undercuts_price",
+      "competitor": "Primal Instinct's own Skool community",
+      "note": "The prospect found the company's own $200/month product independently, online, between calls, and arrived comparing it to a $6,000 six-month commitment. This confirms the low tier is publicly listed rather than a rep improvisation, and it makes the Varun Shankar call the previous day more notable, not less: there the rep volunteered it as an alternative, here he correctly refused to. The prospect dismissed it himself — 'that's way like too low' — but it reset his sense of the range before the price discussion."
+    },
+    {
+      "type": "spouse_price_reaction",
+      "raw": "I told my wife yesterday, she's like, you're crazy. You're going to pay 6,000.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The most decisive anchor on the call. The price has already been judged in the household and judged badly, and the prospect returns to her twice as the reason for delay. It is the only concrete blocker he names all call, and it was the one the rep dropped after a single question."
+    },
+    {
+      "type": "self_generated_price_ladder",
+      "raw": "if I was to say like $1,200, $1,000 to $6,000, $7,000, that's still a difference within the six months, you know, where I'm coming from",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "Having been given four prices in ninety seconds, the prospect began constructing his own range and then attempted to negotiate inside it with 'Would you do a thousand monthly?'. Presenting a ladder invites bargaining on the rungs; the rep held firm, but the negotiation only existed because the ladder did."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "Enough visible client transformations to believe the programme works — 'a community of people, like where I can see like a lot of results and transformations... That's really the only reason people, like, do, by seeing results and think, oh, if they did it, I can do it too'",
+      "why_unmet": "The rep's answer was a volume claim of over 1,200 clients coached and a screen-share of existing interviews, and the prospect had already seen that material and found it thin: 'I've seen this page, there's only like a couple of people.' The gap is between the claimed client base and the evidence a prospect can actually find and browse, which is a marketing asset problem rather than a delivery one.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Certainty that transformation is achievable for him specifically before committing $6,000",
+      "why_unmet": "He asked directly whether it was even possible, and received assertion — 'Yeah, 100% it's possible' — with no mechanism, no comparable client, no before-and-after from someone starting from his position of ten years untrained. Nothing in the offer as presented converts belief into evidence for a prospect who does not already believe.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

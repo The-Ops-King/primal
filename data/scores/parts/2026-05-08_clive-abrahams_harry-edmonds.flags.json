@@ -1,0 +1,63 @@
+{
+  "call_id": "2026-05-08_clive-abrahams_harry-edmonds",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $100 refundable deposit was charged and collected purely to reserve a follow-up call slot, justified by manufactured scarcity, after the prospect had already been told freely that he could go away and speak to his wife.",
+      "evidence": [
+        "That's absolutely fine. If I told you, no, I'd be an , right? What we typically do in this scenario. So when we do follow up calls with people, it obviously takes away from somebody else having a call and we have so many calls coming in. It's just me and one other guy taking them.",
+        "what we usually do is you do a really small deposit that's refundable. So it's a hundred. $100, which is like £70, £75, just as a refundable.",
+        "If it gives you a load of issues with doing it, then it's fine, but it's just typically what we do.",
+        "Okay, 73. Oh, yeah. It looks like it's worked."
+      ],
+      "timestamp": "00:37:39"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "The entire programme price was quoted only in pounds, at £4,400, converted live by the rep, while the checkout charges in USD — so the figure the prospect agreed to is not the figure he would be billed.",
+      "evidence": [
+        "What's your best currency since you're all over the place? Well, I'm in the UK now. Pounds is your best currency? Pounds, yeah, that's for sure, yeah. All right. Let me convert it for you.",
+        "So for the full six months, everything will win. Through, in pounds, it's 4,400, so 4,400 pounds.",
+        "Okay, USD, okay, so I take it, the payment would be, it's out of the country, right? It's, it's in US dollars, or? Uh, yes, yes, yes.",
+        "And it says 100 US. 100 US. It's about, I'll tell you how much it is. About £80... 73 pound 42 is what it is."
+      ],
+      "timestamp": "00:33:00"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The rep attached a 90-day deadline to the instalment option, stating that paying later would change the price, but never disclosed what the higher price would be.",
+      "evidence": [
+        "What I typically suggest in terms of paying it is usually, like, if you can do it up front, do it up front, or do it in two payments. So do half down and then half in two months or three months, because that keeps it at that price.",
+        "you do one payment down, which would be 2200 then 2200 in 60 to 90 days, whenever's the best. Um, as long as it's before 90 days."
+      ],
+      "timestamp": "00:33:42"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "medium",
+      "summary": "A 57-year-old disclosing high cholesterol, joint pain, longstanding lower back weakness and two years of near-total inactivity was moved toward high-intensity ballistic kettlebell training with no health-conditions question asked and no clinician clearance raised.",
+      "evidence": [
+        "I'm finding that, um, climbing stairs, I'm feeling pain in my joints, my bloody, uh, what's his name is, uh, cholesterol levels is high.",
+        "I, historically, have lower back pain, and, you know, I've done what I can do in order to compensate for that",
+        "the first time I went to the JD Jump, oh my god, I did five minutes of stepping and I was half dead",
+        "your VO two max is going up. Cause like, it's, it's still cardio as a combination. It's more so like sprinting cardio than it is running or cycling. It's more of a, I guess a higher intensity level"
+      ],
+      "timestamp": "00:06:16"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The rep diagnosed the cause of the prospect's longstanding lower back pain and asserted how to resolve it, generalising from his own scoliosis, and the prospect adopted the explanation.",
+      "evidence": [
+        "I won't get too scientific with you but I'll give you the information is what I learned from my scoliosis, pain comes from imbalances",
+        "when it comes to getting rid of the pain it's not about stretching it's about correcting the imbalances you've got",
+        "for me when i used to have a lot of back pain is because my lower back because my scoliosis was compensating for my core",
+        "I won't say I have scoliosis, but due to the lower back weakness that I have traditionally or historically, I realized that that's been happening in me as well"
+      ],
+      "timestamp": "00:23:00"
+    }
+  ]
+}

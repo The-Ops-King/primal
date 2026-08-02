@@ -1,0 +1,142 @@
+{
+  "call_id": "2026-05-09_stephanie-lee_harry-edmonds",
+  "source": {
+    "drive_file_id": "1eTiP2SjV6YGnk29vUEn-XH0v5mqB4y_e",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/09/2026 - Yousof El Shamashergy x Harry Edmonds ",
+    "display_title": "05/09/2026 - Yousof El Shamashergy x Harry Edmonds  — Closed",
+    "file_size_bytes": 53546
+  },
+  "call": {
+    "date": "2026-05-09",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 45,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK — states it is his first time home in two years and he usually lives in South America or Asia", "additional_reps": [] },
+  "setter": {
+    "code": null,
+    "name": "Kim Forbes-Sobers",
+    "confidence": "medium",
+    "evidence": "You spoke with Kim, I think, previously, right? Yes, I think it was Kim or someone. I forgot. Setter named on the call but the title carries no setter code, so the code field is left null."
+  },
+  "prospect": {
+    "name": "Stephanie Lee",
+    "aka": "Steph Lee",
+    "name_source": "transcript",
+    "location": "San Francisco, California, USA; works some days in the South Bay",
+    "age": 34,
+    "occupation": "Endodontist, working as an independent contractor. Did her residency in Philadelphia. Describes crouching over patients as part of the job.",
+    "family_status": "Lives with her female partner. Half Taiwanese, half Shanghainese.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Took up running three years ago and describes it as her main thing and her pure joy. Has run three Boston Marathons, the most recent in April this year — her first after injury and her fastest, a six-minute personal record. Credits physical therapy strength work for the improvement. Some dumbbell work and a little self-directed strength training. Ongoing weekly physical therapy appointments. No kettlebell experience at all.",
+    "kettlebell_experience": "none",
+    "medical": "In December sustained what she describes as a freak accident tearing her labrum and her ATFL. Rehabilitated through physical therapy to the point of running again and setting a marathon personal record in April. Still in active physical therapy at the time of the call — she scheduled her onboarding around it, 'my PT ends at 3:00'. Also reports a small amount of lower abdominal fat and bloating that she associates with a stressful working period, and posture deterioration she attributes to crouching at work. No clinician was consulted or referenced regarding suitability for loaded kettlebell training."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "Already fit and already successful — a three-time Boston Marathon finisher and a dental specialist who describes herself as lean",
+      "Explicitly good-to-great framing: 'I kind of just want to see how strong I can get and how it can translate into other aspects of my life'",
+      "Price treated as a logistics question rather than a value question — 'I could probably do like 3000 right now' and 'let's just get it, so I don't have to think about it again'",
+      "Wants to add a dimension rather than fix a deficit: strength to complement running, not to replace it",
+      "Counter-signal: she is five months out from a labral and ligament tear and still in active rehabilitation, which is the one respect in which she is not simply optimising"
+    ]
+  },
+  "goals": [
+    { "text": "Build functional strength that complements her running rather than replacing it, and makes her running more efficient", "category": "hobby_performance" },
+    { "text": "See how strong she can get and how that translates into the rest of her life", "category": "strength" },
+    { "text": "Be able to lift luggage into an overhead bin without asking for help or fearing injury", "category": "longevity_function" },
+    { "text": "Better posture, and not crouching over by the end of a working day", "category": "mobility" },
+    { "text": "Improve mobility and feel solid and stable", "category": "mobility" },
+    { "text": "Lose the small layer of lower abdominal fat and look more defined, described as a bonus rather than the objective", "category": "appearance" },
+    { "text": "Learn kettlebells with a professional so she does not hurt herself", "category": "injury_prevention" },
+    { "text": "Guard against the bone and stress-fracture risk she associates with being a female runner as she ages", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Torn labrum and torn ATFL in December, rehabilitated but still under active physical therapy", "category": "injury", "severity": "high" },
+    { "text": "Afraid of injuring herself attempting kettlebell work unsupervised", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Limited time as a working professional", "category": "time_scarcity", "severity": "medium" },
+    { "text": "Posture deteriorating from crouching over patients at work", "category": "injury", "severity": "medium" },
+    { "text": "A persistent layer of lower abdominal fat she did not used to have, which she links to a stressful overworked period", "category": "emotional", "severity": "low" },
+    { "text": "Diet she describes as not the best — pastries, chocolate milk, protein bars, historically a lot of takeout", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Difficulty keeping the household eating well when her partner prefers pasta, risotto and Asian food", "category": "relationship", "severity": "low" },
+    { "text": "Feels she has little baby muscles that are there but not fully formed", "category": "confidence", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "risk_of_harm",
+      "raw_quote": "it was cool watching Trevor do, like, the, just, like, the mobility and stuff, and I'm like, I want to do that, but not hurt myself, so I want to, like, be with a professional person who understands, like, kettlebells, and, like, the technique, and, like, the form, and all that.",
+      "timestamp": "00:04:25",
+      "rep_response": "Answered with the first-month form-mastery framing and video form review with Trevor. Twenty minutes later addressed the injury directly with a guarantee: 'obviously you said you tore your labrum. We make sure that won't happen again.' Never asked what the injury involved, what her restrictions are, or whether her physical therapist would clear the training.",
+      "response_tactic": "form_first_framing_plus_reinjury_guarantee",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Okay, I do have to see if I have that kind of money, but I will, yeah, 6k, okay. And then is it all at once, or like, 1,000?",
+      "timestamp": "00:37:02",
+      "rep_response": "Confirmed most people pay upfront, pivoted into the tax write-off pitch, and offered a split. The prospect proposed $3,000 now and $3,000 in two to three months herself, and the rep confirmed that two payments keeps the price at $6,000.",
+      "response_tactic": "tax_writeoff_framing_plus_split",
+      "resolved": true
+    },
+    {
+      "type": "life_event_conflict",
+      "raw_quote": "I'm gonna be in Shanghai at the end of the month... I'm leaving on the 22nd, and then I'm back on June 1st.",
+      "timestamp": "00:41:19",
+      "rep_response": "Committed on the spot to pausing and extending: 'Worst case scenario is we just pause for a week and give you the week back if it's complicated, so don't worry about that.'",
+      "response_tactic": "offer_to_pause_and_extend_term",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000, "terms": "paid upfront" },
+      { "months": 6, "price_usd": 6000, "terms": "two payments of $3,000, second within three months" }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$3,000 on the call and $3,000 within three months, which the rep confirmed holds the total at $6,000: 'If you do two payments, like 50 50, it stays at 6k. If you break it down more than that, the numbers go up.' The amount of the increase beyond two payments was not disclosed. The prospect asked whether she could take two months rather than three and was told it did not matter within the window.",
+    "guarantee_mentioned": "No commercial guarantee. A medical assurance was given instead: 'obviously you said you tore your labrum. We make sure that won't happen again.' Also a term commitment — a week's pause and a week added back to cover her trip to Shanghai.",
+    "prospect_financials": {
+      "available_now_usd": 3000,
+      "monthly_surplus_usd": null,
+      "has_savings": null,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Unambiguous verbal commitment: 'Cool, I think I should be able to do it. Let's just get it, so I don't have to think about it again.'",
+      "Payment collection began on the call — 'and then yeah for the payment it's super simple, oh let me turn the recording off'",
+      "Onboarding call with Trevor booked for Wednesday at 3:15pm Pacific, deliberately worked around her physical therapy appointment ending at 3:00",
+      "Email verified twice, character by character, and confirmed added to her calendar",
+      "Payment structure agreed and initiated by the prospect herself: $3,000 now and $3,000 within two to three months",
+      "Counter-evidence: the recording is cut at the point of card capture, so nothing in this corpus confirms the $3,000 was actually taken",
+      "Counter-evidence: she was still asking a payment-timing question as the recording ended — 'do I just like reach out in like two three months because I could probably pay it in two months'"
+    ],
+    "cash_collected_usd": 3000,
+    "cash_collection_basis": "first of two equal instalments; balance of $3,000 due within three months, total $6,000 — the approved split, no premium applied",
+    "next_step": "Onboarding call with Trevor Wednesday 3:15pm Pacific; Trevor to advise on kettlebell weights to purchase; programme built within 24-48 hours of that call. Programme to pause for her 22 May to 1 June trip to Shanghai."
+  },
+  "notable": {
+    "note": "The one textbook ICP fit in this batch — an endodontist, three-time Boston Marathon finisher, wanting good to great, closing at full price with no resistance — is also the single highest clinical risk in it. She disclosed a torn labrum and torn ATFL from December in her opening answer and is still in weekly physical therapy, which she referenced again while scheduling. Not one follow-up question was asked about the injury, and no clearance from her physical therapist was sought; instead the rep guaranteed 'we make sure that won't happen again' and described a first circuit of swings into snatches. The tax write-off offer appears for the third time in three days and escalates: to a healthcare professional currently in rehabilitation, the rep suggested the coaching fee could be framed 'as rehab', and stated that around 70% of clients are business owners or contractors. The Drive title names a different person entirely."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and sustained. Long stretches run both speakers together under one label with no turn breaks — 00:11:26 to 00:13:00, 00:16:30 to 00:18:01, 00:19:58 to 00:22:06, 00:29:59 to 00:31:02 and 00:33:38 onward all merge the rep's presentation with the prospect's replies. Individual inversions are frequent: at 00:14:14 the prospect's success answer is partly under the rep's label, and at 00:32:45 the prospect's question about kettlebell brands sits under the rep's. Role was read from content and by gender reference throughout. The speaker label reads 'Steph Lee' and the verified email is stephanie.lee.dmd@gmail.com; the file title names Yousof El Shamashergy, who does not appear on this call."
+  }
+}

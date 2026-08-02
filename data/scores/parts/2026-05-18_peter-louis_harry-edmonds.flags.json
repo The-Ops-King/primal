@@ -1,0 +1,105 @@
+{
+  "call_id": "2026-05-18_peter-louis_harry-edmonds",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The prospect named in the file title does not match the person on the call — the device label reads 'Josh Thorne's iPhone' and the rep addresses him as Josh, so either the title is wrong or a different person attended the booked slot.",
+      "evidence": [
+        "00:00:02 - Josh Thorne's iPhone",
+        "If you have a heart attack, we're not going to be like, well, you still owe us some money, Josh.",
+        "It's called quality billiards in game rooms... I bought that about seven years ago, totally overhauled it, was a 48-year-old business, now it's a 55-year-old business, and prior to that I flew helicopters professionally for 13 years, all civilian."
+      ],
+      "timestamp": "00:00:02"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep proactively offered a one-month trial at $1,200 and described trials as established, repeated practice rather than a one-off concession.",
+      "evidence": [
+        "What I would say to you is if you're uncertain, you can do a month trial. And if you like it, you can carry on. If you don't like it, that's fine too. You just call it after a month.",
+        "And what's the month commitment? 1,200.",
+        "In three months, every person who's done a trial that I've signed up on a trial has continued. That's what I'll tell you. Actually, apart from one guy, but he was ill.",
+        "I'd do a one-month trial, man. It sounds like there's a level of certainty that you don't have that you want"
+      ],
+      "timestamp": "00:23:13"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "Rep quoted a three-month tier at $4,000 alongside the standard tiers, then said he does not usually offer it.",
+      "evidence": [
+        "We do have longer programs. Brian. We do have a three-month as well, but I feel like you want to, it sounds like you want it to be more of a lifestyle than like a rushed three months.",
+        "Yeah, the six months is 6K, three months is 4K in terms of numbers, so you've got that info.",
+        "To be honest with you, a lot of people do six or 12. I don't really offer people three-month that often, to be honest with you."
+      ],
+      "timestamp": "00:11:11"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "medium",
+      "summary": "Rep disclosed and screen-shared a $200 per month self-guided product to a prospect being asked for $6,000, opening a thirty-fold price gap he then did not defend.",
+      "evidence": [
+        "We do have a self-guided option as well, but it's not coaching. It's basically just resources for you to utilize and integrate into your own.",
+        "What does that one cost? 200 a month.",
+        "I can show it to you just so you have clarity. Hold on. So full tutorials of every movement that you would do, single, double, all the maces.",
+        "So you have basically one-on-one, which is on... So 1K a month, and then you have a 3-month for 4K, and a 6-month for 6K. And then the other one is just programming?"
+      ],
+      "timestamp": "00:14:23"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep stated pause and cancellation policies ad hoc and without defined terms, describing cancellation as case-by-case with a heart attack as the illustrative threshold.",
+      "evidence": [
+        "You guys have pauses? Yeah. Okay. If you need to pause, you can pause.",
+        "And then if you obviously sign up for three months or six months, that's your commitment. Yeah. And you're just, there's no cancellation, anything. It depends, right?",
+        "If you have a heart attack, we're not going to be like, well, you still owe us some money, Josh. Yeah. It depends. It depends on factors."
+      ],
+      "timestamp": "00:21:14"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "Rep described a weekly live group training session as part of the offer, contradicting his statement to another prospect two days earlier that the programme includes no calls at all.",
+      "evidence": [
+        "There's a weekly workout, which is more group, which is a live session with other clients.",
+        "We don't do videos call because it's kind of, we used to, but it's kind of a waste of time because you have 24-7 support."
+      ],
+      "timestamp": "00:17:08"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep disclosed confidential internal company metrics — active client count, capacity cap, headcount and team composition — to a prospect who had not bought and who is himself a business owner probing the economics.",
+      "evidence": [
+        "how many clients does Trevor have on one-on-one? Active. Yeah. Exact number. It's around 120. I can't remember it specifically.",
+        "can't really coach, Trevor can't coach 300 people at the same time. We like to keep it around 150-ish.",
+        "Just how big is his team altogether? Four, you've got four sales guys. Well, one girl, three sales guys, marketing guy, operations guy, probably about 12 people.",
+        "He's obviously decent, low overhead for having 120 clients on rotation every single month. Yeah, dude. He's doing very well."
+      ],
+      "timestamp": "00:16:28"
+    },
+    {
+      "category": "conduct",
+      "severity": "medium",
+      "summary": "Rep asserted that a named competitor uses steroids and volunteered a personal connection inside that competitor's coaching staff.",
+      "evidence": [
+        "That guy's on for sure. Yeah, he's on . He's from Liverpool. Yeah, I know him. He's opened a load of gyms in England.",
+        "Well, I know one of my cousin's friends is Shredfast Coach. So, yeah, I know that if you buy Shredfast, you're not being coached by the Shredfast guy."
+      ],
+      "timestamp": "00:21:51"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "low",
+      "summary": "Rep used unverified quantitative claims about the client base as fit and social proof, in terms his own pipeline in this same folder does not support.",
+      "evidence": [
+        "We don't really have any of the slouch, you guys. The people who get our program are mostly people who are good looking to go to great",
+        "I would say 70% of the people I speak to are business owners. I'd say 40% of the people I speak to already have abs.",
+        "I never speak to those, because I used to work with a different fitness company, and that was more so like, I'm 280 pounds, and I need to lose 100. We don't have those people."
+      ],
+      "timestamp": "00:18:47"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-07-11_fabien-collec_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "The only pillar he interrogated, and the questions were specific and practical. On dosage he corrected the rep's framing from his own experience — 'I tried like 30 to 40 minutes. It's impossible right now' — and then asked the question that actually matters to him: 'I don't know when to stop. Okay, I'm at 20 minutes, do I push to 25 and risk burning, or when do I know when to stop? ... do I force myself to, or maybe risking an injury?' He also paraphrased the mobility component back in his own words to check he had it: 'get a bit of workout and also some mobility to get more in, get the dust of the body.' The answer he received on the stop question was a generic listen-to-your-body heuristic."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Accepted the protocol as delivered — 'Okay. Perfect' and 'Yeah, it is' to whether he could stick to it — and gave a small confirming signal on the eating-window mechanism: 'Yeah, it's starting to feel that.' Worth recording that his two live nutrition questions came earlier, in discovery, and neither was answered: he asked whether he should add supplements ('should I do with complements, like whey, protein? Should I add this to my routine and my stuff to maximize the results?') and raised that he does not count anything. The protocol as described also does not reference the intestinal condition he had disclosed twenty-five minutes earlier."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "enthusiastic",
+      "evidence": "Asked what stood out most from the whole presentation, he selected this pillar unprompted and tied it to his own stated gap: 'No, I think it's fine. The guidance and everything. I think that's the thing I'm looking for right now.' It maps directly onto what he had named as his blocker earlier — 'I know what I need to do. I'm aware of that. I'm committed to do it, but I don't know exactly how to do it, which exercise, which food, when, where.' He raised no questions about the app, the check-ins or the community."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "price_expectation",
+      "raw": "I thought it would be a bit cheaper, to be honest. So I need to check that and everything... It's a bit higher in price than I originally thought it would be.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "An internal anchor formed with no external number, because nothing was pre-framed — he said outright 'I haven't seen it anywhere' about the price. This is the cleanest case in the batch for setter-side price pre-framing: the objection is not that $6,000 is unaffordable but that it exceeded an expectation nobody had shaped."
+    },
+    {
+      "type": "committed_expenses",
+      "raw": "I got some stuff that I need my money to buy for my wealth and for my health and everything... I think it will be between like 5 to 10k at this point... around in my bank account it's around 10k something like this I guess",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The decisive number, and it is genuinely tight rather than an excuse: roughly €10k liquid against €5-10k already earmarked. $6,000 on top would consume most or all of the remainder, which is exactly why he repeated 'I don't want to start if I can't finish.' His caution is arithmetic, not psychological."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I bought a small kettlebell to start and doing some exercise at home, trying to do stuff that I see online... I check online, found some video, some advice and everything",
+      "direction": "undercuts_price",
+      "competitor": "free online kettlebell content",
+      "note": "He has already bought the equipment and started training from free content. What he says is missing is not access but selection — 'there's so many information that too much information is just too much' — which is the real value proposition and was never named as such against the price."
+    },
+    {
+      "type": "sunk_commitment",
+      "raw": "you've already got the kettlebell yourself, right? The first one, I think it was 10 kilos, right? Yeah.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He bought a 10 kg bell, has an apartment set up for it and says 'I enjoy so far the kettlebell, it's practical, it's easy, I can do it home.' Modality risk is effectively zero and prior commitment is real, which supports the price. Mild but genuine."
+    },
+    {
+      "type": "rejected_category",
+      "raw": "I'm not the kind of guy to go like to a gym membership and go there alone and work out with my headset and everything. I'd rather do something home",
+      "direction": "supports_price",
+      "competitor": "gym membership",
+      "note": "He has ruled out the cheapest mainstream substitute on temperament grounds, twice, and also ruled out dancing and other gym-based sports. That narrows the field considerably in the offer's favour and was never used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A rule for how hard to push and when to stop, given a condition that requires him to hold back — asked directly and with real anxiety behind it.",
+      "why_unmet": "Answered with 'when your body just says, like, you need to stop now, and that comes down to being like, I'm just exhausted, take some rest', plus an assurance that the coach would answer such questions. No threshold, no autoregulation protocol, and no reference to the condition he had disclosed. For a prospect who said 'I cannot go like too hard', a listen-to-your-body heuristic is the one answer that does not help.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Guidance on supplements and protein powder — 'I was wondering also with complements, should I do with complements, like whey, protein? Should I add this to my routine and my stuff to maximize the results?'",
+      "why_unmet": "Never answered. The rep moved from the supplement question straight to 'do you know how much protein you take at the moment?' and the nutrition pitch later mentioned counting protein initially but never returned to supplementation. Almost certainly something the coach does cover, and nobody said so.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Nutrition that works with a chronic intestinal condition — the stated reason he is already focused on fibre and whole foods.",
+      "why_unmet": "The protocol described is generic whole foods plus a 12-14 hour eating window plus increased protein, with no reference to the condition, which was never identified. Whether time-restricted eating and a higher protein load are appropriate for him is unknown to everyone on the call.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "An activity he can stay emotionally attached to the way he was to horse riding — the thing he says has defeated every previous attempt.",
+      "why_unmet": "Raised at length and never addressed. He said 'it was really hard for me to find something that kept me wanting to go... to be honest, I haven't found it yet, even.' The offer answers structure, knowledge and accountability; it does not answer attachment, and no part of the pitch attempted to. This is the strongest predictor on the call of whether six months would be completed.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

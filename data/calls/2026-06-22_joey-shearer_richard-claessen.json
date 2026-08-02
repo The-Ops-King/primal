@@ -1,0 +1,136 @@
+{
+  "call_id": "2026-06-22_joey-shearer_richard-claessen",
+  "source": {
+    "drive_file_id": "1peVYXfmXYRoe08a6yNWg_f3fumMDytqq",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/22/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 71359
+  },
+  "call": {
+    "date": "2026-06-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 64,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Joey Shearer",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Utah, USA",
+    "age": 29,
+    "occupation": "Office-based professional; works in the office three days a week and describes nine-hour desk days. Specific role never established — the rep never asked.",
+    "family_status": "Married eight years, has children",
+    "height_in": 71,
+    "weight_lb": 178,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Gym roughly three times a week with a friend for two to three years pre-COVID; built a home gym in the basement (treadmill, spin bike, dip bars, pull-up bar, parallettes, punching bag); a structured calisthenics programme for about three months which built visible muscle but was stopped because of dizziness; previously a half-marathon runner. Currently not training.",
+    "kettlebell_experience": "none",
+    "medical": "A kidney disease in which all kidney tissue produces stones — 'I have kidney stones all the time and I'm always passing them and creating more'. Increasing water intake raises pressure and pain, which is why he drinks roughly 12 oz a day. Long history of depression, in remission for about six weeks; sees a therapist. Reported dizziness and light-headedness during inverted calisthenics work."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.6,
+    "signals": [
+      "Self-directed and equipped — built his own basement gym and ran a structured calisthenics programme that 'actually built a decent amount of muscle'",
+      "Arrived with a firm cheaper anchor and quantified it: 'I think I can get a nutrition... And personal trainer for easily under $400 a month'",
+      "Named his own price band rather than raising an affordability problem: 'Probably around $200 to $300, I'd be all in. But at $1,000, that's probably a no.'",
+      "Counter-signal: also carries rebuilder traits — a long depression he has just come out of and a wish for his body to 'catch up' — so the assignment is not clean"
+    ]
+  },
+  "goals": [
+    { "text": "Something sustainable and repeatable he can keep doing for years rather than another three-month burst", "category": "sustainability" },
+    { "text": "Drop from 178 lb to roughly 160-165 lb and lose the fat sitting over his abs", "category": "fat_loss" },
+    { "text": "Gain muscle — self-rates physique 5/10, wants to reach 7/10", "category": "muscle_gain" },
+    { "text": "More energy through the day so he is not too fatigued to train at night", "category": "energy_performance" },
+    { "text": "Get flexible — cannot touch his toes, wants to be able to play with his kids as they get older", "category": "mobility" },
+    { "text": "Set an example for his kids and be able to train alongside his wife and his 53-year-old father", "category": "family_role_model" },
+    { "text": "Feel good about the way he looks and the way his body functions", "category": "confidence" },
+    { "text": "Build the habit properly this time — 'I probably didn't do it long enough for it really to become a habit'", "category": "consistency" }
+  ],
+  "pains": [
+    { "text": "Chronic kidney disease producing constant kidney stones; drinking the water that would prevent them increases the pressure and the pain", "category": "medical", "severity": "high" },
+    { "text": "No idea how to feed himself — 'I'm very ignorant when it comes to like, how do I even cook for myself?' after growing up with a working father and a chronically sick mother", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Erratic eating — often does not eat until 3 or 4pm, then over-eats at dinner and snacks as late as 11pm; drinks about 12 oz of water a day", "category": "nutrition_habit", "severity": "high" },
+    { "text": "No accountability training alone in the basement — 'somebody who's alone in their basement, trying to work out on a routine schedule without any gamification, it's just, it's hard'", "category": "accountability_gap", "severity": "high" },
+    { "text": "Heaviest he has ever been, roughly 10 lb gained in six months", "category": "consistency", "severity": "medium" },
+    { "text": "Goes to bed at 12-1am and names chronic sleep deprivation as a factor", "category": "sleep", "severity": "medium" },
+    { "text": "Mentally exhausted from the working day even after hours — 'just exhausted from the day-to-day job, even when it's not time for the day-to-day job'", "category": "work_stress", "severity": "medium" },
+    { "text": "Stopped calisthenics because the inverted work made him dizzy and light-headed", "category": "training_barrier", "severity": "medium" },
+    { "text": "Long history of depression, in remission about six weeks, and aware it could return", "category": "mental_health", "severity": "medium" },
+    { "text": "Work has been extra busy for the last six to eight months and crowded training out", "category": "time_scarcity", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "Yeah, way more than I was thinking.",
+      "timestamp": "00:56:12",
+      "rep_response": "Asked whether the amount was undoable or not felt to be worth it, isolating affordability from value rather than defending the number.",
+      "response_tactic": "isolate_affordability_vs_value",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I think I can get a nutrition... And personal trainer for easily under $400 a month. That's local that I can see in person. So yeah, I love that you guys make yourselves available, but it's still not an in-person trainer. And so I'd probably expect to pay less than $400 a month. Probably around $200 to $300, I'd be all in. But at $1,000, that's probably a no.",
+      "timestamp": "00:56:56",
+      "rep_response": "Asked why, if that price is available locally, he had not already gone to someone in person; then asked whether the specific goals were worth six grand; when the answer was 'I just think I could do it for less', introduced a $200/month Primal University tier.",
+      "response_tactic": "why_havent_you_already_then_downsell_to_lower_tier",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "I mean, I'll chat with my wife.",
+      "timestamp": "00:57:26",
+      "rep_response": "Did not run the spouse play. Said 'If you already feel like it's a no, then that's fine. But like, you don't need to say yes to make me happy', then at the end of the call took his WhatsApp number and told him to go and talk to his wife.",
+      "response_tactic": "permission_to_decline_then_defer_to_whatsapp",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 2000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Mentioned only in passing and not pursued: 'Overall, it's always, like, one thing upfront. Here and there, we've sometimes done it in monthly aspects.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "No payment taken, no payment link sent, no agreement discussed and no onboarding call with Trevor booked",
+      "Prospect deferred to his wife with a stated timeline: 'Probably the next 48 hours. I'll have an answer for you.'",
+      "Rep moved the thread to WhatsApp and asked him to message either way: 'let me know if you want to get started'",
+      "Counter-evidence that this is closer to lost than to a live follow-up: the prospect priced the flagship at 'probably a no' and said he was 'fully sold' only outside of price",
+      "Counter-evidence in the other direction: he said that at $200 a month 'I'd probably say, yeah, let me go talk to my wife and I'll sign up today', and the rep then quoted him exactly that tier, so a lower-tier sale is genuinely live"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to speak to his wife within 48 hours and reply on WhatsApp; if he proceeds the rep offered a 15-30 minute setup call plus a later progress check-in."
+  },
+  "notable": {
+    "note": "Two things a manager would want. First, the rep introduced himself as 'more of a mindset coach here' on a sales call he was running as a closer. Second, when $6,000 was refused he moved to a $200/month Primal University tier inside about four minutes without running the scripted money play, and quoted it as '$200 a month for two grand a year', which does not reconcile. The prospect's chronic kidney-stone disease was disclosed and acknowledged but no clinical clearance was ever raised, and the rep gave him hydration guidance ('yes it might hurt a little bit but you're going to basically need to drink') on a condition where increased water is what causes his pain."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive line-level inversion throughout. The rep's label repeatedly carries the prospect's own biography — 'I'm just right at the cusp of 30' (00:01:35), 'I weigh more than I've ever weighed' (00:04:06), 'The other days, I just don't eat lunch' (00:06:53) are all attributed to Richard Claessen but are plainly Joey Shearer. The reverse also occurs, e.g. the price quote 'we have an investment of 6K' sits under the rep correctly but the immediately preceding and following turns alternate wrongly. Long unbroken passages around 00:32-00:37 and 00:43-00:45 are merged into single speaker blocks. Role was read from content throughout."
+  }
+}

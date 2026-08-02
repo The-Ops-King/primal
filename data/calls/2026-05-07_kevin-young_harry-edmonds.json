@@ -1,0 +1,131 @@
+{
+  "call_id": "2026-05-07_kevin-young_harry-edmonds",
+  "source": {
+    "drive_file_id": "1iRyG-th-PkYUtppNPggwi1dFAoHQ8UOd",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/07/2026 - Kevin Young & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/07/2026 - Kevin Young & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Follow Up",
+    "file_size_bytes": 33497
+  },
+  "call": {
+    "date": "2026-05-07",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 30,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'did you, you spoke with Kim I think right' / 'yes' / 'he gave me like a background of you so I'm already ahead'."
+  },
+  "prospect": {
+    "name": "Kevin Young",
+    "aka": null,
+    "name_source": "title",
+    "location": "Florida, USA",
+    "age": 29,
+    "occupation": "Business owner — started young; works with a CPA",
+    "family_status": "Married with three children; wife has long taken a holistic approach to health and has influenced his own perspective",
+    "height_in": 75,
+    "weight_lb": 225,
+    "bodyfat_pct_self_reported": 17,
+    "training_background": "Serious bodybuilding background — 'I went hard at it years ago' — then two to three years off and on-and-off ever since. Describes himself as athletic and well versed in movement. Very little kettlebell experience beyond basics. Plays recreational American football in local leagues. Eats an animal-based diet when in a training cycle: meat, eggs, dairy, fruit. Tried Trevor's free workouts about a year ago. Wants roughly 200 lb at about 12% body fat.",
+    "medical": "No conditions or injuries disclosed. Reports general stiffness — 'less stiff in the hips, I'm always stiff. The knees, ankles could be better.' Sleeps about seven hours and describes it as not optimal; energy levels below where he wants them and a heavy caffeine reliance he wants to break."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.8,
+    "signals": [
+      "Already athletic with a real training history and framing this as an upgrade rather than a rescue: 'I'm an athletic person, I'm just trying to get the best out of all that right now'",
+      "Successful young business owner with three children whose health slipped down the priority list rather than collapsing",
+      "Moving from bodybuilding to a holistic model deliberately — 'everything about my life has been more about approaching everything more holistically'",
+      "Realistic and specific about the target — 225 lb to 200 lb, 16-17% to about 12%, better mobility — which the rep contrasted favourably with prospects who want unrealistic outcomes",
+      "Price registered as friction rather than a barrier: 'definitely a lot pricier than I was anticipating', immediately followed by working out how to structure it rather than whether to buy"
+    ]
+  },
+  "goals": [
+    { "text": "Take a more holistic approach to training and be more nimble and able-bodied rather than doing typical push-pull-press work", "category": "mobility" },
+    { "text": "Get from 225 lb to around 200 lb and from roughly 16-17% body fat to about 12%, while adding muscle", "category": "fat_loss" },
+    { "text": "Reduce stiffness in the hips, knees and ankles and stay athletic for recreational American football", "category": "hobby_performance" },
+    { "text": "Get his energy up and break a heavy caffeine reliance", "category": "energy_performance" },
+    { "text": "Make training a lifestyle rather than an on-and-off cycle — 'that's really the change I want to make'", "category": "consistency" },
+    { "text": "Be held accountable, which he names as the single biggest thing he wants from coaching", "category": "other" }
+  ],
+  "pains": [
+    { "text": "On-and-off with training for the last two to three years after a serious bodybuilding period", "category": "consistency", "severity": "high" },
+    { "text": "Health was not a priority while running a business and raising three children — 'just not prioritizing the health with the little amount of time I do have left'", "category": "time_scarcity", "severity": "high" },
+    { "text": "Persistent stiffness in the hips, and knees and ankles that could be better", "category": "training_barrier", "severity": "medium" },
+    { "text": "Energy below where he wants it and a caffeine dependence he wants to break", "category": "other", "severity": "medium" },
+    { "text": "About seven hours of sleep, which he knows is not optimal", "category": "sleep", "severity": "medium" },
+    { "text": "Bodybuilding left him strong in one dimension but not nimble or able-bodied", "category": "training_dissatisfaction", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I mean, it's definitely a lot pricier than I was anticipating. No, not going to lie there. What's the process? Are you going to send me over a contract or something like that?",
+      "timestamp": "00:25:08",
+      "rep_response": "Described the onboarding sequence and a two-page agreement, then asked directly whether it was a financial concern, and reinforced the tax write-off route he had already introduced before the price.",
+      "response_tactic": "describe_process_then_diagnose_concern",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "I mean, yeah, that it's, it's a big, big, uh, ticket to, to take out. I mean, if I can swing it with, you know, through the business as a as a write-off, that's obviously more definitely doable to do. So I'd have to look into that with, I guess my CPA would know more about that if that's doable.",
+      "timestamp": "00:26:35",
+      "rep_response": "Encouraged the accountant conversation and supplied the framings to use — health, injury prevention, injury rehabilitation — citing a client from the previous day. Then isolated the decision ('is this something that you want to go ahead with?') and asked what he would do if the accountant said no, which produced a fallback of splitting the payment personally.",
+      "response_tactic": "supply_tax_framings_then_isolate",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Um, hopefully I'll get a reply tomorrow, by tomorrow. So hopefully the next 24 hours, if that works.",
+      "timestamp": "00:27:52",
+      "rep_response": "Accepted the 24-hour window and took a $100 refundable deposit to hold the follow-up slot, framed as a commitment signal with a full refund if the accountant route fails.",
+      "response_tactic": "deposit_hold",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 1200, "note": "Rolling monthly presented as the worst-case route: 'you can do it monthly, but there's some extra added on. So it's 1200 a month' — $7,200 over six months." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Up front on a credit card preferred, ideally through the business; or two payments of $3,000 with the second at two months; or monthly at $1,200 with the stated premium. Separately a $100 refundable deposit to hold the follow-up call.",
+    "guarantee_mentioned": "Deposit only: 'we just take a super small deposit, which is refundable. It's just a hundred bucks... if it's impossible, then that's fine. We just shoot you the hundred bucks back.' No programme-level guarantee.",
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.9,
+    "close_rule_applied": null,
+    "evidence": [
+      "Decision explicitly deferred to a third party: 'I'd have to look into that with, I guess my CPA would know more about that if that's doable'",
+      "Timeline set at roughly 24 hours — 'hopefully I'll get a reply tomorrow'",
+      "Conditional yes given on isolation: 'if I'm able to take that down... that would be the big thing. And then I'd be ready to move forward'",
+      "A $100 refundable deposit was agreed — 'Okay. Sure.' — to hold the follow-up slot",
+      "No programme payment, no onboarding call booked, and the requested written proposal had not been sent when the recording ended",
+      "Counter-evidence on strength of intent: the fallback is real — he said that if nothing can be written off he would take it on personally and split the payments — so the deal is not purely contingent"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Rep to send written details including the numbers; prospect to speak to his CPA about deductibility within 24 hours; $100 refundable deposit to hold the follow-up call."
+  },
+  "notable": {
+    "note": "The clearest demonstration in the batch of what the tax pitch does to a deal. The rep introduced the business write-off unprompted at 00:23, roughly ninety seconds before naming the price, and the prospect immediately adopted deductibility as his decision criterion — 'if I can swing it with, you know, through the business as a write-off, that's obviously more definitely doable'. The purchase is now gated on an accountant confirming that a personal fitness programme can be described as something else. The rep supplied the descriptions to use — health, injury prevention, injury rehabilitation — and for the second time in two days disclosed the same other client's identifying details. Seventh recording in this batch stopped at the payment or deposit step. On the process side this was one of the better calls: the sleep and energy question ran, the goal was quantified, and the money isolate was clean."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent, and worsened by a genuinely poor connection on the prospect's side with at least four acknowledged dropouts ('you cut out on me', 'what was the last thing you heard?'). Labels invert throughout — the rep's opening frame at 00:00:00 runs as one unbroken block containing both speakers, and the entire 'why do you want to switch over' probe at 00:03:00 sits under the prospect's label. Long merged stretches at 00:14:56 to 00:20:00 and 00:23:51 to 00:24:30, the latter containing the tax pitch and the price. Some words are lost where the line dropped. The file ends as the rep removes the recorder."
+  }
+}

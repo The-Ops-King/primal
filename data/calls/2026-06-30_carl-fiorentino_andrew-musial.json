@@ -1,0 +1,140 @@
+{
+  "call_id": "2026-06-30_carl-fiorentino_andrew-musial",
+  "source": {
+    "drive_file_id": "1rZkIw4zpg0Sn_R6ZRt7iVTvBKMeYrxce",
+    "drive_folder": "Andrew Musial",
+    "original_title": "06/30/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/30/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 22561
+  },
+  "call": {
+    "date": "2026-06-30",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 24,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Andrew Musial", "role": "closer", "location": "Poland" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Carl Fiorentino",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "United States, Eastern time zone",
+    "age": 69,
+    "occupation": "Business owner — moved office in November and built a company gym; rep calls him 'a business guy'",
+    "family_status": "Four children, ten grandchildren; girlfriend of five to six years; not married",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trains at the company gym every morning at 6am, has trained most of his life, lifts the same weights as his sons aged 35 and 36, does beach workouts with medicine balls, writes the programming other gym members follow",
+    "kettlebell_experience": "some",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.85,
+    "signals": [
+      "69 and already training daily in a gym he built; no rescue narrative anywhere in the call",
+      "Wants to 'get cut' and lose a little stomach fat — a good-to-great refinement, not a turnaround",
+      "Owns a Tesla, takes a boat to the Bahamas for a month; no affordability resistance to the $6,000 figure itself",
+      "Asked for price unprompted — 'I just get to the pricing' — a buyer's move, not a flincher's"
+    ]
+  },
+  "goals": [
+    { "text": "Get more 'cut' and lose stomach fat", "category": "fat_loss" },
+    { "text": "Wants training that is harder and different — kettlebell routines look more fun than what he does now", "category": "other" },
+    { "text": "Wants a program he can run on a boat and on the beach during a month away from his gym", "category": "convenience" },
+    { "text": "Keep performing at 69 and not become 'one of those old guys that succeed and just give up'", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "His own 6am gym routine has become boring — 'it just gets boring after a while, I like doing different things'", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Leaving for a month on a boat on July 9th with no structured program to take with him", "category": "training_barrier", "severity": "low" },
+    { "text": "Others at the gym depend on him to write the programming, so his own training is not being coached by anyone", "category": "accountability_gap", "severity": "low" }
+  ],
+  "objections": [
+    {
+      "type": "think_about_it",
+      "raw_quote": "Let me just think about it tonight, and I'll you if you're sitting in the morning, or I'll whoever has been texting me, and get going.",
+      "timestamp": "00:20:38",
+      "rep_response": "Asked 'How do you feel right now? Because if you would have to make the decision right now, how do you feel?' and then 'So what do you need to think about actually?' — surfaced the travel concern and reframed it, but accepted a next-day call rather than working the decision.",
+      "response_tactic": "isolate_then_reframe_then_concede_callback",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "I want to think with this vacation thing.",
+      "timestamp": "00:21:07",
+      "rep_response": "Reframed the programme as built for travellers — 'this is what it is designed for, for the busy guys, for the business guys, for guys that are traveling' — and cited a client flying between Europe and the US.",
+      "response_tactic": "designed_for_your_situation_reframe",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "I've looked at a lot of programs. I just want to make sure this is what I want to do.",
+      "timestamp": "00:22:03",
+      "rep_response": "Asked 'So when you're comparing it to the other programs, what are actually looking for?' The prospect answered that kettlebell routines look more fun and harder; the rep did not build on the answer.",
+      "response_tactic": "comparison_criteria_question_not_followed_through",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "So let me just talk to my girlfriend and stuff and then...",
+      "timestamp": "00:22:39",
+      "rep_response": "Deflected with a joke — 'Oh, don't bring your girlfriend into this. It's all about you, man.' None of the scripted OB moves were run.",
+      "response_tactic": "humour_deflection",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Bye $1,000 a month is my big deal.",
+      "timestamp": "00:20:59",
+      "rep_response": "No isolate, no financial-picture questions; the rep moved to 'what do you need to think about actually'.",
+      "response_tactic": "none",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 6, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "$1,200 per month, described as 'a little more' than the $6,000 upfront figure. Total was never stated on the call.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.94,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect asked three separate times for time — 'Let me just think about it tonight', 'let me just think about it overnight', 'I just want to think about it till tomorrow'",
+      "Rep booked a specific follow-up: 'Would you be free at noon?' and sent a calendar invite on the call",
+      "No payment taken, no link sent, no verbal agreement to proceed",
+      "Counter-evidence toward a positive read: the prospect volunteered 'I think it sounds pretty good' and 'I think it looks good', and asked for pricing unprompted"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Follow-up Zoom booked for noon Eastern the next day on the same link; calendar invite sent live on the call."
+  },
+  "notable": {
+    "note": "The prospect asserted that doctors telling older men not to lift heavy is 'all false information' and the rep agreed and reinforced it rather than screening. Separately, the rep quoted a monthly figure of $1,200 that does not reconcile to either published tier. Structurally the call skipped Phases 4, 5 and 6 entirely — no past attempts, no consequence frame, no commitment check — and went from the three pillars straight to price on the prospect's request, which is why three soft objections landed with nothing built underneath them."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Extensive attribution inversion. Whole passages are mis-assigned: the block at 00:01:56-00:03:02 labelled Carl Fiorentino contains the rep's discovery questions, and the segment around 00:06:15-00:07:14 inverts both speakers, so the line 'the doctors tell them... it's all false information' carries the rep's label pattern while reading as the prospect. Roles were assigned from content throughout. Line-level attribution should not be trusted anywhere in this file."
+  }
+}

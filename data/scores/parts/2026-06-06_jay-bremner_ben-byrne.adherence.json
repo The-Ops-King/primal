@@ -1,0 +1,67 @@
+{
+  "call_id": "2026-06-06_jay-bremner_ben-byrne",
+  "rep": "Ben Byrne",
+  "disposition": "lost",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "not_applicable", "P1b": "hit", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Clean four-part frame and explicit agreement: 'pretty simple call. Really just want to understand where you're at with your fitness. What's the goal? What are you trying to achieve? What's working? What's not? And if we can help, we could jump into all the details about what we've got going on and go from there. sound good?' P1a is N/A — no setter suffix, no setter notes, prospect self-booked after finding Trevor that morning."
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "partial", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Height, weight and body fat asked directly ('what's your height and weight right now?', 'do you know roughly what your fat, body fat percentage is'), but age was volunteered ('I'm 38 this year') and never asked. Diet asked cleanly ('do you have a meal plan that you're following? you track calories, macros?'). Injuries probed well but duration never established ('is that more of like, you have tight joints, muscles, pain?' then two follow-ups on the SI joint pattern). Work was volunteered — HVAC foreman on hospital sites — and the rep never asked whether it is desk-bound or on his feet. No health-conditions question, no results-from-current-training question, and sleep and energy were never touched at all."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "hit", "P3c": "miss", "P3d": "partial", "P3e": "miss", "P3f": "miss", "P3g": "miss", "P3h": "partial" },
+      "evidence": "Strong on the surface layer — 'when you say up your athleticism, are you talking your strength, build more muscle, maybe lose some fat, have more performance or endurance?' and 'are you trying to get like a six pack? Are you trying to just get leaner?'. The deep half never ran: the why-bridge was a soft generic ask ('there usually is some either big goal or big reason why... do you have anything that you can think of?') and when the prospect answered 'longevity' the rep chased his content-creation job instead of his life. Kids, legacy and identity were all volunteered by the prospect ('I don't have kids yet but when I do have kids... I want to be able to pick them up and play with them') and never driven through. One good reflect-back, but of a contradiction rather than a why: 'on one hand you're saying structure and accountability is what's been lacking, but you also said that you don't really have goals... at the same time, in two years, you want to be in the best shape of your life.'"
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "miss", "P4c": "partial", "P4d": "miss", "P4e": "miss", "P4f": "miss" },
+      "evidence": "Asked what he had tried — 'is this the first time, I guess, that you've ever reached out to anybody to get the structure and accountability?' — and got CrossFit, sports, online accountability groups. Then stopped. Never asked what happened with any of them or why they did not stick. The prospect named his own root cause unprompted ('the first thing to go is the thing that I don't have accountability for or structure with'), which the rep only summarised back as a statement: 'so then the issue is just keeping that going when work gets busier'. No version of 'the information isn't the problem — why can't you stick to it on your own?'"
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Consequence frame never ran in any form. No two-year question, no 'is that something you're willing to settle for', no 'why not', no line in the sand. The prospect handed the rep the raw material for it twice — the annual winter fall-off and the back that spasms when he pushes — and neither was ever turned into a cost of inaction. This is the single biggest omission on the call and it is why the price landed as an expense rather than a solution."
+    },
+    "P6": {
+      "score": "miss",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "partial" },
+      "evidence": "No commitment check before presenting. The nearest thing was a soft temperature read — 'as far as what you've heard so far with the plan and working with Trevor, how do you feel about that? Do you feel like that's what you're looking for?' — answered with 'Yeah, that's why I signed up for the call', which the rep treated as a yes and moved straight to price. Neither 'do you believe you can actually get there with the right structure and the right person in your corner' nor 'is there any reason you wouldn't go all in' was asked, so there was no commitment to hold him to when the price objection came."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Price was presented and the prospect declined the coaching programme outright, so payment and onboarding were never reachable. No payment collected, no Trevor call scheduled, no agreement sent."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The money objection landed squarely — 'That's like $1,400 per month. That's significant' — and none of the play ran. No isolation ('finances aside, nothing else keeping you from 100%?'), no 'you're not in a SHOULD I place, you're in a HOW place', no invitation to an honest financial conversation, and none of the financial-picture questions (cash on hand, monthly surplus, cards, available credit, investments). Instead the rep went straight to reducing the price: first offering to 'find a way to meet in the middle', then a three-month $4,000 tier, then a $199/month self-serve product. He also never offered the instalment financing the team confirmed it has."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Cheaper-substitute objection with no scripted play — 'I'm pretty sure I could find somebody for cheaper in-person that would meet with me a few times a week that specializes in kettlebells.' The rep conceded it immediately ('there's always cheaper people out there for sure') rather than contrasting a local PT against form review, programming, mobility sequencing and the nutrition protocol. This is the same gap already logged against the Badrane Hriouch call and it recurs here."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Prospect made a live counter-offer, naming his own monthly value ceiling of $600-650. The script has no play for a prospect who negotiates rather than resists, and the rep improvised — a shortened term at an unauthorised price, then a downsell."
+    },
+    { "play": "OA", "trigger_present": false, "ran": "not_applicable", "detail": "No think-about-it stall; the prospect gave a clear no." },
+    { "play": "OB", "trigger_present": false, "ran": "not_applicable", "detail": "No partner or spouse consult raised." },
+    { "play": "OD", "trigger_present": false, "ran": "not_applicable", "detail": "Timing was in the programme's favour — the prospect said spring is exactly when he wants structure." },
+    { "play": "OE", "trigger_present": false, "ran": "not_applicable", "detail": "No fear or doubt about capability; the prospect was confident throughout." }
+  ],
+  "notes": "Good open and a genuinely competent surface discovery, then the call skipped the entire back half of the process — no root cause, no consequence frame, no commitment check — so the pitch was delivered to someone who had never been asked what standing still costs him. When the price objection arrived the rep had no commitment to return to and discounted instead of isolating: invent-a-tier at $4,000/3mo and then a $199/month downsell, inside four minutes. Coach the consequence frame and P6 first; they would have changed this call more than any rebuttal would."
+}

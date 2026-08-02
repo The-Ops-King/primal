@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-07-07_luke-charleston_andrew-musial",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "After the $6,000 offer was refused, the rep produced a $200/month cancel-anytime tier called Primal University and told the prospect his own guessed number was 'almost on point', moving from full price to a prospect-set price in under four minutes.",
+      "evidence": [
+        "You mentioned 200 bucks. I don't know, how did you come up with that?",
+        "Okay, but, like, you're almost on point.",
+        "Trevor has also what is called Primal University... Of course, there's no one-on-one coaching, but you have everything that you can do it in your own pace.",
+        "that is $200 per run, and you can cancel it anytime you want."
+      ],
+      "timestamp": "00:37:47"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The prospect twice stated the price as '$6,000 a month' and declined on that basis, and the rep never corrected him to the actual $6,000 total for six months.",
+      "evidence": [
+        "The investment for the whole transformation is $6K.",
+        "Got it. So $1,000 a month, effectively.",
+        "So, as opposed to the $6,000 a month.",
+        "But I'm not going to pay $6,000 a month for this, so thank you very much, and I will pursue a different path.",
+        "I understand finances are a thing, but do you feel like getting to your goals is worth $6,000, or it's not worth $6,000 for you?"
+      ],
+      "timestamp": "00:36:50"
+    },
+    {
+      "category": "clinical_risk",
+      "severity": "critical",
+      "summary": "Prospect disclosing an unrepaired SLAP tear and a 14-year herniated disc was moved toward loaded kettlebell training, and then sold a self-paced tier with no coaching or form review, without the rep ever asking whether a clinician had cleared it.",
+      "evidence": [
+        "I have a slap tear on my left, my left shoulder from when I was 18 years old from playing hockey that I just never got fixed",
+        "and then I do have some, I have a hernia disc on my back from again I've been dealing with this for looking at I mean it's been 13 year 14 year no 14 years actually",
+        "the thing I haven't done is jujitsu because I'm too afraid of like my back, hurting my back",
+        "CrossFit really kind of hurts my body a lot... it's just gotten to the point where my body's just sort of beaten up too much",
+        "Of course, there's no one-on-one coaching, but you have everything that you can do it in your own pace."
+      ],
+      "timestamp": "00:09:54"
+    },
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "The guarantee was presented alongside an absolute efficacy claim — that it has never had to be honoured and always works — with no basis offered beyond the word 'science'.",
+      "evidence": [
+        "there's a guarantee also on that, that in those six months, you will gain You're at least eight kilos, which is around 17 pounds of weight, extra weight on your baseline kettlebell moves.",
+        "But actually we didn't have to use this guarantee. It always works because it's purely science."
+      ],
+      "timestamp": "00:27:46"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "The rep asserted that kettlebell training would be less damaging than the prospect's current training, in direct response to a disclosure of shoulder and spinal injury, without qualification.",
+      "evidence": [
+        "And, of course, with kettlebells, you will get sore, for sure. Yeah, of course. But it's not so, I would say, damaging on, on your body.",
+        "I would say just some shoulder mobility stuff, but, but actually, I think it can be rectified though, actually, to this program."
+      ],
+      "timestamp": "00:09:28"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts speakers through the pricing exchange itself, so the passage that determines this call's outcome cannot be attributed by label and must be reconstructed from content.",
+      "evidence": [
+        "00:36:13 - Luke Charleston (Akin) Got it. So $1,000 a month, effectively. Well, if you want to put it like this. It's a transformation thing. Yeah, understood. I was thinking this was going to be much less expensive than this. Okay. What number do you have in mind?",
+        "00:36:45 - Andrew Jin (Primal Instinct) I was thinking like being the couple hundred bucks a month.",
+        "00:00:39 - Luke Charleston (Akin) Yeah, sure. So thanks for taking the time. So I am, I'll be 45 years old this year. / 00:00:43 - Luke Charleston (Akin) I'm 43, so yeah."
+      ],
+      "timestamp": "00:36:13"
+    }
+  ]
+}

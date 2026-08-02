@@ -1,0 +1,50 @@
+{
+  "call_id": "2026-07-07_chris-x-richard-1-1_richard-claessen",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "On a live prospect call the closer described Trevor's one-to-one availability as on-demand whenever needed; the sales manager, hearing the recording, said that claim cannot be made.",
+      "evidence": [
+        "So one-on-ones, he jumps on whenever it's needed. So it's not like a specific every week, every month or anything. It comes down to when it's actually needed. Everything is done through the SMS, so he's constantly...",
+        "He's also not sure. He doesn't just... for lots of people.",
+        "I know. Like, the first time I said it, I don't even know why I said it. But, yeah, I know it's not...",
+        "Yeah, can't say that.",
+        "Maybe it's good that I didn't close him then."
+      ],
+      "timestamp": "00:20:27"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This internal recording contains long verbatim stretches of a separate live prospect call played back for review, so sales-call content appears inside an internal file and could be double-counted or mis-attributed by any automated pass over the corpus.",
+      "evidence": [
+        "I would say mainly the end. So at like price drop, I would say. Maybe I said something that just made him be like, I don't even want to talk to you.",
+        "Tell me, what can we potentially specifically help you with, Frank?",
+        "I'm in Jersey City, I'm like right across the river from Manhattan.",
+        "Alright, you see how he's right here? He's talking, he's open, he is like, he leaned in"
+      ],
+      "timestamp": "00:19:28"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "Recordings are manually stopped and restarted between back-to-back sessions by the manager, meaning a single continuous meeting block is split across separate Drive files.",
+      "evidence": [
+        "I'll use the restroom and then I'll let everybody in. So you're welcome to chill, but I'm going to kick out the Fathom so we can get fresh ones."
+      ],
+      "timestamp": "00:31:37"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "A prospect's stated reason for ending a call was privately judged to be a lie, recorded as fact in the review rather than as an inference.",
+      "evidence": [
+        "That's actually not true. Because at the end, meeting in two minutes, he had a call at 12, but this call ended at 11, so that was probably just an excuse to make it quick.",
+        "He didn't want to be objection handled.",
+        "He wanted to hop off the call because he knew it would turn into a whole thing."
+      ],
+      "timestamp": "00:18:01"
+    }
+  ]
+}

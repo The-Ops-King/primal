@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-07-15_sal_richard-claessen",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "accepted",
+      "evidence": "Agreed and validated the time commitment against his own history: 'I think so. I think definitely that should be more than sufficient time. My workouts before used to be 48 minutes, and you would think it's a little bit of time, but actually, sometimes it feels long.' No questions and no pushback."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "enthusiastic",
+      "evidence": "The pillar he volunteered as most important. Immediate agreement — 'Oh yeah, 100%' — and when asked what to double down on hardest he answered without hesitation: 'diet. diet.' The rep committed to relaying that to Trevor as the primary focus."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "Probed the one part with a scheduling constraint: 'Well, just in regards to that class on Thursdays, do you happen to know what time they actually do that on Thursdays?' then explained the conflict: 'with the medical field, they always make you work every other weekend... instead of Saturday, Sunday, I'm working Thursday, Friday. So every other week, I'm also working Thursday, Friday.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "budget_frame",
+      "raw": "what if I made $250 a week versus $1,000 a month?",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He volunteered a monthly figure that matches the offer exactly — $1,000 a month is $6,000 over six months. The only gap was structure, not price, and the rep correctly heard it that way."
+    },
+    {
+      "type": "free_alternative",
+      "raw": "I could easily, you know, like everyone's using now, like I jump, jump on ChaGPT and say, hey, give me a diet, give me a workout, and it will. But I feel like it's, it's just going to be basic and traditional",
+      "direction": "supports_price",
+      "competitor": "ChatGPT and self-directed research",
+      "note": "He raised the free substitute himself and dismissed it on quality grounds before the rep had to. The cleanest supportive anchor in the batch — every other prospect used the free option as a reason not to buy."
+    },
+    {
+      "type": "expertise_premium",
+      "raw": "I always have someone who knows a little bit more of that industry at your side. And so, sure, I can research all I want on the computer, but at the end of the day, he is a master at it.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "A stated principle of paying for expertise, drawn from his own career change into a licensed clinical role. Pre-frames the price as normal rather than exceptional."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A live weekly workout he can attend on a rotating hospital roster",
+      "why_unmet": "The single Thursday slot at 9.30am Pacific falls inside a 7am-7.30pm shift every other week. Recordings exist, but the live element is unreachable half the time. This is the third call in this batch where the fixed Thursday slot is unusable for the prospect.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Reversal of a postural kyphosis he has self-diagnosed and watched worsen",
+      "why_unmet": "The rep committed to it directly — mobility routines 'to make sure you're going to be able to get rid or minimize the hunch' — but no clinician has assessed whether the curvature is postural or structural, and no clinical pathway exists in the programme. Whether the offer can deliver this is genuinely unknown.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Nutrition guidance that survives 12-hour hospital shifts and a rotating day/night pattern",
+      "why_unmet": "The protocol assumes an eating window and cooking at home; he said plainly that on days off he will not wake up and meal prep. The rep asserted the protocol would fit without demonstrating how it works around a shift roster.",
+      "verdict": "unvalidated"
+    }
+  ]
+}

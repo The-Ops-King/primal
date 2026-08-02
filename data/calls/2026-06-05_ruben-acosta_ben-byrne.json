@@ -1,0 +1,135 @@
+{
+  "call_id": "2026-06-05_ruben-acosta_ben-byrne",
+  "source": {
+    "drive_file_id": "1u4ErqAeXWGl8J41Jz26t6sVRhfrcra_r",
+    "drive_folder": "Ben Byrne",
+    "original_title": "06/05/2026 - Ruben Acosta x Ben Byrne KFS ",
+    "display_title": "06/05/2026 - Ruben Acosta x Ben Byrne KFS  — Lost",
+    "file_size_bytes": 42056
+  },
+  "call": {
+    "date": "2026-06-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 52,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Ben Byrne", "role": "closer", "location": "Halifax, Nova Scotia, Canada" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'I've read over some of the notes from, it looks like you spoke to Kim on our team, and I got those details. So, really, we're just going to pick up where we left off with him.'"
+  },
+  "prospect": {
+    "name": "Ruben Acosta",
+    "aka": null,
+    "name_source": "title",
+    "location": "Monterrey, Mexico",
+    "age": null,
+    "occupation": "Not disclosed — the rep never asked. Sedentary desk-based work: leaves home at 7am and gets back around 7pm, and describes himself as 'all day seated'.",
+    "family_status": "Married; three children aged 13, 7 and 3. His wife supports his training but has been asking for more help with the children.",
+    "height_in": null,
+    "weight_lb": 148,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Trained jiu jitsu for about six years through college, then stopped entirely when his eldest daughter was born and did nothing for roughly eight years. Restarted jiu jitsu around two years ago and quit again because of travel and late class times. For the last eighteen months has followed the Fitness FAQs calisthenics programme — a beginner course then a hybrid calisthenics-plus-weights upper/lower split — self-directed from a video library with no feedback or personalisation of any kind. Progressed from almost no pull-ups to 10-12, plus dips and push-ups. Sessions have crept up to four sets of about eight exercises with three-minute rests, running one hour forty to two hours. Started walking an hour on a treadmill at 5am about a week before the call, and started tracking macros about a month before. Owns three kettlebells (roughly 6 kg, 8-9 kg and 16 kg) bought a couple of years ago and never used.",
+    "kettlebell_experience": "none",
+    "medical": null
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.7,
+    "signals": [
+      "Already training hard and getting results — eighteen consistent months, pull-ups from zero to 10-12, tracking macros, walking an hour at 5am — and explicitly says the programme is working: 'It's not that I'm not seeing the results, it's more like, for me it's more like the time'",
+      "Wants good to great on a specific residual: 'I still struggle with the fat and, you know, in the abdominal area'",
+      "Diverges hard from the optimizer definition on price, which was fatal — his budget is $80-100 a month and he stated plainly 'I don't think I can spend that kind of money right now'",
+      "Not the_rebuilder: the eight-year gap is history, he has already rebuilt, and he arrived optimising an existing routine rather than restarting one"
+    ]
+  },
+  "goals": [
+    { "text": "Cut session length from nearly two hours to an hour or less, ideally 30-40 minutes", "category": "convenience" },
+    { "text": "Get leaner, specifically losing abdominal fat he has not been able to shift", "category": "fat_loss" },
+    { "text": "Spend more time with his three children in the evenings instead of training until 10pm", "category": "longevity_family" },
+    { "text": "Help his wife more with the children — homework and taking them to the park", "category": "relationship" },
+    { "text": "Find something he can sustain long term — 'trying to do something like I can maintain'", "category": "sustainability" },
+    { "text": "Switch to a different style of training after eighteen months on the same programme", "category": "other" },
+    { "text": "Learn how to actually use the kettlebells he already owns", "category": "other" },
+    { "text": "Stay in good shape and good health generally", "category": "longevity_function" }
+  ],
+  "pains": [
+    { "text": "Workouts have grown to one hour forty or two hours and now run until after 10pm", "category": "time_scarcity", "severity": "high" },
+    { "text": "Training is eating into time with his three children — 'I work out in my home and they see me there, but I'm just spending a lot of time there working out'", "category": "relationship", "severity": "high" },
+    { "text": "His wife is asking for help he cannot give while training — 'hey, I need some help here with them'", "category": "relationship", "severity": "high" },
+    { "text": "Eighteen months in and the abdominal fat has not shifted", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Twelve-hour working day, seated throughout, 5am wake and late finish", "category": "work_stress", "severity": "medium" },
+    { "text": "Self-directing from videos with no feedback — 'at the beginning, it was very hard... having something, someone to, who to ask'", "category": "accountability_gap", "severity": "medium" },
+    { "text": "Lost roughly eight years to complete inactivity after his first child was born", "category": "consistency", "severity": "medium" },
+    { "text": "Quit jiu jitsu because the commute and late classes made it unsustainable", "category": "training_barrier", "severity": "medium" },
+    { "text": "Owns kettlebells he has never been able to use — 'I really don't know how to use them'", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "that's a little bit higher of what I was, you know, considering, considering what I, you know, I've spent or invest in my previous, but I will, I will need to, to think about, because yeah, it's, it's a biggest investment for me at that amount.",
+      "timestamp": "00:44:41",
+      "rep_response": "Ran a value check — 'do you feel that if you went through it, that it would work for you... do you feel like it would be worth it?' — got a yes, then went straight to a cheaper option rather than exploring capacity: 'we do have other options, so if it's just a matter of like, maybe you only have a certain amount available that you can spend, maybe we can find something lower.' No financial picture was taken.",
+      "response_tactic": "value_check_then_move_down_market",
+      "resolved": false
+    },
+    {
+      "type": "value_vs_cheaper_alternative",
+      "raw_quote": "it's another guy that it's called Build Simple and it's kind of calisthenics as well. And yeah, but from, from $80 to $100 a month. So I would say that, that will be kind of my range.",
+      "timestamp": "00:47:14",
+      "rep_response": "Did not contest the comparison on value. Instead implied the prospect was not serious: 'people that go into our program, they're looking to make a serious transformation and, you know, that's why they invest what they do. It sounds like maybe you're, you know, maybe not at that point. And, okay, well, you can always do the $80 thing, which is, seems like it's more of the same, but I mean, it is what it is.'",
+      "response_tactic": "disqualify_prospect_and_dismiss_alternative",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "Primal University. Well, that's a little bit more on my range. I will definitely think about it.",
+      "timestamp": "00:50:48",
+      "rep_response": "Treated the prospect's genuine interest in the lower tier as a refusal and closed the call: 'I guess we'll just, you know, leave it at that. It's a think about it. Usually it's a nice way to say no, it is what it is.'",
+      "response_tactic": "reframe_interest_as_refusal_and_end",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 12, "price_usd": 9000 },
+      { "months": 6, "price_usd": 6000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Monthly instalments on the six-month tier at $1,200 a month — an unstated total of $7,200 against the $6,000 headline. The only disclosure of the uplift was 'we had a bit of interest if we're going to do it monthly' and later 'that adds. Six, like a thousand bucks.' The rep then steered away from the plan entirely: 'most people just throw it on a credit card.' Primal University was also quoted at $199 per month, or annually with a stated saving of about $350.",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit refusal on the main offer: 'I'm not at that, in that point of what I can, where I can spend like a thousand months on a program... to be honest, I don't think I can spend that, that kind of money right now.'",
+      "No payment, no payment link, no follow-up date, no second call",
+      "Rep closed it out himself: 'I guess we'll just, you know, leave it at that. It's a think about it. Usually it's a nice way to say no, it is what it is.'",
+      "COUNTER-EVIDENCE — the prospect expressed live, unprompted interest in the secondary product immediately before the rep ended the call: 'Primal University. Well, that's a little bit more on my range. I will definitely think about it.' That interest was neither pursued nor converted.",
+      "COUNTER-EVIDENCE — value was fully conceded and never in dispute: asked whether it would be worth it, he answered 'I would say so. I would say so. It will be a good investment.'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "None agreed. The rep invited him to reach back out if things change; no channel, date or follow-up on the Primal University interest was set."
+  },
+  "notable": {
+    "note": "A textbook good-to-great prospect who could not pay, met with the documented script gap for a cheaper alternative that works — he named Build Simple at $80-100 a month — and the rep responded by suggesting he was not serious about transformation and calling the competing product 'more of the same'. The prospect then volunteered that Primal University at $199 was in his range, and the rep closed the call by characterising his interest as 'a nice way to say no'. Separately, the monthly plan was quoted at $1,200 a month against a $6,000 headline with the uplift described only as 'like a thousand bucks' and the $7,200 total never stated, and the rep steered him toward a credit card to avoid it. The rep also joked that clients want to look better 'for their wife, for their kids or, you know, their mistress or whatever' to a married prospect whose whole stated motive was his wife and children."
+  },
+  "quality": {
+    "diarization_reliability": "medium",
+    "speaker_label_swaps_detected": true,
+    "notes": "The opening line 'Hey Ruben' is labelled Ruben Acosta. Repeated inversions on short turns and several longer ones: 00:06:36, 00:11:51-00:12:58, 00:14:42, 00:34:13, 00:42:16-00:42:35 and 00:47:11 all carry content under the wrong label, and the rep's own name appears inside the prospect-attributed text twice ('So it'd be $1,200 a month, Ben', 'No worries, Ben'), which is a transcription artifact rather than a real address. Role read from content throughout. Note also that '$1.99 per month' for Primal University is a transcription of $199 per month, consistent with the same figure quoted on the Cole Farry call the same day."
+  }
+}

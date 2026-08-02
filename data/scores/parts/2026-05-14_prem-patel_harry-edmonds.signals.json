@@ -1,0 +1,79 @@
+{
+  "call_id": "2026-05-14_prem-patel_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "enthusiastic",
+      "evidence": "The strongest pillar reaction in the batch, and it pre-dated the presentation because he had already trialled the workouts: 'these are awesome. I feel great. I'm loving these... I was sore the next day in like good spots. I even felt like I was getting bigger in the last couple weeks from doing some of these.' Later: 'I was feeling absolutely pumped. I was like leaving the gym. I need to look like this all the time. I need to feel like this all the time.' He also credited the workouts with revealing gaps in his own training — 'I have not been working on that part of the back'. He asked substantive programming questions the rep never fully answered: 'is it progressive overload? Is it different movements? Are there beginner movements to advanced movements?'"
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Presented as eating for health rather than gains, micronutrients over macros. He agreed and simultaneously dismissed it as unremarkable: 'This is table stakes, Harry. This is absolutely table stakes. This is already my philosophy of how I go about it. I've been doing nutrition and working out for years now.' The only substantive nutrition need he raised — hitting a protein target to gain size, constrained by an autoimmune condition — was answered with rough arithmetic ('like 110 you're fine, it's like a pound of beef') rather than treated as the differentiator it could have been."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "Clear, repeated pushback on the substance: 'I don't know if I need, like, for example, the 24-7 Trevor thing. I don't know how many questions I would actually ask' and later 'It's more that I do really well with accountability. Like I can be self-accountable.' He conceded temporarily when the rep reframed 24/7 access as first-month form correction — 'I'm hesitant, but you know what? It's only a beneficial thing' — but returned to it as his reason for taking the self-guided product instead. The rep then confirmed the objection as company logic: 'the only way to upsell is someone who just doesn't do it, like look I need a trainer, I need someone to yell at me... a lot of people who have the ability to hold themselves accountable, this is great.'"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "existing_gym_membership",
+      "raw": "you go to a gym now, which is $200 a month. So like, technically that could be then, I won't need to go to the gym anymore... I'm going to Equinox here in New York and it's like, if I don't need to go there, I've spent money to go there.",
+      "direction": "undercuts_price",
+      "competitor": "Equinox, New York",
+      "note": "The most consequential anchor on the call, and it is exact: his monthly fitness spend is $200, which is precisely the price of the self-guided product the rep then showed him. Once those two numbers matched, $6,000 had no chance. The prospect was actually offering the rep an opening — he was reasoning toward cancelling Equinox to fund something else — and the rep answered the logistics ('No, you won't. You just buy your kettlebells and train in the garden') without ever converting the freed budget into part of the coaching case."
+    },
+    {
+      "type": "internal_lower_tier",
+      "raw": "yeah yeah if you want to do that there's no uh there's no like time commitment on it it's monthly rolling",
+      "direction": "undercuts_price",
+      "competitor": "Primal University, Primal's own self-guided product",
+      "note": "The rep screen-shared the entire $200/month product to a prospect who had already said yes in principle to coaching, and the reaction was immediate and total: 'this is it, Harry. This is what I need. This is perfect.' Third call in this batch where the rep introduced the cheaper internal product himself, and the one where it most clearly cost a sale."
+    },
+    {
+      "type": "free_substitute",
+      "raw": "And I don't really want to, you know, I could go on ChatGPT or something, create me a kettlebell workout, whatever. But like, I kind of want to work with something that has been vetted and works before for people.",
+      "direction": "undercuts_price",
+      "competitor": "ChatGPT-generated programming",
+      "note": "His true fallback cost is zero and he named it himself, though he rejected it on quality grounds — which is a supportive signal buried inside an undercutting anchor. He is willing to pay for vetting; the question the rep never answered is how much vetting is worth. Worth tracking as an emerging competitor category across the corpus."
+    },
+    {
+      "type": "prior_trainer_spend",
+      "raw": "I've gone with a trainer before. I've done trainers for a long time. I actually love to have great results from a trainer",
+      "direction": "supports_price",
+      "competitor": "Personal trainers",
+      "note": "He has a long habit of paying for coaching and rates the results, which is the classic supportive anchor. It was never used — nobody asked what he paid his trainers, over what period, or what the cumulative figure was, which is the obvious comparison against $6,000 for six months."
+    },
+    {
+      "type": "competing_capital_call",
+      "raw": "I also am starting a company and I'm putting a lot of money into it. So I don't really want to spend the 6k",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The real constraint was allocation, not affordability — he works at Meta and stated that with unlimited funds he would buy. That is the precise situation instalments exist for, and no payment plan was offered until a throwaway line after the loss."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A defined upgrade path from the self-guided product into the coaching, which he described as his standard way of buying",
+      "why_unmet": "He laid out the exact funnel unprompted — buy the guide, run it for one or two months, identify the gaps, then buy the coaching — and nothing exists to capture it. No trigger, no scheduled check-in, no credit toward the coaching, and no follow-up booked. The business's own best-fit prospect described how he wanted to be sold to and was released with two text links.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "A configurable coaching tier — weekly check-ins and programme adaptation without 24/7 access, which he said he would not use",
+      "why_unmet": "Refused on a coherent basis, that removing support undermines the results guarantee. Recorded as a genuine gap rather than a rep failure: this is the second prospect in two days asking to buy two thirds of the bundle, and there is no product between $200 self-guided and $6,000 fully-supported coaching.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Confirmation that kettlebell training will add size to a 130 lb man targeting 140, specifically arms, shoulders, back and legs",
+      "why_unmet": "This was his primary stated goal and it was answered only in general terms ('you're building muscle, you're getting stronger'). No hypertrophy case was made, no example client, and no explanation of how a modality he associates with conditioning produces the size he wants. For a prospect whose entire history is avoiding cardio to protect calories, this was the objection to pre-empt and it was left standing.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "An explanation of how kettlebell programmes actually progress — progressive overload, movement complexity, or something else",
+      "why_unmet": "Asked explicitly at 00:11:00 and never answered directly. He named 'adaptability' as the single most important thing he needs, and the weekly check-in that delivers exactly that was described twenty minutes later without ever being connected back to his stated requirement.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

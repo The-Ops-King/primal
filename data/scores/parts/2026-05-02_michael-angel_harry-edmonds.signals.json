@@ -1,0 +1,74 @@
+{
+  "call_id": "2026-05-02_michael-angel_harry-edmonds",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Engaged on how it would coexist with his existing sport — 'And I can still cycle?' — and on the mechanics of the video form review, finishing the rep's sentence with 'Yeah. Shoot a video.' The mobility half landed hardest because it was tied directly to his shoulder: 'Mobility is going to be super important for you, because you're getting the surgery in the fall.' He accepted the framing without questioning whether loaded work was appropriate pre-surgery."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "clarifying",
+      "evidence": "Accepted the eat-for-health philosophy and then immediately surfaced the real-world constraint: 'breakfast and lunch, I'm totally responsible for myself. Dinners we have as a family. But thankfully, our nanny, who helped us raise our kids, she makes our dinners.' The rep answered with a workable accommodation ('let's say your nanny was making chicken pasta, just tone down on the pasta'). Notable that a physician with a PhD in physiology let 'a lot of people think that fat makes you fat, it's the carbs' pass without comment."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "objected",
+      "evidence": "The only visible pushback on the call, and the rep saw it happen: 'I saw your face there. You were like, that's quite a business model he's got going.' The prospect's own words were 'It's good for mental health, but that's not my problem.' He had already pre-empted the pillar with 'I don't want a personal trainer... self-sustainable' and 'I don't feel like I'm being pulled into something that's like a chiropractor, where it's never ending.' The rep recovered by pivoting to the education endgame, which is what actually landed."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "currency_conversion",
+      "raw": "Um, yeah, it's, it's, it's a lot. Uh, so that's almost $10,000 Canadian.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The prospect re-priced the offer in his own currency before the rep could, and landed on a number 66% larger than the one quoted. The rep had to check the rate live and correct it down to 8,100 CAD. Quoting in USD to non-US prospects hands them the chance to inflate the anchor themselves; the correction recovered about $1,900 of perceived price but only after the sticker had landed."
+    },
+    {
+      "type": "competing_claim_on_cash",
+      "raw": "Oh, it's just that right now in Canada it's tax season. So I just got nailed for a tax return... But I made too much, so I had to pay a lot.",
+      "direction": "undercuts_price",
+      "competitor": null,
+      "note": "The blocker is a timing collision with a large tax payment, not capacity — and the same sentence is proof of high income. This is the exact situation the payment plan exists for, and the rep did get him to state a preference for the split, but never brought it forward as the resolution."
+    },
+    {
+      "type": "negative_category_anchor",
+      "raw": "I don't feel like I'm being pulled into something that's like a chiropractor, where it's never ending. If I can be given the skills and the direction, I can just do this on my own.",
+      "direction": "supports_price",
+      "competitor": "chiropractic / open-ended treatment models",
+      "note": "The strongest supportive anchor on the call. He is comparing the offer against subscription-style bodywork he distrusts, and the finite six-month education endgame is what differentiates it. The rep noticed and reinforced it well: 'you go off on your own and you're like, I know what I'm doing. And you just go back and pay them again... We don't really want to do that.'"
+    },
+    {
+      "type": "existing_coaching_spend",
+      "raw": "I have in the past for cycling over the winter, I've had like an online coach and they just sort of mapped out what I did.",
+      "direction": "supports_price",
+      "competitor": "unnamed online cycling coach",
+      "note": "He already buys remote coaching and already knows the value of a mapped-out plan — 'I think that helps a certain degree of commitment and planning'. Category risk is zero; only the number is new."
+    },
+    {
+      "type": "free_content_substitute",
+      "raw": "online, you could find, right now, I'm being fed a million of these, like, well, if you just do this and this for 12 minutes",
+      "direction": "undercuts_price",
+      "competitor": "free social fitness content",
+      "note": "He named the noise as his problem rather than his alternative, which is the favourable version of this anchor — but it is still an infinite supply of free programming sitting next to a $6,000 quote, and it is what he will fall back on if the follow-up fails."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "A programme that accommodates shoulder surgery in November and the rehabilitation after it — his own stated plan was 'even if I was to start something, I would put it on hold until this got better, and then I'd be rehabbing it'",
+      "why_unmet": "The offer is a fixed six-month block with no pause, no post-surgical pathway and no coordination with his surgeon or physiotherapist. The rep resolved the conflict by pointing the six months at the surgery date rather than through it, which serves the sale but leaves the prospect's actual plan — train, operate, rehab — unserved from month seven.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "An evidence-based body fat target for a fit, athletic 57-year-old — he asked directly: 'what is the sort of, for a fit, athletic 57-year-old, you know, what's the range?'",
+      "why_unmet": "He got a general figure and a personal anecdote — '12 to 16... I'm probably sitting around 13, 14 right now' — with no age adjustment, from a salesperson, to a physician with a PhD in physiology. Whether the programme can actually answer this question with evidence is untested.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Confirmation that loaded overhead work is safe before surgery on a shoulder that already hurts on external rotation",
+      "why_unmet": "He never asked and nobody offered. There is no clinical screening or clearance step anywhere in the offer, so the question had no route to an answer even though both parties discussed the shoulder at length.",
+      "verdict": "product_gap"
+    }
+  ]
+}

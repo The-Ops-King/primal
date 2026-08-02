@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-06-12_nick_andrew-musial",
+  "rep": "Andrew Musial",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "hit",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Application read - 'I remember that, uh, I think you, you wrote like, you're a software engineer.' Frame covered situation, past attempts, destination and support but not 'what you need'. Agreement taken - 'Sounds good? Yeah, it sounds good.' Clean open question: 'So brief me in. What brought you to us?'"
+    },
+    "P2": {
+      "score": "hit",
+      "checks": { "P2a": "miss", "P2b": "hit", "P2c": "miss", "P2d": "hit", "P2e": "hit", "P2f": "miss", "P2g": "hit", "P2h": "hit", "P2i": "hit" },
+      "evidence": "Sleep and energy done properly and rarely - 'What time usually do you go to sleep?' 'And you get up at, on average?' 'if you had a scale from 1 to 10, what's your energy level?' Desk work, hours, injuries ('did you have, like, any injuries or something like that with the ankles?'), training week and diet all covered in real depth. Height and weight never asked at all; age only volunteered; no health-conditions question and no results-from-current-training question."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "hit", "P3b": "partial", "P3c": "partial", "P3d": "hit", "P3e": "hit", "P3f": "miss", "P3g": "partial", "P3h": "miss" },
+      "evidence": "Good bridge work - 'what's the biggest goal that you're actually trying to achieve with this?' then 'what actually opens up for you?... what's your why behind that?' which produced longevity and the daughter. But the rep never asked who else it impacts, never drove the daughter thread further once it appeared, and never reflected the goal back."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "hit", "P4b": "hit", "P4c": "partial", "P4d": "partial", "P4e": "hit", "P4f": "miss" },
+      "evidence": "'Have you, like, tried to reach out to maybe a personal trainer or, like, what have you actually tried to get in better shape?' and then 'So what was it exactly about that didn't work?' produced a detailed post-mortem on the Gabe West course. The gap was named by the prospect - 'a lot of that is due to just, like, not having a very structured plan.' The information-isn't-the-problem move never ran."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "Nothing. No two-year question, no settle question, no line in the sand. This is the phase that would have created the urgency needed to beat a $400/month surplus, and it was skipped entirely."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "hit", "P6b": "partial", "P6c": "partial" },
+      "evidence": "'How do you feel if you had this right training dialed in, the nutrition and accountability from Trevor, do you agree that that would get you to your healthier lifestyle?' returned a soft 'Yeah, think so.' The hypothetical - 'If you had the money right now, would you be open to actually roll in?' - also returned 'Yeah, I think so.' Two soft yeses and the rep proceeded to open wallet without hardening either."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "No close attempted. Call ended on a booked Monday follow-up with no deposit, no card and no onboarding scheduled."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "hit",
+      "detail": "The most complete OC run in the batch. Isolated - 'do you feel like you don't have set aside like 6k, or is it that you could squeeze it in a budget if we could work around it?'; ran the HOW frame - 'let's maybe structure something around what you have right now'; then cash on hand ($1,500), monthly surplus (~$400), investment account, crypto, ETFs, liquidity, credit cards and credit score (700s). Two scripted moves missing: total available credit per card and used-versus-available. Also missing the 'most clients pay upfront, but for some we break it up' line."
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The wife came up twice - 'I'd have to talk with my wife around budgeting' at the price drop and 'I need to talk with my wife about this' at the end. Not one OB move ran: no money-aside tie-down, no 'what obstacles might come up when you talk to her', no 'is there any reason she would not want you stronger', no permission-versus-input challenge, and no deposit-with-refund fallback. The rep accepted it and booked Monday."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'Is it something I could be, in a month or two from now... sign up now?' The rep touched the frame once - 'so we can make it work and not wait one month, two months to the future' - and then went straight to financing. None of the scripted OD moves ran: no 'things never slow down', no compounding cost of delay, no 'all you have to do is show up'."
+    },
+    {
+      "play": "OE",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "A specific, disclosed fear - 'I've kind of gotten in trouble with that in the past' about credit, and 'it just, like, scares me, I guess, in terms of how, like, it can rack up fast.' No OE moves. The rep pushed the financing option once more and sent the link."
+    }
+  ],
+  "notes": "Discovery and open wallet were both strong; the call was lost at P5 and OB. With no consequence frame there was no counterweight to a $400 monthly surplus, and when the wife objection landed twice the rep had no play at all - including the deposit-plus-refund fallback that the manager was pushing hard on the same week."
+}

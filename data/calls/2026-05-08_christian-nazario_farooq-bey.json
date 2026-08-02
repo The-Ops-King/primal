@@ -1,0 +1,150 @@
+{
+  "call_id": "2026-05-08_christian-nazario_farooq-bey",
+  "source": {
+    "drive_file_id": "1RyZd5HxjtHzySxwepNaoi1Doxm5twxlI",
+    "drive_folder": "Farooq Bey",
+    "original_title": "05/08/2026 - Christian Nazario x Farooq Bey ",
+    "display_title": "05/08/2026 - Christian Nazario x Farooq Bey  — Follow Up",
+    "file_size_bytes": 37183
+  },
+  "call": {
+    "date": "2026-05-08",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 46,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Farooq Bey", "role": "closer", "location": "Medellín, Colombia (originally London, UK)" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": "No setter named by either party. The prospect said he had followed Trevor for six months to a year and decided to book: 'I followed Trevor for a while now and I just decided, you know what, let's pull the trigger.'"
+  },
+  "prospect": {
+    "name": "Christian Nazario",
+    "aka": "Appears throughout under the speaker label 'Zoom user'; the rep twice calls him 'Christine'",
+    "name_source": "title",
+    "location": "Orlando, Florida, USA",
+    "age": 32,
+    "occupation": "Salesperson selling epoxy, recently started with commissions beginning in two to three months. Formerly a full-time personal trainer, still training friends and family on the side. Plans to run his own food truck.",
+    "family_status": "Not stated. Active in his church, where he serves and is starting a men's fitness group.",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Lifelong athlete — football, soccer, wrestling and basketball — and has competed in bodybuilding. Former career personal trainer. Currently has a six-pack and describes himself as in decent to good shape. Limited kettlebell experience: has copied exercises he has seen and used them in his own training but does not consider himself proficient. Registered for a HYROX competition at the end of October, five months out.",
+    "medical": "Five shoulder surgeries — three on the right, two on the left. Reports they are now stable, 'staying in place', but still ache and hurt from time to time. Also reports ongoing back pain. His stated primary goal is to be pain-free."
+  },
+  "avatar": {
+    "assigned": "other",
+    "confidence": 0.6,
+    "signals": [
+      "Proposed label: the_practitioner_buyer — a fitness-industry insider buying partly as professional and ministry capability rather than purely for personal results, whose blocker is liquidity rather than conviction. Recommend clustering centrally with Brandon Johnson from 2026-05-06, who fits the same shape: fitness professional, high conviction, no money, bought a reduced product.",
+      "Buying to deliver to others as much as to himself: 'I want to hopefully teach my clients the right way of doing things' and 'I'm actually doing a men's group, a fitness men's group for all the guys here'",
+      "Motivation is explicitly vocational and religious — 'it's what I see myself called to do... if he's called me to do it, then I might as well be obedient and say yes'",
+      "Reads as the_optimizer on physical profile — lifelong athlete, bodybuilding competitor, has a six-pack, wants leaner and pain-free — but fails the criterion that defines that avatar, since price was an absolute barrier",
+      "Not the_medically_constrained despite five shoulder surgeries, because no clinician blocked him and the surgeries were never treated as a constraint by either party"
+    ]
+  },
+  "goals": [
+    { "text": "Be pain-free — named as the honest primary goal ahead of appearance", "category": "injury_confidence" },
+    { "text": "Keep his six-pack for as long as possible and get leaner and more ripped", "category": "appearance" },
+    { "text": "Stay young, athletic and in good shape indefinitely — longevity", "category": "longevity_function" },
+    { "text": "Be in tip-top shape for a HYROX competition at the end of October", "category": "hobby_performance" },
+    { "text": "Learn the kettlebell system properly so he can teach his personal training clients the right way of doing things", "category": "other" },
+    { "text": "Run a fitness men's group at his church using minimal equipment so men of all shapes and sizes can take part", "category": "other" },
+    { "text": "Be a role model to clients, family and friends", "category": "family_role_model" },
+    { "text": "Have enough surplus capacity that others receive his overflow rather than draining him — 'I want people to get the overflow of me, so that way I'm never burnt out'", "category": "energy_performance" }
+  ],
+  "pains": [
+    { "text": "Five shoulder surgeries, three right and two left; shoulders still ache and hurt from time to time", "category": "injury", "severity": "critical" },
+    { "text": "Ongoing back pain", "category": "injury", "severity": "high" },
+    { "text": "Not proficient with kettlebells despite being a trainer, and copying movements without knowing whether they are correct", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "Around $300-400 in his accounts before gas and food, with roughly $400 monthly disposable income", "category": "other", "severity": "critical" },
+    { "text": "Credit score in the mid-600s after taking a hit from a consolidation; actively paying down his only credit card to restore the limit", "category": "other", "severity": "high" },
+    { "text": "New sales job with commissions two to three months away, so income is currently at its lowest point", "category": "work_stress", "severity": "high" },
+    { "text": "Tendency to delay decisions until conditions feel right — 'sometimes I wait too long... if I waited till I was ready, I don't think I'll ever pull the trigger'", "category": "motivation", "severity": "medium" },
+    { "text": "Sees men at his church who are spiritually strong but physically lacking, and feels responsible for helping them with no vehicle to do so", "category": "other", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "I'm looking at the payment plan now, that might be a little over my budget, my man... Right now, I'm saying $12.23.40 a month... That's six, and over 12 is $6.68, which is a lot better, but yeah, it's still 12 months, that's a lot of money that I have, and with the current situation I'm in",
+      "timestamp": "00:27:46",
+      "rep_response": "Isolated the money — 'money aside, you still want to do this. This is just about making it work for your finances' — then sent a second link for the three-month tier with a twelve-month split.",
+      "response_tactic": "isolate_then_smaller_tier_link",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "In a whole sense of 12 months, it's like 5,200, something like that, and a heavy, heavy load that I have to, and especially with the current situation I'm at right now, so I'm going to have to, yeah, I'm going have to wait on that for a little bit, until I'm a little better financially then.",
+      "timestamp": "00:32:00",
+      "rep_response": "Sought permission for financial questions and ran the complete financial picture, then recommended drawing on his credit card to fund a one-month entry at $1,200.",
+      "response_tactic": "full_financial_picture_then_credit_card_recommendation",
+      "resolved": false
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "I can't take too much right now. The card that I'm currently bringing down, to bring it back up. They're working against me right now, until I start fully seeing income coming in.",
+      "timestamp": "00:37:50",
+      "rep_response": "Cited Trevor as authority for not letting money block people, then screen-shared and sold Primal University at $200 per month as a stopgap.",
+      "response_tactic": "founder_authority_then_subscription_downsell",
+      "resolved": true
+    },
+    {
+      "type": "fear_doubt",
+      "raw_quote": "still waiting to see. I mean, I always like to, I want to make sure that I am doing... I think and at the right time, sometimes I, you know, I wait too long to do some, but I'm feeling like I need to increase that to like a nine or 10, because if I waited till I was ready, I think, I don't think I'll ever pull the trigger.",
+      "timestamp": "00:19:42",
+      "rep_response": "Asked where he would be today if he had started three years ago at 29, got 'Better everything', then moved to the capability question.",
+      "response_tactic": "retrospective_cost_question",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": 4000 },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 },
+      { "months": 1, "price_usd": 1200 }
+    ],
+    "recommended_tier_months": 12,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Delivered through a payment platform the rep called Paver via a link at app.paver, with the prospect reading the figures off screen. Described by the rep only as 'a slight bit of interest'. The actual figures show far more. Six-month tier: $1,223.40 per month over six months, totalling roughly $7,340 against a $6,000 list price; or $668 per month over twelve months, totalling roughly $8,016 — a 22% and a 34% uplift respectively. Three-month tier: options of $1,533 over three, $800 over six, or $433 over twelve, totalling roughly $4,599, $4,800 or $5,196 against a $4,000 list price — uplifts of 15%, 20% and 30%. The prospect computed the twelve-month figure himself: 'In a whole sense of 12 months, it's like 5,200, something like that.' No rate, APR or total cost of credit was ever stated by the rep.",
+    "guarantee_mentioned": "For the one-month entry: 'If you can't afford it, if you don't want to pay the remaining payments, we cancel it. If you're happy to proceed, we can figure out an arrangement at that point.' For Primal University: 'You can cancel it at any time. So some people come in for a month, they get what they need, they write things down, and they can hop on their way.' Upgrade credit on the tiers: 'If you want to upgrade for another six months, you can just pay the difference. You don't have to pay another 6K.'",
+    "prospect_financials": {
+      "available_now_usd": 400,
+      "monthly_surplus_usd": 400,
+      "has_savings": false,
+      "credit_score": 650
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.85,
+    "close_rule_applied": null,
+    "evidence": [
+      "The coaching programme was NOT sold. The prospect deferred it explicitly: 'I'm going have to wait on that for a little bit, until I'm a little better financially' and 'I want to say by the end of June, I should be set to get on'",
+      "Payment links for the three, six and twelve-month tiers were sent and opened, and were declined on affordability",
+      "What was sold instead is Primal University at $200 per month, and it completed live on camera — the prospect created a Skool account and confirmed 'I'm in' at 00:45:19, with the rep confirming 'You're in, man'",
+      "A concrete follow-up was committed: 'what I'll do, Christian, I'll check in with you probably in like a couple months' time, see how your progress is, and we can see if we can actually get you enrolled in the coaching'",
+      "Counter-evidence on intent: pre-price alignment was 8 to 9 out of 10, and after the money isolation he confirmed 'Yes' that he still wanted to proceed",
+      "Recorded as follow_up rather than closed because no programme tier was purchased, and rather than lost because a specific re-contact was agreed and the prospect named a target date"
+    ],
+    "cash_collected_usd": 200,
+    "cash_collection_basis": "First month of Primal University, a $200 per month cancel-anytime Skool subscription. This is ancillary product revenue, not a programme sale, and must not be counted in coaching close rate or contract value. It is, however, the only payment anywhere in this batch that was witnessed completing on the recording.",
+    "next_step": "Rep to re-contact in roughly two months, once the prospect's sales commissions begin, to attempt enrolment in the coaching programme. Prospect meanwhile has Primal University access."
+  },
+  "notable": {
+    "note": "The prospect disclosed five shoulder surgeries — three on the right, two on the left — plus ongoing back pain, and named being pain-free as his primary goal. The rep asked two good follow-up questions and then stopped: no dates, no surgeon or physiotherapist, no restrictions, no question about whether anyone had cleared him for overhead ballistic loading, which is the movement class most directly contraindicated by repeated shoulder reconstruction. The shoulders were then used as a reason to buy. Separately, the instalment structures were described as carrying 'a slight bit of interest' while actually running 15% to 34% above list price, and the rep recommended the prospect draw on the single credit card he had just explained he was paying down to restore his limit, on $400 a month of disposable income. The rep justified continuing by citing the founder: 'Trevor says we shouldn't really let money get in the way of people actually having the success.' That sits directly against the sales manager's rule, stated the previous day, that prospects with no path to keep paying should not be sold."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Severe and near-continuous inversion — the prospect appears throughout under the generic label 'Zoom user' and large blocks of the rep's pillar delivery and the entire price presentation sit under it, while the prospect's answers appear under the rep's label. Roles resolved entirely from content. The payment figures at 00:27:46 and 00:30:10 are mangled by the transcription into forms like '$12.23.40' and '$6.68'; read against the tier prices and the prospect's own total of 'like 5,200', these resolve to $1,223.40 and $668 monthly on the six-month tier and $1,533 / $800 / $433 on the three-month tier. Long silent gaps at 00:24:52-00:27:46 and 00:40:55-00:45:19 correspond to the prospect working through payment and account-creation screens."
+  }
+}

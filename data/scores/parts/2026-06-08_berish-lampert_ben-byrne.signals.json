@@ -1,0 +1,72 @@
+{
+  "call_id": "2026-06-08_berish-lampert_ben-byrne",
+  "pillar_reactions": [
+    {
+      "pillar": "training_mobility",
+      "reaction": "clarifying",
+      "evidence": "Stopped the pitch to interrogate the time commitment in detail — 'Can I ask you a few questions about what you just said? ... So, um, really about the time. So a couple of things you said, 30 to 40 minutes. If I said, listen, I've got 30 minutes... is it more like certain days are going to be more, certain days are going to be less?', then 'that same question about three to five days. Is that based on the person?', then 'is there any benefit there to resting in between days?', then 'the six-month thing, so that's the entire program is six months, meaning the engagement is six months. Is that right?' Every question was about whether the format survives his schedule, which is the only thing he cares about. He liked the answers — 'No. Sounds good.' — but he was verifying, not being sold."
+    },
+    {
+      "pillar": "nutrition",
+      "reaction": "accepted",
+      "evidence": "Accepted it as valid and simultaneously declined it as redundant: 'It sounds like it's pretty similar, you know, eating times, whole foods, no seed oils, I'm already, like, I'm doing a lot of that stuff already.' The rep pre-conceded the pillar before the objection formed — 'if you want to keep following the nutrition plan that you're already on, you're more than welcome to do that if you just want the exercise' — which resolves the friction but writes off a third of the value on a $6,000 offer. His nutrition programme has taken 47 lb off him and he is loyal to it."
+    },
+    {
+      "pillar": "accountability",
+      "reaction": "clarifying",
+      "evidence": "The pillar he actually needs, and he probed the mechanics rather than the value. On form review: 'I was wondering about that, actually. If I'm watching some kind of video on an app just to see how to do the movements, how am I recording myself at the same time?' On duration of access: 'Do I have access to the app after the six months, or is there data there that I'm going to want to hang on to?' He had already named the missing piece in his current programme — 'there's not a feedback loop. There's not a one-on-one component' — so the differentiator was pre-established and he was checking it was real."
+    }
+  ],
+  "anchors": [
+    {
+      "type": "incumbent_program",
+      "raw": "I'm still part of that program with the eating part. I know that sounds kind of weird, but it really works for me. I'm loving myself. You know, but as far as the workout part, I'm doing nothing.",
+      "direction": "undercuts_price",
+      "competitor": "an unnamed diet-and-exercise programme marketed to men over 40",
+      "note": "He is already paying for something that delivered a 47 lb loss and intends to keep paying for it. That makes the $6,000 an addition to an existing spend rather than a replacement, and it means two of the three pillars are already covered. Price was never mentioned for the incumbent and the rep never asked, so the relative cost is unknown — a gap in the discovery, because it is the number he will actually compare against."
+    },
+    {
+      "type": "rep_introduced_comparison",
+      "raw": "It's definitely more expensive than a trainer or something, but we've got the results.",
+      "direction": "undercuts_price",
+      "competitor": "a personal trainer",
+      "note": "The rep put this anchor into the prospect's head himself, unprompted, seconds after the prospect had said 'a lot of money, a lot of money'. The prospect had made no comparison to a trainer at any point. Worth flagging as a coaching pattern rather than a prospect signal."
+    },
+    {
+      "type": "sunk_effort_credibility",
+      "raw": "since that time, I've lost 47 pounds. So, you know, so the eating part has really worked for me, for whatever reason, I just found something that works, you know, I'm locked in.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He has already demonstrated to himself that he will execute for months when a system fits his life. That is the strongest possible argument that the offer's simplicity claim would work on him, and it also raises his bar — he now knows what a system that fits feels like."
+    },
+    {
+      "type": "peer_dropout_evidence",
+      "raw": "I have a few friends that are in it as well. Two of them do it every day... And then the two others kind of just dropped off. I think it's because they couldn't do the fitness part of it because it's just too demanding.",
+      "direction": "supports_price",
+      "competitor": null,
+      "note": "He supplied his own social proof that the incumbent's exercise half fails for time-poor men. Never used."
+    }
+  ],
+  "unmet_demand": [
+    {
+      "want": "To buy only the training and accountability half at a price that reflects not needing the nutrition pillar",
+      "why_unmet": "No exercise-only tier exists. The rep waved him off the nutrition component rather than repricing, so he is being asked for the full $6,000 for two of three pillars while continuing to pay for a nutrition programme he has no intention of leaving.",
+      "verdict": "product_gap"
+    },
+    {
+      "want": "Training that is actually enjoyable rather than endured — he wants what basketball felt like",
+      "why_unmet": "He said it twice — 'I want physical activity to be fun' and 'the thought of working out makes me want to puke' — and nobody addressed it. The programme was sold on efficiency and simplicity, which answers the time objection but not the aversion. Whether kettlebell circuits are fun for a man who finds lifting boring is genuinely unknown.",
+      "verdict": "unvalidated"
+    },
+    {
+      "want": "Clarity on what he retains after the term ends",
+      "why_unmet": "He asked directly and was told the app continues and only the Skool community ends. The rep told a prospect on the previous day the opposite. One of the two answers is wrong and neither prospect can rely on what he was told.",
+      "verdict": "positioning_gap"
+    },
+    {
+      "want": "Instalment terms he could evaluate against a business owner's cashflow",
+      "why_unmet": "Asked directly whether it is paid over time and got 'we can probably figure out something' with no partner, term or figure. Financing demonstrably exists.",
+      "verdict": "positioning_gap"
+    }
+  ]
+}

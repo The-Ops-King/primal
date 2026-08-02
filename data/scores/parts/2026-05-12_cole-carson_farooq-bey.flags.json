@@ -1,0 +1,49 @@
+{
+  "call_id": "2026-05-12_cole-carson_farooq-bey",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "The file is titled for Steven Silbert but contains a complete call with an entirely different prospect, Cole Carson — the second title-to-content mismatch in this batch, meaning prospect identity cannot be taken from titles in this rep's folder.",
+      "evidence": [
+        "05/12/2026 - Steven Silbert x Farooq Bey ",
+        "Good to see you. Nice background you got there, man. Is that your office? Yeah, it's my office. Got my values here at the church.",
+        "Remind me, Cole, how old are you? I'm 32.",
+        "So when you look at your goals and your ambitions and who you've said you wanted to become, like, literally five minutes ago, who's actually responsible, Cole, for taking that step?"
+      ],
+      "timestamp": "00:00:01"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "An unsanctioned $4,000 three-month tier was improvised after the affordability objection and financed at roughly $400/month over twelve months, a total of about $4,800 against a sanctioned offer of $6,000/6mo and $9,000/12mo only.",
+      "evidence": [
+        "So what I recommend, Cole, is that we actually get you in for three months. The investment for that is 4K, but we have an option which allows you to spread it over 12 months. You're paying roughly around 400 bucks a month.",
+        "So for six, it's 6,000 USD and for 12, it's nine.",
+        "That way you can actually, it doesn't need too much into the resources we've just outlined, but it also allows you to get the help that you need."
+      ],
+      "timestamp": "00:23:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "This is the second call in a sequence and the rep confirms an earlier conversation on the record, but that prior call cannot be identified in this batch, so the sequence and any close attributed to it will be miscounted.",
+      "evidence": [
+        "So let's dive into it. It's been probably like 15 calls since I last spoke to you. So I don't want to operate under previous assumptions. So let's kind of treat this like a fresh call, if that's cool with you.",
+        "Because how I, I think I said this the other day, how we do anything is how you do everything."
+      ],
+      "timestamp": "00:00:11"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "After the coaching tiers were declined the rep presented Primal University at $200/month, a price point outside the sanctioned offer, and advised buying a single month to extract the content and then cancel.",
+      "evidence": [
+        "So the investment for you see here is $200 a month, but I pretty much cost as a $200 investment because you can cancel it at any time.",
+        "So what I'll do for hours, you're come in for a month, extract everything you need, get your notepad and pen, write what you need to write, and then just cancel it.",
+        "You probably need to charge a bit more for it, but it's probably the best thing you're going to get if it's not the one-on-one coaching."
+      ],
+      "timestamp": "00:26:38"
+    }
+  ]
+}

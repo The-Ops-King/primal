@@ -1,0 +1,131 @@
+{
+  "call_id": "2026-05-06_joe-biagini_harry-edmonds",
+  "source": {
+    "drive_file_id": "17EbigKL0nEu01PkBbx52B7vSmJas433v",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/06/2026 - Joe Biagini & Harry Edmonds KFS- Kettlebell Body Game Plan Session",
+    "display_title": "05/06/2026 - Joe Biagini & Harry Edmonds KFS- Kettlebell Body Game Plan Session — Closed",
+    "file_size_bytes": 41574
+  },
+  "call": {
+    "date": "2026-05-06",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 40,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "UK" },
+  "setter": {
+    "code": "KFS",
+    "name": "Kim Forbes-Sobers",
+    "confidence": "high",
+    "evidence": "Rep: 'You spoke with Kim, I think, right?' and 'he told me you had a really bad motorcycle accident.' Prospect: 'I know Kim was sending me the messages for the meeting. I'm not sure who I spoke to on the phone. I think it was Kim.' The setter's notes clearly included the accident, the six surgeries and his occupation."
+  },
+  "prospect": {
+    "name": "Joe Biagini",
+    "aka": "Joey",
+    "name_source": "title",
+    "location": "Pennsylvania, USA (Eastern time)",
+    "age": 24,
+    "occupation": "Tattoo artist, previously HVAC. Has not worked for about a year since the accident; has done a couple of practice tattoos but cannot take clients.",
+    "family_status": "Still covered by his parents' health insurance",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Training at home about five days a week for roughly six months since discharge — dumbbells, pull-up bar, bench; curls, squats, pull-ups. No structure and no programme: 'I just go in and do things and I don't have no plan.' Copies exercises from videos. Owns one 30 lb kettlebell. Reports minimal visible progress in six months. Eats one meal a day, typically rice and meat, plus protein shakes.",
+    "medical": "Catastrophic motorcycle collision in June of the previous year — struck head-on at 50 mph by a car turning left, thrown roughly 40 feet, struck a tree head first after his helmet came off. Told he would not survive the night, then that he would be brain damaged. Underwent brain surgery and a total of about six surgeries. Broke, in his words, every bone in his body except his arms; his right hand — his tattooing hand — was completely rebuilt after 'some of the bones turned to dust'. Diagnosed with scoliosis after his back break. ONGOING AND UNRESOLVED: tremors and shaking from the brain injuries 'that I've been trying to get figured out', significant memory impairment, and episodes of light-headedness that nearly caused him to pass out at work. Load-provoked pain in the right ankle, both knees (depending on squat depth and stance), right wrist (on bench press) and sometimes the back. Cannot run, jump or crouch to tie a shoe. States he cannot risk re-breaking his ankle and shins. Ceased physical therapy before completion for financial reasons only — 'I probably could have still been doing rehab. The only reason I stopped doing rehab was because of financial issues.'"
+  },
+  "avatar": {
+    "assigned": "the_prehab_fighter",
+    "confidence": 0.8,
+    "signals": [
+      "In the middle of the health event rather than after it — the brain-injury symptoms are live and still undiagnosed: 'I'm just having lingering, like, tremors and shaking from the brain injuries that I've been trying to get figured out'",
+      "Training is how he is fighting it: 'I just want to get back to my normal life and functioning normal again'",
+      "Rehabilitation was stopped early for money, not because it was finished, so the clinical arc is incomplete rather than closed",
+      "Motivation is extremely high and price resistance collapsed under it: 'if it's something that's actually going to help me and be worth it, then I don't mind paying it'",
+      "Overlaps with the_rebuilder in wanting a former self back, but the defining feature here is an active, unresolved medical situation — which is exactly the profile the avatar definition flags as easiest to close and most important to screen clinically"
+    ]
+  },
+  "goals": [
+    { "text": "Get full mobility back and return to normal life and normal function", "category": "mobility" },
+    { "text": "Rebuild the strength he had before the accident, and then exceed it", "category": "strength" },
+    { "text": "Be able to run, jump, play basketball and crouch down to tie a shoe again", "category": "hobby_performance" },
+    { "text": "Rebuild grip and wrist strength in his rebuilt right hand so he can return to tattooing full time", "category": "other" },
+    { "text": "Be less stressed and happier — get out of the house, clear his mind, stop being 'in my head all the time'", "category": "confidence" },
+    { "text": "Build a better-looking body and be in better shape", "category": "appearance" },
+    { "text": "Get structure — a plan, correct muscle groups, and know he is doing the movements right", "category": "consistency" },
+    { "text": "Fix his nutrition, which he believes is the biggest thing holding his progress back", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Catastrophic multi-trauma from a motorcycle collision including brain surgery and roughly six operations; cannot run, jump or crouch", "category": "injury", "severity": "critical" },
+    { "text": "Unresolved tremors and shaking from the brain injuries, still being investigated, which prevent him tattooing", "category": "medical", "severity": "critical" },
+    { "text": "Significant memory impairment since the accident — 'I have pretty bad memory now from this accident'", "category": "medical", "severity": "high" },
+    { "text": "Load-provoked pain in right ankle, both knees, right wrist and sometimes the back; stiffness when still and pain when moving too much", "category": "injury", "severity": "high" },
+    { "text": "Had to stop physical therapy before completion purely because he could not afford it", "category": "medical", "severity": "critical" },
+    { "text": "Out of work for a year with roughly $30,000 in unpaid ambulance bills and substantial debt from a $1.5m hospital episode", "category": "work_stress", "severity": "critical" },
+    { "text": "Six months of consistent home training with far less progress than expected", "category": "training_dissatisfaction", "severity": "high" },
+    { "text": "Eating one meal a day", "category": "nutrition_habit", "severity": "high" },
+    { "text": "No knowledge of how to build a routine and no way to check his own form — 'I don't know if I'm doing this the right way, and I try and watch the video, and then I'm watching the video again, and I'm like, I don't know'", "category": "competence_anxiety", "severity": "high" },
+    { "text": "Socially isolated and unable to do the activities that clear his head — 'most of the time I'm just sitting inside drawing and just in my head all the time'", "category": "mental_health", "severity": "high" },
+    { "text": "Feels too young to be in this condition at 24", "category": "emotional", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It would definitely be hard for me to do. It would definitely be doable. But it's going to be hard for me financially.",
+      "timestamp": "00:22:36",
+      "rep_response": "Named the concern himself before pitching — 'obviously you haven't been working for a year, so I assume money is going to be a bit of an issue for you' — and quoted the price up front to avoid raising expectations he could not meet. When the prospect said he was willing, the rep proceeded with the full presentation, then offered a 2 x $3,000 split and finally reduced the amount needed today to a $1,200 minimum so the onboarding call could be booked while crypto was liquidated for the balance.",
+      "response_tactic": "pre_qualify_on_price_then_reduce_entry_amount",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Do I have to pay today, or do I have up until the onboarding call to make the first payment?",
+      "timestamp": "00:36:52",
+      "rep_response": "Stated payment must precede onboarding — 'for me to onboard you and book in all the onboarding call, we have to take the first payment first' — then asked directly how much cash he had on hand and set $1,200 as the minimum to secure the booking.",
+      "response_tactic": "payment_before_onboarding_with_reduced_minimum",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 3, "price_usd": null, "note": "A three-month option exists and was mentioned but deliberately not priced or offered: 'Three months, like, I don't even want to offer it to you.'" },
+      { "months": 6, "price_usd": 6000 },
+      { "months": 12, "price_usd": 9000 }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "$3,000 down and $3,000 at two months, keeping the total at $6,000; or monthly at $1,200 per month against an effective $1,000 per month if paid up front. Improvised live at the close: a $1,200 minimum payment today to secure the onboarding booking, with the balance to follow once the prospect liquidates cryptocurrency. Prospect first offered $500 and the rep set the floor at $1,200.",
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": 500, "monthly_surplus_usd": null, "has_savings": false, "credit_score": null }
+  },
+  "outcome": {
+    "disposition": "closed",
+    "confidence": 0.85,
+    "close_rule_applied": "verbal_agreement_plus_link_sent",
+    "evidence": [
+      "Explicit agreement to proceed: 'It all sounds good to me, and I'm real excited to get working' and 'I'm kind of ready to rock and roll, ready to get working.'",
+      "Payment structure agreed — 'in terms of the payment, do you want to do the two payments? So it's 3k and then 3k?' / 'Yeah, that's probably what I'm gonna have to do'",
+      "Entry amount agreed at $1,200 today: 'To book in the onboarding call, the minimum I would have to do is $1,200. Do you have $1,200?' / 'Yeah, I could do that.'",
+      "Onboarding call agreed for Monday; rep began sending the payment link before the recording was stopped",
+      "Counter-evidence: no money has demonstrably changed hands — the recording cuts at 'Let me remove the note taker', the $1,200 depends on the prospect selling cryptocurrency and transferring it to his bank, and he asked whether he could pay after the call rather than during it",
+      "Counter-evidence on durability: the buyer has had no income for a year, holds roughly $30,000 in unpaid ambulance bills and stopped medically indicated physical therapy because he could not afford it"
+    ],
+    "cash_collected_usd": 6000,
+    "cash_collection_basis": "payment_plan_total",
+    "next_step": "Payment link sent for a $1,200 minimum today, balance to follow after the prospect liquidates crypto; onboarding call with Trevor booked for Monday; full protocols within 24-48 hours of that call. Rep also offered to stay in contact on WhatsApp."
+  },
+  "notable": {
+    "note": "The most serious call in this batch on every axis. A 24-year-old, eleven months after a head-on motorcycle collision that required brain surgery and roughly six operations, with unresolved tremors, shaking and memory impairment he is still trying to get diagnosed, load-provoked pain in four separate sites, and an inability to run, jump or crouch, was sold a six-month loaded kettlebell programme. He had stopped clinician-supervised physical therapy early because he could not afford it, and this purchase substitutes for it — a point he made himself: 'I was paying more than that to go do physical therapy.' No question was asked at any point about whether a doctor, surgeon or physiotherapist had cleared him for this training. The rep instead promised the outcome: 'making sure that your knees don't hurt anymore. Your ankles don't hurt anymore. Your back doesn't hurt anymore... everything's healing in the correct way.' Financially he has had no income for a year, holds about $30,000 in unpaid ambulance bills, and the close was funded by liquidating cryptocurrency after the rep asked how much cash he had on hand and set a $1,200 floor. He also disclosed memory impairment as a reason he might repeat himself. Fifth recording in the batch stopped at the payment step."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Poor throughout, and compounded by a genuinely unstable connection with repeated dropouts acknowledged by both parties. Labels invert continuously — the rep's questions at 00:02:00 and 00:11:33 sit under the prospect's label, and the entire methodology walkthrough from 00:23:00 to 00:24:00 runs as one merged block. Content is missing where the line dropped: the prospect's answer describing his one daily meal is lost between 00:05:01 and 00:05:35 ('The last thing I heard was the salmon pokeball'), and further exchanges are lost around 00:29:26 and 00:36:05. Numerous profanities appear redacted. The file ends with the rep removing the note taker at the payment step."
+  }
+}

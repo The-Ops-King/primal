@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-07-29_sean-feeney_richard-claessen",
+  "rep": "Richard Claessen",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "hit", "P1b": "partial", "P1c": "hit", "P1d": "hit" },
+      "evidence": "Read back the setter: 'I already heard a couple of things from Kim, but I would just love to hear everything from you'. Frame was three-part — 'where you're at, where you want to go, see if we fit' — missing 'what's in the way' and 'what you need'. Got agreement ('Sounds good?') and opened with 'what are you sort of hoping that we can potentially help you out with?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "partial", "P2c": "miss", "P2d": "hit", "P2e": "partial", "P2f": "partial", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Age 23 was volunteered by the prospect, never asked; height and weight never asked at all. Work covered only as schedule ('you're at home four times a week, right?'). No health-conditions question — a serious omission given what was disclosed. Injuries probed well: 'what are like the main things, what are sort of the points that you feel like it hurts the most for you?'. Diet asked directly plus frequency of eating out. Sleep never asked; energy only reflected back after the prospect volunteered 'I struggle with low energy'."
+    },
+    "P3": {
+      "score": "hit",
+      "checks": { "P3a": "miss", "P3b": "hit", "P3c": "partial", "P3d": "partial", "P3e": "hit", "P3f": "partial", "P3g": "hit", "P3h": "hit" },
+      "evidence": "Strong deep-goal work. Future-pace run properly: 'Six months from now, you don't feel that back pain... how would that feel at that point?'. Drove to identity and legacy — the prospect reached his father and his son unprompted, and the rep reflected it back cleanly: 'it sounds like you just want to be a good dad, first of all for Milo'. But the wife impact was asserted rather than asked ('I guess your wife would also be happy with it'), and the one-thing-you-would-change aesthetic question never ran."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "partial", "P4b": "partial", "P4c": "hit", "P4d": "hit", "P4e": "hit", "P4f": "miss" },
+      "evidence": "Asked 'how long have you sort of wanted to get to these goals?' and 'why do you feel like now is the time for you to look into that direction instead of sort of trying it out yourself?'. Prospect named the gap himself — 'getting up and going to the gym is kinda where I fall through'. Never ran the root-cause line 'the information isn't the problem — why can't you stick to it on your own?'"
+    },
+    "P5": {
+      "score": "partial",
+      "checks": { "P5a": "hit", "P5b": "partial", "P5c": "partial", "P5d": "miss" },
+      "evidence": "Two-year consequence frame run in full: 'let's say two years from now you're 25, your son is 2, and you're still feeling the same pain... what would you think at that point?' — produced the strongest material in the call. But 'is that something you're willing to settle for?' was delivered as an explanation after the fact ('the reason I asked that was really to see if you would be willing to settle') rather than as a question, and no line-in-the-sand ask."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "miss", "P6b": "miss", "P6c": "partial" },
+      "evidence": "No belief question and no 'if you had everything you needed, is there any reason you wouldn't go all in?' before presenting. The only commitment ask was a thin 'Ready to get started?' at 00:29:54 answered 'Yeah', then straight into price. Hesitation surfaced immediately on price and the rep did not return to Phase 5 — he moved to a cheaper product instead."
+    },
+    "P11": {
+      "score": "not_applicable",
+      "checks": { "P11a": "not_applicable", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "Close attempted but no agreement reached, so payment and onboarding were never reachable. Call ended on a two-week decision window."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "Isolated correctly ('do you feel like if you had the money, you would do it?') and ran two of the six financial-picture questions — monthly surplus after bills ($400-500) and money set aside. Never asked about credit cards, available credit, used vs available, or investments. Critically, the 'most clients pay upfront, but for some we break it up' move was never applied to the $6,000 offer at all — instead the rep left the offer entirely and sold a different, cheaper product."
+    },
+    {
+      "play": "OD",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "Prospect raised timing in substance — 'I wouldn't be able to figure it out today' and needing a month for budget changes to clear. None of the OD moves ran: no 'things never slow down', no 'the longer you wait the harder this gets', no 'what if all you had to do was show up'. The rep accepted the delay and set a follow-up."
+    },
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'I'd have to go through my budget' is a think-about-it in substance. The rep ran only the accountability fragment — 'you have to make a decision... so when can you make a decision for yourself?' and assigned homework. None of 'do you feel what we've gone through CAN get you to your goal', 'thinking isn't the problem, deciding is', or the identity close."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "SCRIPT GAP: the prospect disclosed unassessed bilateral hip and shoulder injuries with a physical therapy appointment six weeks away. There is no scripted path for a prospect who is mid-diagnosis. The rep improvised reassurance — 'it's not like with your hips, your shoulders, you wouldn't be able to do it' — with no clearance question. The playbook has no clinical screen at all."
+    }
+  ],
+  "notes": "Excellent Phase 3 and Phase 5 work — the Milo/legacy thread was genuinely well built. The call collapses at Phase 2 (no age, height, weight, health conditions or sleep asked) and Phase 6 (no real commitment check before price), which is why the price reaction was a surprise. Coach on holding the $6,000 frame and running OC to the end before reaching for a cheaper product."
+}

@@ -1,0 +1,144 @@
+{
+  "call_id": "2026-05-04_eliab-alvarez-de-la-campa_harry-edmonds",
+  "source": {
+    "drive_file_id": "1eNcvPS1Y4s12tM533BSanpnrZlS1srh4",
+    "drive_folder": "Harry Edmonds",
+    "original_title": "05/04/2026 - Eliab Alvarez de la Campa x Harry Edmonds ",
+    "display_title": "05/04/2026 - Eliab Alvarez de la Campa x Harry Edmonds  — Follow Up",
+    "file_size_bytes": 41434
+  },
+  "call": {
+    "date": "2026-05-04",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 41,
+    "prospect_named_in_title": true,
+    "prospect_name_recovered_from_transcript": false
+  },
+  "rep": { "name": "Harry Edmonds", "role": "closer", "location": "London, UK" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "medium",
+    "evidence": "No setter suffix in the title and no setter named on the call. The rep does appear to hold an application — 'he said you were 59?' — so some prior intake existed, but no setter is identified."
+  },
+  "prospect": {
+    "name": "Eliab Alvarez de la Campa",
+    "aka": null,
+    "name_source": "title",
+    "location": "United States, Eastern time zone. Plans to relocate to Puerto Rico with his partner within three to five years.",
+    "age": 59,
+    "occupation": "Owns a pawn shop with his brother. Also a certified yoga teacher.",
+    "family_status": "Lives with a long-term partner he refers to as 'my lady', who is also a certified yoga teacher and runs it as a side gig; they keep a wellness room at home",
+    "height_in": null,
+    "weight_lb": null,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Cuban-American, lifelong fitness mindset. Runs, hikes, rucks with a weighted vest, kayaks, cycles, practises yoga two to three times a week, owns a home gym with a Concept2 rower, pull-up bar and dip station. Has done CrossFit, P90X, wrestling and Spartan races — took second in his age category in a 21K Spartan Beast on one day's notice — and ran a marathon alone off his own bat. Used kettlebells at CrossFit about five years ago with 35, 42 and 55 lb bells, never doubles. Does not drink, smoke or use recreational drugs. VO2 max described as elite for his age. Has had a Function blood panel (126 biomarkers), a DEXA scan and resting metabolic rate testing, and is using an AI assistant to build supplement and nutrition protocols from the data.",
+    "medical": "Reports repairing a torn rotator cuff over roughly the last 20 months — 'I've been repairing a torn rotator cuff, it's been, what, 20 months now'. Raised incidentally while discussing how his accountant might categorise the expense, not as a health disclosure, and never followed up by the rep. Deliberately gained weight in December as a baseline experiment — waist 36.5 inches on 1 January against a lifetime maximum of 34 — now down to 33.5 with a target of 32. Some blood biomarkers he is actively working to correct. No other conditions disclosed and none were asked about."
+  },
+  "avatar": {
+    "assigned": "the_optimizer",
+    "confidence": 0.8,
+    "signals": [
+      "Already objectively fit and framing the purchase as going further, not catching up — the rep named it and he agreed: 'it's really going from good to great for you'",
+      "Buys measurement and optimisation as a category — Function panel, DEXA, VO2 max, RMR, supplement protocols — so a $6,000 coaching fee is inside an existing spending pattern",
+      "Explicitly frames it as a discretionary midlife investment: 'a lot of men right around my age, they buy the red sports car... my red sports car, as it were, is me really diving into really becoming as fit as possible'",
+      "Price registered as a surprise rather than a barrier: 'I didn't think it was going to be that much', immediately followed by 'I'm very very much leaning towards yes'",
+      "Partial overlap with the_preserver — 59, highly health-literate, and his stated number one is 'to continue moving youthfully for as long as possible', which is holding function rather than gaining. He is not liquidity-constrained though, and he wants another level rather than maintenance, so optimizer is the better fit"
+    ]
+  },
+  "goals": [
+    { "text": "Continue moving youthfully for as long as possible — the stated number one priority, modelled on his father doing 25 strict pull-ups and running 17 miles at 70", "category": "longevity_function" },
+    { "text": "Become as fit as possible and quantifiably so, taking an already good baseline to another level", "category": "other" },
+    { "text": "Find a more efficient training protocol — 'as much experience as I have working out, I just don't think I'm doing the right protocol'", "category": "other" },
+    { "text": "Get his waist back to about 32 inches from the current 33.5", "category": "appearance" },
+    { "text": "Keep doing the physical activities he most loves, and keep outpacing men half his age in the park", "category": "hobby_performance" },
+    { "text": "Consolidate to a minimal home gym — kettlebells, rower, pull-up bar, bodyweight — ahead of moving to Puerto Rico", "category": "convenience" },
+    { "text": "Be of greater service to his partner, family, friends and community by being in better shape himself", "category": "family_role_model" }
+  ],
+  "pains": [
+    { "text": "Believes his current programming is inefficient despite decades of experience — 'I just don't think I'm doing the right protocol'", "category": "program_fit", "severity": "high" },
+    { "text": "Has cycled through many methods, several of them gimmicky, chasing maximum fitness — CrossFit, P90X, Spartan, marathons", "category": "fragmented_solutions", "severity": "medium" },
+    { "text": "Repairing a torn rotator cuff over roughly 20 months", "category": "injury", "severity": "high" },
+    { "text": "Deliberately let himself go in December and reached a waist of 36.5 inches, above any previous level", "category": "other", "severity": "low" },
+    { "text": "Some blood biomarkers not yet where he wants them, driving a three-month retest cycle", "category": "medical", "severity": "low" },
+    { "text": "Uncertain whether his goals are realistic in the timeframe being sold — 'Maybe I'm being unrealistic. Maybe it's not achievable in six months.'", "category": "competence_anxiety", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "icp_mismatch",
+      "raw_quote": "So I'm 59. Uh, and I noticed that right away, you know, in one of the videos, he was like, if you're between 30 and 45, and then I wonder, Hmm, I wonder how many guys they have doing this protocol. That's a 59.",
+      "timestamp": "00:00:44",
+      "rep_response": "Never addressed. The rep responded by comparing him to Brian Johnson and moved on. At no point in 41 minutes did he say whether the programme has clients in their late fifties or sixties, or how it is adapted for them.",
+      "response_tactic": "not_addressed",
+      "resolved": false
+    },
+    {
+      "type": "other",
+      "raw_quote": "oftentimes people will say, oh, I want to achieve this in six months, and it's completely unrealistic... that is one thing that I would definitely seek, is more clarity with regards to my goal. Is it reasonable? Is it a reasonable goal within a reasonable timeframe?",
+      "timestamp": "00:20:27",
+      "rep_response": "Not answered. The rep agreed with the sentiment, shared his own philosophy of health and an anecdote about his girlfriend's 36-hour fast, then moved to next steps and price. Proposed label: realistic_timeline_calibration.",
+      "response_tactic": "not_addressed",
+      "resolved": false
+    },
+    {
+      "type": "price",
+      "raw_quote": "to be completely honest with you i didn't think it was going to be that much",
+      "timestamp": "00:30:20",
+      "rep_response": "Did not isolate or explore. Answered with accepted payment methods, then later volunteered a business tax write-off framing and mentioned third-party financing as a fallback: 'we have some third parties as well, where you can break it down.'",
+      "response_tactic": "payment_methods_plus_tax_writeoff",
+      "resolved": false
+    },
+    {
+      "type": "spouse_consult",
+      "raw_quote": "i just need to confirm with my lady that it's cool yeah you know it's usually extremely supportive so i can't imagine that she would say no but nevertheless i got to go through that step first",
+      "timestamp": "00:30:30",
+      "rep_response": "Accommodated it entirely — 'that's all good' — and moved to scheduling logistics. None of the OB moves ran and no deposit was offered, despite the rep using a deposit hold on two other calls the same week.",
+      "response_tactic": "none_ran",
+      "resolved": false
+    },
+    {
+      "type": "think_about_it",
+      "raw_quote": "so i'm i'm very very much leaning towards yes but i want like a day to think about it",
+      "timestamp": "00:30:20",
+      "rep_response": "Accepted, and helpfully compressed it himself — the prospect volunteered he would decide within about ninety minutes and text the answer. The rep confirmed his own availability windows and agreed to a text decision.",
+      "response_tactic": "accept_and_agree_channel",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": "Preference stated for full payment up front on a credit card so the expense can be claimed against tax; if that is a concern, 'we have some third parties as well, where you can break it down'. Accepted methods given as Visa, Mastercard, Amex and crypto; wire transfer explicitly not accepted. Prospect said he would pay in full: 'You just do it up front... I'm a passion carry guy.'",
+    "guarantee_mentioned": null,
+    "prospect_financials": null
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.92,
+    "close_rule_applied": null,
+    "evidence": [
+      "Explicit near-yes with a stated condition: 'I'm very very much leaning towards yes but I want like a day to think about it... I just need to confirm with my lady that it's cool'",
+      "He compressed his own timeline to roughly ninety minutes — 'it's 11.41 a.m. my time now, I should be able to get back to you by one' — and agreed to text the decision",
+      "Payment intent stated as full up front on a credit card",
+      "No payment taken, no payment link sent, no deposit requested, and the onboarding call was scoped but not booked — a 7:15pm Tuesday slot was identified only under 'assuming I go with it'",
+      "Counter-evidence on strength of intent: two of his stated concerns were never answered — whether the programme suits a 59-year-old when the marketing names 30 to 45, and whether his goal is realistic in six months"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to confirm with his partner and text his decision within about ninety minutes; if yes, onboarding call with Trevor as early as the following evening at 7:15pm Eastern."
+  },
+  "notable": {
+    "note": "Second call in this batch where the rep coached a business-owning prospect on categorising a personal fitness purchase as a deductible business expense — and here it is explicitly systematic: 'I'd say probably 60% of our clients are business owners, so every single time I'm like, dude, speak to your accountant'. Two other things a principal would want. The prospect opened the call by naming an ICP mismatch — the marketing says 30 to 45, he is 59 — and it was never answered in 41 minutes. And his only material health disclosure, a torn rotator cuff he has been repairing for 20 months, surfaced inside the tax-framing conversation and drew no response at all, on a call where the rep had already described a circuit of 'swings into snatches'. Useful business figures were also disclosed: 'Trevor's coached over 1,200 people. I probably enrolled 300 of them.'"
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Persistent inversion throughout. The opening line 'United States. Nice. You've got a very Latino last name' is split across both labels; the rep's entire methodology walkthrough at 00:12:08 sits under the prospect's label; 'It's real good. It's Mediterranean style diet' at 00:07:35 is the prospect's but 'I would say that my nutrition is pretty good' at 00:08:32 is attributed to the rep. The passage from 00:29:56 to 00:31:05 runs as one unpunctuated block containing the price, the payment-methods question, the near-yes and the partner condition. Attribution note on the rotator cuff at 00:32:00: the line appears inside a rep-labelled block, but the surrounding reasoning — 'so I suppose I can, he can probably tie it into that somehow' about his own accountant — makes sense only from the prospect, so it is recorded as the prospect's disclosure. The rep's own scoliosis disclosure at 00:22:43 is correctly labelled and matches his identical disclosure on the Parker Stratton call."
+  }
+}

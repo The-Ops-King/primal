@@ -1,0 +1,116 @@
+{
+  "call_id": "2026-06-22_adene_richard-claessen",
+  "source": {
+    "drive_file_id": "1rJCgEwrczQWzbW-mgZ6rU_GuqvZNJ8M8",
+    "drive_folder": "Richard Claessen",
+    "original_title": "06/22/2026 - Impromptu Zoom Meeting",
+    "display_title": "06/22/2026 - Impromptu Zoom Meeting — Lost",
+    "file_size_bytes": 45317
+  },
+  "call": {
+    "date": "2026-06-22",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": "First call, though it was rescheduled — 'You should get a message from the number that I sent you a message on earlier to reschedule'.",
+    "duration_min_est": 47,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Bulgaria" },
+  "setter": { "code": null, "name": null, "confidence": "low", "evidence": null },
+  "prospect": {
+    "name": "Adene",
+    "aka": "AD; iPhone - AD",
+    "name_source": "transcript",
+    "location": "Boston, Massachusetts, USA",
+    "age": 35,
+    "occupation": null,
+    "family_status": null,
+    "height_in": 71,
+    "weight_lb": 195,
+    "bodyfat_pct_self_reported": null,
+    "training_background": "Plays competitive basketball and would be interested in going pro. Trains in the gym frequently with weights and considers himself strong. Has tried the Knees Over Toes programme and self-sourced online lifting routines, both of which helped. Tracks calories, protein, carbs and fats and eats around 230g protein a day. No kettlebell experience at all.",
+    "kettlebell_experience": "none",
+    "medical": "Four to five years of post-basketball soreness in the knees, back and feet, distinguished by the prospect from normal training soreness — 'it's pain soreness, like not good pain'. Explicitly reports it has been getting worse over time. Self-rates flexibility as mid-range. No diagnosis, no clinician mentioned, and no medical evaluation appears to have taken place."
+  },
+  "avatar": {
+    "assigned": "skeptical_bargain_hunter",
+    "confidence": 0.75,
+    "signals": [
+      "Anchored to cheap programmes that worked: 'the previous programs I've paid was like 50, tops like 100. I'm willing to go up to like 150, maybe a little more'",
+      "Self-directed and already succeeding with free and low-cost solutions: 'I know there's, like, knees over toes, those work on, like, your knee tendons... which has been working. And, um, I'll do, like, my own lifting workouts that I've seen online that has worked'",
+      "Frames the purchase as trialling another method rather than solving a crisis: 'me, I like to try different stuff, so I wanna see, like, what works best'",
+      "Bought the cheapest available option on the call and completed payment immediately once the price fell into his stated range"
+    ]
+  },
+  "goals": [
+    { "text": "Get stronger and gain muscle to around 200-205 lb while keeping basketball conditioning", "category": "muscle_gain" },
+    { "text": "Stop the pain-type soreness in his knees, back and feet after basketball games", "category": "injury_prevention" },
+    { "text": "Be able to train hard on consecutive days instead of losing the next day to recovery", "category": "hobby_performance" },
+    { "text": "Improve flexibility from a self-rated mid-range level", "category": "mobility" },
+    { "text": "Learn correct kettlebell form and movement variety from scratch", "category": "injury_confidence" }
+  ],
+  "pains": [
+    { "text": "Four to five years of worsening pain-type soreness in knees, back and feet after basketball", "category": "injury", "severity": "high" },
+    { "text": "The soreness costs him the following day's training — 'I need to rest up and then I can't push myself as hard'", "category": "training_barrier", "severity": "high" },
+    { "text": "Believes the soreness is the specific thing blocking him from progressing as a player", "category": "hobby_performance", "severity": "high" },
+    { "text": "Gym lifting develops movement patterns that do not match how basketball is actually played", "category": "program_fit", "severity": "medium" },
+    { "text": "No kettlebell experience and no idea what correct form looks like", "category": "competence_anxiety", "severity": "medium" },
+    { "text": "$6,000 is well outside his budget", "category": "other", "severity": "high" }
+  ],
+  "objections": [
+    {
+      "type": "price",
+      "raw_quote": "I didn't know that's a little pricey. Do you have different packages? Is there a more affordable package? Because I'm still interested.",
+      "timestamp": "00:28:03",
+      "rep_response": "Asked for his budget rather than defending the price, declined to enumerate options ('I think I can mention every single thing, right? But that we're talking for like the next 40 minutes'), then offered Primal University at $200/month once the $150 budget was disclosed.",
+      "response_tactic": "budget_elicitation_then_downsell",
+      "resolved": true
+    },
+    {
+      "type": "affordability",
+      "raw_quote": "Definitely 6K is definitely too much for me. Do you have more affordable options?",
+      "timestamp": "00:28:38",
+      "rep_response": "Confirmed the ceiling was $150/month and moved directly to the cheaper product; no isolation question and no financial picture taken.",
+      "response_tactic": "accept_and_downsell",
+      "resolved": true
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [
+      { "months": 6, "price_usd": 6000 },
+      { "months": 1, "price_usd": 200, "note": "Primal University quoted by the rep as '200 a month... or 2000 for a year'. The actual checkout price the prospect read aloud was $199 a month." }
+    ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": false,
+    "payment_plan_structured_live": false,
+    "payment_plan_terms": null,
+    "guarantee_mentioned": null,
+    "prospect_financials": { "available_now_usd": null, "monthly_surplus_usd": null, "has_savings": null, "credit_score": null, "stated_monthly_ceiling_usd": 150 }
+  },
+  "outcome": {
+    "disposition": "lost",
+    "confidence": 0.7,
+    "close_rule_applied": null,
+    "evidence": [
+      "The $6,000 offer was refused outright and twice on affordability: 'I just think 6K probably is out of my budget, definitely right now' and 'Definitely 6K is definitely too much for me.'",
+      "He named a ceiling of $150/month against an effective $1,000/month — 'the previous programs I've paid was like 50, tops like 100. I'm willing to go up to like 150, maybe a little more.'",
+      "Counter-evidence, and the reason confidence is only 0.7: he did buy. He completed payment on the call for Primal University at $199/month — 'I just put in my card information' and 'Okay, I think the payment went through', confirmed by the rep: 'Because I saw indeed that the payment went through.'",
+      "Disposition is recorded as lost because the coaching programme this corpus measures — $6,000/6mo or $9,000/12mo — was declined. The paid downsell is recorded in cash_collected_usd so it is not erased, but it should not enter a close-rate numerator for the one-to-one offer.",
+      "No follow-up on the one-to-one was booked; the rep said only 'we just catch up in a couple of weeks from now, see how everything is going.'"
+    ],
+    "cash_collected_usd": 199,
+    "cash_collection_basis": "primal_university_monthly_downsell",
+    "next_step": "Prospect enrolled in Primal University and was walked through the Skool classroom on a screen share; rep advised starting with the foundations module and tracking workouts in a Google Sheet; informal catch-up in a couple of weeks."
+  },
+  "notable": {
+    "note": "Two things. First, he asked directly — 'Do you have different packages? Is there a more affordable package?' — and the rep declined to enumerate, saying it would take forty minutes, then offered only Primal University. Three days earlier the same rep had invented a $4,000 three-month tier on the spot for a different prospect who queried the price. A prospect who explicitly asked for a middle option was not shown one. Second, this is a 35-year-old with four to five years of worsening knee, back and foot pain that he distinguishes himself from normal training soreness, who has apparently never had it looked at, and who was sold a self-directed programme with no suggestion that a clinician should assess it."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Heavy inversion throughout, including long merged blocks where both speakers appear under one label — the 00:03:59-00:05:00 stretch containing age, height and weight runs continuously under 'iPhone - AD' but contains all of the rep's questions. The pricing exchange at 00:27:51-00:29:31 is also partly inverted. All roles resolved from content."
+  }
+}

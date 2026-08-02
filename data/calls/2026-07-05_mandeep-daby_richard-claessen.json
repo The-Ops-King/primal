@@ -1,0 +1,133 @@
+{
+  "call_id": "2026-07-05_mandeep-daby_richard-claessen",
+  "source": {
+    "drive_file_id": "1S2h_cBL4ht9UWE3NN_7w5Vs_TLHWAJGk",
+    "drive_folder": "Richard Claessen",
+    "original_title": "07/05/2026 - Impromptu Zoom Meeting",
+    "display_title": "07/05/2026 - Impromptu Zoom Meeting — Follow Up",
+    "file_size_bytes": 68162
+  },
+  "call": {
+    "date": "2026-07-05",
+    "stage": "closer",
+    "sequence_position": 1,
+    "sequence_note": null,
+    "duration_min_est": 62,
+    "prospect_named_in_title": false,
+    "prospect_name_recovered_from_transcript": true
+  },
+  "rep": { "name": "Richard Claessen", "role": "closer", "location": "Europe" },
+  "setter": {
+    "code": null,
+    "name": null,
+    "confidence": "low",
+    "evidence": null
+  },
+  "prospect": {
+    "name": "Mandeep Daby",
+    "aka": null,
+    "name_source": "transcript",
+    "location": "Mauritius",
+    "age": 32,
+    "occupation": "Dentist and dental clinic owner",
+    "family_status": "Not married, no children; has a partner and plans to propose in the next two to three years; has brothers",
+    "height_in": null,
+    "weight_lb": 154,
+    "bodyfat_pct_self_reported": 24,
+    "training_background": "Trains at home; kettlebell workouts roughly three times a week after finding Trevor's Instagram channel; daily yoga; boxing at times. Was around 10% body fat in 2024 working with a dietitian.",
+    "kettlebell_experience": "some",
+    "medical": "Intermittent lower back aches attributed to dentistry work; says daily yoga improves it. Dietary restrictions (no beef, pork or squid). No other conditions disclosed."
+  },
+  "avatar": {
+    "assigned": "the_rebuilder",
+    "confidence": 0.65,
+    "signals": [
+      "Was 10% body fat in 2024 and is now self-reported 24%; explicitly wants that former state back",
+      "Attributes the loss of ground to a hard work season — 'I've been so swamped with work, so I didn't really get the chance'",
+      "Also carries optimizer signals (trains daily, confident, business owner), but price was a hard barrier which is atypical for the optimizer"
+    ]
+  },
+  "goals": [
+    { "text": "Get back to roughly 10% body fat from a self-reported 24%", "category": "fat_loss" },
+    { "text": "Gain five to ten pounds of muscle and look 'jacked' with a six pack", "category": "muscle_gain" },
+    { "text": "Recover the energy he had at 10% body fat and stop feeling sluggish after lunch, including at work", "category": "energy_performance" },
+    { "text": "Have a structured, trackable system he can actually stay on rather than ad hoc workouts", "category": "consistency" },
+    { "text": "Keep moving well and age well — maintain mobility and function as he gets older", "category": "longevity_function" },
+    { "text": "Look good for his wedding day and for the partner he plans to propose to", "category": "appearance" },
+    { "text": "Show his brothers the programme works so they join too", "category": "family_role_model" },
+    { "text": "Train functionally rather than 'mechanical' gym bodybuilding that does not carry into real life", "category": "other" }
+  ],
+  "pains": [
+    { "text": "Self-describes as 'skinny fat' at 24% body fat after being at 10% two years ago; fat stored around the stomach", "category": "training_dissatisfaction", "severity": "medium" },
+    { "text": "Sluggish in the afternoons after lunch; rates his low-energy level a six or seven out of ten", "category": "other", "severity": "medium" },
+    { "text": "Has kettlebells and trains, but has no structure, programme or way to track progress", "category": "program_fit", "severity": "high" },
+    { "text": "Fell off training and diet for several months when work got busy; calls it a mental/priority problem rather than a real impossibility", "category": "consistency", "severity": "high" },
+    { "text": "Eats out frequently — fried noodles, fried rice, biryani — heavy on oil and salt, and protein is around 100g which he concedes is low", "category": "nutrition_habit", "severity": "medium" },
+    { "text": "Lower back aches from the postures of dentistry, currently managed with daily yoga", "category": "injury", "severity": "low" },
+    { "text": "Tends to slip back into old habits without someone holding him to it", "category": "accountability_gap", "severity": "medium" }
+  ],
+  "objections": [
+    {
+      "type": "affordability",
+      "raw_quote": "It's manageable, but I need some time to arrange.",
+      "timestamp": "00:39:19",
+      "rep_response": "Isolated the objection ('sounds like if you would have the money at the moment, you would just want to do it'), confirmed it was a lump-sum problem, then opened a live payment-plan negotiation.",
+      "response_tactic": "isolate_then_structure_payment_plan",
+      "resolved": false
+    },
+    {
+      "type": "timing_cashflow",
+      "raw_quote": "Oh, like, see, if I do it now, it will cripple the clinic financially.",
+      "timestamp": "00:44:42",
+      "rep_response": "Kept walking the number down — 12 instalments refused, six at $1,200 refused, then a $500 deposit, then 'it can be 50' — and asked whether he had a rainy-day fund he could touch.",
+      "response_tactic": "walk_down_the_deposit",
+      "resolved": false
+    },
+    {
+      "type": "timing_other",
+      "raw_quote": "Give me, like, annals a week and what we can do. How about that?",
+      "timestamp": "00:54:13",
+      "rep_response": "Refused twice ('The reason I'm saying no to that is I know that you're committed to yourself') and pressed for any card payment to lock commitment, then eventually conceded to a Thursday check-in.",
+      "response_tactic": "commitment_deposit_pressure",
+      "resolved": false
+    }
+  ],
+  "offer": {
+    "presented": true,
+    "presented_on_prior_call": false,
+    "tiers": [ { "months": 6, "price_usd": 6000 } ],
+    "recommended_tier_months": 6,
+    "payment_plan_offered": true,
+    "payment_plan_structured_live": true,
+    "payment_plan_terms": "Rep quoted six monthly payments of $1,200 (a $7,200 total) and described the split as costing '200 a month' extra; said in-house maximum is five, sometimes six payments; said third-party financing exists but only accepts US credit scores; said the minimum to start coaching is one $1,200 payment; then improvised a $500 deposit to hold the place, and when the card declined asked for $200, then $100, then 'it can be 50'.",
+    "guarantee_mentioned": null,
+    "prospect_financials": {
+      "available_now_usd": null,
+      "monthly_surplus_usd": 600,
+      "has_savings": true,
+      "credit_score": null
+    }
+  },
+  "outcome": {
+    "disposition": "follow_up",
+    "confidence": 0.93,
+    "close_rule_applied": null,
+    "evidence": [
+      "Prospect verbally agreed to the plan in principle — 'I'm already sold on the plan. For me, it's just like a thing of making it possible now'",
+      "Counter-evidence: the $500 deposit was declined on the card — 'it's saying like I don't have enough credit on that'",
+      "No payment collected, no Trevor onboarding call booked, no agreement signed",
+      "Call ended on a check-in arrangement: 'I will check in with you on Friday, but I expect a message on Thursday from you'"
+    ],
+    "cash_collected_usd": 0,
+    "cash_collection_basis": null,
+    "next_step": "Prospect to move cash from his clinic/company account into his personal account and message Richard by Thursday; Richard to check in Friday; a $500 deposit then $700 to reach the $1,200 minimum needed to start coaching."
+  },
+  "notable": {
+    "note": "The whole back third of the call is an improvised payment-plan negotiation that produced a plan totalling $7,200 rather than $6,000, an invented $500 deposit, and — after the card declined — repeated requests for progressively smaller amounts from a prospect who had just said paying now would 'cripple the clinic financially'. He is a strong-fit prospect on profile who could not clear a $500 charge."
+  },
+  "quality": {
+    "diarization_reliability": "low",
+    "speaker_label_swaps_detected": true,
+    "notes": "Frequent inversions throughout — long stretches of rep questioning appear under the Mandeep Daby label (e.g. 00:01:54, 00:04:46, 00:30:19, 00:53:59) and prospect answers appear under the Richard Claessen label. Role was read from content throughout."
+  }
+}

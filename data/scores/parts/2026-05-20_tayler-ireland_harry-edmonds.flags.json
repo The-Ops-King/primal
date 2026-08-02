@@ -1,0 +1,39 @@
+{
+  "call_id": "2026-05-20_tayler-ireland_harry-edmonds",
+  "flags": [
+    {
+      "category": "compliance",
+      "severity": "medium",
+      "summary": "Rep prescribed specific daily exercise and made unqualified assertions about pain resolution to a prospect with a year of intermittent lower-back pain who sometimes cannot stand up without rolling onto his side, without suggesting any clinical assessment.",
+      "evidence": [
+        "sometimes I'll lay on the couch for a minute and then when I get up, there's like a pinch in my lower back... sometimes I can't really like stand up right away, I gotta like be careful and like roll on the side",
+        "it's pretty on and off but it's been a thing for let's say over a year",
+        "I would say do something when you get up in the morning, create a habit, do 20 pushups, do it every day, no matter what, or do sit in a deep squat, do some squats. I'll help you with your back",
+        "You have the potential to have no pain. You have the capability to have no pain."
+      ],
+      "timestamp": "00:22:22"
+    },
+    {
+      "category": "pricing_deviation",
+      "severity": "low",
+      "summary": "Price was quoted to a Canadian prospect as 'eight grand Canadian' and then repeated twice in that form, so the number anchored was 8,000 rather than the list 6,000; this is an FX approximation rather than a discount or an invented tier.",
+      "evidence": [
+        "the coaching for six months is, I don't know what it would be in Canadian, but it's six grand US. So that's probably like what, eight, eight grand Canadian.",
+        "The results are worth eight grand.",
+        "if you're not ready to commit to it, you're going to waste eight grand"
+      ],
+      "timestamp": "00:22:00"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "low",
+      "summary": "The prospect is labelled only as 'Zoom user' and is never named in the transcript, and the decision moment is split across speaker labels, so both the prospect identity and the outcome depend on the file title and on content inference rather than on the transcript's own attribution.",
+      "evidence": [
+        "00:00:35 - Zoom user: I can't hear you now.",
+        "00:18:09 - Zoom user: Yeah, I mean, I think I'm going to go with a no.",
+        "00:18:14 - Harry Edmonds (Primal Instinct): I'm sitting here hesitating too much. And you don't even what it is, and you don't even know how much it costs, dude."
+      ],
+      "timestamp": "00:18:09"
+    }
+  ]
+}

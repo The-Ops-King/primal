@@ -1,0 +1,58 @@
+{
+  "call_id": "2026-05-14_mike-sicoli_farooq-bey",
+  "flags": [
+    {
+      "category": "clinical_risk",
+      "severity": "high",
+      "summary": "Prospect disclosed four joint complaints including pain triggered specifically by overhead pressing and an MRI-documented knee problem, and was sold a loaded kettlebell programme without anyone asking whether a clinician had cleared him.",
+      "evidence": [
+        "I do have joint problems. terms. Interesting. I would say more like my shoulders and on my right knee.",
+        "So I can't do is like overhead. It tends to hurt when I use like any machines, when I'm doing triceps, when I'm doing pushups, it's fine. But yeah, when I do like, if I use a dumbbell for overhead presses for my triceps, then it just seems to hurt.",
+        "I went to x-rays, and they ended up telling me that my knee, I got MRIs as well, and my knees, the muscle, that I had around my knees, were actually diminished a lot",
+        "On the kettlebell side, man, it's just three to four times per week. . . . 30 minutes per session."
+      ],
+      "timestamp": "00:02:39"
+    },
+    {
+      "category": "compliance",
+      "severity": "high",
+      "summary": "The rep told a prospect with diagnosed joint pathology that the programme will eliminate his existing injuries, and offered his own ACL and MCL recovery as proof.",
+      "evidence": [
+        "you'll be in a position where you can do everything with precise form, which is going to get rid of any limitations or injuries that are existing and make yourself more durable",
+        "Blew up my two knees, ACL and MCL, right and left five years ago... So the algorithm naturally showed me Trevor, my knees are better than how they were before.",
+        "It's going to help you to get rid of any injuries or limitations in your body."
+      ],
+      "timestamp": "00:21:06"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The rep told this prospect that in-house payment plans exist, while on the same day telling another prospect that the only route to spreading payments was third-party financing carrying interest.",
+      "evidence": [
+        "If necessary, we in-house payment plan options. just splitting it into two or three as well.",
+        "The most popular option is just putting on a credit card because you can kind of, like, you're flexible with your own bank to choose how you're going to structure the payments."
+      ],
+      "timestamp": "00:31:44"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "The recording is terminated by the rep at the exact moment of the close, so the payment, agreement signature and onboarding steps are unverifiable from the corpus.",
+      "evidence": [
+        "Yeah, let's make you a sale today.",
+        "Okay, so I'm just gonna remove the notetaker firstly."
+      ],
+      "timestamp": "00:33:57"
+    },
+    {
+      "category": "conduct",
+      "severity": "low",
+      "summary": "The rep interrupted discovery to take an unrelated call about his own commission status, muting the prospect for roughly forty seconds mid-question.",
+      "evidence": [
+        "I'm just going to put myself on mute for a second, brother, okay? I was just calling to see if I was on the deal, but I just let him know.",
+        "it does not stop even, I can't even take 45 minutes to myself, it's crazy"
+      ],
+      "timestamp": "00:05:02"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "2026-06-19_vik-singh_richard-claessen",
+  "flags": [
+    {
+      "category": "pricing_deviation",
+      "severity": "high",
+      "summary": "A $4,000 three-month tier was invented live to explain away a lower price the prospect had seen online, and a $2,000 three-month renewal was then added on top of it — neither is $6,000/6mo or $9,000/12mo.",
+      "evidence": [
+        "Because I've seen online that people are saying it's different than what you're mentioning... They were saying it was like almost half of that.",
+        "Oh, that's probably for the three months, I guess. We can also do three months, that's for $4,000 from what I'm hearing you want.",
+        "We can also do the three months, that's 4k, and then we don't have that guarantee aspect. You can renew after that, and that would then be 2k."
+      ],
+      "timestamp": "00:46:42"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "The guarantee was presented as available on the six-month tier and withheld on the three-month tier, then a hybrid was improvised in which the prospect pays the three-month price now and 'still gets that guarantee' if he upgrades before July — terms invented on the call with no documented basis.",
+      "evidence": [
+        "that's where we can actually give that guarantee of if you put in all of the efforts, you don't slack off or anything, we will also continue working with you. We just cannot do that on three months.",
+        "what we do is we begin with the three months now, we just do the payment for that, and then in two weeks, of course, it's going to be the end of June. If you decide before the beginning of July, like, it's going so well, I love this, let's just make it six months, we just increase it to the six months, and then we still get that guarantee in.",
+        "Yeah, that's fine. That's not a big deal. Give it like two to three weeks in, that's fine."
+      ],
+      "timestamp": "00:55:10"
+    },
+    {
+      "category": "mis_selling",
+      "severity": "medium",
+      "summary": "The prospect explicitly asked for downside protection before paying $6,000 to someone he had not met and was refused on the grounds that discussing it invites problems, with follower count offered in its place.",
+      "evidence": [
+        "is there some sort of scenario where we can work out where, you know, I'm comfortable on that end. And obviously you guys are comfortable as well, too.",
+        "Not necessarily. The reason I'm saying that is then they're looking into problems, right? Trevor's coached over 1200 people. If we wouldn't know what we were doing, then we probably also wouldn't be sitting here because he has 1.2 million followers.",
+        "Or is it, you know, pay the money and suck it up? / Overall, I guess you can say it like that."
+      ],
+      "timestamp": "00:49:11"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Recording ends with payment deferred twice and unconfirmed, while the onboarding call was booked and Trevor was to be told payment was coming — so the disposition rests on a promise made off-recording.",
+      "evidence": [
+        "I'll take care of it a little bit within like an hour or so, but yeah, we'll get that done.",
+        "I would say let's just get it started so I can actually book the meeting with him, but it's up to you. / No, no, you can book the meeting. I'm not... It'll get done, don't worry.",
+        "So I can tell him that somewhere today the payment will also come in because otherwise he's going to cancel the meeting",
+        "Please don't ghost me, right?"
+      ],
+      "timestamp": "01:07:12"
+    },
+    {
+      "category": "compliance",
+      "severity": "low",
+      "summary": "Rep asked for the prospect's personal WhatsApp number and sent him personal before-and-after photographs of himself during the close sequence.",
+      "evidence": [
+        "do you actually uh do you have whatsapp on your number uh it's a different number can you send it to me huh can you send it here in the chat because i can send you a message on whatsapp as well then i will show you something",
+        "so i really never really share Because, well, it's your journey, not mine. But I do want to show you the result of why I'm actually working with this."
+      ],
+      "timestamp": "01:04:41"
+    }
+  ]
+}

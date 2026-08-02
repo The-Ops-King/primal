@@ -1,0 +1,69 @@
+{
+  "call_id": "2026-05-26_john-french_harry-edmonds",
+  "rep": "Harry Edmonds",
+  "disposition": "follow_up",
+  "phases": {
+    "P1": {
+      "score": "partial",
+      "checks": { "P1a": "not_applicable", "P1b": "partial", "P1c": "partial", "P1d": "hit" },
+      "evidence": "No setter on this call so nothing to read back. Frame was three-part, not four — 'I just want to get a good idea where you're at, build out what it is that you want. And then if there's alignment, we can talk about the coaching' — with 'what's in the way' omitted, which mattered later. Agreement was assumed ('All righty' / 'Cool') rather than asked for. Open question delivered cleanly: 'What were you hoping we could potentially help you with, man?'"
+    },
+    "P2": {
+      "score": "partial",
+      "checks": { "P2a": "miss", "P2b": "miss", "P2c": "miss", "P2d": "partial", "P2e": "partial", "P2f": "miss", "P2g": "hit", "P2h": "miss", "P2i": "miss" },
+      "evidence": "Diet asked directly ('What's your food like? Talk to me about that'). Mobility and injury probed obliquely — 'you said you don't want to get injured, right? What's kind of like your mobility like?' — which surfaced the shoulder and the foot surgery, but neither was followed up. Training was asked about ('Have you ever used kettlebells before, or is it new?') though frequency was volunteered. Age, height, work, health conditions, results to date, sleep and energy were never asked; weight (178) only came out inside a goal answer."
+    },
+    "P3": {
+      "score": "partial",
+      "checks": { "P3a": "partial", "P3b": "partial", "P3c": "miss", "P3d": "partial", "P3e": "hit", "P3f": "miss", "P3g": "partial", "P3h": "miss" },
+      "evidence": "Strong impact question — 'when you have the physique you want, you have the strength you want, like what changes at that point for you?' — which produced the energy, focus and productivity answer. The legacy layer was handed to him rather than elicited: 'I imagine there's a part of it that's like, well, when this baby comes, I want to be superhero rather than dad'. Never asked who else it impacts, never asked what he physically can't do, never reflected the deeper why back."
+    },
+    "P4": {
+      "score": "partial",
+      "checks": { "P4a": "miss", "P4b": "miss", "P4c": "miss", "P4d": "partial", "P4e": "hit", "P4f": "miss" },
+      "evidence": "One good question — 'What caused you to feel like you might need some coaching to get there?' — and the prospect named the gap himself: 'I don't really have like a good schedule, like a good build... I'm looking at coaching as kind of a schedule building, routine building.' But past attempts were never explored and P4f was never asked. Asking 'the information isn't the problem — why can't you stick to it on your own?' is precisely what would have pre-empted the free-resources objection that killed the call."
+    },
+    "P5": {
+      "score": "miss",
+      "checks": { "P5a": "miss", "P5b": "miss", "P5c": "miss", "P5d": "miss" },
+      "evidence": "No consequence frame at all. The prospect handed the rep the raw material — the dads whose knees crack, the shoulder that flares when he regresses, moving into a desk job — and none of it was turned into a cost of inaction. With no downside established, 'I can do it myself with free resources' had nothing pushing against it."
+    },
+    "P6": {
+      "score": "partial",
+      "checks": { "P6a": "partial", "P6b": "miss", "P6c": "miss" },
+      "evidence": "Asked a readiness question — 'Do you feel like you're ready to step into those shoes?' — which the prospect initially misread and, once clarified, answered 'Yeah, definitely.' The belief-in-structure question and the 'any reason you wouldn't go all in' question were never asked, and the rep moved to presentation on a soft yes; when hesitation surfaced later he did not return to Phase 5."
+    },
+    "P11": {
+      "score": "miss",
+      "checks": { "P11a": "miss", "P11b": "not_applicable", "P11c": "not_applicable", "P11d": "not_applicable" },
+      "evidence": "A close was attempted — both tiers priced, tier preference obtained ('six is probably fine') and the mechanics of onboarding described in advance. But the rep never asked for payment, never booked the Trevor call, never sent or referenced an agreement and never covered the welcome email or Skool link. After the tier selection he went to 'How do you feel about it all?' and then conceded on the first objection."
+    }
+  },
+  "objection_plays": [
+    {
+      "play": "OA",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I see the benefit. I just got to think about it' and 'I'll give it some thought'. Not one OA move ran — no 'do you feel what we've gone through CAN get you there', no 'thinking isn't the problem, deciding is', no 'that man you want to be, how does HE decide right now'. The rep answered with 'just do what you wanna do, man.'"
+    },
+    {
+      "play": "OB",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "'I have to talk with my wife to see if that's something.' The rep dismissed it as a smokescreen — 'it sounds like it's more of a thing for you rather than like the money or like speaking to your wife' — which is a plausible read but is not the play. No 'money aside, do you personally feel this CAN get you there', no 'what obstacles might come up when you talk to her', no 'is there any reason she would NOT want you stronger', no deposit-with-refund fallback."
+    },
+    {
+      "play": "OC",
+      "trigger_present": true,
+      "ran": "partial",
+      "detail": "'The price is pretty high' landed and the rep offered one non-scripted reframe — 'it depends really on what is more important and valuable to you at this moment, whether it's money or time'. He then answered the instalment question factually and volunteered a cheaper $4,000 three-month tier. None of the actual OC sequence ran: no 'finances aside, nothing else keeping you from 100%' isolation, no SHOULD-I vs HOW frame, no open-wallet permission question, and no financial picture at all."
+    },
+    {
+      "play": "none",
+      "trigger_present": true,
+      "ran": "miss",
+      "detail": "The core objection was 'a free alternative is already working for me' — the known script gap. He is following Trevor's own free content five days a week and getting results, so the product competes with its own marketing. There is no scripted path for this and the rep's improvisation was to agree with him: 'The truth is you can do it on your own. You can get the result.' Script gap, not solely a rep failure."
+    }
+  ],
+  "notes": "Clean philosophy and programme presentation — all three pillars delivered, the tracking and check-in mechanics explained well — but the diagnostic half of the call was skipped. No baseline, no past attempts, no consequence frame, and a commitment check on a soft yes. When the prospect said he could do it himself for free, the rep agreed with him twice and then let the call end on 'just do what you wanna do'. Volunteering an unadvertised $4,000 three-month tier after a price objection is the specific thing to correct."
+}

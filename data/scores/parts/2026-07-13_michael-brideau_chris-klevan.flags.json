@@ -1,0 +1,43 @@
+{
+  "call_id": "2026-07-13_michael-brideau_chris-klevan",
+  "flags": [
+    {
+      "category": "data_integrity",
+      "severity": "high",
+      "summary": "Sales management states that only about 5% of booked prospects can afford the offer and that a reviewed weekend of calls failed on affordability rather than execution, which means every close rate in this corpus is computed over a denominator management already considers overwhelmingly unqualified.",
+      "evidence": [
+        "there are definitely people that have bought this program just because they have 6K, they want to work with Trevor, and they really see him as, like, the level to get to... But it's, like, that's the 5% of prospects we get, you know?",
+        "even if you strong arm[ed], tried to, like, really, really take somebody over, like, get them to the point of closing... it would [have] taken, like, most of the last pennies these people had, except for one guy, and the one guy that would have been able to afford this was also not really a need for him",
+        "I did a deep dive on your calls before the calls this weekend, and there's really nothing coming up for me. I mean, I could nitpick little things, but it's not the thing that's standing in the way of you closing.",
+        "the marketing needs to be dialed in more. Like, Trevor does a great job of appealing to a wide audience, but because he's appealing to a wide audience, he's not appealing to a specific audience of his buyers"
+      ],
+      "timestamp": "00:03:39"
+    },
+    {
+      "category": "conduct",
+      "severity": "high",
+      "summary": "A closer disclosed to his manager that he was borrowing money from his mother and was unsure he could afford food for the month, and was kept on commission-only frontline calls; the same week he improvised discount tiers on three separate prospect calls.",
+      "evidence": [
+        "I've had to borrow money from mom the last [while], which I haven't had to do. I was basically paycheck to paycheck with this guy.",
+        "How tired are things right now? Can you not pay for food? ... Well, can you pay for food? — Like just, yeah. — Okay. To get you through the month? — Maybe. We'll see.",
+        "I need to be making money like yesterday",
+        "bare minimum to survive is like five... if I really, really, really had to, I would probably make 3k work, but that would be very tight",
+        "the only real advice I have for you is continue to keep managing your state, keep showing up exactly as you are, and the closes are going to come"
+      ],
+      "timestamp": "00:11:51"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Lead allocation between closers is actively reprioritised by management and was changed during this period, so per-rep close rates across this window are measured on unequal lead volume and quality.",
+      "evidence": [
+        "I moved you up in the priority.",
+        "Now that it matters because. You and Richard take completely opposite schedules, but I'm probably going to consolidate it down a little bit",
+        "if you're not seeing a massive return and you taking the late calls, then I don't see a reason to do it",
+        "I mean, Andrew's already closing at 30% on this offer",
+        "he took this whole weekend off and he's taking another weekend off"
+      ],
+      "timestamp": "00:05:50"
+    }
+  ]
+}

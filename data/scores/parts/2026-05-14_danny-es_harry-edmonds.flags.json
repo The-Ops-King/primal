@@ -1,0 +1,40 @@
+{
+  "call_id": "2026-05-14_danny-es_harry-edmonds",
+  "flags": [
+    {
+      "category": "mis_selling",
+      "severity": "high",
+      "summary": "Rep guaranteed a specific physical performance outcome — a 20 lb heavier kettlebell on every movement within six months — and prescribed a 35 lb starting bell to a 46-year-old who has never held a kettlebell, before any assessment.",
+      "evidence": [
+        "I forgot to say as well, we guarantee your results.",
+        "from your start in weight of a kettlebell, which will likely be 35 pounds, which is what we'll prescribe for the start in weight",
+        "you'll be using a 20-pound heavier kettlebell for every single movement",
+        "if for any reason you're not there, we will... Trevor will work with you until you are at that point. Yeah. So everything is, uh, guaranteed.",
+        "This is brand new to me. I've never used kettlebells."
+      ],
+      "timestamp": "00:13:11"
+    },
+    {
+      "category": "policy_contradiction",
+      "severity": "medium",
+      "summary": "The results guarantee was stated with a remedy on this call and with no remedy at all on the Moath Abdullah ALOBEID call the previous day, so prospects are being told materially different terms within 24 hours.",
+      "evidence": [
+        "we guarantee that, and if for any reason you're not there, we will... Trevor will work with you until you are at that point",
+        "So everything is, uh, guaranteed.",
+        "Like we guarantee you results. We guarantee you that in six months or in 12 months time, that you'll put on eight kilos"
+      ],
+      "timestamp": "00:13:45"
+    },
+    {
+      "category": "data_integrity",
+      "severity": "medium",
+      "summary": "Diarization inverts long blocks including the entire offer walkthrough and the price quote, so any automated attribution of who said what in this file will be wrong.",
+      "evidence": [
+        "00:07:54 - Danny: Everything's tailored around mobility, kettlebells and nutrition.",
+        "00:08:30 - Danny: How long are the workouts for usually? 30, 45 minutes.",
+        "00:14:09 - Danny: Well, what's the, what's the cost of this? What is it? A monthly fee, a yearly fee, or what is it? Yeah, we have two options, six months and 12 months. Um, the six months is 6K."
+      ],
+      "timestamp": "00:07:54"
+    }
+  ]
+}
